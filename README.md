@@ -12,15 +12,6 @@ El proyecto está construido con principios **KISS (Keep It Simple, Stupid)**, e
 - **JavaScript (ES6+)**: Lógica ligera para interactividad (menú móvil, acordeones, cambio de vistas) sin dependencias externas.
 - **PDF Assets**: CVs y documentos descargables optimizados.
 
-## 🚀 Despliegue (CD)
-
-El sitio utiliza **AWS Amplify** configurado para **Continuous Deployment**.
-
-- **Repositorio**: GitHub
-- **Trigger**: Push a la rama `main`
-- **URL de Producción (GitHub Pages)**: https://vladimiracunadev-create.github.io/
-- **URL Alternativa (AWS Amplify)**: https://main.d1uybq9oui7h8c.amplifyapp.com/
-
 ## 💻 Desarrollo Local
 
 Para visualizar y editar el sitio localmente:
