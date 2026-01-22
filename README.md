@@ -1,49 +1,53 @@
-# Caso A — AWS Amplify + GitLab (hosting automático)
+# Vladimir Acuña - Portafolio
 
-## Qué hace
-- Conecta el repo de GitLab con **AWS Amplify Hosting**.
-- Cada `git push` a tu rama (ej. `main`) despliega automáticamente tu web estática.
+Este repositorio contiene el código fuente de mi portafolio profesional personal.
+Es un sitio web estático diseñado para ser rápido, limpio y profesional, mostrando mi experiencia, proyectos y servicios.
 
-## Pasos (sin afectar otros entornos)
-1) En AWS, crea una **nueva Amplify App** (no reutilices una existente).
-2) Conecta tu repo GitLab y selecciona la rama (ej. `main`).
-3) Marca **My app is a monorepo** y pon el path: `caso-a-amplify`.
-4) (Recomendado) Para que quede "infra como código" en el repo:
-   - Copia `caso-a-amplify/amplify.yml` a la **raíz** del repositorio (quedará como `./amplify.yml`).
-   - Haz commit y push.
+## 🛠 Stack Tecnológico
 
-Amplify usa el `amplify.yml` del repositorio para el buildspec cuando está presente.
+El proyecto está construido con principios **KISS (Keep It Simple, Stupid)**, evitando frameworks pesados innecesarios para este caso de uso.
 
-Testing local
--------------
-- Puedes ejecutar un servidor estático para ver la web localmente: `npx http-server caso-a-amplify -p 8080`.
-- Para revisar que el build funciona, reproduce los pasos de `amplify.yml` localmente (por ejemplo, instalar dependencias y ejecutar comandos de build).
+- **HTML5 Semántico**: Estructura clara y accesible.
+- **CSS3 Vanilla**: Estilos personalizados, variables CSS, Flexbox y Grid. Sin preprocesadores complejos.
+- **JavaScript (ES6+)**: Lógica ligera para interactividad (menú móvil, acordeones, cambio de vistas) sin dependencias externas.
+- **PDF Assets**: CVs y documentos descargables optimizados.
 
-Notas y buenas prácticas
-------------------------
-- No incluyas credenciales en el repositorio. Usa las opciones de variables y secret manager en Amplify cuando sea necesario.
-- Mantén `amplify.yml` simple; si necesitas transformaciones (minificación, versiones) define pasos explícitos en el build.
-- Revisa la configuración de dominio y certificado en Amplify si vas a usar un dominio personalizado.
+## 🚀 Despliegue (CD)
 
-Referencias
------------
-- `amplify.yml` (este folder)
-- Documentación oficial: https://docs.aws.amazon.com/amplify
+El sitio utiliza **AWS Amplify** configurado para **Continuous Deployment**.
 
-Despliegue en Amplify ✅
------------------------
-La app del **Caso A** está desplegada en: https://main.d1uybq9oui7h8c.amplifyapp.com/ (deployed 2026-01-13).
+- **Repositorio**: GitHub
+- **Trigger**: Push a la rama `main`
+- **URL de Producción**: https://main.d1uybq9oui7h8c.amplifyapp.com/
 
-Verificación rápida
--------------------
-- Abrir la URL y comprobar que la página carga correctamente.
-- Revisar que los assets (CSS, JS, PDFs) se sirvan sin errores.
-- Probar en móvil/desktop y navegar por enlaces.
-- Para problemas, revisar logs de Amplify Console y el build log.
+## 💻 Desarrollo Local
 
-Siguientes pasos recomendados
------------------------------
-- Configurar un dominio personalizado y certificado en Amplify si aplica.
-- Revisar ajustes de cache y headers (Cache-Control) en S3/CloudFront o Amplify.
-- Añadir monitorización/alertas (CloudWatch) y pruebas E2E si deseas.
+Para visualizar y editar el sitio localmente:
 
+1.  **Clonar el repositorio**:
+    ```bash
+    git clone https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io.git
+    cd vladimiracunadev-create.github.io
+    ```
+
+2.  **Servidor Local** (Recomendado):
+    Puedes usar cualquier servidor estático. Por ejemplo, con `http-server` (Node.js):
+    ```bash
+    npx http-server . -p 8080
+    ```
+    O con Python:
+    ```bash
+    python -m http.server 8080
+    ```
+
+3.  Abrir `http://localhost:8080` en tu navegador.
+
+## 📂 Estructura
+
+- `index.html`: Página principal (Single Page Portfolio).
+- `styles.css`: Hoja de estilos principal.
+- `app.js`: Scripts de interfaz (UI Logic).
+- `*.pdf`: Recursos estáticos (Curriculum, Cartas).
+
+---
+© 2026 Vladimir Acuña
