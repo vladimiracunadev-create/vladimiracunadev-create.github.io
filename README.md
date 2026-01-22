@@ -18,7 +18,8 @@ El sitio utiliza **AWS Amplify** configurado para **Continuous Deployment**.
 
 - **Repositorio**: GitHub
 - **Trigger**: Push a la rama `main`
-- **URL de Producción**: https://main.d1uybq9oui7h8c.amplifyapp.com/
+- **URL de Producción (GitHub Pages)**: https://vladimiracunadev-create.github.io/
+- **URL Alternativa (AWS Amplify)**: https://main.d1uybq9oui7h8c.amplifyapp.com/
 
 ## 💻 Desarrollo Local
 
