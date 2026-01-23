@@ -1,659 +1,490 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" /> 
+  <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Portafolio de Vladimir Acuña — Modernización legacy, DevOps, automatización e IA local." />
   <title>Vladimir Acuña · Arquitecto de Software & Desarrollador Senior</title>
-  <meta name="description" content="Portafolio de Vladimir Acuña: modernización legacy, productividad, automatización, DevOps e IA local." />
-
   <link rel="stylesheet" href="styles.css" />
-  <script src="app.js" defer></script>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
 </head>
 
-<body>
+<body data-view="normal">
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+
   <header class="topbar">
-    <div class="container">
-      <div class="topbar-inner">
-        <div class="brand">
-          <span style="font-size:18px">🧠</span>
-          <span>Vladimir Acuña</span>
-          <span class="badge">Arquitecto de Software · Senior</span>
-          <span class="viewchip" id="viewChip" title="Modo de lectura actual">Vista: Normal</span>
+    <div class="wrap topbar__inner">
+      <div class="brand">
+        <button class="iconbtn" id="btnMenu" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav">☰</button>
+        <div class="brand__text">
+          <div class="brand__name">Vladimir Acuña</div>
+          <div class="brand__role">Arquitecto de Software · Senior</div>
         </div>
+      </div>
 
-        <!-- Botón menú móvil -->
-        <button class="iconbtn" id="menuBtn" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="navMenu">
-          ☰
-        </button>
+      <nav class="nav" id="nav" aria-label="Navegación principal">
+        <a href="#proyectos">Proyectos</a>
+        <a href="#demos">Demos</a>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#roles">Roles</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#descargas">Descargas</a>
+        <a href="#referencias">Referencias</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
 
-        <nav id="navMenu" class="nav-menu" aria-label="principal">
-          <div class="nav-row nav-row-links">
-            <a href="#proyectos">Proyectos</a>
-            <a href="#labs">Labs & Demos</a>
-            <a href="#experiencia">Experiencia</a>
-            <a href="#roles">Roles</a>
-            <a href="#servicios">Servicios</a>
-            <a href="#descargas">Descargas</a>
-            <a href="#referencias">Referencias</a>
-            <a href="#contacto">Contacto</a>
-          </div>
-
-          <div class="nav-row nav-row-actions">
-            <!-- Selector de vistas (3 modos) -->
-            <div class="view-switch" id="viewSwitch" role="group" aria-label="Modo de lectura">
-              <button class="vs-btn" type="button" data-view="quick">👔 Reclutador</button>
-              <button class="vs-btn" type="button" data-view="normal">👀 Normal</button>
-              <button class="vs-btn" type="button" data-view="deep">🧠 Profundo</button>
-            </div>
-
-            <a href="https://github.com/vladimiracunadev-create" target="_blank" rel="noopener">GitHub</a>
-            <a href="https://gitlab.com/vladimir.acuna.dev-group" target="_blank" rel="noopener">GitLab</a>
-            <a href="https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29/" target="_blank" rel="noopener">LinkedIn</a>
-            <a href="https://www.youtube.com/@VladimirAcu%C3%B1aDev" target="_blank" rel="noopener">YouTube</a>
-            <a href="https://x.com/VladiAcunaDev" target="_blank" rel="noopener">X</a>
-            <a href="https://www.tiktok.com/@vladimiracunadev" target="_blank" rel="noopener">TikTok</a>
-          </div>
-        </nav>
+      <div class="views" aria-label="Selector de vista">
+        <span class="views__label">Vista:</span>
+        <div class="views__group" role="tablist" aria-label="Vistas">
+          <button class="chip is-active" role="tab" aria-selected="true" data-view-btn="recruiter">Reclutador</button>
+          <button class="chip" role="tab" aria-selected="false" data-view-btn="normal">Normal</button>
+          <button class="chip" role="tab" aria-selected="false" data-view-btn="deep">Profundo</button>
+        </div>
       </div>
     </div>
   </header>
 
-  <!-- Overlay menú móvil -->
-  <div class="overlay" id="overlay" hidden></div>
+  <main id="contenido">
+    <section class="hero">
+      <div class="wrap hero__inner">
+        <div class="hero__copy">
+          <h1>Modernizo sistemas legacy, construyo tooling y automatizo procesos.</h1>
+          <p class="lead">
+            Arquitecto de Software & Desarrollador Senior. 14+ años liderando evolución y operación de plataformas web
+            educativas/psicométricas. Hoy enfocado en <strong>modernización progresiva (PHP 5.4→8.x)</strong>,
+            <strong>DevOps/CI-CD</strong>, <strong>automatización</strong> y <strong>IA local</strong>.
+          </p>
 
-  <!-- Toast (mensaje al cambiar vista / abrir acordeón) -->
-  <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
-
-  <main>
-    <!-- HERO -->
-    <section class="hero reveal">
-      <div class="container">
-        <div class="hero-grid">
-          <div class="card">
-            <h1>Modernizo sistemas legacy, construyo herramientas y automatizo procesos.</h1>
-
-            <p class="lead">
-              Arquitecto de Software & Desarrollador Senior. 14+ años liderando migraciones, optimización de sistemas,
-              reportes complejos y plataformas web educativas. Hoy enfocado en modernización progresiva (PHP 5.4→8.x),
-              DevOps, automatización (Python+n8n) e IA local.
-            </p>
-
-            <!-- También postulo como (pills clickeables) -->
-            <div class="pillrow roles-pills">
-              <a class="pill pill-link" href="#roles">🧩 Modernization Architect</a>
-              <a class="pill pill-link" href="#roles">🏗️ Platform Engineer (IDP)</a>
-              <a class="pill pill-link" href="#roles">📈 SRE Apps</a>
-              <a class="pill pill-link" href="#roles">🗄️ Migration Lead</a>
-            </div>
-
-            <!-- Roles extra (se ocultan en vista Reclutador) -->
-            <div class="pillrow optional">
-              <a class="pill pill-link" href="#roles">🎓 Relator / Instructor TI</a>
-              <a class="pill pill-link" href="#roles">🧾 Asesorías de Sistemas (Pymes)</a>
-              <a class="pill pill-link" href="#roles">📣 MarTech / Automatización Marketing</a>
-              <a class="pill pill-link" href="#roles">🧭 Analista de Negocio (TI)</a>
-            </div>
-
-            <div class="pillrow">
-              <div class="pill">⚙️ PHP 5.4–8.x</div>
-              <div class="pill">🗄️ SQL Server / MySQL</div>
-              <div class="pill">☁️ AWS (S3, Amplify)</div>
-              <div class="pill">🐳 Docker</div>
-              <div class="pill">🤖 IA local (Ollama)</div>
-            </div>
-
-            <div class="cta">
-              <a class="btn primary" href="#contacto">📨 Conversemos</a>
-              <a class="btn" href="#proyectos">📁 Ver proyectos</a>
-              <a class="btn" href="#roles">🧩 Ver roles</a>
-              <a class="btn" href="#labs">🧪 Ver demos</a>
-
-              <a class="btn" href="https://github.com/vladimiracunadev-create" target="_blank" rel="noopener">🐙 GitHub</a>
-              <a class="btn" href="https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29/" target="_blank" rel="noopener">in LinkedIn</a>
-              <a class="btn" href="mailto:vladimir.acuna.dev@gmail.com?subject=Contacto%20portfolio%20Vladimir">✉️ Email</a>
-            </div>
+          <div class="hero__badges" data-min-level="1">
+            <span class="pill">⚙️ PHP 5.4–8.x</span>
+            <span class="pill">🗄️ SQL Server / MySQL</span>
+            <span class="pill">☁️ AWS (S3, Amplify)</span>
+            <span class="pill">🐳 Docker / Compose</span>
+            <span class="pill">🤖 IA local (Ollama)</span>
           </div>
 
-          <aside class="card side">
-            <h3>Lo que puedo aportar rápido</h3>
-            <div class="kv">
-              <div class="item">
-                <b>Modernización progresiva</b>
-                <span>Refactor, compatibilidad, performance y reducción de deuda técnica.</span>
-              </div>
-              <div class="item">
-                <b>Automatización y DevOps</b>
-                <span>CI/CD, pipelines, Docker labs, despliegues repetibles.</span>
-              </div>
-              <div class="item">
-                <b>Diagnóstico y soporte</b>
-                <span>Herramientas web para logs, configuración y análisis rápido.</span>
-              </div>
-              <div class="item">
-                <b>Negocio + TI</b>
-                <span>También soy técnico en administración de empresas: procesos, eficiencia, marketing y medición.</span>
-              </div>
-            </div>
-          </aside>
+          <div class="cta">
+            <a class="btn primary" href="#contacto">Conversemos</a>
+            <a class="btn" href="#proyectos">Ver proyectos</a>
+            <a class="btn" href="#demos" data-min-level="1">Ver demos</a>
+          </div>
+
+          <div class="social">
+            <a class="link" href="https://github.com/vladimiracunadev-create" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="link" href="https://gitlab.com/vladimir.acuna.dev-group" target="_blank" rel="noreferrer">GitLab</a>
+            <a class="link" href="https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a class="link" href="https://www.youtube.com/@VladimirAcu%C3%B1aDev" target="_blank" rel="noreferrer">YouTube</a>
+            <a class="link" href="https://x.com/VladiAcunaDev" target="_blank" rel="noreferrer">X</a>
+            <a class="link" href="https://www.tiktok.com/@vladimiracunadev" target="_blank" rel="noreferrer">TikTok</a>
+          </div>
+
+          <p class="meta" data-min-level="2">
+            Enfoque: claridad + impacto + demos reproducibles. Última actualización: <span id="buildDate">2026-01-23</span>.
+          </p>
         </div>
-      </div>
-    </section>
 
-    <!-- PROYECTOS -->
-    <section id="proyectos" class="reveal">
-      <div class="container">
-        <h2 class="section-title">Proyectos destacados</h2>
-        <p class="muted" style="margin-top:-6px">
-          Selección de proyectos y microsistemas con foco en <strong>modernización</strong>, <strong>productividad</strong> y <strong>automatización</strong>.
-        </p>
-
-        <div class="grid cols-3">
-          <article class="card">
-            <h3>Batería Online (Fundación CEIS)</h3>
-            <p class="muted">
-              Suite psicométrica web a gran escala: evolución/soporte y modernización progresiva, optimización SQL Server,
-              reportes PDF/Excel y continuidad operacional.
-            </p>
-            <div class="taglist">
-              <span class="tag">PHP</span><span class="tag">SQL Server</span><span class="tag">Reporting</span><span class="tag">Operación</span>
-            </div>
-
-            <div class="links">
-              <a class="btn small primary" href="#referencias">📞 Ver referencia laboral</a>
-              <a class="btn small" href="#contacto">📨 Contactarme</a>
-            </div>
-
-            <div class="note">
-              *Por confidencialidad, no publico repos/código del producto institucional. Detalles y validación de experiencia vía referencia laboral.
-            </div>
-          </article>
-
-          <article class="card">
-            <h3>Microsistemas · Caja de herramientas</h3>
-            <p class="muted">
-              Herramientas autocontenidas para soporte, diagnóstico y modernización de sistemas legacy (PHP 5.4 → 8.x + HTML/JS).
-            </p>
-
-            <!-- Optional: se oculta en vista Reclutador -->
-            <ul class="clean muted optional" style="margin-top:10px">
-              <li>• Conversor de acentos/encoding</li>
-              <li>• mini-phpMyAdmin acotado (SQL seguro)</li>
-              <li>• Visor de logs/configuración (solo lectura)</li>
-              <li>• Migrador parcial PHP 5.4 → 8.x (asistente)</li>
-              <li>• Dev Tools JavaScript (minify/lint/transpile/sandbox)</li>
+        <div class="hero__cards">
+          <div class="card">
+            <h2>Lo que puedo aportar rápido</h2>
+            <ul class="bullets">
+              <li><strong>Modernización progresiva:</strong> compatibilidad, refactor, performance, deuda técnica.</li>
+              <li><strong>DevOps/CI-CD:</strong> pipelines, despliegues, entornos reproducibles, docker-labs.</li>
+              <li><strong>Diagnóstico y continuidad:</strong> tooling para logs/config/QA de datos y reportes.</li>
+              <li data-min-level="1"><strong>Negocio + TI:</strong> procesos, eficiencia, marketing y medición.</li>
             </ul>
+          </div>
 
-            <div class="taglist" style="margin-top:10px">
-              <span class="tag">Legacy Support</span><span class="tag">Productividad</span><span class="tag">Dev Tools</span>
-            </div>
-            <div class="links">
-              <a class="btn small primary" href="https://github.com/vladimiracunadev-create" target="_blank" rel="noopener">🐙 GitHub</a>
-              <a class="btn small" href="#labs">🧪 Ver demos</a>
-            </div>
-          </article>
-
-          <article class="card">
-            <h3>mcp-ollama-local (IA local + Tools)</h3>
-            <p class="muted">
-              Web local (FastAPI) + Ollama con tools vía MCP (system_info/list_files/grep_text) y opcional historial en SQLite.
-              Interacción segura y trazable.
+          <div class="card" data-min-level="1">
+            <h2>Cómo se ve en repos</h2>
+            <p class="small">
+              Mi portafolio está pensado para validar lo que digo: READMEs claros, estructura repetible,
+              Makefiles, Docker/Compose, CI/CD y demos en vivo cuando aplica.
             </p>
-            <div class="taglist">
-              <span class="tag">FastAPI</span><span class="tag">Ollama</span><span class="tag">MCP Tools</span><span class="tag">SQLite</span>
+            <div class="mini">
+              <span class="pill">Docs</span>
+              <span class="pill">CI</span>
+              <span class="pill">Docker</span>
+              <span class="pill">AWS</span>
+              <span class="pill">IA local</span>
             </div>
-            <div class="links">
-              <a class="btn small primary" href="https://github.com/vladimiracunadev-create" target="_blank" rel="noopener">📦 Repo (GitHub)</a>
-            </div>
-          </article>
-
-          <!-- Optional: se oculta en vista Reclutador -->
-          <article class="card optional">
-            <h3>Automatización (Python + n8n + PHP)</h3>
-            <p class="muted">
-              Flujos modulares: scheduler en Python, routing en n8n y API PHP registrando eventos (extensible a DB/colas/notificaciones).
-            </p>
-            <div class="taglist">
-              <span class="tag">Python</span><span class="tag">n8n</span><span class="tag">API</span>
-            </div>
-            <div class="links">
-              <a class="btn small primary" href="https://github.com/vladimiracunadev-create" target="_blank" rel="noopener">📦 Repo (GitHub)</a>
-            </div>
-          </article>
-
-          <!-- Optional: se oculta en vista Reclutador -->
-          <article class="card optional">
-            <h3>Telemetría y Offline-Sync</h3>
-            <p class="muted">
-              IndexedDB + Service Worker: medición (TTFB/latencia), sincronización diferida, reintentos con backoff y resiliencia offline-first.
-            </p>
-            <div class="taglist">
-              <span class="tag">IndexedDB</span><span class="tag">Service Worker</span><span class="tag">Observabilidad</span>
-            </div>
-          </article>
-
-          <!-- Optional: se oculta en vista Reclutador -->
-          <article class="card optional">
-            <h3>Reportes & Data Quality</h3>
-            <p class="muted">
-              Excel multi-sheet, PDFs y validación de métricas: trazabilidad, QA de datos y consistencia entre fuentes.
-            </p>
-            <div class="taglist">
-              <span class="tag">Excel</span><span class="tag">PDF</span><span class="tag">Data Quality</span>
-            </div>
-          </article>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- LABS (Optional: se oculta en vista Reclutador) -->
-    <section id="labs" class="reveal optional">
-      <div class="container">
-        <h2 class="section-title">Labs & Demos (repos reales)</h2>
-        <p class="muted" style="margin-top:-6px">
-          Repos y demos para respaldar lo que digo con implementación concreta (CI/CD, cloud, contenedores, tooling).
-        </p>
+    <section class="section" id="proyectos">
+      <div class="wrap">
+        <div class="section__head">
+          <h2>Proyectos destacados</h2>
+          <p class="muted">Selección con foco en modernización, productividad, automatización y demos verificables.</p>
+        </div>
 
-        <div class="grid cols-3">
+        <div class="grid">
+          <article class="card project">
+            <div class="project__head">
+              <h3>Batería Online (Fundación CEIS)</h3>
+              <span class="tag">Confidencial</span>
+            </div>
+            <p>
+              Suite psicométrica web a gran escala: evolución/soporte y modernización progresiva,
+              optimización SQL Server, reportes PDF/Excel y continuidad operacional.
+            </p>
+            <div class="chips">
+              <span class="pill">PHP</span><span class="pill">SQL Server</span><span class="pill">Reporting</span><span class="pill">Operación</span>
+            </div>
+            <p class="small muted">
+              Por confidencialidad, no publico repos/código del producto institucional. Validación vía referencia laboral.
+            </p>
+            <div class="actions">
+              <a class="btn" href="#referencias">Ver referencia</a>
+              <a class="btn" href="#contacto">Contactarme</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="project__head">
+              <h3>Microsistemas · Developer Productivity Suite</h3>
+              <span class="tag">Tooling</span>
+            </div>
+            <p>
+              Suite modular de herramientas web autocontenidas para diagnóstico, conversión de datos y modernización PHP.
+              Incluye Docker, Makefile y documentación avanzada.
+            </p>
+            <ul class="bullets small" data-min-level="1">
+              <li>Conversor de acentos/encoding, visor SQL seguro, visor de logs (solo lectura).</li>
+              <li>Migrador parcial PHP 5.x → 8.x, generador YAML y utilidades JS.</li>
+              <li>Orientado a “quick wins” en soporte + reducción de fricción en equipos.</li>
+            </ul>
+            <div class="chips">
+              <span class="pill">PHP</span><span class="pill">Docker</span><span class="pill">Make</span><span class="pill">Docs</span><span class="pill">CI</span>
+            </div>
+            <div class="actions">
+              <a class="btn primary" href="https://github.com/vladimiracunadev-create/microsistemas" target="_blank" rel="noreferrer">Repo (GitHub)</a>
+              <a class="btn" href="#demos" data-min-level="1">Ver demos</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="project__head">
+              <h3>Docker Labs</h3>
+              <span class="tag">Infra/DevOps</span>
+            </div>
+            <p>
+              Colección de laboratorios Docker por stack con dashboard. Enfoque “levanta en 60s”.
+            </p>
+            <ul class="bullets small" data-min-level="1">
+              <li>Makefile para levantar dashboard y labs.</li>
+              <li>Ruta de observabilidad (Prometheus/Grafana) y labs multi-servicio.</li>
+            </ul>
+            <div class="chips">
+              <span class="pill">Docker</span><span class="pill">Compose</span><span class="pill">Make</span><span class="pill">Observabilidad</span>
+            </div>
+            <div class="actions">
+              <a class="btn primary" href="https://github.com/vladimiracunadev-create/docker-labs" target="_blank" rel="noreferrer">Repo (GitHub)</a>
+              <a class="btn" href="#demos" data-min-level="1">Ver demos</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="project__head">
+              <h3>Cloud Portfolio · Proyectos AWS (Monorepo)</h3>
+              <span class="tag">Cloud</span>
+            </div>
+            <p>
+              Monorepo con despliegues reales y flujo profesional <code>dev → PR → main</code>.
+              Incluye deploy automatizado a S3 con GitHub Actions y Amplify con CD por rama.
+            </p>
+            <div class="chips">
+              <span class="pill">AWS S3</span><span class="pill">Amplify</span><span class="pill">GitHub Actions</span><span class="pill">YAML</span>
+            </div>
+            <div class="actions">
+              <a class="btn primary" href="https://github.com/vladimiracunadev-create/proyectos-aws" target="_blank" rel="noreferrer">Repo (GitHub)</a>
+              <a class="btn" href="#demos">Demos en vivo</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="project__head">
+              <h3>LangGraph · 25 casos del mundo real</h3>
+              <span class="tag">IA / Agentes</span>
+            </div>
+            <p>
+              Escenarios reales donde LangGraph brilla (estado, rutas condicionales, tools y checkpoints).
+            </p>
+            <div class="chips">
+              <span class="pill">LangGraph</span><span class="pill">FastAPI</span><span class="pill">Docker</span><span class="pill">CI</span>
+            </div>
+            <div class="actions">
+              <a class="btn primary" href="https://github.com/vladimiracunadev-create/langgraph-realworld" target="_blank" rel="noreferrer">Repo (GitHub)</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="project__head">
+              <h3>MCP Ollama Local</h3>
+              <span class="tag">IA local</span>
+            </div>
+            <p>
+              Web local (FastAPI) + Ollama + herramientas vía MCP y persistencia en SQLite.
+              Privacidad total (localhost) y extensible a Docker/K8s.
+            </p>
+            <div class="chips">
+              <span class="pill">FastAPI</span><span class="pill">Ollama</span><span class="pill">MCP</span><span class="pill">SQLite</span>
+            </div>
+            <div class="actions">
+              <a class="btn primary" href="https://github.com/vladimiracunadev-create/mcp-ollama-local" target="_blank" rel="noreferrer">Repo (GitHub)</a>
+            </div>
+          </article>
+
+          <article class="card project" data-min-level="1">
+            <div class="project__head">
+              <h3>Social Bot Scheduler (Python + n8n + PHP)</h3>
+              <span class="tag">Automatización</span>
+            </div>
+            <p>
+              Flujo modular: Python decide qué publicar, n8n enruta por canal, y una API PHP registra eventos.
+            </p>
+            <div class="chips">
+              <span class="pill">Python</span><span class="pill">n8n</span><span class="pill">PHP API</span>
+            </div>
+            <div class="actions">
+              <a class="btn" href="https://github.com/vladimiracunadev-create/social-bot-scheduler" target="_blank" rel="noreferrer">Repo (GitHub)</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="card soft" data-min-level="2">
+          <h3>Repos recientes (auto)</h3>
+          <p class="muted small">Se carga desde la API pública de GitHub (ordenada por actualización).</p>
+          <div id="recentRepos" class="repos"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="demos">
+      <div class="wrap">
+        <div class="section__head">
+          <h2>Demos en vivo</h2>
+          <p class="muted">Enlaces públicos para ver despliegues reales (cuando aplica).</p>
+        </div>
+
+        <div class="grid grid--2">
           <article class="card">
             <h3>AWS S3 + GitHub Actions</h3>
-            <p class="muted">
-              Deploy automático al hacer <code>push</code> a <strong>main</strong> (sync con <code>--delete</code>).
-            </p>
-            <div class="taglist">
-              <span class="tag">S3</span><span class="tag">GitHub Actions</span><span class="tag">CI/CD</span>
-            </div>
-            <div class="links">
-              <a class="btn small primary" href="https://github.com/vladimiracunadev-create" target="_blank" rel="noopener">🐙 Ver en GitHub</a>
+            <p>Deploy automático al hacer push a <code>main</code> (sync con <code>--delete</code>).</p>
+            <div class="actions">
+              <a class="btn primary" href="https://mi-pagina-scrum-123.s3.us-east-2.amazonaws.com/index.html" target="_blank" rel="noreferrer">Ver demo</a>
+              <a class="btn" href="https://github.com/vladimiracunadev-create/proyectos-aws" target="_blank" rel="noreferrer">Ver repo</a>
             </div>
           </article>
 
           <article class="card">
             <h3>AWS Amplify · Deploy por ramas</h3>
-            <p class="muted">
-              Continuous Deployment con <strong>main/dev</strong>, build automático y SSL.
-            </p>
-            <div class="taglist">
-              <span class="tag">Amplify</span><span class="tag">Branches</span><span class="tag">CD</span>
+            <p>Continuous Deployment con <code>main</code>/<code>dev</code>, build automático y SSL.</p>
+            <div class="actions">
+              <a class="btn primary" href="https://main.d3r1wuymolxagh.amplifyapp.com/" target="_blank" rel="noreferrer">Demo main</a>
+              <a class="btn" href="https://dev.d20m8tc0banvg.amplifyapp.com/" target="_blank" rel="noreferrer" data-min-level="1">Demo dev</a>
+              <a class="btn" href="https://github.com/vladimiracunadev-create/proyectos-aws" target="_blank" rel="noreferrer">Ver repo</a>
             </div>
-            <div class="links">
-              <a class="btn small primary" href="https://github.com/vladimiracunadev-create" target="_blank" rel="noopener">🐙 Ver en GitHub</a>
+          </article>
+        </div>
+
+        <div class="card soft" data-min-level="1">
+          <h3>Docker Labs: dashboard local</h3>
+          <p class="muted">Un “hub” local para explorar labs por stack. Ideal para entrevistas técnicas.</p>
+          <pre class="code">git clone https://github.com/vladimiracunadev-create/docker-labs.git
+cd docker-labs
+make up-dashboard
+# http://localhost:9090</pre>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="experiencia">
+      <div class="wrap">
+        <div class="section__head">
+          <h2>Experiencia</h2>
+          <p class="muted">Resumen por hitos (usa la vista “Profundo” para detalles).</p>
+        </div>
+
+        <div class="timeline">
+          <div class="titem">
+            <div class="twhen">2025–Actualidad</div>
+            <div class="twhat">
+              <h3>Transición (laboratorios + portafolio)</h3>
+              <p>Estandarización de entornos, laboratorios Docker, automatización y prototipos con IA local.</p>
+              <ul class="bullets small" data-min-level="2">
+                <li>Documentación reproducible (Makefiles, guías, scripts, README).</li>
+                <li>Foco en prácticas: ramas, PRs, CI y releases.</li>
+              </ul>
             </div>
+          </div>
+
+          <div class="titem">
+            <div class="twhen">14 años</div>
+            <div class="twhat">
+              <h3>Fundación CEIS Maristas</h3>
+              <p>Arquitectura, desarrollo y operación de plataformas web educativas/psicométricas. Optimización SQL/performance.</p>
+            </div>
+          </div>
+
+          <div class="titem" data-min-level="1">
+            <div class="twhen">Perfil híbrido</div>
+            <div class="twhat">
+              <h3>Negocio + TI</h3>
+              <p>Formación técnica en administración de empresas: procesos, eficiencia, marketing y medición.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="roles">
+      <div class="wrap">
+        <div class="section__head">
+          <h2>Roles en los que también encajo</h2>
+          <p class="muted">Alta compatibilidad con modernización, plataforma y operación.</p>
+        </div>
+
+        <div class="grid grid--2">
+          <article class="card">
+            <h3>Arquitecto de Modernización Legacy</h3>
+            <p>Refactor seguro, migraciones progresivas, CI/CD, contenedores y observabilidad.</p>
+            <div class="chips"><span class="pill">Modernization Architect</span><span class="pill">Legacy Lead</span></div>
           </article>
 
           <article class="card">
-            <h3>Docker Labs 🧪🐳</h3>
-            <p class="muted">
-              Stacks independientes con objetivos claros, documentación y reproducibilidad.
-            </p>
-            <div class="taglist">
-              <span class="tag">Docker</span><span class="tag">Compose</span><span class="tag">Stacks</span>
-            </div>
-            <div class="links">
-              <a class="btn small primary" href="https://github.com/vladimiracunadev-create" target="_blank" rel="noopener">🐙 Ver en GitHub</a>
-            </div>
-          </article>
-        </div>
-
-        <div class="card" style="margin-top:16px">
-          <h3>Acceso rápido a mis repos</h3>
-          <p class="muted">Centralizo demos y avances aquí:</p>
-          <div class="links">
-            <a class="btn small primary" href="https://github.com/vladimiracunadev-create" target="_blank" rel="noopener">🐙 GitHub</a>
-            <a class="btn small" href="https://www.youtube.com/@VladimirAcu%C3%B1aDev" target="_blank" rel="noopener">▶️ YouTube</a>
-            <a class="btn small" href="https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29/" target="_blank" rel="noopener">in LinkedIn</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- EXPERIENCIA -->
-    <section id="experiencia" class="reveal">
-      <div class="container">
-        <h2 class="section-title">Experiencia</h2>
-        <div class="two">
-          <div class="card">
-            <h3>Timeline</h3>
-            <ul class="timeline">
-              <li class="tl-item">
-                <b>2025–Actualidad</b>
-                <span>Transición: laboratorios, automatización (Python+n8n+PHP), microsistemas de productividad y prototipos con IA local.</span>
-              </li>
-              <li class="tl-item">
-                <b>Fundación CEIS Maristas · 14 años</b>
-                <span>Arquitectura, desarrollo y operación de plataformas educativas/psicométricas. Optimización y migraciones.</span>
-              </li>
-              <li class="tl-item">
-                <b>Perfil híbrido</b>
-                <span>Además de TI: formación técnica en administración de empresas (procesos, eficiencia, marketing y medición).</span>
-              </li>
-            </ul>
-          </div>
-
-          <div class="card">
-            <h3>Logros destacables</h3>
-            <ul class="clean muted">
-              <li>• Modernización progresiva y mantención de plataformas web complejas.</li>
-              <li>• Optimización SQL/performance en escenarios de concurrencia y reportes pesados.</li>
-              <li>• Telemetría, diagnósticos, herramientas internas y continuidad operacional.</li>
-              <li>• Automatización de despliegues y prácticas de repo (pipelines, Docker labs, etc.).</li>
-              <li>• Integración de IA (local / controlada) para productividad y documentación.</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ROLES -->
-    <section id="roles" class="reveal">
-      <div class="container">
-        <h2 class="section-title">Roles en los que también encajo (y puedo postular)</h2>
-        <p class="muted" style="margin-top:-6px">
-          Usa el selector de vista: <b>Reclutador</b> (rápido), <b>Normal</b> (equilibrado) o <b>Profundo</b> (todo).
-        </p>
-
-        <h3 class="section-subtitle">Top roles (alta compatibilidad)</h3>
-
-        <div class="grid cols-3">
-          <article class="card role-card">
-            <h3>Arquitecto de Modernización Legacy</h3>
-            <p class="muted">Refactor, estrangular monolitos, versionado, CI/CD, contenedores, observabilidad.</p>
-            <div class="taglist">
-              <span class="tag">Modernization Architect</span>
-              <span class="tag">Legacy Modernization Lead</span>
-              <span class="tag">App Modernization Engineer</span>
-            </div>
-          </article>
-
-          <article class="card role-card">
             <h3>Platform Engineer / IDP</h3>
-            <p class="muted">Plataforma interna: plantillas Docker, pipelines, entornos reproducibles, estándares.</p>
-            <div class="taglist">
-              <span class="tag">Platform Engineer</span>
-              <span class="tag">IDP</span>
-              <span class="tag">Developer Productivity</span>
-            </div>
+            <p>Plantillas Docker, pipelines, entornos reproducibles, estándares y “developer productivity”.</p>
+            <div class="chips"><span class="pill">Platform Engineer</span><span class="pill">IDP</span></div>
           </article>
 
-          <article class="card role-card">
+          <article class="card">
             <h3>SRE orientado a aplicaciones</h3>
-            <p class="muted">Performance, capacity planning, SLAs, incidentes, tuning PHP-FPM/Apache, métricas.</p>
-            <div class="taglist">
-              <span class="tag">SRE</span>
-              <span class="tag">Performance</span>
-              <span class="tag">Observabilidad</span>
-            </div>
+            <p>Performance, capacity planning, métricas y respuesta a incidentes.</p>
+            <div class="chips"><span class="pill">SRE</span><span class="pill">Performance</span><span class="pill">Observabilidad</span></div>
           </article>
 
-          <article class="card role-card">
+          <article class="card">
             <h3>Tech Lead de migraciones (DB + app)</h3>
-            <p class="muted">SQL Server/MySQL, zero-downtime, replicación, ETL, data quality y delivery técnico.</p>
-            <div class="taglist">
-              <span class="tag">Migration Lead</span>
-              <span class="tag">Data Migration Lead</span>
-              <span class="tag">Technical Delivery</span>
-            </div>
+            <p>SQL Server/MySQL, data quality, delivery técnico y reporting.</p>
+            <div class="chips"><span class="pill">Migration Lead</span><span class="pill">Data Quality</span></div>
           </article>
 
-          <article class="card role-card optional">
-            <h3>Consultor Performance & Cost Optimization</h3>
-            <p class="muted">FinOps técnico: right-sizing, caching, DB tuning, alertas de presupuesto.</p>
-            <div class="taglist">
-              <span class="tag">FinOps</span>
-              <span class="tag">AWS Cost</span>
-              <span class="tag">Caching/DB Tuning</span>
-            </div>
+          <article class="card" data-min-level="1">
+            <h3>Automatización (n8n / workflows)</h3>
+            <p>Onboarding, reportes, alertas, integraciones con APIs, bots y flujos internos.</p>
+            <div class="chips"><span class="pill">n8n</span><span class="pill">Workflows</span></div>
           </article>
 
-          <article class="card role-card optional">
-            <h3>Especialista Automatización (n8n / workflows)</h3>
-            <p class="muted">Onboarding, reportes, alertas, integraciones con APIs, bots y flujos internos.</p>
-            <div class="taglist">
-              <span class="tag">n8n</span>
-              <span class="tag">Workflows</span>
-              <span class="tag">Integraciones</span>
-            </div>
+          <article class="card" data-min-level="2">
+            <h3>Solutions Engineer / Pre-Sales técnico</h3>
+            <p>Demos y PoCs reales; requisitos, arquitectura y comunicación TI/negocio.</p>
+            <div class="chips"><span class="pill">PoC</span><span class="pill">Arquitectura</span></div>
           </article>
         </div>
-
-        <!-- ===== Acordeón REAL (funciona con JS + animación) ===== -->
-        <div class="accordion optional" id="rolesAccordion" data-accordion="roles">
-          <button class="acc-summary" type="button" id="accRolesBtn" aria-expanded="false" aria-controls="accRolesPanel">
-            Ver más roles (relatoría, asesorías, marketing tech, producto, continuidad, auditoría, datos)
-          </button>
-
-          <div class="acc-panel" id="accRolesPanel" hidden>
-            <h3 class="section-subtitle" style="margin-top:14px">Relatoría / Formación</h3>
-            <div class="grid cols-3">
-              <article class="card role-card">
-                <h3>Relator / Instructor TI</h3>
-                <p class="muted">Capacitaciones prácticas en modernización, buenas prácticas, DevOps, tooling y productividad.</p>
-                <div class="taglist">
-                  <span class="tag">Workshops</span>
-                  <span class="tag">Mentoría</span>
-                  <span class="tag">Capacitación</span>
-                </div>
-              </article>
-
-              <article class="card role-card">
-                <h3>Mentor Técnico (legacy → moderno)</h3>
-                <p class="muted">Guía de equipos en migración, refactor seguro, estándares y despliegues reproducibles.</p>
-                <div class="taglist">
-                  <span class="tag">Tech Mentoring</span>
-                  <span class="tag">Refactor</span>
-                  <span class="tag">CI/CD</span>
-                </div>
-              </article>
-            </div>
-
-            <h3 class="section-subtitle" style="margin-top:18px">Asesorías de Sistemas (Pymes / Instituciones)</h3>
-            <div class="grid cols-3">
-              <article class="card role-card">
-                <h3>Asesor de Sistemas / Auditoría práctica</h3>
-                <p class="muted">Diagnóstico de deuda técnica, riesgos, performance, costos, plan de acción por etapas.</p>
-                <div class="taglist">
-                  <span class="tag">Assessment</span>
-                  <span class="tag">Roadmap</span>
-                  <span class="tag">Riesgos</span>
-                </div>
-              </article>
-
-              <article class="card role-card">
-                <h3>Gestión TI / Continuidad Operacional</h3>
-                <p class="muted">Backups, RTO/RPO, DRP, hardening básico, monitoreo y procedimientos.</p>
-                <div class="taglist">
-                  <span class="tag">RTO/RPO</span>
-                  <span class="tag">DRP</span>
-                  <span class="tag">Monitoreo</span>
-                </div>
-              </article>
-
-              <article class="card role-card">
-                <h3>Implementador Integraciones (SSO / CRM / LMS)</h3>
-                <p class="muted">Conexión de plataformas, exportaciones, reporting y procesos de operación.</p>
-                <div class="taglist">
-                  <span class="tag">SSO</span>
-                  <span class="tag">Integraciones</span>
-                  <span class="tag">Reporting</span>
-                </div>
-              </article>
-            </div>
-
-            <h3 class="section-subtitle" style="margin-top:18px">Producto / Pre-Sales / Negocio</h3>
-            <div class="grid cols-3">
-              <article class="card role-card">
-                <h3>Product Engineer (producto + ingeniería)</h3>
-                <p class="muted">Traduzco necesidades del negocio a soluciones con impacto (ideal edtech/reporting).</p>
-                <div class="taglist">
-                  <span class="tag">Product</span>
-                  <span class="tag">Discovery</span>
-                  <span class="tag">Impacto</span>
-                </div>
-              </article>
-
-              <article class="card role-card">
-                <h3>Solutions Engineer / Pre-Sales técnico</h3>
-                <p class="muted">Demos y PoC reales; requisitos, arquitectura y comunicación con TI/negocio.</p>
-                <div class="taglist">
-                  <span class="tag">PoC</span>
-                  <span class="tag">Demos</span>
-                  <span class="tag">Arquitectura</span>
-                </div>
-              </article>
-
-              <article class="card role-card">
-                <h3>Analista de Negocio (TI)</h3>
-                <p class="muted">Procesos, KPIs, reporting, eficiencia; puente entre áreas y tecnología.</p>
-                <div class="taglist">
-                  <span class="tag">Procesos</span>
-                  <span class="tag">KPIs</span>
-                  <span class="tag">Mejora continua</span>
-                </div>
-              </article>
-            </div>
-
-            <h3 class="section-subtitle" style="margin-top:18px">Marketing Tech / Automatización (por formación + experiencia técnica)</h3>
-            <div class="grid cols-3">
-              <article class="card role-card">
-                <h3>MarTech / Automatización Marketing</h3>
-                <p class="muted">Integraciones, tracking, campañas, reporting y automatización (enfoque técnico).</p>
-                <div class="taglist">
-                  <span class="tag">Automations</span>
-                  <span class="tag">Tracking</span>
-                  <span class="tag">Reporting</span>
-                </div>
-              </article>
-
-              <article class="card role-card">
-                <h3>Consultor de Productividad & Operación Digital</h3>
-                <p class="muted">Estandarización, plantillas, checklists, tooling y automatizaciones para equipos.</p>
-                <div class="taglist">
-                  <span class="tag">Productividad</span>
-                  <span class="tag">Tooling</span>
-                  <span class="tag">Operación</span>
-                </div>
-              </article>
-
-              <article class="card role-card">
-                <h3>Technical Writer / Documentación técnica</h3>
-                <p class="muted">Guías, repos, tutoriales, procedimientos y documentación operativa clara.</p>
-                <div class="taglist">
-                  <span class="tag">Docs</span>
-                  <span class="tag">Runbooks</span>
-                  <span class="tag">Tutoriales</span>
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
-        <!-- ===== FIN Acordeón ===== -->
       </div>
     </section>
 
-    <!-- SERVICIOS -->
-    <section id="servicios" class="reveal">
-      <div class="container">
-        <h2 class="section-title">Servicios</h2>
-        <div class="grid cols-3">
+    <section class="section" id="servicios">
+      <div class="wrap">
+        <div class="section__head">
+          <h2>Servicios</h2>
+          <p class="muted">Intervenciones por etapas (ideal para legacy real).</p>
+        </div>
+
+        <div class="grid grid--3">
           <article class="card">
             <h3>Modernización PHP Legacy</h3>
-            <p class="muted">Plan gradual: compatibilidad, refactor, pruebas, performance, despliegue seguro.</p>
-            <div class="taglist">
-              <span class="tag">PHP 5.x → 8.x</span><span class="tag">Refactor</span><span class="tag">QA</span>
-            </div>
+            <p>Plan gradual: compatibilidad, refactor, pruebas, performance y despliegue seguro.</p>
+            <div class="chips"><span class="pill">PHP 5.x → 8.x</span><span class="pill">Refactor</span><span class="pill">QA</span></div>
           </article>
 
           <article class="card">
             <h3>DevOps & CI/CD</h3>
-            <p class="muted">Automatización con GitHub Actions, despliegues a AWS, contenedores y buenas prácticas.</p>
-            <div class="taglist">
-              <span class="tag">Actions</span><span class="tag">AWS</span><span class="tag">Docker</span>
-            </div>
+            <p>GitHub Actions, despliegues a AWS, contenedores y buenas prácticas.</p>
+            <div class="chips"><span class="pill">Actions</span><span class="pill">AWS</span><span class="pill">Docker</span></div>
           </article>
 
           <article class="card">
-            <h3>Asesoría TI (diagnóstico + plan)</h3>
-            <p class="muted">Evaluación rápida: riesgos, performance, costos, deuda técnica y plan por etapas.</p>
-            <div class="taglist">
-              <span class="tag">Assessment</span><span class="tag">Roadmap</span><span class="tag">Quick wins</span>
-            </div>
+            <h3>Diagnóstico + plan</h3>
+            <p>Evaluación rápida: riesgos, performance, costos, deuda técnica y plan por etapas.</p>
+            <div class="chips"><span class="pill">Assessment</span><span class="pill">Roadmap</span><span class="pill">Quick wins</span></div>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- DESCARGAS -->
-    <section id="descargas" class="reveal">
-      <div class="container">
-        <h2 class="section-title">Descargas</h2>
+    <section class="section" id="descargas">
+      <div class="wrap">
+        <div class="section__head">
+          <h2>Descargas</h2>
+          <p class="muted">PDFs listos para compartir.</p>
+        </div>
+
         <div class="card">
-          <h3>PDFs listos para compartir</h3>
-          <p class="muted">
-            Versiones en PDF listas para compartir con reclutadores y empresas.
-          </p>
-          <div class="cta">
-            <a class="btn primary" href="portafolio-vladimir-acuna.pdf" target="_blank" rel="noopener">📂 Descargar Portafolio (PDF)</a>
-            <a class="btn" href="cv-vladimir-acuna-reducido.pdf" target="_blank" rel="noopener">📑 CV reducido (PDF)</a>
-            <a class="btn" href="cv-vladimir-acuna-completo.pdf" target="_blank" rel="noopener">📄 CV completo (PDF)</a>
-            <a class="btn" href="Carta_Recomendacion.pdf" target="_blank" rel="noopener">📄 Carta de Recomendación (PDF)</a>
+          <div class="downloads">
+            <a class="btn primary" href="assets/portafolio.pdf">Descargar Portafolio (PDF)</a>
+            <a class="btn" href="assets/cv-reducido.pdf">CV reducido (PDF)</a>
+            <a class="btn" href="assets/cv-completo.pdf" data-min-level="1">CV completo (PDF)</a>
+            <a class="btn" href="assets/carta-recomendacion.pdf" data-min-level="1">Carta de Recomendación (PDF)</a>
           </div>
-          <div class="note">Si cambias la carpeta, ajusta estos <code>href</code> (por ejemplo: <code>assets/cv-vladimir-acuna-completo.pdf</code>).</div>
+          <p class="small muted">Si cambias nombres, ajusta estos <code>href</code> en <code>index.html</code>.</p>
         </div>
       </div>
     </section>
 
-    <!-- REFERENCIAS -->
-    <section id="referencias" class="reveal">
-      <div class="container">
-        <h2 class="section-title">Referencias laborales</h2>
+    <section class="section" id="referencias">
+      <div class="wrap">
+        <div class="section__head">
+          <h2>Referencias laborales</h2>
+          <p class="muted">Para proyectos institucionales, la validación se realiza vía referencia.</p>
+        </div>
+
         <div class="card">
-          <p class="muted" style="margin-top:0">
-            Para roles/proyectos institucionales (ej. Batería Online), la validación de experiencia y detalles se realiza vía referencia laboral.
-          </p>
-
-          <div class="refbox">
-            <div class="refitem">
-              <b>Jean Claude Dupry</b>
-              <span class="muted">Último jefe directo</span>
-            </div>
-            <div class="refitem">
-              <b>Celular</b>
-              <span><a class="ref-link" href="tel:+56994156984">+56 9 9415 6984</a></span>
-            </div>
-          </div>
-
+          <h3>Jean Claude Dupry <span class="muted small">· Último jefe directo</span></h3>
+          <p class="big">Celular: <strong>+56 9 9415 6984</strong></p>
+          <p class="small muted" data-min-level="2">Puedo enviar un resumen por escrito y ejemplos de impacto si lo necesitas.</p>
         </div>
       </div>
     </section>
 
-    <!-- CONTACTO -->
-    <section id="contacto" class="reveal">
-      <div class="container">
-        <h2 class="section-title">Contacto</h2>
-        <div class="card">
-          <p class="muted">
-            ¿Buscas modernizar un sistema legacy, mejorar performance, reducir costos, automatizar procesos o capacitar un equipo?
-            Escríbeme.
-          </p>
-          <div class="cta">
-            <a class="btn primary" href="mailto:vladimir.acuna.dev@gmail.com?subject=Contacto%20portfolio%20Vladimir">✉️ vladimir.acuna.dev@gmail.com</a>
-            <a class="btn" href="https://github.com/vladimiracunadev-create" target="_blank" rel="noopener">🐙 GitHub</a>
-            <a class="btn" href="https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29/" target="_blank" rel="noopener">in LinkedIn</a>
-            <a class="btn" href="https://www.youtube.com/@VladimirAcu%C3%B1aDev" target="_blank" rel="noopener">▶️ YouTube</a>
-            <a class="btn" href="https://x.com/VladiAcunaDev" target="_blank" rel="noopener">𝕏 X</a>
-            <a class="btn" href="https://www.tiktok.com/@vladimiracunadev" target="_blank" rel="noopener">🎵 TikTok</a>
+    <section class="section" id="contacto">
+      <div class="wrap">
+        <div class="section__head">
+          <h2>Contacto</h2>
+          <p class="muted">¿Modernización, performance o automatización? Escríbeme.</p>
+        </div>
+
+        <div class="card contact">
+          <div class="contact__row">
+            <div>
+              <div class="muted small">Email</div>
+              <div class="big"><a href="mailto:vladimir.acuna.dev@gmail.com">vladimir.acuna.dev@gmail.com</a></div>
+            </div>
+            <div class="contact__actions">
+              <button class="btn" id="btnCopyEmail" type="button">Copiar email</button>
+              <a class="btn primary" href="https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a class="btn" href="https://github.com/vladimiracunadev-create" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
           </div>
+
+          <div class="contact__row" data-min-level="1">
+            <div class="muted small">También</div>
+            <div class="social">
+              <a class="link" href="https://www.youtube.com/@VladimirAcu%C3%B1aDev" target="_blank" rel="noreferrer">YouTube</a>
+              <a class="link" href="https://x.com/VladiAcunaDev" target="_blank" rel="noreferrer">X</a>
+              <a class="link" href="https://www.tiktok.com/@vladimiracunadev" target="_blank" rel="noreferrer">TikTok</a>
+              <a class="link" href="https://gitlab.com/vladimir.acuna.dev-group" target="_blank" rel="noreferrer">GitLab</a>
+            </div>
+          </div>
+
+          <p class="small muted">© <span id="year"></span> Vladimir Acuña · Hecho con HTML + CSS + JS.</p>
         </div>
       </div>
     </section>
   </main>
 
-  <footer>
-    <div class="container">
-      <div style="display:flex; flex-wrap:wrap; gap:12px; justify-content:space-between; align-items:center">
-        <div>© <span id="y"></span> Vladimir Acuña · Portafolio</div>
-        <div class="muted">Hecho con HTML + CSS · Enfoque en claridad, impacto y demos reproducibles.</div>
-      </div>
-    </div>
-  </footer>
+  <script src="app.js"></script>
 </body>
 </html>
