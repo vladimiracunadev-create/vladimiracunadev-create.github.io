@@ -1,657 +1,1245 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" /> 
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Vladimir Acuña · Arquitecto de Software & Desarrollador Senior</title>
-  <meta name="description" content="Portafolio de Vladimir Acuña: modernización legacy, productividad, automatización, DevOps e IA local." />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light dark" />
+  <title>Portafolio — Vladimir Acuña (Preview)</title>
+  <style>
+    :root{
+      --bg: #070a12;
+      --panel: rgba(255,255,255,.06);
+      --panel2: rgba(255,255,255,.10);
+      --text: rgba(255,255,255,.92);
+      --muted: rgba(255,255,255,.68);
+      --muted2: rgba(255,255,255,.55);
+      --border: rgba(255,255,255,.12);
+      --shadow: 0 18px 50px rgba(0,0,0,.45);
+      --radius: 18px;
+      --radius2: 14px;
+      --accent: #7dd3fc; /* cyan */
+      --accent2:#a78bfa; /* violet */
+      --ok:#34d399;
+      --warn:#fbbf24;
+      --bad:#fb7185;
+      --max: 1120px;
+    }
 
-  <link rel="stylesheet" href="styles.css" />
-  <script src="app.js" defer></script>
+    @media (prefers-color-scheme: light){
+      :root{
+        --bg:#f6f7fb;
+        --panel: rgba(0,0,0,.05);
+        --panel2: rgba(0,0,0,.07);
+        --text: rgba(0,0,0,.88);
+        --muted: rgba(0,0,0,.62);
+        --muted2: rgba(0,0,0,.52);
+        --border: rgba(0,0,0,.12);
+        --shadow: 0 18px 45px rgba(0,0,0,.12);
+      }
+    }
+
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+      background: var(--bg);
+      color:var(--text);
+      line-height:1.55;
+      overflow-x:hidden;
+    }
+
+    /* ===== Premium background (formal, subtle) ===== */
+    .bg{
+      position:fixed; inset:0; z-index:-2;
+      background:
+        radial-gradient(1100px 760px at 15% -10%, rgba(167,139,250,.30), transparent 58%),
+        radial-gradient(1000px 760px at 85% 0%, rgba(125,211,252,.26), transparent 55%);
+    }
+
+    /* grid overlay (static) */
+    .gridOverlay{
+      position:fixed; inset:-2px; z-index:-1;
+      background:
+        linear-gradient(to right, rgba(255,255,255,.06) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255,255,255,.05) 1px, transparent 1px);
+      background-size: 54px 54px;
+      opacity: .18;
+      transform: translateZ(0);
+      mask-image: radial-gradient(800px 520px at 50% 20%, rgba(0,0,0,1), rgba(0,0,0,.25) 55%, transparent 72%);
+      -webkit-mask-image: radial-gradient(800px 520px at 50% 20%, rgba(0,0,0,1), rgba(0,0,0,.25) 55%, transparent 72%);
+      pointer-events:none;
+    }
+
+    /* noise overlay (tiny) */
+    .noise{
+      position:fixed; inset:0; z-index:-1;
+      opacity:.05;
+      pointer-events:none;
+      background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)' opacity='.55'/%3E%3C/svg%3E");
+    }
+
+    a{color:inherit; text-decoration:none}
+    a:hover{opacity:.94}
+
+    .wrap{max-width:var(--max); margin:0 auto; padding:22px 18px 68px;}
+
+    /* ===== Top bar ===== */
+    .top{
+      display:flex; align-items:center; justify-content:space-between; gap:12px;
+      padding:14px 14px; border:1px solid var(--border); border-radius:var(--radius);
+      background: linear-gradient(180deg, rgba(255,255,255,.10), rgba(255,255,255,.04));
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(14px);
+      position:sticky; top:10px; z-index:30;
+    }
+
+    .brand{display:flex; align-items:center; gap:12px; min-width: 260px;}
+    .avatar{
+      width:42px; height:42px; border-radius:16px;
+      background: linear-gradient(135deg, rgba(125,211,252,.45), rgba(167,139,250,.45));
+      border:1px solid var(--border);
+      display:grid; place-items:center;
+      font-weight:900;
+      letter-spacing:.6px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.25);
+      position:relative;
+      overflow:hidden;
+    }
+    .avatar:after{
+      content:"";
+      position:absolute; inset:-60% -40%;
+      background: radial-gradient(circle at 30% 30%, rgba(255,255,255,.30), transparent 45%);
+      transform: rotate(18deg);
+    }
+    .brand h1{margin:0; font-size:14px; line-height:1.1}
+    .brand p{margin:0; font-size:12px; color:var(--muted)}
+
+    .right{display:flex; align-items:center; gap:10px; flex-wrap:wrap; justify-content:flex-end}
+
+    .pill{
+      padding:8px 10px; border:1px solid var(--border); border-radius:999px;
+      background: rgba(255,255,255,.06);
+      font-size:12px;
+      display:flex; align-items:center; gap:8px;
+    }
+    .pill strong{font-weight:800}
+
+    .btn{
+      border:1px solid var(--border);
+      background: rgba(255,255,255,.06);
+      padding:9px 11px;
+      border-radius:999px;
+      font-size:12px;
+      display:inline-flex; align-items:center; gap:8px;
+      cursor:pointer;
+    }
+    .btn:hover{background: rgba(255,255,255,.09); border-color: rgba(255,255,255,.20)}
+
+    select{
+      border:1px solid var(--border);
+      background: rgba(255,255,255,.06);
+      color: var(--text);
+      padding:9px 10px;
+      border-radius:999px;
+      font-size:12px;
+      outline:none;
+      cursor:pointer;
+    }
+
+    /* ===== Layout ===== */
+    .grid{display:grid; grid-template-columns: 1.12fr .88fr; gap:16px; margin-top:16px;}
+    @media (max-width: 920px){ .grid{grid-template-columns:1fr; } .brand{min-width:auto} .top{position:relative; top:auto;} }
+
+    .card{
+      border:1px solid var(--border);
+      border-radius: var(--radius);
+      background: rgba(255,255,255,.05);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(10px);
+      overflow:hidden;
+      position:relative;
+    }
+
+    /* soft glow (static, no cursor tracking) */
+    .card:before{
+      content:"";
+      position:absolute; inset:-1px;
+      background:
+        radial-gradient(520px 360px at 50% 20%, rgba(125,211,252,.12), transparent 55%),
+        radial-gradient(520px 360px at 70% 45%, rgba(167,139,250,.10), transparent 58%);
+      opacity:1;
+      pointer-events:none;
+    }
+
+    .pad{padding:18px;}
+
+    .kicker{font-size:12px; color:var(--muted); letter-spacing:.25px; text-transform:uppercase;}
+    h2{margin:8px 0 10px; font-size:18px;}
+    h3{margin:0 0 10px; font-size:14px;}
+    p{margin:10px 0; color:var(--text)}
+    .muted{color:var(--muted)}
+    .muted2{color:var(--muted2)}
+
+    .heroTitle{
+      font-size:30px; line-height:1.12; margin:10px 0 10px; letter-spacing:-.6px;
+    }
+    @media (max-width:520px){ .heroTitle{font-size:24px} }
+
+    .heroTitle span{
+      background: linear-gradient(90deg, var(--accent), var(--accent2));
+      -webkit-background-clip:text; background-clip:text; color: transparent;
+    }
+
+    .badges{display:flex; flex-wrap:wrap; gap:8px; margin-top:10px}
+    .badge{
+      font-size:12px; padding:7px 10px;
+      border-radius:999px;
+      border:1px solid var(--border);
+      background: rgba(255,255,255,.06);
+      color: var(--muted);
+    }
+
+    .ctaRow{display:flex; gap:10px; flex-wrap:wrap; margin-top:12px;}
+    .ctaPrimary{
+      background: linear-gradient(135deg, rgba(125,211,252,.28), rgba(167,139,250,.22));
+      border: 1px solid rgba(255,255,255,.18);
+      color: var(--text);
+    }
+
+    .mini{
+      display:grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap:10px;
+      margin-top:14px;
+    }
+    @media (max-width:600px){ .mini{grid-template-columns:1fr} }
+
+    .stat{
+      border:1px solid var(--border);
+      border-radius: var(--radius2);
+      padding:12px;
+      background: rgba(255,255,255,.05);
+      position:relative;
+      overflow:hidden;
+    }
+    .stat:after{
+      content:"";
+      position:absolute; inset:-40% -30%;
+      background: radial-gradient(circle at 30% 30%, rgba(255,255,255,.14), transparent 55%);
+      transform: rotate(12deg);
+      opacity:.75;
+    }
+    .stat .n{font-size:18px; font-weight:900; position:relative}
+    .stat .l{font-size:12px; color:var(--muted); position:relative}
+
+    /* ===== Project cards ===== */
+    .projGrid{display:grid; grid-template-columns:1fr; gap:10px; margin-top:10px;}
+    .proj{
+      border:1px solid var(--border);
+      border-radius: var(--radius2);
+      padding:12px;
+      background: rgba(255,255,255,.05);
+      position:relative;
+      overflow:hidden;
+    }
+    .proj:before{
+      content:"";
+      position:absolute; inset:-1px;
+      background: radial-gradient(520px 320px at 50% 20%, rgba(125,211,252,.10), transparent 55%);
+      opacity:1;
+      pointer-events:none;
+    }
+
+    .projTop{display:flex; align-items:flex-start; justify-content:space-between; gap:10px;}
+    .projTop h4{margin:0; font-size:14px}
+
+    .chips{display:flex; flex-wrap:wrap; gap:7px; margin-top:8px}
+    .chip{
+      font-size:11px; padding:6px 9px;
+      border-radius:999px;
+      border:1px solid var(--border);
+      background: rgba(255,255,255,.05);
+      color: var(--muted);
+      display:inline-flex;
+    }
+    .links{display:flex; flex-wrap:wrap; gap:10px; margin-top:10px;}
+    .link{font-size:12px; color:var(--text); opacity:.92}
+
+    /* ===== Collapsibles ===== */
+    details{
+      border:1px solid var(--border);
+      border-radius: var(--radius2);
+      background: rgba(255,255,255,.04);
+      padding:10px 12px;
+      margin-top:10px;
+    }
+    details > summary{cursor:pointer; list-style:none; display:flex; align-items:center; justify-content:space-between; gap:10px;}
+    details > summary::-webkit-details-marker{display:none}
+    .caret{opacity:.7}
+
+    /* ===== Tools ===== */
+    .toolHeader{display:flex; align-items:center; justify-content:space-between; gap:10px; flex-wrap:wrap}
+    .toolSearch{
+      width: min(360px, 100%);
+      border:1px solid var(--border);
+      background: rgba(255,255,255,.06);
+      color: var(--text);
+      padding:10px 12px;
+      border-radius: 999px;
+      outline:none;
+      font-size:12px;
+    }
+    .toolGroups{display:grid; gap:10px; margin-top:10px;}
+    .group{
+      border:1px solid var(--border);
+      border-radius: var(--radius2);
+      background: rgba(255,255,255,.05);
+      padding:12px;
+    }
+    .groupTitle{display:flex; align-items:center; justify-content:space-between; gap:10px;}
+    .groupTitle strong{font-size:12px}
+    .count{font-size:11px; color:var(--muted)}
+
+    /* ===== Articles ===== */
+    .article{
+      border:1px solid var(--border);
+      border-radius: var(--radius2);
+      background: rgba(255,255,255,.05);
+      padding:12px;
+    }
+
+    /* ===== Modes: sections visible depending on data-modes ===== */
+    [data-modes]{display:none}
+    body[data-mode="summary"] [data-modes~="summary"],
+    body[data-mode="recruiter"] [data-modes~="recruiter"],
+    body[data-mode="deep"] [data-modes~="deep"]{display:block}
+
+    .hr{height:1px; background: var(--border); margin:12px 0;}
+    .note{font-size:12px; color:var(--muted)}
+
+    footer{margin-top:18px; color:var(--muted); font-size:12px; text-align:center}
+
+    @media print{
+      .top, .no-print{display:none !important}
+      body{background:#fff; color:#000}
+      .card{box-shadow:none}
+      .bg,.gridOverlay,.noise{display:none}
+    }
+  </style>
 </head>
+<body data-mode="recruiter" data-lang="es">
 
-<body>
-  <header class="topbar">
-    <div class="container">
-      <div class="topbar-inner">
-        <div class="brand">
-          <span style="font-size:18px">🧠</span>
-          <span>Vladimir Acuña</span>
-          <span class="badge">Arquitecto de Software · Senior</span>
-          <span class="viewchip" id="viewChip" title="Modo de lectura actual">Vista: Normal</span>
+  <div class="bg" aria-hidden="true"></div>
+  <div class="gridOverlay" aria-hidden="true"></div>
+
+  <!-- Theme (no movement) -->
+  <div class="no-print" style="position:fixed; right:16px; bottom:16px; z-index:80; display:flex; gap:8px; align-items:center">
+    <span class="pill" style="gap:10px">
+      <strong>Tema</strong>
+      <select id="themeSelect" aria-label="Tema">
+        <option value="ocean" selected>Ocean</option>
+        <option value="violet">Violet</option>
+        <option value="emerald">Emerald</option>
+        <option value="mono">Mono</option>
+        <option value="light">Light</option>
+      </select>
+    </span>
+  </div>
+
+  <div class="noise" aria-hidden="true"></div>
+
+  <!--
+    ✅ Versión estática (formal):
+    - SIN spotlight por cursor
+    - SIN tilt/rotación
+    - SIN animaciones al scroll
+    - Solo cambio de paleta por tema (color)
+  -->
+
+  <div class="wrap">
+    <div class="top no-print">
+      <div class="brand">
+        <div class="avatar" aria-hidden="true">VA</div>
+        <div>
+          <h1 id="name">Vladimir Acuña</h1>
+          <p data-i18n="top.subtitle">Arquitecto de Software · Modernización Legacy · PHP/SQL Server</p>
         </div>
+      </div>
 
-        <!-- Botón menú móvil -->
-        <button class="iconbtn" id="menuBtn" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="navMenu">
-          ☰
-        </button>
+      <div class="right">
+        <a class="btn" id="btnEmail" href="#" rel="noopener">✉️ <span data-i18n="top.email">Email</span></a>
+        <a class="btn" id="btnLinkedIn" href="#" target="_blank" rel="noopener">in <span data-i18n="top.linkedin">LinkedIn</span></a>
+        <a class="btn" id="btnGitHub" href="#" target="_blank" rel="noopener">⛭ <span data-i18n="top.github">GitHub</span></a>
+        <a class="btn" id="btnGitLab" href="#" target="_blank" rel="noopener">▣ <span data-i18n="top.gitlab">GitLab</span></a>
 
-        <nav id="navMenu" class="nav-menu" aria-label="principal">
-          <div class="nav-row nav-row-links">
-            <a href="#proyectos">Proyectos</a>
-            <a href="#labs">Labs & Demos</a>
-            <a href="#experiencia">Experiencia</a>
-            <a href="#roles">Roles</a>
-            <a href="#servicios">Servicios</a>
-            <a href="#descargas">Descargas</a>
-            <a href="#referencias">Referencias</a>
-            <a href="#contacto">Contacto</a>
-          </div>
+        <span class="pill">
+          <strong data-i18n="top.mode">Modo</strong>
+          <select id="modeSelect" aria-label="Modo">
+            <option value="summary">Resumen</option>
+            <option value="recruiter" selected>Reclutador</option>
+            <option value="deep">Profundo</option>
+          </select>
+        </span>
 
-          <div class="nav-row nav-row-actions">
-            <!-- Selector de vistas (3 modos) -->
-            <div class="view-switch" id="viewSwitch" role="group" aria-label="Modo de lectura">
-              <button class="vs-btn" type="button" data-view="quick">👔 Reclutador</button>
-              <button class="vs-btn" type="button" data-view="normal">👀 Normal</button>
-              <button class="vs-btn" type="button" data-view="deep">🧠 Profundo</button>
-            </div>
-
-            <a href="https://github.com/vladimiracunadev-create" target="_blank" rel="noopener">GitHub</a>
-            <a href="https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29/" target="_blank" rel="noopener">LinkedIn</a>
-            <a href="https://www.youtube.com/@VladimirAcu%C3%B1aDev" target="_blank" rel="noopener">YouTube</a>
-            <a href="https://x.com/VladiAcunaDev" target="_blank" rel="noopener">X</a>
-            <a href="https://www.tiktok.com/@vladimiracunadev" target="_blank" rel="noopener">TikTok</a>
-          </div>
-        </nav>
+        <span class="pill">
+          <strong data-i18n="top.lang">Idioma</strong>
+          <select id="langSelect" aria-label="Idioma">
+            <option value="es" selected>ES</option>
+            <option value="en">EN</option>
+          </select>
+        </span>
       </div>
     </div>
-  </header>
 
-  <!-- Overlay menú móvil -->
-  <div class="overlay" id="overlay" hidden></div>
+    <div class="grid">
 
-  <!-- Toast (mensaje al cambiar vista / abrir acordeón) -->
-  <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
-
-  <main>
-    <!-- HERO -->
-    <section class="hero reveal">
-      <div class="container">
-        <div class="hero-grid">
-          <div class="card">
-            <h1>Modernizo sistemas legacy, construyo herramientas y automatizo procesos.</h1>
-
-            <p class="lead">
-              Arquitecto de Software & Desarrollador Senior. 14+ años liderando migraciones, optimización de sistemas,
-              reportes complejos y plataformas web educativas. Hoy enfocado en modernización progresiva (PHP 5.4→8.x),
-              DevOps, automatización (Python+n8n) e IA local.
-            </p>
-
-            <!-- También postulo como (pills clickeables) -->
-            <div class="pillrow roles-pills">
-              <a class="pill pill-link" href="#roles">🧩 Modernization Architect</a>
-              <a class="pill pill-link" href="#roles">🏗️ Platform Engineer (IDP)</a>
-              <a class="pill pill-link" href="#roles">📈 SRE Apps</a>
-              <a class="pill pill-link" href="#roles">🗄️ Migration Lead</a>
-            </div>
-
-            <!-- Roles extra (se ocultan en vista Reclutador) -->
-            <div class="pillrow optional">
-              <a class="pill pill-link" href="#roles">🎓 Relator / Instructor TI</a>
-              <a class="pill pill-link" href="#roles">🧾 Asesorías de Sistemas (Pymes)</a>
-              <a class="pill pill-link" href="#roles">📣 MarTech / Automatización Marketing</a>
-              <a class="pill pill-link" href="#roles">🧭 Analista de Negocio (TI)</a>
-            </div>
-
-            <div class="pillrow">
-              <div class="pill">⚙️ PHP 5.4–8.x</div>
-              <div class="pill">🗄️ SQL Server / MySQL</div>
-              <div class="pill">☁️ AWS (S3, Amplify)</div>
-              <div class="pill">🐳 Docker</div>
-              <div class="pill">🤖 IA local (Ollama)</div>
-            </div>
-
-            <div class="cta">
-              <a class="btn primary" href="#contacto">📨 Conversemos</a>
-              <a class="btn" href="#proyectos">📁 Ver proyectos</a>
-              <a class="btn" href="#roles">🧩 Ver roles</a>
-              <a class="btn" href="#labs">🧪 Ver demos</a>
-
-              <a class="btn" href="https://github.com/vladimiracunadev-create" target="_blank" rel="noopener">🐙 GitHub</a>
-              <a class="btn" href="https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29/" target="_blank" rel="noopener">in LinkedIn</a>
-              <a class="btn" href="mailto:vladimir.acuna.dev@gmail.com?subject=Contacto%20portfolio%20Vladimir">✉️ Email</a>
-            </div>
-          </div>
-
-          <aside class="card side">
-            <h3>Lo que puedo aportar rápido</h3>
-            <div class="kv">
-              <div class="item">
-                <b>Modernización progresiva</b>
-                <span>Refactor, compatibilidad, performance y reducción de deuda técnica.</span>
-              </div>
-              <div class="item">
-                <b>Automatización y DevOps</b>
-                <span>CI/CD, pipelines, Docker labs, despliegues repetibles.</span>
-              </div>
-              <div class="item">
-                <b>Diagnóstico y soporte</b>
-                <span>Herramientas web para logs, configuración y análisis rápido.</span>
-              </div>
-              <div class="item">
-                <b>Negocio + TI</b>
-                <span>También soy técnico en administración de empresas: procesos, eficiencia, marketing y medición.</span>
-              </div>
-            </div>
-          </aside>
-        </div>
-      </div>
-    </section>
-
-    <!-- PROYECTOS -->
-    <section id="proyectos" class="reveal">
-      <div class="container">
-        <h2 class="section-title">Proyectos destacados</h2>
-        <p class="muted" style="margin-top:-6px">
-          Selección de proyectos y microsistemas con foco en <strong>modernización</strong>, <strong>productividad</strong> y <strong>automatización</strong>.
-        </p>
-
-        <div class="grid cols-3">
-          <article class="card">
-            <h3>Batería Online (Fundación CEIS)</h3>
-            <p class="muted">
-              Suite psicométrica web a gran escala: evolución/soporte y modernización progresiva, optimización SQL Server,
-              reportes PDF/Excel y continuidad operacional.
-            </p>
-            <div class="taglist">
-              <span class="tag">PHP</span><span class="tag">SQL Server</span><span class="tag">Reporting</span><span class="tag">Operación</span>
-            </div>
-
-            <div class="links">
-              <a class="btn small primary" href="#referencias">📞 Ver referencia laboral</a>
-              <a class="btn small" href="#contacto">📨 Contactarme</a>
-            </div>
-
-            <div class="note">
-              *Por confidencialidad, no publico repos/código del producto institucional. Detalles y validación de experiencia vía referencia laboral.
-            </div>
-          </article>
-
-          <article class="card">
-            <h3>Microsistemas · Caja de herramientas</h3>
-            <p class="muted">
-              Herramientas autocontenidas para soporte, diagnóstico y modernización de sistemas legacy (PHP 5.4 → 8.x + HTML/JS).
-            </p>
-
-            <!-- Optional: se oculta en vista Reclutador -->
-            <ul class="clean muted optional" style="margin-top:10px">
-              <li>• Conversor de acentos/encoding</li>
-              <li>• mini-phpMyAdmin acotado (SQL seguro)</li>
-              <li>• Visor de logs/configuración (solo lectura)</li>
-              <li>• Migrador parcial PHP 5.4 → 8.x (asistente)</li>
-              <li>• Dev Tools JavaScript (minify/lint/transpile/sandbox)</li>
-            </ul>
-
-            <div class="taglist" style="margin-top:10px">
-              <span class="tag">Legacy Support</span><span class="tag">Productividad</span><span class="tag">Dev Tools</span>
-            </div>
-            <div class="links">
-              <a class="btn small primary" href="https://github.com/vladimiracunadev-create" target="_blank" rel="noopener">🐙 GitHub</a>
-              <a class="btn small" href="#labs">🧪 Ver demos</a>
-            </div>
-          </article>
-
-          <article class="card">
-            <h3>mcp-ollama-local (IA local + Tools)</h3>
-            <p class="muted">
-              Web local (FastAPI) + Ollama con tools vía MCP (system_info/list_files/grep_text) y opcional historial en SQLite.
-              Interacción segura y trazable.
-            </p>
-            <div class="taglist">
-              <span class="tag">FastAPI</span><span class="tag">Ollama</span><span class="tag">MCP Tools</span><span class="tag">SQLite</span>
-            </div>
-            <div class="links">
-              <a class="btn small primary" href="https://github.com/vladimiracunadev-create" target="_blank" rel="noopener">📦 Repo (GitHub)</a>
-            </div>
-          </article>
-
-          <!-- Optional: se oculta en vista Reclutador -->
-          <article class="card optional">
-            <h3>Automatización (Python + n8n + PHP)</h3>
-            <p class="muted">
-              Flujos modulares: scheduler en Python, routing en n8n y API PHP registrando eventos (extensible a DB/colas/notificaciones).
-            </p>
-            <div class="taglist">
-              <span class="tag">Python</span><span class="tag">n8n</span><span class="tag">API</span>
-            </div>
-            <div class="links">
-              <a class="btn small primary" href="https://github.com/vladimiracunadev-create" target="_blank" rel="noopener">📦 Repo (GitHub)</a>
-            </div>
-          </article>
-
-          <!-- Optional: se oculta en vista Reclutador -->
-          <article class="card optional">
-            <h3>Telemetría y Offline-Sync</h3>
-            <p class="muted">
-              IndexedDB + Service Worker: medición (TTFB/latencia), sincronización diferida, reintentos con backoff y resiliencia offline-first.
-            </p>
-            <div class="taglist">
-              <span class="tag">IndexedDB</span><span class="tag">Service Worker</span><span class="tag">Observabilidad</span>
-            </div>
-          </article>
-
-          <!-- Optional: se oculta en vista Reclutador -->
-          <article class="card optional">
-            <h3>Reportes & Data Quality</h3>
-            <p class="muted">
-              Excel multi-sheet, PDFs y validación de métricas: trazabilidad, QA de datos y consistencia entre fuentes.
-            </p>
-            <div class="taglist">
-              <span class="tag">Excel</span><span class="tag">PDF</span><span class="tag">Data Quality</span>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- LABS (Optional: se oculta en vista Reclutador) -->
-    <section id="labs" class="reveal optional">
-      <div class="container">
-        <h2 class="section-title">Labs & Demos (repos reales)</h2>
-        <p class="muted" style="margin-top:-6px">
-          Repos y demos para respaldar lo que digo con implementación concreta (CI/CD, cloud, contenedores, tooling).
-        </p>
-
-        <div class="grid cols-3">
-          <article class="card">
-            <h3>AWS S3 + GitHub Actions</h3>
-            <p class="muted">
-              Deploy automático al hacer <code>push</code> a <strong>main</strong> (sync con <code>--delete</code>).
-            </p>
-            <div class="taglist">
-              <span class="tag">S3</span><span class="tag">GitHub Actions</span><span class="tag">CI/CD</span>
-            </div>
-            <div class="links">
-              <a class="btn small primary" href="https://github.com/vladimiracunadev-create" target="_blank" rel="noopener">🐙 Ver en GitHub</a>
-            </div>
-          </article>
-
-          <article class="card">
-            <h3>AWS Amplify · Deploy por ramas</h3>
-            <p class="muted">
-              Continuous Deployment con <strong>main/dev</strong>, build automático y SSL.
-            </p>
-            <div class="taglist">
-              <span class="tag">Amplify</span><span class="tag">Branches</span><span class="tag">CD</span>
-            </div>
-            <div class="links">
-              <a class="btn small primary" href="https://github.com/vladimiracunadev-create" target="_blank" rel="noopener">🐙 Ver en GitHub</a>
-            </div>
-          </article>
-
-          <article class="card">
-            <h3>Docker Labs 🧪🐳</h3>
-            <p class="muted">
-              Stacks independientes con objetivos claros, documentación y reproducibilidad.
-            </p>
-            <div class="taglist">
-              <span class="tag">Docker</span><span class="tag">Compose</span><span class="tag">Stacks</span>
-            </div>
-            <div class="links">
-              <a class="btn small primary" href="https://github.com/vladimiracunadev-create" target="_blank" rel="noopener">🐙 Ver en GitHub</a>
-            </div>
-          </article>
-        </div>
-
-        <div class="card" style="margin-top:16px">
-          <h3>Acceso rápido a mis repos</h3>
-          <p class="muted">Centralizo demos y avances aquí:</p>
-          <div class="links">
-            <a class="btn small primary" href="https://github.com/vladimiracunadev-create" target="_blank" rel="noopener">🐙 GitHub</a>
-            <a class="btn small" href="https://www.youtube.com/@VladimirAcu%C3%B1aDev" target="_blank" rel="noopener">▶️ YouTube</a>
-            <a class="btn small" href="https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29/" target="_blank" rel="noopener">in LinkedIn</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- EXPERIENCIA -->
-    <section id="experiencia" class="reveal">
-      <div class="container">
-        <h2 class="section-title">Experiencia</h2>
-        <div class="two">
-          <div class="card">
-            <h3>Timeline</h3>
-            <ul class="timeline">
-              <li class="tl-item">
-                <b>2025–Actualidad</b>
-                <span>Transición: laboratorios, automatización (Python+n8n+PHP), microsistemas de productividad y prototipos con IA local.</span>
-              </li>
-              <li class="tl-item">
-                <b>Fundación CEIS Maristas · 14 años</b>
-                <span>Arquitectura, desarrollo y operación de plataformas educativas/psicométricas. Optimización y migraciones.</span>
-              </li>
-              <li class="tl-item">
-                <b>Perfil híbrido</b>
-                <span>Además de TI: formación técnica en administración de empresas (procesos, eficiencia, marketing y medición).</span>
-              </li>
-            </ul>
-          </div>
-
-          <div class="card">
-            <h3>Logros destacables</h3>
-            <ul class="clean muted">
-              <li>• Modernización progresiva y mantención de plataformas web complejas.</li>
-              <li>• Optimización SQL/performance en escenarios de concurrencia y reportes pesados.</li>
-              <li>• Telemetría, diagnósticos, herramientas internas y continuidad operacional.</li>
-              <li>• Automatización de despliegues y prácticas de repo (pipelines, Docker labs, etc.).</li>
-              <li>• Integración de IA (local / controlada) para productividad y documentación.</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ROLES -->
-    <section id="roles" class="reveal">
-      <div class="container">
-        <h2 class="section-title">Roles en los que también encajo (y puedo postular)</h2>
-        <p class="muted" style="margin-top:-6px">
-          Usa el selector de vista: <b>Reclutador</b> (rápido), <b>Normal</b> (equilibrado) o <b>Profundo</b> (todo).
-        </p>
-
-        <h3 class="section-subtitle">Top roles (alta compatibilidad)</h3>
-
-        <div class="grid cols-3">
-          <article class="card role-card">
-            <h3>Arquitecto de Modernización Legacy</h3>
-            <p class="muted">Refactor, estrangular monolitos, versionado, CI/CD, contenedores, observabilidad.</p>
-            <div class="taglist">
-              <span class="tag">Modernization Architect</span>
-              <span class="tag">Legacy Modernization Lead</span>
-              <span class="tag">App Modernization Engineer</span>
-            </div>
-          </article>
-
-          <article class="card role-card">
-            <h3>Platform Engineer / IDP</h3>
-            <p class="muted">Plataforma interna: plantillas Docker, pipelines, entornos reproducibles, estándares.</p>
-            <div class="taglist">
-              <span class="tag">Platform Engineer</span>
-              <span class="tag">IDP</span>
-              <span class="tag">Developer Productivity</span>
-            </div>
-          </article>
-
-          <article class="card role-card">
-            <h3>SRE orientado a aplicaciones</h3>
-            <p class="muted">Performance, capacity planning, SLAs, incidentes, tuning PHP-FPM/Apache, métricas.</p>
-            <div class="taglist">
-              <span class="tag">SRE</span>
-              <span class="tag">Performance</span>
-              <span class="tag">Observabilidad</span>
-            </div>
-          </article>
-
-          <article class="card role-card">
-            <h3>Tech Lead de migraciones (DB + app)</h3>
-            <p class="muted">SQL Server/MySQL, zero-downtime, replicación, ETL, data quality y delivery técnico.</p>
-            <div class="taglist">
-              <span class="tag">Migration Lead</span>
-              <span class="tag">Data Migration Lead</span>
-              <span class="tag">Technical Delivery</span>
-            </div>
-          </article>
-
-          <article class="card role-card optional">
-            <h3>Consultor Performance & Cost Optimization</h3>
-            <p class="muted">FinOps técnico: right-sizing, caching, DB tuning, alertas de presupuesto.</p>
-            <div class="taglist">
-              <span class="tag">FinOps</span>
-              <span class="tag">AWS Cost</span>
-              <span class="tag">Caching/DB Tuning</span>
-            </div>
-          </article>
-
-          <article class="card role-card optional">
-            <h3>Especialista Automatización (n8n / workflows)</h3>
-            <p class="muted">Onboarding, reportes, alertas, integraciones con APIs, bots y flujos internos.</p>
-            <div class="taglist">
-              <span class="tag">n8n</span>
-              <span class="tag">Workflows</span>
-              <span class="tag">Integraciones</span>
-            </div>
-          </article>
-        </div>
-
-        <!-- ===== Acordeón REAL (funciona con JS + animación) ===== -->
-        <div class="accordion optional" id="rolesAccordion" data-accordion="roles">
-          <button class="acc-summary" type="button" id="accRolesBtn" aria-expanded="false" aria-controls="accRolesPanel">
-            Ver más roles (relatoría, asesorías, marketing tech, producto, continuidad, auditoría, datos)
-          </button>
-
-          <div class="acc-panel" id="accRolesPanel" hidden>
-            <h3 class="section-subtitle" style="margin-top:14px">Relatoría / Formación</h3>
-            <div class="grid cols-3">
-              <article class="card role-card">
-                <h3>Relator / Instructor TI</h3>
-                <p class="muted">Capacitaciones prácticas en modernización, buenas prácticas, DevOps, tooling y productividad.</p>
-                <div class="taglist">
-                  <span class="tag">Workshops</span>
-                  <span class="tag">Mentoría</span>
-                  <span class="tag">Capacitación</span>
-                </div>
-              </article>
-
-              <article class="card role-card">
-                <h3>Mentor Técnico (legacy → moderno)</h3>
-                <p class="muted">Guía de equipos en migración, refactor seguro, estándares y despliegues reproducibles.</p>
-                <div class="taglist">
-                  <span class="tag">Tech Mentoring</span>
-                  <span class="tag">Refactor</span>
-                  <span class="tag">CI/CD</span>
-                </div>
-              </article>
-            </div>
-
-            <h3 class="section-subtitle" style="margin-top:18px">Asesorías de Sistemas (Pymes / Instituciones)</h3>
-            <div class="grid cols-3">
-              <article class="card role-card">
-                <h3>Asesor de Sistemas / Auditoría práctica</h3>
-                <p class="muted">Diagnóstico de deuda técnica, riesgos, performance, costos, plan de acción por etapas.</p>
-                <div class="taglist">
-                  <span class="tag">Assessment</span>
-                  <span class="tag">Roadmap</span>
-                  <span class="tag">Riesgos</span>
-                </div>
-              </article>
-
-              <article class="card role-card">
-                <h3>Gestión TI / Continuidad Operacional</h3>
-                <p class="muted">Backups, RTO/RPO, DRP, hardening básico, monitoreo y procedimientos.</p>
-                <div class="taglist">
-                  <span class="tag">RTO/RPO</span>
-                  <span class="tag">DRP</span>
-                  <span class="tag">Monitoreo</span>
-                </div>
-              </article>
-
-              <article class="card role-card">
-                <h3>Implementador Integraciones (SSO / CRM / LMS)</h3>
-                <p class="muted">Conexión de plataformas, exportaciones, reporting y procesos de operación.</p>
-                <div class="taglist">
-                  <span class="tag">SSO</span>
-                  <span class="tag">Integraciones</span>
-                  <span class="tag">Reporting</span>
-                </div>
-              </article>
-            </div>
-
-            <h3 class="section-subtitle" style="margin-top:18px">Producto / Pre-Sales / Negocio</h3>
-            <div class="grid cols-3">
-              <article class="card role-card">
-                <h3>Product Engineer (producto + ingeniería)</h3>
-                <p class="muted">Traduzco necesidades del negocio a soluciones con impacto (ideal edtech/reporting).</p>
-                <div class="taglist">
-                  <span class="tag">Product</span>
-                  <span class="tag">Discovery</span>
-                  <span class="tag">Impacto</span>
-                </div>
-              </article>
-
-              <article class="card role-card">
-                <h3>Solutions Engineer / Pre-Sales técnico</h3>
-                <p class="muted">Demos y PoC reales; requisitos, arquitectura y comunicación con TI/negocio.</p>
-                <div class="taglist">
-                  <span class="tag">PoC</span>
-                  <span class="tag">Demos</span>
-                  <span class="tag">Arquitectura</span>
-                </div>
-              </article>
-
-              <article class="card role-card">
-                <h3>Analista de Negocio (TI)</h3>
-                <p class="muted">Procesos, KPIs, reporting, eficiencia; puente entre áreas y tecnología.</p>
-                <div class="taglist">
-                  <span class="tag">Procesos</span>
-                  <span class="tag">KPIs</span>
-                  <span class="tag">Mejora continua</span>
-                </div>
-              </article>
-            </div>
-
-            <h3 class="section-subtitle" style="margin-top:18px">Marketing Tech / Automatización (por formación + experiencia técnica)</h3>
-            <div class="grid cols-3">
-              <article class="card role-card">
-                <h3>MarTech / Automatización Marketing</h3>
-                <p class="muted">Integraciones, tracking, campañas, reporting y automatización (enfoque técnico).</p>
-                <div class="taglist">
-                  <span class="tag">Automations</span>
-                  <span class="tag">Tracking</span>
-                  <span class="tag">Reporting</span>
-                </div>
-              </article>
-
-              <article class="card role-card">
-                <h3>Consultor de Productividad & Operación Digital</h3>
-                <p class="muted">Estandarización, plantillas, checklists, tooling y automatizaciones para equipos.</p>
-                <div class="taglist">
-                  <span class="tag">Productividad</span>
-                  <span class="tag">Tooling</span>
-                  <span class="tag">Operación</span>
-                </div>
-              </article>
-
-              <article class="card role-card">
-                <h3>Technical Writer / Documentación técnica</h3>
-                <p class="muted">Guías, repos, tutoriales, procedimientos y documentación operativa clara.</p>
-                <div class="taglist">
-                  <span class="tag">Docs</span>
-                  <span class="tag">Runbooks</span>
-                  <span class="tag">Tutoriales</span>
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
-        <!-- ===== FIN Acordeón ===== -->
-      </div>
-    </section>
-
-    <!-- SERVICIOS -->
-    <section id="servicios" class="reveal">
-      <div class="container">
-        <h2 class="section-title">Servicios</h2>
-        <div class="grid cols-3">
-          <article class="card">
-            <h3>Modernización PHP Legacy</h3>
-            <p class="muted">Plan gradual: compatibilidad, refactor, pruebas, performance, despliegue seguro.</p>
-            <div class="taglist">
-              <span class="tag">PHP 5.x → 8.x</span><span class="tag">Refactor</span><span class="tag">QA</span>
-            </div>
-          </article>
-
-          <article class="card">
-            <h3>DevOps & CI/CD</h3>
-            <p class="muted">Automatización con GitHub Actions, despliegues a AWS, contenedores y buenas prácticas.</p>
-            <div class="taglist">
-              <span class="tag">Actions</span><span class="tag">AWS</span><span class="tag">Docker</span>
-            </div>
-          </article>
-
-          <article class="card">
-            <h3>Asesoría TI (diagnóstico + plan)</h3>
-            <p class="muted">Evaluación rápida: riesgos, performance, costos, deuda técnica y plan por etapas.</p>
-            <div class="taglist">
-              <span class="tag">Assessment</span><span class="tag">Roadmap</span><span class="tag">Quick wins</span>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- DESCARGAS -->
-    <section id="descargas" class="reveal">
-      <div class="container">
-        <h2 class="section-title">Descargas</h2>
-        <div class="card">
-          <h3>PDFs listos para compartir</h3>
-          <p class="muted">
-            Versiones en PDF listas para compartir con reclutadores y empresas.
-          </p>
-          <div class="cta">
-            <a class="btn primary" href="portafolio-vladimir-acuna.pdf" target="_blank" rel="noopener">📂 Descargar Portafolio (PDF)</a>
-            <a class="btn" href="cv-vladimir-acuna-reducido.pdf" target="_blank" rel="noopener">📑 CV reducido (PDF)</a>
-            <a class="btn" href="cv-vladimir-acuna-completo.pdf" target="_blank" rel="noopener">📄 CV completo (PDF)</a>
-          </div>
-          <div class="note">Si cambias la carpeta, ajusta estos <code>href</code> (por ejemplo: <code>assets/cv-vladimir-acuna-completo.pdf</code>).</div>
-        </div>
-      </div>
-    </section>
-
-    <!-- REFERENCIAS -->
-    <section id="referencias" class="reveal">
-      <div class="container">
-        <h2 class="section-title">Referencias laborales</h2>
-        <div class="card">
-          <p class="muted" style="margin-top:0">
-            Para roles/proyectos institucionales (ej. Batería Online), la validación de experiencia y detalles se realiza vía referencia laboral.
+      <!-- LEFT -->
+      <section class="card">
+        <div class="pad">
+          <div class="kicker" data-i18n="hero.kicker">Portafolio</div>
+          <div class="heroTitle" data-i18n="hero.title">Modernizo sistemas legacy <span>sin frenar la operación</span>.</div>
+          <p class="muted" data-i18n="hero.subtitle">
+            Arquitecto / Senior Full Stack (PHP + SQL Server) enfocado en rendimiento, estabilidad y evolución progresiva.
+            CI/CD, Docker y AWS cuando aporta valor.
           </p>
 
-          <div class="refbox">
-            <div class="refitem">
-              <b>Jean Claude Dupry</b>
-              <span class="muted">Último jefe directo</span>
+          <div class="badges" data-modes="recruiter deep">
+            <span class="badge">14+ años en plataforma crítica</span>
+            <span class="badge">Modernización progresiva</span>
+            <span class="badge">Rendimiento + estabilidad</span>
+            <span class="badge">CI/CD + Docker + AWS</span>
+          </div>
+
+          <div class="ctaRow">
+            <a class="btn ctaPrimary" href="#featured" data-i18n="hero.cta1">Ver proyectos clave</a>
+            <a class="btn" href="#downloads" data-i18n="hero.cta2">Descargar CV / PDFs</a>
+            <a class="btn" href="#contact" data-i18n="hero.cta3">Contacto rápido</a>
+          </div>
+
+          <div class="mini" data-modes="summary recruiter deep">
+            <div class="stat">
+              <div class="n">14+</div>
+              <div class="l" data-i18n="stats.1">años sosteniendo y evolucionando productos</div>
             </div>
-            <div class="refitem">
-              <b>Celular</b>
-              <span><a class="ref-link" href="tel:+56994156984">+56 9 9415 6984</a></span>
+            <div class="stat">
+              <div class="n">Legacy → Modern</div>
+              <div class="l" data-i18n="stats.2">migración progresiva sin downtime</div>
+            </div>
+            <div class="stat">
+              <div class="n">CI/CD</div>
+              <div class="l" data-i18n="stats.3">reproducible, documentado, auditable</div>
+            </div>
+          </div>
+
+          <!-- SUMMARY MODE: one-screen proof + links -->
+          <div class="hr" data-modes="summary"></div>
+          <div data-modes="summary">
+            <p class="muted" data-i18n="summary.pitch">
+              Si buscas a alguien que entienda sistemas reales, los estabilice y los modernice por etapas, aquí está mi evidencia.
+            </p>
+            <div class="links">
+              <a class="link" id="sumCv" href="#downloads">📄 <span data-i18n="summary.cv">CV</span></a>
+              <a class="link" id="sumRec" href="#recommendation">✅ <span data-i18n="summary.rec">Recomendación</span></a>
+              <a class="link" id="sumGit" href="#featured">🔗 <span data-i18n="summary.work">Trabajo destacado</span></a>
+            </div>
+          </div>
+
+          <!-- FEATURED PROJECTS -->
+          <div class="hr" data-modes="recruiter deep"></div>
+          <div id="featured" data-modes="recruiter deep">
+            <h2 data-i18n="featured.title">Proyectos destacados</h2>
+            <p class="muted" data-i18n="featured.subtitle">3 pruebas rápidas. El resto queda en “Profundo”.</p>
+            <div class="projGrid" id="featuredList"></div>
+
+            <details data-modes="deep">
+              <summary>
+                <span data-i18n="featured.more">Más proyectos (lista extendida)</span>
+                <span class="caret">▾</span>
+              </summary>
+              <div class="projGrid" id="moreProjects"></div>
+            </details>
+          </div>
+
+          <!-- TOOLS -->
+          <div class="hr" data-modes="recruiter deep"></div>
+          <div id="tools" data-modes="recruiter deep">
+            <div class="toolHeader">
+              <div>
+                <h2 style="margin-bottom:4px" data-i18n="tools.title">Herramientas & Tecnologías</h2>
+                <p class="muted" style="margin-top:0" data-i18n="tools.subtitle">Top 12 primero. Luego agrupado + buscador para no saturar.</p>
+              </div>
+              <input class="toolSearch" id="toolSearch" type="search" placeholder="Buscar herramienta..." aria-label="Buscar herramienta" />
+            </div>
+
+            <div class="chips" id="topTools"></div>
+
+            <details open>
+              <summary>
+                <span data-i18n="tools.groups">Grupos (expandible)</span>
+                <span class="caret">▾</span>
+              </summary>
+              <div class="toolGroups" id="toolGroups"></div>
+              <p class="note" data-i18n="tools.note">Tip: en modo “Reclutador” esto se mantiene compacto. En “Profundo”, se muestra completo.</p>
+            </details>
+          </div>
+
+          <!-- ARTICLES -->
+          <div class="hr" data-modes="recruiter deep"></div>
+          <div id="articles" data-modes="recruiter deep">
+            <h2 data-i18n="articles.title">Artículos</h2>
+            <p class="muted" data-i18n="articles.subtitle">Espacio para futuro: modernización legacy, CI/CD, AWS, operación real.</p>
+            <div id="articlesList" class="projGrid"></div>
+          </div>
+
+          <!-- DOWNLOADS -->
+          <div class="hr" data-modes="recruiter deep"></div>
+          <div id="downloads" data-modes="recruiter deep">
+            <h2 data-i18n="downloads.title">Descargas</h2>
+            <p class="muted" data-i18n="downloads.subtitle">Links directos a PDFs (CV, portafolio, recomendación).</p>
+            <div class="links">
+              <a class="btn" id="dlCv" href="#" target="_blank" rel="noopener">📄 <span data-i18n="downloads.cv">CV (PDF)</span></a>
+              <a class="btn" id="dlPortfolio" href="#" target="_blank" rel="noopener">🗂️ <span data-i18n="downloads.portfolio">Portafolio (PDF)</span></a>
+              <a class="btn" id="dlReco" href="#" target="_blank" rel="noopener">✅ <span data-i18n="downloads.reco">Carta de recomendación (PDF)</span></a>
+            </div>
+            <p class="note" data-i18n="downloads.note">* Si aún no tienes el PDF subido, deja el link en # o apunta a /assets/archivo.pdf</p>
+          </div>
+
+          <!-- RECOMMENDATION -->
+          <div class="hr" data-modes="recruiter deep"></div>
+          <div id="recommendation" data-modes="recruiter deep">
+            <h2 data-i18n="reco.title">Confianza / Referencias</h2>
+            <div class="proj">
+              <div class="projTop">
+                <div>
+                  <h4 data-i18n="reco.cardTitle">Carta de recomendación</h4>
+                  <p class="muted" style="margin:6px 0 0" data-i18n="reco.cardSub">Validación formal del trabajo, impacto y confiabilidad. Disponible como PDF.</p>
+                </div>
+                <a class="btn" id="recoBtn" href="#" target="_blank" rel="noopener">✅ <span data-i18n="reco.open">Abrir</span></a>
+              </div>
+              <ul class="muted" style="margin:10px 0 0; padding-left:18px">
+                <li data-i18n="reco.b1">Participación en sistemas productivos con continuidad operativa.</li>
+                <li data-i18n="reco.b2">Responsabilidad, criterio técnico y colaboración con negocio.</li>
+                <li data-i18n="reco.b3">Entrega consistente, orden y mejora continua.</li>
+              </ul>
+              <p class="note" data-i18n="reco.privacy">Nota: por privacidad, el teléfono de referencia se comparte a solicitud (con autorización).</p>
             </div>
           </div>
 
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- CONTACTO -->
-    <section id="contacto" class="reveal">
-      <div class="container">
-        <h2 class="section-title">Contacto</h2>
-        <div class="card">
-          <p class="muted">
-            ¿Buscas modernizar un sistema legacy, mejorar performance, reducir costos, automatizar procesos o capacitar un equipo?
-            Escríbeme.
-          </p>
-          <div class="cta">
-            <a class="btn primary" href="mailto:vladimir.acuna.dev@gmail.com?subject=Contacto%20portfolio%20Vladimir">✉️ vladimir.acuna.dev@gmail.com</a>
-            <a class="btn" href="https://github.com/vladimiracunadev-create" target="_blank" rel="noopener">🐙 GitHub</a>
-            <a class="btn" href="https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29/" target="_blank" rel="noopener">in LinkedIn</a>
-            <a class="btn" href="https://www.youtube.com/@VladimirAcu%C3%B1aDev" target="_blank" rel="noopener">▶️ YouTube</a>
-            <a class="btn" href="https://x.com/VladiAcunaDev" target="_blank" rel="noopener">𝕏 X</a>
-            <a class="btn" href="https://www.tiktok.com/@vladimiracunadev" target="_blank" rel="noopener">🎵 TikTok</a>
+      <!-- RIGHT -->
+      <aside class="card">
+        <div class="pad">
+
+          <div data-modes="recruiter deep">
+            <div class="kicker" data-i18n="roles.kicker">Enfoque</div>
+            <h2 data-i18n="roles.title">Roles objetivo</h2>
+            <div class="chips" id="primaryRoles"></div>
+
+            <details>
+              <summary>
+                <span data-i18n="roles.more">Ver roles secundarios</span>
+                <span class="caret">▾</span>
+              </summary>
+              <div class="chips" id="secondaryRoles"></div>
+            </details>
           </div>
-        </div>
-      </div>
-    </section>
-  </main>
 
-  <footer>
-    <div class="container">
-      <div style="display:flex; flex-wrap:wrap; gap:12px; justify-content:space-between; align-items:center">
-        <div>© <span id="y"></span> Vladimir Acuña · Portafolio</div>
-        <div class="muted">Hecho con HTML + CSS · Enfoque en claridad, impacto y demos reproducibles.</div>
-      </div>
+          <div class="hr" data-modes="summary recruiter deep"></div>
+          <div data-modes="summary recruiter deep">
+            <div class="kicker" data-i18n="value.kicker">Qué aporto</div>
+            <h2 data-i18n="value.title">Impacto típico</h2>
+            <ul class="muted" style="margin:10px 0 0; padding-left:18px" id="impactList"></ul>
+          </div>
+
+          <div class="hr"></div>
+          <div id="contact">
+            <div class="kicker" data-i18n="contact.kicker">Contacto</div>
+            <h2 data-i18n="contact.title">Rápido y directo</h2>
+
+            <div class="proj">
+              <h4 style="margin:0 0 6px" data-i18n="contact.me">Tú</h4>
+              <div class="links">
+                <a class="link" id="cEmail" href="#">✉️ <span data-i18n="contact.email">Email</span></a>
+                <a class="link" id="cLinkedIn" href="#" target="_blank" rel="noopener">in <span data-i18n="contact.linkedin">LinkedIn</span></a>
+                <a class="link" id="cGitHub" href="#" target="_blank" rel="noopener">⛭ <span data-i18n="contact.github">GitHub</span></a>
+                <a class="link" id="cGitLab" href="#" target="_blank" rel="noopener">▣ <span data-i18n="contact.gitlab">GitLab</span></a>
+              </div>
+            </div>
+
+            <div class="proj" style="margin-top:10px">
+              <div class="projTop">
+                <div>
+                  <h4 style="margin:0" data-i18n="contact.refTitle">Referencia profesional</h4>
+                  <p class="muted" style="margin:6px 0 0" data-i18n="contact.refSub">Disponible para confirmar desempeño y colaboración.</p>
+                </div>
+              </div>
+              <div class="links" style="margin-top:10px">
+                <a class="link" id="refLinkedIn" href="#" target="_blank" rel="noopener">in <span data-i18n="contact.refLinkedIn">LinkedIn (referencia)</span></a>
+                <span class="link"><span data-i18n="contact.refPhone">Teléfono</span>: <span class="muted2" data-i18n="contact.refPhoneValue">a solicitud (con autorización)</span></span>
+              </div>
+              <p class="note" data-i18n="contact.refNote">Si necesitas el número para verificación rápida, te lo comparto por correo.</p>
+            </div>
+
+            <div class="ctaRow" style="margin-top:12px">
+              <a class="btn ctaPrimary" id="btnMail2" href="#">✉️ <span data-i18n="contact.cta">Escríbeme</span></a>
+              <button class="btn" onclick="window.print()">🖨️ <span data-i18n="contact.print">Imprimir / PDF</span></button>
+            </div>
+          </div>
+
+          <div class="hr" data-modes="deep"></div>
+          <div data-modes="deep">
+            <div class="kicker" data-i18n="deep.kicker">Profundo</div>
+            <p class="muted" data-i18n="deep.note">En esta vista puedes agregar: servicios, más casos, timeline detallado, imágenes, métricas, etc. (sin ensuciar el home).</p>
+          </div>
+
+        </div>
+      </aside>
+
     </div>
-  </footer>
+
+    <footer class="no-print">
+      <div class="muted">© <span id="year"></span> · <span data-i18n="footer">Portafolio (preview). Edita y publica en GitHub Pages.</span></div>
+    </footer>
+  </div>
+
+  <script>
+    // ====== CONFIG (EDITA ESTO) ======
+    const CONFIG = {
+      name: "Vladimir Acuña",
+      email: "mailto:TU_EMAIL@DOMINIO.COM", // ← cambia esto
+      linkedin: "https://www.linkedin.com/in/TU_PERFIL", // ← cambia esto
+      github: "https://github.com/vladimiracunadev-create",
+      gitlab: "https://gitlab.com/vladimir.acuna.dev-group/proyectos-aws-gitlab",
+
+      // PDFs (recomendación: súbelos a /assets/ y apunta aquí)
+      pdf_cv: "#",            // e.g. "assets/CV_Vladimir_Acuna.pdf"
+      pdf_portfolio: "#",     // e.g. "assets/Portafolio_Vladimir_Acuna.pdf"
+      pdf_reco: "#",          // e.g. "assets/Carta_Recomendacion.pdf"
+
+      // Referencia (ideal: LinkedIn + teléfono a solicitud)
+      ref_linkedin: "#"       // e.g. "https://www.linkedin.com/in/NombreReferencia"
+    };
+
+    // ====== DATA ======
+    const DATA = {
+      rolesPrimary: [
+        { es: "Arquitecto Modernización Legacy", en: "Legacy Modernization Architect" },
+        { es: "Tech Lead (Migraciones / Performance)", en: "Tech Lead (Migrations / Performance)" },
+        { es: "Platform / Dev Productivity", en: "Platform / Dev Productivity" },
+        { es: "SRE Apps (Rendimiento/Operación)", en: "App SRE (Performance/Operations)" }
+      ],
+      rolesSecondary: [
+        { es: "Full Stack Senior (PHP/JS)", en: "Senior Full Stack (PHP/JS)" },
+        { es: "Arquitectura de Datos / Reporting", en: "Data/Reporting Architecture" },
+        { es: "Automatización (n8n / scripts)", en: "Automation (n8n / scripts)" },
+        { es: "Cloud (AWS) — práctico", en: "Cloud (AWS) — hands-on" }
+      ],
+      impact: [
+        { es: "Diagnóstico rápido de sistemas complejos (legacy + negocio)", en: "Fast diagnosis of complex systems (legacy + business)" },
+        { es: "Mejoras de rendimiento (DB + app) sin romper continuidad", en: "Performance improvements (DB + app) without breaking continuity" },
+        { es: "Modernización por etapas: orden, pruebas, CI/CD, despliegues", en: "Step-by-step modernization: structure, tests, CI/CD, deployments" },
+        { es: "Automatización de operación y reporting (PDF/Excel/APIs)", en: "Operational automation and reporting (PDF/Excel/APIs)" }
+      ],
+      projectsFeatured: [
+        {
+          title: { es: "Batería Online (CEIS) — caso real", en: "Batería Online (CEIS) — real-world case" },
+          blurb: { es: "Plataforma educativa/psicométrica. Continuidad operativa, estabilidad y evolución progresiva.", en: "Educational/psychometric platform. Operational continuity, stability and progressive evolution." },
+          bullets: {
+            es: ["14 años en operación real", "Optimización performance y mantenibilidad", "Automatización: reporting y procesos"],
+            en: ["14 years in real operations", "Performance and maintainability improvements", "Automation: reporting and processes"]
+          },
+          chips: ["PHP", "SQL Server", "Legacy", "Performance"],
+          links: [
+            { label: { es: "Detalle en Portafolio", en: "Portfolio details" }, href: "#downloads" }
+          ]
+        },
+        {
+          title: { es: "Docker Labs — reproducibilidad", en: "Docker Labs — reproducibility" },
+          blurb: { es: "Laboratorios para levantar stacks y demostrar operación + despliegue de forma repetible.", en: "Labs to run stacks and showcase repeatable ops + deployment." },
+          bullets: {
+            es: ["Stacks con Docker Compose", "Documentación y scripts", "Base para CI/CD"],
+            en: ["Docker Compose stacks", "Docs and scripts", "CI/CD-ready baseline"]
+          },
+          chips: ["Docker", "Compose", "CI/CD"],
+          links: [
+            { label: { es: "Repo GitHub", en: "GitHub repo" }, href: CONFIG.github }
+          ]
+        },
+        {
+          title: { es: "Monorepo AWS en GitLab — aprendizaje guiado", en: "AWS Monorepo on GitLab — guided learning" },
+          blurb: { es: "Casos por nivel: S3, CI/CD, despliegues. Evidencia de práctica y disciplina.", en: "Level-based cases: S3, CI/CD, deployments. Evidence of hands-on practice and discipline." },
+          bullets: {
+            es: ["Casos por carpeta (roadmap)", "CI/CD GitLab", "Deploys y documentación"],
+            en: ["Case-by-folder roadmap", "GitLab CI/CD", "Deploys and documentation"]
+          },
+          chips: ["AWS", "GitLab CI", "S3"],
+          links: [
+            { label: { es: "Repo GitLab", en: "GitLab repo" }, href: CONFIG.gitlab }
+          ]
+        }
+      ],
+      projectsMore: [
+        {
+          title: { es: "Microsistemas — herramientas pequeñas con impacto", en: "Microsystems — small tools with impact" },
+          blurb: { es: "Utilities enfocadas en productividad, soporte a legacy y automatización.", en: "Utilities focused on productivity, legacy support and automation." },
+          chips: ["Tooling", "JS", "Productividad"],
+          links: [ { label:{es:"GitHub", en:"GitHub"}, href: CONFIG.github } ]
+        },
+        {
+          title: { es: "IA aplicada (apoyo, no reemplazo)", en: "Applied AI (support, not replacement)" },
+          blurb: { es: "Uso pragmático para acelerar análisis, documentación y prototipos con criterio técnico.", en: "Pragmatic use to speed analysis, docs and prototypes with engineering judgment." },
+          chips: ["LLMs", "Workflows"],
+          links: [ { label:{es:"Notas/Artículos", en:"Notes/Articles"}, href: "#articles" } ]
+        }
+      ],
+      toolsTop: [
+        "PHP", "JavaScript", "TypeScript", "SQL Server", "MySQL",
+        "Docker", "GitHub Actions", "GitLab CI", "AWS (S3/CloudFront/Amplify)",
+        "Linux/Bash", "Python", "Node.js"
+      ],
+      toolGroups: [
+        { key:"backend", icon:"🧠", title:{es:"Backend", en:"Backend"}, items:["PHP 5.4→8.x", "Node/Express", "Python (FastAPI/Flask)", "APIs REST", "Integraciones"] },
+        { key:"frontend", icon:"🖥️", title:{es:"Frontend", en:"Frontend"}, items:["HTML/CSS", "JS/TS", "PWAs", "UX pragmático"] },
+        { key:"db", icon:"🗄️", title:{es:"Bases de datos", en:"Databases"}, items:["SQL Server", "MySQL", "Optimización", "Reporting", "Migraciones"] },
+        { key:"devops", icon:"⚙️", title:{es:"DevOps", en:"DevOps"}, items:["Docker", "CI/CD", "Git", "Entornos reproducibles"] },
+        { key:"cloud", icon:"☁️", title:{es:"Cloud", en:"Cloud"}, items:["AWS S3", "CloudFront", "Amplify", "Lambda", "DynamoDB (básico)"] },
+        { key:"automation", icon:"🧩", title:{es:"Automatización", en:"Automation"}, items:["n8n", "Schedulers", "Scripts", "PDF/Excel automation"] }
+      ],
+      articles: []
+    };
+
+    // ====== i18n ======
+    const I18N = {
+      es: {
+        "top.subtitle": "Arquitecto de Software · Modernización Legacy · PHP/SQL Server",
+        "top.email":"Email",
+        "top.linkedin":"LinkedIn",
+        "top.github":"GitHub",
+        "top.gitlab":"GitLab",
+        "top.mode":"Modo",
+        "top.lang":"Idioma",
+
+        "hero.kicker":"Portafolio",
+        "hero.title":"Modernizo sistemas legacy sin frenar la operación.",
+        "hero.subtitle":"Arquitecto / Senior Full Stack (PHP + SQL Server) enfocado en rendimiento, estabilidad y evolución progresiva. CI/CD, Docker y AWS cuando aporta valor.",
+        "hero.cta1":"Ver proyectos clave",
+        "hero.cta2":"Descargar CV / PDFs",
+        "hero.cta3":"Contacto rápido",
+
+        "stats.1":"años sosteniendo y evolucionando productos",
+        "stats.2":"migración progresiva sin downtime",
+        "stats.3":"reproducible, documentado, auditable",
+
+        "summary.pitch":"Si buscas a alguien que entienda sistemas reales, los estabilice y los modernice por etapas, aquí está mi evidencia.",
+        "summary.cv":"CV",
+        "summary.rec":"Recomendación",
+        "summary.work":"Trabajo destacado",
+
+        "featured.title":"Proyectos destacados",
+        "featured.subtitle":"3 pruebas rápidas. El resto queda en “Profundo”.",
+        "featured.more":"Más proyectos (lista extendida)",
+
+        "tools.title":"Herramientas & Tecnologías",
+        "tools.subtitle":"Top 12 primero. Luego agrupado + buscador para no saturar.",
+        "tools.groups":"Grupos (expandible)",
+        "tools.note":"Tip: en modo “Reclutador” esto se mantiene compacto. En “Profundo”, se muestra completo.",
+
+        "articles.title":"Artículos",
+        "articles.subtitle":"Espacio para futuro: modernización legacy, CI/CD, AWS, operación real.",
+
+        "downloads.title":"Descargas",
+        "downloads.subtitle":"Links directos a PDFs (CV, portafolio, recomendación).",
+        "downloads.cv":"CV (PDF)",
+        "downloads.portfolio":"Portafolio (PDF)",
+        "downloads.reco":"Carta de recomendación (PDF)",
+        "downloads.note":"* Si aún no tienes el PDF subido, deja el link en # o apunta a /assets/archivo.pdf",
+
+        "reco.title":"Confianza / Referencias",
+        "reco.cardTitle":"Carta de recomendación",
+        "reco.cardSub":"Validación formal del trabajo, impacto y confiabilidad. Disponible como PDF.",
+        "reco.open":"Abrir",
+        "reco.b1":"Participación en sistemas productivos con continuidad operativa.",
+        "reco.b2":"Responsabilidad, criterio técnico y colaboración con negocio.",
+        "reco.b3":"Entrega consistente, orden y mejora continua.",
+        "reco.privacy":"Nota: por privacidad, el teléfono de referencia se comparte a solicitud (con autorización).",
+
+        "roles.kicker":"Enfoque",
+        "roles.title":"Roles objetivo",
+        "roles.more":"Ver roles secundarios",
+
+        "value.kicker":"Qué aporto",
+        "value.title":"Impacto típico",
+
+        "contact.kicker":"Contacto",
+        "contact.title":"Rápido y directo",
+        "contact.me":"Tú",
+        "contact.email":"Email",
+        "contact.linkedin":"LinkedIn",
+        "contact.github":"GitHub",
+        "contact.gitlab":"GitLab",
+        "contact.refTitle":"Referencia profesional",
+        "contact.refSub":"Disponible para confirmar desempeño y colaboración.",
+        "contact.refLinkedIn":"LinkedIn (referencia)",
+        "contact.refPhone":"Teléfono",
+        "contact.refPhoneValue":"a solicitud (con autorización)",
+        "contact.refNote":"Si necesitas el número para verificación rápida, te lo comparto por correo.",
+        "contact.cta":"Escríbeme",
+        "contact.print":"Imprimir / PDF",
+
+        "deep.kicker":"Profundo",
+        "deep.note":"En esta vista puedes agregar: servicios, más casos, timeline detallado, imágenes, métricas, etc. (sin ensuciar el home).",
+
+        "footer":"Portafolio (preview). Edita y publica en GitHub Pages."
+      },
+      en: {
+        "top.subtitle": "Software Architect · Legacy Modernization · PHP/SQL Server",
+        "top.email":"Email",
+        "top.linkedin":"LinkedIn",
+        "top.github":"GitHub",
+        "top.gitlab":"GitLab",
+        "top.mode":"Mode",
+        "top.lang":"Language",
+
+        "hero.kicker":"Portfolio",
+        "hero.title":"I modernize legacy systems without disrupting operations.",
+        "hero.subtitle":"Senior Full Stack / Software Architect (PHP + SQL Server) focused on performance, stability and progressive modernization. CI/CD, Docker and AWS when it adds real value.",
+        "hero.cta1":"See key projects",
+        "hero.cta2":"Download CV / PDFs",
+        "hero.cta3":"Quick contact",
+
+        "stats.1":"years maintaining and evolving products",
+        "stats.2":"step-by-step migration without downtime",
+        "stats.3":"repeatable, documented, auditable",
+
+        "summary.pitch":"If you need someone who understands real systems, stabilizes them, and modernizes them step-by-step, here’s the evidence.",
+        "summary.cv":"CV",
+        "summary.rec":"Recommendation",
+        "summary.work":"Featured work",
+
+        "featured.title":"Featured projects",
+        "featured.subtitle":"3 quick proofs. Everything else goes to “Deep”.",
+        "featured.more":"More projects (extended list)",
+
+        "tools.title":"Tools & Technologies",
+        "tools.subtitle":"Top 12 first. Then grouped + searchable to avoid clutter.",
+        "tools.groups":"Groups (expandable)",
+        "tools.note":"Tip: in “Recruiter” mode this stays compact. In “Deep”, it shows more.",
+
+        "articles.title":"Articles",
+        "articles.subtitle":"Future space: legacy modernization, CI/CD, AWS, real operations.",
+
+        "downloads.title":"Downloads",
+        "downloads.subtitle":"Direct links to PDFs (CV, portfolio, recommendation).",
+        "downloads.cv":"CV (PDF)",
+        "downloads.portfolio":"Portfolio (PDF)",
+        "downloads.reco":"Recommendation letter (PDF)",
+        "downloads.note":"* If you haven’t uploaded the PDF yet, keep the link as # or point to /assets/file.pdf",
+
+        "reco.title":"Trust / References",
+        "reco.cardTitle":"Recommendation letter",
+        "reco.cardSub":"Formal validation of work, impact and reliability. Available as PDF.",
+        "reco.open":"Open",
+        "reco.b1":"Work on production systems with operational continuity.",
+        "reco.b2":"Responsibility, engineering judgment and business collaboration.",
+        "reco.b3":"Consistent delivery, organization and continuous improvement.",
+        "reco.privacy":"Note: for privacy, the reference phone number is shared upon request (with authorization).",
+
+        "roles.kicker":"Focus",
+        "roles.title":"Target roles",
+        "roles.more":"See secondary roles",
+
+        "value.kicker":"What I deliver",
+        "value.title":"Typical impact",
+
+        "contact.kicker":"Contact",
+        "contact.title":"Fast and direct",
+        "contact.me":"You",
+        "contact.email":"Email",
+        "contact.linkedin":"LinkedIn",
+        "contact.github":"GitHub",
+        "contact.gitlab":"GitLab",
+        "contact.refTitle":"Professional reference",
+        "contact.refSub":"Available to confirm performance and collaboration.",
+        "contact.refLinkedIn":"LinkedIn (reference)",
+        "contact.refPhone":"Phone",
+        "contact.refPhoneValue":"upon request (with authorization)",
+        "contact.refNote":"If you need the number for fast verification, I’ll share it by email.",
+        "contact.cta":"Email me",
+        "contact.print":"Print / PDF",
+
+        "deep.kicker":"Deep",
+        "deep.note":"In this view you can add: services, more cases, detailed timeline, images, metrics, etc. (without cluttering the home).",
+
+        "footer":"Portfolio (preview). Edit and publish on GitHub Pages."
+      }
+    };
+
+    // ====== Helpers ======
+    const $ = (s, r=document) => r.querySelector(s);
+    const $$ = (s, r=document) => Array.from(r.querySelectorAll(s));
+
+    function setLinks(){
+      $("#name").textContent = CONFIG.name;
+      $("#btnEmail").href = CONFIG.email;
+      $("#btnLinkedIn").href = CONFIG.linkedin;
+      $("#btnGitHub").href = CONFIG.github;
+      $("#btnGitLab").href = CONFIG.gitlab;
+
+      $("#cEmail").href = CONFIG.email;
+      $("#cLinkedIn").href = CONFIG.linkedin;
+      $("#cGitHub").href = CONFIG.github;
+      $("#cGitLab").href = CONFIG.gitlab;
+      $("#btnMail2").href = CONFIG.email;
+
+      $("#refLinkedIn").href = CONFIG.ref_linkedin;
+
+      $("#dlCv").href = CONFIG.pdf_cv;
+      $("#dlPortfolio").href = CONFIG.pdf_portfolio;
+      $("#dlReco").href = CONFIG.pdf_reco;
+      $("#recoBtn").href = CONFIG.pdf_reco;
+    }
+
+    function t(lang, key){
+      return (I18N[lang] && I18N[lang][key]) ? I18N[lang][key] : key;
+    }
+
+    function applyI18n(lang){
+      document.documentElement.lang = lang;
+      document.body.dataset.lang = lang;
+      $$('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        el.textContent = t(lang, key);
+      });
+      $("#toolSearch").placeholder = lang === "es" ? "Buscar herramienta..." : "Search tool...";
+
+      renderRoles(lang);
+      renderImpact(lang);
+      renderProjects(lang);
+      renderTools(lang);
+      renderArticles(lang);
+    }
+
+    function renderRoles(lang){
+      const primary = $("#primaryRoles");
+      const secondary = $("#secondaryRoles");
+      primary.innerHTML = "";
+      secondary.innerHTML = "";
+
+      DATA.rolesPrimary.forEach(r => {
+        const s = document.createElement('span');
+        s.className = 'chip';
+        s.textContent = r[lang];
+        primary.appendChild(s);
+      });
+      DATA.rolesSecondary.forEach(r => {
+        const s = document.createElement('span');
+        s.className = 'chip';
+        s.textContent = r[lang];
+        secondary.appendChild(s);
+      });
+    }
+
+    function renderImpact(lang){
+      const ul = $("#impactList");
+      ul.innerHTML = "";
+      DATA.impact.forEach(x => {
+        const li = document.createElement('li');
+        li.textContent = x[lang];
+        ul.appendChild(li);
+      });
+    }
+
+    function escapeHtml(s){
+      return String(s)
+        .replaceAll('&','&amp;')
+        .replaceAll('<','&lt;')
+        .replaceAll('>','&gt;')
+        .replaceAll('"','&quot;')
+        .replaceAll("'","&#039;");
+    }
+
+    function projectCard(p, lang){
+      const div = document.createElement('div');
+      div.className = 'proj';
+
+      const title = p.title?.[lang] ?? '';
+      const blurb = p.blurb?.[lang] ?? '';
+      const bullets = p.bullets?.[lang] ?? [];
+
+      div.innerHTML = `
+        <div class="projTop">
+          <div>
+            <h4>${escapeHtml(title)}</h4>
+            <p class="muted" style="margin:6px 0 0">${escapeHtml(blurb)}</p>
+          </div>
+        </div>
+        ${bullets.length ? `<ul class="muted" style="margin:10px 0 0; padding-left:18px">${bullets.map(b=>`<li>${escapeHtml(b)}</li>`).join('')}</ul>` : ''}
+        <div class="chips">${(p.chips||[]).map(c=>`<span class="chip">${escapeHtml(c)}</span>`).join('')}</div>
+        <div class="links">${(p.links||[]).map(l=>`<a class="link" href="${l.href}" target="${String(l.href).startsWith('#') ? '' : '_blank'}" rel="noopener">↗ ${escapeHtml(l.label[lang])}</a>`).join('')}</div>
+      `;
+      return div;
+    }
+
+    function renderProjects(lang){
+      const featured = $("#featuredList");
+      const more = $("#moreProjects");
+      featured.innerHTML = "";
+      more.innerHTML = "";
+
+      DATA.projectsFeatured.forEach(p => featured.appendChild(projectCard(p, lang)));
+
+      DATA.projectsMore.forEach(p => {
+        const div = document.createElement('div');
+        div.className = 'proj';
+        div.innerHTML = `
+          <div class="projTop">
+            <div>
+              <h4>${escapeHtml(p.title[lang])}</h4>
+              <p class="muted" style="margin:6px 0 0">${escapeHtml(p.blurb[lang])}</p>
+            </div>
+          </div>
+          <div class="chips">${(p.chips||[]).map(c=>`<span class="chip">${escapeHtml(c)}</span>`).join('')}</div>
+          <div class="links">${(p.links||[]).map(l=>`<a class="link" href="${l.href}" target="_blank" rel="noopener">↗ ${escapeHtml(l.label[lang])}</a>`).join('')}</div>
+        `;
+        more.appendChild(div);
+      });
+
+      // Summary links
+      $("#sumCv").href = "#downloads";
+      $("#sumRec").href = "#recommendation";
+      $("#sumGit").href = "#featured";
+    }
+
+    function renderTools(lang){
+      const top = $("#topTools");
+      const groups = $("#toolGroups");
+      top.innerHTML = "";
+      groups.innerHTML = "";
+
+      DATA.toolsTop.forEach(x => {
+        const s = document.createElement('span');
+        s.className = 'chip';
+        s.textContent = x;
+        s.dataset.tool = x.toLowerCase();
+        top.appendChild(s);
+      });
+
+      DATA.toolGroups.forEach(g => {
+        const div = document.createElement('div');
+        div.className = 'group';
+        const title = g.title[lang];
+        div.innerHTML = `
+          <div class="groupTitle">
+            <strong>${g.icon} ${escapeHtml(title)}</strong>
+            <span class="count">${g.items.length}</span>
+          </div>
+          <div class="chips" style="margin-top:10px">
+            ${g.items.map(x => `<span class="chip" data-tool="${escapeHtml(x.toLowerCase())}">${escapeHtml(x)}</span>`).join('')}
+          </div>
+        `;
+        groups.appendChild(div);
+      });
+    }
+
+    function renderArticles(lang){
+      const list = $("#articlesList");
+      list.innerHTML = "";
+
+      if (!DATA.articles.length){
+        const div = document.createElement('div');
+        div.className = 'article';
+        div.innerHTML = `
+          <h4 style="margin:0 0 6px">${lang === 'es' ? 'Próximamente' : 'Coming soon'}</h4>
+          <p class="muted" style="margin:0">${lang === 'es'
+            ? 'Aquí aparecerán artículos y notas técnicas. Mantengo esta sección lista para publicar sin recargar el home.'
+            : 'Articles and technical notes will appear here. This section is ready without cluttering the homepage.'}</p>
+          <div class="chips" style="margin-top:10px">
+            <span class="chip">Legacy</span>
+            <span class="chip">CI/CD</span>
+            <span class="chip">AWS</span>
+            <span class="chip">Performance</span>
+          </div>
+        `;
+        list.appendChild(div);
+        return;
+      }
+
+      DATA.articles.slice(0, 3).forEach(a => {
+        const div = document.createElement('div');
+        div.className = 'article';
+        div.innerHTML = `
+          <div class="projTop">
+            <div>
+              <h4 style="margin:0">${escapeHtml(a.title[lang])}</h4>
+              <p class="muted" style="margin:6px 0 0">${escapeHtml(a.desc[lang])}</p>
+            </div>
+            <a class="btn" href="${a.href}" target="_blank" rel="noopener">↗</a>
+          </div>
+          <div class="chips" style="margin-top:10px">
+            <span class="chip">${a.date}</span>
+            ${(a.tags||[]).map(t=>`<span class="chip">${escapeHtml(t)}</span>`).join('')}
+          </div>
+        `;
+        list.appendChild(div);
+      });
+    }
+
+    // ====== MODE + LANG ======
+    function setMode(mode){
+      document.body.dataset.mode = mode;
+      localStorage.setItem('va_mode', mode);
+    }
+
+    function setLang(lang){
+      localStorage.setItem('va_lang', lang);
+      applyI18n(lang);
+    }
+
+    // ====== Tool search ======
+    function wireToolSearch(){
+      const input = $("#toolSearch");
+      input.addEventListener('input', () => {
+        const q = input.value.trim().toLowerCase();
+        const all = $$('[data-tool]');
+        if (!q){
+          all.forEach(el => el.style.display = 'inline-flex');
+          return;
+        }
+        all.forEach(el => {
+          const v = (el.dataset.tool || '').toLowerCase();
+          el.style.display = v.includes(q) ? 'inline-flex' : 'none';
+        });
+      });
+    }
+
+    // ====== Theme (no movement) ======
+    function applyTheme(theme){
+      const root = document.documentElement;
+      root.dataset.theme = theme;
+      const set = (k,v)=>root.style.setProperty(k,v);
+
+      // reset light overrides (only needed when switching from light -> dark)
+      const resetDark = () => {
+        set('--panel', 'rgba(255,255,255,.06)');
+        set('--panel2','rgba(255,255,255,.10)');
+        set('--text','rgba(255,255,255,.92)');
+        set('--muted','rgba(255,255,255,.68)');
+        set('--muted2','rgba(255,255,255,.55)');
+        set('--border','rgba(255,255,255,.12)');
+        set('--shadow','0 18px 50px rgba(0,0,0,.45)');
+        set('--bg','#070a12');
+      };
+
+      if (theme === 'violet'){
+        resetDark();
+        set('--accent', '#a78bfa');
+        set('--accent2', '#7dd3fc');
+      } else if (theme === 'emerald'){
+        resetDark();
+        set('--accent', '#34d399');
+        set('--accent2', '#7dd3fc');
+      } else if (theme === 'mono'){
+        resetDark();
+        set('--accent', 'rgba(255,255,255,.92)');
+        set('--accent2', 'rgba(255,255,255,.60)');
+      } else if (theme === 'light'){
+        set('--bg', '#f6f7fb');
+        set('--panel', 'rgba(0,0,0,.05)');
+        set('--panel2', 'rgba(0,0,0,.07)');
+        set('--text', 'rgba(0,0,0,.88)');
+        set('--muted', 'rgba(0,0,0,.62)');
+        set('--muted2', 'rgba(0,0,0,.52)');
+        set('--border', 'rgba(0,0,0,.12)');
+        set('--shadow', '0 18px 45px rgba(0,0,0,.12)');
+        set('--accent', '#0ea5e9');
+        set('--accent2', '#7c3aed');
+      } else { // ocean default
+        resetDark();
+        set('--accent', '#7dd3fc');
+        set('--accent2', '#a78bfa');
+      }
+    }
+
+    // ====== Minimal self-tests (no UI impact) ======
+    function runSelfTests(){
+      const tests = [];
+      const assert = (name, fn) => {
+        try {
+          fn();
+          tests.push({ name, ok:true });
+        } catch (e){
+          tests.push({ name, ok:false, error: e });
+        }
+      };
+
+      assert('Required DOM nodes exist', () => {
+        ['#featuredList','#toolSearch','#langSelect','#modeSelect','#themeSelect'].forEach(sel => {
+          if (!document.querySelector(sel)) throw new Error('Missing ' + sel);
+        });
+      });
+
+      assert('Theme apply changes accent vars', () => {
+        const root = document.documentElement;
+        const before = getComputedStyle(root).getPropertyValue('--accent').trim();
+        applyTheme('violet');
+        const after = getComputedStyle(root).getPropertyValue('--accent').trim();
+        if (!after || after === before) throw new Error('Accent did not change');
+      });
+
+      // Restore theme from storage (init will do this; this just avoids leaving violet)
+      const storedTheme = localStorage.getItem('va_theme') || 'ocean';
+      applyTheme(storedTheme);
+
+      const failed = tests.filter(t => !t.ok);
+      if (failed.length){
+        console.warn('[SelfTests] Failed:', failed);
+      } else {
+        console.info('[SelfTests] OK:', tests.length);
+      }
+    }
+
+    // ====== init ======
+    (function init(){
+      $('#year').textContent = new Date().getFullYear();
+      setLinks();
+
+      const storedMode = localStorage.getItem('va_mode');
+      const storedLang = localStorage.getItem('va_lang');
+
+      const modeSel = $('#modeSelect');
+      const langSel = $('#langSelect');
+
+      if (storedMode){
+        modeSel.value = storedMode;
+        setMode(storedMode);
+      } else {
+        setMode(modeSel.value);
+      }
+
+      if (storedLang){
+        langSel.value = storedLang;
+      }
+      setLang(langSel.value);
+
+      modeSel.addEventListener('change', e => setMode(e.target.value));
+      langSel.addEventListener('change', e => setLang(e.target.value));
+
+      wireToolSearch();
+
+      const themeSel = document.getElementById('themeSelect');
+      const storedTheme = localStorage.getItem('va_theme') || 'ocean';
+      themeSel.value = storedTheme;
+      applyTheme(storedTheme);
+      themeSel.addEventListener('change', e => {
+        localStorage.setItem('va_theme', e.target.value);
+        applyTheme(e.target.value);
+      });
+
+      runSelfTests();
+    })();
+  </script>
 </body>
 </html>
