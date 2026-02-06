@@ -1,4 +1,4 @@
-const CACHE_NAME = 'vladi-portfolio-v1';
+const CACHE_NAME = 'vladi-portfolio-v2';
 const OFFLINE_URL = 'offline.html';
 
 const ASSETS = [
