@@ -39,13 +39,16 @@ Para una revisión detallada del proyecto, selecciona la guía que mejor se adap
 No se requiere de un entorno complejo para empezar a colaborar o editar.
 
 ### 1. Clonar
+
 ```bash
 git clone https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io.git
 cd vladimiracunadev-create.github.io
 ```
 
 ### 2. Ejecución
+
 Al ser una web estática pura, puedes simplemente abrir `index.html` en tu navegador. Si prefieres un servidor local:
+
 - **Node**: `npx http-server .`
 - **Python**: `python -m http.server`
 
