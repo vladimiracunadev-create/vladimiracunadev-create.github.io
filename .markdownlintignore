@@ -2,3 +2,7 @@ node_modules/
 dist/
 site/
 .cache/
+apps/mobile/android/build/
+apps/mobile/ios/build/
+**/build/**
+**/reports/**

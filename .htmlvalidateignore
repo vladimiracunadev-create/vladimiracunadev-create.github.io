@@ -1,3 +1,7 @@
 node_modules/
 dist/
 .cache/
+apps/mobile/android/build/
+apps/mobile/ios/build/
+**/build/**
+**/reports/**
