@@ -41,6 +41,18 @@ Este documento detalla los problemas encontrados durante la configuración inici
   1. `./scripts/sync-web.sh` (Copia de `index.html`, `assets/`, etc. a `apps/mobile/www`).
   2. `npx cap sync ios` (Sincroniza la carpeta `www` con el proyecto nativo de Xcode).
 
+## 5. Error de "Communication with Apple failed" (Archive)
+
+**Problema:** Xcode muestra el error *"Communication with Apple failed: Your team has no devices from which to generate a provisioning profile"* al intentar hacer un **Archive**.
+
+**Causa:** Xcode necesita firmar la aplicación para generar el `.ipa`, y para generar el perfil de firma, Apple exige que haya al menos un dispositivo físico registrado en tu Apple ID.
+
+**Solución:**
+1. Conecta un **iPhone físico** a tu Mac.
+2. En Xcode, selecciona **ese iPhone específico** en la barra superior (en lugar de "Any iOS Device").
+3. Xcode detectará el dispositivo y generará el perfil automáticamente (asegúrate de que "Automatically manage signing" esté marcado).
+4. Una vez que Xcode deje de mostrar el error, vuelve a seleccionar **Any iOS Device (arm64)** y realiza el **Archive**.
+
 ---
 
 [← Volver al README](../README.md) | **Vladimir Acuña** - Senior Software Engineer
