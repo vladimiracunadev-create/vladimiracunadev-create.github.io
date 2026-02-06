@@ -66,4 +66,12 @@ Al ser una web estática pura, puedes simplemente abrir `index.html` en tu naveg
 ```
 
 ---
+
+## 📱 Compatibilidad
+
+- **📱 Mobile**: Totalmente responsivo, optimizado para navegación táctil.
+- **💻 Desktop**: Compatible con Windows, Linux y macOS.
+- **🌐 Browsers**: Chrome, Firefox, Safari, Edge (ES6+).
+
+---
 © 2026 Vladimir Acuña | Desarrollado con ❤️ y Vanilla JS.
