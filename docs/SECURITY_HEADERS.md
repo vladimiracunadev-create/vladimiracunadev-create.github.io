@@ -66,3 +66,7 @@ Como este sitio es estático:
 
 - **Cache-Control**: `public, max-age=31536000, immutable`
 - *Nota*: Solo si estás seguro que los nombres de archivo cambiarán si el contenido cambia (ej. `cv-2026.pdf`). Si usas nombres fijos (`cv-completo.pdf`), usa la estrategia de 1 día.
+
+---
+[← Volver al README](../README.md) | **Vladimir Acuña** - Senior Software Engineer
+

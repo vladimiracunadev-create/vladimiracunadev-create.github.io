@@ -53,4 +53,5 @@ Cambia esos códigos de color para darle tu toque personal a todo el sitio.
 > [!TIP]
 > Si algo sale mal, ¡no te preocupes! Siempre puedes volver a descargar los archivos originales.
 
-[Regresar al README](../README.md)
+---
+[← Volver al README](../README.md) | **Vladimir Acuña** - Senior Software Engineer

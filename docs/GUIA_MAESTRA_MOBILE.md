@@ -108,4 +108,5 @@ Si al sincronizar iOS recibes errores de pods:
 - Asegúrate de abrir siempre el archivo `.xcworkspace` y no el `.xcodeproj`.
 
 ---
-**Vladimir Acuña** - Senior Software Engineer
+---
+[← Volver al README](../README.md) | **Vladimir Acuña** - Senior Software Engineer

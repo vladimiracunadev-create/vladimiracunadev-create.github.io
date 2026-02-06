@@ -47,4 +47,4 @@ Este proyecto ha sido diseñado para funcionar en cualquier lugar:
 Este portafolio es un testimonio de que **menos es más**. La eficiencia técnica es una característica, no una limitación.
 
 ---
-[Regresar al README](../README.md)
+[← Volver al README](../README.md) | **Vladimir Acuña** - Senior Software Engineer

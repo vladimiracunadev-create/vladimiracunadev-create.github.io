@@ -133,4 +133,5 @@ Para mantener el repositorio limpio y profesional, sigue estas reglas al subir l
 3. **Documentación de Versión**: Describe brevemente los cambios e innovaciones incluidos en cada ejecutable subido.
 
 ---
-**Vladimir Acuña** - Arquitecto de Software Senior
+---
+[← Volver al README](../README.md) | **Vladimir Acuña** - Senior Software Engineer

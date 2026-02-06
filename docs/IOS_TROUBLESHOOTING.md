@@ -34,4 +34,4 @@ Este documento detalla los problemas encontrados durante la configuración inici
   2. `npx cap sync ios` (Sincroniza la carpeta `www` con el proyecto nativo de Xcode).
 
 ---
-*Nota: El archivo `.ipa` solo se genera al realizar un **Archive** exitoso con una cuenta de desarrollador configurada. Para desarrollo local, el uso del simulador es la vía recomendada.*
+[← Volver al README](../README.md) | **Vladimir Acuña** - Senior Software Engineer

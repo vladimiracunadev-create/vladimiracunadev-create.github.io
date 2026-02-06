@@ -34,3 +34,7 @@ El sitio implementa una **Content Security Policy (CSP)** estricta en `index.htm
 - **Base URI**: `base-uri 'self'` (evita secuestro de URLs relativas).
 
 Si necesitas agregar scripts externos, debes listarlos explícitamente en el `<meta http-equiv="Content-Security-Policy">`.
+
+---
+[← Volver al README](../README.md) | **Vladimir Acuña** - Senior Software Engineer
+
