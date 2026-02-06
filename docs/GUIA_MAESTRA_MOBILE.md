@@ -7,6 +7,7 @@ Esta guía proporciona instrucciones detalladas para la puesta en marcha, desarr
 ## 🛠️ Requisitos de Hardware y Software
 
 ### 🤖 Android (Universal: Windows, macOS, Linux)
+
 Para generar archivos **APK** o **AAB**:
 
 | Componente | Requisito Mínimo | Recomendado |
@@ -17,6 +18,7 @@ Para generar archivos **APK** o **AAB**:
 | **IDE** | Android Studio Jellyfish+ | Android Studio (Última versión) |
 
 ### 🍎 iOS (Solo macOS)
+
 Para generar archivos **IPA**:
 
 | Componente | Requisito Mínimo | Recomendado |
@@ -31,15 +33,20 @@ Para generar archivos **IPA**:
 ## 🚀 Fase 1: Puesta en Marcha (Setup Inicial)
 
 1. **Clonar el Repositorio**:
+
    ```bash
    git clone [URL-DEL-REPO]
    cd vladimiracunadev-create.github.io
    ```
+
 2. **Instalar Dependencias Base**:
+
    ```bash
    npm install
    ```
+
 3. **Preparar Módulo Mobile**:
+
    ```bash
    cd apps/mobile
    npm install
@@ -51,12 +58,16 @@ Para generar archivos **IPA**:
 
 Cada vez que realices un cambio en el código web (raíz del proyecto), debes sincronizarlo con las plataformas móviles:
 
-### Operación en un solo paso:
+### Operación en un solo paso
+
 - **Para iOS (en macOS)**:
+
   ```bash
   ./scripts/mobile-ios.sh
   ```
+
 - **Para Android (en Windows/PowerShell)**:
+
   ```powershell
   ./scripts/mobile-android.ps1
   ```
@@ -66,6 +77,7 @@ Cada vez que realices un cambio en el código web (raíz del proyecto), debes si
 ## 📦 Fase 3: Creación Efectiva de Archivos
 
 ### 🤖 Generación de APK (Android)
+
 1. Abre **Android Studio**.
 2. Selecciona **Open** y elige la carpeta `apps/mobile/android`.
 3. Espera a que Gradle termine la sincronización (barra de progreso abajo a la derecha).
@@ -76,6 +88,7 @@ Cada vez que realices un cambio en el código web (raíz del proyecto), debes si
 > Para producción, usa **Generate Signed Bundle / APK** para crear una versión optimizada y firmada.
 
 ### 🍎 Generación de IPA (iOS)
+
 1. Ejecuta `npx cap open ios` desde `apps/mobile/`.
 2. En Xcode, selecciona el proyecto **App** y ve a **Signing & Capabilities**.
 3. Selecciona tu **Development Team** (tu Apple ID).
@@ -87,6 +100,7 @@ Cada vez que realices un cambio en el código web (raíz del proyecto), debes si
 ---
 
 ## 📝 Notas de Mantenimiento
+
 - **Actualización de Plugins**: Si añades un nuevo plugin de Capacitor, ejecuta siempre `npx cap sync`.
 - **Limpieza**: Si encuentras errores extraños, borra `node_modules` y las carpetas `android` o `ios` (y vuelve a crearlas con `npx cap add [platform]`).
 
@@ -95,18 +109,21 @@ Cada vez que realices un cambio en el código web (raíz del proyecto), debes si
 ## 🛠️ Solución de Problemas Comunes
 
 ### ☕ Error de Java / JDK (Android)
+
 Si encuentras errores de "Unsupported class file major version" o problemas de compatibilidad de Java al ejecutar Gradle:
 
-1.  **Script de Reparación**: Ejecuta `./scripts/fix-java.sh` (en macOS) para configurar la versión correcta.
-2.  **Configuración de Android Studio**:
+1. **Script de Reparación**: Ejecuta `./scripts/fix-java.sh` (en macOS) para configurar la versión correcta.
+2. **Configuración de Android Studio**:
     - Ve a **Settings > Build, Execution, Deployment > Build Tools > Gradle**.
     - Asegúrate de que **Gradle JDK** apunte a una versión 17 o 21.
 
 ### 🍎 Error de CocoaPods (iOS)
+
 Si al sincronizar iOS recibes errores de pods:
+
 - Ejecuta `pod install` manualmente dentro de `apps/mobile/ios/App`.
 - Asegúrate de abrir siempre el archivo `.xcworkspace` y no el `.xcodeproj`.
 
 ---
----
+
 [← Volver al README](../README.md) | **Vladimir Acuña** - Senior Software Engineer

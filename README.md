@@ -83,16 +83,19 @@ npx http-server .
 Explora las guías detalladas según tu interés:
 
 ### 💼 Perfiles de Negocio & Reclutamiento
-- [🎯 **Guía para Reclutadores**](docs/RECRUITER.md): Propuesta de valor y métricas de impacto.
-- [🧠 **Racional Técnico**](docs/TECHNICAL_RATIONAL.md): Justificación radical de por qué no usamos frameworks.
+
+* [🎯 **Guía para Reclutadores**](docs/RECRUITER.md): Propuesta de valor y métricas de impacto.
+* [🧠 **Racional Técnico**](docs/TECHNICAL_RATIONAL.md): Justificación radical de por qué no usamos frameworks.
 
 ### 🛠️ Perfiles Técnicos & DevOps
-- [🛠️ **Guía de Construcción**](docs/BUILD_GUIDE.md): Pasos para generar APK, IPA y PWA Desktop.
-- [📱 **Manual Mobile (Android/iOS)**](docs/GUIA_MAESTRA_MOBILE.md): Configuración profunda de Capacitor.
-- [⚠️ **Solución de Problemas iOS**](docs/IOS_TROUBLESHOOTING.md): Guía de supervivencia en Xcode.
+
+* [🛠️ **Guía de Construcción**](docs/BUILD_GUIDE.md): Pasos para generar APK, IPA y PWA Desktop.
+* [📱 **Manual Mobile (Android/iOS)**](docs/GUIA_MAESTRA_MOBILE.md): Configuración profunda de Capacitor.
+* [⚠️ **Solución de Problemas iOS**](docs/IOS_TROUBLESHOOTING.md): Guía de supervivencia en Xcode.
 
 ### 🔰 Personalización
-- [🔰 **Manual para Novatos**](docs/BEGINNER_GUIDE.md): Cómo cambiar tus fotos y textos en 5 minutos.
+
+* [🔰 **Manual para Novatos**](docs/BEGINNER_GUIDE.md): Cómo cambiar tus fotos y textos en 5 minutos.
 
 ---
 

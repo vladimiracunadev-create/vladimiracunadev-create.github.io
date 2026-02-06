@@ -36,5 +36,5 @@ El sitio implementa una **Content Security Policy (CSP)** estricta en `index.htm
 Si necesitas agregar scripts externos, debes listarlos explícitamente en el `<meta http-equiv="Content-Security-Policy">`.
 
 ---
-[← Volver al README](../README.md) | **Vladimir Acuña** - Senior Software Engineer
 
+[← Volver al README](../README.md) | **Vladimir Acuña** - Senior Software Engineer
