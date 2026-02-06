@@ -48,6 +48,7 @@ Este documento detalla los problemas encontrados durante la configuración inici
 **Causa:** Xcode necesita firmar la aplicación para generar el `.ipa`, y para generar el perfil de firma, Apple exige que haya al menos un dispositivo físico registrado en tu Apple ID.
 
 **Solución:**
+
 1. Conecta un **iPhone físico** a tu Mac.
 2. En Xcode, selecciona **ese iPhone específico** en la barra superior (en lugar de "Any iOS Device").
 3. Xcode detectará el dispositivo y generará el perfil automáticamente (asegúrate de que "Automatically manage signing" esté marcado).
