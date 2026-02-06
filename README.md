@@ -12,6 +12,16 @@ El proyecto está construido con principios **KISS (Keep It Simple, Stupid)**, e
 - **JavaScript (ES6+)**: Lógica ligera para interactividad (menú móvil, acordeones, cambio de vistas) sin dependencias externas.
 - **PDF Assets**: CVs y documentos descargables optimizados.
 
+## 📚 Documentación Especializada
+
+He preparado guías específicas según quién revise este repositorio:
+
+- **[🎯 Guía para Reclutadores](docs/RECRUITER.md)**: Valor de negocio, métricas técnicas (Lighthouse) y por qué elegir este stack.
+- **[🧠 Racional Técnico](docs/TECHNICAL_RATIONAL.md)**: ¿Por qué Vanilla JS/CSS? Una explicación sobre simplicidad y rendimiento.
+- **[🔰 Manual para Novatos](docs/BEGINNER_GUIDE.md)**: Cómo clonar, editar y subir tu propio portafolio si estás empezando.
+
+---
+
 ## 💻 Desarrollo Local
 
 Para visualizar y editar el sitio localmente:
