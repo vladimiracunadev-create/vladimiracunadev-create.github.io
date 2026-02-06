@@ -1,20 +1,43 @@
-# 🚀 Vladimir Acuña | Portafolio Profesional
-
-[![CI Pipeline](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/actions/workflows/ci.yml/badge.svg)](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/actions/workflows/ci.yml)
-[![Wiki Sync](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/actions/workflows/wiki-sync.yml/badge.svg)](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/actions/workflows/wiki-sync.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-Este repositorio contiene el código fuente de mi portafolio personal. Un sitio web **estático de alto rendimiento**, diseñado bajo principios de simplicidad y eficiencia para mostrar mi trayectoria, proyectos y servicios técnicos.
+Este repositorio contiene el código fuente de mi portafolio personal. Un proyecto diseñado bajo la filosofía **KISS (Keep It Simple, Stupid)**: una web estática pura de alto rendimiento que sirve como núcleo sólido para ser extendido hacia ecosistemas PWA y Aplicaciones Móviles.
 
 ---
 
-## 📱 Instalación (PWA)
+## 🏗️ Filosofía Core: Minimalismo Vanilla
 
-Este portafolio es una **Progressive Web App (PWA)**, lo que permite instalarlo en tus dispositivos para un acceso rápido y consulta sin conexión.
+A diferencia de los portafolios modernos sobrecargados de frameworks, este proyecto elige deliberadamente **HTML, CSS y JS puro**.
 
-### Cómo instalar
+- **Rendimiento Imbatible**: Sin librerías pesadas, carga instantánea.
+- **Sostenibilidad**: El código funcionará en décadas sin actualizaciones de dependencias constantes.
+- **Control Total**: Sin abstracciones innecesarias entre el código y el navegador.
 
-- **Windows / macOS (Chrome/Edge):** Haz clic en el icono de instalación en la barra de direcciones (derecha).
+> [!NOTE]
+> La PWA y el soporte móvil son **capacidades añadidas** que no comprometen la simplicidad del núcleo. Si eliminas el Service Worker, el sitio sigue funcionando perfectamente.
+
+---
+
+## 🔄 Proceso de Transformación (Paso a Paso)
+
+Este repositorio demuestra cómo un sitio estático minimalista puede transformarse en un producto multiplataforma sin cambiar su arquitectura base:
+
+1. **Núcleo (HTML/CSS/JS)**: Definición de la estructura semántica y diseño responsivo.
+2. **Productización (PWA)**: Implementación de `manifest.webmanifest` y `service-worker.js` para permitir la instalación y el funcionamiento offline.
+3. **Habilitación Móvil (Capacitor)**: Integración de un contenedor nativo en `/apps/mobile` que encapsula el núcleo web.
+4. **Sincronización Automatizada**: Uso de scripts en `/scripts` para mover el código del núcleo hacia el contenedor móvil de forma segura.
+5. **Despliegue Multiplataforma**: Generación de APK/IPA (móvil) y despliegue a GitHub Pages (web) de forma independiente.
+
+---
+
+## 📱 Extensión de Capacidades: PWA & Mobile
+
+El portafolio incluye una capa de **Productización** que permite utilizarlo como una aplicación nativa:
+
+- **PWA**: Instalable en Windows/Android/iOS con soporte offline.
+- **Android**: Preparado para generar APK/AAB vía Capacitor.
+- **iOS**: Estructura lista para Xcode en macOS.
+
+### Cómo instalar (PWA)
+
+- **Windows / macOS (Chrome/Edge):** Haz clic en el icono de instalación en la barra de direcciones.
 - **Android (Chrome):** Toca los tres puntos y elige "Instalar aplicación".
 - **iOS (Safari):** Toca "Compartir" y elige "Añadir a la pantalla de inicio".
 
@@ -69,12 +92,14 @@ Al ser una web estática pura, puedes simplemente abrir `index.html` en tu naveg
 ## 📂 Estructura del Proyecto
 
 ```text
-├── .github/workflows/  # Automatización (CI & Wiki Sync)
+├── apps/               # Contenedores móviles (Capacitor)
 ├── docs/               # Documentación y Wiki
-├── scripts/            # Herramientas de build y SEO (Node.js)
-├── assets/             # Recursos estáticos (Imágenes, PDFs)
-├── index.html          # Punto de entrada principal
-└── styles.css          # Estilos globales
+├── scripts/            # Sincronización web-to-mobile y SEO
+├── assets/             # Imágenes, Iconos y PDFs
+├── index.html          # Núcleo Web
+├── manifest.webmanifest # Metadatos PWA
+├── service-worker.js   # Lógica Offline
+└── styles.css          # Estilos Vanilla
 ```
 
 ---
