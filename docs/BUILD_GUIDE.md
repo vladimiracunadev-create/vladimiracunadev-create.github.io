@@ -48,12 +48,18 @@ La transformación a Android se realiza mediante **Capacitor**, encapsulando el 
     * Abre **Android Studio**.
     * Selecciona *Open* y navega hasta la carpeta `apps/mobile/android`.
 
-3. **Generación del Ejecutable (APK/AAB)**:
-    * Ve al menú `Build` > `Generate Signed Bundle / APK`.
-    * Sigue el asistente para crear una nueva clave de firma (Keystore) si es tu primera vez.
-    * Selecciona `release` como build variant.
-
 4. **Localización**: El archivo `.apk` o `.aab` generado se encontrará en `apps/mobile/android/app/release/`.
+
+### 📉 Optimización de Tamaño (APK)
+
+Es natural que un APK ocupe más que el código HTML puro (típicamente entre 3MB y 8MB) porque incluye el motor de renderizado y el puente de comunicación de Capacitor. Sin embargo, este proyecto está configurado para ser lo más ligero posible:
+
+1. **Minificación**: El proyecto usa `minifyEnabled true` para eliminar código muerto de las librerías nativas.
+2. **Resource Shrinking**: Se eliminan automáticamente recursos no utilizados.
+3. **Optimización de Activos**: Asegúrate de que las imágenes en `/assets` estén optimizadas antes de sincronizar.
+
+> [!TIP]
+> **Sobre la Carpeta `android`**: Es normal que veas muchos archivos nuevos al abrir Android Studio (Gradle, metadatos). No te preocupes: el repositorio está configurado para ignorar el "ruido" y solo guardar lo estrictamente necesario para que cualquier desarrollador pueda reconstruir la app.
 
 ---
 
