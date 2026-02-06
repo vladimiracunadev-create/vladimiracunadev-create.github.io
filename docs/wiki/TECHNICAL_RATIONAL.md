@@ -39,4 +39,4 @@ Automatizamos el **Build** (minificación de CSS/JS, generación de Sitemap) usa
 Este portafolio es un testimonio de que **menos es más**. La eficiencia técnica es una característica, no una limitación.
 
 ---
-[🏠 Regresar al Inicio](Home.md)
+[🏠 Regresar al Inicio](Home)

@@ -13,8 +13,7 @@ Bienvenido al HUB de documentación técnica y estratégica. Este espacio está 
 
 Nuestra arquitectura se basa en el **Minimalismo Radical (KISS)**. No construimos con frameworks pesados porque priorizamos el control total del DOM, la velocidad de carga instantánea y la longevidad del código.
 
-> [!TIP]
-> **Productización**: Lo que comenzó como un sitio estático puro, hoy es un ecosistema multiplataforma (Web, PWA, Android e iOS) utilizando un único núcleo de código.
+> 💡 **Productización**: Lo que comenzó como un sitio estático puro, hoy es un ecosistema multiplataforma (Web, PWA, Android e iOS) utilizando un único núcleo de código.
 
 ---
 
@@ -26,9 +25,9 @@ Nuestra arquitectura se basa en el **Minimalismo Radical (KISS)**. No construimo
 
 | Guía | Propósito | Valor Clave |
 | :--- | :--- | :--- |
-| [🎯 **Reclutadores**](RECRUITER.md) | Tour guiado por el sistema | Visión de negocio y métricas |
-| [🧠 **Racional Técnico**](TECHNICAL_RATIONAL.md) | Justificación de arquitectura | Por qué Vanilla JS > Frameworks |
-| [🏠 **Propósito**](Home.md) | Visión general | Alineación de objetivos |
+| [🎯 **Reclutadores**](RECRUITER) | Tour guiado por el sistema | Visión de negocio y métricas |
+| [🧠 **Racional Técnico**](TECHNICAL_RATIONAL) | Justificación de arquitectura | Por qué Vanilla JS > Frameworks |
+| [🏠 **Propósito**](Home) | Visión general | Alineación de objetivos |
 
 ---
 
@@ -38,9 +37,9 @@ Nuestra arquitectura se basa en el **Minimalismo Radical (KISS)**. No construimo
 
 | Guía | Propósito | Tecnología |
 | :--- | :--- | :--- |
-| [🚀 **Maestra Mobile**](GUIA_MAESTRA_MOBILE.md) | Visión general del ecosistema | Capacitor + Hardware |
-| [🛠️ **Construcción**](BUILD_GUIDE.md) | Guía técnica de compilación | Android SDK / Xcode |
-| [🍎 **Soporte iOS**](IOS_TROUBLESHOOTING.md) | Resolución de conflictos Apple | provisioning & Signing |
+| [🚀 **Maestra Mobile**](GUIA_MAESTRA_MOBILE) | Visión general del ecosistema | Capacitor + Hardware |
+| [🛠️ **Construcción**](BUILD_GUIDE) | Guía técnica de compilación | Android SDK / Xcode |
+| [🍎 **Soporte iOS**](IOS_TROUBLESHOOTING) | Resolución de conflictos Apple | provisioning & Signing |
 
 ---
 
@@ -50,9 +49,9 @@ Nuestra arquitectura se basa en el **Minimalismo Radical (KISS)**. No construimo
 
 | Guía | Propósito | Impacto |
 | :--- | :--- | :--- |
-| [🔒 **Seguridad y Cache**](SECURITY_HEADERS.md) | Protección y velocidad | CSP A+ & Cache Inmutable |
-| [📊 **Validación Local**](VALIDATION.md) | Control de calidad integral | Lighthouse CI |
-| [📂 **Arquitectura Asíncrona**](ASINCRONO.md) | Lógica de validación avanzada | Promesas y flujos de datos |
+| [🔒 **Seguridad y Cache**](SECURITY_HEADERS) | Protección y velocidad | CSP A+ & Cache Inmutable |
+| [📊 **Validación Local**](VALIDATION) | Control de calidad integral | Lighthouse CI |
+| [📂 **Arquitectura Asíncrona**](ASINCRONO) | Lógica de validación avanzada | Promesas y flujos de datos |
 
 ---
 

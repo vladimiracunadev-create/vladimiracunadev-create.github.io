@@ -95,4 +95,4 @@ Aunque scripts como `check-pdf.js` y `generate-seo.js` se ejecutan síncronament
 
 ---
 
-[🏠 Volver al Home](Home.md) | **Vladimir Acuña** - Senior Software Engineer
+[🏠 Volver al Home](Home) | **Vladimir Acuña** - Senior Software Engineer
