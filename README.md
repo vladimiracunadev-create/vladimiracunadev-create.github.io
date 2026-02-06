@@ -16,21 +16,22 @@ El proyecto está construido con principios **KISS (Keep It Simple, Stupid)**, e
 
 Para visualizar y editar el sitio localmente:
 
-1.  **Clonar el repositorio** (o descargar el ZIP):
+1. **Clonar el repositorio** (o descargar el ZIP):
+
     ```bash
     git clone https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io.git
     cd vladimiracunadev-create.github.io
     ```
 
-2.  **Abrir Directamente**:
-    Al ser un sitio puramente estático, simplemente haz doble clic en `index.html` para verlo en tu navegador. 
-    
+2. **Abrir Directamente**:
+    Al ser un sitio puramente estático, simplemente haz doble clic en `index.html` para verlo en tu navegador.
+
     > **Nota**: No requieres instalar nada (ni Node, ni Python) a menos que quieras simular un entorno de servidor real.
 
-3.  **Servidor Local** (Opcional - solo si prefieres):
+3. **Servidor Local** (Opcional - solo si prefieres):
     Si deseas usar un servidor local por comodidad:
-    *   Node/NPM: `npx http-server .`
-    *   Python: `python -m http.server`
+    - Node/NPM: `npx http-server .`
+    - Python: `python -m http.server`
 
 ## 📂 Estructura
 
