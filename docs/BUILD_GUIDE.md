@@ -12,6 +12,7 @@ Para sistemas de escritorio, utilizamos la tecnología **PWA (Progressive Web Ap
 > **Requisito Técnico Crítico**: Las PWA (y específicamente sus *Service Workers*) **solo funcionan en Contextos Seguros**. Esto significa que **no puedes crear una PWA simplemente abriendo el archivo `index.html` en tu navegador** (ruta `file:///...`).
 >
 > Para que el navegador permita la instalación:
+>
 > 1. **En Producción**: El sitio debe servirse vía **HTTPS** (como ya lo hace GitHub Pages).
 > 2. **En Desarrollo**: El sitio debe servirse vía **localhost** (usando un servidor local).
 
