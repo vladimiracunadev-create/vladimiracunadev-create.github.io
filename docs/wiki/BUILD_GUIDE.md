@@ -38,7 +38,7 @@ Si el menú de construcción está inactivo:
 
 ### Soporte Crítico
 
-Para detalles sobre firmas de Apple y perfiles de aprovisionamiento, consulta la [Guía de Soporte iOS](IOS_TROUBLESHOOTING).
+Para detalles sobre firmas de Apple y perfiles de aprovisionamiento, consulta la [Guía de Soporte iOS](IOS_TROUBLESHOOTING.md).
 
 ---
 
@@ -49,4 +49,4 @@ Para detalles sobre firmas de Apple y perfiles de aprovisionamiento, consulta la
 
 ---
 
-[🏠 Volver al Home](Home) | **Vladimir Acuña** - Senior Software Engineer
+[🏠 Volver al Home](Home.md) | **Vladimir Acuña** - Senior Software Engineer

@@ -36,4 +36,4 @@ Para una exploración profunda de los headers, consulta la [Guía de Seguridad](
 
 ---
 
-[🏠 Volver al Home](Home) | **Vladimir Acuña** - Senior Software Engineer
+[🏠 Volver al Home](Home.md) | **Vladimir Acuña** - Senior Software Engineer

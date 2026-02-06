@@ -26,9 +26,9 @@ Nuestra arquitectura se basa en el **Minimalismo Radical (KISS)**. No construimo
 
 | Guía | Propósito | Valor Clave |
 | :--- | :--- | :--- |
-| [🎯 **Reclutadores**](RECRUITER) | Tour guiado por el sistema | Visión de negocio y métricas |
-| [🧠 **Racional Técnico**](TECHNICAL_RATIONAL) | Justificación de arquitectura | Por qué Vanilla JS > Frameworks |
-| [🏠 **Propósito**](Home) | Visión general | Alineación de objetivos |
+| [🎯 **Reclutadores**](RECRUITER.md) | Tour guiado por el sistema | Visión de negocio y métricas |
+| [🧠 **Racional Técnico**](TECHNICAL_RATIONAL.md) | Justificación de arquitectura | Por qué Vanilla JS > Frameworks |
+| [🏠 **Propósito**](Home.md) | Visión general | Alineación de objetivos |
 
 ---
 
@@ -38,9 +38,9 @@ Nuestra arquitectura se basa en el **Minimalismo Radical (KISS)**. No construimo
 
 | Guía | Propósito | Tecnología |
 | :--- | :--- | :--- |
-| [🚀 **Maestra Mobile**](GUIA_MAESTRA_MOBILE) | Visión general del ecosistema | Capacitor + Hardware |
-| [🛠️ **Construcción**](BUILD_GUIDE) | Guía técnica de compilación | Android SDK / Xcode |
-| [🍎 **Soporte iOS**](IOS_TROUBLESHOOTING) | Resolución de conflictos Apple | provisioning & Signing |
+| [🚀 **Maestra Mobile**](GUIA_MAESTRA_MOBILE.md) | Visión general del ecosistema | Capacitor + Hardware |
+| [🛠️ **Construcción**](BUILD_GUIDE.md) | Guía técnica de compilación | Android SDK / Xcode |
+| [🍎 **Soporte iOS**](IOS_TROUBLESHOOTING.md) | Resolución de conflictos Apple | provisioning & Signing |
 
 ---
 
@@ -50,9 +50,9 @@ Nuestra arquitectura se basa en el **Minimalismo Radical (KISS)**. No construimo
 
 | Guía | Propósito | Impacto |
 | :--- | :--- | :--- |
-| [🔒 **Seguridad y Cache**](SECURITY_HEADERS) | Protección y velocidad | CSP A+ & Cache Inmutable |
-| [📊 **Validación Local**](VALIDATION) | Control de calidad integral | Lighthouse CI |
-| [📂 **Arquitectura Asíncrona**](ASINCRONO) | Lógica de validación avanzada | Promesas y flujos de datos |
+| [🔒 **Seguridad y Cache**](SECURITY_HEADERS.md) | Protección y velocidad | CSP A+ & Cache Inmutable |
+| [📊 **Validación Local**](VALIDATION.md) | Control de calidad integral | Lighthouse CI |
+| [📂 **Arquitectura Asíncrona**](ASINCRONO.md) | Lógica de validación avanzada | Promesas y flujos de datos |
 
 ---
 
@@ -60,10 +60,12 @@ Nuestra arquitectura se basa en el **Minimalismo Radical (KISS)**. No construimo
 
 Mantenemos un estándar innegociable de excelencia técnica en cada despliegue:
 
-- **Performance**: 💯 (LCP < 800ms)
-- **Accesibilidad**: 💯 (Cumplimiento WCAG 2.1)
-- **Best Practices**: 💯 (HTTPS, HSTS, Seguridad moderna)
-- **SEO**: 💯 (Sitemap, Estructura semántica)
+| Categoría | Puntaje | Métrica Clave |
+| :--- | :--- | :--- |
+| **Performance** | ![100](https://img.shields.io/badge/100-success?style=flat-square) | LCP < 800ms |
+| **Accesibilidad** | ![100](https://img.shields.io/badge/100-success?style=flat-square) | WCAG 2.1 |
+| **Best Practices** | ![100](https://img.shields.io/badge/100-success?style=flat-square) | CSP / HTTPS |
+| **SEO** | ![100](https://img.shields.io/badge/100-success?style=flat-square) | Semántica |
 
 ---
 

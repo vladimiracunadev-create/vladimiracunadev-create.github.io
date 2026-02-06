@@ -92,3 +92,7 @@ Aunque scripts como `check-pdf.js` y `generate-seo.js` se ejecutan síncronament
 
 - **Ejecución en Paralelo**: Los trabajos `quality`, `seo`, y `links` se inician simultáneamente.
 - **Dependencias**: El trabajo `performance` espera asíncronamente a que `quality` termine exitosamente antes de iniciarse.
+
+---
+
+[🏠 Volver al Home](Home.md) | **Vladimir Acuña** - Senior Software Engineer

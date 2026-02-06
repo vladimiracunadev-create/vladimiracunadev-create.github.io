@@ -44,4 +44,4 @@ Para garantizar que la lógica de negocio y estilos CSS de tu portafolio se prop
 
 ---
 
-[🏠 Volver al Home](Home) | **Vladimir Acuña** - Senior Software Engineer
+[🏠 Volver al Home](Home.md) | **Vladimir Acuña** - Senior Software Engineer

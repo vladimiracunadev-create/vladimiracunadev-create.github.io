@@ -28,10 +28,10 @@ A diferencia de las soluciones sobre-ingenierizadas con frameworks masivos, este
 
 | Métrica | Puntaje | Impacto |
 | :--- | :--- | :--- |
-| **Performance** | 💯 | Carga instantánea (< 1s LCP) |
-| **Accesibilidad** | 💯 | Cumplimiento total de estándares ARIA |
-| **Best Practices** | 💯 | Código seguro y moderno |
-| **SEO** | 💯 | Optimización semántica y metadatos |
+| **Performance** | ![100](https://img.shields.io/badge/100-success?style=flat-square&logo=lighthouse&logoColor=white) | Carga instantánea (< 1s LCP) |
+| **Accesibilidad** | ![100](https://img.shields.io/badge/100-success?style=flat-square&logo=lighthouse&logoColor=white) | Cumplimiento total de estándares ARIA |
+| **Best Practices** | ![100](https://img.shields.io/badge/100-success?style=flat-square&logo=lighthouse&logoColor=white) | Código seguro y moderno |
+| **SEO** | ![100](https://img.shields.io/badge/100-success?style=flat-square&logo=lighthouse&logoColor=white) | Optimización semántica y metadatos |
 
 ---
 

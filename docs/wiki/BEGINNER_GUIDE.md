@@ -53,4 +53,4 @@ Cambia esos códigos de color para darle tu toque personal a todo el sitio.
 > [!TIP]
 > Si algo sale mal, ¡no te preocupes! Siempre puedes volver a descargar los archivos originales.
 
-[🏠 Regresar al Inicio](Home)
+[🏠 Regresar al Inicio](Home.md)

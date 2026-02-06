@@ -36,4 +36,4 @@ Un despliegue correcto de estas políticas garantiza un puntaje de **100/100** e
 
 ---
 
-[🏠 Volver al Home](Home) | **Vladimir Acuña** - Senior Software Engineer
+[🏠 Volver al Home](Home.md) | **Vladimir Acuña** - Senior Software Engineer

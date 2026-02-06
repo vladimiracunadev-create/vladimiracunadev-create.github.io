@@ -40,4 +40,4 @@ Implementación proactiva de:
 Este proyecto demuestra que el candidato prioriza la **eficiencia, la mantenibilidad y la experiencia del usuario final**. Es un ejemplo de cómo elegir la herramienta adecuada (Keep It Simple) para obtener resultados de nivel empresarial sin sobre-ingeniería.
 
 ---
-[🏠 Regresar al Inicio](Home)
+[🏠 Regresar al Inicio](Home.md)
