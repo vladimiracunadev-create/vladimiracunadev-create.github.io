@@ -458,18 +458,35 @@ make up-dashboard
     <section class="section" id="descargas">
       <div class="wrap">
         <div class="section__head">
-          <h2>Descargas</h2>
-          <p class="muted">PDFs listos para compartir.</p>
+          <h2>Centro de Descargas</h2>
+          <p class="muted">Accede a las versiones nativas y documentos oficiales.</p>
         </div>
 
-        <div class="card">
-          <div class="downloads">
-            <a class="btn primary" href="assets/portafolio.pdf">Descargar Portafolio (PDF)</a>
-            <a class="btn" href="assets/cv-reducido.pdf">CV reducido (PDF)</a>
-            <a class="btn" href="assets/cv-completo.pdf" data-min-level="1">CV completo (PDF)</a>
-            <a class="btn" href="assets/carta-recomendacion.pdf" data-min-level="1">Carta de Recomendación (PDF)</a>
-          </div>
-          <p class="small muted">Si cambias nombres, ajusta estos <code>href</code> en <code>index.html</code>.</p>
+        <div class="grid grid--2">
+          <!-- Smart App Download Card -->
+          <article class="card app-download" id="smartDownloadCard">
+            <div class="app-download__brand">
+              <img src="assets/icons/icon.svg" alt="App Icon" class="app-icon" width="60" height="60">
+              <div>
+                <h3>Portafolio Mobile</h3>
+                <p class="small muted" id="platformNotice">Detectando plataforma...</p>
+              </div>
+            </div>
+            <div id="smartDownloadActions" class="actions">
+              <div class="skeleton-btn"></div>
+            </div>
+          </article>
+
+          <!-- Document Downloads -->
+          <article class="card">
+            <h3>Documentación PDF</h3>
+            <div class="downloads">
+              <a class="btn primary" href="assets/portafolio.pdf">Portafolio (PDF)</a>
+              <a class="btn" href="assets/cv-reducido.pdf">CV reducido (PDF)</a>
+              <a class="btn" href="assets/cv-completo.pdf" data-min-level="1">CV completo (PDF)</a>
+              <a class="btn" href="assets/carta-recomendacion.pdf" data-min-level="1">Carta de Recomendación (PDF)</a>
+            </div>
+          </article>
         </div>
       </div>
     </section>

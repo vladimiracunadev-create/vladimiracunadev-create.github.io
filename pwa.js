@@ -54,3 +54,8 @@ window.addEventListener('appinstalled', () => {
     console.log('PWA: Aplicación instalada correctamente.');
     if (installBtn) installBtn.classList.add('is-hidden');
 });
+
+// Listener para disparar el prompt desde otros componentes
+window.addEventListener('pwa-prompt', () => {
+    if (installBtn) installBtn.click();
+});

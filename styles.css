@@ -102,6 +102,12 @@ pre{overflow:auto}
 .titem:last-child{border-bottom:none}
 .twhen{color:var(--muted); font-weight:700}
 .downloads{display:flex; gap:10px; flex-wrap:wrap}
+.app-download{display:flex; flex-direction:column; gap:16px; justify-content:center}
+.app-download__brand{display:flex; align-items:center; gap:16px}
+.app-icon{border-radius:14px; box-shadow:0 4px 12px rgba(0,0,0,.3); background:#1e293b; padding:4px}
+.skeleton-btn{height:44px; width:140px; background:rgba(255,255,255,.05); border-radius:14px; animation:pulse 1.5s infinite}
+@keyframes pulse{0%{opacity:.5} 50%{opacity:.3} 100%{opacity:.5}}
+
 .repos{display:grid; gap:10px; margin-top:10px}
 .repo{padding:12px; border:1px solid var(--line); border-radius:14px; background:rgba(0,0,0,.18)}
 .repo__top{display:flex; align-items:center; justify-content:space-between; gap:10px}

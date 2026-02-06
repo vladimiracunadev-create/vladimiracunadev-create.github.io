@@ -82,6 +82,45 @@
     });
   }
 
+  function initAppDownloads() {
+    const actions = $("#smartDownloadActions");
+    const notice = $("#platformNotice");
+    if (!actions || !notice) return;
+
+    const ua = navigator.userAgent;
+    const isAndroid = /Android/i.test(ua);
+    const isIOS = /iPhone|iPad|iPod/i.test(ua);
+    const isMac = /Macintosh/i.test(ua) && !isIOS;
+    const isWindows = /Windows/i.test(ua);
+
+    // Configuración de URLs de Release (Ajustar al crear el release en GitHub)
+    const REPO_URL = "https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/releases/latest/download";
+    const APK_URL = `${REPO_URL}/app-release.apk`;
+    const IPA_URL = `${REPO_URL}/app-release.ipa`;
+
+    let html = "";
+    if (isAndroid) {
+      notice.textContent = "Plataforma detectada: Android";
+      html = `<a class="btn primary" href="${APK_URL}">Descargar APK</a>`;
+    } else if (isIOS || isMac) {
+      notice.textContent = `Plataforma detectada: ${isIOS ? "iOS" : "macOS"}`;
+      html = `<a class="btn primary" href="${IPA_URL}">Descargar IPA</a>`;
+      if (isIOS) {
+        html += `<p class="small muted" style="margin-top:8px">Nota: Requiere instalación vía AltStore o Xcode.</p>`;
+      }
+    } else if (isWindows) {
+      notice.textContent = "Plataforma detectada: Windows";
+      html = `<button class="btn primary" onclick="window.dispatchEvent(new Event('pwa-prompt'))">Instalar PWA (Desktop)</button>
+              <a class="btn" href="${APK_URL}">Descargar APK (Emulador)</a>`;
+    } else {
+      notice.textContent = "Plataforma no identificada";
+      html = `<a class="btn primary" href="${APK_URL}">Descargar APK</a>
+              <a class="btn" href="${IPA_URL}">Descargar IPA</a>`;
+    }
+
+    actions.innerHTML = html;
+  }
+
   function initMeta() {
     const y = $("#year");
     if (y) y.textContent = String(new Date().getFullYear());
@@ -91,5 +130,6 @@
   initMenu();
   initCopyEmail();
   initMeta();
+  initAppDownloads();
   loadRecentRepos();
 })();
