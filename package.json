@@ -1,0 +1,23 @@
+{
+    "name": "portfolio-static",
+    "version": "1.0.0",
+    "description": "Static portfolio with CI/CD",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 0",
+        "lint:html": "html-validate \"**/*.html\"",
+        "lint:md": "markdownlint-cli2 \"**/*.md\"",
+        "lint": "npm run lint:html && npm run lint:md",
+        "sitemap": "node scripts/generate-seo.js",
+        "build": "node scripts/build.js",
+        "lhci": "lhci autorun"
+    },
+    "devDependencies": {
+        "html-validate": "^8.0.0",
+        "markdownlint-cli2": "^0.12.0",
+        "terser": "^5.27.0",
+        "clean-css-cli": "^5.6.3",
+        "fs-extra": "^11.2.0",
+        "@lhci/cli": "^0.13.0"
+    },
+    "private": true
+}

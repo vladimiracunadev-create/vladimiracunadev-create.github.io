@@ -1,0 +1,99 @@
+name: CI - Quality & SEO
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  quality:
+    name: Code Quality
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Lint HTML
+        run: npm run lint:html
+
+      - name: Lint Markdown
+        run: npm run lint:md
+
+  seo:
+    name: SEO Generation
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate Sitemap/Robots
+        run: node scripts/generate-seo.js
+
+      - name: Upload SEO Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: seo-files
+          path: |
+            sitemap.xml
+            robots.txt
+
+  links:
+    name: Link Checker
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Link Checker (Lychee)
+        uses: lycheeverse/lychee-action@v1.9.0
+        with:
+          args: --verbose --no-progress './**/*.html' './**/*.md'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  performance:
+    name: Lighthouse CI
+    needs: quality
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Run Lighthouse CI
+        run: npm run lhci
+        env:
+          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
+
+      - name: Upload Build Artifact (Preview)
+        uses: actions/upload-artifact@v4
+        with:
+          name: portfolio-preview
+          path: dist/
+
+
