@@ -462,14 +462,14 @@ make up-dashboard
           <p class="muted">Accede a las versiones nativas y documentos oficiales.</p>
         </div>
 
-        <div class="grid grid--2">
+        <div class="grid grid--3">
           <!-- Smart App Download Card -->
           <article class="card app-download" id="smartDownloadCard">
             <div class="app-download__brand">
               <img src="assets/icons/icon.svg" alt="App Icon" class="app-icon" width="60" height="60">
               <div>
-                <h3>Portafolio Mobile</h3>
-                <p class="small muted" id="platformNotice">Detectando plataforma...</p>
+                <h3>Recomendado</h3>
+                <p class="small muted" id="platformNotice">Detectando equipo...</p>
               </div>
             </div>
             <div id="smartDownloadActions" class="actions">
@@ -477,14 +477,30 @@ make up-dashboard
             </div>
           </article>
 
+          <!-- Manual / All Versions -->
+          <article class="card">
+            <h3>Otras Versiones</h3>
+            <div class="downloads">
+              <a class="btn"
+                href="https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/releases/latest/download/app-debug.apk">Android
+                (APK)</a>
+              <a class="btn"
+                href="https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/releases/latest/download/app-release.ipa">Apple
+                (IPA)</a>
+              <button class="btn primary" type="button" onclick="window.dispatchEvent(new Event('pwa-prompt'))">Instalar
+                PWA</button>
+            </div>
+            <p class="small muted" style="margin-top:10px">Usa estos enlaces si la detección automática no coincide con
+              tu dispositivo.</p>
+          </article>
+
           <!-- Document Downloads -->
           <article class="card">
-            <h3>Documentación PDF</h3>
+            <h3>Documentos PDF</h3>
             <div class="downloads">
-              <a class="btn primary" href="assets/portafolio.pdf">Portafolio (PDF)</a>
-              <a class="btn" href="assets/cv-reducido.pdf">CV reducido (PDF)</a>
-              <a class="btn" href="assets/cv-completo.pdf" data-min-level="1">CV completo (PDF)</a>
-              <a class="btn" href="assets/carta-recomendacion.pdf" data-min-level="1">Carta de Recomendación (PDF)</a>
+              <a class="btn" href="assets/portafolio.pdf">Portafolio</a>
+              <a class="btn" href="assets/cv-reducido.pdf">CV Reducido</a>
+              <a class="btn" href="assets/cv-completo.pdf" data-min-level="1">CV Completo</a>
             </div>
           </article>
         </div>
