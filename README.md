@@ -8,6 +8,18 @@ Este repositorio contiene el código fuente de mi portafolio personal. Un sitio 
 
 ---
 
+## 📱 Instalación (PWA)
+
+Este portafolio es una **Progressive Web App (PWA)**, lo que permite instalarlo en tus dispositivos para un acceso rápido y consulta sin conexión.
+
+### Cómo instalar
+
+- **Windows / macOS (Chrome/Edge):** Haz clic en el icono de instalación en la barra de direcciones (derecha).
+- **Android (Chrome):** Toca los tres puntos y elige "Instalar aplicación".
+- **iOS (Safari):** Toca "Compartir" y elige "Añadir a la pantalla de inicio".
+
+---
+
 ## 🛠 Stack Tecnológico
 
 El proyecto se rige por la filosofía **KISS (Keep It Simple, Stupid)**, priorizando el rendimiento nativo sobre la sobre-ingeniería de frameworks.

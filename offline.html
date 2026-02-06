@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sin Conexión | Vladimir Acuña</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --text: #f1f5f9;
+      --accent: #3b82f6;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      color: #94a3b8;
+      margin-bottom: 2rem;
+    }
+
+    .btn {
+      background: var(--accent);
+      color: white;
+      text-decoration: none;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-weight: 600;
+      transition: opacity 0.2s;
+      border: none;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      opacity: 0.9;
+    }
+
+    svg {
+      margin-bottom: 2rem;
+      width: 64px;
+      height: 64px;
+      fill: var(--accent);
+    }
+  </style>
+</head>
+
+<body>
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path
+      d="M23.64 7c-.45-.34-4.93-4-11.64-4C5.28 3 .81 6.66.36 7l10.08 12.56c.8 1 2.32 1.02 3.15 0L23.64 7zm-1.37.14C20.48 8.44 16.51 11.19 12 11.19c-4.51 0-8.48-2.75-10.27-4.05L12 19.34l10.27-12.2z" />
+    <path d="M0 0h24v24H0z" fill="none" />
+  </svg>
+  <h1>¿Te has quedado sin señal?</h1>
+  <p>No te preocupes. Este portafolio está diseñado para funcionar offline, pero parece que este recurso aún no ha sido
+    cacheado o necesitas conexión inicial.</p>
+  <button class="btn" type="button" onclick="window.location.reload()">Reintentar carga</button>
+</body>
+
+</html>
