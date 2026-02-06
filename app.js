@@ -93,32 +93,36 @@
     const isMac = /Macintosh/i.test(ua) && !isIOS;
     const isWindows = /Windows/i.test(ua);
 
-    // Configuración de URLs de Release (Ajustar al crear el release en GitHub)
+    // Configuración de URLs de Release
     const REPO_URL = "https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/releases/latest/download";
     const APK_URL = `${REPO_URL}/app-debug.apk`;
-    const IPA_URL = `${REPO_URL}/app-release.ipa`;
 
     let html = "";
     if (isAndroid) {
       notice.textContent = "Plataforma detectada: Android";
       html = `<a class="btn primary" href="${APK_URL}">Descargar APK</a>`;
     } else if (isIOS || isMac) {
-      notice.textContent = `Plataforma detectada: ${isIOS ? "iOS" : "macOS"}`;
-      html = `<a class="btn primary" href="${IPA_URL}">Descargar IPA</a>`;
-      if (isIOS) {
-        html += `<p class="small muted" style="margin-top:8px">Nota: Requiere instalación vía AltStore o Xcode.</p>`;
-      }
+      notice.textContent = `Plataforma: ${isIOS ? "iOS" : "macOS"}`;
+      html = `<button class="btn primary" data-pwa-trigger>Instalar como App (PWA)</button>`;
     } else if (isWindows) {
       notice.textContent = "Plataforma detectada: Windows";
-      html = `<button class="btn primary" onclick="window.dispatchEvent(new Event('pwa-prompt'))">Instalar PWA (Desktop)</button>
+      html = `<button class="btn primary" data-pwa-trigger>Instalar PWA (Desktop)</button>
               <a class="btn" href="${APK_URL}">Descargar APK (Emulador)</a>`;
     } else {
       notice.textContent = "Plataforma no identificada";
       html = `<a class="btn primary" href="${APK_URL}">Descargar APK</a>
-              <a class="btn" href="${IPA_URL}">Descargar IPA</a>`;
+              <button class="btn" data-pwa-trigger>Instalar PWA</button>`;
     }
 
     actions.innerHTML = html;
+  }
+
+  function initPwaTriggers() {
+    document.addEventListener("click", (e) => {
+      if (e.target.closest("[data-pwa-trigger]")) {
+        window.dispatchEvent(new Event("pwa-prompt"));
+      }
+    });
   }
 
   function initMeta() {
@@ -131,5 +135,6 @@
   initCopyEmail();
   initMeta();
   initAppDownloads();
+  initPwaTriggers();
   loadRecentRepos();
 })();

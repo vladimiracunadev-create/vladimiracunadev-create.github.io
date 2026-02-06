@@ -484,11 +484,7 @@ make up-dashboard
               <a class="btn"
                 href="https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/releases/latest/download/app-debug.apk">Android
                 (APK)</a>
-              <a class="btn"
-                href="https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/releases/latest/download/app-release.ipa">Apple
-                (IPA)</a>
-              <button class="btn primary" type="button" onclick="window.dispatchEvent(new Event('pwa-prompt'))">Instalar
-                PWA</button>
+              <button class="btn primary" type="button" data-pwa-trigger>Instalar PWA</button>
             </div>
             <p class="small muted" style="margin-top:10px">Usa estos enlaces si la detección automática no coincide con
               tu dispositivo.</p>
@@ -537,7 +533,8 @@ make up-dashboard
               <div class="big"><a href="mailto:vladimir.acuna.dev@gmail.com">vladimir.acuna.dev@gmail.com</a></div>
             </div>
             <div class="contact__actions">
-              <button class="btn primary is-hidden" id="pwaInstall" type="button">💻 Instalar App</button>
+              <button class="btn primary is-hidden" id="pwaInstall" type="button" data-pwa-trigger>💻 Instalar
+                App</button>
               <button class="btn" id="btnCopyEmail" type="button">Copiar email</button>
               <a class="btn primary" href="https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29"
                 target="_blank" rel="noreferrer">LinkedIn</a>
