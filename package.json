@@ -4,7 +4,7 @@
     "description": "Static portfolio with CI/CD",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 0",
-        "lint:html": "html-validate \"**/*.html\"",
+        "lint:html": "html-validate --ext html .",
         "lint:md": "markdownlint-cli2 \"**/*.md\"",
         "lint": "npm run lint:html && npm run lint:md",
         "sitemap": "node scripts/generate-seo.js",
