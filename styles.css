@@ -110,6 +110,7 @@ pre{overflow:auto}
 .repo__desc{margin:8px 0 0; color:var(--muted); font-size:13px}
 .contact__row{display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap}
 .contact__actions{display:flex; gap:10px; flex-wrap:wrap}
+.is-hidden{display:none !important}
 [data-hidden="true"]{display:none !important}
 @media (max-width:980px){
   .hero__inner{grid-template-columns:1fr}

@@ -22,7 +22,7 @@ window.addEventListener('beforeinstallprompt', (e) => {
 
     // Si el botón existe, lo mostramos
     if (installBtn) {
-        installBtn.style.display = 'inline-block';
+        installBtn.classList.remove('is-hidden');
     }
 });
 
@@ -44,13 +44,13 @@ if (installBtn) {
         // Limpiamos el recurso
         deferredPrompt = null;
 
-        // Ocultamos el botón
-        installBtn.style.display = 'none';
+        // Ocultamos el botón de nuevo
+        installBtn.classList.add('is-hidden');
     });
 }
 
 // Evento de confirmación de instalación
 window.addEventListener('appinstalled', () => {
     console.log('PWA: Aplicación instalada correctamente.');
-    if (installBtn) installBtn.style.display = 'none';
+    if (installBtn) installBtn.classList.add('is-hidden');
 });
