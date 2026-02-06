@@ -15,14 +15,17 @@ Para obtener calificación **A+** en auditorías de seguridad:
 ## ⚡ Estrategia de Cache (Performance)
 
 ### Archivos HTML (`index.html`)
+
 * **Cache-Control**: `no-cache` o `max-age=0, must-revalidate`.
 * *Razón*: Asegura entrega inmediata de actualizaciones.
 
 ### Assets (CSS, JS)
+
 * Si no tienen hash: `public, max-age=86400, must-revalidate` (1 día).
 * Si tienen hash: `public, max-age=31536000, immutable`.
 
 ### Binarios Pesados (PDFs, Imágenes)
+
 * **Cache-Control**: `public, max-age=31536000, immutable`.
 
 ---

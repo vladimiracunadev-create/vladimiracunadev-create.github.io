@@ -7,6 +7,7 @@ Esta guía proporciona una visión completa del ecosistema móvil del proyecto, 
 Para trabajar en el desarrollo móvil de este portafolio, se recomienda el siguiente perfil de hardware:
 
 ### Perfil Recomendado
+
 * **CPU**: Procesador de alto rendimiento (ej. Apple M2/M3 o Intel i7/i9).
 * **RAM**: 16GB - 32GB (crucial para emuladores y compilación).
 * **Almacenamiento**: SSD dedicado con al menos 20GB libres para SDKs.
@@ -16,6 +17,7 @@ Para trabajar en el desarrollo móvil de este portafolio, se recomienda el sigui
 ## 🚀 Puesta en Marcha (Fast-Track)
 
 ### 1. Clonación e Instalación
+
 ```bash
 git clone https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io.git
 cd vladimiracunadev-create.github.io
@@ -23,6 +25,7 @@ npm install
 ```
 
 ### 2. Preparación de Aplicaciones
+
 El proyecto utiliza **Capacitor** para transformar el portafolio web en apps nativas.
 
 ```bash
@@ -37,6 +40,7 @@ npm install
 ### Proceso de Construcción (APK/AAB)
 
 1. **Sincronización**: Asegura que el contenido web esté listo para la app:
+
     ```bash
     ./scripts/mobile-android.ps1  # (Windows PowerShell)
     ```
@@ -56,11 +60,13 @@ El desarrollo de iOS requiere un entorno Mac con Xcode.
 ### Proceso de Construcción (IPA)
 
 1. **Sincronización**:
+
     ```bash
     ./scripts/mobile-ios.sh
     ```
 
 2. **Apertura en Xcode**:
+
     ```bash
     npx cap open ios
     ```
@@ -76,6 +82,7 @@ El desarrollo de iOS requiere un entorno Mac con Xcode.
 ## 🛠 Troubleshooting Common Issues
 
 Para soluciones detalladas a problemas comunes, consulta:
+
 * [Guía de Construcción Detallada](BUILD_GUIDE)
 * [Solución de Problemas iOS](IOS_TROUBLESHOOTING)
 

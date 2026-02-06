@@ -7,6 +7,7 @@ Asegurando la calidad, accesibilidad y performance del proyecto mediante herrami
 El proyecto utiliza **Lighthouse CI (LHCI)** para auditorías automáticas.
 
 ### Comandos de Ejecución
+
 ```bash
 npm run build
 npm run lhci

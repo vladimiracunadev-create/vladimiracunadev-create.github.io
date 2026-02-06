@@ -16,23 +16,27 @@ Este documento profundiza en los pasos técnicos para generar ejecutables móvil
 ### Solución de Problemas (Troubleshooting)
 
 #### 1. Error de Ejecución de Scripts (PowerShell)
+
 Si recibes `PSSecurityException` en Windows:
+
 ```powershell
 powershell.exe -ExecutionPolicy Bypass -File ./scripts/mobile-android.ps1
 ```
 
 #### 2. Menú "Build" Deshabilitado
+
 * **Sincronización**: `File` > `Sync Project with Gradle Files`.
 * **Directorio**: Asegúrate de abrir `apps/mobile/android` específicamente.
 
 #### 3. Errores de Codificación
+
 Asegúrate de que los archivos `.ps1` estén guardados en **UTF-8**.
 
 ---
 
 ## 🍎 iOS Deep-Dive
 
-### Solución de Problemas (Troubleshooting)
+### Solución de Problemas iOS (Troubleshooting)
 
 Consulta la [Guía Específica de iOS](IOS_TROUBLESHOOTING) para detalles sobre certificados y simuladores.
 
