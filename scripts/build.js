@@ -19,8 +19,8 @@ if (fs.existsSync(ASSETS)) {
     console.log('📂 Assets copied');
 }
 
-// Copy SEO files if they exist
-['sitemap.xml', 'robots.txt'].forEach(file => {
+// Copy SEO and PWA files if they exist
+['sitemap.xml', 'robots.txt', 'manifest.webmanifest', 'service-worker.js', 'pwa.js', 'offline.html'].forEach(file => {
     if (fs.existsSync(file)) {
         fs.copyFileSync(file, path.join(DIST, file));
         console.log(`📄 Copied ${file}`);
