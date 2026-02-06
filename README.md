@@ -1,54 +1,66 @@
-# Vladimir Acuña - Portafolio
+# 🚀 Vladimir Acuña | Portafolio Profesional
 
-Este repositorio contiene el código fuente de mi portafolio profesional personal.
-Es un sitio web estático diseñado para ser rápido, limpio y profesional, mostrando mi experiencia, proyectos y servicios.
+[![CI Pipeline](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/actions/workflows/ci.yml/badge.svg)](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/actions/workflows/ci.yml)
+[![Wiki Sync](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/actions/workflows/wiki-sync.yml/badge.svg)](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/actions/workflows/wiki-sync.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+Este repositorio contiene el código fuente de mi portafolio personal. Un sitio web **estático de alto rendimiento**, diseñado bajo principios de simplicidad y eficiencia para mostrar mi trayectoria, proyectos y servicios técnicos.
+
+---
 
 ## 🛠 Stack Tecnológico
 
-El proyecto está construido con principios **KISS (Keep It Simple, Stupid)**, evitando frameworks pesados innecesarios para este caso de uso.
+El proyecto se rige por la filosofía **KISS (Keep It Simple, Stupid)**, priorizando el rendimiento nativo sobre la sobre-ingeniería de frameworks.
 
-- **HTML5 Semántico**: Estructura clara y accesible.
-- **CSS3 Vanilla**: Estilos personalizados, variables CSS, Flexbox y Grid. Sin preprocesadores complejos.
-- **JavaScript (ES6+)**: Lógica ligera para interactividad (menú móvil, acordeones, cambio de vistas) sin dependencias externas.
-- **PDF Assets**: CVs y documentos descargables optimizados.
+- **🌐 Frontend Core**: HTML5 Semántico y CSS3 Vanilla (Custom Properties, Flexbox, Grid).
+- **⚡ JavaScript (ES6+)**: Lógica reactiva ligera sin dependencias externas.
+- **🏗 CI/CD**: Automatización con GitHub Actions para validación (Linting) y sincronización de Wiki.
+- **📈 SEO & Performance**: Optimización extrema (95+ en Lighthouse), generación dinámica de sitemaps.
+
+---
 
 ## 📚 Documentación Especializada
 
-He preparado guías específicas según quién revise este repositorio:
+Para una revisión detallada del proyecto, selecciona la guía que mejor se adapte a tu perfil:
 
-- **[🎯 Guía para Reclutadores](docs/RECRUITER.md)**: Valor de negocio, métricas técnicas (Lighthouse) y por qué elegir este stack.
-- **[🧠 Racional Técnico](docs/TECHNICAL_RATIONAL.md)**: ¿Por qué Vanilla JS/CSS? Una explicación sobre simplicidad y rendimiento.
-- **[🔰 Manual para Novatos](docs/BEGINNER_GUIDE.md)**: Cómo clonar, editar y subir tu propio portafolio si estás empezando.
+| Perfil | Guía | Enfoque |
+| :--- | :--- | :--- |
+| **Recrutadores** | [🎯 Guía para Reclutadores](docs/RECRUITER.md) | Valor técnico, métricas y "Por qué contratar". |
+| **Tech Leads** | [🧠 Racional Técnico](docs/TECHNICAL_RATIONAL.md) | Decisiones arquitectónicas y uso de Vanilla Stack. |
+| **Developers** | [🔰 Manual para Novatos](docs/BEGINNER_GUIDE.md) | Guía de personalización y despliegue rápido. |
+
+> [!TIP]
+> También puedes consultar nuestra **[📖 Wiki del Proyecto](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/wiki)** para ver detalles técnicos adicionales.
 
 ---
 
 ## 💻 Desarrollo Local
 
-Para visualizar y editar el sitio localmente:
+No se requiere de un entorno complejo para empezar a colaborar o editar.
 
-1. **Clonar el repositorio** (o descargar el ZIP):
+### 1. Clonar
+```bash
+git clone https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io.git
+cd vladimiracunadev-create.github.io
+```
 
-    ```bash
-    git clone https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io.git
-    cd vladimiracunadev-create.github.io
-    ```
-
-2. **Abrir Directamente**:
-    Al ser un sitio puramente estático, simplemente haz doble clic en `index.html` para verlo en tu navegador.
-
-    > **Nota**: No requieres instalar nada (ni Node, ni Python) a menos que quieras simular un entorno de servidor real.
-
-3. **Servidor Local** (Opcional - solo si prefieres):
-    Si deseas usar un servidor local por comodidad:
-    - Node/NPM: `npx http-server .`
-    - Python: `python -m http.server`
-
-## 📂 Estructura
-
-- `index.html`: Página principal (Single Page Portfolio).
-- `styles.css`: Hoja de estilos principal.
-- `app.js`: Scripts de interfaz (UI Logic).
-- `*.pdf`: Recursos estáticos (Curriculum, Cartas).
+### 2. Ejecución
+Al ser una web estática pura, puedes simplemente abrir `index.html` en tu navegador. Si prefieres un servidor local:
+- **Node**: `npx http-server .`
+- **Python**: `python -m http.server`
 
 ---
-© 2026 Vladimir Acuña
+
+## 📂 Estructura del Proyecto
+
+```text
+├── .github/workflows/  # Automatización (CI & Wiki Sync)
+├── docs/               # Documentación y Wiki
+├── scripts/            # Herramientas de build y SEO (Node.js)
+├── assets/             # Recursos estáticos (Imágenes, PDFs)
+├── index.html          # Punto de entrada principal
+└── styles.css          # Estilos globales
+```
+
+---
+© 2026 Vladimir Acuña | Desarrollado con ❤️ y Vanilla JS.
