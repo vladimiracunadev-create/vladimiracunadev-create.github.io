@@ -1,9 +1,9 @@
 (() => {
   const LEVELS = { recruiter: 0, normal: 1, deep: 2 };
-  const $ = (s, r=document) => r.querySelector(s);
-  const $$ = (s, r=document) => Array.from(r.querySelectorAll(s));
+  const $ = (s, r = document) => r.querySelector(s);
+  const $$ = (s, r = document) => Array.from(r.querySelectorAll(s));
 
-  function setView(view){
+  function setView(view) {
     document.body.dataset.view = view;
     localStorage.setItem("portfolio_view", view);
     $$("[data-view-btn]").forEach(btn => {
@@ -18,40 +18,40 @@
     });
   }
 
-  function initView(){
+  function initView() {
     setView(localStorage.getItem("portfolio_view") || "normal");
     $$("[data-view-btn]").forEach(btn => btn.addEventListener("click", () => setView(btn.dataset.viewBtn)));
   }
 
-  function initMenu(){
+  function initMenu() {
     const btn = $("#btnMenu");
     const nav = $("#nav");
-    if(!btn || !nav) return;
+    if (!btn || !nav) return;
     btn.addEventListener("click", () => {
       const open = nav.classList.toggle("is-open");
       btn.setAttribute("aria-expanded", String(open));
     });
     $$("a", nav).forEach(a => a.addEventListener("click", () => {
       nav.classList.remove("is-open");
-      btn.setAttribute("aria-expanded","false");
+      btn.setAttribute("aria-expanded", "false");
     }));
   }
 
-  async function loadRecentRepos(){
+  async function loadRecentRepos() {
     const box = $("#recentRepos");
-    if(!box) return;
-    const url = "https://api.github.com/users/vladimiracunadev-create/repos?per_page=100&sort=updated";
-    try{
-      const res = await fetch(url, { headers: { "Accept":"application/vnd.github+json" } });
-      if(!res.ok) throw new Error("HTTP " + res.status);
+    if (!box) return;
+    const url = "https://api.github.com/users/vladimiracunadev-create/repos?per_page=12&sort=updated";
+    try {
+      const res = await fetch(url, { headers: { "Accept": "application/vnd.github+json" } });
+      if (!res.ok) throw new Error("HTTP " + res.status);
       const repos = (await res.json())
         .filter(r => !r.fork)
-        .sort((a,b) => new Date(b.pushed_at) - new Date(a.pushed_at))
+        .sort((a, b) => new Date(b.pushed_at) - new Date(a.pushed_at))
         .slice(0, 8);
 
       box.innerHTML = repos.map(r => {
-        const updated = new Date(r.pushed_at).toLocaleDateString("es-CL",{year:"numeric",month:"short",day:"2-digit"});
-        const desc = (r.description || "").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+        const updated = new Date(r.pushed_at).toLocaleDateString("es-CL", { year: "numeric", month: "short", day: "2-digit" });
+        const desc = (r.description || "").replace(/</g, "&lt;").replace(/>/g, "&gt;");
         return `
           <div class="repo">
             <div class="repo__top">
@@ -61,30 +61,30 @@
             ${desc ? `<div class="repo__desc">${desc}</div>` : ""}
           </div>`;
       }).join("");
-    }catch(e){
+    } catch (e) {
       box.innerHTML = `<div class="muted small">No se pudo cargar la lista (API GitHub). Puedes ver repos en GitHub directamente.</div>`;
     }
   }
 
-  function initCopyEmail(){
+  function initCopyEmail() {
     const btn = $("#btnCopyEmail");
-    if(!btn) return;
+    if (!btn) return;
     btn.addEventListener("click", async () => {
       const email = "vladimir.acuna.dev@gmail.com";
-      try{
+      try {
         await navigator.clipboard.writeText(email);
         const old = btn.textContent;
         btn.textContent = "Copiado ✔";
         setTimeout(() => btn.textContent = old, 1200);
-      }catch{
+      } catch {
         prompt("Copia el email:", email);
       }
     });
   }
 
-  function initMeta(){
+  function initMeta() {
     const y = $("#year");
-    if(y) y.textContent = String(new Date().getFullYear());
+    if (y) y.textContent = String(new Date().getFullYear());
   }
 
   initView();
