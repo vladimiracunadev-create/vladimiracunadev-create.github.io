@@ -30,17 +30,17 @@ pre{overflow:auto}
 .brand__role{font-size:12px; color:var(--muted)}
 .iconbtn{
   border:1px solid var(--line); background:rgba(255,255,255,.04); color:var(--text);
-  border-radius:12px; padding:8px 10px; cursor:pointer; display:none;
+  border-radius:12px; padding:12px; cursor:pointer; display:none; min-width:44px; min-height:44px;
 }
 .nav{display:flex; gap:14px; flex-wrap:wrap; justify-content:center}
-.nav a{text-decoration:none; color:var(--muted); font-size:13px; padding:8px 10px; border-radius:12px}
+.nav a{text-decoration:none; color:var(--muted); font-size:14px; padding:12px 14px; border-radius:12px; display:inline-block;}
 .nav a:hover{color:var(--text); background:rgba(255,255,255,.04)}
 .views{display:flex; align-items:center; gap:10px; justify-content:flex-end; min-width:300px}
 .views__label{font-size:12px; color:var(--muted)}
 .views__group{display:flex; gap:8px}
 .chip{
   border:1px solid var(--line); background:rgba(255,255,255,.04); color:var(--muted);
-  padding:8px 10px; border-radius:999px; cursor:pointer; font-size:12px;
+  padding:10px 14px; border-radius:999px; cursor:pointer; font-size:13px; min-height:40px; display:inline-flex; align-items:center;
 }
 .chip.is-active{color:var(--text); background:rgba(255,255,255,.08); border-color:rgba(255,255,255,.22)}
 .hero{padding:44px 0 26px}
@@ -57,14 +57,14 @@ pre{overflow:auto}
 .cta{display:flex; gap:10px; flex-wrap:wrap; margin:14px 0}
 .btn{
   display:inline-flex; align-items:center; justify-content:center; gap:8px;
-  padding:10px 12px; border-radius:14px; border:1px solid var(--line);
+  padding:12px 16px; border-radius:14px; border:1px solid var(--line);
   background:rgba(255,255,255,.04); text-decoration:none; color:var(--text);
-  font-weight:650; font-size:13px; cursor:pointer;
+  font-weight:650; font-size:14px; cursor:pointer; min-height:44px;
 }
 .btn:hover{background:rgba(255,255,255,.08)}
 .btn.primary{background:linear-gradient(180deg, rgba(90,140,255,.35), rgba(90,140,255,.14)); border-color:rgba(90,140,255,.45)}
-.social{display:flex; flex-wrap:wrap; gap:12px; margin-top:10px}
-.link{color:var(--muted); text-decoration:none; font-size:13px}
+.social{display:flex; flex-wrap:wrap; gap:16px; margin-top:10px}
+.link{color:var(--muted); text-decoration:none; font-size:14px; padding:8px; display:inline-block;}
 .link:hover{color:var(--text); text-decoration:underline}
 .section{padding:34px 0}
 .section__head{margin-bottom:14px}
