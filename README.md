@@ -63,6 +63,7 @@ El portafolio está preparado para operar como una aplicación nativa instalable
 | **Recrutadores** | [🎯 Guía para Reclutadores](docs/RECRUITER.md) | Propuesta de valor y métricas de impacto. |
 | **Tech Leads** | [🧠 Racional Técnico](docs/TECHNICAL_RATIONAL.md) | Justificación de arquitectura y decisiones de diseño. |
 | **Developers** | [🔰 Manual para Novatos](docs/BEGINNER_GUIDE.md) | Guía técnica de personalización y contribución. |
+| **Operación** | [🛠️ Guía de Construcción](docs/BUILD_GUIDE.md) | Pasos para generar APK, IPA y PWA Desktop. |
 
 ---
 
