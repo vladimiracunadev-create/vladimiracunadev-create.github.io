@@ -8,6 +8,13 @@ Esta guía detalla los pasos técnicos necesarios para transformar el núcleo we
 
 Para sistemas de escritorio, utilizamos la tecnología **PWA (Progressive Web App)**, que permite una integración nativa con el sistema operativo sin la sobrecarga de un framework como Electron.
 
+> [!IMPORTANT]
+> **Requisito Técnico Crítico**: Las PWA (y específicamente sus *Service Workers*) **solo funcionan en Contextos Seguros**. Esto significa que **no puedes crear una PWA simplemente abriendo el archivo `index.html` en tu navegador** (ruta `file:///...`).
+>
+> Para que el navegador permita la instalación:
+> 1. **En Producción**: El sitio debe servirse vía **HTTPS** (como ya lo hace GitHub Pages).
+> 2. **En Desarrollo**: El sitio debe servirse vía **localhost** (usando un servidor local).
+
 ### Pasos para la Instalación como App
 
 1. **Servidor**: El sitio debe estar desplegado en un servidor seguro (HTTPS) o `localhost`.
