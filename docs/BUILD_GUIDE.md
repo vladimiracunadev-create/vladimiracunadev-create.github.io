@@ -66,18 +66,23 @@ Es natural que un APK ocupe más que el código HTML puro (típicamente entre 3M
 Si encuentras dificultades al generar el APK, revisa estas contingencias comunes:
 
 #### 1. Error de Ejecución de Scripts (PowerShell)
+
 Si al ejecutar `./scripts/mobile-android.ps1` recibes un error de "ejecución deshabilitada" (`PSSecurityException`), usa este comando para saltar la restricción temporalmente:
+
 ```powershell
 powershell.exe -ExecutionPolicy Bypass -File ./scripts/mobile-android.ps1
 ```
 
 #### 2. Menú "Build" Deshabilitado en Android Studio
+
 Si el botón de generar APK está en gris:
-*   **Espera**: Android Studio suele tardar un par de minutos en sincronizar Gradle. Mira la barra de progreso en la esquina inferior derecha.
-*   **Sincronización Manual**: Ve a `File` > `Sync Project with Gradle Files`.
-*   **Carpeta Correcta**: Asegúrate de haber abierto específicamente la carpeta `apps/mobile/android` y no la raíz del repositorio.
+
+* **Espera**: Android Studio suele tardar un par de minutos en sincronizar Gradle. Mira la barra de progreso en la esquina inferior derecha.
+* **Sincronización Manual**: Ve a `File` > `Sync Project with Gradle Files`.
+* **Carpeta Correcta**: Asegúrate de haber abierto específicamente la carpeta `apps/mobile/android` y no la raíz del repositorio.
 
 #### 3. Error de Sintaxis en Scripts (.ps1)
+
 Si el script falla con errores de "terminador faltante", asegúrate de que el archivo esté guardado con codificación **UTF-8** y sin caracteres especiales invisibles. Los scripts en este repositorio han sido simplificados para evitar estos problemas.
 
 ---
