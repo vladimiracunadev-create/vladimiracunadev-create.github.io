@@ -1,42 +1,47 @@
-# Solución de Problemas - iOS (Capacitor)
+# 🍎 Soporte iOS | Capacitor Engineering
 
-Detalles sobre la resolución de errores comunes al configurar el entorno de Apple.
-
-## 1. Error de "Signing & Capabilities"
-
-**Problema:** *"Signing for App requires a development team."*
-
-**Solución:** Selecciona un Apple ID válido en la pestaña *Signing & Capabilities* en Xcode.
-
-## 2. Error de "No Devices"
-
-**Problema:** *"Your team has no devices from which to generate a provisioning profile."*
-
-**Solución:**
-
-* Conecta un iPhone físico.
-* O selecciona un **Simulador** como destino.
-
-## 3. Simuladores Faltantes
-
-**Problema:** No aparecen simuladores en la lista.
-
-**Solución:**
-
-* Instala el runtime en **Xcode > Settings > Platforms > iOS**.
-* Crea simuladores en **Window > Devices and Simulators**.
-
-## 4. Sincronización de Archivos Web
-
-Para asegurar que la app refleje los últimos cambios del portafolio:
-
-1. Usa el script `./scripts/mobile-ios.sh`.
-2. O manualmente:
-
-   ```bash
-   ./scripts/sync-web.sh
-   npx cap sync ios
-   ```
+Guía especializada en la resolución de desafíos técnicos dentro de Xcode y el ecosistema de certificados de Apple.
 
 ---
-**Vladimir Acuña** - Senior Software Engineer
+
+## 🛡️ Desafíos de Aprovisionamiento y Firma
+
+### 1. Signing & Capabilities
+
+**Falla**: *"Signing for App requires a development team."*
+
+**Solución**: Es obligatorio registrar un Apple ID en la pestaña *Signing & Capabilities* para permitir el despliegue nativo.
+
+### 2. Identificación de Dispositivos Target
+
+**Falla**: *"Your team has no devices from which to generate a provisioning profile."*
+
+**Solución**:
+
+- Conectar un iPhone real registrado en el Developer Portal.
+- O desplegar en un **Simulador** (ideal para validación de UI básica).
+
+---
+
+## 📱 Entorno de Simulación
+
+**Problema**: No aparecen dispositivos virtuales en la lista de Xcode.
+
+**Solución**:
+
+1. Instalar el runtime en **Xcode > Settings > Platforms**.
+2. Crear perfiles de dispositivos en **Window > Devices and Simulators**.
+
+---
+
+## 🔄 Flujo de Sincronización Web-Nativo
+
+Para garantizar que la lógica de negocio y estilos CSS de tu portafolio se propaguen correctamente al binario de iPhone:
+
+```bash
+./scripts/mobile-ios.sh  # Ejecuta build web + cap sync
+```
+
+---
+
+[🏠 Volver al Home](Home) | **Vladimir Acuña** - Senior Software Engineer

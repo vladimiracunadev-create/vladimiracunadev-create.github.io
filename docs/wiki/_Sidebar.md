@@ -1,22 +1,26 @@
-### 🧭 Navegación
+### 🧭 Navegación Principal
 
-- [🏠 Inicio](Home)
-- [🎯 Para Reclutadores](RECRUITER)
-- [🧠 Racional Técnico](TECHNICAL_RATIONAL)
-- [🔰 Manual Novatos](BEGINNER_GUIDE)
-
----
-
-### 📱 Mobile
-
-- [🚀 Guía Maestra](GUIA_MAESTRA_MOBILE)
-- [🛠 Construcción](BUILD_GUIDE)
-- [🍎 Soporte iOS](IOS_TROUBLESHOOTING)
+- [🏠 **Wiki Home**](Home)
+- [🎯 **Para Reclutadores**](RECRUITER)
+- [🧠 **Racional Técnico**](TECHNICAL_RATIONAL)
+- [🔰 **Manual Novatos**](BEGINNER_GUIDE)
 
 ---
 
-### 🛡 Calidad y Seguridad
+### 📱 Ecosistema Mobile
 
-- [🔒 Seguridad y Cache](SECURITY_HEADERS)
-- [📊 Validación Local](VALIDATION)
-- [📂 Arquitectura Asíncrona](ASINCRONO)
+Transformación del Portafolio
+
+- [🚀 **Guía Maestra Mobile**](GUIA_MAESTRA_MOBILE)
+- [🛠️ **Guía de Construcción**](BUILD_GUIDE)
+- [🍎 **Soporte iOS**](IOS_TROUBLESHOOTING)
+
+---
+
+### 🛡️ Ingeniería y Calidad
+
+Estándares de Excelencia
+
+- [🔒 **Seguridad y Cache**](SECURITY_HEADERS)
+- [📊 **Validación Local**](VALIDATION)
+- [📂 **Arquitectura Asíncrona**](ASINCRONO)

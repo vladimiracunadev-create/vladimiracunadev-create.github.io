@@ -1,22 +1,24 @@
-# Guía Maestra Mobile
+# 🚀 Guía Maestra Mobile | Ecosistema Multiplataforma
 
-Esta guía proporciona una visión completa del ecosistema móvil del proyecto, combinando hardware, software y procesos de puesta en marcha para Android e iOS.
-
-## 📱 Hardware y Entorno
-
-Para trabajar en el desarrollo móvil de este portafolio, se recomienda el siguiente perfil de hardware:
-
-### Perfil Recomendado
-
-* **CPU**: Procesador de alto rendimiento (ej. Apple M2/M3 o Intel i7/i9).
-* **RAM**: 16GB - 32GB (crucial para emuladores y compilación).
-* **Almacenamiento**: SSD dedicado con al menos 20GB libres para SDKs.
+Esta guía proporciona la visión estratégica y los requisitos técnicos para operar el portafolio como una aplicación nativa de alto rendimiento.
 
 ---
 
-## 🚀 Puesta en Marcha (Fast-Track)
+## 📱 Hardware y Entorno de Ingeniería
 
-### 1. Clonación e Instalación
+El desarrollo móvil exige un entorno optimizado para garantizar tiempos de compilación mínimos y estabilidad en emuladores.
+
+### Perfil de Hardware Recomendado
+
+- **CPU**: Apple M2/M3 o Intel i7/i9 (mínimo 8 núcleos).
+- **RAM**: 16GB (32GB recomendado para flujos de trabajo paralelos).
+- **Almacenamiento**: NVMe SSD con 20GB+ dedicados a SDKs y Runtimes.
+
+---
+
+## ⚡ Puesta en Marcha (Fast-Track)
+
+### 1. Preparación del Workspace
 
 ```bash
 git clone https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io.git
@@ -24,9 +26,9 @@ cd vladimiracunadev-create.github.io
 npm install
 ```
 
-### 2. Preparación de Aplicaciones
+### 2. Capa de Abstracción Móvil
 
-El proyecto utiliza **Capacitor** para transformar el portafolio web en apps nativas.
+Utilizamos **Capacitor** para exponer APIs nativas al núcleo Vanilla JS.
 
 ```bash
 cd apps/mobile
@@ -35,64 +37,48 @@ npm install
 
 ---
 
-## 🤖 Android (Desde Windows/Linux/Mac)
+## 🤖 Android (Universal)
 
-### Proceso de Construcción (APK/AAB)
+### Pipeline de Construcción (APK)
 
-1. **Sincronización**: Asegura que el contenido web esté listo para la app:
+1. **Sync Core**: Prepara los assets web.
 
     ```bash
     ./scripts/mobile-android.ps1  # (Windows PowerShell)
     ```
 
-2. **Apertura en Android Studio**: Abre la carpeta `apps/mobile/android`.
+2. **Studio Integration**: Abre `apps/mobile/android` en **Android Studio**.
 
-3. **Generación del Binario**:
-    * Ve a `Build` > `Build Bundle(s) / APK(s)` > `Build APK(s)`.
-    * El archivo generado estará en: `app/build/outputs/apk/debug/app-debug.apk`.
+3. **Artifact Generation**: `Build` > `Build APK(s)`.
 
 ---
 
-## 🍎 iOS (Desde macOS)
+## 🍎 iOS (Apple Ecosystem)
 
-El desarrollo de iOS requiere un entorno Mac con Xcode.
+### Pipeline de Construcción (IPA)
 
-### Proceso de Construcción (IPA)
-
-1. **Sincronización**:
+1. **Sync Core**:
 
     ```bash
     ./scripts/mobile-ios.sh
     ```
 
-2. **Apertura en Xcode**:
+2. **Xcode Integration**:
 
     ```bash
     npx cap open ios
     ```
 
-3. **Firma y Distribución**:
-    * Configura tu **Development Team** en *Signing & Capabilities*.
-    * Destino: `Any iOS Device (arm64)`.
-    * Menú: `Product` > `Archive`.
-    * Exporta mediante `Distribute App`.
+3. **Archiving**: Selecciona `Any iOS Device` > `Product` > `Archive`.
 
 ---
 
-## 🛠 Troubleshooting Common Issues
+## 📦 Reglas de Ingeniería de Versiones
 
-Para soluciones detalladas a problemas comunes, consulta:
-
-* [Guía de Construcción Detallada](BUILD_GUIDE)
-* [Solución de Problemas iOS](IOS_TROUBLESHOOTING)
-
----
-
-## 📦 Reglas de Distribución
-
-1. **NO subir binarios** (`.apk`, `.ipa`) al repositorio Git.
-2. **Usar Releases**: Carga los ejecutables como Assets en las [Releases de GitHub](../../releases).
-3. **Versiones**: Cada subida debe ir acompañada de una descripción de los cambios técnicos y de UI.
+- **Higiene del Repo**: Prohibido subir binarios (.apk/.ipa).
+- **GitHub Releases**: Utilizar el sistema de assets de GitHub para distribución.
+- **Trazabilidad**: Cada release debe documentar cambios técnicos y correcciones.
 
 ---
-**Vladimir Acuña** - Senior Software Engineer
+
+[🏠 Volver al Home](Home) | **Vladimir Acuña** - Senior Software Engineer

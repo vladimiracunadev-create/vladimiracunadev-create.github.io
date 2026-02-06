@@ -1,32 +1,39 @@
-# Seguridad y Caching
+# 🔒 Seguridad y Caching | Producción Ready
 
-Guía de mejores prácticas para el despliegue del portafolio estático en entornos de producción.
-
-## 🛡 Security Headers (Checklist)
-
-Para obtener calificación **A+** en auditorías de seguridad:
-
-* **Content-Security-Policy (CSP)**: Control de recursos permitidos.
-* **Strict-Transport-Security (HSTS)**: Forzar HTTPS.
-* **X-Content-Type-Options**: `nosniff`.
-* **X-Frame-Options**: `DENY`.
-* **Referrer-Policy**: `strict-origin-when-cross-origin`.
-
-## ⚡ Estrategia de Cache (Performance)
-
-### Archivos HTML (`index.html`)
-
-* **Cache-Control**: `no-cache` o `max-age=0, must-revalidate`.
-* *Razón*: Asegura entrega inmediata de actualizaciones.
-
-### Assets (CSS, JS)
-
-* Si no tienen hash: `public, max-age=86400, must-revalidate` (1 día).
-* Si tienen hash: `public, max-age=31536000, immutable`.
-
-### Binarios Pesados (PDFs, Imágenes)
-
-* **Cache-Control**: `public, max-age=31536000, immutable`.
+Protocolos y estándares aplicados para garantizar un despliegue seguro, resiliente y de alto rendimiento.
 
 ---
-**Vladimir Acuña** - Senior Software Engineer
+
+## 🛡️ Checklist de Seguridad (Zero Trust)
+
+Implementar estas cabeceras es crítico para mitigar ataques XSS, Clickjacking y de inyección de recursos.
+
+- [x] **CSP (Content-Security-Policy)**: Control estricto de orígenes permitidos.
+- [x] **HSTS (Strict-Transport-Security)**: Garantiza navegación solo vía TLS.
+- [x] **X-Content-Type-Options**: Previene el sniffing de MIME types.
+
+---
+
+## ⚡ Estrategias de Caché y Rendimiento
+
+La gestión de caché es vital para una experiencia de usuario instantánea en visitas recurrentes.
+
+### Archivos Dinámicos (`index.html`)
+
+- **Política**: `no-cache` o `max-age=0, must-revalidate`.
+- **Razón**: Permite actualizaciones inmediatas sin requerir limpieza manual del navegador.
+
+### Recursos Estáticos (CSS, JS)
+
+- **Agnósticos**: `public, max-age=86400, must-revalidate` (1 día).
+- **Inmutables**: `public, max-age=31536000, immutable` (Solo bajo versionado por hash).
+
+---
+
+## 📊 Métricas de Impacto
+
+Un despliegue correcto de estas políticas garantiza un puntaje de **100/100** en la categoría "Best Practices" de Lighthouse.
+
+---
+
+[🏠 Volver al Home](Home) | **Vladimir Acuña** - Senior Software Engineer

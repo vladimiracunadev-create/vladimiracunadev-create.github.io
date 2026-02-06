@@ -1,51 +1,52 @@
-# Guía de Construcción Detallada
+# 🛠️ Guía de Construcción Detallada | Mobile Artifacts
 
-Este documento profundiza en los pasos técnicos para generar ejecutables móviles y resolver conflictos específicos de entorno.
+Profundización técnica en los procesos de compilación, firma y resolución de conflictos de entorno para Android e iOS.
 
-## 🛠 Requisitos de Software
+---
 
-* **Node.js**: v18 o superior.
-* **Android Studio**: Ladybug (o versión estable reciente) con SDK 34+.
-* **Xcode**: v15+ (solo macOS).
-* **Capacitor CLI**: Instalado localmente en `apps/mobile/node_modules`.
+## 📋 Requisitos de Software de Grado Industrial
+
+- **Node.js**: v18+ (LTS recomendado).
+- **Android Studio**: Ladybug con SDK 34 (Android 14) o superior.
+- **Xcode**: v15+ (Bridge nativo para iOS).
+- **Capacitor CLI**: Gestionado para consistencia de APIs.
 
 ---
 
 ## 🤖 Android Deep-Dive
 
-### Solución de Problemas (Troubleshooting)
+### Estrategias de Resiliencia (Troubleshooting)
 
-#### 1. Error de Ejecución de Scripts (PowerShell)
+#### 1. Políticas de Seguridad (Windows)
 
-Si recibes `PSSecurityException` en Windows:
+En caso de `PSSecurityException`:
 
 ```powershell
 powershell.exe -ExecutionPolicy Bypass -File ./scripts/mobile-android.ps1
 ```
 
-#### 2. Menú "Build" Deshabilitado
+#### 2. Sincronización de Gradle
 
-* **Sincronización**: `File` > `Sync Project with Gradle Files`.
-* **Directorio**: Asegúrate de abrir `apps/mobile/android` específicamente.
+Si el menú de construcción está inactivo:
 
-#### 3. Errores de Codificación
-
-Asegúrate de que los archivos `.ps1` estén guardados en **UTF-8**.
+- **Sync**: `File` > `Sync Project with Gradle Files`.
+- **Target**: Asegura abrir el directorio `/android` y no la raíz.
 
 ---
 
 ## 🍎 iOS Deep-Dive
 
-### Solución de Problemas iOS (Troubleshooting)
+### Soporte Crítico
 
-Consulta la [Guía Específica de iOS](IOS_TROUBLESHOOTING) para detalles sobre certificados y simuladores.
+Para detalles sobre firmas de Apple y perfiles de aprovisionamiento, consulta la [Guía de Soporte iOS](IOS_TROUBLESHOOTING).
+
+---
+
+## 📜 Estándares de Sincronización
+
+- **Zero Trash Policy**: El repositorio debe estar libre de rastro de IDEs (.idea/vscode).
+- **Permisos Unix**: Mantener `gradlew` con permisos correctos incluso en entornos Windows.
 
 ---
 
-## 📜 Reglas de Limpieza y Sincronización
-
-* Mantener el repositorio libre de carpetas `.idea`, `.vscode` y `node_modules` de nivel nativo.
-* En Windows, evitar subir cambios accidentales en permisos de archivos Unix (`gradlew`).
-
----
-**Vladimir Acuña** - Senior Software Engineer
+[🏠 Volver al Home](Home) | **Vladimir Acuña** - Senior Software Engineer

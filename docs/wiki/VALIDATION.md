@@ -1,34 +1,39 @@
-# Guía de Validación Local
+# 📊 Guía de Validación Local | Calidad de Software
 
-Asegurando la calidad, accesibilidad y performance del proyecto mediante herramientas automatizadas.
-
-## 🛠 Herramientas
-
-El proyecto utiliza **Lighthouse CI (LHCI)** para auditorías automáticas.
-
-### Comandos de Ejecución
-
-```bash
-npm run build
-npm run lhci
-```
-
-## 📊 ¿Qué se evalúa?
-
-1. **Performance**: Velocidad de carga y optimización de recursos.
-2. **Accesibilidad**: Facilidad de uso para todos los usuarios.
-3. **Best Practices**: Estándares web modernos y seguridad.
-4. **SEO**: Visibilidad en motores de búsqueda.
-
-## 🔒 Política de Seguridad (CSP)
-
-El portafolio implementa una **CSP estricta** para mitigar ataques XSS y de inyección:
-
-* **default-src 'self'**: Solo recursos del mismo origen por defecto.
-* **script-src**: Solo scripts locales y de confianza.
-* **img-src**: Permitir imágenes externas solo mediante HTTPS.
-
-Para más detalles sobre la implementación técnica, consulta la [Guía de Seguridad](SECURITY_HEADERS).
+Asegurando que cada línea de código cumpla con los estándares de excelencia técnica mediante auditorías automatizadas.
 
 ---
-**Vladimir Acuña** - Senior Software Engineer
+
+## 🛠️ Herramental de Calidad
+
+Utilizamos **Lighthouse CI (LHCI)** como gatekeeper de calidad antes de cualquier promoción a producción.
+
+### Comandos de Inspección
+
+```bash
+npm run build      # Genera el artefacto web optimizado
+npm run lhci       # Ejecuta la batería de pruebas de Lighthouse
+```
+
+---
+
+## 🔍 Ejes de Evaluación
+
+1. **Performance**: Optimización de imágnes y carga diferida.
+2. **Accesibilidad**: Navegación por teclado y etiquetas semánticas.
+3. **SEO**: Preparación para indexación orgánica.
+
+---
+
+## 🔒 Content Security Policy (CSP)
+
+El portafolio opera bajo una **CSP de denegación por defecto**:
+
+- **Self-Only**: Solo servimos lo que nosotros mismos generamos.
+- **Strict Scripts**: Bloqueo de inyecciones externas maliciosas.
+
+Para una exploración profunda de los headers, consulta la [Guía de Seguridad](SECURITY_HEADERS).
+
+---
+
+[🏠 Volver al Home](Home) | **Vladimir Acuña** - Senior Software Engineer
