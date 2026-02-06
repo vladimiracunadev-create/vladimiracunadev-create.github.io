@@ -95,7 +95,7 @@
 
     // Configuración de URLs de Release (Ajustar al crear el release en GitHub)
     const REPO_URL = "https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/releases/latest/download";
-    const APK_URL = `${REPO_URL}/app-release.apk`;
+    const APK_URL = `${REPO_URL}/app-debug.apk`;
     const IPA_URL = `${REPO_URL}/app-release.ipa`;
 
     let html = "";
