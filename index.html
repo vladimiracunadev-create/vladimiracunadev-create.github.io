@@ -246,17 +246,20 @@
               <span class="tag">Industrial</span>
             </div>
             <p>
-              Arquitectura cloud con despliegues **OIDC** (sin secretos), **Terraform** y
-              control de costos vía **AWS Budgets (FinOps)**.
+              Arquitectura multicloud con despliegues inmutables vía **Terraform**,
+              autenticación **OIDC** sin secretos y gobernanza **FinOps** (AWS Budgets).
+              Gestión avanzada de **IAM** y despliegues automáticos a S3/Amplify.
             </p>
             <div class="chips">
               <span class="pill">OIDC</span><span class="pill">Terraform</span><span class="pill">FinOps</span><span
-                class="pill">IAM</span>
+                class="pill">IAM</span><span class="pill">GitHub/GitLab</span>
             </div>
             <div class="actions">
               <a class="btn primary" href="https://github.com/vladimiracunadev-create/proyectos-aws" target="_blank"
                 rel="noreferrer">GitHub</a>
-              <a class="btn" href="#demos">Demos</a>
+              <a class="btn primary" href="https://gitlab.com/vladimir.acuna.dev-group/proyectos-aws-gitlab"
+                target="_blank" rel="noreferrer">GitLab</a>
+              <a class="btn" href="#demos">Ver Demos</a>
             </div>
           </article>
 
@@ -337,25 +340,34 @@
         <div class="grid grid--2">
           <article class="card">
             <h3>AWS S3 + GitHub Actions</h3>
-            <p>Deploy automático al hacer push a <code>main</code> (sync con <code>--delete</code>).</p>
+            <p>Deploy automático (sync) vía **GitHub OIDC**. Flujo profesional con validaciones.</p>
             <div class="actions">
               <a class="btn primary" href="https://mi-pagina-scrum-123.s3.us-east-2.amazonaws.com/index.html"
                 target="_blank" rel="noreferrer">Ver demo</a>
               <a class="btn" href="https://github.com/vladimiracunadev-create/proyectos-aws" target="_blank"
-                rel="noreferrer" aria-label="Ver repo: AWS S3 + Actions">Ver repo</a>
+                rel="noreferrer">GitHub Repo</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Portal de Documentación (GitLab CI)</h3>
+            <p>Glassmorphism PWA desplegado desde GitLab vía **OIDC** y **OAC** (Caso L - FinOps).</p>
+            <div class="actions">
+              <a class="btn primary" href="http://finops-vladimir-portfolio-case-l.s3-website.us-east-2.amazonaws.com"
+                target="_blank" rel="noreferrer">Ver demo</a>
+              <a class="btn" href="https://gitlab.com/vladimir.acuna.dev-group/vladimir.acuna.dev-group" target="_blank"
+                rel="noreferrer">GitLab Repo</a>
             </div>
           </article>
 
           <article class="card">
             <h3>AWS Amplify · Deploy por ramas</h3>
-            <p>Continuous Deployment con <code>main</code>/<code>dev</code>, build automático y SSL.</p>
+            <p>Continuous Deployment con build automático, SSL y entornos aislados (main/dev).</p>
             <div class="actions">
               <a class="btn primary" href="https://main.d3r1wuymolxagh.amplifyapp.com/" target="_blank"
                 rel="noreferrer">Demo main</a>
               <a class="btn" href="https://dev.d20m8tc0banvg.amplifyapp.com/" target="_blank" rel="noreferrer"
                 data-min-level="1">Demo dev</a>
-              <a class="btn" href="https://github.com/vladimiracunadev-create/proyectos-aws" target="_blank"
-                rel="noreferrer" aria-label="Ver repo: AWS Amplify">Ver repo</a>
             </div>
           </article>
         </div>
