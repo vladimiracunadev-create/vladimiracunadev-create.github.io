@@ -73,6 +73,10 @@ pre {
   padding: 0 var(--pad)
 }
 
+.mt-10 {
+  margin-top: 10px
+}
+
 .skip {
   position: absolute;
   left: -999px;
