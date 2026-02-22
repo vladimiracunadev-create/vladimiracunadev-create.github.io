@@ -31,23 +31,26 @@
       </div>
 
       <nav class="nav" id="nav" aria-label="Navegación principal">
-        <a href="#proyectos">Proyectos</a>
-        <a href="#demos">Demos</a>
-        <a href="#experiencia">Experiencia</a>
-        <a href="#roles">Roles</a>
-        <a href="#servicios">Servicios</a>
-        <a href="#descargas">Descargas</a>
-        <a href="#referencias">Referencias</a>
-        <a href="#contacto">Contacto</a>
+        <a href="#proyectos"><span data-es></span>Proyectos</span><span data-en>Projects</span></a>
+        <a href="#demos"><span data-es>Demos</span><span data-en>Demos</span></a>
+        <a href="#experiencia"><span data-es>Experiencia</span><span data-en>Experience</span></a>
+        <a href="#servicios"><span data-es>Servicios</span><span data-en>Services</span></a>
+        <a href="#contacto"><span data-es>Contacto</span><span data-en>Contact</span></a>
       </nav>
 
+      <div class="settings">
+        <button class="iconbtn settings-btn" id="btnLang" title="Cambiar Idioma">🇪🇸</button>
+        <button class="iconbtn settings-btn" id="btnTheme" title="Cambiar Tema">🌙</button>
+      </div>
+
       <div class="views">
-        <span class="views__label">Vista:</span>
+        <span class="views__label"><span data-es>Vista:</span><span data-en>View:</span></span>
         <div class="views__group" role="tablist" aria-label="Vistas">
-          <button class="chip is-active" type="button" role="tab" aria-selected="true"
-            data-view-btn="recruiter">Reclutador</button>
+          <button class="chip is-active" type="button" role="tab" aria-selected="true" data-view-btn="recruiter"><span
+              data-es>Reclutador</span><span data-en>Recruiter</span></button>
           <button class="chip" type="button" role="tab" aria-selected="false" data-view-btn="normal">Normal</button>
-          <button class="chip" type="button" role="tab" aria-selected="false" data-view-btn="deep">Profundo</button>
+          <button class="chip" type="button" role="tab" aria-selected="false" data-view-btn="deep"><span
+              data-es>Profundo</span><span data-en>Deep</span></button>
         </div>
       </div>
     </div>
@@ -57,11 +60,16 @@
     <section class="hero">
       <div class="wrap hero__inner">
         <div class="hero__copy">
-          <h1>Modernizo sistemas legacy con observabilidad y resiliencia industrial.</h1>
+          <h1 data-es>Modernizo sistemas legacy con observabilidad y resiliencia industrial.</h1>
+          <h1 data-en>Modernizing legacy systems with industrial observability and resilience.</h1>
           <p class="lead">
-            Arquitecto de Software &amp; Desarrollador Senior. 14+ años liderando la evolución de plataformas.
-            Hoy enfocado en <strong>modernización progresiva</strong>, <strong>DevOps/FinOps</strong>,
-            <strong>observabilidad avanzada</strong> y <strong>IA agéntica local</strong>.
+            <span data-es>Arquitecto de Software &amp; Desarrollador Senior. 14+ años liderando la evolución de
+              plataformas.
+              Hoy enfocado en <strong>modernización progresiva</strong>, <strong>DevOps/FinOps</strong>,
+              <strong>observabilidad avanzada</strong> y <strong>IA agéntica local</strong>.</span>
+            <span data-en>Software Architect &amp; Senior Developer. 14+ years leading platform evolution.
+              Today focused on <strong>progressive modernization</strong>, <strong>DevOps/FinOps</strong>,
+              <strong>advanced observability</strong> and <strong>local agentic AI</strong>.</span>
           </p>
 
           <div class="hero__badges" data-min-level="1">
@@ -96,13 +104,22 @@
 
         <div class="hero__cards">
           <div class="card highlight-feb">
-            <div class="tag">Nuevo · Feb 2026</div>
-            <h2>Mi Estándar Industrial</h2>
+            <div class="tag"><span data-es>Nuevo · Feb 2026</span><span data-en>New · Feb 2026</span></div>
+            <h2 data-es>Mi Estándar Industrial</h2>
+            <h2 data-en>My Industrial Standard</h2>
             <ul class="bullets small">
-              <li><strong>Observabilidad:</strong> Dashboards en Grafana para eliminar cajas negras.</li>
-              <li><strong>Resiliencia:</strong> Circuit breakers e idempotencia (Guardrails).</li>
-              <li><strong>Cloud &amp; FinOps:</strong> Despliegues OIDC y control de costos en AWS.</li>
-              <li><strong>Developer Experience:</strong> Hub CLI, tests `doctor` y `smoke`.</li>
+              <li><strong data-es>Observabilidad:</strong><strong data-en>Observability:</strong> <span
+                  data-es>Dashboards en Grafana para eliminar cajas negras.</span><span data-en>Grafana dashboards to
+                  eliminate black boxes.</span></li>
+              <li><strong data-es>Resiliencia:</strong><strong data-en>Resilience:</strong> <span data-es>Circuit
+                  breakers e idempotencia (Guardrails).</span><span data-en>Circuit breakers and idempotency
+                  (Guardrails).</span></li>
+              <li><strong data-es>Cloud &amp; FinOps:</strong><strong data-en>Cloud &amp; FinOps:</strong> <span
+                  data-es>Despliegues OIDC y control de costos en AWS.</span><span data-en>OIDC deployments and cost
+                  control on AWS.</span></li>
+              <li><strong data-es>Developer Experience:</strong><strong data-en>Developer Experience:</strong> <span
+                  data-es>Hub CLI, tests `doctor` y `smoke`.</span><span data-en>Hub CLI, `doctor` and `smoke`
+                  tests.</span></li>
             </ul>
           </div>
 
@@ -127,8 +144,12 @@
     <section class="section" id="evolucion" data-min-level="1">
       <div class="wrap">
         <div class="section__head">
-          <h2>Estándares Consolidados (Febrero 2026)</h2>
-          <p class="muted">Evolución técnica aplicada a todos los nuevos proyectos y modernizaciones.</p>
+          <h2 data-es>Estándares Consolidados (Febrero 2026)</h2>
+          <h2 data-en>Consolidated Standards (February 2026)</h2>
+          <p class="muted">
+            <span data-es>Evolución técnica aplicada a todos los nuevos proyectos y modernizaciones.</span>
+            <span data-en>Technical evolution applied to all new projects and modernizations.</span>
+          </p>
         </div>
         <div class="grid grid--3">
           <div class="card soft">
@@ -137,24 +158,48 @@
             </p>
           </div>
           <div class="card soft">
-            <h3>🛡️ Resiliencia</h3>
-            <p class="small">Idempotencia, Circuit Breakers y desvío controlado (DLQ) para fallos de terceros.</p>
+            <h3 data-es>🛡️ Resiliencia</h3>
+            <h3 data-en>🛡️ Resilience</h3>
+            <p class="small">
+              <span data-es>Idempotencia, Circuit Breakers y desvío controlado (DLQ) para fallos de terceros.</span>
+              <span data-en>Idempotency, Circuit Breakers and controlled diversion (DLQ) for third-party
+                failures.</span>
+            </p>
           </div>
           <div class="card soft">
-            <h3>🛠️ DX &amp; Reproducibilidad</h3>
-            <p class="small">Entornos `doctor` y `smoke` tests. Hub CLI multi-OS para levantar stacks en un comando.</p>
+            <h3 data-es>🛠️ DX &amp; Reproducibilidad</h3>
+            <h3 data-en>🛠️ DX &amp; Reproducibility</h3>
+            <p class="small">
+              <span data-es>Entornos `doctor` y `smoke` tests. Hub CLI multi-OS para levantar stacks en un
+                comando.</span>
+              <span data-en>`doctor` environments and `smoke` tests. Multi-OS Hub CLI to spin up stacks in one
+                command.</span>
+            </p>
           </div>
           <div class="card soft">
-            <h3>☁️ Cloud Profesional</h3>
-            <p class="small">Infra inmutable (Terraform), seguridad OIDC y gobernanza de costos (FinOps/Budgets).</p>
+            <h3 data-es>☁️ Cloud Profesional</h3>
+            <h3 data-en>☁️ Professional Cloud</h3>
+            <p class="small">
+              <span data-es>Infra inmutable (Terraform), seguridad OIDC y gobernanza de costos (FinOps/Budgets).</span>
+              <span data-en>Immutable infrastructure (Terraform), OIDC security and cost governance
+                (FinOps/Budgets).</span>
+            </p>
           </div>
           <div class="card soft">
-            <h3>📱 Multiplataforma</h3>
-            <p class="small">Web PWA + Build móvil nativo vía Capacitor. Arquitectura orientada a producto.</p>
+            <h3 data-es>📱 Multiplataforma</h3>
+            <h3 data-en>📱 Multiplatform</h3>
+            <p class="small">
+              <span data-es>Web PWA + Build móvil nativo vía Capacitor. Arquitectura orientada a producto.</span>
+              <span data-en>Web PWA + Native mobile build via Capacitor. Product-oriented architecture.</span>
+            </p>
           </div>
           <div class="card soft">
-            <h3>🤖 IA Agéntica</h3>
-            <p class="small">Agentes con estado, resiliencia y rutas condicionales integrados en el negocio.</p>
+            <h3 data-es>🤖 IA Agéntica</h3>
+            <h3 data-en>🤖 Agentic AI</h3>
+            <p class="small">
+              <span data-es>Agentes con estado, resiliencia y rutas condicionales integrados en el negocio.</span>
+              <span data-en>Stateful agents, resilience and conditional routing integrated into the business.</span>
+            </p>
           </div>
         </div>
       </div>
@@ -163,47 +208,65 @@
     <section class="section" id="proyectos">
       <div class="wrap">
         <div class="section__head">
-          <h2>Proyectos destacados</h2>
-          <p class="muted">Selección con foco en modernización, productividad, automatización y demos verificables.</p>
+          <h2 data-es>Proyectos destacados</h2>
+          <h2 data-en>Featured Projects</h2>
+          <p class="muted">
+            <span data-es>Selección con foco en modernización, productividad, automatización y demos
+              verificables.</span>
+            <span data-en>Selection focused on modernization, productivity, automation, and verifiable demos.</span>
+          </p>
         </div>
 
         <div class="grid">
           <article class="card project">
             <div class="project__head">
-              <h3>Batería Online (Fundación CEIS)</h3>
-              <span class="tag">Confidencial</span>
+              <h3 data-es>Batería Online (Fundación CEIS)</h3>
+              <h3 data-en>Online Battery (CEIS Foundation)</h3>
+              <span class="tag" data-es>Confidencial</span><span class="tag" data-en>Confidential</span>
             </div>
             <p>
-              Suite psicométrica web a gran escala: evolución/soporte y modernización progresiva,
-              optimización SQL Server, reportes PDF/Excel y continuidad operacional.
+              <span data-es>Suite psicométrica web a gran escala: evolución/soporte y modernización progresiva,
+                optimización SQL Server, reportes PDF/Excel y continuidad operacional.</span>
+              <span data-en>Large-scale web psychometric suite: evolution/support and progressive modernization, SQL
+                Server optimization, PDF/Excel reporting, and operational continuity.</span>
             </p>
             <div class="chips">
-              <span class="pill">PHP</span><span class="pill">SQL Server</span><span class="pill">Reporting</span><span
-                class="pill">Operación</span>
+              <span class="pill">PHP</span><span class="pill">SQL Server</span><span class="pill"
+                data-es>Reportes</span><span class="pill" data-en>Reporting</span><span class="pill"
+                data-es>Operación</span><span class="pill" data-en>Operations</span>
             </div>
             <p class="small muted">
-              Por confidencialidad, no publico repos/código del producto institucional. Validación vía referencia
-              laboral.
+              <span data-es>Por confidencialidad, no publico repos/código del producto institucional. Validación vía
+                referencia laboral.</span>
+              <span data-en>Due to confidentiality, I do not publish repos/code for the institutional product.
+                Validation via work reference.</span>
             </p>
             <div class="actions">
-              <a class="btn" href="#referencias">Ver referencia</a>
-              <a class="btn" href="#contacto">Contactarme</a>
+              <a class="btn" href="#referencias"><span data-es>Ver referencia</span><span data-en>View
+                  Reference</span></a>
+              <a class="btn" href="#contacto"><span data-es>Contactarme</span><span data-en>Contact Me</span></a>
             </div>
           </article>
 
           <article class="card project">
             <div class="project__head">
-              <h3>Microsistemas · Productivity Suite</h3>
+              <h3 data-es>Microsistemas · Productivity Suite</h3>
+              <h3 data-en>Microsystems · Productivity Suite</h3>
               <span class="tag">DX / Dev Experience</span>
             </div>
             <p>
-              Suite modular para diagnóstico y modernización. Incluye **Hub CLI** multi-OS y
-              validaciones automáticas con **doctor** (dependencias) y **smoke** (salud).
+              <span data-es>Suite modular para diagnóstico y modernización. Incluye **Hub CLI** multi-OS y validaciones
+                automáticas con **doctor** (dependencias) y **smoke** (salud).</span>
+              <span data-en>Modular suite for diagnosis and modernization. Includes multi-OS **Hub CLI** and automatic
+                validations with **doctor** (dependencies) and **smoke** (health).</span>
             </p>
             <ul class="bullets small" data-min-level="1">
-              <li>Conversor de acentos, visor SQL seguro y visor de logs industrial.</li>
-              <li>Migrador parcial PHP 8.x y generador de manifiestos.</li>
-              <li>Orientado a reducir la fricción y mejorar la DX del equipo.</li>
+              <li data-es>Conversor de acentos, visor SQL seguro y visor de logs industrial.</li>
+              <li data-en>Accent converter, secure SQL viewer, and industrial log viewer.</li>
+              <li data-es>Migrador parcial PHP 8.x y generador de manifiestos.</li>
+              <li data-en>Partial PHP 8.x migrator and manifest generator.</li>
+              <li data-es>Orientado a reducir la fricción y mejorar la DX del equipo.</li>
+              <li data-en>Oriented to reduce friction and improve the team's DX.</li>
             </ul>
             <div class="chips">
               <span class="pill">Hub CLI</span><span class="pill">Doctor Test</span><span class="pill">Smoke
@@ -218,16 +281,21 @@
 
           <article class="card project">
             <div class="project__head">
-              <h3>Docker Labs · Infra Hub</h3>
+              <h3 data-es>Docker Labs · Infra Hub</h3>
+              <h3 data-en>Docker Labs · Infra Hub</h3>
               <span class="tag">K8s Ready</span>
             </div>
             <p>
-              Laboratorios por stack con enfoque "levanta en 60s". Incluye **dashboards locales**
-              y rutas de aprendizaje de **observabilidad**.
+              <span data-es>Laboratorios por stack con enfoque "levanta en 60s". Incluye **dashboards locales** y rutas
+                de aprendizaje de **observabilidad**.</span>
+              <span data-en>Laboratories by stack with a "spin up in 60s" focus. Includes **local dashboards** and
+                **observability** learning paths.</span>
             </p>
             <ul class="bullets small" data-min-level="1">
-              <li>Dashboards locales para explorar métricas de contenedores.</li>
-              <li>Manifiestos preparados para Kubernetes (K8s) y observabilidad.</li>
+              <li data-es>Dashboards locales para explorar métricas de contenedores.</li>
+              <li data-en>Local dashboards to explore container metrics.</li>
+              <li data-es>Manifiestos preparados para Kubernetes (K8s) y observabilidad.</li>
+              <li data-en>Manifests prepared for Kubernetes (K8s) and observability.</li>
             </ul>
             <div class="chips">
               <span class="pill">Docker</span><span class="pill">Prometheus</span><span class="pill">Grafana</span><span
@@ -242,13 +310,17 @@
 
           <article class="card project">
             <div class="project__head">
-              <h3>Cloud Portfolio · AWS &amp; FinOps</h3>
-              <span class="tag">Industrial</span>
+              <h3 data-es>Cloud Portfolio · AWS &amp; FinOps</h3>
+              <h3 data-en>Cloud Portfolio · AWS &amp; FinOps</h3>
+              <span class="tag" data-es>Industrial</span><span class="tag" data-en>Industrial</span>
             </div>
             <p>
-              Arquitectura multicloud con despliegues inmutables vía **Terraform**,
-              autenticación **OIDC** sin secretos y gobernanza **FinOps** (AWS Budgets).
-              Gestión avanzada de **IAM** y despliegues automáticos a S3/Amplify.
+              <span data-es>Arquitectura multicloud con despliegues inmutables vía **Terraform**, autenticación **OIDC**
+                sin secretos y gobernanza **FinOps** (AWS Budgets). Gestión avanzada de **IAM** y despliegues
+                automáticos a S3/Amplify.</span>
+              <span data-en>Multicloud architecture with immutable deployments via **Terraform**, secretless **OIDC**
+                authentication, and **FinOps** governance (AWS Budgets). Advanced **IAM** management and automatic
+                deployments to S3/Amplify.</span>
             </p>
             <div class="chips">
               <span class="pill">OIDC</span><span class="pill">Terraform</span><span class="pill">FinOps</span><span
@@ -259,18 +331,21 @@
                 rel="noreferrer">GitHub</a>
               <a class="btn primary" href="https://gitlab.com/vladimir.acuna.dev-group/proyectos-aws-gitlab"
                 target="_blank" rel="noreferrer">GitLab</a>
-              <a class="btn" href="#demos">Ver Demos</a>
+              <a class="btn" href="#demos"><span data-es>Ver Demos</span><span data-en>View Demos</span></a>
             </div>
           </article>
 
           <article class="card project">
             <div class="project__head">
-              <h3>LangGraph · Agentic Resilience</h3>
-              <span class="tag">IA Agéntica</span>
+              <h3 data-es>LangGraph · Agentic Resilience</h3>
+              <h3 data-en>LangGraph · Agentic Resilience</h3>
+              <span class="tag" data-es>IA Agéntica</span><span class="tag" data-en>Agentic AI</span>
             </div>
             <p>
-              Implementación de agentes con **estado**, **rutas condicionales** y
-              resiliencia frente a fallos de LLMs. IA aplicada a producción.
+              <span data-es>Implementación de agentes con **estado**, **rutas condicionales** y resiliencia frente a
+                fallos de LLMs. IA aplicada a producción.</span>
+              <span data-en>Implementation of **stateful** agents with **conditional routing** and resilience against
+                LLM failures. AI applied to production.</span>
             </p>
             <div class="chips">
               <span class="pill">LangGraph</span><span class="pill">Stateful IA</span><span
@@ -285,12 +360,15 @@
 
           <article class="card project">
             <div class="project__head">
-              <h3>MCP Ollama Local</h3>
-              <span class="tag">IA local</span>
+              <h3 data-es>MCP Ollama Local</h3>
+              <h3 data-en>MCP Ollama Local</h3>
+              <span class="tag" data-es>IA local</span><span class="tag" data-en>Local AI</span>
             </div>
             <p>
-              Web local (FastAPI) + Ollama + herramientas vía MCP y persistencia en SQLite.
-              Privacidad total (localhost) y extensible a Docker/K8s.
+              <span data-es>Web local (FastAPI) + Ollama + herramientas vía MCP y persistencia en SQLite. Privacidad
+                total (localhost) y extensible a Docker/K8s.</span>
+              <span data-en>Local web (FastAPI) + Ollama + tools via MCP and SQLite persistence. Total privacy
+                (localhost) and extensible to Docker/K8s.</span>
             </p>
             <div class="chips">
               <span class="pill">FastAPI</span><span class="pill">Ollama</span><span class="pill">MCP</span><span
@@ -298,18 +376,22 @@
             </div>
             <div class="actions">
               <a class="btn primary" href="https://github.com/vladimiracunadev-create/mcp-ollama-local" target="_blank"
-                rel="noreferrer" aria-label="Repo GitHub: MCP Ollama Local">Repo (GitHub)</a>
+                rel="noreferrer" aria-label="Repo GitHub: MCP Ollama Local"><span data-es>Repo (GitHub)</span><span
+                  data-en>Repo (GitHub)</span></a>
             </div>
           </article>
 
           <article class="card project" data-min-level="1">
             <div class="project__head">
-              <h3>Social Bot Scheduler · Orquestación</h3>
-              <span class="tag">Resiliencia</span>
+              <h3 data-es>Social Bot Scheduler · Orquestación</h3>
+              <h3 data-en>Social Bot Scheduler · Orchestration</h3>
+              <span class="tag" data-es>Resiliencia</span><span class="tag" data-en>Resilience</span>
             </div>
             <p>
-              Orquestador industrial (n8n + Python) con **Circuit Breaker**,
-              **Idempotencia** y observabilidad en Grafana.
+              <span data-es>Orquestador industrial (n8n + Python) con **Circuit Breaker**, **Idempotencia** y
+                observabilidad en Grafana.</span>
+              <span data-en>Industrial orchestrator (n8n + Python) with **Circuit Breaker**, **Idempotency** and
+                observability in Grafana.</span>
             </p>
             <div class="chips">
               <span class="pill">Circuit Breaker</span><span class="pill">Idempotencia</span><span
@@ -323,8 +405,12 @@
         </div>
 
         <div class="card soft" data-min-level="2">
-          <h3>Repos recientes (auto)</h3>
-          <p class="muted small">Se carga desde la API pública de GitHub (ordenada por actualización).</p>
+          <h3 data-es>Repos recientes (auto)</h3>
+          <h3 data-en>Recent Repos (auto)</h3>
+          <p class="muted small">
+            <span data-es>Se carga desde la API pública de GitHub (ordenada por actualización).</span>
+            <span data-en>Loaded from the public GitHub API (sorted by update).</span>
+          </p>
           <div id="recentRepos" class="repos"></div>
         </div>
       </div>
@@ -333,48 +419,69 @@
     <section class="section" id="demos">
       <div class="wrap">
         <div class="section__head">
-          <h2>Demos en vivo</h2>
-          <p class="muted">Enlaces públicos para ver despliegues reales (cuando aplica).</p>
+          <h2 data-es>Demos en vivo</h2>
+          <h2 data-en>Live Demos</h2>
+          <p class="muted">
+            <span data-es>Enlaces públicos para ver despliegues reales (cuando aplica).</span>
+            <span data-en>Public links to see real deployments (when applicable).</span>
+          </p>
         </div>
 
         <div class="grid grid--2">
           <article class="card">
-            <h3>AWS S3 + GitHub Actions</h3>
-            <p>Deploy automático (sync) vía **GitHub OIDC**. Flujo profesional con validaciones.</p>
+            <h3 data-es>AWS S3 + GitHub Actions</h3>
+            <h3 data-en>AWS S3 + GitHub Actions</h3>
+            <p>
+              <span data-es>Deploy automático (sync) vía **GitHub OIDC**. Flujo profesional con validaciones.</span>
+              <span data-en>Automatic deploy (sync) via **GitHub OIDC**. Professional flow with validations.</span>
+            </p>
             <div class="actions">
               <a class="btn primary" href="https://mi-pagina-scrum-123.s3.us-east-2.amazonaws.com/index.html"
-                target="_blank" rel="noreferrer">Ver demo</a>
+                target="_blank" rel="noreferrer"><span data-es>Ver demo</span><span data-en>View Demo</span></a>
               <a class="btn" href="https://github.com/vladimiracunadev-create/proyectos-aws" target="_blank"
                 rel="noreferrer">GitHub Repo</a>
             </div>
           </article>
 
           <article class="card">
-            <h3>Portal de Documentación (GitLab CI)</h3>
-            <p>Glassmorphism PWA desplegado desde GitLab vía **OIDC** y **OAC** (Caso L - FinOps).</p>
+            <h3 data-es>Portal de Documentación (GitLab CI)</h3>
+            <h3 data-en>Documentation Portal (GitLab CI)</h3>
+            <p>
+              <span data-es>Glassmorphism PWA desplegado desde GitLab vía **OIDC** y **OAC** (Caso L - FinOps).</span>
+              <span data-en>Glassmorphism PWA deployed from GitLab via **OIDC** and **OAC** (Case L - FinOps).</span>
+            </p>
             <div class="actions">
               <a class="btn primary" href="http://finops-vladimir-portfolio-case-l.s3-website.us-east-2.amazonaws.com"
-                target="_blank" rel="noreferrer">Ver demo</a>
+                target="_blank" rel="noreferrer"><span data-es>Ver demo</span><span data-en>View Demo</span></a>
               <a class="btn" href="https://gitlab.com/vladimir.acuna.dev-group/vladimir.acuna.dev-group" target="_blank"
                 rel="noreferrer">GitLab Repo</a>
             </div>
           </article>
 
           <article class="card">
-            <h3>AWS Amplify · Deploy por ramas</h3>
-            <p>Continuous Deployment con build automático, SSL y entornos aislados (main/dev).</p>
+            <h3 data-es>AWS Amplify · Deploy por ramas</h3>
+            <h3 data-en>AWS Amplify · Branch Deployment</h3>
+            <p>
+              <span data-es>Continuous Deployment con build automático, SSL y entornos aislados (main/dev).</span>
+              <span data-en>Continuous Deployment with automatic build, SSL, and isolated environments
+                (main/dev).</span>
+            </p>
             <div class="actions">
               <a class="btn primary" href="https://main.d3r1wuymolxagh.amplifyapp.com/" target="_blank"
-                rel="noreferrer">Demo main</a>
+                rel="noreferrer"><span data-es>Demo main</span><span data-en>Main Demo</span></a>
               <a class="btn" href="https://dev.d20m8tc0banvg.amplifyapp.com/" target="_blank" rel="noreferrer"
-                data-min-level="1">Demo dev</a>
+                data-min-level="1"><span data-es>Demo dev</span><span data-en>Dev Demo</span></a>
             </div>
           </article>
         </div>
 
         <div class="card soft" data-min-level="1">
-          <h3>Docker Labs: dashboard local</h3>
-          <p class="muted">Un “hub” local para explorar labs por stack. Ideal para entrevistas técnicas.</p>
+          <h3 data-es>Docker Labs: dashboard local</h3>
+          <h3 data-en>Docker Labs: Local Dashboard</h3>
+          <p class="muted">
+            <span data-es>Un “hub” local para explorar labs por stack. Ideal para entrevistas técnicas.</span>
+            <span data-en>A local "hub" to explore labs by stack. Ideal for technical interviews.</span>
+          </p>
           <pre class="code">git clone https://github.com/vladimiracunadev-create/docker-labs.git
 cd docker-labs
 make up-dashboard
@@ -386,37 +493,58 @@ make up-dashboard
     <section class="section" id="experiencia">
       <div class="wrap">
         <div class="section__head">
-          <h2>Experiencia</h2>
-          <p class="muted">Resumen por hitos (usa la vista “Profundo” para detalles).</p>
+          <h2 data-es>Experiencia</h2>
+          <h2 data-en>Experience</h2>
+          <p class="muted">
+            <span data-es>Resumen por hitos (usa la vista “Profundo” para detalles).</span>
+            <span data-en>Milestone summary (use "Deep" view for details).</span>
+          </p>
         </div>
 
         <div class="timeline">
           <div class="titem">
-            <div class="twhen">2025–Actualidad</div>
+            <div class="twhen"><span data-es>2025–Actualidad</span><span data-en>2025–Present</span></div>
             <div class="twhat">
-              <h3>Transición (laboratorios + portafolio)</h3>
-              <p>Estandarización de entornos, laboratorios Docker, automatización y prototipos con IA local.</p>
+              <h3 data-es>Transición (laboratorios + portafolio)</h3>
+              <h3 data-en>Transition (labs + portfolio)</h3>
+              <p>
+                <span data-es>Estandarización de entornos, laboratorios Docker, automatización y prototipos con IA
+                  local.</span>
+                <span data-en>Environment standardization, Docker labs, automation, and local AI prototypes.</span>
+              </p>
               <ul class="bullets small" data-min-level="2">
-                <li>Documentación reproducible (Makefiles, guías, scripts, README).</li>
-                <li>Foco en prácticas: ramas, PRs, CI y releases.</li>
+                <li data-es>Documentación reproducible (Makefiles, guías, scripts, README).</li>
+                <li data-en>Reproducible documentation (Makefiles, guides, scripts, README).</li>
+                <li data-es>Foco en prácticas: ramas, PRs, CI y releases.</li>
+                <li data-en>Focus on practices: branches, PRs, CI, and releases.</li>
               </ul>
             </div>
           </div>
 
           <div class="titem">
-            <div class="twhen">14 años</div>
+            <div class="twhen"><span data-es>14 años</span><span data-en>14 years</span></div>
             <div class="twhat">
               <h3>Fundación CEIS Maristas</h3>
-              <p>Arquitectura, desarrollo y operación de plataformas web educativas/psicométricas. Optimización
-                SQL/performance.</p>
+              <p>
+                <span data-es>Arquitectura, desarrollo y operación de plataformas web educativas/psicométricas.
+                  Optimización SQL/performance.</span>
+                <span data-en>Architecture, development, and operation of educational/psychometric web platforms.
+                  SQL/performance optimization.</span>
+              </p>
             </div>
           </div>
 
           <div class="titem" data-min-level="1">
-            <div class="twhen">Perfil híbrido</div>
+            <div class="twhen"><span data-es>Perfil híbrido</span><span data-en>Hybrid Profile</span></div>
             <div class="twhat">
-              <h3>Negocio + TI</h3>
-              <p>Formación técnica en administración de empresas: procesos, eficiencia, marketing y medición.</p>
+              <h3 data-es>Negocio + TI</h3>
+              <h3 data-en>Business + IT</h3>
+              <p>
+                <span data-es>Formación técnica en administración de empresas: procesos, eficiencia, marketing y
+                  medición.</span>
+                <span data-en>Technical background in business administration: processes, efficiency, marketing, and
+                  measurement.</span>
+              </p>
             </div>
           </div>
         </div>
@@ -426,56 +554,91 @@ make up-dashboard
     <section class="section" id="roles">
       <div class="wrap">
         <div class="section__head">
-          <h2>Roles en los que también encajo</h2>
-          <p class="muted">Alta compatibilidad con modernización, plataforma y operación.</p>
+          <h2 data-es>Roles en los que también encajo</h2>
+          <h2 data-en>Roles I also fit in</h2>
+          <p class="muted">
+            <span data-es>Alta compatibilidad con modernización, plataforma y operación.</span>
+            <span data-en>High compatibility with modernization, platform, and operations.</span>
+          </p>
         </div>
 
         <div class="grid grid--2">
           <article class="card">
-            <h3>Arquitecto de Modernización Legacy</h3>
-            <p>Refactor seguro, migraciones progresivas, CI/CD, contenedores y observabilidad.</p>
+            <h3 data-es>Arquitecto de Modernización Legacy</h3>
+            <h3 data-en>Legacy Modernization Architect</h3>
+            <p>
+              <span data-es>Refactor seguro, migraciones progresivas, CI/CD, contenedores y observabilidad.</span>
+              <span data-en>Secure refactor, progressive migrations, CI/CD, containers, and observability.</span>
+            </p>
             <div class="chips"><span class="pill">Modernization Architect</span><span class="pill">Legacy Lead</span>
             </div>
           </article>
 
           <article class="card">
-            <h3>Platform Engineer / IDP</h3>
-            <p>Creación de entornos reproducibles, Hub CLI, pipelines estandarizados y mejora de la Developer Experience
-              (DX).</p>
+            <h3 data-es>Platform Engineer / IDP</h3>
+            <h3 data-en>Platform Engineer / IDP</h3>
+            <p>
+              <span data-es>Creación de entornos reproducibles, Hub CLI, pipelines estandarizados y mejora de la
+                Developer Experience (DX).</span>
+              <span data-en>Creation of reproducible environments, Hub CLI, standardized pipelines, and Developer
+                Experience (DX) improvements.</span>
+            </p>
             <div class="chips"><span class="pill">Platform Engineer</span><span class="pill">DX</span><span
                 class="pill">IDP</span></div>
           </article>
 
           <article class="card">
-            <h3>FinOps &amp; Cloud Governance</h3>
-            <p>Control de costos en AWS, despliegues seguros vía OIDC, auditoría de infraestructura y cumplimiento.</p>
+            <h3 data-es>FinOps &amp; Cloud Governance</h3>
+            <h3 data-en>FinOps &amp; Cloud Governance</h3>
+            <p>
+              <span data-es>Control de costos en AWS, despliegues seguros vía OIDC, auditoría de infraestructura y
+                cumplimiento.</span>
+              <span data-en>Cost control on AWS, secure OIDC deployments, infrastructure audit, and compliance.</span>
+            </p>
             <div class="chips"><span class="pill">FinOps</span><span class="pill">OIDC</span><span
                 class="pill">Security</span></div>
           </article>
 
           <article class="card">
-            <h3>SRE orientado a aplicaciones</h3>
-            <p>Performance, capacity planning, métricas y respuesta a incidentes.</p>
+            <h3 data-es>SRE orientado a aplicaciones</h3>
+            <h3 data-en>Application-oriented SRE</h3>
+            <p>
+              <span data-es>Performance, capacity planning, métricas y respuesta a incidentes.</span>
+              <span data-en>Performance, capacity planning, metrics, and incident response.</span>
+            </p>
             <div class="chips"><span class="pill">SRE</span><span class="pill">Performance</span><span
                 class="pill">Observabilidad</span></div>
           </article>
 
           <article class="card">
-            <h3>Tech Lead de migraciones (DB + app)</h3>
-            <p>SQL Server/MySQL, data quality, delivery técnico y reporting.</p>
+            <h3 data-es>Tech Lead de migraciones (DB + app)</h3>
+            <h3 data-en>Migration Tech Lead (DB + app)</h3>
+            <p>
+              <span data-es>SQL Server/MySQL, data quality, delivery técnico y reporting.</span>
+              <span data-en>SQL Server/MySQL, data quality, technical delivery, and reporting.</span>
+            </p>
             <div class="chips"><span class="pill">Migration Lead</span><span class="pill">Data Quality</span></div>
           </article>
 
           <article class="card" data-min-level="1">
-            <h3>Automatización (n8n / workflows)</h3>
-            <p>Onboarding, reportes, alertas, integraciones con APIs, bots y flujos internos.</p>
+            <h3 data-es>Automatización (n8n / workflows)</h3>
+            <h3 data-en>Automation (n8n / workflows)</h3>
+            <p>
+              <span data-es>Onboarding, reportes, alertas, integraciones con APIs, bots y flujos internos.</span>
+              <span data-en>Onboarding, reports, alerts, API integrations, bots, and internal flows.</span>
+            </p>
             <div class="chips"><span class="pill">n8n</span><span class="pill">Workflows</span></div>
           </article>
 
           <article class="card" data-min-level="2">
-            <h3>Solutions Engineer / Pre-Sales técnico</h3>
-            <p>Demos y PoCs reales; requisitos, arquitectura y comunicación TI/negocio.</p>
-            <div class="chips"><span class="pill">PoC</span><span class="pill">Arquitectura</span></div>
+            <h3 data-es>Solutions Engineer / Pre-Sales técnico</h3>
+            <h3 data-en>Solutions Engineer / Technical Pre-Sales</h3>
+            <p>
+              <span data-es>Demos y PoCs reales; requisitos, arquitectura y comunicación TI/negocio.</span>
+              <span data-en>Real Demos and PoCs; requirements, architecture and IT/business communication.</span>
+            </p>
+            <div class="chips"><span class="pill">PoC</span><span class="pill" data-es>Arquitectura</span><span
+                class="pill" data-en>Architecture</span></div>
           </article>
         </div>
       </div>
@@ -484,28 +647,44 @@ make up-dashboard
     <section class="section" id="servicios">
       <div class="wrap">
         <div class="section__head">
-          <h2>Servicios</h2>
-          <p class="muted">Intervenciones por etapas (ideal para legacy real).</p>
+          <h2 data-es>Servicios</h2>
+          <h2 data-en>Services</h2>
+          <p class="muted">
+            <span data-es>Intervenciones por etapas (ideal para legacy real).</span>
+            <span data-en>Interventions by stages (ideal for real legacy).</span>
+          </p>
         </div>
 
         <div class="grid grid--3">
           <article class="card">
-            <h3>Modernización PHP Legacy</h3>
-            <p>Plan gradual: compatibilidad, refactor, pruebas, performance y despliegue seguro.</p>
+            <h3 data-es>Modernización PHP Legacy</h3>
+            <h3 data-en>Legacy PHP Modernization</h3>
+            <p>
+              <span data-es>Plan gradual: compatibilidad, refactor, pruebas, performance y despliegue seguro.</span>
+              <span data-en>Gradual plan: compatibility, refactor, testing, performance, and secure deployment.</span>
+            </p>
             <div class="chips"><span class="pill">PHP 5.x → 8.x</span><span class="pill">Refactor</span><span
                 class="pill">QA</span></div>
           </article>
 
           <article class="card">
-            <h3>DevOps &amp; CI/CD</h3>
-            <p>GitHub Actions, despliegues a AWS, contenedores y buenas prácticas.</p>
+            <h3 data-es>DevOps &amp; CI/CD</h3>
+            <h3 data-en>DevOps &amp; CI/CD</h3>
+            <p>
+              <span data-es>GitHub Actions, despliegues a AWS, contenedores y buenas prácticas.</span>
+              <span data-en>GitHub Actions, AWS deployments, containers, and best practices.</span>
+            </p>
             <div class="chips"><span class="pill">Actions</span><span class="pill">AWS</span><span
                 class="pill">Docker</span></div>
           </article>
 
           <article class="card">
-            <h3>Diagnóstico + plan</h3>
-            <p>Evaluación rápida: riesgos, performance, costos, deuda técnica y plan por etapas.</p>
+            <h3 data-es>Diagnóstico + plan</h3>
+            <h3 data-en>Diagnosis + plan</h3>
+            <p>
+              <span data-es>Evaluación rápida: riesgos, performance, costos, deuda técnica y plan por etapas.</span>
+              <span data-en>Quick assessment: risks, performance, costs, technical debt, and phased plan.</span>
+            </p>
             <div class="chips"><span class="pill">Assessment</span><span class="pill">Roadmap</span><span
                 class="pill">Quick wins</span></div>
           </article>
@@ -516,8 +695,12 @@ make up-dashboard
     <section class="section" id="descargas">
       <div class="wrap">
         <div class="section__head">
-          <h2>Centro de Descargas</h2>
-          <p class="muted">Accede a las versiones nativas y documentos oficiales.</p>
+          <h2 data-es>Centro de Descargas</h2>
+          <h2 data-en>Download Center</h2>
+          <p class="muted">
+            <span data-es>Accede a las versiones nativas y documentos oficiales.</span>
+            <span data-en>Access native versions and official documents.</span>
+          </p>
         </div>
 
         <div class="grid grid--3">
@@ -526,8 +709,12 @@ make up-dashboard
             <div class="app-download__brand">
               <img src="assets/icons/icon.svg" alt="App Icon" class="app-icon" width="60" height="60">
               <div>
-                <h3>Recomendado</h3>
-                <p class="small muted" id="platformNotice">Detectando equipo...</p>
+                <h3 data-es>Recomendado</h3>
+                <h3 data-en>Recommended</h3>
+                <p class="small muted" id="platformNotice">
+                  <span data-es>Detectando equipo...</span>
+                  <span data-en>Detecting device...</span>
+                </p>
               </div>
             </div>
             <div id="smartDownloadActions" class="actions">
@@ -537,25 +724,34 @@ make up-dashboard
 
           <!-- Manual / All Versions -->
           <article class="card">
-            <h3>Otras Versiones</h3>
+            <h3 data-es>Otras Versiones</h3>
+            <h3 data-en>Other Versions</h3>
             <div class="downloads">
               <a class="btn"
                 href="https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/releases/latest/download/app-debug.apk">Android
                 (APK)</a>
-              <button class="btn primary" type="button" data-pwa-trigger>Instalar PWA</button>
+              <button class="btn primary" type="button" data-pwa-trigger><span data-es>Instalar PWA</span><span
+                  data-en>Install PWA</span></button>
             </div>
-            <p class="small muted" style="margin-top:10px">Usa estos enlaces si la detección automática no coincide con
-              tu dispositivo.</p>
+            <p class="small muted" style="margin-top:10px">
+              <span data-es>Usa estos enlaces si la detección automática no coincide con tu dispositivo.</span>
+              <span data-en>Use these links if auto-detection doesn't match your device.</span>
+            </p>
           </article>
 
           <!-- Document Downloads -->
           <article class="card">
-            <h3>Documentos PDF</h3>
+            <h3 data-es>Documentos PDF</h3>
+            <h3 data-en>PDF Documents</h3>
             <div class="downloads">
-              <a class="btn" href="assets/portafolio.pdf">Portafolio</a>
-              <a class="btn" href="assets/cv-reducido.pdf">CV Reducido</a>
-              <a class="btn" href="assets/cv-completo.pdf" data-min-level="1">CV Completo</a>
-              <a class="btn" href="assets/carta-recomendacion.pdf">Carta de Recomendación</a>
+              <a class="btn" href="assets/portafolio.pdf"><span data-es>Portafolio</span><span
+                  data-en>Portfolio</span></a>
+              <a class="btn" href="assets/cv-reducido.pdf"><span data-es>CV Reducido</span><span data-en>Short
+                  CV</span></a>
+              <a class="btn" href="assets/cv-completo.pdf" data-min-level="1"><span data-es>CV Completo</span><span
+                  data-en>Full CV</span></a>
+              <a class="btn" href="assets/carta-recomendacion.pdf"><span data-es>Carta de Recomendación</span><span
+                  data-en>Recommendation Letter</span></a>
             </div>
           </article>
         </div>
@@ -565,15 +761,22 @@ make up-dashboard
     <section class="section" id="referencias">
       <div class="wrap">
         <div class="section__head">
-          <h2>Referencias laborales</h2>
-          <p class="muted">Para proyectos institucionales, la validación se realiza vía referencia.</p>
+          <h2 data-es>Referencias laborales</h2>
+          <h2 data-en>Work References</h2>
+          <p class="muted">
+            <span data-es>Para proyectos institucionales, la validación se realiza vía referencia.</span>
+            <span data-en>For institutional projects, validation is performed via reference.</span>
+          </p>
         </div>
 
         <div class="card">
-          <h3>Jean Claude Dupry <span class="muted small">· Último jefe directo</span></h3>
-          <p class="big">Celular: <strong>+56 9 9415 6984</strong></p>
-          <p class="small muted" data-min-level="2">Puedo enviar un resumen por escrito y ejemplos de impacto si lo
-            necesitas.</p>
+          <h3>Jean Claude Dupry <span class="muted small">· <span data-es>Último jefe directo</span><span data-en>Latest
+                direct manager</span></span></h3>
+          <p class="big"><span data-es>Celular</span><span data-en>Mobile</span>: <strong>+56 9 9415 6984</strong></p>
+          <p class="small muted" data-min-level="2">
+            <span data-es>Puedo enviar un resumen por escrito y ejemplos de impacto si lo necesitas.</span>
+            <span data-en>I can send a written summary and examples of impact if needed.</span>
+          </p>
         </div>
       </div>
     </section>
@@ -581,8 +784,12 @@ make up-dashboard
     <section class="section" id="contacto">
       <div class="wrap">
         <div class="section__head">
-          <h2>Contacto</h2>
-          <p class="muted">¿Modernización, performance o automatización? Escríbeme.</p>
+          <h2 data-es>Contacto</h2>
+          <h2 data-en>Contact</h2>
+          <p class="muted">
+            <span data-es>¿Modernización, performance o automatización? Escríbeme.</span>
+            <span data-en>Modernization, performance or automation? Write to me.</span>
+          </p>
         </div>
 
         <div class="card contact">
@@ -592,9 +799,10 @@ make up-dashboard
               <div class="big"><a href="mailto:vladimir.acuna.dev@gmail.com">vladimir.acuna.dev@gmail.com</a></div>
             </div>
             <div class="contact__actions">
-              <button class="btn primary is-hidden" id="pwaInstall" type="button" data-pwa-trigger>💻 Instalar
-                App</button>
-              <button class="btn" id="btnCopyEmail" type="button">Copiar email</button>
+              <button class="btn primary is-hidden" id="pwaInstall" type="button" data-pwa-trigger>💻 <span
+                  data-es>Instalar App</span><span data-en>Install App</span></button>
+              <button class="btn" id="btnCopyEmail" type="button"><span data-es>Copiar email</span><span data-en>Copy
+                  email</span></button>
               <a class="btn primary" href="https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29"
                 target="_blank" rel="noreferrer">LinkedIn</a>
               <a class="btn" href="https://github.com/vladimiracunadev-create" target="_blank"
@@ -603,7 +811,7 @@ make up-dashboard
           </div>
 
           <div class="contact__row" data-min-level="1">
-            <div class="muted small">También</div>
+            <div class="muted small"><span data-es>También</span><span data-en>Also</span></div>
             <div class="social">
               <a class="link" href="https://www.youtube.com/@VladimirAcu%C3%B1aDev" target="_blank"
                 rel="noreferrer">YouTube</a>
@@ -615,7 +823,8 @@ make up-dashboard
             </div>
           </div>
 
-          <p class="small muted">© <span id="year"></span> Vladimir Acuña · Hecho con HTML + CSS + JS.</p>
+          <p class="small muted">© <span id="year"></span> Vladimir Acuña · <span data-es>Hecho con HTML + CSS +
+              JS.</span><span data-en>Made with HTML + CSS + JS.</span></p>
         </div>
       </div>
     </section>
