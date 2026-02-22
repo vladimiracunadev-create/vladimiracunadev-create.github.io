@@ -23,32 +23,41 @@ body[data-theme="light"] {
   --btn-bg: rgba(0, 0, 0, .05);
 }
 
+/* --- LÓGICA DE VISIBILIDAD BILINGÜE (RESPETUOSA) --- */
+/* Ocultar por defecto para evitar parpadeos */
 [data-en],
 [data-es] {
   display: none !important;
 }
 
-/* Inyección de visibilidad basada en el lenguaje del body */
+/* Inyección de visibilidad basada en el lenguaje - No fuerza display type */
 body:not([data-lang]) [data-es],
 body[data-lang="es"] [data-es] {
-  display: inline !important;
+  display: revert !important;
 }
 
 body[data-lang="en"] [data-en] {
-  display: inline !important;
+  display: revert !important;
 }
 
-/* Reglas de ocultación explícitas para evitar duplicados */
-body:not([data-lang]) [data-en],
-body[data-lang="es"] [data-en] {
-  display: none !important;
+/* Casos específicos para elementos de bloque que 'revert' podría no manejar bien en todos los navegadores */
+body:not([data-lang]) div[data-es],
+body[data-lang="es"] div[data-es],
+body:not([data-lang]) section[data-es],
+body[data-lang="es"] section[data-es],
+body:not([data-lang]) article[data-es],
+body[data-lang="es"] article[data-es],
+body:not([data-lang]) p[data-es],
+body[data-lang="es"] p[data-es],
+body:not([data-lang]) h1[data-es],
+body[data-lang="es"] h1[data-es],
+body:not([data-lang]) h2[data-es],
+body[data-lang="es"] h2[data-es],
+body:not([data-lang]) h3[data-es],
+body[data-lang="es"] h3[data-es] {
+  display: block !important;
 }
 
-body[data-lang="en"] [data-es] {
-  display: none !important;
-}
-
-/* Ajustes para elementos de bloque */
 body[data-lang="en"] div[data-en],
 body[data-lang="en"] section[data-en],
 body[data-lang="en"] article[data-en],
@@ -57,10 +66,6 @@ body[data-lang="en"] h1[data-en],
 body[data-lang="en"] h2[data-en],
 body[data-lang="en"] h3[data-en] {
   display: block !important;
-}
-
-body[data-lang="en"] flex[data-en] {
-  display: flex !important;
 }
 
 * {
@@ -139,9 +144,16 @@ pre {
   align-items: center;
   justify-content: space-between;
   padding: 10px var(--pad);
+  min-height: 70px;
   gap: 20px;
-  min-height: 80px;
   flex-wrap: wrap;
+}
+
+.topbar__main,
+.topbar__side {
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
 
 @media (min-width: 1025px) {
@@ -151,27 +163,24 @@ pre {
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1100px) {
   .topbar__inner {
-    flex-wrap: wrap;
+    flex-direction: column;
+    height: auto;
+    padding: 15px var(--pad);
+  }
+
+  .topbar__main,
+  .topbar__side {
+    width: 100%;
     justify-content: center;
-    text-align: center;
+    flex-wrap: wrap;
+    gap: 12px;
   }
 
   .brand {
-    margin-bottom: 10px;
-    width: 100%;
-    justify-content: center;
-  }
-
-  .nav {
-    width: 100%;
-    justify-content: center;
-    margin-bottom: 10px;
-  }
-
-  .settings {
-    margin-bottom: 10px;
+    min-width: auto;
+    margin-bottom: 5px;
   }
 }
 
@@ -180,7 +189,7 @@ pre {
   align-items: center;
   gap: 12px;
   flex-shrink: 0;
-  min-width: 240px
+  min-width: 220px;
 }
 
 .brand__name {
@@ -207,9 +216,9 @@ pre {
 
 .nav {
   display: flex;
-  gap: 14px;
+  gap: 8px;
   flex-wrap: wrap;
-  justify-content: center
+  align-items: center;
 }
 
 .nav a {
@@ -234,8 +243,7 @@ pre {
   display: flex;
   align-items: center;
   gap: 10px;
-  justify-content: flex-end;
-  min-width: 300px
+  flex-shrink: 0;
 }
 
 .views__label {

@@ -21,42 +21,46 @@
 
   <header class="topbar">
     <div class="wrap topbar__inner">
-      <div class="brand">
-        <button class="iconbtn" id="btnMenu" type="button" aria-label="Abrir menú" aria-expanded="false"
-          aria-controls="nav">☰</button>
-        <div class="brand__text">
-          <div class="brand__name">Vladimir Acuña</div>
-          <div class="brand__role">Arquitecto de Software · Senior</div>
+      <div class="topbar__main">
+        <div class="brand">
+          <button class="iconbtn" id="btnMenu" type="button" aria-label="Abrir menú" aria-expanded="false"
+            aria-controls="nav">☰</button>
+          <div class="brand__text">
+            <div class="brand__name">Vladimir Acuña</div>
+            <div class="brand__role">Arquitecto de Software · Senior</div>
+          </div>
         </div>
+
+        <nav class="nav" id="nav" aria-label="Navegación principal">
+          <a href="#proyectos"><span data-es>Proyectos</span><span data-en>Projects</span></a>
+          <a href="#demos"><span data-es>Demos</span><span data-en>Demos</span></a>
+          <a href="#experiencia"><span data-es>Experiencia</span><span data-en>Experience</span></a>
+          <a href="#servicios"><span data-es>Servicios</span><span data-en>Services</span></a>
+          <a href="#contacto"><span data-es>Contacto</span><span data-en>Contact</span></a>
+        </nav>
       </div>
 
-      <nav class="nav" id="nav" aria-label="Navegación principal">
-        <a href="#proyectos"><span data-es>Proyectos</span><span data-en>Projects</span></a>
-        <a href="#demos"><span data-es>Demos</span><span data-en>Demos</span></a>
-        <a href="#experiencia"><span data-es>Experiencia</span><span data-en>Experience</span></a>
-        <a href="#servicios"><span data-es>Servicios</span><span data-en>Services</span></a>
-        <a href="#contacto"><span data-es>Contacto</span><span data-en>Contact</span></a>
-      </nav>
+      <div class="topbar__side">
+        <div class="settings">
+          <select class="lang-select" id="selectLang" aria-label="Seleccionar idioma">
+            <option value="es">Español</option>
+            <option value="en">English</option>
+          </select>
+          <button class="theme-toggle" id="btnTheme" type="button">
+            <span data-es>Tema</span><span data-en>Theme</span>
+            <i id="themeIcon">🌙</i>
+          </button>
+        </div>
 
-      <div class="settings">
-        <select class="lang-select" id="selectLang" aria-label="Seleccionar idioma">
-          <option value="es">Español</option>
-          <option value="en">English</option>
-        </select>
-        <button class="theme-toggle" id="btnTheme" type="button">
-          <span data-es>Tema</span><span data-en>Theme</span>
-          <i id="themeIcon">🌙</i>
-        </button>
-      </div>
-
-      <div class="views">
-        <span class="views__label"><span data-es>Vista:</span><span data-en>View:</span></span>
-        <div class="views__group" role="tablist" aria-label="Vistas">
-          <button class="chip is-active" type="button" role="tab" aria-selected="true" data-view-btn="recruiter"><span
-              data-es>Reclutador</span><span data-en>Recruiter</span></button>
-          <button class="chip" type="button" role="tab" aria-selected="false" data-view-btn="normal">Normal</button>
-          <button class="chip" type="button" role="tab" aria-selected="false" data-view-btn="deep"><span
-              data-es>Profundo</span><span data-en>Deep</span></button>
+        <div class="views">
+          <span class="views__label"><span data-es>Vista:</span><span data-en>View:</span></span>
+          <div class="views__group" role="tablist" aria-label="Vistas">
+            <button class="chip is-active" type="button" role="tab" aria-selected="true" data-view-btn="recruiter"><span
+                data-es>Reclutador</span><span data-en>Recruiter</span></button>
+            <button class="chip" type="button" role="tab" aria-selected="false" data-view-btn="normal">Normal</button>
+            <button class="chip" type="button" role="tab" aria-selected="false" data-view-btn="deep"><span
+                data-es>Profundo</span><span data-en>Deep</span></button>
+          </div>
         </div>
       </div>
     </div>
