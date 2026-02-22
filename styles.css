@@ -115,6 +115,7 @@ pre{overflow:auto}
 .repo__meta{color:var(--muted); font-size:12px}
 .repo__desc{margin:8px 0 0; color:var(--muted); font-size:13px}
 .contact__row{display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap}
+.card.highlight-feb{background:linear-gradient(180deg, rgba(90,140,255,.12), rgba(90,140,255,.05)); border-color:rgba(90,140,255,.3)}
 .contact__actions{display:flex; gap:10px; flex-wrap:wrap}
 .is-hidden{display:none !important}
 [data-hidden="true"]{display:none !important}
