@@ -299,11 +299,25 @@ pre {
   background-position: right 8px center;
   background-size: 12px;
   padding-right: 28px;
+  color-scheme: dark;
+  /* Ayuda a que los estilos nativos de las options hereden el tema oscuro */
+}
+
+.lang-select option {
+  background-color: #1a1d23;
+  /* Fondo oscuro específico para las opciones */
+  color: var(--text);
 }
 
 body[data-theme="light"] .lang-select {
   stroke: black;
   background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+  color-scheme: light;
+}
+
+body[data-theme="light"] .lang-select option {
+  background-color: #ffffff;
+  color: #0f172a;
 }
 
 .theme-toggle {
