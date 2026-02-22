@@ -39,8 +39,14 @@
       </nav>
 
       <div class="settings">
-        <button class="iconbtn settings-btn" id="btnLang" type="button" title="Cambiar Idioma">🇪🇸</button>
-        <button class="iconbtn settings-btn" id="btnTheme" type="button" title="Cambiar Tema">🌙</button>
+        <select class="lang-select" id="selectLang" aria-label="Seleccionar idioma">
+          <option value="es">Español</option>
+          <option value="en">English</option>
+        </select>
+        <button class="theme-toggle" id="btnTheme" type="button">
+          <span data-es>Tema</span><span data-en>Theme</span>
+          <i id="themeIcon">🌙</i>
+        </button>
       </div>
 
       <div class="views">

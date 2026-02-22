@@ -16,8 +16,8 @@ function setView(view) {
 function setTheme(theme) {
   document.body.dataset.theme = theme;
   localStorage.setItem("portfolio_theme", theme);
-  const btn = $("#btnTheme");
-  if (btn) btn.textContent = theme === "dark" ? "🌙" : "☀️";
+  const icon = $("#themeIcon");
+  if (icon) icon.textContent = theme === "dark" ? "🌙" : "☀️";
 }
 
 function toggleTheme() {
@@ -28,13 +28,12 @@ function toggleTheme() {
 function setLang(lang) {
   document.body.dataset.lang = lang;
   localStorage.setItem("portfolio_lang", lang);
-  const btn = $("#btnLang");
-  if (btn) btn.textContent = lang === "es" ? "🇪🇸" : "🇺🇸";
+  const sel = $("#selectLang");
+  if (sel) sel.value = lang;
 }
 
-function toggleLang() {
-  const cur = document.body.dataset.lang || "es";
-  setLang(cur === "es" ? "en" : "es");
+function handleLangChange(e) {
+  setLang(e.target.value);
 }
 
 function initSettings() {
@@ -44,7 +43,7 @@ function initSettings() {
 
   $$("[data-view-btn]").forEach(btn => btn.addEventListener("click", () => setView(btn.dataset.viewBtn)));
   $("#btnTheme")?.addEventListener("click", toggleTheme);
-  $("#btnLang")?.addEventListener("click", toggleLang);
+  $("#selectLang")?.addEventListener("change", handleLangChange);
 }
 
 function initMenu() {
@@ -161,4 +160,3 @@ initMeta();
 initAppDownloads();
 initPwaTriggers();
 loadRecentRepos();
-}) ();
