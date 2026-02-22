@@ -23,20 +23,32 @@ body[data-theme="light"] {
   --btn-bg: rgba(0, 0, 0, .05);
 }
 
-[data-en] {
+[data-en],
+[data-es] {
   display: none !important;
+}
+
+/* Inyección de visibilidad basada en el lenguaje del body */
+body:not([data-lang]) [data-es],
+body[data-lang="es"] [data-es] {
+  display: inline !important;
 }
 
 body[data-lang="en"] [data-en] {
   display: inline !important;
 }
 
+/* Reglas de ocultación explícitas para evitar duplicados */
+body:not([data-lang]) [data-en],
+body[data-lang="es"] [data-en] {
+  display: none !important;
+}
+
 body[data-lang="en"] [data-es] {
   display: none !important;
 }
 
-/* Casos de bloque */
-body[data-lang="en"] blockquote[data-en],
+/* Ajustes para elementos de bloque */
 body[data-lang="en"] div[data-en],
 body[data-lang="en"] section[data-en],
 body[data-lang="en"] article[data-en],
@@ -126,20 +138,40 @@ pre {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 64px;
-  gap: 16px;
+  padding: 10px var(--pad);
+  gap: 20px;
+  min-height: 80px;
   flex-wrap: wrap;
 }
 
-@media (max-width: 900px) {
-  .topbar {
-    height: auto;
+@media (min-width: 1025px) {
+  .topbar__inner {
+    flex-wrap: nowrap;
+    height: 80px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .topbar__inner {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
   }
 
-  .topbar__inner {
-    height: auto;
-    padding: 10px var(--pad);
-    grid-template-columns: 1fr;
+  .brand {
+    margin-bottom: 10px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .nav {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .settings {
+    margin-bottom: 10px;
   }
 }
 
@@ -246,25 +278,39 @@ pre {
   background: var(--btn-bg);
   color: var(--text);
   border: 1px solid var(--line);
-  padding: 4px 8px;
-  border-radius: 8px;
+  padding: 6px 12px;
+  border-radius: 10px;
   font-size: 13px;
   cursor: pointer;
   outline: none;
+  backdrop-filter: blur(5px);
+  appearance: none;
+  /* Eliminar flecha nativa para un look más limpio */
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  background-size: 12px;
+  padding-right: 28px;
+}
+
+body[data-theme="light"] .lang-select {
+  stroke: black;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
 }
 
 .theme-toggle {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
   background: var(--btn-bg);
   border: 1px solid var(--line);
   color: var(--text);
-  padding: 4px 12px;
-  border-radius: 8px;
+  padding: 6px 14px;
+  border-radius: 10px;
   font-size: 13px;
   cursor: pointer;
-  transition: background 0.2s;
+  transition: all 0.2s;
+  backdrop-filter: blur(5px);
 }
 
 .theme-toggle:hover {

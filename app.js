@@ -1,3 +1,7 @@
+const $ = (s, e = document) => e.querySelector(s);
+const $$ = (s, e = document) => Array.from(e.querySelectorAll(s));
+const LEVELS = { recruiter: 0, normal: 1, deep: 2 };
+
 function setView(view) {
   document.body.dataset.view = view;
   localStorage.setItem("portfolio_view", view);
