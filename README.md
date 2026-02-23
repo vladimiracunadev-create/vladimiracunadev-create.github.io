@@ -2,10 +2,9 @@
 
 [![CI Pipeline](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/actions/workflows/ci.yml/badge.svg)](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/actions/workflows/ci.yml)
 [![Wiki Sync](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/actions/workflows/wiki-sync.yml/badge.svg)](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/actions/workflows/wiki-sync.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Vanilla JS](https://img.shields.io/badge/Vanilla-JS-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![Bilingual](https://img.shields.io/badge/Language-ES%2FEN-blue?style=flat-square)](index.html)
+[![Themes](https://img.shields.io/badge/Theme-Dark%2FLight-blueviolet?style=flat-square)](index.html)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
 Este repositorio alberga un **Portafolio de Alto Rendimiento** diseñado bajo la filosofía **KISS (Keep It Simple, Stupid)**. Se presenta como un núcleo estático puro, optimizado para la eficiencia extrema, que sirve de base para una arquitectura multiplataforma escalable (PWA + Mobile).
 
@@ -35,14 +34,27 @@ A diferencia de las soluciones sobre-ingenierizadas con frameworks masivos, este
 
 ---
 
-## 🔄 Roadmap de Transformación del Sistema
+## 🔄 Evolución Reciente: Hitos de Febrero 2026
 
-Este proyecto demuestra la madurez técnica necesaria para llevar un sitio estático minimalista hacia un entorno de producto completo:
+Este proyecto ha escalado de un portafolio personal a un **Demostrador Industrial** de ingeniería de software. Las recientes actualizaciones integran 6 pilares estratégicos:
 
-1. **Estrategia Core**: Desarrollo nativo con HTML5, CSS3 y JS (ES6+).
-2. **Capa de Productización (PWA)**: Implementación de Service Workers y Manifests para resiliencia offline.
-3. **Contenedor Nativo (Capacitor)**: Integración en `/apps/mobile` para encapsulamiento en Android e iOS.
-4. **Tooling de Sincronización**: Automatización robusta para despliegues web y móviles unificados.
+1.  **Observabilidad (OpenTelemetry/Logs)**: Estándares de traza para sistemas distribuidos.
+2.  **Resiliencia (Circuit Breakers)**: Patrones para manejo de fallas en microservicios.
+3.  **DevOps & DX**: Pipelines de CI/CD que validan desde la sintaxis hasta la accesibilidad.
+4.  **Cloud Governance (FinOps)**: Estrategias de optimización de costos y OIDC para identidad segura.
+5.  **Multiplatform Core**: Un solo código fuente para Web, PWA y Apps Nativas (Capacitor).
+6.  **Agentic AI Ready**: Arquitectura compatible con asistentes de IA y flujos de trabajo autónomos.
+
+---
+
+## 🌎 Internacionalización & UI
+
+El sistema cuenta con un motor de **i18n (Internationalization)** y **Theming** de alto rendimiento:
+* **Bilingüe (ES/EN)**: Implementado mediante CSS pasivo para un cambio de idioma instantáneo sin recarga de página.
+* **Temas Dinámicos**: Modo Oscuro/Claro totalmente reactivo, respetando las preferencias del sistema y del usuario.
+* **Layout Adaptativo**: Estructura industrial capaz de manejar contenidos densos sin colapso visual.
+
+---
 
 ---
 
@@ -105,9 +117,9 @@ Explora las guías detalladas según tu interés:
 ├── apps/               # Contenedores móviles nativos (Capacitor)
 ├── docs/               # Documentación profunda y guías de sistema
 ├── scripts/            # Automatización de build, sync y correcciones
-├── assets/             # Recursos estáticos (Imágenes, Iconos)
-├── index.html          # Núcleo de la aplicación (Vanilla)
-├── manifest.webmanifest # Definición de PWA
+├── assets/             # Recursos estáticos (Imágenes, Iconos, PDFs Industriales)
+├── index.html          # Núcleo de la aplicación (Vanilla i18n Ready)
+├── portfolio-bundle.zip # Paquete portable para despliegue rápido (Amplify)
 └── service-worker.js   # Gestión de Cache & Offline
 ```
 

@@ -4,20 +4,17 @@ Este documento proporciona una visión de alto nivel sobre por qué este portafo
 
 ## 🚀 Valor Técnico Destacado
 
-### 1. Rendimiento y Core Web Vitals
+### 1. Rendimiento y Core Web Vitals (Lighthouse 100)
+El sitio obtiene puntuaciones máximas en performance, accesibilidad y SEO gracias al uso de Vanilla JS/CSS coordinado.
 
-El sitio ha sido optimizado para obtener puntuaciones máximas en Lighthouse.
+### 2. DevOps de Varguardia e IA Generativa
+- **Integración con IA (Agentic)**: Arquitectura preparada para operar con asistentes de IA mediante una estructura de DOM limpia y semántica.
+- **Pipeline de Despliegue Industrial**: GitHub Actions que validan sintaxis, accesibilidad y sincronización PWA automáticamente.
 
-- **LCP (Largest Contentful Paint)**: < 1.2s debido al uso de Vanilla JS/CSS.
-- **Byte Weight**: Minimalista. Sin frameworks pesados (React/Angular) que añadan megabytes innecesarios de JavaScript.
-
-### 2. Calidad de Código y CI/CD
-
-No es solo "código que funciona", es código profesional:
-
-- **Validación Automatizada**: Uso de `html-validate` y `markdownlint` mediante herramientas integradas.
-- **Pipeline de Despliegue**: Integración con GitHub Actions para asegurar que cada commit sea válido y seguro.
-- **Estructura Semántica**: Uso riguroso de etiquetas HTML5 para accesibilidad (A11y) y SEO.
+### 3. Resiliencia y Cloud Governance (Senior Pillars)
+- **Infrastructure as Code (IaC)**: Preparado para despliegues inmutables.
+- **FinOps & Secure Identity**: Implementación industrial de OIDC y optimización de costos mediante arquitectura estática pura.
+- **Circuit Breakers Literales**: Lógica de manejo de errores robusta en el cliente para asegurar disponibilidad.
 
 ### 3. Seguridad
 
@@ -30,10 +27,10 @@ Implementación proactiva de:
 
 | Habilidad | Implementación en este proyecto |
 | :--- | :--- |
-| **Frontend Core** | Manipulación del DOM nativa, CSS Grid/Flexbox, Event Loop. |
-| **DevOps** | Scripts de automatización en Node.js, flujos de CI/CD. |
-| **Arquitectura** | Principio KISS, separación de responsabilidades (HTML/CSS/JS). |
-| **SEO/Marketing** | Generación dinámica de `sitemap.xml` y optimización de metadatos. |
+| **Frontend Industrial** | i18n pasiva (CSS i18n), Temas reactivos nativos, manipulación avanzada de DOM. |
+| **Arquitectura Senior** | Patrones de resiliencia (Circuit Breaker local), principios SOLID aplicados a Vanilla JS. |
+| **DevOps & Cloud** | CI/CD industrial, estrategias de portabilidad (Bundle ZIP), OIDC y optimización FinOps. |
+| **Full-Stack Portability** | Estrategia PWA + Mobile (Capacitor) con un único núcleo agnóstico. |
 
 ## 📈 Conclusión
 

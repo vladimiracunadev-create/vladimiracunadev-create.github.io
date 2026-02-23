@@ -30,9 +30,10 @@ Simplemente busca el archivo `index.html` en la carpeta y haz **doble clic**. Se
 Para cambiar los textos por los tuyos:
 
 1. Abre `index.html` con VS Code.
-2. Busca (Ctrl + F) las secciones como "Sobre Mí" o "Proyectos".
-3. Sustituye el texto entre las etiquetas (ej. `<h1>Mi Nombre</h1>`).
-4. Guarda el archivo y refresca tu navegador.
+2. Busca (Ctrl + F) las secciones que quieres cambiar.
+3. Notarás que algunos textos tienen etiquetas como `<span data-es>...</span>` y `<span data-en>...</span>`.
+4. **Sustituye ambos**: Cambia el texto español dentro de `data-es` y el inglés dentro de `data-en`.
+5. Guarda el archivo y refresca tu navegador. ¡Tu web ahora es bilingüe profesional!
 
 ### 4. Cambiar Colores (Nivel Intermedio)
 
