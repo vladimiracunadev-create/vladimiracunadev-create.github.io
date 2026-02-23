@@ -23,12 +23,15 @@ Hemos elegido **HTML, CSS y JS puro** porque:
 ## 🛠 Decisiones Técnicas Clave
 
 ### Internationalization (i18n) de Alto Rendimiento
+
 A diferencia de librerías pesadas, implementamos una **Visibilidad Pasiva** mediante atributos `data-es` y `data-en`. El CSS solo oculta lo inactivo, permitiendo que el navegador renderice instantáneamente sin ejecuciones costosas de JS ni recargas de página.
 
 ### Temas Dinámicos Reales (Dark/Light)
+
 Implementamos el sistema de temas usando variables CSS globales y atributos de data en el `body`. Esto garantiza que la transición de colores sea suave, respete la vista del usuario y tenga impacto cero en el rendimiento a largo plazo.
 
 ### Lógica Asíncrona Robusta
+
 Usamos `async/await` con patrones de manejo de fallos para cargar datos de APIs externas (GitHub). El payload total de JS es inferior a 15kb, logrando una interactividad inmediata.
 
 ### Automatización vs. Runtime

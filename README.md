@@ -38,18 +38,19 @@ A diferencia de las soluciones sobre-ingenierizadas con frameworks masivos, este
 
 Este proyecto ha escalado de un portafolio personal a un **Demostrador Industrial** de ingeniería de software. Las recientes actualizaciones integran 6 pilares estratégicos:
 
-1.  **Observabilidad (OpenTelemetry/Logs)**: Estándares de traza para sistemas distribuidos.
-2.  **Resiliencia (Circuit Breakers)**: Patrones para manejo de fallas en microservicios.
-3.  **DevOps & DX**: Pipelines de CI/CD que validan desde la sintaxis hasta la accesibilidad.
-4.  **Cloud Governance (FinOps)**: Estrategias de optimización de costos y OIDC para identidad segura.
-5.  **Multiplatform Core**: Un solo código fuente para Web, PWA y Apps Nativas (Capacitor).
-6.  **Agentic AI Ready**: Arquitectura compatible con asistentes de IA y flujos de trabajo autónomos.
+1. **Observabilidad (OpenTelemetry/Logs)**: Estándares de traza para sistemas distribuidos.
+2. **Resiliencia (Circuit Breakers)**: Patrones para manejo de fallas en microservicios.
+3. **DevOps & DX**: Pipelines de CI/CD que validan desde la sintaxis hasta la accesibilidad.
+4. **Cloud Governance (FinOps)**: Estrategias de optimización de costos y OIDC para identidad segura.
+5. **Multiplatform Core**: Un solo código fuente para Web, PWA y Apps Nativas (Capacitor).
+6. **Agentic AI Ready**: Arquitectura compatible con asistentes de IA y flujos de trabajo autónomos.
 
 ---
 
 ## 🌎 Internacionalización & UI
 
 El sistema cuenta con un motor de **i18n (Internationalization)** y **Theming** de alto rendimiento:
+
 * **Bilingüe (ES/EN)**: Implementado mediante CSS pasivo para un cambio de idioma instantáneo sin recarga de página.
 * **Temas Dinámicos**: Modo Oscuro/Claro totalmente reactivo, respetando las preferencias del sistema y del usuario.
 * **Layout Adaptativo**: Estructura industrial capaz de manejar contenidos densos sin colapso visual.

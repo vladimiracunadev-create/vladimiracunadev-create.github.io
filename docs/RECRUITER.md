@@ -5,13 +5,16 @@ Este documento proporciona una visión de alto nivel sobre por qué este portafo
 ## 🚀 Valor Técnico Destacado
 
 ### 1. Rendimiento y Core Web Vitals (Lighthouse 100)
+
 El sitio obtiene puntuaciones máximas en performance, accesibilidad y SEO gracias al uso de Vanilla JS/CSS coordinado.
 
 ### 2. DevOps de Varguardia e IA Generativa
+
 - **Integración con IA (Agentic)**: Arquitectura preparada para operar con asistentes de IA mediante una estructura de DOM limpia y semántica.
 - **Pipeline de Despliegue Industrial**: GitHub Actions que validan sintaxis, accesibilidad y sincronización PWA automáticamente.
 
 ### 3. Resiliencia y Cloud Governance (Senior Pillars)
+
 - **Infrastructure as Code (IaC)**: Preparado para despliegues inmutables.
 - **FinOps & Secure Identity**: Implementación industrial de OIDC y optimización de costos mediante arquitectura estática pura.
 - **Circuit Breakers Literales**: Lógica de manejo de errores robusta en el cliente para asegurar disponibilidad.
