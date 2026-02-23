@@ -121,6 +121,25 @@ Para iOS, es obligatorio el uso de un entorno Mac con Xcode.
 
 ---
 
+## 📦 Despliegue Portátil Industrial (Bundle ZIP)
+
+Para escenarios donde se requiere un despliegue inmediato y autónomo (ej. AWS Amplify, S3, o transferencia rápida de activos), el proyecto cuenta con un sistema de bundling simplificado.
+
+### El Paquete `portfolio-bundle.zip`
+Este paquete, generado automatizadamente, contiene exclusivamente el núcleo de producción:
+1.  **Código**: `index.html`, `styles.css`, `app.js`.
+2.  **Activos**: Carpeta `assets/` (incluyendo los PDFs y multimedia).
+3.  **PWA**: `manifest.webmanifest`, `service-worker.js`.
+4.  **SEO**: `robots.txt`, `sitemap.xml`.
+
+### Cómo desplegar en segundos (AWS Amplify):
+1.  Descarga o localiza el archivo `portfolio-bundle.zip`.
+2.  Ve a la consola de **AWS Amplify**.
+3.  Selecciona "Deploy without a Git provider".
+4.  Arrastra el archivo ZIP al área de carga. ¡Tu portafolio estará en vivo en menos de 1 minuto!
+
+---
+
 ## 🚀 Reglas de Distribución en el Repositorio
 
 Para mantener el repositorio limpio y profesional, sigue estas reglas al subir los ejecutables:
