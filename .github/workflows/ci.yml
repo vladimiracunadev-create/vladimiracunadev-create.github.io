@@ -51,6 +51,7 @@ jobs:
           path: |
             sitemap.xml
             robots.txt
+            llm.txt
 
   links:
     name: Link Checker

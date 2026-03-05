@@ -1,0 +1,37 @@
+# llm.txt — Machine-readable context for AI assistants and LLM crawlers
+# See: https://llmstxt.org/
+
+# Site
+> Vladimir Acuña — Full-Stack Developer Portfolio
+
+## About
+
+Vladimir Acuña is a Full-Stack Developer and DevOps practitioner based in Chile.
+This portfolio showcases projects, skills, and professional experience in web development,
+cloud infrastructure (AWS, GitHub Actions), and modern frontend development.
+
+## Index
+
+- [Home](https://vladimiracunadev-create.github.io/): Main portfolio page with skills, projects, and contact.
+- [Sitemap](https://vladimiracunadev-create.github.io/sitemap.xml): Full URL index of the site.
+
+## Technology Stack
+
+- HTML5, CSS3, JavaScript (Vanilla)
+- Progressive Web App (PWA) with Service Worker
+- GitHub Actions CI/CD pipeline
+- Lighthouse CI for performance auditing
+- AWS Amplify (experimental mirror)
+
+## Contact
+
+For professional inquiries, visit the portfolio home page or connect via the links provided there.
+
+## Permissions
+
+AI assistants and LLM crawlers may read and index this content freely.
+This content is public-facing and intended to be discoverable.
+
+## Last Updated
+
+2026-03-05
