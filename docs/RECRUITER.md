@@ -10,7 +10,7 @@ El sitio obtiene puntuaciones máximas en performance, accesibilidad y SEO graci
 
 ### 2. DevOps de Varguardia e IA Generativa
 
-- **Integración con IA (Agentic)**: Arquitectura preparada para operar con asistentes de IA mediante una estructura de DOM limpia y semántica.
+- **Integración con IA (Agentic)**: Arquitectura preparada para operar con asistentes de IA mediante una estructura de DOM limpia y semántica. Implementa el estándar `llm.txt` ([llmstxt.org](https://llmstxt.org)) para discoverability automática por LLMs.
 - **Pipeline de Despliegue Industrial**: GitHub Actions que validan sintaxis, accesibilidad y sincronización PWA automáticamente.
 
 ### 3. Resiliencia y Cloud Governance (Senior Pillars)
@@ -34,6 +34,7 @@ Implementación proactiva de:
 | **Arquitectura Senior** | Patrones de resiliencia (Circuit Breaker local), principios SOLID aplicados a Vanilla JS. |
 | **DevOps & Cloud** | CI/CD industrial, estrategias de portabilidad (Bundle ZIP), OIDC y optimización FinOps. |
 | **Full-Stack Portability** | Estrategia PWA + Mobile (Capacitor) con un único núcleo agnóstico. |
+| **AI/LLM Ready** | `llm.txt` estándar implementado; `robots.txt` actualizado; SEO files commiteados en raíz del repo. |
 
 ## 📈 Conclusión
 

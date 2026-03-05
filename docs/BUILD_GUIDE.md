@@ -130,7 +130,13 @@ Para escenarios donde se requiere un despliegue inmediato y autónomo (ej. AWS A
 1. **Código**: `index.html`, `styles.css`, `app.js`.
 2. **Activos**: Carpeta `assets/` (incluyendo los PDFs y multimedia).
 3. **PWA**: `manifest.webmanifest`, `service-worker.js`.
-4. **SEO**: `robots.txt`, `sitemap.xml`.
+4. **SEO**: `robots.txt`, `sitemap.xml`, `llm.txt`.
+
+> [!NOTE]
+> Los archivos `robots.txt`, `sitemap.xml` y `llm.txt` están commiteados **directamente en la raíz del repositorio** (no en `.gitignore`). Esto garantiza que GitHub Pages los sirva siempre en las URLs canónicas:
+> `https://vladimiracunadev-create.github.io/robots.txt`
+> `https://vladimiracunadev-create.github.io/sitemap.xml`
+> `https://vladimiracunadev-create.github.io/llm.txt`
 
 ### Cómo desplegar en segundos (AWS Amplify)
 

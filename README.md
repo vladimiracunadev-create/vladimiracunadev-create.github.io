@@ -34,9 +34,9 @@ A diferencia de las soluciones sobre-ingenierizadas con frameworks masivos, este
 
 ---
 
-## 🔄 Evolución Reciente: Hitos de Febrero 2026
+## 🔄 Evolución Reciente: Hitos de Marzo 2026
 
-Este proyecto ha escalado de un portafolio personal a un **Demostrador Industrial** de ingeniería de software. Las recientes actualizaciones integran 6 pilares estratégicos:
+Este proyecto ha escalado de un portafolio personal a un **Demostrador Industrial** de ingeniería de software. Las recientes actualizaciones integran 7 pilares estratégicos:
 
 1. **Observabilidad (OpenTelemetry/Logs)**: Estándares de traza para sistemas distribuidos.
 2. **Resiliencia (Circuit Breakers)**: Patrones para manejo de fallas en microservicios.
@@ -44,6 +44,7 @@ Este proyecto ha escalado de un portafolio personal a un **Demostrador Industria
 4. **Cloud Governance (FinOps)**: Estrategias de optimización de costos y OIDC para identidad segura.
 5. **Multiplatform Core**: Un solo código fuente para Web, PWA y Apps Nativas (Capacitor).
 6. **Agentic AI Ready**: Arquitectura compatible con asistentes de IA y flujos de trabajo autónomos.
+7. **LLM Discoverability (llm.txt)**: Estándar [llmstxt.org](https://llmstxt.org) implementado para que los asistentes de IA puedan indexar y razonar sobre el sitio de forma semántica.
 
 ---
 
@@ -115,13 +116,18 @@ Explora las guías detalladas según tu interés:
 ## 📂 Arquitectura del Proyecto
 
 ```text
-├── apps/               # Contenedores móviles nativos (Capacitor)
-├── docs/               # Documentación profunda y guías de sistema
-├── scripts/            # Automatización de build, sync y correcciones
-├── assets/             # Recursos estáticos (Imágenes, Iconos, PDFs Industriales)
-├── index.html          # Núcleo de la aplicación (Vanilla i18n Ready)
-├── portfolio-bundle.zip # Paquete portable para despliegue rápido (Amplify)
-└── service-worker.js   # Gestión de Cache & Offline
+├── apps/                    # Contenedores móviles nativos (Capacitor)
+├── docs/                    # Documentación profunda y guías de sistema
+├── scripts/                 # Automatización de build, sync y correcciones
+├── assets/                  # Recursos estáticos (Imágenes, Iconos, PDFs)
+├── .github/workflows/       # Pipelines CI/CD (calidad, SEO, Lighthouse)
+├── index.html               # Núcleo de la aplicación (Vanilla i18n Ready)
+├── robots.txt               # Directivas para crawlers de búsqueda
+├── sitemap.xml              # Mapa del sitio para SEO
+├── llm.txt                  # Contexto semántico para AI/LLMs (llmstxt.org)
+├── manifest.webmanifest     # Configuración PWA
+├── service-worker.js        # Gestión de Cache & Offline
+└── portfolio-bundle.zip     # Paquete portable para despliegue (Amplify)
 ```
 
 ---

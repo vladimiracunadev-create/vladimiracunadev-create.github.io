@@ -38,6 +38,14 @@ Usamos `async/await` con patrones de manejo de fallos para cargar datos de APIs 
 
 Automatizamos el **Build** (minificación de CSS/JS, generación de Sitemap) usando Node.js, pero el **Runtime** (lo que corre en el navegador del usuario) es 100% puro. Esto combina lo mejor de ambos mundos: herramientas modernas de desarrollo con una ejecución ligera para el usuario.
 
+### LLM Discoverability (llm.txt)
+
+Con la adopción masiva de asistentes de IA que razonan sobre el contenido web, este proyecto implementa el estándar emergente **[llmstxt.org](https://llmstxt.org)**:
+
+- **`llm.txt`** en la raíz del sitio: provee contexto semántico legible por máquinas (tecnología, propósito, permisos de indexación).
+- **`robots.txt` actualizado**: referencia explícita a `llm.txt` para que los crawlers de IA lo descubran automáticamente.
+- **Deploy garantizado**: los tres archivos SEO (`robots.txt`, `sitemap.xml`, `llm.txt`) son commiteados directamente en la raíz del repositorio, eliminando el riesgo de que el build los omita.
+
 ## 📱 Diseño Responsivo y Portabilidad
 
 Este proyecto ha sido diseñado para funcionar en cualquier lugar:
@@ -48,7 +56,7 @@ Este proyecto ha sido diseñado para funcionar en cualquier lugar:
 
 ## 🚀 Conclusión
 
-Este portafolio es un testimonio de que **menos es más**. La eficiencia técnica es una característica, no una limitación.
+Este portafolio es un testimonio de que **menos es más**. La eficiencia técnica es una característica, no una limitación. La adición de `llm.txt` extiende esta filosofía al ámbito de la IA: ser legíble, semántico y discoverable para las próximas generaciones de agentes automáticos.
 
 ---
 [← Volver al README](../README.md) | **Vladimir Acuña** - Senior Software Engineer

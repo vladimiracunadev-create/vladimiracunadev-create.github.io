@@ -21,7 +21,7 @@ npm run lhci
 1. **Performance**: Carga inicial, peso de recursos.
 2. **Accesibilidad**: Etiquetas ARIA, contraste, nombres de enlaces.
 3. **Best Practices**: HTTPS, CSP, sin errores en consola.
-4. **SEO**: Metaetiquetas, títulos, robots.txt.
+4. **SEO**: Metaetiquetas, títulos, `robots.txt`, `sitemap.xml`, `llm.txt`.
 
 ## Política de Seguridad (CSP)
 
