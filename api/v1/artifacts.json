@@ -1,0 +1,46 @@
+{
+    "meta": {
+        "version": "v1",
+        "generated_at": "2026-03-05"
+    },
+    "base_url": "https://vladimiracunadev-create.github.io",
+    "artifacts": [
+        {
+            "title": "CV ATS",
+            "description": "Currículum optimizado para sistemas ATS (Applicant Tracking System)",
+            "type": "pdf",
+            "file": "assets/cv-ats.pdf",
+            "url": "https://vladimiracunadev-create.github.io/assets/cv-ats.pdf",
+            "category": "cv",
+            "updated_at": "2026-03-05"
+        },
+        {
+            "title": "CV Reclutador",
+            "description": "Currículum visual optimizado para reclutadores",
+            "type": "pdf",
+            "file": "assets/cv-reclutador.pdf",
+            "url": "https://vladimiracunadev-create.github.io/assets/cv-reclutador.pdf",
+            "category": "cv",
+            "updated_at": "2026-03-05"
+        },
+        {
+            "title": "Portafolio",
+            "description": "Portafolio técnico completo con proyectos y demos",
+            "type": "pdf",
+            "file": "assets/portafolio.pdf",
+            "url": "https://vladimiracunadev-create.github.io/assets/portafolio.pdf",
+            "category": "portfolio",
+            "updated_at": "2026-03-05"
+        },
+        {
+            "title": "Carta de Recomendación",
+            "description": "Carta de recomendación laboral (Fundación CEIS Maristas)",
+            "type": "pdf",
+            "file": "assets/carta-recomendacion_sin_firma.pdf",
+            "url": "https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma.pdf",
+            "category": "letter",
+            "updated_at": "2026-03-05"
+        }
+    ],
+    "note": "PDFs en assets/no_aplica/ y assets/por_solicitud/ no están listados aquí públicamente."
+}

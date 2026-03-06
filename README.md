@@ -131,4 +131,27 @@ Explora las guías detalladas según tu interés:
 ```
 
 ---
+
+## 📡 CV Data API (GitHub Pages)
+
+El currículum está publicado como **API JSON estática de solo lectura**, extraída directamente desde los PDFs del repositorio.
+
+📖 [Manual completo → `cv-data-api.md`](cv-data-api.md)
+
+### Endpoints v1
+
+| Endpoint | Descripción |
+|---|---|
+| [`/api/v1/profile.json`](https://vladimiracunadev-create.github.io/api/v1/profile.json) | Perfil público |
+| [`/api/v1/experience.json`](https://vladimiracunadev-create.github.io/api/v1/experience.json) | Experiencia laboral |
+| [`/api/v1/projects.json`](https://vladimiracunadev-create.github.io/api/v1/projects.json) | Proyectos |
+| [`/api/v1/skills.json`](https://vladimiracunadev-create.github.io/api/v1/skills.json) | Skills, educación, idiomas |
+| [`/api/v1/artifacts.json`](https://vladimiracunadev-create.github.io/api/v1/artifacts.json) | PDFs con URLs directas |
+| [`/api/v1/meta.json`](https://vladimiracunadev-create.github.io/api/v1/meta.json) | Metadatos de la API |
+
+### CV PDF principal
+
+📄 **[CV ATS (PDF)](https://vladimiracunadev-create.github.io/assets/cv-ats.pdf)**
+
+---
 © 2026 Vladimir Acuña | Arquitecto de Software Senior

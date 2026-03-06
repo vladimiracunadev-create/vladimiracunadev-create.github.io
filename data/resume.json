@@ -1,0 +1,152 @@
+{
+    "schema": "https://jsonresume.org/schema/",
+    "meta": {
+        "version": "v1",
+        "generated_at": "2026-03-05",
+        "source_pdf": "assets/cv-ats.pdf",
+        "base_url": "https://vladimiracunadev-create.github.io"
+    },
+    "basics": {
+        "name": "Vladimir Acuña",
+        "full_name": "Vladimir Bernardo Acuña Valdebenito",
+        "label": "Arquitecto de Software | Full-Stack Senior (PHP/JS/SQL) | Modernización & DevOps",
+        "location": {
+            "city": "Santiago",
+            "country": "CL"
+        },
+        "profiles": [
+            {
+                "network": "GitHub",
+                "url": "https://github.com/vladimiracunadev-create"
+            },
+            {
+                "network": "LinkedIn",
+                "url": "https://www.linkedin.com/in/vladimir-acuna-valdebenito"
+            },
+            {
+                "network": "Web",
+                "url": "https://vladimiracunadev-create.github.io/"
+            },
+            {
+                "network": "YouTube",
+                "url": "https://youtu.be/huIjsH-N7to"
+            }
+        ]
+    },
+    "summary": [
+        "14 años liderando el diseño, evolución y operación de una plataforma educativa/psicométrica (2011–2025), con foco en continuidad operacional.",
+        "Modernización progresiva (PHP 5.4 → PHP 8.2+), optimización de rendimiento y automatización de reportes (PDF/Excel) y procesos de datos.",
+        "Experiencia en bases de datos (SQL Server, MySQL/MariaDB) y despliegues/entornos reproducibles con Docker y CI/CD.",
+        "Portafolio técnico con casos prácticos (Cloud/AWS, microsistemas y agentes), documentación y demos verificables."
+    ],
+    "skills": {
+        "backend": [
+            "PHP 8.x",
+            "Node.js",
+            "TypeScript",
+            "Python (FastAPI)"
+        ],
+        "frontend": [
+            "JavaScript",
+            "HTML",
+            "CSS"
+        ],
+        "data": [
+            "SQL Server",
+            "MySQL/MariaDB",
+            "modelado",
+            "ETL desde Excel"
+        ],
+        "devops": [
+            "Docker/Compose",
+            "GitHub Actions",
+            "GitLab CI",
+            "AWS (S3, Amplify, CloudFront)",
+            "Terraform (básico)"
+        ],
+        "quality": [
+            "hardening básico",
+            "secret scanning",
+            "control anti-inyección"
+        ],
+        "observability": [
+            "Prometheus",
+            "Grafana"
+        ]
+    },
+    "work": [
+        {
+            "company": "Fundación CEIS Maristas",
+            "position": "Arquitecto de Software y Desarrollador Full-Stack",
+            "startDate": "2011",
+            "endDate": "2025",
+            "highlights": [
+                "Diseño, desarrollo y mantención de plataforma de evaluación de alumnos (baterías de test), módulos institucionales y reportes.",
+                "Migración tecnológica PHP 5.4 → PHP 8.2+, actualización de servidores/librerías y mejoras de rendimiento con JavaScript.",
+                "Desarrollo de reportes avanzados PDF/Excel con indicadores, percentiles y análisis por curso/nivel/establecimiento.",
+                "Importación y migración de datos masivos desde Excel; automatización de comunicaciones (envíos, segmentación, seguimiento).",
+                "Soporte directo a usuarios clave (coordinadores, orientadores, directivos) y operación en producción."
+            ],
+            "technologies": [
+                "PHP",
+                "JavaScript",
+                "SQL Server",
+                "MySQL",
+                "Apache",
+                "JMeter",
+                "Excel",
+                "FPDF",
+                "PhpSpreadsheet",
+                "Constant Contact"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "Cloud/AWS y FinOps",
+            "description": "Demos y documentación de casos prácticos en AWS",
+            "url": "https://github.com/vladimiracunadev-create/proyectos-aws"
+        },
+        {
+            "name": "Microsistemas · Productivity Suite",
+            "description": "Suite modular para diagnóstico y modernización",
+            "url": "https://github.com/vladimiracunadev-create/microsistemas"
+        },
+        {
+            "name": "LangGraph · Agentic Resilience",
+            "description": "Agentes con estado y rutas condicionales",
+            "url": "https://github.com/vladimiracunadev-create/langgraph-realworld"
+        },
+        {
+            "name": "MCP + Ollama Local",
+            "description": "Tooling PoC con MCP, Ollama y SQLite",
+            "url": "https://github.com/vladimiracunadev-create/mcp-ollama-local"
+        }
+    ],
+    "education": [
+        {
+            "institution": "Universidad de Tarapacá (Arica)",
+            "area": "Computación e Informática",
+            "studyType": "Ingeniería de Ejecución"
+        },
+        {
+            "institution": "INACAP (Santiago)",
+            "area": "Administración de Empresas (Mención Marketing)",
+            "studyType": "Técnico"
+        }
+    ],
+    "languages": [
+        {
+            "language": "Español",
+            "fluency": "Nativo"
+        },
+        {
+            "language": "Inglés",
+            "fluency": "Intermedio lectura / Básico escritura y conversación"
+        }
+    ],
+    "recent_activity": [
+        "Formación continua: bases de ML/NLP y automatización práctica.",
+        "Consolidación de portafolio técnico (Cloud/AWS, Docker labs, agentes) con documentación orientada a reclutadores."
+    ]
+}

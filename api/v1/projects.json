@@ -1,0 +1,75 @@
+{
+    "meta": {
+        "version": "v1",
+        "generated_at": "2026-03-05",
+        "source_pdf": "assets/cv-ats.pdf"
+    },
+    "projects": [
+        {
+            "name": "Cloud/AWS y FinOps",
+            "description": "Demos y documentación de casos prácticos: despliegues OIDC, Terraform, AWS Budgets y gobernanza de costos.",
+            "url": "https://github.com/vladimiracunadev-create/proyectos-aws",
+            "tags": [
+                "AWS",
+                "S3",
+                "Amplify",
+                "OIDC",
+                "Terraform",
+                "FinOps"
+            ],
+            "category": "cloud"
+        },
+        {
+            "name": "Microsistemas · Productivity Suite",
+            "description": "Suite modular para diagnóstico y modernización: Hub CLI multi-OS, doctor/smoke tests, conversor de acentos, visor SQL.",
+            "url": "https://github.com/vladimiracunadev-create/microsistemas",
+            "tags": [
+                "PHP 8",
+                "CLI",
+                "DevTools",
+                "DX"
+            ],
+            "category": "tooling"
+        },
+        {
+            "name": "LangGraph · Agentic Resilience",
+            "description": "Agentes con estado, rutas condicionales y resiliencia frente a fallos de LLMs. IA aplicada a producción.",
+            "url": "https://github.com/vladimiracunadev-create/langgraph-realworld",
+            "tags": [
+                "LangGraph",
+                "IA",
+                "Python",
+                "Guardrails",
+                "Stateful"
+            ],
+            "category": "ai"
+        },
+        {
+            "name": "MCP + Ollama Local",
+            "description": "Web local (FastAPI) + Ollama + herramientas vía MCP y persistencia en SQLite. Privacidad total (localhost).",
+            "url": "https://github.com/vladimiracunadev-create/mcp-ollama-local",
+            "tags": [
+                "FastAPI",
+                "Ollama",
+                "MCP",
+                "SQLite",
+                "Local AI"
+            ],
+            "category": "ai"
+        },
+        {
+            "name": "Portfolio · GitHub Pages",
+            "description": "Portafolio estático de alto rendimiento (Lighthouse 100) con PWA, CI/CD, i18n y CV Data API.",
+            "url": "https://vladimiracunadev-create.github.io/",
+            "tags": [
+                "HTML",
+                "CSS",
+                "JS",
+                "PWA",
+                "CI/CD",
+                "GitHub Pages"
+            ],
+            "category": "portfolio"
+        }
+    ]
+}

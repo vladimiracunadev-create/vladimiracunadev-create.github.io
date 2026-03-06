@@ -1,0 +1,34 @@
+{
+    "meta": {
+        "version": "v1",
+        "generated_at": "2026-03-05",
+        "api_name": "CV Data API",
+        "owner": "Vladimir Acuña",
+        "base_url": "https://vladimiracunadev-create.github.io",
+        "license": "Public — read-only",
+        "note": "Static JSON API served via GitHub Pages. No authentication required."
+    },
+    "endpoints": {
+        "profile": "/api/v1/profile.json",
+        "experience": "/api/v1/experience.json",
+        "projects": "/api/v1/projects.json",
+        "skills": "/api/v1/skills.json",
+        "artifacts": "/api/v1/artifacts.json",
+        "meta": "/api/v1/meta.json"
+    },
+    "seo": {
+        "robots": "/robots.txt",
+        "sitemap": "/sitemap.xml",
+        "llm": "/llm.txt"
+    },
+    "versioning": {
+        "current": "v1",
+        "stable": true,
+        "note": "v2 will be created if contract changes; v1 will remain stable."
+    },
+    "data_source": {
+        "primary_pdf": "assets/cv-ats.pdf",
+        "extraction_method": "pdfminer.six",
+        "extraction_date": "2026-03-05"
+    }
+}

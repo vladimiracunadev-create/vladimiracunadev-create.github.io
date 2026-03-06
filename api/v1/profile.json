@@ -1,0 +1,44 @@
+{
+    "meta": {
+        "version": "v1",
+        "generated_at": "2026-03-05",
+        "source_pdf": "assets/cv-ats.pdf"
+    },
+    "name": "Vladimir Acuña",
+    "full_name": "Vladimir Bernardo Acuña Valdebenito",
+    "label": "Arquitecto de Software | Full-Stack Senior (PHP/JS/SQL) | Modernización & DevOps",
+    "location": {
+        "city": "Santiago",
+        "country": "CL"
+    },
+    "years_experience": 14,
+    "profiles": [
+        {
+            "network": "GitHub",
+            "url": "https://github.com/vladimiracunadev-create"
+        },
+        {
+            "network": "LinkedIn",
+            "url": "https://www.linkedin.com/in/vladimir-acuna-valdebenito"
+        },
+        {
+            "network": "Web",
+            "url": "https://vladimiracunadev-create.github.io/"
+        },
+        {
+            "network": "YouTube",
+            "url": "https://youtu.be/huIjsH-N7to"
+        }
+    ],
+    "summary": "14 años liderando el diseño, evolución y operación de plataformas educativas/psicométricas. Especializado en modernización progresiva, DevOps, Cloud/AWS y agentes de IA.",
+    "languages": [
+        {
+            "language": "Español",
+            "fluency": "Nativo"
+        },
+        {
+            "language": "Inglés",
+            "fluency": "Intermedio lectura / Básico escritura"
+        }
+    ]
+}

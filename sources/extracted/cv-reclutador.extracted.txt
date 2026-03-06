@@ -1,0 +1,107 @@
+# SOURCE: assets/cv-reclutador.pdf
+# EXTRACTED: 2026-03-05T21:15:49.078923
+# METHOD: pdfminer.six
+# CHARS: 2951
+# ============================================================
+
+CONTACTO
+
+Santiago, Chile
++56 9 8121 8838
+vladimir.acuna.dev@gmail.com
+Web:
+https://vladimiracunadev-create.github.io/
+GitHub: https://github.com/vladimiracuna
+dev-create
+LinkedIn: https://www.linkedin.com/in/vla
+dimir-acuna-valdebenito
+Video: https://youtu.be/huIjsH-N7to
+
+SKILLS
+
+Backend: PHP 8.x, Node.js, TypeScript,
+Python (FastAPI)
+
+Frontend: JavaScript, HTML, CSS
+
+Datos: SQL Server, MySQL/MariaDB,
+modelado, ETL desde Excel
+
+DevOps/Cloud: Docker/Compose,
+CI/CD (GitHub Actions/GitLab CI), AWS
+(S3, Amplify, CloudFront), Terraform
+(básico)
+
+Calidad/Seguridad: hardening básico,
+secret scanning, control antininyección
+Observabilidad: Prometheus/Grafana
+(laboratorios y fundamentos)
+
+EDUCACIÓN
+
+Ingeniería de Ejecución en
+Computación e Informática
+Universidad de Tarapacá (Arica)
+
+Técnico de Administración de
+Empresas (Mención Marketing)
+INACAP (Santiago)
+
+IDIOMAS
+
+Inglés: intermedio en lectura; básico en
+escritura y conversación.
+
+Vladimir Acuña
+Arquitecto de Software | FullnStack Senior (PHP/JS/SQL) | Modernización &
+DevOps
+
+Vladimir Bernardo Acuña Valdebenito
+
+Santiago, Chile | +56 9 8121 8838 | vladimir.acuna.dev@gmail.com
+
+RESUMEN
+
+(cid:127) 14 años liderando el diseño, evolución y operación de una plataforma
+educativa/psicométrica (2011–2025), con foco en continuidad operacional.
+(cid:127) Modernización progresiva (PHP 5.4 ﬁ PHP 8.2+), optimización de rendimiento
+y automatización de reportes (PDF/Excel) y procesos de datos.
+
+(cid:127) Experiencia en bases de datos (SQL Server, MySQL/MariaDB) y
+despliegues/entornos reproducibles con Docker y CI/CD.
+
+(cid:127) Portafolio técnico con casos prácticos (Cloud/AWS, microsistemas y agentes),
+documentación y demos verificables.
+
+EXPERIENCIA
+Fundación CEIS Maristas — Arquitecto de Software y Desarrollador FullnStack
+(2011–2025)
+
+(cid:127) Diseño, desarrollo y mantención de plataforma de evaluación de alumnos
+(baterías de test), módulos institucionales y reportes.
+(cid:127) Migración tecnológica (PHP 5.4 ﬁ PHP 8.2+), actualización de
+servidores/librerías y mejoras de rendimiento con JavaScript y pruebas de carga.
+
+(cid:127) Desarrollo de reportes avanzados PDF/Excel con indicadores, percentiles y
+análisis por curso/nivel/establecimiento.
+
+(cid:127) Importación y migración de datos masivos desde Excel con validaciones;
+automatización de comunicaciones (envíos, segmentación, seguimiento).
+
+(cid:127) Soporte directo a usuarios clave (coordinadores, orientadores, directivos) y
+operación en producción.
+
+Tecnologías: PHP, JavaScript, SQL Server, MySQL, Apache, JMeter, Excel,
+FPDF/PhpSpreadsheet, Constant Contact
+
+FORMACIÓN Y PROYECTOS RECIENTES
+
+(cid:127) Formación continua (cursos online): bases de ML/NLP y automatización
+práctica aplicada a proyectos.
+
+(cid:127) Consolidación de portafolio técnico (Cloud/AWS, Docker labs, agentes) y
+documentación orientada a reclutadores.
+
+Carta de recomendación y validación de logros: disponibles (original firmado a solicitud).
+
+

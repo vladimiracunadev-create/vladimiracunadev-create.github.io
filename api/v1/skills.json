@@ -1,0 +1,105 @@
+{
+    "meta": {
+        "version": "v1",
+        "generated_at": "2026-03-05",
+        "source_pdf": "assets/cv-ats.pdf"
+    },
+    "skills": {
+        "backend": {
+            "items": [
+                "PHP 8.x",
+                "Node.js",
+                "TypeScript",
+                "Python (FastAPI)"
+            ],
+            "level": "senior"
+        },
+        "frontend": {
+            "items": [
+                "JavaScript (ES6+)",
+                "HTML5",
+                "CSS3"
+            ],
+            "level": "senior"
+        },
+        "data": {
+            "items": [
+                "SQL Server",
+                "MySQL/MariaDB",
+                "Modelado relacional",
+                "ETL desde Excel"
+            ],
+            "level": "senior"
+        },
+        "devops_cloud": {
+            "items": [
+                "Docker/Compose",
+                "GitHub Actions",
+                "GitLab CI",
+                "AWS S3",
+                "AWS Amplify",
+                "CloudFront",
+                "Terraform (básico)"
+            ],
+            "level": "mid-senior"
+        },
+        "quality_security": {
+            "items": [
+                "hardening básico",
+                "secret scanning",
+                "control anti-inyección"
+            ],
+            "level": "mid"
+        },
+        "observability": {
+            "items": [
+                "Prometheus",
+                "Grafana",
+                "Lighthouse CI"
+            ],
+            "level": "mid"
+        },
+        "ai_agentic": {
+            "items": [
+                "LangGraph",
+                "Ollama (local)",
+                "MCP",
+                "Guardrails",
+                "FastAPI + LLM"
+            ],
+            "level": "mid"
+        }
+    },
+    "education": [
+        {
+            "institution": "Universidad de Tarapacá",
+            "location": "Arica, Chile",
+            "area": "Computación e Informática",
+            "studyType": "Ingeniería de Ejecución"
+        },
+        {
+            "institution": "INACAP",
+            "location": "Santiago, Chile",
+            "area": "Administración de Empresas (Mención Marketing)",
+            "studyType": "Técnico"
+        }
+    ],
+    "languages": [
+        {
+            "language": "Español",
+            "fluency": "Nativo"
+        },
+        {
+            "language": "Inglés",
+            "fluency": "Intermedio lectura / Básico escritura y conversación"
+        }
+    ],
+    "certifications": [
+        {
+            "name": "Formación continua — ML/NLP y automatización",
+            "type": "online_courses",
+            "date": "2025-2026",
+            "note": "Bases de ML/NLP aplicadas a proyectos prácticos"
+        }
+    ]
+}

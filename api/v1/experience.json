@@ -1,0 +1,45 @@
+{
+    "meta": {
+        "version": "v1",
+        "generated_at": "2026-03-05",
+        "source_pdf": "assets/cv-ats.pdf"
+    },
+    "experience": [
+        {
+            "company": "Fundación CEIS Maristas",
+            "position": "Arquitecto de Software y Desarrollador Full-Stack",
+            "startDate": "2011",
+            "endDate": "2025",
+            "duration_years": 14,
+            "location": "Santiago, Chile",
+            "type": "full-time",
+            "highlights": [
+                "Diseño, desarrollo y mantención de plataforma de evaluación de alumnos (baterías de test), módulos institucionales y reportes.",
+                "Migración tecnológica PHP 5.4 → PHP 8.2+; actualización de servidores/librerías y mejoras de rendimiento.",
+                "Reportes avanzados PDF/Excel con indicadores, percentiles y análisis por curso/nivel/establecimiento.",
+                "Importación y migración de datos masivos desde Excel; automatización de comunicaciones.",
+                "Soporte directo a usuarios clave (coordinadores, orientadores, directivos) y operación en producción."
+            ],
+            "technologies": [
+                "PHP",
+                "JavaScript",
+                "SQL Server",
+                "MySQL",
+                "Apache",
+                "JMeter",
+                "Excel",
+                "FPDF",
+                "PhpSpreadsheet",
+                "Constant Contact"
+            ],
+            "provenance": {
+                "source_pdf": "assets/cv-ats.pdf",
+                "excerpt": "Fundación CEIS Maristas — Arquitecto de Software y Desarrollador FullStack (2011–2025)"
+            }
+        }
+    ],
+    "recent_activity": [
+        "Formación continua: bases de ML/NLP y automatización práctica aplicada a proyectos.",
+        "Consolidación de portafolio técnico (Cloud/AWS, Docker labs, agentes) con documentación orientada a reclutadores."
+    ]
+}
