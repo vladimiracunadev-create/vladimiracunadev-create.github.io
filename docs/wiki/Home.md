@@ -72,6 +72,16 @@ Nuestra arquitectura se basa en el **Minimalismo Radical (KISS)**. No construimo
 
 ---
 
+### 🤖 Skills System
+
+*Skills de IA que automatizan el ciclo completo de actualización del portafolio.*
+
+| Skill | Cuándo usar |
+| :--- | :--- |
+| [`portfolio-full-update`](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/blob/main/.agents/skills/portfolio-full-update/SKILL.md) | Al aprender algo nuevo, cambiar de trabajo, actualizar el CV o querer refrescar el portafolio completo |
+
+---
+
 ## 📈 Benchmarks de Calidad (Lighthouse)
 
 Mantenemos un estándar innegociable de excelencia técnica en cada despliegue:

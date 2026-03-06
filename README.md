@@ -120,15 +120,33 @@ Explora las guías detalladas según tu interés:
 ├── docs/                    # Documentación profunda y guías de sistema
 ├── scripts/                 # Automatización de build, sync y correcciones
 ├── assets/                  # Recursos estáticos (Imágenes, Iconos, PDFs)
+├── .agents/skills/          # Skills de IA para automatizar el portafolio
+├── api/v1/                  # CV Data API — endpoints JSON estáticos
+├── data/                    # JSON Resume canónico (resume.json)
+├── sources/extracted/       # Textos extraídos de PDFs (auditoría)
 ├── .github/workflows/       # Pipelines CI/CD (calidad, SEO, Lighthouse)
 ├── index.html               # Núcleo de la aplicación (Vanilla i18n Ready)
 ├── robots.txt               # Directivas para crawlers de búsqueda
 ├── sitemap.xml              # Mapa del sitio para SEO
 ├── llm.txt                  # Contexto semántico para AI/LLMs (llmstxt.org)
+├── cv-data-api.md           # Manual de la CV Data API
 ├── manifest.webmanifest     # Configuración PWA
 ├── service-worker.js        # Gestión de Cache & Offline
 └── portfolio-bundle.zip     # Paquete portable para despliegue (Amplify)
 ```
+
+---
+
+## 🤖 Skills System (IA + Automatización)
+
+El repositorio incluye un sistema de **Skills de IA** que permite a asistentes
+automáticos ejecutar flujos completos de actualización con un solo comando.
+
+| Skill | Descripción |
+|---|---|
+| [`portfolio-full-update`](.agents/skills/portfolio-full-update/SKILL.md) | Extrae PDFs, escanea GitHub/GitLab, actualiza la API JSON, `index.html`, toda la documentación y los archivos SEO |
+
+> **Cómo usarlo**: simplemente di _“actualié mi CV”_, _“aprendí X”_ o _“agregué un nuevo proyecto”_ y el skill se ejecuta automáticamente.
 
 ---
 

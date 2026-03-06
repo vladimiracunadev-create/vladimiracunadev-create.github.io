@@ -32,3 +32,9 @@ Estándares de Excelencia
 - [📄 **Manual API**](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/blob/main/cv-data-api.md)
 - [👤 profile.json](https://vladimiracunadev-create.github.io/api/v1/profile.json)
 - [📦 artifacts.json](https://vladimiracunadev-create.github.io/api/v1/artifacts.json)
+
+---
+
+### 🤖 Skills System
+
+- [🔄 **portfolio-full-update**](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/blob/main/.agents/skills/portfolio-full-update/SKILL.md)
