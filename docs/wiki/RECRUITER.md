@@ -33,7 +33,9 @@ Implementación proactiva de:
 | **Frontend Core** | Manipulación del DOM nativa, CSS Grid/Flexbox, Event Loop. |
 | **DevOps** | Scripts de automatización en Node.js, flujos de CI/CD. |
 | **Arquitectura** | Principio KISS, separación de responsabilidades (HTML/CSS/JS). |
-| **SEO/Marketing** | Generación dinámica de `sitemap.xml` y optimización de metadatos. |
+| **SEO/Marketing** | `robots.txt`, `sitemap.xml` y `llm.txt` commiteados en raíz. |
+| **AI/LLM Ready** | `llm.txt` estándar implementado; CV Data API JSON desde PDFs. |
+| **CV Data API** | 6 endpoints JSON estáticos en `/api/v1/` — perfil, experiencia, proyectos, skills, PDFs. |
 
 ## 📈 Conclusión
 

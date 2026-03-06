@@ -62,10 +62,15 @@ Como este sitio es estático:
 
   *(Cache de 1 día, pero validar si cambió).*
 
-### Assets pesados (PDFs, Imágenes)
+### Assets pesados (PDFs)
 
 - **Cache-Control**: `public, max-age=31536000, immutable`
-- *Nota*: Solo si estás seguro que los nombres de archivo cambiarán si el contenido cambia (ej. `cv-2026.pdf`). Si usas nombres fijos (`cv-completo.pdf`), usa la estrategia de 1 día.
+- *Nota*: Solo si los archivos tienen nombres fijos (`cv-ats.pdf`, `portafolio.pdf`). Si el contenido cambia, usar `max-age=86400` para actualizaciones diarias.
+
+### API JSON estática (`/api/v1/*.json`)
+
+- **Cache-Control**: `public, max-age=3600, must-revalidate`
+- *Razón*: Los endpoints de la CV Data API pueden actualizarse cuando se hacen commits; 1 hora de caché es suficiente sin sacrificar frescura.
 
 ---
 

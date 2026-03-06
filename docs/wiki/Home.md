@@ -55,6 +55,23 @@ Nuestra arquitectura se basa en el **Minimalismo Radical (KISS)**. No construimo
 
 ---
 
+### 📡 CV Data API
+
+*Currículum publicado como API JSON estática, extraído desde PDFs del repo.*
+
+| Endpoint | Descripción |
+| :--- | :--- |
+| [`/api/v1/profile.json`](https://vladimiracunadev-create.github.io/api/v1/profile.json) | Perfil público |
+| [`/api/v1/experience.json`](https://vladimiracunadev-create.github.io/api/v1/experience.json) | Experiencia |
+| [`/api/v1/projects.json`](https://vladimiracunadev-create.github.io/api/v1/projects.json) | Proyectos |
+| [`/api/v1/skills.json`](https://vladimiracunadev-create.github.io/api/v1/skills.json) | Skills / Educación |
+| [`/api/v1/artifacts.json`](https://vladimiracunadev-create.github.io/api/v1/artifacts.json) | PDFs con URLs directas |
+| [`/api/v1/meta.json`](https://vladimiracunadev-create.github.io/api/v1/meta.json) | Metadatos de la API |
+
+> 📖 Manual completo → [`cv-data-api.md`](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/blob/main/cv-data-api.md)
+
+---
+
 ## 📈 Benchmarks de Calidad (Lighthouse)
 
 Mantenemos un estándar innegociable de excelencia técnica en cada despliegue:
@@ -64,8 +81,8 @@ Mantenemos un estándar innegociable de excelencia técnica en cada despliegue:
 | **Performance** | ![100](https://img.shields.io/badge/100-success?style=flat-square) | LCP < 800ms |
 | **Accesibilidad** | ![100](https://img.shields.io/badge/100-success?style=flat-square) | WCAG 2.1 |
 | **Best Practices** | ![100](https://img.shields.io/badge/100-success?style=flat-square) | CSP / HTTPS |
-| **SEO** | ![100](https://img.shields.io/badge/100-success?style=flat-square) | Semántica |
+| **SEO** | ![100](https://img.shields.io/badge/100-success?style=flat-square) | Semántica + `llm.txt` |
 
 ---
 
-**Vladimir Acuña** - Senior Software Engineer | © 2026
+**Vladimir Acuña** - Senior Software Engineer | © 2026 · Marzo 2026

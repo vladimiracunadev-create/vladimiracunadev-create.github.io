@@ -19,9 +19,10 @@ npm run lhci       # Ejecuta la batería de pruebas de Lighthouse
 
 ## 🔍 Ejes de Evaluación
 
-1. **Performance**: Optimización de imágnes y carga diferida.
+1. **Performance**: Optimización de imágenes y carga diferida.
 2. **Accesibilidad**: Navegación por teclado y etiquetas semánticas.
-3. **SEO**: Preparación para indexación orgánica.
+3. **SEO**: `robots.txt`, `sitemap.xml` y `llm.txt` en raíz — indexación orgánica + IA.
+4. **CV Data API**: JSONs en `api/v1/` — validar que sean JSON válido y que `artifacts.json` liste todos los PDFs públicos.
 
 ---
 

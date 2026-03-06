@@ -34,9 +34,14 @@ Usamos `async/await` para cargar datos y manipulación directa del DOM para la i
 
 Automatizamos el **Build** (minificación de CSS/JS, generación de Sitemap) usando Node.js, pero el **Runtime** (lo que corre en el navegador del usuario) es 100% puro. Esto combina lo mejor de ambos mundos: herramientas modernas de desarrollo con una ejecución ligera para el usuario.
 
+### LLM Discoverability (llm.txt) y CV Data API
+
+- **`llm.txt`** en raíz del sitio: estándar [llmstxt.org](https://llmstxt.org) para que los asistentes de IA indexen el sitio semánticamente.
+- **CV Data API** (`/api/v1/`): 6 endpoints JSON estáticos extraídos desde PDFs con `pdfminer.six`. Currículum legible por máquinas sin servidor ni autenticación.
+
 ## 🚀 Conclusión
 
-Este portafolio es un testimonio de que **menos es más**. La eficiencia técnica es una característica, no una limitación.
+Este portafolio es un testimonio de que **menos es más**. La adición de `llm.txt` y la CV Data API extienden esta filosofía al ámbito de la IA: ser legíble, semántico y discoverable para agentes automáticos.
 
 ---
 [🏠 Regresar al Inicio](Home)
