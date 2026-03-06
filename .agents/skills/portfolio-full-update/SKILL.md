@@ -32,8 +32,8 @@ documentos actualizados.
 
 | Plataforma | URL |
 |---|---|
-| GitHub | https://github.com/vladimiracunadev-create |
-| GitLab | https://gitlab.com/vladimir.acuna.dev-group |
+| GitHub | <https://github.com/vladimiracunadev-create> |
+| GitLab | <https://gitlab.com/vladimir.acuna.dev-group> |
 
 > **Nota**: Los repos públicos se pueden leer con `read_url_content` o
 > `browser_subagent`. Usar para detectar proyectos nuevos, READMEs,
@@ -45,7 +45,7 @@ documentos actualizados.
 
 ### FASE 0 — Verificar qué cambió
 
-```
+```text
 1. git status  →  detectar PDFs nuevos / modificados
 2. Listar assets/ para inventariar archivos actuales
 3. (Opcional) Leer repos GitHub/GitLab para detectar proyectos nuevos
@@ -62,9 +62,9 @@ Get-ChildItem assets/ -Recurse -Filter *.pdf
 
 ### FASE 1 — Extraer texto de los PDFs
 
-```
-pip install pdfminer.six --quiet   (solo si no está instalado)
-python C:/tmp/extract_pdfs.py       (script de extracción)
+```bash
+pip install pdfminer.six --quiet   # solo si no está instalado
+python C:/tmp/extract_pdfs.py       # script de extracción
 ```
 
 **Script de extracción reutilizable:**
@@ -106,7 +106,7 @@ for name, path in PDFS.items():
 
 ### FASE 2 — Detectar proyectos nuevos en GitHub/GitLab
 
-```
+```text
 Usar read_url_content o browser_subagent para:
   https://github.com/vladimiracunadev-create
   https://gitlab.com/vladimir.acuna.dev-group
@@ -159,7 +159,7 @@ Secciones que pueden requerir cambio:
 
 Archivos que siempre deben reflejar el estado actual:
 
-```
+```text
 README.md                     → arquitectura, hitos, API, fechas
 docs/RECRUITER.md             → tabla de habilidades, CV Data API
 docs/TECHNICAL_RATIONAL.md   → nuevas decisiones técnicas
