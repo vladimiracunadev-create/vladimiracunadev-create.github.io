@@ -14,7 +14,7 @@ Un conjunto de endpoints JSON de solo lectura que reflejan la información profe
 
 ## Base URL
 
-```
+```text
 https://vladimiracunadev-create.github.io
 ```
 
