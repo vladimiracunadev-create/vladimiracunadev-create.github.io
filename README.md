@@ -173,3 +173,13 @@ El currículum está publicado como **API JSON estática de solo lectura**, extr
 
 ---
 © 2026 Vladimir Acuña | Arquitecto de Software Senior
+
+## 📚 Documentación del Proyecto
+
+Como parte de los estándares de este ecosistema, la documentación detallada se divide en:
+
+* [📘 Guía de Instalación y Despliegue (INSTALL.md)](INSTALL.md)
+* [📜 Historial de Cambios (CHANGELOG.md)](CHANGELOG.md)
+* [🤝 Guía de Contribución (CONTRIBUTING.md)](CONTRIBUTING.md)
+* [🛡️ Política de Seguridad (SECURITY.md)](SECURITY.md)
+* [⚖️ Código de Conducta (CODE_OF_CONDUCT.md)](CODE_OF_CONDUCT.md)
