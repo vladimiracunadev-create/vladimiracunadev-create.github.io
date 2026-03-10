@@ -1,0 +1,90 @@
+/* Reset y configuración base para la experiencia 3D */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden; /* Cero scroll en la ventana principal, el 3D domina */
+  background-color: #0f172a; /* Slate 900 como base oscura */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  color: #f8fafc;
+}
+
+/* El contenedor del canvas debe tomar todo el espacio y estar al fondo */
+#canvas-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1; /* Nivel base */
+}
+
+/* Estilos de la capa Fallback si WebGL falla o carga inicial */
+#fallback {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #0f172a;
+  z-index: 100; /* Siempre arriba del canvas si está visible */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: opacity 0.5s ease;
+}
+
+#fallback.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.fallback-content {
+  max-width: 600px;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.fallback-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #60a5fa;
+}
+
+.fallback-content p {
+  margin-bottom: 1.5rem;
+  color: #cbd5e1;
+  line-height: 1.6;
+}
+
+.visible {
+  display: flex !important;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: #3b82f6;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.btn:hover {
+  background: #2563eb;
+}
+
+noscript .btn {
+  margin-top: 1rem;
+}

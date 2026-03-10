@@ -1,0 +1,295 @@
+/* Estilos para la interfaz de usuario que se superpone al 3D */
+
+#ui-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    /* Por encima del canvas 3D */
+    pointer-events: none;
+    /* Dejamos pasar los clics al canvas por defecto */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+#ui-layer.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+/* Permitir eventos de puntero solo en elementos interactivos */
+.ui-header,
+.ui-controls,
+.ui-panels,
+.ui-panels a,
+.ui-panels button {
+    pointer-events: auto;
+}
+
+/* Header UI */
+.ui-header {
+    padding: 1.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to bottom, rgba(15, 23, 42, 0.8) 0%, transparent 100%);
+}
+
+.branding {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #f8fafc;
+    letter-spacing: -0.025em;
+}
+
+.branding span {
+    font-weight: 400;
+    color: #94a3b8;
+}
+
+.btn-return {
+    color: #cbd5e1;
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    backdrop-filter: blur(4px);
+    transition: all 0.2s;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.btn-return:hover {
+    color: white;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Controles Base Inferior */
+.ui-controls {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    background: rgba(15, 23, 42, 0.85);
+    padding: 0.75rem 1.5rem;
+    border-radius: 100px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+.btn-nav {
+    background: transparent;
+    color: #f8fafc;
+    border: none;
+    font-family: inherit;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0.5rem;
+    transition: color 0.2s;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.btn-nav:hover {
+    color: #60a5fa;
+}
+
+.btn-nav:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+.progress-indicator {
+    font-variant-numeric: tabular-nums;
+    color: #94a3b8;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+}
+
+#current-step {
+    color: #f8fafc;
+    font-weight: 700;
+}
+
+/* Paneles Laterales de Información */
+.ui-panels {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+    width: 100%;
+    max-width: 450px;
+    perspective: 1000px;
+}
+
+.panel {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgba(15, 23, 42, 0.6);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    border-left: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    padding: 2.5rem;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(30px) scale(0.95);
+    transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+    box-shadow: 0 30px 60px -12px rgba(0, 0, 0, 0.8), inset 0 0 20px rgba(255, 255, 255, 0.02);
+}
+
+.panel.active {
+    opacity: 1;
+    visibility: visible;
+    position: relative;
+    transform: translateY(0) scale(1);
+}
+
+.panel h1,
+.panel h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #f8fafc;
+    line-height: 1.2;
+}
+
+.panel p {
+    color: #cbd5e1;
+    line-height: 1.7;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.links {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn-action {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: #3b82f6;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: background 0.2s;
+    border: 1px solid #3b82f6;
+    text-align: center;
+}
+
+.btn-action:hover {
+    background: #2563eb;
+}
+
+.btn-action.ghost {
+    background: transparent;
+    color: #f8fafc;
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.btn-action.ghost:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: #f8fafc;
+}
+
+@media (max-width: 768px) {
+    .ui-panels {
+        right: 50%;
+        transform: translate(50%, -50%);
+        width: 90%;
+    }
+
+    .panel {
+        padding: 1.5rem;
+    }
+
+    .panel h1,
+    .panel h2 {
+        font-size: 1.5rem;
+    }
+
+    .links {
+        flex-direction: column;
+    }
+}
+
+/* ------------------------------------------------------------- 
+   Cinematic Progress Bar (Top) 
+-------------------------------------------------------------- */
+.progress-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: rgba(255, 255, 255, 0.05);
+    z-index: 50;
+}
+
+#nav-progress-bar {
+    height: 100%;
+    width: 0%;
+    /* Gobernado por JS */
+    background: #3b82f6;
+    box-shadow: 0 0 10px #3b82f6, 0 0 20px #2563eb;
+    transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+/* ------------------------------------------------------------- 
+   Staggered Typography Reveal (Motion Design) 
+-------------------------------------------------------------- */
+
+/* Estado inicial escondido y desplazado hacia abajo */
+.panel.animate-text h1,
+.panel.animate-text h2,
+.panel.animate-text p,
+.panel.animate-text .links {
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+/* Animaciones escalonadas al activarse */
+.panel.active h1,
+.panel.active h2 {
+    animation: slideUpFade 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    animation-delay: 0.1s;
+    /* Primer elemento */
+}
+
+.panel.active p {
+    animation: slideUpFade 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    animation-delay: 0.25s;
+    /* Párrafo entra después */
+}
+
+.panel.active .links {
+    animation: slideUpFade 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    animation-delay: 0.4s;
+    /* Botones entran al final */
+}
+
+@keyframes slideUpFade {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

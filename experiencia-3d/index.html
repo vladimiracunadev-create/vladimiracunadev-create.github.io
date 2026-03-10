@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Experiencia 3D · Vladimir Acuña</title>
+  <meta name="description" content="Recorrido 3D inmersivo por el portafolio profesional de Vladimir Acuña.">
+  <link rel="stylesheet" href="./css/immersive.css">
+  <link rel="stylesheet" href="./css/immersive-ui.css">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+
+  <!-- Import Map para Three.js (Evitando build steps y cargando desde CDN confiable) -->
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+        "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+      }
+    }
+  </script>
+</head>
+
+<body>
+
+  <!-- Fallback (Se oculta vía JS si WebGL carga exitosamente) -->
+  <div id="fallback" class="visible">
+    <div class="fallback-content">
+      <h2>Experiencia 3D</h2>
+      <p>Cargando motor gráfico...</p>
+      <noscript>
+        <p>⚠️ Se requiere JavaScript para ejecutar la experiencia 3D.</p>
+        <a href="../index.html" class="btn">Volver al sitio principal</a>
+      </noscript>
+      <div id="webgl-error" class="hidden">
+        <p>⚠️ Tu navegador o dispositivo no soporta WebGL, o ha fallado la carga.</p>
+        <a href="../index.html" class="btn">Volver al sitio principal</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contenedor del Canvas 3D -->
+  <div id="canvas-container"></div>
+
+  <!-- UI Overlays (Capas HTML superpuestas al 3D) -->
+  <div id="ui-layer" class="hidden">
+
+    <!-- Barra de progreso cinemática top -->
+    <div class="progress-wrap">
+      <div id="nav-progress-bar"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="ui-header">
+      <div class="branding">Vladimir Acuña <span>| 3D Gallery</span></div>
+      <a href="../index.html" class="btn-return" aria-label="Volver al inicio">← Volver al inicio</a>
+    </header>
+
+    <!-- Controles de navegación guiada -->
+    <nav class="ui-controls">
+      <button id="btn-prev" class="btn-nav" disabled>Anterior</button>
+      <div class="progress-indicator"><span id="current-step">1</span> / <span id="total-steps">24</span></div>
+      <button id="btn-next" class="btn-nav">Siguiente</button>
+    </nav>
+
+    <!-- Paneles de información fijos que cambian según la posición de la cámara -->
+    <main class="ui-panels">
+
+      <div id="panel-1" class="panel active">
+        <h1>Bienvenidos al Recorrido 3D</h1>
+        <p>Este es un entorno interactivo diseñado como un plano arquitectónico moderno. Utiliza las flechas de
+          navegación o los selectores laterales para avanzar por las 24 estaciones de mi carrera profesional.</p>
+      </div>
+
+      <div id="panel-2" class="panel">
+        <h2>Pilar 1: Observabilidad</h2>
+        <p>Más de 14 años de experiencia modernizando sistemas legacy. Foco en telemetría industrial (Grafana,
+          Prometheus), eliminando cajas negras y aportando métricas accionables.</p>
+      </div>
+
+      <div id="panel-3" class="panel">
+        <h2>Pilar 2: Resiliencia</h2>
+        <p>Arquitecturas diseñadas para fallar con gracia: Idempotencia, Circuit Breakers y desvío controlado (DLQ) para
+          proteger los flujos de negocio ante caídas de terceros.</p>
+      </div>
+
+      <div id="panel-4" class="panel">
+        <h2>Pilar 3: DX & Reproducibilidad</h2>
+        <p>Entornos <i>doctor</i> y <i>smoke tests</i>. Hub CLI multi-OS para levantar stacks complejos en un solo
+          comando. Menor fricción = mayor productividad del equipo.</p>
+      </div>
+
+      <div id="panel-5" class="panel">
+        <h2>Pilar 4: Cloud Profesional</h2>
+        <p>Infraestructura inmutable (Terraform), seguridad OIDC sin secretos duros y estricta gobernanza de costos
+          (FinOps/AWS Budgets).</p>
+      </div>
+
+      <div id="panel-6" class="panel">
+        <h2>Pilar 5: Multiplataforma</h2>
+        <p>Soluciones orientadas al producto: Web PWA y builds móviles nativos vía Capacitor para iterar rápido y
+          ofrecer experiencias unificadas.</p>
+      </div>
+
+      <div id="panel-7" class="panel">
+        <h2>Pilar 6: IA Agéntica</h2>
+        <p>Implementación de agentes con estado, resiliencia y rutas condicionales integrados en el negocio utilizando
+          LangGraph y Model Context Protocol (MCP).</p>
+      </div>
+
+      <div id="panel-8" class="panel">
+        <h2>Proyecto: Batería Online</h2>
+        <p>Suite psicométrica web a gran escala. Evolución, soporte y modernización progresiva asegurando la continuidad
+          operacional e integridad de los datos.</p>
+      </div>
+
+      <div id="panel-9" class="panel">
+        <h2>Proyecto: Microsistemas</h2>
+        <p>Suite modular para diagnóstico y modernización. Herramientas transversales para reducir fricciones y auditar
+          migraciones (PHP 5.x -> 8.x).</p>
+      </div>
+
+      <div id="panel-10" class="panel">
+        <h2>Proyecto: Docker Labs</h2>
+        <p>Laboratorios de infraestructura "Listos en 60s" con dashboards locales. Entornos ideales para experimentación
+          rápida y entrevistas técnicas.</p>
+      </div>
+
+      <div id="panel-11" class="panel">
+        <h2>Proyecto: Cloud Portfolio & FinOps</h2>
+        <p>Este mismo ecosistema interactivo y sus múltiples ramas (AWS, GitLab). Todo documentado y desplegado de forma
+          segura e inmutable vía Terraform.</p>
+      </div>
+
+      <div id="panel-12" class="panel">
+        <h2>Proyecto: LangGraph Realworld</h2>
+        <p>Prototipo de flujos de IA conversacional utilizando validación pydantic estricta y control
+          "Human-in-the-loop" preventivo.</p>
+      </div>
+
+      <div id="panel-13" class="panel">
+        <h2>Proyecto: MCP Ollama Local</h2>
+        <p>Interfaz puente local para dotar a agentes IA de contexto y validación sin extraer datos sensibles hacia la
+          nube, usando FastAPI.</p>
+      </div>
+
+      <div id="panel-14" class="panel">
+        <h2>Proyecto: Social Bot Scheduler</h2>
+        <p>Orquestador industrial (n8n + Python) utilizando Circuit Breaker e Idempotencia garantizando publicación
+          constante y resiliente.</p>
+      </div>
+
+      <div id="panel-15" class="panel">
+        <h2>Rol: Arquitecto Legacy</h2>
+        <p>Refactoring sistemático de código antiguo reduciendo la deuda técnica un monolito a la vez antes de saltar a
+          microservicios.</p>
+      </div>
+
+      <div id="panel-16" class="panel">
+        <h2>Rol: Platform Engineer</h2>
+        <p>Creación de Portales de Desarrollador Internos (IDP) e infraestructura que facilita a otros ingenieros poder
+          desplegar código rápido y seguro.</p>
+      </div>
+
+      <div id="panel-17" class="panel">
+        <h2>Rol: Cloud & FinOps</h2>
+        <p>Auditoría e implementación de barreras de facturación en la nube limitando el derroche y pre-calculando el
+          TCO (Total Cost of Ownership).</p>
+      </div>
+
+      <div id="panel-18" class="panel">
+        <h2>Rol: Site Reliability Engineer (SRE)</h2>
+        <p>Atención al rendimiento y SLIs operacionales. Reducción agresiva de falsos positivos en las alertas de logs
+          en producción.</p>
+      </div>
+
+      <div id="panel-19" class="panel">
+        <h2>Rol: Technical Lead (Migraciones)</h2>
+        <p>Supervisión de equipos y datos críticos durante saltos versionados o cambios estructurales de motor (SQL
+          Server/MySQL a PostgreSQL).</p>
+      </div>
+
+      <div id="panel-20" class="panel">
+        <h2>Rol: Automatizador Workflow</h2>
+        <p>Sincronización de flujos B2B entre CRMs y APIs corporativas vía Webhooks en herramientas low-code (n8n) para
+          la optimización brutal de tiempos.</p>
+      </div>
+
+      <div id="panel-21" class="panel">
+        <h2>Rol: Solutions Engineer</h2>
+        <p>Traducción de requerimientos de negocios a arquitecturas tecnológicas, validando la viabilidad en pruebas de
+          concepto aceleradas y medibles.</p>
+      </div>
+
+      <div id="panel-22" class="panel">
+        <h2>Servicio: Modernización Extrema PHP</h2>
+        <p>Migrar código procedural PHP 5.x a los estándares ágiles y orientados a la mantenibilidad del actual PHP 8.x.
+        </p>
+      </div>
+
+      <div id="panel-23" class="panel">
+        <h2>Servicio: Auditoría DevOps</h2>
+        <p>Identificación de Quick Wins en CI/CD. Mapeo de rutas para dockerizar operaciones monolíticas estancadas de
+          manera pragmática.</p>
+      </div>
+
+      <div id="panel-24" class="panel">
+        <h2>Estación Final: Recorrido Completo</h2>
+        <p>¡Has llegado al final! Ahora que conoces las 24 piezas de mi espectro profesional, te invito a descargar mi
+          currículum o volver de lleno a la realidad.</p>
+        <div class="links">
+          <a href="../assets/cv-ats.pdf" target="_blank" class="btn-action">Descargar CV ATS</a>
+          <a href="../index.html" class="btn-action ghost">Regresar al Inicio</a>
+        </div>
+      </div>
+
+    </main>
+
+  </div>
+
+  <script type="module" src="./js/main.js"></script>
+</body>
+
+</html>

@@ -111,6 +111,10 @@ Explora las guías detalladas según tu interés:
 
 * [🔰 **Manual para Novatos**](docs/BEGINNER_GUIDE.md): Cómo cambiar tus fotos y textos en 5 minutos.
 
+### 🌐 Entornos Interactivos y Visuales
+
+* [🧊 **Recorrido 3D / Experiencia Inmersiva**](experiencia-3d/docs/README.md): Galería 3D en WebGL integrada al ecosistema como Arquitectura Desvinculada. Se mantiene como prototipo experimental de código y rendimiento de Three.js puro, pero su acceso público desde la Interfaz de Usuario (UI) principal está *desactivado* por filosofía de producto (no restar atención al flujo de lectura ágil exigido por reclutadores TI).
+
 ---
 
 ## 📂 Arquitectura del Proyecto
@@ -146,7 +150,7 @@ automáticos ejecutar flujos completos de actualización con un solo comando.
 |---|---|
 | [`portfolio-full-update`](.agents/skills/portfolio-full-update/SKILL.md) | Extrae PDFs, escanea GitHub/GitLab, actualiza la API JSON, `index.html`, toda la documentación y los archivos SEO |
 
-> **Cómo usarlo**: simplemente di _“actualié mi CV”_, _“aprendí X”_ o _“agregué un nuevo proyecto”_ y el skill se ejecuta automáticamente.
+> **Cómo usarlo**: simplemente di *“actualié mi CV”*, *“aprendí X”* o *“agregué un nuevo proyecto”* y el skill se ejecuta automáticamente.
 
 ---
 
