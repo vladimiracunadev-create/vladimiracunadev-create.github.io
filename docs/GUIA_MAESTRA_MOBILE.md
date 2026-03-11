@@ -89,6 +89,12 @@ Cada vez que realices un cambio en el código web (raíz del proyecto), debes si
 
 > 📖 Para detalles técnicos del flujo directo (parámetros y entorno), consulta la [Guía de Construcción Directa](MOBILE_DIRECT_BUILD.md).
 
+### Cuándo usar cada flujo
+
+- Usa `./scripts/mobile-android-build.ps1` cuando quieras regenerar el APK completo desde Windows.
+- Usa `./scripts/mobile-android.ps1` cuando solo necesites sincronizar la web antes de trabajar en Android Studio.
+- Usa Android Studio manualmente cuando necesites firmar la app, inspeccionar Gradle o generar un `AAB`.
+
 ---
 
 ## 📦 Fase 3: Creación Efectiva de Archivos
@@ -106,6 +112,13 @@ Cada vez que realices un cambio en el código web (raíz del proyecto), debes si
 > `./scripts/mobile-android-build.ps1`
 
 Para producción, usa **Generate Signed Bundle / APK** para crear una versión optimizada y firmada.
+
+### Publicación y distribución
+
+- El flujo directo genera `app-debug.apk`.
+- Ese archivo es adecuado para pruebas y distribución manual.
+- Para compartirlo en GitHub, súbelo como asset de una **Release** y no como archivo versionado del repositorio.
+- Para Google Play, genera un binario firmado desde Android Studio.
 
 ### 🍎 Generación de IPA (iOS)
 

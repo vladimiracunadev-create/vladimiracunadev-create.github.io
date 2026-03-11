@@ -108,6 +108,10 @@ Explora las guías detalladas según tu interés:
 * [📱 **Manual Mobile (Android/iOS)**](docs/GUIA_MAESTRA_MOBILE.md): Configuración profunda de Capacitor.
 * [🩹 **Solución de Problemas iOS**](docs/IOS_TROUBLESHOOTING.md): Guía de supervivencia en Xcode.
 
+Nota mobile:
+el flujo directo genera `app-debug.apk` en `apps/mobile/android/app/build/outputs/apk/debug/`.
+Para compartir ese binario, usa una **GitHub Release**; no lo subas al árbol normal del repositorio.
+
 ### 🎨 Personalización
 
 * [🎨 **Manual para Novatos**](docs/BEGINNER_GUIDE.md): Cómo cambiar tus fotos y textos en 5 minutos.

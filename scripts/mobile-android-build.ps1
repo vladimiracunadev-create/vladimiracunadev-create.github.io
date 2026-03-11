@@ -1,13 +1,59 @@
-param(
+﻿param(
     [switch]$SkipWebSync,
     [switch]$SkipGradle,
     [switch]$ForceNpmInstall,
-    [switch]$OpenAndroidStudio
+    [switch]$OpenAndroidStudio,
+    [switch]$FreshGradleHome
 )
 
 $ErrorActionPreference = 'Stop'
 
 $repoRoot = Resolve-Path (Join-Path $PSScriptRoot '..')
+
+function Get-GradleUserHomePath {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$BasePath,
+        [switch]$Fresh
+    )
+
+    if ($Fresh) {
+        $suffix = Get-Date -Format 'yyyyMMddHHmmss'
+        return Join-Path $BasePath ".gradle-user-home-$suffix"
+    }
+
+    return Join-Path $BasePath '.gradle-user-home'
+}
+
+function Initialize-GradleUserHome {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$Path
+    )
+
+    if (-not (Test-Path $Path)) {
+        New-Item -ItemType Directory -Path $Path -Force | Out-Null
+    }
+
+    $env:GRADLE_USER_HOME = $Path
+    Write-Host "Gradle user home: $env:GRADLE_USER_HOME" -ForegroundColor DarkGray
+}
+
+function Invoke-GradleAssembleDebug {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$AndroidProjectPath
+    )
+
+    Push-Location $AndroidProjectPath
+    try {
+        & .\gradlew.bat assembleDebug
+        if ($LASTEXITCODE -ne 0) { throw 'Gradle assembleDebug failed' }
+    } finally {
+        Pop-Location
+    }
+}
+
 Set-Location $repoRoot
 
 Write-Host '== Android Direct Build ==' -ForegroundColor Cyan
@@ -40,18 +86,25 @@ Write-Host '4/5 Syncing Capacitor Android project...' -ForegroundColor Yellow
 & npx.cmd cap sync android
 if ($LASTEXITCODE -ne 0) { throw 'npx cap sync android failed' }
 
-$gradleUserHome = Join-Path $repoRoot '.gradle-user-home'
-if (-not (Test-Path $gradleUserHome)) {
-    New-Item -ItemType Directory -Path $gradleUserHome -Force | Out-Null
-}
-$env:GRADLE_USER_HOME = $gradleUserHome
-Write-Host "Gradle user home: $env:GRADLE_USER_HOME" -ForegroundColor DarkGray
+$gradleUserHome = Get-GradleUserHomePath -BasePath $repoRoot -Fresh:$FreshGradleHome
+Initialize-GradleUserHome -Path $gradleUserHome
 
 if (-not $SkipGradle) {
     Write-Host '5/5 Building debug APK with Gradle...' -ForegroundColor Yellow
-    Set-Location (Join-Path $repoRoot 'apps\mobile\android')
-    & .\gradlew.bat assembleDebug
-    if ($LASTEXITCODE -ne 0) { throw 'Gradle assembleDebug failed' }
+    $androidProjectPath = Join-Path $repoRoot 'apps\mobile\android'
+
+    try {
+        Invoke-GradleAssembleDebug -AndroidProjectPath $androidProjectPath
+    } catch {
+        if ($FreshGradleHome) {
+            throw
+        }
+
+        Write-Warning 'Gradle build failed with the default cache. Retrying once with a fresh GRADLE_USER_HOME...'
+        $freshGradleUserHome = Get-GradleUserHomePath -BasePath $repoRoot -Fresh
+        Initialize-GradleUserHome -Path $freshGradleUserHome
+        Invoke-GradleAssembleDebug -AndroidProjectPath $androidProjectPath
+    }
 
     $apkPath = Join-Path $repoRoot 'apps\mobile\android\app\build\outputs\apk\debug\app-debug.apk'
     if (-not (Test-Path $apkPath)) {

@@ -56,6 +56,14 @@ La transformación a Android se realiza mediante **Capacitor**, encapsulando el 
 > [!NOTE]
 > **Flujo Validado**: El sistema de construcción directa desde Windows ha sido validado con éxito, generando un APK funcional de ~4.32 MB. Para detalles técnicos de orquestación y parámetros, consulta la [Guía de Construcción Directa](MOBILE_DIRECT_BUILD.md).
 
+### Distribución del binario
+
+- El archivo generado por defecto es `app-debug.apk`.
+- Úsalo para pruebas, validación interna o distribución manual.
+- No lo subas como archivo normal dentro del repositorio.
+- Publícalo como asset en una **GitHub Release**.
+- Si necesitas publicar en tienda, genera una build firmada desde Android Studio.
+
 ### 📉 Optimización de Tamaño (APK)
 
 Es natural que un APK ocupe más que el código HTML puro (típicamente entre 3MB y 8MB) porque incluye el motor de renderizado y el puente de comunicación de Capacitor. Sin embargo, este proyecto está configurado para ser lo más ligero posible:
@@ -162,6 +170,7 @@ Para mantener el repositorio limpio y profesional, sigue estas reglas al subir l
     * Crea un nuevo **Tag** de versión (ej. `v1.2.0`) en GitHub.
     * Crea una nueva **Release** asociada a ese Tag.
     * Carga los binarios (APK, AAB, IPA) como *Assets* de la Release.
+    * Para APK debug, usa la ruta local `apps/mobile/android/app/build/outputs/apk/debug/app-debug.apk`.
 3. **Documentación de Versión**: Describe brevemente los cambios e innovaciones incluidos en cada ejecutable subido.
 
 ---
