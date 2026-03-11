@@ -37,7 +37,7 @@ Nuestra arquitectura se basa en el **Minimalismo Radical (KISS)**. No construimo
 
 | Guía | Propósito | Tecnología |
 | :--- | :--- | :--- |
-| [🚀 **Maestra Mobile**](GUIA_MAESTRA_MOBILE) | Visión general del ecosistema | Capacitor + Hardware |
+| [🚀 **Maestra Mobile**](GUIA_MAESTRA_MOBILE) | Guía técnica y requisitos | Capacitor + Hardware |
 | [🚀 **Construcción Directa**](MOBILE_DIRECT_BUILD) | Generación rápida de APK | Windows + PowerShell |
 | [🛠️ **Construcción**](BUILD_GUIDE) | Guía técnica de compilación | Android SDK / Xcode |
 | [🍏 **Soporte iOS**](IOS_TROUBLESHOOTING) | Resolución de conflictos Apple | provisioning & Signing |
@@ -84,7 +84,7 @@ Nuestra arquitectura se basa en el **Minimalismo Radical (KISS)**. No construimo
 | [`portfolio-release-guard`](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/blob/main/.agents/skills/portfolio-release-guard/SKILL.md) | Validar lint, build e integridad antes de publicar |
 | [`portfolio-doc-sync`](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/blob/main/.agents/skills/portfolio-doc-sync/SKILL.md) | Sincronizar README, docs y wiki despues de cambios tecnicos o narrativos |
 | [`portfolio-seo-llm-maintainer`](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/blob/main/.agents/skills/portfolio-seo-llm-maintainer/SKILL.md) | Mantener `llm.txt`, `robots.txt`, `sitemap.xml` y discoverability actualizados |
-| [`portfolio-mobile-wrapper-check`](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/blob/main/.agents/skills/portfolio-mobile-wrapper-check/SKILL.md) | Verificar alineacion entre nucleo web, PWA y wrappers Android/iOS |
+| [`portfolio-mobile-wrapper-check`](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/blob/main/.agents/skills/portfolio-mobile-wrapper-check/SKILL.md) | Verificar alineación entre núcleo web, PWA y wrappers Android/iOS |
 | [`portfolio-mobile-direct-build`](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/blob/main/.agents/skills/portfolio-mobile-direct-build/SKILL.md) | Transformar web en app Android y generar APK directamente en Windows |
 ---
 

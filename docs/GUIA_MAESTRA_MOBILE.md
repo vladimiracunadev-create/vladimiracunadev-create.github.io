@@ -68,13 +68,25 @@ Cada vez que realices un cambio en el código web (raíz del proyecto), debes si
 
 - **Para Android (en Windows/PowerShell)**:
 
-  ```powershell
-  # Sincronización básica
-  ./scripts/mobile-android.ps1
+  Dispones de tres caminos según tu necesidad:
 
-  # Opcional: Construcción directa de APK (Recomendado)
-  ./scripts/mobile-android-build.ps1
-  ```
+  1. **Sync + Build Directo (Recomendado)**: Sincroniza y genera el APK en un solo paso.
+     ```powershell
+     ./scripts/mobile-android-build.ps1
+     ```
+
+  2. **Solo Sincronización**: Útil si vas a trabajar dentro de Android Studio.
+     ```powershell
+     ./scripts/mobile-android.ps1
+     ```
+
+  3. **Manual**: Sincroniza Capacitor sin tocar el código web.
+     ```powershell
+     cd apps/mobile
+     npx cap sync android
+     ```
+
+> 📖 Para detalles técnicos del flujo directo (parámetros y entorno), consulta la [Guía de Construcción Directa](MOBILE_DIRECT_BUILD.md).
 
 ---
 
@@ -89,12 +101,10 @@ Cada vez que realices un cambio en el código web (raíz del proyecto), debes si
 5. **Resultado**: El archivo se generará en `apps/mobile/android/app/build/outputs/apk/debug/app-debug.apk`.
 
 > [!TIP]
-> **Flujo Directo**: Para automatizar este proceso sin abrir Android Studio, usa:
+> **Build Automatizado**: Puedes realizar todo este proceso (Phase 2 + Phase 3) automáticamente usando el script de orquestación:
 > `./scripts/mobile-android-build.ps1`
->
-> Consulta la [Guía de Construcción Directa](MOBILE_DIRECT_BUILD.md) para más detalles.
->
-> Para producción, usa **Generate Signed Bundle / APK** para crear una versión optimizada y firmada.
+
+Para producción, usa **Generate Signed Bundle / APK** para crear una versión optimizada y firmada.
 
 ### 🍎 Generación de IPA (iOS)
 

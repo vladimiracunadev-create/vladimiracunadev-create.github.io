@@ -1,49 +1,42 @@
-# 🚀 Mobile Direct Build | Flujo Android Studio Directo
+# Mobile Direct Build (Windows + Android Studio)
 
-Este documento detalla el camino de alta eficiencia para transformar el núcleo web del portafolio en una aplicación Android directamente desde Windows, optimizando tiempos de compilación y evitando problemas de permisos comunes.
+Este documento es la guía técnica para transformar el núcleo web del portafolio en una aplicación Android directamente desde Windows.
 
----
+## Propósito del Flujo
 
-## 💎 Propuesta de Valor
+El script `scripts/mobile-android-build.ps1` automatiza la orquestación completa del build móvil:
+1. Sincroniza los activos web en `apps/mobile/www`.
+2. Gestiona dependencias en `apps/mobile` (ejecuta `npm install` si es necesario).
+3. Asegura la existencia de la plataforma Android (`cap add android` si falta).
+4. Sincroniza el bridge de Capacitor.
+5. Ejecuta Gradle para generar el binario final.
 
-A diferencia del flujo estándar que requiere múltiples pasos manuales en el IDE, este sistema automatiza la sincronización y construcción mediante un único orquestador de PowerShell.
-
-- **KISS Compliance**: Sin pasos redundantes.
-- **Sandboxed Build**: Configura `GRADLE_USER_HOME` localmente para evitar conflictos de sistema.
-- **Reproducibilidad Local-First**: Funciona en cualquier entorno Windows con Android Studio.
-
----
-
-## 🛠️ Ejecución del Script
-
-Desde la raíz del repositorio, ejecuta:
+## Script de Orquestación
 
 ```powershell
 ./scripts/mobile-android-build.ps1
 ```
 
-### Parámetros Avanzados
+### Parámetros Disponibles
 
-| Parámetro | Efecto |
+| Parámetro | Descripción |
 | :--- | :--- |
-| `-SkipWebSync` | Omite la sincronización de la carpeta `/www` |
-| `-SkipGradle` | Solo sincroniza Capacitor (abre el proyecto sin build) |
-| `-OpenAndroidStudio` | Inicia el IDE automáticamente tras la sincronización |
-| `-ForceNpmInstall` | Fuerza el refresco de dependencias en `apps/mobile` |
+| `-SkipWebSync` | Omite la copia de archivos de la raíz a `apps/mobile/www`. |
+| `-SkipGradle` | Solo orquestra la sincronización; no genera el APK. |
+| `-ForceNpmInstall` | Fuerza la reinstalación de dependencias en el módulo móvil. |
+| `-OpenAndroidStudio` | Abre el proyecto en Android Studio tras finalizar la sincronización. |
 
----
+## Resultado y Validación
 
-## 📂 Salida del Artefacto (APK)
-
-Tras un proceso exitoso, el APK de depuración se localiza en:
-
+Tras una ejecución exitosa, el APK debug se localiza en:
 `apps/mobile/android/app/build/outputs/apk/debug/app-debug.apk`
 
----
+**Estado de Validación**: Este flujo ha sido verificado con una construcción real (`BUILD SUCCESSFUL`), generando un APK funcional de aproximadamente **4.32 MB**.
 
-## 🤖 Skill de IA Recomendado
+## Configuración y Notas Técnicas
 
-Usa el skill [`portfolio-mobile-direct-build`](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/blob/main/.agents/skills/portfolio-mobile-direct-build/SKILL.md) cuando quieras que un agente orqueste todo este flujo de forma autónoma.
+- **GRADLE_USER_HOME**: El script configura el home de Gradle dentro del repositorio en `.gradle-user-home/` para evitar problemas de permisos.
+- **IA**: Usa el skill `portfolio-mobile-direct-build` para automatizar este flujo.
 
 ---
 

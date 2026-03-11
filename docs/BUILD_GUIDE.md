@@ -54,7 +54,7 @@ La transformación a Android se realiza mediante **Capacitor**, encapsulando el 
 `apps/mobile/android/app/build/outputs/apk/debug/app-debug.apk`
 
 > [!NOTE]
-> Para detalles sobre permisos y configuración de entorno en Windows, consulta la [Guía de Construcción Directa](MOBILE_DIRECT_BUILD.md).
+> **Flujo Validado**: El sistema de construcción directa desde Windows ha sido validado con éxito, generando un APK funcional de ~4.32 MB. Para detalles técnicos de orquestación y parámetros, consulta la [Guía de Construcción Directa](MOBILE_DIRECT_BUILD.md).
 
 ### 📉 Optimización de Tamaño (APK)
 

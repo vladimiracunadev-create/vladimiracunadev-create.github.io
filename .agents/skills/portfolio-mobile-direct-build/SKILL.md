@@ -1,41 +1,44 @@
----
+﻿---
 name: portfolio-mobile-direct-build
 description: >
-  Genera de forma directa la app Android del portafolio desde Windows usando la
-  base Capacitor del repositorio, sincronizando la web, actualizando Android y
-  construyendo `app-debug.apk`. �salo cuando el usuario pida transformar la web
-  en app m�vil, regenerar el APK o validar el wrapper Android con Android Studio.
+  Orquestra la transformación de la web en app Android directamente desde
+  Windows. Gestiona sincronización, dependencias (npm install), plataforma
+  (cap add android), sincronización de Capacitor y build final de APK vía
+  Gradle con GRADLE_USER_HOME local. Úsalo para generar el APK o validar
+  el wrapper Android de forma reproducible.
 ---
 
 # Skill: Portfolio Mobile Direct Build
 
-Usar este skill para convertir la versi�n web actual del portafolio en una app Android reproducible desde este repositorio.
+Este skill automatiza el flujo completo de construcción Android para este portafolio en entornos Windows.
 
-## Flujo recomendado
+## Capacidades del Script
 
-1. Confirmar que el repo tenga `apps/mobile`, `capacitor.config.ts` y plataforma Android.
-2. Ejecutar `./scripts/mobile-android-build.ps1` desde la ra�z.
-3. Si el usuario solo quiere sincronizar sin compilar, usar `-SkipGradle`.
-4. Si el usuario quiere abrir Android Studio despu�s del sync, usar `-OpenAndroidStudio`.
-5. Verificar el artefacto final en `apps/mobile/android/app/build/outputs/apk/debug/app-debug.apk`.
+El script orquestador (`/scripts/mobile-android-build.ps1`) realiza:
+- **Sincronización**: Copia la web raíz a `apps/mobile/www`.
+- **Dependencias**: Ejecuta `npm install` en el módulo móvil si faltan o si se usa `-ForceNpmInstall`.
+- **Plataforma**: Añade automáticamente la carpeta `android` si no existe.
+- **Entorno**: Configura `.gradle-user-home/` localmente para evitar fallos de permisos.
+- **Build**: Genera el APK debug mediante `gradlew.bat assembleDebug`.
 
-## Comandos clave
+## Comandos y Parámetros
 
 ```powershell
+# Ejecución estándar (Sync + Build)
 ./scripts/mobile-android-build.ps1
-./scripts/mobile-android-build.ps1 -SkipGradle
-./scripts/mobile-android-build.ps1 -OpenAndroidStudio
+
+# Variantes
+./scripts/mobile-android-build.ps1 -SkipGradle        # Solo sincronizar
+./scripts/mobile-android-build.ps1 -ForceNpmInstall   # Refrescar dependencias
+./scripts/mobile-android-build.ps1 -OpenAndroidStudio # Abrir IDE tras sync
 ```
 
-## Qu� debe revisar
+## Resultado Esperado
 
-- `scripts/sync-web.ps1`
-- `apps/mobile/capacitor.config.ts`
-- `apps/mobile/android/`
-- `docs/MOBILE_DIRECT_BUILD.md`
+- **Ruta APK**: `apps/mobile/android/app/build/outputs/apk/debug/app-debug.apk`.
+- **Validación**: Flujo verificado con generación real de APK de ~4.32 MB.
 
-## Resultado esperado
+## Documentación de Referencia
 
-- Web sincronizada en `apps/mobile/www`
-- Proyecto Android actualizado v�a Capacitor
-- APK debug generado o ruta exacta del fallo si el entorno Gradle/JDK no est� sano
+- `docs/MOBILE_DIRECT_BUILD.md`: Guía de operación detallada.
+- `docs/GUIA_MAESTRA_MOBILE.md`: Visión general del ecosistema móvil.

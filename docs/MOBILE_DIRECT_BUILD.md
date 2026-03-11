@@ -1,47 +1,40 @@
 # Mobile Direct Build (Windows + Android Studio)
 
-Este flujo permite generar la app Android del portafolio de forma directa desde Windows usando la base Capacitor ya incluida en el repositorio.
+Este documento es la guía operativa principal para transformar el núcleo web del portafolio en una aplicación Android instalable de forma directa desde Windows.
 
-## Qué resuelve
+## Propósito del Flujo
 
-- Sincroniza la web en `apps/mobile/www`
-- Sincroniza Capacitor con Android
-- Ejecuta Gradle para generar `app-debug.apk`
-- Opcionalmente abre Android Studio
+El script `scripts/mobile-android-build.ps1` automatiza la orquestación completa del build móvil:
+1. Sincroniza los activos web en `apps/mobile/www`.
+2. Gestiona dependencias en `apps/mobile` (ejecuta `npm install` si es necesario).
+3. Asegura la existencia de la plataforma Android (`cap add android` si falta).
+4. Sincroniza el bridge de Capacitor.
+5. Ejecuta Gradle para generar el binario final.
 
-## Script directo
+## Script de Orquestación
 
 ```powershell
 ./scripts/mobile-android-build.ps1
 ```
 
-## Variantes útiles
+### Parámetros Disponibles
 
-```powershell
-./scripts/mobile-android-build.ps1 -SkipGradle
-./scripts/mobile-android-build.ps1 -ForceNpmInstall
-./scripts/mobile-android-build.ps1 -OpenAndroidStudio
-```
+| Parámetro | Descripción |
+| :--- | :--- |
+| `-SkipWebSync` | Omite la copia de archivos de la raíz a `apps/mobile/www`. |
+| `-SkipGradle` | Solo orquestra la sincronización; no genera el APK. |
+| `-ForceNpmInstall` | Fuerza la reinstalación de dependencias en el módulo móvil. |
+| `-OpenAndroidStudio` | Abre el proyecto en Android Studio tras finalizar la sincronización. |
 
-## Resultado esperado
+## Resultado y Validación
 
-El APK debug queda en:
+Tras una ejecución exitosa, el APK debug se localiza en:
+`apps/mobile/android/app/build/outputs/apk/debug/app-debug.apk`
 
-```text
-apps/mobile/android/app/build/outputs/apk/debug/app-debug.apk
-```
+**Estado de Validación**: Este flujo ha sido verificado con una construcción real (`BUILD SUCCESSFUL`), generando un APK funcional de aproximadamente **4.32 MB**.
 
-## Skill recomendado
+## Configuración y Notas Técnicas
 
-Usa `portfolio-mobile-direct-build` cuando quieras que un agente transforme y regenere la web como app Android desde este entorno Windows.
-
-## Requisitos
-
-- Node.js disponible en PATH
-- Android Studio instalado
-- JDK/Gradle funcionando para el proyecto Android
-- Dependencias de `apps/mobile` instaladas o instalables
-
-## Nota de entorno
-
-El script configura GRADLE_USER_HOME dentro del repositorio para evitar fallos de permisos en entornos Windows restringidos o sandboxes.
+- **GRADLE_USER_HOME**: Para garantizar la reproducibilidad y evitar problemas de permisos en Windows, el script configura el home de Gradle dentro del repositorio en `.gradle-user-home/`.
+- **Automatización**: Usa el skill `portfolio-mobile-direct-build` para que un asistente de IA ejecute este flujo de forma autónoma.
+- **Requisitos**: Node.js en el PATH y Android Studio instalado.
