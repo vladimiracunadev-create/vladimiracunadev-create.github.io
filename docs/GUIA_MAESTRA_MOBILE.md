@@ -91,9 +91,9 @@ Cada vez que realices un cambio en el código web (raíz del proyecto), debes si
 > [!TIP]
 > **Flujo Directo**: Para automatizar este proceso sin abrir Android Studio, usa:
 > `./scripts/mobile-android-build.ps1`
+>
 > Consulta la [Guía de Construcción Directa](MOBILE_DIRECT_BUILD.md) para más detalles.
-
-> [!TIP]
+>
 > Para producción, usa **Generate Signed Bundle / APK** para crear una versión optimizada y firmada.
 
 ### 🍎 Generación de IPA (iOS)
