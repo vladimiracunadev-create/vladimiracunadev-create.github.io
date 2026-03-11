@@ -45,3 +45,14 @@ Este proyecto usa un flujo estandarizado basado en ramas de caracterÃ­sticas:
 - **Test-Driven Development (opcional pero recomendado)**: Incluye comandos para correr tus pruebas. Si el repositorio tiene Action de GitHub con `mypy` o `bandit`, asegÃºrate de que tus modificaciones pasen localmente (`make test`, `make lint` o scripts disponibles en el ecosistema).
 - **Docker-first**: Cualquier dependencia requerida debe estar documentada y disponible mediante `docker-compose.yml` para levantar la arquitectura en menos de 60 segundos u obviar la fricciÃ³n del setup local.
 - **DocumentaciÃ³n obligatoria**: Si es un cambio mayor, no olvides la documentaciÃ³n en el README y si es aplicable, un diagrama explicativo.
+
+## Skills de IA del Repositorio
+
+Si el cambio afecta varias superficies públicas, usa el skill adecuado antes de abrir el PR:
+
+- `portfolio-consistency-audit`: detectar contradicciones entre sitio, API, docs, wiki y SEO.
+- `portfolio-doc-sync`: alinear README, manuales y wiki con cambios técnicos.
+- `portfolio-seo-llm-maintainer`: actualizar `llm.txt`, `robots.txt`, `sitemap.xml` y metadatos públicos.
+- `portfolio-mobile-wrapper-check`: revisar el wrapper Capacitor cuando cambien PWA, assets o manifest.
+- `portfolio-release-guard`: validar lint, build e integridad antes de push/release.
+- `portfolio-full-update`: usar cuando el cambio sea transversal y afecte CV, JSON API, sitio y documentación completa.

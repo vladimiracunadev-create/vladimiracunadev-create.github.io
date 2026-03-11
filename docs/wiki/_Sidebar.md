@@ -35,6 +35,11 @@ Estándares de Excelencia
 
 ---
 
-### 🤖 Skills System
+### Skills System
 
-- [🔄 **portfolio-full-update**](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/blob/main/.agents/skills/portfolio-full-update/SKILL.md)
+- [portfolio-full-update](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/blob/main/.agents/skills/portfolio-full-update/SKILL.md)
+- [portfolio-consistency-audit](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/blob/main/.agents/skills/portfolio-consistency-audit/SKILL.md)
+- [portfolio-release-guard](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/blob/main/.agents/skills/portfolio-release-guard/SKILL.md)
+- [portfolio-doc-sync](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/blob/main/.agents/skills/portfolio-doc-sync/SKILL.md)
+- [portfolio-seo-llm-maintainer](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/blob/main/.agents/skills/portfolio-seo-llm-maintainer/SKILL.md)
+- [portfolio-mobile-wrapper-check](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/blob/main/.agents/skills/portfolio-mobile-wrapper-check/SKILL.md)

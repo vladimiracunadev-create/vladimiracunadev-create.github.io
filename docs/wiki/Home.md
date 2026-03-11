@@ -72,13 +72,18 @@ Nuestra arquitectura se basa en el **Minimalismo Radical (KISS)**. No construimo
 
 ---
 
-### ðŸ¤– Skills System
+### Skills System
 
-*Skills de IA que automatizan el ciclo completo de actualizaciÃ³n del portafolio.*
+*Skills de IA para operar el portafolio por capas y no solo con actualizaciones integrales.*
 
-| Skill | CuÃ¡ndo usar |
+| Skill | Cuándo usar |
 | :--- | :--- |
-| [`portfolio-full-update`](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/blob/main/.agents/skills/portfolio-full-update/SKILL.md) | Al aprender algo nuevo, cambiar de trabajo, actualizar el CV o querer refrescar el portafolio completo |
+| [`portfolio-full-update`](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/blob/main/.agents/skills/portfolio-full-update/SKILL.md) | Refrescar CV, proyectos, PDFs, JSON API, sitio y documentación completa |
+| [`portfolio-consistency-audit`](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/blob/main/.agents/skills/portfolio-consistency-audit/SKILL.md) | Detectar contradicciones entre sitio, API, docs, wiki y SEO |
+| [`portfolio-release-guard`](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/blob/main/.agents/skills/portfolio-release-guard/SKILL.md) | Validar lint, build e integridad de release antes de publicar |
+| [`portfolio-doc-sync`](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/blob/main/.agents/skills/portfolio-doc-sync/SKILL.md) | Sincronizar README, docs y wiki después de cambios técnicos o narrativos |
+| [`portfolio-seo-llm-maintainer`](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/blob/main/.agents/skills/portfolio-seo-llm-maintainer/SKILL.md) | Mantener `llm.txt`, `robots.txt`, `sitemap.xml` y discoverability actualizados |
+| [`portfolio-mobile-wrapper-check`](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/blob/main/.agents/skills/portfolio-mobile-wrapper-check/SKILL.md) | Verificar alineación entre núcleo web, PWA y wrappers Android/iOS |
 
 ---
 
