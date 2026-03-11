@@ -3,3 +3,5 @@ dist/
 site/
 .cache
 .lhci/
+
+.gradle-user-home/
