@@ -44,7 +44,8 @@ npm install
 1. **Sync Core**: Prepara los assets web.
 
     ```bash
-    ./scripts/mobile-android.ps1  # (Windows PowerShell)
+    ./scripts/mobile-android.ps1        # (Sincronización)
+    ./scripts/mobile-android-build.ps1  # (Construcción Directa 🚀)
     ```
 
 2. **Studio Integration**: Abre `apps/mobile/android` en **Android Studio**.

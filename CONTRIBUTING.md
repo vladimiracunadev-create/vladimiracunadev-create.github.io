@@ -54,5 +54,6 @@ Si el cambio afecta varias superficies publicas, usa el skill adecuado antes de 
 - `portfolio-doc-sync`: alinear README, manuales y wiki con cambios tecnicos.
 - `portfolio-seo-llm-maintainer`: actualizar `llm.txt`, `robots.txt`, `sitemap.xml` y metadatos publicos.
 - `portfolio-mobile-wrapper-check`: revisar el wrapper Capacitor cuando cambien PWA, assets o manifest.
+- `portfolio-mobile-direct-build`: transformar la web en app Android y generar APK directamente en Windows.
 - `portfolio-release-guard`: validar lint, build e integridad antes de push o release.
 - `portfolio-full-update`: usar cuando el cambio sea transversal y afecte CV, JSON API, sitio y documentacion completa.

@@ -38,17 +38,23 @@ La transformación a Android se realiza mediante **Capacitor**, encapsulando el 
 
 ### Proceso de Construcción (Android)
 
-1. **Sincronización**: Ejecuta el script de preparación desde la raíz del proyecto:
+1. **Sincronización y Build**: Ejecuta el script de construcción directa desde la raíz:
 
     ```powershell
-    ./scripts/mobile-android.ps1
+    # Flujo recomendado: Sincroniza y genera APK automáticamente
+    ./scripts/mobile-android-build.ps1
     ```
 
-2. **Apertura de Proyecto**:
+2. **Apertura de Proyecto (Opcional)**:
+    * Si prefieres usar el entorno visual:
     * Abre **Android Studio**.
     * Selecciona *Open* y navega hasta la carpeta `apps/mobile/android`.
 
-3. **Localización**: El archivo `.apk` o `.aab` generado se encontrará en `apps/mobile/android/app/release/`.
+3. **Localización**: El APK generado se encontrará en:
+`apps/mobile/android/app/build/outputs/apk/debug/app-debug.apk`
+
+> [!NOTE]
+> Para detalles sobre permisos y configuración de entorno en Windows, consulta la [Guía de Construcción Directa](MOBILE_DIRECT_BUILD.md).
 
 ### 📉 Optimización de Tamaño (APK)
 

@@ -104,6 +104,7 @@ Explora las guías detalladas según tu interés:
 ### 🛠️ Perfiles Técnicos & DevOps
 
 * [🛠️ **Guía de Construcción**](docs/BUILD_GUIDE.md): Pasos para generar APK, IPA y PWA Desktop.
+* [🚀 **Construcción Directa (Android)**](docs/MOBILE_DIRECT_BUILD.md): Flujo rápido para generar APK desde Windows.
 * [📱 **Manual Mobile (Android/iOS)**](docs/GUIA_MAESTRA_MOBILE.md): Configuración profunda de Capacitor.
 * [🩹 **Solución de Problemas iOS**](docs/IOS_TROUBLESHOOTING.md): Guía de supervivencia en Xcode.
 
@@ -153,6 +154,7 @@ El repositorio incluye un sistema de **Skills de IA** para mantenimiento por cap
 | [`portfolio-doc-sync`](.agents/skills/portfolio-doc-sync/SKILL.md) | Cuando cambio codigo, build, API o arquitectura y hace falta alinear README, docs y wiki |
 | [`portfolio-seo-llm-maintainer`](.agents/skills/portfolio-seo-llm-maintainer/SKILL.md) | Cuando cambian rutas, metadatos, `llm.txt`, `robots.txt`, `sitemap.xml` o discoverability |
 | [`portfolio-mobile-wrapper-check`](.agents/skills/portfolio-mobile-wrapper-check/SKILL.md) | Cuando cambian web, PWA o assets y quieres confirmar alineacion con Android/iOS |
+| [`portfolio-mobile-direct-build`](.agents/skills/portfolio-mobile-direct-build/SKILL.md) | Para transformar la web en app Android y generar el APK directamente en Windows |
 
 **Uso recomendado:**
 

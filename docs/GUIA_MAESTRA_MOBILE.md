@@ -69,7 +69,11 @@ Cada vez que realices un cambio en el código web (raíz del proyecto), debes si
 - **Para Android (en Windows/PowerShell)**:
 
   ```powershell
+  # Sincronización básica
   ./scripts/mobile-android.ps1
+
+  # Opcional: Construcción directa de APK (Recomendado)
+  ./scripts/mobile-android-build.ps1
   ```
 
 ---
@@ -83,6 +87,11 @@ Cada vez que realices un cambio en el código web (raíz del proyecto), debes si
 3. Espera a que Gradle termine la sincronización (barra de progreso abajo a la derecha).
 4. Ve al menú **Build > Build Bundle(s) / APK(s) > Build APK(s)**.
 5. **Resultado**: El archivo se generará en `apps/mobile/android/app/build/outputs/apk/debug/app-debug.apk`.
+
+> [!TIP]
+> **Flujo Directo**: Para automatizar este proceso sin abrir Android Studio, usa:
+> `./scripts/mobile-android-build.ps1`
+> Consulta la [Guía de Construcción Directa](MOBILE_DIRECT_BUILD.md) para más detalles.
 
 > [!TIP]
 > Para producción, usa **Generate Signed Bundle / APK** para crear una versión optimizada y firmada.

@@ -22,8 +22,14 @@ Profundización técnica en los procesos de compilación, firma y resolución de
 En caso de `PSSecurityException`:
 
 ```powershell
-powershell.exe -ExecutionPolicy Bypass -File ./scripts/mobile-android.ps1
+# Sincronización básica
+./scripts/mobile-android.ps1
+
+# Flujo Directo de Construcción (Recomendado)
+./scripts/mobile-android-build.ps1
 ```
+
+> 📖 Consulta la [Guía de Construcción Directa](MOBILE_DIRECT_BUILD) para detalles de configuración.
 
 #### 2. Sincronización de Gradle
 

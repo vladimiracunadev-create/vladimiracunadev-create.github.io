@@ -12,6 +12,7 @@
 Transformación del Portafolio
 
 - [🚀 **Guía Maestra Mobile**](GUIA_MAESTRA_MOBILE)
+- [🚀 **Construcción Directa**](MOBILE_DIRECT_BUILD)
 - [🛠️ **Guía de Construcción**](BUILD_GUIDE)
 - [🍎 **Soporte iOS**](IOS_TROUBLESHOOTING)
 
@@ -43,3 +44,4 @@ Estándares de Excelencia
 - [portfolio-doc-sync](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/blob/main/.agents/skills/portfolio-doc-sync/SKILL.md)
 - [portfolio-seo-llm-maintainer](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/blob/main/.agents/skills/portfolio-seo-llm-maintainer/SKILL.md)
 - [portfolio-mobile-wrapper-check](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/blob/main/.agents/skills/portfolio-mobile-wrapper-check/SKILL.md)
+- [portfolio-mobile-direct-build](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/blob/main/.agents/skills/portfolio-mobile-direct-build/SKILL.md)
