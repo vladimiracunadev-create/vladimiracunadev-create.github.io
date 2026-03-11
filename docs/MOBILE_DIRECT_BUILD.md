@@ -5,6 +5,7 @@ Este documento es la guía operativa principal para transformar el núcleo web d
 ## Propósito del Flujo
 
 El script `scripts/mobile-android-build.ps1` automatiza la orquestación completa del build móvil:
+
 1. Sincroniza los activos web en `apps/mobile/www`.
 2. Gestiona dependencias en `apps/mobile` (ejecuta `npm install` si es necesario).
 3. Asegura la existencia de la plataforma Android (`cap add android` si falta).

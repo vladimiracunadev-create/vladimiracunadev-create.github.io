@@ -22,6 +22,7 @@ Profundización técnica en los procesos de compilación, firma y resolución de
 #### 2. Sincronización de Gradle
 
 Si el menú de construcción está inactivo:
+
 - **Sync**: `File` > `Sync Project with Gradle Files` en Android Studio.
 - **Target**: Asegura abrir el directorio `/android` y no la raíz.
 

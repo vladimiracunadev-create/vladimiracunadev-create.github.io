@@ -15,6 +15,7 @@ Este skill automatiza el flujo completo de construcción Android para este porta
 ## Capacidades del Script
 
 El script orquestador (`/scripts/mobile-android-build.ps1`) realiza:
+
 - **Sincronización**: Copia la web raíz a `apps/mobile/www`.
 - **Dependencias**: Ejecuta `npm install` en el módulo móvil si faltan o si se usa `-ForceNpmInstall`.
 - **Plataforma**: Añade automáticamente la carpeta `android` si no existe.

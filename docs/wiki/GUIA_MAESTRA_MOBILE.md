@@ -9,16 +9,19 @@ Esta guía proporciona la visión estratégica y los requisitos técnicos para o
 Dispones de tres caminos según tu necesidad:
 
 1. **Sync + Build Directo (Recomendado)**: Sincroniza y genera el APK en un solo paso.
+
    ```powershell
    ./scripts/mobile-android-build.ps1
    ```
 
 2. **Solo Sincronización**: Útil si vas a trabajar dentro de Android Studio.
+
    ```powershell
    ./scripts/mobile-android.ps1
    ```
 
 3. **Manual**: Sincroniza Capacitor sin tocar el código web.
+
    ```powershell
    cd apps/mobile
    npx cap sync android
