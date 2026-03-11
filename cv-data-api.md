@@ -1,14 +1,14 @@
-# ğŸ“¡ CV Data API â€” Manual
+# ?? CV Data API — Manual
 
-**Vladimir AcuÃ±a** Â· Arquitecto de Software & Full-Stack Senior
+**Vladimir Acuña** · Arquitecto de Software & Full-Stack Senior
 
-> CurrÃ­culum publicado como API JSON estÃ¡tica + PDFs descargables, servido desde **GitHub Pages** sin servidor ni autenticaciÃ³n.
+> Currículum publicado como API JSON estática + PDFs descargables, servido desde **GitHub Pages** sin servidor ni autenticación.
 
 ---
 
-## Â¿QuÃ© es?
+## ¿Qué es?
 
-Un conjunto de endpoints JSON de solo lectura que reflejan la informaciÃ³n profesional de este portafolio, extraÃ­da desde los PDFs del repositorio. Ideal para integraciones, bots, herramientas de RRHH o cualquier sistema que necesite consumir datos estructurados de un CV.
+Un conjunto de endpoints JSON de solo lectura que reflejan la información profesional de este portafolio, extraída desde los PDFs del repositorio. Ideal para integraciones, bots, herramientas de RRHH o cualquier sistema que necesite consumir datos estructurados de un CV.
 
 ---
 
@@ -22,13 +22,13 @@ https://vladimiracunadev-create.github.io
 
 ## Endpoints v1
 
-| Endpoint | DescripciÃ³n |
+| Endpoint | Descripción |
 |---|---|
-| [`/api/v1/meta.json`](https://vladimiracunadev-create.github.io/api/v1/meta.json) | Metadatos de la API, versiÃ³n, endpoints |
-| [`/api/v1/profile.json`](https://vladimiracunadev-create.github.io/api/v1/profile.json) | Perfil pÃºblico (nombre, tÃ­tulo, redes) |
+| [`/api/v1/meta.json`](https://vladimiracunadev-create.github.io/api/v1/meta.json) | Metadatos de la API, versión, endpoints |
+| [`/api/v1/profile.json`](https://vladimiracunadev-create.github.io/api/v1/profile.json) | Perfil público (nombre, título, redes) |
 | [`/api/v1/experience.json`](https://vladimiracunadev-create.github.io/api/v1/experience.json) | Experiencia laboral |
 | [`/api/v1/projects.json`](https://vladimiracunadev-create.github.io/api/v1/projects.json) | Proyectos destacados |
-| [`/api/v1/skills.json`](https://vladimiracunadev-create.github.io/api/v1/skills.json) | Skills, educaciÃ³n, idiomas |
+| [`/api/v1/skills.json`](https://vladimiracunadev-create.github.io/api/v1/skills.json) | Skills, educación, idiomas |
 | [`/api/v1/artifacts.json`](https://vladimiracunadev-create.github.io/api/v1/artifacts.json) | Inventario de PDFs con URLs directas |
 
 ---
@@ -70,37 +70,39 @@ console.log(artifacts.artifacts.map(a => a.url));
 | CV ATS | [`/assets/cv-ats.pdf`](https://vladimiracunadev-create.github.io/assets/cv-ats.pdf) |
 | CV Reclutador | [`/assets/cv-reclutador.pdf`](https://vladimiracunadev-create.github.io/assets/cv-reclutador.pdf) |
 | Portafolio | [`/assets/portafolio.pdf`](https://vladimiracunadev-create.github.io/assets/portafolio.pdf) |
-| Carta de RecomendaciÃ³n | [`/assets/carta-recomendacion_sin_firma.pdf`](https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma.pdf) |
+| Carta de Recomendación | [`/assets/carta-recomendacion_sin_firma.pdf`](https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma.pdf) |
 
 ---
 
-## CÃ³mo actualizar
+## Cómo actualizar
 
 1. Editar/reemplazar los PDFs en `assets/` o los JSON en `api/v1/`.
 2. `git add -A && git commit -m "update: ..." && git push origin main`
-3. GitHub Pages publica automÃ¡ticamente en ~1 minuto.
+3. GitHub Pages publica automáticamente en ~1 minuto.
 
-Para regenerar los JSON desde los PDFs: ejecutar `python scripts/generate-seo.js` (o el script de extracciÃ³n si se agrega).
+Para regenerar `robots.txt` y `sitemap.xml`: ejecutar `node scripts/generate-seo.js`.
+
+La API JSON actual se mantiene como artefacto estático versionado en `api/v1/`. Si luego se agrega un extractor dedicado desde PDFs, conviene documentarlo aquí por separado.
 
 ---
 
 ## Versionado
 
-- **v1** es estable. No cambiarÃ¡ su contrato.
-- Si se requiere cambio de estructura, se crearÃ¡ `/api/v2/` manteniendo v1 activo.
+- **v1** es estable. No cambiará su contrato.
+- Si se requiere cambio de estructura, se creará `/api/v2/` manteniendo v1 activo.
 
 ---
 
 ## Privacidad
 
-- TelÃ©fono y email **no** estÃ¡n expuestos en los endpoints pÃºblicos.
-- PDFs en `assets/no_aplica/` y `assets/por_solicitud/` **no** estÃ¡n listados en la API.
+- Teléfono y email **no** están expuestos en los endpoints públicos.
+- PDFs en `assets/no_aplica/` y `assets/por_solicitud/` **no** están listados en la API.
 
 ---
 
-## Links rÃ¡pidos
+## Links rápidos
 
-- ğŸ  [Portafolio](https://vladimiracunadev-create.github.io/)
-- ğŸ“„ [CV ATS (PDF)](https://vladimiracunadev-create.github.io/assets/cv-ats.pdf)
-- ğŸ“¦ [artifacts.json](https://vladimiracunadev-create.github.io/api/v1/artifacts.json)
-- ğŸ¤– [llm.txt](https://vladimiracunadev-create.github.io/llm.txt)
+- ?? [Portafolio](https://vladimiracunadev-create.github.io/)
+- ?? [CV ATS (PDF)](https://vladimiracunadev-create.github.io/assets/cv-ats.pdf)
+- ?? [artifacts.json](https://vladimiracunadev-create.github.io/api/v1/artifacts.json)
+- ?? [llm.txt](https://vladimiracunadev-create.github.io/llm.txt)
