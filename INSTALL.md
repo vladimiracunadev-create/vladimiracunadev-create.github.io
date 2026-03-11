@@ -1,4 +1,4 @@
-﻿# Guia de Instalacion y Despliegue
+# Guia de Instalacion y Despliegue
 
 Este proyecto puede ejecutarse como sitio estatico, PWA y contenedor movil via Capacitor.
 

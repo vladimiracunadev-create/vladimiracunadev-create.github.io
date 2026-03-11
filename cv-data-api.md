@@ -1,14 +1,14 @@
-﻿# CV Data API Manual
+# CV Data API Manual
 
 **Vladimir Acuna** | Arquitecto de Software y Full-Stack Senior
 
-> Curriculum publicado como API JSON estatica + PDFs descargables, servido desde **GitHub Pages** sin servidor ni autenticacion.
+> Curriculum publicado como API JSON estatica y PDFs descargables, servido desde **GitHub Pages** sin servidor ni autenticacion.
 
 ---
 
 ## Que es
 
-Un conjunto de endpoints JSON de solo lectura que reflejan la informacion profesional de este portafolio, extraida desde los PDFs del repositorio. Ideal para integraciones, bots, herramientas de RRHH o cualquier sistema que necesite consumir datos estructurados de un CV.
+Un conjunto de endpoints JSON de solo lectura que reflejan la informacion profesional del portafolio. Sirve para integraciones, bots, herramientas de RRHH o cualquier sistema que necesite consumir datos estructurados del CV.
 
 ---
 
@@ -24,12 +24,12 @@ https://vladimiracunadev-create.github.io
 
 | Endpoint | Descripcion |
 |---|---|
-| [`/api/v1/meta.json`](https://vladimiracunadev-create.github.io/api/v1/meta.json) | Metadatos de la API, version, endpoints |
-| [`/api/v1/profile.json`](https://vladimiracunadev-create.github.io/api/v1/profile.json) | Perfil publico (nombre, titulo, redes) |
+| [`/api/v1/meta.json`](https://vladimiracunadev-create.github.io/api/v1/meta.json) | Metadatos de la API, version y endpoints |
+| [`/api/v1/profile.json`](https://vladimiracunadev-create.github.io/api/v1/profile.json) | Perfil publico |
 | [`/api/v1/experience.json`](https://vladimiracunadev-create.github.io/api/v1/experience.json) | Experiencia laboral |
 | [`/api/v1/projects.json`](https://vladimiracunadev-create.github.io/api/v1/projects.json) | Proyectos destacados |
-| [`/api/v1/skills.json`](https://vladimiracunadev-create.github.io/api/v1/skills.json) | Skills, educacion, idiomas |
-| [`/api/v1/artifacts.json`](https://vladimiracunadev-create.github.io/api/v1/artifacts.json) | Inventario de PDFs con URLs directas |
+| [`/api/v1/skills.json`](https://vladimiracunadev-create.github.io/api/v1/skills.json) | Skills, educacion e idiomas |
+| [`/api/v1/artifacts.json`](https://vladimiracunadev-create.github.io/api/v1/artifacts.json) | Inventario de PDFs publicos |
 
 ---
 
@@ -43,13 +43,13 @@ curl https://vladimiracunadev-create.github.io/api/v1/artifacts.json
 curl https://vladimiracunadev-create.github.io/api/v1/skills.json
 ```
 
-### JavaScript (fetch)
+### JavaScript
 
 ```js
 const BASE = "https://vladimiracunadev-create.github.io";
 const profile = await fetch(`${BASE}/api/v1/profile.json`).then(r => r.json());
 const artifacts = await fetch(`${BASE}/api/v1/artifacts.json`).then(r => r.json());
-console.log(artifacts.artifacts.map(a => a.url));
+console.log(profile, artifacts);
 ```
 
 ---
@@ -68,26 +68,17 @@ console.log(artifacts.artifacts.map(a => a.url));
 ## Como actualizar
 
 1. Editar o reemplazar los PDFs en `assets/` o los JSON en `api/v1/`.
-2. `git add -A && git commit -m "update: ..." && git push origin main`
+2. Ejecutar `git add -A && git commit -m "update: ..." && git push origin main`.
 3. GitHub Pages publica automaticamente en alrededor de 1 minuto.
 
-Para regenerar `robots.txt` y `sitemap.xml`: ejecutar `node scripts/generate-seo.js`.
-
-La API JSON actual se mantiene como artefacto estatico versionado en `api/v1/`. Si luego se agrega un extractor dedicado desde PDFs, conviene documentarlo aqui por separado.
-
----
-
-## Versionado
-
-- **v1** es estable. No cambiara su contrato.
-- Si se requiere cambio de estructura, se creara `/api/v2/` manteniendo v1 activo.
+Para regenerar `robots.txt` y `sitemap.xml`, ejecutar `node scripts/generate-seo.js`.
 
 ---
 
 ## Privacidad
 
-- Telefono y email **no** estan expuestos en los endpoints publicos.
-- PDFs en `assets/no_aplica/` y `assets/por_solicitud/` **no** estan listados en la API.
+- Telefono y email no se exponen en los endpoints publicos.
+- Los PDFs en `assets/no_aplica/` y `assets/por_solicitud/` no se listan en la API.
 
 ---
 

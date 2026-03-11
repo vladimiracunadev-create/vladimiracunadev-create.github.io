@@ -1,98 +1,102 @@
-# 📗 Wiki del Proyecto | Centro de Conocimiento
+# Ã°Å¸â€œâ€” Wiki del Proyecto | Centro de Conocimiento
 
 [![CI Pipeline](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/actions/workflows/ci.yml/badge.svg)](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/actions/workflows/ci.yml)
 [![Wiki Sync](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/actions/workflows/wiki-sync.yml/badge.svg)](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/actions/workflows/wiki-sync.yml)
 [![Performance](https://img.shields.io/badge/Lighthouse-100%2F100-success.svg)](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io)
 [![Stack](https://img.shields.io/badge/Stack-Vanilla%20JS%20%2B%20Capacitor-blue.svg)](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io)
 
-Bienvenido al HUB de documentación técnica y estratégica. Este espacio está diseñado para proporcionar una visión de 360° sobre la arquitectura, el despliegue y la filosofía de ingeniería detrás de este portafolio de alto rendimiento.
+Bienvenido al HUB de documentaciÃƒÂ³n tÃƒÂ©cnica y estratÃƒÂ©gica. Este espacio estÃƒÂ¡ diseÃƒÂ±ado para proporcionar una visiÃƒÂ³n de 360Ã‚Â° sobre la arquitectura, el despliegue y la filosofÃƒÂ­a de ingenierÃƒÂ­a detrÃƒÂ¡s de este portafolio de alto rendimiento.
 
 ---
 
-## 💎 Filosofía de Ingeniería
+## Ã°Å¸â€™Å½ FilosofÃƒÂ­a de IngenierÃƒÂ­a
 
-Nuestra arquitectura se basa en el **Minimalismo Radical (KISS)**. No construimos con frameworks pesados porque priorizamos el control total del DOM, la velocidad de carga instantánea y la longevidad del código.
+Nuestra arquitectura se basa en el **Minimalismo Radical (KISS)**. No construimos con frameworks pesados porque priorizamos el control total del DOM, la velocidad de carga instantÃƒÂ¡nea y la longevidad del cÃƒÂ³digo.
 
-> 💡 **Productización**: Lo que comenzó como un sitio estático puro, hoy es un ecosistema multiplataforma (Web, PWA, Android e iOS) utilizando un único núcleo de código.
+> Ã°Å¸â€™Â¡ **ProductizaciÃƒÂ³n**: Lo que comenzÃƒÂ³ como un sitio estÃƒÂ¡tico puro, hoy es un ecosistema multiplataforma (Web, PWA, Android e iOS) utilizando un ÃƒÂºnico nÃƒÂºcleo de cÃƒÂ³digo.
 
 ---
 
-## 🗺️ Mapa de Navegación
+## Ã°Å¸â€”ÂºÃ¯Â¸Â Mapa de NavegaciÃƒÂ³n
 
-### 💼 Perfiles Ejecutivos y Reclutamiento
+### Ã°Å¸â€™Â¼ Perfiles Ejecutivos y Reclutamiento
 
-*Documentación enfocada en la propuesta de valor y racional técnico.*
+*DocumentaciÃƒÂ³n enfocada en la propuesta de valor y racional tÃƒÂ©cnico.*
 
-| Guía | Propósito | Valor Clave |
+| GuÃƒÂ­a | PropÃƒÂ³sito | Valor Clave |
 | :--- | :--- | :--- |
-| [🎯 **Reclutadores**](RECRUITER) | Tour guiado por el sistema | Visión de negocio y métricas |
-| [🧠 **Racional Técnico**](TECHNICAL_RATIONAL) | Justificación de arquitectura | Por qué Vanilla JS > Frameworks |
-| [🏠 **Propósito**](Home) | Visión general | Alineación de objetivos |
+| [Ã°Å¸Å½Â¯ **Reclutadores**](RECRUITER) | Tour guiado por el sistema | VisiÃƒÂ³n de negocio y mÃƒÂ©tricas |
+| [Ã°Å¸Â§Â  **Racional TÃƒÂ©cnico**](TECHNICAL_RATIONAL) | JustificaciÃƒÂ³n de arquitectura | Por quÃƒÂ© Vanilla JS > Frameworks |
+| [Ã°Å¸ÂÂ  **PropÃƒÂ³sito**](Home) | VisiÃƒÂ³n general | AlineaciÃƒÂ³n de objetivos |
 
 ---
 
-### 📱 Ecosistema Mobile & PWA
+### Ã°Å¸â€œÂ± Ecosistema Mobile & PWA
 
-*Deep-dives sobre la transformación del core web en aplicaciones nativas.*
+*Deep-dives sobre la transformaciÃƒÂ³n del core web en aplicaciones nativas.*
 
-| Guía | Propósito | Tecnología |
+| GuÃƒÂ­a | PropÃƒÂ³sito | TecnologÃƒÂ­a |
 | :--- | :--- | :--- |
-| [🚀 **Maestra Mobile**](GUIA_MAESTRA_MOBILE) | Visión general del ecosistema | Capacitor + Hardware |
-| [🛠️ **Construcción**](BUILD_GUIDE) | Guía técnica de compilación | Android SDK / Xcode |
-| [🍎 **Soporte iOS**](IOS_TROUBLESHOOTING) | Resolución de conflictos Apple | provisioning & Signing |
+| [Ã°Å¸Å¡â‚¬ **Maestra Mobile**](GUIA_MAESTRA_MOBILE) | VisiÃƒÂ³n general del ecosistema | Capacitor + Hardware |
+| [Ã°Å¸â€ºÂ Ã¯Â¸Â **ConstrucciÃƒÂ³n**](BUILD_GUIDE) | GuÃƒÂ­a tÃƒÂ©cnica de compilaciÃƒÂ³n | Android SDK / Xcode |
+| [Ã°Å¸ÂÅ½ **Soporte iOS**](IOS_TROUBLESHOOTING) | ResoluciÃƒÂ³n de conflictos Apple | provisioning & Signing |
 
 ---
 
-### 🛡️ Calidad, Seguridad y Performance
+### Ã°Å¸â€ºÂ¡Ã¯Â¸Â Calidad, Seguridad y Performance
 
-*Estándares aplicados para garantizar un producto de nivel industrial.*
+*EstÃƒÂ¡ndares aplicados para garantizar un producto de nivel industrial.*
 
-| Guía | Propósito | Impacto |
+| GuÃƒÂ­a | PropÃƒÂ³sito | Impacto |
 | :--- | :--- | :--- |
-| [🔒 **Seguridad y Cache**](SECURITY_HEADERS) | Protección y velocidad | CSP A+ & Cache Inmutable |
-| [📊 **Validación Local**](VALIDATION) | Control de calidad integral | Lighthouse CI |
-| [📂 **Arquitectura Asíncrona**](ASINCRONO) | Lógica de validación avanzada | Promesas y flujos de datos |
+| [Ã°Å¸â€â€™ **Seguridad y Cache**](SECURITY_HEADERS) | ProtecciÃƒÂ³n y velocidad | CSP A+ & Cache Inmutable |
+| [Ã°Å¸â€œÅ  **ValidaciÃƒÂ³n Local**](VALIDATION) | Control de calidad integral | Lighthouse CI |
+| [Ã°Å¸â€œâ€š **Arquitectura AsÃƒÂ­ncrona**](ASINCRONO) | LÃƒÂ³gica de validaciÃƒÂ³n avanzada | Promesas y flujos de datos |
 
 ---
 
-### 📡 CV Data API
+### Ã°Å¸â€œÂ¡ CV Data API
 
-*Currículum publicado como API JSON estática, extraído desde PDFs del repo.*
+*CurrÃƒÂ­culum publicado como API JSON estÃƒÂ¡tica, extraÃƒÂ­do desde PDFs del repo.*
 
-| Endpoint | Descripción |
+| Endpoint | DescripciÃƒÂ³n |
 | :--- | :--- |
-| [`/api/v1/profile.json`](https://vladimiracunadev-create.github.io/api/v1/profile.json) | Perfil público |
+| [`/api/v1/profile.json`](https://vladimiracunadev-create.github.io/api/v1/profile.json) | Perfil pÃƒÂºblico |
 | [`/api/v1/experience.json`](https://vladimiracunadev-create.github.io/api/v1/experience.json) | Experiencia |
 | [`/api/v1/projects.json`](https://vladimiracunadev-create.github.io/api/v1/projects.json) | Proyectos |
-| [`/api/v1/skills.json`](https://vladimiracunadev-create.github.io/api/v1/skills.json) | Skills / Educación |
+| [`/api/v1/skills.json`](https://vladimiracunadev-create.github.io/api/v1/skills.json) | Skills / EducaciÃƒÂ³n |
 | [`/api/v1/artifacts.json`](https://vladimiracunadev-create.github.io/api/v1/artifacts.json) | PDFs con URLs directas |
 | [`/api/v1/meta.json`](https://vladimiracunadev-create.github.io/api/v1/meta.json) | Metadatos de la API |
 
-> 📖 Manual completo → [`cv-data-api.md`](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/blob/main/cv-data-api.md)
+> Ã°Å¸â€œâ€“ Manual completo Ã¢â€ â€™ [`cv-data-api.md`](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/blob/main/cv-data-api.md)
 
 ---
 
-### 🤖 Skills System
+### Skills System
 
-*Skills de IA que automatizan el ciclo completo de actualización del portafolio.*
+*Skills de IA para mantenimiento por capas del portafolio.*
 
-| Skill | Cuándo usar |
+| Skill | Cuando usar |
 | :--- | :--- |
-| [`portfolio-full-update`](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/blob/main/.agents/skills/portfolio-full-update/SKILL.md) | Al aprender algo nuevo, cambiar de trabajo, actualizar el CV o querer refrescar el portafolio completo |
-
+| [`portfolio-full-update`](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/blob/main/.agents/skills/portfolio-full-update/SKILL.md) | Refrescar CV, proyectos, PDFs, JSON API, sitio y documentacion completa |
+| [`portfolio-consistency-audit`](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/blob/main/.agents/skills/portfolio-consistency-audit/SKILL.md) | Detectar contradicciones entre sitio, API, docs, wiki y SEO |
+| [`portfolio-release-guard`](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/blob/main/.agents/skills/portfolio-release-guard/SKILL.md) | Validar lint, build e integridad antes de publicar |
+| [`portfolio-doc-sync`](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/blob/main/.agents/skills/portfolio-doc-sync/SKILL.md) | Sincronizar README, docs y wiki despues de cambios tecnicos o narrativos |
+| [`portfolio-seo-llm-maintainer`](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/blob/main/.agents/skills/portfolio-seo-llm-maintainer/SKILL.md) | Mantener `llm.txt`, `robots.txt`, `sitemap.xml` y discoverability actualizados |
+| [`portfolio-mobile-wrapper-check`](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/blob/main/.agents/skills/portfolio-mobile-wrapper-check/SKILL.md) | Verificar alineacion entre nucleo web, PWA y wrappers Android/iOS |
 ---
 
-## 📈 Benchmarks de Calidad (Lighthouse)
+## Ã°Å¸â€œË† Benchmarks de Calidad (Lighthouse)
 
-Mantenemos un estándar innegociable de excelencia técnica en cada despliegue:
+Mantenemos un estÃƒÂ¡ndar innegociable de excelencia tÃƒÂ©cnica en cada despliegue:
 
-| Categoría | Puntaje | Métrica Clave |
+| CategorÃƒÂ­a | Puntaje | MÃƒÂ©trica Clave |
 | :--- | :--- | :--- |
 | **Performance** | ![100](https://img.shields.io/badge/100-success?style=flat-square) | LCP < 800ms |
 | **Accesibilidad** | ![100](https://img.shields.io/badge/100-success?style=flat-square) | WCAG 2.1 |
 | **Best Practices** | ![100](https://img.shields.io/badge/100-success?style=flat-square) | CSP / HTTPS |
-| **SEO** | ![100](https://img.shields.io/badge/100-success?style=flat-square) | Semántica + `llm.txt` |
+| **SEO** | ![100](https://img.shields.io/badge/100-success?style=flat-square) | SemÃƒÂ¡ntica + `llm.txt` |
 
 ---
 
-**Vladimir Acuña** - Senior Software Engineer | © 2026 · Marzo 2026
+**Vladimir AcuÃƒÂ±a** - Senior Software Engineer | Ã‚Â© 2026 Ã‚Â· Marzo 2026
