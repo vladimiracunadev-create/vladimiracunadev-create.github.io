@@ -1,7 +1,7 @@
 {
     "meta": {
         "version": "v1",
-        "generated_at": "2026-03-05",
+        "generated_at": "2026-03-13",
         "source_pdf": "assets/cv-ats.pdf"
     },
     "skills": {
@@ -39,9 +39,12 @@
                 "AWS S3",
                 "AWS Amplify",
                 "CloudFront",
-                "Terraform (básico)"
+                "GitLab Pages",
+                "AWS IAM / OIDC",
+                "AWS ECS / EKS",
+                "Terraform"
             ],
-            "level": "mid-senior"
+            "level": "senior"
         },
         "quality_security": {
             "items": [
@@ -55,6 +58,7 @@
             "items": [
                 "Prometheus",
                 "Grafana",
+                "Dashboards locales",
                 "Lighthouse CI"
             ],
             "level": "mid"

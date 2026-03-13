@@ -34,17 +34,17 @@ A diferencia de las soluciones sobre-ingenierizadas con frameworks masivos, este
 
 ---
 
-## 📈 Evolución Reciente: Hitos de Marzo 2026
+## 📈 Evolución Reciente: Hitos Consolidados al 13 de Marzo de 2026
 
-Este proyecto ha escalado de un portafolio personal a un **Demostrador Industrial** de ingeniería de software. Las recientes actualizaciones integran 7 pilares estratégicos:
+Este proyecto ha escalado de un portafolio personal a un **Demostrador Industrial** de ingeniería de software. La revisión de repositorios activos en GitHub y GitLab confirma 7 pilares estratégicos:
 
-1. **Observabilidad (OpenTelemetry/Logs)**: Estándares de traza para sistemas distribuidos.
+1. **Observabilidad Aplicada**: Prometheus/Grafana, dashboards locales y visibilidad operativa para labs reproducibles.
 2. **Resiliencia (Circuit Breakers)**: Patrones para manejo de fallas en microservicios.
 3. **DevOps & DX**: Pipelines de CI/CD que validan desde la sintaxis hasta la accesibilidad.
-4. **Cloud Governance (FinOps)**: Estrategias de optimización de costos y OIDC para identidad segura.
-5. **Multiplatform Core**: Un solo código fuente para Web, PWA y Apps Nativas (Capacitor).
-6. **Agentic AI Ready**: Arquitectura compatible con asistentes de IA y flujos de trabajo autónomos.
-7. **LLM Discoverability (llm.txt)**: Estándar [llmstxt.org](https://llmstxt.org) implementado para que los asistentes de IA puedan indexar y razonar sobre el sitio de forma semántica.
+4. **Cloud Governance (FinOps)**: Estrategias de optimización de costos, IAM/OIDC y casos visibles en AWS/GitLab Pages.
+5. **Platform Engineering & DX**: Hub CLI, pruebas `doctor`/`smoke`, documentación por perfil y entornos reproducibles.
+6. **Multiplatform Core**: Un solo código fuente para Web, PWA y Apps Nativas (Capacitor).
+7. **Agentic AI Ready + LLM Discoverability**: Arquitectura compatible con asistentes de IA, flujos autónomos y discoverability semántica vía `llm.txt`.
 
 ---
 

@@ -1,7 +1,7 @@
 {
     "meta": {
         "version": "v1",
-        "generated_at": "2026-03-05",
+        "generated_at": "2026-03-13",
         "source_pdf": "assets/cv-ats.pdf"
     },
     "experience": [
@@ -39,7 +39,7 @@
         }
     ],
     "recent_activity": [
-        "Formación continua: bases de ML/NLP y automatización práctica aplicada a proyectos.",
-        "Consolidación de portafolio técnico (Cloud/AWS, Docker labs, agentes) con documentación orientada a reclutadores."
+        "Formación continua: bases de ML/NLP, agentes con estado y automatización práctica aplicada a proyectos.",
+        "Consolidación de portafolio técnico con casos AWS en GitHub/GitLab, documentación por perfil, GitLab Pages, FinOps y evidencias ECS/EKS."
     ]
 }

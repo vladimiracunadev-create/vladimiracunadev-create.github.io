@@ -2,14 +2,14 @@
     "schema": "https://jsonresume.org/schema/",
     "meta": {
         "version": "v1",
-        "generated_at": "2026-03-05",
+        "generated_at": "2026-03-13",
         "source_pdf": "assets/cv-ats.pdf",
         "base_url": "https://vladimiracunadev-create.github.io"
     },
     "basics": {
         "name": "Vladimir Acuña",
         "full_name": "Vladimir Bernardo Acuña Valdebenito",
-        "label": "Arquitecto de Software | Full-Stack Senior (PHP/JS/SQL) | Modernización & DevOps",
+        "label": "Arquitecto de Software | Full-Stack Senior (PHP/JS/SQL) | Modernización, Platform/DevOps & FinOps",
         "location": {
             "city": "Santiago",
             "country": "CL"
@@ -37,7 +37,7 @@
         "14 años liderando el diseño, evolución y operación de una plataforma educativa/psicométrica (2011–2025), con foco en continuidad operacional.",
         "Modernización progresiva (PHP 5.4 → PHP 8.2+), optimización de rendimiento y automatización de reportes (PDF/Excel) y procesos de datos.",
         "Experiencia en bases de datos (SQL Server, MySQL/MariaDB) y despliegues/entornos reproducibles con Docker y CI/CD.",
-        "Portafolio técnico con casos prácticos (Cloud/AWS, microsistemas y agentes), documentación y demos verificables."
+        "Portafolio técnico con casos prácticos en GitHub y GitLab (Cloud/AWS, microsistemas, observabilidad y agentes), documentación por perfil y demos verificables."
     ],
     "skills": {
         "backend": [
@@ -62,7 +62,10 @@
             "GitHub Actions",
             "GitLab CI",
             "AWS (S3, Amplify, CloudFront)",
-            "Terraform (básico)"
+            "GitLab Pages",
+            "AWS IAM/OIDC",
+            "AWS ECS/EKS",
+            "Terraform"
         ],
         "quality": [
             "hardening básico",
@@ -71,7 +74,8 @@
         ],
         "observability": [
             "Prometheus",
-            "Grafana"
+            "Grafana",
+            "dashboards locales"
         ]
     },
     "work": [
@@ -104,12 +108,17 @@
     "projects": [
         {
             "name": "Cloud/AWS y FinOps",
-            "description": "Demos y documentación de casos prácticos en AWS",
+            "description": "Demos y documentación de casos prácticos en AWS con OIDC, Terraform, GitLab Pages, FinOps y casos ECS/EKS",
             "url": "https://github.com/vladimiracunadev-create/proyectos-aws"
         },
         {
+            "name": "Docker Labs · Infra Hub",
+            "description": "Laboratorios reproducibles de contenedores y observabilidad con dashboards locales",
+            "url": "https://github.com/vladimiracunadev-create/docker-labs"
+        },
+        {
             "name": "Microsistemas · Productivity Suite",
-            "description": "Suite modular para diagnóstico y modernización",
+            "description": "Suite modular para diagnóstico y modernización con Hub CLI, doctor y smoke tests",
             "url": "https://github.com/vladimiracunadev-create/microsistemas"
         },
         {
@@ -146,7 +155,7 @@
         }
     ],
     "recent_activity": [
-        "Formación continua: bases de ML/NLP y automatización práctica.",
-        "Consolidación de portafolio técnico (Cloud/AWS, Docker labs, agentes) con documentación orientada a reclutadores."
+        "Formación continua: bases de ML/NLP, agentes con estado y automatización práctica.",
+        "Consolidación de portafolio técnico con casos AWS en GitHub/GitLab, GitLab Pages, FinOps, ECS/EKS y documentación orientada a reclutadores y desarrolladores."
     ]
 }

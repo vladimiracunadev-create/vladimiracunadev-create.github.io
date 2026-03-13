@@ -7,8 +7,9 @@
 ## About
 
 Vladimir Acuña is a Full-Stack Developer and DevOps practitioner based in Chile.
-This portfolio showcases projects, skills, and professional experience in web development,
-cloud infrastructure (AWS, GitHub Actions), and modern frontend development.
+This portfolio showcases projects, skills, and professional experience in legacy modernization,
+platform engineering, cloud infrastructure (AWS, GitHub Actions, GitLab CI/Pages), observability,
+FinOps, and local agentic AI.
 
 ## Index
 
@@ -19,9 +20,11 @@ cloud infrastructure (AWS, GitHub Actions), and modern frontend development.
 
 - HTML5, CSS3, JavaScript (Vanilla)
 - Progressive Web App (PWA) with Service Worker
-- GitHub Actions CI/CD pipeline
+- GitHub Actions and GitLab CI/CD pipelines
 - Lighthouse CI for performance auditing
-- AWS Amplify (experimental mirror)
+- AWS Amplify, S3, CloudFront, IAM/OIDC
+- Prometheus/Grafana observability labs
+- LangGraph, MCP, Ollama, FastAPI
 
 ## Contact
 
@@ -34,4 +37,4 @@ This content is public-facing and intended to be discoverable.
 
 ## Last Updated
 
-2026-03-05
+2026-03-13

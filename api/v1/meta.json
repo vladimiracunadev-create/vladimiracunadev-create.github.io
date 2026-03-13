@@ -1,7 +1,7 @@
 {
     "meta": {
         "version": "v1",
-        "generated_at": "2026-03-05",
+        "generated_at": "2026-03-13",
         "api_name": "CV Data API",
         "owner": "Vladimir Acuña",
         "base_url": "https://vladimiracunadev-create.github.io",
@@ -29,6 +29,6 @@
     "data_source": {
         "primary_pdf": "assets/cv-ats.pdf",
         "extraction_method": "pdfminer.six",
-        "extraction_date": "2026-03-05"
+        "extraction_date": "2026-03-13"
     }
 }
