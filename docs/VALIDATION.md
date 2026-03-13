@@ -23,6 +23,24 @@ npm run lhci
 3. **Best Practices**: HTTPS, CSP, sin errores en consola.
 4. **SEO**: Metaetiquetas, títulos, `robots.txt`, `sitemap.xml`, `llm.txt`.
 
+## Sanidad PWA
+
+El `service-worker` usa una estrategia híbrida para evitar que cambios visibles del sitio queden "pegados" en caché:
+
+- **`network-first`** para navegación y archivos de shell (`index.html`, `styles.css`, `app.js`, `pwa.js`, `manifest.webmanifest`).
+- **`cache-first`** para assets estáticos más estables.
+- **Invalidación por versión** mediante `CACHE_NAME` y versión en `pwa.js` cuando hay cambios importantes de entrega.
+
+Si un cambio visual no aparece tras publicar, revisar primero:
+
+```text
+service-worker.js
+pwa.js
+CACHE_NAME
+```
+
+La política del proyecto es priorizar que la home se actualice correctamente antes que mantener una caché agresiva del shell principal.
+
 ## Política de Seguridad (CSP)
 
 El sitio implementa una **Content Security Policy (CSP)** estricta en `index.html`:

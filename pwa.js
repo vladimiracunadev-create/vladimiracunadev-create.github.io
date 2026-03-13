@@ -1,8 +1,19 @@
 // Registro del Service Worker
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
-        navigator.serviceWorker.register('./service-worker.js?v=3')
-            .then(reg => console.log('PWA: Service Worker registrado', reg.scope))
+        let refreshing = false;
+
+        navigator.serviceWorker.addEventListener('controllerchange', () => {
+            if (refreshing) return;
+            refreshing = true;
+            window.location.reload();
+        });
+
+        navigator.serviceWorker.register('./service-worker.js?v=4')
+            .then(reg => {
+                console.log('PWA: Service Worker registrado', reg.scope);
+                reg.update().catch(() => console.log('PWA: No se pudo forzar actualización del SW'));
+            })
             .catch(err => console.log('PWA: Error en registro de SW', err));
     });
 }
