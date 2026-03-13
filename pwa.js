@@ -1,7 +1,7 @@
 // Registro del Service Worker
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
-        navigator.serviceWorker.register('./service-worker.js')
+        navigator.serviceWorker.register('./service-worker.js?v=3')
             .then(reg => console.log('PWA: Service Worker registrado', reg.scope))
             .catch(err => console.log('PWA: Error en registro de SW', err));
     });
