@@ -503,6 +503,10 @@ body[data-theme="light"] .lang-select option {
   padding: 34px 0
 }
 
+.section--compact {
+  padding: 8px 0 18px
+}
+
 .section__head {
   margin-bottom: 14px
 }
@@ -589,6 +593,38 @@ body[data-theme="light"] .lang-select option {
   display: flex;
   flex-direction: column;
   gap: 14px
+}
+
+.recruiter-quick {
+  background: linear-gradient(180deg, var(--surface), transparent 65%), var(--card-bg);
+}
+
+.quick-list {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.quick-list li {
+  margin: 7px 0;
+  color: var(--muted);
+}
+
+.signal-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+}
+
+.signal {
+  padding: 18px 16px;
+}
+
+.signal__value {
+  font-size: clamp(26px, 4vw, 38px);
+  font-weight: 800;
+  line-height: 1;
+  margin-bottom: 8px;
+  color: var(--text);
 }
 
 .bullets {
@@ -808,7 +844,8 @@ body[data-view="deep"] .repo {
 
   .grid,
   .grid--2,
-  .grid--3 {
+  .grid--3,
+  .signal-grid {
     grid-template-columns: 1fr
   }
 
