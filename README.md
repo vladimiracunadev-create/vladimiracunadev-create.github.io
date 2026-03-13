@@ -178,6 +178,8 @@ El currículum está publicado como **API JSON estática de solo lectura**, extr
 
 Los artefactos públicos ahora disponen de variantes **ES/EN** y el selector de idioma del sitio cambia automáticamente las descargas al PDF equivalente cuando existe. Además, se incorporó una **Declaración de Logros y Validación** como respaldo separado: resume logros observables y facilita validación externa sin reemplazar el CV ni el portafolio principal.
 
+El sitio también enlaza documentación pública de repos clave cuando existe (`README.md` y, en algunos casos, `RECRUITER.md`) para reducir fricción de evaluación técnica y de reclutamiento.
+
 ### Endpoints v1
 
 | Endpoint | Descripción |

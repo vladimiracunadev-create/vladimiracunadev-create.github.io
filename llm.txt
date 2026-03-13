@@ -26,6 +26,7 @@ FinOps, local agentic AI, and bilingual professional artifacts for recruiter wor
 - Prometheus/Grafana observability labs
 - LangGraph, MCP, Ollama, FastAPI
 - Bilingual PDF artifact switching (ES/EN) for portfolio and resume assets
+- Direct README / recruiter-guide links on key repositories when publicly available
 
 ## Contact
 

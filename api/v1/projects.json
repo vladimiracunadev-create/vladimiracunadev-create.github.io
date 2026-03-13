@@ -7,7 +7,7 @@
     "projects": [
         {
             "name": "Cloud/AWS y FinOps",
-            "description": "Demos y documentación de casos prácticos en GitHub y GitLab: OIDC, Terraform, AWS Budgets, GitLab Pages, ECS/EKS y gobernanza de costos.",
+            "description": "Demos y documentación de casos prácticos en GitHub y GitLab: OIDC, Terraform, AWS Budgets, GitLab Pages, ECS/EKS, SAST, secret scanning y gobernanza de costos.",
             "url": "https://github.com/vladimiracunadev-create/proyectos-aws",
             "tags": [
                 "AWS",
@@ -19,26 +19,28 @@
                 "FinOps",
                 "ECS",
                 "EKS",
-                "GitLab Pages"
+                "GitLab Pages",
+                "SAST"
             ],
             "category": "cloud"
         },
         {
             "name": "Docker Labs · Infra Hub",
-            "description": "Laboratorios reproducibles para levantar stacks, dashboards locales y rutas de aprendizaje de observabilidad y contenedores.",
+            "description": "Laboratorios reproducibles para levantar stacks, dashboard local, Compose y rutas prácticas de observabilidad con Prometheus/Grafana.",
             "url": "https://github.com/vladimiracunadev-create/docker-labs",
             "tags": [
                 "Docker",
                 "Prometheus",
                 "Grafana",
                 "Observabilidad",
+                "Compose",
                 "Kubernetes"
             ],
             "category": "platform"
         },
         {
             "name": "Microsistemas · Productivity Suite",
-            "description": "Suite modular para diagnóstico y modernización: Hub CLI multi-OS, doctor/smoke tests, documentación reproducible y utilidades de productividad.",
+            "description": "Suite modular para diagnóstico y modernización: Hub CLI, Makefile operativo, doctor/smoke tests y utilidades orientadas a reducir fricción de mantenimiento.",
             "url": "https://github.com/vladimiracunadev-create/microsistemas",
             "tags": [
                 "PHP 8",
@@ -46,33 +48,37 @@
                 "DevTools",
                 "DX",
                 "Doctor",
-                "Smoke"
+                "Smoke",
+                "Makefile"
             ],
             "category": "tooling"
         },
         {
             "name": "LangGraph · Agentic Resilience",
-            "description": "Agentes con estado, rutas condicionales y resiliencia frente a fallos de LLMs. IA aplicada a flujos más cercanos a producción.",
+            "description": "Agentes con estado, rutas condicionales y resiliencia frente a fallos de LLMs, con FastAPI, streaming, checkpoints SQLite y guía para reclutadores.",
             "url": "https://github.com/vladimiracunadev-create/langgraph-realworld",
             "tags": [
                 "LangGraph",
                 "IA",
                 "Python",
                 "Guardrails",
+                "FastAPI",
+                "SQLite",
                 "Stateful"
             ],
             "category": "ai"
         },
         {
             "name": "MCP + Ollama Local",
-            "description": "Web local (FastAPI) + Ollama + herramientas vía MCP y persistencia en SQLite. Privacidad total (localhost).",
+            "description": "Web local (FastAPI) + Ollama + herramientas vía MCP y persistencia en SQLite, con enfoque en privacidad total y documentación de onboarding/reclutamiento.",
             "url": "https://github.com/vladimiracunadev-create/mcp-ollama-local",
             "tags": [
                 "FastAPI",
                 "Ollama",
                 "MCP",
                 "SQLite",
-                "Local AI"
+                "Local AI",
+                "Recruiter Guide"
             ],
             "category": "ai"
         },
