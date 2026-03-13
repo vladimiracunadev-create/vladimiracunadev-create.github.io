@@ -37,10 +37,20 @@ function setLang(lang) {
   updateLocalizedPdfLinks(lang);
 }
 
+function resolveLocalizedPdfHref(link, lang) {
+  const fallback = link.dataset.pdfEs || link.getAttribute("href") || "#";
+  const english = link.dataset.pdfEn;
+
+  if (lang === "en" && english && /-english\.pdf$/i.test(english)) {
+    return english;
+  }
+
+  return fallback;
+}
+
 function updateLocalizedPdfLinks(lang) {
   $$("[data-pdf-link]").forEach(link => {
-    const href = lang === "en" ? link.dataset.pdfEn : link.dataset.pdfEs;
-    if (href) link.setAttribute("href", href);
+    link.setAttribute("href", resolveLocalizedPdfHref(link, lang));
   });
 }
 
