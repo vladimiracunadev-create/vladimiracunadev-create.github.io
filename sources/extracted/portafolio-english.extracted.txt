@@ -1,0 +1,111 @@
+# SOURCE: assets/portafolio-english.pdf
+# DATE: 2026-03-13T12:42:15.520116
+
+Vladimir Bernardo Acuña Valdebenito
+Software Architect & Senior PHP / JavaScript Developer
+Contact Details
+ Email: vladimir.acuna.dev@gmail.com
+ LinkedIn: linkedin.com/in/vladimir-acuña-valdebenito-11924a29
+ Preliminary web portfolio: https://main.d3r1wuymolxagh.amplifyapp.com/
+ Country: Chile
+I am a professional with a degree in Execution Engineering in Computer Science and Informatics, with more than 16 years of 
+experience developing, maintaining, and modernizing web solutions for public and private organizations. Throughout my career, I have 
+worked especially on mission-critical business systems, highly complex platforms, and projects where operational continuity, data 
+quality, and performance are essential.
+Over the last 14 years, I have specialized in the design, development, and evolution of a broad educational and psychometric platform. 
+This work has combined backend, frontend, databases, advanced report generation, and, in recent years, the incorporation of 
+automation and Agentic Artificial Intelligence (AI), optimizing the systems and processes under my responsibility, with a focus on 
+resilience and flow observability.
+My professional hallmark is Progressive Modernization: taking complex legacy systems, understanding them in depth, and evolving 
+them toward a modern, stable, and scalable state, using advanced observability practices, industrial resilience, and cloud-native 
+architecture (DevOps/FinOps), while ensuring operational continuity.
+Value Proposition
+What I offer the companies and teams I work with:
+ Legacy system modernization: Progressive migrations from older environments (e.g., PHP 5.x) to current platforms (PHP 
+8.x) and decoupled architectures, with improvements in performance, security, and maintainability.
+ Design and maintenance of complex web platforms: Experience with systems that include multiple modules, large data 
+volumes, advanced reporting, concurrent users, and external integrations (banking, payment gateways, government entities).
+ Optimization, observability, and scalability: Bottleneck analysis, SQL query tuning, code refactoring, and implementation of 
+observability dashboards (Prometheus/Grafana) for proactive monitoring and continuous performance improvement.
+ Automation, analytics, and AI: Generation of PDF/Excel reports, construction of indicators, and integration of Agentic AI 
+prototypes to automate information analysis and identify opportunities in processes.
+ Cloud and governance (FinOps): Experience with immutable cloud architectures (Terraform, OIDC for secretless security) 
+and cloud cost control (FinOps/AWS Budgets), ensuring efficient and sustainable deployments.
+ Developer Experience (DX): Creation of reproducible development environments (Docker Labs) and automation of validation 
+workflows (Hub CLI, doctor/smoke tests) to improve team productivity and quality.
+ Holistic business perspective: Through complementary studies in marketing, administration, finance, and projects, I 
+understand not only the code, but also the business impact of solutions and their effect on end users.
+Current Projects and Focus (Public Portfolio)
+During my current transition and focus, I have developed labs and proof-of-concept (PoC) projects that demonstrate my expertise in 
+applying modern methodologies:
+ Resilient architecture and immutable infrastructure: Implementation of professional CI/CD with GitHub Actions/OIDC and 
+secure cloud deployments with Terraform, plus cost governance (FinOps/AWS Budgets).
+ Observability and Developer Experience (DX): Creation of Docker Labs with Prometheus/Grafana for metrics, and 
+Microsystems (Hub CLI) to automate diagnostics (doctor/smoke tests) and improve the development experience.
+ Agentic AI: Functional prototypes with LangGraph and Ollama (local AI), focused on integrating stateful agents and 
+conditional routes into business workflows for decision-making and advanced automation.
+Relevant Experience
+Educational and psychometric platform (2011-2025)
+ Role: Senior Developer / Software Architect (de facto).
+ Scope: Educational foundation; solutions for schools and student guidance teams.
+ Design, development, and maintenance of a student assessment web platform with multiple tests, reporting modules for 
+teachers, counselors, and school leaders, and management tools for the institution.
+ Technology migration: progressive transition from an environment based on PHP 5.4 and legacy servers to PHP 8.2, new 
+servers, and updated libraries, while protecting compatibility and service continuity. Before the main migration, I moved several 
+tasks to vanilla JavaScript, reducing server load and improving response times.
+ Development of advanced reporting modules: generation of PDFs, charts, and Excel spreadsheets with psychometric 
+indicators, percentiles, categories, and analysis by class, level, and school.
+ Implementation of data import and migration processes from Excel and other sources, including validation, normalization, and 
+handling of large volumes of information.
+ Communication automation and relationship marketing: mass email delivery (SMTP, Sendmail, Masterbase, Constant 
+Contact), customer segmentation, follow-up, and support for commercial management.
+ High-level support for key users: direct support for coordinators, counselors, school leaders, and students; participation in 
+requirements definition, incident resolution, and continuous improvement.
+ Technologies used (among others): PHP 5/8, JavaScript, jQuery, HTML, CSS, SQL Server, MySQL, Apache, Linux 
+environments (CentOS, Red Hat), LimeSurvey, advanced office tools, and Apache JMeter for performance and load testing.
+Highlighted previous experience
+ Government agencies (CONACE - National Council for the Control of Narcotics): analysis, development, and maintenance of 
+systems for human resources, procurement, inventories, and substance control. Development of PDF and Excel reports, 
+integrations, administrative workflows, and web application security modules.
+ Financial sector and payment systems (Transbank, PointPay, Corpvida): development of team and task management systems 
+(GSET), billing modules, and integrations with SQL Server and Oracle databases. Creation of COM components in Visual Basic 6.0, 
+Excel and Crystal Reports generation, and work with classic ASP and PHP.
+ Web development for diverse organizations (Giro Ingeniería, hotels, schools, educational projects): development of dynamic 
+and static websites, intranets, survey systems, and specialized educational environments, combining technical delivery with 
+sensitivity to end users and institutional needs.
+Education
+ Execution Engineering in Computer Science and Informatics, Universidad de Tarapacá, Arica.
+ Business Administration Technician, Marketing specialization, INACAP (with SAP User certification).
+ Various courses and training in J2EE, mobile web applications, cybersecurity, and related software and web technologies.
+This technical-business mix allows me to work fluidly with both IT teams and non-technical areas (leadership, marketing, 
+administration), translating business needs into practical solutions.
+Technical Competencies
+Category Key Technologies
+Backend PHP (4/5/8.x), JavaScript/Node.js, FastAPI, n8n, classic ASP, Visual 
+Basic 6.0.
+Frontend HTML, CSS, JavaScript, jQuery.
+Databases SQL Server, MySQL, SQLite; design and optimization of complex 
+queries (T-SQL, PL/SQL).
+Servers / Environments Docker, Kubernetes (K8s Ready), Linux (Red Hat, CentOS), 
+Windows Server, Apache, IIS.
+Cloud / Infrastructure Terraform, AWS (S3, Amplify), OIDC, FinOps/Budgets, CI/CD 
+(GitHub Actions).
+Observability Prometheus, Grafana, metrics analysis.
+Resilience Circuit breakers, idempotency.
+AI / Automation LangGraph, Ollama (local AI), n8n (orchestration), Apache JMeter.
+Developer Experience (DX) Hub CLI, doctor/smoke tests.
+Work Style
+ Solution- and detail-oriented: I like to understand systems in depth and leave them working better than before.
+ Responsible and committed: I have sustained critical platforms for years, supporting their evolution and high-demand 
+periods.
+ Strong communication with users and non-technical teams: Experience in training, user enablement, manuals, and 
+support materials.
+ Continuous learning: I adopt new technologies when they make business sense, without losing sight of production stability.
+Current Objective
+I am looking to join a team where I can contribute my experience in systems modernization, web development, and optimization of 
+existing platforms, whether as a Senior Developer or Software Architect, ideally within organizations that value stability, technical 
+quality, and continuous improvement, and that are moving toward modern architectures (Cloud/DevOps).
+Professional References
+ Jean Claude Dupry
+Former direct manager
+Mobile: +56 9 9415 6984

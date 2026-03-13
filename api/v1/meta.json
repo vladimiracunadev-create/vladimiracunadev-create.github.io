@@ -16,6 +16,13 @@
         "artifacts": "/api/v1/artifacts.json",
         "meta": "/api/v1/meta.json"
     },
+    "capabilities": {
+        "artifact_languages": [
+            "es",
+            "en"
+        ],
+        "artifact_switching": "Download links may switch to the corresponding language variant in the website UI."
+    },
     "seo": {
         "robots": "/robots.txt",
         "sitemap": "/sitemap.xml",
@@ -28,7 +35,7 @@
     },
     "data_source": {
         "primary_pdf": "assets/cv-ats.pdf",
-        "extraction_method": "pdfminer.six",
+        "extraction_method": "pypdf",
         "extraction_date": "2026-03-13"
     }
 }

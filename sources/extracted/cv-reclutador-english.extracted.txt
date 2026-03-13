@@ -1,0 +1,79 @@
+# SOURCE: assets/cv-reclutador-english.pdf
+# DATE: 2026-03-13T12:42:15.520116
+
+Vladimir Acuña
+Senior Developer (PHP/JS/SQL) | Systems Modernization | Automation and Reporting
+Santiago, Chile  |  +56 9 8121 8838  |  vladimir.acuna.dev@gmail.com
+CONTACT
+Santiago, Chile
++56 9 8121 8838
+vladimir.acuna.dev@gmail.com
+Website / portfolio
+GitHub:
+vladimiracuna-dev-create
+LinkedIn: Vladimir Acuña
+SKILLS
+Backend: PHP 8.x, Node.js,
+TypeScript, Python (FastAPI)
+Frontend: JavaScript, HTML, CSS
+Data: SQL Server,
+MySQL/MariaDB, modeling and
+Excel data import
+DevOps/Cloud: Docker/Compose,
+CI/CD (GitHub Actions/GitLab CI),
+AWS (S3, Amplify, CloudFront),
+Terraform (basic)
+Quality/Security: basic hardening,
+secret scanning, anti-injection
+controls
+Observability:
+Prometheus/Grafana (labs and
+fundamentals)
+EDUCATION
+Computer Science and Informatics
+Engineering
+University of Tarapacá (Arica)
+Business Administration
+Technician
+(Marketing specialization)
+INACAP (Santiago)
+LANGUAGES
+English: intermediate reading;
+basic writing and conversation.
+SUMMARY
+ 14 years of core experience at Fundación CEIS Maristas
+(2011-2025), developing, maintaining, and modernizing an
+educational/psychometric platform.
+ Previous experience in web development and systems support for
+public and private institutions, focused on PHP, SQL Server/MySQL,
+PDF/Excel reporting, data migration, and integrations.
+ Current technical portfolio with projects and labs in Docker, AWS,
+CI/CD, observability, and AI applied to automation.
+HIGHLIGHTED EXPERIENCE
+Fundación CEIS Maristas - Senior Full-Stack Developer
+2011-2025
+ Development, maintenance, and evolution of a student assessment
+platform, institutional modules, and reporting.
+ Technology migration from PHP 5.4 to PHP 8.2+, plus server/library
+upgrades and performance improvements.
+ PDF/Excel reports with indicators, percentiles, and analysis by class,
+grade level, and institution.
+ Excel-based data import and migration with validations; automation
+of communications and follow-up processes.
+Technologies: PHP, JavaScript, SQL Server, MySQL, Apache, JMeter,
+Excel, FPDF/PhpSpreadsheet, Constant Contact
+PREVIOUS CAREER (SUMMARY)
+CONACE / Government of Chile (2008-2011) · E-syste (2011) ·
+Corpvida / Servytech (2007-2008) · PointPay Chile (2006-2007) · Giro
+Ingeniería Ltda. (2004-2006) · European Training Center (2003-2004) ·
+Busquesbc (2003) · Sygnum Consultores (2003) · Golden Guide Chile
+(2003) · Friends Defenders of Animals (2001-2002)
+RECENT TRAINING AND PROJECTS
+ Continuous training in practical automation, ML/NLP, and
+development tools.
+ Consolidation of a technical portfolio with cloud labs, microsystems,
+and recruiter-oriented documentation.
+NOTES
+ Recommendation letter available.
+ If the hiring process uses ATS, please consider the ATS CV available on
+the website: https://vladimiracunadev-create.github.io/

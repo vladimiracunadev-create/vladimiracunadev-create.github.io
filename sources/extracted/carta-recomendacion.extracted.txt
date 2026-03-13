@@ -1,40 +1,29 @@
 # SOURCE: assets/carta-recomendacion_sin_firma.pdf
-# EXTRACTED: 2026-03-05T21:15:53.244509
-# METHOD: pdfminer.six
-# CHARS: 2213
-# ============================================================
+# DATE: 2026-03-13T12:42:15.520116
 
 NOTA: Este documento es una TRANSCRIPCIÓN (no es el original). Se omitieron firmas y datos del firmante por privacidad. El 
 original firmado está disponible a solicitud.
-
 Carta de Recomendación
-
-El Secretario Ejecutivo de la Fundación CEIS Orientación, perteneciente a la red educativa 
-de la Congregación de  los hermanos Maristas  en Chile, certifica que  el  Sr. Vladimir Acuña 
-Valdebenito fue trabajador de nuestra fundación, durante el periodo comprendido entre el 01 de 
+El Secretario Ejecutivo de la Fundación CEIS Orientación, perteneciente a la red educativa  
+de la Congregación de los hermanos Maristas en Chile, certifica que el Sr. Vladimir Acuña  
+Valdebenito fue trabajador de nuestra fundación, durante el periodo comprendido entre el 01 de  
 mayo del año 2011 y el 30 de octubre de 2025.
-
-Dejamos   constancia,   que   el   Sr   Vladimir   Acuña,   se   desempeñó   como   Analista   y 
-Desarrollador de Programación, de nuestra Fundación, debiendo diseñar, actualizar y dar soporte 
-al   área   de   evaluación,   especialmente   a   través   de   las   plataformas   de   PCA   (evaluaciones   de 
-aprendizaje) y Baterías Psicoeducativas (Evaluaciones de diferentes áreas del desarrollo social y 
-personal de los estudiantes evaluados). Entre sus funciones han estado labores como: soporte de 
+Dejamos  constancia,  que  el  Sr  Vladimir  Acuña,  se  desempeñó  como  Analista  y  
+Desarrollador de Programación, de nuestra Fundación, debiendo diseñar, actualizar y dar soporte  
+al  área  de  evaluación,  especialmente  a  través  de  las  plataformas  de  PCA  (evaluaciones  de  
+aprendizaje) y Baterías Psicoeducativas (Evaluaciones de diferentes áreas del desarrollo social y  
+personal de los estudiantes evaluados). Entre sus funciones han estado labores como: soporte de  
 mailing y página web, programación, analista de sistemas y servidor. En su trabajo él destacó, por 
-su responsabilidad, dedicación a la tarea y su interés por el estudio y el mantenerse siempre 
-vigente a los cambios tecnológicos. Su trabajo implicó, relacionarse tanto con clientes (personal 
-de   colegios),   como   también   con   otros   profesionales   de   nuestra   Fundación.   Valoramos 
-especialmente su labor durante la etapa de pandemia, en que gran parte de nuestros servicios 
-debieron llevarse a formatos on line en un muy breve tiempo, labor que contó con el aporte 
+su responsabilidad, dedicación a la tarea y su interés por el estudio y el mantenerse siempre  
+vigente a los cambios tecnológicos. Su trabajo implicó, relacionarse tanto con clientes (personal  
+de  colegios),  como  también  con  otros  profesionales  de  nuestra  Fundación.  Valoramos  
+especialmente su labor durante la etapa de pandemia, en que gran parte de nuestros servicios  
+debieron llevarse a formatos on line en un muy breve tiempo, labor que contó con el aporte  
 fundamental del Sr. Acuña.
-
-La   razón   de   su   desvinculación,   se   debe   directamente   a   causas   asociadas   al   rediseño 
+La  razón  de  su  desvinculación,  se  debe  directamente  a  causas  asociadas  al  rediseño  
 organizacional, debido a un cambio en el mercado de los productos del área en qué él trabajó y  
-que han obligado a una disminución de personal y costos asociados, para poder dar sostenibilidad 
-a la Fundación. Dado lo anterior, con mucho gusto podemos recomendar su labor, que sin duda 
+que han obligado a una disminución de personal y costos asociados, para poder dar sostenibilidad  
+a la Fundación. Dado lo anterior, con mucho gusto podemos recomendar su labor, que sin duda  
 será un aporte en otras instituciones que requieran su servicio.
-
 Ante cualquier detalle mayor que requieran, contacto disponible a solicitud.
-
 Santiago. 12 de enero de 2026
-
-

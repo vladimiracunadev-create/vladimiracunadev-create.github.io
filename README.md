@@ -176,6 +176,8 @@ El currículum está publicado como **API JSON estática de solo lectura**, extr
 
 📑 [Manual completo → `cv-data-api.md`](cv-data-api.md)
 
+Los artefactos públicos ahora disponen de variantes **ES/EN** y el selector de idioma del sitio cambia automáticamente las descargas al PDF equivalente cuando existe. Además, se incorporó una **Declaración de Logros y Validación** como respaldo separado: resume logros observables y facilita validación externa sin reemplazar el CV ni el portafolio principal.
+
 ### Endpoints v1
 
 | Endpoint | Descripción |
@@ -190,6 +192,10 @@ El currículum está publicado como **API JSON estática de solo lectura**, extr
 ### CV PDF principal
 
 📄 **[CV ATS (PDF)](https://vladimiracunadev-create.github.io/assets/cv-ats.pdf)**
+
+### Artefacto de validación complementario
+
+📄 **[Declaración de Logros y Validación (PDF)](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)**
 
 ---
 © 2026 Vladimir Acuña | Arquitecto de Software Senior

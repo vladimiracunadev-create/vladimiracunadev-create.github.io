@@ -1,257 +1,1457 @@
 # SOURCE: assets/portafolio.pdf
-# EXTRACTED: 2026-03-05T21:15:53.171181
-# METHOD: pdfminer.six
-# CHARS: 9583
-# ============================================================
+# DATE: 2026-03-13T12:42:15.520116
 
-Vladimir Bernardo Acuña Valdebenito 
-
-Arquitecto de Software & Desarrollador Senior PHP / JavaScriptDatos de contacto 
-
-●  Correo: vladimir.acuna.dev@gmail.com 
-●  LinkedIn: linkedin.com/in/vladimir-acuña-valdebenito-11924a29 
-●  Portafolio web preliminar: https://main.d3r1wuymolxagh.amplifyapp.com/ 
-●  País: Chile 
-
-Soy Ingeniero de Ejecución en Computación e Informática con más de 16 años de 
-experiencia desarrollando, manteniendo y modernizando soluciones web para 
-organizaciones públicas y privadas. A lo largo de mi carrera he trabajado especialmente en 
-sistemas críticos de negocio, plataformas de alta complejidad y proyectos donde la 
-continuidad operacional, la calidad de los datos y el rendimiento son clave. 
-
-En los últimos 14 años me he especializado en el diseño, desarrollo y evolución de una 
-plataforma educativa y psicométrica de amplio espectro. Este trabajo ha combinado 
-backend, frontend, bases de datos, generación de reportes avanzados y, en los últimos 
-años, la incorporación de automatizaciones e Inteligencia Artificial (IA) Agéntica, 
-optimizando los sistemas y procesos a mi cargo, con foco en resiliencia y observabilidad 
-de flujos. 
-
-Mi sello profesional es la Modernización Progresiva: tomar sistemas legacy complejos, 
-comprenderlos a fondo y evolucionarlos hacia un estado moderno, estable y escalable, 
-utilizando prácticas de observabilidad avanzada, resiliencia industrial y arquitectura 
-cloud-nativa (DevOps/FinOps), garantizando la continuidad operacional.-----Propuesta de 
-valor 
-
-Lo que ofrezco a las empresas y equipos con los que trabajo: 
-
-●  Modernización de sistemas legados: Migraciones progresivas desde entornos 
-antiguos (ej. PHP 5.x) hacia plataformas actuales (PHP 8.x) y arquitecturas 
-desacopladas, con mejoras de rendimiento, seguridad y mantenibilidad. 
-●  Diseño y mantenimiento de plataformas web complejas: Experiencia en 
-
-sistemas con múltiples módulos, grandes volúmenes de datos, reportes avanzados, 
-usuarios concurrentes e integraciones externas (Banca, Pasarelas de Pago, 
-Gobierno). 
-
-●  Optimización, Observabilidad y Escalabilidad: Análisis de cuellos de botella, 
-
-tuning en consultas SQL, refactorización de código e implementación de 
-dashboards de observabilidad (Prometheus/Grafana) para un monitoreo 
-proactivo y mejora continua del rendimiento. 
-
-●  Automatización, Analítica e IA: Generación de reportes PDF/Excel, construcción 
-de indicadores y la integración de prototipos de IA Agéntica para automatizar el 
-
+Vladimir  Bernardo  Acuña  Valdebenito  
+Arquitecto  de  Software  &  Desarrollador  Senior  PHP  /  JavaScriptDatos  de  contacto  
+●  Correo:  vladimir.acuna.dev@gmail.com  ●  LinkedIn:  linkedin.com/in/vladimir-acuña-valdebenito-11924a29 ●  Portafolio  web  preliminar:  https://main.d3r1wuymolxagh.amplifyapp.com/ ●  País:  Chile  
+Soy  Ingeniero  de  Ejecución  en  Computación  e  Informática  con  más  de  16  años  de  
+experiencia
+ 
+desarrollando,
+ 
+manteniendo
+ 
+y
+ 
+modernizando
+ 
+soluciones
+ 
+web
+ 
+para
+ 
+organizaciones
+ 
+públicas
+ 
+y
+ 
+privadas.
+ 
+A
+ 
+lo
+ 
+largo
+ 
+de
+ 
+mi
+ 
+carrera
+ 
+he
+ 
+trabajado
+ 
+especialmente
+ 
+en
+ 
+sistemas
+ 
+críticos
+ 
+de
+ 
+negocio
+,
+ 
+plataformas
+ 
+de
+ 
+alta
+ 
+complejidad
+ 
+y
+ 
+proyectos
+ 
+donde
+ 
+la
+ 
+continuidad
+ 
+operacional,
+ 
+la
+ 
+calidad
+ 
+de
+ 
+los
+ 
+datos
+ 
+y
+ 
+el
+ 
+rendimiento
+ 
+son
+ 
+clave.
+ 
+ 
+En  los  últimos  14  años  me  he  especializado  en  el  diseño,  desarrollo  y  evolución  de  una  
+plataforma
+ 
+educativa
+ 
+y
+ 
+psicométrica
+ 
+de
+ 
+amplio
+ 
+espectro
+.
+ 
+Este
+ 
+trabajo
+ 
+ha
+ 
+combinado
+ 
+backend,
+ 
+frontend,
+ 
+bases
+ 
+de
+ 
+datos,
+ 
+generación
+ 
+de
+ 
+reportes
+ 
+avanzados
+ 
+y,
+ 
+en
+ 
+los
+ 
+últimos
+ 
+años,
+ 
+la
+ 
+incorporación
+ 
+de
+ 
+automatizaciones
+ 
+e
+ 
+Inteligencia
+ 
+Artificial
+ 
+(IA)
+ 
+Agéntica
+,
+ 
+optimizando
+ 
+los
+ 
+sistemas
+ 
+y
+ 
+procesos
+ 
+a
+ 
+mi
+ 
+cargo,
+ 
+con
+ 
+foco
+ 
+en
+ 
+resiliencia
+ 
+y
+ 
+observabilidad
+ 
+de
+ 
+flujos.
+ 
+ 
+Mi  sello  profesional  es  la  Modernización  Progresiva :  tomar  sistemas  legacy  complejos,  
+comprenderlos
+ 
+a
+ 
+fondo
+ 
+y
+ 
+evolucionarlos
+ 
+hacia
+ 
+un
+ 
+estado
+ 
+moderno,
+ 
+estable
+ 
+y
+ 
+escalable
+,
+ 
+utilizando
+ 
+prácticas
+ 
+de
+ 
+observabilidad
+ 
+avanzada,
+ 
+resiliencia
+ 
+industrial
+ 
+y
+ 
+arquitectura
+ 
+cloud
+-nativa
+ 
+(DevOps/FinOps)
+,
+ 
+garantizando
+ 
+la
+ 
+continuidad
+ 
+operacional.-----
+Propuesta
+ 
+de
+ 
+valor
+ 
+ 
+Lo  que  ofrezco  a  las  empresas  y  equipos  con  los  que  trabajo:  
+●  Modernización  de  sistemas  legados:  Migraciones  progresivas  desde  entornos  
+antiguos
+ 
+(ej.
+ 
+PHP
+ 
+5.x)
+ 
+hacia
+ 
+plataformas
+ 
+actuales
+ 
+(PHP
+ 
+8.x)
+ 
+y
+ 
+arquitecturas
+ 
+desacopladas,
+ 
+con
+ 
+mejoras
+ 
+de
+ 
+rendimiento,
+ 
+seguridad
+ 
+y
+ 
+mantenibilidad.
+ ●  Diseño  y  mantenimiento  de  plataformas  web  complejas:  Experiencia  en  
+sistemas
+ 
+con
+ 
+múltiples
+ 
+módulos,
+ 
+grandes
+ 
+volúmenes
+ 
+de
+ 
+datos,
+ 
+reportes
+ 
+avanzados,
+ 
+usuarios
+ 
+concurrentes
+ 
+e
+ 
+integraciones
+ 
+externas
+ 
+(Banca,
+ 
+Pasarelas
+ 
+de
+ 
+Pago,
+ 
+Gobierno).
+ ●  Optimización,  Observabilidad  y  Escalabilidad:  Análisis  de  cuellos  de  botella,  
+tuning
+ 
+en
+ 
+consultas
+ 
+SQL,
+ 
+refactorización
+ 
+de
+ 
+código
+ 
+e
+ 
+implementación
+ 
+de
+ 
+dashboards
+ 
+de
+ 
+observabilidad
+ 
+(Prometheus/Grafana)
+ 
+para
+ 
+un
+ 
+monitoreo
+ 
+proactivo
+ 
+y
+ 
+mejora
+ 
+continua
+ 
+del
+ 
+rendimiento.
+ ●  Automatización,  Analítica  e  IA:  Generación  de  reportes  PDF/Excel,  construcción  
+de
+ 
+indicadores
+ 
+y
+ 
+la
+ 
+integración
+ 
+de
+ 
+prototipos
+ 
+de
+ 
+IA
+ 
+Agéntica
+ 
+para
+ 
+automatizar
+ 
+el
+ 
+análisis  de  información  y  la  búsqueda  de  oportunidades  en  procesos.  ●  Cloud  y  Gobernanza  (FinOps):  Experiencia  en  arquitecturas  cloud  inmutables  
+(
+Terraform
+,
+ 
+OIDC
+ 
+para
+ 
+seguridad
+ 
+sin
+ 
+secretos)
+ 
+y
+ 
+control
+ 
+de
+ 
+costos
+ 
+en
+ 
+la
+ 
+nube
+ 
+(
+FinOps/AWS
+ 
+Budgets
+),
+ 
+asegurando
+ 
+despliegues
+ 
+eficientes
+ 
+y
+ 
+sostenibles.
+ ●  Developer  Experience  (DX):  Creación  de  entornos  de  desarrollo  reproducibles  
+(
+Docker
+ 
+Labs
+)
+ 
+y
+ 
+automatización
+ 
+de
+ 
+validaciones
+ 
+(
+Hub
+ 
+CLI
+,
+ 
+doctor/smoke
+ 
+tests
+)
+ 
+para
+ 
+mejorar
+ 
+la
+ 
+calidad
+ 
+y
+ 
+productividad
+ 
+del
+ 
+equipo.
+ ●  Visión  integral  del  negocio:  Gracias  a  estudios  complementarios  en  marketing,  
+administración,
+ 
+finanzas
+ 
+y
+ 
+proyectos,
+ 
+entiendo
+ 
+no
+ 
+solo
+ 
+el
+ 
+código,
+ 
+sino
+ 
+también
+ 
+el
+ 
+impacto
+ 
+de
+ 
+las
+ 
+soluciones
+ 
+en
+ 
+el
+ 
+negocio
+ 
+y
+ 
+en
+ 
+los
+ 
+usuarios
+ 
+finales.
+ 
+----- Proyectos  y  Foco  Actual  (Portafolio  Público)  
+Durante  mi  transición  y  foco  actual,  he  desarrollado  laboratorios  y  proofs  of  concept  (PoC)  
+que
+ 
+demuestran
+ 
+mi
+ 
+experticia
+ 
+en
+ 
+la
+ 
+aplicación
+ 
+de
+ 
+metodologías
+ 
+modernas:
+ 
+●  Arquitectura  Resiliente  e  Infraestructura  Inmutable:  Implementación  de  CI/CD  
+profesional
+ 
+con
+ 
+GitHub
+ 
+Actions/OIDC
+ 
+y
+ 
+despliegues
+ 
+cloud
+ 
+seguros
+ 
+con
+ 
+Terraform
+ 
+y
+ 
+gestión
+ 
+de
+ 
+costos
+ 
+(
+FinOps/AWS
+ 
+Budgets
+).
+ ●  Observabilidad  y  Developer  Experience  (DX):  Creación  de  Docker  Labs  con  
+Prometheus/Grafana
+ 
+para
+ 
+métricas,
+ 
+y
+ 
+Microsistemas
+ 
+(
+Hub
+ 
+CLI
+)
+ 
+para
+ 
+automatizar
+ 
+diagnósticos
+ 
+(
+doctor/smoke
+ 
+tests
+)
+ 
+y
+ 
+mejorar
+ 
+la
+ 
+experiencia
+ 
+de
+ 
+desarrollo.
+ ●  IA  Agéntica:  Prototipos  funcionales  con  LangGraph  y  Ollama  (IA  local) ,  enfocados  
+en
+ 
+integrar
+ 
+agentes
+ 
+con
+ 
+estado
+ 
+y
+ 
+rutas
+ 
+condicionales
+ 
+en
+ 
+el
+ 
+flujo
+ 
+de
+ 
+negocio
+ 
+para
+ 
+la
+ 
+toma
+ 
+de
+ 
+decisiones
+ 
+y
+ 
+automatización
+ 
+avanzada.
+ 
+----- Experiencia  relevantePlataforma  educativa  y  psicométrica  (2011–2025)  
+●  Rol:  Desarrollador  Senior  /  Arquitecto  de  Software  (de  facto)  ●  Ámbito:  Fundación  educativa;  soluciones  para  colegios  y  equipos  de  orientación.  ●  Diseño,  desarrollo  y  mantención  de  una  plataforma  web  de  evaluación  de  
+alumnos
+,
+ 
+con
+ 
+múltiples
+ 
+tests,
+ 
+módulos
+ 
+de
+ 
+reportes
+ 
+para
+ 
+profesores,
+ 
+orientadores
+ 
+y
+ 
+directivos,
+ 
+y
+ 
+herramientas
+ 
+de
+ 
+gestión
+ 
+para
+ 
+la
+ 
+institución.
+ ●  Migración  tecnológica:  Paso  progresivo  desde  un  entorno  basado  en  PHP  5.4  y  
+servidores
+ 
+antiguos
+ 
+hacia
+ 
+PHP
+ 
+8.2
+,
+ 
+nuevos
+ 
+servidores
+ 
+y
+ 
+librerías
+ 
+actualizadas,
+ 
+cuidando
+ 
+compatibilidad
+ 
+y
+ 
+continuidad
+ 
+de
+ 
+servicio.
+ 
+Antes
+ 
+de
+ 
+la
+ 
+migración
+ 
+principal,
+ 
+realicé
+ 
+la
+ 
+migración
+ 
+de
+ 
+varias
+ 
+tareas
+ 
+a
+ 
+JavaScript
+ 
+puro
+,
+ 
+reduciendo
+ 
+carga
+ 
+en
+ 
+el
+ 
+servidor
+ 
+y
+ 
+mejorando
+ 
+tiempos
+ 
+de
+ 
+respuesta.
+ ●  Desarrollo  de  módulos  de  reportes  avanzados:  Generación  de  PDFs,  gráficos  y  
+planillas
+ 
+Excel
+ 
+con
+ 
+indicadores
+ 
+psicométricos,
+ 
+percentiles,
+ 
+categorías
+ 
+y
+ 
+análisis
+ 
+por
+ 
+curso,
+ 
+nivel
+ 
+y
+ 
+establecimiento.
+ ●  Implementación  de  procesos  de  importación  y  migración  de  datos  desde  Excel  y  
+otras
+ 
+fuentes,
+ 
+con
+ 
+validación,
+ 
+normalización
+ 
+y
+ 
+manejo
+ 
+de
+ 
+grandes
+ 
+volúmenes
+ 
+de
+ 
+información.
+ ●  Automatización  de  comunicaciones  y  marketing  relacional:  Envíos  masivos  de  
+correos
+ 
+(SMTP,
+ 
+Sendmail,
+ 
+Masterbase,
+ 
+ConstantContact),
+ 
+segmentación
+ 
+de
+ 
+clientes,
+ 
+seguimiento
+ 
+y
+ 
+apoyo
+ 
+a
+ 
+la
+ 
+gestión
+ 
+comercial.
+ ●  Soporte  de  alto  nivel  a  usuarios  clave:  Atención  directa  a  coordinadores,  
+orientadores,  directivos  y  alumnos;  participación  en  definición  de  requerimientos,  
+resolución
+ 
+de
+ 
+incidentes
+ 
+y
+ 
+mejora
+ 
+continua.
+ ●  Tecnologías  usadas  (entre  otras):  PHP  5/8,  JavaScript,  jQuery,  HTML,  CSS,  SQL  
+Server,
+ 
+MySQL,
+ 
+Apache,
+ 
+entornos
+ 
+Linux
+ 
+(CentOS,
+ 
+Red
+ 
+Hat),
+ 
+LimeSurvey,
+ 
+herramientas
+ 
+de
+ 
+ofimática
+ 
+avanzada,
+ 
+y
+ 
+para
+ 
+pruebas
+ 
+de
+ 
+rendimiento
+ 
+y
+ 
+carga
+ 
+Apache
+ 
+JMeter.
+ 
+Experiencia  previa  destacada  
+●  Organismos  de  Gobierno  (CONACE  –  Consejo  Nacional  para  el  Control  de  
+Estupefacientes):
+ 
+Análisis,
+ 
+desarrollo
+ 
+y
+ 
+mantención
+ 
+de
+ 
+sistemas
+ 
+para
+ 
+recursos
+ 
+humanos,
+ 
+adquisiciones,
+ 
+inventarios
+ 
+y
+ 
+control
+ 
+de
+ 
+sustancias
+.
+ 
+Desarrollo
+ 
+de
+ 
+reportes
+ 
+PDF
+ 
+y
+ 
+Excel,
+ 
+integraciones,
+ 
+flujos
+ 
+administrativos
+ 
+y
+ 
+módulos
+ 
+de
+ 
+seguridad
+ 
+de
+ 
+aplicaciones
+ 
+web
+.
+ ●  Sector  financiero  y  medios  de  pago  (Transbank,  PointPay,  Corpvida):  Desarrollo  
+de
+ 
+sistemas
+ 
+de
+ 
+gestión
+ 
+de
+ 
+equipos
+ 
+y
+ 
+tareas
+ 
+(GSET)
+,
+ 
+módulos
+ 
+de
+ 
+facturación,
+ 
+integraciones
+ 
+con
+ 
+bases
+ 
+de
+ 
+datos
+ 
+SQL
+ 
+Server
+ 
+y
+ 
+Oracle.
+ 
+Creación
+ 
+de
+ 
+componentes
+ 
+COM
+ 
+en
+ 
+Visual
+ 
+Basic
+ 
+6.0,
+ 
+generación
+ 
+de
+ 
+reportes
+ 
+en
+ 
+Excel
+ 
+y
+ 
+Crystal
+ 
+Reports,
+ 
+trabajo
+ 
+con
+ 
+ASP
+ 
+clásico
+ 
+y
+ 
+PHP.
+ ●  Desarrollo  web  para  empresas  diversas  (Giro  Ingeniería,  hoteles,  colegios,  
+proyectos
+ 
+educativos):
+ 
+Construcción
+ 
+de
+ 
+sitios
+ 
+web
+ 
+dinámicos
+ 
+y
+ 
+estáticos,
+ 
+intranets,
+ 
+sistemas
+ 
+de
+ 
+encuestas
+ 
+y
+ 
+entornos
+ 
+educativos
+ 
+especializados.
+ 
+Combinación
+ 
+de
+ 
+desarrollo
+ 
+técnico
+ 
+con
+ 
+sensibilidad
+ 
+hacia
+ 
+el
+ 
+usuario
+ 
+final
+ 
+y
+ 
+las
+ 
+necesidades
+ 
+específicas
+ 
+de
+ 
+cada
+ 
+institución.
+ 
+----- Formación  
+●  Ingeniería  de  Ejecución  en  Computación  e  Informática ,  Universidad  de  Tarapacá,  
+Arica.
+ ●  Técnico  en  Administración  de  Empresas,  mención  Marketing ,  INACAP  (con  
+certificación
+ 
+SAP
+ 
+Usuario).
+ ●  Diversos  cursos  y  formaciones  en  J2EE,  aplicaciones  web  móviles,  
+ciberseguridad
+ 
+y
+ 
+tecnologías
+ 
+relacionadas
+ 
+con
+ 
+desarrollo
+ 
+de
+ 
+software
+ 
+y
+ 
+entornos
+ 
+web
+.
+ 
+Este  mix  técnico–de  negocios  me  permite  trabajar  de  forma  fluida  tanto  con  equipos  de  TI  
+como
+ 
+con
+ 
+áreas
+ 
+no
+ 
+técnicas
+ 
+(dirección,
+ 
+marketing,
+ 
+administración),
+ 
+traduciendo
+ 
+necesidades
+ 
+del
+ 
+negocio
+ 
+en
+ 
+soluciones
+ 
+concretas
+.-----
+Competencias
+ 
+técnicas
+ Categoría  Tecnologías  Clave  
+Backend  PHP  (4/5/8.x),  JavaScript/Node.js  (FastAPI,  n8n),  ASP  clásico,  Visual  Basic  6.0.  
+Frontend  HTML,  CSS,  JavaScript,  jQuery.  
+Bases  de  datos  SQL  Server,  MySQL,  SQLite;  diseño  y  optimización  de  consultas  complejas  (T-SQL,  PL/SQL).  
+Servidores/Entornos  Docker ,  Kubernetes  (K8s  Ready) ,  Linux  (Red  Hat,  CentOS),  Windows  Server,  Apache,  IIS.  
+Cloud/Infraestructura  Terraform ,  AWS  (S3,  Amplify) ,  OIDC,  FinOps/Budgets ,  CI/CD  (GitHub  Actions).  
+Observabilidad  Prometheus ,  Grafana ,  análisis  de  métricas.  
+Resiliencia  Circuit  Breakers,  Idempotencia.  
+IA/Automatización  LangGraph ,  Ollama  (IA  local) ,  n8n  (Orquestación) ,  Apache  JMeter.  
+Developer  Experience  (DX)  Hub  CLI ,  doctor/smoke  tests .  
+----- Estilo  de  trabajo  
+●  Orientado  a  la  solución  y  al  detalle:  Me  gusta  entender  a  fondo  los  sistemas  y  
+dejarlos
+ 
+funcionando
+ 
+mejor
+ 
+de
+ 
+cómo
+ 
+estaban.
+ ●  Responsable  y  comprometido:  He  sostenido  plataformas  críticas  durante  años,  
+acompañando
+ 
+su
+ 
+evolución
+ 
+y
+ 
+soportando
+ 
+periodos
+ 
+de
+ 
+alta
+ 
+demanda.
+ ●  Buena  comunicación  con  usuarios  y  equipos  no  técnicos:  Experiencia  en  
+relatorías,
+ 
+capacitación
+ 
+de
+ 
+usuarios,
+ 
+elaboración
+ 
+de
+ 
+manuales
+ 
+y
+ 
+material
+ 
+de
+ 
+apoyo.
+ ●  Aprendizaje  continuo:  Incorporo  nuevas  tecnologías  cuando  tienen  sentido  para  el  
+negocio,
+ 
+sin
+ 
+perder
+ 
+de
+ 
+vista
+ 
+la
+ 
+estabilidad
+ 
+de
+ 
+los
+ 
+sistemas
+ 
+en
+ 
+producción.
+ 
+----- Objetivo  actual  
+ 
+Busco  integrarme  a  un  equipo  donde  pueda  aportar  mi  experiencia  en  modernización  de  
+sistemas,
+ 
+desarrollo
+ 
+web
+ 
+y
+ 
+optimización
+ 
+de
+ 
+plataformas
+ 
+existentes
+,
+ 
+ya
+ 
+sea
+ 
+en
+ 
+el
+ 
+rol
+ 
+de
+ 
+Desarrollador
+ 
+Senior
+ 
+o
+ 
+Arquitecto
+ 
+de
+ 
+Software
+,
+ 
+idealmente
+ 
+en
+ 
+organizaciones
+ 
+que
+ 
+valoren
+ 
+la
+ 
+estabilidad,
+ 
+la
+ 
+calidad
+ 
+técnica
+ 
+y
+ 
+la
+ 
+mejora
+ 
+continua
+,
+ 
+y
+ 
+que
+ 
+estén
+ 
+en
+ 
+proceso
+ 
+de
+ 
+migración
+ 
+o
+ 
+evolución
+ 
+hacia
+ 
+arquitecturas
+ 
+modernas
+ 
+(Cloud/DevOps)
+.-----
+Referencias
+ 
+laborales
+ 
+●  Jean  Claude  Dupry  
+Último
+ 
+jefe
+ 
+directo
+ 
+Celular:
+ 
++56
+ 
+9
+ 
+9415
+ 
+6984
  
  
  
-análisis de información y la búsqueda de oportunidades en procesos. 
-
-●  Cloud y Gobernanza (FinOps): Experiencia en arquitecturas cloud inmutables 
-(Terraform, OIDC para seguridad sin secretos) y control de costos en la nube 
-(FinOps/AWS Budgets), asegurando despliegues eficientes y sostenibles. 
-●  Developer Experience (DX): Creación de entornos de desarrollo reproducibles 
-
-(Docker Labs) y automatización de validaciones (Hub CLI, doctor/smoke tests) 
-para mejorar la calidad y productividad del equipo. 
-
-●  Visión integral del negocio: Gracias a estudios complementarios en marketing, 
-administración, finanzas y proyectos, entiendo no solo el código, sino también el 
-impacto de las soluciones en el negocio y en los usuarios finales. 
-
------Proyectos y Foco Actual (Portafolio Público) 
-
-Durante mi transición y foco actual, he desarrollado laboratorios y proofs of concept (PoC) 
-que demuestran mi experticia en la aplicación de metodologías modernas: 
-
-●  Arquitectura Resiliente e Infraestructura Inmutable: Implementación de CI/CD 
-
-profesional con GitHub Actions/OIDC y despliegues cloud seguros con Terraform y 
-gestión de costos (FinOps/AWS Budgets). 
-
-●  Observabilidad y Developer Experience (DX): Creación de Docker Labs con 
-
-● 
-
-Prometheus/Grafana para métricas, y Microsistemas (Hub CLI) para automatizar 
-diagnósticos (doctor/smoke tests) y mejorar la experiencia de desarrollo. 
-IA Agéntica: Prototipos funcionales con LangGraph y Ollama (IA local), enfocados 
-en integrar agentes con estado y rutas condicionales en el flujo de negocio para la 
-toma de decisiones y automatización avanzada. 
-
------Experiencia relevantePlataforma educativa y psicométrica (2011–2025) 
-
-●  Rol: Desarrollador Senior / Arquitecto de Software (de facto) 
-●  Ámbito: Fundación educativa; soluciones para colegios y equipos de orientación. 
-●  Diseño, desarrollo y mantención de una plataforma web de evaluación de 
-
-alumnos, con múltiples tests, módulos de reportes para profesores, orientadores y 
-directivos, y herramientas de gestión para la institución. 
-
-●  Migración tecnológica: Paso progresivo desde un entorno basado en PHP 5.4 y 
-
-servidores antiguos hacia PHP 8.2, nuevos servidores y librerías actualizadas, 
-cuidando compatibilidad y continuidad de servicio. Antes de la migración principal, 
-realicé la migración de varias tareas a JavaScript puro, reduciendo carga en el 
-servidor y mejorando tiempos de respuesta. 
-
-●  Desarrollo de módulos de reportes avanzados: Generación de PDFs, gráficos y 
-planillas Excel con indicadores psicométricos, percentiles, categorías y análisis por 
-curso, nivel y establecimiento. 
-Implementación de procesos de importación y migración de datos desde Excel y 
-otras fuentes, con validación, normalización y manejo de grandes volúmenes de 
-información. 
-
-● 
-
-●  Automatización de comunicaciones y marketing relacional: Envíos masivos de 
-
-correos (SMTP, Sendmail, Masterbase, ConstantContact), segmentación de clientes, 
-seguimiento y apoyo a la gestión comercial. 
-
-●  Soporte de alto nivel a usuarios clave: Atención directa a coordinadores, 
-
-orientadores, directivos y alumnos; participación en definición de requerimientos, 
-resolución de incidentes y mejora continua. 
-
-●  Tecnologías usadas (entre otras): PHP 5/8, JavaScript, jQuery, HTML, CSS, SQL 
-
-Server, MySQL, Apache, entornos Linux (CentOS, Red Hat), LimeSurvey, 
-herramientas de ofimática avanzada, y para pruebas de rendimiento y carga Apache 
-JMeter. 
-
-Experiencia previa destacada 
-
-●  Organismos de Gobierno (CONACE – Consejo Nacional para el Control de 
-Estupefacientes): Análisis, desarrollo y mantención de sistemas para recursos 
-humanos, adquisiciones, inventarios y control de sustancias. Desarrollo de 
-reportes PDF y Excel, integraciones, flujos administrativos y módulos de seguridad 
-de aplicaciones web. 
-
-●  Sector financiero y medios de pago (Transbank, PointPay, Corpvida): Desarrollo 
-
-de sistemas de gestión de equipos y tareas (GSET), módulos de facturación, 
-integraciones con bases de datos SQL Server y Oracle. Creación de componentes 
-COM en Visual Basic 6.0, generación de reportes en Excel y Crystal Reports, trabajo 
-con ASP clásico y PHP. 
-
-●  Desarrollo web para empresas diversas (Giro Ingeniería, hoteles, colegios, 
-
-proyectos educativos): Construcción de sitios web dinámicos y estáticos, intranets, 
-sistemas de encuestas y entornos educativos especializados. Combinación de 
-desarrollo técnico con sensibilidad hacia el usuario final y las necesidades 
-específicas de cada institución. 
-
------Formación 
-
-● 
-
-Ingeniería de Ejecución en Computación e Informática, Universidad de Tarapacá, 
-Arica. 
-
-●  Técnico en Administración de Empresas, mención Marketing, INACAP (con 
-
-certificación SAP Usuario). 
-
-●  Diversos cursos y formaciones en J2EE, aplicaciones web móviles, 
-
-ciberseguridad y tecnologías relacionadas con desarrollo de software y 
-entornos web. 
-
-Este mix técnico–de negocios me permite trabajar de forma fluida tanto con equipos de TI 
-como con áreas no técnicas (dirección, marketing, administración), traduciendo 
-necesidades del negocio en soluciones concretas.-----Competencias técnicas 
-
-Categoría 
-
-Tecnologías Clave 
-
-Backend 
-
-Frontend 
-
-Bases de datos 
-
-PHP (4/5/8.x), JavaScript/Node.js (FastAPI, 
-n8n), ASP clásico, Visual Basic 6.0. 
-
-HTML, CSS, JavaScript, jQuery. 
-
-SQL Server, MySQL, SQLite; diseño y 
-optimización de consultas complejas 
-(T-SQL, PL/SQL). 
-
-Servidores/Entornos 
-
-Cloud/Infraestructura 
-
-Observabilidad 
-
-Docker, Kubernetes (K8s Ready), Linux 
-(Red Hat, CentOS), Windows Server, 
-Apache, IIS. 
-
-Terraform, AWS (S3, Amplify), OIDC, 
-FinOps/Budgets, CI/CD (GitHub Actions). 
-
-Prometheus, Grafana, análisis de 
-métricas. 
-
-Resiliencia 
-
-Circuit Breakers, Idempotencia. 
-
-IA/Automatización 
-
-LangGraph, Ollama (IA local), n8n 
-(Orquestación), Apache JMeter. 
-
-Developer Experience (DX) 
-
-Hub CLI, doctor/smoke tests. 
-
------Estilo de trabajo 
-
-●  Orientado a la solución y al detalle: Me gusta entender a fondo los sistemas y 
-
-dejarlos funcionando mejor de cómo estaban. 
-
-●  Responsable y comprometido: He sostenido plataformas críticas durante años, 
-
-acompañando su evolución y soportando periodos de alta demanda. 
-
-●  Buena comunicación con usuarios y equipos no técnicos: Experiencia en 
-
-relatorías, capacitación de usuarios, elaboración de manuales y material de apoyo. 
-
-●  Aprendizaje continuo: Incorporo nuevas tecnologías cuando tienen sentido para el 
-
-negocio, sin perder de vista la estabilidad de los sistemas en producción. 
-
------Objetivo actual 
-
-Busco integrarme a un equipo donde pueda aportar mi experiencia en modernización de 
-sistemas, desarrollo web y optimización de plataformas existentes, ya sea en el rol de 
-Desarrollador Senior o Arquitecto de Software, idealmente en organizaciones que 
-valoren la estabilidad, la calidad técnica y la mejora continua, y que estén en proceso de 
-migración o evolución hacia arquitecturas modernas (Cloud/DevOps).-----Referencias 
-laborales 
-
-●  Jean Claude Dupry 
-Último jefe directo 
-Celular: +56 9 9415 6984 
-
- 
- 
- 
-

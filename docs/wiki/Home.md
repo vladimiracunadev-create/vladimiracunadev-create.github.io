@@ -70,6 +70,8 @@ Nuestra arquitectura se basa en el **Minimalismo Radical (KISS)**. No construimo
 | [`/api/v1/meta.json`](https://vladimiracunadev-create.github.io/api/v1/meta.json) | Metadatos de la API |
 
 > 📖 Manual completo → [`cv-data-api.md`](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/blob/main/cv-data-api.md)
+>
+> Los artefactos públicos disponen de variantes ES/EN y ahora incluyen una **Declaración de Logros y Validación** separada del CV principal para facilitar evaluación y verificación contextual.
 
 ---
 

@@ -1,46 +1,120 @@
 {
     "meta": {
         "version": "v1",
-        "generated_at": "2026-03-05"
+        "generated_at": "2026-03-13"
     },
     "base_url": "https://vladimiracunadev-create.github.io",
+    "artifact_languages": [
+        "es",
+        "en"
+    ],
     "artifacts": [
         {
+            "id": "cv_ats",
             "title": "CV ATS",
-            "description": "Currículum optimizado para sistemas ATS (Applicant Tracking System)",
+            "description": "Curriculum optimized for ATS workflows and technical screening.",
             "type": "pdf",
-            "file": "assets/cv-ats.pdf",
-            "url": "https://vladimiracunadev-create.github.io/assets/cv-ats.pdf",
             "category": "cv",
-            "updated_at": "2026-03-05"
+            "default_language": "es",
+            "updated_at": "2026-03-13",
+            "variants": {
+                "es": {
+                    "label": "CV ATS",
+                    "file": "assets/cv-ats.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/cv-ats.pdf"
+                },
+                "en": {
+                    "label": "ATS CV",
+                    "file": "assets/cv-ats-english.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/cv-ats-english.pdf"
+                }
+            }
         },
         {
+            "id": "cv_recruiter",
             "title": "CV Reclutador",
-            "description": "Currículum visual optimizado para reclutadores",
+            "description": "Concise recruiter-facing resume with business and technical positioning.",
             "type": "pdf",
-            "file": "assets/cv-reclutador.pdf",
-            "url": "https://vladimiracunadev-create.github.io/assets/cv-reclutador.pdf",
             "category": "cv",
-            "updated_at": "2026-03-05"
+            "default_language": "es",
+            "updated_at": "2026-03-13",
+            "variants": {
+                "es": {
+                    "label": "CV Reclutador",
+                    "file": "assets/cv-reclutador.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/cv-reclutador.pdf"
+                },
+                "en": {
+                    "label": "Recruiter CV",
+                    "file": "assets/cv-reclutador-english.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/cv-reclutador-english.pdf"
+                }
+            }
         },
         {
+            "id": "portfolio",
             "title": "Portafolio",
-            "description": "Portafolio técnico completo con proyectos y demos",
+            "description": "Detailed portfolio with projects, demos, and technical positioning.",
             "type": "pdf",
-            "file": "assets/portafolio.pdf",
-            "url": "https://vladimiracunadev-create.github.io/assets/portafolio.pdf",
             "category": "portfolio",
-            "updated_at": "2026-03-05"
+            "default_language": "es",
+            "updated_at": "2026-03-13",
+            "variants": {
+                "es": {
+                    "label": "Portafolio",
+                    "file": "assets/portafolio.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/portafolio.pdf"
+                },
+                "en": {
+                    "label": "Portfolio",
+                    "file": "assets/portafolio-english.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/portafolio-english.pdf"
+                }
+            }
         },
         {
+            "id": "recommendation_letter",
             "title": "Carta de Recomendación",
-            "description": "Carta de recomendación laboral (Fundación CEIS Maristas)",
+            "description": "Recommendation letter used as an external supporting document.",
             "type": "pdf",
-            "file": "assets/carta-recomendacion_sin_firma.pdf",
-            "url": "https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma.pdf",
             "category": "letter",
-            "updated_at": "2026-03-05"
+            "default_language": "es",
+            "updated_at": "2026-03-13",
+            "variants": {
+                "es": {
+                    "label": "Carta de Recomendación",
+                    "file": "assets/carta-recomendacion_sin_firma.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma.pdf"
+                },
+                "en": {
+                    "label": "Recommendation Letter",
+                    "file": "assets/carta-recomendacion_sin_firma-english.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma-english.pdf"
+                }
+            }
+        },
+        {
+            "id": "achievements_statement",
+            "title": "Declaración de Logros y Validación",
+            "description": "Self-issued supporting statement that summarizes observable achievements and includes an external employment-context reference for validation.",
+            "type": "pdf",
+            "category": "validation",
+            "default_language": "es",
+            "updated_at": "2026-03-13",
+            "rationale": "Published as a separate artifact so recruiters can review validated achievements and external-reference context without overloading the primary CV or portfolio narrative.",
+            "variants": {
+                "es": {
+                    "label": "Declaración de Logros",
+                    "file": "assets/declaracion-logros-validacion.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf"
+                },
+                "en": {
+                    "label": "Achievements Statement",
+                    "file": "assets/declaracion-logros-validacion-english.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion-english.pdf"
+                }
+            }
         }
     ],
-    "note": "PDFs en assets/no_aplica/ y assets/por_solicitud/ no están listados aquí públicamente."
+    "note": "PDFs in assets/no_aplica/ and assets/por_solicitud/ remain intentionally excluded from the public API."
 }

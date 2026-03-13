@@ -1,0 +1,117 @@
+# SOURCE: assets/declaracion-logros-validacion-english.pdf
+# DATE: 2026-03-13T12:42:15.520116
+
+Professional Achievements Statement - Page 1
+PROFESSIONAL ACHIEVEMENTS STATEMENT
+with external validation reference
+Professional Vladimir Bernardo 
+Acuña Valdebenito Period May 2011 - October 31, 
+2025
+Organization Fundación CEIS 
+Marista Document Prepared by the 
+professional
+Employment 
+reference Jean Claude Dupry Institutional email jdupry@ceismaristas.cl
+Scope note. This document was prepared by the professional as a formal supporting record for 
+employment, recruitment, and experience-validation processes. The external reference included below 
+allows validation of the employment context, working relationship, and general scope of responsibilities, 
+without automatically attributing authorship of this document to the contact mentioned.
+1. Purpose of the document
+To formally and professionally document the main technical, functional, and operational 
+continuity contributions developed by Vladimir Bernardo Acuña Valdebenito during his tenure at 
+Fundación CEIS Marista. This document is intended to serve as professional and employment 
+support material, presenting achievements, observable improvements, and competencies 
+demonstrated in real operating environments.
+2. Overall context of performance
+During the stated period, the professional carried out technical and strategic functions related to 
+the development, maintenance, modernization, support, automation, and integration of platforms 
+used in real production environments. This work combined analysis, full-stack development, 
+incident resolution, performance improvement, technical coordination, and operational continuity, 
+while simultaneously addressing multiple workstreams and infrastructure constraints.
+3. Main achievements and contributions
+Technology modernization and technical debt reduction
+ Participation in progressive modernization processes for legacy systems, especially in PHP 
+environments, supporting the transition toward more current and maintainable technology 
+foundations.
+ Refactoring and improvement of critical modules, increasing readability, maintainability, stability, 
+and future evolution potential for relevant components.
+ Technical preparation of existing platforms for continuity and future improvement, even in 
+scenarios where a full immediate overhaul was not feasible.
+Performance, stability, and operational continuity
+ Optimization of critical execution processes, reducing response times and improving the operational 
+experience of internal and external users.
+Professional Achievements Statement - Page 2
+ Production incident handling with an analytical approach, identifying root causes, defining 
+corrective actions, and applying preventive measures to reduce recurrence.
+ Maintenance of operational continuity in contexts with technical limitations, resolving contingencies 
+pragmatically and with commitment to service availability.
+Migrations, infrastructure, and standardization
+ Participation in server and platform migrations, providing technical coordination to reduce 
+interruption risks.
+ Collaboration in the standardization of configurations and environments, contributing to a more 
+stable and controlled operation.
+ Adaptation of solutions to restrictive infrastructures, achieving functional results even with limited 
+resources.
+Automation, internal tools, and integrations
+ Design and implementation of internal tools and solutions aimed at addressing specific operational 
+needs.
+ Automation of manual processes, reducing operational workload, errors, and execution times.
+ Support and implementation on platforms such as LimeSurvey and WordPress, together with 
+integrations on SQL Server and MySQL.
+Communications, efficiency, and applied innovation
+ Implementation of mass email sending processes through PHP and Constant Contact, supporting the 
+continuity of institutional communications.
+ Proposal of alternatives aimed at reducing operating costs associated with mass communications.
+ Use of artificial intelligence technologies during 2024 and 2025 to support analysis, problem solving, 
+and the exploration of technical solutions.
+4. Observable results and reported improvements
+ Estimated performance improvements of up to 80% in certain system processes, especially in report 
+generation and service loading within the Batería Online platform, including the migration of part of 
+the logic to JavaScript to optimize responsiveness.
+ Estimated reduction of close to 90% in customer support processes for Batería Online between 2020 
+and the date of separation, supported by workflow improvements, clearer instructions, and 
+continuity mechanisms for interruptions or connection losses.
+ Approximate 45% optimization in certain components of the battery system, both at the database 
+and code levels, through the elimination of duplication, cleanup of obsolete structures, and 
+reorganization of information into more efficient schemes.
+ Consistent completion of tasks and deliverables, adapting to both formal schedules and changing 
+requirements arising during development.
+ Early completion of scheduled tasks during 2025 and, in at least one relevant case, avoidance of 
+external support through internal study and resolution of a problem initially projected to require a 
+new hire.
+ Simultaneous support for multiple products or work lines within the institution, reaching up to five 
+concurrent fronts during certain periods.
+Professional Achievements Statement - Page 3
+5. Demonstrated competencies
+Competency Description
+Architecture and development
+Full-stack involvement in the analysis, 
+development, integration, and support of 
+production platforms.
+Legacy system modernization Ability to evolve existing systems without 
+compromising operational continuity.
+Performance optimization Improvement of timelines, critical processes, and 
+functional efficiency.
+Incident resolution Diagnosis, containment, and correction of 
+production issues.
+Automation and continuous improvement Design of internal solutions, reduction of manual 
+tasks, and sustained focus on efficiency.
+6. External validation reference
+For purposes of verifying employment context, working relationship, and general scope of 
+responsibilities, the following professional reference may be used:
+Name Jean Claude Dupry
+Title Production Manager / Fundación CEIS 
+Orientación
+Email jdupry@ceismaristas.cl
+Mobile +56 9 9415 6984
+Important: the above reference is included solely to facilitate validation of the employment and professional 
+context. Its inclusion does not imply authorship, prior review, written approval, or issuance of this document 
+by the person named above, unless later expressly confirmed.
+7. Statement by the professional
+I declare that the information presented here has been prepared in good faith, based on functions 
+effectively performed, observed results, and available professional background. This document 
+may be supplemented with a CV, portfolio, recommendation letter, repositories, and other 
+supporting materials requested during an employment evaluation process.
+Vladimir Bernardo Acuña Valdebenito
+Document issued by the professional
+Issue date: March 13, 2026

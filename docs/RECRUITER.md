@@ -19,7 +19,13 @@ El sitio obtiene puntuaciones máximas en performance, accesibilidad y SEO graci
 - **FinOps & Secure Identity**: Implementación industrial de OIDC y optimización de costos mediante arquitectura estática pura.
 - **Circuit Breakers Literales**: Lógica de manejo de errores robusta en el cliente para asegurar disponibilidad.
 
-### 3. Seguridad
+### 4. Artefactos de validación orientados a reclutamiento
+
+- **PDFs bilingües**: CV ATS, CV reclutador, portafolio y carta de recomendación cuentan con variantes ES/EN para reducir fricción en procesos internacionales.
+- **Declaración de Logros y Validación**: Documento complementario emitido por el profesional que resume mejoras observables, alcance técnico y una referencia externa de contexto laboral.
+- **Decisión de diseño**: este documento se publica separado del CV principal para no mezclar narrativa breve de postulación con evidencia ampliada de logros y validación.
+
+### 5. Seguridad
 
 Implementación proactiva de:
 
@@ -35,6 +41,7 @@ Implementación proactiva de:
 | **DevOps & Cloud** | CI/CD industrial, estrategias de portabilidad (Bundle ZIP), OIDC y optimización FinOps. |
 | **Full-Stack Portability** | Estrategia PWA + Mobile (Capacitor) con un único núcleo agnóstico. |
 | **AI/LLM Ready** | `llm.txt` estándar implementado; `robots.txt` actualizado; SEO files commiteados en raíz del repo. |
+| **Artifacts & Validation** | PDFs bilingües, CV Data API y documento separado de logros con validación externa de contexto. |
 
 ## 📈 Conclusión
 

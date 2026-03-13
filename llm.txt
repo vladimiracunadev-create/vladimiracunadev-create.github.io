@@ -9,7 +9,7 @@
 Vladimir Acuña is a Full-Stack Developer and DevOps practitioner based in Chile.
 This portfolio showcases projects, skills, and professional experience in legacy modernization,
 platform engineering, cloud infrastructure (AWS, GitHub Actions, GitLab CI/Pages), observability,
-FinOps, and local agentic AI.
+FinOps, local agentic AI, and bilingual professional artifacts for recruiter workflows.
 
 ## Index
 
@@ -25,10 +25,16 @@ FinOps, and local agentic AI.
 - AWS Amplify, S3, CloudFront, IAM/OIDC
 - Prometheus/Grafana observability labs
 - LangGraph, MCP, Ollama, FastAPI
+- Bilingual PDF artifact switching (ES/EN) for portfolio and resume assets
 
 ## Contact
 
 For professional inquiries, visit the portfolio home page or connect via the links provided there.
+
+## Public Artifacts
+
+- Primary CV and portfolio PDFs are available in Spanish and English.
+- A separate achievements statement is published to summarize observable results and provide external-reference context for validation workflows.
 
 ## Permissions
 

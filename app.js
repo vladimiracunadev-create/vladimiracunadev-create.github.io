@@ -34,6 +34,14 @@ function setLang(lang) {
   localStorage.setItem("portfolio_lang", lang);
   const sel = $("#selectLang");
   if (sel) sel.value = lang;
+  updateLocalizedPdfLinks(lang);
+}
+
+function updateLocalizedPdfLinks(lang) {
+  $$("[data-pdf-link]").forEach(link => {
+    const href = lang === "en" ? link.dataset.pdfEn : link.dataset.pdfEs;
+    if (href) link.setAttribute("href", href);
+  });
 }
 
 function handleLangChange(e) {

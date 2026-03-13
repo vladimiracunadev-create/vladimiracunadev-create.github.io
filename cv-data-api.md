@@ -56,12 +56,17 @@ console.log(profile, artifacts);
 
 ## PDFs directos
 
-| Documento | URL |
+Los PDFs públicos ahora tienen variantes en **español** e **inglés**. En la interfaz web, el selector de idioma cambia el enlace de descarga al documento equivalente cuando existe.
+
+| Documento | Español | English |
 |---|---|
-| CV ATS | [`/assets/cv-ats.pdf`](https://vladimiracunadev-create.github.io/assets/cv-ats.pdf) |
-| CV Reclutador | [`/assets/cv-reclutador.pdf`](https://vladimiracunadev-create.github.io/assets/cv-reclutador.pdf) |
-| Portafolio | [`/assets/portafolio.pdf`](https://vladimiracunadev-create.github.io/assets/portafolio.pdf) |
-| Carta de Recomendación | [`/assets/carta-recomendacion_sin_firma.pdf`](https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma.pdf) |
+| CV ATS | [`/assets/cv-ats.pdf`](https://vladimiracunadev-create.github.io/assets/cv-ats.pdf) | [`/assets/cv-ats-english.pdf`](https://vladimiracunadev-create.github.io/assets/cv-ats-english.pdf) |
+| CV Reclutador | [`/assets/cv-reclutador.pdf`](https://vladimiracunadev-create.github.io/assets/cv-reclutador.pdf) | [`/assets/cv-reclutador-english.pdf`](https://vladimiracunadev-create.github.io/assets/cv-reclutador-english.pdf) |
+| Portafolio | [`/assets/portafolio.pdf`](https://vladimiracunadev-create.github.io/assets/portafolio.pdf) | [`/assets/portafolio-english.pdf`](https://vladimiracunadev-create.github.io/assets/portafolio-english.pdf) |
+| Carta de Recomendación | [`/assets/carta-recomendacion_sin_firma.pdf`](https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma.pdf) | [`/assets/carta-recomendacion_sin_firma-english.pdf`](https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma-english.pdf) |
+| Declaración de Logros y Validación | [`/assets/declaracion-logros-validacion.pdf`](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf) | [`/assets/declaracion-logros-validacion-english.pdf`](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion-english.pdf) |
+
+La **Declaración de Logros y Validación** se publica como artefacto separado porque cumple otra función: resumir logros observables y dejar una referencia externa de contexto laboral, sin reemplazar el CV ni el portafolio.
 
 ---
 
@@ -79,6 +84,7 @@ Para regenerar `robots.txt` y `sitemap.xml`, ejecutar `node scripts/generate-seo
 
 - Teléfono y email no se exponen en los endpoints públicos.
 - Los PDFs en `assets/no_aplica/` y `assets/por_solicitud/` no se listan en la API.
+- La referencia externa incluida en la declaración de logros sirve para validar contexto laboral general; no atribuye autoría automática del documento al contacto mencionado.
 
 ---
 
@@ -86,5 +92,6 @@ Para regenerar `robots.txt` y `sitemap.xml`, ejecutar `node scripts/generate-seo
 
 - [Portafolio](https://vladimiracunadev-create.github.io/)
 - [CV ATS (PDF)](https://vladimiracunadev-create.github.io/assets/cv-ats.pdf)
+- [Achievements Statement (PDF)](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion-english.pdf)
 - [artifacts.json](https://vladimiracunadev-create.github.io/api/v1/artifacts.json)
 - [llm.txt](https://vladimiracunadev-create.github.io/llm.txt)

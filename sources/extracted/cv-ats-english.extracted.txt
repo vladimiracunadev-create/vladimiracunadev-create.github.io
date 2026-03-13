@@ -1,0 +1,50 @@
+# SOURCE: assets/cv-ats-english.pdf
+# DATE: 2026-03-13T12:42:15.520116
+
+Vladimir Acuña
+Software Architect | Senior Full-Stack (PHP/JS/SQL) | Modernization & DevOps
+Santiago, Chile | +56 9 8121 8838 | vladimir.acuna.dev@gmail.com | Web: vladimiracunadev-create.github.io |
+GitHub: github.com/vladimiracunadev-create | LinkedIn: linkedin.com/in/vladimir-acuna-valdebenito
+SUMMARY
+ 14 years leading the design, evolution, and operation of an educational/psychometric platform (2011-2025),
+with a strong focus on operational continuity.
+ Progressive modernization (PHP 5.4 -> PHP 8.2+), performance optimization, and automation of PDF/Excel
+reports and data processes.
+ Experience with databases (SQL Server, MySQL/MariaDB) and reproducible deployments/environments using
+Docker and CI/CD.
+ Technical portfolio with practical cases (Cloud/AWS, microsystems, and agents), documentation, and verifiable
+demos.
+SKILLS
+Backend: PHP 8.x, Node.js, TypeScript, Python (FastAPI)
+Frontend: JavaScript, HTML, CSS
+Data: SQL Server, MySQL/MariaDB, data modeling, ETL from Excel
+DevOps/Cloud: Docker/Compose, CI/CD (GitHub Actions/GitLab CI), AWS (S3, Amplify, CloudFront),
+Terraform (basic)
+Quality/Security: basic hardening, secret scanning, anti-injection controls
+Observability: Prometheus/Grafana (labs and fundamentals)
+EXPERIENCE
+Fundación CEIS Maristas - Software Architect and Full-Stack Developer (2011-2025)
+ Design, development, and maintenance of a student assessment platform (test batteries), institutional
+modules, and reports.
+ Technology migration (PHP 5.4 -> PHP 8.2+), server/library upgrades, and performance improvements with
+JavaScript and load testing.
+ Development of advanced PDF/Excel reports with indicators, percentiles, and analysis by class, level, and
+school.
+ Import and migration of high-volume data from Excel with validations; automation of communications (sending,
+segmentation, follow-up).
+ Direct support for key users (coordinators, counselors, school leaders) and production operations.
+Technologies: PHP, JavaScript, SQL Server, MySQL, Apache, JMeter, Excel, FPDF/PhpSpreadsheet, Constant
+Contact
+SELECTED PROJECTS
+• Cloud/AWS and FinOps (demos and documentation): github.com/vladimiracunadev-create/proyectos-aws
+• Microsystems (modular suite and documentation): github.com/vladimiracunadev-create/microsistemas
+• LangGraph real-world cases (stateful agents): github.com/vladimiracunadev-create/langgraph-realworld
+• MCP + local Ollama (tooling and PoC): github.com/vladimiracunadev-create/mcp-ollama-local
+EDUCATION & RECENT ACTIVITY
+ Continuous learning (online courses): ML/NLP fundamentals and practical automation applied to projects.
+ Consolidation of a technical portfolio (Cloud/AWS, Docker labs, agents) and recruiter-oriented documentation.
+Computer and Informatics Engineering
+Universidad de Tarapacá (Arica)
+Business Administration Technician (Marketing concentration)
+INACAP (Santiago)
+Languages: English: intermediate reading; basic writing and conversation.

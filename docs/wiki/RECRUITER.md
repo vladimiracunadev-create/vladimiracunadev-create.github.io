@@ -19,7 +19,13 @@ No es solo "código que funciona", es código profesional:
 - **Pipeline de Despliegue**: Integración con GitHub Actions para asegurar que cada commit sea válido y seguro.
 - **Estructura Semántica**: Uso riguroso de etiquetas HTML5 para accesibilidad (A11y) y SEO.
 
-### 3. Seguridad
+### 3. Artefactos orientados a validación
+
+- **PDFs bilingües**: CV ATS, CV reclutador, portafolio y carta de recomendación cuentan con variantes ES/EN.
+- **Declaración de Logros y Validación**: Documento complementario emitido por el profesional que resume resultados observables y agrega una referencia externa de contexto laboral.
+- **Criterio de publicación**: se mantiene separado del CV para no recargar la narrativa principal de postulación.
+
+### 4. Seguridad
 
 Implementación proactiva de:
 
@@ -36,6 +42,7 @@ Implementación proactiva de:
 | **SEO/Marketing** | `robots.txt`, `sitemap.xml` y `llm.txt` commiteados en raíz. |
 | **AI/LLM Ready** | `llm.txt` estándar implementado; CV Data API JSON desde PDFs. |
 | **CV Data API** | 6 endpoints JSON estáticos en `/api/v1/` — perfil, experiencia, proyectos, skills, PDFs. |
+| **Artifacts & Validation** | Descargas bilingües y artefacto separado de logros para validación externa. |
 
 ## 📈 Conclusión
 
