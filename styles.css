@@ -611,12 +611,17 @@ body[data-theme="light"] .lang-select option {
 
 .signal-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 14px;
 }
 
 .signal {
-  padding: 18px 16px;
+  padding: 16px 14px;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 .signal__value {
@@ -625,6 +630,10 @@ body[data-theme="light"] .lang-select option {
   line-height: 1;
   margin-bottom: 8px;
   color: var(--text);
+}
+
+.signal p {
+  margin: 0;
 }
 
 .bullets {
