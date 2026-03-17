@@ -1,7 +1,7 @@
 {
     "name": "Vladimir Acuña · Portafolio",
     "short_name": "VladiPortafolio",
-    "description": "Portafolio de Vladimir Acuña — Modernización legacy, DevOps e IA local.",
+    "description": "Portafolio de Vladimir Acuña — Arquitecto de Soluciones, modernización de sistemas legacy, automatización e integración de IA aplicada.",
     "start_url": "./index.html",
     "display": "standalone",
     "background_color": "#0f172a",
