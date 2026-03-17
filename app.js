@@ -41,7 +41,8 @@ function resolveLocalizedPdfHref(link, lang) {
   const fallback = link.dataset.pdfEs || link.getAttribute("href") || "#";
   const english = link.dataset.pdfEn;
 
-  if (lang === "en" && english && /-english\.pdf$/i.test(english)) {
+  // fr y zh usan PDFs en inglés; todos los demás usan español como fallback
+  if ((lang === "en" || lang === "fr" || lang === "zh") && english && /-english\.pdf$/i.test(english)) {
     return english;
   }
 

@@ -33,50 +33,62 @@ body[data-theme="light"] {
   --surface: rgba(255, 255, 255, .7);
 }
 
-/* --- LÓGICA DE VISIBILIDAD BILINGÜE (RESPETUOSA) --- */
+/* --- LÓGICA DE VISIBILIDAD MULTILINGÜE --- */
 /* Ocultar por defecto para evitar parpadeos */
 [data-en],
-[data-es] {
+[data-es],
+[data-pt],
+[data-it],
+[data-fr],
+[data-zh] {
   display: none !important;
 }
 
-/* Inyección de visibilidad basada en el lenguaje - No fuerza display type */
+/* Visibilidad basada en el idioma activo (spans y elementos inline) */
 body:not([data-lang]) [data-es],
-body[data-lang="es"] [data-es] {
-  display: revert !important;
-}
+body[data-lang="es"] [data-es] { display: revert !important; }
 
-body[data-lang="en"] [data-en] {
-  display: revert !important;
-}
+body[data-lang="en"] [data-en] { display: revert !important; }
+body[data-lang="pt"] [data-pt] { display: revert !important; }
+body[data-lang="it"] [data-it] { display: revert !important; }
+body[data-lang="fr"] [data-fr] { display: revert !important; }
+body[data-lang="zh"] [data-zh] { display: revert !important; }
 
-/* Casos específicos para elementos de bloque que 'revert' podría no manejar bien en todos los navegadores */
-body:not([data-lang]) div[data-es],
-body[data-lang="es"] div[data-es],
-body:not([data-lang]) section[data-es],
-body[data-lang="es"] section[data-es],
-body:not([data-lang]) article[data-es],
-body[data-lang="es"] article[data-es],
-body:not([data-lang]) p[data-es],
-body[data-lang="es"] p[data-es],
-body:not([data-lang]) h1[data-es],
-body[data-lang="es"] h1[data-es],
-body:not([data-lang]) h2[data-es],
-body[data-lang="es"] h2[data-es],
-body:not([data-lang]) h3[data-es],
-body[data-lang="es"] h3[data-es] {
+/* Elementos de bloque: forzar display:block donde revert no alcanza */
+body:not([data-lang]) div[data-es],  body[data-lang="es"] div[data-es],
+body:not([data-lang]) section[data-es], body[data-lang="es"] section[data-es],
+body:not([data-lang]) article[data-es], body[data-lang="es"] article[data-es],
+body:not([data-lang]) p[data-es],    body[data-lang="es"] p[data-es],
+body:not([data-lang]) h1[data-es],   body[data-lang="es"] h1[data-es],
+body:not([data-lang]) h2[data-es],   body[data-lang="es"] h2[data-es],
+body:not([data-lang]) h3[data-es],   body[data-lang="es"] h3[data-es] {
   display: block !important;
 }
 
-body[data-lang="en"] div[data-en],
-body[data-lang="en"] section[data-en],
-body[data-lang="en"] article[data-en],
-body[data-lang="en"] p[data-en],
-body[data-lang="en"] h1[data-en],
-body[data-lang="en"] h2[data-en],
-body[data-lang="en"] h3[data-en] {
-  display: block !important;
-}
+body[data-lang="en"] div[data-en],   body[data-lang="en"] section[data-en],
+body[data-lang="en"] article[data-en], body[data-lang="en"] p[data-en],
+body[data-lang="en"] h1[data-en],    body[data-lang="en"] h2[data-en],
+body[data-lang="en"] h3[data-en] { display: block !important; }
+
+body[data-lang="pt"] div[data-pt],   body[data-lang="pt"] section[data-pt],
+body[data-lang="pt"] article[data-pt], body[data-lang="pt"] p[data-pt],
+body[data-lang="pt"] h1[data-pt],    body[data-lang="pt"] h2[data-pt],
+body[data-lang="pt"] h3[data-pt] { display: block !important; }
+
+body[data-lang="it"] div[data-it],   body[data-lang="it"] section[data-it],
+body[data-lang="it"] article[data-it], body[data-lang="it"] p[data-it],
+body[data-lang="it"] h1[data-it],    body[data-lang="it"] h2[data-it],
+body[data-lang="it"] h3[data-it] { display: block !important; }
+
+body[data-lang="fr"] div[data-fr],   body[data-lang="fr"] section[data-fr],
+body[data-lang="fr"] article[data-fr], body[data-lang="fr"] p[data-fr],
+body[data-lang="fr"] h1[data-fr],    body[data-lang="fr"] h2[data-fr],
+body[data-lang="fr"] h3[data-fr] { display: block !important; }
+
+body[data-lang="zh"] div[data-zh],   body[data-lang="zh"] section[data-zh],
+body[data-lang="zh"] article[data-zh], body[data-lang="zh"] p[data-zh],
+body[data-lang="zh"] h1[data-zh],    body[data-lang="zh"] h2[data-zh],
+body[data-lang="zh"] h3[data-zh] { display: block !important; }
 
 * {
   box-sizing: border-box
