@@ -39,14 +39,8 @@ function setLang(lang) {
 
 function resolveLocalizedPdfHref(link, lang) {
   const fallback = link.dataset.pdfEs || link.getAttribute("href") || "#";
-  const english = link.dataset.pdfEn;
-
-  // fr y zh usan PDFs en inglés; todos los demás usan español como fallback
-  if ((lang === "en" || lang === "fr" || lang === "zh") && english && /-english\.pdf$/i.test(english)) {
-    return english;
-  }
-
-  return fallback;
+  const key = "pdf" + lang.charAt(0).toUpperCase() + lang.slice(1);
+  return link.dataset[key] || fallback;
 }
 
 function updateLocalizedPdfLinks(lang) {

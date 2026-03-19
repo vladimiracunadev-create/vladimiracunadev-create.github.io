@@ -91,6 +91,10 @@ def recruiter_styles():
             "RTech", fontName="Helvetica", fontSize=8.5, leading=11,
             textColor=MUTED, spaceAfter=2,
         ),
+        link=ParagraphStyle(
+            "RLink", fontName="Helvetica", fontSize=9, leading=12,
+            textColor=ACCENT, spaceAfter=2, leftIndent=10, bulletIndent=0,
+        ),
         note_heading=ParagraphStyle(
             "RNoteH", fontName="Helvetica-Bold", fontSize=9.5, leading=13,
             textColor=NAVY, spaceBefore=6, spaceAfter=2,
@@ -273,6 +277,10 @@ RMAIN_ES = dict(
         "LangGraph \u2014 25 casos reales, 4 operacionales/industriales, agentes con estado",
         "MCP + Ollama local \u2014 chat IA local, herramientas MCP, 100% privado",
     ],
+    doc_links=[
+        ("Ver declaración de logros profesionales", "https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf"),
+        ("Ver carta de recomendación", "https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma.pdf"),
+    ],
     h_training="FORMACI\u00d3N Y ACTIVIDAD RECIENTE",
     training=[
         "Formaci\u00f3n continua en automatizaci\u00f3n pr\u00e1ctica, ML/NLP y herramientas de desarrollo.",
@@ -308,6 +316,10 @@ RMAIN_EN = dict(
         "Docker Labs \u2014 12 labs, Control Center, Windows installer",
         "LangGraph \u2014 25 real-world cases, 4 operational/industrial, stateful agents",
         "MCP + local Ollama \u2014 local AI chat, MCP tools, 100% private",
+    ],
+    doc_links=[
+        ("View professional achievements statement", "https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion-english.pdf"),
+        ("View recommendation letter", "https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma-english.pdf"),
     ],
     h_training="RECENT TRAINING AND PROJECTS",
     training=[
@@ -607,6 +619,13 @@ def build_recruiter_section(sidebar_data, main_data):
     items.append(Paragraph(main_data["h_projects"], s["heading"]))
     for proj in main_data["projects"]:
         items.append(bp(s["bullet"], proj))
+
+    # ── Document links (achievements, recommendation) ──
+    if main_data.get("doc_links"):
+        items.append(hr())
+        for label, url in main_data["doc_links"]:
+            items.append(Paragraph(f'\u2022 <link href="{url}">{label}</link>', s["link"]))
+
     items.append(hr())
 
     items.append(Paragraph(main_data["h_training"], s["heading"]))
