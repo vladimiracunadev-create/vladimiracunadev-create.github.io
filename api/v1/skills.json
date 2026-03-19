@@ -1,77 +1,144 @@
 {
     "meta": {
         "version": "v1",
-        "generated_at": "2026-03-13",
+        "generated_at": "2026-03-19",
         "source_pdf": "assets/cv-ats.pdf"
     },
     "skills": {
-        "backend": {
+        "languages": {
             "items": [
                 "PHP 8.x",
-                "Node.js",
-                "TypeScript",
-                "Python (FastAPI)"
+                "Python",
+                "Go",
+                "Node.js / TypeScript",
+                "C#",
+                "Ruby",
+                "Rust",
+                "JavaScript (ES6+)",
+                "PowerShell",
+                "Bash/Shell"
             ],
             "level": "senior"
         },
         "frontend": {
             "items": [
-                "JavaScript (ES6+)",
                 "HTML5",
-                "CSS3"
+                "CSS3",
+                "JavaScript (ES6+)",
+                "PWA (Service Worker, Manifest)",
+                "Capacitor (móvil/desktop)"
             ],
             "level": "senior"
         },
         "data": {
             "items": [
                 "SQL Server",
-                "MySQL/MariaDB",
+                "PostgreSQL",
+                "MySQL / MariaDB",
+                "MongoDB",
+                "DynamoDB (GSI, Single Table Design, TTL)",
+                "Cassandra",
+                "Redis",
+                "SQLite",
+                "DuckDB",
                 "Modelado relacional",
                 "ETL desde Excel"
             ],
             "level": "senior"
         },
-        "devops_cloud": {
+        "cloud_aws": {
             "items": [
-                "Docker/Compose",
-                "GitHub Actions",
-                "GitLab CI",
-                "AWS S3",
-                "AWS Amplify",
-                "CloudFront",
-                "GitLab Pages",
-                "AWS IAM / OIDC",
-                "AWS ECS / EKS",
-                "Terraform"
+                "Lambda / SAM",
+                "API Gateway (HTTP API)",
+                "DynamoDB",
+                "ECS Fargate",
+                "EKS v1.32",
+                "S3 / CloudFront / Amplify",
+                "Cognito / WAF",
+                "EventBridge / SQS / SNS",
+                "CloudWatch / X-Ray",
+                "IAM / OIDC",
+                "Budgets / Cost Explorer",
+                "Route 53"
             ],
             "level": "senior"
         },
-        "quality_security": {
+        "infrastructure": {
             "items": [
-                "hardening básico",
-                "secret scanning",
-                "control anti-inyección"
+                "Docker / Compose",
+                "Kubernetes (EKS, manifests)",
+                "Terraform 1.14+",
+                "AWS SAM CLI",
+                "DevContainers",
+                "Makefile"
             ],
-            "level": "mid"
+            "level": "senior"
+        },
+        "ci_cd": {
+            "items": [
+                "GitHub Actions",
+                "GitLab CI/CD",
+                "GitHub Pages",
+                "GitLab Pages",
+                "AWS Amplify",
+                "pre-commit hooks",
+                "commitlint"
+            ],
+            "level": "senior"
         },
         "observability": {
             "items": [
                 "Prometheus",
                 "Grafana",
-                "Dashboards locales",
+                "CloudWatch (métricas, logs, dashboards, alarmas)",
+                "X-Ray (trazabilidad distribuida)",
                 "Lighthouse CI"
             ],
-            "level": "mid"
+            "level": "senior"
+        },
+        "security": {
+            "items": [
+                "gitleaks",
+                "tfsec",
+                "Trivy",
+                "pre-commit hooks",
+                "secret scanning",
+                "IAM Privilegio Mínimo",
+                "OIDC Identity",
+                "CloudFront OAC",
+                "Cognito + JWT + WAF"
+            ],
+            "level": "senior"
         },
         "ai_agentic": {
             "items": [
-                "LangGraph",
-                "Ollama (local)",
-                "MCP",
-                "Guardrails",
-                "FastAPI + LLM"
+                "LangGraph (estado tipado, rutas condicionales)",
+                "Ollama (local-first)",
+                "MCP Protocol",
+                "FastAPI + LLM",
+                "n8n (orquestación)",
+                "Guardrails (circuit breaker, DLQ, idempotencia)"
             ],
-            "level": "mid"
+            "level": "mid-senior"
+        },
+        "messaging": {
+            "items": [
+                "EventBridge",
+                "SQS / SNS",
+                "RabbitMQ",
+                "DLQ patterns"
+            ],
+            "level": "senior"
+        },
+        "testing": {
+            "items": [
+                "pytest (60+ unit tests)",
+                "boto3 / moto",
+                "Lighthouse CI",
+                "JMeter",
+                "Hub CLI (doctor/smoke)"
+            ],
+            "level": "senior"
         }
     },
     "education": [

@@ -1,7 +1,7 @@
 {
     "meta": {
         "version": "v1",
-        "generated_at": "2026-03-13",
+        "generated_at": "2026-03-19",
         "api_name": "CV Data API",
         "owner": "Vladimir Acuña",
         "base_url": "https://vladimiracunadev-create.github.io",
@@ -19,9 +19,21 @@
     "capabilities": {
         "artifact_languages": [
             "es",
-            "en"
+            "en",
+            "pt",
+            "it",
+            "fr",
+            "zh"
         ],
-        "artifact_switching": "Download links may switch to the corresponding language variant in the website UI."
+        "artifact_switching": "Download links switch to the corresponding language variant in the website UI via data-pdf-{lang} attributes.",
+        "language_suffix_map": {
+            "es": "",
+            "en": "-english",
+            "pt": "-portuguese",
+            "it": "-italian",
+            "fr": "-french",
+            "zh": "-chinese"
+        }
     },
     "seo": {
         "robots": "/robots.txt",
@@ -35,7 +47,8 @@
     },
     "data_source": {
         "primary_pdf": "assets/cv-ats.pdf",
-        "extraction_method": "pypdf",
-        "extraction_date": "2026-03-13"
+        "extraction_method": "pypdf + reportlab pipeline",
+        "extraction_date": "2026-03-19",
+        "pdf_generation": "Python reportlab (30+ PDFs across 6 languages)"
     }
 }

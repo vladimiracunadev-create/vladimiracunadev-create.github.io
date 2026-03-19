@@ -1,7 +1,7 @@
 {
     "meta": {
         "version": "v1",
-        "generated_at": "2026-03-13",
+        "generated_at": "2026-03-19",
         "source_pdf": "assets/cv-ats.pdf"
     },
     "experience": [
@@ -39,8 +39,12 @@
         }
     ],
     "recent_activity": [
-        "Formación continua: bases de ML/NLP, agentes con estado y automatización práctica aplicada a proyectos.",
-        "Consolidación de portafolio técnico con casos AWS en GitHub/GitLab, documentación por perfil, GitLab Pages, FinOps y evidencias ECS/EKS.",
-        "Publicación de artefactos bilingües y de una declaración formal de logros para facilitar procesos de validación externa."
+        "Consolidación de ecosistema verificable: 15 casos AWS (11 completados, 3 validados) con Terraform, SAM, Lambda, DynamoDB, Cognito/WAF, EventBridge, ECS/EKS y FinOps.",
+        "Polyglot persistence demostrada: Social Bot Scheduler v4.x con 9 lenguajes × 12+ motores de datos y observabilidad industrial (Prometheus/Grafana).",
+        "Portafolio profesional en 6 idiomas (ES/EN/PT/IT/FR/ZH) con 30+ PDFs generados por pipeline Python (reportlab).",
+        "IA aplicada con mentalidad de ingeniería: LangGraph (4 casos operativos, estado tipado), MCP+Ollama local-first con privacidad.",
+        "Docker Labs v1.4: 12 labs integrados con centro de control, launcher Go y Windows installer.",
+        "Microsistemas: 11 herramientas con KatasMultiLang (195 comparaciones / 67 tecnologías), servidor MCP Python.",
+        "Formación continua: bases de ML/NLP, agentes con estado y automatización práctica aplicada a proyectos."
     ]
 }

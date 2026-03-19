@@ -34,9 +34,9 @@ A diferencia de las soluciones sobre-ingenierizadas con frameworks masivos, este
 
 ---
 
-## 📈 Evolución Reciente: Hitos Consolidados al 13 de Marzo de 2026
+## 📈 Evolución Reciente: Hitos Consolidados al 19 de Marzo de 2026
 
-Este proyecto ha escalado de un portafolio personal a un **Demostrador Industrial** de ingeniería de software. La revisión de repositorios activos en GitHub y GitLab confirma 7 pilares estratégicos:
+Este proyecto ha escalado de un portafolio personal a un **Demostrador Industrial** de ingeniería de software. La revisión de repositorios activos en GitHub y GitLab confirma 8 pilares estratégicos:
 
 1. **Observabilidad Aplicada**: Prometheus/Grafana, dashboards locales y visibilidad operativa para labs reproducibles.
 2. **Resiliencia (Circuit Breakers)**: Patrones para manejo de fallas en microservicios.
@@ -45,6 +45,7 @@ Este proyecto ha escalado de un portafolio personal a un **Demostrador Industria
 5. **Platform Engineering & DX**: Hub CLI, pruebas `doctor`/`smoke`, documentación por perfil y entornos reproducibles.
 6. **Multiplatform Core**: Un solo código fuente para Web, PWA y Apps Nativas (Capacitor).
 7. **Agentic AI Ready + LLM Discoverability**: Arquitectura compatible con asistentes de IA, flujos autónomos y discoverability semántica vía `llm.txt`.
+8. **Internacionalización Completa**: 6 idiomas (ES/EN/PT/IT/FR/ZH) con 30+ PDFs generados por pipeline Python/reportlab — CVs, portafolio, carta de recomendación y declaración de logros. Enlace dinámico: el selector de idioma cambia automáticamente los PDFs descargables.
 
 ---
 
@@ -52,7 +53,7 @@ Este proyecto ha escalado de un portafolio personal a un **Demostrador Industria
 
 El sistema cuenta con un motor de **i18n (Internationalization)** e **Theming** de alto rendimiento:
 
-* **Bilingüe (ES/EN)**: Implementado mediante CSS pasivo para un cambio de idioma instantáneo sin recarga de página.
+* **6 idiomas (ES/EN/PT/IT/FR/ZH)**: Cambio de idioma instantáneo sin recarga de página; los enlaces de descarga de PDF cambian automáticamente al documento del idioma activo vía `data-pdf-{lang}`.
 * **Temas Dinámicos**: Modo Oscuro/Claro totalmente reactivo, respetando las preferencias del sistema y del usuario.
 * **Layout Adaptativo**: Estructura industrial capaz de manejar contenidos densos sin colapso visual.
 
@@ -127,17 +128,33 @@ Para compartir ese binario, usa una **GitHub Release**; no lo subas al árbol no
 ```text
 ├── apps/                    # Contenedores móviles nativos (Capacitor)
 ├── docs/                    # Documentación profunda y guías de sistema
-├── scripts/                 # Automatización de build, sync y correcciones
-├── assets/                  # Recursos estáticos (Imágenes, Iconos, PDFs)
+├── scripts/                 # Pipeline de generación de PDFs y build
+│   ├── generate-all-languages.py        # Genera 12 CVs (reclutador+ATS × 6 idiomas)
+│   ├── generate-unified-cv.py           # CV unificado (reclutador pág 1 + ATS págs 3-4)
+│   ├── generate-portfolio.py            # Portafolio × 6 idiomas
+│   ├── generate-achievements-statement.py  # Declaración de logros × 6 idiomas
+│   ├── generate-recommendation-letter.py   # Carta de recomendación × 6 idiomas
+│   ├── generate-ats-cv.py               # CV ATS standalone
+│   └── generate-recruiter-cv.py         # CV reclutador standalone
+├── assets/                  # PDFs públicos (30+ variantes en 6 idiomas)
+│   └── no_aplica/           # Versiones descartadas — no publicadas en la API
 ├── .agents/skills/          # Skills de IA para automatizar el portafolio
 ├── api/v1/                  # CV Data API — endpoints JSON estáticos
+│   ├── meta.json            # Metadatos y capacidades multilingüe
+│   ├── profile.json         # Perfil profesional
+│   ├── experience.json      # Experiencia laboral
+│   ├── projects.json        # Proyectos del ecosistema
+│   ├── skills.json          # Habilidades técnicas
+│   └── artifacts.json       # Inventario de PDFs con 6 variantes c/u
 ├── data/                    # JSON Resume canónico (resume.json)
 ├── sources/extracted/       # Textos extraídos de PDFs (auditoría)
 ├── .github/workflows/       # Pipelines CI/CD (calidad, SEO, Lighthouse)
-├── index.html               # Núcleo de la aplicación (Vanilla i18n Ready)
+├── index.html               # SPA principal — 6 idiomas + 3 vistas + PWA
+├── app.js                   # Lógica i18n, PDF routing multilingüe, vistas
 ├── robots.txt               # Directivas para crawlers de búsqueda
 ├── sitemap.xml              # Mapa del sitio para SEO
 ├── llm.txt                  # Contexto semántico para AI/LLMs (llmstxt.org)
+├── CLAUDE.md                # Fuente de verdad del proyecto para Claude Code
 ├── cv-data-api.md           # Manual de la CV Data API
 ├── manifest.webmanifest     # Configuración PWA
 ├── service-worker.js        # Gestión de Cache & Offline
@@ -152,6 +169,7 @@ El repositorio incluye un sistema de **Skills de IA** para mantenimiento por cap
 
 | Skill | Cuando usarlo |
 |---|---|
+| [`sync-portfolio`](.agents/skills/sync-portfolio/SKILL.md) | Sincronización completa: audita repos, actualiza JSONs, READMEs, PDFs y hace push |
 | [`portfolio-full-update`](.agents/skills/portfolio-full-update/SKILL.md) | Cuando cambian CV, experiencia, proyectos, PDFs o quieres refrescar todo el portafolio |
 | [`portfolio-consistency-audit`](.agents/skills/portfolio-consistency-audit/SKILL.md) | Cuando quieres detectar contradicciones entre sitio, API, documentacion, wiki y archivos SEO |
 | [`portfolio-release-guard`](.agents/skills/portfolio-release-guard/SKILL.md) | Antes de commit, push o release para validar lint, build e integridad de `dist/` |
@@ -176,7 +194,7 @@ El currículum está publicado como **API JSON estática de solo lectura**, extr
 
 📑 [Manual completo → `cv-data-api.md`](cv-data-api.md)
 
-Los artefactos públicos ahora disponen de variantes **ES/EN** y el selector de idioma del sitio cambia automáticamente las descargas al PDF equivalente cuando existe. Además, se incorporó una **Declaración de Logros y Validación** como respaldo separado: resume logros observables y facilita validación externa sin reemplazar el CV ni el portafolio principal.
+Los artefactos públicos disponen de variantes en **6 idiomas (ES/EN/PT/IT/FR/ZH)** y el selector de idioma del sitio cambia automáticamente las descargas al PDF equivalente vía atributos `data-pdf-{lang}`. Además, se incorporó una **Declaración de Logros y Validación** como respaldo separado: resume logros observables y facilita validación externa sin reemplazar el CV ni el portafolio principal. Las cartas de recomendación también están disponibles en los 6 idiomas.
 
 El sitio también enlaza documentación pública de repos clave cuando existe (`README.md` y, en algunos casos, `RECRUITER.md`) para reducir fricción de evaluación técnica y de reclutamiento.
 

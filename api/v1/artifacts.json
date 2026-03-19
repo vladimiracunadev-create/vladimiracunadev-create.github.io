@@ -1,13 +1,25 @@
 {
     "meta": {
         "version": "v1",
-        "generated_at": "2026-03-13"
+        "generated_at": "2026-03-19"
     },
     "base_url": "https://vladimiracunadev-create.github.io",
     "artifact_languages": [
         "es",
-        "en"
+        "en",
+        "pt",
+        "it",
+        "fr",
+        "zh"
     ],
+    "language_suffix_map": {
+        "es": "",
+        "en": "-english",
+        "pt": "-portuguese",
+        "it": "-italian",
+        "fr": "-french",
+        "zh": "-chinese"
+    },
     "artifacts": [
         {
             "id": "cv_ats",
@@ -16,7 +28,7 @@
             "type": "pdf",
             "category": "cv",
             "default_language": "es",
-            "updated_at": "2026-03-13",
+            "updated_at": "2026-03-19",
             "variants": {
                 "es": {
                     "label": "CV ATS",
@@ -27,6 +39,26 @@
                     "label": "ATS CV",
                     "file": "assets/cv-ats-english.pdf",
                     "url": "https://vladimiracunadev-create.github.io/assets/cv-ats-english.pdf"
+                },
+                "pt": {
+                    "label": "CV ATS",
+                    "file": "assets/cv-ats-portuguese.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/cv-ats-portuguese.pdf"
+                },
+                "it": {
+                    "label": "CV ATS",
+                    "file": "assets/cv-ats-italian.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/cv-ats-italian.pdf"
+                },
+                "fr": {
+                    "label": "CV ATS",
+                    "file": "assets/cv-ats-french.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/cv-ats-french.pdf"
+                },
+                "zh": {
+                    "label": "ATS简历",
+                    "file": "assets/cv-ats-chinese.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/cv-ats-chinese.pdf"
                 }
             }
         },
@@ -37,7 +69,7 @@
             "type": "pdf",
             "category": "cv",
             "default_language": "es",
-            "updated_at": "2026-03-13",
+            "updated_at": "2026-03-19",
             "variants": {
                 "es": {
                     "label": "CV Reclutador",
@@ -48,6 +80,26 @@
                     "label": "Recruiter CV",
                     "file": "assets/cv-reclutador-english.pdf",
                     "url": "https://vladimiracunadev-create.github.io/assets/cv-reclutador-english.pdf"
+                },
+                "pt": {
+                    "label": "CV Recrutador",
+                    "file": "assets/cv-reclutador-portuguese.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/cv-reclutador-portuguese.pdf"
+                },
+                "it": {
+                    "label": "CV Recruiter",
+                    "file": "assets/cv-reclutador-italian.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/cv-reclutador-italian.pdf"
+                },
+                "fr": {
+                    "label": "CV Recruteur",
+                    "file": "assets/cv-reclutador-french.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/cv-reclutador-french.pdf"
+                },
+                "zh": {
+                    "label": "招聘简历",
+                    "file": "assets/cv-reclutador-chinese.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/cv-reclutador-chinese.pdf"
                 }
             }
         },
@@ -58,7 +110,7 @@
             "type": "pdf",
             "category": "portfolio",
             "default_language": "es",
-            "updated_at": "2026-03-13",
+            "updated_at": "2026-03-19",
             "variants": {
                 "es": {
                     "label": "Portafolio",
@@ -69,6 +121,26 @@
                     "label": "Portfolio",
                     "file": "assets/portafolio-english.pdf",
                     "url": "https://vladimiracunadev-create.github.io/assets/portafolio-english.pdf"
+                },
+                "pt": {
+                    "label": "Portfólio",
+                    "file": "assets/portafolio-portuguese.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/portafolio-portuguese.pdf"
+                },
+                "it": {
+                    "label": "Portfolio",
+                    "file": "assets/portafolio-italian.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/portafolio-italian.pdf"
+                },
+                "fr": {
+                    "label": "Portfolio",
+                    "file": "assets/portafolio-french.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/portafolio-french.pdf"
+                },
+                "zh": {
+                    "label": "作品集",
+                    "file": "assets/portafolio-chinese.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/portafolio-chinese.pdf"
                 }
             }
         },
@@ -79,7 +151,7 @@
             "type": "pdf",
             "category": "letter",
             "default_language": "es",
-            "updated_at": "2026-03-13",
+            "updated_at": "2026-03-19",
             "variants": {
                 "es": {
                     "label": "Carta de Recomendación",
@@ -90,6 +162,26 @@
                     "label": "Recommendation Letter",
                     "file": "assets/carta-recomendacion_sin_firma-english.pdf",
                     "url": "https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma-english.pdf"
+                },
+                "pt": {
+                    "label": "Carta de Recomendação",
+                    "file": "assets/carta-recomendacion_sin_firma-portuguese.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma-portuguese.pdf"
+                },
+                "it": {
+                    "label": "Lettera di Raccomandazione",
+                    "file": "assets/carta-recomendacion_sin_firma-italian.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma-italian.pdf"
+                },
+                "fr": {
+                    "label": "Lettre de Recommandation",
+                    "file": "assets/carta-recomendacion_sin_firma-french.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma-french.pdf"
+                },
+                "zh": {
+                    "label": "推荐信",
+                    "file": "assets/carta-recomendacion_sin_firma-chinese.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma-chinese.pdf"
                 }
             }
         },
@@ -100,7 +192,7 @@
             "type": "pdf",
             "category": "validation",
             "default_language": "es",
-            "updated_at": "2026-03-13",
+            "updated_at": "2026-03-19",
             "rationale": "Published as a separate artifact so recruiters can review validated achievements and external-reference context without overloading the primary CV or portfolio narrative.",
             "variants": {
                 "es": {
@@ -112,6 +204,26 @@
                     "label": "Achievements Statement",
                     "file": "assets/declaracion-logros-validacion-english.pdf",
                     "url": "https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion-english.pdf"
+                },
+                "pt": {
+                    "label": "Declaração de Conquistas",
+                    "file": "assets/declaracion-logros-validacion-portuguese.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion-portuguese.pdf"
+                },
+                "it": {
+                    "label": "Dichiarazione dei Risultati",
+                    "file": "assets/declaracion-logros-validacion-italian.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion-italian.pdf"
+                },
+                "fr": {
+                    "label": "Déclaration de Réalisations",
+                    "file": "assets/declaracion-logros-validacion-french.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion-french.pdf"
+                },
+                "zh": {
+                    "label": "成就声明",
+                    "file": "assets/declaracion-logros-validacion-chinese.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion-chinese.pdf"
                 }
             }
         }

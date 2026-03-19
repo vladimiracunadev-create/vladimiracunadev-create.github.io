@@ -1,76 +1,117 @@
 {
     "meta": {
         "version": "v1",
-        "generated_at": "2026-03-13",
+        "generated_at": "2026-03-19",
         "source_pdf": "assets/cv-ats.pdf"
     },
     "projects": [
         {
             "name": "Cloud/AWS y FinOps",
-            "description": "Demos y documentación de casos prácticos en GitHub y GitLab: OIDC, Terraform, AWS Budgets, GitLab Pages, ECS/EKS, SAST, secret scanning y gobernanza de costos.",
+            "description": "15 casos prácticos AWS (11 completados, 3 validados): OIDC, Terraform, SAM, Lambda, DynamoDB, Cognito/WAF, EventBridge/SQS/SNS, CloudWatch/X-Ray, ECS/EKS, FinOps con Budgets y gobernanza de costos.",
             "url": "https://github.com/vladimiracunadev-create/proyectos-aws",
+            "gitlab_url": "https://gitlab.com/vladimir.acuna.dev-group/proyectos-aws-gitlab",
             "tags": [
                 "AWS",
-                "S3",
-                "Amplify",
-                "CloudFront",
-                "OIDC",
-                "Terraform",
-                "FinOps",
+                "Lambda",
+                "DynamoDB",
                 "ECS",
                 "EKS",
-                "GitLab Pages",
-                "SAST"
+                "Cognito",
+                "WAF",
+                "EventBridge",
+                "SQS/SNS",
+                "CloudWatch",
+                "X-Ray",
+                "Terraform",
+                "SAM",
+                "OIDC",
+                "FinOps"
             ],
-            "category": "cloud"
+            "category": "cloud",
+            "cases_completed": 11,
+            "cases_total": 15
         },
         {
-            "name": "Docker Labs · Infra Hub",
-            "description": "Laboratorios reproducibles para levantar stacks, dashboard local, Compose y rutas prácticas de observabilidad con Prometheus/Grafana.",
+            "name": "Social Bot Scheduler v4.x",
+            "description": "Orquestación real con n8n: 9 ejes de integración (Python/Go/Node/PHP/Ruby/Rust/C#/Flask/Symfony), polyglot persistence (12+ motores de datos), observabilidad industrial (Prometheus/Grafana), guardrails (idempotencia, circuit breaker, DLQ).",
+            "url": "https://github.com/vladimiracunadev-create/social-bot-scheduler",
+            "tags": [
+                "n8n",
+                "Python",
+                "Go",
+                "Node.js",
+                "PHP",
+                "Ruby",
+                "Rust",
+                "C#",
+                "Polyglot",
+                "Prometheus",
+                "Grafana",
+                "Docker",
+                "Kubernetes",
+                "Circuit Breaker"
+            ],
+            "category": "orchestration"
+        },
+        {
+            "name": "Docker Labs v1.4 · Infra Hub",
+            "description": "12 labs integrados con centro de control unificado (port 9090), Inventory Core API, Operations Portal, Platform Gateway. Launcher nativo Go, instalador Windows automatizado, observabilidad con Prometheus/Grafana, manifiestos K8s.",
             "url": "https://github.com/vladimiracunadev-create/docker-labs",
             "tags": [
                 "Docker",
+                "Go",
+                "Node.js",
+                "Python",
                 "Prometheus",
                 "Grafana",
-                "Observabilidad",
-                "Compose",
-                "Kubernetes"
+                "Elasticsearch",
+                "Redis",
+                "RabbitMQ",
+                "Kubernetes",
+                "Windows Installer"
             ],
             "category": "platform"
         },
         {
             "name": "Microsistemas · Productivity Suite",
-            "description": "Suite modular para diagnóstico y modernización: Hub CLI, Makefile operativo, doctor/smoke tests y utilidades orientadas a reducir fricción de mantenimiento.",
+            "description": "11 herramientas modulares: KatasMultiLang (195 comparaciones / 67 tecnologías), CicdLibrary (192 patrones CI/CD), AWS Assistant Pro, servidor MCP Python para integración IA. Hub CLI con diagnóstico y smoke testing.",
             "url": "https://github.com/vladimiracunadev-create/microsistemas",
             "tags": [
                 "PHP 8",
+                "Python",
+                "MCP",
                 "CLI",
                 "DevTools",
-                "DX",
-                "Doctor",
-                "Smoke",
-                "Makefile"
+                "KatasMultiLang",
+                "CicdLibrary",
+                "GitHub Actions",
+                "GHCR"
             ],
-            "category": "tooling"
+            "category": "tooling",
+            "tools_count": 11
         },
         {
             "name": "LangGraph · Agentic Resilience",
-            "description": "Agentes con estado, rutas condicionales y resiliencia frente a fallos de LLMs, con FastAPI, streaming, checkpoints SQLite y guía para reclutadores.",
+            "description": "Portal unificado con 4 casos operativos (soporte omnicanal, HR screening, onboarding, BI SQL/charting), contratos de estado tipado (TypedDict), modo dual offline/live, health/readiness endpoints.",
             "url": "https://github.com/vladimiracunadev-create/langgraph-realworld",
             "tags": [
                 "LangGraph",
-                "IA",
                 "Python",
-                "Guardrails",
                 "FastAPI",
-                "SQLite",
-                "Stateful"
+                "TypedDict",
+                "Chart.js",
+                "SQL Agents",
+                "Docker",
+                "Stateful",
+                "Dual-Mode"
             ],
-            "category": "ai"
+            "category": "ai",
+            "demos_count": 25,
+            "operational_cases": 4
         },
         {
             "name": "MCP + Ollama Local",
-            "description": "Web local (FastAPI) + Ollama + herramientas vía MCP y persistencia en SQLite, con enfoque en privacidad total y documentación de onboarding/reclutamiento.",
+            "description": "IA local con privacidad total: FastAPI + Ollama (Qwen/Llama3) + herramientas MCP seguras + persistencia SQLite. Cloud-ready (Docker/K8s), extensible vía MCP protocol.",
             "url": "https://github.com/vladimiracunadev-create/mcp-ollama-local",
             "tags": [
                 "FastAPI",
@@ -78,23 +119,31 @@
                 "MCP",
                 "SQLite",
                 "Local AI",
-                "Recruiter Guide"
+                "Docker",
+                "Kubernetes",
+                "pytest"
             ],
             "category": "ai"
         },
         {
             "name": "Portfolio · GitHub Pages",
-            "description": "Portafolio estático de alto rendimiento (Lighthouse 100) con PWA, CI/CD, i18n y CV Data API.",
+            "description": "Portafolio profesional en 6 idiomas (ES/EN/PT/IT/FR/ZH), 30+ PDFs generados por pipeline Python, PWA instalable, CI/CD con GitHub Actions, Lighthouse 100, CV Data API.",
             "url": "https://vladimiracunadev-create.github.io/",
             "tags": [
                 "HTML",
                 "CSS",
                 "JS",
                 "PWA",
+                "Python",
+                "reportlab",
+                "i18n",
+                "6 idiomas",
                 "CI/CD",
                 "GitHub Pages"
             ],
-            "category": "portfolio"
+            "category": "portfolio",
+            "languages_supported": 6,
+            "pdfs_generated": 30
         }
     ]
 }

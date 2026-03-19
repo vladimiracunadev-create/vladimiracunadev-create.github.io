@@ -1,25 +1,29 @@
 {
     "meta": {
         "version": "v1",
-        "generated_at": "2026-03-13",
+        "generated_at": "2026-03-19",
         "source_pdf": "assets/cv-ats.pdf"
     },
     "name": "Vladimir Acuña",
     "full_name": "Vladimir Bernardo Acuña Valdebenito",
-    "label": "Arquitecto de Software | Full-Stack Senior (PHP/JS/SQL) | Modernización, Platform/DevOps & FinOps",
+    "label": "Arquitecto de Software | Full-Stack Senior | Polyglot Engineer | Cloud/DevOps & FinOps",
     "location": {
         "city": "Santiago",
         "country": "CL"
     },
-    "years_experience": 14,
+    "years_experience": 16,
     "profiles": [
         {
             "network": "GitHub",
             "url": "https://github.com/vladimiracunadev-create"
         },
         {
+            "network": "GitLab",
+            "url": "https://gitlab.com/vladimir.acuna.dev-group/vladimir.acuna.dev-group"
+        },
+        {
             "network": "LinkedIn",
-            "url": "https://www.linkedin.com/in/vladimir-acuna-valdebenito"
+            "url": "https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29/"
         },
         {
             "network": "Web",
@@ -30,7 +34,7 @@
             "url": "https://youtu.be/huIjsH-N7to"
         }
     ],
-    "summary": "14 años liderando el diseño, evolución y operación de plataformas educativas/psicométricas. En 2026 consolidé repos demostrativos con AWS/GitHub/GitLab CI, observabilidad aplicada, FinOps, ECS/EKS, agentes de IA locales y artefactos bilingües para validación profesional.",
+    "summary": "16 años diseñando, construyendo y operando software en entornos reales (14+ años en plataformas educativas/psicométricas). En 2026 consolidé un ecosistema verificable: 15 casos AWS (11 completados), polyglot persistence (9 lenguajes × 12+ DBs), agentes IA con estado, observabilidad industrial y un portafolio profesional en 6 idiomas con 30+ PDFs generados por pipeline.",
     "languages": [
         {
             "language": "Español",

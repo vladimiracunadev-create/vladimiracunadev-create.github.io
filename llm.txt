@@ -2,40 +2,55 @@
 # See: https://llmstxt.org/
 
 # Site
-> Vladimir Acuña — Full-Stack Developer Portfolio
+> Vladimir Acuña — Arquitecto de Software | Full-Stack Senior | Polyglot Engineer | Cloud/DevOps & FinOps
 
 ## About
 
-Vladimir Acuña is a Full-Stack Developer and DevOps practitioner based in Chile.
-This portfolio showcases projects, skills, and professional experience in legacy modernization,
-platform engineering, cloud infrastructure (AWS, GitHub Actions, GitLab CI/Pages), observability,
-FinOps, local agentic AI, and bilingual professional artifacts for recruiter workflows.
+Vladimir Acuña is a Software Architect and Full-Stack Senior Developer based in Santiago, Chile,
+with 16+ years of experience (14+ years in educational/psychometric web platforms).
+This portfolio showcases a verified, reproducible ecosystem: 15 AWS cases (11 completed),
+polyglot persistence (9 languages × 12+ DBs), agentic AI with typed state,
+industrial observability (Prometheus/Grafana), and a fully internationalized document suite
+(30+ PDFs across 6 languages: ES, EN, PT, IT, FR, ZH).
 
 ## Index
 
-- [Home](https://vladimiracunadev-create.github.io/): Main portfolio page with skills, projects, and contact.
+- [Home](https://vladimiracunadev-create.github.io/): Main portfolio page with skills, projects, experience, and downloads.
 - [Sitemap](https://vladimiracunadev-create.github.io/sitemap.xml): Full URL index of the site.
+- [CV Data API](https://vladimiracunadev-create.github.io/api/v1/meta.json): Static JSON API with profile, experience, projects, skills, and artifact endpoints.
 
 ## Technology Stack
 
-- HTML5, CSS3, JavaScript (Vanilla)
-- Progressive Web App (PWA) with Service Worker
-- GitHub Actions and GitLab CI/CD pipelines
-- Lighthouse CI for performance auditing
-- AWS Amplify, S3, CloudFront, IAM/OIDC
-- Prometheus/Grafana observability labs
-- LangGraph, MCP, Ollama, FastAPI
-- Bilingual PDF artifact switching (ES/EN) for portfolio and resume assets
-- Direct README / recruiter-guide links on key repositories when publicly available
+- HTML5, CSS3, JavaScript (Vanilla) — no framework dependencies
+- 6-language i18n system (ES/EN/PT/IT/FR/ZH) with CSS-passive switching and dynamic PDF routing
+- Progressive Web App (PWA) with Service Worker; Capacitor for native Android/iOS
+- Python/reportlab PDF generation pipeline (30+ PDFs across 6 languages)
+- GitHub Actions CI/CD: lint, validation, Lighthouse CI, deployment
+- GitLab CI/CD: 15 AWS cases, OIDC, Terraform, SAM, ECS/EKS, FinOps
+- AWS: Lambda/SAM, DynamoDB, ECS Fargate, EKS v1.32, S3/CloudFront/Amplify, Cognito/WAF, EventBridge/SQS/SNS, CloudWatch/X-Ray, Budgets
+- Terraform 1.14+, Docker/Compose, Kubernetes manifests, DevContainers
+- Prometheus/Grafana observability; n8n orchestration; LangGraph, MCP, Ollama, FastAPI
+- Polyglot persistence: PHP 8, Python, Go, Node.js/TypeScript, C#, Ruby, Rust + 12+ data engines
 
 ## Contact
 
 For professional inquiries, visit the portfolio home page or connect via the links provided there.
+- LinkedIn: https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29/
+- GitHub: https://github.com/vladimiracunadev-create
+- GitLab: https://gitlab.com/vladimir.acuna.dev-group/vladimir.acuna.dev-group
 
 ## Public Artifacts
 
-- Primary CV and portfolio PDFs are available in Spanish and English.
-- A separate achievements statement is published to summarize observable results and provide external-reference context for validation workflows.
+All documents are available in 6 languages (ES/EN/PT/IT/FR/ZH). Language suffix map:
+- ES: (no suffix) | EN: -english | PT: -portuguese | IT: -italian | FR: -french | ZH: -chinese
+
+- CV ATS: /assets/cv-ats{suffix}.pdf
+- CV Reclutador: /assets/cv-reclutador{suffix}.pdf
+- Portafolio: /assets/portafolio{suffix}.pdf
+- Carta de Recomendación: /assets/carta-recomendacion_sin_firma{suffix}.pdf
+- Declaración de Logros y Validación: /assets/declaracion-logros-validacion{suffix}.pdf
+
+Full machine-readable inventory: https://vladimiracunadev-create.github.io/api/v1/artifacts.json
 
 ## Permissions
 
@@ -44,4 +59,4 @@ This content is public-facing and intended to be discoverable.
 
 ## Last Updated
 
-2026-03-13
+2026-03-19
