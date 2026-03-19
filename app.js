@@ -53,10 +53,19 @@ function handleLangChange(e) {
   setLang(e.target.value);
 }
 
+function detectLang() {
+  const saved = localStorage.getItem("portfolio_lang");
+  if (saved) return saved;
+  const supported = ["es", "en", "pt", "it", "fr", "zh"];
+  const browser = (navigator.language || navigator.languages?.[0] || "es")
+    .toLowerCase().slice(0, 2);
+  return supported.includes(browser) ? browser : "es";
+}
+
 function initSettings() {
   setView(localStorage.getItem("portfolio_view") || "normal");
   setTheme(localStorage.getItem("portfolio_theme") || "dark");
-  setLang(localStorage.getItem("portfolio_lang") || "es");
+  setLang(detectLang());
 
   $$("[data-view-btn]").forEach(btn => btn.addEventListener("click", () => setView(btn.dataset.viewBtn)));
   $("#btnTheme")?.addEventListener("click", toggleTheme);
