@@ -1,7 +1,7 @@
 # CLAUDE.md — Fuente de verdad del proyecto
 
 **Proyecto:** `vladimiracunadev-create.github.io`
-**Web:** https://vladimiracunadev-create.github.io/
+**Web:** <https://vladimiracunadev-create.github.io/>
 **Última actualización:** 2026-03-19
 
 ---
@@ -23,7 +23,7 @@ PDFs generados por pipeline Python, PWA instalable, y API JSON estática en `api
 
 ## Mapa de archivos
 
-```
+```text
 ├── index.html                  # SPA principal — 6 idiomas + 3 vistas + PWA
 ├── app.js                      # i18n, PDF routing multilingüe, lógica de vistas
 ├── style.css                   # Estilos principales
@@ -104,6 +104,7 @@ PDFs generados por pipeline Python, PWA instalable, y API JSON estática en `api
 | Declaración de Logros | `generate-achievements-statement.py` | declaracion-logros-validacion{suffix}.pdf × 6 |
 
 **Regenerar todos:**
+
 ```bash
 cd C:/portfolio-pages
 python scripts/generate-all-languages.py
