@@ -3,6 +3,16 @@ dist/
 site/
 .cache
 .lhci/
+.lighthouseci/
 
 .gradle-user-home/
 .gradle-user-home-*/
+
+# Claude Code local config (private, never publish)
+.claude/
+
+# Vendored Python dependencies
+.vendor/
+
+# Discarded PDFs — not published in API (see cv-data-api.md)
+assets/no_aplica/
