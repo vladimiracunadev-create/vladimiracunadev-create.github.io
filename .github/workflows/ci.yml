@@ -29,6 +29,9 @@ jobs:
       - name: Lint Markdown
         run: npm run lint:md
 
+      - name: Portfolio Integrity Check
+        run: npm test
+
   seo:
     name: SEO Generation
     runs-on: ubuntu-latest

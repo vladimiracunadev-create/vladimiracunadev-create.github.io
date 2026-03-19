@@ -3,7 +3,8 @@
     "version": "1.0.0",
     "description": "Static portfolio with CI/CD",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 0",
+        "test": "node scripts/validate.js",
+        "validate": "node scripts/validate.js",
         "lint:html": "html-validate \"index.html\" \"offline.html\" \"experiencia-3d/**/*.html\"",
         "lint:md": "markdownlint-cli2 \"**/*.md\" \"!**/node_modules/**\" \"!.gradle-user-home/**\" \"!.gradle-user-home-*/**\" \"!dist/**\" \"!site/**\"",
         "lint": "npm run lint:html && npm run lint:md",
