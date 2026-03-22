@@ -171,6 +171,7 @@ python scripts/build-zip.py
 | `portfolio-mobile-wrapper-check` | Confirmar alineación web/PWA con Android/iOS |
 | `portfolio-mobile-direct-build` | Generar APK desde Windows |
 | `build-deploy-zip` | Generar ZIP de despliegue para AWS/S3/Amplify/Netlify |
+| `md-lint-fix` | Auto-corregir errores MDxxx en archivos .md antes de git push |
 
 ---
 
