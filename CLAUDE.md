@@ -113,6 +113,13 @@ python scripts/generate-achievements-statement.py
 python scripts/generate-recommendation-letter.py
 ```
 
+**Generar ZIP de despliegue (para AWS/S3/Amplify/Netlify):**
+
+```bash
+python scripts/build-zip.py
+# Salida: portfolio-bundle-YYYY-MM-DD.zip (raíz del proyecto)
+```
+
 ---
 
 ## Protocolo de backups — OBLIGATORIO antes de modificar PDFs
@@ -163,6 +170,7 @@ python scripts/generate-recommendation-letter.py
 | `portfolio-seo-llm-maintainer` | Cambios en rutas, metadatos, llm.txt, robots, sitemap |
 | `portfolio-mobile-wrapper-check` | Confirmar alineación web/PWA con Android/iOS |
 | `portfolio-mobile-direct-build` | Generar APK desde Windows |
+| `build-deploy-zip` | Generar ZIP de despliegue para AWS/S3/Amplify/Netlify |
 
 ---
 

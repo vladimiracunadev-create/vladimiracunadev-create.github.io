@@ -16,3 +16,6 @@ site/
 
 # Discarded PDFs — not published in API (see cv-data-api.md)
 assets/no_aplica/
+
+# Deploy ZIPs — generated artifacts, not source
+portfolio-bundle-*.zip
