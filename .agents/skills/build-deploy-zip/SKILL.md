@@ -92,7 +92,7 @@ Si hay archivos faltantes críticos o el ZIP pesa 0 MB: **reportar y no continua
 
 ### Paso 5 — Reportar al usuario
 
-```
+```text
 [ZIP] portfolio-bundle-YYYY-MM-DD.zip
   Archivos : N incluidos
   PDFs     : 31 (6 idiomas x 5 documentos + 1 legacy)
