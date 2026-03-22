@@ -57,6 +57,14 @@ Full machine-readable inventory: https://vladimiracunadev-create.github.io/api/v
 AI assistants and LLM crawlers may read and index this content freely.
 This content is public-facing and intended to be discoverable.
 
+## Maintenance Automation
+
+This repository includes an AI skills system (.agents/skills/) for automated maintenance:
+- build-deploy-zip: generates deployment ZIP for AWS/S3/Amplify
+- md-lint-fix: auto-corrects markdownlint errors before git push
+- sync-portfolio: full sync — audits repos, updates JSONs, READMEs, PDFs, pushes
+- portfolio-full-update, portfolio-consistency-audit, portfolio-release-guard and more
+
 ## Last Updated
 
-2026-03-19
+2026-03-22

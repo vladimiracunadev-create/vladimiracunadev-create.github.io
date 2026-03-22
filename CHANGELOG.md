@@ -1,5 +1,48 @@
 # Changelog
 
+## 2026-03-22
+
+### Detección automática de idioma del navegador
+
+- `app.js`: en la primera visita sin preferencia guardada, el idioma se
+  detecta automáticamente desde `navigator.language`. Si el idioma del
+  navegador está entre los 6 soportados (ES/EN/PT/IT/FR/ZH) se aplica
+  directamente; si no, se usa español por defecto. La preferencia manual
+  del usuario siempre prevalece (localStorage).
+
+### Skills nuevos — automatización del portafolio
+
+- `build-deploy-zip`: skill + `scripts/build-zip.py` — genera
+  `portfolio-bundle-YYYY-MM-DD.zip` con todos los archivos web públicos
+  (HTML/CSS/JS, 31 PDFs en 6 idiomas, 6 JSONs api/v1, icons,
+  experiencia-3d). Excluye backups, no_aplica, node_modules y archivos
+  de desarrollo. Incluye flag `--output` para nombre personalizado.
+- `md-lint-fix`: skill + `scripts/fix-md-lint.py` — detecta archivos
+  `.md` modificados según git, auto-corrige MD040 (infiere lenguaje del
+  bloque por contexto: bash/python/json/yaml/hcl/html/sql/text), aplica
+  `markdownlint-cli2 --fix` para MD031/MD032/MD034/MD028, reporta lo que
+  requiere intervención manual. Resuelve el patrón recurrente de 15+
+  commits de corrección lint en el historial.
+- `.gitignore`: `portfolio-bundle-*.zip` excluido del repositorio.
+
+### READMEs de perfil GitHub y GitLab actualizados
+
+- Estructura de roles reorganizada en 3 capas: Identidad principal /
+  Expansión natural / Alcance complementario — alineada con el sitio web.
+- Nueva sección "Flujo de desarrollo asistido por IA" con tabla de
+  herramientas (Claude Code, ChatGPT Plus, Codex, Antigravity, VS Code).
+- GitLab: eliminada subsección "Completados y Validados" — todos los
+  casos bajo "Completados" en orden secuencial (A→L). Eliminado el
+  término (VALIDADO) del monorepo `proyectos-aws-gitlab`.
+
+### Documentación actualizada
+
+- `README.md`: tabla de skills actualizada con `build-deploy-zip` y
+  `md-lint-fix`; arquitectura actualizada con `build-zip.py` y
+  `fix-md-lint.py`; referencia al ZIP de despliegue.
+- `CLAUDE.md`: registrados ambos skills y comando de generación de ZIP.
+- `llm.txt`: sección de automatización añadida; fecha actualizada a 2026-03-22.
+
 ## 2026-03-19
 
 ### Sistema de 6 idiomas — PDFs completos

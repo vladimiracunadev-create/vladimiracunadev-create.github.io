@@ -135,7 +135,9 @@ Para compartir ese binario, usa una **GitHub Release**; no lo subas al árbol no
 │   ├── generate-achievements-statement.py  # Declaración de logros × 6 idiomas
 │   ├── generate-recommendation-letter.py   # Carta de recomendación × 6 idiomas
 │   ├── generate-ats-cv.py               # CV ATS standalone
-│   └── generate-recruiter-cv.py         # CV reclutador standalone
+│   ├── generate-recruiter-cv.py         # CV reclutador standalone
+│   ├── build-zip.py                     # Genera ZIP de despliegue para AWS/Amplify
+│   └── fix-md-lint.py                   # Auto-corrige errores markdownlint pre-push
 ├── assets/                  # PDFs públicos (30+ variantes en 6 idiomas)
 │   └── no_aplica/           # Versiones descartadas — no publicadas en la API
 ├── .agents/skills/          # Skills de IA para automatizar el portafolio
@@ -158,7 +160,7 @@ Para compartir ese binario, usa una **GitHub Release**; no lo subas al árbol no
 ├── cv-data-api.md           # Manual de la CV Data API
 ├── manifest.webmanifest     # Configuración PWA
 ├── service-worker.js        # Gestión de Cache & Offline
-└── portfolio-bundle.zip     # Paquete portable para despliegue (Amplify)
+└── portfolio-bundle-YYYY-MM-DD.zip  # Paquete portable para despliegue (generado, no versionado)
 ```
 
 ---
@@ -177,14 +179,18 @@ El repositorio incluye un sistema de **Skills de IA** para mantenimiento por cap
 | [`portfolio-seo-llm-maintainer`](.agents/skills/portfolio-seo-llm-maintainer/SKILL.md) | Cuando cambian rutas, metadatos, `llm.txt`, `robots.txt`, `sitemap.xml` o discoverability |
 | [`portfolio-mobile-wrapper-check`](.agents/skills/portfolio-mobile-wrapper-check/SKILL.md) | Cuando cambian web, PWA o assets y quieres confirmar alineacion con Android/iOS |
 | [`portfolio-mobile-direct-build`](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/blob/main/.agents/skills/portfolio-mobile-direct-build/SKILL.md) | Transformar la web en app Android y generar el APK directamente en Windows |
+| [`build-deploy-zip`](.agents/skills/build-deploy-zip/SKILL.md) | Generar ZIP de despliegue para AWS/S3/Amplify/Netlify con todos los archivos web publicos |
+| [`md-lint-fix`](.agents/skills/md-lint-fix/SKILL.md) | Auto-corregir errores MDxxx en archivos `.md` modificados antes de git push |
 
 **Uso recomendado:**
 
+* `md-lint-fix` antes de cualquier commit con archivos `.md` modificados.
 * `portfolio-consistency-audit` para revisar coherencia general.
 * `portfolio-doc-sync` o `portfolio-seo-llm-maintainer` segun el tipo de cambio.
 * `portfolio-mobile-wrapper-check` si tocaste manifest, PWA o assets.
 * `portfolio-release-guard` antes de publicar.
 * `portfolio-full-update` cuando el cambio afecta varias capas a la vez.
+* `build-deploy-zip` para empaquetar y subir a AWS u otros ambientes estaticos.
 
 ---
 
