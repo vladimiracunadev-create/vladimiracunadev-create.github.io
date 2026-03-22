@@ -40,7 +40,7 @@ import argparse
 from pathlib import Path
 from collections import defaultdict
 
-ROOT = Path(__file__).parent.parent.resolve()
+ROOT = Path.cwd().resolve()
 
 # Patrones para inferir lenguaje en bloques MD040
 LANG_PATTERNS = [
