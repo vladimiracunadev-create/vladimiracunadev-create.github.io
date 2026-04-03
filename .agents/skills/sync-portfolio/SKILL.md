@@ -57,6 +57,7 @@ python scripts/sync-portfolio.py --apply --no-push     # aplica sin push
 8. NUNCA modificar repos externos — solo leerlos
 9. RootCause es permanentemente oculto — nunca mencionarlo en ningún output
 10. Repos privados NUNCA se publican en API ni README
+11. NUNCA terminar una sesión sin generar el reporte de sesión
 
 ---
 
@@ -100,15 +101,76 @@ Reportar primero. Arreglar con autorización del usuario.
 
 ---
 
-## REPORTE FINAL
+## REPORTE DE SESIÓN — OBLIGATORIO AL FINALIZAR
+
+**Al terminar TODA sesión de sync (con o sin cambios), debes:**
+
+1. Generar el archivo `assets/backups/YYYY-MM-DD/SESSION-REPORT-YYYY-MM-DD.md`
+2. Mostrarlo al usuario antes del commit final
+3. Incluirlo en el commit junto con los demás archivos modificados
+
+El reporte debe ser **estrictamente detallado** — no sirve un resumen vago.
+Debe permitir reconstruir exactamente qué cambió, dónde y por qué.
+
+### Estructura obligatoria del reporte
+
+```markdown
+# Reporte de Sesión — YYYY-MM-DD
+
+**Commits generados:** N
+**Rango de commits:** `hash_inicio` → `hash_fin`
+
+## Resumen ejecutivo
+[2-4 líneas describiendo el alcance global de la sesión]
+
+## Cambios por archivo — detalle estricto
+
+### archivo.ext
+**Commit:** `hash`
+- Campo / sección exacta que cambió
+- Valor anterior → valor nuevo (texto literal cuando aplica)
+- Motivo del cambio
+
+[...un bloque por cada archivo modificado...]
+
+## PDFs — estado final
+[tabla: documento | variantes | estado]
+
+## Errores encontrados y resueltos
+[tabla: error | causa | fix aplicado]
+
+## Validación final
+[resultado de npm run lint:md y git push]
+```
+
+### Qué debe incluir para cada cambio
+
+- **Archivos de código/datos:** campo exacto modificado + valor anterior + valor nuevo
+- **PDFs:** cuántos, qué scripts los generaron, si hubo backup previo
+- **API JSONs:** qué campos cambiaron y con qué valores
+- **index.html:** qué sección, qué elemento, en cuántos idiomas
+- **Scripts de generación:** qué lista/dict, en cuántos idiomas, entrada exacta añadida/modificada
+- **Errores:** tipo de error, causa raíz, fix aplicado
+
+---
+
+## REPORTE DE ESTADO — resumen rápido en pantalla
+
+Mostrar siempre al terminar (además del reporte detallado en archivo):
 
 ```text
 [Dry-run]   — repos nuevos detectados, brechas en API
-[Backups]   — PDFs respaldados
-[PDFs]      — generados correctamente
+[Repos]     — repos nuevos / repos con descripción actualizada
+[Identidad] — subtítulos sincronizados (idiomas afectados)
 [API]       — JSONs actualizados
+[Scripts]   — cambios en generate-*.py (repos, subtítulos)
+[HTML]      — cards nuevas / descripciones actualizadas
+[Backups]   — PDFs respaldados en assets/backups/YYYY-MM-DD/
+[PDFs]      — N PDFs regenerados
 [README]    — perfil GitHub actualizado
+[Lint]      — resultado npm run lint:md
 [Commit]    — hash del commit
 [Push]      — estado
+[Reporte]   — assets/backups/YYYY-MM-DD/SESSION-REPORT-YYYY-MM-DD.md
 [Manual]    — tareas que requieren intervención (si las hay)
 ```
