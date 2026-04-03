@@ -2,7 +2,15 @@
 
 ## 2026-04-03
 
-### sync-portfolio (automático)
+### sync-portfolio (automático) — sesión 2
+
+- Descripciones de proyectos actualizadas en `index.html`, `generate-all-languages.py` y `generate-portfolio.py` (6 idiomas)
+- LangGraph: incorpora "Docker por caso" y "CI en GitHub Actions" en todas las variantes
+- `api/v1/projects.json`: 8 descripciones sincronizadas desde GitHub
+- `scripts/sync-portfolio.py`: agrega detección de cambios en repos existentes (`detect_updated_repos`)
+- 30 PDFs regenerados (5 tipos × 6 idiomas)
+
+### sync-portfolio (automático) — sesión 1
 
 - `api/v1/`: generated_at → 2026-04-03
 - 30 PDFs regenerados (5 tipos × 6 idiomas)

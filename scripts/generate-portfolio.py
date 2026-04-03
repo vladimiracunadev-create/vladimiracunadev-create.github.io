@@ -184,7 +184,7 @@ def get_content(lang):
         "projects": [
             "<b>Arquitectura Resiliente &amp; Infraestructura Inmutable:</b> CI/CD con GitHub Actions/OIDC, Terraform, FinOps/AWS Budgets",
             "<b>Observabilidad &amp; DX:</b> Docker Labs con Prometheus/Grafana, Microsistemas (Hub CLI), doctor/smoke tests",
-            "<b>IA Ag\u00e9ntica:</b> LangGraph + Ollama (IA local), agentes stateful, rutas condicionales",
+            "<b>IA Ag\u00e9ntica:</b> LangGraph + Ollama (IA local), 25 demos, Docker/caso, CI/CD, agentes stateful",
             "<b>Social Bot Scheduler:</b> Matriz de integraci\u00f3n 9 ejes, 9 motores de BD, orquestaci\u00f3n n8n, Prometheus/Grafana",
             "<b>MCP + Ollama local:</b> Chat IA local, herramientas MCP, 100% privado",
             "<b>Unikernel Labs:</b> Control Center Windows — WSL2 + Node.js + WinForms, servicios Unikraft",
@@ -282,7 +282,7 @@ def get_content(lang):
         "projects": [
             "<b>Resilient Architecture &amp; Immutable Infrastructure:</b> CI/CD with GitHub Actions/OIDC, Terraform, FinOps/AWS Budgets",
             "<b>Observability &amp; DX:</b> Docker Labs with Prometheus/Grafana, Microsystems (Hub CLI), doctor/smoke tests",
-            "<b>Agentic AI:</b> LangGraph + Ollama (local AI), stateful agents, conditional routes",
+            "<b>Agentic AI:</b> LangGraph + Ollama (local AI), 25 demos, Docker per case, CI/CD, stateful agents",
             "<b>Social Bot Scheduler:</b> 9-axis integration matrix, 9 DB engines, n8n orchestration, Prometheus/Grafana",
             "<b>MCP + Ollama local:</b> Local AI chat, MCP tools, 100% private",
             "<b>Unikernel Labs:</b> Windows Control Center \u2014 WSL2 + Node.js + WinForms, Unikraft services",
@@ -380,7 +380,7 @@ def get_content(lang):
         "projects": [
             "<b>Arquitetura Resiliente &amp; Infraestrutura Imut\u00e1vel:</b> CI/CD com GitHub Actions/OIDC, Terraform, FinOps/AWS Budgets",
             "<b>Observabilidade &amp; DX:</b> Docker Labs com Prometheus/Grafana, Microssistemas (Hub CLI), doctor/smoke tests",
-            "<b>IA Ag\u00eantica:</b> LangGraph + Ollama (IA local), agentes stateful, rotas condicionais",
+            "<b>IA Ag\u00eantica:</b> LangGraph + Ollama (IA local), 25 demos, Docker/caso, CI/CD, agentes stateful",
             "<b>Social Bot Scheduler:</b> Matriz de integra\u00e7\u00e3o 9 eixos, 9 motores de BD, orquestra\u00e7\u00e3o n8n, Prometheus/Grafana",
             "<b>MCP + Ollama local:</b> Chat IA local, ferramentas MCP, 100% privado",
             "<b>Unikernel Labs:</b> Control Center Windows \u2014 WSL2 + Node.js + WinForms, servi\u00e7os Unikraft",
@@ -478,7 +478,7 @@ def get_content(lang):
         "projects": [
             "<b>Architettura Resiliente &amp; Infrastruttura Immutabile:</b> CI/CD con GitHub Actions/OIDC, Terraform, FinOps/AWS Budgets",
             "<b>Osservabilit\u00e0 &amp; DX:</b> Docker Labs con Prometheus/Grafana, Microsistemi (Hub CLI), doctor/smoke tests",
-            "<b>IA Agentica:</b> LangGraph + Ollama (IA locale), agenti stateful, rotte condizionali",
+            "<b>IA Agentica:</b> LangGraph + Ollama (IA locale), 25 demo, Docker/caso, CI/CD, agenti stateful",
             "<b>Social Bot Scheduler:</b> Matrice di integrazione 9 assi, 9 motori DB, orchestrazione n8n, Prometheus/Grafana",
             "<b>MCP + Ollama locale:</b> Chat IA locale, strumenti MCP, 100% privato",
             "<b>Unikernel Labs:</b> Control Center Windows \u2014 WSL2 + Node.js + WinForms, servizi Unikraft",
@@ -576,7 +576,7 @@ def get_content(lang):
         "projects": [
             "<b>Architecture R\u00e9siliente &amp; Infrastructure Immuable :</b> CI/CD avec GitHub Actions/OIDC, Terraform, FinOps/AWS Budgets",
             "<b>Observabilit\u00e9 &amp; DX :</b> Docker Labs avec Prometheus/Grafana, Microsyst\u00e8mes (Hub CLI), doctor/smoke tests",
-            "<b>IA Agentique :</b> LangGraph + Ollama (IA locale), agents stateful, routes conditionnelles",
+            "<b>IA Agentique :</b> LangGraph + Ollama (IA locale), 25 démos, Docker/cas, CI/CD, agents stateful",
             "<b>Social Bot Scheduler :</b> Matrice d\u2019int\u00e9gration 9 axes, 9 moteurs BD, orchestration n8n, Prometheus/Grafana",
             "<b>MCP + Ollama local :</b> Chat IA local, outils MCP, 100% priv\u00e9",
             "<b>Unikernel Labs :</b> Control Center Windows \u2014 WSL2 + Node.js + WinForms, services Unikraft",
@@ -674,7 +674,7 @@ def get_content(lang):
         "projects": [
             "<b>\u5f39\u6027\u67b6\u6784\u548c\u4e0d\u53ef\u53d8\u57fa\u7840\u8bbe\u65bd\uff1a</b>CI/CD\u4e0eGitHub Actions/OIDC\u3001Terraform\u3001FinOps/AWS Budgets",
             "<b>\u53ef\u89c2\u6d4b\u6027\u548cDX\uff1a</b>Docker Labs\u4e0ePrometheus/Grafana\u3001\u5fae\u7cfb\u7edf\uff08Hub CLI\uff09\u3001doctor/smoke tests",
-            "<b>\u667a\u80fdAI\uff1a</b>LangGraph + Ollama\uff08\u672c\u5730AI\uff09\u3001\u6709\u72b6\u6001\u4ee3\u7406\u3001\u6761\u4ef6\u8def\u7531",
+            "<b>\u667a\u80fdAI\uff1a</b>LangGraph + Ollama\uff08\u672c\u5730AI\uff09\uff0c25\u4e2a\u6f14\u793a\uff0c\u6bcf\u6848\u4f8bDocker\uff0cCI/CD\uff0c\u6709\u72b6\u6001\u667a\u80fd\u4f53",
             "<b>Social Bot Scheduler\uff1a</b>9\u8f74\u96c6\u6210\u77e9\u9635\u30019\u4e2a\u6570\u636e\u5e93\u5f15\u64ce\u3001n8n\u7f16\u6392\u3001Prometheus/Grafana",
             "<b>MCP + Ollama\u672c\u5730\uff1a</b>\u672c\u5730AI\u804a\u5929\u3001MCP\u5de5\u5177\u3001100%\u79c1\u5bc6",
             "<b>Unikernel Labs\uff1a</b>Windows\u63a7\u5236\u4e2d\u5fc3 \u2014 WSL2 + Node.js + WinForms\uff0cUnikraft\u670d\u52a1",
