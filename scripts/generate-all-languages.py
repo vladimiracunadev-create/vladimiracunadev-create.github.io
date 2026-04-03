@@ -87,6 +87,8 @@ PROJECTS_URLS = {
     "docker": "https://github.com/vladimiracunadev-create/docker-labs",
     "langgraph": "https://github.com/vladimiracunadev-create/langgraph-realworld",
     "mcp": "https://github.com/vladimiracunadev-create/mcp-ollama-local",
+    "unikernel": "https://github.com/vladimiracunadev-create/unikernel-labs",
+    "chofyai": "https://github.com/vladimiracunadev-create/chofyai-studio",
 }
 
 PREVIOUS_CAREER = {
@@ -107,8 +109,8 @@ def get_content(lang):
 
     T = {
         "es": {
-            "subtitle_rec": "Arquitecto de Software | Full-Stack Senior (PHP/JS/SQL) | Modernizaci\u00f3n y DevOps",
-            "subtitle_ats": "Arquitecto de Software | Full-Stack Senior (PHP/JS/SQL) | Modernizaci\u00f3n & DevOps",
+            "subtitle_rec": "Arquitecto de Soluciones | Senior Full-Stack | Modernizaci\u00f3n, Automatizaci\u00f3n e IA Aplicada",
+            "subtitle_ats": "Arquitecto de Soluciones | Senior Full-Stack | Modernizaci\u00f3n, Automatizaci\u00f3n e IA Aplicada",
             "h_contact": "CONTACTO", "h_skills": "SKILLS", "h_education": "EDUCACI\u00d3N",
             "h_languages": "IDIOMAS", "h_summary": "RESUMEN", "h_experience": "EXPERIENCIA DESTACADA",
             "h_previous": "TRAYECTORIA PREVIA (S\u00cdNTESIS)", "h_projects": "PROYECTOS DESTACADOS",
@@ -150,6 +152,8 @@ def get_content(lang):
                 "Docker Labs \u2014 12 labs, Control Center, instalador Windows",
                 "LangGraph \u2014 25 casos reales, 4 operacionales/industriales, agentes con estado",
                 "MCP + Ollama local \u2014 chat IA local, herramientas MCP, 100% privado",
+                "Unikernel Labs \u2014 Control Center Windows (WSL2 + Node.js + WinForms)",
+                "ChofyAI Studio \u2014 lanzador IA local macOS (Tauri + Rust + React)",
             ],
             "projects_ats": [
                 ("Cloud/AWS y FinOps \u2014 GitHub (demos y documentaci\u00f3n):", "aws_gh"),
@@ -159,6 +163,8 @@ def get_content(lang):
                 ("Docker Labs (12 labs, Control Center, instalador Windows):", "docker"),
                 ("LangGraph casos reales (25 casos, 4 operacionales/industriales, agentes con estado):", "langgraph"),
                 ("MCP + Ollama local (chat IA local, herramientas MCP, 100% privado):", "mcp"),
+                ("Unikernel Labs \u2014 Control Center Windows (WSL2 + Node.js + WinForms):", "unikernel"),
+                ("ChofyAI Studio \u2014 lanzador IA local macOS (Tauri + Rust + React):", "chofyai"),
             ],
             "training": [
                 "Formaci\u00f3n continua en automatizaci\u00f3n pr\u00e1ctica, ML/NLP y herramientas de desarrollo.",
@@ -184,8 +190,8 @@ def get_content(lang):
             "transition_footer": "La p\u00e1gina anterior es para lectura humana. Las siguientes son para procesamiento autom\u00e1tico.",
         },
         "en": {
-            "subtitle_rec": "Software Architect | Senior Full-Stack (PHP/JS/SQL) | Modernization & DevOps",
-            "subtitle_ats": "Software Architect | Senior Full-Stack (PHP/JS/SQL) | Modernization & DevOps",
+            "subtitle_rec": "Solutions Architect | Senior Full-Stack | Modernization, Automation & Applied AI",
+            "subtitle_ats": "Solutions Architect | Senior Full-Stack | Modernization, Automation & Applied AI",
             "h_contact": "CONTACT", "h_skills": "SKILLS", "h_education": "EDUCATION",
             "h_languages": "LANGUAGES", "h_summary": "SUMMARY", "h_experience": "HIGHLIGHTED EXPERIENCE",
             "h_previous": "PREVIOUS CAREER (SUMMARY)", "h_projects": "SELECTED PROJECTS",
@@ -227,6 +233,8 @@ def get_content(lang):
                 "Docker Labs \u2014 12 labs, Control Center, Windows installer",
                 "LangGraph \u2014 25 real-world cases, 4 operational/industrial, stateful agents",
                 "MCP + local Ollama \u2014 local AI chat, MCP tools, 100% private",
+                "Unikernel Labs \u2014 Windows Control Center (WSL2 + Node.js + WinForms)",
+                "ChofyAI Studio \u2014 macOS local AI launcher (Tauri + Rust + React)",
             ],
             "projects_ats": [
                 ("Cloud/AWS and FinOps \u2014 GitHub (demos and documentation):", "aws_gh"),
@@ -236,6 +244,8 @@ def get_content(lang):
                 ("Docker Labs (12 labs, Control Center, Windows installer):", "docker"),
                 ("LangGraph real-world cases (25 cases, 4 operational/industrial, stateful agents):", "langgraph"),
                 ("MCP + local Ollama (local AI chat, MCP tools, 100% private):", "mcp"),
+                ("Unikernel Labs \u2014 Windows Control Center (WSL2 + Node.js + WinForms):", "unikernel"),
+                ("ChofyAI Studio \u2014 macOS local AI launcher (Tauri + Rust + React):", "chofyai"),
             ],
             "training": [
                 "Continuous training in practical automation, ML/NLP, and development tools.",
@@ -261,8 +271,8 @@ def get_content(lang):
             "transition_footer": "The previous page is for human review. The following pages are for automated processing.",
         },
         "pt": {
-            "subtitle_rec": "Arquiteto de Software | Full-Stack S\u00eanior (PHP/JS/SQL) | Moderniza\u00e7\u00e3o e DevOps",
-            "subtitle_ats": "Arquiteto de Software | Full-Stack S\u00eanior (PHP/JS/SQL) | Moderniza\u00e7\u00e3o & DevOps",
+            "subtitle_rec": "Arquiteto de Solu\u00e7\u00f5es | Senior Full-Stack | Moderniza\u00e7\u00e3o, Automa\u00e7\u00e3o e IA Aplicada",
+            "subtitle_ats": "Arquiteto de Solu\u00e7\u00f5es | Senior Full-Stack | Moderniza\u00e7\u00e3o, Automa\u00e7\u00e3o e IA Aplicada",
             "h_contact": "CONTATO", "h_skills": "SKILLS", "h_education": "EDUCA\u00c7\u00c3O",
             "h_languages": "IDIOMAS", "h_summary": "RESUMO", "h_experience": "EXPERI\u00caNCIA DESTACADA",
             "h_previous": "TRAJET\u00d3RIA ANTERIOR (S\u00cdNTESE)", "h_projects": "PROJETOS DESTACADOS",
@@ -304,6 +314,8 @@ def get_content(lang):
                 "Docker Labs \u2014 12 labs, Control Center, instalador Windows",
                 "LangGraph \u2014 25 casos reais, 4 operacionais/industriais, agentes com estado",
                 "MCP + Ollama local \u2014 chat IA local, ferramentas MCP, 100% privado",
+                "Unikernel Labs \u2014 Control Center Windows (WSL2 + Node.js + WinForms)",
+                "ChofyAI Studio \u2014 launcher IA local macOS (Tauri + Rust + React)",
             ],
             "projects_ats": [
                 ("Cloud/AWS e FinOps \u2014 GitHub (demos e documenta\u00e7\u00e3o):", "aws_gh"),
@@ -313,6 +325,8 @@ def get_content(lang):
                 ("Docker Labs (12 labs, Control Center, instalador Windows):", "docker"),
                 ("LangGraph casos reais (25 casos, 4 operacionais/industriais, agentes com estado):", "langgraph"),
                 ("MCP + Ollama local (chat IA local, ferramentas MCP, 100% privado):", "mcp"),
+                ("Unikernel Labs \u2014 Control Center Windows (WSL2 + Node.js + WinForms):", "unikernel"),
+                ("ChofyAI Studio \u2014 launcher IA local macOS (Tauri + Rust + React):", "chofyai"),
             ],
             "training": [
                 "Forma\u00e7\u00e3o cont\u00ednua em automa\u00e7\u00e3o pr\u00e1tica, ML/NLP e ferramentas de desenvolvimento.",
@@ -338,8 +352,8 @@ def get_content(lang):
             "transition_footer": "A p\u00e1gina anterior \u00e9 para leitura humana. As seguintes s\u00e3o para processamento autom\u00e1tico.",
         },
         "it": {
-            "subtitle_rec": "Architetto Software | Full-Stack Senior (PHP/JS/SQL) | Modernizzazione e DevOps",
-            "subtitle_ats": "Architetto Software | Full-Stack Senior (PHP/JS/SQL) | Modernizzazione & DevOps",
+            "subtitle_rec": "Architetto di Soluzioni | Senior Full-Stack | Modernizzazione, Automazione e IA Applicata",
+            "subtitle_ats": "Architetto di Soluzioni | Senior Full-Stack | Modernizzazione, Automazione e IA Applicata",
             "h_contact": "CONTATTO", "h_skills": "SKILLS", "h_education": "FORMAZIONE",
             "h_languages": "LINGUE", "h_summary": "RIEPILOGO", "h_experience": "ESPERIENZA PRINCIPALE",
             "h_previous": "CARRIERA PRECEDENTE (SINTESI)", "h_projects": "PROGETTI IN EVIDENZA",
@@ -381,6 +395,8 @@ def get_content(lang):
                 "Docker Labs \u2014 12 lab, Control Center, installer Windows",
                 "LangGraph \u2014 25 casi reali, 4 operativi/industriali, agenti con stato",
                 "MCP + Ollama locale \u2014 chat IA locale, strumenti MCP, 100% privato",
+                "Unikernel Labs \u2014 Control Center Windows (WSL2 + Node.js + WinForms)",
+                "ChofyAI Studio \u2014 launcher IA locale macOS (Tauri + Rust + React)",
             ],
             "projects_ats": [
                 ("Cloud/AWS e FinOps \u2014 GitHub (demo e documentazione):", "aws_gh"),
@@ -390,6 +406,8 @@ def get_content(lang):
                 ("Docker Labs (12 lab, Control Center, installer Windows):", "docker"),
                 ("LangGraph casi reali (25 casi, 4 operativi/industriali, agenti con stato):", "langgraph"),
                 ("MCP + Ollama locale (chat IA locale, strumenti MCP, 100% privato):", "mcp"),
+                ("Unikernel Labs \u2014 Control Center Windows (WSL2 + Node.js + WinForms):", "unikernel"),
+                ("ChofyAI Studio \u2014 launcher IA locale macOS (Tauri + Rust + React):", "chofyai"),
             ],
             "training": [
                 "Formazione continua in automazione pratica, ML/NLP e strumenti di sviluppo.",
@@ -415,8 +433,8 @@ def get_content(lang):
             "transition_footer": "La pagina precedente \u00e8 per la lettura umana. Le seguenti sono per l'elaborazione automatica.",
         },
         "fr": {
-            "subtitle_rec": "Architecte Logiciel | Full-Stack Senior (PHP/JS/SQL) | Modernisation et DevOps",
-            "subtitle_ats": "Architecte Logiciel | Full-Stack Senior (PHP/JS/SQL) | Modernisation & DevOps",
+            "subtitle_rec": "Architecte de Solutions | Senior Full-Stack | Modernisation, Automatisation et IA Appliqu\u00e9e",
+            "subtitle_ats": "Architecte de Solutions | Senior Full-Stack | Modernisation, Automatisation et IA Appliqu\u00e9e",
             "h_contact": "CONTACT", "h_skills": "COMP\u00c9TENCES", "h_education": "FORMATION",
             "h_languages": "LANGUES", "h_summary": "R\u00c9SUM\u00c9", "h_experience": "EXP\u00c9RIENCE PRINCIPALE",
             "h_previous": "CARRI\u00c8RE ANT\u00c9RIEURE (SYNTH\u00c8SE)", "h_projects": "PROJETS EN VEDETTE",
@@ -458,6 +476,8 @@ def get_content(lang):
                 "Docker Labs \u2014 12 labs, Control Center, installateur Windows",
                 "LangGraph \u2014 25 cas r\u00e9els, 4 op\u00e9rationnels/industriels, agents \u00e0 \u00e9tat",
                 "MCP + Ollama local \u2014 chat IA local, outils MCP, 100% priv\u00e9",
+                "Unikernel Labs \u2014 Control Center Windows (WSL2 + Node.js + WinForms)",
+                "ChofyAI Studio \u2014 lanceur IA locale macOS (Tauri + Rust + React)",
             ],
             "projects_ats": [
                 ("Cloud/AWS et FinOps \u2014 GitHub (d\u00e9mos et documentation) :", "aws_gh"),
@@ -467,6 +487,8 @@ def get_content(lang):
                 ("Docker Labs (12 labs, Control Center, installateur Windows) :", "docker"),
                 ("LangGraph cas r\u00e9els (25 cas, 4 op\u00e9rationnels/industriels, agents \u00e0 \u00e9tat) :", "langgraph"),
                 ("MCP + Ollama local (chat IA local, outils MCP, 100% priv\u00e9) :", "mcp"),
+                ("Unikernel Labs \u2014 Control Center Windows (WSL2 + Node.js + WinForms) :", "unikernel"),
+                ("ChofyAI Studio \u2014 lanceur IA locale macOS (Tauri + Rust + React) :", "chofyai"),
             ],
             "training": [
                 "Formation continue en automatisation pratique, ML/NLP et outils de d\u00e9veloppement.",
@@ -492,8 +514,8 @@ def get_content(lang):
             "transition_footer": "La page pr\u00e9c\u00e9dente est pour la lecture humaine. Les suivantes sont pour le traitement automatique.",
         },
         "zh": {
-            "subtitle_rec": "\u8f6f\u4ef6\u67b6\u6784\u5e08 | \u9ad8\u7ea7\u5168\u6808\u5f00\u53d1 (PHP/JS/SQL) | \u73b0\u4ee3\u5316\u4e0eDevOps",
-            "subtitle_ats": "\u8f6f\u4ef6\u67b6\u6784\u5e08 | \u9ad8\u7ea7\u5168\u6808\u5f00\u53d1 (PHP/JS/SQL) | \u73b0\u4ee3\u5316 & DevOps",
+            "subtitle_rec": "\u89e3\u51b3\u65b9\u6848\u67b6\u6784\u5e08 | \u9ad8\u7ea7\u5168\u6808\u5f00\u53d1 | \u73b0\u4ee3\u5316\u3001\u81ea\u52a8\u5316\u4e0e\u5e94\u7528AI",
+            "subtitle_ats": "\u89e3\u51b3\u65b9\u6848\u67b6\u6784\u5e08 | \u9ad8\u7ea7\u5168\u6808\u5f00\u53d1 | \u73b0\u4ee3\u5316\u3001\u81ea\u52a8\u5316\u4e0e\u5e94\u7528AI",
             "h_contact": "\u8054\u7cfb\u65b9\u5f0f", "h_skills": "\u6280\u80fd", "h_education": "\u6559\u80b2\u80cc\u666f",
             "h_languages": "\u8bed\u8a00\u80fd\u529b", "h_summary": "\u6982\u8ff0", "h_experience": "\u4e3b\u8981\u7ecf\u9a8c",
             "h_previous": "\u65e9\u671f\u804c\u4e1a\u7ecf\u5386\uff08\u6458\u8981\uff09", "h_projects": "\u7cbe\u9009\u9879\u76ee",
@@ -535,6 +557,8 @@ def get_content(lang):
                 "Docker Labs \u2014 12\u4e2a\u5b9e\u9a8c\u5ba4\uff0c\u63a7\u5236\u4e2d\u5fc3\uff0cWindows\u5b89\u88c5\u7a0b\u5e8f",
                 "LangGraph \u2014 25\u4e2a\u5b9e\u9645\u6848\u4f8b\uff0c4\u4e2a\u8fd0\u8425/\u5de5\u4e1a\u7ea7\uff0c\u6709\u72b6\u6001\u4ee3\u7406",
                 "MCP + \u672c\u5730Ollama \u2014 \u672c\u5730AI\u804a\u5929\uff0cMCP\u5de5\u5177\uff0c100%\u79c1\u6709",
+                "Unikernel Labs \u2014 Windows\u63a7\u5236\u4e2d\u5fc3 (WSL2 + Node.js + WinForms)",
+                "ChofyAI Studio \u2014 macOS\u672c\u5730AI\u542f\u52a8\u5668 (Tauri + Rust + React)",
             ],
             "projects_ats": [
                 ("Cloud/AWS\u548cFinOps \u2014 GitHub\uff08\u6f14\u793a\u548c\u6587\u6863\uff09\uff1a", "aws_gh"),
@@ -544,6 +568,8 @@ def get_content(lang):
                 ("Docker Labs\uff0812\u4e2a\u5b9e\u9a8c\u5ba4\uff0c\u63a7\u5236\u4e2d\u5fc3\uff0cWindows\u5b89\u88c5\u7a0b\u5e8f\uff09\uff1a", "docker"),
                 ("LangGraph\u5b9e\u9645\u6848\u4f8b\uff0825\u4e2a\u6848\u4f8b\uff0c4\u4e2a\u8fd0\u8425/\u5de5\u4e1a\u7ea7\uff0c\u6709\u72b6\u6001\u4ee3\u7406\uff09\uff1a", "langgraph"),
                 ("MCP + \u672c\u5730Ollama\uff08\u672c\u5730AI\u804a\u5929\uff0cMCP\u5de5\u5177\uff0c100%\u79c1\u6709\uff09\uff1a", "mcp"),
+                ("Unikernel Labs \u2014 Windows\u63a7\u5236\u4e2d\u5fc3 (WSL2 + Node.js + WinForms)\uff1a", "unikernel"),
+                ("ChofyAI Studio \u2014 macOS\u672c\u5730AI\u542f\u52a8\u5668 (Tauri + Rust + React)\uff1a", "chofyai"),
             ],
             "training": [
                 "\u6301\u7eed\u5b66\u4e60\u5b9e\u7528\u81ea\u52a8\u5316\u3001ML/NLP\u548c\u5f00\u53d1\u5de5\u5177\u3002",

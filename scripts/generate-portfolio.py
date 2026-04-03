@@ -158,7 +158,7 @@ def get_content(lang):
 
     # ──────────────────── SPANISH ────────────────────
     T["es"] = {
-        "subtitle": "Arquitecto de Software & Desarrollador Senior Full-Stack (PHP/JS/SQL)",
+        "subtitle": "Arquitecto de Soluciones | Senior Full-Stack | Modernizaci\u00f3n, Automatizaci\u00f3n e IA Aplicada",
         "contact_labels": {
             "email": "Email", "linkedin": "LinkedIn", "web": "Portafolio Web",
             "github": "GitHub", "gitlab": "GitLab", "country": "Pa\u00eds",
@@ -187,6 +187,8 @@ def get_content(lang):
             "<b>IA Ag\u00e9ntica:</b> LangGraph + Ollama (IA local), agentes stateful, rutas condicionales",
             "<b>Social Bot Scheduler:</b> Matriz de integraci\u00f3n 9 ejes, 9 motores de BD, orquestaci\u00f3n n8n, Prometheus/Grafana",
             "<b>MCP + Ollama local:</b> Chat IA local, herramientas MCP, 100% privado",
+            "<b>Unikernel Labs:</b> Control Center Windows — WSL2 + Node.js + WinForms, servicios Unikraft",
+            "<b>ChofyAI Studio:</b> Lanzador IA local macOS — Tauri + Rust + React, Apple Silicon",
         ],
         "project_links_title": "Enlaces de Proyectos",
         "project_link_labels": {
@@ -194,6 +196,8 @@ def get_content(lang):
             "micro": "Microsistemas", "social": "Social Bot Scheduler",
             "docker": "Docker Labs", "langgraph": "LangGraph",
             "mcp": "MCP + Ollama",
+            "unikernel": "Unikernel Labs",
+            "chofyai": "ChofyAI Studio",
         },
         "exp_title": "Experiencia Relevante",
         "exp_main_org": "Plataforma educativa/psicom\u00e9trica (2011\u20132025)",
@@ -252,7 +256,7 @@ def get_content(lang):
 
     # ──────────────────── ENGLISH ────────────────────
     T["en"] = {
-        "subtitle": "Software Architect & Senior Full-Stack Developer (PHP/JS/SQL)",
+        "subtitle": "Solutions Architect | Senior Full-Stack | Modernization, Automation & Applied AI",
         "contact_labels": {
             "email": "Email", "linkedin": "LinkedIn", "web": "Web Portfolio",
             "github": "GitHub", "gitlab": "GitLab", "country": "Country",
@@ -281,6 +285,8 @@ def get_content(lang):
             "<b>Agentic AI:</b> LangGraph + Ollama (local AI), stateful agents, conditional routes",
             "<b>Social Bot Scheduler:</b> 9-axis integration matrix, 9 DB engines, n8n orchestration, Prometheus/Grafana",
             "<b>MCP + Ollama local:</b> Local AI chat, MCP tools, 100% private",
+            "<b>Unikernel Labs:</b> Windows Control Center \u2014 WSL2 + Node.js + WinForms, Unikraft services",
+            "<b>ChofyAI Studio:</b> macOS local AI launcher \u2014 Tauri + Rust + React, Apple Silicon",
         ],
         "project_links_title": "Project Links",
         "project_link_labels": {
@@ -288,6 +294,8 @@ def get_content(lang):
             "micro": "Microsystems", "social": "Social Bot Scheduler",
             "docker": "Docker Labs", "langgraph": "LangGraph",
             "mcp": "MCP + Ollama",
+            "unikernel": "Unikernel Labs",
+            "chofyai": "ChofyAI Studio",
         },
         "exp_title": "Relevant Experience",
         "exp_main_org": "Educational/psychometric platform (2011\u20132025)",
@@ -346,7 +354,7 @@ def get_content(lang):
 
     # ──────────────────── PORTUGUESE ─────────────────
     T["pt"] = {
-        "subtitle": "Arquiteto de Software & Desenvolvedor S\u00eanior Full-Stack (PHP/JS/SQL)",
+        "subtitle": "Arquiteto de Solu\u00e7\u00f5es | Senior Full-Stack | Moderniza\u00e7\u00e3o, Automa\u00e7\u00e3o e IA Aplicada",
         "contact_labels": {
             "email": "Email", "linkedin": "LinkedIn", "web": "Portf\u00f3lio Web",
             "github": "GitHub", "gitlab": "GitLab", "country": "Pa\u00eds",
@@ -375,6 +383,8 @@ def get_content(lang):
             "<b>IA Ag\u00eantica:</b> LangGraph + Ollama (IA local), agentes stateful, rotas condicionais",
             "<b>Social Bot Scheduler:</b> Matriz de integra\u00e7\u00e3o 9 eixos, 9 motores de BD, orquestra\u00e7\u00e3o n8n, Prometheus/Grafana",
             "<b>MCP + Ollama local:</b> Chat IA local, ferramentas MCP, 100% privado",
+            "<b>Unikernel Labs:</b> Control Center Windows \u2014 WSL2 + Node.js + WinForms, servi\u00e7os Unikraft",
+            "<b>ChofyAI Studio:</b> Launcher IA local macOS \u2014 Tauri + Rust + React, Apple Silicon",
         ],
         "project_links_title": "Links dos Projetos",
         "project_link_labels": {
@@ -382,6 +392,8 @@ def get_content(lang):
             "micro": "Microssistemas", "social": "Social Bot Scheduler",
             "docker": "Docker Labs", "langgraph": "LangGraph",
             "mcp": "MCP + Ollama",
+            "unikernel": "Unikernel Labs",
+            "chofyai": "ChofyAI Studio",
         },
         "exp_title": "Experi\u00eancia Relevante",
         "exp_main_org": "Plataforma educacional/psicom\u00e9trica (2011\u20132025)",
@@ -440,7 +452,7 @@ def get_content(lang):
 
     # ──────────────────── ITALIAN ────────────────────
     T["it"] = {
-        "subtitle": "Architetto Software & Sviluppatore Senior Full-Stack (PHP/JS/SQL)",
+        "subtitle": "Architetto di Soluzioni | Senior Full-Stack | Modernizzazione, Automazione e IA Applicata",
         "contact_labels": {
             "email": "Email", "linkedin": "LinkedIn", "web": "Portfolio Web",
             "github": "GitHub", "gitlab": "GitLab", "country": "Paese",
@@ -469,6 +481,8 @@ def get_content(lang):
             "<b>IA Agentica:</b> LangGraph + Ollama (IA locale), agenti stateful, rotte condizionali",
             "<b>Social Bot Scheduler:</b> Matrice di integrazione 9 assi, 9 motori DB, orchestrazione n8n, Prometheus/Grafana",
             "<b>MCP + Ollama locale:</b> Chat IA locale, strumenti MCP, 100% privato",
+            "<b>Unikernel Labs:</b> Control Center Windows \u2014 WSL2 + Node.js + WinForms, servizi Unikraft",
+            "<b>ChofyAI Studio:</b> Launcher IA locale macOS \u2014 Tauri + Rust + React, Apple Silicon",
         ],
         "project_links_title": "Link dei Progetti",
         "project_link_labels": {
@@ -476,6 +490,8 @@ def get_content(lang):
             "micro": "Microsistemi", "social": "Social Bot Scheduler",
             "docker": "Docker Labs", "langgraph": "LangGraph",
             "mcp": "MCP + Ollama",
+            "unikernel": "Unikernel Labs",
+            "chofyai": "ChofyAI Studio",
         },
         "exp_title": "Esperienza Rilevante",
         "exp_main_org": "Piattaforma educativa/psicometrica (2011\u20132025)",
@@ -534,7 +550,7 @@ def get_content(lang):
 
     # ──────────────────── FRENCH ─────────────────────
     T["fr"] = {
-        "subtitle": "Architecte Logiciel & D\u00e9veloppeur Senior Full-Stack (PHP/JS/SQL)",
+        "subtitle": "Architecte de Solutions | Senior Full-Stack | Modernisation, Automatisation et IA Appliqu\u00e9e",
         "contact_labels": {
             "email": "Email", "linkedin": "LinkedIn", "web": "Portfolio Web",
             "github": "GitHub", "gitlab": "GitLab", "country": "Pays",
@@ -563,6 +579,8 @@ def get_content(lang):
             "<b>IA Agentique :</b> LangGraph + Ollama (IA locale), agents stateful, routes conditionnelles",
             "<b>Social Bot Scheduler :</b> Matrice d\u2019int\u00e9gration 9 axes, 9 moteurs BD, orchestration n8n, Prometheus/Grafana",
             "<b>MCP + Ollama local :</b> Chat IA local, outils MCP, 100% priv\u00e9",
+            "<b>Unikernel Labs :</b> Control Center Windows \u2014 WSL2 + Node.js + WinForms, services Unikraft",
+            "<b>ChofyAI Studio :</b> Lanceur IA locale macOS \u2014 Tauri + Rust + React, Apple Silicon",
         ],
         "project_links_title": "Liens des Projets",
         "project_link_labels": {
@@ -570,6 +588,8 @@ def get_content(lang):
             "micro": "Microsyst\u00e8mes", "social": "Social Bot Scheduler",
             "docker": "Docker Labs", "langgraph": "LangGraph",
             "mcp": "MCP + Ollama",
+            "unikernel": "Unikernel Labs",
+            "chofyai": "ChofyAI Studio",
         },
         "exp_title": "Exp\u00e9rience Pertinente",
         "exp_main_org": "Plateforme \u00e9ducative/psychom\u00e9trique (2011\u20132025)",
@@ -628,7 +648,7 @@ def get_content(lang):
 
     # ──────────────────── CHINESE (Simplified) ───────
     T["zh"] = {
-        "subtitle": "\u8f6f\u4ef6\u67b6\u6784\u5e08 & \u9ad8\u7ea7\u5168\u6808\u5f00\u53d1\u4eba\u5458 (PHP/JS/SQL)",
+        "subtitle": "\u89e3\u51b3\u65b9\u6848\u67b6\u6784\u5e08 | \u9ad8\u7ea7\u5168\u6808\u5f00\u53d1 | \u73b0\u4ee3\u5316\u3001\u81ea\u52a8\u5316\u4e0e\u5e94\u7528AI",
         "contact_labels": {
             "email": "\u7535\u5b50\u90ae\u4ef6", "linkedin": "LinkedIn", "web": "\u4f5c\u54c1\u96c6\u7f51\u7ad9",
             "github": "GitHub", "gitlab": "GitLab", "country": "\u56fd\u5bb6",
@@ -657,6 +677,8 @@ def get_content(lang):
             "<b>\u667a\u80fdAI\uff1a</b>LangGraph + Ollama\uff08\u672c\u5730AI\uff09\u3001\u6709\u72b6\u6001\u4ee3\u7406\u3001\u6761\u4ef6\u8def\u7531",
             "<b>Social Bot Scheduler\uff1a</b>9\u8f74\u96c6\u6210\u77e9\u9635\u30019\u4e2a\u6570\u636e\u5e93\u5f15\u64ce\u3001n8n\u7f16\u6392\u3001Prometheus/Grafana",
             "<b>MCP + Ollama\u672c\u5730\uff1a</b>\u672c\u5730AI\u804a\u5929\u3001MCP\u5de5\u5177\u3001100%\u79c1\u5bc6",
+            "<b>Unikernel Labs\uff1a</b>Windows\u63a7\u5236\u4e2d\u5fc3 \u2014 WSL2 + Node.js + WinForms\uff0cUnikraft\u670d\u52a1",
+            "<b>ChofyAI Studio\uff1a</b>macOS\u672c\u5730AI\u542f\u52a8\u5668 \u2014 Tauri + Rust + React\uff0cApple Silicon",
         ],
         "project_links_title": "\u9879\u76ee\u94fe\u63a5",
         "project_link_labels": {
@@ -664,6 +686,8 @@ def get_content(lang):
             "micro": "\u5fae\u7cfb\u7edf", "social": "Social Bot Scheduler",
             "docker": "Docker Labs", "langgraph": "LangGraph",
             "mcp": "MCP + Ollama",
+            "unikernel": "Unikernel Labs",
+            "chofyai": "ChofyAI Studio",
         },
         "exp_title": "\u76f8\u5173\u7ecf\u9a8c",
         "exp_main_org": "\u6559\u80b2/\u5fc3\u7406\u6d4b\u91cf\u5e73\u53f0 (2011\u20132025)",
