@@ -16,7 +16,7 @@
 - 30 PDFs regenerados (5 tipos × 6 idiomas)
 - Backup en `assets/backups/2026-04-03/`
 
-## 2026-04-03
+## 2026-04-03 — Expansión multilingüe
 
 ### Expansión multilingüe completa (PT/IT/FR/ZH)
 

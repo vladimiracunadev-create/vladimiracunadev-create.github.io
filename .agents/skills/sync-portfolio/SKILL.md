@@ -63,7 +63,7 @@ python scripts/sync-portfolio.py --apply --no-push     # aplica sin push
 ## CONTEXTO DEL PROYECTO
 
 - Repositorio principal: vladimiracunadev-create.github.io (C:\portfolio-pages)
-- Web: https://vladimiracunadev-create.github.io/
+- Web: <https://vladimiracunadev-create.github.io/>
 - Repos ocultos permanentes (nunca tocar): rootcause-windows-inspector, rootcause-landing
 
 ---
@@ -89,6 +89,7 @@ python scripts/sync-portfolio.py --apply
 
 El script NO edita HTML ni scripts de generación — eso requiere trabajo manual.
 Solo interviene Claude cuando:
+
 - Hay proyectos nuevos que necesitan card en index.html (sección #proyectos)
 - Los scripts de generación necesitan nuevo contenido (descripciones, idiomas)
 - Hay cambios de identidad/título profesional
@@ -101,7 +102,7 @@ Reportar primero. Arreglar con autorización del usuario.
 
 ## REPORTE FINAL
 
-```
+```text
 [Dry-run]   — repos nuevos detectados, brechas en API
 [Backups]   — PDFs respaldados
 [PDFs]      — generados correctamente
