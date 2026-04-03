@@ -109,8 +109,8 @@ def get_content(lang):
 
     T = {
         "es": {
-            "subtitle_rec": "Arquitecto de Soluciones | Senior Full-Stack | Modernizaci\u00f3n, Automatizaci\u00f3n e IA Aplicada",
-            "subtitle_ats": "Arquitecto de Soluciones | Senior Full-Stack | Modernizaci\u00f3n, Automatizaci\u00f3n e IA Aplicada",
+            "subtitle_rec": "Arquitecto de Soluciones | Senior Full-Stack | Modernización, Automatización e IA Aplicada",
+            "subtitle_ats": "Arquitecto de Soluciones | Senior Full-Stack | Modernización, Automatización e IA Aplicada",
             "h_contact": "CONTACTO", "h_skills": "SKILLS", "h_education": "EDUCACI\u00d3N",
             "h_languages": "IDIOMAS", "h_summary": "RESUMEN", "h_experience": "EXPERIENCIA DESTACADA",
             "h_previous": "TRAYECTORIA PREVIA (S\u00cdNTESIS)", "h_projects": "PROYECTOS DESTACADOS",
@@ -271,8 +271,8 @@ def get_content(lang):
             "transition_footer": "The previous page is for human review. The following pages are for automated processing.",
         },
         "pt": {
-            "subtitle_rec": "Arquiteto de Solu\u00e7\u00f5es | Senior Full-Stack | Moderniza\u00e7\u00e3o, Automa\u00e7\u00e3o e IA Aplicada",
-            "subtitle_ats": "Arquiteto de Solu\u00e7\u00f5es | Senior Full-Stack | Moderniza\u00e7\u00e3o, Automa\u00e7\u00e3o e IA Aplicada",
+            "subtitle_rec": "Arquiteto de Soluções | Senior Full-Stack | Modernização, Automação e IA Aplicada",
+            "subtitle_ats": "Arquiteto de Soluções | Senior Full-Stack | Modernização, Automação e IA Aplicada",
             "h_contact": "CONTATO", "h_skills": "SKILLS", "h_education": "EDUCA\u00c7\u00c3O",
             "h_languages": "IDIOMAS", "h_summary": "RESUMO", "h_experience": "EXPERI\u00caNCIA DESTACADA",
             "h_previous": "TRAJET\u00d3RIA ANTERIOR (S\u00cdNTESE)", "h_projects": "PROJETOS DESTACADOS",
@@ -433,8 +433,8 @@ def get_content(lang):
             "transition_footer": "La pagina precedente \u00e8 per la lettura umana. Le seguenti sono per l'elaborazione automatica.",
         },
         "fr": {
-            "subtitle_rec": "Architecte de Solutions | Senior Full-Stack | Modernisation, Automatisation et IA Appliqu\u00e9e",
-            "subtitle_ats": "Architecte de Solutions | Senior Full-Stack | Modernisation, Automatisation et IA Appliqu\u00e9e",
+            "subtitle_rec": "Architecte de Solutions | Senior Full-Stack | Modernisation, Automatisation et IA Appliquée",
+            "subtitle_ats": "Architecte de Solutions | Senior Full-Stack | Modernisation, Automatisation et IA Appliquée",
             "h_contact": "CONTACT", "h_skills": "COMP\u00c9TENCES", "h_education": "FORMATION",
             "h_languages": "LANGUES", "h_summary": "R\u00c9SUM\u00c9", "h_experience": "EXP\u00c9RIENCE PRINCIPALE",
             "h_previous": "CARRI\u00c8RE ANT\u00c9RIEURE (SYNTH\u00c8SE)", "h_projects": "PROJETS EN VEDETTE",
@@ -514,8 +514,8 @@ def get_content(lang):
             "transition_footer": "La page pr\u00e9c\u00e9dente est pour la lecture humaine. Les suivantes sont pour le traitement automatique.",
         },
         "zh": {
-            "subtitle_rec": "\u89e3\u51b3\u65b9\u6848\u67b6\u6784\u5e08 | \u9ad8\u7ea7\u5168\u6808\u5f00\u53d1 | \u73b0\u4ee3\u5316\u3001\u81ea\u52a8\u5316\u4e0e\u5e94\u7528AI",
-            "subtitle_ats": "\u89e3\u51b3\u65b9\u6848\u67b6\u6784\u5e08 | \u9ad8\u7ea7\u5168\u6808\u5f00\u53d1 | \u73b0\u4ee3\u5316\u3001\u81ea\u52a8\u5316\u4e0e\u5e94\u7528AI",
+            "subtitle_rec": "解决方案架构师 | 高级全栈开发 | 现代化、自动化与应用AI",
+            "subtitle_ats": "解决方案架构师 | 高级全栈开发 | 现代化、自动化与应用AI",
             "h_contact": "\u8054\u7cfb\u65b9\u5f0f", "h_skills": "\u6280\u80fd", "h_education": "\u6559\u80b2\u80cc\u666f",
             "h_languages": "\u8bed\u8a00\u80fd\u529b", "h_summary": "\u6982\u8ff0", "h_experience": "\u4e3b\u8981\u7ecf\u9a8c",
             "h_previous": "\u65e9\u671f\u804c\u4e1a\u7ecf\u5386\uff08\u6458\u8981\uff09", "h_projects": "\u7cbe\u9009\u9879\u76ee",

@@ -158,7 +158,7 @@ def get_content(lang):
 
     # ──────────────────── SPANISH ────────────────────
     T["es"] = {
-        "subtitle": "Arquitecto de Soluciones | Senior Full-Stack | Modernizaci\u00f3n, Automatizaci\u00f3n e IA Aplicada",
+        "subtitle": "Arquitecto de Soluciones | Senior Full-Stack | Modernización, Automatización e IA Aplicada",
         "contact_labels": {
             "email": "Email", "linkedin": "LinkedIn", "web": "Portafolio Web",
             "github": "GitHub", "gitlab": "GitLab", "country": "Pa\u00eds",
@@ -354,7 +354,7 @@ def get_content(lang):
 
     # ──────────────────── PORTUGUESE ─────────────────
     T["pt"] = {
-        "subtitle": "Arquiteto de Solu\u00e7\u00f5es | Senior Full-Stack | Moderniza\u00e7\u00e3o, Automa\u00e7\u00e3o e IA Aplicada",
+        "subtitle": "Arquiteto de Soluções | Senior Full-Stack | Modernização, Automação e IA Aplicada",
         "contact_labels": {
             "email": "Email", "linkedin": "LinkedIn", "web": "Portf\u00f3lio Web",
             "github": "GitHub", "gitlab": "GitLab", "country": "Pa\u00eds",
@@ -550,7 +550,7 @@ def get_content(lang):
 
     # ──────────────────── FRENCH ─────────────────────
     T["fr"] = {
-        "subtitle": "Architecte de Solutions | Senior Full-Stack | Modernisation, Automatisation et IA Appliqu\u00e9e",
+        "subtitle": "Architecte de Solutions | Senior Full-Stack | Modernisation, Automatisation et IA Appliquée",
         "contact_labels": {
             "email": "Email", "linkedin": "LinkedIn", "web": "Portfolio Web",
             "github": "GitHub", "gitlab": "GitLab", "country": "Pays",
@@ -648,7 +648,7 @@ def get_content(lang):
 
     # ──────────────────── CHINESE (Simplified) ───────
     T["zh"] = {
-        "subtitle": "\u89e3\u51b3\u65b9\u6848\u67b6\u6784\u5e08 | \u9ad8\u7ea7\u5168\u6808\u5f00\u53d1 | \u73b0\u4ee3\u5316\u3001\u81ea\u52a8\u5316\u4e0e\u5e94\u7528AI",
+        "subtitle": "解决方案架构师 | 高级全栈开发 | 现代化、自动化与应用AI",
         "contact_labels": {
             "email": "\u7535\u5b50\u90ae\u4ef6", "linkedin": "LinkedIn", "web": "\u4f5c\u54c1\u96c6\u7f51\u7ad9",
             "github": "GitHub", "gitlab": "GitLab", "country": "\u56fd\u5bb6",

@@ -7,7 +7,7 @@
     "projects": [
         {
             "name": "Cloud/AWS y FinOps",
-            "description": "15 casos prácticos AWS (11 completados, 3 validados): OIDC, Terraform, SAM, Lambda, DynamoDB, Cognito/WAF, EventBridge/SQS/SNS, CloudWatch/X-Ray, ECS/EKS, FinOps con Budgets y gobernanza de costos.",
+            "description": "Proyectos Personales en AWS, aprendizaje y estudio constante, caso a caso, servicio a servicio",
             "url": "https://github.com/vladimiracunadev-create/proyectos-aws",
             "gitlab_url": "https://gitlab.com/vladimir.acuna.dev-group/proyectos-aws-gitlab",
             "tags": [
@@ -33,7 +33,7 @@
         },
         {
             "name": "Social Bot Scheduler v4.x",
-            "description": "Orquestación real con n8n: 9 ejes de integración (Python/Go/Node/PHP/Ruby/Rust/C#/Flask/Symfony), polyglot persistence (12+ motores de datos), observabilidad industrial (Prometheus/Grafana), guardrails (idempotencia, circuit breaker, DLQ).",
+            "description": "Social Bot Scheduler: Matriz de Integración Multi-Eje con n8n (Python/Go/Node/PHP) + Docker.",
             "url": "https://github.com/vladimiracunadev-create/social-bot-scheduler",
             "tags": [
                 "n8n",
@@ -55,7 +55,7 @@
         },
         {
             "name": "Docker Labs v1.4 · Infra Hub",
-            "description": "12 labs integrados con centro de control unificado (port 9090), Inventory Core API, Operations Portal, Platform Gateway. Launcher nativo Go, instalador Windows automatizado, observabilidad con Prometheus/Grafana, manifiestos K8s.",
+            "description": "Este repositorio es un laboratorio personal de contenedores para aprender, practicar y documentar el uso de Docker / Docker Compose con distintos stacks (PHP, Node.js, Python, bases de datos, herramientas, etc.).",
             "url": "https://github.com/vladimiracunadev-create/docker-labs",
             "tags": [
                 "Docker",
@@ -74,7 +74,7 @@
         },
         {
             "name": "Microsistemas · Productivity Suite",
-            "description": "11 herramientas modulares: KatasMultiLang (195 comparaciones / 67 tecnologías), CicdLibrary (192 patrones CI/CD), AWS Assistant Pro, servidor MCP Python para integración IA. Hub CLI con diagnóstico y smoke testing.",
+            "description": "Este directorio reúne una colección de microsistemas web autocontenidos, orientados a facilitar tareas recurrentes de desarrollo, mantención, diagnóstico y modernización de sistemas.",
             "url": "https://github.com/vladimiracunadev-create/microsistemas",
             "tags": [
                 "PHP 8",
@@ -92,7 +92,7 @@
         },
         {
             "name": "LangGraph · Agentic Resilience",
-            "description": "Portal unificado con 4 casos operativos (soporte omnicanal, HR screening, onboarding, BI SQL/charting), contratos de estado tipado (TypedDict), modo dual offline/live, health/readiness endpoints.",
+            "description": "Monorepo de 25 demos reales con LangGraph: flujos con estado, Docker por caso, CI en GitHub Actions y un Caso 09 implementado (RR.HH. screening + agenda)",
             "url": "https://github.com/vladimiracunadev-create/langgraph-realworld",
             "tags": [
                 "LangGraph",
@@ -111,7 +111,7 @@
         },
         {
             "name": "MCP + Ollama Local",
-            "description": "IA local con privacidad total: FastAPI + Ollama (Qwen/Llama3) + herramientas MCP seguras + persistencia SQLite. Cloud-ready (Docker/K8s), extensible vía MCP protocol.",
+            "description": "MCP + Ollama local: FastAPI web con chat, tools MCP (sandbox) e historial SQLite.",
             "url": "https://github.com/vladimiracunadev-create/mcp-ollama-local",
             "tags": [
                 "FastAPI",
@@ -147,7 +147,7 @@
         },
         {
             "name": "Unikernel Labs · Control Center",
-            "description": "Suite profesional para operar servicios Unikraft en Windows con backend WSL2. Control total vía Dashboard Node.js y Launcher WinForms. Arquitectura de alto rendimiento y orquestación unikernel desde localhost.",
+            "description": "🎯 Unikernel Control Center v1 · Suite profesional para operar servicios Unikraft en Windows con backend WSL2. Control total vía Dashboard Node.js y Launcher WinForms en localhost. Demostrando arquitectura de alto rendimiento y orquestación unikernel. ⚡",
             "url": "https://github.com/vladimiracunadev-create/unikernel-labs",
             "tags": [
                 "Unikraft",
@@ -162,7 +162,7 @@
         },
         {
             "name": "ChofyAI Studio",
-            "description": "Lanzador de escritorio para macOS Apple Silicon que centraliza e instala herramientas de IA local: Qwen3-TTS, whisper.cpp, FaceFusion, AceForge. Construido con Tauri, Rust y React.",
+            "description": "Lanzador de escritorio para macOS Apple Silicon diseñado para centralizar e instalar herramientas creativas de IA local (Qwen3-TTS, whisper.cpp, FaceFusion, AceForge). Creado con Tauri, Rust y React.",
             "url": "https://github.com/vladimiracunadev-create/chofyai-studio",
             "tags": [
                 "Tauri",

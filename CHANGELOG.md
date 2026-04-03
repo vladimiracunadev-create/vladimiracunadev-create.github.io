@@ -2,6 +2,14 @@
 
 ## 2026-04-03
 
+### sync-portfolio (automático)
+
+- `api/v1/`: generated_at → 2026-04-03
+- 30 PDFs regenerados (5 tipos × 6 idiomas)
+- Backup en `assets/backups/2026-04-03/`
+
+## 2026-04-03
+
 ### Expansión multilingüe completa (PT/IT/FR/ZH)
 
 - `index.html`: soporte de 6 idiomas (ES/EN/PT/IT/FR/ZH) en todas las secciones:
