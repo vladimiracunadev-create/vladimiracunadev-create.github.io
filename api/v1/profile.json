@@ -1,12 +1,12 @@
 {
     "meta": {
         "version": "v1",
-        "generated_at": "2026-03-19",
+        "generated_at": "2026-04-03",
         "source_pdf": "assets/cv-ats.pdf"
     },
     "name": "Vladimir Acuña",
     "full_name": "Vladimir Bernardo Acuña Valdebenito",
-    "label": "Arquitecto de Software | Full-Stack Senior | Polyglot Engineer | Cloud/DevOps & FinOps",
+    "label": "Arquitecto de Soluciones | Senior Full-Stack | Modernización Legacy, Automatización e Integración de IA Aplicada",
     "location": {
         "city": "Santiago",
         "country": "CL"
@@ -34,7 +34,7 @@
             "url": "https://youtu.be/huIjsH-N7to"
         }
     ],
-    "summary": "16 años diseñando, construyendo y operando software en entornos reales (14+ años en plataformas educativas/psicométricas). En 2026 consolidé un ecosistema verificable: 15 casos AWS (11 completados), polyglot persistence (9 lenguajes × 12+ DBs), agentes IA con estado, observabilidad industrial y un portafolio profesional en 6 idiomas con 30+ PDFs generados por pipeline.",
+    "summary": "16 años diseñando, construyendo y operando software en entornos reales (14+ años en plataformas educativas/psicométricas). Especializado en modernización de sistemas legacy, automatización de procesos e integración de IA aplicada. En 2026 consolidé un ecosistema verificable: 15 casos AWS (11 completados), polyglot persistence (9 lenguajes × 12+ DBs), agentes IA con estado tipado (LangGraph), observabilidad industrial y un portafolio profesional en 6 idiomas (ES/EN/PT/IT/FR/ZH) con 30+ PDFs generados por pipeline Python.",
     "languages": [
         {
             "language": "Español",

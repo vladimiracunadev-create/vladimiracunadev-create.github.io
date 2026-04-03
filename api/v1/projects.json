@@ -1,7 +1,7 @@
 {
     "meta": {
         "version": "v1",
-        "generated_at": "2026-03-19",
+        "generated_at": "2026-04-03",
         "source_pdf": "assets/cv-ats.pdf"
     },
     "projects": [
@@ -144,6 +144,37 @@
             "category": "portfolio",
             "languages_supported": 6,
             "pdfs_generated": 30
+        },
+        {
+            "name": "Unikernel Labs · Control Center",
+            "description": "Suite profesional para operar servicios Unikraft en Windows con backend WSL2. Control total vía Dashboard Node.js y Launcher WinForms. Arquitectura de alto rendimiento y orquestación unikernel desde localhost.",
+            "url": "https://github.com/vladimiracunadev-create/unikernel-labs",
+            "tags": [
+                "Unikraft",
+                "WSL2",
+                "Node.js",
+                "WinForms",
+                "Windows",
+                "Dashboard",
+                "Performance"
+            ],
+            "category": "platform"
+        },
+        {
+            "name": "ChofyAI Studio",
+            "description": "Lanzador de escritorio para macOS Apple Silicon que centraliza e instala herramientas de IA local: Qwen3-TTS, whisper.cpp, FaceFusion, AceForge. Construido con Tauri, Rust y React.",
+            "url": "https://github.com/vladimiracunadev-create/chofyai-studio",
+            "tags": [
+                "Tauri",
+                "Rust",
+                "React",
+                "macOS",
+                "Apple Silicon",
+                "Local AI",
+                "whisper.cpp",
+                "Ollama"
+            ],
+            "category": "ai"
         }
     ]
 }

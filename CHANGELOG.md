@@ -1,5 +1,26 @@
 # Changelog
 
+## 2026-04-03
+
+### Expansión multilingüe completa (PT/IT/FR/ZH)
+
+- `index.html`: soporte de 6 idiomas (ES/EN/PT/IT/FR/ZH) en todas las secciones:
+  hero, resultados, evolución, proyectos, demos, experiencia, flujo-IA,
+  alcance/roles, servicios, descargas, referencias y contacto.
+- `styles.css`: sistema de visibilidad CSS extendido a 6 idiomas con reglas
+  `display: revert` y `display: block` para elementos en línea y de bloque.
+- `app.js`: `resolveLocalizedPdfHref` actualizado — PT/IT usan PDFs en español,
+  FR/ZH usan PDFs en inglés.
+
+### Sincronización API v1
+
+- `api/v1/profile.json`: `label` actualizado a "Arquitecto de Soluciones |
+  Senior Full-Stack | Modernización Legacy, Automatización e Integración de IA
+  Aplicada". `summary` ampliado con los 6 idiomas y repos 2026.
+- `api/v1/projects.json`: agregados `unikernel-labs` (PUBLIC) y
+  `chofyai-studio` (PUBLIC). Repos privados excluidos.
+- Todos los `api/v1/*.json`: `generated_at` actualizado a `2026-04-03`.
+
 ## 2026-03-22
 
 ### Detección automática de idioma del navegador
