@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-04-07
+
+### Ampliación de alcance profesional — Instructor de Programación
+
+- `index.html`: nueva card en Capa 2 "Expansión natural" para "Instructor de Programación y Pensamiento Computacional" (6 idiomas)
+  - Respaldada por 445+ horas de relatorías reales (Centro Europeo 2003–2004, E-syste 2011)
+  - Titulación UTA (nota 6.7): entorno educativo web para niños con Síndrome de Down
+- `api/v1/experience.json`: agregadas 2 entradas de Relator Técnico (Centro Europeo 2003–2004 y E-syste 2011) extraídas desde `assets/no_aplica/cv-completo.pdf`
+
 ## 2026-04-03
 
 ### sync-portfolio (automático) — sesión 2

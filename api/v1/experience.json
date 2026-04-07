@@ -6,6 +6,43 @@
     },
     "experience": [
         {
+            "company": "Centro Europeo para la Capacitación",
+            "position": "Relator Técnico",
+            "startDate": "2003-07",
+            "endDate": "2004-06",
+            "duration_hours": 445,
+            "location": "Santiago, Chile",
+            "type": "instructor",
+            "highlights": [
+                "Diseño Web (HTML, JavaScript, VBScript, ASP) — 8 clases a 6 alumnos, 52 horas, nivel intermedio.",
+                "HTML y CSS — 7 clases a 20 alumnos, 10 horas, nivel básico.",
+                "Armado de Computadores — 15 clases a 10 alumnos, 45 horas, nivel básico.",
+                "8 relatorías de Office 2000 e Internet — 84 clases a 69 alumnos, 338 horas, niveles básico e intermedio."
+            ],
+            "technologies": ["HTML", "JavaScript", "VBScript", "ASP", "CSS", "MS Office 2000"],
+            "provenance": {
+                "source_pdf": "assets/no_aplica/cv-completo.pdf",
+                "excerpt": "Relator — Centro Europeo para la Capacitación (Jul 2003 – Jun 2004)"
+            }
+        },
+        {
+            "company": "E-syste",
+            "position": "Relator Técnico",
+            "startDate": "2011-04",
+            "endDate": "2011-04",
+            "duration_hours": 21,
+            "location": "Santiago, Chile",
+            "type": "instructor",
+            "highlights": [
+                "Relatoría de Microsoft Office Visio 2007 — 7 clases a 10 alumnos, 21 horas, nivel intermedio y avanzado."
+            ],
+            "technologies": ["Microsoft Visio 2007"],
+            "provenance": {
+                "source_pdf": "assets/no_aplica/cv-completo.pdf",
+                "excerpt": "Relator — E-syste (Abril 2011)"
+            }
+        },
+        {
             "company": "Fundación CEIS Maristas",
             "position": "Arquitecto de Software y Desarrollador Full-Stack",
             "startDate": "2011",
