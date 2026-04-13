@@ -58,6 +58,7 @@ python scripts/sync-portfolio.py --apply --no-push     # aplica sin push
 9. RootCause es permanentemente oculto — nunca mencionarlo en ningún output
 10. Repos privados NUNCA se publican en API ni README
 11. NUNCA terminar una sesión sin generar el reporte de sesión
+12. NUNCA hacer commit sin ejecutar `npm run lint:md` y que pase con 0 errores
 
 ---
 
@@ -65,6 +66,7 @@ python scripts/sync-portfolio.py --apply --no-push     # aplica sin push
 
 - Repositorio principal: vladimiracunadev-create.github.io (C:\portfolio-pages)
 - Web: <https://vladimiracunadev-create.github.io/>
+- README del perfil GitHub: <https://github.com/vladimiracunadev-create/vladimiracunadev-create>
 - Repos ocultos permanentes (nunca tocar): rootcause-windows-inspector, rootcause-landing
 
 ---
@@ -86,44 +88,183 @@ Presenta el reporte al usuario. Espera SYNC CONFIRMAR.
 python scripts/sync-portfolio.py --apply
 ```
 
-### Si hay contenido nuevo en index.html o PDFs
+### Pasos MANUALES obligatorios tras `--apply`
 
-El script NO edita HTML ni scripts de generación — eso requiere trabajo manual.
-Solo interviene Claude cuando:
+El script automatiza API + PDFs + README + commit/push, pero hay elementos que
+**Claude siempre debe corregir manualmente** después de cada sync:
 
-- Hay proyectos nuevos que necesitan card en index.html (sección #proyectos)
-- Los scripts de generación necesitan nuevo contenido (descripciones, idiomas)
-- Hay cambios de identidad/título profesional
+#### A. Campos de fecha en index.html (2 campos, siempre)
 
-### Reglas permanentes del script (errores conocidos ya corregidos)
+```html
+<!-- Campo 1: buildDate (línea ~175) -->
+<span id="buildDate">YYYY-MM-DD</span>   <!-- actualizar a fecha actual -->
 
-**1. Emojis en descripciones de repos → PDFs con puntos negros**
-Las descripciones de GitHub pueden incluir emojis (☁️, 🧠, 🤖, etc.).
-`sync-portfolio.py` ya aplica `strip_emojis()` antes de inyectar en scripts PDF.
-Si una sesión anterior ya inyectó emojis en `generate-*.py`, ejecutar:
+<!-- Campo 2: hero card tag (línea ~181, 6 idiomas) -->
+<span data-es>Nuevo · Abr 2026</span>
+<span data-en>New · Apr 2026</span>
+<span data-pt>Novo · Abr 2026</span>
+<span data-it>Nuovo · Apr 2026</span>
+<span data-fr>Nouveau · Avr 2026</span>
+<span data-zh>最新 · 2026年4月</span>
+```
+
+Actualizar el mes/año al mes actual en los 6 idiomas.
+Abreviaturas: Ene/Jan, Feb/Feb, Mar/Mar, Abr/Apr, May/May, Jun/Jun,
+Jul/Jul, Ago/Aug, Sep/Sep, Oct/Oct, Nov/Nov, Dic/Dec.
+FR: Jan, Fév, Mar, Avr, Mai, Juin, Juil, Août, Sep, Oct, Nov, Déc.
+ZH: 1月…12月 → `2026年N月`.
+
+#### B. Descripciones HTML de proyectos existentes
+
+El script actualiza `api/v1/projects.json` y `generate-*.py` con las nuevas
+descripciones de GitHub, pero **NO actualiza las cards HTML de proyectos
+ya existentes** en `index.html#proyectos`.
+
+Cuando la descripción de un proyecto cambia significativamente en GitHub
+(e.g., LangGraph pasó de "25 demos" a "8 backends operativos + OAuth"),
+actualizar manualmente los 6 spans `data-es/en/pt/it/fr/zh` de esa card.
+
+#### C. Cards nuevas: verificar posición dentro del grid
+
+El script inyecta nuevas cards buscando un anchor HTML. Verificar que
+las cards nuevas queden DENTRO del `<div class="grid grid--2">` y no
+después del `</div>` de cierre del grid.
+
+Síntoma de error: card aparece ancho completo (full-width), fuera de columnas.
+Fix: mover el `<article>` antes del `</div>` que cierra el grid.
+
+Niveles correctos para nuevas cards:
+
+- `data-min-level="1"` → proyectos relevantes, vista Normal + Profundo
+- `data-min-level="2"` → repos suplementarios/experimentales, solo vista Profundo
+- Sin atributo → se ve en todos los niveles (solo para proyectos principales)
+
+#### D. README del perfil GitHub: formato obligatorio para repos nuevos
+
+Cada repo nuevo añadido al README
+(`vladimiracunadev-create/vladimiracunadev-create`) debe seguir EXACTAMENTE
+este formato (incluyendo acento en "Qué"):
+
+```markdown
+### {emoji} {Título} ({Tag1} · {Tag2} · {Tag3})
+**Repo:** https://github.com/vladimiracunadev-create/{nombre-repo}
+**Qué demuestra:** Descripción detallada que explique arquitectura, casos,
+tecnologías y criterio de diseño. Mismo nivel de detalle que los repos ya
+existentes (ver Docker Labs, Social Bot, LangGraph como referencia).
+
+```
+
+Errores frecuentes a evitar:
+
+- `"Que demuestra"` sin acento → siempre `"Qué demuestra"`
+- Descripción de 1 línea genérica → descripción con detalle técnico real
+- Sin blank line antes del `---` siguiente → siempre añadir blank line
+- Sin emoji en el título → siempre añadir emoji representativo
+
+---
+
+## REGLAS PERMANENTES DEL SCRIPT (errores conocidos ya corregidos)
+
+### 1. Emojis en descripciones → PDFs con puntos negros Y HTML inconsistente
+
+Las descripciones de GitHub pueden incluir emojis (☁️, 🧠, 🤖, 🐳, 📊, etc.).
+
+`sync-portfolio.py` ya aplica `strip_emojis()` en:
+
+- `inject_into_scripts()` — genera-all-languages.py + generate-portfolio.py
+- `inject_into_html()` — cards de index.html
+
+Si una sesión anterior ya inyectó emojis en los archivos, limpiar así:
 
 ```bash
 python -c "
 import re, sys
-EMOJI_RE = re.compile(u'[\U0001F300-\U0001F9FF\U00002600-\U000027BF\U0001FA00-\U0001FAFF\U00002702-\U000027B0]+', flags=re.UNICODE)
-for f in sys.argv[1:]:
-    txt = open(f, encoding='utf-8').read()
-    fixed = re.sub(r' :(\")', r':\1', re.sub(r' +\"', '\"', EMOJI_RE.sub('', txt)))
-    open(f, 'w', encoding='utf-8').write(fixed)
-    print('fixed:', f)
+EMOJI_RE = re.compile(
+    u'[\U0001F300-\U0001F9FF\U00002600-\U000027BF\U0001FA00-\U0001FAFF\U00002702-\U000027B0]+',
+    flags=re.UNICODE
+)
+for fname in sys.argv[1:]:
+    lines = open(fname, encoding='utf-8').read().split('\n')
+    fixed_lines = []
+    for line in lines:
+        if any(k in line for k in ['Problem Driven', 'Python Data', 'YOUR_REPO_TITLE']):
+            line = re.sub(r'  +', ' ', EMOJI_RE.sub('', line))
+        fixed_lines.append(line)
+    open(fname, 'w', encoding='utf-8').write('\n'.join(fixed_lines))
+    print('fixed:', fname)
 " scripts/generate-all-languages.py scripts/generate-portfolio.py
 ```
 
 Luego regenerar los PDFs afectados.
 
-**2. README del perfil GitHub (`vladimiracunadev-create/vladimiracunadev-create`)**
-El script usa dos llamadas `gh api` separadas (content + sha) para evitar
-problemas de quoting en Windows con `shell=True`.
+### 2. README del perfil GitHub — dos llamadas `gh api` separadas
+
+El comando `gh api ... --jq '.content+"\n"+.sha'` falla en Windows
+(quoting con `shell=True`). El script usa dos llamadas separadas:
+
+```python
+content_b64, code1 = run_capture(f"gh api {readme_api} --jq .content")
+sha, code2         = run_capture(f"gh api {readme_api} --jq .sha")
+```
+
 Si falla, verificar `gh auth status` y que el token tenga scope `repo`.
 
-### Si hay errores en el script
+### 3. `npm run lint:md` — obligatorio antes de TODO commit
 
-Reportar primero. Arreglar con autorización del usuario.
+```bash
+npm run lint:md
+# Debe mostrar: Summary: 0 error(s)
+```
+
+Si hay errores, auto-fix con:
+
+```bash
+npx markdownlint-cli2 --fix "archivo-con-errores.md"
+```
+
+Si `fix-md-lint.py --all` falla con UnicodeDecodeError, ejecutar solo
+sobre los archivos modificados:
+
+```bash
+python C:/portfolio-pages/scripts/fix-md-lint.py
+# (sin --all, detecta archivos modificados por git)
+```
+
+### 4. Hard refresh para ver cambios en GitHub Pages
+
+GitHub Pages despliega en ~1–2 minutos tras el push.
+Indicar siempre al usuario: **Ctrl+F5** (o Cmd+Shift+R en Mac) para
+forzar recarga sin caché.
+
+### 5. Fork count en "Repos recientes (auto)" — PENDIENTE FUTURO
+
+El `loadRecentRepos()` en `app.js` actualmente muestra:
+`★ {stars} · actualizado {fecha} · ⑂ fork (si aplica)`
+
+**Tarea futura**: mostrar también el conteo de forks del repo
+(`r.forks_count`) similar a las estrellas, en lugar de solo el badge ⑂ fork.
+Formato sugerido: `★ {stars} · ⑂ {forks} · actualizado {fecha}`
+
+No implementar hasta que el usuario lo solicite explícitamente.
+
+---
+
+## VALIDACIÓN COMPLETA — CHECKLIST ANTES DE COMMIT
+
+Ejecutar en este orden, corregir cualquier error antes de continuar:
+
+```bash
+# 1. Tests de integridad (51 checks)
+npm test
+# Esperado: PASSED: 51 · ERRORS: 0
+
+# 2. Lint de Markdown (0 errores tolerados)
+npm run lint:md
+# Esperado: Summary: 0 error(s)
+
+# 3. Solo si se regeneraron PDFs: verificar que abren sin errores
+# (spot-check: abrir 1-2 PDFs en assets/ y revisar que no hay puntos negros)
+```
 
 ---
 
@@ -147,12 +288,15 @@ Debe permitir reconstruir exactamente qué cambió, dónde y por qué.
 **Rango de commits:** `hash_inicio` → `hash_fin`
 
 ## Resumen ejecutivo
+
 [2-4 líneas describiendo el alcance global de la sesión]
 
 ## Cambios por archivo — detalle estricto
 
 ### archivo.ext
+
 **Commit:** `hash`
+
 - Campo / sección exacta que cambió
 - Valor anterior → valor nuevo (texto literal cuando aplica)
 - Motivo del cambio
@@ -160,13 +304,19 @@ Debe permitir reconstruir exactamente qué cambió, dónde y por qué.
 [...un bloque por cada archivo modificado...]
 
 ## PDFs — estado final
+
 [tabla: documento | variantes | estado]
 
 ## Errores encontrados y resueltos
+
 [tabla: error | causa | fix aplicado]
 
 ## Validación final
-[resultado de npm run lint:md y git push]
+
+- npm test: N PASSED · 0 ERRORS
+- npm run lint:md: 0 error(s)
+- git push: OK → hash
+- GitHub Pages: desplegado (Ctrl+F5 para ver cambios en el browser)
 ```
 
 ### Qué debe incluir para cada cambio
@@ -188,15 +338,18 @@ Mostrar siempre al terminar (además del reporte detallado en archivo):
 [Dry-run]   — repos nuevos detectados, brechas en API
 [Repos]     — repos nuevos / repos con descripción actualizada
 [Identidad] — subtítulos sincronizados (idiomas afectados)
+[Fechas]    — buildDate + hero tag actualizados (YYYY-MM-DD / Mes Año)
 [API]       — JSONs actualizados
 [Scripts]   — cambios en generate-*.py (repos, subtítulos)
-[HTML]      — cards nuevas / descripciones actualizadas
+[HTML]      — cards nuevas / descripciones actualizadas / grid OK
 [Backups]   — PDFs respaldados en assets/backups/YYYY-MM-DD/
-[PDFs]      — N PDFs regenerados
-[README]    — perfil GitHub actualizado
-[Lint]      — resultado npm run lint:md
+[PDFs]      — N PDFs regenerados (verificados sin puntos negros)
+[README]    — perfil GitHub actualizado (formato correcto con Qué/emoji/detalle)
+[Lint]      — resultado npm run lint:md (0 errores)
+[Tests]     — npm test (51 PASSED · 0 ERRORS)
 [Commit]    — hash del commit
 [Push]      — estado
 [Reporte]   — assets/backups/YYYY-MM-DD/SESSION-REPORT-YYYY-MM-DD.md
 [Manual]    — tareas que requieren intervención (si las hay)
+[CacheWeb]  — recordar al usuario: Ctrl+F5 para ver cambios en el browser
 ```
