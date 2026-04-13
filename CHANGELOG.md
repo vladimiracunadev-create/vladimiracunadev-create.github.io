@@ -11,6 +11,12 @@
 - 30 PDFs regenerados (5 tipos × 6 idiomas)
 - Backup en `assets/backups/2026-04-13/`
 
+### app.js — forks en Repos recientes
+
+- `app.js`: eliminado filtro `!r.fork` en `loadRecentRepos()` — los forks ahora aparecen en la sección "Repos recientes (auto)"
+- Badge visual `⑂ fork` agregado al `repo__meta` para identificar forks
+- Slice ampliado de 8 → 10 repos para acomodar mayor volumen
+
 ## 2026-04-07
 
 ### CV por solicitud — Instructor de Programación y Pensamiento Computacional

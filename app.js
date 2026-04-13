@@ -94,18 +94,18 @@ async function loadRecentRepos() {
     const res = await fetch(url, { headers: { "Accept": "application/vnd.github+json" } });
     if (!res.ok) throw new Error("HTTP " + res.status);
     const repos = (await res.json())
-      .filter(r => !r.fork)
       .sort((a, b) => new Date(b.pushed_at) - new Date(a.pushed_at))
-      .slice(0, 8);
+      .slice(0, 10);
 
     box.innerHTML = repos.map(r => {
       const updated = new Date(r.pushed_at).toLocaleDateString("es-CL", { year: "numeric", month: "short", day: "2-digit" });
       const desc = (r.description || "").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+      const forkBadge = r.fork ? ' · <span title="Fork">⑂ fork</span>' : "";
       return `
           <div class="repo">
             <div class="repo__top">
               <a class="repo__name" href="${r.html_url}" target="_blank" rel="noreferrer">${r.name}</a>
-              <div class="repo__meta">★ ${r.stargazers_count} · actualizado ${updated}</div>
+              <div class="repo__meta">★ ${r.stargazers_count} · actualizado ${updated}${forkBadge}</div>
             </div>
             ${desc ? `<div class="repo__desc">${desc}</div>` : ""}
           </div>`;
