@@ -2,6 +2,14 @@
 
 ## 2026-04-13
 
+### rank-repos — ranking automático de repositorios
+
+- `scripts/rank-repos.py`: nuevo script de ranking exhaustivo (100 pts: docs/repro/calidad/obs/actividad/polyglot)
+- `data/repo-scores.json`: cache incremental — solo re-analiza repos con pushed_at distinto al cache
+- `.agents/skills/sync-portfolio/SKILL.md`: documentación completa del script (criterios, flags, limitación de pinning)
+- Ranking actual (top 6 para pinning manual): docker-labs(91) > python-data-science-bootcamp(81) = social-bot-scheduler(81) > mcp-ollama-local(80) > langgraph-realworld(78) > microsistemas(76)
+- Limitación documentada: GitHub no expone API pública de pinning; guía de 4 pasos incluida en output del script
+
 ### sync-portfolio (automático)
 
 - `api/v1/`: generated_at → 2026-04-13

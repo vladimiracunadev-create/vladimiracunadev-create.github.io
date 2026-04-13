@@ -247,6 +247,47 @@ Formato sugerido: `★ {stars} · ⑂ {forks} · actualizado {fecha}`
 
 No implementar hasta que el usuario lo solicite explícitamente.
 
+### 6. Ranking de repos y despliegue en perfil GitHub
+
+El script `scripts/rank-repos.py` analiza los repos públicos y calcula
+un score de 0–100 puntos por eje:
+
+| Eje | Pts | Qué evalúa |
+|---|---|---|
+| Documentación | 30 | README (sustancia, profundidad), CHANGELOG, SECURITY/CONTRIBUTING, docs/, RECRUITER.md |
+| Reproducibilidad | 20 | Dockerfile, docker-compose, GitHub Actions, Makefile |
+| Calidad | 15 | Tests, releases, issue/PR templates |
+| Observabilidad | 15 | Prometheus/Grafana en README, health endpoints, K8s |
+| Actividad | 10 | Recencia (días desde push), estrellas |
+| Stack diversity | 10 | Número de lenguajes (2 pts c/u, max 5) |
+
+```bash
+# Ver ranking sin cambios (usa cache si pushed_at no cambió)
+python scripts/rank-repos.py
+
+# Mostrar ranking + guía de pins (usa cache)
+python scripts/rank-repos.py --apply
+
+# Forzar re-análisis completo de todos los repos
+python scripts/rank-repos.py --force
+
+# Forzar + mostrar guía de pins
+python scripts/rank-repos.py --apply --force
+```
+
+**Cache:** `data/repo-scores.json` — almacena scores por repo con su
+`pushed_at`. Solo re-analiza repos cuyo `pushed_at` cambió desde el
+último run. Primera ejecución: lenta (~10 calls por repo). Siguientes: rápidas.
+
+**Limitación conocida:** GitHub no expone la mutación de pinning en su
+API pública. El script imprime una guía de 4 pasos para hacer el pinning
+manual en `https://github.com/vladimiracunadev-create`.
+El proceso toma < 30 segundos en la interfaz web.
+
+**Repos excluidos permanentemente del ranking:**
+`rootcause-windows-inspector`, `rootcause-landing`, `vladimiracunadev-create`
+(profile README), `vladimiracunadev-create.github.io` (portfolio site).
+
 ---
 
 ## VALIDACIÓN COMPLETA — CHECKLIST ANTES DE COMMIT
