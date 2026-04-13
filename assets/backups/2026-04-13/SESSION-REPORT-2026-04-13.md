@@ -10,51 +10,71 @@ Sesión de sincronización completa disparada por acumulación de cambios desde 
 ## Cambios por archivo — detalle estricto
 
 ### api/v1/projects.json
+
 **Commit:** `b5550a5`
+
 - Campo `generated_at`: `2026-04-03` → `2026-04-13`
 - Repos añadidos: `problem-driven-systems-lab`, `python-data-science-bootcamp`
 - Descripciones actualizadas (7 repos): proyectos-aws, mcp-ollama-local, langgraph-realworld, social-bot-scheduler, chofyai-studio, microsistemas, docker-labs (texto enriquecido con emojis y más detalle)
 
 ### api/v1/artifacts.json
+
 **Commit:** `b5550a5`
+
 - Campo `generated_at`: `2026-04-03` → `2026-04-13`
 
 ### api/v1/experience.json
+
 **Commit:** `b5550a5`
+
 - Campo `generated_at`: `2026-04-03` → `2026-04-13`
 
 ### api/v1/meta.json
+
 **Commit:** `b5550a5`
+
 - Campo `generated_at`: `2026-04-03` → `2026-04-13`
 
 ### api/v1/profile.json
+
 **Commit:** `b5550a5`
+
 - Campo `generated_at`: `2026-04-03` → `2026-04-13`
 
 ### api/v1/skills.json
+
 **Commit:** `b5550a5`
+
 - Campo `generated_at`: `2026-04-03` → `2026-04-13`
 
 ### scripts/generate-all-languages.py
+
 **Commit:** `b5550a5`
+
 - `PROJECTS_URLS`: + `problem` (problem-driven-systems-lab), + `python` (python-data-science-bootcamp)
 - `projects_rec` (6 idiomas): + Problem Driven Systems Lab, + Python Data Science Bootcamp
 - `projects_ats` (6 idiomas): + Problem Driven Systems Lab, + Python Data Science Bootcamp
 
 ### scripts/generate-portfolio.py
+
 **Commit:** `b5550a5`
+
 - `portfolio projects` (6 idiomas): + Problem Driven Systems Lab, + Python Data Science Bootcamp
 - `project_link_labels` (6 idiomas): + `problem`, + `python`
 
 ### index.html
+
 **Commit:** `b5550a5`
+
 - Sección `#proyectos`: 2 cards nuevas agregadas en ES/EN
   - **Problem Driven Systems Lab**: card nivel profundo
   - **Python Data Science Bootcamp**: card nivel profundo
 - PT/IT/FR/ZH: pendiente traducción manual (advertencia del script)
 
 ### app.js
+
 **Commit:** `b5e390e`
+
 - Función `loadRecentRepos()`, línea ~97
   - Eliminado: `.filter(r => !r.fork)` — los forks ahora aparecen en listado
   - Añadido: `const forkBadge = r.fork ? ' · <span title="Fork">⑂ fork</span>' : "";`
@@ -62,7 +82,9 @@ Sesión de sincronización completa disparada por acumulación de cambios desde 
   - Slice: `8` → `10` repos
 
 ### CHANGELOG.md
+
 **Commits:** `b5550a5` + `b5e390e`
+
 - Entrada `2026-04-13` creada con dos secciones: sync-portfolio y app.js forks
 
 ## PDFs — estado final
