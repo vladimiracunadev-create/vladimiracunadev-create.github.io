@@ -1,7 +1,7 @@
 {
     "meta": {
         "version": "v1",
-        "generated_at": "2026-04-03",
+        "generated_at": "2026-04-13",
         "source_pdf": "assets/cv-ats.pdf"
     },
     "experience": [
@@ -19,7 +19,14 @@
                 "Armado de Computadores — 15 clases a 10 alumnos, 45 horas, nivel básico.",
                 "8 relatorías de Office 2000 e Internet — 84 clases a 69 alumnos, 338 horas, niveles básico e intermedio."
             ],
-            "technologies": ["HTML", "JavaScript", "VBScript", "ASP", "CSS", "MS Office 2000"],
+            "technologies": [
+                "HTML",
+                "JavaScript",
+                "VBScript",
+                "ASP",
+                "CSS",
+                "MS Office 2000"
+            ],
             "provenance": {
                 "source_pdf": "assets/no_aplica/cv-completo.pdf",
                 "excerpt": "Relator — Centro Europeo para la Capacitación (Jul 2003 – Jun 2004)"
@@ -36,7 +43,9 @@
             "highlights": [
                 "Relatoría de Microsoft Office Visio 2007 — 7 clases a 10 alumnos, 21 horas, nivel intermedio y avanzado."
             ],
-            "technologies": ["Microsoft Visio 2007"],
+            "technologies": [
+                "Microsoft Visio 2007"
+            ],
             "provenance": {
                 "source_pdf": "assets/no_aplica/cv-completo.pdf",
                 "excerpt": "Relator — E-syste (Abril 2011)"

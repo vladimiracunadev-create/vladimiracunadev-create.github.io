@@ -1,6 +1,26 @@
 # Changelog
 
+## 2026-04-13
+
+### sync-portfolio (automático)
+
+- `api/v1/`: generated_at → 2026-04-13
+- Repos nuevos integrados: problem-driven-systems-lab, python-data-science-bootcamp
+- Cards HTML agregados en `#proyectos` (index.html)
+- Scripts PDF y api/v1/projects.json actualizados
+- 30 PDFs regenerados (5 tipos × 6 idiomas)
+- Backup en `assets/backups/2026-04-13/`
+
 ## 2026-04-07
+
+### CV por solicitud — Instructor de Programación y Pensamiento Computacional
+
+- `assets/no_aplica/cv-capacitaciones.pdf`: CV en español, formato visual (no ATS), 2 páginas
+  - Generado con `scripts/generate-cv-capacitaciones.py`
+  - Responde a solicitud de Ana Matus de la Parra (SkillNest, amatusdelaparra@skillnest.com, 08-abr-2026)
+  - Incluye: 445+ hrs de relatorías (Centro Europeo 2003–2004, E-syste 2011), proyecto titulación nota 6.7, 14 años plataforma educativa, formación completa
+  - NO incluye: RUT, domicilio, pretensión de sueldo, estado civil, fecha de nacimiento
+  - En `no_aplica` — no publicar en API ni en assets públicos
 
 ### Ampliación de alcance profesional — Instructor de Programación
 

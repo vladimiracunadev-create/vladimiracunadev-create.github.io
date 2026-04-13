@@ -1,13 +1,13 @@
 {
     "meta": {
         "version": "v1",
-        "generated_at": "2026-04-03",
+        "generated_at": "2026-04-13",
         "source_pdf": "assets/cv-ats.pdf"
     },
     "projects": [
         {
             "name": "Cloud/AWS y FinOps",
-            "description": "Proyectos Personales en AWS, aprendizaje y estudio constante, caso a caso, servicio a servicio",
+            "description": "☁️ Proyectos AWS · Laboratorio de aprendizaje caso a caso: S3, Amplify, CI/CD, CloudFront y más. Proyectos personales en constante evolución. 🚀",
             "url": "https://github.com/vladimiracunadev-create/proyectos-aws",
             "gitlab_url": "https://gitlab.com/vladimir.acuna.dev-group/proyectos-aws-gitlab",
             "tags": [
@@ -33,7 +33,7 @@
         },
         {
             "name": "Social Bot Scheduler v4.x",
-            "description": "Social Bot Scheduler: Matriz de Integración Multi-Eje con n8n (Python/Go/Node/PHP) + Docker.",
+            "description": "🤖 Social Bot Scheduler · Matriz de Integración Multi-Eje con n8n (Python/Go/Node/PHP) + Docker. Automatización de publicaciones en redes sociales. ⚙️",
             "url": "https://github.com/vladimiracunadev-create/social-bot-scheduler",
             "tags": [
                 "n8n",
@@ -55,7 +55,7 @@
         },
         {
             "name": "Docker Labs v1.4 · Infra Hub",
-            "description": "Este repositorio es un laboratorio personal de contenedores para aprender, practicar y documentar el uso de Docker / Docker Compose con distintos stacks (PHP, Node.js, Python, bases de datos, herramientas, etc.).",
+            "description": "🐳 Docker Labs · Laboratorio personal de contenedores con Docker/Compose en múltiples stacks: PHP, Node.js, Python, bases de datos y herramientas DevOps. 🧪",
             "url": "https://github.com/vladimiracunadev-create/docker-labs",
             "tags": [
                 "Docker",
@@ -74,7 +74,7 @@
         },
         {
             "name": "Microsistemas · Productivity Suite",
-            "description": "Este directorio reúne una colección de microsistemas web autocontenidos, orientados a facilitar tareas recurrentes de desarrollo, mantención, diagnóstico y modernización de sistemas.",
+            "description": "🔧 Microsistemas · Colección de microsistemas web autocontenidos para tareas recurrentes: desarrollo, mantención, diagnóstico y modernización de sistemas legacy. 🏗️",
             "url": "https://github.com/vladimiracunadev-create/microsistemas",
             "tags": [
                 "PHP 8",
@@ -92,7 +92,7 @@
         },
         {
             "name": "LangGraph · Agentic Resilience",
-            "description": "Monorepo de 25 demos reales con LangGraph: flujos con estado, Docker por caso, CI en GitHub Actions y un Caso 09 implementado (RR.HH. screening + agenda)",
+            "description": "🤖 25 casos empresariales con LangGraph + FastAPI · 8 backends operativos · OAuth2 opt-in · LangSmith · /metrics · nginx+TLS · CI/CD hardened",
             "url": "https://github.com/vladimiracunadev-create/langgraph-realworld",
             "tags": [
                 "LangGraph",
@@ -111,7 +111,7 @@
         },
         {
             "name": "MCP + Ollama Local",
-            "description": "MCP + Ollama local: FastAPI web con chat, tools MCP (sandbox) e historial SQLite.",
+            "description": "🧠 MCP + Ollama Local · FastAPI web con chat, tools MCP (sandbox) e historial SQLite. LLMs locales con tool calling sin enviar datos a la nube. 🔒",
             "url": "https://github.com/vladimiracunadev-create/mcp-ollama-local",
             "tags": [
                 "FastAPI",
@@ -162,7 +162,7 @@
         },
         {
             "name": "ChofyAI Studio",
-            "description": "Lanzador de escritorio para macOS Apple Silicon diseñado para centralizar e instalar herramientas creativas de IA local (Qwen3-TTS, whisper.cpp, FaceFusion, AceForge). Creado con Tauri, Rust y React.",
+            "description": "🎨 ChofyAI Studio · Lanzador de escritorio para macOS Apple Silicon. Centraliza herramientas de IA local: Qwen3-TTS, whisper.cpp, FaceFusion, AceForge. Tauri + Rust + React. 🍎",
             "url": "https://github.com/vladimiracunadev-create/chofyai-studio",
             "tags": [
                 "Tauri",
@@ -175,6 +175,20 @@
                 "Ollama"
             ],
             "category": "ai"
+        },
+        {
+            "name": "problem-driven-systems-lab",
+            "description": "🧪 Laboratorio de sistemas distribuido con 12 casos reales Docker-first para diagnosticar y resolver problemas críticos de rendimiento, observabilidad, resiliencia y arquitectura 🐳",
+            "url": "https://github.com/vladimiracunadev-create/problem-driven-systems-lab",
+            "tags": [],
+            "category": "other"
+        },
+        {
+            "name": "python-data-science-bootcamp",
+            "description": "📊 Bootcamp de Python para Data Science · Clases, notebooks, datasets y entorno interactivo local. Material docente para principiantes y transición profesional. 🐍",
+            "url": "https://github.com/vladimiracunadev-create/python-data-science-bootcamp",
+            "tags": [],
+            "category": "other"
         }
     ]
 }

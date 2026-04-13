@@ -89,6 +89,8 @@ PROJECTS_URLS = {
     "mcp": "https://github.com/vladimiracunadev-create/mcp-ollama-local",
     "unikernel": "https://github.com/vladimiracunadev-create/unikernel-labs",
     "chofyai": "https://github.com/vladimiracunadev-create/chofyai-studio",
+    "problem": "https://github.com/vladimiracunadev-create/problem-driven-systems-lab",
+    "python": "https://github.com/vladimiracunadev-create/python-data-science-bootcamp",
 }
 
 PREVIOUS_CAREER = {
@@ -154,7 +156,9 @@ def get_content(lang):
                 "MCP + Ollama local \u2014 chat IA local, herramientas MCP, 100% privado",
                 "Unikernel Labs \u2014 Control Center Windows (WSL2 + Node.js + WinForms)",
                 "ChofyAI Studio \u2014 lanzador IA local macOS (Tauri + Rust + React)",
-            ],
+                            "Problem Driven Systems Lab — 🧪 Laboratorio de sistemas distribuido con 12 casos reales Docker-first para diagnosticar y resolver problemas críticos de rendimiento, observabilidad, resiliencia y arquitectura 🐳",
+                "Python Data Science Bootcamp — 📊 Bootcamp de Python para Data Science · Clases, notebooks, datasets y entorno interactivo local. Material docente para principiantes y transición profesional. 🐍",
+],
             "projects_ats": [
                 ("Cloud/AWS y FinOps \u2014 GitHub (demos y documentaci\u00f3n):", "aws_gh"),
                 ("Cloud/AWS \u2014 GitLab (15 casos, CI/CD 5 stages, ~80% SAA-C03):", "aws_gl"),
@@ -165,7 +169,9 @@ def get_content(lang):
                 ("MCP + Ollama local (chat IA local, herramientas MCP, 100% privado):", "mcp"),
                 ("Unikernel Labs \u2014 Control Center Windows (WSL2 + Node.js + WinForms):", "unikernel"),
                 ("ChofyAI Studio \u2014 lanzador IA local macOS (Tauri + Rust + React):", "chofyai"),
-            ],
+                            ("Problem Driven Systems Lab — 🧪 Laboratorio de sistemas distribuido con 12 casos reales Docker-first para diagnosticar y resolver problemas críticos de rendimiento, observabilidad, resiliencia y arquitectura 🐳:", "problem"),
+                ("Python Data Science Bootcamp — 📊 Bootcamp de Python para Data Science · Clases, notebooks, datasets y entorno interactivo local. Material docente para principiantes y transición profesional. 🐍:", "python"),
+],
             "training": [
                 "Formaci\u00f3n continua en automatizaci\u00f3n pr\u00e1ctica, ML/NLP y herramientas de desarrollo.",
                 "Consolidaci\u00f3n de portafolio t\u00e9cnico con laboratorios cloud, microsistemas y documentaci\u00f3n orientada a reclutadores.",
@@ -224,7 +230,9 @@ def get_content(lang):
                 "Development of advanced PDF/Excel reports with indicators, percentiles, and analysis by class, level, and school.",
                 "Import and migration of high-volume data from Excel with validations; automation of communications (sending, segmentation, follow-up).",
                 "Direct support for key users (coordinators, counselors, school leaders) and production operations.",
-            ],
+                            "Problem Driven Systems Lab — 🧪 Laboratorio de sistemas distribuido con 12 casos reales Docker-first para diagnosticar y resolver problemas críticos de rendimiento, observabilidad, resiliencia y arquitectura 🐳",
+                "Python Data Science Bootcamp — 📊 Bootcamp de Python para Data Science · Clases, notebooks, datasets y entorno interactivo local. Material docente para principiantes y transición profesional. 🐍",
+],
             "exp_tech": "Technologies: PHP, JavaScript, SQL Server, MySQL, Apache, JMeter, Excel, FPDF/PhpSpreadsheet, Constant Contact",
             "projects_rec": [
                 "Cloud/AWS and FinOps \u2014 GitHub + GitLab (15 AWS cases, 5-stage CI/CD)",
@@ -235,7 +243,9 @@ def get_content(lang):
                 "MCP + local Ollama \u2014 local AI chat, MCP tools, 100% private",
                 "Unikernel Labs \u2014 Windows Control Center (WSL2 + Node.js + WinForms)",
                 "ChofyAI Studio \u2014 macOS local AI launcher (Tauri + Rust + React)",
-            ],
+                            ("Problem Driven Systems Lab — 🧪 Laboratorio de sistemas distribuido con 12 casos reales Docker-first para diagnosticar y resolver problemas críticos de rendimiento, observabilidad, resiliencia y arquitectura 🐳:", "problem"),
+                ("Python Data Science Bootcamp — 📊 Bootcamp de Python para Data Science · Clases, notebooks, datasets y entorno interactivo local. Material docente para principiantes y transición profesional. 🐍:", "python"),
+],
             "projects_ats": [
                 ("Cloud/AWS and FinOps \u2014 GitHub (demos and documentation):", "aws_gh"),
                 ("Cloud/AWS \u2014 GitLab (15 cases, 5-stage CI/CD, ~80% SAA-C03):", "aws_gl"),
@@ -305,7 +315,9 @@ def get_content(lang):
                 "Desenvolvimento de relat\u00f3rios avan\u00e7ados PDF/Excel com indicadores, percentis e an\u00e1lise por turma/n\u00edvel/institui\u00e7\u00e3o.",
                 "Importa\u00e7\u00e3o e migra\u00e7\u00e3o de dados massivos do Excel com valida\u00e7\u00f5es; automa\u00e7\u00e3o de comunica\u00e7\u00f5es (envios, segmenta\u00e7\u00e3o, acompanhamento).",
                 "Suporte direto a usu\u00e1rios-chave (coordenadores, orientadores, diretores) e opera\u00e7\u00e3o em produ\u00e7\u00e3o.",
-            ],
+                            "Problem Driven Systems Lab — 🧪 Laboratorio de sistemas distribuido con 12 casos reales Docker-first para diagnosticar y resolver problemas críticos de rendimiento, observabilidad, resiliencia y arquitectura 🐳",
+                "Python Data Science Bootcamp — 📊 Bootcamp de Python para Data Science · Clases, notebooks, datasets y entorno interactivo local. Material docente para principiantes y transición profesional. 🐍",
+],
             "exp_tech": "Tecnologias: PHP, JavaScript, SQL Server, MySQL, Apache, JMeter, Excel, FPDF/PhpSpreadsheet, Constant Contact",
             "projects_rec": [
                 "Cloud/AWS e FinOps \u2014 GitHub + GitLab (15 casos AWS, CI/CD 5 stages)",
@@ -316,7 +328,9 @@ def get_content(lang):
                 "MCP + Ollama local \u2014 chat IA local, ferramentas MCP, 100% privado",
                 "Unikernel Labs \u2014 Control Center Windows (WSL2 + Node.js + WinForms)",
                 "ChofyAI Studio \u2014 launcher IA local macOS (Tauri + Rust + React)",
-            ],
+                            ("Problem Driven Systems Lab — 🧪 Laboratorio de sistemas distribuido con 12 casos reales Docker-first para diagnosticar y resolver problemas críticos de rendimiento, observabilidad, resiliencia y arquitectura 🐳:", "problem"),
+                ("Python Data Science Bootcamp — 📊 Bootcamp de Python para Data Science · Clases, notebooks, datasets y entorno interactivo local. Material docente para principiantes y transición profesional. 🐍:", "python"),
+],
             "projects_ats": [
                 ("Cloud/AWS e FinOps \u2014 GitHub (demos e documenta\u00e7\u00e3o):", "aws_gh"),
                 ("Cloud/AWS \u2014 GitLab (15 casos, CI/CD 5 stages, ~80% SAA-C03):", "aws_gl"),
@@ -386,7 +400,9 @@ def get_content(lang):
                 "Sviluppo di report avanzati PDF/Excel con indicatori, percentili e analisi per classe/livello/istituto.",
                 "Importazione e migrazione massiva dati da Excel con validazioni; automazione comunicazioni (invii, segmentazione, follow-up).",
                 "Supporto diretto agli utenti chiave (coordinatori, consulenti, dirigenti) e operazioni in produzione.",
-            ],
+                            "Problem Driven Systems Lab — 🧪 Laboratorio de sistemas distribuido con 12 casos reales Docker-first para diagnosticar y resolver problemas críticos de rendimiento, observabilidad, resiliencia y arquitectura 🐳",
+                "Python Data Science Bootcamp — 📊 Bootcamp de Python para Data Science · Clases, notebooks, datasets y entorno interactivo local. Material docente para principiantes y transición profesional. 🐍",
+],
             "exp_tech": "Tecnologie: PHP, JavaScript, SQL Server, MySQL, Apache, JMeter, Excel, FPDF/PhpSpreadsheet, Constant Contact",
             "projects_rec": [
                 "Cloud/AWS e FinOps \u2014 GitHub + GitLab (15 casi AWS, CI/CD 5 stages)",
@@ -397,7 +413,9 @@ def get_content(lang):
                 "MCP + Ollama locale \u2014 chat IA locale, strumenti MCP, 100% privato",
                 "Unikernel Labs \u2014 Control Center Windows (WSL2 + Node.js + WinForms)",
                 "ChofyAI Studio \u2014 launcher IA locale macOS (Tauri + Rust + React)",
-            ],
+                            ("Problem Driven Systems Lab — 🧪 Laboratorio de sistemas distribuido con 12 casos reales Docker-first para diagnosticar y resolver problemas críticos de rendimiento, observabilidad, resiliencia y arquitectura 🐳:", "problem"),
+                ("Python Data Science Bootcamp — 📊 Bootcamp de Python para Data Science · Clases, notebooks, datasets y entorno interactivo local. Material docente para principiantes y transición profesional. 🐍:", "python"),
+],
             "projects_ats": [
                 ("Cloud/AWS e FinOps \u2014 GitHub (demo e documentazione):", "aws_gh"),
                 ("Cloud/AWS \u2014 GitLab (15 casi, CI/CD 5 stages, ~80% SAA-C03):", "aws_gl"),
@@ -467,7 +485,10 @@ def get_content(lang):
                 "D\u00e9veloppement de rapports avanc\u00e9s PDF/Excel avec indicateurs, percentiles et analyse par classe/niveau/\u00e9tablissement.",
                 "Importation et migration massive de donn\u00e9es depuis Excel avec validations ; automatisation des communications (envois, segmentation, suivi).",
                 "Support direct aux utilisateurs cl\u00e9s (coordinateurs, conseillers, directeurs) et op\u00e9rations en production.",
-            ],
+                            "Problem Driven Systems Lab — 🧪 Laboratorio de sistemas distribuido con 12 casos reales Docker-first para diagnosticar y resolver problemas críticos de rendimiento, observabilidad, resiliencia y arquitectura 🐳",
+                ("Problem Driven Systems Lab — 🧪 Laboratorio de sistemas distribuido con 12 casos reales Docker-first para diagnosticar y resolver problemas críticos de rendimiento, observabilidad, resiliencia y arquitectura 🐳 :", "problem"),
+                "Python Data Science Bootcamp — 📊 Bootcamp de Python para Data Science · Clases, notebooks, datasets y entorno interactivo local. Material docente para principiantes y transición profesional. 🐍",
+],
             "exp_tech": "Technologies : PHP, JavaScript, SQL Server, MySQL, Apache, JMeter, Excel, FPDF/PhpSpreadsheet, Constant Contact",
             "projects_rec": [
                 "Cloud/AWS et FinOps \u2014 GitHub + GitLab (15 cas AWS, CI/CD 5 stages)",
@@ -478,7 +499,8 @@ def get_content(lang):
                 "MCP + Ollama local \u2014 chat IA local, outils MCP, 100% priv\u00e9",
                 "Unikernel Labs \u2014 Control Center Windows (WSL2 + Node.js + WinForms)",
                 "ChofyAI Studio \u2014 lanceur IA locale macOS (Tauri + Rust + React)",
-            ],
+                            ("Python Data Science Bootcamp — 📊 Bootcamp de Python para Data Science · Clases, notebooks, datasets y entorno interactivo local. Material docente para principiantes y transición profesional. 🐍 :", "python"),
+],
             "projects_ats": [
                 ("Cloud/AWS et FinOps \u2014 GitHub (d\u00e9mos et documentation) :", "aws_gh"),
                 ("Cloud/AWS \u2014 GitLab (15 cas, CI/CD 5 stages, ~80% SAA-C03) :", "aws_gl"),
@@ -548,7 +570,10 @@ def get_content(lang):
                 "\u5f00\u53d1\u5305\u542b\u6307\u6807\u3001\u767e\u5206\u4f4d\u548c\u6309\u73ed\u7ea7/\u5e74\u7ea7/\u5b66\u6821\u5206\u6790\u7684\u9ad8\u7ea7PDF/Excel\u62a5\u8868\u3002",
                 "\u4eceExcel\u5927\u89c4\u6a21\u5bfc\u5165\u548c\u8fc1\u79fb\u6570\u636e\u5e76\u8fdb\u884c\u9a8c\u8bc1\uff1b\u901a\u4fe1\u81ea\u52a8\u5316\uff08\u53d1\u9001\u3001\u5206\u7ec4\u3001\u8ddf\u8e2a\uff09\u3002",
                 "\u76f4\u63a5\u652f\u6301\u5173\u952e\u7528\u6237\uff08\u534f\u8c03\u5458\u3001\u987e\u95ee\u3001\u6821\u9886\u5bfc\uff09\u548c\u751f\u4ea7\u8fd0\u8425\u3002",
-            ],
+                            "Problem Driven Systems Lab — 🧪 Laboratorio de sistemas distribuido con 12 casos reales Docker-first para diagnosticar y resolver problemas críticos de rendimiento, observabilidad, resiliencia y arquitectura 🐳",
+                ("Problem Driven Systems Lab — 🧪 Laboratorio de sistemas distribuido con 12 casos reales Docker-first para diagnosticar y resolver problemas críticos de rendimiento, observabilidad, resiliencia y arquitectura 🐳：", "problem"),
+                "Python Data Science Bootcamp — 📊 Bootcamp de Python para Data Science · Clases, notebooks, datasets y entorno interactivo local. Material docente para principiantes y transición profesional. 🐍",
+],
             "exp_tech": "\u6280\u672f\u6808\uff1aPHP, JavaScript, SQL Server, MySQL, Apache, JMeter, Excel, FPDF/PhpSpreadsheet, Constant Contact",
             "projects_rec": [
                 "Cloud/AWS\u548cFinOps \u2014 GitHub + GitLab\uff0815\u4e2aAWS\u6848\u4f8b\uff0cCI/CD 5\u9636\u6bb5\uff09",
@@ -559,7 +584,8 @@ def get_content(lang):
                 "MCP + \u672c\u5730Ollama \u2014 \u672c\u5730AI\u804a\u5929\uff0cMCP\u5de5\u5177\uff0c100%\u79c1\u6709",
                 "Unikernel Labs \u2014 Windows\u63a7\u5236\u4e2d\u5fc3 (WSL2 + Node.js + WinForms)",
                 "ChofyAI Studio \u2014 macOS\u672c\u5730AI\u542f\u52a8\u5668 (Tauri + Rust + React)",
-            ],
+                            ("Python Data Science Bootcamp — 📊 Bootcamp de Python para Data Science · Clases, notebooks, datasets y entorno interactivo local. Material docente para principiantes y transición profesional. 🐍：", "python"),
+],
             "projects_ats": [
                 ("Cloud/AWS\u548cFinOps \u2014 GitHub\uff08\u6f14\u793a\u548c\u6587\u6863\uff09\uff1a", "aws_gh"),
                 ("Cloud/AWS \u2014 GitLab\uff0815\u4e2a\u6848\u4f8b\uff0cCI/CD 5\u9636\u6bb5\uff0c~80% SAA-C03\uff09\uff1a", "aws_gl"),
