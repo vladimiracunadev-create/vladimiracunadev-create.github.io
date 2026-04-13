@@ -95,6 +95,32 @@ Solo interviene Claude cuando:
 - Los scripts de generación necesitan nuevo contenido (descripciones, idiomas)
 - Hay cambios de identidad/título profesional
 
+### Reglas permanentes del script (errores conocidos ya corregidos)
+
+**1. Emojis en descripciones de repos → PDFs con puntos negros**
+Las descripciones de GitHub pueden incluir emojis (☁️, 🧠, 🤖, etc.).
+`sync-portfolio.py` ya aplica `strip_emojis()` antes de inyectar en scripts PDF.
+Si una sesión anterior ya inyectó emojis en `generate-*.py`, ejecutar:
+
+```bash
+python -c "
+import re, sys
+EMOJI_RE = re.compile(u'[\U0001F300-\U0001F9FF\U00002600-\U000027BF\U0001FA00-\U0001FAFF\U00002702-\U000027B0]+', flags=re.UNICODE)
+for f in sys.argv[1:]:
+    txt = open(f, encoding='utf-8').read()
+    fixed = re.sub(r' :(\")', r':\1', re.sub(r' +\"', '\"', EMOJI_RE.sub('', txt)))
+    open(f, 'w', encoding='utf-8').write(fixed)
+    print('fixed:', f)
+" scripts/generate-all-languages.py scripts/generate-portfolio.py
+```
+
+Luego regenerar los PDFs afectados.
+
+**2. README del perfil GitHub (`vladimiracunadev-create/vladimiracunadev-create`)**
+El script usa dos llamadas `gh api` separadas (content + sha) para evitar
+problemas de quoting en Windows con `shell=True`.
+Si falla, verificar `gh auth status` y que el token tenga scope `repo`.
+
 ### Si hay errores en el script
 
 Reportar primero. Arreglar con autorización del usuario.

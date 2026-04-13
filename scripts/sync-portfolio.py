@@ -27,6 +27,7 @@ import re
 import shutil
 import subprocess
 import sys
+import unicodedata
 from datetime import date
 from pathlib import Path
 
@@ -105,6 +106,25 @@ def log(msg, level="INFO"):
 def run_capture(cmd):
     r = subprocess.run(cmd, shell=True, capture_output=True, text=True, encoding="utf-8", errors="replace")
     return r.stdout.strip(), r.returncode
+
+
+# Emojis y símbolos gráficos renderizan como puntos negros en PDFs (reportlab).
+# strip_emojis() elimina cualquier carácter fuera del rango Latin/puntuación antes
+# de inyectar descripciones en los scripts de generación de PDFs.
+_EMOJI_RE = re.compile(
+    "["
+    "\U0001F300-\U0001F9FF"   # símbolos & pictogramas / emoticons / objetos
+    "\U00002600-\U000027BF"   # miscelánea simbólica
+    "\U0001FA00-\U0001FA6F"   # símbolos extendidos A
+    "\U0001FA70-\U0001FAFF"   # símbolos extendidos B
+    "\U00002702-\U000027B0"   # Dingbats
+    "]+",
+    flags=re.UNICODE,
+)
+
+def strip_emojis(text: str) -> str:
+    """Elimina emojis/símbolos gráficos Unicode para uso seguro en PDFs."""
+    return _EMOJI_RE.sub("", text).strip()
 
 
 def repo_key(name):
@@ -361,7 +381,8 @@ def inject_into_all_languages(new_repos, apply=False):
         key   = repo_key(r["name"])
         title = repo_display(r["name"])
         url   = f"https://github.com/vladimiracunadev-create/{r['name']}"
-        desc  = (r.get("description") or title).strip().rstrip(".")
+        # strip_emojis: los PDFs (reportlab) no soportan emojis → puntos negros
+        desc  = strip_emojis((r.get("description") or title)).rstrip(".")
 
         # 1. PROJECTS_URLS
         url_entry = f'    "{key}": "{url}",\n'
@@ -440,7 +461,8 @@ def inject_into_portfolio(new_repos, apply=False):
     for r in new_repos:
         key   = repo_key(r["name"])
         title = repo_display(r["name"])
-        desc  = (r.get("description") or title).strip().rstrip(".")
+        # strip_emojis: los PDFs (reportlab) no soportan emojis → puntos negros
+        desc  = strip_emojis((r.get("description") or title)).rstrip(".")
 
         # 1. projects list (6 ocurrencias, una por idioma)
         proj_entries = {
@@ -583,17 +605,15 @@ def update_github_readme(new_repos, apply=False):
         return
     log("Actualizando README perfil GitHub...", "HEAD")
 
-    out, code = run_capture(
-        "gh api repos/vladimiracunadev-create/vladimiracunadev-create"
-        "/contents/README.md --jq '.content+\"\\n\"+.sha'"
-    )
-    if code != 0:
+    # Dos llamadas separadas para evitar problemas de quoting en Windows (shell=True)
+    readme_api = "repos/vladimiracunadev-create/vladimiracunadev-create/contents/README.md"
+    content_b64, code1 = run_capture(f"gh api {readme_api} --jq .content")
+    sha, code2         = run_capture(f"gh api {readme_api} --jq .sha")
+    if code1 != 0 or code2 != 0:
         log("No se pudo leer README de GitHub", "WARN")
         return
 
-    lines = out.strip().split("\n")
-    sha = lines[-1]
-    readme = base64.b64decode("\n".join(lines[:-1])).decode("utf-8")
+    readme = base64.b64decode(content_b64).decode("utf-8")
 
     separator = "---\n\n## ⚡"
     new_sections = ""
