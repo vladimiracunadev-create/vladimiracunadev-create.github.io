@@ -177,54 +177,35 @@ pre {
 }
 
 .topbar__inner {
-  display: flex;
+  display: grid;
+  grid-template-areas:
+    "brand side"
+    "nav nav";
+  grid-template-columns: minmax(220px, auto) 1fr;
   align-items: center;
-  justify-content: space-between;
-  padding: 10px var(--pad);
-  min-height: 70px;
-  gap: 20px;
-  flex-wrap: wrap;
+  padding: 10px var(--pad) 12px;
+  gap: 8px 18px;
 }
 
-.topbar__main,
+.topbar__main {
+  display: contents;
+}
+
 .topbar__side {
   display: flex;
   align-items: center;
-  gap: 24px;
-}
-
-@media (min-width: 1025px) {
-  .topbar__inner {
-    flex-wrap: nowrap;
-    height: 80px;
-  }
-}
-
-@media (max-width: 1100px) {
-  .topbar__inner {
-    flex-direction: column;
-    height: auto;
-    padding: 15px var(--pad);
-  }
-
-  .topbar__main,
-  .topbar__side {
-    width: 100%;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 12px;
-  }
-
-  .brand {
-    min-width: auto;
-    margin-bottom: 5px;
-  }
+  justify-content: flex-end;
+  gap: 14px;
+  grid-area: side;
+  min-width: 0;
+  flex-wrap: wrap;
 }
 
 .brand {
   display: flex;
   align-items: center;
   gap: 12px;
+  grid-area: brand;
   flex-shrink: 0;
   min-width: 220px;
 }
@@ -254,16 +235,19 @@ pre {
 
 .nav {
   display: flex;
-  gap: 8px;
+  gap: 6px;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
+  grid-area: nav;
+  width: 100%;
 }
 
 .nav a {
   text-decoration: none;
   color: var(--muted);
-  font-size: 14px;
-  padding: 12px 14px;
+  font-size: 13px;
+  padding: 8px 11px;
   border-radius: 12px;
   display: inline-block;
   font-weight: 500;
@@ -898,7 +882,6 @@ body[data-view="deep"] .repo {
 
   .settings,
   .views {
-    width: 100%;
     justify-content: center;
   }
 
@@ -928,6 +911,29 @@ body[data-view="deep"] .repo {
 }
 
 @media (max-width:820px) {
+  .topbar__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px var(--pad);
+    min-height: 70px;
+    gap: 14px;
+    flex-wrap: wrap;
+    position: relative;
+  }
+
+  .topbar__main {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .topbar__side {
+    width: 100%;
+    justify-content: center;
+    gap: 12px;
+  }
+
   .iconbtn {
     display: inline-flex
   }
