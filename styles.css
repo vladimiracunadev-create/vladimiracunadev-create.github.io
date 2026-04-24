@@ -604,6 +604,10 @@ body[data-theme="light"] .lang-select option {
   gap: 14px
 }
 
+.profile-brief {
+  background: linear-gradient(180deg, var(--accent-soft), transparent 68%), var(--card-bg);
+}
+
 .recruiter-quick {
   background: linear-gradient(180deg, var(--surface), transparent 65%), var(--card-bg);
 }
