@@ -745,6 +745,32 @@ body[data-theme="light"] .lang-select option {
   flex-wrap: wrap
 }
 
+.collab-criteria,
+.collab-cta {
+  margin-top: 16px
+}
+
+.collab-criteria .chips {
+  margin-top: 12px
+}
+
+.collab-cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  background: linear-gradient(180deg, var(--accent-soft), transparent 70%), var(--card-bg);
+}
+
+.collab-cta>div:first-child {
+  max-width: 780px
+}
+
+.collab-cta .actions {
+  flex-shrink: 0;
+  margin-top: 0
+}
+
 .app-download {
   display: flex;
   flex-direction: column;
@@ -885,6 +911,15 @@ body[data-view="deep"] .repo {
 
   .titem {
     grid-template-columns: 1fr
+  }
+
+  .collab-cta {
+    align-items: flex-start;
+    flex-direction: column
+  }
+
+  .collab-cta .actions {
+    width: 100%
   }
 
   .brand {

@@ -11,6 +11,9 @@ site/
 # Claude Code local config (private, never publish)
 .claude/
 
+# Private commercial references (never publish via GitHub Pages)
+**/referencia_honorarios_profesionales_vladimir_2026_detallado.pdf
+
 # Vendored Python dependencies
 .vendor/
 

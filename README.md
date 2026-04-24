@@ -54,10 +54,27 @@ Este proyecto ha escalado de un portafolio personal a un **Demostrador Industria
 El sistema cuenta con un motor de **i18n (Internationalization)** e **Theming** de alto rendimiento:
 
 * **6 idiomas (ES/EN/PT/IT/FR/ZH)**: Cambio de idioma instantáneo sin recarga de página; los enlaces de descarga de PDF cambian automáticamente al documento del idioma activo vía `data-pdf-{lang}`.
+* **3 vistas de lectura**: Reclutador, Normal y Profundo ajustan la densidad del contenido mediante `data-min-level` sin duplicar páginas.
 * **Temas Dinámicos**: Modo Oscuro/Claro totalmente reactivo, respetando las preferencias del sistema y del usuario.
 * **Layout Adaptativo**: Estructura industrial capaz de manejar contenidos densos sin colapso visual.
 
 ---
+
+## 🤝 Modalidades de Colaboración
+
+El sitio incluye una sección pública `#modalidades` para explicar formatos de trabajo profesional sin publicar precios:
+
+* proyecto acotado;
+* bolsa de horas o apoyo experto;
+* acompañamiento mensual;
+* diagnóstico técnico con hoja de ruta;
+* colaboración técnico-comercial, preventa o definición técnica.
+
+La modalidad se define según alcance real, criticidad operacional, urgencia, liderazgo esperado, integración con equipos, profundidad técnica y necesidad de continuidad o soporte evolutivo. El contenido mantiene el patrón del sitio: textos embebidos en `index.html`, traducciones por atributos `data-es`/`data-en`/`data-pt`/`data-it`/`data-fr`/`data-zh`, y detalle progresivo con `data-min-level`.
+
+### Regla de privacidad comercial
+
+El archivo `referencia_honorarios_profesionales_vladimir_2026_detallado.pdf` es un insumo privado de negociación. No debe copiarse a `assets/`, no debe enlazarse desde `index.html`, no debe registrarse en `api/v1/artifacts.json` y no debe publicarse en GitHub Pages. Si en el futuro se crea una pieza pública descargable sobre modalidades, debe ser una versión breve sin precios, sin rangos y sin referencias comerciales sensibles.
 
 ---
 
