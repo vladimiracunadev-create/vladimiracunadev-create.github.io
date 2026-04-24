@@ -5,3 +5,5 @@ Sitemap: https://vladimiracunadev-create.github.io/sitemap.xml
 # LLM / AI assistants context file
 # See: https://llmstxt.org/
 LLM: https://vladimiracunadev-create.github.io/llm.txt
+
+# Public portfolio only: private fee references and negotiation documents are not published.

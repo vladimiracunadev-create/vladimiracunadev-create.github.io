@@ -12,10 +12,13 @@ This portfolio showcases a verified, reproducible ecosystem: 15 AWS cases (11 co
 polyglot persistence (9 languages × 12+ DBs), agentic AI with typed state,
 industrial observability (Prometheus/Grafana), and a fully internationalized document suite
 (30+ PDFs across 6 languages: ES, EN, PT, IT, FR, ZH).
+The public site also explains professional collaboration formats for scoped projects,
+expert-hour bundles, monthly senior support, technical diagnosis/roadmaps, and
+technical-commercial collaboration, without publishing prices or fee ranges.
 
 ## Index
 
-- [Home](https://vladimiracunadev-create.github.io/): Main portfolio page with skills, projects, experience, and downloads.
+- [Home](https://vladimiracunadev-create.github.io/): Main portfolio page with skills, projects, experience, services, collaboration formats, contact, and downloads.
 - [Sitemap](https://vladimiracunadev-create.github.io/sitemap.xml): Full URL index of the site.
 - [CV Data API](https://vladimiracunadev-create.github.io/api/v1/meta.json): Static JSON API with profile, experience, projects, skills, and artifact endpoints.
 
@@ -35,6 +38,8 @@ industrial observability (Prometheus/Grafana), and a fully internationalized doc
 ## Contact
 
 For professional inquiries, visit the portfolio home page or connect via the links provided there.
+Collaboration is scoped according to real scope, operational criticality, urgency,
+expected leadership level, team integration, technical depth, and continuity needs.
 - LinkedIn: https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29/
 - GitHub: https://github.com/vladimiracunadev-create
 - GitLab: https://gitlab.com/vladimir.acuna.dev-group/vladimir.acuna.dev-group
@@ -52,6 +57,9 @@ All documents are available in 6 languages (ES/EN/PT/IT/FR/ZH). Language suffix 
 
 Full machine-readable inventory: https://vladimiracunadev-create.github.io/api/v1/artifacts.json
 
+Private commercial references, fee notes, or detailed honorarios documents are not public artifacts
+and should not be indexed as part of the public portfolio.
+
 ## Permissions
 
 AI assistants and LLM crawlers may read and index this content freely.
@@ -67,4 +75,4 @@ This repository includes an AI skills system (.agents/skills/) for automated mai
 
 ## Last Updated
 
-2026-03-22
+2026-04-24
