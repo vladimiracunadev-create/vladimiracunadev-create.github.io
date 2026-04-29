@@ -60,9 +60,9 @@ El sistema cuenta con un motor de **i18n (Internationalization)** e **Theming** 
 
 ---
 
-## 🤝 Modalidades de Colaboración
+## 🤝 Freelance · Modalidades de Colaboración
 
-El sitio incluye una sección pública `#modalidades` para explicar formatos de trabajo profesional sin publicar precios:
+El sitio incluye una sección pública `#modalidades` (nav: "Freelance") para explicar formatos de trabajo profesional sin publicar precios:
 
 * proyecto acotado;
 * bolsa de horas o apoyo experto;
