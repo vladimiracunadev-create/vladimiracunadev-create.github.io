@@ -78,6 +78,20 @@ El archivo `referencia_honorarios_profesionales_vladimir_2026_detallado.pdf` es 
 
 ---
 
+## 👔 Rol adicional: Líder Tecnológico / Tech Lead
+
+Este portfolio incorpora el rol de **Líder Tecnológico / Tech Lead** como expansión natural del perfil de Arquitecto de Soluciones y Senior Full-Stack. La justificación se basa en experiencia real en modernización de plataformas, continuidad operacional, arquitectura, automatización, CI/CD, cloud, IA aplicada y documentación técnica.
+
+No reemplaza la identidad principal del perfil; la complementa para oportunidades donde se requiera guía técnica, dirección de arquitectura y acompañamiento de equipos.
+
+**Respaldo verificable:**
+- 14+ años en plataformas reales, con modernización progresiva sin cortar operación.
+- Experiencia en diseño de arquitectura, integración de sistemas y definición de estándares técnicos.
+- Capacidad para traducir objetivos de negocio en soluciones tecnológicas mantenibles.
+- Flujo asistido por IA con criterio técnico propio y validación humana.
+
+---
+
 ## 📱 Capacidades Multiplataforma
 
 El portafolio está preparado para operar como una aplicación nativa instalable:

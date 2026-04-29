@@ -1,5 +1,19 @@
 # Changelog
 
+## 2026-04-29
+
+### feat: integración rol Líder Tecnológico / Tech Lead
+
+- `index.html`: título, meta description, og:title, og:description, twitter:title, twitter:description — añadido "Líder Tecnológico"
+- `index.html` hero lead: rol expandido a "Arquitecto de Soluciones · Senior Full-Stack · Líder Tecnológico" en 6 idiomas
+- `index.html` hero badges: nuevos pills "👔 Liderazgo Tecnológico" y "📋 Dirección Técnica"
+- `index.html` recruiter card: añadido pill "Tech Lead" a identidad principal; párrafo multilingüe sobre rol de Tech Lead para reclutadores
+- `index.html` roles#capa2: nueva article card "Líder Tecnológico / Tech Lead" con descripción y chips en 6 idiomas
+- `index.html` roles#capa2b: nueva card "Qué tipo de liderazgo tecnológico ofrezco" (data-min-level=1) con 6 bullets en 6 idiomas
+- `index.html` roles#capa3: eliminado pill "Tech Lead" (elevado a Capa 2)
+- `index.html` roles#capa4: añadido bullet "Liderazgo tecnológico" en primera columna (ES+EN)
+- `README.md`: nueva sección "Rol adicional: Líder Tecnológico / Tech Lead"
+
 ## 2026-04-13
 
 ### rank-repos — ranking automático de repositorios
