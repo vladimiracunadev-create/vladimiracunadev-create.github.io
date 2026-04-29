@@ -169,67 +169,74 @@ async function loadRecentActivity() {
       fetch(ghUrl, { headers: { "Accept": "application/vnd.github+json" } }),
       fetch(glUrl)
     ]);
-    const items = [];
+
+    let totalCommits = 0, totalPRs = 0, totalReleases = 0;
+    const activeRepos = new Set();
+    const highlights = [];
 
     if (ghRes.ok) {
       const events = await ghRes.json();
       for (const e of events) {
         const repo = e.repo.name.replace("vladimiracunadev-create/", "");
-        const repoUrl = `https://github.com/${e.repo.name}`;
-        let icon, label, detail = "", url = repoUrl;
+        activeRepos.add(repo);
         if (e.type === "PushEvent") {
-          const n = e.payload.commits?.length || 1;
-          icon = "⬆"; label = `${n} commit${n > 1 ? "s" : ""} → ${repo}`;
-          detail = e.payload.commits?.[0]?.message?.split("\n")[0]?.slice(0, 100) || "";
+          totalCommits += e.payload.commits?.length || 1;
         } else if (e.type === "PullRequestEvent" && e.payload.pull_request?.merged) {
-          icon = "🔀"; label = `PR merged → ${repo}`;
-          detail = e.payload.pull_request.title?.slice(0, 100) || "";
-          url = e.payload.pull_request.html_url;
-        } else if (e.type === "PullRequestEvent" && e.payload.action === "opened") {
-          icon = "🔁"; label = `PR opened → ${repo}`;
-          detail = e.payload.pull_request.title?.slice(0, 100) || "";
-          url = e.payload.pull_request.html_url;
-        } else if (e.type === "CreateEvent" && e.payload.ref_type === "tag") {
-          icon = "🏷"; label = `tag ${e.payload.ref} → ${repo}`;
+          totalPRs++;
+          highlights.push({ icon: "🔀", label: `PR → ${repo}`,
+            detail: e.payload.pull_request.title?.slice(0, 90) || "",
+            date: e.created_at, source: "GH", url: e.payload.pull_request.html_url });
         } else if (e.type === "ReleaseEvent") {
-          icon = "🚀"; label = `release ${e.payload.release.tag_name} → ${repo}`;
-          detail = e.payload.release.name?.slice(0, 100) || "";
-          url = e.payload.release.html_url;
-        } else { continue; }
-        items.push({ icon, label, detail, date: e.created_at, source: "GH", url });
+          totalReleases++;
+          highlights.push({ icon: "🚀", label: `release ${e.payload.release.tag_name} → ${repo}`,
+            detail: e.payload.release.name?.slice(0, 90) || "",
+            date: e.created_at, source: "GH", url: e.payload.release.html_url });
+        } else if (e.type === "CreateEvent" && e.payload.ref_type === "tag") {
+          highlights.push({ icon: "🏷", label: `tag ${e.payload.ref} → ${repo}`,
+            detail: "", date: e.created_at, source: "GH", url: `https://github.com/${e.repo.name}` });
+        }
       }
     }
 
     if (glRes.ok) {
       const mrs = await glRes.json();
+      totalPRs += mrs.length;
       for (const mr of mrs) {
-        const urlParts = mr.web_url.split("/");
-        const project = urlParts[4] || "gitlab";
-        items.push({
-          icon: "🔀", label: `MR merged → ${project}`,
-          detail: mr.title?.slice(0, 100) || "",
-          date: mr.merged_at || mr.updated_at,
-          source: "GL", url: mr.web_url
-        });
+        const project = mr.web_url.split("/")[4] || "gitlab";
+        activeRepos.add(project);
+        highlights.push({ icon: "🔀", label: `MR → ${project}`,
+          detail: mr.title?.slice(0, 90) || "",
+          date: mr.merged_at || mr.updated_at, source: "GL", url: mr.web_url });
       }
     }
 
-    const sorted = items.sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0, 15);
-    if (!sorted.length) throw new Error("empty");
+    if (!totalCommits && !highlights.length) throw new Error("empty");
 
-    box.innerHTML = sorted.map(item => {
-      const ago = timeAgo(item.date);
-      const safeDet = item.detail.replace(/</g, "&lt;").replace(/>/g, "&gt;");
-      const srcBadge = `<span class="pill mini" style="font-size:.65rem;padding:.1rem .35rem;vertical-align:middle">${item.source}</span>`;
-      return `
-        <div class="repo">
-          <div class="repo__top">
-            <a class="repo__name" href="${item.url}" target="_blank" rel="noreferrer">${item.icon} ${item.label}</a> ${srcBadge}
-            <div class="repo__meta">${ago}</div>
-          </div>
-          ${safeDet ? `<div class="repo__desc">${safeDet}</div>` : ""}
-        </div>`;
-    }).join("");
+    const stats = [
+      totalCommits  ? `⬆ ${totalCommits} commits`  : null,
+      totalPRs      ? `🔀 ${totalPRs} PRs / MRs`   : null,
+      totalReleases ? `🚀 ${totalReleases} releases` : null,
+      activeRepos.size ? `📦 ${activeRepos.size} repos` : null,
+    ].filter(Boolean).map(s => `<span class="pill">${s}</span>`).join(" ");
+
+    const top = highlights
+      .sort((a, b) => new Date(b.date) - new Date(a.date))
+      .slice(0, 6)
+      .map(item => {
+        const ago = timeAgo(item.date);
+        const safeDet = item.detail.replace(/</g, "&lt;").replace(/>/g, "&gt;");
+        const src = `<span class="pill mini" style="font-size:.65rem;padding:.1rem .35rem;vertical-align:middle">${item.source}</span>`;
+        return `
+          <div class="repo">
+            <div class="repo__top">
+              <a class="repo__name" href="${item.url}" target="_blank" rel="noreferrer">${item.icon} ${item.label}</a> ${src}
+              <div class="repo__meta">${ago}</div>
+            </div>
+            ${safeDet ? `<div class="repo__desc">${safeDet}</div>` : ""}
+          </div>`;
+      }).join("");
+
+    box.innerHTML = `<div class="chips" style="margin-bottom:.75rem">${stats}</div>${top}`;
   } catch (e) {
     box.innerHTML = `<div class="muted small">No se pudo cargar la actividad.</div>`;
   }
