@@ -148,6 +148,93 @@ async function loadRecentRepos() {
   }
 }
 
+function timeAgo(dateStr) {
+  const diff = Date.now() - new Date(dateStr).getTime();
+  const days = Math.floor(diff / 86400000);
+  const hours = Math.floor(diff / 3600000);
+  const mins = Math.floor(diff / 60000);
+  if (days > 30) return new Date(dateStr).toLocaleDateString("es-CL", { month: "short", day: "2-digit", year: "numeric" });
+  if (days > 0) return `hace ${days}d`;
+  if (hours > 0) return `hace ${hours}h`;
+  return `hace ${mins}m`;
+}
+
+async function loadRecentActivity() {
+  const box = $("#recentActivity");
+  if (!box) return;
+  const ghUrl = "https://api.github.com/users/vladimiracunadev-create/events?per_page=50";
+  const glUrl = "https://gitlab.com/api/v4/groups/vladimir.acuna.dev-group/merge_requests?state=merged&per_page=10&order_by=updated_at&sort=desc";
+  try {
+    const [ghRes, glRes] = await Promise.all([
+      fetch(ghUrl, { headers: { "Accept": "application/vnd.github+json" } }),
+      fetch(glUrl)
+    ]);
+    const items = [];
+
+    if (ghRes.ok) {
+      const events = await ghRes.json();
+      for (const e of events) {
+        const repo = e.repo.name.replace("vladimiracunadev-create/", "");
+        const repoUrl = `https://github.com/${e.repo.name}`;
+        let icon, label, detail = "", url = repoUrl;
+        if (e.type === "PushEvent") {
+          const n = e.payload.commits?.length || 1;
+          icon = "⬆"; label = `${n} commit${n > 1 ? "s" : ""} → ${repo}`;
+          detail = e.payload.commits?.[0]?.message?.split("\n")[0]?.slice(0, 100) || "";
+        } else if (e.type === "PullRequestEvent" && e.payload.pull_request?.merged) {
+          icon = "🔀"; label = `PR merged → ${repo}`;
+          detail = e.payload.pull_request.title?.slice(0, 100) || "";
+          url = e.payload.pull_request.html_url;
+        } else if (e.type === "PullRequestEvent" && e.payload.action === "opened") {
+          icon = "🔁"; label = `PR opened → ${repo}`;
+          detail = e.payload.pull_request.title?.slice(0, 100) || "";
+          url = e.payload.pull_request.html_url;
+        } else if (e.type === "CreateEvent" && e.payload.ref_type === "tag") {
+          icon = "🏷"; label = `tag ${e.payload.ref} → ${repo}`;
+        } else if (e.type === "ReleaseEvent") {
+          icon = "🚀"; label = `release ${e.payload.release.tag_name} → ${repo}`;
+          detail = e.payload.release.name?.slice(0, 100) || "";
+          url = e.payload.release.html_url;
+        } else { continue; }
+        items.push({ icon, label, detail, date: e.created_at, source: "GH", url });
+      }
+    }
+
+    if (glRes.ok) {
+      const mrs = await glRes.json();
+      for (const mr of mrs) {
+        const urlParts = mr.web_url.split("/");
+        const project = urlParts[4] || "gitlab";
+        items.push({
+          icon: "🔀", label: `MR merged → ${project}`,
+          detail: mr.title?.slice(0, 100) || "",
+          date: mr.merged_at || mr.updated_at,
+          source: "GL", url: mr.web_url
+        });
+      }
+    }
+
+    const sorted = items.sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0, 15);
+    if (!sorted.length) throw new Error("empty");
+
+    box.innerHTML = sorted.map(item => {
+      const ago = timeAgo(item.date);
+      const safeDet = item.detail.replace(/</g, "&lt;").replace(/>/g, "&gt;");
+      const srcBadge = `<span class="pill mini" style="font-size:.65rem;padding:.1rem .35rem;vertical-align:middle">${item.source}</span>`;
+      return `
+        <div class="repo">
+          <div class="repo__top">
+            <a class="repo__name" href="${item.url}" target="_blank" rel="noreferrer">${item.icon} ${item.label}</a> ${srcBadge}
+            <div class="repo__meta">${ago}</div>
+          </div>
+          ${safeDet ? `<div class="repo__desc">${safeDet}</div>` : ""}
+        </div>`;
+    }).join("");
+  } catch (e) {
+    box.innerHTML = `<div class="muted small">No se pudo cargar la actividad.</div>`;
+  }
+}
+
 function initCopyEmail() {
   const btn = $("#btnCopyEmail");
   if (!btn) return;
@@ -219,3 +306,4 @@ initMeta();
 initAppDownloads();
 initPwaTriggers();
 loadRecentRepos();
+loadRecentActivity();
