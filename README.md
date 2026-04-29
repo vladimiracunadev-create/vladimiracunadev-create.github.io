@@ -85,10 +85,11 @@ Este portfolio incorpora el rol de **Líder Tecnológico / Tech Lead** como expa
 No reemplaza la identidad principal del perfil; la complementa para oportunidades donde se requiera guía técnica, dirección de arquitectura y acompañamiento de equipos.
 
 **Respaldo verificable:**
-- 14+ años en plataformas reales, con modernización progresiva sin cortar operación.
-- Experiencia en diseño de arquitectura, integración de sistemas y definición de estándares técnicos.
-- Capacidad para traducir objetivos de negocio en soluciones tecnológicas mantenibles.
-- Flujo asistido por IA con criterio técnico propio y validación humana.
+
+* 14+ años en plataformas reales, con modernización progresiva sin cortar operación.
+* Experiencia en diseño de arquitectura, integración de sistemas y definición de estándares técnicos.
+* Capacidad para traducir objetivos de negocio en soluciones tecnológicas mantenibles.
+* Flujo asistido por IA con criterio técnico propio y validación humana.
 
 ---
 
