@@ -89,29 +89,62 @@ function initMenu() {
 async function loadRecentRepos() {
   const box = $("#recentRepos");
   if (!box) return;
-  const url = "https://api.github.com/users/vladimiracunadev-create/repos?per_page=12&sort=updated";
+  const ghUrl = "https://api.github.com/users/vladimiracunadev-create/repos?per_page=12&sort=updated";
+  const glUrl = "https://gitlab.com/api/v4/groups/vladimir.acuna.dev-group/projects?per_page=12&order_by=last_activity_at&sort=desc";
   try {
-    const res = await fetch(url, { headers: { "Accept": "application/vnd.github+json" } });
-    if (!res.ok) throw new Error("HTTP " + res.status);
-    const repos = (await res.json())
-      .sort((a, b) => new Date(b.pushed_at) - new Date(a.pushed_at))
-      .slice(0, 10);
+    const [ghRes, glRes] = await Promise.all([
+      fetch(ghUrl, { headers: { "Accept": "application/vnd.github+json" } }),
+      fetch(glUrl, { headers: { "Accept": "application/json" } })
+    ]);
+
+    let repos = [];
+
+    if (ghRes.ok) {
+      const ghData = await ghRes.json();
+      repos.push(...ghData.map(r => ({
+        name: r.name,
+        url: r.html_url,
+        desc: (r.description || "").replace(/</g, "&lt;").replace(/>/g, "&gt;"),
+        stars: r.stargazers_count,
+        forks: r.forks_count,
+        pushed: r.pushed_at,
+        isFork: r.fork,
+        source: "GH"
+      })));
+    }
+
+    if (glRes.ok) {
+      const glData = await glRes.json();
+      repos.push(...glData.map(r => ({
+        name: r.name,
+        url: r.web_url,
+        desc: (r.description || "").replace(/</g, "&lt;").replace(/>/g, "&gt;"),
+        stars: r.star_count,
+        forks: r.forks_count,
+        pushed: r.last_activity_at,
+        isFork: !!r.forked_from_project,
+        source: "GL"
+      })));
+    }
+
+    repos = repos.sort((a, b) => new Date(b.pushed) - new Date(a.pushed)).slice(0, 12);
+    if (!repos.length) throw new Error("empty");
 
     box.innerHTML = repos.map(r => {
-      const updated = new Date(r.pushed_at).toLocaleDateString("es-CL", { year: "numeric", month: "short", day: "2-digit" });
-      const desc = (r.description || "").replace(/</g, "&lt;").replace(/>/g, "&gt;");
-      const forkBadge = r.fork ? ' · <span title="Fork">⑂ fork</span>' : "";
+      const updated = new Date(r.pushed).toLocaleDateString("es-CL", { year: "numeric", month: "short", day: "2-digit" });
+      const forkBadge = r.isFork ? ' · <span title="Fork">⑂ fork</span>' : "";
+      const sourceBadge = `<span class="pill mini" title="${r.source === "GL" ? "GitLab" : "GitHub"}" style="font-size:.65rem;padding:.1rem .35rem;vertical-align:middle">${r.source}</span>`;
       return `
           <div class="repo">
             <div class="repo__top">
-              <a class="repo__name" href="${r.html_url}" target="_blank" rel="noreferrer">${r.name}</a>
-              <div class="repo__meta">★ ${r.stargazers_count} · actualizado ${updated}${forkBadge}</div>
+              <a class="repo__name" href="${r.url}" target="_blank" rel="noreferrer">${r.name}</a> ${sourceBadge}
+              <div class="repo__meta">★ ${r.stars} · ⑂ ${r.forks} · ${updated}${forkBadge}</div>
             </div>
-            ${desc ? `<div class="repo__desc">${desc}</div>` : ""}
+            ${r.desc ? `<div class="repo__desc">${r.desc}</div>` : ""}
           </div>`;
     }).join("");
   } catch (e) {
-    box.innerHTML = `<div class="muted small">No se pudo cargar la lista (API GitHub). Puedes ver repos en GitHub directamente.</div>`;
+    box.innerHTML = `<div class="muted small">No se pudo cargar la lista. Ver repos en <a href="https://github.com/vladimiracunadev-create" target="_blank" rel="noreferrer">GitHub</a> y <a href="https://gitlab.com/vladimir.acuna.dev-group" target="_blank" rel="noreferrer">GitLab</a>.</div>`;
   }
 }
 

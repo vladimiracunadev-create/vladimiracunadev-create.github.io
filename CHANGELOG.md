@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-04-29 (2)
+
+### feat: repos recientes — GitLab + forks count
+
+- `app.js` `loadRecentRepos()`: fetch paralelo GitHub + GitLab API; normaliza datos; ordena por fecha; muestra top 12 combinados
+- `app.js`: meta-línea actualizada a `★ stars · ⑂ forks · fecha`; badge GH/GL por repo
+- `index.html` CSP: añadido `https://gitlab.com` a `connect-src`
+- `index.html` repos section: descripción actualizada para mencionar ambas plataformas y los íconos ★/⑂
+
 ## 2026-04-29
 
 ### feat: integración rol Líder Tecnológico / Tech Lead
