@@ -1,7 +1,7 @@
 {
     "meta": {
         "version": "v1",
-        "generated_at": "2026-04-13",
+        "generated_at": "2026-05-01",
         "source_pdf": "assets/cv-ats.pdf"
     },
     "experience": [
@@ -85,12 +85,16 @@
         }
     ],
     "recent_activity": [
-        "Consolidación de ecosistema verificable: 15 casos AWS (11 completados, 3 validados) con Terraform, SAM, Lambda, DynamoDB, Cognito/WAF, EventBridge, ECS/EKS y FinOps.",
-        "Polyglot persistence demostrada: Social Bot Scheduler v4.x con 9 lenguajes × 12+ motores de datos y observabilidad industrial (Prometheus/Grafana).",
-        "Portafolio profesional en 6 idiomas (ES/EN/PT/IT/FR/ZH) con 30+ PDFs generados por pipeline Python (reportlab).",
-        "IA aplicada con mentalidad de ingeniería: LangGraph (4 casos operativos, estado tipado), MCP+Ollama local-first con privacidad.",
-        "Docker Labs v1.4: 12 labs integrados con centro de control, launcher Go y Windows installer.",
-        "Microsistemas: 11 herramientas con KatasMultiLang (195 comparaciones / 67 tecnologías), servidor MCP Python.",
-        "Formación continua: bases de ML/NLP, agentes con estado y automatización práctica aplicada a proyectos."
+        "AWS GenAI: Caso I (Bedrock + Claude Haiku 4.5 + Lambda + xray-sdk) y Caso O (X-Ray distribuido) cerrados en abril 2026 — total 14/15 casos AWS completados, solo queda Caso M (Resiliencia/Failover).",
+        "Cobertura por certificación AWS: ~68% SAA-C03, ~68% DVA-C02, ~50% SOA-C02 (mapeo riguroso por dominio en docs/cert-*.md).",
+        "LangGraph v4.2.0: 10 backends operativos (01,02,03,04,05,09,10,13,19,25) con auditoría de seguridad de 8 capas (non-root, 127.0.0.1, grype fail-build, Trojan Source, nginx TLS, detect-secrets, pip-compile, Dependabot), LangSmith opt-in, /metrics y OAuth2/OIDC.",
+        "Social Bot Scheduler v4.2.0: Security Hardened con Trivy, runtime isolation, binding 127.0.0.1 y perfil full Prometheus/Grafana — polyglot persistence con 9 lenguajes × 12+ motores de datos.",
+        "Docker Labs v1.5.0: 12 labs Docker-first con Hub CLI, Prometheus/Grafana, K8s y Windows Installer firmado.",
+        "Microsistemas v3.x: 11 herramientas con Hardening en 3 fases (TruffleHog + Trivy + Dependabot + markdownlint en cada push) y SBOM en cada release.",
+        "Python Data Science Bootcamp v1.1.0: expansión a 31 clases con App Desktop Windows nativa (Edge WebView2) y App Android (Expo + Google Colab) — workflow Security Scan activo.",
+        "ChofyAI Studio (Fase 4, macOS Apple Silicon): disco dual, zona de módulos, stats y empaquetado ad-hoc; Tauri + Rust + React centralizando IA local (Qwen3-TTS, whisper.cpp, FaceFusion, AceForge).",
+        "Problem Driven Systems Lab: 12 casos PHP OPERATIVOS (01–12) + caso 03 también en Node.js, con Prometheus + Grafana integrados (puertos 9091/3001).",
+        "MCP + Ollama Local: Security & Trust Profile documentado con Bandit + pip-audit + cabeceras de seguridad para LLMs locales con tool calling.",
+        "Portafolio profesional en 6 idiomas (ES/EN/PT/IT/FR/ZH) con 31 PDFs generados por pipeline Python (reportlab), PWA instalable, CV Data API JSON estática y Lighthouse 100."
     ]
 }

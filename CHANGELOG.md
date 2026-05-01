@@ -1,5 +1,44 @@
 # Changelog
 
+## 2026-05-01
+
+### sync-portfolio — auditoría profunda + integración 18 días de avances
+
+Cierre del gap entre 2026-04-13 (último sync con regeneración de assets) y hoy.
+12 repos analizados (10 públicos + GitLab `proyectos-aws-gitlab` + portfolio).
+
+**API JSON (api/v1/) — generated_at → 2026-05-01:**
+
+- `projects.json`:
+  - AWS: `cases_completed: 11 → 14`, añadido `cert_coverage` (SAA-C03 ~68% / DVA-C02 ~68% / SOA-C02 ~50%), tags +Bedrock +Claude Haiku 4.5 +TruffleHog +detect-secrets
+  - LangGraph: `operational_cases: 4 → 10`, version v4.2.0, tags +LangSmith +OAuth2/OIDC +nginx TLS +grype +detect-secrets +Hardening 8 capas
+  - Docker Labs: name v1.4 → v1.5, version v1.5.0, tag +Security Hardening
+  - Social Bot Scheduler: name → v4.2, version v4.2.0, tags +Trivy +Hardened Runtime
+  - Microsistemas: tags +TruffleHog +Trivy +Dependabot +SBOM +Security Hardening 3 fases
+  - MCP + Ollama Local: tags +Bandit +pip-audit +Security & Trust Profile
+  - ChofyAI Studio: name → Fase 4, version Fase 4, tags +Qwen3-TTS +FaceFusion +AceForge +uv +Disco dual +Empaquetado ad-hoc
+  - Problem Driven Systems Lab: tags poblados (PHP 8.3, Python, Node.js, Docker, Prometheus, Grafana, MySQL, 12 casos OPERATIVOS, Observability, Performance), `operational_cases: 12`
+  - python-data-science-bootcamp → "Python Data Science Bootcamp v1.1", version v1.1.0, tags poblados (Python, Jupyter Notebook, Data Science, 31 clases, Desktop Windows, Edge WebView2, Android Expo, Google Colab, Security Scan), `classes_count: 31`
+- `experience.json` `recent_activity`: reescritura completa — 11 ítems con eventos de alto valor (AWS Caso I Bedrock + Caso O X-Ray, LangGraph v4.2 hardening 8 capas, Social Bot v4.2 Hardened, Docker Labs v1.5, Microsistemas v3.x SBOM, Bootcamp v1.1 31 clases + Desktop + Android, ChofyAI Fase 4, problem-driven 12 OPERATIVOS, MCP Ollama Trust Profile, portafolio i18n)
+- `profile.json` `summary`: 11 → 14 casos AWS + GenAI Bedrock + 10 backends LangGraph + Hardening industrial (Trivy, TruffleHog, grype, SBOM, OIDC) + Prometheus/Grafana/X-Ray
+
+**index.html cards × 6 idiomas:**
+
+- LangGraph card (líneas 645–650): "8 backends operativos" → "v4.2.0 · 10 backends operativos (01,02,03,04,05,09,10,13,19,25) · auditoría 8 capas (non-root, 127.0.0.1, grype fail-build, nginx TLS, detect-secrets) · LangSmith · /metrics · OAuth2/OIDC opt-in"
+- AWS card (líneas 611–616): "15 casos prácticos AWS (A–O) · gitleaks/tfsec/pre-commit hooks" → "14 completados (incluyendo GenAI Caso I: Bedrock + Claude Haiku 4.5 + Lambda + xray-sdk; Caso O: X-Ray distribuido), 1 proyectado (Caso M Resiliencia/Failover) · Cobertura ~68% SAA-C03 / ~68% DVA-C02 / ~50% SOA-C02 · TruffleHog + detect-secrets"
+- `buildDate`: 2026-04-13 → 2026-05-01
+- Hero tag (6 idiomas): "Abr 2026 / Apr 2026 / 2026年4月" → "May 2026 / Mai 2026 / Mag 2026 / 2026年5月"
+
+**Scripts PDF:**
+
+- `generate-portfolio.py` (5 idiomas afectados): "LangGraph + Ollama, 25 demos" → "LangGraph v4.2 + Ollama, 25 casos / 10 operativos, auditoría 8 capas, CI/CD hardened"
+- `generate-all-languages.py`: subtítulos al día (sin cambios)
+- 31 PDFs regenerados (5 tipos × 6 idiomas) por los 4 scripts
+
+**Backups:** `assets/backups/2026-05-01/` — 31 PDFs respaldados antes de regenerar.
+
+**Origen de hallazgos:** dry-run del script + auditoría profunda manual (READMEs vía gh api, GitLab vía API REST, comparación de literales numéricos en JSONs vs realidad).
+
 ## 2026-04-29 (2)
 
 ### feat: repos recientes — GitLab + forks count

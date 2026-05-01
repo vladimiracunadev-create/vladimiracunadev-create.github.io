@@ -1,7 +1,7 @@
 {
     "meta": {
         "version": "v1",
-        "generated_at": "2026-04-13",
+        "generated_at": "2026-05-01",
         "source_pdf": "assets/cv-ats.pdf"
     },
     "projects": [
@@ -22,19 +22,29 @@
                 "SQS/SNS",
                 "CloudWatch",
                 "X-Ray",
+                "Bedrock",
+                "Claude Haiku 4.5",
                 "Terraform",
                 "SAM",
                 "OIDC",
+                "TruffleHog",
+                "detect-secrets",
                 "FinOps"
             ],
             "category": "cloud",
-            "cases_completed": 11,
-            "cases_total": 15
+            "cases_completed": 14,
+            "cases_total": 15,
+            "cert_coverage": {
+                "SAA-C03": "~68%",
+                "DVA-C02": "~68%",
+                "SOA-C02": "~50%"
+            }
         },
         {
-            "name": "Social Bot Scheduler v4.x",
+            "name": "Social Bot Scheduler v4.2",
             "description": "🤖 Social Bot Scheduler · Matriz de Integración Multi-Eje con n8n (Python/Go/Node/PHP) + Docker. Automatización de publicaciones en redes sociales. ⚙️",
             "url": "https://github.com/vladimiracunadev-create/social-bot-scheduler",
+            "version": "v4.2.0",
             "tags": [
                 "n8n",
                 "Python",
@@ -49,14 +59,17 @@
                 "Grafana",
                 "Docker",
                 "Kubernetes",
+                "Trivy",
+                "Hardened Runtime",
                 "Circuit Breaker"
             ],
             "category": "orchestration"
         },
         {
-            "name": "Docker Labs v1.4 · Infra Hub",
+            "name": "Docker Labs v1.5 · Infra Hub",
             "description": "🐳 Docker Labs · Laboratorio personal de contenedores con Docker/Compose en múltiples stacks: PHP, Node.js, Python, bases de datos y herramientas DevOps. 🧪",
             "url": "https://github.com/vladimiracunadev-create/docker-labs",
+            "version": "v1.5.0",
             "tags": [
                 "Docker",
                 "Go",
@@ -68,7 +81,8 @@
                 "Redis",
                 "RabbitMQ",
                 "Kubernetes",
-                "Windows Installer"
+                "Windows Installer",
+                "Security Hardening"
             ],
             "category": "platform"
         },
@@ -85,15 +99,21 @@
                 "KatasMultiLang",
                 "CicdLibrary",
                 "GitHub Actions",
-                "GHCR"
+                "GHCR",
+                "TruffleHog",
+                "Trivy",
+                "Dependabot",
+                "SBOM",
+                "Security Hardening 3 fases"
             ],
             "category": "tooling",
             "tools_count": 11
         },
         {
-            "name": "LangGraph · Agentic Resilience",
-            "description": "🤖 25 casos empresariales con LangGraph + FastAPI · 8 backends operativos · OAuth2 opt-in · LangSmith · /metrics · nginx+TLS · CI/CD hardened",
+            "name": "LangGraph · Agentic Resilience v4.2",
+            "description": "🤖 25 casos de uso empresariales con LangGraph + FastAPI. 10 backends operativos (streaming, DEMO/LIVE, OAuth2 opt-in, observabilidad). Python 3.11 · Docker · pytest.",
             "url": "https://github.com/vladimiracunadev-create/langgraph-realworld",
+            "version": "v4.2.0",
             "tags": [
                 "LangGraph",
                 "Python",
@@ -103,11 +123,17 @@
                 "SQL Agents",
                 "Docker",
                 "Stateful",
-                "Dual-Mode"
+                "Dual-Mode",
+                "LangSmith",
+                "OAuth2/OIDC",
+                "nginx TLS",
+                "grype",
+                "detect-secrets",
+                "Hardening 8 capas"
             ],
             "category": "ai",
             "demos_count": 25,
-            "operational_cases": 4
+            "operational_cases": 10
         },
         {
             "name": "MCP + Ollama Local",
@@ -121,7 +147,10 @@
                 "Local AI",
                 "Docker",
                 "Kubernetes",
-                "pytest"
+                "pytest",
+                "Bandit",
+                "pip-audit",
+                "Security & Trust Profile"
             ],
             "category": "ai"
         },
@@ -161,9 +190,10 @@
             "category": "platform"
         },
         {
-            "name": "ChofyAI Studio",
+            "name": "ChofyAI Studio · Fase 4",
             "description": "🎨 ChofyAI Studio · Lanzador de escritorio para macOS Apple Silicon. Centraliza herramientas de IA local: Qwen3-TTS, whisper.cpp, FaceFusion, AceForge. Tauri + Rust + React. 🍎",
             "url": "https://github.com/vladimiracunadev-create/chofyai-studio",
+            "version": "Fase 4",
             "tags": [
                 "Tauri",
                 "Rust",
@@ -171,24 +201,53 @@
                 "macOS",
                 "Apple Silicon",
                 "Local AI",
+                "Qwen3-TTS",
                 "whisper.cpp",
-                "Ollama"
+                "FaceFusion",
+                "AceForge",
+                "uv",
+                "Disco dual",
+                "Empaquetado ad-hoc"
             ],
             "category": "ai"
         },
         {
-            "name": "problem-driven-systems-lab",
+            "name": "Problem Driven Systems Lab",
             "description": "🧪 Laboratorio de sistemas distribuido con 12 casos reales Docker-first para diagnosticar y resolver problemas críticos de rendimiento, observabilidad, resiliencia y arquitectura 🐳",
             "url": "https://github.com/vladimiracunadev-create/problem-driven-systems-lab",
-            "tags": [],
-            "category": "other"
+            "tags": [
+                "PHP 8.3",
+                "Python",
+                "Node.js",
+                "Docker",
+                "Prometheus",
+                "Grafana",
+                "MySQL",
+                "12 casos OPERATIVOS",
+                "Observability",
+                "Performance"
+            ],
+            "category": "platform",
+            "operational_cases": 12
         },
         {
-            "name": "python-data-science-bootcamp",
+            "name": "Python Data Science Bootcamp v1.1",
             "description": "📊 Bootcamp de Python para Data Science · Clases, notebooks, datasets y entorno interactivo local. Material docente para principiantes y transición profesional. 🐍",
             "url": "https://github.com/vladimiracunadev-create/python-data-science-bootcamp",
-            "tags": [],
-            "category": "other"
+            "version": "v1.1.0",
+            "tags": [
+                "Python",
+                "Jupyter Notebook",
+                "Data Science",
+                "31 clases",
+                "Desktop Windows",
+                "Edge WebView2",
+                "Android Expo",
+                "Google Colab",
+                "Security Scan"
+            ],
+            "category": "education",
+            "classes_count": 31
         }
     ]
 }

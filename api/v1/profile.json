@@ -1,7 +1,7 @@
 {
     "meta": {
         "version": "v1",
-        "generated_at": "2026-04-13",
+        "generated_at": "2026-05-01",
         "source_pdf": "assets/cv-ats.pdf"
     },
     "name": "Vladimir Acuña",
@@ -34,7 +34,7 @@
             "url": "https://youtu.be/huIjsH-N7to"
         }
     ],
-    "summary": "16 años diseñando, construyendo y operando software en entornos reales (14+ años en plataformas educativas/psicométricas). Especializado en modernización de sistemas legacy, automatización de procesos e integración de IA aplicada. En 2026 consolidé un ecosistema verificable: 15 casos AWS (11 completados), polyglot persistence (9 lenguajes × 12+ DBs), agentes IA con estado tipado (LangGraph), observabilidad industrial y un portafolio profesional en 6 idiomas (ES/EN/PT/IT/FR/ZH) con 30+ PDFs generados por pipeline Python.",
+    "summary": "16 años diseñando, construyendo y operando software en entornos reales (14+ años en plataformas educativas/psicométricas). Especializado en modernización de sistemas legacy, automatización de procesos e integración de IA aplicada. En 2026 consolidé un ecosistema verificable: 15 casos AWS (14 completados, incluyendo GenAI con Bedrock + Claude Haiku 4.5), 10 backends LangGraph operativos con auditoría de seguridad de 8 capas, polyglot persistence (9 lenguajes × 12+ DBs), Security Hardening industrial (Trivy, TruffleHog, grype, SBOM, OIDC), observabilidad con Prometheus/Grafana/X-Ray y un portafolio profesional en 6 idiomas (ES/EN/PT/IT/FR/ZH) con 31 PDFs generados por pipeline Python.",
     "languages": [
         {
             "language": "Español",
