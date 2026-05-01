@@ -34,18 +34,18 @@ A diferencia de las soluciones sobre-ingenierizadas con frameworks masivos, este
 
 ---
 
-## 📈 Evolución Reciente: Hitos Consolidados al 19 de Marzo de 2026
+## 📈 Pilares Técnicos Consolidados
 
 Este proyecto ha escalado de un portafolio personal a un **Demostrador Industrial** de ingeniería de software. La revisión de repositorios activos en GitHub y GitLab confirma 8 pilares estratégicos:
 
-1. **Observabilidad Aplicada**: Prometheus/Grafana, dashboards locales y visibilidad operativa para labs reproducibles.
-2. **Resiliencia (Circuit Breakers)**: Patrones para manejo de fallas en microservicios.
-3. **DevOps & DX**: Pipelines de CI/CD que validan desde la sintaxis hasta la accesibilidad.
-4. **Cloud Governance (FinOps)**: Estrategias de optimización de costos, IAM/OIDC y casos visibles en AWS/GitLab Pages.
-5. **Platform Engineering & DX**: Hub CLI, pruebas `doctor`/`smoke`, documentación por perfil y entornos reproducibles.
-6. **Multiplatform Core**: Un solo código fuente para Web, PWA y Apps Nativas (Capacitor).
-7. **Agentic AI Ready + LLM Discoverability**: Arquitectura compatible con asistentes de IA, flujos autónomos y discoverability semántica vía `llm.txt`.
-8. **Internacionalización Completa**: 6 idiomas (ES/EN/PT/IT/FR/ZH) con 30+ PDFs generados por pipeline Python/reportlab — CVs, portafolio, carta de recomendación y declaración de logros. Enlace dinámico: el selector de idioma cambia automáticamente los PDFs descargables.
+1. **Observabilidad Industrial**: Prometheus + Grafana en Docker Labs, Social Bot y Problem-Driven (puertos 9091/3001). LangGraph v4.2 expone `/health`, `/ready`, `/metrics` y LangSmith opt-in. AWS Caso O implementa X-Ray distribuido.
+2. **Security Hardening**: auditoría 8 capas en LangGraph (non-root, 127.0.0.1, grype `fail-build`, nginx TLS, detect-secrets, Trojan Source, pip-compile, Dependabot). Microsistemas v3.x con Hardening 3 fases + SBOM por release. Trivy en Social Bot v4.2. TruffleHog + detect-secrets en proyectos AWS.
+3. **Resiliencia & Continuidad**: idempotencia, Circuit Breakers y desvío controlado (DLQ) para fallos de terceros. Polyglot persistence en Social Bot v4.2 (9 lenguajes × 12+ DBs) con runtime isolation. Streaming + DEMO/LIVE + checkpoints SQLite en LangGraph para tolerancia a fallos LLM.
+4. **DevOps & DX Reproducible**: Hub CLI multi-OS y Windows Installer firmado en Docker Labs v1.5. Tests `doctor` y `smoke`, Makefile operativo y validaciones por caso. CI/CD hardened en GitHub Actions con OIDC y matrix builds. Skills de Claude Code para flujos repetibles.
+5. **Cloud Profesional + GenAI**: 14/15 casos AWS completados (incluyendo Caso I GenAI con Bedrock + Claude Haiku 4.5 + Lambda + xray-sdk; Caso O X-Ray distribuido). Infra inmutable (Terraform), seguridad OIDC y FinOps. Cobertura por certificación: ~68% SAA-C03, ~68% DVA-C02, ~50% SOA-C02. EKS v1.32 + ECS Fargate.
+6. **Multiplatform Core**: un solo código fuente para Web, PWA y Apps Nativas (Capacitor). Bootcamp Python Data Science v1.1 incluye App Desktop Windows (Edge WebView2) y App Android (Expo + Google Colab). ChofyAI Studio Fase 4 corre en macOS Apple Silicon (Tauri + Rust + React).
+7. **IA Agéntica & Local-First + LLM Discoverability**: LangGraph v4.2 con 25 casos / 10 backends operativos, estado tipado y rutas condicionales. MCP + Ollama Local con Security & Trust Profile (Bandit + pip-audit). Discoverability semántica vía `llm.txt`.
+8. **Internacionalización Completa**: 6 idiomas (ES/EN/PT/IT/FR/ZH) con 31 PDFs generados por pipeline Python/reportlab — CVs ATS y reclutador, portafolio, carta de recomendación y declaración de logros. El selector de idioma cambia automáticamente los PDFs descargables vía `data-pdf-{lang}`.
 
 ---
 
