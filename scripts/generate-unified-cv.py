@@ -507,13 +507,14 @@ class UnifiedCV(BaseDocTemplate):
                                   topMargin=0, bottomMargin=0, **kw)
 
         # ── Template 1: Recruiter (two-column with header) ──
+        # Main column on the LEFT, sidebar (SKILLS, EDUCATION, etc.) on the RIGHT
         main_frame = Frame(
-            SIDEBAR_W + 0.15*inch, MARGIN,
+            MARGIN, MARGIN,
             MAIN_W - 0.5*inch, PAGE_H - HEADER_H - MARGIN - 0.1*inch,
             id="main", showBoundary=0,
         )
         sidebar_frame = Frame(
-            SIDEBAR_PAD, MARGIN,
+            PAGE_W - SIDEBAR_W + SIDEBAR_PAD, MARGIN,
             SIDEBAR_W - SIDEBAR_PAD*2, PAGE_H - HEADER_H - MARGIN - 0.1*inch,
             id="sidebar", showBoundary=0,
         )
@@ -564,9 +565,9 @@ class UnifiedCV(BaseDocTemplate):
         canvas.setFillColor(HexColor("#a0b8d0"))
         canvas.setFont("Helvetica", 8.5)
         canvas.drawString(0.45*inch, PAGE_H - 0.85*inch, self.header_data["contact"])
-        # Sidebar background
+        # Sidebar background (RIGHT side)
         canvas.setFillColor(SIDEBAR_BG)
-        canvas.rect(0, 0, SIDEBAR_W, PAGE_H - HEADER_H, fill=1, stroke=0)
+        canvas.rect(PAGE_W - SIDEBAR_W, 0, SIDEBAR_W, PAGE_H - HEADER_H, fill=1, stroke=0)
         # Accent line
         canvas.setStrokeColor(ACCENT)
         canvas.setLineWidth(2)
