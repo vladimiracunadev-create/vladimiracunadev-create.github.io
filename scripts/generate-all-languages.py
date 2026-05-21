@@ -811,8 +811,8 @@ def make_rmain(lang):
         h_projects=T["h_projects"],
         projects=T["projects_rec"],
         doc_links=doc_links,
-        h_training=T["h_training"],
-        training=T["training"],
+        h_training=T["h_skills"],
+        training=[f"{T['skills_labels'][i]} {SKILLS_VALUES[i]}" for i in range(7)],
     )
 
 def make_transition(lang):
