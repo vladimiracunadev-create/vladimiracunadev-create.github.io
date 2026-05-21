@@ -2,6 +2,19 @@
 
 ## 2026-05-21
 
+### style(proyectos): jerarquía visual hero/secondary + reducción de pills (-32%)
+
+Sección `#proyectos` rediseñada para reducir sobrecarga visual sin perder contenido.
+
+- **Hero cards (5)** sin `data-min-level` — siempre visibles, con border-left accent: Batería Online, Cloud Portfolio AWS, LangGraph Agentic Resilience, MCP Ollama Local, Docker Labs, Social Bot Scheduler. Cards bandera con tamaño/peso original.
+- **Secondary cards (7)** con `data-min-level="1"` — compactas (padding 12px, h3 0.95em, pills 11px): Microsistemas, Unikernel Labs, ChofyAI Studio, Problem-Driven Systems Lab, Claude Skills Toolkit, Python Data Science Program.
+- **Supplementary (1)** con `data-min-level="2"` — solo en vista Profundo: GabySQL.
+- **Eliminada** card duplicada `Python Data Science Bootcamp` (repo renombrado a `-program`).
+- **Pills reducidos de 79 → 54** (-32%): cada card ahora tiene 3-5 pills priorizando stack + diferenciador. Ejemplos: AWS 8→5, Unikernel 7→4, Problem-Driven 7→5 (ahora reflejan los 5 stacks PHP/Python/Node/Java 21/.NET 8 + AWS_MIGRATION).
+- **CSS añadido** en `styles.css`: selectores `.card.project:not([data-min-level])` para hero y `.card.project[data-min-level="1"|"2"]` para compactas (padding, h3, p, .pill, .chips, .actions .btn).
+
+Validación: `pnpm test` 51 PASSED / 0 ERRORS, `pnpm run lint:md` 0 errors.
+
 ### feat(sync): detecciones de auditoría profunda en el dry-run + bump langgraph v4.15
 
 Tres detecciones nuevas en `scripts/sync-portfolio.py` que eliminan el principal "ciego" del flujo automático:

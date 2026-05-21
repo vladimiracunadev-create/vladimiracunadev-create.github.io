@@ -562,6 +562,50 @@ body[data-theme="light"] .lang-select option {
   transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease;
 }
 
+/* ─────────────────────────────────────────────────────────────────
+   Jerarquía visual: HERO vs SECONDARY (proyectos)
+   - Cards sin data-min-level (hero) → tamaño original, acento sutil izq.
+   - Cards data-min-level="1" o "2" → compactas (menor padding, fuente
+     más pequeña, pills más pequeñas). La mirada va primero a las hero.
+   ───────────────────────────────────────────────────────────────── */
+.card.project:not([data-min-level]) {
+  border-left: 3px solid var(--accent, #4ECDC4);
+}
+
+.card.project[data-min-level="1"],
+.card.project[data-min-level="2"] {
+  padding: 12px 14px;
+}
+
+.card.project[data-min-level="1"] h3,
+.card.project[data-min-level="2"] h3 {
+  font-size: 0.95em;
+}
+
+.card.project[data-min-level="1"] p,
+.card.project[data-min-level="2"] p {
+  font-size: 0.88em;
+  line-height: 1.45;
+}
+
+.card.project[data-min-level="1"] .pill,
+.card.project[data-min-level="2"] .pill {
+  font-size: 11px;
+  padding: 5px 8px;
+}
+
+.card.project[data-min-level="1"] .chips,
+.card.project[data-min-level="2"] .chips {
+  gap: 6px;
+  margin: 10px 0;
+}
+
+.card.project[data-min-level="1"] .actions .btn,
+.card.project[data-min-level="2"] .actions .btn {
+  padding: 6px 12px;
+  font-size: 12px;
+}
+
 .card::before {
   content: "";
   position: absolute;
