@@ -111,34 +111,6 @@
     "description": "🧪 Laboratorio de sistemas distribuido con 12 casos reales Docker-first para diagnosticar y resolver problemas críticos de rendimiento, observabilidad, resiliencia y arquitectura 🐳",
     "analyzed_at": "2026-04-13T19:05:04.341499+00:00"
   },
-  "python-data-science-bootcamp": {
-    "name": "python-data-science-bootcamp",
-    "total": 81,
-    "breakdown": {
-      "readme_substance": 10,
-      "readme_depth": 5,
-      "changelog": 3,
-      "security_contributing": 2,
-      "docs_dir": 5,
-      "recruiter_md": 5,
-      "dockerfile": 5,
-      "docker_compose": 5,
-      "github_actions": 7,
-      "makefile": 3,
-      "tests": 8,
-      "releases": 4,
-      "github_templates": 0,
-      "observability": 0,
-      "health_endpoints": 4,
-      "k8s": 0,
-      "recency": 5,
-      "stars": 0,
-      "polyglot": 10
-    },
-    "pushed_at": "2026-04-09T23:43:59Z",
-    "description": "📊 Bootcamp de Python para Data Science · Clases, notebooks, datasets y entorno interactivo local. Material docente para principiantes y transición profesional. 🐍",
-    "analyzed_at": "2026-04-13T19:05:06.812103+00:00"
-  },
   "social-bot-scheduler": {
     "name": "social-bot-scheduler",
     "total": 81,

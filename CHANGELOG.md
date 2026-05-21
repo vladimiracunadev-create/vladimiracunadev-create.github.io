@@ -2,6 +2,20 @@
 
 ## 2026-05-21
 
+### fix(content): eliminar residuos del repo renombrado python-data-science-bootcamp
+
+Auditoría exhaustiva tras detectar incoherencias remanentes. El repo fue renombrado a `python-data-science-program` pero quedaban 25+ menciones del nombre viejo en archivos vivos:
+
+- `scripts/generate-portfolio.py`: 6 entradas "Python Data Science Bootcamp" eliminadas (× 6 idiomas en listas de proyectos del PDF portafolio). `project_link_labels.python`: "Bootcamp" → "Program" en los 6 idiomas.
+- `scripts/generate-all-languages.py`: 12 entradas eliminadas (6 reclutador + 6 ATS, × idiomas). `PROJECTS_URLS.python`: URL `/python-data-science-bootcamp` → `/python-data-science-program`.
+- `api/v1/experience.json`: línea "Python Data Science Bootcamp v1.1.0: expansión a 31 clases…" reemplazada por "Python Data Science Program: 197 clases en 9 partes…".
+- `data/repo-scores.json`: entrada `python-data-science-bootcamp` eliminada del caché.
+- **PDFs regenerados**: 12 CVs + 6 portafolios (× 6 idiomas), ahora sin contaminación.
+
+Validación: `grep -nE "Python Data Science Bootcamp|python-data-science-bootcamp" scripts api index.html styles.css` → **0 hits** en archivos vivos. Solo persisten en CHANGELOG histórico y backups (`assets/backups/`), donde es correcto.
+
+`pnpm test` 51 PASSED / 0 ERRORS, `pnpm run lint:md` 0 errors.
+
 ### style(proyectos): jerarquía visual hero/secondary + reducción de pills (-32%)
 
 Sección `#proyectos` rediseñada para reducir sobrecarga visual sin perder contenido.
