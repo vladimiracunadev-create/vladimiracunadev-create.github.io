@@ -18,6 +18,20 @@ Integradas en `main()` como parte del reporte de dry-run. Documentadas en `.agen
 - `index.html`: 6 idiomas × múltiples ubicaciones — `LangGraph v4.14` → `v4.15`.
 - `scripts/generate-{portfolio,all-languages}.py`: idem.
 
+### profile README: pasada completa de coherencia (commits `f888276` + `9e0a14c`)
+
+Auditoría exhaustiva de TODAS las menciones de versión y stack:
+
+- Stack en header: + `Java 21 · .NET 8` (presente en problem-driven-systems-lab).
+- Avance #6 "IA aplicada": `10 backends operativos` → `25/25 backends operativos (cobertura 100%, v4.15.0)`.
+- Card Social Bot Scheduler: title `v4.2.0` → `v4.3.0`.
+- Card LangGraph RealWorld: title + body — `v4.2.0 · 10 backends` → `v4.15.0 · 25/25 backends · cobertura 100%`, + streaming NDJSON, + cadena de custodia SHA-256, + release v4.15 hardening adversarial (`shared/lgrw_common/`, `python-jose` → `joserfc`).
+- Card Problem-Driven Systems Lab: title `12 casos · multi-stack` → `12 casos · 5 stacks (PHP 8 · Python · Node · Java 21 · .NET 8)`. Body con primitivas concretas de Java 21 (`ConcurrentHashMap`, `CompletableFuture.orTimeout`) y .NET 8 (`ConcurrentDictionary`, `CancellationTokenSource`). + plan **AWS_MIGRATION.md** (ECS Fargate · Lambda · EKS) con mapping explícito a SECURITY.md.
+- Ruta D "Si tengo 10 minutos": `10 backends operativos` → `25 backends operativos (cobertura 100%): casos 01-25`.
+- Rol "AI Orchestration Engineer": LangGraph `v4.14.0` → `v4.15.0` (eliminada referencia stale tras bump).
+- Card Python Data Science Program: eliminada referencia a `python-data-science-bootcamp v1.1 (31 clases)` (repo renombrado, mantener limpia la línea).
+- Footer: `Última actualización: 2026-05-02` → `2026-05-21`.
+
 ### profile README (vladimiracunadev-create): cleanup + enriquecimiento
 
 - Eliminada entrada `Python Data Science Bootcamp v1.1.0` (repo renombrado a `-program`).
