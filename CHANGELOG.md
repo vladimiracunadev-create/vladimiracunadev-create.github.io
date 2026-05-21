@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-05-21
+
+### sync-portfolio (automático — 2026-05-21)
+
+- `api/v1/`: generated_at → 2026-05-21
+- Repos nuevos integrados: claude-skills-toolkit, gabysql, python-data-science-program
+- Cards HTML agregados en `#proyectos` (index.html)
+- Scripts PDF y api/v1/projects.json actualizados
+- 30 PDFs regenerados (5 tipos × 6 idiomas)
+- Backup en `assets/backups/2026-05-21/`
+
 ## 2026-05-01
 
 ### sync-portfolio — auditoría profunda + integración 18 días de avances

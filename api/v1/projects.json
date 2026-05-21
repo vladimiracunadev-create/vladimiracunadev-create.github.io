@@ -1,7 +1,7 @@
 {
     "meta": {
         "version": "v1",
-        "generated_at": "2026-05-01",
+        "generated_at": "2026-05-21",
         "source_pdf": "assets/cv-ats.pdf"
     },
     "projects": [
@@ -111,7 +111,7 @@
         },
         {
             "name": "LangGraph · Agentic Resilience v4.2",
-            "description": "🤖 25 casos de uso empresariales con LangGraph + FastAPI. 10 backends operativos (streaming, DEMO/LIVE, OAuth2 opt-in, observabilidad). Python 3.11 · Docker · pytest.",
+            "description": "🤖 25 casos de uso empresariales con LangGraph + FastAPI. 25/25 backends operativos (01-25, cobertura 100%): streaming NDJSON, DEMO/LIVE, OAuth2 opt-in, observabilidad LangSmith, /metrics, 8 capas de seguridad, cadena de custodia SHA-256. Python 3.11 · Docker · pytest · uv opcional. v4.14.0",
             "url": "https://github.com/vladimiracunadev-create/langgraph-realworld",
             "version": "v4.2.0",
             "tags": [
@@ -213,7 +213,7 @@
         },
         {
             "name": "Problem Driven Systems Lab",
-            "description": "🧪 Laboratorio de sistemas distribuido con 12 casos reales Docker-first para diagnosticar y resolver problemas críticos de rendimiento, observabilidad, resiliencia y arquitectura 🐳",
+            "description": "🧪 Laboratorio Docker-first con 12 problemas reales de ingeniería resueltos en 5 stacks (PHP · Python · Node.js · Java · .NET): rendimiento, observabilidad, resiliencia, modernización legacy y arquitectura — con evidencia operacional verificable 🐳",
             "url": "https://github.com/vladimiracunadev-create/problem-driven-systems-lab",
             "tags": [
                 "PHP 8.3",
@@ -248,6 +248,27 @@
             ],
             "category": "education",
             "classes_count": 31
+        },
+        {
+            "name": "claude-skills-toolkit",
+            "description": "🧰 claude-skills-toolkit · ⚡ Skills agentic para Claude Code · 🔒 security-audit (12 capas: OSV/KEV/EPSS/SAST/...) · 📋 yaml-control · 📝 md-lint-fix · 🐳 docker-cleanup · Zero-deps por defecto · Cross-platform 🐧🍎🪟",
+            "url": "https://github.com/vladimiracunadev-create/claude-skills-toolkit",
+            "tags": [],
+            "category": "other"
+        },
+        {
+            "name": "gabysql",
+            "description": "🗄️ GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge. 🦀",
+            "url": "https://github.com/vladimiracunadev-create/gabysql",
+            "tags": [],
+            "category": "other"
+        },
+        {
+            "name": "python-data-science-program",
+            "description": "📚 Python Data Science Program · 197 clases en 9 partes (Python aplicado, ML clásico, Deep Learning, estadística inferencial, MLOps, ingeniería de datos, recomendadores, ética, capstones). Laboratorio Flask interactivo + app de escritorio Windows + app Android. 🐍",
+            "url": "https://github.com/vladimiracunadev-create/python-data-science-program",
+            "tags": [],
+            "category": "other"
         }
     ]
 }

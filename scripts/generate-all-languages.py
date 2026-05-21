@@ -91,6 +91,8 @@ PROJECTS_URLS = {
     "chofyai": "https://github.com/vladimiracunadev-create/chofyai-studio",
     "problem": "https://github.com/vladimiracunadev-create/problem-driven-systems-lab",
     "python": "https://github.com/vladimiracunadev-create/python-data-science-bootcamp",
+    "claude": "https://github.com/vladimiracunadev-create/claude-skills-toolkit",
+    "gabysql": "https://github.com/vladimiracunadev-create/gabysql",
 }
 
 PREVIOUS_CAREER = {
@@ -158,6 +160,9 @@ def get_content(lang):
                 "ChofyAI Studio \u2014 lanzador IA local macOS (Tauri + Rust + React)",
  "Problem Driven Systems Lab — Laboratorio de sistemas distribuido con 12 casos reales Docker-first para diagnosticar y resolver problemas críticos de rendimiento, observabilidad, resiliencia y arquitectura",
  "Python Data Science Bootcamp — Bootcamp de Python para Data Science · Clases, notebooks, datasets y entorno interactivo local. Material docente para principiantes y transición profesional.",
+                "Claude Skills Toolkit — claude-skills-toolkit ·  Skills agentic para Claude Code ·  security-audit (12 capas: OSV/KEV/EPSS/SAST/...) ·  yaml-control ·  md-lint-fix ·  docker-cleanup · Zero-deps por defecto · Cross-platform",
+                "Gabysql — ️ GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge",
+                "Python Data Science Program — Python Data Science Program · 197 clases en 9 partes (Python aplicado, ML clásico, Deep Learning, estadística inferencial, MLOps, ingeniería de datos, recomendadores, ética, capstones). Laboratorio Flask interactivo + app de escritorio Windows + app Android",
 ],
             "projects_ats": [
                 ("Cloud/AWS y FinOps \u2014 GitHub (demos y documentaci\u00f3n):", "aws_gh"),
@@ -171,6 +176,8 @@ def get_content(lang):
                 ("ChofyAI Studio \u2014 lanzador IA local macOS (Tauri + Rust + React):", "chofyai"),
  ("Problem Driven Systems Lab — Laboratorio de sistemas distribuido con 12 casos reales Docker-first para diagnosticar y resolver problemas críticos de rendimiento, observabilidad, resiliencia y arquitectura:", "problem"),
  ("Python Data Science Bootcamp — Bootcamp de Python para Data Science · Clases, notebooks, datasets y entorno interactivo local. Material docente para principiantes y transición profesional.:", "python"),
+                ("Claude Skills Toolkit — claude-skills-toolkit ·  Skills agentic para Claude Code ·  security-audit (12 capas: OSV/KEV/EPSS/SAST/...) ·  yaml-control ·  md-lint-fix ·  docker-cleanup · Zero-deps por defecto · Cross-platform:", "claude"),
+                ("Gabysql — ️ GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge:", "gabysql"),
 ],
             "training": [
                 "Formaci\u00f3n continua en automatizaci\u00f3n pr\u00e1ctica, ML/NLP y herramientas de desarrollo.",
@@ -232,6 +239,9 @@ def get_content(lang):
                 "Direct support for key users (coordinators, counselors, school leaders) and production operations.",
  "Problem Driven Systems Lab — Laboratorio de sistemas distribuido con 12 casos reales Docker-first para diagnosticar y resolver problemas críticos de rendimiento, observabilidad, resiliencia y arquitectura",
  "Python Data Science Bootcamp — Bootcamp de Python para Data Science · Clases, notebooks, datasets y entorno interactivo local. Material docente para principiantes y transición profesional.",
+                "Claude Skills Toolkit — claude-skills-toolkit ·  Skills agentic para Claude Code ·  security-audit (12 capas: OSV/KEV/EPSS/SAST/...) ·  yaml-control ·  md-lint-fix ·  docker-cleanup · Zero-deps por defecto · Cross-platform",
+                "Gabysql — ️ GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge",
+                "Python Data Science Program — Python Data Science Program · 197 clases en 9 partes (Python aplicado, ML clásico, Deep Learning, estadística inferencial, MLOps, ingeniería de datos, recomendadores, ética, capstones). Laboratorio Flask interactivo + app de escritorio Windows + app Android",
 ],
             "exp_tech": "Technologies: PHP, JavaScript, SQL Server, MySQL, Apache, JMeter, Excel, FPDF/PhpSpreadsheet, Constant Contact",
             "projects_rec": [
@@ -245,6 +255,8 @@ def get_content(lang):
                 "ChofyAI Studio \u2014 macOS local AI launcher (Tauri + Rust + React)",
  ("Problem Driven Systems Lab — Laboratorio de sistemas distribuido con 12 casos reales Docker-first para diagnosticar y resolver problemas críticos de rendimiento, observabilidad, resiliencia y arquitectura:", "problem"),
  ("Python Data Science Bootcamp — Bootcamp de Python para Data Science · Clases, notebooks, datasets y entorno interactivo local. Material docente para principiantes y transición profesional.:", "python"),
+                ("Claude Skills Toolkit — claude-skills-toolkit ·  Skills agentic para Claude Code ·  security-audit (12 capas: OSV/KEV/EPSS/SAST/...) ·  yaml-control ·  md-lint-fix ·  docker-cleanup · Zero-deps por defecto · Cross-platform:", "claude"),
+                ("Gabysql — ️ GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge:", "gabysql"),
 ],
             "projects_ats": [
                 ("Cloud/AWS and FinOps \u2014 GitHub (demos and documentation):", "aws_gh"),
@@ -256,7 +268,8 @@ def get_content(lang):
                 ("MCP + local Ollama (local AI chat, MCP tools, 100% private):", "mcp"),
                 ("Unikernel Labs \u2014 Windows Control Center (WSL2 + Node.js + WinForms):", "unikernel"),
                 ("ChofyAI Studio \u2014 macOS local AI launcher (Tauri + Rust + React):", "chofyai"),
-            ],
+                            ("Python Data Science Program — Python Data Science Program · 197 clases en 9 partes (Python aplicado, ML clásico, Deep Learning, estadística inferencial, MLOps, ingeniería de datos, recomendadores, ética, capstones). Laboratorio Flask interactivo + app de escritorio Windows + app Android:", "python"),
+],
             "training": [
                 "Continuous training in practical automation, ML/NLP, and development tools.",
                 "Consolidation of a technical portfolio with cloud labs, microsystems, and recruiter-oriented documentation.",
@@ -317,6 +330,9 @@ def get_content(lang):
                 "Suporte direto a usu\u00e1rios-chave (coordenadores, orientadores, diretores) e opera\u00e7\u00e3o em produ\u00e7\u00e3o.",
  "Problem Driven Systems Lab — Laboratorio de sistemas distribuido con 12 casos reales Docker-first para diagnosticar y resolver problemas críticos de rendimiento, observabilidad, resiliencia y arquitectura",
  "Python Data Science Bootcamp — Bootcamp de Python para Data Science · Clases, notebooks, datasets y entorno interactivo local. Material docente para principiantes y transición profesional.",
+                "Claude Skills Toolkit — claude-skills-toolkit ·  Skills agentic para Claude Code ·  security-audit (12 capas: OSV/KEV/EPSS/SAST/...) ·  yaml-control ·  md-lint-fix ·  docker-cleanup · Zero-deps por defecto · Cross-platform",
+                "Gabysql — ️ GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge",
+                "Python Data Science Program — Python Data Science Program · 197 clases en 9 partes (Python aplicado, ML clásico, Deep Learning, estadística inferencial, MLOps, ingeniería de datos, recomendadores, ética, capstones). Laboratorio Flask interactivo + app de escritorio Windows + app Android",
 ],
             "exp_tech": "Tecnologias: PHP, JavaScript, SQL Server, MySQL, Apache, JMeter, Excel, FPDF/PhpSpreadsheet, Constant Contact",
             "projects_rec": [
@@ -330,6 +346,9 @@ def get_content(lang):
                 "ChofyAI Studio \u2014 launcher IA local macOS (Tauri + Rust + React)",
  ("Problem Driven Systems Lab — Laboratorio de sistemas distribuido con 12 casos reales Docker-first para diagnosticar y resolver problemas críticos de rendimiento, observabilidad, resiliencia y arquitectura:", "problem"),
  ("Python Data Science Bootcamp — Bootcamp de Python para Data Science · Clases, notebooks, datasets y entorno interactivo local. Material docente para principiantes y transición profesional.:", "python"),
+                ("Claude Skills Toolkit — claude-skills-toolkit ·  Skills agentic para Claude Code ·  security-audit (12 capas: OSV/KEV/EPSS/SAST/...) ·  yaml-control ·  md-lint-fix ·  docker-cleanup · Zero-deps por defecto · Cross-platform:", "claude"),
+                ("Gabysql — ️ GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge:", "gabysql"),
+                ("Python Data Science Program — Python Data Science Program · 197 clases en 9 partes (Python aplicado, ML clásico, Deep Learning, estadística inferencial, MLOps, ingeniería de datos, recomendadores, ética, capstones). Laboratorio Flask interactivo + app de escritorio Windows + app Android:", "python"),
 ],
             "projects_ats": [
                 ("Cloud/AWS e FinOps \u2014 GitHub (demos e documenta\u00e7\u00e3o):", "aws_gh"),
@@ -402,6 +421,9 @@ def get_content(lang):
                 "Supporto diretto agli utenti chiave (coordinatori, consulenti, dirigenti) e operazioni in produzione.",
  "Problem Driven Systems Lab — Laboratorio de sistemas distribuido con 12 casos reales Docker-first para diagnosticar y resolver problemas críticos de rendimiento, observabilidad, resiliencia y arquitectura",
  "Python Data Science Bootcamp — Bootcamp de Python para Data Science · Clases, notebooks, datasets y entorno interactivo local. Material docente para principiantes y transición profesional.",
+                "Claude Skills Toolkit — claude-skills-toolkit ·  Skills agentic para Claude Code ·  security-audit (12 capas: OSV/KEV/EPSS/SAST/...) ·  yaml-control ·  md-lint-fix ·  docker-cleanup · Zero-deps por defecto · Cross-platform",
+                "Gabysql — ️ GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge",
+                "Python Data Science Program — Python Data Science Program · 197 clases en 9 partes (Python aplicado, ML clásico, Deep Learning, estadística inferencial, MLOps, ingeniería de datos, recomendadores, ética, capstones). Laboratorio Flask interactivo + app de escritorio Windows + app Android",
 ],
             "exp_tech": "Tecnologie: PHP, JavaScript, SQL Server, MySQL, Apache, JMeter, Excel, FPDF/PhpSpreadsheet, Constant Contact",
             "projects_rec": [
@@ -415,6 +437,8 @@ def get_content(lang):
                 "ChofyAI Studio \u2014 launcher IA locale macOS (Tauri + Rust + React)",
  ("Problem Driven Systems Lab — Laboratorio de sistemas distribuido con 12 casos reales Docker-first para diagnosticar y resolver problemas críticos de rendimiento, observabilidad, resiliencia y arquitectura:", "problem"),
  ("Python Data Science Bootcamp — Bootcamp de Python para Data Science · Clases, notebooks, datasets y entorno interactivo local. Material docente para principiantes y transición profesional.:", "python"),
+                ("Claude Skills Toolkit — claude-skills-toolkit ·  Skills agentic para Claude Code ·  security-audit (12 capas: OSV/KEV/EPSS/SAST/...) ·  yaml-control ·  md-lint-fix ·  docker-cleanup · Zero-deps por defecto · Cross-platform:", "claude"),
+                ("Gabysql — ️ GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge:", "gabysql"),
 ],
             "projects_ats": [
                 ("Cloud/AWS e FinOps \u2014 GitHub (demo e documentazione):", "aws_gh"),
@@ -488,6 +512,9 @@ def get_content(lang):
  "Problem Driven Systems Lab — Laboratorio de sistemas distribuido con 12 casos reales Docker-first para diagnosticar y resolver problemas críticos de rendimiento, observabilidad, resiliencia y arquitectura",
  ("Problem Driven Systems Lab — Laboratorio de sistemas distribuido con 12 casos reales Docker-first para diagnosticar y resolver problemas críticos de rendimiento, observabilidad, resiliencia y arquitectura:", "problem"),
  "Python Data Science Bootcamp — Bootcamp de Python para Data Science · Clases, notebooks, datasets y entorno interactivo local. Material docente para principiantes y transición profesional.",
+                "Claude Skills Toolkit — claude-skills-toolkit ·  Skills agentic para Claude Code ·  security-audit (12 capas: OSV/KEV/EPSS/SAST/...) ·  yaml-control ·  md-lint-fix ·  docker-cleanup · Zero-deps por defecto · Cross-platform",
+                "Gabysql — ️ GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge",
+                "Python Data Science Program — Python Data Science Program · 197 clases en 9 partes (Python aplicado, ML clásico, Deep Learning, estadística inferencial, MLOps, ingeniería de datos, recomendadores, ética, capstones). Laboratorio Flask interactivo + app de escritorio Windows + app Android",
 ],
             "exp_tech": "Technologies : PHP, JavaScript, SQL Server, MySQL, Apache, JMeter, Excel, FPDF/PhpSpreadsheet, Constant Contact",
             "projects_rec": [
@@ -500,6 +527,8 @@ def get_content(lang):
                 "Unikernel Labs \u2014 Control Center Windows (WSL2 + Node.js + WinForms)",
                 "ChofyAI Studio \u2014 lanceur IA locale macOS (Tauri + Rust + React)",
  ("Python Data Science Bootcamp — Bootcamp de Python para Data Science · Clases, notebooks, datasets y entorno interactivo local. Material docente para principiantes y transición profesional.:", "python"),
+                ("Claude Skills Toolkit — claude-skills-toolkit ·  Skills agentic para Claude Code ·  security-audit (12 capas: OSV/KEV/EPSS/SAST/...) ·  yaml-control ·  md-lint-fix ·  docker-cleanup · Zero-deps por defecto · Cross-platform :", "claude"),
+                ("Gabysql — ️ GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge :", "gabysql"),
 ],
             "projects_ats": [
                 ("Cloud/AWS et FinOps \u2014 GitHub (d\u00e9mos et documentation) :", "aws_gh"),
@@ -573,6 +602,9 @@ def get_content(lang):
  "Problem Driven Systems Lab — Laboratorio de sistemas distribuido con 12 casos reales Docker-first para diagnosticar y resolver problemas críticos de rendimiento, observabilidad, resiliencia y arquitectura",
  ("Problem Driven Systems Lab — Laboratorio de sistemas distribuido con 12 casos reales Docker-first para diagnosticar y resolver problemas críticos de rendimiento, observabilidad, resiliencia y arquitectura ：", "problem"),
  "Python Data Science Bootcamp — Bootcamp de Python para Data Science · Clases, notebooks, datasets y entorno interactivo local. Material docente para principiantes y transición profesional.",
+                "Claude Skills Toolkit — claude-skills-toolkit ·  Skills agentic para Claude Code ·  security-audit (12 capas: OSV/KEV/EPSS/SAST/...) ·  yaml-control ·  md-lint-fix ·  docker-cleanup · Zero-deps por defecto · Cross-platform",
+                "Gabysql — ️ GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge",
+                "Python Data Science Program — Python Data Science Program · 197 clases en 9 partes (Python aplicado, ML clásico, Deep Learning, estadística inferencial, MLOps, ingeniería de datos, recomendadores, ética, capstones). Laboratorio Flask interactivo + app de escritorio Windows + app Android",
 ],
             "exp_tech": "\u6280\u672f\u6808\uff1aPHP, JavaScript, SQL Server, MySQL, Apache, JMeter, Excel, FPDF/PhpSpreadsheet, Constant Contact",
             "projects_rec": [
@@ -585,6 +617,8 @@ def get_content(lang):
                 "Unikernel Labs \u2014 Windows\u63a7\u5236\u4e2d\u5fc3 (WSL2 + Node.js + WinForms)",
                 "ChofyAI Studio \u2014 macOS\u672c\u5730AI\u542f\u52a8\u5668 (Tauri + Rust + React)",
  ("Python Data Science Bootcamp — Bootcamp de Python para Data Science · Clases, notebooks, datasets y entorno interactivo local. Material docente para principiantes y transición profesional. ：", "python"),
+                ("Claude Skills Toolkit — claude-skills-toolkit ·  Skills agentic para Claude Code ·  security-audit (12 capas: OSV/KEV/EPSS/SAST/...) ·  yaml-control ·  md-lint-fix ·  docker-cleanup · Zero-deps por defecto · Cross-platform：", "claude"),
+                ("Gabysql — ️ GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge：", "gabysql"),
 ],
             "projects_ats": [
                 ("Cloud/AWS\u548cFinOps \u2014 GitHub\uff08\u6f14\u793a\u548c\u6587\u6863\uff09\uff1a", "aws_gh"),
