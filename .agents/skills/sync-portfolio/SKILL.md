@@ -82,6 +82,18 @@ python scripts/sync-portfolio.py
 
 Presenta el reporte al usuario. Espera SYNC CONFIRMAR.
 
+**Detecciones automáticas del dry-run (desde 2026-05-21):**
+
+El script ahora detecta SIN intervención manual:
+
+1. **Repos nuevos** — entradas a añadir a JSONs + scripts PDF + HTML cards + README perfil.
+2. **Descripciones cambiadas** — el campo `description` corto de GitHub cambió.
+3. **Repos stale en JSON** (`detect_stale_projects`) — proyectos en `api/v1/projects.json` cuyo URL ya NO existe en GitHub público (renombrados / eliminados / vueltos privados). Reporta para acción manual: editar la entrada o eliminarla.
+4. **Version drift** (`detect_version_drift`) — compara el campo `version` en `projects.json` contra el primer `vX.Y.Z` que aparece en las primeras 60 líneas del README real del repo. Útil cuando se publica un release sin tocar la descripción corta.
+5. **Pushed recently** (`detect_stale_pushes`) — repos con `updatedAt <= 7 días`. Estos pueden tener features/security/observabilidad nuevas dentro del README que NO se reflejan en la descripción corta. Acción manual: leer cada README y verificar alineación.
+
+**REGLA:** si el dry-run reporta version drift o pushed recently, NO basta con `--apply` — hay que leer los READMEs afectados y actualizar manualmente descripciones HTML + tags JSON antes/después del apply. El skill [[feedback_sync_deep_audit]] documenta este flujo.
+
 ### Con confirmación
 
 ```bash

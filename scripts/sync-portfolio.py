@@ -189,6 +189,91 @@ def detect_updated_repos(public_repos, known_projects):
     return updated
 
 
+def detect_stale_projects(public_repos, known_projects):
+    """Detecta proyectos en projects.json cuyo repo ya no existe en GitHub (renombrados/eliminados/privados).
+
+    Devuelve lista de dicts {url, name, reason} para revisión manual antes de eliminar.
+    """
+    live_urls = {
+        f"https://github.com/vladimiracunadev-create/{r['name']}".rstrip("/")
+        for r in public_repos
+    }
+    stale = []
+    for url, proj in known_projects.items():
+        if not url.startswith("https://github.com/vladimiracunadev-create/"):
+            continue  # GitLab u otros — no aplica
+        if url in live_urls:
+            continue
+        stale.append({"url": url, "name": proj.get("name", url.rsplit("/", 1)[-1])})
+    return stale
+
+
+def detect_version_drift(public_repos, known_projects):
+    """Compara el campo `version` en projects.json contra la versión real del README de cada repo.
+
+    Heurística: busca el primer "vX.Y.Z" (o "vX.Y") en los primeros 60 líneas del README.
+    Reporta diferencias sin aplicar cambios — el usuario debe revisar.
+    """
+    drift = []
+    version_re = re.compile(r"\bv(\d+(?:\.\d+){1,2})\b")
+    for r in public_repos:
+        if r["name"] in SKIP_AS_PROJECT:
+            continue
+        url = f"https://github.com/vladimiracunadev-create/{r['name']}"
+        proj = known_projects.get(url)
+        if not proj:
+            continue
+        stored_v = (proj.get("version") or "").strip()
+        if not stored_v or not stored_v.lower().startswith("v"):
+            continue  # sin version o version no semántica (e.g. "Fase 4") — saltar
+        out, code = run_capture(
+            f"gh api repos/vladimiracunadev-create/{r['name']}/contents/README.md --jq .content"
+        )
+        if code != 0:
+            continue
+        try:
+            readme = base64.b64decode(out.strip()).decode("utf-8", errors="replace")
+        except Exception:
+            continue
+        head = "\n".join(readme.splitlines()[:60])
+        matches = version_re.findall(head)
+        if not matches:
+            continue
+        # Tomar la versión más alta entre las primeras 60 líneas
+        live_v = "v" + max(matches, key=lambda v: tuple(int(x) for x in v.split(".")))
+        if live_v != stored_v:
+            drift.append({"name": r["name"], "stored": stored_v, "live": live_v})
+    return drift
+
+
+def detect_stale_pushes(public_repos, known_projects, days_threshold=7):
+    """Detecta repos cuyo pushed_at en GitHub es N días más nuevo que el último sync registrado.
+
+    Útil para flagear repos que cambiaron internamente (features, security) aunque
+    su descripción corta no se haya modificado. Solo reporta — no actúa.
+    """
+    from datetime import datetime, timezone
+    stale = []
+    today = datetime.now(timezone.utc)
+    for r in public_repos:
+        if r["name"] in SKIP_AS_PROJECT:
+            continue
+        url = f"https://github.com/vladimiracunadev-create/{r['name']}"
+        if url not in known_projects:
+            continue
+        updated_at = r.get("updatedAt")
+        if not updated_at:
+            continue
+        try:
+            push_dt = datetime.fromisoformat(updated_at.replace("Z", "+00:00"))
+        except Exception:
+            continue
+        days = (today - push_dt).days
+        if days <= days_threshold:
+            stale.append({"name": r["name"], "days_ago": days, "pushed_at": updated_at[:10]})
+    return stale
+
+
 # ═══════════════════════════════════════════════════════════════════════════════
 # 2. API v1 — generated_at, profile label, nuevos proyectos
 # ═══════════════════════════════════════════════════════════════════════════════
@@ -828,6 +913,28 @@ def main():
             log(f"  ahora: {u['new_desc'][:80]}", "INFO")
     else:
         log("Sin cambios de descripcion en repos existentes", "OK")
+
+    # ── Detecciones de auditoría profunda (solo reporte — requieren acción manual) ──
+    stale_projects = detect_stale_projects(public_repos, known_projects)
+    if stale_projects:
+        log("Proyectos en JSON cuyo repo ya NO existe en GitHub (renombrado/eliminado/privado):", "WARN")
+        for s in stale_projects:
+            log(f"  - {s['name']} → {s['url']}", "WARN")
+        log("  Acción manual: editar api/v1/projects.json y eliminar/renombrar la entrada.", "INFO")
+
+    drift = detect_version_drift(public_repos, known_projects)
+    if drift:
+        log("Version drift entre projects.json y el README real:", "WARN")
+        for d in drift:
+            log(f"  - {d['name']}: JSON dice {d['stored']} · README dice {d['live']}", "WARN")
+        log("  Acción manual: actualizar campo 'version' en api/v1/projects.json + descripciones HTML.", "INFO")
+
+    pushed_recently = detect_stale_pushes(public_repos, known_projects, days_threshold=7)
+    if pushed_recently:
+        log("Repos con push reciente (<=7d) — pueden tener features nuevas no reflejadas en el portfolio:", "WARN")
+        for s in pushed_recently:
+            log(f"  - {s['name']}: push hace {s['days_ago']}d ({s['pushed_at']})", "WARN")
+        log("  Acción manual: leer README de estos repos y verificar que descripción/tags/features estén alineados.", "INFO")
 
     # Gap 4: identidad
     identity_changed = False

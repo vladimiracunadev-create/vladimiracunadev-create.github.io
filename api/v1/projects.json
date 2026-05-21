@@ -110,10 +110,10 @@
       "tools_count": 11
     },
     {
-      "name": "LangGraph · Agentic Resilience v4.14",
+      "name": "LangGraph · Agentic Resilience v4.15",
       "description": "🤖 25 casos de uso empresariales con LangGraph + FastAPI. 25/25 backends operativos (01-25, cobertura 100%): streaming NDJSON, DEMO/LIVE, OAuth2 opt-in, observabilidad LangSmith, /metrics, 8 capas de seguridad, cadena de custodia SHA-256. Python 3.11 · Docker · pytest · uv opcional. v4.14.0",
       "url": "https://github.com/vladimiracunadev-create/langgraph-realworld",
-      "version": "v4.14.0",
+      "version": "v4.15.0",
       "tags": [
         "LangGraph",
         "Python",
@@ -129,7 +129,11 @@
         "nginx TLS",
         "grype",
         "detect-secrets",
-        "Hardening 8 capas"
+        "Hardening 8 capas",
+        "joserfc",
+        "CodeQL",
+        "shared/lgrw_common",
+        "Security Hardening v4.15"
       ],
       "category": "ai",
       "demos_count": 25,

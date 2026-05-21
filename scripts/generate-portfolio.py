@@ -184,7 +184,7 @@ def get_content(lang):
         "projects": [
             "<b>Arquitectura Resiliente &amp; Infraestructura Inmutable:</b> CI/CD con GitHub Actions/OIDC, Terraform, FinOps/AWS Budgets",
             "<b>Observabilidad &amp; DX:</b> Docker Labs con Prometheus/Grafana, Microsistemas (Hub CLI), doctor/smoke tests",
-            "<b>IA Ag\u00e9ntica:</b> LangGraph v4.14 + Ollama (IA local), 25/25 backends operativos (cobertura 100%), auditoría 8 capas, Docker/caso, CI/CD hardened",
+            "<b>IA Ag\u00e9ntica:</b> LangGraph v4.15 + Ollama (IA local), 25/25 backends operativos (cobertura 100%), auditoría 8 capas, Docker/caso, CI/CD hardened",
             "<b>Social Bot Scheduler:</b> Matriz de integraci\u00f3n 9 ejes, 9 motores de BD, orquestaci\u00f3n n8n, Prometheus/Grafana",
             "<b>MCP + Ollama local:</b> Chat IA local, herramientas MCP, 100% privado",
             "<b>Unikernel Labs:</b> Control Center Windows — WSL2 + Node.js + WinForms, servicios Unikraft",
@@ -296,7 +296,7 @@ def get_content(lang):
         "projects": [
             "<b>Resilient Architecture &amp; Immutable Infrastructure:</b> CI/CD with GitHub Actions/OIDC, Terraform, FinOps/AWS Budgets",
             "<b>Observability &amp; DX:</b> Docker Labs with Prometheus/Grafana, Microsystems (Hub CLI), doctor/smoke tests",
-            "<b>Agentic AI:</b> LangGraph v4.14 + Ollama (local AI), 25/25 operational backends (100% coverage), 8-layer hardening, Docker per case, hardened CI/CD",
+            "<b>Agentic AI:</b> LangGraph v4.15 + Ollama (local AI), 25/25 operational backends (100% coverage), 8-layer hardening, Docker per case, hardened CI/CD",
             "<b>Social Bot Scheduler:</b> 9-axis integration matrix, 9 DB engines, n8n orchestration, Prometheus/Grafana",
             "<b>MCP + Ollama local:</b> Local AI chat, MCP tools, 100% private",
             "<b>Unikernel Labs:</b> Windows Control Center \u2014 WSL2 + Node.js + WinForms, Unikraft services",
@@ -403,7 +403,7 @@ def get_content(lang):
         "projects": [
             "<b>Arquitetura Resiliente &amp; Infraestrutura Imut\u00e1vel:</b> CI/CD com GitHub Actions/OIDC, Terraform, FinOps/AWS Budgets",
             "<b>Observabilidade &amp; DX:</b> Docker Labs com Prometheus/Grafana, Microssistemas (Hub CLI), doctor/smoke tests",
-            "<b>IA Ag\u00eantica:</b> LangGraph v4.14 + Ollama (IA local), 25/25 backends operativos (cobertura 100%), auditoría 8 capas, Docker/caso, CI/CD hardened",
+            "<b>IA Ag\u00eantica:</b> LangGraph v4.15 + Ollama (IA local), 25/25 backends operativos (cobertura 100%), auditoría 8 capas, Docker/caso, CI/CD hardened",
             "<b>Social Bot Scheduler:</b> Matriz de integra\u00e7\u00e3o 9 eixos, 9 motores de BD, orquestra\u00e7\u00e3o n8n, Prometheus/Grafana",
             "<b>MCP + Ollama local:</b> Chat IA local, ferramentas MCP, 100% privado",
             "<b>Unikernel Labs:</b> Control Center Windows \u2014 WSL2 + Node.js + WinForms, servi\u00e7os Unikraft",
@@ -510,7 +510,7 @@ def get_content(lang):
         "projects": [
             "<b>Architettura Resiliente &amp; Infrastruttura Immutabile:</b> CI/CD con GitHub Actions/OIDC, Terraform, FinOps/AWS Budgets",
             "<b>Osservabilit\u00e0 &amp; DX:</b> Docker Labs con Prometheus/Grafana, Microsistemi (Hub CLI), doctor/smoke tests",
-            "<b>IA Agentica:</b> LangGraph v4.14 + Ollama (IA locale), 25/25 backend operativi (copertura 100%), audit 8 livelli, Docker/caso, CI/CD hardened",
+            "<b>IA Agentica:</b> LangGraph v4.15 + Ollama (IA locale), 25/25 backend operativi (copertura 100%), audit 8 livelli, Docker/caso, CI/CD hardened",
             "<b>Social Bot Scheduler:</b> Matrice di integrazione 9 assi, 9 motori DB, orchestrazione n8n, Prometheus/Grafana",
             "<b>MCP + Ollama locale:</b> Chat IA locale, strumenti MCP, 100% privato",
             "<b>Unikernel Labs:</b> Control Center Windows \u2014 WSL2 + Node.js + WinForms, servizi Unikraft",
@@ -617,7 +617,7 @@ def get_content(lang):
         "projects": [
             "<b>Architecture R\u00e9siliente &amp; Infrastructure Immuable :</b> CI/CD avec GitHub Actions/OIDC, Terraform, FinOps/AWS Budgets",
             "<b>Observabilit\u00e9 &amp; DX :</b> Docker Labs avec Prometheus/Grafana, Microsyst\u00e8mes (Hub CLI), doctor/smoke tests",
-            "<b>IA Agentique :</b> LangGraph v4.14 + Ollama (IA locale), 25/25 backends opérationnels (couverture 100%), audit 8 couches, Docker/cas, CI/CD hardened",
+            "<b>IA Agentique :</b> LangGraph v4.15 + Ollama (IA locale), 25/25 backends opérationnels (couverture 100%), audit 8 couches, Docker/cas, CI/CD hardened",
             "<b>Social Bot Scheduler :</b> Matrice d\u2019int\u00e9gration 9 axes, 9 moteurs BD, orchestration n8n, Prometheus/Grafana",
             "<b>MCP + Ollama local :</b> Chat IA local, outils MCP, 100% priv\u00e9",
             "<b>Unikernel Labs :</b> Control Center Windows \u2014 WSL2 + Node.js + WinForms, services Unikraft",

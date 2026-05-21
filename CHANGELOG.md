@@ -2,6 +2,29 @@
 
 ## 2026-05-21
 
+### feat(sync): detecciones de auditoría profunda en el dry-run + bump langgraph v4.15
+
+Tres detecciones nuevas en `scripts/sync-portfolio.py` que eliminan el principal "ciego" del flujo automático:
+
+- `detect_stale_projects()` — repos en `projects.json` cuyo URL ya no existe en GitHub público (renombrados, eliminados o vueltos privados).
+- `detect_version_drift()` — compara `version` en JSON contra el primer `vX.Y.Z` del README real (primeras 60 líneas). Detectó automáticamente que langgraph saltó a v4.15.0 mientras estaba a v4.14.0.
+- `detect_stale_pushes()` — repos con push <=7 días que pueden tener features nuevas no reflejadas en la descripción corta.
+
+Integradas en `main()` como parte del reporte de dry-run. Documentadas en `.agents/skills/sync-portfolio/SKILL.md`.
+
+**Bump langgraph v4.14 → v4.15.0** (release de hardening de seguridad: 4 critical fixes inline, `shared/lgrw_common/` canónico, `python-jose` → `joserfc`, CI extendido a los 25 casos):
+
+- `api/v1/projects.json`: name `v4.14` → `v4.15`, version `v4.14.0` → `v4.15.0`, tags + joserfc/CodeQL/shared/lgrw_common/Security Hardening v4.15.
+- `index.html`: 6 idiomas × múltiples ubicaciones — `LangGraph v4.14` → `v4.15`.
+- `scripts/generate-{portfolio,all-languages}.py`: idem.
+
+### profile README (vladimiracunadev-create): cleanup + enriquecimiento
+
+- Eliminada entrada `Python Data Science Bootcamp v1.1.0` (repo renombrado a `-program`).
+- Reescritas con detalle técnico real las 3 secciones nuevas: Claude Skills Toolkit (12 capas explicadas), GabySQL (Rust + WAL + single-file engine), Python Data Science Program (197 clases en 9 partes + Flask + Windows + Android).
+- Sección "Expansión natural — cargos asumibles": LangGraph v4.2.0 → v4.14.0 (luego v4.15.0 en commit subsiguiente), Social Bot v4.2 → v4.3, Technical Trainer ahora cita python-data-science-program / 197 clases.
+- Commit remoto: `1ab243c4f0`.
+
 ### deep-audit: versiones, features y rebrands no detectados por el dry-run
 
 Auditoría profunda manual sobre READMEs y releases reales de cada repo. Cierra brechas entre el estado vivo de los repos y el portafolio.
