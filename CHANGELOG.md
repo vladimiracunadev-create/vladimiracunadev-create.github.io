@@ -11,6 +11,18 @@
 - 30 PDFs regenerados (5 tipos × 6 idiomas)
 - Backup en `assets/backups/2026-05-21/`
 
+### fix(sync): manual post-sync — buildDate + LangGraph 25/25 + grid + traducciones
+
+- `index.html` `buildDate`: 2026-05-01 → 2026-05-21.
+- Párrafo "Pilares Técnicos Consolidados" (6 idiomas): `10 backends LangGraph operativos` → `25 backends LangGraph operativos (cobertura 100%)`.
+- Card "Stack & arquitectura" (6 idiomas): `LangGraph v4.2 / 25 casos / 10 backends operativos` → `LangGraph v4.14 / 25/25 backends operativos (cobertura 100%)`.
+- Card "LangGraph · Agentic Resilience" (6 idiomas): descripción reescrita a `v4.14.0 · 25/25 backends operativos (cobertura 100%, casos 01–25)` con streaming NDJSON, DEMO/LIVE, OAuth2 opt-in, observabilidad LangSmith, /metrics, 8 capas de seguridad, cadena de custodia SHA-256.
+- 3 cards nuevas (Claude Skills Toolkit · GabySQL · Python Data Science Program) **movidas dentro del `<div class="grid grid--2">`** (el script las había inyectado fuera, causando layout full-width). Traducciones limpias en los 6 idiomas, sin artefactos de emojis ni dobles espacios. Pills temáticos por proyecto.
+- `CHANGELOG.md`: renombrado `### sync-portfolio (automático)` de 2026-04-13 a `### sync-portfolio (automático — 2026-04-13)` para resolver MD024 (duplicate heading).
+- `assets/backups/2026-05-21/SESSION-REPORT-2026-05-21.md`: reporte detallado de la sesión.
+
+Validación: `pnpm test` → 51 PASSED · 0 ERRORS; `pnpm run lint:md` → 0 error(s).
+
 ## 2026-05-01
 
 ### sync-portfolio — auditoría profunda + integración 18 días de avances
@@ -83,7 +95,7 @@ Cierre del gap entre 2026-04-13 (último sync con regeneración de assets) y hoy
 - Ranking actual (top 6 para pinning manual): docker-labs(91) > python-data-science-bootcamp(81) = social-bot-scheduler(81) > mcp-ollama-local(80) > langgraph-realworld(78) > microsistemas(76)
 - Limitación documentada: GitHub no expone API pública de pinning; guía de 4 pasos incluida en output del script
 
-### sync-portfolio (automático)
+### sync-portfolio (automático — 2026-04-13)
 
 - `api/v1/`: generated_at → 2026-04-13
 - Repos nuevos integrados: problem-driven-systems-lab, python-data-science-bootcamp
