@@ -14,23 +14,31 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      # pnpm v11 trae postinstall bloqueado y minimumReleaseAge=1d por defecto.
+      # Defensa frente a la campaña Shai-Hulud en npm. Ver:
+      # https://github.com/vladimiracunadev-create/claude-skills-toolkit/blob/main/docs/supply-chain-security.md
+      - name: Setup pnpm
+        uses: pnpm/action-setup@0e279bb959325dab635dd2c09392533439d90093 # v6.0.8
+        with:
+          version: 11
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'
+          cache: 'pnpm'
 
       - name: Install Dependencies
-        run: npm ci
+        run: pnpm install --frozen-lockfile
 
       - name: Lint HTML
-        run: npm run lint:html
+        run: pnpm lint:html
 
       - name: Lint Markdown
-        run: npm run lint:md
+        run: pnpm lint:md
 
       - name: Portfolio Integrity Check
-        run: npm test
+        run: pnpm test
 
   seo:
     name: SEO Generation
@@ -38,7 +46,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -77,20 +85,26 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@0e279bb959325dab635dd2c09392533439d90093 # v6.0.8
+        with:
+          version: 11
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+          cache: 'pnpm'
 
       - name: Install Dependencies
-        run: npm ci
+        run: pnpm install --frozen-lockfile
 
       - name: Build
-        run: npm run build
+        run: pnpm build
 
       - name: Run Lighthouse CI
-        run: npm run lhci
+        run: pnpm lhci
         env:
           LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
 
