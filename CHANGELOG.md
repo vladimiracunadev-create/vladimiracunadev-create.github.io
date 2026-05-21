@@ -2,6 +2,36 @@
 
 ## 2026-05-21
 
+### deep-audit: versiones, features y rebrands no detectados por el dry-run
+
+Auditoría profunda manual sobre READMEs y releases reales de cada repo. Cierra brechas entre el estado vivo de los repos y el portafolio.
+
+**api/v1/projects.json:**
+
+- `LangGraph · Agentic Resilience v4.2` → `v4.14`; `version: v4.2.0` → `v4.14.0`; `operational_cases: 10 → 25`; `demos_count: 25`.
+- `Social Bot Scheduler v4.2` → `v4.3`; `version: v4.2.0` → `v4.3.0` (alineado con el badge actual del README).
+- `Unikernel Labs · Control Center`: `version: v1` añadido; tags ampliados con kraft, QEMU/KVM, .NET, Launcher, Low-latency, High-performance.
+- `Problem Driven Systems Lab`: descripción reescrita a "12 problemas reales en 5 stacks (PHP 8 · Python · Node.js · Java 21 · .NET 8)" con Dashboards Interactivos por caso, patrones (Adapter, Strangler, Circuit Breaker, LRU, Cancellation) y plan AWS_MIGRATION.md (ECS Fargate · Lambda · EKS). Tags ampliados.
+- Eliminada entrada duplicada `Python Data Science Bootcamp v1.1` (el repo fue renombrado a `python-data-science-program`, que ya está presente).
+
+**api/v1/profile.json:**
+
+- `summary`: "10 backends LangGraph operativos" → "25/25 backends LangGraph operativos (cobertura 100%, v4.14.0) con auditoría de seguridad de 8 capas y cadena de custodia SHA-256".
+
+**index.html (6 idiomas cada item):**
+
+- Sección "Estándares Consolidados" — todas las referencias `LangGraph v4.2` → `v4.14`; `Social Bot v4.2` → `v4.3` en 6 idiomas.
+- Card `Problem Driven Systems Lab`: descripción reescrita con 5 stacks (PHP 8, Python, Node.js, Java 21, .NET 8), Dashboards Interactivos UI, patrones (Adapter/Strangler/Circuit Breaker/LRU/Cancellation), AWS_MIGRATION.md (ECS Fargate/Lambda/EKS).
+- Card `Unikernel Labs · Control Center`: descripción amplificada a "Unikernel Control Center v1" con kraft + QEMU/KVM, Dashboard REST en localhost:9091 y Launcher .NET WinForms. Pills ampliados (kraft, QEMU/KVM, .NET).
+
+**scripts/generate-*.py:**
+
+- `generate-portfolio.py`: 5 idiomas + ZH — `LangGraph v4.2 + Ollama, 25 casos / 10 operativos` → `LangGraph v4.14 + Ollama, 25/25 backends operativos (cobertura 100%)`.
+- `generate-all-languages.py`: 6 idiomas — `LangGraph v4.2 (25 casos / 10 operativos…)` → `LangGraph v4.14 (25/25 backends operativos, cobertura 100%…)`.
+- 18 PDFs regenerados (12 CV ATS/Reclutador + 6 Portafolios).
+
+**Validación:** `pnpm test` 51 PASSED / 0 ERRORS · `pnpm run lint:md` 0 error(s).
+
 ### sync-portfolio (automático — 2026-05-21)
 
 - `api/v1/`: generated_at → 2026-05-21

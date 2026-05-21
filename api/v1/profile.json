@@ -1,48 +1,48 @@
 {
-    "meta": {
-        "version": "v1",
-        "generated_at": "2026-05-21",
-        "source_pdf": "assets/cv-ats.pdf"
+  "meta": {
+    "version": "v1",
+    "generated_at": "2026-05-21",
+    "source_pdf": "assets/cv-ats.pdf"
+  },
+  "name": "Vladimir Acuña",
+  "full_name": "Vladimir Bernardo Acuña Valdebenito",
+  "label": "Arquitecto de Soluciones | Senior Full-Stack | Modernización Legacy, Automatización e Integración de IA Aplicada",
+  "location": {
+    "city": "Santiago",
+    "country": "CL"
+  },
+  "years_experience": 16,
+  "profiles": [
+    {
+      "network": "GitHub",
+      "url": "https://github.com/vladimiracunadev-create"
     },
-    "name": "Vladimir Acuña",
-    "full_name": "Vladimir Bernardo Acuña Valdebenito",
-    "label": "Arquitecto de Soluciones | Senior Full-Stack | Modernización Legacy, Automatización e Integración de IA Aplicada",
-    "location": {
-        "city": "Santiago",
-        "country": "CL"
+    {
+      "network": "GitLab",
+      "url": "https://gitlab.com/vladimir.acuna.dev-group/vladimir.acuna.dev-group"
     },
-    "years_experience": 16,
-    "profiles": [
-        {
-            "network": "GitHub",
-            "url": "https://github.com/vladimiracunadev-create"
-        },
-        {
-            "network": "GitLab",
-            "url": "https://gitlab.com/vladimir.acuna.dev-group/vladimir.acuna.dev-group"
-        },
-        {
-            "network": "LinkedIn",
-            "url": "https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29/"
-        },
-        {
-            "network": "Web",
-            "url": "https://vladimiracunadev-create.github.io/"
-        },
-        {
-            "network": "YouTube",
-            "url": "https://youtu.be/huIjsH-N7to"
-        }
-    ],
-    "summary": "16 años diseñando, construyendo y operando software en entornos reales (14+ años en plataformas educativas/psicométricas). Especializado en modernización de sistemas legacy, automatización de procesos e integración de IA aplicada. En 2026 consolidé un ecosistema verificable: 15 casos AWS (14 completados, incluyendo GenAI con Bedrock + Claude Haiku 4.5), 10 backends LangGraph operativos con auditoría de seguridad de 8 capas, polyglot persistence (9 lenguajes × 12+ DBs), Security Hardening industrial (Trivy, TruffleHog, grype, SBOM, OIDC), observabilidad con Prometheus/Grafana/X-Ray y un portafolio profesional en 6 idiomas (ES/EN/PT/IT/FR/ZH) con 31 PDFs generados por pipeline Python.",
-    "languages": [
-        {
-            "language": "Español",
-            "fluency": "Nativo"
-        },
-        {
-            "language": "Inglés",
-            "fluency": "Intermedio lectura / Básico escritura"
-        }
-    ]
+    {
+      "network": "LinkedIn",
+      "url": "https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29/"
+    },
+    {
+      "network": "Web",
+      "url": "https://vladimiracunadev-create.github.io/"
+    },
+    {
+      "network": "YouTube",
+      "url": "https://youtu.be/huIjsH-N7to"
+    }
+  ],
+  "summary": "16 años diseñando, construyendo y operando software en entornos reales (14+ años en plataformas educativas/psicométricas). Especializado en modernización de sistemas legacy, automatización de procesos e integración de IA aplicada. En 2026 consolidé un ecosistema verificable: 15 casos AWS (14 completados, incluyendo GenAI con Bedrock + Claude Haiku 4.5), 25/25 backends LangGraph operativos (cobertura 100%, v4.14.0) con auditoría de seguridad de 8 capas y cadena de custodia SHA-256, polyglot persistence (9 lenguajes × 12+ DBs), Security Hardening industrial (Trivy, TruffleHog, grype, SBOM, OIDC), observabilidad con Prometheus/Grafana/X-Ray y un portafolio profesional en 6 idiomas (ES/EN/PT/IT/FR/ZH) con 31 PDFs generados por pipeline Python.",
+  "languages": [
+    {
+      "language": "Español",
+      "fluency": "Nativo"
+    },
+    {
+      "language": "Inglés",
+      "fluency": "Intermedio lectura / Básico escritura"
+    }
+  ]
 }

@@ -1,274 +1,268 @@
 {
-    "meta": {
-        "version": "v1",
-        "generated_at": "2026-05-21",
-        "source_pdf": "assets/cv-ats.pdf"
+  "meta": {
+    "version": "v1",
+    "generated_at": "2026-05-21",
+    "source_pdf": "assets/cv-ats.pdf"
+  },
+  "projects": [
+    {
+      "name": "Cloud/AWS y FinOps",
+      "description": "☁️ Proyectos AWS · Laboratorio de aprendizaje caso a caso: S3, Amplify, CI/CD, CloudFront y más. Proyectos personales en constante evolución. 🚀",
+      "url": "https://github.com/vladimiracunadev-create/proyectos-aws",
+      "gitlab_url": "https://gitlab.com/vladimir.acuna.dev-group/proyectos-aws-gitlab",
+      "tags": [
+        "AWS",
+        "Lambda",
+        "DynamoDB",
+        "ECS",
+        "EKS",
+        "Cognito",
+        "WAF",
+        "EventBridge",
+        "SQS/SNS",
+        "CloudWatch",
+        "X-Ray",
+        "Bedrock",
+        "Claude Haiku 4.5",
+        "Terraform",
+        "SAM",
+        "OIDC",
+        "TruffleHog",
+        "detect-secrets",
+        "FinOps"
+      ],
+      "category": "cloud",
+      "cases_completed": 14,
+      "cases_total": 15,
+      "cert_coverage": {
+        "SAA-C03": "~68%",
+        "DVA-C02": "~68%",
+        "SOA-C02": "~50%"
+      }
     },
-    "projects": [
-        {
-            "name": "Cloud/AWS y FinOps",
-            "description": "☁️ Proyectos AWS · Laboratorio de aprendizaje caso a caso: S3, Amplify, CI/CD, CloudFront y más. Proyectos personales en constante evolución. 🚀",
-            "url": "https://github.com/vladimiracunadev-create/proyectos-aws",
-            "gitlab_url": "https://gitlab.com/vladimir.acuna.dev-group/proyectos-aws-gitlab",
-            "tags": [
-                "AWS",
-                "Lambda",
-                "DynamoDB",
-                "ECS",
-                "EKS",
-                "Cognito",
-                "WAF",
-                "EventBridge",
-                "SQS/SNS",
-                "CloudWatch",
-                "X-Ray",
-                "Bedrock",
-                "Claude Haiku 4.5",
-                "Terraform",
-                "SAM",
-                "OIDC",
-                "TruffleHog",
-                "detect-secrets",
-                "FinOps"
-            ],
-            "category": "cloud",
-            "cases_completed": 14,
-            "cases_total": 15,
-            "cert_coverage": {
-                "SAA-C03": "~68%",
-                "DVA-C02": "~68%",
-                "SOA-C02": "~50%"
-            }
-        },
-        {
-            "name": "Social Bot Scheduler v4.2",
-            "description": "🤖 Social Bot Scheduler · Matriz de Integración Multi-Eje con n8n (Python/Go/Node/PHP) + Docker. Automatización de publicaciones en redes sociales. ⚙️",
-            "url": "https://github.com/vladimiracunadev-create/social-bot-scheduler",
-            "version": "v4.2.0",
-            "tags": [
-                "n8n",
-                "Python",
-                "Go",
-                "Node.js",
-                "PHP",
-                "Ruby",
-                "Rust",
-                "C#",
-                "Polyglot",
-                "Prometheus",
-                "Grafana",
-                "Docker",
-                "Kubernetes",
-                "Trivy",
-                "Hardened Runtime",
-                "Circuit Breaker"
-            ],
-            "category": "orchestration"
-        },
-        {
-            "name": "Docker Labs v1.5 · Infra Hub",
-            "description": "🐳 Docker Labs · Laboratorio personal de contenedores con Docker/Compose en múltiples stacks: PHP, Node.js, Python, bases de datos y herramientas DevOps. 🧪",
-            "url": "https://github.com/vladimiracunadev-create/docker-labs",
-            "version": "v1.5.0",
-            "tags": [
-                "Docker",
-                "Go",
-                "Node.js",
-                "Python",
-                "Prometheus",
-                "Grafana",
-                "Elasticsearch",
-                "Redis",
-                "RabbitMQ",
-                "Kubernetes",
-                "Windows Installer",
-                "Security Hardening"
-            ],
-            "category": "platform"
-        },
-        {
-            "name": "Microsistemas · Productivity Suite",
-            "description": "🔧 Microsistemas · Colección de microsistemas web autocontenidos para tareas recurrentes: desarrollo, mantención, diagnóstico y modernización de sistemas legacy. 🏗️",
-            "url": "https://github.com/vladimiracunadev-create/microsistemas",
-            "tags": [
-                "PHP 8",
-                "Python",
-                "MCP",
-                "CLI",
-                "DevTools",
-                "KatasMultiLang",
-                "CicdLibrary",
-                "GitHub Actions",
-                "GHCR",
-                "TruffleHog",
-                "Trivy",
-                "Dependabot",
-                "SBOM",
-                "Security Hardening 3 fases"
-            ],
-            "category": "tooling",
-            "tools_count": 11
-        },
-        {
-            "name": "LangGraph · Agentic Resilience v4.2",
-            "description": "🤖 25 casos de uso empresariales con LangGraph + FastAPI. 25/25 backends operativos (01-25, cobertura 100%): streaming NDJSON, DEMO/LIVE, OAuth2 opt-in, observabilidad LangSmith, /metrics, 8 capas de seguridad, cadena de custodia SHA-256. Python 3.11 · Docker · pytest · uv opcional. v4.14.0",
-            "url": "https://github.com/vladimiracunadev-create/langgraph-realworld",
-            "version": "v4.2.0",
-            "tags": [
-                "LangGraph",
-                "Python",
-                "FastAPI",
-                "TypedDict",
-                "Chart.js",
-                "SQL Agents",
-                "Docker",
-                "Stateful",
-                "Dual-Mode",
-                "LangSmith",
-                "OAuth2/OIDC",
-                "nginx TLS",
-                "grype",
-                "detect-secrets",
-                "Hardening 8 capas"
-            ],
-            "category": "ai",
-            "demos_count": 25,
-            "operational_cases": 10
-        },
-        {
-            "name": "MCP + Ollama Local",
-            "description": "🧠 MCP + Ollama Local · FastAPI web con chat, tools MCP (sandbox) e historial SQLite. LLMs locales con tool calling sin enviar datos a la nube. 🔒",
-            "url": "https://github.com/vladimiracunadev-create/mcp-ollama-local",
-            "tags": [
-                "FastAPI",
-                "Ollama",
-                "MCP",
-                "SQLite",
-                "Local AI",
-                "Docker",
-                "Kubernetes",
-                "pytest",
-                "Bandit",
-                "pip-audit",
-                "Security & Trust Profile"
-            ],
-            "category": "ai"
-        },
-        {
-            "name": "Portfolio · GitHub Pages",
-            "description": "Portafolio profesional en 6 idiomas (ES/EN/PT/IT/FR/ZH), 30+ PDFs generados por pipeline Python, PWA instalable, CI/CD con GitHub Actions, Lighthouse 100, CV Data API.",
-            "url": "https://vladimiracunadev-create.github.io/",
-            "tags": [
-                "HTML",
-                "CSS",
-                "JS",
-                "PWA",
-                "Python",
-                "reportlab",
-                "i18n",
-                "6 idiomas",
-                "CI/CD",
-                "GitHub Pages"
-            ],
-            "category": "portfolio",
-            "languages_supported": 6,
-            "pdfs_generated": 30
-        },
-        {
-            "name": "Unikernel Labs · Control Center",
-            "description": "🎯 Unikernel Control Center v1 · Suite profesional para operar servicios Unikraft en Windows con backend WSL2. Control total vía Dashboard Node.js y Launcher WinForms en localhost. Demostrando arquitectura de alto rendimiento y orquestación unikernel. ⚡",
-            "url": "https://github.com/vladimiracunadev-create/unikernel-labs",
-            "tags": [
-                "Unikraft",
-                "WSL2",
-                "Node.js",
-                "WinForms",
-                "Windows",
-                "Dashboard",
-                "Performance"
-            ],
-            "category": "platform"
-        },
-        {
-            "name": "ChofyAI Studio · Fase 4",
-            "description": "🎨 ChofyAI Studio · Lanzador de escritorio para macOS Apple Silicon. Centraliza herramientas de IA local: Qwen3-TTS, whisper.cpp, FaceFusion, AceForge. Tauri + Rust + React. 🍎",
-            "url": "https://github.com/vladimiracunadev-create/chofyai-studio",
-            "version": "Fase 4",
-            "tags": [
-                "Tauri",
-                "Rust",
-                "React",
-                "macOS",
-                "Apple Silicon",
-                "Local AI",
-                "Qwen3-TTS",
-                "whisper.cpp",
-                "FaceFusion",
-                "AceForge",
-                "uv",
-                "Disco dual",
-                "Empaquetado ad-hoc"
-            ],
-            "category": "ai"
-        },
-        {
-            "name": "Problem Driven Systems Lab",
-            "description": "🧪 Laboratorio Docker-first con 12 problemas reales de ingeniería resueltos en 5 stacks (PHP · Python · Node.js · Java · .NET): rendimiento, observabilidad, resiliencia, modernización legacy y arquitectura — con evidencia operacional verificable 🐳",
-            "url": "https://github.com/vladimiracunadev-create/problem-driven-systems-lab",
-            "tags": [
-                "PHP 8.3",
-                "Python",
-                "Node.js",
-                "Docker",
-                "Prometheus",
-                "Grafana",
-                "MySQL",
-                "12 casos OPERATIVOS",
-                "Observability",
-                "Performance"
-            ],
-            "category": "platform",
-            "operational_cases": 12
-        },
-        {
-            "name": "Python Data Science Bootcamp v1.1",
-            "description": "📊 Bootcamp de Python para Data Science · Clases, notebooks, datasets y entorno interactivo local. Material docente para principiantes y transición profesional. 🐍",
-            "url": "https://github.com/vladimiracunadev-create/python-data-science-bootcamp",
-            "version": "v1.1.0",
-            "tags": [
-                "Python",
-                "Jupyter Notebook",
-                "Data Science",
-                "31 clases",
-                "Desktop Windows",
-                "Edge WebView2",
-                "Android Expo",
-                "Google Colab",
-                "Security Scan"
-            ],
-            "category": "education",
-            "classes_count": 31
-        },
-        {
-            "name": "claude-skills-toolkit",
-            "description": "🧰 claude-skills-toolkit · ⚡ Skills agentic para Claude Code · 🔒 security-audit (12 capas: OSV/KEV/EPSS/SAST/...) · 📋 yaml-control · 📝 md-lint-fix · 🐳 docker-cleanup · Zero-deps por defecto · Cross-platform 🐧🍎🪟",
-            "url": "https://github.com/vladimiracunadev-create/claude-skills-toolkit",
-            "tags": [],
-            "category": "other"
-        },
-        {
-            "name": "gabysql",
-            "description": "🗄️ GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge. 🦀",
-            "url": "https://github.com/vladimiracunadev-create/gabysql",
-            "tags": [],
-            "category": "other"
-        },
-        {
-            "name": "python-data-science-program",
-            "description": "📚 Python Data Science Program · 197 clases en 9 partes (Python aplicado, ML clásico, Deep Learning, estadística inferencial, MLOps, ingeniería de datos, recomendadores, ética, capstones). Laboratorio Flask interactivo + app de escritorio Windows + app Android. 🐍",
-            "url": "https://github.com/vladimiracunadev-create/python-data-science-program",
-            "tags": [],
-            "category": "other"
-        }
-    ]
+    {
+      "name": "Social Bot Scheduler v4.3",
+      "description": "🤖 Social Bot Scheduler · Matriz de Integración Multi-Eje con n8n (Python/Go/Node/PHP) + Docker. Automatización de publicaciones en redes sociales. ⚙️",
+      "url": "https://github.com/vladimiracunadev-create/social-bot-scheduler",
+      "version": "v4.3.0",
+      "tags": [
+        "n8n",
+        "Python",
+        "Go",
+        "Node.js",
+        "PHP",
+        "Ruby",
+        "Rust",
+        "C#",
+        "Polyglot",
+        "Prometheus",
+        "Grafana",
+        "Docker",
+        "Kubernetes",
+        "Trivy",
+        "Hardened Runtime",
+        "Circuit Breaker"
+      ],
+      "category": "orchestration"
+    },
+    {
+      "name": "Docker Labs v1.5 · Infra Hub",
+      "description": "🐳 Docker Labs · Laboratorio personal de contenedores con Docker/Compose en múltiples stacks: PHP, Node.js, Python, bases de datos y herramientas DevOps. 🧪",
+      "url": "https://github.com/vladimiracunadev-create/docker-labs",
+      "version": "v1.5.0",
+      "tags": [
+        "Docker",
+        "Go",
+        "Node.js",
+        "Python",
+        "Prometheus",
+        "Grafana",
+        "Elasticsearch",
+        "Redis",
+        "RabbitMQ",
+        "Kubernetes",
+        "Windows Installer",
+        "Security Hardening"
+      ],
+      "category": "platform"
+    },
+    {
+      "name": "Microsistemas · Productivity Suite",
+      "description": "🔧 Microsistemas · Colección de microsistemas web autocontenidos para tareas recurrentes: desarrollo, mantención, diagnóstico y modernización de sistemas legacy. 🏗️",
+      "url": "https://github.com/vladimiracunadev-create/microsistemas",
+      "tags": [
+        "PHP 8",
+        "Python",
+        "MCP",
+        "CLI",
+        "DevTools",
+        "KatasMultiLang",
+        "CicdLibrary",
+        "GitHub Actions",
+        "GHCR",
+        "TruffleHog",
+        "Trivy",
+        "Dependabot",
+        "SBOM",
+        "Security Hardening 3 fases"
+      ],
+      "category": "tooling",
+      "tools_count": 11
+    },
+    {
+      "name": "LangGraph · Agentic Resilience v4.14",
+      "description": "🤖 25 casos de uso empresariales con LangGraph + FastAPI. 25/25 backends operativos (01-25, cobertura 100%): streaming NDJSON, DEMO/LIVE, OAuth2 opt-in, observabilidad LangSmith, /metrics, 8 capas de seguridad, cadena de custodia SHA-256. Python 3.11 · Docker · pytest · uv opcional. v4.14.0",
+      "url": "https://github.com/vladimiracunadev-create/langgraph-realworld",
+      "version": "v4.14.0",
+      "tags": [
+        "LangGraph",
+        "Python",
+        "FastAPI",
+        "TypedDict",
+        "Chart.js",
+        "SQL Agents",
+        "Docker",
+        "Stateful",
+        "Dual-Mode",
+        "LangSmith",
+        "OAuth2/OIDC",
+        "nginx TLS",
+        "grype",
+        "detect-secrets",
+        "Hardening 8 capas"
+      ],
+      "category": "ai",
+      "demos_count": 25,
+      "operational_cases": 25
+    },
+    {
+      "name": "MCP + Ollama Local",
+      "description": "🧠 MCP + Ollama Local · FastAPI web con chat, tools MCP (sandbox) e historial SQLite. LLMs locales con tool calling sin enviar datos a la nube. 🔒",
+      "url": "https://github.com/vladimiracunadev-create/mcp-ollama-local",
+      "tags": [
+        "FastAPI",
+        "Ollama",
+        "MCP",
+        "SQLite",
+        "Local AI",
+        "Docker",
+        "Kubernetes",
+        "pytest",
+        "Bandit",
+        "pip-audit",
+        "Security & Trust Profile"
+      ],
+      "category": "ai"
+    },
+    {
+      "name": "Portfolio · GitHub Pages",
+      "description": "Portafolio profesional en 6 idiomas (ES/EN/PT/IT/FR/ZH), 30+ PDFs generados por pipeline Python, PWA instalable, CI/CD con GitHub Actions, Lighthouse 100, CV Data API.",
+      "url": "https://vladimiracunadev-create.github.io/",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JS",
+        "PWA",
+        "Python",
+        "reportlab",
+        "i18n",
+        "6 idiomas",
+        "CI/CD",
+        "GitHub Pages"
+      ],
+      "category": "portfolio",
+      "languages_supported": 6,
+      "pdfs_generated": 30
+    },
+    {
+      "name": "Unikernel Labs · Control Center",
+      "description": "🎯 Unikernel Control Center v1 · Suite profesional para operar servicios Unikraft en Windows con backend WSL2. Control total vía Dashboard Node.js y Launcher WinForms en localhost. Demostrando arquitectura de alto rendimiento y orquestación unikernel. ⚡",
+      "url": "https://github.com/vladimiracunadev-create/unikernel-labs",
+      "tags": [
+        "Unikraft",
+        "WSL2",
+        "Node.js",
+        "WinForms",
+        ".NET",
+        "Windows",
+        "Dashboard",
+        "Launcher",
+        "QEMU/KVM",
+        "kraft",
+        "Low-latency",
+        "High-performance"
+      ],
+      "category": "platform",
+      "version": "v1"
+    },
+    {
+      "name": "ChofyAI Studio · Fase 4",
+      "description": "🎨 ChofyAI Studio · Lanzador de escritorio para macOS Apple Silicon. Centraliza herramientas de IA local: Qwen3-TTS, whisper.cpp, FaceFusion, AceForge. Tauri + Rust + React. 🍎",
+      "url": "https://github.com/vladimiracunadev-create/chofyai-studio",
+      "version": "Fase 4",
+      "tags": [
+        "Tauri",
+        "Rust",
+        "React",
+        "macOS",
+        "Apple Silicon",
+        "Local AI",
+        "Qwen3-TTS",
+        "whisper.cpp",
+        "FaceFusion",
+        "AceForge",
+        "uv",
+        "Disco dual",
+        "Empaquetado ad-hoc"
+      ],
+      "category": "ai"
+    },
+    {
+      "name": "Problem Driven Systems Lab",
+      "description": "🧪 Laboratorio Docker-first con 12 problemas reales de ingeniería resueltos en 5 stacks (PHP 8 · Python · Node.js · Java 21 · .NET 8): rendimiento, observabilidad, resiliencia, modernización legacy y arquitectura. Dashboards interactivos UI por caso + plan AWS_MIGRATION (ECS Fargate · Lambda · EKS) con mapping a SECURITY.md. 🐳",
+      "url": "https://github.com/vladimiracunadev-create/problem-driven-systems-lab",
+      "tags": [
+        "PHP 8",
+        "Python",
+        "Node.js",
+        "Java 21",
+        ".NET 8",
+        "Docker",
+        "Prometheus",
+        "Grafana",
+        "MySQL",
+        "Dashboards UI",
+        "Adapter",
+        "Strangler",
+        "Circuit Breaker",
+        "LRU",
+        "Cancellation",
+        "AWS_MIGRATION",
+        "12 casos OPERATIVOS"
+      ],
+      "category": "platform",
+      "operational_cases": 12
+    },
+    {
+      "name": "claude-skills-toolkit",
+      "description": "🧰 claude-skills-toolkit · ⚡ Skills agentic para Claude Code · 🔒 security-audit (12 capas: OSV/KEV/EPSS/SAST/...) · 📋 yaml-control · 📝 md-lint-fix · 🐳 docker-cleanup · Zero-deps por defecto · Cross-platform 🐧🍎🪟",
+      "url": "https://github.com/vladimiracunadev-create/claude-skills-toolkit",
+      "tags": [],
+      "category": "other"
+    },
+    {
+      "name": "gabysql",
+      "description": "🗄️ GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge. 🦀",
+      "url": "https://github.com/vladimiracunadev-create/gabysql",
+      "tags": [],
+      "category": "other"
+    },
+    {
+      "name": "python-data-science-program",
+      "description": "📚 Python Data Science Program · 197 clases en 9 partes (Python aplicado, ML clásico, Deep Learning, estadística inferencial, MLOps, ingeniería de datos, recomendadores, ética, capstones). Laboratorio Flask interactivo + app de escritorio Windows + app Android. 🐍",
+      "url": "https://github.com/vladimiracunadev-create/python-data-science-program",
+      "tags": [],
+      "category": "other"
+    }
+  ]
 }
