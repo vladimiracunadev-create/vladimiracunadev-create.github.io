@@ -2,19 +2,6 @@
 
 ## 2026-05-21
 
-### fix(cv-reclutador): mover Claude Skills Toolkit + GabySQL + Python DS Program de "Proyectos" a "SKILLS"
-
-Los 3 items son tooling/skills propios, no proyectos de cliente. No corresponde mostrarlos como entradas de proyecto en el CV.
-
-- `scripts/generate-all-languages.py`:
-  - Añadida 8ª categoría a `skills_labels` en los 6 idiomas: "Tooling propio (open source)" / "Own tooling (open source)" / "Tooling próprio (open source)" / "Tooling proprio (open source)" / "Outils maison (open source)" / "自研工具（开源）".
-  - Añadida 8ª entrada en `SKILLS_VALUES` con los 3 tools compactos: "Claude Skills Toolkit (Python, security-audit 12 capas, yaml-control, md-lint-fix, docker-cleanup), GabySQL (Rust, DB embebida WAL, HTTP/JSON), Python Data Science Program (197 clases ML/DL/MLOps, Flask + Windows + Android)".
-  - `range(7)` → `range(8)` en `make_sidebar` y `make_ats` para iterar la 8ª categoría.
-  - Eliminadas 20 líneas en `projects_rec` y `projects_ats` × 6 idiomas (las 3 entradas verbosas con descripción de README).
-- `scripts/generate-portfolio.py`: eliminadas 15 líneas con bullets `<b>Claude Skills Toolkit:</b>`, `<b>Gabysql:</b>`, `<b>Python Data Science Program:</b>` × 6 idiomas (también pertenecen al SKILLS conceptual).
-- **18 PDFs regenerados** (12 CV + 6 portafolios) con SKILLS ampliado y proyectos limpios.
-- **Revert** del commit anterior `6c0d53e` que había movido el sidebar a la derecha (el layout izquierda original era el correcto — pedido del usuario).
-
 ### fix(content): eliminar residuos del repo renombrado python-data-science-bootcamp
 
 Auditoría exhaustiva tras detectar incoherencias remanentes. El repo fue renombrado a `python-data-science-program` pero quedaban 25+ menciones del nombre viejo en archivos vivos:
