@@ -718,6 +718,11 @@ def update_github_readme(new_repos, apply=False):
         log("README GitHub: ya está al día", "OK")
         return
 
+    # CRÍTICO: línea en blanco antes del `---` que sigue. Sin ella, el último párrafo
+    # se renderiza como Setext H2 (heading gigante) en GitHub. Ver commit 749d9ccd.
+    if not new_sections.endswith("\n\n"):
+        new_sections += "\n"
+
     updated = readme.replace(separator, new_sections + separator, 1)
     if apply:
         encoded = base64.b64encode(updated.encode("utf-8")).decode("ascii")
