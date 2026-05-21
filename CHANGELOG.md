@@ -2,17 +2,6 @@
 
 ## 2026-05-21
 
-### fix(cv-reclutador): mover sidebar (SKILLS, EDUCACIÓN, IDIOMAS, CONTACTO) de izquierda a DERECHA
-
-Layout de la página 1 del cv-reclutador estaba al revés:
-
-- `scripts/generate-unified-cv.py` `_PortfolioDocTemplate.__init__`:
-  - `main_frame` x: `SIDEBAR_W + 0.15*inch` (2.55") → `MARGIN` (0.35") — columna principal ahora a la izquierda.
-  - `sidebar_frame` x: `SIDEBAR_PAD` (0.25") → `PAGE_W - SIDEBAR_W + SIDEBAR_PAD` (6.5") — sidebar ahora a la derecha.
-- `_draw_recruiter_page`:
-  - Fondo de sidebar (`canvas.rect`) movido de `x=0` a `x=PAGE_W - SIDEBAR_W` — la franja gris está ahora en el borde derecho.
-- 12 PDFs regenerados (cv-reclutador × 6 idiomas + cv-ats × 6 idiomas).
-
 ### fix(content): eliminar residuos del repo renombrado python-data-science-bootcamp
 
 Auditoría exhaustiva tras detectar incoherencias remanentes. El repo fue renombrado a `python-data-science-program` pero quedaban 25+ menciones del nombre viejo en archivos vivos:
