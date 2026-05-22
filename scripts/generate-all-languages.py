@@ -113,15 +113,15 @@ def get_content(lang):
 
     T = {
         "es": {
-            "subtitle_rec": "Arquitecto de Soluciones | Senior Full-Stack | Modernización, Automatización e IA Aplicada",
-            "subtitle_ats": "Arquitecto de Soluciones | Senior Full-Stack | Modernización, Automatización e IA Aplicada",
+            "subtitle_rec": "Arquitecto de Software · 14 años modernizando plataformas críticas con IA aplicada",
+            "subtitle_ats": "Arquitecto de Software · 14 años modernizando plataformas críticas con IA aplicada",
             "h_contact": "CONTACTO", "h_skills": "SKILLS", "h_education": "EDUCACI\u00d3N",
             "h_languages": "IDIOMAS", "h_summary": "RESUMEN", "h_experience": "EXPERIENCIA DESTACADA",
             "h_previous": "TRAYECTORIA PREVIA (S\u00cdNTESIS)", "h_projects": "PROYECTOS DESTACADOS",
             "h_training": "FORMACI\u00d3N Y ACTIVIDAD RECIENTE", "h_notes": "NOTAS",
             "h_ats_experience": "EXPERIENCIA", "h_ats_education": "FORMACI\u00d3N Y ACTIVIDAD RECIENTE",
             "h_degrees": "EDUCACI\u00d3N",
-            "exp_title_rec": "Fundaci\u00f3n CEIS Maristas - Arquitecto de Software y Desarrollador Full-Stack Senior",
+            "exp_title_rec": "Fundaci\u00f3n CEIS Maristas \u2014 Arquitecto de Software \u00b7 Analista y Desarrollador Full-Stack",
             "exp_title_ats": "Fundaci\u00f3n CEIS Maristas \u2014 Arquitecto de Software y Desarrollador Full-Stack (2011-2025)",
             "summary": [
                 "14 a\u00f1os de experiencia principal en Fundaci\u00f3n CEIS Maristas (2011-2025), desarrollando, manteniendo y modernizando una plataforma educativa/psicom\u00e9trica.",
@@ -135,11 +135,11 @@ def get_content(lang):
                 "Portafolio t\u00e9cnico con casos pr\u00e1cticos (Cloud/AWS, microsistemas, agentes IA y observabilidad), documentaci\u00f3n y demos verificables en GitHub y GitLab.",
             ],
             "experience": [
-                "Desarrollo, mantenci\u00f3n y evoluci\u00f3n de plataforma de evaluaci\u00f3n de alumnos, m\u00f3dulos institucionales y reporter\u00eda.",
-                "Migraci\u00f3n tecnol\u00f3gica de PHP 5.4 a PHP 8.2+, actualizaci\u00f3n de servidores/librer\u00edas y mejoras de rendimiento.",
-                "Reportes PDF/Excel con indicadores, percentiles y an\u00e1lisis por curso, nivel y establecimiento.",
-                "Importaci\u00f3n y migraci\u00f3n de datos desde Excel con validaciones; automatizaci\u00f3n de comunicaciones y seguimientos.",
-                "Soporte directo a usuarios clave (coordinadores, orientadores, directivos) y operaci\u00f3n en producci\u00f3n.",
+                "Suite de evaluaci\u00f3n educacional/psicom\u00e9trica: <b>PCA</b> (aprendizaje), <b>Bater\u00edas Psicoeducativas</b> (desarrollo social/personal) y <b>Bater\u00eda Online</b> (plataforma online), m\u00e1s mailing institucional, LimeSurvey y WordPress.",
+                "<b>M\u00e9tricas verificadas</b>: 80% mejora en reportes/carga de Bater\u00eda Online \u00b7 90% menos fricci\u00f3n en atenci\u00f3n a clientes (2020-2025) \u00b7 45% optimizaci\u00f3n DB/c\u00f3digo \u00b7 hasta 5 frentes concurrentes en ciertos per\u00edodos.",
+                "<b>Pandemia 2020</b>: migraci\u00f3n de servicios presenciales a formato online en tiempo breve (citado en la carta de recomendaci\u00f3n).",
+                "Modernizaci\u00f3n PHP 5.4 \u2192 8.2+, refactor de m\u00f3dulos cr\u00edticos, traslado de l\u00f3gica a JavaScript y eliminaci\u00f3n de duplicidades en DB.",
+                "Mailing masivo (PHP + Constant Contact) y <b>adopci\u00f3n interna de IA (2024-2025)</b> para an\u00e1lisis y resoluci\u00f3n de problemas t\u00e9cnicos.",
             ],
             "ats_experience": [
                 "Dise\u00f1o, desarrollo y mantenci\u00f3n de plataforma de evaluaci\u00f3n de alumnos (bater\u00edas de test), m\u00f3dulos institucionales y reportes.",
@@ -149,6 +149,7 @@ def get_content(lang):
                 "Soporte directo a usuarios clave (coordinadores, orientadores, directivos) y operaci\u00f3n en producci\u00f3n.",
             ],
             "exp_tech": "Tecnolog\u00edas: PHP, JavaScript, SQL Server, MySQL, Apache, JMeter, Excel, FPDF/PhpSpreadsheet, Constant Contact",
+            "exp_logros_label": "M\u00e9tricas y logros cuantificados del periodo CEIS Maristas",
             "projects_rec": [
                 "Cloud/AWS y FinOps \u2014 GitHub + GitLab (15 casos AWS, CI/CD 5 stages)",
                 "Microsistemas \u2014 suite de 11 micro-apps, Hub CLI, MCP server",
@@ -160,8 +161,8 @@ def get_content(lang):
                 "ChofyAI Studio \u2014 lanzador IA local macOS (Tauri + Rust + React)",
  "Problem Driven Systems Lab — Laboratorio de sistemas distribuido con 12 casos reales Docker-first para diagnosticar y resolver problemas críticos de rendimiento, observabilidad, resiliencia y arquitectura",
                 "Claude Skills Toolkit — claude-skills-toolkit ·  Skills agentic para Claude Code ·  security-audit (12 capas: OSV/KEV/EPSS/SAST/...) ·  yaml-control ·  md-lint-fix ·  docker-cleanup · Zero-deps por defecto · Cross-platform",
-                "Gabysql — ️ GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge",
-                "Python Data Science Program — Python Data Science Program · 197 clases en 9 partes (Python aplicado, ML clásico, Deep Learning, estadística inferencial, MLOps, ingeniería de datos, recomendadores, ética, capstones). Laboratorio Flask interactivo + app de escritorio Windows + app Android",
+                "Gabysql — GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge",
+                "Python Data Science Program — 197 clases en 9 partes: Python, ML, Deep Learning, MLOps, ingeniería de datos. Lab Flask + apps Windows/Android",
 ],
             "projects_ats": [
                 ("Cloud/AWS y FinOps \u2014 GitHub (demos y documentaci\u00f3n):", "aws_gh"),
@@ -175,7 +176,7 @@ def get_content(lang):
                 ("ChofyAI Studio \u2014 lanzador IA local macOS (Tauri + Rust + React):", "chofyai"),
  ("Problem Driven Systems Lab — Laboratorio de sistemas distribuido con 12 casos reales Docker-first para diagnosticar y resolver problemas críticos de rendimiento, observabilidad, resiliencia y arquitectura:", "problem"),
                 ("Claude Skills Toolkit — claude-skills-toolkit ·  Skills agentic para Claude Code ·  security-audit (12 capas: OSV/KEV/EPSS/SAST/...) ·  yaml-control ·  md-lint-fix ·  docker-cleanup · Zero-deps por defecto · Cross-platform:", "claude"),
-                ("Gabysql — ️ GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge:", "gabysql"),
+                ("Gabysql — GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge:", "gabysql"),
 ],
             "training": [
                 "Formaci\u00f3n continua en automatizaci\u00f3n pr\u00e1ctica, ML/NLP y herramientas de desarrollo.",
@@ -190,7 +191,7 @@ def get_content(lang):
                 ("Ingenier\u00eda de Ejecuci\u00f3n en Computaci\u00f3n e Inform\u00e1tica", "Universidad de Tarapac\u00e1 (Arica)"),
                 ("T\u00e9cnico de Administraci\u00f3n de Empresas (Menci\u00f3n Marketing)", "INACAP (Santiago)"),
             ],
-            "language_skill": "Ingl\u00e9s: intermedio en lectura; b\u00e1sico en escritura y conversaci\u00f3n.",
+            "language_skill": "Ingl\u00e9s t\u00e9cnico: lectura fluida (documentaci\u00f3n, c\u00f3digo, papers, IA tooling). Conversaci\u00f3n: b\u00e1sica, en mejora activa.",
             "transition_title": "Versi\u00f3n optimizada para ATS",
             "transition_body": "A continuaci\u00f3n se incluye una versi\u00f3n del curr\u00edculum optimizada para sistemas de seguimiento de candidatos (ATS).",
             "transition_reasons": [
@@ -201,15 +202,15 @@ def get_content(lang):
             "transition_footer": "La p\u00e1gina anterior es para lectura humana. Las siguientes son para procesamiento autom\u00e1tico.",
         },
         "en": {
-            "subtitle_rec": "Solutions Architect | Senior Full-Stack | Modernization, Automation & Applied AI",
-            "subtitle_ats": "Solutions Architect | Senior Full-Stack | Modernization, Automation & Applied AI",
+            "subtitle_rec": "Software Architect · 14 years modernizing mission-critical platforms with applied AI",
+            "subtitle_ats": "Software Architect · 14 years modernizing mission-critical platforms with applied AI",
             "h_contact": "CONTACT", "h_skills": "SKILLS", "h_education": "EDUCATION",
             "h_languages": "LANGUAGES", "h_summary": "SUMMARY", "h_experience": "HIGHLIGHTED EXPERIENCE",
             "h_previous": "PREVIOUS CAREER (SUMMARY)", "h_projects": "SELECTED PROJECTS",
             "h_training": "RECENT TRAINING AND PROJECTS", "h_notes": "NOTES",
             "h_ats_experience": "EXPERIENCE", "h_ats_education": "EDUCATION & RECENT ACTIVITY",
             "h_degrees": "EDUCATION",
-            "exp_title_rec": "Fundaci\u00f3n CEIS Maristas - Software Architect and Senior Full-Stack Developer",
+            "exp_title_rec": "Fundaci\u00f3n CEIS Maristas \u2014 Software Architect \u00b7 Systems Analyst & Full-Stack Developer",
             "exp_title_ats": "Fundaci\u00f3n CEIS Maristas \u2014 Software Architect and Full-Stack Developer (2011-2025)",
             "summary": [
                 "14 years of core experience at Fundaci\u00f3n CEIS Maristas (2011-2025), developing, maintaining, and modernizing an educational/psychometric platform.",
@@ -223,11 +224,11 @@ def get_content(lang):
                 "Technical portfolio with practical cases (Cloud/AWS, microsystems, AI agents, and observability), documentation, and verifiable demos on GitHub and GitLab.",
             ],
             "experience": [
-                "Development, maintenance, and evolution of a student assessment platform, institutional modules, and reporting.",
-                "Technology migration from PHP 5.4 to PHP 8.2+, plus server/library upgrades and performance improvements.",
-                "PDF/Excel reports with indicators, percentiles, and analysis by class, grade level, and institution.",
-                "Excel-based data import and migration with validations; automation of communications and follow-up processes.",
-                "Direct support for key users (coordinators, counselors, school leaders) and production operations.",
+                "Educational/psychometric assessment suite: <b>PCA</b> (learning), <b>Bater\u00edas Psicoeducativas</b> (social/personal development) and <b>Bater\u00eda Online</b> (online platform), plus institutional mailing, LimeSurvey and WordPress.",
+                "<b>Verified metrics</b>: 80% improvement in Bater\u00eda Online reports/load \u00b7 90% less friction in client support (2020-2025) \u00b7 45% DB/code optimization \u00b7 up to 5 concurrent workstreams in certain periods.",
+                "<b>2020 Pandemic</b>: migration of in-person services to online format in a short timeframe (cited in the recommendation letter).",
+                "PHP 5.4 \u2192 8.2+ modernization, refactor of critical modules, logic offloading to JavaScript, and DB duplicate cleanup.",
+                "Mass mailing (PHP + Constant Contact) and <b>internal AI adoption (2024-2025)</b> for analysis and technical problem-solving.",
             ],
             "ats_experience": [
                 "Design, development, and maintenance of a student assessment platform (test batteries), institutional modules, and reports.",
@@ -237,10 +238,11 @@ def get_content(lang):
                 "Direct support for key users (coordinators, counselors, school leaders) and production operations.",
  "Problem Driven Systems Lab — Laboratorio de sistemas distribuido con 12 casos reales Docker-first para diagnosticar y resolver problemas críticos de rendimiento, observabilidad, resiliencia y arquitectura",
                 "Claude Skills Toolkit — claude-skills-toolkit ·  Skills agentic para Claude Code ·  security-audit (12 capas: OSV/KEV/EPSS/SAST/...) ·  yaml-control ·  md-lint-fix ·  docker-cleanup · Zero-deps por defecto · Cross-platform",
-                "Gabysql — ️ GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge",
-                "Python Data Science Program — Python Data Science Program · 197 clases en 9 partes (Python aplicado, ML clásico, Deep Learning, estadística inferencial, MLOps, ingeniería de datos, recomendadores, ética, capstones). Laboratorio Flask interactivo + app de escritorio Windows + app Android",
+                "Gabysql — GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge",
+                "Python Data Science Program — 197 clases en 9 partes: Python, ML, Deep Learning, MLOps, ingeniería de datos. Lab Flask + apps Windows/Android",
 ],
             "exp_tech": "Technologies: PHP, JavaScript, SQL Server, MySQL, Apache, JMeter, Excel, FPDF/PhpSpreadsheet, Constant Contact",
+            "exp_logros_label": "Quantified metrics and achievements from CEIS Maristas tenure",
             "projects_rec": [
                 "Cloud/AWS and FinOps \u2014 GitHub + GitLab (15 AWS cases, 5-stage CI/CD)",
                 "Microsystems \u2014 suite of 11 micro-apps, Hub CLI, MCP server",
@@ -252,7 +254,7 @@ def get_content(lang):
                 "ChofyAI Studio \u2014 macOS local AI launcher (Tauri + Rust + React)",
  ("Problem Driven Systems Lab — Laboratorio de sistemas distribuido con 12 casos reales Docker-first para diagnosticar y resolver problemas críticos de rendimiento, observabilidad, resiliencia y arquitectura:", "problem"),
                 ("Claude Skills Toolkit — claude-skills-toolkit ·  Skills agentic para Claude Code ·  security-audit (12 capas: OSV/KEV/EPSS/SAST/...) ·  yaml-control ·  md-lint-fix ·  docker-cleanup · Zero-deps por defecto · Cross-platform:", "claude"),
-                ("Gabysql — ️ GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge:", "gabysql"),
+                ("Gabysql — GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge:", "gabysql"),
 ],
             "projects_ats": [
                 ("Cloud/AWS and FinOps \u2014 GitHub (demos and documentation):", "aws_gh"),
@@ -264,7 +266,7 @@ def get_content(lang):
                 ("MCP + local Ollama (local AI chat, MCP tools, 100% private):", "mcp"),
                 ("Unikernel Labs \u2014 Windows Control Center (WSL2 + Node.js + WinForms):", "unikernel"),
                 ("ChofyAI Studio \u2014 macOS local AI launcher (Tauri + Rust + React):", "chofyai"),
-                            ("Python Data Science Program — Python Data Science Program · 197 clases en 9 partes (Python aplicado, ML clásico, Deep Learning, estadística inferencial, MLOps, ingeniería de datos, recomendadores, ética, capstones). Laboratorio Flask interactivo + app de escritorio Windows + app Android:", "python"),
+                            ("Python Data Science Program — 197 clases en 9 partes: Python, ML, Deep Learning, MLOps, ingeniería de datos. Lab Flask + apps Windows/Android:", "python"),
 ],
             "training": [
                 "Continuous training in practical automation, ML/NLP, and development tools.",
@@ -279,7 +281,7 @@ def get_content(lang):
                 ("Computer Science and Informatics Engineering", "University of Tarapac\u00e1 (Arica)"),
                 ("Business Administration Technician (Marketing specialization)", "INACAP (Santiago)"),
             ],
-            "language_skill": "English: intermediate reading; basic writing and conversation.",
+            "language_skill": "English (technical): fluent reading (documentation, code, papers, AI tooling). Conversation: basic, actively improving.",
             "transition_title": "ATS-Optimized Version",
             "transition_body": "The following pages contain an ATS-optimized version of this resume.",
             "transition_reasons": [
@@ -290,15 +292,15 @@ def get_content(lang):
             "transition_footer": "The previous page is for human review. The following pages are for automated processing.",
         },
         "pt": {
-            "subtitle_rec": "Arquiteto de Soluções | Senior Full-Stack | Modernização, Automação e IA Aplicada",
-            "subtitle_ats": "Arquiteto de Soluções | Senior Full-Stack | Modernização, Automação e IA Aplicada",
+            "subtitle_rec": "Arquiteto de Software · 14 anos modernizando plataformas críticas com IA aplicada",
+            "subtitle_ats": "Arquiteto de Software · 14 anos modernizando plataformas críticas com IA aplicada",
             "h_contact": "CONTATO", "h_skills": "SKILLS", "h_education": "EDUCA\u00c7\u00c3O",
             "h_languages": "IDIOMAS", "h_summary": "RESUMO", "h_experience": "EXPERI\u00caNCIA DESTACADA",
             "h_previous": "TRAJET\u00d3RIA ANTERIOR (S\u00cdNTESE)", "h_projects": "PROJETOS DESTACADOS",
             "h_training": "FORMA\u00c7\u00c3O E ATIVIDADE RECENTE", "h_notes": "NOTAS",
             "h_ats_experience": "EXPERI\u00caNCIA", "h_ats_education": "FORMA\u00c7\u00c3O E ATIVIDADE RECENTE",
             "h_degrees": "EDUCA\u00c7\u00c3O",
-            "exp_title_rec": "Funda\u00e7\u00e3o CEIS Maristas - Arquiteto de Software e Desenvolvedor Full-Stack S\u00eanior",
+            "exp_title_rec": "Funda\u00e7\u00e3o CEIS Maristas \u2014 Arquiteto de Software \u00b7 Analista e Desenvolvedor Full-Stack",
             "exp_title_ats": "Funda\u00e7\u00e3o CEIS Maristas \u2014 Arquiteto de Software e Desenvolvedor Full-Stack (2011-2025)",
             "summary": [
                 "14 anos de experi\u00eancia principal na Funda\u00e7\u00e3o CEIS Maristas (2011-2025), desenvolvendo, mantendo e modernizando uma plataforma educacional/psicom\u00e9trica.",
@@ -312,11 +314,11 @@ def get_content(lang):
                 "Portf\u00f3lio t\u00e9cnico com casos pr\u00e1ticos (Cloud/AWS, microsistemas, agentes IA e observabilidade), documenta\u00e7\u00e3o e demos verific\u00e1veis no GitHub e GitLab.",
             ],
             "experience": [
-                "Desenvolvimento, manuten\u00e7\u00e3o e evolu\u00e7\u00e3o de plataforma de avalia\u00e7\u00e3o de alunos, m\u00f3dulos institucionais e relat\u00f3rios.",
-                "Migra\u00e7\u00e3o tecnol\u00f3gica de PHP 5.4 para PHP 8.2+, atualiza\u00e7\u00e3o de servidores/bibliotecas e melhorias de desempenho.",
-                "Relat\u00f3rios PDF/Excel com indicadores, percentis e an\u00e1lise por turma, n\u00edvel e institui\u00e7\u00e3o.",
-                "Importa\u00e7\u00e3o e migra\u00e7\u00e3o de dados do Excel com valida\u00e7\u00f5es; automa\u00e7\u00e3o de comunica\u00e7\u00f5es e acompanhamentos.",
-                "Suporte direto a usu\u00e1rios-chave (coordenadores, orientadores, diretores) e opera\u00e7\u00e3o em produ\u00e7\u00e3o.",
+                "Suite de avalia\u00e7\u00e3o educacional/psicom\u00e9trica: <b>PCA</b> (aprendizagem), <b>Bater\u00edas Psicoeducativas</b> (desenvolvimento social/pessoal) e <b>Bater\u00eda Online</b> (plataforma online), al\u00e9m de mailing institucional, LimeSurvey e WordPress.",
+                "<b>M\u00e9tricas verificadas</b>: 80% de melhoria nos relat\u00f3rios/carga do Bater\u00eda Online \u00b7 90% menos atrito no atendimento a clientes (2020-2025) \u00b7 45% de otimiza\u00e7\u00e3o DB/c\u00f3digo \u00b7 at\u00e9 5 frentes concorrentes em certos per\u00edodos.",
+                "<b>Pandemia 2020</b>: migra\u00e7\u00e3o de servi\u00e7os presenciais para formato online em pouco tempo (citado na carta de recomenda\u00e7\u00e3o).",
+                "Moderniza\u00e7\u00e3o PHP 5.4 \u2192 8.2+, refatora\u00e7\u00e3o de m\u00f3dulos cr\u00edticos, transfer\u00eancia de l\u00f3gica para JavaScript e elimina\u00e7\u00e3o de duplicidades no DB.",
+                "Mailing massivo (PHP + Constant Contact) e <b>ado\u00e7\u00e3o interna de IA (2024-2025)</b> para an\u00e1lise e resolu\u00e7\u00e3o de problemas t\u00e9cnicos.",
             ],
             "ats_experience": [
                 "Design, desenvolvimento e manuten\u00e7\u00e3o de plataforma de avalia\u00e7\u00e3o de alunos (baterias de testes), m\u00f3dulos institucionais e relat\u00f3rios.",
@@ -326,10 +328,11 @@ def get_content(lang):
                 "Suporte direto a usu\u00e1rios-chave (coordenadores, orientadores, diretores) e opera\u00e7\u00e3o em produ\u00e7\u00e3o.",
  "Problem Driven Systems Lab — Laboratorio de sistemas distribuido con 12 casos reales Docker-first para diagnosticar y resolver problemas críticos de rendimiento, observabilidad, resiliencia y arquitectura",
                 "Claude Skills Toolkit — claude-skills-toolkit ·  Skills agentic para Claude Code ·  security-audit (12 capas: OSV/KEV/EPSS/SAST/...) ·  yaml-control ·  md-lint-fix ·  docker-cleanup · Zero-deps por defecto · Cross-platform",
-                "Gabysql — ️ GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge",
-                "Python Data Science Program — Python Data Science Program · 197 clases en 9 partes (Python aplicado, ML clásico, Deep Learning, estadística inferencial, MLOps, ingeniería de datos, recomendadores, ética, capstones). Laboratorio Flask interactivo + app de escritorio Windows + app Android",
+                "Gabysql — GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge",
+                "Python Data Science Program — 197 clases en 9 partes: Python, ML, Deep Learning, MLOps, ingeniería de datos. Lab Flask + apps Windows/Android",
 ],
             "exp_tech": "Tecnologias: PHP, JavaScript, SQL Server, MySQL, Apache, JMeter, Excel, FPDF/PhpSpreadsheet, Constant Contact",
+            "exp_logros_label": "M\u00e9tricas e conquistas quantificadas do per\u00edodo na CEIS Maristas",
             "projects_rec": [
                 "Cloud/AWS e FinOps \u2014 GitHub + GitLab (15 casos AWS, CI/CD 5 stages)",
                 "Microsistemas \u2014 suite de 11 micro-apps, Hub CLI, MCP server",
@@ -341,8 +344,8 @@ def get_content(lang):
                 "ChofyAI Studio \u2014 launcher IA local macOS (Tauri + Rust + React)",
  ("Problem Driven Systems Lab — Laboratorio de sistemas distribuido con 12 casos reales Docker-first para diagnosticar y resolver problemas críticos de rendimiento, observabilidad, resiliencia y arquitectura:", "problem"),
                 ("Claude Skills Toolkit — claude-skills-toolkit ·  Skills agentic para Claude Code ·  security-audit (12 capas: OSV/KEV/EPSS/SAST/...) ·  yaml-control ·  md-lint-fix ·  docker-cleanup · Zero-deps por defecto · Cross-platform:", "claude"),
-                ("Gabysql — ️ GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge:", "gabysql"),
-                ("Python Data Science Program — Python Data Science Program · 197 clases en 9 partes (Python aplicado, ML clásico, Deep Learning, estadística inferencial, MLOps, ingeniería de datos, recomendadores, ética, capstones). Laboratorio Flask interactivo + app de escritorio Windows + app Android:", "python"),
+                ("Gabysql — GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge:", "gabysql"),
+                ("Python Data Science Program — 197 clases en 9 partes: Python, ML, Deep Learning, MLOps, ingeniería de datos. Lab Flask + apps Windows/Android:", "python"),
 ],
             "projects_ats": [
                 ("Cloud/AWS e FinOps \u2014 GitHub (demos e documenta\u00e7\u00e3o):", "aws_gh"),
@@ -368,7 +371,7 @@ def get_content(lang):
                 ("Engenharia de Execu\u00e7\u00e3o em Computa\u00e7\u00e3o e Inform\u00e1tica", "Universidad de Tarapac\u00e1 (Arica)"),
                 ("T\u00e9cnico em Administra\u00e7\u00e3o de Empresas (\u00canfase em Marketing)", "INACAP (Santiago)"),
             ],
-            "language_skill": "Ingl\u00eas: intermedi\u00e1rio em leitura; b\u00e1sico em escrita e conversa\u00e7\u00e3o.",
+            "language_skill": "Ingl\u00eas t\u00e9cnico: leitura fluente (documenta\u00e7\u00e3o, c\u00f3digo, papers, IA tooling). Conversa\u00e7\u00e3o: b\u00e1sica, em melhoria ativa.",
             "transition_title": "Vers\u00e3o otimizada para ATS",
             "transition_body": "A seguir, uma vers\u00e3o do curr\u00edculo otimizada para sistemas de rastreamento de candidatos (ATS).",
             "transition_reasons": [
@@ -379,15 +382,15 @@ def get_content(lang):
             "transition_footer": "A p\u00e1gina anterior \u00e9 para leitura humana. As seguintes s\u00e3o para processamento autom\u00e1tico.",
         },
         "it": {
-            "subtitle_rec": "Architetto di Soluzioni | Senior Full-Stack | Modernizzazione, Automazione e IA Applicata",
-            "subtitle_ats": "Architetto di Soluzioni | Senior Full-Stack | Modernizzazione, Automazione e IA Applicata",
+            "subtitle_rec": "Architetto Software · 14 anni a modernizzare piattaforme critiche con IA applicata",
+            "subtitle_ats": "Architetto Software · 14 anni a modernizzare piattaforme critiche con IA applicata",
             "h_contact": "CONTATTO", "h_skills": "SKILLS", "h_education": "FORMAZIONE",
             "h_languages": "LINGUE", "h_summary": "RIEPILOGO", "h_experience": "ESPERIENZA PRINCIPALE",
             "h_previous": "CARRIERA PRECEDENTE (SINTESI)", "h_projects": "PROGETTI IN EVIDENZA",
             "h_training": "FORMAZIONE E ATTIVIT\u00c0 RECENTE", "h_notes": "NOTE",
             "h_ats_experience": "ESPERIENZA", "h_ats_education": "FORMAZIONE E ATTIVIT\u00c0 RECENTE",
             "h_degrees": "FORMAZIONE",
-            "exp_title_rec": "Fondazione CEIS Maristas - Architetto Software e Sviluppatore Full-Stack Senior",
+            "exp_title_rec": "Fondazione CEIS Maristas \u2014 Architetto Software \u00b7 Analista e Sviluppatore Full-Stack",
             "exp_title_ats": "Fondazione CEIS Maristas \u2014 Architetto Software e Sviluppatore Full-Stack (2011-2025)",
             "summary": [
                 "14 anni di esperienza principale presso la Fondazione CEIS Maristas (2011-2025), sviluppando, mantenendo e modernizzando una piattaforma educativa/psicometrica.",
@@ -401,11 +404,11 @@ def get_content(lang):
                 "Portfolio tecnico con casi pratici (Cloud/AWS, microsistemi, agenti IA e osservabilit\u00e0), documentazione e demo verificabili su GitHub e GitLab.",
             ],
             "experience": [
-                "Sviluppo, manutenzione ed evoluzione di piattaforma di valutazione studenti, moduli istituzionali e reportistica.",
-                "Migrazione tecnologica da PHP 5.4 a PHP 8.2+, aggiornamento server/librerie e miglioramenti delle prestazioni.",
-                "Report PDF/Excel con indicatori, percentili e analisi per classe, livello e istituto.",
-                "Importazione e migrazione dati da Excel con validazioni; automazione comunicazioni e follow-up.",
-                "Supporto diretto agli utenti chiave (coordinatori, consulenti, dirigenti) e operazioni in produzione.",
+                "Suite di valutazione educativa/psicometrica: <b>PCA</b> (apprendimento), <b>Bater\u00edas Psicoeducativas</b> (sviluppo sociale/personale) e <b>Bater\u00eda Online</b> (piattaforma online), oltre a mailing istituzionale, LimeSurvey e WordPress.",
+                "<b>Metriche verificate</b>: 80% miglioramento nei report/carico di Bater\u00eda Online \u00b7 90% meno attrito nell'assistenza clienti (2020-2025) \u00b7 45% ottimizzazione DB/codice \u00b7 fino a 5 fronti concorrenti in certi periodi.",
+                "<b>Pandemia 2020</b>: migrazione di servizi in presenza a formato online in poco tempo (citato nella lettera di raccomandazione).",
+                "Modernizzazione PHP 5.4 \u2192 8.2+, refactoring di moduli critici, trasferimento di logica a JavaScript ed eliminazione di duplicati nel DB.",
+                "Mailing massivo (PHP + Constant Contact) e <b>adozione interna di IA (2024-2025)</b> per analisi e risoluzione di problemi tecnici.",
             ],
             "ats_experience": [
                 "Design, sviluppo e manutenzione di piattaforma di valutazione studenti (batterie di test), moduli istituzionali e report.",
@@ -415,10 +418,11 @@ def get_content(lang):
                 "Supporto diretto agli utenti chiave (coordinatori, consulenti, dirigenti) e operazioni in produzione.",
  "Problem Driven Systems Lab — Laboratorio de sistemas distribuido con 12 casos reales Docker-first para diagnosticar y resolver problemas críticos de rendimiento, observabilidad, resiliencia y arquitectura",
                 "Claude Skills Toolkit — claude-skills-toolkit ·  Skills agentic para Claude Code ·  security-audit (12 capas: OSV/KEV/EPSS/SAST/...) ·  yaml-control ·  md-lint-fix ·  docker-cleanup · Zero-deps por defecto · Cross-platform",
-                "Gabysql — ️ GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge",
-                "Python Data Science Program — Python Data Science Program · 197 clases en 9 partes (Python aplicado, ML clásico, Deep Learning, estadística inferencial, MLOps, ingeniería de datos, recomendadores, ética, capstones). Laboratorio Flask interactivo + app de escritorio Windows + app Android",
+                "Gabysql — GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge",
+                "Python Data Science Program — 197 clases en 9 partes: Python, ML, Deep Learning, MLOps, ingeniería de datos. Lab Flask + apps Windows/Android",
 ],
             "exp_tech": "Tecnologie: PHP, JavaScript, SQL Server, MySQL, Apache, JMeter, Excel, FPDF/PhpSpreadsheet, Constant Contact",
+            "exp_logros_label": "Metriche e risultati quantificati del periodo in CEIS Maristas",
             "projects_rec": [
                 "Cloud/AWS e FinOps \u2014 GitHub + GitLab (15 casi AWS, CI/CD 5 stages)",
                 "Microsistemi \u2014 suite di 11 micro-app, Hub CLI, MCP server",
@@ -430,7 +434,7 @@ def get_content(lang):
                 "ChofyAI Studio \u2014 launcher IA locale macOS (Tauri + Rust + React)",
  ("Problem Driven Systems Lab — Laboratorio de sistemas distribuido con 12 casos reales Docker-first para diagnosticar y resolver problemas críticos de rendimiento, observabilidad, resiliencia y arquitectura:", "problem"),
                 ("Claude Skills Toolkit — claude-skills-toolkit ·  Skills agentic para Claude Code ·  security-audit (12 capas: OSV/KEV/EPSS/SAST/...) ·  yaml-control ·  md-lint-fix ·  docker-cleanup · Zero-deps por defecto · Cross-platform:", "claude"),
-                ("Gabysql — ️ GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge:", "gabysql"),
+                ("Gabysql — GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge:", "gabysql"),
 ],
             "projects_ats": [
                 ("Cloud/AWS e FinOps \u2014 GitHub (demo e documentazione):", "aws_gh"),
@@ -456,7 +460,7 @@ def get_content(lang):
                 ("Ingegneria Informatica", "Universidad de Tarapac\u00e1 (Arica)"),
                 ("Tecnico in Amministrazione Aziendale (Specializzazione Marketing)", "INACAP (Santiago)"),
             ],
-            "language_skill": "Inglese: lettura intermedia; scrittura e conversazione di base.",
+            "language_skill": "Inglese tecnico: lettura fluida (documentazione, codice, paper, IA tooling). Conversazione: base, in miglioramento attivo.",
             "transition_title": "Versione ottimizzata per ATS",
             "transition_body": "Di seguito una versione del curriculum ottimizzata per i sistemi di tracciamento candidati (ATS).",
             "transition_reasons": [
@@ -467,15 +471,15 @@ def get_content(lang):
             "transition_footer": "La pagina precedente \u00e8 per la lettura umana. Le seguenti sono per l'elaborazione automatica.",
         },
         "fr": {
-            "subtitle_rec": "Architecte de Solutions | Senior Full-Stack | Modernisation, Automatisation et IA Appliquée",
-            "subtitle_ats": "Architecte de Solutions | Senior Full-Stack | Modernisation, Automatisation et IA Appliquée",
+            "subtitle_rec": "Architecte Logiciel · 14 ans à moderniser des plateformes critiques avec IA appliquée",
+            "subtitle_ats": "Architecte Logiciel · 14 ans à moderniser des plateformes critiques avec IA appliquée",
             "h_contact": "CONTACT", "h_skills": "COMP\u00c9TENCES", "h_education": "FORMATION",
             "h_languages": "LANGUES", "h_summary": "R\u00c9SUM\u00c9", "h_experience": "EXP\u00c9RIENCE PRINCIPALE",
             "h_previous": "CARRI\u00c8RE ANT\u00c9RIEURE (SYNTH\u00c8SE)", "h_projects": "PROJETS EN VEDETTE",
             "h_training": "FORMATION ET ACTIVIT\u00c9 R\u00c9CENTE", "h_notes": "NOTES",
             "h_ats_experience": "EXP\u00c9RIENCE", "h_ats_education": "FORMATION ET ACTIVIT\u00c9 R\u00c9CENTE",
             "h_degrees": "FORMATION",
-            "exp_title_rec": "Fondation CEIS Maristas - Architecte Logiciel et D\u00e9veloppeur Full-Stack Senior",
+            "exp_title_rec": "Fondation CEIS Maristas \u2014 Architecte Logiciel \u00b7 Analyste et D\u00e9veloppeur Full-Stack",
             "exp_title_ats": "Fondation CEIS Maristas \u2014 Architecte Logiciel et D\u00e9veloppeur Full-Stack (2011-2025)",
             "summary": [
                 "14 ans d'exp\u00e9rience principale \u00e0 la Fondation CEIS Maristas (2011-2025), d\u00e9veloppant, maintenant et modernisant une plateforme \u00e9ducative/psychom\u00e9trique.",
@@ -489,11 +493,11 @@ def get_content(lang):
                 "Portfolio technique avec cas pratiques (Cloud/AWS, microsyst\u00e8mes, agents IA et observabilit\u00e9), documentation et d\u00e9mos v\u00e9rifiables sur GitHub et GitLab.",
             ],
             "experience": [
-                "D\u00e9veloppement, maintenance et \u00e9volution d'une plateforme d'\u00e9valuation des \u00e9l\u00e8ves, modules institutionnels et rapports.",
-                "Migration technologique de PHP 5.4 \u00e0 PHP 8.2+, mise \u00e0 jour des serveurs/biblioth\u00e8ques et am\u00e9liorations des performances.",
-                "Rapports PDF/Excel avec indicateurs, percentiles et analyse par classe, niveau et \u00e9tablissement.",
-                "Importation et migration de donn\u00e9es depuis Excel avec validations ; automatisation des communications et suivi.",
-                "Support direct aux utilisateurs cl\u00e9s (coordinateurs, conseillers, directeurs) et op\u00e9rations en production.",
+                "Suite d'\u00e9valuation \u00e9ducative/psychom\u00e9trique : <b>PCA</b> (apprentissage), <b>Bater\u00edas Psicoeducativas</b> (d\u00e9veloppement social/personnel) et <b>Bater\u00eda Online</b> (plateforme en ligne), plus mailing institutionnel, LimeSurvey et WordPress.",
+                "<b>M\u00e9triques v\u00e9rifi\u00e9es</b> : 80% d'am\u00e9lioration des rapports/charge de Bater\u00eda Online \u00b7 90% moins de friction dans le support client (2020-2025) \u00b7 45% d'optimisation DB/code \u00b7 jusqu'\u00e0 5 fronts concurrents \u00e0 certaines p\u00e9riodes.",
+                "<b>Pand\u00e9mie 2020</b> : migration des services en pr\u00e9sentiel vers le format en ligne en peu de temps (cit\u00e9 dans la lettre de recommandation).",
+                "Modernisation PHP 5.4 \u2192 8.2+, refactoring de modules critiques, transfert de logique vers JavaScript et \u00e9limination des doublons en DB.",
+                "Mailing de masse (PHP + Constant Contact) et <b>adoption interne d'IA (2024-2025)</b> pour analyse et r\u00e9solution de probl\u00e8mes techniques.",
             ],
             "ats_experience": [
                 "Conception, d\u00e9veloppement et maintenance d'une plateforme d'\u00e9valuation des \u00e9l\u00e8ves (batteries de tests), modules institutionnels et rapports.",
@@ -504,10 +508,11 @@ def get_content(lang):
  "Problem Driven Systems Lab — Laboratorio de sistemas distribuido con 12 casos reales Docker-first para diagnosticar y resolver problemas críticos de rendimiento, observabilidad, resiliencia y arquitectura",
  ("Problem Driven Systems Lab — Laboratorio de sistemas distribuido con 12 casos reales Docker-first para diagnosticar y resolver problemas críticos de rendimiento, observabilidad, resiliencia y arquitectura:", "problem"),
                 "Claude Skills Toolkit — claude-skills-toolkit ·  Skills agentic para Claude Code ·  security-audit (12 capas: OSV/KEV/EPSS/SAST/...) ·  yaml-control ·  md-lint-fix ·  docker-cleanup · Zero-deps por defecto · Cross-platform",
-                "Gabysql — ️ GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge",
-                "Python Data Science Program — Python Data Science Program · 197 clases en 9 partes (Python aplicado, ML clásico, Deep Learning, estadística inferencial, MLOps, ingeniería de datos, recomendadores, ética, capstones). Laboratorio Flask interactivo + app de escritorio Windows + app Android",
+                "Gabysql — GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge",
+                "Python Data Science Program — 197 clases en 9 partes: Python, ML, Deep Learning, MLOps, ingeniería de datos. Lab Flask + apps Windows/Android",
 ],
             "exp_tech": "Technologies : PHP, JavaScript, SQL Server, MySQL, Apache, JMeter, Excel, FPDF/PhpSpreadsheet, Constant Contact",
+            "exp_logros_label": "M\u00e9triques et r\u00e9alisations quantifi\u00e9es de la p\u00e9riode chez CEIS Maristas",
             "projects_rec": [
                 "Cloud/AWS et FinOps \u2014 GitHub + GitLab (15 cas AWS, CI/CD 5 stages)",
                 "Microsyst\u00e8mes \u2014 suite de 11 micro-apps, Hub CLI, serveur MCP",
@@ -518,7 +523,7 @@ def get_content(lang):
                 "Unikernel Labs \u2014 Control Center Windows (WSL2 + Node.js + WinForms)",
                 "ChofyAI Studio \u2014 lanceur IA locale macOS (Tauri + Rust + React)",
                 ("Claude Skills Toolkit — claude-skills-toolkit ·  Skills agentic para Claude Code ·  security-audit (12 capas: OSV/KEV/EPSS/SAST/...) ·  yaml-control ·  md-lint-fix ·  docker-cleanup · Zero-deps por defecto · Cross-platform :", "claude"),
-                ("Gabysql — ️ GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge :", "gabysql"),
+                ("Gabysql — GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge :", "gabysql"),
 ],
             "projects_ats": [
                 ("Cloud/AWS et FinOps \u2014 GitHub (d\u00e9mos et documentation) :", "aws_gh"),
@@ -544,7 +549,7 @@ def get_content(lang):
                 ("Ing\u00e9nierie Informatique", "Universidad de Tarapac\u00e1 (Arica)"),
                 ("Technicien en Administration des Entreprises (Sp\u00e9cialisation Marketing)", "INACAP (Santiago)"),
             ],
-            "language_skill": "Anglais : lecture interm\u00e9diaire ; \u00e9criture et conversation de base.",
+            "language_skill": "Anglais technique : lecture courante (documentation, code, papers, IA tooling). Conversation : basique, en am\u00e9lioration active.",
             "transition_title": "Version optimis\u00e9e pour ATS",
             "transition_body": "Les pages suivantes contiennent une version du CV optimis\u00e9e pour les syst\u00e8mes de suivi des candidatures (ATS).",
             "transition_reasons": [
@@ -555,15 +560,15 @@ def get_content(lang):
             "transition_footer": "La page pr\u00e9c\u00e9dente est pour la lecture humaine. Les suivantes sont pour le traitement automatique.",
         },
         "zh": {
-            "subtitle_rec": "解决方案架构师 | 高级全栈开发 | 现代化、自动化与应用AI",
-            "subtitle_ats": "解决方案架构师 | 高级全栈开发 | 现代化、自动化与应用AI",
+            "subtitle_rec": "软件架构师 · 14年现代化关键平台并应用AI",
+            "subtitle_ats": "软件架构师 · 14年现代化关键平台并应用AI",
             "h_contact": "\u8054\u7cfb\u65b9\u5f0f", "h_skills": "\u6280\u80fd", "h_education": "\u6559\u80b2\u80cc\u666f",
             "h_languages": "\u8bed\u8a00\u80fd\u529b", "h_summary": "\u6982\u8ff0", "h_experience": "\u4e3b\u8981\u7ecf\u9a8c",
             "h_previous": "\u65e9\u671f\u804c\u4e1a\u7ecf\u5386\uff08\u6458\u8981\uff09", "h_projects": "\u7cbe\u9009\u9879\u76ee",
             "h_training": "\u8fd1\u671f\u57f9\u8bad\u4e0e\u6d3b\u52a8", "h_notes": "\u5907\u6ce8",
             "h_ats_experience": "\u5de5\u4f5c\u7ecf\u9a8c", "h_ats_education": "\u8fd1\u671f\u57f9\u8bad\u4e0e\u6d3b\u52a8",
             "h_degrees": "\u6559\u80b2\u80cc\u666f",
-            "exp_title_rec": "CEIS Maristas\u57fa\u91d1\u4f1a - \u8f6f\u4ef6\u67b6\u6784\u5e08\u548c\u9ad8\u7ea7\u5168\u6808\u5f00\u53d1\u8005",
+            "exp_title_rec": "CEIS Maristas\u57fa\u91d1\u4f1a \u2014 \u8f6f\u4ef6\u67b6\u6784\u5e08 \u00b7 \u7cfb\u7edf\u5206\u6790\u5e08\u4e0e\u5168\u6808\u5f00\u53d1\u8005",
             "exp_title_ats": "CEIS Maristas\u57fa\u91d1\u4f1a \u2014 \u8f6f\u4ef6\u67b6\u6784\u5e08\u548c\u5168\u6808\u5f00\u53d1\u8005 (2011-2025)",
             "summary": [
                 "14\u5e74\u5728CEIS Maristas\u57fa\u91d1\u4f1a\u7684\u6838\u5fc3\u7ecf\u9a8c\uff082011-2025\uff09\uff0c\u5f00\u53d1\u3001\u7ef4\u62a4\u548c\u73b0\u4ee3\u5316\u6559\u80b2/\u5fc3\u7406\u6d4b\u91cf\u5e73\u53f0\u3002",
@@ -577,11 +582,11 @@ def get_content(lang):
                 "\u6280\u672f\u4f5c\u54c1\u96c6\u5305\u542b\u5b9e\u9645\u6848\u4f8b\uff08Cloud/AWS\u3001\u5fae\u7cfb\u7edf\u3001AI\u4ee3\u7406\u548c\u53ef\u89c2\u6d4b\u6027\uff09\u3001\u6587\u6863\u548cGitHub/GitLab\u4e0a\u7684\u53ef\u9a8c\u8bc1\u6f14\u793a\u3002",
             ],
             "experience": [
-                "\u5f00\u53d1\u3001\u7ef4\u62a4\u548c\u6f14\u8fdb\u5b66\u751f\u8bc4\u4f30\u5e73\u53f0\u3001\u673a\u6784\u6a21\u5757\u548c\u62a5\u8868\u7cfb\u7edf\u3002",
-                "\u4ecePHP 5.4\u5230PHP 8.2+\u7684\u6280\u672f\u8fc1\u79fb\uff0c\u670d\u52a1\u5668/\u5e93\u5347\u7ea7\u548c\u6027\u80fd\u6539\u8fdb\u3002",
-                "\u5305\u542b\u6307\u6807\u3001\u767e\u5206\u4f4d\u548c\u6309\u73ed\u7ea7/\u5e74\u7ea7/\u5b66\u6821\u5206\u6790\u7684PDF/Excel\u62a5\u8868\u3002",
-                "\u4eceExcel\u5bfc\u5165\u548c\u8fc1\u79fb\u6570\u636e\u5e76\u8fdb\u884c\u9a8c\u8bc1\uff1b\u901a\u4fe1\u548c\u8ddf\u8e2a\u7684\u81ea\u52a8\u5316\u3002",
-                "\u76f4\u63a5\u652f\u6301\u5173\u952e\u7528\u6237\uff08\u534f\u8c03\u5458\u3001\u987e\u95ee\u3001\u6821\u9886\u5bfc\uff09\u548c\u751f\u4ea7\u8fd0\u8425\u3002",
+                "\u6559\u80b2/\u5fc3\u7406\u8bc4\u4f30\u5957\u4ef6\uff1a<b>PCA</b>\uff08\u5b66\u4e60\u8bc4\u4f30\uff09\u3001<b>Bater\u00edas Psicoeducativas</b>\uff08\u793e\u4f1a/\u4e2a\u4eba\u53d1\u5c55\u8bc4\u4f30\uff09\u548c <b>Bater\u00eda Online</b>\uff08\u5728\u7ebf\u5e73\u53f0\uff09\uff0c\u4ee5\u53ca\u673a\u6784\u90ae\u4ef6\u3001LimeSurvey \u548c WordPress\u3002",
+                "<b>\u5df2\u9a8c\u8bc1\u6307\u6807</b>\uff1aBater\u00eda Online \u62a5\u8868/\u52a0\u8f7d\u63d0\u5347 80% \u00b7 \u5ba2\u6237\u652f\u6301\u6469\u64e6\u51cf\u5c11 90%\uff082020-2025\uff09\u00b7 \u6570\u636e\u5e93/\u4ee3\u7801\u4f18\u5316 45% \u00b7 \u7279\u5b9a\u65f6\u671f\u540c\u65f6\u5904\u7406\u591a\u8fbe 5 \u6761\u5de5\u4f5c\u7ebf\u3002",
+                "<b>2020 \u5e74\u75ab\u60c5</b>\uff1a\u5728\u77ed\u65f6\u95f4\u5185\u5c06\u7ebf\u4e0b\u670d\u52a1\u8fc1\u79fb\u81f3\u5728\u7ebf\u5e73\u53f0\uff08\u63a8\u8350\u4fe1\u4e2d\u63d0\u53ca\uff09\u3002",
+                "PHP 5.4 \u2192 8.2+ \u73b0\u4ee3\u5316\u3001\u5173\u952e\u6a21\u5757\u91cd\u6784\u3001\u903b\u8f91\u8fc1\u79fb\u81f3 JavaScript\u3001\u6570\u636e\u5e93\u53bb\u91cd\u3002",
+                "\u5927\u89c4\u6a21\u90ae\u4ef6 (PHP + Constant Contact) \u53ca <b>2024-2025 \u5185\u90e8 AI \u5e94\u7528</b>\uff0c\u7528\u4e8e\u6280\u672f\u5206\u6790\u4e0e\u95ee\u9898\u89e3\u51b3\u3002",
             ],
             "ats_experience": [
                 "\u8bbe\u8ba1\u3001\u5f00\u53d1\u548c\u7ef4\u62a4\u5b66\u751f\u8bc4\u4f30\u5e73\u53f0\uff08\u6d4b\u8bd5\u7535\u6c60\uff09\u3001\u673a\u6784\u6a21\u5757\u548c\u62a5\u8868\u3002",
@@ -589,13 +594,9 @@ def get_content(lang):
                 "\u5f00\u53d1\u5305\u542b\u6307\u6807\u3001\u767e\u5206\u4f4d\u548c\u6309\u73ed\u7ea7/\u5e74\u7ea7/\u5b66\u6821\u5206\u6790\u7684\u9ad8\u7ea7PDF/Excel\u62a5\u8868\u3002",
                 "\u4eceExcel\u5927\u89c4\u6a21\u5bfc\u5165\u548c\u8fc1\u79fb\u6570\u636e\u5e76\u8fdb\u884c\u9a8c\u8bc1\uff1b\u901a\u4fe1\u81ea\u52a8\u5316\uff08\u53d1\u9001\u3001\u5206\u7ec4\u3001\u8ddf\u8e2a\uff09\u3002",
                 "\u76f4\u63a5\u652f\u6301\u5173\u952e\u7528\u6237\uff08\u534f\u8c03\u5458\u3001\u987e\u95ee\u3001\u6821\u9886\u5bfc\uff09\u548c\u751f\u4ea7\u8fd0\u8425\u3002",
- "Problem Driven Systems Lab — Laboratorio de sistemas distribuido con 12 casos reales Docker-first para diagnosticar y resolver problemas críticos de rendimiento, observabilidad, resiliencia y arquitectura",
- ("Problem Driven Systems Lab — Laboratorio de sistemas distribuido con 12 casos reales Docker-first para diagnosticar y resolver problemas críticos de rendimiento, observabilidad, resiliencia y arquitectura ：", "problem"),
-                "Claude Skills Toolkit — claude-skills-toolkit ·  Skills agentic para Claude Code ·  security-audit (12 capas: OSV/KEV/EPSS/SAST/...) ·  yaml-control ·  md-lint-fix ·  docker-cleanup · Zero-deps por defecto · Cross-platform",
-                "Gabysql — ️ GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge",
-                "Python Data Science Program — Python Data Science Program · 197 clases en 9 partes (Python aplicado, ML clásico, Deep Learning, estadística inferencial, MLOps, ingeniería de datos, recomendadores, ética, capstones). Laboratorio Flask interactivo + app de escritorio Windows + app Android",
-],
+            ],
             "exp_tech": "\u6280\u672f\u6808\uff1aPHP, JavaScript, SQL Server, MySQL, Apache, JMeter, Excel, FPDF/PhpSpreadsheet, Constant Contact",
+            "exp_logros_label": "CEIS Maristas\u671f\u95f4\u7684\u91cf\u5316\u6307\u6807\u4e0e\u6210\u5c31",
             "projects_rec": [
                 "Cloud/AWS\u548cFinOps \u2014 GitHub + GitLab\uff0815\u4e2aAWS\u6848\u4f8b\uff0cCI/CD 5\u9636\u6bb5\uff09",
                 "\u5fae\u7cfb\u7edf \u2014 11\u4e2a\u5fae\u5e94\u7528\u5957\u4ef6\uff0cHub CLI\uff0cMCP\u670d\u52a1\u5668",
@@ -605,9 +606,7 @@ def get_content(lang):
                 "MCP + \u672c\u5730Ollama \u2014 \u672c\u5730AI\u804a\u5929\uff0cMCP\u5de5\u5177\uff0c100%\u79c1\u6709",
                 "Unikernel Labs \u2014 Windows\u63a7\u5236\u4e2d\u5fc3 (WSL2 + Node.js + WinForms)",
                 "ChofyAI Studio \u2014 macOS\u672c\u5730AI\u542f\u52a8\u5668 (Tauri + Rust + React)",
-                ("Claude Skills Toolkit — claude-skills-toolkit ·  Skills agentic para Claude Code ·  security-audit (12 capas: OSV/KEV/EPSS/SAST/...) ·  yaml-control ·  md-lint-fix ·  docker-cleanup · Zero-deps por defecto · Cross-platform：", "claude"),
-                ("Gabysql — ️ GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge：", "gabysql"),
-],
+            ],
             "projects_ats": [
                 ("Cloud/AWS\u548cFinOps \u2014 GitHub\uff08\u6f14\u793a\u548c\u6587\u6863\uff09\uff1a", "aws_gh"),
                 ("Cloud/AWS \u2014 GitLab\uff0815\u4e2a\u6848\u4f8b\uff0cCI/CD 5\u9636\u6bb5\uff0c~80% SAA-C03\uff09\uff1a", "aws_gl"),
@@ -632,7 +631,7 @@ def get_content(lang):
                 ("\u8ba1\u7b97\u673a\u4e0e\u4fe1\u606f\u5de5\u7a0b", "Universidad de Tarapac\u00e1 (Arica)"),
                 ("\u5de5\u5546\u7ba1\u7406\u6280\u672f\u5458\uff08\u5e02\u573a\u8425\u9500\u65b9\u5411\uff09", "INACAP (Santiago)"),
             ],
-            "language_skill": "\u82f1\u8bed\uff1a\u4e2d\u7ea7\u9605\u8bfb\uff1b\u57fa\u7840\u5199\u4f5c\u548c\u4f1a\u8bdd\u3002",
+            "language_skill": "\u6280\u672f\u82f1\u8bed\uff1a\u6d41\u5229\u9605\u8bfb\uff08\u6587\u6863\u3001\u4ee3\u7801\u3001\u8bba\u6587\u3001AI\u5de5\u5177\uff09\u3002\u4f1a\u8bdd\uff1a\u57fa\u7840\uff0c\u6b63\u5728\u79ef\u6781\u63d0\u5347\u3002",
             "transition_title": "ATS\u4f18\u5316\u7248\u672c",
             "transition_body": "\u4ee5\u4e0b\u9875\u9762\u5305\u542b\u9488\u5bf9\u5019\u9009\u4eba\u8ddf\u8e2a\u7cfb\u7edf\uff08ATS\uff09\u4f18\u5316\u7684\u7b80\u5386\u7248\u672c\u3002",
             "transition_reasons": [
@@ -692,9 +691,18 @@ def _ats_bullet(style, text):
 
 from reportlab.platypus import SimpleDocTemplate
 
-def build_cv(data, output_path):
+def build_cv(data, output_path, lang="es"):
     """Build a standalone ATS CV PDF."""
     s = _ats_make_styles()
+    if lang == "zh":
+        try:
+            from reportlab.pdfbase import pdfmetrics
+            from reportlab.pdfbase.cidfonts import UnicodeCIDFont
+            pdfmetrics.registerFont(UnicodeCIDFont("STSong-Light"))
+            for st in s.values():
+                st.fontName = "STSong-Light"
+        except Exception:
+            pass
     doc = SimpleDocTemplate(output_path, pagesize=letter, leftMargin=0.7*inch, rightMargin=0.7*inch, topMargin=0.5*inch, bottomMargin=0.5*inch)
     story = []
     story.append(Paragraph("Vladimir Acu\u00f1a", s["name"]))
@@ -798,21 +806,33 @@ def make_rmain(lang):
         (labels["achievements"], f"{base}/declaracion-logros-validacion{suffix}.pdf"),
         (labels["recommendation"], f"{base}/carta-recomendacion_sin_firma{suffix}.pdf"),
     ]
+    exp_logros_link = (
+        T["exp_logros_label"],
+        f"{base}/declaracion-logros-validacion{suffix}.pdf",
+    )
     return dict(
         h_summary=T["h_summary"],
         summary=T["summary"],
         h_experience=T["h_experience"],
         exp_title=T["exp_title_rec"],
-        exp_date="2011-2025",
+        exp_date={
+            "es": "mayo 2011 — octubre 2025",
+            "en": "May 2011 — October 2025",
+            "pt": "maio 2011 — outubro 2025",
+            "it": "maggio 2011 — ottobre 2025",
+            "fr": "mai 2011 — octobre 2025",
+            "zh": "2011年5月 — 2025年10月",
+        }[lang],
         experience=T["experience"],
         exp_tech=T["exp_tech"],
+        exp_logros_link=exp_logros_link,
         h_previous=T["h_previous"],
         previous=PREVIOUS_CAREER[lang],
         h_projects=T["h_projects"],
         projects=T["projects_rec"],
         doc_links=doc_links,
-        h_training=T["h_skills"],
-        training=[f"{T['skills_labels'][i]} {SKILLS_VALUES[i]}" for i in range(7)],
+        h_training=T["h_training"],
+        training=T["training"],
     )
 
 def make_transition(lang):
@@ -887,11 +907,11 @@ def main():
         rmain = make_rmain(lang)
         transition = make_transition(lang)
         ats = make_ats(lang)
-        build_unified(header, sidebar, rmain, transition, ats, rec_path)
+        build_unified(header, sidebar, rmain, transition, ats, rec_path, lang=lang)
 
         # Standalone ATS CV
         ats_path = os.path.normpath(os.path.join(ASSETS_DIR, f"cv-ats{suffix}.pdf"))
-        build_cv(ats, ats_path)  # Uses the ATS-only builder from generate-ats-cv.py
+        build_cv(ats, ats_path, lang=lang)  # Uses the ATS-only builder
 
     print("=" * 50)
     print("Done. All 12 PDFs generated.")

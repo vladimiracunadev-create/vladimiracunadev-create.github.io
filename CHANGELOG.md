@@ -1,5 +1,90 @@
 # Changelog
 
+## 2026-05-22
+
+Sesión exhaustiva de auditoría + rediseño + enriquecimiento de los CVs reclutador (6 idiomas). Estructura aprobada visualmente por el usuario tras revisión PDF a PDF.
+
+### feat(cv-reclutador): rewrite EXPERIENCIA con suite real de productos CEIS + métricas verificadas
+
+El bloque EXPERIENCIA del cv-reclutador era genérico ("Desarrollo, mantención y evolución de plataforma…") y no reflejaba la riqueza real del período en Fundación CEIS Maristas, contradiciendo lo que dicen la carta de recomendación y la declaración de logros. Rewrite completo en los 6 idiomas:
+
+- **Cargo combinado**: "Arquitecto de Software · Analista y Desarrollador Full-Stack" (mezcla la autotitulación con el cargo oficial de la carta de recomendación).
+- **Fecha precisa**: "mayo 2011 — octubre 2025" (antes "2011-2025"; ahora coincide con la carta).
+- **5 bullets densos** que reemplazan los 5 genéricos previos:
+  1. **Suite de productos**: PCA (aprendizaje), Baterías Psicoeducativas (desarrollo social/personal), Batería Online (plataforma online), más mailing institucional, LimeSurvey y WordPress.
+  2. **Métricas verificadas**: 80% mejora reportes/carga Batería Online · 90% menos fricción atención clientes (2020-2025) · 45% optimización DB/código · hasta 5 frentes concurrentes.
+  3. **Pandemia 2020**: migración de servicios presenciales a online en tiempo breve (citado en carta de recomendación).
+  4. Modernización PHP 5.4 → 8.2+, refactor módulos críticos, traslado de lógica a JavaScript, eliminación de duplicidades en DB.
+  5. Mailing masivo (PHP + Constant Contact) y **adopción interna de IA (2024-2025)** para análisis y resolución de problemas técnicos.
+
+NO se incluyen en el CV (por decisión deliberada, ver discusión de sesión): datos de contacto del referee (mejor práctica internacional: solo "disponible a solicitud" — además el link a la carta ya lo cubre) ni razón de salida (contenido defensivo que pertenece a entrevista, no a CV).
+
+### feat(cv-reclutador): mejoras de contenido en header, idiomas y referencia a logros
+
+- **Subtítulo más corto y posicionado** (6 idiomas, en `subtitle_rec` + `subtitle_ats`):
+  - Antes: "Arquitecto de Soluciones | Senior Full-Stack | Modernización, Automatización e IA Aplicada"
+  - Ahora: "Arquitecto de Software · 14 años modernizando plataformas críticas con IA aplicada"
+- **Línea de inglés reformulada** (6 idiomas, en `language_skill`):
+  - Antes: "Inglés: intermedio en lectura; básico en escritura y conversación." (red flag para roles internacionales)
+  - Ahora: "Inglés técnico: lectura fluida (documentación, código, papers, IA tooling). Conversación: básica, en mejora activa."
+- **Referencia inline a logros**: al final de la línea `Tecnologías:` se añade un link italica azul `→ Métricas y logros cuantificados del periodo CEIS Maristas` apuntando a `declaracion-logros-validacion{suffix}.pdf` (label per-idioma vía nuevo campo `exp_logros_label`). Implementado en `build_recruiter_section` como concatenación a `exp_tech` para no añadir párrafo extra (preserva conteo de páginas).
+
+### fix(cv-reclutador): layout 2-columnas estable + 4 páginas en los 6 idiomas
+
+El layout aprobado por commit `9dab81c` estaba roto visualmente: el `main_frame` desbordaba a la sidebar en pág 1 y el sidebar (CONTACTO/SKILLS/EDUCACIÓN/IDIOMAS) terminaba ocupando una página propia (pág 2). Total 5 páginas, layout 2-columnas no se cumplía.
+
+Causa: estilos demasiado holgados en `recruiter_styles()` (`fontSize=9.2, leading=12.5`) sumados al volumen del main (12 proyectos + experiencia + trayectoria previa + formación). El `FrameBreak()` quedaba inalcanzable dentro de pág 1.
+
+Fix en `scripts/generate-unified-cv.py:47-106` (`recruiter_styles`): reducción gradual de fontSize/leading/spaceBefore/spaceAfter — bullet 8.5pt → 8.0pt, leading 11.5 → 10.5, heading 11 → 10.5, tech 8 → 7.5, spaceBefore heading 5 → 4. Sumado al rewrite del bloque EXPERIENCIA (bullets más densos pero más informativos), el main entero entra en su frame y el sidebar fluye correctamente al lado en pág 1.
+
+Resultado: los 6 PDFs tienen 4 páginas (recruiter 2-col → transición → ATS 2 págs), sidebar a la izquierda con fondo gris, FORMACIÓN al pie de la columna principal.
+
+### feat(generate-unified-cv): soporte de fuente CJK para chino
+
+Antes, los caracteres chinos se renderizaban como cuadros ■ porque ningún estilo registraba fuente CJK (Helvetica no tiene glifos). Fix:
+
+- Registro de `UnicodeCIDFont("STSong-Light")` (incluida en ReportLab, sin fuente externa requerida) al import de `generate-unified-cv.py`.
+- Helper `_apply_cjk(styles_dict)` que swap-ea `fontName` a `STSong-Light` en todos los estilos del dict.
+- `UnifiedCV.__init__` ahora acepta `lang="es"` y guarda `self.lang` (tras `BaseDocTemplate.__init__`, que lo reseteaba si se asignaba antes — bug encontrado mediante monkey-patching).
+- `_draw_recruiter_page` usa CJK para el header drawing (canvas-level) cuando `self.lang == "zh"`.
+- `build_recruiter_section`, `build_transition_section`, `build_ats_section` reciben `lang` y aplican `_apply_cjk` al crear sus estilos.
+- `build_cv` (ATS standalone) también acepta `lang` y aplica CJK condicional.
+
+Resultado verificado: `cv-reclutador-chinese.pdf` y `cv-ats-chinese.pdf` ahora renderizan chino real (`概述`, `主要经验`, `技能`, etc.) con 0 cuadros ■.
+
+### fix(cv-reclutador): SKILLS solo en sidebar izquierda + restaura FORMACIÓN Y ACTIVIDAD RECIENTE
+
+Revertido el hijack del bloque `h_training` en `scripts/generate-all-languages.py:813-815` introducido por commit `9dab81c`. Aquel cambio reemplazó el contenido de "FORMACIÓN Y ACTIVIDAD RECIENTE" en la columna derecha por una **duplicación** del bloque SKILLS — violación regla #1 CLAUDE.md (nunca destruir, solo integrar).
+
+- `make_rmain()` vuelve a usar `h_training=T["h_training"]` y `training=T["training"]`.
+- SKILLS queda únicamente en la sidebar izquierda (`make_sidebar`, posición correcta tras `contact_links`).
+- FORMACIÓN/ACTIVIDAD RECIENTE recupera sus bullets originales.
+
+### fix(cv-chino): limpieza de bugs preexistentes en bloque `zh`
+
+- `ats_experience`: 5 líneas huérfanas mezcladas (strings en español + tuple mal formada) — eliminadas.
+- `projects_rec`: cerraba con 2 tuples `("texto", "key")` cuando la lista esperaba strings — se filtraban como `('Claude Skills Toolkit…', 'claude')` literal en el PDF. Eliminadas.
+- Indentación de cierres `],` corregida.
+
+### fix(content): emoji huérfano y texto duplicado en bullets de proyectos
+
+- **Gabysql**: `️` (variation selector-16) huérfano antes de "GabySQL" — el emoji original se había perdido en algún round-trip de edición, dejando solo el modificador que renderizaba como ■. Eliminado en las 10 ocurrencias (`projects_rec` × 6 langs + `projects_ats` × 6 langs… equivalente).
+- **Python Data Science Program**: el texto se duplicaba literalmente — "Python Data Science Program — Python Data Science Program · 197 clases…". Acortado a "Python Data Science Program — 197 clases en 9 partes: Python, ML, Deep Learning, MLOps, ingeniería de datos. Lab Flask + apps Windows/Android". 7 ocurrencias.
+- **doc_links bullet**: cambiado de `•` a `<b>→</b>` para distinguir visualmente "Ver declaración de logros" / "Ver carta de recomendación" de los bullets de proyectos en pág 1 (antes parecían 2 proyectos más).
+
+### chore(repo): protocolo de backups + integridad binaria + huérfanos
+
+- **Backup obligatorio**: `assets/backups/2026-05-22/` con los 13 PDFs CV pre-sesión (regla #2 CLAUDE.md). Incluye las 6 variantes de `cv-ats*` y `cv-reclutador*` + el huérfano `cv-reclutador-ats.pdf`.
+- **Archivo huérfano movido**: `assets/cv-reclutador-ats.pdf` (66 KB, PDF 1.7, marzo 2026, no referenciado en HTML/JS/JSON, fuera del naming pattern) → `assets/no_aplica/cv-reclutador-ats.pdf` (carpeta gitignored, no se publica en API).
+- **`.gitattributes` creado**: marca `*.pdf *.png *.jpg *.woff* *.zip` etc. como `binary` para evitar la conversión LF↔CRLF que Git estaba intentando aplicar a los PDFs en Windows (warnings reales detectados; riesgo de corrupción cross-platform).
+- **`.gitignore`**: añadido `__pycache__/` y `*.py[cod]` (faltaban; el caché de bytecode estaba apareciendo en `git status`).
+
+### docs
+
+PDFs regenerados: 12 PDFs CV (6 reclutador + 6 ATS), 4 páginas cada reclutador, layout 2-columnas con sidebar a la izquierda, CJK funcional para chino.
+
+**Follow-up pendiente** (no abordado en esta sesión): los otros 3 generators de PDFs en chino (`generate-portfolio.py`, `generate-achievements-statement.py`, `generate-recommendation-letter.py`) tampoco registran fuente CJK. Si se abren las versiones `-chinese.pdf` de portafolio, declaración y carta, los caracteres seguirán como ■. Aplicar el mismo patrón es trabajo separado.
+
 ## 2026-05-21
 
 ### fix(content): eliminar residuos del repo renombrado python-data-science-bootcamp

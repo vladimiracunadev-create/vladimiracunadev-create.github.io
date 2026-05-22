@@ -17,6 +17,23 @@ from reportlab.platypus import (
 )
 from reportlab.lib.styles import ParagraphStyle
 from reportlab.lib.enums import TA_LEFT, TA_CENTER
+from reportlab.pdfbase import pdfmetrics
+from reportlab.pdfbase.cidfonts import UnicodeCIDFont
+
+# Register a CJK font once (idempotent). Used when lang='zh' so chinese
+# characters don't render as .notdef boxes.
+try:
+    pdfmetrics.registerFont(UnicodeCIDFont("STSong-Light"))
+except Exception:
+    pass
+
+CJK_FONT = "STSong-Light"
+
+def _apply_cjk(styles_dict):
+    """Swap Helvetica fonts in a styles dict for the CJK font."""
+    for st in styles_dict.values():
+        st.fontName = CJK_FONT
+    return styles_dict
 
 # ── Colors ──────────────────────────────────────────
 NAVY = HexColor("#1e3a5f")
@@ -68,32 +85,32 @@ def recruiter_styles():
             textColor=ACCENT, spaceAfter=1.5,
         ),
         heading=ParagraphStyle(
-            "RHeading", fontName="Helvetica-Bold", fontSize=12, leading=15,
-            textColor=NAVY, spaceBefore=8, spaceAfter=3,
+            "RHeading", fontName="Helvetica-Bold", fontSize=10.5, leading=12,
+            textColor=NAVY, spaceBefore=4, spaceAfter=1,
         ),
         subheading=ParagraphStyle(
-            "RSubHeading", fontName="Helvetica-Bold", fontSize=10, leading=13,
-            textColor=DARK, spaceBefore=3, spaceAfter=1,
+            "RSubHeading", fontName="Helvetica-Bold", fontSize=9, leading=11,
+            textColor=DARK, spaceBefore=1, spaceAfter=0,
         ),
         date=ParagraphStyle(
-            "RDate", fontName="Helvetica", fontSize=9, leading=12,
-            textColor=MUTED, spaceAfter=2,
+            "RDate", fontName="Helvetica", fontSize=8, leading=10,
+            textColor=MUTED, spaceAfter=1,
         ),
         body=ParagraphStyle(
-            "RBody", fontName="Helvetica", fontSize=9.2, leading=12.5,
-            textColor=DARK, spaceAfter=2,
+            "RBody", fontName="Helvetica", fontSize=8, leading=10.5,
+            textColor=DARK, spaceAfter=1,
         ),
         bullet=ParagraphStyle(
-            "RBullet", fontName="Helvetica", fontSize=9.2, leading=12.5,
-            textColor=DARK, spaceAfter=2, leftIndent=10, bulletIndent=0,
+            "RBullet", fontName="Helvetica", fontSize=8, leading=10.5,
+            textColor=DARK, spaceAfter=0.5, leftIndent=10, bulletIndent=0,
         ),
         tech=ParagraphStyle(
-            "RTech", fontName="Helvetica", fontSize=8.5, leading=11,
-            textColor=MUTED, spaceAfter=2,
+            "RTech", fontName="Helvetica", fontSize=7.5, leading=10,
+            textColor=MUTED, spaceAfter=1,
         ),
         link=ParagraphStyle(
-            "RLink", fontName="Helvetica", fontSize=9, leading=12,
-            textColor=ACCENT, spaceAfter=2, leftIndent=10, bulletIndent=0,
+            "RLink", fontName="Helvetica", fontSize=8, leading=10.5,
+            textColor=ACCENT, spaceAfter=1, leftIndent=14, bulletIndent=0,
         ),
         note_heading=ParagraphStyle(
             "RNoteH", fontName="Helvetica-Bold", fontSize=9.5, leading=13,
@@ -500,11 +517,13 @@ HEADER_EN = dict(
 class UnifiedCV(BaseDocTemplate):
     """Multi-template document: recruiter page, transition, then ATS pages."""
 
-    def __init__(self, filename, header_data, **kw):
+    def __init__(self, filename, header_data, lang="es", **kw):
         self.header_data = header_data
         BaseDocTemplate.__init__(self, filename, pagesize=letter,
                                   leftMargin=0, rightMargin=0,
                                   topMargin=0, bottomMargin=0, **kw)
+        # Set lang AFTER super.__init__ — BaseDocTemplate.__init__ resets it.
+        self.lang = lang
 
         # ── Template 1: Recruiter (two-column with header) ──
         main_frame = Frame(
@@ -554,15 +573,17 @@ class UnifiedCV(BaseDocTemplate):
         # Navy header
         canvas.setFillColor(NAVY)
         canvas.rect(0, PAGE_H - HEADER_H, PAGE_W, HEADER_H, fill=1, stroke=0)
-        # Header text
+        # Header text (use CJK font for subtitle if zh)
+        body_font = CJK_FONT if self.lang == "zh" else "Helvetica"
+        bold_font = CJK_FONT if self.lang == "zh" else "Helvetica-Bold"
         canvas.setFillColor(WHITE)
-        canvas.setFont("Helvetica-Bold", 22)
+        canvas.setFont(bold_font, 22)
         canvas.drawString(0.45*inch, PAGE_H - 0.45*inch, self.header_data["name"])
         canvas.setFillColor(HexColor("#c0d0e8"))
-        canvas.setFont("Helvetica", 10)
+        canvas.setFont(body_font, 10)
         canvas.drawString(0.45*inch, PAGE_H - 0.65*inch, self.header_data["subtitle"])
         canvas.setFillColor(HexColor("#a0b8d0"))
-        canvas.setFont("Helvetica", 8.5)
+        canvas.setFont(body_font, 8.5)
         canvas.drawString(0.45*inch, PAGE_H - 0.85*inch, self.header_data["contact"])
         # Sidebar background
         canvas.setFillColor(SIDEBAR_BG)
@@ -593,9 +614,11 @@ class UnifiedCV(BaseDocTemplate):
 # BUILD FUNCTIONS
 # ═══════════════════════════════════════════════════
 
-def build_recruiter_section(sidebar_data, main_data):
+def build_recruiter_section(sidebar_data, main_data, lang="es"):
     """Build recruiter page flowables (main + sidebar)."""
     s = recruiter_styles()
+    if lang == "zh":
+        _apply_cjk(s)
     items = []
 
     # ── Main column ──
@@ -609,7 +632,12 @@ def build_recruiter_section(sidebar_data, main_data):
     items.append(Paragraph(main_data["exp_date"], s["date"]))
     for t in main_data["experience"]:
         items.append(bp(s["bullet"], t))
-    items.append(Paragraph(main_data["exp_tech"], s["tech"]))
+    # exp_tech + (optional) logros link in same paragraph to preserve page count
+    tech_line = main_data["exp_tech"]
+    if main_data.get("exp_logros_link"):
+        label, url = main_data["exp_logros_link"]
+        tech_line += f'  ·  <b>→</b> <link href="{url}" color="#2563eb"><i>{label}</i></link>'
+    items.append(Paragraph(tech_line, s["tech"]))
     items.append(hr())
 
     items.append(Paragraph(main_data["h_previous"], s["heading"]))
@@ -624,7 +652,7 @@ def build_recruiter_section(sidebar_data, main_data):
     if main_data.get("doc_links"):
         items.append(hr())
         for label, url in main_data["doc_links"]:
-            items.append(Paragraph(f'\u2022 <link href="{url}">{label}</link>', s["link"]))
+            items.append(Paragraph(f'<b>\u2192</b> <link href="{url}">{label}</link>', s["link"]))
 
     items.append(hr())
 
@@ -661,10 +689,13 @@ def build_recruiter_section(sidebar_data, main_data):
     return items
 
 
-def build_transition_section(trans_data):
+def build_transition_section(trans_data, lang="es"):
     """Build transition page flowables."""
     ts = transition_styles()
     s = recruiter_styles()
+    if lang == "zh":
+        _apply_cjk(ts)
+        _apply_cjk(s)
     items = []
 
     items.append(Spacer(1, 1.5*inch))
@@ -674,7 +705,8 @@ def build_transition_section(trans_data):
     items.append(Spacer(1, 0.25*inch))
 
     reason_style = ParagraphStyle(
-        "Reason", fontName="Helvetica", fontSize=9.5, leading=13,
+        "Reason", fontName=(CJK_FONT if lang == "zh" else "Helvetica"),
+        fontSize=9.5, leading=13,
         textColor=DARK, spaceAfter=6, leftIndent=20, bulletIndent=8,
     )
     for reason in trans_data["reasons"]:
@@ -686,9 +718,11 @@ def build_transition_section(trans_data):
     return items
 
 
-def build_ats_section(ats_data):
+def build_ats_section(ats_data, lang="es"):
     """Build ATS page flowables."""
     s = ats_styles()
+    if lang == "zh":
+        _apply_cjk(s)
     items = []
 
     # Header
@@ -744,24 +778,24 @@ def build_ats_section(ats_data):
     return items
 
 
-def build_unified(header, sidebar, rmain, transition, ats, output_path):
+def build_unified(header, sidebar, rmain, transition, ats, output_path, lang="es"):
     """Build the complete unified CV."""
-    doc = UnifiedCV(output_path, header)
+    doc = UnifiedCV(output_path, header, lang=lang)
 
     story = []
 
     # Page 1: Recruiter
-    story.extend(build_recruiter_section(sidebar, rmain))
+    story.extend(build_recruiter_section(sidebar, rmain, lang=lang))
 
     # Page 2: Transition
     story.append(NextPageTemplate("transition"))
     story.append(PageBreak())
-    story.extend(build_transition_section(transition))
+    story.extend(build_transition_section(transition, lang=lang))
 
     # Page 3+: ATS
     story.append(NextPageTemplate("ats"))
     story.append(PageBreak())
-    story.extend(build_ats_section(ats))
+    story.extend(build_ats_section(ats, lang=lang))
 
     doc.build(story)
     size_kb = os.path.getsize(output_path) / 1024
