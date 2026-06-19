@@ -304,11 +304,12 @@
       "fuzzed_queries": "503.8M"
     },
     {
-      "name": "Automa · PC Orchestrator v0.2.0",
+      "name": "Automa · PC Orchestrator v0.2.1",
       "description": "🤖 Automa · Orquestador local de acciones efectivas sobre Windows. 20 flows operativos declarativos (JSON), abre ventanas reales, interactúa con DOM, captura evidencia, deja trazabilidad. Panel local en 127.0.0.1 (pywebview + PyInstaller). Stack: Python 3.10+, Playwright (headless/visible), SQLite historial, OCR/visión, uv packaging, 115 pytest tests. Local-first. ⚙️",
       "url": "https://github.com/vladimiracunadev-create/automa-pc",
       "site_url": "https://vladimiracunadev-create.github.io/automa-pc/",
-      "version": "v0.2.0",
+      "release_url": "https://github.com/vladimiracunadev-create/automa-pc/releases/latest",
+      "version": "v0.2.1",
       "tags": [
         "Python 3.10+",
         "Windows",

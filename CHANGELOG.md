@@ -1,5 +1,42 @@
 # Changelog
 
+## 2026-06-19 (III) — verificación de enlaces + botones Release/Commits
+
+Auditoría completa de los 14 repos enlazados desde `index.html`:
+
+- **14/14 repos existen** (200 OK vía `gh api`).
+- **8 repos tienen releases publicadas**: automa-pc (**v0.2.1** — release del 19-jun), docker-labs (v1.5.0), gabysql (desktop-v0.1.0), microsistemas (v1.1.0), python-data-science-program (v3.8.0), social-bot-scheduler (v2.2.0 — único tag), unikernel-labs (v1.0.0), `.github.io` (v2.2.0).
+- **5 repos sin releases**: chofyai-studio, claude-skills-toolkit, langgraph-realworld, mcp-ollama-local, problem-driven-systems-lab, proyectos-aws.
+
+### Cambios aplicados en `index.html`
+
+Botón nuevo por cada card del bloque `#proyectos` (los 13 URLs nuevos verificados con HEAD 200):
+
+| Card | Botón nuevo |
+|---|---|
+| microsistemas | Release v1.1.0 |
+| docker-labs | Release v1.5.0 |
+| proyectos-aws | Commits |
+| langgraph-realworld | Commits |
+| mcp-ollama-local | Commits |
+| unikernel-labs | Release v1.0.0 |
+| chofyai-studio | Commits |
+| problem-driven-systems-lab | Commits |
+| claude-skills-toolkit | Commits |
+| gabysql | Release desktop-v0.1.0 |
+| automa-pc | Release v0.2.1 (entre GitHub y Sitio) |
+| python-data-science-program | Release v3.8.0 |
+
+### Bump automa-pc v0.2.0 → v0.2.1
+
+- `api/v1/projects.json`: `version: v0.2.1` + nuevo campo `release_url`.
+
+### social-bot-scheduler — caso pendiente
+
+El repo tiene solo `v2.2.0` (2026-01-26) como tag/release público, pero el portfolio (y el repo mismo internamente) reportan v4.3.0. **No se agrega botón Release todavía** — quedó task spawned para que el usuario publique el tag v4.3 en el repo correspondiente. Hasta entonces el card mantiene solo `GitHub` + `README`.
+
+---
+
 ## 2026-06-19 (II) — agregar Automa · PC Orchestrator
 
 Repo nuevo detectado tras auditoría adicional de `gh repo list` (no estaba en la primera pasada). Incorporación quirúrgica sin tocar el resto.
