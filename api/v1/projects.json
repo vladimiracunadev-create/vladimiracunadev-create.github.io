@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "v1",
-    "generated_at": "2026-05-21",
+    "generated_at": "2026-06-19",
     "source_pdf": "assets/cv-ats.pdf"
   },
   "projects": [
@@ -88,8 +88,9 @@
     },
     {
       "name": "Microsistemas · Productivity Suite",
-      "description": "🔧 Microsistemas · Colección de microsistemas web autocontenidos para tareas recurrentes: desarrollo, mantención, diagnóstico y modernización de sistemas legacy. 🏗️",
+      "description": "🔧 Microsistemas · 12 microapps web autocontenidas para tareas recurrentes: desarrollo, mantención, diagnóstico y modernización de sistemas legacy. v1.1.0 CapacitySim Pro. 195 katas en 67 tecnologías. 🏗️",
       "url": "https://github.com/vladimiracunadev-create/microsistemas",
+      "version": "v1.1.0",
       "tags": [
         "PHP 8",
         "Python",
@@ -107,7 +108,9 @@
         "Security Hardening 3 fases"
       ],
       "category": "tooling",
-      "tools_count": 11
+      "tools_count": 12,
+      "katas_count": 195,
+      "technologies_covered": 67
     },
     {
       "name": "LangGraph · Agentic Resilience v4.15",
@@ -141,7 +144,7 @@
     },
     {
       "name": "MCP + Ollama Local",
-      "description": "🧠 MCP + Ollama Local · FastAPI web con chat, tools MCP (sandbox) e historial SQLite. LLMs locales con tool calling sin enviar datos a la nube. 🔒",
+      "description": "🧠 MCP + Ollama Local · FastAPI web con chat, tools MCP (sandbox) e historial SQLite. LLMs locales con tool calling sin enviar datos a la nube. Blueprint AWS migration (docs/aws-migration.md). Supply chain scanning: Semgrep, CodeQL, SBOM. 🔒",
       "url": "https://github.com/vladimiracunadev-create/mcp-ollama-local",
       "tags": [
         "FastAPI",
@@ -154,6 +157,10 @@
         "pytest",
         "Bandit",
         "pip-audit",
+        "Semgrep",
+        "CodeQL",
+        "SBOM",
+        "AWS Migration Blueprint",
         "Security & Trust Profile"
       ],
       "category": "ai"
@@ -200,30 +207,34 @@
       "version": "v1"
     },
     {
-      "name": "ChofyAI Studio · Fase 4",
-      "description": "🎨 ChofyAI Studio · Lanzador de escritorio para macOS Apple Silicon. Centraliza herramientas de IA local: Qwen3-TTS, whisper.cpp, FaceFusion, AceForge. Tauri + Rust + React. 🍎",
+      "name": "ChofyAI Studio v0.5.1",
+      "description": "🎨 ChofyAI Studio · Lanzador de escritorio multi-plataforma para IA local. macOS Apple Silicon + soporte experimental Windows + NVIDIA GPU. Centraliza Qwen3-TTS, whisper.cpp, FaceFusion, AceForge. Tauri + Rust + React, pnpm + SHA-512 lockfile, descargas guiadas con progreso. 🍎🪟",
       "url": "https://github.com/vladimiracunadev-create/chofyai-studio",
-      "version": "Fase 4",
+      "version": "v0.5.1",
       "tags": [
         "Tauri",
         "Rust",
         "React",
         "macOS",
         "Apple Silicon",
+        "Windows",
+        "NVIDIA GPU",
         "Local AI",
         "Qwen3-TTS",
         "whisper.cpp",
         "FaceFusion",
         "AceForge",
         "uv",
-        "Disco dual",
-        "Empaquetado ad-hoc"
+        "pnpm",
+        "SHA-512 lockfile",
+        "Empaquetado ad-hoc",
+        ".dmg releases"
       ],
       "category": "ai"
     },
     {
       "name": "Problem Driven Systems Lab",
-      "description": "🧪 Laboratorio Docker-first con 12 problemas reales de ingeniería resueltos en 5 stacks (PHP 8 · Python · Node.js · Java 21 · .NET 8): rendimiento, observabilidad, resiliencia, modernización legacy y arquitectura. Dashboards interactivos UI por caso + plan AWS_MIGRATION (ECS Fargate · Lambda · EKS) con mapping a SECURITY.md. 🐳",
+      "description": "🧪 Laboratorio Docker-first con 12 problemas reales de ingeniería × 5 stacks = 60 casos operativos (PHP 8 · Python · Node.js · Java 21 · .NET 8): rendimiento, observabilidad, resiliencia, modernización legacy y arquitectura. Dashboards interactivos con métricas en tiempo real + plan AWS_MIGRATION (ECS Fargate · Lambda · EKS) con cost estimates y mapping a SECURITY.md. 🐳",
       "url": "https://github.com/vladimiracunadev-create/problem-driven-systems-lab",
       "tags": [
         "PHP 8",
@@ -242,31 +253,81 @@
         "LRU",
         "Cancellation",
         "AWS_MIGRATION",
-        "12 casos OPERATIVOS"
+        "60 casos OPERATIVOS (12×5)"
       ],
       "category": "platform",
-      "operational_cases": 12
+      "operational_cases": 60,
+      "challenges": 12,
+      "stacks": 5
     },
     {
       "name": "claude-skills-toolkit",
-      "description": "🧰 claude-skills-toolkit · ⚡ Skills agentic para Claude Code · 🔒 security-audit (12 capas: OSV/KEV/EPSS/SAST/...) · 📋 yaml-control · 📝 md-lint-fix · 🐳 docker-cleanup · Zero-deps por defecto · Cross-platform 🐧🍎🪟",
+      "description": "🧰 claude-skills-toolkit · ⚡ 7 skills agentic para Claude Code · 🔒 security-audit (12 capas: OSV/KEV/EPSS/SAST/trivy/grype/gitleaks/zizmor/hadolint/typosquat...) · 📋 yaml-control · 📝 md-lint-fix · 🐳 docker-cleanup · 🩺 docker-compose-doctor · 🛡️ pre-push-guard · 📸 web-snap · Zero-deps por defecto · Cross-platform 🐧🍎🪟",
       "url": "https://github.com/vladimiracunadev-create/claude-skills-toolkit",
-      "tags": [],
-      "category": "other"
+      "tags": [
+        "Claude Code",
+        "Agentic Skills",
+        "security-audit",
+        "yaml-control",
+        "md-lint-fix",
+        "docker-cleanup",
+        "docker-compose-doctor",
+        "pre-push-guard",
+        "web-snap",
+        "OSV/KEV/EPSS",
+        "SAST",
+        "Zero-deps",
+        "Cross-platform"
+      ],
+      "category": "tooling",
+      "skills_count": 7
     },
     {
-      "name": "gabysql",
-      "description": "🗄️ GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge. 🦀",
+      "name": "gabysql v0.2.0 · Fase 3",
+      "description": "🗄️ GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON, admin web + desktop (desktop-v0.1.0). Fase 3: optimización cost-based, estadísticas persistentes de columnas, lookups por índice compuesto, SAVEPOINT/ROLLBACK TO, sesiones HTTP cross-request. 828 tests passing, fuzzing del parser con 503.8M queries (zero panics). 🦀",
       "url": "https://github.com/vladimiracunadev-create/gabysql",
-      "tags": [],
-      "category": "other"
+      "version": "v0.2.0",
+      "tags": [
+        "Rust",
+        "Embedded DB",
+        "WAL",
+        "HTTP/JSON API",
+        "Cost-based Optimizer",
+        "SAVEPOINT/ROLLBACK",
+        "Parser Fuzzing",
+        "828 tests",
+        "Cross-platform",
+        "Edge"
+      ],
+      "category": "data",
+      "tests_passing": 828,
+      "fuzzed_queries": "503.8M"
     },
     {
-      "name": "python-data-science-program",
-      "description": "📚 Python Data Science Program · 197 clases en 9 partes (Python aplicado, ML clásico, Deep Learning, estadística inferencial, MLOps, ingeniería de datos, recomendadores, ética, capstones). Laboratorio Flask interactivo + app de escritorio Windows + app Android. 🐍",
+      "name": "python-data-science-program v3.8.0",
+      "description": "📚 Python Data Science Program · 232 clases en 9 partes (Python aplicado, ML clásico, Deep Learning, estadística inferencial, MLOps, ingeniería de datos, recomendadores, ética, capstones). Laboratorio Flask interactivo + app de escritorio Windows nativa (PySide6 + Qt + kernel Jupyter interactivo) + app Android (Expo SDK 51). 232 PDFs + 232 PPTX generados. 🐍",
       "url": "https://github.com/vladimiracunadev-create/python-data-science-program",
-      "tags": [],
-      "category": "other"
+      "version": "v3.8.0",
+      "tags": [
+        "Python",
+        "ML clásico",
+        "Deep Learning",
+        "MLOps",
+        "Data Engineering",
+        "Recomendadores",
+        "Ética IA",
+        "Flask",
+        "PySide6",
+        "Qt Desktop",
+        "Jupyter Kernel",
+        "Expo SDK 51",
+        "Android APK",
+        "232 clases",
+        "232 PDFs + 232 PPTX"
+      ],
+      "category": "education",
+      "classes_count": 232,
+      "parts": 9
     }
   ]
 }

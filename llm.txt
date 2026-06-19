@@ -8,10 +8,13 @@
 
 Vladimir Acuña is a Software Architect and Full-Stack Senior Developer based in Santiago, Chile,
 with 16+ years of experience (14+ years in educational/psychometric web platforms).
-This portfolio showcases a verified, reproducible ecosystem: 15 AWS cases (11 completed),
-polyglot persistence (9 languages × 12+ DBs), agentic AI with typed state,
-industrial observability (Prometheus/Grafana), and a fully internationalized document suite
-(30+ PDFs across 6 languages: ES, EN, PT, IT, FR, ZH).
+This portfolio showcases a verified, reproducible ecosystem: 15 AWS cases (14 completed including
+GenAI Bedrock + Claude Haiku 4.5), polyglot persistence (10+ languages × 12+ DBs), agentic AI
+with typed state (LangGraph v4.15 — 25/25 operational backends), Problem Driven Systems Lab
+(12 challenges × 5 stacks = 60 operational cases), Python Data Science Program (232 lessons),
+embedded Rust DB (GabySQL v0.2 — cost-based optimizer, 828 tests), industrial observability
+(Prometheus/Grafana), and a fully internationalized document suite (30+ PDFs across 6 languages:
+ES, EN, PT, IT, FR, ZH).
 The public site also explains professional collaboration formats for scoped projects,
 expert-hour bundles, monthly senior support, technical diagnosis/roadmaps, and
 technical-commercial collaboration, without publishing prices or fee ranges.
@@ -75,4 +78,4 @@ This repository includes an AI skills system (.agents/skills/) for automated mai
 
 ## Last Updated
 
-2026-04-24
+2026-06-19

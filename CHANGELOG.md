@@ -1,5 +1,65 @@
 # Changelog
 
+## 2026-06-19
+
+Actualización integral del portafolio (skill `portfolio-full-update`) — sincroniza el sitio, la CV Data API, los 30 PDFs y la documentación con el estado real de los repositorios al 19-jun-2026.
+
+### chore(api): refresh dates + reflejar deltas de repos
+
+- `api/v1/meta.json`, `profile.json`, `experience.json`, `projects.json`, `skills.json`, `artifacts.json` → `generated_at: 2026-06-19`.
+- `data/resume.json` → `generated_at: 2026-06-19`.
+
+### feat(projects): incorporar versiones y métricas confirmadas vía auditoría de repos
+
+- **microsistemas v1.1.0** (CapacitySim Pro): `tools_count: 11 → 12`, agrega `katas_count: 195`, `technologies_covered: 67`.
+- **chofyai-studio v0.5.1** (antes "Fase 4"): soporte experimental Windows + NVIDIA GPU, `pnpm + SHA-512 lockfile`, `.dmg releases`, descargas guiadas con progreso.
+- **problem-driven-systems-lab**: `operational_cases: 12 → 60` (12 desafíos × 5 stacks: PHP 8 · Python · Node.js · Java 21 · .NET 8), dashboards con métricas en tiempo real, AWS_MIGRATION.md con cost estimates.
+- **claude-skills-toolkit**: `skills_count: 7` con tags completos (security-audit, yaml-control, md-lint-fix, docker-cleanup, docker-compose-doctor, pre-push-guard, web-snap).
+- **gabysql v0.2.0** + desktop-v0.1.0 (Fase 3): cost-based optimizer, SAVEPOINT/ROLLBACK TO, sesiones HTTP cross-request, fuzzing 503.8M queries (zero panics), 828 tests passing.
+- **python-data-science-program v3.8.0**: `classes_count: 197 → 232`, app Windows nativa PySide6+Qt+kernel Jupyter, app Android Expo SDK 51, 232 PDFs + 232 PPTX generados, categoría → `education`.
+- **mcp-ollama-local**: blueprint AWS migration (`docs/aws-migration.md`), supply-chain scanning (Semgrep, CodeQL, SBOM).
+
+### feat(skills): nuevos elementos de stack
+
+- `frontend`: Tauri + React, PySide6 / Qt Desktop, Expo SDK 51 (Android), pnpm (corepack).
+- `security`: grype, Semgrep, CodeQL, Bandit, detect-secrets, TruffleHog, SBOM, OSV/KEV/EPSS scanning, SHA-512 lockfile verification.
+- `data`: GabySQL (embedded Rust, WAL, cost-based optimizer), parser fuzzing.
+
+### feat(site): index.html refleja deltas en 6 idiomas
+
+- `buildDate: 2026-05-21 → 2026-06-19`.
+- Hero "Pilares Técnicos Consolidados" (6 idiomas): "11 microsistemas → 12 microsistemas" + nuevo "60 casos operativos en Problem Driven Systems Lab (12 × 5 stacks)".
+- Card Problem Driven Systems Lab (6 idiomas): "12 casos reales en 5 stacks" → "12 desafíos × 5 stacks = 60 casos operativos" + métricas en tiempo real + cost estimates.
+- Card Python Data Science Program (6 idiomas): "197 clases" → "232 clases" + PySide6+Qt+Jupyter + Expo SDK 51 + "232 PDFs + 232 PPTX".
+- Pills: "197 clases" → "232 clases" + PySide6 + Android.
+- Card IA Agéntica (6 idiomas): ChofyAI Studio "Fase 4 macOS" → "v0.5.1 macOS + soporte experimental Windows + NVIDIA GPU + pnpm + SHA-512 lockfile" + blueprint AWS migration en MCP+Ollama.
+
+### feat(docs+seo): README, llm.txt, sitemap.xml
+
+- `README.md` pilar 6: Python Data Science Program v1.1 → v3.8.0 (232 clases, PySide6+Qt+Jupyter, Expo SDK 51), ChofyAI Studio Fase 4 → v0.5.1 (Windows + NVIDIA GPU, pnpm + SHA-512).
+- `README.md` pilar 7: LangGraph v4.2 (25 / 10 backends) → v4.15 (25/25 cobertura 100%); MCP+Ollama Local con Semgrep + CodeQL + SBOM + blueprint AWS migration.
+- `llm.txt`: párrafo "About" reescrito (14 AWS cases, LangGraph v4.15 25/25, Problem Driven 60 operational cases, Python Data Science 232 lessons, GabySQL v0.2 828 tests).
+- `llm.txt` y `sitemap.xml`: `lastmod / Last Updated → 2026-06-19`.
+
+### chore(pdfs): backup + regeneración de los 30 PDFs (5 docs × 6 idiomas)
+
+- `[BACKUP] assets/backups/2026-06-19/*.pdf` — copia íntegra de los 30 PDFs previos antes de la regeneración.
+- Scripts actualizados (`generate-all-languages.py`, `generate-portfolio.py`) con los nuevos conteos:
+  - "Python Data Science Program — 197 clases" → "232 clases en 9 partes [...] app de escritorio Windows nativa (PySide6 + Qt + kernel Jupyter) + app Android (Expo SDK 51). 232 PDFs + 232 PPTX generados".
+  - "Problem Driven Systems Lab — 12 casos reales [...]" → "12 desafíos × 5 stacks = 60 casos operativos".
+- Regeneración exitosa: cv-reclutador × 6, cv-ats × 6, portafolio × 6, declaracion-logros-validacion × 6, carta-recomendacion_sin_firma × 6.
+
+### Estructura preservada
+
+Conforme a la regla 2026-05-22 ("preservar estructura aprobada, solo actualizar contenido"): el layout, las columnas, la paleta y el orden de secciones de los CVs reclutador/ATS se mantienen idénticos. Sólo se actualizó el contenido enumerado arriba.
+
+### No incorporado (descartado por sospecha de misread del agente)
+
+- "social-bot-scheduler v4.3 → v2.2.0": preservado v4.3.0 actual hasta verificación manual del usuario (la regresión de versión major no concuerda con el patrón de versionado del repo).
+- "proyectos-aws 14/15 → 2/11 operativos": preservado 14/15 hasta verificación (probable lectura de pestaña/README desactualizado).
+
+---
+
 ## 2026-05-22
 
 Sesión exhaustiva de auditoría + rediseño + enriquecimiento de los CVs reclutador (6 idiomas). Estructura aprobada visualmente por el usuario tras revisión PDF a PDF.

@@ -1,7 +1,7 @@
 {
     "meta": {
         "version": "v1",
-        "generated_at": "2026-05-21",
+        "generated_at": "2026-06-19",
         "api_name": "CV Data API",
         "owner": "Vladimir Acuña",
         "base_url": "https://vladimiracunadev-create.github.io",
@@ -48,7 +48,7 @@
     "data_source": {
         "primary_pdf": "assets/cv-ats.pdf",
         "extraction_method": "pypdf + reportlab pipeline",
-        "extraction_date": "2026-03-19",
+        "extraction_date": "2026-06-19",
         "pdf_generation": "Python reportlab (30+ PDFs across 6 languages)"
     }
 }

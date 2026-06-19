@@ -1,7 +1,7 @@
 {
     "meta": {
         "version": "v1",
-        "generated_at": "2026-05-21",
+        "generated_at": "2026-06-19",
         "source_pdf": "assets/cv-ats.pdf"
     },
     "skills": {
@@ -26,7 +26,11 @@
                 "CSS3",
                 "JavaScript (ES6+)",
                 "PWA (Service Worker, Manifest)",
-                "Capacitor (móvil/desktop)"
+                "Capacitor (móvil/desktop)",
+                "Tauri + React",
+                "PySide6 / Qt Desktop",
+                "Expo SDK 51 (Android)",
+                "pnpm (corepack)"
             ],
             "level": "senior"
         },
@@ -41,6 +45,8 @@
                 "Redis",
                 "SQLite",
                 "DuckDB",
+                "GabySQL (embedded Rust, WAL, cost-based optimizer)",
+                "Parser fuzzing",
                 "Modelado relacional",
                 "ETL desde Excel"
             ],
@@ -101,8 +107,16 @@
                 "gitleaks",
                 "tfsec",
                 "Trivy",
+                "grype",
+                "Semgrep",
+                "CodeQL",
+                "Bandit",
+                "detect-secrets",
+                "TruffleHog",
+                "SBOM",
+                "OSV / KEV / EPSS scanning",
+                "SHA-512 lockfile verification",
                 "pre-commit hooks",
-                "secret scanning",
                 "IAM Privilegio Mínimo",
                 "OIDC Identity",
                 "CloudFront OAC",
