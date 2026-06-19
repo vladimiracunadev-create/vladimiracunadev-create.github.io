@@ -1,5 +1,23 @@
 # Changelog
 
+## 2026-06-19 (IV) — social-bot-scheduler: Release v4.3.1 incorporada
+
+El usuario publicó los tags faltantes en `social-bot-scheduler`. Estado actualizado:
+
+- `v4.3.1` (2026-06-19) — Supply-chain hardening (npm → pnpm v11)
+- `v4.3.0` (2026-06-19) — Master Dashboard interactivo
+- `v4.2.0` (2026-06-19) — Auditoría de seguridad de 8 capas
+- `v2.2.0` (2026-01-26) — release previa
+
+### Cambios
+
+- `api/v1/projects.json`: `version: v4.3.0 → v4.3.1`, `name: "Social Bot Scheduler v4.3 → v4.3.1"`, descripción enriquecida con los hitos de v4.2/v4.3/v4.3.1, nuevo campo `release_url`.
+- `index.html` (card social-bot): nuevo botón `Release v4.3.1` entre `GitHub` y `README`. URL verificada (HEAD 200).
+
+Cierra el caso pendiente del commit anterior.
+
+---
+
 ## 2026-06-19 (III) — verificación de enlaces + botones Release/Commits
 
 Auditoría completa de los 14 repos enlazados desde `index.html`:

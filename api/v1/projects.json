@@ -41,10 +41,11 @@
       }
     },
     {
-      "name": "Social Bot Scheduler v4.3",
-      "description": "🤖 Social Bot Scheduler · Matriz de Integración Multi-Eje con n8n (Python/Go/Node/PHP) + Docker. Automatización de publicaciones en redes sociales. ⚙️",
+      "name": "Social Bot Scheduler v4.3.1",
+      "description": "🤖 Social Bot Scheduler · Matriz de Integración Multi-Eje con n8n (Python/Go/Node/PHP) + Docker. Automatización de publicaciones en redes sociales. v4.3.1 supply-chain hardening (npm → pnpm v11) + Master Dashboard interactivo (v4.3.0) + auditoría de seguridad 8 capas (v4.2.0). ⚙️",
       "url": "https://github.com/vladimiracunadev-create/social-bot-scheduler",
-      "version": "v4.3.0",
+      "release_url": "https://github.com/vladimiracunadev-create/social-bot-scheduler/releases/latest",
+      "version": "v4.3.1",
       "tags": [
         "n8n",
         "Python",
