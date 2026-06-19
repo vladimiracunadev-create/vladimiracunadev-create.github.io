@@ -1,5 +1,22 @@
 # Changelog
 
+## 2026-06-19 (II) — agregar Automa · PC Orchestrator
+
+Repo nuevo detectado tras auditoría adicional de `gh repo list` (no estaba en la primera pasada). Incorporación quirúrgica sin tocar el resto.
+
+- `api/v1/projects.json`: nueva entrada **Automa · PC Orchestrator v0.2.0** (category `tooling`, `flows_count: 20`, `tests_count: 115`) — Python 3.10+, Playwright (headless/visible), pywebview + PyInstaller, SQLite historial, OCR/visión, uv packaging, instalador Windows firmado, local-first.
+- `index.html`: nuevo `<article class="card project">` con descripción en 6 idiomas (ES/EN/PT/IT/FR/ZH), pills y dos acciones (GitHub + Sitio `vladimiracunadev-create.github.io/automa-pc/`). Insertado antes de Python Data Science Program.
+- `scripts/generate-portfolio.py`: bullet Automa añadido en cada uno de los 6 bloques de idioma (preservando los separadores `:`, ` :`, `：`).
+- `scripts/generate-all-languages.py`: bullet Automa añadido en los bloques `projects` y `projects_ats` + entrada `"automa"` en el mapa `PROJECTS_URLS`.
+- PDFs regenerados: 12 CVs (cv-reclutador × 6 + cv-ats × 6) + 6 portafolios. Carta de recomendación y declaración de logros no requieren cambio (no enumeran proyectos).
+
+Repos públicos descartados de esta incorporación:
+
+- `retail-sales-analysis` (2026-06-18): descripción "Proyecto Skillnest" sugiere ejercicio de curso, no pieza de portafolio.
+- `rootcause-landing` (2026-04-29): aunque público, menciona RootCause — bloqueado por **regla 9 de CLAUDE.md** ("RootCause es permanentemente oculto — no mencionarlo en ningún output público").
+
+---
+
 ## 2026-06-19
 
 Actualización integral del portafolio (skill `portfolio-full-update`) — sincroniza el sitio, la CV Data API, los 30 PDFs y la documentación con el estado real de los repositorios al 19-jun-2026.

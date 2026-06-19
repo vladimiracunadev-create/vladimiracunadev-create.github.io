@@ -93,6 +93,7 @@ PROJECTS_URLS = {
     "python": "https://github.com/vladimiracunadev-create/python-data-science-program",
     "claude": "https://github.com/vladimiracunadev-create/claude-skills-toolkit",
     "gabysql": "https://github.com/vladimiracunadev-create/gabysql",
+    "automa": "https://github.com/vladimiracunadev-create/automa-pc",
 }
 
 PREVIOUS_CAREER = {
@@ -163,6 +164,7 @@ def get_content(lang):
                 "Claude Skills Toolkit — claude-skills-toolkit ·  Skills agentic para Claude Code ·  security-audit (12 capas: OSV/KEV/EPSS/SAST/...) ·  yaml-control ·  md-lint-fix ·  docker-cleanup · Zero-deps por defecto · Cross-platform",
                 "Gabysql — GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge",
                 "Python Data Science Program — 232 clases en 9 partes: Python, ML, Deep Learning, MLOps, ingeniería de datos. Lab Flask + apps Windows nativa (PySide6/Qt) y Android (Expo SDK 51)",
+                "Automa · PC Orchestrator v0.2.0 — Orquestador local Windows: 20 flows declarativos JSON, Playwright (headless/visible), pywebview + PyInstaller, SQLite, OCR, uv, 115 pytest tests, instalador firmado",
 ],
             "projects_ats": [
                 ("Cloud/AWS y FinOps \u2014 GitHub (demos y documentaci\u00f3n):", "aws_gh"),
@@ -240,6 +242,7 @@ def get_content(lang):
                 "Claude Skills Toolkit — claude-skills-toolkit ·  Skills agentic para Claude Code ·  security-audit (12 capas: OSV/KEV/EPSS/SAST/...) ·  yaml-control ·  md-lint-fix ·  docker-cleanup · Zero-deps por defecto · Cross-platform",
                 "Gabysql — GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge",
                 "Python Data Science Program — 232 clases en 9 partes: Python, ML, Deep Learning, MLOps, ingeniería de datos. Lab Flask + apps Windows nativa (PySide6/Qt) y Android (Expo SDK 51)",
+                "Automa · PC Orchestrator v0.2.0 — Orquestador local Windows: 20 flows declarativos JSON, Playwright (headless/visible), pywebview + PyInstaller, SQLite, OCR, uv, 115 pytest tests, instalador firmado",
 ],
             "exp_tech": "Technologies: PHP, JavaScript, SQL Server, MySQL, Apache, JMeter, Excel, FPDF/PhpSpreadsheet, Constant Contact",
             "exp_logros_label": "Quantified metrics and achievements from CEIS Maristas tenure",
@@ -267,6 +270,8 @@ def get_content(lang):
                 ("Unikernel Labs \u2014 Windows Control Center (WSL2 + Node.js + WinForms):", "unikernel"),
                 ("ChofyAI Studio \u2014 macOS local AI launcher (Tauri + Rust + React):", "chofyai"),
                             ("Python Data Science Program — 232 clases en 9 partes: Python, ML, Deep Learning, MLOps, ingeniería de datos. Lab Flask + apps Windows nativa (PySide6/Qt) y Android (Expo SDK 51):", "python"),
+                ("Automa · PC Orchestrator v0.2.0 — Orquestador local Windows: 20 flows declarativos JSON, Playwright, pywebview + PyInstaller, SQLite, OCR, 115 pytest tests, instalador firmado:", "automa"),
+                            ("Automa · PC Orchestrator v0.2.0 — Orquestador local Windows: 20 flows declarativos JSON, Playwright, pywebview + PyInstaller, SQLite, OCR, 115 pytest tests, instalador firmado:", "automa"),
 ],
             "training": [
                 "Continuous training in practical automation, ML/NLP, and development tools.",
@@ -330,6 +335,7 @@ def get_content(lang):
                 "Claude Skills Toolkit — claude-skills-toolkit ·  Skills agentic para Claude Code ·  security-audit (12 capas: OSV/KEV/EPSS/SAST/...) ·  yaml-control ·  md-lint-fix ·  docker-cleanup · Zero-deps por defecto · Cross-platform",
                 "Gabysql — GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge",
                 "Python Data Science Program — 232 clases en 9 partes: Python, ML, Deep Learning, MLOps, ingeniería de datos. Lab Flask + apps Windows nativa (PySide6/Qt) y Android (Expo SDK 51)",
+                "Automa · PC Orchestrator v0.2.0 — Orquestador local Windows: 20 flows declarativos JSON, Playwright (headless/visible), pywebview + PyInstaller, SQLite, OCR, uv, 115 pytest tests, instalador firmado",
 ],
             "exp_tech": "Tecnologias: PHP, JavaScript, SQL Server, MySQL, Apache, JMeter, Excel, FPDF/PhpSpreadsheet, Constant Contact",
             "exp_logros_label": "M\u00e9tricas e conquistas quantificadas do per\u00edodo na CEIS Maristas",
@@ -346,6 +352,7 @@ def get_content(lang):
                 ("Claude Skills Toolkit — claude-skills-toolkit ·  Skills agentic para Claude Code ·  security-audit (12 capas: OSV/KEV/EPSS/SAST/...) ·  yaml-control ·  md-lint-fix ·  docker-cleanup · Zero-deps por defecto · Cross-platform:", "claude"),
                 ("Gabysql — GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge:", "gabysql"),
                 ("Python Data Science Program — 232 clases en 9 partes: Python, ML, Deep Learning, MLOps, ingeniería de datos. Lab Flask + apps Windows nativa (PySide6/Qt) y Android (Expo SDK 51):", "python"),
+                ("Automa · PC Orchestrator v0.2.0 — Orquestador local Windows: 20 flows declarativos JSON, Playwright, pywebview + PyInstaller, SQLite, OCR, 115 pytest tests, instalador firmado:", "automa"),
 ],
             "projects_ats": [
                 ("Cloud/AWS e FinOps \u2014 GitHub (demos e documenta\u00e7\u00e3o):", "aws_gh"),
@@ -420,6 +427,7 @@ def get_content(lang):
                 "Claude Skills Toolkit — claude-skills-toolkit ·  Skills agentic para Claude Code ·  security-audit (12 capas: OSV/KEV/EPSS/SAST/...) ·  yaml-control ·  md-lint-fix ·  docker-cleanup · Zero-deps por defecto · Cross-platform",
                 "Gabysql — GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge",
                 "Python Data Science Program — 232 clases en 9 partes: Python, ML, Deep Learning, MLOps, ingeniería de datos. Lab Flask + apps Windows nativa (PySide6/Qt) y Android (Expo SDK 51)",
+                "Automa · PC Orchestrator v0.2.0 — Orquestador local Windows: 20 flows declarativos JSON, Playwright (headless/visible), pywebview + PyInstaller, SQLite, OCR, uv, 115 pytest tests, instalador firmado",
 ],
             "exp_tech": "Tecnologie: PHP, JavaScript, SQL Server, MySQL, Apache, JMeter, Excel, FPDF/PhpSpreadsheet, Constant Contact",
             "exp_logros_label": "Metriche e risultati quantificati del periodo in CEIS Maristas",
@@ -510,6 +518,7 @@ def get_content(lang):
                 "Claude Skills Toolkit — claude-skills-toolkit ·  Skills agentic para Claude Code ·  security-audit (12 capas: OSV/KEV/EPSS/SAST/...) ·  yaml-control ·  md-lint-fix ·  docker-cleanup · Zero-deps por defecto · Cross-platform",
                 "Gabysql — GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge",
                 "Python Data Science Program — 232 clases en 9 partes: Python, ML, Deep Learning, MLOps, ingeniería de datos. Lab Flask + apps Windows nativa (PySide6/Qt) y Android (Expo SDK 51)",
+                "Automa · PC Orchestrator v0.2.0 — Orquestador local Windows: 20 flows declarativos JSON, Playwright (headless/visible), pywebview + PyInstaller, SQLite, OCR, uv, 115 pytest tests, instalador firmado",
 ],
             "exp_tech": "Technologies : PHP, JavaScript, SQL Server, MySQL, Apache, JMeter, Excel, FPDF/PhpSpreadsheet, Constant Contact",
             "exp_logros_label": "M\u00e9triques et r\u00e9alisations quantifi\u00e9es de la p\u00e9riode chez CEIS Maristas",
