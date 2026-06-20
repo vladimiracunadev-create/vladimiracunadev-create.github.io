@@ -1,4 +1,4 @@
-const CACHE_NAME = 'vladi-portfolio-v6-schema-migration';
+const CACHE_NAME = 'vladi-portfolio-v7-bypass-http-cache';
 const OFFLINE_URL = './offline.html';
 
 const APP_SHELL = [
@@ -34,7 +34,11 @@ async function networkFirst(request, fallbackUrl) {
     const cache = await caches.open(CACHE_NAME);
 
     try {
-        const response = await fetch(request);
+        // cache: 'no-cache' bypasses the browser HTTP cache so we always
+        // see the freshest copy of network-first assets (index.html, app.js,
+        // pwa.js, styles.css, manifest). Without this, the browser may serve
+        // a stale copy even when the SW asks for the network.
+        const response = await fetch(request, { cache: 'no-cache' });
         if (response && response.ok) {
             cache.put(request, response.clone());
         }
