@@ -1,4 +1,4 @@
-const CACHE_NAME = 'vladi-portfolio-v4';
+const CACHE_NAME = 'vladi-portfolio-v5-freelance';
 const OFFLINE_URL = './offline.html';
 
 const APP_SHELL = [
