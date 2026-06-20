@@ -74,7 +74,16 @@ function detectLang() {
   return supported.includes(browser) ? browser : "es";
 }
 
+// Bump cuando se agregue/cambie el set de vistas — fuerza que los visitantes
+// con localStorage viejo vuelvan al default (recruiter) la primera vez que
+// carguen la versión nueva. Después la persistencia funciona normalmente.
+const VIEW_SCHEMA = "2026-06-20-freelance";
+
 function initSettings() {
+  if (localStorage.getItem("portfolio_view_schema") !== VIEW_SCHEMA) {
+    localStorage.removeItem("portfolio_view");
+    localStorage.setItem("portfolio_view_schema", VIEW_SCHEMA);
+  }
   setView(localStorage.getItem("portfolio_view") || "recruiter");
   setTheme(localStorage.getItem("portfolio_theme") || "dark");
   setLang(detectLang());
