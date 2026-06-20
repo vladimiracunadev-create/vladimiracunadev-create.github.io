@@ -185,7 +185,7 @@ El usuario migró `rootcause-windows-inspector` de **privado → público** (pus
 - **`editions_count: 4 → 5`** (CLI single-binary se cuenta como edición separada).
 - Descripción enriquecida con síntomas concretos (disco 100%, %TEMP%, etc.) y filosofía del producto ("diagnóstico primero, intervención después").
 
-### `api/v1/projects.json`
+### `api/v1/projects.json` (reajuste RootCause al repo público)
 
 - `url`: `rootcause-landing → rootcause-windows-inspector`.
 - `site_url`: actualizado a `/rootcause-windows-inspector/`.
