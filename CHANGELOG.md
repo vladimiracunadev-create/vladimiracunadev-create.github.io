@@ -1,5 +1,38 @@
 # Changelog
 
+## 2026-06-19 (V) — nueva sección #productos (descargables: landing + .exe/.zip/.apk)
+
+Auditoría de los repos para detectar landing pages y artefactos descargables. Verificación con HEAD 200 de todas las URLs (landing y direct-download).
+
+### Productos detectados (8 cards)
+
+| Producto | Versión | Landing | Descarga directa |
+|---|---|---|---|
+| Automa · PC Orchestrator | v0.2.1 | `/automa-pc/` | `Automa-Setup-v0.2.1.exe` |
+| Python Data Science Program | v3.8.0 | `/python-data-science-program/` | `.exe` + `.zip` portable + `.apk` |
+| ChofyAI Studio | v0.5.1 | `/chofyai-studio/` | — (sin releases todavía) |
+| Portfolio App (este repo) | v2.2.0 | este mismo sitio | `portfolio-app-v2.2.0-debug.apk` |
+| Docker Labs Control Center | v1.5.0 | — | `docker-labs-setup-1.5.0.exe` |
+| Microsistemas | v1.1.0 | — | `microsistemas-v1.1.0.zip` |
+| Unikernel Control Center | v1.0.0 | — | `UnikernelControlCenter-1.0.0-win-x64-setup.exe` |
+| GabySQL + Modeler | engine v0.2.0 / modeler v0.1.0 | — | `gabymodeler_0.1.0_x64-setup.exe` + `gabysql-v0.2.0-windows-x86_64.zip` + builds macOS arm64 / Linux x86_64 |
+
+### Cambios en `index.html`
+
+- Nueva sección `<section id="productos">` insertada ANTES de `#proyectos` (orden: hero → resultados → evolución → **#productos** → #proyectos → #demos → …).
+- 8 cards con: título + tag de versión/plataforma · descripción en 6 idiomas · chips de plataforma · botones (Landing si existe + Descarga directa `.exe/.zip/.apk` + Release + GitHub).
+- Botones usan `/releases/latest/download/<asset>` para que sigan funcionando al publicar nuevas versiones (gabysql excepción: engine apuntando a `v0.2.0` específico porque `/latest` resuelve a Modeler `desktop-v0.1.0`).
+- Menú de navegación: nuevo link "Productos / Products / Produtos / Prodotti / Produits / 产品" antes de "Proyectos" (6 idiomas).
+
+### Verificación
+
+11/11 URLs probadas con `curl -sIL -o /dev/null -w "%{http_code}"`:
+
+- 3 landings → 200
+- 8 direct downloads → 200 (incluido fix gabysql usando ruta específica v0.2.0 en lugar de `/latest`)
+
+---
+
 ## 2026-06-19 (IV) — social-bot-scheduler: Release v4.3.1 incorporada
 
 El usuario publicó los tags faltantes en `social-bot-scheduler`. Estado actualizado:
