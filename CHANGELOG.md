@@ -1,5 +1,42 @@
 # Changelog
 
+## 2026-06-20 — rootcause-windows-inspector pasó a público · card RootCause reajustado
+
+El usuario migró `rootcause-windows-inspector` de **privado → público** (push 2026-06-20). Esto cambia la arquitectura del card:
+
+### Cambios en el ecosistema RootCause
+
+- **`rootcause-windows-inspector`** ahora es público — es el repo principal del producto (Rust edition 2024), con 11+ releases (v0.5.0 → v0.11.0).
+- **`rootcause-landing/` Pages → 404**: la landing del repo separado fue deshabilitada. La landing real ahora vive en `/rootcause-windows-inspector/` (200 OK).
+- Releases del rootcause-landing → 404 (movidas/desactivadas; la fuente única son ahora las releases del repo principal).
+
+### Card RootCause en `#productos` (rehecho)
+
+- **Landing**: `https://vladimiracunadev-create.github.io/rootcause-windows-inspector/` (antes: rootcause-landing — broken).
+- **GitHub**: `vladimiracunadev-create/rootcause-windows-inspector` (antes: rootcause-landing).
+- **Descargas directas** (todas desde el repo principal, `/releases/latest/download/`):
+  - `RootCause-Setup.exe` (GUI installer)
+  - `RootCause-Portable.zip` (GUI portable)
+  - `rootcause.exe` (CLI single-binary — **nuevo**, aparece en v0.11.0)
+  - `RootCause-VSCode-Extension.vsix`
+- **Botón "Todas las ediciones"** → `/releases/latest` (incluye CLI-Portable.zip y .psm1).
+- **`editions_count: 4 → 5`** (CLI single-binary se cuenta como edición separada).
+- Descripción enriquecida con síntomas concretos (disco 100%, %TEMP%, etc.) y filosofía del producto ("diagnóstico primero, intervención después").
+
+### `api/v1/projects.json`
+
+- `url`: `rootcause-landing → rootcause-windows-inspector`.
+- `site_url`: actualizado a `/rootcause-windows-inspector/`.
+- `release_url`: actualizado al repo principal.
+- Nuevo campo `landing_repo` (apunta al repo legacy `rootcause-landing` para referencia).
+- Tags ampliados con `Rust edition 2024`, `Windows 10/11`, `CLI single-binary`, `rootcause.exe`, `SHA256SUMS`.
+
+### Verificación
+
+11/11 URLs nuevas con HEAD 200. `rootcause-landing/` ya retorna 404 (esperado tras la migración).
+
+---
+
 ## 2026-06-19 (VII) — RootCause incorporado como producto (override autorizado)
 
 El usuario autorizó explícitamente esta sesión: "te autorizo que agreggues root cause como producto". Esta autorización **sobreescribe la regla 9 de CLAUDE.md** ("RootCause es permanentemente oculto — no mencionarlo en ningún output público") solo para este cambio. La regla en CLAUDE.md sigue intacta — el usuario decidirá si la actualiza/elimina en otro momento.

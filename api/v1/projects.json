@@ -306,28 +306,31 @@
     },
     {
       "name": "RootCause · Windows Inspector v0.11.0",
-      "description": "🔍 RootCause · Diagnóstico forense para Windows escrito en Rust. Descubre qué proceso, servicio o conexión degrada el equipo. 4 ediciones: GUI Desktop, CLI-only, módulo PowerShell y extensión VS Code. ETW · WPR · Alto rendimiento. ⚡",
-      "url": "https://github.com/vladimiracunadev-create/rootcause-landing",
-      "site_url": "https://vladimiracunadev-create.github.io/rootcause-landing/",
-      "release_url": "https://github.com/vladimiracunadev-create/rootcause-landing/releases/latest",
+      "description": "🔍 RootCause · Diagnóstico forense para Windows escrito en Rust (edition 2024). Descubre qué proceso, servicio, carpeta, conexión o traza ETL degrada el equipo. 5 ediciones publicadas: GUI Desktop (Setup.exe), Portable .zip, CLI single-binary (rootcause.exe), módulo PowerShell (.psm1) y extensión VS Code (.vsix). ETW · WPR · alto rendimiento. Diagnóstico primero, intervención después. ⚡",
+      "url": "https://github.com/vladimiracunadev-create/rootcause-windows-inspector",
+      "landing_repo": "https://github.com/vladimiracunadev-create/rootcause-landing",
+      "site_url": "https://vladimiracunadev-create.github.io/rootcause-windows-inspector/",
+      "release_url": "https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest",
       "version": "v0.11.0",
       "tags": [
-        "Rust",
-        "Windows",
+        "Rust edition 2024",
+        "Windows 10/11",
         "ETW",
         "WPR",
         "Forensics",
         "GUI Desktop",
-        "CLI",
+        "CLI single-binary",
         "PowerShell Module",
         "VS Code Extension",
         "Portable .zip",
         ".exe Setup",
+        "rootcause.exe",
         ".psm1",
-        ".vsix"
+        ".vsix",
+        "SHA256SUMS"
       ],
       "category": "tooling",
-      "editions_count": 4
+      "editions_count": 5
     },
     {
       "name": "Automa · PC Orchestrator v0.2.1",
