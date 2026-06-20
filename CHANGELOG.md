@@ -1,5 +1,27 @@
 # Changelog
 
+## 2026-06-20 (IV) — Re-balance Normal vs Profundo (identidades claras por nivel)
+
+Tras la primera reorganización (III), la asimetría seguía siendo grande: Normal con 6 secciones, Profundo con apenas 2. Se mueven `#servicios` y `#modalidades` de nivel 1 → 2 para que cada nivel tenga una identidad clara.
+
+### Identidades por nivel
+
+| Nivel | Identidad | Secciones añadidas |
+|---|---|---|
+| **0 · Reclutador** | "¿Puedo confiar y qué descargar?" | resultados · productos · experiencia · descargas · contacto |
+| **1 · Normal** | "Exploración técnica" | + evolucion · proyectos · demos · roles |
+| **2 · Profundo** | "Engagement: comercial + colaboración + meta" | + servicios · modalidades · flujo-ia · referencias |
+
+Distribución final balanceada: **5 / 4 / 4**.
+
+### Cambios
+
+- `#servicios`: nivel 1 → 2 (oferta comercial; el visitante normal explora trabajo, el profundo evalúa contratar).
+- `#modalidades`: nivel 1 → 2 (formatos de colaboración con sliders — detalle deep).
+- Nav entries actualizadas: `#servicios` y `#modalidades` reciben `data-min-level="2"`.
+
+---
+
 ## 2026-06-20 (III) — Reorganización de niveles (reducir sobrecarga visual sin perder funcionalidad)
 
 Aprovechando el sistema de 3 vistas que ya existía (Reclutador / Normal / Profundo), se redistribuyen las secciones para que el reclutador en nivel 0 vea solo lo esencial. Sin tocar contenido, sin perder funcionalidad — todo sigue accesible escalando de vista.
