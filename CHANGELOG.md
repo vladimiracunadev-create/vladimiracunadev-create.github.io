@@ -1,5 +1,42 @@
 # Changelog
 
+## 2026-06-20 (V) — Nueva vista "Freelance" (curaduría para clientes que evalúan contratación por proyecto)
+
+Las 3 vistas existentes (Reclutador / Normal / Profundo) son **jerárquicas** (cada una incluye la anterior). Se agrega una **4ª vista paralela** específica para el pitch freelance: muestra lo que un cliente potencial necesita para decidir si contratar trabajo por proyecto, oculta lo que pertenece más al pitch de empleo corporativo o a la narrativa interna.
+
+### Botón nuevo · "Freelance" (6 idiomas)
+
+- ES/EN/PT/IT/FR: `Freelance` · ZH: `自由职业` (matches el nav existente `#modalidades`).
+- Tooltip: _"Vista curada para clientes que evalúan contratación por proyecto"_.
+
+### Curaduría
+
+**Visible en Freelance** (lo relevante para un cliente):
+
+- Hero · `#resultados` · `#productos` · `#demos` · `#experiencia` · `#servicios` · `#modalidades` · `#descargas` · `#contacto`.
+
+**Oculto en Freelance** (no aporta al pitch de contratación por proyecto):
+
+- `#evolucion` — pilares técnicos genéricos.
+- `#proyectos` — duplica `#productos` (productos = proof of execution, repos = catálogo técnico).
+- `#roles` — alcance corporativo (junior/senior/staff…).
+- `#flujo-ia` — narrativa meta de flujo IA.
+- `#referencias` — cartas corporativas (ya cubierto por carta de recomendación en `#descargas`).
+
+### Implementación
+
+- **Atributo `data-freelance-hide="true"`** agregado a las 5 secciones a ocultar + 2 entradas de nav (`#proyectos`, `#roles`).
+- **`app.js`** — `setView()` extendido: cuando `view === "freelance"` ignora la jerarquía de niveles (muestra todo lo de `data-min-level`) y luego oculta los marcados con `data-freelance-hide`. Cuando se vuelve a un nivel jerárquico, limpia el flag freelance-only.
+- La vista persiste en `localStorage.portfolio_view` igual que las otras.
+
+### Por qué "Freelance" como nombre
+
+- Es el término universal y bilingüe (ES/EN).
+- Coincide con el label del nav `#modalidades` que ya dice "Freelance" en todos los idiomas.
+- Otras alternativas consideradas y descartadas: "Cliente" (ambiguo), "Independiente" (largo + no se usa fuera de español), "Contratar" (acción, no perfil).
+
+---
+
 ## 2026-06-20 (IV) — Re-balance Normal vs Profundo (identidades claras por nivel)
 
 Tras la primera reorganización (III), la asimetría seguía siendo grande: Normal con 6 secciones, Profundo con apenas 2. Se mueven `#servicios` y `#modalidades` de nivel 1 → 2 para que cada nivel tenga una identidad clara.

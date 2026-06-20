@@ -10,10 +10,22 @@ function setView(view) {
     btn.classList.toggle("is-active", on);
     btn.setAttribute("aria-selected", String(on));
   });
+
+  if (view === "freelance") {
+    // Curated view: ignore level hierarchy, hide sections marked as not relevant for freelance clients.
+    $$("[data-min-level]").forEach(el => { el.dataset.hidden = "false"; });
+    $$("[data-freelance-hide]").forEach(el => { el.dataset.hidden = "true"; });
+    return;
+  }
+
   const current = LEVELS[view] ?? 1;
   $$("[data-min-level]").forEach(el => {
     const min = Number(el.getAttribute("data-min-level") || "0");
     el.dataset.hidden = String(current < min);
+  });
+  // Reset any freelance-only hiding inherited from a previous switch.
+  $$("[data-freelance-hide]").forEach(el => {
+    if (!el.hasAttribute("data-min-level")) el.dataset.hidden = "false";
   });
 }
 
