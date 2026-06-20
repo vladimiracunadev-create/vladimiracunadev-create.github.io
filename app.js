@@ -75,7 +75,7 @@ function detectLang() {
 }
 
 function initSettings() {
-  setView(localStorage.getItem("portfolio_view") || "normal");
+  setView(localStorage.getItem("portfolio_view") || "recruiter");
   setTheme(localStorage.getItem("portfolio_theme") || "dark");
   setLang(detectLang());
 
