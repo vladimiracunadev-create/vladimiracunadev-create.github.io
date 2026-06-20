@@ -9,7 +9,7 @@ if ('serviceWorker' in navigator) {
             window.location.reload();
         });
 
-        navigator.serviceWorker.register('./service-worker.js?v=4')
+        navigator.serviceWorker.register('./service-worker.js?v=6-freelance')
             .then(reg => {
                 console.log('PWA: Service Worker registrado', reg.scope);
                 reg.update().catch(() => console.log('PWA: No se pudo forzar actualización del SW'));
