@@ -305,6 +305,31 @@
       "fuzzed_queries": "503.8M"
     },
     {
+      "name": "RootCause · Windows Inspector v0.11.0",
+      "description": "🔍 RootCause · Diagnóstico forense para Windows escrito en Rust. Descubre qué proceso, servicio o conexión degrada el equipo. 4 ediciones: GUI Desktop, CLI-only, módulo PowerShell y extensión VS Code. ETW · WPR · Alto rendimiento. ⚡",
+      "url": "https://github.com/vladimiracunadev-create/rootcause-landing",
+      "site_url": "https://vladimiracunadev-create.github.io/rootcause-landing/",
+      "release_url": "https://github.com/vladimiracunadev-create/rootcause-landing/releases/latest",
+      "version": "v0.11.0",
+      "tags": [
+        "Rust",
+        "Windows",
+        "ETW",
+        "WPR",
+        "Forensics",
+        "GUI Desktop",
+        "CLI",
+        "PowerShell Module",
+        "VS Code Extension",
+        "Portable .zip",
+        ".exe Setup",
+        ".psm1",
+        ".vsix"
+      ],
+      "category": "tooling",
+      "editions_count": 4
+    },
+    {
       "name": "Automa · PC Orchestrator v0.2.1",
       "description": "🤖 Automa · Orquestador local de acciones efectivas sobre Windows. 20 flows operativos declarativos (JSON), abre ventanas reales, interactúa con DOM, captura evidencia, deja trazabilidad. Panel local en 127.0.0.1 (pywebview + PyInstaller). Stack: Python 3.10+, Playwright (headless/visible), SQLite historial, OCR/visión, uv packaging, 115 pytest tests. Local-first. ⚙️",
       "url": "https://github.com/vladimiracunadev-create/automa-pc",

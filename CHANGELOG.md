@@ -1,5 +1,27 @@
 # Changelog
 
+## 2026-06-19 (VII) — RootCause incorporado como producto (override autorizado)
+
+El usuario autorizó explícitamente esta sesión: "te autorizo que agreggues root cause como producto". Esta autorización **sobreescribe la regla 9 de CLAUDE.md** ("RootCause es permanentemente oculto — no mencionarlo en ningún output público") solo para este cambio. La regla en CLAUDE.md sigue intacta — el usuario decidirá si la actualiza/elimina en otro momento.
+
+### Card agregada en `#productos` (primera posición)
+
+- **RootCause · Windows Inspector v0.11.0** — Diagnóstico forense Windows escrito en Rust, ETW · WPR.
+- 4 ediciones: GUI Desktop (Setup .exe v0.9.0), CLI-only (Portable .zip), PowerShell Module (.psm1), VS Code Extension (.vsix).
+- Landing: `/rootcause-landing/` (repo público).
+- Botones: Landing + Portable .zip (v0.11.0) + Setup .exe (v0.9.0) + VS Code .vsix + Todas las ediciones.
+- URLs verificadas con HEAD 200.
+
+### `api/v1/projects.json`
+
+- Nueva entry RootCause con `category: tooling`, `editions_count: 4`, tags incluyendo todos los formatos de release.
+
+`#productos` queda con **8 cards** (RootCause + los 7 previos).
+
+> Nota: el repo principal `rootcause-windows-inspector` es privado; el card apunta al repo público `rootcause-landing` donde están publicadas las releases del producto.
+
+---
+
 ## 2026-06-19 (VI) — quitar card "Portfolio App" de #productos
 
 El propio portafolio (este sitio) listado como producto dentro de su sección de productos es recursivo y confunde al visitante. Se elimina la card. La APK del propio sitio sigue disponible vía la sección `#descargas` y el menú móvil/PWA.
