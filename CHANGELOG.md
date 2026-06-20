@@ -1,5 +1,37 @@
 # Changelog
 
+## 2026-06-20 (III) — Reorganización de niveles (reducir sobrecarga visual sin perder funcionalidad)
+
+Aprovechando el sistema de 3 vistas que ya existía (Reclutador / Normal / Profundo), se redistribuyen las secciones para que el reclutador en nivel 0 vea solo lo esencial. Sin tocar contenido, sin perder funcionalidad — todo sigue accesible escalando de vista.
+
+### Reorganización por nivel
+
+| Sección | Antes | Ahora |
+|---|---|---|
+| `#resultados` | nivel 0 | nivel 0 (sin cambio) |
+| `#productos` | nivel 0 | nivel 0 (sin cambio — vitrina principal) |
+| `#experiencia` | nivel 0 | nivel 0 (sin cambio) |
+| `#descargas` | nivel 0 | nivel 0 (sin cambio — CVs y cartas) |
+| `#contacto` | nivel 0 | nivel 0 (sin cambio) |
+| `#evolucion` | nivel 1 | nivel 1 (sin cambio) |
+| `#proyectos` | nivel 0 | **nivel 1** ← evita duplicación con #productos |
+| `#demos` | nivel 0 | **nivel 1** |
+| `#roles` | nivel 0 | **nivel 1** |
+| `#servicios` | nivel 0 | **nivel 1** |
+| `#modalidades` | nivel 0 | **nivel 1** |
+| `#flujo-ia` | nivel 1 | **nivel 2** ← narrativa meta, recruiter no la necesita |
+| `#referencias` | nivel 0 | **nivel 2** ← ya cubierto por carta de recomendación en #descargas |
+
+**Resultado:** nivel 0 (Reclutador) baja de 11 secciones visibles a **5 esenciales**: hero + resultados + productos + experiencia + descargas + contacto.
+
+### Cambios complementarios
+
+- **Nav principal**: links a #proyectos, #demos, #roles, #servicios, #modalidades reciben `data-min-level="1"` → desaparecen del nav en vista Reclutador (no quedan links muertos).
+- **Hero CTAs**: el botón "Ver proyectos" cambia a "Ver productos" (apunta a `#productos` que sí está en nivel 0). El "Ver proyectos" original baja a `data-min-level="1"`. En 6 idiomas.
+- **Ninguna sección eliminada**: todas siguen presentes y funcionales al escalar la vista.
+
+---
+
 ## 2026-06-20 (II) — Cierre integral del ciclo RootCause
 
 Tras pasar a público `rootcause-windows-inspector`, se sincroniza el resto del ecosistema (CLAUDE.md, #proyectos, README, llm.txt, PDFs) + auditoría completa de enlaces.
