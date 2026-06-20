@@ -1,5 +1,35 @@
 # Changelog
 
+## 2026-06-20 (VII) — APK v2.3.0 generado y publicado · referencias actualizadas
+
+### Build APK
+
+- **Script**: `scripts/mobile-android-build.ps1` (skill `portfolio-mobile-direct-build`).
+- **Stack**: Capacitor 6 + Android Gradle Plugin 8 + Java 19.
+- **Pasos**: sync web → `apps/mobile/www` · `cap sync` · `gradlew assembleDebug`.
+- **Resultado**: `app-debug.apk` · **6.6 MB** · BUILD SUCCESSFUL en 56s.
+- **SHA-256**: `eabf4095a54d345ae79c9ecc96007cbb076604234be108d9fd369cbc60057c9f`.
+
+### Release publicado
+
+- Tag: **`v2.3.0`** — [GitHub release](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/releases/tag/v2.3.0).
+- Asset: `portfolio-app-v2.3.0-debug.apk` (upload vía `gh release create`).
+- URL `…/releases/latest/download/portfolio-app-v2.3.0-debug.apk` → HEAD 200.
+
+### Hitos incluidos en el bundle (desde v2.2.0)
+
+Vista Freelance · default Reclutador con `VIEW_SCHEMA` migration · sección `#productos` (8 cards) · card RootCause en `#productos` + `#proyectos` · botones Release/Commits en todos los cards · SW v7 con `cache: 'no-cache'` · reorganización 5/4/4 secciones · 18 PDFs regenerados con bullets RootCause + Automa en 6 idiomas.
+
+### `index.html`
+
+- `#descargas` "Otras Versiones" / Android (APK): `portfolio-app-v2.2.0-debug.apk` → `portfolio-app-v2.3.0-debug.apk`.
+
+### `api/v1/projects.json`
+
+- Sin cambio — el portfolio app no se lista como producto (decisión 2026-06-19 VI: el sitio mismo no se incluye en su propia vitrina de productos para evitar recursividad).
+
+---
+
 ## 2026-06-20 (V) — Nueva vista "Freelance" (curaduría para clientes que evalúan contratación por proyecto)
 
 Las 3 vistas existentes (Reclutador / Normal / Profundo) son **jerárquicas** (cada una incluye la anterior). Se agrega una **4ª vista paralela** específica para el pitch freelance: muestra lo que un cliente potencial necesita para decidir si contratar trabajo por proyecto, oculta lo que pertenece más al pitch de empleo corporativo o a la narrativa interna.
