@@ -194,7 +194,7 @@ npm run lint:html     # HTML validation
 6. NUNCA modificar manifest PWA ni configuración Capacitor sin documentarlo
 7. NUNCA hacer commit sin actualizar CHANGELOG.md primero
 8. NUNCA modificar repos externos — solo leerlos
-9. RootCause es permanentemente oculto — no mencionarlo en ningún output público
+9. RootCause es **público desde 2026-06-20**: el repo `rootcause-windows-inspector` pasó de privado a público y el producto está en el portafolio (sección `#productos`, card propio en `#proyectos`, mención en README/llm.txt/PDFs). _Regla histórica "permanentemente oculto" derogada por autorización explícita del usuario en la sesión 2026-06-19/20._
 10. Si algo está roto: reportar primero, arreglar con autorización
 
 ---

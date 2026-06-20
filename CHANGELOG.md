@@ -1,5 +1,46 @@
 # Changelog
 
+## 2026-06-20 (II) — Cierre integral del ciclo RootCause
+
+Tras pasar a público `rootcause-windows-inspector`, se sincroniza el resto del ecosistema (CLAUDE.md, #proyectos, README, llm.txt, PDFs) + auditoría completa de enlaces.
+
+### CLAUDE.md — regla 9 derogada
+
+Antes: _"RootCause es permanentemente oculto — no mencionarlo en ningún output público"_.
+Ahora: _"RootCause es **público desde 2026-06-20**: el repo `rootcause-windows-inspector` pasó de privado a público y el producto está en el portafolio (sección #productos, card propio en #proyectos, mención en README/llm.txt/PDFs). Regla histórica derogada por autorización explícita del usuario en la sesión 2026-06-19/20."_
+
+### `index.html` — sección `#proyectos`
+
+- Nuevo card RootCause (8º card) en 6 idiomas, después de Python Data Science Program.
+- Tags: Forensics · Rust, chips: Rust edition 2024 / Windows 10/11 / ETW · WPR / 5 ediciones / 11 releases.
+- Botones: GitHub (repo principal) + Release v0.11.0 + Landing.
+
+### `README.md` pilar 9 (nuevo)
+
+Pilar dedicado: _"Producto comercial Windows: RootCause Windows Inspector v0.11.0 — diagnóstico forense escrito en Rust (edition 2024) con 5 ediciones publicadas, ETW · WPR, SHA256SUMS por release, 11+ releases tagueadas."_
+
+### `llm.txt`
+
+- About párrafo: añadido _"Windows forensic diagnostics product (RootCause Windows Inspector v0.11.0 in Rust edition 2024, 5 editions: GUI Setup.exe / Portable .zip / CLI single-binary rootcause.exe / PowerShell .psm1 / VS Code .vsix)"_.
+- Technology Stack: añadida línea _"Rust forensics (RootCause Windows Inspector): ETW + WPR, 5 editions per release, SHA256SUMS"_.
+
+### PDFs — 18 regenerados con backup
+
+- `[BACKUP] assets/backups/2026-06-20/*.pdf` — 30 PDFs previos.
+- `scripts/generate-all-languages.py`: bullet RootCause agregado en `projects` y `projects_ats` + entrada `"rootcause"` en `PROJECTS_URLS`.
+- `scripts/generate-portfolio.py`: bullet RootCause agregado en los 6 bloques de idioma (separadores `:`, ` :`, `：`).
+- Regeneración: 12 CVs (cv-reclutador × 6 + cv-ats × 6) + 6 portafolios. Carta de recomendación y declaración de logros sin cambio (no enumeran proyectos).
+
+### Auditoría integral de enlaces
+
+Extracción y verificación HEAD de los 58 URLs `github.com`/`gitlab.com` en `index.html`:
+
+- **57/58 → 200 OK**.
+- **1 → 404 detectado y corregido**: `…/releases/latest/download/app-debug.apk` (nombre del asset cambió en v2.2.0). Reemplazado por `portfolio-app-v2.2.0-debug.apk` en la sección `#descargas` (botón Android · APK de "Otras versiones"). Verificado 200 OK.
+- **58/58 → 200 OK final**.
+
+---
+
 ## 2026-06-20 — rootcause-windows-inspector pasó a público · card RootCause reajustado
 
 El usuario migró `rootcause-windows-inspector` de **privado → público** (push 2026-06-20). Esto cambia la arquitectura del card:

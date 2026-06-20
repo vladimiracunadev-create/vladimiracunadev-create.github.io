@@ -94,6 +94,7 @@ PROJECTS_URLS = {
     "claude": "https://github.com/vladimiracunadev-create/claude-skills-toolkit",
     "gabysql": "https://github.com/vladimiracunadev-create/gabysql",
     "automa": "https://github.com/vladimiracunadev-create/automa-pc",
+    "rootcause": "https://github.com/vladimiracunadev-create/rootcause-windows-inspector",
 }
 
 PREVIOUS_CAREER = {
@@ -165,6 +166,7 @@ def get_content(lang):
                 "Gabysql — GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge",
                 "Python Data Science Program — 232 clases en 9 partes: Python, ML, Deep Learning, MLOps, ingeniería de datos. Lab Flask + apps Windows nativa (PySide6/Qt) y Android (Expo SDK 51)",
                 "Automa · PC Orchestrator v0.2.0 — Orquestador local Windows: 20 flows declarativos JSON, Playwright (headless/visible), pywebview + PyInstaller, SQLite, OCR, uv, 115 pytest tests, instalador firmado",
+                "RootCause · Windows Inspector v0.11.0 — Diagnóstico forense Windows 10/11 en Rust (edition 2024): ETW + WPR, 5 ediciones (GUI Setup.exe, Portable .zip, CLI single-binary rootcause.exe, PowerShell .psm1, VS Code .vsix), SHA256SUMS por release",
 ],
             "projects_ats": [
                 ("Cloud/AWS y FinOps \u2014 GitHub (demos y documentaci\u00f3n):", "aws_gh"),
@@ -243,6 +245,7 @@ def get_content(lang):
                 "Gabysql — GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge",
                 "Python Data Science Program — 232 clases en 9 partes: Python, ML, Deep Learning, MLOps, ingeniería de datos. Lab Flask + apps Windows nativa (PySide6/Qt) y Android (Expo SDK 51)",
                 "Automa · PC Orchestrator v0.2.0 — Orquestador local Windows: 20 flows declarativos JSON, Playwright (headless/visible), pywebview + PyInstaller, SQLite, OCR, uv, 115 pytest tests, instalador firmado",
+                "RootCause · Windows Inspector v0.11.0 — Diagnóstico forense Windows 10/11 en Rust (edition 2024): ETW + WPR, 5 ediciones (GUI Setup.exe, Portable .zip, CLI single-binary rootcause.exe, PowerShell .psm1, VS Code .vsix), SHA256SUMS por release",
 ],
             "exp_tech": "Technologies: PHP, JavaScript, SQL Server, MySQL, Apache, JMeter, Excel, FPDF/PhpSpreadsheet, Constant Contact",
             "exp_logros_label": "Quantified metrics and achievements from CEIS Maristas tenure",
@@ -271,7 +274,10 @@ def get_content(lang):
                 ("ChofyAI Studio \u2014 macOS local AI launcher (Tauri + Rust + React):", "chofyai"),
                             ("Python Data Science Program — 232 clases en 9 partes: Python, ML, Deep Learning, MLOps, ingeniería de datos. Lab Flask + apps Windows nativa (PySide6/Qt) y Android (Expo SDK 51):", "python"),
                 ("Automa · PC Orchestrator v0.2.0 — Orquestador local Windows: 20 flows declarativos JSON, Playwright, pywebview + PyInstaller, SQLite, OCR, 115 pytest tests, instalador firmado:", "automa"),
+                ("RootCause · Windows Inspector v0.11.0 — Diagnóstico forense Windows 10/11 en Rust: ETW + WPR, 5 ediciones (Setup.exe, Portable .zip, CLI rootcause.exe, PowerShell .psm1, VS Code .vsix):", "rootcause"),
                             ("Automa · PC Orchestrator v0.2.0 — Orquestador local Windows: 20 flows declarativos JSON, Playwright, pywebview + PyInstaller, SQLite, OCR, 115 pytest tests, instalador firmado:", "automa"),
+                ("RootCause · Windows Inspector v0.11.0 — Diagnóstico forense Windows 10/11 en Rust: ETW + WPR, 5 ediciones (Setup.exe, Portable .zip, CLI rootcause.exe, PowerShell .psm1, VS Code .vsix):", "rootcause"),
+                            ("RootCause · Windows Inspector v0.11.0 — Diagnóstico forense Windows 10/11 en Rust: ETW + WPR, 5 ediciones (Setup.exe, Portable .zip, CLI rootcause.exe, PowerShell .psm1, VS Code .vsix):", "rootcause"),
 ],
             "training": [
                 "Continuous training in practical automation, ML/NLP, and development tools.",
@@ -336,6 +342,7 @@ def get_content(lang):
                 "Gabysql — GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge",
                 "Python Data Science Program — 232 clases en 9 partes: Python, ML, Deep Learning, MLOps, ingeniería de datos. Lab Flask + apps Windows nativa (PySide6/Qt) y Android (Expo SDK 51)",
                 "Automa · PC Orchestrator v0.2.0 — Orquestador local Windows: 20 flows declarativos JSON, Playwright (headless/visible), pywebview + PyInstaller, SQLite, OCR, uv, 115 pytest tests, instalador firmado",
+                "RootCause · Windows Inspector v0.11.0 — Diagnóstico forense Windows 10/11 en Rust (edition 2024): ETW + WPR, 5 ediciones (GUI Setup.exe, Portable .zip, CLI single-binary rootcause.exe, PowerShell .psm1, VS Code .vsix), SHA256SUMS por release",
 ],
             "exp_tech": "Tecnologias: PHP, JavaScript, SQL Server, MySQL, Apache, JMeter, Excel, FPDF/PhpSpreadsheet, Constant Contact",
             "exp_logros_label": "M\u00e9tricas e conquistas quantificadas do per\u00edodo na CEIS Maristas",
@@ -353,6 +360,7 @@ def get_content(lang):
                 ("Gabysql — GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge:", "gabysql"),
                 ("Python Data Science Program — 232 clases en 9 partes: Python, ML, Deep Learning, MLOps, ingeniería de datos. Lab Flask + apps Windows nativa (PySide6/Qt) y Android (Expo SDK 51):", "python"),
                 ("Automa · PC Orchestrator v0.2.0 — Orquestador local Windows: 20 flows declarativos JSON, Playwright, pywebview + PyInstaller, SQLite, OCR, 115 pytest tests, instalador firmado:", "automa"),
+                ("RootCause · Windows Inspector v0.11.0 — Diagnóstico forense Windows 10/11 en Rust: ETW + WPR, 5 ediciones (Setup.exe, Portable .zip, CLI rootcause.exe, PowerShell .psm1, VS Code .vsix):", "rootcause"),
 ],
             "projects_ats": [
                 ("Cloud/AWS e FinOps \u2014 GitHub (demos e documenta\u00e7\u00e3o):", "aws_gh"),
@@ -428,6 +436,7 @@ def get_content(lang):
                 "Gabysql — GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge",
                 "Python Data Science Program — 232 clases en 9 partes: Python, ML, Deep Learning, MLOps, ingeniería de datos. Lab Flask + apps Windows nativa (PySide6/Qt) y Android (Expo SDK 51)",
                 "Automa · PC Orchestrator v0.2.0 — Orquestador local Windows: 20 flows declarativos JSON, Playwright (headless/visible), pywebview + PyInstaller, SQLite, OCR, uv, 115 pytest tests, instalador firmado",
+                "RootCause · Windows Inspector v0.11.0 — Diagnóstico forense Windows 10/11 en Rust (edition 2024): ETW + WPR, 5 ediciones (GUI Setup.exe, Portable .zip, CLI single-binary rootcause.exe, PowerShell .psm1, VS Code .vsix), SHA256SUMS por release",
 ],
             "exp_tech": "Tecnologie: PHP, JavaScript, SQL Server, MySQL, Apache, JMeter, Excel, FPDF/PhpSpreadsheet, Constant Contact",
             "exp_logros_label": "Metriche e risultati quantificati del periodo in CEIS Maristas",
@@ -519,6 +528,7 @@ def get_content(lang):
                 "Gabysql — GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge",
                 "Python Data Science Program — 232 clases en 9 partes: Python, ML, Deep Learning, MLOps, ingeniería de datos. Lab Flask + apps Windows nativa (PySide6/Qt) y Android (Expo SDK 51)",
                 "Automa · PC Orchestrator v0.2.0 — Orquestador local Windows: 20 flows declarativos JSON, Playwright (headless/visible), pywebview + PyInstaller, SQLite, OCR, uv, 115 pytest tests, instalador firmado",
+                "RootCause · Windows Inspector v0.11.0 — Diagnóstico forense Windows 10/11 en Rust (edition 2024): ETW + WPR, 5 ediciones (GUI Setup.exe, Portable .zip, CLI single-binary rootcause.exe, PowerShell .psm1, VS Code .vsix), SHA256SUMS por release",
 ],
             "exp_tech": "Technologies : PHP, JavaScript, SQL Server, MySQL, Apache, JMeter, Excel, FPDF/PhpSpreadsheet, Constant Contact",
             "exp_logros_label": "M\u00e9triques et r\u00e9alisations quantifi\u00e9es de la p\u00e9riode chez CEIS Maristas",
