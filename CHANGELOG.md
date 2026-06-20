@@ -82,7 +82,7 @@ Pilar dedicado: _"Producto comercial Windows: RootCause Windows Inspector v0.11.
 
 - `[BACKUP] assets/backups/2026-06-20/*.pdf` — 30 PDFs previos.
 - `scripts/generate-all-languages.py`: bullet RootCause agregado en `projects` y `projects_ats` + entrada `"rootcause"` en `PROJECTS_URLS`.
-- `scripts/generate-portfolio.py`: bullet RootCause agregado en los 6 bloques de idioma (separadores `:`, ` :`, `：`).
+- `scripts/generate-portfolio.py`: bullet RootCause agregado en los 6 bloques de idioma (separadores `:`, `:` con espacio inicial, y `：`).
 - Regeneración: 12 CVs (cv-reclutador × 6 + cv-ats × 6) + 6 portafolios. Carta de recomendación y declaración de logros sin cambio (no enumeran proyectos).
 
 ### Auditoría integral de enlaces
@@ -126,7 +126,7 @@ El usuario migró `rootcause-windows-inspector` de **privado → público** (pus
 - Nuevo campo `landing_repo` (apunta al repo legacy `rootcause-landing` para referencia).
 - Tags ampliados con `Rust edition 2024`, `Windows 10/11`, `CLI single-binary`, `rootcause.exe`, `SHA256SUMS`.
 
-### Verificación
+### Verificación HEAD 200 (RootCause migración)
 
 11/11 URLs nuevas con HEAD 200. `rootcause-landing/` ya retorna 404 (esperado tras la migración).
 
@@ -144,7 +144,7 @@ El usuario autorizó explícitamente esta sesión: "te autorizo que agreggues ro
 - Botones: Landing + Portable .zip (v0.11.0) + Setup .exe (v0.9.0) + VS Code .vsix + Todas las ediciones.
 - URLs verificadas con HEAD 200.
 
-### `api/v1/projects.json`
+### `api/v1/projects.json` (entrada RootCause inicial)
 
 - Nueva entry RootCause con `category: tooling`, `editions_count: 4`, tags incluyendo todos los formatos de release.
 
@@ -186,7 +186,7 @@ Auditoría de los repos para detectar landing pages y artefactos descargables. V
 - Botones usan `/releases/latest/download/<asset>` para que sigan funcionando al publicar nuevas versiones (gabysql excepción: engine apuntando a `v0.2.0` específico porque `/latest` resuelve a Modeler `desktop-v0.1.0`).
 - Menú de navegación: nuevo link "Productos / Products / Produtos / Prodotti / Produits / 产品" antes de "Proyectos" (6 idiomas).
 
-### Verificación
+### Verificación HEAD 200 (productos)
 
 11/11 URLs probadas con `curl -sIL -o /dev/null -w "%{http_code}"`:
 
@@ -204,7 +204,7 @@ El usuario publicó los tags faltantes en `social-bot-scheduler`. Estado actuali
 - `v4.2.0` (2026-06-19) — Auditoría de seguridad de 8 capas
 - `v2.2.0` (2026-01-26) — release previa
 
-### Cambios
+### Cambios (social-bot-scheduler)
 
 - `api/v1/projects.json`: `version: v4.3.0 → v4.3.1`, `name: "Social Bot Scheduler v4.3 → v4.3.1"`, descripción enriquecida con los hitos de v4.2/v4.3/v4.3.1, nuevo campo `release_url`.
 - `index.html` (card social-bot): nuevo botón `Release v4.3.1` entre `GitHub` y `README`. URL verificada (HEAD 200).
@@ -256,7 +256,7 @@ Repo nuevo detectado tras auditoría adicional de `gh repo list` (no estaba en l
 
 - `api/v1/projects.json`: nueva entrada **Automa · PC Orchestrator v0.2.0** (category `tooling`, `flows_count: 20`, `tests_count: 115`) — Python 3.10+, Playwright (headless/visible), pywebview + PyInstaller, SQLite historial, OCR/visión, uv packaging, instalador Windows firmado, local-first.
 - `index.html`: nuevo `<article class="card project">` con descripción en 6 idiomas (ES/EN/PT/IT/FR/ZH), pills y dos acciones (GitHub + Sitio `vladimiracunadev-create.github.io/automa-pc/`). Insertado antes de Python Data Science Program.
-- `scripts/generate-portfolio.py`: bullet Automa añadido en cada uno de los 6 bloques de idioma (preservando los separadores `:`, ` :`, `：`).
+- `scripts/generate-portfolio.py`: bullet Automa añadido en cada uno de los 6 bloques de idioma (preservando los separadores `:`, `:` con espacio inicial, y `：`).
 - `scripts/generate-all-languages.py`: bullet Automa añadido en los bloques `projects` y `projects_ats` + entrada `"automa"` en el mapa `PROJECTS_URLS`.
 - PDFs regenerados: 12 CVs (cv-reclutador × 6 + cv-ats × 6) + 6 portafolios. Carta de recomendación y declaración de logros no requieren cambio (no enumeran proyectos).
 
