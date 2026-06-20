@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-06-19 (VI) — quitar card "Portfolio App" de #productos
+
+El propio portafolio (este sitio) listado como producto dentro de su sección de productos es recursivo y confunde al visitante. Se elimina la card. La APK del propio sitio sigue disponible vía la sección `#descargas` y el menú móvil/PWA.
+
+`#productos` queda con 7 cards: Automa, Python DS Program, ChofyAI Studio, Docker Labs, Microsistemas, Unikernel Control Center, GabySQL + Modeler.
+
+---
+
 ## 2026-06-19 (V) — nueva sección #productos (descargables: landing + .exe/.zip/.apk)
 
 Auditoría de los repos para detectar landing pages y artefactos descargables. Verificación con HEAD 200 de todas las URLs (landing y direct-download).
