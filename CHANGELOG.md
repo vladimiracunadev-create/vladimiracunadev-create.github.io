@@ -2,6 +2,15 @@
 
 ## 2026-07-17
 
+### fix(pdf): CV reclutador/ATS crece a multipágina + limpieza de emojis
+
+Corrección de la regeneración rota del sync (el CV desbordaba a la sidebar y mostraba cuadros negros):
+
+- **Layout multipágina** (`generate-unified-cv.py`): el template `recruiter` ahora llena la sidebar primero y su columna principal desborda a una **página de continuación a ancho completo** (`recruiter_cont`, mismo header navy, sin sidebar) en vez de derramarse sobre CONTACTO/SKILLS. El CV crece a 2 páginas de reclutador cuando el contenido lo requiere.
+- **Cuadros negros ■ eliminados**: el `strip_emojis` del sync dejaba el "variation selector" U+FE0F huérfano (🎮🛡️🕹️ → ■). Limpiados FE0E/FE0F/ZWJ + rangos de emoji en `generate-all-languages.py` y `generate-portfolio.py`.
+- **Contenido del CV actualizado** (6 idiomas): RootCause v0.11.0 → **v0.19.0**, Automa v0.2.0 → **v0.3.0** (27 flows · 150 tests), AWS 15 → **16 casos A–P**, Social Bot 9 → **18+ motores DB**, LangGraph "25 demos" → **25/25 backends v4.15**.
+- 18 PDFs regenerados (12 CVs + 6 portafolio), verificados: 0 cuadros negros, layout correcto.
+
 ### sync-portfolio (auditoría profunda + curaduría manual)
 
 Sincronización completa tras ~1 mes de congelamiento (último push del sitio: 2026-06-20). Se auditaron 22 repos públicos vía READMEs reales; 7 repos nuevos y drift de versiones en 6 repos existentes.

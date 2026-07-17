@@ -525,21 +525,37 @@ class UnifiedCV(BaseDocTemplate):
         # Set lang AFTER super.__init__ — BaseDocTemplate.__init__ resets it.
         self.lang = lang
 
-        # ── Template 1: Recruiter (two-column with header) ──
-        main_frame = Frame(
-            SIDEBAR_W + 0.15*inch, MARGIN,
-            MAIN_W - 0.5*inch, PAGE_H - HEADER_H - MARGIN - 0.1*inch,
-            id="main", showBoundary=0,
-        )
+        # ── Template 1: Recruiter page 1 (two-column with header) ──
+        # Sidebar is listed FIRST so it fills before the main column; that way
+        # main-column overflow flows to the full-width continuation page below
+        # instead of spilling into the sidebar frame.
         sidebar_frame = Frame(
             SIDEBAR_PAD, MARGIN,
             SIDEBAR_W - SIDEBAR_PAD*2, PAGE_H - HEADER_H - MARGIN - 0.1*inch,
             id="sidebar", showBoundary=0,
         )
+        main_frame = Frame(
+            SIDEBAR_W + 0.15*inch, MARGIN,
+            MAIN_W - 0.5*inch, PAGE_H - HEADER_H - MARGIN - 0.1*inch,
+            id="main", showBoundary=0,
+        )
         recruiter_tmpl = PageTemplate(
             id="recruiter",
-            frames=[main_frame, sidebar_frame],
+            frames=[sidebar_frame, main_frame],
             onPage=self._draw_recruiter_page,
+        )
+
+        # ── Template 1b: Recruiter continuation (full width, no sidebar) ──
+        # Used automatically when the recruiter main column overflows page 1.
+        cont_frame = Frame(
+            MARGIN + 0.1*inch, MARGIN,
+            PAGE_W - 2*(MARGIN + 0.1*inch), PAGE_H - HEADER_H - MARGIN - 0.1*inch,
+            id="cont", showBoundary=0,
+        )
+        recruiter_cont_tmpl = PageTemplate(
+            id="recruiter_cont",
+            frames=[cont_frame],
+            onPage=self._draw_recruiter_cont_page,
         )
 
         # ── Template 2: Transition page ──
@@ -566,7 +582,7 @@ class UnifiedCV(BaseDocTemplate):
             onPage=self._draw_ats_page,
         )
 
-        self.addPageTemplates([recruiter_tmpl, transition_tmpl, ats_tmpl])
+        self.addPageTemplates([recruiter_tmpl, recruiter_cont_tmpl, transition_tmpl, ats_tmpl])
 
     def _draw_recruiter_page(self, canvas, doc):
         canvas.saveState()
@@ -589,6 +605,27 @@ class UnifiedCV(BaseDocTemplate):
         canvas.setFillColor(SIDEBAR_BG)
         canvas.rect(0, 0, SIDEBAR_W, PAGE_H - HEADER_H, fill=1, stroke=0)
         # Accent line
+        canvas.setStrokeColor(ACCENT)
+        canvas.setLineWidth(2)
+        canvas.line(0, PAGE_H - HEADER_H, PAGE_W, PAGE_H - HEADER_H)
+        canvas.restoreState()
+
+    def _draw_recruiter_cont_page(self, canvas, doc):
+        """Recruiter overflow page: same navy header, full width, no sidebar."""
+        canvas.saveState()
+        canvas.setFillColor(NAVY)
+        canvas.rect(0, PAGE_H - HEADER_H, PAGE_W, HEADER_H, fill=1, stroke=0)
+        body_font = CJK_FONT if self.lang == "zh" else "Helvetica"
+        bold_font = CJK_FONT if self.lang == "zh" else "Helvetica-Bold"
+        canvas.setFillColor(WHITE)
+        canvas.setFont(bold_font, 22)
+        canvas.drawString(0.45*inch, PAGE_H - 0.45*inch, self.header_data["name"])
+        canvas.setFillColor(HexColor("#c0d0e8"))
+        canvas.setFont(body_font, 10)
+        canvas.drawString(0.45*inch, PAGE_H - 0.65*inch, self.header_data["subtitle"])
+        canvas.setFillColor(HexColor("#a0b8d0"))
+        canvas.setFont(body_font, 8.5)
+        canvas.drawString(0.45*inch, PAGE_H - 0.85*inch, self.header_data["contact"])
         canvas.setStrokeColor(ACCENT)
         canvas.setLineWidth(2)
         canvas.line(0, PAGE_H - HEADER_H, PAGE_W, PAGE_H - HEADER_H)
@@ -620,6 +657,34 @@ def build_recruiter_section(sidebar_data, main_data, lang="es"):
     if lang == "zh":
         _apply_cjk(s)
     items = []
+
+    # ── Sidebar (filled first; small & fixed, never overflows) ──
+    items.append(Paragraph(sidebar_data["h_contact"], s["side_heading"]))
+    for line in sidebar_data["contact"]:
+        items.append(Paragraph(line, s["side_body"]))
+    for label, url in sidebar_data["contact_links"]:
+        items.append(Paragraph(f'<link href="{url}">{label}</link>', s["side_link"]))
+    items.append(side_hr())
+
+    items.append(Paragraph(sidebar_data["h_skills"], s["side_heading"]))
+    for skill_line in sidebar_data["skills"]:
+        items.append(Paragraph(skill_line, s["side_body"]))
+        items.append(Spacer(1, 1))
+    items.append(side_hr())
+
+    items.append(Paragraph(sidebar_data["h_education"], s["side_heading"]))
+    for title, inst in sidebar_data["degrees"]:
+        items.append(Paragraph(f"<b>{title}</b>", s["side_bold"]))
+        items.append(Paragraph(inst, s["side_muted"]))
+    items.append(side_hr())
+
+    items.append(Paragraph(sidebar_data["h_languages"], s["side_heading"]))
+    items.append(Paragraph(sidebar_data["languages"], s["side_body"]))
+
+    # ── Switch to main column. Overflow flows to a full-width continuation
+    #    page (recruiter_cont), never into the sidebar. ──
+    items.append(FrameBreak())
+    items.append(NextPageTemplate("recruiter_cont"))
 
     # ── Main column ──
     items.append(Paragraph(main_data["h_summary"], s["heading"]))
@@ -659,32 +724,6 @@ def build_recruiter_section(sidebar_data, main_data, lang="es"):
     items.append(Paragraph(main_data["h_training"], s["heading"]))
     for t in main_data["training"]:
         items.append(bp(s["bullet"], t))
-
-    # ── Switch to sidebar frame ──
-    items.append(FrameBreak())
-
-    # ── Sidebar ──
-    items.append(Paragraph(sidebar_data["h_contact"], s["side_heading"]))
-    for line in sidebar_data["contact"]:
-        items.append(Paragraph(line, s["side_body"]))
-    for label, url in sidebar_data["contact_links"]:
-        items.append(Paragraph(f'<link href="{url}">{label}</link>', s["side_link"]))
-    items.append(side_hr())
-
-    items.append(Paragraph(sidebar_data["h_skills"], s["side_heading"]))
-    for skill_line in sidebar_data["skills"]:
-        items.append(Paragraph(skill_line, s["side_body"]))
-        items.append(Spacer(1, 1))
-    items.append(side_hr())
-
-    items.append(Paragraph(sidebar_data["h_education"], s["side_heading"]))
-    for title, inst in sidebar_data["degrees"]:
-        items.append(Paragraph(f"<b>{title}</b>", s["side_bold"]))
-        items.append(Paragraph(inst, s["side_muted"]))
-    items.append(side_hr())
-
-    items.append(Paragraph(sidebar_data["h_languages"], s["side_heading"]))
-    items.append(Paragraph(sidebar_data["languages"], s["side_body"]))
 
     return items
 
