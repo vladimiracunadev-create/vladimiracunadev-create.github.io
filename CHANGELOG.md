@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-07-17
+
+### sync-portfolio (automático)
+
+- `api/v1/`: generated_at → 2026-07-17
+- Repos nuevos integrados: rootcause-mobile-inspector, modern-gamedev-program, modern-cybersecurity-program, machine-operator-program, rhino-suite, human-genome-labs, wsl-labs
+- Cards HTML agregados en `#proyectos` (index.html)
+- Scripts PDF y api/v1/projects.json actualizados
+
 ## 2026-06-20 (VII) — APK v2.3.0 generado y publicado · referencias actualizadas
 
 ### Build APK
