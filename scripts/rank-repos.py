@@ -39,8 +39,7 @@ OWNER = "vladimiracunadev-create"
 
 # Repos permanently excluded from ranking + pinning
 EXCLUDED = {
-    "rootcause-windows-inspector",
-    "rootcause-landing",
+    "rootcause-landing",  # repo eliminado de GitHub (404) — 2026-07-17
     "vladimiracunadev-create",          # profile README repo
     "vladimiracunadev-create.github.io",  # portfolio site (pinned separately if desired)
 }

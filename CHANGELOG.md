@@ -2,12 +2,26 @@
 
 ## 2026-07-17
 
-### sync-portfolio (automático)
+### sync-portfolio (auditoría profunda + curaduría manual)
 
-- `api/v1/`: generated_at → 2026-07-17
-- Repos nuevos integrados: rootcause-mobile-inspector, modern-gamedev-program, modern-cybersecurity-program, machine-operator-program, rhino-suite, human-genome-labs, wsl-labs
-- Cards HTML agregados en `#proyectos` (index.html)
-- Scripts PDF y api/v1/projects.json actualizados
+Sincronización completa tras ~1 mes de congelamiento (último push del sitio: 2026-06-20). Se auditaron 22 repos públicos vía READMEs reales; 7 repos nuevos y drift de versiones en 6 repos existentes.
+
+- **`api/v1/`**: `generated_at` → 2026-07-17 en los 6 JSONs.
+- **Repos nuevos integrados** (JSON + scripts PDF + cards HTML × 6 idiomas): rootcause-mobile-inspector, modern-gamedev-program, modern-cybersecurity-program, machine-operator-program, rhino-suite, human-genome-labs, wsl-labs.
+- **Version drift corregido** en `projects.json` y cards HTML:
+  - automa-pc v0.2.1 → **v0.3.0** (20 → 27 flows; 115 → 150 tests; familia de vigilancia web con evidencia SHA-256).
+  - unikernel-labs v1 → **v2.0.0** ("Docker Desktop para unikernels"; API local endurecida).
+  - social-bot-scheduler v4.3.1 → **v4.9.1** (19 casos operativos · 18+ motores de BD · auditoría Docker end-to-end).
+  - rootcause-windows-inspector v0.11.0 → **v0.19.0** (reposicionado como software forense de ciberseguridad; tabs Red/Autostart; distribución Scoop/Winget/Chocolatey).
+  - langgraph-realworld → **v4.15.0** (25/25 backends, hardening adversarial).
+  - claude-skills-toolkit: 7 → **10 skills** (v0.2.0).
+- **Cloud/AWS**: 15 casos (14 completados) → **16 casos A–P, todos completados** (Caso P Strands Agents desplegado en AWS); backlog solo Fases 2–3 del Caso M. Alineado con el monorepo GitLab.
+- **RootCause**: regla histórica "permanentemente oculto" derogada (público desde 2026-06-20). Retirado de `HIDDEN_REPOS` en `sync-portfolio.py` y de `EXCLUDED` en `rank-repos.py`; SKILL.md actualizado.
+- **`rootcause-landing`**: repo eliminado de GitHub (404). Retirada la referencia `landing_repo` de `projects.json`.
+- **Fechas** en index.html: `buildDate` → 2026-07-17; hero tag → "Nuevo · Jul 2026" (6 idiomas).
+- **[BACKUP]** `assets/backups/2026-07-17/` — 30 PDFs respaldados antes de regenerar.
+- **PDFs**: 30 regenerados (12 CVs + 6 portafolio + 6 logros + 6 cartas) sin emojis/puntos negros.
+- Nuevo script `scripts/generate-cv-capacitaciones.py` (CV instructor/relator → `assets/no_aplica/`).
 
 ## 2026-06-20 (VII) — APK v2.3.0 generado y publicado · referencias actualizadas
 

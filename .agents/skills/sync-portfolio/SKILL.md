@@ -55,7 +55,7 @@ python scripts/sync-portfolio.py --apply --no-push     # aplica sin push
 6. NUNCA modificar manifest PWA ni configuración Capacitor
 7. NUNCA hacer commit sin actualizar CHANGELOG.md primero
 8. NUNCA modificar repos externos — solo leerlos
-9. RootCause es permanentemente oculto — nunca mencionarlo en ningún output
+9. RootCause es PÚBLICO desde 2026-06-20 (CLAUDE.md regla 9 derogada) — se sincroniza como cualquier repo. `rootcause-landing` fue eliminado de GitHub (404): nunca referenciarlo
 10. Repos privados NUNCA se publican en API ni README
 11. NUNCA terminar una sesión sin generar el reporte de sesión
 12. NUNCA hacer commit sin ejecutar `npm run lint:md` y que pase con 0 errores
@@ -67,7 +67,7 @@ python scripts/sync-portfolio.py --apply --no-push     # aplica sin push
 - Repositorio principal: vladimiracunadev-create.github.io (C:\portfolio-pages)
 - Web: <https://vladimiracunadev-create.github.io/>
 - README del perfil GitHub: <https://github.com/vladimiracunadev-create/vladimiracunadev-create>
-- Repos ocultos permanentes (nunca tocar): rootcause-windows-inspector, rootcause-landing
+- Repo inexistente (eliminado de GitHub, nunca referenciar): rootcause-landing
 
 ---
 
@@ -297,7 +297,7 @@ manual en `https://github.com/vladimiracunadev-create`.
 El proceso toma < 30 segundos en la interfaz web.
 
 **Repos excluidos permanentemente del ranking:**
-`rootcause-windows-inspector`, `rootcause-landing`, `vladimiracunadev-create`
+`rootcause-landing` (eliminado de GitHub), `vladimiracunadev-create`
 (profile README), `vladimiracunadev-create.github.io` (portfolio site).
 
 ---

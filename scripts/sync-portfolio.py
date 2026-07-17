@@ -62,8 +62,9 @@ SUBTITLES = {
     "zh": "解决方案架构师 | 高级全栈开发 | 现代化、自动化与应用AI",
 }
 
-# Repos permanentemente ocultos
-HIDDEN_REPOS = {"rootcause-windows-inspector", "rootcause-landing"}
+# Repos ocultos. rootcause-windows-inspector es PUBLICO desde 2026-06-20
+# (CLAUDE.md regla 9 derogada). rootcause-landing fue eliminado de GitHub (404).
+HIDDEN_REPOS = {"rootcause-landing"}
 
 # Repos que no se agregan como proyectos
 SKIP_AS_PROJECT = {

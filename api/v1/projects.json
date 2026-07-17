@@ -32,8 +32,8 @@
                 "FinOps"
             ],
             "category": "cloud",
-            "cases_completed": 14,
-            "cases_total": 15,
+            "cases_completed": 16,
+            "cases_total": 16,
             "cert_coverage": {
                 "SAA-C03": "~68%",
                 "DVA-C02": "~68%",
@@ -41,11 +41,13 @@
             }
         },
         {
-            "name": "Social Bot Scheduler v4.3.1",
+            "name": "Social Bot Scheduler v4.9.1",
             "description": "🤖 Laboratorio políglota de integración con n8n + Docker: 19 casos Origen→n8n→Receptor sobre 18+ motores de BD (SQL, NoSQL, grafos, vectorial, series temporales, streaming). Guardrails de resiliencia (idempotencia, circuit breaker, DLQ). Automatización de publicaciones en redes sociales. ⚙️",
             "url": "https://github.com/vladimiracunadev-create/social-bot-scheduler",
             "release_url": "https://github.com/vladimiracunadev-create/social-bot-scheduler/releases/latest",
-            "version": "v4.3.1",
+            "version": "v4.9.1",
+            "cases_operational": 19,
+            "db_engines": "18+",
             "tags": [
                 "n8n",
                 "Python",
@@ -62,7 +64,9 @@
                 "Kubernetes",
                 "Trivy",
                 "Hardened Runtime",
-                "Circuit Breaker"
+                "Circuit Breaker",
+                "pnpm",
+                "Dependabot 6 ecosistemas"
             ],
             "category": "orchestration"
         },
@@ -115,7 +119,7 @@
         },
         {
             "name": "LangGraph · Agentic Resilience v4.15",
-            "description": "🤖 25 casos de uso empresariales con LangGraph + FastAPI. 25/25 backends operativos (01-25, cobertura 100%): streaming NDJSON, DEMO/LIVE, OAuth2 opt-in, observabilidad LangSmith, /metrics, 8 capas de seguridad, cadena de custodia SHA-256. Python 3.11 · Docker · pytest · uv opcional. v4.14.0",
+            "description": "🤖 25 casos de uso empresariales con LangGraph + FastAPI. 25/25 backends operativos (01-25, cobertura 100%): streaming NDJSON, DEMO/LIVE, OAuth2 opt-in, observabilidad LangSmith, /metrics, 8 capas de seguridad, cadena de custodia SHA-256. Python 3.11 · Docker · pytest · uv opcional. v4.15.0 con hardening adversarial (shared/lgrw_common, joserfc, CI 25 casos).",
             "url": "https://github.com/vladimiracunadev-create/langgraph-realworld",
             "version": "v4.15.0",
             "tags": [
@@ -187,8 +191,8 @@
             "pdfs_generated": 30
         },
         {
-            "name": "Unikernel Labs · Control Center",
-            "description": "🎯 Unikernel Control Center v1 · Suite profesional para operar servicios Unikraft en Windows con backend WSL2. Control total vía Dashboard Node.js y Launcher WinForms en localhost. Demostrando arquitectura de alto rendimiento y orquestación unikernel. ⚡",
+            "name": "Unikernel Labs · Control Center v2.0.0",
+            "description": "🎯 Unikernel Control Center v2.0.0 · Suite tipo 'Docker Desktop para unikernels' que opera servicios Unikraft desde Windows sobre WSL2 — dashboard Node.js con health en tiempo real, launcher WinForms, instalador .exe y API local endurecida (anti DNS-rebinding, CSRF y path traversal). ⚡",
             "url": "https://github.com/vladimiracunadev-create/unikernel-labs",
             "tags": [
                 "Unikraft",
@@ -202,10 +206,12 @@
                 "QEMU/KVM",
                 "kraft",
                 "Low-latency",
-                "High-performance"
+                "High-performance",
+                "Installer .exe",
+                "Hardened local API"
             ],
             "category": "platform",
-            "version": "v1"
+            "version": "v2.0.0"
         },
         {
             "name": "ChofyAI Studio v0.5.1",
@@ -281,7 +287,8 @@
                 "Cross-platform"
             ],
             "category": "tooling",
-            "skills_count": 7
+            "version": "v0.2.0",
+            "skills_count": 10
         },
         {
             "name": "gabysql v0.2.0 · Fase 3",
@@ -305,12 +312,12 @@
             "fuzzed_queries": "503.8M"
         },
         {
-            "name": "RootCause · Windows Inspector v0.11.0",
+            "name": "RootCause · Windows Inspector v0.19.0",
             "description": "🔍 RootCause — software forense de ciberseguridad para Windows (Rust). Toda distorsión anómala de recursos (CPU, disco, red, procesos, autoarranque, servicios) puede ser el primer indicio de una amenaza: la detecta, correlaciona y explica la causa raíz con evidencia. Complementa al antivirus/EDR. Telemetría: cero.",
             "url": "https://github.com/vladimiracunadev-create/rootcause-windows-inspector",
             "site_url": "https://vladimiracunadev-create.github.io/rootcause-windows-inspector/",
             "release_url": "https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest",
-            "version": "v0.11.0",
+            "version": "v0.19.0",
             "tags": [
                 "Rust edition 2024",
                 "Windows 10/11",
@@ -326,18 +333,22 @@
                 "rootcause.exe",
                 ".psm1",
                 ".vsix",
-                "SHA256SUMS"
+                "SHA256SUMS",
+                "Tray icon",
+                "Scoop · Winget · Chocolatey",
+                "Baseline anomaly detection",
+                "Bilingüe ES/EN"
             ],
             "category": "tooling",
             "editions_count": 5
         },
         {
-            "name": "Automa · PC Orchestrator v0.2.1",
+            "name": "Automa · PC Orchestrator v0.3.0",
             "description": "🤖 Automa · Orquestador local de procesos para PC. Flows declarativos JSON · SQLite · Scheduler · OCR/visión · UI dry-run · Python. ⚙️",
             "url": "https://github.com/vladimiracunadev-create/automa-pc",
             "site_url": "https://vladimiracunadev-create.github.io/automa-pc/",
             "release_url": "https://github.com/vladimiracunadev-create/automa-pc/releases/latest",
-            "version": "v0.2.1",
+            "version": "v0.3.0",
             "tags": [
                 "Python 3.10+",
                 "Windows",
@@ -349,12 +360,14 @@
                 "uv",
                 "JSON Flows",
                 "Local-first",
-                "115 pytest tests",
-                "Windows Installer (.exe)"
+                "150 pytest tests",
+                "Windows Installer (.exe)",
+                "Chromium headless",
+                "Web monitoring SHA-256"
             ],
             "category": "tooling",
-            "flows_count": 20,
-            "tests_count": 115
+            "flows_count": 27,
+            "tests_count": 150
         },
         {
             "name": "python-data-science-program v3.8.0",
