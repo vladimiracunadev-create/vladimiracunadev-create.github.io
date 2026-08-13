@@ -1,7 +1,7 @@
 {
     "meta": {
         "version": "v1",
-        "generated_at": "2026-07-17",
+        "generated_at": "2026-08-13",
         "source_pdf": "assets/cv-ats.pdf"
     },
     "projects": [
@@ -119,7 +119,7 @@
         },
         {
             "name": "LangGraph · Agentic Resilience v4.15",
-            "description": "🤖 25 casos de uso empresariales con LangGraph + FastAPI. 25/25 backends operativos (01-25, cobertura 100%): streaming NDJSON, DEMO/LIVE, OAuth2 opt-in, observabilidad LangSmith, /metrics, 8 capas de seguridad, cadena de custodia SHA-256. Python 3.11 · Docker · pytest · uv opcional. v4.15.0 con hardening adversarial (shared/lgrw_common, joserfc, CI 25 casos).",
+            "description": "🤖 25 casos de uso empresariales con LangGraph + FastAPI. 25/25 backends operativos (01-25, cobertura 100%): streaming NDJSON, DEMO/LIVE, OAuth2 opt-in, observabilidad LangSmith, /metrics, 8 capas de seguridad, cadena de custodia SHA-256. Python 3.11 · Docker · pytest · uv opcional. v4.15.0",
             "url": "https://github.com/vladimiracunadev-create/langgraph-realworld",
             "version": "v4.15.0",
             "tags": [
@@ -192,7 +192,7 @@
         },
         {
             "name": "Unikernel Labs · Control Center v2.0.0",
-            "description": "🎯 Unikernel Control Center v2.0.0 · Suite tipo 'Docker Desktop para unikernels' que opera servicios Unikraft desde Windows sobre WSL2 — dashboard Node.js con health en tiempo real, launcher WinForms, instalador .exe y API local endurecida (anti DNS-rebinding, CSRF y path traversal). ⚡",
+            "description": "🎯 Unikernel Control Center v1 · Suite profesional para operar servicios Unikraft en Windows con backend WSL2. Control total vía Dashboard Node.js y Launcher WinForms en localhost. Demostrando arquitectura de alto rendimiento y orquestación unikernel. ⚡",
             "url": "https://github.com/vladimiracunadev-create/unikernel-labs",
             "tags": [
                 "Unikraft",
@@ -241,7 +241,7 @@
         },
         {
             "name": "Problem Driven Systems Lab",
-            "description": "🧪 Laboratorio Docker-first con 12 problemas reales de ingeniería resueltos en 5 stacks (PHP · Python · Node.js · Java · .NET): rendimiento, observabilidad, resiliencia, modernización legacy y arquitectura — con evidencia operacional verificable 🐳",
+            "description": "🧪 Laboratorio Docker-first con 12 problemas reales de ingeniería resueltos en 7 stacks (PHP · Python · Node.js · Java · .NET · Go · Rust): rendimiento, observabilidad, resiliencia, modernización legacy y arquitectura — con evidencia operacional verificable",
             "url": "https://github.com/vladimiracunadev-create/problem-driven-systems-lab",
             "tags": [
                 "PHP 8",
@@ -269,7 +269,7 @@
         },
         {
             "name": "claude-skills-toolkit",
-            "description": "🧰 claude-skills-toolkit · ⚡ Skills agentic para Claude Code · 🔒 security-audit (12 capas: OSV/KEV/EPSS/SAST/...) · 📋 yaml-control · 📝 md-lint-fix · 🐳 docker-cleanup · Zero-deps por defecto · Cross-platform 🐧🍎🪟",
+            "description": "🧰 claude-skills-toolkit · ⚡ 14 skills agentic para Claude Code · 🔒 security-audit (12 capas: OSV/KEV/EPSS/SAST/…) · 🐍 python-lint-guard (paridad local↔CI) · 📌 python-deps-pinning · 🏷️ version-bump · 📄 md-to-doc · 📋 yaml-control · 📝 md-lint-fix · 🐳 docker-cleanup · Zero-deps por defecto · Cross-platform 🐧🍎🪟",
             "url": "https://github.com/vladimiracunadev-create/claude-skills-toolkit",
             "tags": [
                 "Claude Code",
@@ -371,7 +371,7 @@
         },
         {
             "name": "python-data-science-program v3.8.0",
-            "description": "🎓 Python Data Science Program v3.8.0 · 232 clases en 9 partes (cobertura 100%) · App Windows nativa Qt (PySide6) + APK Android + lab Python (Flask+Jupyter real) · Currículo Python/Polars, ML+Optuna/SHAP, DL (PyTorch/LLMs/LoRA-DPO-vLLM/MCP/agentes/multimodal/SDXL/JAX), estadística+causalidad, MLOps, ética/fairness, capstones. 🐍",
+            "description": "📚 Python Data Science Program v3.11.0 · 232 clases en 9 partes (100%) · App Windows Qt nativa (PySide6) con la clase en HTML + APK Android con las 232 clases embebidas + lab Python (Flask+Jupyter real) · Currículo Python/Polars, ML+Optuna/SHAP, DL (PyTorch/LLMs/LoRA-DPO/MCP/agentes/multimodal/JAX), estadística+causalidad, MLOps, ética, capstones. 🐍",
             "url": "https://github.com/vladimiracunadev-create/python-data-science-program",
             "version": "v3.8.0",
             "tags": [
@@ -397,14 +397,14 @@
         },
         {
             "name": "rootcause-mobile-inspector",
-            "description": "📱 RootCause Mobile — sensor forense de diagnóstico para Android e iOS (Flutter). Toda distorsión anómala de recursos (memoria, almacenamiento, batería, superficie de permisos) puede ser el primer indicio de una amenaza: la detecta con motor de reglas local y deja evidencia exportable. APK firmado en Releases. Telemetría: cero.",
+            "description": "📱 RootCause Mobile v0.8.0 — sensor forense de diagnóstico para Android e iOS (Flutter). Compara cada app consigo misma para detectar consumo anómalo, señala stalkerware activo y distingue permisos concedidos de los solo pedidos. Evidencia PDF, 5 idiomas. Sin permiso INTERNET: telemetría cero, verificada en cada build. 🛡️",
             "url": "https://github.com/vladimiracunadev-create/rootcause-mobile-inspector",
             "tags": [],
             "category": "other"
         },
         {
             "name": "modern-gamedev-program",
-            "description": "🎮 El programa de desarrollo de videojuegos más completo en español — 45 clases listas de ~292 (18 partes), de fundamentos a nivel profesional. Matemáticas, C#/C++/GDScript, patrones y ECS; de un sprite a un plataformas 2D completo con Godot 4. Motores Godot · Unity · Unreal. 🕹️",
+            "description": "🎮 El programa de desarrollo de videojuegos más completo en español — 352 clases en 22 partes, de fundamentos a nivel profesional. 2D/3D, física, shaders, IA, audio, multijugador, VR/AR, optimización y producción; más especialización en ingeniería: sistemas de gameplay, backend, IA generativa y motores. Godot · Unity · Unreal. 🕹️",
             "url": "https://github.com/vladimiracunadev-create/modern-gamedev-program",
             "tags": [],
             "category": "other"
@@ -441,6 +441,97 @@
             "name": "wsl-labs",
             "description": "🐳 WSL Container Center · Levanta y controla contenedores en Windows con wslc, el motor de contenedores nativo de WSL — 12 casos reales portados de docker-labs, panel de control + launcher. Sin Docker Desktop. ⚡",
             "url": "https://github.com/vladimiracunadev-create/wsl-labs",
+            "tags": [],
+            "category": "other"
+        },
+        {
+            "name": "computational-mathematics-program",
+            "description": "🧮 Matemática computacional en español · 18 partes · 360 clases en 5 etapas: de contar con los dedos a reproducir un paper · 360 demostraciones deterministas verificadas en CI · sin dependencias para aprender · 1080 notebooks · 489 términos de glosario · manual completo en PDF",
+            "url": "https://github.com/vladimiracunadev-create/computational-mathematics-program",
+            "tags": [],
+            "category": "other"
+        },
+        {
+            "name": "modern-business-creation-program",
+            "description": "Programa de 24 partes y 336 clases para crear y operar una empresa real en Chile: de la idea a la constitución, el SII, la operación, la crisis y la salida. Con 360 diagramas, glosario de 1.251 términos y manual de 1.541 páginas en PDF.",
+            "url": "https://github.com/vladimiracunadev-create/modern-business-creation-program",
+            "tags": [],
+            "category": "other"
+        },
+        {
+            "name": "executive-leadership-founder-program",
+            "description": "👔 Programa ejecutivo abierto de 288 clases en 24 partes · 720 h · De asumir tu primer resultado a dirigir una empresa y crear la tuya: liderazgo, equipos, talento, operaciones, KPI/OKR, finanzas, ventas, marketing, producto, estrategia, riesgo, IA, directorio, M&A y founder track Chile · 24 casos, 96 labs y 39 plantillas 📈",
+            "url": "https://github.com/vladimiracunadev-create/executive-leadership-founder-program",
+            "tags": [],
+            "category": "other"
+        },
+        {
+            "name": "finance-and-banking-evolution-program",
+            "description": "🏦 Programa abierto de 356 clases en 23 partes · 534 h · De calcular un porcentaje a construir y defender un banco digital: matemática financiera, contabilidad NIIF, crédito, riesgos, Basilea III, cumplimiento, finanzas abiertas, pagos transfronterizos, DLT, stablecoins, tokenización y MiCA · 26 casos y fuentes oficiales verificables en cada clase 💰",
+            "url": "https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program",
+            "tags": [],
+            "category": "other"
+        },
+        {
+            "name": "blockchain-learning-path",
+            "description": "⛓️ Blockchain Learning Path v0.9.0 · Programa en español: 28 módulos de cero a la infraestructura financiera programable — cripto, Bitcoin, EVM, contratos, seguridad, L2, ZK, DeFi, dinero y liquidación, stablecoins, CBDC/MDBC, pagos y FX, tokenización, RWA, mercados de capitales, custodia y regulación. 70 prácticas, 186 pruebas, apps offline. 🔗",
+            "url": "https://github.com/vladimiracunadev-create/blockchain-learning-path",
+            "tags": [],
+            "category": "other"
+        },
+        {
+            "name": "universal-code-scanner",
+            "description": "🔍 Universal Code Scanner v1.1.0 — Lector Flutter de códigos QR y de barras que interpreta antes de actuar: 16 señales de riesgo locales por URL, confirmación explícita, historial e inventario cifrados con AES-256-GCM. Estado de escaneo siempre visible y tono propio de lectura. Android · iOS · macOS · PWA. Telemetría cero. 🔐",
+            "url": "https://github.com/vladimiracunadev-create/universal-code-scanner",
+            "tags": [],
+            "category": "other"
+        },
+        {
+            "name": "sandbox-labs",
+            "description": "🛡️ Laboratorio de aislamiento en Linux: ejecuta código, archivos y modelos de negocio ajenos bajo políticas declaradas, y emite evidencia firmada de qué controles se aplicaron de verdad en tu equipo. 36 casos en dos familias — sandboxes técnicos y mercado de capitales con dinero simulado. Experimental y educativo, no un producto de seguridad.",
+            "url": "https://github.com/vladimiracunadev-create/sandbox-labs",
+            "tags": [],
+            "category": "other"
+        },
+        {
+            "name": "artificial-intelligence-evolution-program",
+            "description": "🧠 AI Evolution Program v0.2.0 · 180 clases en 15 partes con materia completa · 540 notebooks con ejercicios y soluciones · PDFs por parte + programa completo (~1.100 pags) · La evolución de la IA en español: simbólica, ML, deep learning, LLMs, RAG, agentes, MLOps, seguridad y frontera. 🤖",
+            "url": "https://github.com/vladimiracunadev-create/artificial-intelligence-evolution-program",
+            "tags": [],
+            "category": "other"
+        },
+        {
+            "name": "rootcause-web-inspector",
+            "description": "🌐 RootCause Web Inspector v0.1.0 — sensor forense de la superficie del navegador: cookies, sesiones de correo, extensiones, descargas y permisos de sitio. Panel local en 127.0.0.1, extension MV3, CERO dependencias y cero telemetria verificada en CI. Hermano de las ediciones Windows (Rust) y Mobile (Flutter).",
+            "url": "https://github.com/vladimiracunadev-create/rootcause-web-inspector",
+            "tags": [],
+            "category": "other"
+        },
+        {
+            "name": "violin-adventure",
+            "description": "🎻 Mi Aventura con el Violín · App educativa para aprender violín desde los 10 años · 24 lecciones en 6 mundos, afinador cromático, metrónomo y práctica guiada · Tauri 2 + React + TypeScript · Windows, Android, Linux, macOS, iOS y PWA · Sin publicidad, sin cuentas, offline · v1.0.0, instaladores firmados en Releases 🎶",
+            "url": "https://github.com/vladimiracunadev-create/violin-adventure",
+            "tags": [],
+            "category": "other"
+        },
+        {
+            "name": "multi-cloud-engineering-program",
+            "description": "☁️ Multi-Cloud Engineering Program v2.0.0 · 288 clases en 24 partes · 1.288 horas · El programa de ingeniería multi-cloud más completo en español: AWS, Azure, GCP, Kubernetes, Terraform, SRE, FinOps y arquitectura de sistemas · Manual PDF de 1.220 páginas, 288 labs deterministas con evidencia JSON, CLI con certificado y portal PWA. 🌩️",
+            "url": "https://github.com/vladimiracunadev-create/multi-cloud-engineering-program",
+            "tags": [],
+            "category": "other"
+        },
+        {
+            "name": "neural-network-training-labs",
+            "description": "🧠 Neural Network Training Labs v1.0 · 31 rutas (25 labs + 6 especializaciones) · 93 notebooks · Ciclo completo de ingeniería de IA con datasets públicos reales: sellado de test, registro champion/challenger, API de inferencia, ONNX/INT8/edge, DDP/FSDP2 y cadena de suministro (SBOM/SHA-256). PyTorch · Python 3.11–3.13 🚀",
+            "url": "https://github.com/vladimiracunadev-create/neural-network-training-labs",
+            "tags": [],
+            "category": "other"
+        },
+        {
+            "name": "polyglot-programming-labs",
+            "description": "🌐 El programa de programación comparada en español — 176 clases en 12 partes. Un concepto, 10 lenguajes del núcleo (Python, JS, TS, Java, C#, Go, Rust, C, SQL, PHP) verificados en CI, y un Atlas de ~40 familias. Aprende el concepto una vez y reconócelo en cualquier lenguaje.",
+            "url": "https://github.com/vladimiracunadev-create/polyglot-programming-labs",
             "tags": [],
             "category": "other"
         }

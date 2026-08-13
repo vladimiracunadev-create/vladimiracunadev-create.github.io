@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-08-13
+
+### sync-portfolio (automático)
+
+- `api/v1/`: generated_at → 2026-08-13
+- Repos nuevos integrados: computational-mathematics-program, modern-business-creation-program, executive-leadership-founder-program, finance-and-banking-evolution-program, blockchain-learning-path, universal-code-scanner, sandbox-labs, artificial-intelligence-evolution-program, rootcause-web-inspector, violin-adventure, multi-cloud-engineering-program, neural-network-training-labs, polyglot-programming-labs
+- Cards HTML agregados en `#proyectos` (index.html)
+- Scripts PDF y api/v1/projects.json actualizados
+- 30 PDFs regenerados (5 tipos × 6 idiomas)
+- Backup en `assets/backups/2026-08-13/`
+
 ## 2026-07-17
 
 ### fix(pdf): CV reclutador/ATS crece a multipágina + limpieza de emojis
