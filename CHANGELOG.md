@@ -1,5 +1,38 @@
 # Changelog
 
+## 2026-08-13 — Móvil y agente
+
+### fix(mobile): el APK empaquetaba la carta de recomendación firmada
+
+Al validar la migración a pnpm compilando el APK de verdad, el artefacto salió correcto pero
+con contenido que no debía viajar. `sync-web.ps1` copiaba `assets/` entero a `apps/mobile/www`:
+
+- **`por_solicitud/carta-recomendacion-original.pdf`** — la carta **firmada**, que se entrega a
+  petición y que `index.html` no enlaza. Iba dentro del APK, extraíble descomprimiéndolo.
+- **`no_aplica/`** — 11 archivos (1,3 MB) de versiones descartadas que `CLAUDE.md` prohíbe publicar.
+- **`backups/`** — 2,97 MB de PDFs históricos ya superados, el 41% del APK.
+
+Ninguna de las tres está referenciada en `index.html`. El script ahora copia `assets/`
+excluyéndolas. APK: **7,24 → 4,05 MB (−44%)**, con los 30 PDFs públicos intactos.
+
+### chore(mobile): migración a pnpm verificada de extremo a extremo
+
+`mobile-android-build.ps1` completo sobre el SDK real: `pnpm install` → `pnpm exec cap sync
+android` → Gradle → **BUILD SUCCESSFUL**, APK firmado de debug.
+
+Comprobado **dentro** del binario, no solo en el log: 43 archivos en `assets/public`, los 30
+PDFs, `index.html` de 309 KB con los 5 grupos y las 43 cards, más `app.js`, `styles.css`,
+`manifest.webmanifest` y `service-worker.js`. Un build en verde no prueba un artefacto correcto.
+
+### feat(agents): agente `portfolio-sync`
+
+Agente de IA que ejecuta el flujo del skill `sync-portfolio`, instalado en el proyecto
+(`.claude/agents/`) y en el ámbito global (`~/.claude/agents/`). Incorpora la guardia de
+confirmación, la auditoría profunda previa, el uso obligatorio de `pnpm`, y las verificaciones
+que hoy costó descubrir: medir el **ancho** de las cards y no solo la altura, buscar tuplas en
+crudo y variation selectors en el texto extraído de los PDFs, y comparar la longitud de las
+listas entre los 6 idiomas. Incluye la tabla de clases de bug conocidas del inyector.
+
 ## 2026-08-13 — UI
 
 ### feat(ui): #proyectos agrupado y plegable — la sección pesaba el 35% de la página
