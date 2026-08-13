@@ -1,0 +1,8 @@
+# Capacitor y Gradle resuelven rutas dentro de node_modules asumiendo un arbol
+# plano (estilo npm). Con el linker aislado por defecto, `cap sync android`
+# genera en capacitor.settings.gradle una ruta hacia node_modules/.pnpm/<pkg>@<version>/
+# que embebe la version exacta y se rompe en cada bump de dependencias.
+#
+# nodeLinker: hoisted mantiene el arbol plano usando pnpm-lock.yaml.
+# En pnpm >= 10 este ajuste va aqui, NO en .npmrc.
+nodeLinker: hoisted

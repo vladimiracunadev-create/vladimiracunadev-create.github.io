@@ -48,6 +48,82 @@ El apply automático dejó datos incorrectos. Se corrigió el sincronizador, no 
 - 30 PDFs regenerados de nuevo tras las correcciones: 0 caracteres problemáticos,
   CV reclutador multipágina intacto (6–7 págs).
 
+### fix(cv): los CV reclutador EN/IT/FR/ZH imprimían tuplas de Python en crudo
+
+Defecto **preexistente** (ya venía publicado con 7–11 tuplas por idioma; el sync de hoy lo
+amplificó a 36–44). Causa raíz: `_inject_per_language` guardaba los offsets de los bloques de
+idioma UNA vez y los reasignaba dentro del bucle —lo cual no afecta a la iteración en curso—,
+así que tras la primera inserción todos los offsets restantes quedaban corridos y las entradas
+caían en la lista equivocada:
+
+- 101 tuplas de `projects_ats` habían caído dentro de `projects_rec` → el CV reclutador
+  imprimía `('Problem Driven Systems Lab — …', 'problem')` como texto.
+- 130 entradas de repo habían caído dentro de `vp` del portafolio → los 5 portafolios no-ES
+  listaban los repos bajo **"Propuesta de Valor"** en vez de "Proyectos".
+- 118 entradas de proyecto habían caído dentro de `ats_experience` y `experience` → los CV ATS
+  listaban proyectos dentro de la **experiencia laboral**.
+
+Corregido el inyector (una sola función `_inject_per_language` que recalcula offsets en cada
+iteración, usada por los 4 puntos de inserción) y reparados los datos ya inyectados.
+Verificación sobre los 30 PDFs: **0 tuplas en crudo** (antes 101).
+
+### feat(cv): ATS y CV reclutador normalizados en los 6 idiomas
+
+Los documentos tenían contenidos dispares por idioma: ATS es=31 · en=17 · pt=11 · it/fr/zh=9.
+
+- **ATS**: conjunto canónico de **35 proyectos idéntico en los 6 idiomas**, sin duplicados
+  (EN traía `rootcause` ×3 y `automa` ×2). Puntuación respetada por idioma (dos puntos simple, con espacio fino en FR y de ancho completo en ZH).
+- **CV reclutador**: 34 entradas en los 6 idiomas.
+- **Experiencia**: 5 viñetas reales en los 6 idiomas (antes hasta 31 por contaminación).
+- Las 9 entradas curadas y traducidas a mano se conservaron intactas.
+- Drift en las curadas alineado: AWS 15 → **16 casos A–P** (EN/IT/FR/ZH), Social Bot ZH
+  9 → **18+ motores DB**, LangGraph FR/ZH del texto viejo a **25/25 backends v4.15**.
+- Páginas ya consistentes entre idiomas: reclutador 6–7 · ATS 3–4 · portafolio 4–5.
+
+### fix(data): descripciones de PDFs alineadas con la web
+
+El inyector solo añade repos nuevos, nunca actualiza los existentes; por eso los PDFs seguían
+diciendo _"Modern Gamedev — 45 clases de ~292"_ con la web ya en 352. Refrescados desde GitHub:
+Modern Gamedev, Problem Driven, Claude Skills Toolkit, RootCause Mobile y Python Data Science.
+**No** se refrescaron `automa-pc` ni `rootcause-windows-inspector`: su descripción corta de
+GitHub es más pobre que la etiqueta curada a mano el 2026-07-17.
+
+### fix(sync): el detector de version drift leía la versión equivocada
+
+`detect_version_drift` tomaba cualquier `vX.Y.Z` del cuerpo del README. En
+`social-bot-scheduler` leía el `v4.3.0` del texto del Master Dashboard e ignoraba el badge
+`version-4.9.1` (sin prefijo `v`). Ahora usa el **tag del último release** como fuente primaria
+y el README como fallback, ampliado a los badges shields.io.
+
+### chore(mobile): apps/mobile de npm a pnpm, verificado
+
+`apps/mobile` ya declaraba `packageManager: pnpm@11.0.0` y tenía `pnpm-lock.yaml`, pero
+`mobile-android-build.ps1` y `mobile-android.ps1` seguían llamando `npm.cmd install`.
+Migrados a `corepack pnpm install` / `pnpm exec cap`. `-ForceNpmInstall` → `-ForceInstall`
+con alias retrocompatible.
+
+Requirió `apps/mobile/pnpm-workspace.yaml` con `nodeLinker: hoisted`: con el linker aislado por
+defecto, `cap sync android` escribía en `capacitor.settings.gradle` una ruta
+`node_modules/.pnpm/@capacitor+android@6.2.1_.../` que embebe la versión exacta y se rompe en
+cada bump. En pnpm ≥ 10 ese ajuste va en `pnpm-workspace.yaml`, **no** en `.npmrc`.
+Verificado: `pnpm install` + `cap sync android` OK y la ruta Gradle vuelve a
+`../node_modules/@capacitor/android/capacitor`, idéntica a la versionada. El build Gradle del
+APK no se ejecutó (requiere Android SDK).
+
+### docs(profile): README del perfil GitHub actualizado
+
+El commit del sync (`2827ec5`) resultó **vacío** —0 adiciones— pese a reportar éxito, así que
+el README seguía en su estado del 2026-08-05. Pasada completa preservando el esquema visual
+(tablas, mermaid y el bloque `<!-- STATS -->` que mantiene su propio workflow):
+
+- **+5 repos**: Matemática computacional (360), Finanzas y Banca (356), Creación de empresas
+  (336), Liderazgo ejecutivo (288) y Sandbox Labs (36 casos).
+- **Cifras contadas**, no declaradas, con el mismo método del workflow (`classes/<parte>/NNN-`):
+  GameDev 292 → **352** y 6 → **10 labs Godot**; total 1.508 → **1.928 clases en 7 programas**.
+- Blockchain 19 → **28 módulos** (70 prácticas · 186 pruebas); Multi-Cloud manual 1.537 →
+  **1.220 páginas**; landings 18 → **24** (verificadas vía API); RootCause Mobile **v0.8.0**.
+- La prosa dejó de duplicar a mano el total que ya mantiene el workflow.
+
 ### chore(tooling): npm → pnpm en la documentación
 
 `package.json` ya declaraba `packageManager: pnpm@11.0.0`, pero los skills y `CLAUDE.md` seguían

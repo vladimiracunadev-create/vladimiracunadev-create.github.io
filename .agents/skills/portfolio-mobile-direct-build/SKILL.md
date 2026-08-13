@@ -2,7 +2,7 @@
 name: portfolio-mobile-direct-build
 description: >
   Orquestra la transformación de la web en app Android directamente desde
-  Windows. Gestiona sincronización, dependencias (npm install), plataforma
+  Windows. Gestiona sincronización, dependencias (pnpm install), plataforma
   (cap add android), sincronización de Capacitor y build final de APK vía
   Gradle con GRADLE_USER_HOME local. Úsalo para generar el APK o validar
   el wrapper Android de forma reproducible.
@@ -17,7 +17,7 @@ Este skill automatiza el flujo completo de construcción Android para este porta
 El script orquestador (`/scripts/mobile-android-build.ps1`) realiza:
 
 - **Sincronización**: Copia la web raíz a `apps/mobile/www`.
-- **Dependencias**: Ejecuta `npm install` en el módulo móvil si faltan o si se usa `-ForceNpmInstall`.
+- **Dependencias**: Ejecuta `corepack pnpm install` en el módulo móvil si faltan o si se usa `-ForceInstall` (alias retrocompatible: `-ForceNpmInstall`).
 - **Plataforma**: Añade automáticamente la carpeta `android` si no existe.
 - **Entorno**: Configura `.gradle-user-home/` localmente para evitar fallos de permisos.
 - **Build**: Genera el APK debug mediante `gradlew.bat assembleDebug`.

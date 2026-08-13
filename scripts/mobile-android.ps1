@@ -13,11 +13,11 @@ powershell.exe -ExecutionPolicy Bypass -File '.\scripts\sync-web.ps1'
 # 3. Preparar apps/mobile
 Write-Host 'Instalando dependencias de Capacitor...'
 Set-Location -Path 'apps/mobile'
-npm install
+corepack pnpm install
 
 # 4. Sincronizar plataforma Android
 Write-Host 'Sincronizando con Android...'
-npx cap sync android
+corepack pnpm exec cap sync android
 
 Write-Host '--------------------------------------------'
 Write-Host 'PREPARACION COMPLETADA'

@@ -1,7 +1,8 @@
 ﻿param(
     [switch]$SkipWebSync,
     [switch]$SkipGradle,
-    [switch]$ForceNpmInstall,
+    [Alias('ForceNpmInstall')]
+    [switch]$ForceInstall,
     [switch]$OpenAndroidStudio,
     [switch]$FreshGradleHome
 )
@@ -66,25 +67,25 @@ if (-not $SkipWebSync) {
 
 Set-Location (Join-Path $repoRoot 'apps\mobile')
 
-if ($ForceNpmInstall -or -not (Test-Path 'node_modules')) {
+if ($ForceInstall -or -not (Test-Path 'node_modules')) {
     Write-Host '2/5 Installing Capacitor dependencies...' -ForegroundColor Yellow
-    & npm.cmd install
-    if ($LASTEXITCODE -ne 0) { throw 'npm install failed in apps/mobile' }
+    & corepack.cmd pnpm install
+    if ($LASTEXITCODE -ne 0) { throw 'pnpm install failed in apps/mobile' }
 } else {
     Write-Host '2/5 Reusing existing Capacitor dependencies.' -ForegroundColor DarkGray
 }
 
 if (-not (Test-Path 'android')) {
     Write-Host '3/5 Android platform missing; adding it now...' -ForegroundColor Yellow
-    & npx.cmd cap add android
-    if ($LASTEXITCODE -ne 0) { throw 'npx cap add android failed' }
+    & corepack.cmd pnpm exec cap add android
+    if ($LASTEXITCODE -ne 0) { throw 'pnpm exec cap add android failed' }
 } else {
     Write-Host '3/5 Android platform already present.' -ForegroundColor DarkGray
 }
 
 Write-Host '4/5 Syncing Capacitor Android project...' -ForegroundColor Yellow
-& npx.cmd cap sync android
-if ($LASTEXITCODE -ne 0) { throw 'npx cap sync android failed' }
+& corepack.cmd pnpm exec cap sync android
+if ($LASTEXITCODE -ne 0) { throw 'pnpm exec cap sync android failed' }
 
 $gradleUserHome = Get-GradleUserHomePath -BasePath $repoRoot -Fresh:$FreshGradleHome
 Initialize-GradleUserHome -Path $gradleUserHome
@@ -120,5 +121,5 @@ if (-not $SkipGradle) {
 if ($OpenAndroidStudio) {
     Set-Location (Join-Path $repoRoot 'apps\mobile')
     Write-Host 'Opening Android Studio via Capacitor...' -ForegroundColor Yellow
-    & npx.cmd cap open android
+    & corepack.cmd pnpm exec cap open android
 }

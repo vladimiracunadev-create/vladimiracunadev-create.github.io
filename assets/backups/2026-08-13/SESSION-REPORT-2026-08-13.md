@@ -106,16 +106,62 @@ Verificación sobre texto extraído de los 30 PDFs: **0 variation selectors, 0 e
 | Indentación destruida en 67 líneas | regex `\s+(")` propia mal acotada | Revert + recorte preservando indentado y CRLF |
 | `projects.json` reformateado entero (538 líneas) | `json.dumps` propio | Revert a HEAD + reemplazo textual de 1 línea |
 
-## Pendientes reportados (no ejecutados)
+## Segunda ronda — los 3 pendientes + README del perfil
 
-- **ATS por idioma desbalanceado**: es=31, en=17, pt=11, it/fr/zh=9 entradas. Preexistente
-  (antes del sync: 18/16/9/9/9/9). Normalizar IT/FR/ZH añadiría ~22 entradas a 3 documentos
-  aprobados — requiere decisión del usuario.
-- **`scripts/mobile-android-build.ps1` y `mobile-android.ps1`** invocan `npm.cmd install`,
-  contra la regla de usar pnpm. No se cambió: exige lockfile pnpm en `apps/mobile` y validar
-  un build Android real.
-- **`social-bot-scheduler`**: el detector de drift seguirá reportando v4.9.1 vs v4.3.0 en cada
-  sync. Es un falso positivo (lee el "v4.3.0" del texto del Master Dashboard, no el badge).
+El usuario pidió ejecutar los tres pendientes y actualizar el README del perfil. Al abordarlos
+apareció un defecto mayor y **preexistente** que explicaba el desbalance del ATS.
+
+### Defecto raíz: entradas inyectadas en la lista equivocada
+
+`inject_*` guardaba los offsets de los 6 bloques de idioma UNA vez y los reasignaba dentro del
+bucle —lo cual no afecta a la iteración en curso—. Tras la primera inserción los offsets
+restantes quedaban corridos:
+
+| Destino correcto | Dónde cayeron | Cantidad | Efecto visible |
+|---|---|---:|---|
+| `projects_ats` | `projects_rec` | 101 | CV reclutador EN/IT/FR/ZH imprimía tuplas `('…', 'clave')` |
+| portafolio `projects` | portafolio `vp` | 130 | 5 portafolios listaban repos bajo "Propuesta de Valor" |
+| `projects_ats` | `ats_experience` / `experience` | 118 | CV ATS listaba proyectos dentro de la experiencia laboral |
+
+Ya venía publicado: los backups `_v1` (estado previo al sync) tenían 7–11 tuplas por idioma.
+El sync de hoy lo amplificó a 36–44. **Solo el CV en español estaba limpio.**
+
+Corregido con una única función `_insert_per_language` que recalcula offsets en cada iteración,
+usada por los 4 puntos de inserción.
+
+### Normalización aplicada
+
+| Lista | Antes (es/en/pt/it/fr/zh) | Después |
+|---|---|---|
+| `projects_ats` | 31 / 17 / 11 / 9 / 9 / 9 | **35 en los 6** |
+| `projects_rec` | 34 / 27 / 30 / 30 / 29 / 26 | **34 en los 6** |
+| `ats_experience` | 5 / 30 / 31 / 31 / 32 / 26 | **5 en los 6** |
+| portafolio `vp` | 7 / 33 / 33 / 33 / 33 / 33 | **7 en los 6** |
+| portafolio `projects` | 33 / 7 / 7 / 7 / 7 / 7 | **33 en los 6** |
+
+Drift alineado en las entradas curadas: AWS 15 → 16 casos A–P (EN/IT/FR/ZH), Social Bot ZH
+9 → 18+ motores DB, LangGraph FR/ZH → 25/25 backends v4.15.
+
+### Los 3 pendientes
+
+- **Detector de drift**: usa el tag de `gh release` como fuente primaria; el README pasa a
+  fallback ampliado a badges shields.io. `social-bot-scheduler` deja de reportarse.
+- **Scripts móviles**: migrados a `corepack pnpm`. Requirió `pnpm-workspace.yaml` con
+  `nodeLinker: hoisted` (en pnpm ≥ 10 va ahí, no en `.npmrc`) porque el linker aislado hacía que
+  `cap sync android` escribiera una ruta Gradle con la versión embebida. Verificado con
+  `pnpm install` + `cap sync android`; el build Gradle del APK no se ejecutó (requiere Android SDK).
+- **README del perfil**: el commit del sync `2827ec5` fue **vacío** (0 adiciones) pese a reportar
+  éxito. Pasada completa: +5 repos, cifras contadas sobre las carpetas reales
+  (GameDev 292 → 352, total 1.508 → 1.928), Blockchain 19 → 28 módulos, Multi-Cloud
+  1.537 → 1.220 páginas, landings 18 → 24. Publicado en `5d802a6`, con el bloque
+  `<!-- STATS -->` del workflow y el mermaid intactos.
+
+### Pendiente que queda
+
+- **Build Android real**: la migración a pnpm está verificada hasta `cap sync`; falta ejecutar
+  `mobile-android-build.ps1` completo en una máquina con Android SDK para confirmar el APK.
+
+## Pendientes reportados (primera ronda, ya resueltos en la segunda)
 
 ## Validación final
 

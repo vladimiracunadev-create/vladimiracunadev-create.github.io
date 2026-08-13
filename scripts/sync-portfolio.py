@@ -239,13 +239,22 @@ def detect_stale_projects(public_repos, known_projects):
 
 
 def detect_version_drift(public_repos, known_projects):
-    """Compara el campo `version` en projects.json contra la versión real del README de cada repo.
+    """Compara el campo `version` en projects.json contra la versión real de cada repo.
 
-    Heurística: busca el primer "vX.Y.Z" (o "vX.Y") en los primeros 60 líneas del README.
+    Fuente primaria: el tag del último release (`gh release view`), que es inequívoco.
+    Fallback: el README, ampliado a los badges shields.io (`badge/version-4.9.1`,
+    `badge/release-v3.11.0`), donde la versión real suele vivir SIN el prefijo "v".
+    Sin ese fallback ampliado el detector leía cualquier "vX.Y.Z" citado en el cuerpo
+    del README —p.ej. la versión de un componente interno— y lo reportaba como drift.
+
     Reporta diferencias sin aplicar cambios — el usuario debe revisar.
     """
     drift = []
     version_re = re.compile(r"\bv(\d+(?:\.\d+){1,2})\b")
+    badge_re = re.compile(
+        r"img\.shields\.io/badge/(?:version|release|v)-v?(\d+(?:\.\d+){1,2})",
+        re.IGNORECASE,
+    )
     for r in public_repos:
         if r["name"] in SKIP_AS_PROJECT:
             continue
@@ -256,21 +265,36 @@ def detect_version_drift(public_repos, known_projects):
         stored_v = (proj.get("version") or "").strip()
         if not stored_v or not stored_v.lower().startswith("v"):
             continue  # sin version o version no semántica (e.g. "Fase 4") — saltar
-        out, code = run_capture(
-            f"gh api repos/vladimiracunadev-create/{r['name']}/contents/README.md --jq .content"
+
+        # 1) Fuente primaria: tag del último release
+        live_v = None
+        tag, code = run_capture(
+            f"gh release view --repo vladimiracunadev-create/{r['name']} "
+            "--json tagName -q .tagName"
         )
-        if code != 0:
-            continue
-        try:
-            readme = base64.b64decode(out.strip()).decode("utf-8", errors="replace")
-        except Exception:
-            continue
-        head = "\n".join(readme.splitlines()[:60])
-        matches = version_re.findall(head)
-        if not matches:
-            continue
-        # Tomar la versión más alta entre las primeras 60 líneas
-        live_v = "v" + max(matches, key=lambda v: tuple(int(x) for x in v.split(".")))
+        if code == 0:
+            m = version_re.search(tag.strip())
+            if m:
+                live_v = "v" + m.group(1)
+
+        # 2) Fallback: README (badge shields.io primero, luego texto suelto)
+        if live_v is None:
+            out, code = run_capture(
+                f"gh api repos/vladimiracunadev-create/{r['name']}/contents/README.md --jq .content"
+            )
+            if code != 0:
+                continue
+            try:
+                readme = base64.b64decode(out.strip()).decode("utf-8", errors="replace")
+            except Exception:
+                continue
+            head = "\n".join(readme.splitlines()[:60])
+            matches = badge_re.findall(head) or version_re.findall(head)
+            if not matches:
+                continue
+            # Tomar la versión más alta entre las primeras 60 líneas
+            live_v = "v" + max(matches, key=lambda v: tuple(int(x) for x in v.split(".")))
+
         if live_v != stored_v:
             drift.append({"name": r["name"], "stored": stored_v, "live": live_v})
     return drift
@@ -388,6 +412,31 @@ SUBTITLE_PATTERNS_ALL = {
 
 # Índice de aparición de subtitle_rec por idioma en generate-all-languages.py (orden: es, en, pt, it, fr, zh)
 LANG_ORDER = ["es", "en", "pt", "it", "fr", "zh"]
+
+
+def _inject_per_language(content, list_pattern, entry_for_lang, present, closer="],"):
+    """Inserta una entrada en el bloque de CADA idioma, recalculando los offsets
+    en cada iteración.
+
+    El patrón anterior calculaba las posiciones UNA vez y las reasignaba dentro
+    del bucle — lo cual no afecta a la iteración en curso. Tras la primera
+    inserción, todos los offsets restantes quedaban corridos y las entradas
+    caían en el bloque equivocado: así terminaron las tuplas de `projects_ats`
+    dentro de `projects_rec` (los CV reclutador EN/IT/FR/ZH imprimían tuplas en
+    crudo) y los repos dentro de `vp` del portafolio, bajo "Propuesta de Valor".
+    """
+    for idx in range(len(LANG_ORDER)):
+        positions = [m.start() for m in re.finditer(list_pattern, content)]
+        if idx >= len(positions):
+            break
+        pos = positions[idx]
+        segment_end = content.find(closer, pos)
+        if segment_end == -1:
+            continue
+        if present(content[pos:segment_end]):
+            continue
+        content = content[:segment_end] + entry_for_lang(LANG_ORDER[idx]) + content[segment_end:]
+    return content
 
 
 def sync_identity_all_languages(apply=False):
@@ -515,21 +564,11 @@ def inject_into_all_languages(new_repos, apply=False):
             "fr": f'                "{title} \u2014 {desc}",\n',
             "zh": f'                "{title} \u2014 {desc}",\n',
         }
-        # Buscar todas las posiciones de "projects_rec": [
-        rec_positions = [m.start() for m in re.finditer(r'"projects_rec":\s*\[', content)]
-        for idx, pos in enumerate(rec_positions):
-            lang = LANG_ORDER[idx] if idx < len(LANG_ORDER) else "es"
-            entry = rec_entries[lang]
-            # Verificar que la entrada no exista ya
-            segment_end = content.find('],', pos)
-            if segment_end == -1:
-                continue
-            segment = content[pos:segment_end]
-            if title in segment:
-                continue
-            content = content[:segment_end] + entry + content[segment_end:]
-            # Recalcular posiciones después de modificar
-            rec_positions = [m.start() for m in re.finditer(r'"projects_rec":\s*\[', content)]
+        content = _inject_per_language(
+            content, r'"projects_rec":\s*\[',
+            lambda lang: rec_entries[lang],
+            lambda segment: title in segment,
+        )
         changes.append(f"projects_rec (6 langs): + {title}")
 
         # 3. projects_ats (una tupla por idioma — 6 ocurrencias)
@@ -541,20 +580,13 @@ def inject_into_all_languages(new_repos, apply=False):
             "fr": f'                ("{title} \u2014 {desc} :", "{key}"),\n',
             "zh": f'                ("{title} \u2014 {desc}\uff1a", "{key}"),\n',
         }
-        ats_positions = [m.start() for m in re.finditer(r'"projects_ats":\s*\[', content)]
-        for idx, pos in enumerate(ats_positions):
-            lang = LANG_ORDER[idx] if idx < len(LANG_ORDER) else "es"
-            entry = ats_entries[lang]
-            segment_end = content.find('],', pos)
-            if segment_end == -1:
-                continue
-            segment = content[pos:segment_end]
-            # Comparar la clave como TUPLA exacta, no como subcadena suelta:
-            # 'multi' hacía match dentro de 'multijugador' y saltaba la entrada.
-            if f'"{key}"),' in segment or title in segment:
-                continue
-            content = content[:segment_end] + entry + content[segment_end:]
-            ats_positions = [m.start() for m in re.finditer(r'"projects_ats":\s*\[', content)]
+        # Comparar la clave como TUPLA exacta, no como subcadena suelta:
+        # 'multi' hacía match dentro de 'multijugador' y saltaba la entrada.
+        content = _inject_per_language(
+            content, r'"projects_ats":\s*\[',
+            lambda lang: ats_entries[lang],
+            lambda segment: f'"{key}"),' in segment or title in segment,
+        )
         changes.append(f"projects_ats (6 langs): + {title}")
 
     if content != original:
@@ -593,32 +625,21 @@ def inject_into_portfolio(new_repos, apply=False):
             "fr": f'            "<b>{title} :</b> {desc}",\n',
             "zh": f'            "<b>{title}\uff1a</b> {desc}",\n',
         }
-        proj_positions = [m.start() for m in re.finditer(r'"projects":\s*\[', content)]
-        for idx, pos in enumerate(proj_positions):
-            lang = LANG_ORDER[idx] if idx < len(LANG_ORDER) else "es"
-            entry = proj_entries[lang]
-            segment_end = content.find('],', pos)
-            if segment_end == -1:
-                continue
-            segment = content[pos:segment_end]
-            if title in segment:
-                continue
-            content = content[:segment_end] + entry + content[segment_end:]
-            proj_positions = [m.start() for m in re.finditer(r'"projects":\s*\[', content)]
+        content = _inject_per_language(
+            content, r'"projects":\s*\[',
+            lambda lang: proj_entries[lang],
+            lambda segment: title in segment,
+        )
         changes.append(f"portfolio projects (6 langs): + {title}")
 
         # 2. project_link_labels (6 ocurrencias)
         label_entry = f'            "{key}": "{title}",\n'
-        label_positions = [m.start() for m in re.finditer(r'"project_link_labels":\s*\{', content)]
-        for pos in label_positions:
-            segment_end = content.find('},', pos)
-            if segment_end == -1:
-                continue
-            segment = content[pos:segment_end]
-            if f'"{key}":' in segment:
-                continue
-            content = content[:segment_end] + label_entry + content[segment_end:]
-            label_positions = [m.start() for m in re.finditer(r'"project_link_labels":\s*\{', content)]
+        content = _inject_per_language(
+            content, r'"project_link_labels":\s*\{',
+            lambda lang: label_entry,
+            lambda segment: f'"{key}":' in segment,
+            closer="},",
+        )
         changes.append(f"project_link_labels (6 langs): + {key}")
 
     if content != original:
