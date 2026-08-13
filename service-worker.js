@@ -1,4 +1,4 @@
-const CACHE_NAME = 'vladi-portfolio-v7-bypass-http-cache';
+const CACHE_NAME = 'vladi-portfolio-v8-grupos-proyectos';
 const OFFLINE_URL = './offline.html';
 
 const APP_SHELL = [

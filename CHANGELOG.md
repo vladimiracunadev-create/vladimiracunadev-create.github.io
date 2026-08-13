@@ -1,5 +1,48 @@
 # Changelog
 
+## 2026-08-13 — UI
+
+### feat(ui): #proyectos agrupado y plegable — la sección pesaba el 35% de la página
+
+`#proyectos` había crecido por sincronizaciones a **35 cards de igual peso** en una rejilla plana:
+4.789 px, más que todo el modo Reclutador completo. El sync solo sabe añadir, nunca jerarquizar.
+
+- **5 grupos** con la misma taxonomía del README del perfil: Productos con distribución real ·
+  Laboratorios de ingeniería · IA aplicada · Currículos técnicos · Ciencia y educación.
+  Encabezado y contador por grupo, en los 6 idiomas.
+- **Se muestran 4 cards por grupo** y el resto se despliega con «Ver los otros N». El contador
+  se calcula sobre las cards **visibles en la vista activa**: al pasar a Profundo incluye las de
+  nivel 2. Un grupo que cabe entero no muestra botón.
+- El plegado usa `data-collapsed`, **no** `data-hidden`: `setView()` reescribe `data-hidden` en
+  todo `[data-min-level]` en cada cambio de vista y se pisarían mutuamente.
+- Dentro de cada grupo, las cards **sin** `data-min-level` van primero, así las que se ven en
+  todas las vistas nunca quedan plegadas.
+- La card confidencial (sin repo) queda destacada fuera de los grupos.
+
+Resultado: `#proyectos` **4.789 → 2.633 px (−45%)**; la página en vista Normal pasa de
+**18,9 → 15,8 pantallas** y en Profundo de 25,9 → 22,5. La vista Reclutador no cambia (6,5).
+
+### feat(ui): descripciones recortadas a 2 líneas, sin perder texto
+
+Se recorta con `line-clamp` por CSS y la card se expande al pulsar la descripción, en vez de
+partir el texto en «resumen + resto» dentro del HTML. **El texto completo permanece en el DOM**
+(65.895 caracteres): partirlo habría sacado la mitad de cada descripción del alcance de los
+crawlers, de `llm.txt` y del posicionamiento, que es justo lo que este sitio cuida. Solo se
+vuelve pulsable la descripción que de verdad está recortada, y eso se re-evalúa al desplegar un
+grupo o cambiar de vista, porque una card plegada mide 0.
+
+### fix(sync): las cards nuevas ahora entran en su grupo
+
+Con la nueva estructura, el anclaje anterior habría metido toda card nueva en el último grupo
+(«Ciencia y educación»). Añadido `REPO_GROUPS` con los 34 repos y `repo_group()` con heurística
+para los futuros —marcada como `[heurística: revisar]` en el log—, y `_insert_card_in_grid()`
+acepta el grupo destino.
+
+### chore(pwa): `CACHE_NAME` v7 → v8
+
+Sin bumpear el nombre de caché, el service worker seguiría sirviendo el `styles.css` y el
+`app.js` viejos a quien ya tuviera el sitio instalado.
+
 ## 2026-08-13
 
 ### sync-portfolio (automático)

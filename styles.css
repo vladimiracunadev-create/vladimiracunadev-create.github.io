@@ -1003,3 +1003,100 @@ body[data-view="deep"] .repo {
     display: flex
   }
 }
+
+/* ══════════════════════════════════════════════════════════════════
+   GRUPOS PLEGABLES DE PROYECTOS
+   #proyectos crecia sin jerarquia: 35 cards de igual peso en una
+   rejilla plana. Se agrupan por la taxonomia del perfil y cada grupo
+   muestra 4 cards; el resto se despliega bajo demanda.
+   ══════════════════════════════════════════════════════════════════ */
+
+.project-group {
+  margin-top: 26px
+}
+
+.project-group__head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--line)
+}
+
+.project-group__title {
+  margin: 0;
+  font-size: 1.02rem;
+  letter-spacing: .2px
+}
+
+.project-group__count {
+  font-size: .78rem;
+  padding: 2px 9px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  color: var(--muted);
+  background: var(--btn-bg)
+}
+
+.project-group__toggle {
+  margin-top: 12px;
+  width: 100%;
+  font-size: .88rem
+}
+
+.project-group__toggle .js-count {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600
+}
+
+/* Alterna la etiqueta del boton segun su estado, sin tocar el i18n:
+   los envoltorios no llevan data-<idioma>, asi que el idioma activo
+   se sigue resolviendo dentro de cada uno. */
+.project-group__toggle .lbl-less {
+  display: none
+}
+
+.project-group__toggle[aria-expanded="true"] .lbl-more {
+  display: none
+}
+
+.project-group__toggle[aria-expanded="true"] .lbl-less {
+  display: inline
+}
+
+/* Canal propio de ocultamiento: setView() reescribe data-hidden en todo
+   [data-min-level], asi que el plegado no puede compartir ese atributo. */
+article.card.project[data-collapsed="true"] {
+  display: none !important
+}
+
+/* ── Descripciones recortadas a 2 lineas ──────────────────────────
+   Se recorta por CSS y no partiendo el texto en el HTML: asi la
+   descripcion completa sigue en el DOM para crawlers, llm.txt y la
+   API JSON. La card se expande al pulsar el texto.                */
+
+article.card.project > p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden
+}
+
+article.card.project.is-open > p {
+  display: block;
+  -webkit-line-clamp: unset;
+  line-clamp: unset;
+  overflow: visible
+}
+
+article.card.project > p[role="button"] {
+  cursor: pointer
+}
+
+article.card.project > p[role="button"]:focus-visible {
+  outline: 2px solid var(--accent, #3b82f6);
+  outline-offset: 3px;
+  border-radius: 6px
+}

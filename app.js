@@ -27,6 +27,88 @@ function setView(view) {
   $$("[data-freelance-hide]").forEach(el => {
     if (!el.hasAttribute("data-min-level")) el.dataset.hidden = "false";
   });
+
+  // El plegado depende de qué cards son visibles en la vista activa,
+  // así que se recalcula después de aplicar los niveles.
+  applyProjectGroups();
+}
+
+// ── Grupos plegables de #proyectos ─────────────────────────────────
+// Cada grupo muestra PREVIEW cards y esconde el resto. Se cuenta solo
+// sobre las cards visibles en la vista actual: si "Profundo" añade
+// cards de nivel 2, el contador del botón las incluye.
+const GROUP_PREVIEW = 4;
+
+function applyProjectGroups() {
+  $$(".project-group").forEach(group => {
+    const open = group.dataset.open === "true";
+    const cards = $$("article.card.project", group)
+      .filter(card => card.dataset.hidden !== "true");
+
+    cards.forEach((card, i) => {
+      card.dataset.collapsed = String(!open && i >= GROUP_PREVIEW);
+    });
+
+    const ocultas = Math.max(0, cards.length - GROUP_PREVIEW);
+    const toggle = $(".project-group__toggle", group);
+    if (!toggle) return;
+    // Un grupo que cabe entero no necesita botón.
+    toggle.dataset.hidden = String(ocultas === 0);
+    toggle.setAttribute("aria-expanded", String(open));
+    $$(".js-count", toggle).forEach(el => { el.textContent = String(ocultas); });
+  });
+  // Las cards recién mostradas ya tienen altura: ahora se puede saber
+  // cuáles quedan recortadas.
+  if (typeof markClampedDescriptions === "function") markClampedDescriptions();
+}
+
+function initProjectGroups() {
+  $$(".project-group__toggle").forEach(toggle => {
+    toggle.addEventListener("click", () => {
+      const group = toggle.closest(".project-group");
+      if (!group) return;
+      group.dataset.open = group.dataset.open === "true" ? "false" : "true";
+      applyProjectGroups();
+    });
+  });
+  applyProjectGroups();
+}
+
+// ── Descripciones recortadas ───────────────────────────────────────
+// El CSS recorta a 2 líneas; el texto completo permanece en el DOM.
+// Solo se vuelve pulsable la descripción que de verdad está recortada,
+// y eso solo puede medirse cuando la card es visible: una card plegada
+// mide 0. Por eso se re-evalúa cada vez que cambia lo visible.
+function markClampedDescriptions() {
+  $$("article.card.project > p").forEach(p => {
+    if (p.dataset.clampChecked === "done" || p.offsetParent === null) return;
+    if (p.scrollHeight <= p.clientHeight + 1) return;   // cabe entera: no se toca
+    p.dataset.clampChecked = "done";
+    p.setAttribute("role", "button");
+    p.setAttribute("tabindex", "0");
+    p.setAttribute("aria-expanded", "false");
+  });
+}
+
+// Delegación: las cards aparecen y desaparecen al plegar o cambiar de
+// vista, así que el listener vive en el documento y no en cada <p>.
+function initCardDescriptions() {
+  const toggle = p => {
+    const card = p.closest("article.card.project");
+    if (!card) return;
+    const open = card.classList.toggle("is-open");
+    p.setAttribute("aria-expanded", String(open));
+  };
+  document.addEventListener("click", ev => {
+    const p = ev.target.closest?.('article.card.project > p[role="button"]');
+    if (p) toggle(p);
+  });
+  document.addEventListener("keydown", ev => {
+    if (ev.key !== "Enter" && ev.key !== " ") return;
+    const p = ev.target.closest?.('article.card.project > p[role="button"]');
+    if (p) { ev.preventDefault(); toggle(p); }
+  });
+  markClampedDescriptions();
 }
 
 function setTheme(theme) {
@@ -91,6 +173,9 @@ function initSettings() {
   $$("[data-view-btn]").forEach(btn => btn.addEventListener("click", () => setView(btn.dataset.viewBtn)));
   $("#btnTheme")?.addEventListener("click", toggleTheme);
   $("#selectLang")?.addEventListener("change", handleLangChange);
+
+  initProjectGroups();
+  initCardDescriptions();
 }
 
 function initMenu() {

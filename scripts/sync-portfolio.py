@@ -85,6 +85,46 @@ REPO_CATEGORIES = {
     "chofyai-studio": "ai",
 }
 
+# Grupo de #proyectos donde vive la card de cada repo en index.html.
+# Sin esto, toda card nueva caía al final del último grupo del HTML.
+REPO_GROUPS = {
+    # Productos con distribución real
+    "rootcause-windows-inspector": "productos", "rootcause-mobile-inspector": "productos",
+    "rootcause-web-inspector": "productos",     "universal-code-scanner": "productos",
+    "gabysql": "productos",                     "automa-pc": "productos",
+    "chofyai-studio": "productos",              "rhino-suite": "productos",
+    # Laboratorios de ingeniería
+    "docker-labs": "laboratorios",              "proyectos-aws": "laboratorios",
+    "microsistemas": "laboratorios",            "social-bot-scheduler": "laboratorios",
+    "problem-driven-systems-lab": "laboratorios", "wsl-labs": "laboratorios",
+    "unikernel-labs": "laboratorios",           "sandbox-labs": "laboratorios",
+    # IA aplicada
+    "langgraph-realworld": "ia",                "mcp-ollama-local": "ia",
+    "claude-skills-toolkit": "ia",              "neural-network-training-labs": "ia",
+    # Currículos técnicos completos
+    "computational-mathematics-program": "curriculos", "modern-gamedev-program": "curriculos",
+    "modern-cybersecurity-program": "curriculos",      "multi-cloud-engineering-program": "curriculos",
+    "finance-and-banking-evolution-program": "curriculos", "modern-business-creation-program": "curriculos",
+    "executive-leadership-founder-program": "curriculos",  "python-data-science-program": "curriculos",
+    "artificial-intelligence-evolution-program": "curriculos", "polyglot-programming-labs": "curriculos",
+    "blockchain-learning-path": "curriculos",   "machine-operator-program": "curriculos",
+    # Ciencia y educación
+    "human-genome-labs": "ciencia",             "violin-adventure": "ciencia",
+}
+
+
+def repo_group(name):
+    """Grupo de #proyectos para un repo. Heurística solo para repos nuevos:
+    el resultado se registra en el log para revisarlo a mano."""
+    if name in REPO_GROUPS:
+        return REPO_GROUPS[name], False
+    if name.endswith("-program") or "learning-path" in name or "curriculum" in name:
+        return "curriculos", True
+    if "labs" in name or "lab" in name.split("-"):
+        return "laboratorios", True
+    return "productos", True
+
+
 # Etiquetas de categoría en los 6 idiomas (para cards HTML y tags PDF)
 CATEGORY_TAGS = {
     "cloud":        {"es": "Cloud",         "en": "Cloud",        "pt": "Cloud",          "it": "Cloud",         "fr": "Cloud",       "zh": "云"},
@@ -691,14 +731,26 @@ CARD_TEMPLATE = """\
 CARD_ANCHOR = '<p class="small muted text-center-pad" data-es>'
 
 
-def _insert_card_in_grid(content, card):
-    """Inserta la card DENTRO del <div class="grid"> de #proyectos.
+def _insert_card_in_grid(content, card, group=None):
+    """Inserta la card DENTRO del <div class="grid"> que le corresponde.
 
-    CARD_ANCHOR (la nota de IA) vive FUERA del grid, después de su </div> de
-    cierre. Anclar ahí dejaba las cards nuevas como hermanas del grid y el
-    navegador las renderizaba a ancho completo, fuera de las columnas.
-    Por eso se ancla en el </div> que cierra el grid, no en el <p>.
+    Con `group`, ancla en el grid de ese `.project-group`; el botón
+    `project-group__toggle` marca dónde termina el grid del grupo.
+    Sin `group` (HTML antiguo, sin grupos), ancla en el </div> anterior a
+    CARD_ANCHOR: la nota de IA vive FUERA del grid, así que anclar en ella
+    dejaba las cards como hermanas del grid y se renderizaban a ancho completo.
     """
+    if group:
+        gpos = content.find(f'data-group="{group}"')
+        if gpos != -1:
+            toggle = content.find("project-group__toggle", gpos)
+            if toggle != -1:
+                close = content.rfind("</div>", gpos, toggle)
+                if close != -1:
+                    line_start = content.rfind("\n", 0, close) + 1
+                    return content[:line_start] + card + content[line_start:], True
+        return content, False
+
     pos = content.find(CARD_ANCHOR)
     if pos == -1:
         return content, False
@@ -738,10 +790,16 @@ def inject_html_cards(new_repos, apply=False):
             tag_it=tags["it"], tag_fr=tags["fr"], tag_zh=tags["zh"],
         )
 
-        # Insertar DENTRO del grid (antes del </div> que lo cierra)
-        content, ok = _insert_card_in_grid(content, card)
+        # Insertar en el grid del grupo que le corresponde
+        group, adivinado = repo_group(r["name"])
+        content, ok = _insert_card_in_grid(content, card, group)
+        if not ok:
+            # HTML sin grupos (versión anterior): anclaje clásico
+            content, ok = _insert_card_in_grid(content, card)
+            group = "sin grupos"
         if ok:
-            changes.append(f"index.html: card + {title}")
+            changes.append(f"index.html: card + {title} → grupo '{group}'"
+                           + (" [heurística: revisar]" if adivinado else ""))
         else:
             log(f"index.html: no se encontró anchor de inserción para '{title}'", "WARN")
 
