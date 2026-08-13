@@ -28,8 +28,8 @@ Si hay cambios sin commit: **DETENER** y reportar. No continuar hasta que el usu
 ### Paso 2 — Ejecutar validaciones
 
 ```bash
-npm test
-npm run lint:html
+pnpm test
+pnpm run lint:html
 ```
 
 Si alguna validación falla: reportar errores y **no generar el ZIP** hasta que el usuario autorice continuar.

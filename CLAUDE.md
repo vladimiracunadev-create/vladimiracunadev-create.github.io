@@ -178,8 +178,8 @@ python scripts/build-zip.py
 ## Validación
 
 ```bash
-npm test              # 51 checks de integridad
-npm run lint:html     # HTML validation
+pnpm test              # 51 checks de integridad
+pnpm run lint:html     # HTML validation
 ```
 
 ---

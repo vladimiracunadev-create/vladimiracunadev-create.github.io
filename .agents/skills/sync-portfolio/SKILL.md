@@ -58,7 +58,7 @@ python scripts/sync-portfolio.py --apply --no-push     # aplica sin push
 9. RootCause es PÚBLICO desde 2026-06-20 (CLAUDE.md regla 9 derogada) — se sincroniza como cualquier repo. `rootcause-landing` fue eliminado de GitHub (404): nunca referenciarlo
 10. Repos privados NUNCA se publican en API ni README
 11. NUNCA terminar una sesión sin generar el reporte de sesión
-12. NUNCA hacer commit sin ejecutar `npm run lint:md` y que pase con 0 errores
+12. NUNCA hacer commit sin ejecutar `pnpm run lint:md` y que pase con 0 errores
 
 ---
 
@@ -221,10 +221,10 @@ sha, code2         = run_capture(f"gh api {readme_api} --jq .sha")
 
 Si falla, verificar `gh auth status` y que el token tenga scope `repo`.
 
-### 3. `npm run lint:md` — obligatorio antes de TODO commit
+### 3. `pnpm run lint:md` — obligatorio antes de TODO commit
 
 ```bash
-npm run lint:md
+pnpm run lint:md
 # Debe mostrar: Summary: 0 error(s)
 ```
 
@@ -308,11 +308,11 @@ Ejecutar en este orden, corregir cualquier error antes de continuar:
 
 ```bash
 # 1. Tests de integridad (51 checks)
-npm test
+pnpm test
 # Esperado: PASSED: 51 · ERRORS: 0
 
 # 2. Lint de Markdown (0 errores tolerados)
-npm run lint:md
+pnpm run lint:md
 # Esperado: Summary: 0 error(s)
 
 # 3. Solo si se regeneraron PDFs: verificar que abren sin errores
@@ -366,8 +366,8 @@ Debe permitir reconstruir exactamente qué cambió, dónde y por qué.
 
 ## Validación final
 
-- npm test: N PASSED · 0 ERRORS
-- npm run lint:md: 0 error(s)
+- pnpm test: N PASSED · 0 ERRORS
+- pnpm run lint:md: 0 error(s)
 - git push: OK → hash
 - GitHub Pages: desplegado (Ctrl+F5 para ver cambios en el browser)
 ```
@@ -398,8 +398,8 @@ Mostrar siempre al terminar (además del reporte detallado en archivo):
 [Backups]   — PDFs respaldados en assets/backups/YYYY-MM-DD/
 [PDFs]      — N PDFs regenerados (verificados sin puntos negros)
 [README]    — perfil GitHub actualizado (formato correcto con Qué/emoji/detalle)
-[Lint]      — resultado npm run lint:md (0 errores)
-[Tests]     — npm test (51 PASSED · 0 ERRORS)
+[Lint]      — resultado pnpm run lint:md (0 errores)
+[Tests]     — pnpm test (51 PASSED · 0 ERRORS)
 [Commit]    — hash del commit
 [Push]      — estado
 [Reporte]   — assets/backups/YYYY-MM-DD/SESSION-REPORT-YYYY-MM-DD.md

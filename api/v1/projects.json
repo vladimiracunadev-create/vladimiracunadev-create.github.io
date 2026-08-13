@@ -373,7 +373,7 @@
             "name": "python-data-science-program v3.8.0",
             "description": "📚 Python Data Science Program v3.11.0 · 232 clases en 9 partes (100%) · App Windows Qt nativa (PySide6) con la clase en HTML + APK Android con las 232 clases embebidas + lab Python (Flask+Jupyter real) · Currículo Python/Polars, ML+Optuna/SHAP, DL (PyTorch/LLMs/LoRA-DPO/MCP/agentes/multimodal/JAX), estadística+causalidad, MLOps, ética, capstones. 🐍",
             "url": "https://github.com/vladimiracunadev-create/python-data-science-program",
-            "version": "v3.8.0",
+            "version": "v3.11.0",
             "tags": [
                 "Python",
                 "ML clásico",

@@ -13,7 +13,7 @@ Validar cambios de bajo riesgo antes de publicar.
 
 ## Flujo
 
-1. Ejecutar `npm.cmd run lint` y `npm.cmd run build` en Windows; usar `npm run ...` en shells Unix.
+1. Ejecutar `pnpm run lint` y `pnpm run build` en Windows; usar `pnpm run ...` en shells Unix.
 2. Verificar que `dist/` contenga al menos `index.html`, `styles.css`, `app.js`, `assets/`, `api/v1/`, `llm.txt`, `manifest.webmanifest`, `service-worker.js` y `offline.html`.
 3. Confirmar que el build no dependa de fallbacks silenciosos; si los hay, explicarlos.
 4. Revisar `git diff --cached --stat` antes de commitear.

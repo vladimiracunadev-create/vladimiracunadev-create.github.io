@@ -119,18 +119,47 @@ _EMOJI_RE = re.compile(
     "\U0001FA00-\U0001FA6F"   # símbolos extendidos A
     "\U0001FA70-\U0001FAFF"   # símbolos extendidos B
     "\U00002702-\U000027B0"   # Dingbats
+    "\U00002B00-\U00002BFF"   # flechas y formas misceláneas
+    "\U0000FE00-\U0000FE0F"   # variation selectors (VS1–VS16)
+    "\U0000200D"              # zero-width joiner
+    "\U000020E3"              # combining enclosing keycap
     "]+",
     flags=re.UNICODE,
 )
 
 def strip_emojis(text: str) -> str:
-    """Elimina emojis/símbolos gráficos Unicode para uso seguro en PDFs."""
-    return _EMOJI_RE.sub("", text).strip()
+    """Elimina emojis/símbolos gráficos Unicode para uso seguro en PDFs.
+
+    Incluye los variation selectors (U+FE0E/FE0F) y el ZWJ: al quitar el emoji
+    y dejar su selector huérfano, reportlab lo pinta como un cuadro negro ■.
+    Bug recurrente — ya corregido en los scripts generados el 2026-07-17, pero
+    volvió el 2026-08-13 porque la causa estaba aquí, no allá.
+    """
+    return re.sub(r"  +", " ", _EMOJI_RE.sub("", text)).strip()
 
 
-def repo_key(name):
-    """Deriva clave corta de un nombre de repo. ej: 'unikernel-labs' → 'unikernel'"""
-    return name.split("-")[0]
+def repo_key(name, taken=None):
+    """Deriva clave corta de un nombre de repo. ej: 'unikernel-labs' → 'unikernel'
+
+    Si la clave corta ya está tomada por OTRO repo, la extiende con más tokens
+    ('rootcause-web-inspector' → 'rootcause_web'). Sin esto, el repo nuevo hereda
+    silenciosamente la URL del repo que ocupó la clave primero.
+    """
+    parts = name.split("-")
+    key = parts[0]
+    if not taken or key not in taken:
+        return key
+    for n in range(2, len(parts) + 1):
+        candidate = "_".join(parts[:n])
+        if candidate not in taken:
+            return candidate
+    return name.replace("-", "_")
+
+
+def existing_url_keys(content):
+    """Claves ya presentes en el dict PROJECTS_URLS del script destino."""
+    block = re.search(r"PROJECTS_URLS\s*=\s*\{(.*?)\n\}", content, re.S)
+    return set(re.findall(r'"([^"]+)"\s*:', block.group(1))) if block else set()
 
 
 def repo_display(name):
@@ -464,7 +493,7 @@ def inject_into_all_languages(new_repos, apply=False):
     changes = []
 
     for r in new_repos:
-        key   = repo_key(r["name"])
+        key   = repo_key(r["name"], existing_url_keys(content))
         title = repo_display(r["name"])
         url   = f"https://github.com/vladimiracunadev-create/{r['name']}"
         # strip_emojis: los PDFs (reportlab) no soportan emojis → puntos negros
@@ -520,7 +549,9 @@ def inject_into_all_languages(new_repos, apply=False):
             if segment_end == -1:
                 continue
             segment = content[pos:segment_end]
-            if key in segment:
+            # Comparar la clave como TUPLA exacta, no como subcadena suelta:
+            # 'multi' hacía match dentro de 'multijugador' y saltaba la entrada.
+            if f'"{key}"),' in segment or title in segment:
                 continue
             content = content[:segment_end] + entry + content[segment_end:]
             ats_positions = [m.start() for m in re.finditer(r'"projects_ats":\s*\[', content)]
@@ -545,7 +576,10 @@ def inject_into_portfolio(new_repos, apply=False):
     changes = []
 
     for r in new_repos:
-        key   = repo_key(r["name"])
+        # misma clave que en generate-all-languages.py: PROJECT_LINKS manda
+        links_block = re.search(r"PROJECT_LINKS\s*=\s*\{(.*?)\n\}", content, re.S)
+        taken = set(re.findall(r'"([^"]+)"\s*:', links_block.group(1))) if links_block else set()
+        key   = repo_key(r["name"], taken)
         title = repo_display(r["name"])
         # strip_emojis: los PDFs (reportlab) no soportan emojis → puntos negros
         desc  = strip_emojis((r.get("description") or title)).rstrip(".")
@@ -636,6 +670,24 @@ CARD_TEMPLATE = """\
 CARD_ANCHOR = '<p class="small muted text-center-pad" data-es>'
 
 
+def _insert_card_in_grid(content, card):
+    """Inserta la card DENTRO del <div class="grid"> de #proyectos.
+
+    CARD_ANCHOR (la nota de IA) vive FUERA del grid, después de su </div> de
+    cierre. Anclar ahí dejaba las cards nuevas como hermanas del grid y el
+    navegador las renderizaba a ancho completo, fuera de las columnas.
+    Por eso se ancla en el </div> que cierra el grid, no en el <p>.
+    """
+    pos = content.find(CARD_ANCHOR)
+    if pos == -1:
+        return content, False
+    close = content.rfind("</div>", 0, pos)
+    if close == -1:
+        return content, False
+    line_start = content.rfind("\n", 0, close) + 1
+    return content[:line_start] + card + content[line_start:], True
+
+
 def inject_html_cards(new_repos, apply=False):
     """Agrega project cards en index.html para repos nuevos."""
     if not new_repos:
@@ -665,9 +717,9 @@ def inject_html_cards(new_repos, apply=False):
             tag_it=tags["it"], tag_fr=tags["fr"], tag_zh=tags["zh"],
         )
 
-        # Insertar antes del anchor (nota de IA)
-        if CARD_ANCHOR in content:
-            content = content.replace(CARD_ANCHOR, card + "          " + CARD_ANCHOR, 1)
+        # Insertar DENTRO del grid (antes del </div> que lo cierra)
+        content, ok = _insert_card_in_grid(content, card)
+        if ok:
             changes.append(f"index.html: card + {title}")
         else:
             log(f"index.html: no se encontró anchor de inserción para '{title}'", "WARN")

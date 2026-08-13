@@ -11,6 +11,51 @@
 - 30 PDFs regenerados (5 tipos × 6 idiomas)
 - Backup en `assets/backups/2026-08-13/`
 
+### fix(sync): 3 bugs de causa raíz en sync-portfolio.py
+
+El apply automático dejó datos incorrectos. Se corrigió el sincronizador, no solo su salida:
+
+- **Cuadros negros ■ (recurrencia del 2026-07-17)**: `strip_emojis()` no cubría los variation
+  selectors. Al quitar el emoji dejaba U+FE0F huérfano y reportlab lo pintaba como ■. En julio
+  se limpiaron los scripts generados pero no la función; por eso volvió. Ahora `_EMOJI_RE`
+  incluye `FE00–FE0F`, ZWJ (`200D`), keycap (`20E3`) y `2B00–2BFF`, y colapsa espacios dobles.
+- **Colisión de claves de URL**: `repo_key()` usaba la primera palabra del repo, así
+  `rootcause-web-inspector` → `rootcause`, clave ya ocupada por `rootcause-windows-inspector`.
+  El guard de "clave existente" saltaba la inserción y la entrada **heredaba la URL de otro repo**.
+  Ahora extiende la clave (`rootcause_web`, `modern_business`) cuando hay colisión.
+- **Cards fuera del grid**: `CARD_ANCHOR` apuntaba al `<p>` de la nota IA, que vive _después_
+  del `</div>` del grid. Las 13 cards nuevas quedaban como hermanas del grid y se renderizaban
+  a ancho completo. Nuevo `_insert_card_in_grid()` ancla en el `</div>` de cierre del grid.
+- **Dedupe por subcadena** en `projects_ats`: `if key in segment` hacía match de `multi` dentro
+  de `multijugador`, saltando Multi-Cloud en casi todos los idiomas. Ahora compara la tupla exacta.
+
+### fix(data): correcciones manuales tras el apply
+
+- **Enlaces reapuntados** (4): Rootcause Mobile Inspector, Rootcause Web Inspector, Modern
+  Business Creation y Modern Cybersecurity apuntaban al repo equivocado en los CV ATS.
+- **Entradas faltantes** (8): 3 en `projects_ats` ES y 5 en `projects_rec` EN/PT.
+  Cobertura final: 13/13 repos nuevos en el CV reclutador de los 6 idiomas.
+- **Cards nuevas traducidas** a EN/PT/IT/FR/ZH (13 cards × 5 idiomas); el apply las dejaba en español.
+- **Datos desactualizados** (4 cards × 6 idiomas): Modern Gamedev 45 clases/~292/18 partes →
+  **352 clases en 22 partes** y 6 → **10 labs Godot**; Problem Driven 5 stacks/60 casos →
+  **7 stacks/84 casos** (+Go, +Rust); Claude Skills Toolkit 10 → **14 skills**;
+  RootCause Mobile APK v0.2.1 → **v0.8.0** (+stalkerware, evidencia PDF 5 idiomas, sin permiso INTERNET).
+- **`projects.json`**: `python-data-science-program` v3.8.0 → **v3.11.0** (release real).
+- **Fechas**: `buildDate` → 2026-08-13 y tag del hero → Ago/Aug/Ago/Ago/Août/2026年8月.
+- **No degradados** por verificación contra releases reales: `unikernel-labs` sigue en **v2.0.0**
+  (la descripción corta de GitHub dice "v1", está stale upstream) y `social-bot-scheduler` en
+  **v4.9.1** (el detector leyó un v4.3.0 del texto del dashboard — falso positivo).
+- 30 PDFs regenerados de nuevo tras las correcciones: 0 caracteres problemáticos,
+  CV reclutador multipágina intacto (6–7 págs).
+
+### chore(tooling): npm → pnpm en la documentación
+
+`package.json` ya declaraba `packageManager: pnpm@11.0.0`, pero los skills y `CLAUDE.md` seguían
+instruyendo `npm test` / `npm run lint:md`. Actualizados `sync-portfolio`, `build-deploy-zip`,
+`portfolio-release-guard` y `CLAUDE.md`. **Pendiente**: `scripts/mobile-android-build.ps1` y
+`scripts/mobile-android.ps1` aún invocan `npm.cmd install`; no se tocaron porque cambiar el
+gestor en un proyecto Capacitor exige lockfile propio y validación de un build Android real.
+
 ## 2026-07-17
 
 ### fix(pdf): CV reclutador/ATS crece a multipágina + limpieza de emojis
