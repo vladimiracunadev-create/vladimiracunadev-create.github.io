@@ -38,7 +38,30 @@ Con la nueva estructura, el anclaje anterior habría metido toda card nueva en e
 para los futuros —marcada como `[heurística: revisar]` en el log—, y `_insert_card_in_grid()`
 acepta el grupo destino.
 
-### chore(pwa): `CACHE_NAME` v7 → v8
+### fix(ui): los grupos quedaban dentro de la rejilla de 2 columnas
+
+Regresión introducida por el cambio anterior y visible en producción: los 5 `.project-group`
+se insertaron **dentro** del `<div class="grid">` de 2 columnas que ya envolvía las cards.
+Cada grupo pasó a ocupar una celda de 533 px —se colocaban de dos en dos, `productos` al lado
+de la card destacada— y la rejilla anidada de cada grupo partía las cards a **259 px**.
+
+- El contenedor exterior de `#proyectos` pasa de `.grid` a `.project-groups` (bloque), así los
+  grupos se apilan a ancho completo y la rejilla interna de cada uno vuelve a dar 2 × 533 px.
+- La card destacada (confidencial) se envuelve en su propia `.grid` para conservar su ancho.
+
+Verificado: cards a **533 px**, idénticas a las de `#demos`, que no se tocó; 0 elementos
+desbordados en las 4 vistas; 35 cards intactas; 6 idiomas OK.
+`#proyectos` **4.789 → 3.037 px (−37%)** y la vista Normal 18,9 → 16,4 pantallas (viewport
+1280×720, el mismo del diagnóstico inicial).
+
+### fix(ui): scroll horizontal en móvil por la barra de vistas
+
+Defecto **preexistente**, no introducido aquí (el CSS de `.views` es idéntico al de `4ded0a9`):
+con `flex-shrink: 0`, la barra medía 420 px dentro de un padre de 335 px, desbordaba ~22 px y
+ponía scroll horizontal en **toda** la página a 375 px de ancho. Se le permite encoger y
+envolver en el breakpoint de 820 px. Verificado: 0 elementos desbordados en móvil.
+
+### chore(pwa): `CACHE_NAME` v7 → v8 → v9
 
 Sin bumpear el nombre de caché, el service worker seguiría sirviendo el `styles.css` y el
 `app.js` viejos a quien ya tuviera el sitio instalado.

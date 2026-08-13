@@ -266,6 +266,9 @@ pre {
   display: flex;
   align-items: center;
   gap: 10px;
+  /* Sin wrap, los 3 chips de vista desbordaban ~22px en pantallas de 375px
+     y aparecia scroll horizontal en toda la pagina. */
+  flex-wrap: wrap;
   flex-shrink: 0;
   padding: 8px 10px;
   border: 1px solid var(--line);
@@ -281,6 +284,7 @@ pre {
 
 .views__group {
   display: flex;
+  flex-wrap: wrap;
   gap: 8px
 }
 
@@ -982,6 +986,14 @@ body[data-view="deep"] .repo {
     gap: 12px;
   }
 
+  /* En movil la barra de vistas media 420px dentro de un padre de 335px y,
+     con flex-shrink: 0, se negaba a encoger: desbordaba ~22px y ponia scroll
+     horizontal en toda la pagina. Aqui se le permite encoger y envolver. */
+  .views {
+    flex-shrink: 1;
+    max-width: 100%;
+  }
+
   .iconbtn {
     display: inline-flex
   }
@@ -1010,6 +1022,13 @@ body[data-view="deep"] .repo {
    rejilla plana. Se agrupan por la taxonomia del perfil y cada grupo
    muestra 4 cards; el resto se despliega bajo demanda.
    ══════════════════════════════════════════════════════════════════ */
+
+/* Contenedor de los grupos: apila en bloque. Si fuera .grid, cada grupo
+   ocuparia una celda de 2 columnas y las cards de dentro se partirian
+   a la mitad del ancho. */
+.project-groups {
+  display: block
+}
 
 .project-group {
   margin-top: 26px
