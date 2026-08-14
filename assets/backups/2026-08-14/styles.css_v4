@@ -1554,19 +1554,3 @@ article.card.project > p[role="button"]:focus-visible {
     text-align: center;
   }
 }
-
-/* Sprite: solo aporta las definiciones <symbol>, nunca se pinta. */
-.icon-sprite {
-  display: none;
-}
-
-/* Copia del sidebar: 3 columnas x 2 filas. En una sola fila los 6 iconos
-   pedirian 314px y el interior del sidebar mide 271px, asi que el sexto
-   caia solo a una segunda linea. Se mantiene el objetivo tactil de 44px. */
-.social-icons--side {
-  display: grid;
-  grid-template-columns: repeat(3, 44px);
-  gap: 10px;
-  margin-top: 2px;
-  padding-left: 4px;
-}

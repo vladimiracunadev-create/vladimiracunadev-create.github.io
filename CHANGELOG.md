@@ -2,6 +2,20 @@
 
 ## 2026-08-14 — Rediseño de distribución
 
+### feat(ui): los iconos de redes también en el sidebar, bajo «Contacto»
+
+Segunda ubicación de los mismos seis enlaces, al final de la navegación lateral. Para no
+duplicar los `path` —ni arriesgar que las dos copias se desincronicen— los SVG pasan a un
+**sprite `<symbol>`** declarado una sola vez tras el enlace de salto, y ambos sitios lo
+referencian con `<use href="#i-…">`.
+
+- `.social-icons--side`: rejilla de **3 columnas × 2 filas**. En una sola fila los 6 iconos
+  pedirían 314px y el interior del sidebar mide 271px, así que el sexto caía solo a una segunda
+  línea. Se conserva el objetivo táctil de 44×44px.
+- Lista sin `<nav aria-label>`: un segundo landmark con el mismo nombre que el del footer sería
+  ambiguo al navegar por landmarks. Cada enlace ya lleva su `aria-label`.
+- Ocupan el hueco vacío que quedaba entre «Contacto» y el panel de Vista.
+
 ### feat(ui): footer con las redes como iconos, tras `#contacto`
 
 Las redes estaban repartidas en **dos filas de enlaces de texto**: una en el hero
