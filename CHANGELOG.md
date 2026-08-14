@@ -2,6 +2,37 @@
 
 ## 2026-08-14 — Rediseño de distribución
 
+### release: v2.4.0 — APK + bundle PWA
+
+Publicado en <https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/releases/tag/v2.4.0>
+sobre `main` con Pages y CI en verde.
+
+| Artefacto | Tamaño | Qué es |
+|---|---|---|
+| `portfolio-app-v2.4.0-debug.apk` | 4,57 MB | APK Android (Capacitor 6), sideload |
+| `app-debug.apk` | 4,57 MB | Mismo binario, **nombre estable que enlaza el sitio** |
+| `portfolio-pwa-v2.4.0.zip` | 0,53 MB | Bundle web/PWA para hosting estático |
+| `SHA256SUMS.txt` | — | Checksums |
+
+**Bug encontrado al publicar:** el botón «Descargar APK» del sitio apunta a
+`releases/latest/download/app-debug.apk` (`app.js:416`), pero los releases publicaban el asset
+**solo** con el nombre versionado (`portfolio-app-v2.3.0-debug.apk`). Comprobado con `curl`: ese
+enlace devolvía **HTTP 404** — la descarga del APK llevaba rota desde v2.3.0. Este release sube
+el binario con **ambos nombres**. _Convención a partir de ahora: todo release debe incluir el
+alias `app-debug.apk` o el botón del sitio se rompe._
+
+**Verificación del artefacto** — un build en verde no prueba un APK correcto, así que se abrió el
+binario: 48 archivos en `assets/public` con los 30 PDFs, `index.html` de 338 KB con el shell
+nuevo (`class="shell"`, `class="sidebar"`, `social-icons`, `icon-sprite`), los 6 iconos nuevos,
+y **sin** `backups/`, `no_aplica/` ni `por_solicitud/`. `aapt2 dump badging` confirma
+`versionCode=240` / `versionName=2.4.0`, y `aapt2 dump xmltree` que el icono adaptativo apunta a
+`mipmap/ic_launcher_background` y no al blanco de plantilla.
+
+**Desbloqueo del build:** `cap sync android` fallaba con
+`This project is configured to use 11.0.0 of pnpm. Your current pnpm is v11.2.2`. El pin de
+`apps/mobile/package.json` pasa a 11.2.2. El de la raíz **no se toca**: el CI está en verde con
+11.0.0 y `pnpm/action-setup` lo lee de ahí.
+
 ### feat(brand): icono propio para app y PWA — Android usaba el de plantilla
 
 Hasta ahora la identidad del icono estaba a medias y en Android directamente no existía:
