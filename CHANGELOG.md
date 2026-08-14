@@ -2,6 +2,27 @@
 
 ## 2026-08-14 — Rediseño de distribución
 
+### feat(ui): footer con las redes como iconos, tras `#contacto`
+
+Las redes estaban repartidas en **dos filas de enlaces de texto**: una en el hero
+(GitHub/GitLab/LinkedIn/YouTube) y otra dentro de `#contacto` bajo el rótulo «También»
+(YouTube/X/TikTok/GitLab), esta última con `data-min-level="1"`, así que un reclutador —la vista
+por defecto— nunca la veía. Se unifican en un `<footer>` al cierre de la página.
+
+- Seis iconos: GitHub, GitLab, LinkedIn, YouTube, X y TikTok. Visibles en las **4 vistas**.
+- **SVG en línea**, no una librería de iconos: la CSP (`img-src`/`default-src 'self'`) no admite
+  hosts externos. `fill: currentColor` los hace seguir el tema claro/oscuro sin duplicar reglas.
+- Cada enlace con `target="_blank"` **y `rel="noopener noreferrer"`** — abre en pestaña nueva sin
+  ceder el `window.opener` de la pestaña actual.
+- Objetivo táctil de 44×44px; los 6 caben en una fila a 375px sin desbordar.
+- `<nav aria-label="Redes sociales">` envolviendo la lista: `aria-label` sobre un `<ul>` pelado
+  es un uso inválido que `html-validate` rechaza (`aria-label-misuse`).
+- El `©` se traslada del final de la tarjeta de contacto al footer, conservando sus 6 idiomas y
+  el `id="year"` único.
+
+Efecto colateral medible: el aviso de `validate.js` sobre enlaces externos sin `rel="noopener"`
+baja de **110 a 102** — los 8 enlaces de texto retirados usaban solo `rel="noreferrer"`.
+
 ### feat(ui): foto de perfil en la cabecera del sidebar
 
 Sustituye el monograma provisional «VA» por la foto real, en el mismo círculo con doble anillo
