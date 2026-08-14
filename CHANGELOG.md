@@ -2,6 +2,29 @@
 
 ## 2026-08-14 — Rediseño de distribución
 
+### fix(ui): franja vacía de 156px sobre el sidebar cuando `styles.css` no llegaba a tiempo
+
+Reportado como «al subir el scroll a la parte superior aparece una zona vacía o como salto».
+
+El sprite `<svg class="icon-sprite">` se apoyaba **solo en CSS** para no verse
+(`.icon-sprite { display: none }`). Un `<svg>` sin atributos de dimensión mide **300×150 por
+defecto**, así que en cuanto la hoja de estilos llegaba tarde, cacheada o servida por el service
+worker en su versión anterior, esa caja se pintaba encima de todo y empujaba `.shell` —sidebar
+incluido— 156px hacia abajo.
+
+Reproducido borrando la regla `.icon-sprite` del CSSOM en la página desplegada: `shellY` y
+`sidebarY` saltaban de `0` a `156`. Tras el arreglo, el mismo experimento deja ambos en `0`.
+
+- `width="0" height="0"` como **atributos de presentación** en el `<svg>`. No son estilos en
+  línea, así que la CSP los admite, y no dependen de que `styles.css` haya cargado.
+- El sprite se mueve al **final del `<body>`**: con dimensión 0 sigue siendo un elemento inline
+  que puede generar una caja de línea, y al final del documento esa caja no puede abrir hueco
+  arriba. Verificado que los 12 `<use>` siguen resolviendo pese a referenciar `<symbol>`
+  declarados después.
+- `.icon-sprite { display: none }` se mantiene como segunda barrera.
+- Caché del service worker a `v11-sprite-fix`, para que quien tuviera el `styles.css` anterior
+  no siga viendo la franja.
+
 ### feat(ui): los iconos de redes también en el sidebar, bajo «Contacto»
 
 Segunda ubicación de los mismos seis enlaces, al final de la navegación lateral. Para no

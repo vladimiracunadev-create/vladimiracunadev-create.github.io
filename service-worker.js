@@ -1,4 +1,4 @@
-const CACHE_NAME = 'vladi-portfolio-v10-shell-sidebar';
+const CACHE_NAME = 'vladi-portfolio-v11-sprite-fix';
 const OFFLINE_URL = './offline.html';
 
 const APP_SHELL = [
