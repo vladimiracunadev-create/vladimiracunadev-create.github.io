@@ -373,33 +373,6 @@ function initCopyEmail() {
   });
 }
 
-// Emite los 6 <span data-XX> que espera el sistema de idiomas del sitio.
-// Escribir textContent o un literal suelto deja ese texto en un solo idioma
-// para los seis, porque styles.css decide que mostrar por atributo.
-const LANGS = ["es", "en", "pt", "it", "fr", "zh"];
-const i18n = dict => LANGS.map(l => `<span data-${l}>${dict[l]}</span>`).join("");
-
-const DL_LABELS = {
-  apk: { es: "Descargar APK", en: "Download APK", pt: "Baixar APK", it: "Scarica APK", fr: "Télécharger l'APK", zh: "下载 APK" },
-  apkEmu: { es: "Descargar APK (Emulador)", en: "Download APK (Emulator)", pt: "Baixar APK (Emulador)", it: "Scarica APK (Emulatore)", fr: "Télécharger l'APK (Émulateur)", zh: "下载 APK（模拟器）" },
-  pwa: { es: "Instalar PWA", en: "Install PWA", pt: "Instalar PWA", it: "Installa PWA", fr: "Installer la PWA", zh: "安装 PWA" },
-  pwaDesktop: { es: "Instalar PWA (Desktop)", en: "Install PWA (Desktop)", pt: "Instalar PWA (Desktop)", it: "Installa PWA (Desktop)", fr: "Installer la PWA (Desktop)", zh: "安装 PWA（桌面）" },
-  pwaApp: { es: "Instalar como App (PWA)", en: "Install as App (PWA)", pt: "Instalar como App (PWA)", it: "Installa come App (PWA)", fr: "Installer comme App (PWA)", zh: "安装为应用（PWA）" },
-};
-
-// El nombre de plataforma es un nombre propio: solo se traduce la frase.
-const platformNotice = name => ({
-  es: `Plataforma detectada: ${name}`, en: `Detected platform: ${name}`,
-  pt: `Plataforma detectada: ${name}`, it: `Piattaforma rilevata: ${name}`,
-  fr: `Plateforme détectée : ${name}`, zh: `检测到的平台：${name}`,
-});
-
-const UNKNOWN_NOTICE = {
-  es: "Plataforma no identificada", en: "Platform not identified",
-  pt: "Plataforma não identificada", it: "Piattaforma non identificata",
-  fr: "Plateforme non identifiée", zh: "未识别的平台",
-};
-
 function initAppDownloads() {
   const actions = $("#smartDownloadActions");
   const notice = $("#platformNotice");
@@ -415,25 +388,23 @@ function initAppDownloads() {
   const REPO_URL = "https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/releases/latest/download";
   const APK_URL = `${REPO_URL}/app-debug.apk`;
 
-  const apk = (label, primary) => `<a class="btn${primary ? " primary" : ""}" href="${APK_URL}">${i18n(label)}</a>`;
-  const pwa = (label, primary) => `<button class="btn${primary ? " primary" : ""}" type="button" data-pwa-trigger>${i18n(label)}</button>`;
-
-  let noticeDict, html;
+  let html = "";
   if (isAndroid) {
-    noticeDict = platformNotice("Android");
-    html = apk(DL_LABELS.apk, true);
+    notice.textContent = "Plataforma detectada: Android";
+    html = `<a class="btn primary" href="${APK_URL}">Descargar APK</a>`;
   } else if (isIOS || isMac) {
-    noticeDict = platformNotice(isIOS ? "iOS" : "macOS");
-    html = pwa(DL_LABELS.pwaApp, true);
+    notice.textContent = `Plataforma: ${isIOS ? "iOS" : "macOS"}`;
+    html = `<button class="btn primary" data-pwa-trigger>Instalar como App (PWA)</button>`;
   } else if (isWindows) {
-    noticeDict = platformNotice("Windows");
-    html = pwa(DL_LABELS.pwaDesktop, true) + apk(DL_LABELS.apkEmu, false);
+    notice.textContent = "Plataforma detectada: Windows";
+    html = `<button class="btn primary" data-pwa-trigger>Instalar PWA (Desktop)</button>
+              <a class="btn" href="${APK_URL}">Descargar APK (Emulador)</a>`;
   } else {
-    noticeDict = UNKNOWN_NOTICE;
-    html = apk(DL_LABELS.apk, true) + pwa(DL_LABELS.pwa, false);
+    notice.textContent = "Plataforma no identificada";
+    html = `<a class="btn primary" href="${APK_URL}">Descargar APK</a>
+              <button class="btn" data-pwa-trigger>Instalar PWA</button>`;
   }
 
-  notice.innerHTML = i18n(noticeDict);
   actions.innerHTML = html;
 }
 

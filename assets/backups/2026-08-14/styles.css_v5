@@ -1570,23 +1570,3 @@ article.card.project > p[role="button"]:focus-visible {
   margin-top: 2px;
   padding-left: 4px;
 }
-
-/* ── Centro de descargas: tarjeta "Modo inteligente" ────────────────
-   El bloque de acciones pasaba de 44px (un skeleton) a 101px (dos
-   botones envueltos en dos filas) al detectar la plataforma. Como
-   .app-download centra en vertical, ese crecimiento empujaba el icono
-   y el titulo ~28px hacia arriba: el salto que siempre se veia.
-   Se reserva de antemano la altura del caso mas alto y los botones
-   pasan a ancho completo, para que su numero de filas sea predecible
-   en los 6 idiomas (el frances es el que mas alarga las etiquetas). */
-
-#smartDownloadActions {
-  min-height: 6.5rem;
-  align-content: center;
-}
-
-#smartDownloadActions .btn,
-#smartDownloadActions .skeleton-btn {
-  flex: 1 1 100%;
-  width: auto;
-}

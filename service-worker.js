@@ -1,4 +1,4 @@
-const CACHE_NAME = 'vladi-portfolio-v11-sprite-fix';
+const CACHE_NAME = 'vladi-portfolio-v12-smart-download';
 const OFFLINE_URL = './offline.html';
 
 const APP_SHELL = [

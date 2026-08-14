@@ -2,6 +2,34 @@
 
 ## 2026-08-14 — Rediseño de distribución
 
+### fix(ui): el salto del «Modo inteligente» en el Centro de descargas
+
+Reportado como «siempre ha habido un salto ahí». Dos defectos en la misma tarjeta.
+
+**El salto.** `#smartDownloadActions` arranca con un `.skeleton-btn` de 44px y, al detectar la
+plataforma, `initAppDownloads()` lo sustituye por los botones reales. En Windows son **dos**, que
+en una tarjeta de 351px envuelven a dos filas: **104px**. Como `.app-download` es un flex column
+con `justify-content: center`, esos 57px de más empujaban el icono y el título hacia arriba. La
+altura de la tarjeta no cambiaba —la rejilla la estira a la más alta—, por eso el salto era
+interno y no un reflow de la página.
+
+- Se reserva la altura del caso más alto (`min-height: 6.5rem`) con `align-content: center`.
+- Los botones pasan a ancho completo, para que su número de filas sea predecible en los 6
+  idiomas. El francés («Télécharger l'APK (Émulateur)») es el que más alarga y sigue cabiendo.
+- Medido antes/después de la detección: desplazamiento **0px** a 1900px y a 375px.
+
+**Rompía los 6 idiomas.** `notice.textContent = "Plataforma detectada: Windows"` borraba los seis
+`<span data-XX>` del aviso, y los botones se generaban con literales en español. En inglés,
+francés, italiano, portugués o chino la tarjeta mostraba texto en español.
+
+- Nuevo helper `i18n(dict)` que emite los seis `<span data-XX>` que espera `styles.css`, más los
+  diccionarios `DL_LABELS`, `platformNotice()` y `UNKNOWN_NOTICE`.
+- Al emitir los seis idiomas de golpe, el cambio de idioma en caliente sigue funcionando sin
+  volver a ejecutar la detección: lo resuelve el CSS, como en el resto del sitio.
+- Verificado en es/en/fr/zh: exactamente **un** span visible por botón y por aviso.
+
+Caché del service worker a `v12-smart-download`.
+
 ### fix(ui): franja vacía de 156px sobre el sidebar cuando `styles.css` no llegaba a tiempo
 
 Reportado como «al subir el scroll a la parte superior aparece una zona vacía o como salto».
