@@ -2,7 +2,29 @@
 
 ## 2026-08-14 — Rediseño de distribución
 
-### fix(ui): el salto del «Modo inteligente» en el Centro de descargas
+### fix(ui): el escalón real del «Modo inteligente» — la tarjeta iba 48px más abajo
+
+La entrega anterior atacó el desplazamiento al cargar, pero el «salto» que se reportaba era
+otro y seguía ahí: **la primera tarjeta del Centro de descargas no alineaba con sus hermanas**.
+
+`.app-download` es la única de la fila con `display: flex` y `justify-content: center`; las otras
+dos son `display: block`. Medido en la fila desplegada:
+
+| Tarjeta | Etiqueta respecto al borde superior |
+|---|---|
+| «Modo inteligente» | **65px** |
+| «Selección manual» | 17px |
+| «Artefactos públicos» | 17px |
+
+48px de desfase, visible como un escalón entre las tres. Es de origen, no lo introdujo el
+rediseño. La rejilla ya iguala las alturas, así que centrar en vertical no aportaba nada:
+`justify-content: flex-start` deja las tres etiquetas a 17px (**desfase 0**).
+
+Además, `#smartDownloadActions` pasa de `align-content: center` a `flex-start`: con la tarjeta ya
+alineada arriba, centrar dejaba el skeleton a media altura y el primer botón aparecía 28px más
+arriba al sustituirlo. Medido tras el cambio: **0px**.
+
+### fix(ui): el salto de carga del «Modo inteligente» en el Centro de descargas
 
 Reportado como «siempre ha habido un salto ahí». Dos defectos en la misma tarjeta.
 

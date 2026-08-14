@@ -823,16 +823,11 @@ body[data-theme="light"] .lang-select option {
   margin-top: 0
 }
 
-/* justify-content: center dejaba la etiqueta "Modo inteligente" a 65px del
-   borde superior, mientras sus hermanas de la misma fila -que son display:
-   block- la ponen a 17px. Ese desfase de 48px era el escalon visible entre
-   las tres tarjetas del Centro de descargas. La rejilla ya iguala las
-   alturas, asi que alinear arriba es lo que las deja a la par. */
 .app-download {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  justify-content: flex-start;
+  justify-content: center;
   background: linear-gradient(180deg, var(--accent-soft), transparent 55%), var(--card-bg);
 }
 
@@ -1587,10 +1582,7 @@ article.card.project > p[role="button"]:focus-visible {
 
 #smartDownloadActions {
   min-height: 6.5rem;
-  /* Arriba, no centrado: con la tarjeta ya alineada al borde superior, centrar
-     dejaba el skeleton a media altura y el primer boton aparecia 28px mas
-     arriba al sustituirlo. */
-  align-content: flex-start;
+  align-content: center;
 }
 
 #smartDownloadActions .btn,
