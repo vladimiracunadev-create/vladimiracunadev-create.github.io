@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Ya no lo usa el adaptive-icon (pasó a @mipmap/ic_launcher_background), pero
+     se deja alineado con la marca para que cualquier consumidor del color no
+     herede el #FFFFFF de la plantilla. -->
 <resources>
-    <color name="ic_launcher_background">#FFFFFF</color>
+    <color name="ic_launcher_background">#3B82F6</color>
 </resources>

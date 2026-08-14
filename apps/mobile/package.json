@@ -1,6 +1,6 @@
 {
     "name": "vladimir-portfolio-mobile",
-    "version": "1.0.0",
+    "version": "2.4.0",
     "private": true,
     "description": "Capacitor wrapper for Vladimir Portfolio",
     "dependencies": {
@@ -12,7 +12,7 @@
         "@capacitor/cli": "^6.0.0",
         "typescript": "^5.9.3"
     },
-    "packageManager": "pnpm@11.0.0",
+    "packageManager": "pnpm@11.2.2",
     "pnpm": {
         "onlyBuiltDependencies": []
     }

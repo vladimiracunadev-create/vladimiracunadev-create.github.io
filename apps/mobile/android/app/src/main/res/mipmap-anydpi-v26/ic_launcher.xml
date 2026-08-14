@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- El fondo apuntaba a @color/ic_launcher_background (#FFFFFF, de la plantilla
+     de Android Studio): en Android 8+ el icono salia como un circulo blanco con
+     el glifo, sin el degradado de marca. Ahora usa la capa PNG generada por
+     scripts/generate-icons.py. -->
 <adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
-    <background android:drawable="@color/ic_launcher_background"/>
+    <background android:drawable="@mipmap/ic_launcher_background"/>
     <foreground android:drawable="@mipmap/ic_launcher_foreground"/>
 </adaptive-icon>

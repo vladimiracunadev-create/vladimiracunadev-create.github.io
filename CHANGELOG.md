@@ -2,6 +2,33 @@
 
 ## 2026-08-14 — Rediseño de distribución
 
+### feat(brand): icono propio para app y PWA — Android usaba el de plantilla
+
+Hasta ahora la identidad del icono estaba a medias y en Android directamente no existía:
+
+- **Web/PWA:** una «A» genérica en `icon.svg`, y el manifest declaraba **solo SVG**. Chrome en
+  Android exige PNG de 192 y 512 para ofrecer la instalación, e iOS ignora un SVG en
+  `apple-touch-icon`.
+- **Android:** `mipmap-*/ic_launcher*.png` seguían siendo **el icono de plantilla de Android
+  Studio** —el robot verde sobre `#FFFFFF`—, nunca personalizado desde que se creó el wrapper.
+
+Nuevo mark: monograma **VA** en tinta `#0B0D10` sobre degradado `#3B82F6 → #2DD4BF` (el
+`theme_color` del manifest), coherente con la familia de iconos previa y con el sidebar.
+
+- `scripts/generate-icons.py` genera **el set completo desde una sola definición** (Pillow, sin
+  dependencias de rasterizado SVG): 4 archivos web + 20 de Android.
+- Web: `icon-192.png`, `icon-512.png`, `icon-maskable-512.png` y `apple-touch-icon.png` (180px,
+  opaco — iOS aplica su propia máscara y no admite transparencia).
+- Android: `ic_launcher` y `ic_launcher_round` legacy en 5 densidades, más las dos capas del
+  icono adaptativo (`_background` a sangre, `_foreground` con el glifo).
+- El glifo del `_foreground` se verificó contra el **círculo seguro de 66/108** que garantiza
+  Android: diagonal 209px sobre 264px de zona segura (**79% de ocupación**), simulando los
+  recortes a 108/108, 72/108 y 66/108.
+- `icon.svg` y `favicon.svg` reescritos con el monograma **trazado como `path`**, no como
+  `<text>`: un `<text>` dependería de que la fuente exista en el dispositivo.
+
+Caché del service worker a `v13-icono-va` y los cuatro PNG añadidos al `APP_SHELL`.
+
 ### fix(ui): el escalón real del «Modo inteligente» — la tarjeta iba 48px más abajo
 
 La entrega anterior atacó el desplazamiento al cargar, pero el «salto» que se reportaba era

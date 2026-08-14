@@ -1,4 +1,4 @@
-const CACHE_NAME = 'vladi-portfolio-v12-smart-download';
+const CACHE_NAME = 'vladi-portfolio-v13-icono-va';
 const OFFLINE_URL = './offline.html';
 
 const APP_SHELL = [
@@ -8,6 +8,10 @@ const APP_SHELL = [
     './manifest.webmanifest',
     './assets/favicon.svg',
     './assets/icons/icon.svg',
+    './assets/icons/icon-192.png',
+    './assets/icons/icon-512.png',
+    './assets/icons/icon-maskable-512.png',
+    './assets/icons/apple-touch-icon.png',
     './assets/icons/avatar-vladimir.jpg'
 ];
 
