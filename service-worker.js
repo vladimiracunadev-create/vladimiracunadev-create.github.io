@@ -1,4 +1,4 @@
-const CACHE_NAME = 'vladi-portfolio-v9-fix-layout-grupos';
+const CACHE_NAME = 'vladi-portfolio-v10-shell-sidebar';
 const OFFLINE_URL = './offline.html';
 
 const APP_SHELL = [
@@ -7,7 +7,8 @@ const APP_SHELL = [
     './offline.html',
     './manifest.webmanifest',
     './assets/favicon.svg',
-    './assets/icons/icon.svg'
+    './assets/icons/icon.svg',
+    './assets/icons/avatar-vladimir.jpg'
 ];
 
 const NETWORK_FIRST_PATHS = new Set([

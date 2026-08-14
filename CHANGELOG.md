@@ -1,5 +1,80 @@
 # Changelog
 
+## 2026-08-14 — Rediseño de distribución
+
+### feat(ui): foto de perfil en la cabecera del sidebar
+
+Sustituye el monograma provisional «VA» por la foto real, en el mismo círculo con doble anillo
+de acento. La original (`IMG-20240206-WA0033.jpg`, 864×1152, 91 KB) no sirve tal cual para un
+avatar: es 3:4 y en un círculo de 104px se recortaría por el centro del torso.
+
+- Derivada `assets/icons/avatar-vladimir.jpg` — recorte cuadrado 610×610 centrado en el rostro,
+  reescalado a 320×320 (3× el tamaño de pantalla, nítido en pantallas retina) y comprimido a
+  **17 KB, un 81% menos** que el original.
+- La original pasa a `assets/backups/2026-08-14/` — `scripts/sync-web.ps1:21` excluye `backups`,
+  así que deja de viajar dentro del APK y solo queda como fuente para regenerar el recorte.
+- `alt=""` deliberado: el nombre va como texto dentro del mismo enlace y un alt descriptivo lo
+  duplicaría al lector de pantalla.
+- `service-worker.js`: avatar añadido al `APP_SHELL` y caché a `v10-shell-sidebar`, para que el
+  nuevo shell y la foto no queden servidos desde la caché anterior.
+
+### fix(csp): el widget de repos se renderizaba sin estilo — la CSP bloqueaba sus `style=`
+
+`app.js` construía tres fragmentos de HTML con atributos `style=` inline. La CSP del propio
+sitio (`index.html:24`) declara `style-src 'self' https://fonts.googleapis.com` **sin**
+`'unsafe-inline'`, así que el navegador bloqueaba cada uno y emitía un error de consola por
+elemento — decenas por carga, con `#recentRepos` mostrando sus badges sin el tamaño previsto.
+
+La causa de fondo: **`.pill.mini` nunca tuvo regla en `styles.css`**. La clase estaba en el
+markup desde el principio, pero su tamaño compacto vivía solo en el `style=` bloqueado; sin él
+los badges heredaban el `.pill` completo (12px / 8-10px de padding).
+
+- `.pill.mini` → `font-size: .65rem; padding: .1rem .35rem; vertical-align: middle`.
+  Selector compuesto a propósito: `index.html:304` usa un `.mini` suelto que no debe cambiar.
+- `.chips--stats` → `margin: 10px 0 .75rem`. Conserva el `margin-top: 10px` que venía de
+  `.chips`, ya que el inline solo fijaba `margin-bottom`.
+- `app.js:251,343,354` pierden los `style=`. **No se tocó la CSP.**
+
+Verificado en pestaña limpia con el widget cargado en vivo desde GitHub: 12 badges renderizados
+a 27×20px, fila de estadísticas con sus 4 pills, **0 elementos con `[style]`** en el documento
+y **0 errores de consola**. Los dos hashes que la CSP reportaba
+(`81qkNU…`, `IdMo/tO…`) corresponden exactamente a las dos cadenas eliminadas.
+
+[BACKUP] `assets/backups/2026-08-14/app.js_v1` — corrección CSP
+[BACKUP] `assets/backups/2026-08-14/styles.css_v2` — corrección CSP
+
+### feat(ui): shell de dos columnas — sidebar fijo + contenido centrado
+
+Reorganización de la distribución de la página tomando como referencia el reparto de
+`charlyautomatiza.tech`. Cambia **dónde vive cada cosa**, no la identidad visual: se conservan
+la paleta (`--accent: #70a5ff`), el toggle claro/oscuro y la tipografía del sistema.
+
+**Antes:** topbar horizontal sticky sobre una sola columna. El nav, las 4 vistas y los ajustes
+competían por el ancho de la barra; en 820px se apilaban en tres filas que comían ~190px de
+alto útil antes del primer contenido.
+
+**Ahora:** rejilla `304px | 1fr` — el mismo reparto que la referencia.
+
+- **Sidebar** (`19rem`, `position: sticky`, `100dvh`): avatar monograma con doble anillo de
+  acento, nombre y rol, navegación **vertical** (sin wrap), y al pie el panel de Vista con los
+  4 chips en 2×2 más idioma y tema. En <1024px pasa a **drawer off-canvas** con velo, bloqueo
+  de scroll, cierre por velo/Escape/click en enlace, y botón flotante ☰.
+- **Hero como tarjeta** (borde, radio 26px, degradado 135°): titular solo en la columna
+  izquierda y todo el apoyo —lead, flujo IA, contexto, pills, CTAs, redes— en la derecha.
+  Proporción resultante 248/390px, prácticamente la de la referencia (233/374).
+- **Tarjetas de perfil** pasan de columna estrecha lateral a **fila** bajo el titular
+  (`auto-fit, minmax(300px, 1fr)`), separada por regla.
+
+`index.html`, `styles.css` (+333 líneas, bloque nuevo al final) y `app.js` (`initMenu`).
+Sin tocar el sistema de 6 idiomas ni la lógica de vistas: ambos siguen resolviéndose sobre
+`document`, y el nav pasa de 3→8→6→3 enlaces visibles al alternar Reclutador/Profundo/Freelance.
+
+Verificado a 1280×800 y 375×812: **0 desbordes** en las 14 secciones de la vista Profundo,
+sin scroll horizontal. `node scripts/validate.js` → 55 OK / 0 errores; `html-validate` → exit 0.
+
+[BACKUP] `assets/backups/2026-08-14/index.html_v1` — rediseño de distribución
+[BACKUP] `assets/backups/2026-08-14/styles.css_v1` — rediseño de distribución
+
 ## 2026-08-13 — Móvil y agente
 
 ### fix(mobile): el APK empaquetaba la carta de recomendación firmada

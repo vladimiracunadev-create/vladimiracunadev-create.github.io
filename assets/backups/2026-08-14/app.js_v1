@@ -248,7 +248,7 @@ async function loadRecentRepos() {
     box.innerHTML = repos.map(r => {
       const updated = new Date(r.pushed).toLocaleDateString("es-CL", { year: "numeric", month: "short", day: "2-digit" });
       const forkBadge = r.isFork ? ' · <span title="Fork">⑂ fork</span>' : "";
-      const sourceBadge = `<span class="pill mini" title="${r.source === "GL" ? "GitLab" : "GitHub"}">${r.source}</span>`;
+      const sourceBadge = `<span class="pill mini" title="${r.source === "GL" ? "GitLab" : "GitHub"}" style="font-size:.65rem;padding:.1rem .35rem;vertical-align:middle">${r.source}</span>`;
       return `
           <div class="repo">
             <div class="repo__top">
@@ -340,7 +340,7 @@ async function loadRecentActivity() {
       .map(item => {
         const ago = timeAgo(item.date);
         const safeDet = item.detail.replace(/</g, "&lt;").replace(/>/g, "&gt;");
-        const src = `<span class="pill mini">${item.source}</span>`;
+        const src = `<span class="pill mini" style="font-size:.65rem;padding:.1rem .35rem;vertical-align:middle">${item.source}</span>`;
         return `
           <div class="repo">
             <div class="repo__top">
@@ -351,7 +351,7 @@ async function loadRecentActivity() {
           </div>`;
       }).join("");
 
-    box.innerHTML = `<div class="chips chips--stats">${stats}</div>${top}`;
+    box.innerHTML = `<div class="chips" style="margin-bottom:.75rem">${stats}</div>${top}`;
   } catch (e) {
     box.innerHTML = `<div class="muted small">No se pudo cargar la actividad.</div>`;
   }

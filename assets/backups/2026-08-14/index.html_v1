@@ -33,22 +33,19 @@
 <body data-view="recruiter">
   <a class="skip" href="#contenido">Saltar al contenido</a>
 
-  <button class="drawer-btn" id="btnMenu" type="button" aria-label="Abrir menú" aria-expanded="false"
-    aria-controls="nav">☰</button>
+  <header class="topbar">
+    <div class="wrap topbar__inner">
+      <div class="topbar__main">
+        <div class="brand">
+          <button class="iconbtn" id="btnMenu" type="button" aria-label="Abrir menú" aria-expanded="false"
+            aria-controls="nav">☰</button>
+          <div class="brand__text">
+            <div class="brand__name">Vladimir Acuña</div>
+            <div class="brand__role">Arquitecto de Soluciones · Senior Full-Stack</div>
+          </div>
+        </div>
 
-  <div class="shell">
-    <aside class="sidebar" id="nav">
-      <div class="sidebar__inner">
-        <a class="sidebar__id" href="#contenido">
-          <!-- alt vacio a proposito: el nombre va como texto justo debajo, dentro
-               del mismo enlace, asi que un alt descriptivo lo duplicaria al lector. -->
-          <img class="sidebar__avatar" src="assets/icons/avatar-vladimir.jpg" alt=""
-            width="320" height="320" decoding="async" />
-          <span class="brand__name">Vladimir Acuña</span>
-          <span class="brand__role">Arquitecto de Soluciones · Senior Full-Stack</span>
-        </a>
-
-        <nav class="sidenav" aria-label="Navegación principal">
+        <nav class="nav" id="nav" aria-label="Navegación principal">
           <a href="#productos"><span data-es>Productos</span><span data-en>Products</span><span data-pt>Produtos</span><span data-it>Prodotti</span><span data-fr>Produits</span><span data-zh>产品</span></a>
           <a href="#proyectos" data-min-level="1" data-freelance-hide="true"><span data-es>Proyectos</span><span data-en>Projects</span><span data-pt>Projetos</span><span data-it>Progetti</span><span data-fr>Projets</span><span data-zh>项目</span></a>
           <a href="#demos" data-min-level="1"><span data-es>Demos</span><span data-en>Demos</span><span data-pt>Demos</span><span data-it>Demo</span><span data-fr>Démos</span><span data-zh>演示</span></a>
@@ -58,51 +55,47 @@
           <a href="#modalidades" data-min-level="2"><span data-es>Freelance</span><span data-en>Freelance</span><span data-pt>Freelance</span><span data-it>Freelance</span><span data-fr>Freelance</span><span data-zh>自由职业</span></a>
           <a href="#contacto"><span data-es>Contacto</span><span data-en>Contact</span><span data-pt>Contato</span><span data-it>Contatti</span><span data-fr>Contact</span><span data-zh>联系</span></a>
         </nav>
+      </div>
 
-        <div class="sidebar__controls">
-          <div class="views sidebar__panel">
-            <span class="views__label"><span data-es>Vista:</span><span data-en>View:</span><span data-pt>Vista:</span><span data-it>Vista:</span><span data-fr>Vue :</span><span data-zh>视图：</span></span>
-            <div class="views__group" role="tablist" aria-label="Vistas">
-              <button class="chip is-active" type="button" role="tab" aria-selected="true" data-view-btn="recruiter"><span data-es>Reclutador</span><span data-en>Recruiter</span><span data-pt>Recrutador</span><span data-it>Reclutatore</span><span data-fr>Recruteur</span><span data-zh>招聘视角</span></button>
-              <button class="chip" type="button" role="tab" aria-selected="false" data-view-btn="normal"><span data-es>Normal</span><span data-en>Normal</span><span data-pt>Normal</span><span data-it>Normale</span><span data-fr>Normal</span><span data-zh>普通</span></button>
-              <button class="chip" type="button" role="tab" aria-selected="false" data-view-btn="deep"><span data-es>Profundo</span><span data-en>Deep</span><span data-pt>Profundo</span><span data-it>Approfondito</span><span data-fr>Approfondi</span><span data-zh>深度</span></button>
-              <button class="chip" type="button" role="tab" aria-selected="false" data-view-btn="freelance" title="Vista curada para clientes que evalúan contratación por proyecto"><span data-es>Freelance</span><span data-en>Freelance</span><span data-pt>Freelance</span><span data-it>Freelance</span><span data-fr>Freelance</span><span data-zh>自由职业</span></button>
-            </div>
-          </div>
+      <div class="topbar__side">
+        <div class="settings">
+          <select class="lang-select" id="selectLang" aria-label="Seleccionar idioma">
+            <option value="es">🇪🇸 Español</option>
+            <option value="en">🇺🇸 English</option>
+            <option value="pt">🇧🇷 Português</option>
+            <option value="it">🇮🇹 Italiano</option>
+            <option value="fr">🇫🇷 Français</option>
+            <option value="zh">🇨🇳 中文</option>
+          </select>
+          <button class="theme-toggle" id="btnTheme" type="button">
+            <span data-es>Tema</span><span data-en>Theme</span><span data-pt>Tema</span><span data-it>Tema</span><span data-fr>Thème</span><span data-zh>主题</span>
+            <i id="themeIcon">🌙</i>
+          </button>
+        </div>
 
-          <div class="settings">
-            <select class="lang-select" id="selectLang" aria-label="Seleccionar idioma">
-              <option value="es">🇪🇸 Español</option>
-              <option value="en">🇺🇸 English</option>
-              <option value="pt">🇧🇷 Português</option>
-              <option value="it">🇮🇹 Italiano</option>
-              <option value="fr">🇫🇷 Français</option>
-              <option value="zh">🇨🇳 中文</option>
-            </select>
-            <button class="theme-toggle" id="btnTheme" type="button">
-              <span data-es>Tema</span><span data-en>Theme</span><span data-pt>Tema</span><span data-it>Tema</span><span data-fr>Thème</span><span data-zh>主题</span>
-              <i id="themeIcon">🌙</i>
-            </button>
+        <div class="views">
+          <span class="views__label"><span data-es>Vista:</span><span data-en>View:</span><span data-pt>Vista:</span><span data-it>Vista:</span><span data-fr>Vue :</span><span data-zh>视图：</span></span>
+          <div class="views__group" role="tablist" aria-label="Vistas">
+            <button class="chip is-active" type="button" role="tab" aria-selected="true" data-view-btn="recruiter"><span data-es>Reclutador</span><span data-en>Recruiter</span><span data-pt>Recrutador</span><span data-it>Reclutatore</span><span data-fr>Recruteur</span><span data-zh>招聘视角</span></button>
+            <button class="chip" type="button" role="tab" aria-selected="false" data-view-btn="normal"><span data-es>Normal</span><span data-en>Normal</span><span data-pt>Normal</span><span data-it>Normale</span><span data-fr>Normal</span><span data-zh>普通</span></button>
+            <button class="chip" type="button" role="tab" aria-selected="false" data-view-btn="deep"><span data-es>Profundo</span><span data-en>Deep</span><span data-pt>Profundo</span><span data-it>Approfondito</span><span data-fr>Approfondi</span><span data-zh>深度</span></button>
+            <button class="chip" type="button" role="tab" aria-selected="false" data-view-btn="freelance" title="Vista curada para clientes que evalúan contratación por proyecto"><span data-es>Freelance</span><span data-en>Freelance</span><span data-pt>Freelance</span><span data-it>Freelance</span><span data-fr>Freelance</span><span data-zh>自由职业</span></button>
           </div>
         </div>
       </div>
-    </aside>
+    </div>
+  </header>
 
-    <div class="shell__main">
-      <main id="contenido">
+  <main id="contenido">
     <section class="hero">
       <div class="wrap hero__inner">
         <div class="hero__copy">
-          <div class="hero__lead">
           <h1 data-es>Arquitectura, modernización, automatización e IA aplicada a proyectos reales.</h1>
           <h1 data-en>Architecture, modernization, automation, and applied AI for real-world projects.</h1>
           <h1 data-pt>Arquitetura, modernização, automação e IA aplicada a projetos reais.</h1>
           <h1 data-it>Architettura, modernizzazione, automazione e IA applicata a progetti reali.</h1>
           <h1 data-fr>Architecture, modernisation, automatisation et IA appliquée à des projets réels.</h1>
           <h1 data-zh>面向真实项目的架构、现代化、自动化与应用人工智能。</h1>
-          </div>
-
-          <div class="hero__support">
           <p class="lead">
             <span data-es>Arquitecto de Soluciones · Senior Full-Stack · <strong>Líder Tecnológico</strong>. 14+ años liderando la evolución
               de plataformas.
@@ -187,7 +180,6 @@
           <p class="meta" data-min-level="2">
             Enfoque: claridad + impacto + observabilidad. Última actualización: <span id="buildDate">2026-08-13</span>.
           </p>
-          </div>
         </div>
 
         <div class="hero__cards">
@@ -2955,11 +2947,7 @@ make up-dashboard
         </div>
       </div>
     </section>
-      </main>
-    </div>
-  </div>
-
-  <div class="drawer-overlay" id="drawerOverlay" hidden></div>
+  </main>
 
   <script src="app.js"></script>
   <script src="pwa.js?v=4"></script>

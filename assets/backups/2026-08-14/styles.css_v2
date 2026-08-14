@@ -455,16 +455,6 @@ body[data-theme="light"] .lang-select option {
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, .05);
 }
 
-/* Badge de origen (GH/GL) del widget #recentRepos. La clase se usaba en el
-   markup desde el principio pero nunca tuvo regla: el tamano venia de un
-   style= inline que la CSP del sitio bloquea. Selector compuesto a
-   proposito, para no alcanzar el `.mini` suelto de index.html. */
-.pill.mini {
-  padding: .1rem .35rem;
-  font-size: .65rem;
-  vertical-align: middle;
-}
-
 .cta {
   display: flex;
   gap: 10px;
@@ -743,12 +733,6 @@ body[data-theme="light"] .lang-select option {
   flex-wrap: wrap;
   gap: 8px;
   margin: 10px 0
-}
-
-/* Fila de estadisticas de #recentRepos: separa los pills de la lista de
-   actividad que va justo debajo. Sustituye un style= inline bloqueado. */
-.chips--stats {
-  margin: 10px 0 .75rem
 }
 
 .actions {
@@ -1191,17 +1175,18 @@ article.card.project > p[role="button"]:focus-visible {
 }
 
 .sidebar__avatar {
-  display: block;
+  display: grid;
+  place-items: center;
   width: 104px;
   height: 104px;
   margin-bottom: 10px;
   border-radius: 50%;
   border: 1px solid var(--line);
-  /* La foto es 320x320; object-fit evita que el 1:1 se deforme si algun dia
-     se sustituye por una imagen de otra proporcion. El degradado queda de
-     placeholder mientras carga. */
-  object-fit: cover;
   background: linear-gradient(145deg, var(--accent-soft), transparent 72%), var(--card-bg);
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: var(--text);
   /* Doble anillo con hueco, como el avatar de referencia: el primer
      halo pinta el fondo para separar el aro de acento del borde. */
   box-shadow: 0 0 0 4px var(--bg), 0 0 0 6px var(--accent-strong);
