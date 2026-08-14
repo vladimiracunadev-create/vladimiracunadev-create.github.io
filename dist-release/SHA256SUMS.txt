@@ -1,2 +1,0 @@
-09876d58ecf733ea1fe1786282cfa80fb88a5241533217fd8d53e050cffdc8cf *portfolio-app-v2.4.0-debug.apk
-cc105e5934028cadd51de1d40823db28a2269cfcd3dd935e7a7aac6aeebc3e24 *portfolio-pwa-v2.4.0.zip

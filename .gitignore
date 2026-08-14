@@ -24,3 +24,6 @@ assets/no_aplica/
 
 # Deploy ZIPs — generated artifacts, not source
 portfolio-bundle-*.zip
+
+# Artefactos ya publicados como assets de release; no deben versionarse.
+dist-release/
