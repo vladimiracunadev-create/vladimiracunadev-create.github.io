@@ -483,8 +483,23 @@
             "name": "universal-code-scanner",
             "description": "🔍 Universal Code Scanner v1.1.0 — Lector Flutter de códigos QR y de barras que interpreta antes de actuar: 16 señales de riesgo locales por URL, confirmación explícita, historial e inventario cifrados con AES-256-GCM. Estado de escaneo siempre visible y tono propio de lectura. Android · iOS · macOS · PWA. Telemetría cero. 🔐",
             "url": "https://github.com/vladimiracunadev-create/universal-code-scanner",
-            "tags": [],
-            "category": "other"
+            "tags": [
+                "Flutter",
+                "Dart",
+                "Android",
+                "iOS",
+                "macOS",
+                "PWA",
+                "AES-256-GCM",
+                "ML Kit",
+                "16 señales de riesgo",
+                "Telemetría cero",
+                "57 tests"
+            ],
+            "category": "platform",
+            "version": "v1.1.0",
+            "landing_url": "https://vladimiracunadev-create.github.io/universal-code-scanner/",
+            "demo_url": "https://vladimiracunadev-create.github.io/universal-code-scanner/app/"
         },
         {
             "name": "sandbox-labs",
