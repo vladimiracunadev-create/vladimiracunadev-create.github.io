@@ -2,6 +2,48 @@
 
 ## 2026-08-19
 
+### feat(docs): hoja de vida genérica en los 6 idiomas, descargable desde la web
+
+Origen: un aviso pedía «envía tu hoja de vida» para un cargo cuyo nombre no era familiar
+(«Gestor(a) de Experiencia»). El portafolio tenía CV ATS, CV reclutador, portafolio, carta y
+declaración de logros — pero ninguna **hoja de vida genérica**: el documento clásico, completo y
+**no dirigido a un cargo específico**, que sirve para cualquier proceso sin importar cómo se
+llame el puesto. Ese es el hueco que cierra este documento.
+
+**Nuevo generador:** `scripts/generate-hoja-de-vida.py` → `assets/hoja-de-vida{suffix}.pdf` × 6
+(ES · EN · PT · IT · FR · ZH). El nombre del archivo es el mismo en los 6 idiomas —
+`hoja-de-vida` — y solo cambia el sufijo de idioma, como el resto de la suite.
+
+El script **no duplica contenido**: importa `generate-all-languages.py` vía `importlib` y reutiliza
+los bloques ya traducidos (resumen, funciones, métricas, competencias, títulos, trayectoria previa,
+proyectos, formación reciente). Solo las etiquetas propias de este documento viven en el script
+nuevo. Si mañana cambia una métrica en el CV, la hoja de vida la hereda al regenerar.
+
+**Contenido del PDF** (3 páginas ES/EN/PT/IT/FR, 2 en ZH): datos personales · perfil profesional ·
+experiencia CEIS Maristas 2011-2025 con funciones y logros verificados · trayectoria previa ·
+formación académica · competencias técnicas · idiomas · los 41 proyectos del portafolio en rejilla
+a dos columnas · formación reciente · referencias y documentos de respaldo con enlace a la carta
+de recomendación y a la declaración de logros. Encabezado con banda navy y pie con numeración de
+página, alineado con la estética del resto de la suite. En chino se registra `STSong-Light` y se
+eliminan las marcas `<b>` (los CID no tienen versión negrita).
+
+**Dato que NO se inventó:** de los empleos anteriores a 2011 el repositorio solo conserva empresa y
+años, no los cargos. La sección «Trayectoria previa» los lista tal cual, en síntesis, sin
+atribuir puestos. Del último jefe directo se publica nombre y empresa, con el contacto «a
+solicitud» (el sitio ya publica su teléfono; el PDF no lo repite).
+
+**Integración:** botón de descarga en el Centro de descargas de `index.html` con los 6
+`data-pdf-{lang}` (el selector de idioma lo enruta como al resto), nota explicativa en 6 idiomas,
+entrada `hoja_de_vida` en `api/v1/artifacts.json` con sus 6 variantes, y referencias en `llm.txt`,
+`cv-data-api.md`, `README.md` y `CLAUDE.md`.
+
+`pnpm test` en verde. Total de PDFs públicos: 30 → **36**.
+
+[BACKUP] assets/backups/2026-08-19/index.html_v1 — antes de agregar el botón de descarga
+[BACKUP] assets/backups/2026-08-19/artifacts.json_v1 — antes de agregar el artefacto hoja_de_vida
+[BACKUP] assets/backups/2026-08-19/llm.txt_v1 — antes de listar la hoja de vida
+[BACKUP] assets/backups/2026-08-19/cv-data-api.md_v1 — antes de agregar la tabla de enlaces
+
 ### sync-portfolio (automático — 2026-08-19)
 
 - `api/v1/`: generated_at → 2026-08-19

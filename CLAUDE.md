@@ -2,7 +2,7 @@
 
 **Proyecto:** `vladimiracunadev-create.github.io`
 **Web:** <https://vladimiracunadev-create.github.io/>
-**Última actualización:** 2026-03-19
+**Última actualización:** 2026-08-19
 
 ---
 
@@ -50,6 +50,7 @@ PDFs generados por pipeline Python, PWA instalable, y API JSON estática en `api
 │   ├── generate-portfolio.py               # Portafolio × 6 idiomas
 │   ├── generate-achievements-statement.py  # Declaración de logros × 6 idiomas
 │   ├── generate-recommendation-letter.py   # Carta de recomendación × 6 idiomas
+│   ├── generate-hoja-de-vida.py            # Hoja de vida genérica × 6 idiomas
 │   ├── generate-ats-cv.py                  # CV ATS standalone
 │   └── generate-recruiter-cv.py            # CV reclutador standalone
 ├── docs/                       # Guías: RECRUITER.md, BUILD_GUIDE.md, etc.
@@ -97,6 +98,7 @@ PDFs generados por pipeline Python, PWA instalable, y API JSON estática en `api
 
 | Documento | Script generador | Variantes |
 |---|---|---|
+| Hoja de Vida (genérica) | `generate-hoja-de-vida.py` | hoja-de-vida{suffix}.pdf × 6 |
 | CV ATS | `generate-all-languages.py` | cv-ats{suffix}.pdf × 6 |
 | CV Reclutador | `generate-all-languages.py` | cv-reclutador{suffix}.pdf × 6 |
 | Portafolio | `generate-portfolio.py` | portafolio{suffix}.pdf × 6 |
@@ -111,6 +113,7 @@ python scripts/generate-all-languages.py
 python scripts/generate-portfolio.py
 python scripts/generate-achievements-statement.py
 python scripts/generate-recommendation-letter.py
+python scripts/generate-hoja-de-vida.py
 ```
 
 **Generar ZIP de despliegue (para AWS/S3/Amplify/Netlify):**

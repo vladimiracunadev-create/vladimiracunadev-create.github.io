@@ -60,19 +60,6 @@ Los PDFs están disponibles en **6 idiomas**. En la interfaz web, el selector de
 
 **Mapa de sufijos:** ES → `` | EN → `-english` | PT → `-portuguese` | IT → `-italian` | FR → `-french` | ZH → `-chinese`
 
-### Hoja de Vida
-
-Documento **genérico**: formato clásico y completo de hoja de vida, sin estar dirigido a un cargo específico. Sirve para cualquier proceso de selección, aunque el puesto tenga un nombre poco habitual.
-
-| Idioma | Enlace |
-|---|---|
-| Español | [`/assets/hoja-de-vida.pdf`](https://vladimiracunadev-create.github.io/assets/hoja-de-vida.pdf) |
-| English | [`/assets/hoja-de-vida-english.pdf`](https://vladimiracunadev-create.github.io/assets/hoja-de-vida-english.pdf) |
-| Português | [`/assets/hoja-de-vida-portuguese.pdf`](https://vladimiracunadev-create.github.io/assets/hoja-de-vida-portuguese.pdf) |
-| Italiano | [`/assets/hoja-de-vida-italian.pdf`](https://vladimiracunadev-create.github.io/assets/hoja-de-vida-italian.pdf) |
-| Français | [`/assets/hoja-de-vida-french.pdf`](https://vladimiracunadev-create.github.io/assets/hoja-de-vida-french.pdf) |
-| 中文 | [`/assets/hoja-de-vida-chinese.pdf`](https://vladimiracunadev-create.github.io/assets/hoja-de-vida-chinese.pdf) |
-
 ### CV ATS
 
 | Idioma | Enlace |
@@ -135,7 +122,7 @@ La **Declaración de Logros y Validación** se publica como artefacto separado: 
 ## Cómo actualizar
 
 1. Editar o reemplazar los PDFs en `assets/` o los JSON en `api/v1/`.
-2. Para regenerar todos los PDFs: `python scripts/generate-all-languages.py && python scripts/generate-portfolio.py && python scripts/generate-achievements-statement.py && python scripts/generate-recommendation-letter.py && python scripts/generate-hoja-de-vida.py`
+2. Para regenerar todos los PDFs: `python scripts/generate-all-languages.py && python scripts/generate-portfolio.py && python scripts/generate-achievements-statement.py && python scripts/generate-recommendation-letter.py`
 3. Ejecutar `git add -A && git commit -m "update: ..." && git push origin main`.
 4. GitHub Pages publica automáticamente en alrededor de 1 minuto.
 

@@ -869,14 +869,8 @@
               <span data-fr>Universal Code Scanner v1.1.0 — Lecteur Flutter de codes QR et codes-barres qui interprète avant d'agir : 16 signaux de risque locaux par URL, confirmation explicite, historique et inventaire chiffrés en AES-256-GCM. État du scan toujours visible et tonalité de lecture propre. Android · iOS · macOS · PWA. Zéro télémétrie</span>
               <span data-zh>Universal Code Scanner v1.1.0 — Flutter 二维码与条码读取器，先解读再行动：每个URL本地16项风险信号、显式确认、采用AES-256-GCM加密的历史与库存。扫描状态始终可见并配有专属提示音。Android · iOS · macOS · PWA。零遥测</span>
             </p>
-            <div class="chips">
-              <span class="pill">Flutter</span><span class="pill">Dart</span><span class="pill">Android</span><span class="pill">iOS</span><span class="pill">PWA</span><span class="pill">AES-256-GCM</span><span class="pill">ML Kit</span>
-            </div>
             <div class="actions">
-              <a class="btn primary" href="https://vladimiracunadev-create.github.io/universal-code-scanner/" target="_blank" rel="noreferrer"><span data-es>Sitio del producto</span><span data-en>Product site</span><span data-pt>Site do produto</span><span data-it>Sito del prodotto</span><span data-fr>Site du produit</span><span data-zh>产品网站</span></a>
-              <a class="btn" href="https://vladimiracunadev-create.github.io/universal-code-scanner/app/" target="_blank" rel="noreferrer"><span data-es>Probar en el navegador</span><span data-en>Try in the browser</span><span data-pt>Testar no navegador</span><span data-it>Prova nel browser</span><span data-fr>Essayer dans le navigateur</span><span data-zh>在浏览器中试用</span></a>
-              <a class="btn" href="https://github.com/vladimiracunadev-create/universal-code-scanner" target="_blank" rel="noreferrer"><span data-es>Repo (GitHub)</span><span data-en>Repo (GitHub)</span><span data-pt>Repo (GitHub)</span><span data-it>Repo (GitHub)</span><span data-fr>Repo (GitHub)</span><span data-zh>Repo (GitHub)</span></a>
-              <a class="btn" href="https://github.com/vladimiracunadev-create/universal-code-scanner/releases/latest" target="_blank" rel="noreferrer"><span data-es>Descargar APK</span><span data-en>Download APK</span><span data-pt>Baixar APK</span><span data-it>Scarica APK</span><span data-fr>Télécharger l'APK</span><span data-zh>下载 APK</span></a>
+              <a class="btn primary" href="https://github.com/vladimiracunadev-create/universal-code-scanner" target="_blank" rel="noreferrer"><span data-es>Repo (GitHub)</span><span data-en>Repo (GitHub)</span><span data-pt>Repo (GitHub)</span><span data-it>Repo (GitHub)</span><span data-fr>Repo (GitHub)</span><span data-zh>Repo (GitHub)</span></a>
             </div>
           </article>
               <article class="card project" data-min-level="2">
@@ -978,121 +972,6 @@
             </p>
             <div class="actions">
               <a class="btn primary" href="https://github.com/vladimiracunadev-create/rhino-suite" target="_blank" rel="noreferrer"><span data-es>Repo (GitHub)</span><span data-en>Repo (GitHub)</span><span data-pt>Repo (GitHub)</span><span data-it>Repo (GitHub)</span><span data-fr>Repo (GitHub)</span><span data-zh>Repo (GitHub)</span></a>
-            </div>
-          </article>
-
-          <article class="card project" data-min-level="1">
-            <div class="project__head">
-              <h3 data-es>Guitarra Adventure · Proyecto</h3>
-              <h3 data-en>Guitarra Adventure · Project</h3>
-              <h3 data-pt>Guitarra Adventure · Projeto</h3>
-              <h3 data-it>Guitarra Adventure · Progetto</h3>
-              <h3 data-fr>Guitarra Adventure · Projet</h3>
-              <h3 data-zh>Guitarra Adventure · 项目</h3>
-              <span class="tag" data-es>Proyecto</span><span class="tag" data-en>Project</span><span class="tag" data-pt>Projeto</span><span class="tag" data-it>Progetto</span><span class="tag" data-fr>Projet</span><span class="tag" data-zh>项目</span>
-            </div>
-            <p>
-              <span data-es>Mi Aventura con la Guitarra · App educativa para aprender guitarra desde los 10 años · 24 lecciones en 6 mundos, afinador de 6 cuerdas, metrónomo sin deriva y 11 notas grabadas de guitarra real · Tauri 2 + React + TypeScript · Windows, Android, Linux, macOS, iOS y PWA · Sin publicidad, sin cuentas, offline · v1.0.0 con instaladores en Releases</span>
-              <span data-en>Mi Aventura con la Guitarra · App educativa para aprender guitarra desde los 10 años · 24 lecciones en 6 mundos, afinador de 6 cuerdas, metrónomo sin deriva y 11 notas grabadas de guitarra real · Tauri 2 + React + TypeScript · Windows, Android, Linux, macOS, iOS y PWA · Sin publicidad, sin cuentas, offline · v1.0.0 con instaladores en Releases</span>
-              <span data-pt>Mi Aventura con la Guitarra · App educativa para aprender guitarra desde los 10 años · 24 lecciones en 6 mundos, afinador de 6 cuerdas, metrónomo sin deriva y 11 notas grabadas de guitarra real · Tauri 2 + React + TypeScript · Windows, Android, Linux, macOS, iOS y PWA · Sin publicidad, sin cuentas, offline · v1.0.0 con instaladores en Releases</span>
-              <span data-it>Mi Aventura con la Guitarra · App educativa para aprender guitarra desde los 10 años · 24 lecciones en 6 mundos, afinador de 6 cuerdas, metrónomo sin deriva y 11 notas grabadas de guitarra real · Tauri 2 + React + TypeScript · Windows, Android, Linux, macOS, iOS y PWA · Sin publicidad, sin cuentas, offline · v1.0.0 con instaladores en Releases</span>
-              <span data-fr>Mi Aventura con la Guitarra · App educativa para aprender guitarra desde los 10 años · 24 lecciones en 6 mundos, afinador de 6 cuerdas, metrónomo sin deriva y 11 notas grabadas de guitarra real · Tauri 2 + React + TypeScript · Windows, Android, Linux, macOS, iOS y PWA · Sin publicidad, sin cuentas, offline · v1.0.0 con instaladores en Releases</span>
-              <span data-zh>Mi Aventura con la Guitarra · App educativa para aprender guitarra desde los 10 años · 24 lecciones en 6 mundos, afinador de 6 cuerdas, metrónomo sin deriva y 11 notas grabadas de guitarra real · Tauri 2 + React + TypeScript · Windows, Android, Linux, macOS, iOS y PWA · Sin publicidad, sin cuentas, offline · v1.0.0 con instaladores en Releases</span>
-            </p>
-            <div class="actions">
-              <a class="btn primary" href="https://github.com/vladimiracunadev-create/guitarra-adventure" target="_blank" rel="noreferrer"><span data-es>Repo (GitHub)</span><span data-en>Repo (GitHub)</span><span data-pt>Repo (GitHub)</span><span data-it>Repo (GitHub)</span><span data-fr>Repo (GitHub)</span><span data-zh>Repo (GitHub)</span></a>
-            </div>
-          </article>
-
-          <article class="card project" data-min-level="1">
-            <div class="project__head">
-              <h3 data-es>Agentic Plugins Toolkit · Proyecto</h3>
-              <h3 data-en>Agentic Plugins Toolkit · Project</h3>
-              <h3 data-pt>Agentic Plugins Toolkit · Projeto</h3>
-              <h3 data-it>Agentic Plugins Toolkit · Progetto</h3>
-              <h3 data-fr>Agentic Plugins Toolkit · Projet</h3>
-              <h3 data-zh>Agentic Plugins Toolkit · 项目</h3>
-              <span class="tag" data-es>Proyecto</span><span class="tag" data-en>Project</span><span class="tag" data-pt>Projeto</span><span class="tag" data-it>Progetto</span><span class="tag" data-fr>Projet</span><span class="tag" data-zh>项目</span>
-            </div>
-            <p>
-              <span data-es>agentic-plugins-toolkit · 6 plugins agénticos para Claude Code, OpenAI/Codex, Copilot, Gemini y MCP · repository-engineering · legacy-modernization · learning-program-studio · product-evolution · portfolio-governance · rootcause-response · 69 vistas generadas sin drift · Zero-deps</span>
-              <span data-en>agentic-plugins-toolkit · 6 plugins agénticos para Claude Code, OpenAI/Codex, Copilot, Gemini y MCP · repository-engineering · legacy-modernization · learning-program-studio · product-evolution · portfolio-governance · rootcause-response · 69 vistas generadas sin drift · Zero-deps</span>
-              <span data-pt>agentic-plugins-toolkit · 6 plugins agénticos para Claude Code, OpenAI/Codex, Copilot, Gemini y MCP · repository-engineering · legacy-modernization · learning-program-studio · product-evolution · portfolio-governance · rootcause-response · 69 vistas generadas sin drift · Zero-deps</span>
-              <span data-it>agentic-plugins-toolkit · 6 plugins agénticos para Claude Code, OpenAI/Codex, Copilot, Gemini y MCP · repository-engineering · legacy-modernization · learning-program-studio · product-evolution · portfolio-governance · rootcause-response · 69 vistas generadas sin drift · Zero-deps</span>
-              <span data-fr>agentic-plugins-toolkit · 6 plugins agénticos para Claude Code, OpenAI/Codex, Copilot, Gemini y MCP · repository-engineering · legacy-modernization · learning-program-studio · product-evolution · portfolio-governance · rootcause-response · 69 vistas generadas sin drift · Zero-deps</span>
-              <span data-zh>agentic-plugins-toolkit · 6 plugins agénticos para Claude Code, OpenAI/Codex, Copilot, Gemini y MCP · repository-engineering · legacy-modernization · learning-program-studio · product-evolution · portfolio-governance · rootcause-response · 69 vistas generadas sin drift · Zero-deps</span>
-            </p>
-            <div class="actions">
-              <a class="btn primary" href="https://github.com/vladimiracunadev-create/agentic-plugins-toolkit" target="_blank" rel="noreferrer"><span data-es>Repo (GitHub)</span><span data-en>Repo (GitHub)</span><span data-pt>Repo (GitHub)</span><span data-it>Repo (GitHub)</span><span data-fr>Repo (GitHub)</span><span data-zh>Repo (GitHub)</span></a>
-            </div>
-          </article>
-
-          <article class="card project" data-min-level="1">
-            <div class="project__head">
-              <h3 data-es>Operational Ai Agents · Proyecto</h3>
-              <h3 data-en>Operational Ai Agents · Project</h3>
-              <h3 data-pt>Operational Ai Agents · Projeto</h3>
-              <h3 data-it>Operational Ai Agents · Progetto</h3>
-              <h3 data-fr>Operational Ai Agents · Projet</h3>
-              <h3 data-zh>Operational Ai Agents · 项目</h3>
-              <span class="tag" data-es>Proyecto</span><span class="tag" data-en>Project</span><span class="tag" data-pt>Projeto</span><span class="tag" data-it>Progetto</span><span class="tag" data-fr>Projet</span><span class="tag" data-zh>项目</span>
-            </div>
-            <p>
-              <span data-es>operational-ai-agents · 13 agentes para Claude Code · repository-evolution · legacy-modernization · curriculum-evolution · portfolio-publication · security-remediation · incident-root-cause · professional-profile · Contrato + gates humanos + evidencia verificable · 39 evals deterministas · Zero-deps · Cross-platform</span>
-              <span data-en>operational-ai-agents · 13 agentes para Claude Code · repository-evolution · legacy-modernization · curriculum-evolution · portfolio-publication · security-remediation · incident-root-cause · professional-profile · Contrato + gates humanos + evidencia verificable · 39 evals deterministas · Zero-deps · Cross-platform</span>
-              <span data-pt>operational-ai-agents · 13 agentes para Claude Code · repository-evolution · legacy-modernization · curriculum-evolution · portfolio-publication · security-remediation · incident-root-cause · professional-profile · Contrato + gates humanos + evidencia verificable · 39 evals deterministas · Zero-deps · Cross-platform</span>
-              <span data-it>operational-ai-agents · 13 agentes para Claude Code · repository-evolution · legacy-modernization · curriculum-evolution · portfolio-publication · security-remediation · incident-root-cause · professional-profile · Contrato + gates humanos + evidencia verificable · 39 evals deterministas · Zero-deps · Cross-platform</span>
-              <span data-fr>operational-ai-agents · 13 agentes para Claude Code · repository-evolution · legacy-modernization · curriculum-evolution · portfolio-publication · security-remediation · incident-root-cause · professional-profile · Contrato + gates humanos + evidencia verificable · 39 evals deterministas · Zero-deps · Cross-platform</span>
-              <span data-zh>operational-ai-agents · 13 agentes para Claude Code · repository-evolution · legacy-modernization · curriculum-evolution · portfolio-publication · security-remediation · incident-root-cause · professional-profile · Contrato + gates humanos + evidencia verificable · 39 evals deterministas · Zero-deps · Cross-platform</span>
-            </p>
-            <div class="actions">
-              <a class="btn primary" href="https://github.com/vladimiracunadev-create/operational-ai-agents" target="_blank" rel="noreferrer"><span data-es>Repo (GitHub)</span><span data-en>Repo (GitHub)</span><span data-pt>Repo (GitHub)</span><span data-it>Repo (GitHub)</span><span data-fr>Repo (GitHub)</span><span data-zh>Repo (GitHub)</span></a>
-            </div>
-          </article>
-
-          <article class="card project" data-min-level="1">
-            <div class="project__head">
-              <h3 data-es>Empresa Operativa Chile · Proyecto</h3>
-              <h3 data-en>Empresa Operativa Chile · Project</h3>
-              <h3 data-pt>Empresa Operativa Chile · Projeto</h3>
-              <h3 data-it>Empresa Operativa Chile · Progetto</h3>
-              <h3 data-fr>Empresa Operativa Chile · Projet</h3>
-              <h3 data-zh>Empresa Operativa Chile · 项目</h3>
-              <span class="tag" data-es>Proyecto</span><span class="tag" data-en>Project</span><span class="tag" data-pt>Projeto</span><span class="tag" data-it>Progetto</span><span class="tag" data-fr>Projet</span><span class="tag" data-zh>项目</span>
-            </div>
-            <p>
-              <span data-es>v1.4.0 · Crear, operar y controlar una empresa chilena a través del tiempo: constitución con evidencia, capital y CPT, patente municipal con su base legal, IVA/PPM, F29, cierre anual inmutable y auditoría. Guía, manual y glosario dentro de la app. Android, Windows y navegador. Reglas con fuente oficial. Cero telemetría. 🇨🇱</span>
-              <span data-en>v1.4.0 · Crear, operar y controlar una empresa chilena a través del tiempo: constitución con evidencia, capital y CPT, patente municipal con su base legal, IVA/PPM, F29, cierre anual inmutable y auditoría. Guía, manual y glosario dentro de la app. Android, Windows y navegador. Reglas con fuente oficial. Cero telemetría. 🇨🇱</span>
-              <span data-pt>v1.4.0 · Crear, operar y controlar una empresa chilena a través del tiempo: constitución con evidencia, capital y CPT, patente municipal con su base legal, IVA/PPM, F29, cierre anual inmutable y auditoría. Guía, manual y glosario dentro de la app. Android, Windows y navegador. Reglas con fuente oficial. Cero telemetría. 🇨🇱</span>
-              <span data-it>v1.4.0 · Crear, operar y controlar una empresa chilena a través del tiempo: constitución con evidencia, capital y CPT, patente municipal con su base legal, IVA/PPM, F29, cierre anual inmutable y auditoría. Guía, manual y glosario dentro de la app. Android, Windows y navegador. Reglas con fuente oficial. Cero telemetría. 🇨🇱</span>
-              <span data-fr>v1.4.0 · Crear, operar y controlar una empresa chilena a través del tiempo: constitución con evidencia, capital y CPT, patente municipal con su base legal, IVA/PPM, F29, cierre anual inmutable y auditoría. Guía, manual y glosario dentro de la app. Android, Windows y navegador. Reglas con fuente oficial. Cero telemetría. 🇨🇱</span>
-              <span data-zh>v1.4.0 · Crear, operar y controlar una empresa chilena a través del tiempo: constitución con evidencia, capital y CPT, patente municipal con su base legal, IVA/PPM, F29, cierre anual inmutable y auditoría. Guía, manual y glosario dentro de la app. Android, Windows y navegador. Reglas con fuente oficial. Cero telemetría. 🇨🇱</span>
-            </p>
-            <div class="actions">
-              <a class="btn primary" href="https://github.com/vladimiracunadev-create/empresa-operativa-chile" target="_blank" rel="noreferrer"><span data-es>Repo (GitHub)</span><span data-en>Repo (GitHub)</span><span data-pt>Repo (GitHub)</span><span data-it>Repo (GitHub)</span><span data-fr>Repo (GitHub)</span><span data-zh>Repo (GitHub)</span></a>
-            </div>
-          </article>
-
-          <article class="card project" data-min-level="1">
-            <div class="project__head">
-              <h3 data-es>Rootcause Macos Inspector · Proyecto</h3>
-              <h3 data-en>Rootcause Macos Inspector · Project</h3>
-              <h3 data-pt>Rootcause Macos Inspector · Projeto</h3>
-              <h3 data-it>Rootcause Macos Inspector · Progetto</h3>
-              <h3 data-fr>Rootcause Macos Inspector · Projet</h3>
-              <h3 data-zh>Rootcause Macos Inspector · 项目</h3>
-              <span class="tag" data-es>Proyecto</span><span class="tag" data-en>Project</span><span class="tag" data-pt>Projeto</span><span class="tag" data-it>Progetto</span><span class="tag" data-fr>Projet</span><span class="tag" data-zh>项目</span>
-            </div>
-            <p>
-              <span data-es>RootCause macOS Inspector v0.1.0 — sensor forense de ciberseguridad para macOS (Rust): persistencia launchd, Gatekeeper, SIP, FileVault, XProtect, permisos TCC, procesos con firma y vecinos de red. Compara cada superficie con un estado bueno conocido y explica qué cambió, con evidencia. Telemetría: cero. Hermano de Windows, Web y Mobile</span>
-              <span data-en>RootCause macOS Inspector v0.1.0 — sensor forense de ciberseguridad para macOS (Rust): persistencia launchd, Gatekeeper, SIP, FileVault, XProtect, permisos TCC, procesos con firma y vecinos de red. Compara cada superficie con un estado bueno conocido y explica qué cambió, con evidencia. Telemetría: cero. Hermano de Windows, Web y Mobile</span>
-              <span data-pt>RootCause macOS Inspector v0.1.0 — sensor forense de ciberseguridad para macOS (Rust): persistencia launchd, Gatekeeper, SIP, FileVault, XProtect, permisos TCC, procesos con firma y vecinos de red. Compara cada superficie con un estado bueno conocido y explica qué cambió, con evidencia. Telemetría: cero. Hermano de Windows, Web y Mobile</span>
-              <span data-it>RootCause macOS Inspector v0.1.0 — sensor forense de ciberseguridad para macOS (Rust): persistencia launchd, Gatekeeper, SIP, FileVault, XProtect, permisos TCC, procesos con firma y vecinos de red. Compara cada superficie con un estado bueno conocido y explica qué cambió, con evidencia. Telemetría: cero. Hermano de Windows, Web y Mobile</span>
-              <span data-fr>RootCause macOS Inspector v0.1.0 — sensor forense de ciberseguridad para macOS (Rust): persistencia launchd, Gatekeeper, SIP, FileVault, XProtect, permisos TCC, procesos con firma y vecinos de red. Compara cada superficie con un estado bueno conocido y explica qué cambió, con evidencia. Telemetría: cero. Hermano de Windows, Web y Mobile</span>
-              <span data-zh>RootCause macOS Inspector v0.1.0 — sensor forense de ciberseguridad para macOS (Rust): persistencia launchd, Gatekeeper, SIP, FileVault, XProtect, permisos TCC, procesos con firma y vecinos de red. Compara cada superficie con un estado bueno conocido y explica qué cambió, con evidencia. Telemetría: cero. Hermano de Windows, Web y Mobile</span>
-            </p>
-            <div class="actions">
-              <a class="btn primary" href="https://github.com/vladimiracunadev-create/rootcause-macos-inspector" target="_blank" rel="noreferrer"><span data-es>Repo (GitHub)</span><span data-en>Repo (GitHub)</span><span data-pt>Repo (GitHub)</span><span data-it>Repo (GitHub)</span><span data-fr>Repo (GitHub)</span><span data-zh>Repo (GitHub)</span></a>
             </div>
           </article>
             </div>
@@ -1771,52 +1650,6 @@
             </p>
             <div class="actions">
               <a class="btn primary" href="https://github.com/vladimiracunadev-create/machine-operator-program" target="_blank" rel="noreferrer"><span data-es>Repo (GitHub)</span><span data-en>Repo (GitHub)</span><span data-pt>Repo (GitHub)</span><span data-it>Repo (GitHub)</span><span data-fr>Repo (GitHub)</span><span data-zh>Repo (GitHub)</span></a>
-            </div>
-          </article>
-
-          <article class="card project" data-min-level="1">
-            <div class="project__head">
-              <h3 data-es>Education Pedagogy Learning Sciences Program · Proyecto</h3>
-              <h3 data-en>Education Pedagogy Learning Sciences Program · Project</h3>
-              <h3 data-pt>Education Pedagogy Learning Sciences Program · Projeto</h3>
-              <h3 data-it>Education Pedagogy Learning Sciences Program · Progetto</h3>
-              <h3 data-fr>Education Pedagogy Learning Sciences Program · Projet</h3>
-              <h3 data-zh>Education Pedagogy Learning Sciences Program · 项目</h3>
-              <span class="tag" data-es>Proyecto</span><span class="tag" data-en>Project</span><span class="tag" data-pt>Projeto</span><span class="tag" data-it>Progetto</span><span class="tag" data-fr>Projet</span><span class="tag" data-zh>项目</span>
-            </div>
-            <p>
-              <span data-es>Pedagogía, Docencia y Ciencias del Aprendizaje v2.0.0 · 300 clases en 25 partes · El programa de formación pedagógica más completo en español: aprendizaje, didáctica, inclusión, currículum, evaluación, convivencia, IA educativa y liderazgo · Evidencia declarada por clase, 14 rutas por rol, 60 actividades de aula y portal offline 🇨🇱</span>
-              <span data-en>Pedagogía, Docencia y Ciencias del Aprendizaje v2.0.0 · 300 clases en 25 partes · El programa de formación pedagógica más completo en español: aprendizaje, didáctica, inclusión, currículum, evaluación, convivencia, IA educativa y liderazgo · Evidencia declarada por clase, 14 rutas por rol, 60 actividades de aula y portal offline 🇨🇱</span>
-              <span data-pt>Pedagogía, Docencia y Ciencias del Aprendizaje v2.0.0 · 300 clases en 25 partes · El programa de formación pedagógica más completo en español: aprendizaje, didáctica, inclusión, currículum, evaluación, convivencia, IA educativa y liderazgo · Evidencia declarada por clase, 14 rutas por rol, 60 actividades de aula y portal offline 🇨🇱</span>
-              <span data-it>Pedagogía, Docencia y Ciencias del Aprendizaje v2.0.0 · 300 clases en 25 partes · El programa de formación pedagógica más completo en español: aprendizaje, didáctica, inclusión, currículum, evaluación, convivencia, IA educativa y liderazgo · Evidencia declarada por clase, 14 rutas por rol, 60 actividades de aula y portal offline 🇨🇱</span>
-              <span data-fr>Pedagogía, Docencia y Ciencias del Aprendizaje v2.0.0 · 300 clases en 25 partes · El programa de formación pedagógica más completo en español: aprendizaje, didáctica, inclusión, currículum, evaluación, convivencia, IA educativa y liderazgo · Evidencia declarada por clase, 14 rutas por rol, 60 actividades de aula y portal offline 🇨🇱</span>
-              <span data-zh>Pedagogía, Docencia y Ciencias del Aprendizaje v2.0.0 · 300 clases en 25 partes · El programa de formación pedagógica más completo en español: aprendizaje, didáctica, inclusión, currículum, evaluación, convivencia, IA educativa y liderazgo · Evidencia declarada por clase, 14 rutas por rol, 60 actividades de aula y portal offline 🇨🇱</span>
-            </p>
-            <div class="actions">
-              <a class="btn primary" href="https://github.com/vladimiracunadev-create/education-pedagogy-learning-sciences-program" target="_blank" rel="noreferrer"><span data-es>Repo (GitHub)</span><span data-en>Repo (GitHub)</span><span data-pt>Repo (GitHub)</span><span data-it>Repo (GitHub)</span><span data-fr>Repo (GitHub)</span><span data-zh>Repo (GitHub)</span></a>
-            </div>
-          </article>
-
-          <article class="card project" data-min-level="1">
-            <div class="project__head">
-              <h3 data-es>Marketing Sales Growth Evolution Program · Proyecto</h3>
-              <h3 data-en>Marketing Sales Growth Evolution Program · Project</h3>
-              <h3 data-pt>Marketing Sales Growth Evolution Program · Projeto</h3>
-              <h3 data-it>Marketing Sales Growth Evolution Program · Progetto</h3>
-              <h3 data-fr>Marketing Sales Growth Evolution Program · Projet</h3>
-              <h3 data-zh>Marketing Sales Growth Evolution Program · 项目</h3>
-              <span class="tag" data-es>Proyecto</span><span class="tag" data-en>Project</span><span class="tag" data-pt>Projeto</span><span class="tag" data-it>Progetto</span><span class="tag" data-fr>Projet</span><span class="tag" data-zh>项目</span>
-            </div>
-            <p>
-              <span data-es>Marketing, Sales &amp; Growth Evolution Program v1.0.0 · 336 clases en 24 partes · El programa de marketing, ventas y crecimiento más completo en español: posicionamiento, pricing, venta consultiva, RevOps, growth, analítica e IA comercial · 1.344 conceptos, 1.008 métricas, 96 obras, 17 rutas por rol y portal offline 🇨🇱</span>
-              <span data-en>Marketing, Sales &amp; Growth Evolution Program v1.0.0 · 336 clases en 24 partes · El programa de marketing, ventas y crecimiento más completo en español: posicionamiento, pricing, venta consultiva, RevOps, growth, analítica e IA comercial · 1.344 conceptos, 1.008 métricas, 96 obras, 17 rutas por rol y portal offline 🇨🇱</span>
-              <span data-pt>Marketing, Sales &amp; Growth Evolution Program v1.0.0 · 336 clases en 24 partes · El programa de marketing, ventas y crecimiento más completo en español: posicionamiento, pricing, venta consultiva, RevOps, growth, analítica e IA comercial · 1.344 conceptos, 1.008 métricas, 96 obras, 17 rutas por rol y portal offline 🇨🇱</span>
-              <span data-it>Marketing, Sales &amp; Growth Evolution Program v1.0.0 · 336 clases en 24 partes · El programa de marketing, ventas y crecimiento más completo en español: posicionamiento, pricing, venta consultiva, RevOps, growth, analítica e IA comercial · 1.344 conceptos, 1.008 métricas, 96 obras, 17 rutas por rol y portal offline 🇨🇱</span>
-              <span data-fr>Marketing, Sales &amp; Growth Evolution Program v1.0.0 · 336 clases en 24 partes · El programa de marketing, ventas y crecimiento más completo en español: posicionamiento, pricing, venta consultiva, RevOps, growth, analítica e IA comercial · 1.344 conceptos, 1.008 métricas, 96 obras, 17 rutas por rol y portal offline 🇨🇱</span>
-              <span data-zh>Marketing, Sales &amp; Growth Evolution Program v1.0.0 · 336 clases en 24 partes · El programa de marketing, ventas y crecimiento más completo en español: posicionamiento, pricing, venta consultiva, RevOps, growth, analítica e IA comercial · 1.344 conceptos, 1.008 métricas, 96 obras, 17 rutas por rol y portal offline 🇨🇱</span>
-            </p>
-            <div class="actions">
-              <a class="btn primary" href="https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program" target="_blank" rel="noreferrer"><span data-es>Repo (GitHub)</span><span data-en>Repo (GitHub)</span><span data-pt>Repo (GitHub)</span><span data-it>Repo (GitHub)</span><span data-fr>Repo (GitHub)</span><span data-zh>Repo (GitHub)</span></a>
             </div>
           </article>
             </div>
@@ -2909,15 +2742,6 @@ make up-dashboard
                 <span data-fr>Portfolio</span>
                 <span data-zh>作品集</span>
               </a>
-              <a class="btn" data-pdf-link data-pdf-es="assets/hoja-de-vida.pdf" data-pdf-en="assets/hoja-de-vida-english.pdf" data-pdf-pt="assets/hoja-de-vida-portuguese.pdf" data-pdf-it="assets/hoja-de-vida-italian.pdf" data-pdf-fr="assets/hoja-de-vida-french.pdf" data-pdf-zh="assets/hoja-de-vida-chinese.pdf"
-                href="assets/hoja-de-vida.pdf" target="_blank" rel="noopener">
-                <span data-es>Hoja de Vida</span>
-                <span data-en>Curriculum Vitae</span>
-                <span data-pt>Currículo</span>
-                <span data-it>Curriculum Vitae</span>
-                <span data-fr>Curriculum Vitae</span>
-                <span data-zh>个人简历</span>
-              </a>
               <a class="btn" data-pdf-link data-pdf-es="assets/cv-reclutador.pdf" data-pdf-en="assets/cv-reclutador-english.pdf" data-pdf-pt="assets/cv-reclutador-portuguese.pdf" data-pdf-it="assets/cv-reclutador-italian.pdf" data-pdf-fr="assets/cv-reclutador-french.pdf" data-pdf-zh="assets/cv-reclutador-chinese.pdf"
                 href="assets/cv-reclutador.pdf" target="_blank" rel="noopener">
                 <span data-es>CV Reclutador</span>
@@ -2970,14 +2794,6 @@ make up-dashboard
               <span data-it>La dichiarazione dei risultati è pubblicata separatamente per riassumere i risultati osservabili e supportare la validazione esterna senza sostituire il CV o il portfolio.</span>
               <span data-fr>La déclaration de réalisations est publiée séparément pour résumer les résultats observables et faciliter la validation externe sans remplacer le CV ou le portfolio.</span>
               <span data-zh>成就声明单独发布，用于总结可观察的成果并支持外部验证，不替代简历或作品集。</span>
-            </p>
-            <p class="small muted">
-              <span data-es>La Hoja de Vida es el documento genérico: formato clásico y completo, sin estar dirigido a un cargo específico. Sirve para cualquier proceso de selección, aunque el puesto tenga un nombre poco habitual.</span>
-              <span data-en>The Curriculum Vitae is the generic document: classic, complete format, not tailored to a specific job title. It works for any selection process, even when the position has an unusual name.</span>
-              <span data-pt>O Currículo é o documento genérico: formato clássico e completo, sem ser direcionado a um cargo específico. Serve para qualquer processo seletivo, mesmo quando a vaga tem um nome pouco comum.</span>
-              <span data-it>Il Curriculum Vitae è il documento generico: formato classico e completo, non riferito a una posizione specifica. È valido per qualsiasi selezione, anche quando il ruolo ha un nome inusuale.</span>
-              <span data-fr>Le Curriculum Vitae est le document générique : format classique et complet, sans viser un poste précis. Il convient à tout recrutement, même lorsque l'intitulé du poste est inhabituel.</span>
-              <span data-zh>个人简历是通用文件：格式传统、内容完整，不针对特定职位。即使岗位名称少见，也适用于任何招聘流程。</span>
             </p>
           </article>
 

@@ -1,7 +1,7 @@
 {
     "meta": {
         "version": "v1",
-        "generated_at": "2026-08-19"
+        "generated_at": "2026-08-13"
     },
     "base_url": "https://vladimiracunadev-create.github.io",
     "artifact_languages": [
@@ -100,47 +100,6 @@
                     "label": "招聘简历",
                     "file": "assets/cv-reclutador-chinese.pdf",
                     "url": "https://vladimiracunadev-create.github.io/assets/cv-reclutador-chinese.pdf"
-                }
-            }
-        },
-        {
-            "id": "hoja_de_vida",
-            "title": "Hoja de Vida",
-            "description": "Generic, role-independent CV (LatAm 'hoja de vida'): classic full-format resume valid for any application, whatever the job title.",
-            "type": "pdf",
-            "category": "cv",
-            "default_language": "es",
-            "updated_at": "2026-08-19",
-            "variants": {
-                "es": {
-                    "label": "Hoja de Vida",
-                    "file": "assets/hoja-de-vida.pdf",
-                    "url": "https://vladimiracunadev-create.github.io/assets/hoja-de-vida.pdf"
-                },
-                "en": {
-                    "label": "Curriculum Vitae",
-                    "file": "assets/hoja-de-vida-english.pdf",
-                    "url": "https://vladimiracunadev-create.github.io/assets/hoja-de-vida-english.pdf"
-                },
-                "pt": {
-                    "label": "Currículo",
-                    "file": "assets/hoja-de-vida-portuguese.pdf",
-                    "url": "https://vladimiracunadev-create.github.io/assets/hoja-de-vida-portuguese.pdf"
-                },
-                "it": {
-                    "label": "Curriculum Vitae",
-                    "file": "assets/hoja-de-vida-italian.pdf",
-                    "url": "https://vladimiracunadev-create.github.io/assets/hoja-de-vida-italian.pdf"
-                },
-                "fr": {
-                    "label": "Curriculum Vitae",
-                    "file": "assets/hoja-de-vida-french.pdf",
-                    "url": "https://vladimiracunadev-create.github.io/assets/hoja-de-vida-french.pdf"
-                },
-                "zh": {
-                    "label": "个人简历",
-                    "file": "assets/hoja-de-vida-chinese.pdf",
-                    "url": "https://vladimiracunadev-create.github.io/assets/hoja-de-vida-chinese.pdf"
                 }
             }
         },
