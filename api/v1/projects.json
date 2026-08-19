@@ -1,7 +1,7 @@
 {
     "meta": {
         "version": "v1",
-        "generated_at": "2026-08-13",
+        "generated_at": "2026-08-19",
         "source_pdf": "assets/cv-ats.pdf"
     },
     "projects": [
@@ -241,7 +241,7 @@
         },
         {
             "name": "Problem Driven Systems Lab",
-            "description": "🧪 Laboratorio Docker-first con 12 problemas reales de ingeniería resueltos en 7 stacks (PHP · Python · Node.js · Java · .NET · Go · Rust): rendimiento, observabilidad, resiliencia, modernización legacy y arquitectura — con evidencia operacional verificable",
+            "description": "🧪 Laboratorio de sistemas distribuido con 20 casos reales Docker-first para diagnosticar y resolver problemas criticos de rendimiento, observabilidad, resiliencia y arquitectura 🐳",
             "url": "https://github.com/vladimiracunadev-create/problem-driven-systems-lab",
             "tags": [
                 "PHP 8",
@@ -453,7 +453,7 @@
         },
         {
             "name": "modern-business-creation-program",
-            "description": "Programa de 24 partes y 336 clases para crear y operar una empresa real en Chile: de la idea a la constitución, el SII, la operación, la crisis y la salida. Con 360 diagramas, glosario de 1.251 términos y manual de 1.541 páginas en PDF.",
+            "description": "🏛️ Crear y operar una empresa real en Chile: 336 clases en 24 partes y 6 etapas — de la idea a la validación, la SpA, el SII, la operación, la crisis y la salida. 360 diagramas, glosario de 1.251 términos, fuentes oficiales explicadas y manual de 1.548 páginas en PDF.",
             "url": "https://github.com/vladimiracunadev-create/modern-business-creation-program",
             "tags": [],
             "category": "other"
@@ -510,7 +510,7 @@
         },
         {
             "name": "artificial-intelligence-evolution-program",
-            "description": "🧠 AI Evolution Program v0.2.0 · 180 clases en 15 partes con materia completa · 540 notebooks con ejercicios y soluciones · PDFs por parte + programa completo (~1.100 pags) · La evolución de la IA en español: simbólica, ML, deep learning, LLMs, RAG, agentes, MLOps, seguridad y frontera. 🤖",
+            "description": "🧠 AI Evolution Program v0.14.1 · 183 clases en 15 partes · 705 notebooks · Eje de 148 papers fundacionales enlazados desde 171 clases, con puente a 5 anexos matemáticos · Apps de Windows (instalador, MSI, portable, exe) y Android · sitio, PDFs y miniaturas ejecutables · La evolución de la IA en español. 🤖",
             "url": "https://github.com/vladimiracunadev-create/artificial-intelligence-evolution-program",
             "tags": [],
             "category": "other"
@@ -545,8 +545,57 @@
         },
         {
             "name": "polyglot-programming-labs",
-            "description": "🌐 El programa de programación comparada en español — 176 clases en 12 partes. Un concepto, 10 lenguajes del núcleo (Python, JS, TS, Java, C#, Go, Rust, C, SQL, PHP) verificados en CI, y un Atlas de ~40 familias. Aprende el concepto una vez y reconócelo en cualquier lenguaje.",
+            "description": "🌐 Polyglot Programming Labs v1.1.0 · Programación comparada en español: 176 clases, 1360 implementaciones verificadas en CI en 10 lenguajes (Python, JS, TS, Java, C#, Go, Rust, C, SQL, PHP), 1632 programas en los lenguajes que siguen vivos (COBOL, Fortran, Ada, RPG, MUMPS…), 2722 primos y 60 fichas. Android, .exe y 4094 páginas en PDF.",
             "url": "https://github.com/vladimiracunadev-create/polyglot-programming-labs",
+            "tags": [],
+            "category": "other"
+        },
+        {
+            "name": "education-pedagogy-learning-sciences-program",
+            "description": "🎓 Pedagogía, Docencia y Ciencias del Aprendizaje v2.0.0 · 300 clases en 25 partes · El programa de formación pedagógica más completo en español: aprendizaje, didáctica, inclusión, currículum, evaluación, convivencia, IA educativa y liderazgo · Evidencia declarada por clase, 14 rutas por rol, 60 actividades de aula y portal offline 🇨🇱",
+            "url": "https://github.com/vladimiracunadev-create/education-pedagogy-learning-sciences-program",
+            "tags": [],
+            "category": "other"
+        },
+        {
+            "name": "marketing-sales-growth-evolution-program",
+            "description": "📈 Marketing, Sales & Growth Evolution Program v1.0.0 · 336 clases en 24 partes · El programa de marketing, ventas y crecimiento más completo en español: posicionamiento, pricing, venta consultiva, RevOps, growth, analítica e IA comercial · 1.344 conceptos, 1.008 métricas, 96 obras, 17 rutas por rol y portal offline 🇨🇱",
+            "url": "https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program",
+            "tags": [],
+            "category": "other"
+        },
+        {
+            "name": "guitarra-adventure",
+            "description": "🎸 Mi Aventura con la Guitarra · App educativa para aprender guitarra desde los 10 años · 24 lecciones en 6 mundos, afinador de 6 cuerdas, metrónomo sin deriva y 11 notas grabadas de guitarra real · Tauri 2 + React + TypeScript · Windows, Android, Linux, macOS, iOS y PWA · Sin publicidad, sin cuentas, offline · v1.0.0 con instaladores en Releases 🎶",
+            "url": "https://github.com/vladimiracunadev-create/guitarra-adventure",
+            "tags": [],
+            "category": "other"
+        },
+        {
+            "name": "agentic-plugins-toolkit",
+            "description": "🧩 agentic-plugins-toolkit · 📦 6 plugins agénticos para Claude Code, OpenAI/Codex, Copilot, Gemini y MCP · 🧭 repository-engineering · 🏗️ legacy-modernization · 🎓 learning-program-studio · 🚀 product-evolution · 🗂️ portfolio-governance · 🩺 rootcause-response · 69 vistas generadas sin drift · Zero-deps 🐧🍎🪟",
+            "url": "https://github.com/vladimiracunadev-create/agentic-plugins-toolkit",
+            "tags": [],
+            "category": "other"
+        },
+        {
+            "name": "operational-ai-agents",
+            "description": "🤖 operational-ai-agents · ⚡ 13 agentes para Claude Code · 🧭 repository-evolution · 🏗️ legacy-modernization · 📡 curriculum-evolution · 🌐 portfolio-publication · 🛡️ security-remediation · 🩺 incident-root-cause · 👤 professional-profile · Contrato + gates humanos + evidencia verificable · 39 evals deterministas · Zero-deps · Cross-platform 🐧🍎🪟",
+            "url": "https://github.com/vladimiracunadev-create/operational-ai-agents",
+            "tags": [],
+            "category": "other"
+        },
+        {
+            "name": "empresa-operativa-chile",
+            "description": "🏢 v1.4.0 · Crear, operar y controlar una empresa chilena a través del tiempo: constitución con evidencia, capital y CPT, patente municipal con su base legal, IVA/PPM, F29, cierre anual inmutable y auditoría. Guía, manual y glosario dentro de la app. Android, Windows y navegador. Reglas con fuente oficial. Cero telemetría. 🇨🇱",
+            "url": "https://github.com/vladimiracunadev-create/empresa-operativa-chile",
+            "tags": [],
+            "category": "other"
+        },
+        {
+            "name": "rootcause-macos-inspector",
+            "description": "🍎 RootCause macOS Inspector v0.1.0 — sensor forense de ciberseguridad para macOS (Rust): persistencia launchd, Gatekeeper, SIP, FileVault, XProtect, permisos TCC, procesos con firma y vecinos de red. Compara cada superficie con un estado bueno conocido y explica qué cambió, con evidencia. Telemetría: cero. Hermano de Windows, Web y Mobile. 🛡️",
+            "url": "https://github.com/vladimiracunadev-create/rootcause-macos-inspector",
             "tags": [],
             "category": "other"
         }

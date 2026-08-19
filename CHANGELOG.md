@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-08-19
+
+### sync-portfolio (automático)
+
+- `api/v1/`: generated_at → 2026-08-19
+- Repos nuevos integrados: education-pedagogy-learning-sciences-program, marketing-sales-growth-evolution-program, guitarra-adventure, agentic-plugins-toolkit, operational-ai-agents, empresa-operativa-chile, rootcause-macos-inspector
+- Cards HTML agregados en `#proyectos` (index.html)
+- Scripts PDF y api/v1/projects.json actualizados
+- 30 PDFs regenerados (5 tipos × 6 idiomas)
+- Backup en `assets/backups/2026-08-19/`
+
 ## 2026-08-14 — Rediseño de distribución
 
 ### release: v2.4.0 — APK + bundle PWA
