@@ -2,7 +2,7 @@
 
 ## 2026-08-19
 
-### sync-portfolio (automático)
+### sync-portfolio (automático — 2026-08-19)
 
 - `api/v1/`: generated_at → 2026-08-19
 - Repos nuevos integrados: education-pedagogy-learning-sciences-program, marketing-sales-growth-evolution-program, guitarra-adventure, agentic-plugins-toolkit, operational-ai-agents, empresa-operativa-chile, rootcause-macos-inspector
@@ -353,7 +353,7 @@ Sin bumpear el nombre de caché, el service worker seguiría sirviendo el `style
 
 ## 2026-08-13
 
-### sync-portfolio (automático)
+### sync-portfolio (automático — 2026-08-13)
 
 - `api/v1/`: generated_at → 2026-08-13
 - Repos nuevos integrados: computational-mathematics-program, modern-business-creation-program, executive-leadership-founder-program, finance-and-banking-evolution-program, blockchain-learning-path, universal-code-scanner, sandbox-labs, artificial-intelligence-evolution-program, rootcause-web-inspector, violin-adventure, multi-cloud-engineering-program, neural-network-training-labs, polyglot-programming-labs

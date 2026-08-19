@@ -948,7 +948,9 @@ def update_changelog(new_repos, api_changes, identity_changed, skip_pdfs, apply=
         log("CHANGELOG: sin cambios", "OK")
         return
 
-    entry = f"## {TODAY}\n\n### sync-portfolio (automático)\n\n" + "\n".join(items) + "\n\n"
+    # El encabezado lleva la fecha: dos sincronizaciones sin ella producen títulos
+    # duplicados y markdownlint (MD024) deja el CI en rojo.
+    entry = f"## {TODAY}\n\n### sync-portfolio (automático — {TODAY})\n\n" + "\n".join(items) + "\n\n"
     log("Actualizando CHANGELOG.md...", "HEAD")
     if apply:
         original = changelog.read_text(encoding="utf-8")
