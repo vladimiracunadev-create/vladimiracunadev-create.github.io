@@ -22,6 +22,7 @@ Qué hace:
 
 import argparse
 import base64
+import html
 import json
 import re
 import shutil
@@ -775,7 +776,9 @@ def inject_html_cards(new_repos, apply=False):
         title = repo_display(r["name"])
         url   = f"https://github.com/vladimiracunadev-create/{r['name']}"
         # strip_emojis: emojis en descripciones rompen la semántica visual del HTML
-        desc  = strip_emojis((r.get("description") or title)).rstrip(".")
+        # La descripción viene de GitHub y puede traer &, < o >: se escapa antes
+        # de inyectarla como HTML, o html-validate deja el CI en rojo.
+        desc  = html.escape(strip_emojis((r.get("description") or title)).rstrip("."), quote=False)
         cat   = REPO_CATEGORIES.get(r["name"], "other")
         tags  = CATEGORY_TAGS.get(cat, CATEGORY_TAGS["other"])
 
