@@ -2,6 +2,52 @@
 
 ## 2026-08-19
 
+### feat(docs): ciberseguridad en la Declaración de Logros — y el chino que salía en cuadraditos
+
+**Lo pedido:** integrar en la Declaración de Logros, en los 6 idiomas, las labores de
+ciberseguridad de los 14 años en CEIS Maristas, **sin tocar nada de lo ya existente, ni las
+fechas**. Se agregó una subsección nueva al final de la sección 3, «Seguridad, análisis forense y
+resiliencia del servidor», con cinco puntos: formación en ciberseguridad durante la pandemia y
+posterior charla institucional · análisis forense de ataques al servidor en más de una ocasión ·
+gestión y revisión sistemática de logs del servidor y del entorno PHP con doble propósito (depurar
+código y detectar actividad anómala de IP desconocidas) · endurecimiento del sistema con pruebas
+OWASP ZAP · pruebas de carga con Apache JMeter. Se sumó también una fila a la tabla de
+competencias: «Seguridad y análisis forense».
+
+**Control de no-regresión:** se comparó el texto extraído del PDF anterior contra el nuevo, en los
+5 idiomas latinos. **0 líneas eliminadas o modificadas**, solo 14-16 líneas nuevas por idioma. La
+fecha de emisión (13 de marzo de 2026), la numeración de secciones, la referencia externa y el
+bloque de firma quedan idénticos. El documento pasa de 3 a 4 páginas.
+
+**Bug encontrado al verificar (preexistente, no introducido aquí):** el PDF **en chino** de la
+Declaración de Logros y de la Carta de Recomendación tenía **todo el texto chino en cuadros
+negros** — 1537 y 453 cajas respectivamente, 0 caracteres CJK reales. Esos dos scripts nunca
+registraban la fuente CID. Ambos documentos llevaban publicados así. Corregido con autorización
+explícita del usuario.
+
+**Segundo bug, más silencioso:** al registrar `STSong-Light` el chino se lee, pero esa fuente CID
+**no tiene glifo para «ñ»**: el apellido se imprimía «Acuña» → **«Acua»**, y el espaciado latino
+salía descuadrado («V ladimir», «Fundació n»). Afectaba a **todos** los PDF en chino, incluidos los
+que parecían sanos. Solución: `paragraph_factory(lang)` envuelve los tramos no-CJK en
+`<font name="Helvetica">` respetando las etiquetas de marcado, de modo que el chino usa la fuente
+CID y el texto latino Helvetica. Aplicado a declaración, carta y hoja de vida. El pie de página de
+la hoja de vida se dibuja en canvas, fuera de los párrafos: se dibuja en dos tramos por el mismo
+motivo.
+
+**Tercer ajuste del chino:** el texto CJK justificado estiraba el único espacio de la línea y abría
+huecos enormes. En `zh` los estilos con `TA_JUSTIFY` pasan a `TA_LEFT`.
+
+**Pendiente reportado:** `cv-ats-chinese.pdf`, `cv-reclutador-chinese.pdf` y
+`portafolio-chinese.pdf` siguen escribiendo «Acua» — mismo bug, otros generadores
+(`generate-all-languages.py`, `generate-unified-cv.py`, `generate-portfolio.py`), fuera del alcance
+autorizado en esta sesión.
+
+Verificación del chino: 0 cajas y CJK real en los 6 documentos (413-1658 caracteres según el
+documento). Las 5 variantes no chinas de la Carta quedan **byte-idénticas en contenido**.
+
+[BACKUP] assets/backups/2026-08-19/declaracion-logros-validacion*_v2.pdf — antes de la subsección de ciberseguridad
+[BACKUP] assets/backups/2026-08-19/carta-recomendacion_sin_firma*_v2.pdf — antes del arreglo de fuente CJK
+
 ### feat(docs): hoja de vida genérica en los 6 idiomas, descargable desde la web
 
 Origen: un aviso pedía «envía tu hoja de vida» para un cargo cuyo nombre no era familiar

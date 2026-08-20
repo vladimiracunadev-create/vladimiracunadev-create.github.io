@@ -10,6 +10,7 @@ Replicates the format of the existing ES/EN versions:
 """
 
 import os
+import re
 from reportlab.lib.pagesizes import letter
 from reportlab.lib.units import inch
 from reportlab.lib.colors import HexColor
@@ -52,6 +53,55 @@ def make_styles():
         ),
     )
 
+
+# ── CJK font (Chinese) ──────────────────────────────
+# Sin esto, todo el texto chino se renderiza como cuadros negros.
+def apply_cjk_font(styles, lang):
+    """Switch every style to a CID font so Chinese renders as real glyphs."""
+    if lang != "zh":
+        return "Helvetica"
+    try:
+        from reportlab.pdfbase import pdfmetrics
+        from reportlab.pdfbase.cidfonts import UnicodeCIDFont
+        pdfmetrics.registerFont(UnicodeCIDFont("STSong-Light"))
+        for st in styles.values():
+            st.fontName = "STSong-Light"
+            # El chino no lleva espacios entre palabras: justificar estira el
+            # unico espacio de la linea y abre huecos enormes.
+            if st.alignment == TA_JUSTIFY:
+                st.alignment = TA_LEFT
+        return "STSong-Light"
+    except Exception:
+        return "Helvetica"
+
+# ── Latin runs inside Chinese text ──────────────────
+# STSong-Light (CID) no tiene glifo para "ñ" y descuadra el espaciado latino:
+# el nombre salia como "Acua". Los tramos no-CJK se dibujan con Helvetica.
+_ZH_TAG_SPLIT = re.compile(r"(<[^>]+>)")
+_ZH_LATIN_RUN = re.compile(r"[^\u2E80-\u9FFF\u3000-\u303F\uFF00-\uFFEF]+")
+
+
+def _wrap_latin_runs(text):
+    out = []
+    for part in _ZH_TAG_SPLIT.split(str(text)):
+        if part.startswith("<") and part.endswith(">"):
+            out.append(part)
+            continue
+        out.append(_ZH_LATIN_RUN.sub(
+            lambda m: m.group(0) if not m.group(0).strip()
+            else '<font name="Helvetica">%s</font>' % m.group(0), part))
+    return "".join(out)
+
+
+def paragraph_factory(lang):
+    """Return Paragraph, or a wrapper that keeps Latin text readable in ZH."""
+    if lang != "zh":
+        return Paragraph
+
+    def _p(text, style, *args, **kwargs):
+        return Paragraph(_wrap_latin_runs(text), style, *args, **kwargs)
+
+    return _p
 
 # ═══════════════════════════════════════════════════
 # TRANSLATIONS
@@ -126,6 +176,8 @@ LANG_SUFFIX = {
 def build_letter(lang, output_path):
     T = get_content(lang)
     s = make_styles()
+    apply_cjk_font(s, lang)
+    Paragraph = paragraph_factory(lang)
 
     doc = SimpleDocTemplate(
         output_path, pagesize=letter,

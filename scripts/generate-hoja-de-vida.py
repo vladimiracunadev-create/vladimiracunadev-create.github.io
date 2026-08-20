@@ -21,6 +21,7 @@ labels specific to this document live in this file.
 """
 
 import os
+import re
 import sys
 import importlib.util
 
@@ -262,6 +263,35 @@ HDV = {
 }
 
 
+# ── Latin runs inside Chinese text ──────────────────
+# STSong-Light (CID) no tiene glifo para "ñ" y descuadra el espaciado latino:
+# el nombre salia como "Acua". Los tramos no-CJK se dibujan con Helvetica.
+_ZH_TAG_SPLIT = re.compile(r"(<[^>]+>)")
+_ZH_LATIN_RUN = re.compile(r"[^\u2E80-\u9FFF\u3000-\u303F\uFF00-\uFFEF]+")
+
+
+def _wrap_latin_runs(text):
+    out = []
+    for part in _ZH_TAG_SPLIT.split(str(text)):
+        if part.startswith("<") and part.endswith(">"):
+            out.append(part)
+            continue
+        out.append(_ZH_LATIN_RUN.sub(
+            lambda m: m.group(0) if not m.group(0).strip()
+            else '<font name="Helvetica">%s</font>' % m.group(0), part))
+    return "".join(out)
+
+
+def paragraph_factory(lang):
+    """Return Paragraph, or a wrapper that keeps Latin text readable in ZH."""
+    if lang != "zh":
+        return Paragraph
+
+    def _p(text, style, *args, **kwargs):
+        return Paragraph(_wrap_latin_runs(text), style, *args, **kwargs)
+
+    return _p
+
 # ═══════════════════════════════════════════════════
 # STYLES
 # ═══════════════════════════════════════════════════
@@ -303,6 +333,8 @@ def make_styles(lang):
             pdfmetrics.registerFont(UnicodeCIDFont("STSong-Light"))
             for st in s.values():
                 st.fontName = "STSong-Light"
+                if st.alignment == TA_JUSTIFY:
+                    st.alignment = TA_LEFT
         except Exception:
             pass
     return s
@@ -332,6 +364,7 @@ def build_hoja_de_vida(lang, output_path):
     T = G.get_content(lang)
     H = HDV[lang]
     s = make_styles(lang)
+    Paragraph = paragraph_factory(lang)
     suffix = LANG_SUFFIX[lang]
 
     doc = SimpleDocTemplate(
@@ -347,10 +380,14 @@ def build_hoja_de_vida(lang, output_path):
     def page_furniture(canvas, doc_):
         canvas.saveState()
         font = "STSong-Light" if lang == "zh" else "Helvetica"
-        canvas.setFont(font, 7.5)
         canvas.setFillColor(SOFT)
-        canvas.drawString(0.75 * inch, 0.45 * inch,
-                          f"Vladimir Acuña — {H['doc_title']}")
+        # El nombre siempre en Helvetica: la fuente CID no tiene glifo para "ñ".
+        name = "Vladimir Acuña — "
+        canvas.setFont("Helvetica", 7.5)
+        canvas.drawString(0.75 * inch, 0.45 * inch, name)
+        canvas.setFont(font, 7.5)
+        canvas.drawString(0.75 * inch + canvas.stringWidth(name, "Helvetica", 7.5),
+                          0.45 * inch, H["doc_title"])
         canvas.drawRightString(letter[0] - 0.75 * inch, 0.45 * inch,
                                f"{H['page']} {doc_.page}{H.get('page_end', '')}")
         canvas.setStrokeColor(LINE_COLOR)

@@ -9,6 +9,7 @@ Replicates the format of the existing ES/EN versions:
 """
 
 import os
+import re
 from reportlab.lib.pagesizes import letter
 from reportlab.lib.units import inch
 from reportlab.lib.colors import HexColor, white
@@ -86,6 +87,55 @@ def make_styles():
     )
 
 
+# ── CJK font (Chinese) ──────────────────────────────
+# Sin esto, todo el texto chino se renderiza como cuadros negros.
+def apply_cjk_font(styles, lang):
+    """Switch every style to a CID font so Chinese renders as real glyphs."""
+    if lang != "zh":
+        return "Helvetica"
+    try:
+        from reportlab.pdfbase import pdfmetrics
+        from reportlab.pdfbase.cidfonts import UnicodeCIDFont
+        pdfmetrics.registerFont(UnicodeCIDFont("STSong-Light"))
+        for st in styles.values():
+            st.fontName = "STSong-Light"
+            # El chino no lleva espacios entre palabras: justificar estira el
+            # unico espacio de la linea y abre huecos enormes.
+            if st.alignment == TA_JUSTIFY:
+                st.alignment = TA_LEFT
+        return "STSong-Light"
+    except Exception:
+        return "Helvetica"
+
+# ── Latin runs inside Chinese text ──────────────────
+# STSong-Light (CID) no tiene glifo para "ñ" y descuadra el espaciado latino:
+# el nombre salia como "Acua". Los tramos no-CJK se dibujan con Helvetica.
+_ZH_TAG_SPLIT = re.compile(r"(<[^>]+>)")
+_ZH_LATIN_RUN = re.compile(r"[^\u2E80-\u9FFF\u3000-\u303F\uFF00-\uFFEF]+")
+
+
+def _wrap_latin_runs(text):
+    out = []
+    for part in _ZH_TAG_SPLIT.split(str(text)):
+        if part.startswith("<") and part.endswith(">"):
+            out.append(part)
+            continue
+        out.append(_ZH_LATIN_RUN.sub(
+            lambda m: m.group(0) if not m.group(0).strip()
+            else '<font name="Helvetica">%s</font>' % m.group(0), part))
+    return "".join(out)
+
+
+def paragraph_factory(lang):
+    """Return Paragraph, or a wrapper that keeps Latin text readable in ZH."""
+    if lang != "zh":
+        return Paragraph
+
+    def _p(text, style, *args, **kwargs):
+        return Paragraph(_wrap_latin_runs(text), style, *args, **kwargs)
+
+    return _p
+
 # ═══════════════════════════════════════════════════
 # TRANSLATIONS
 # ═══════════════════════════════════════════════════
@@ -145,6 +195,14 @@ def get_content(lang):
                 "Propuesta de alternativas orientadas a reducción de costos operativos asociados a comunicaciones masivas.",
                 "Uso de tecnologías de inteligencia artificial durante 2024 y 2025 como apoyo para análisis, resolución de problemas y exploración de soluciones técnicas.",
             ],
+            "s3_sub6": "Seguridad, análisis forense y resiliencia del servidor",
+            "s3_sub6_items": [
+                "Formación en ciberseguridad cursada durante el período de pandemia y posterior realización de una charla de ciberseguridad en el ámbito institucional, orientada a difundir buenas prácticas.",
+                "Análisis forense de ataques al servidor en más de una ocasión, revisando la evidencia disponible para determinar origen, vector de entrada y alcance del incidente.",
+                "Gestión y revisión sistemática de logs del servidor y del entorno PHP durante los últimos años del período, con doble propósito: depurar errores de código y detectar actividad anómala proveniente de direcciones IP desconocidas.",
+                "Mejoras de seguridad del sistema a partir de pruebas con OWASP ZAP, simulando ataques para identificar puntos débiles y aplicar las correcciones correspondientes.",
+                "Pruebas de carga y medición del comportamiento del servidor con Apache JMeter, para dimensionar la capacidad de la plataforma frente a demanda concurrente.",
+            ],
             "s4_title": "4. Resultados observables y mejoras reportadas",
             "s4_items": [
                 "Mejoras de desempeño estimadas de hasta un 80% en determinados procesos del sistema, especialmente en generación de reportes y carga de servicios de la plataforma Batería Online, incluyendo traslado de parte de la lógica a JavaScript para optimizar respuesta.",
@@ -162,6 +220,7 @@ def get_content(lang):
                 ["Optimización de rendimiento", "Mejora de tiempos, procesos críticos y eficiencia funcional."],
                 ["Resolución de incidentes", "Diagnóstico, contención y corrección de problemas en producción."],
                 ["Automatización y mejora continua", "Diseño de soluciones internas, reducción de tareas manuales y foco permanente en eficiencia."],
+                ["Seguridad y análisis forense", "Detección de actividad anómala, análisis de incidentes en el servidor y endurecimiento del sistema mediante pruebas de seguridad."],
             ],
             "s6_title": "6. Referencia de validación externa",
             "s6_intro": "Para fines de verificación de contexto laboral, relación de trabajo y alcance general de funciones, puede utilizarse la siguiente referencia profesional:",
@@ -226,6 +285,14 @@ def get_content(lang):
                 "Proposal of alternatives aimed at reducing operating costs associated with mass communications.",
                 "Use of artificial intelligence technologies during 2024 and 2025 to support analysis, problem solving, and the exploration of technical solutions.",
             ],
+            "s3_sub6": "Security, forensic analysis, and server resilience",
+            "s3_sub6_items": [
+                "Cybersecurity training completed during the pandemic period, followed by an in-house cybersecurity talk aimed at spreading good practices.",
+                "Forensic analysis of server attacks on more than one occasion, reviewing the available evidence to determine origin, entry vector, and scope of the incident.",
+                "Systematic management and review of server and PHP logs during the final years of the period, with a twofold purpose: debugging code errors and detecting anomalous activity from unknown IP addresses.",
+                "System security improvements based on OWASP ZAP testing, simulating attacks to identify weak points and apply the corresponding fixes.",
+                "Load testing and measurement of server behavior with Apache JMeter, to size platform capacity under concurrent demand.",
+            ],
             "s4_title": "4. Observable results and reported improvements",
             "s4_items": [
                 "Estimated performance improvements of up to 80% in certain system processes, especially in report generation and service loading within the Batería Online platform, including the migration of part of the logic to JavaScript to optimize responsiveness.",
@@ -243,6 +310,7 @@ def get_content(lang):
                 ["Performance optimization", "Improvement of timelines, critical processes, and functional efficiency."],
                 ["Incident resolution", "Diagnosis, containment, and correction of production issues."],
                 ["Automation and continuous improvement", "Design of internal solutions, reduction of manual tasks, and sustained focus on efficiency."],
+                ["Security and forensic analysis", "Detection of anomalous activity, analysis of server incidents, and system hardening through security testing."],
             ],
             "s6_title": "6. External validation reference",
             "s6_intro": "For purposes of verifying employment context, working relationship, and general scope of responsibilities, the following professional reference may be used:",
@@ -307,6 +375,14 @@ def get_content(lang):
                 "Proposta de alternativas orientadas à redução de custos operacionais associados a comunicações massivas.",
                 "Uso de tecnologias de inteligência artificial durante 2024 e 2025 como apoio para análise, resolução de problemas e exploração de soluções técnicas.",
             ],
+            "s3_sub6": "Segurança, análise forense e resiliência do servidor",
+            "s3_sub6_items": [
+                "Formação em cibersegurança realizada durante o período de pandemia e posterior realização de uma palestra de cibersegurança no âmbito institucional, voltada à difusão de boas práticas.",
+                "Análise forense de ataques ao servidor em mais de uma ocasião, revisando as evidências disponíveis para determinar origem, vetor de entrada e alcance do incidente.",
+                "Gestão e revisão sistemática de logs do servidor e do ambiente PHP durante os últimos anos do período, com duplo propósito: depurar erros de código e detectar atividade anômala proveniente de endereços IP desconhecidos.",
+                "Melhorias de segurança do sistema a partir de testes com OWASP ZAP, simulando ataques para identificar pontos fracos e aplicar as correções correspondentes.",
+                "Testes de carga e medição do comportamento do servidor com Apache JMeter, para dimensionar a capacidade da plataforma diante de demanda concorrente.",
+            ],
             "s4_title": "4. Resultados observáveis e melhorias reportadas",
             "s4_items": [
                 "Melhorias de desempenho estimadas de até 80% em determinados processos do sistema, especialmente em geração de relatórios e carregamento de serviços da plataforma Batería Online, incluindo transferência de parte da lógica para JavaScript para otimizar resposta.",
@@ -324,6 +400,7 @@ def get_content(lang):
                 ["Otimização de desempenho", "Melhoria de tempos, processos críticos e eficiência funcional."],
                 ["Resolução de incidentes", "Diagnóstico, contenção e correção de problemas em produção."],
                 ["Automação e melhoria contínua", "Projeto de soluções internas, redução de tarefas manuais e foco permanente em eficiência."],
+                ["Segurança e análise forense", "Detecção de atividade anômala, análise de incidentes no servidor e fortalecimento do sistema por meio de testes de segurança."],
             ],
             "s6_title": "6. Referência de validação externa",
             "s6_intro": "Para fins de verificação de contexto laboral, relação de trabalho e alcance geral de funções, pode ser utilizada a seguinte referência profissional:",
@@ -388,6 +465,14 @@ def get_content(lang):
                 "Proposta di alternative orientate alla riduzione dei costi operativi associati alle comunicazioni massive.",
                 "Utilizzo di tecnologie di intelligenza artificiale durante il 2024 e 2025 come supporto per analisi, risoluzione di problemi ed esplorazione di soluzioni tecniche.",
             ],
+            "s3_sub6": "Sicurezza, analisi forense e resilienza del server",
+            "s3_sub6_items": [
+                "Formazione in cybersicurezza svolta durante il periodo della pandemia e successivo intervento sulla cybersicurezza in ambito istituzionale, volto a diffondere buone pratiche.",
+                "Analisi forense di attacchi al server in più di un'occasione, esaminando le evidenze disponibili per determinare origine, vettore di ingresso e portata dell'incidente.",
+                "Gestione e revisione sistematica dei log del server e dell'ambiente PHP negli ultimi anni del periodo, con un duplice scopo: correggere errori di codice e rilevare attività anomale provenienti da indirizzi IP sconosciuti.",
+                "Miglioramenti della sicurezza del sistema a partire da test con OWASP ZAP, simulando attacchi per individuare punti deboli e applicare le correzioni corrispondenti.",
+                "Test di carico e misurazione del comportamento del server con Apache JMeter, per dimensionare la capacità della piattaforma in presenza di domanda concorrente.",
+            ],
             "s4_title": "4. Risultati osservabili e miglioramenti riportati",
             "s4_items": [
                 "Miglioramenti delle prestazioni stimati fino all'80% in determinati processi del sistema, specialmente nella generazione di report e nel caricamento dei servizi della piattaforma Batería Online, incluso il trasferimento di parte della logica a JavaScript per ottimizzare la reattività.",
@@ -405,6 +490,7 @@ def get_content(lang):
                 ["Ottimizzazione delle prestazioni", "Miglioramento dei tempi, processi critici ed efficienza funzionale."],
                 ["Risoluzione di incidenti", "Diagnosi, contenimento e correzione di problemi in produzione."],
                 ["Automazione e miglioramento continuo", "Progettazione di soluzioni interne, riduzione di compiti manuali e focus permanente sull'efficienza."],
+                ["Sicurezza e analisi forense", "Rilevamento di attività anomale, analisi di incidenti sul server e rafforzamento del sistema tramite test di sicurezza."],
             ],
             "s6_title": "6. Riferimento di validazione esterna",
             "s6_intro": "Per fini di verifica del contesto lavorativo, del rapporto di lavoro e dell'ambito generale delle funzioni, può essere utilizzato il seguente riferimento professionale:",
@@ -469,6 +555,14 @@ def get_content(lang):
                 "Proposition d'alternatives visant à réduire les coûts opérationnels liés aux communications de masse.",
                 "Utilisation de technologies d'intelligence artificielle en 2024 et 2025 comme support d'analyse, de résolution de problèmes et d'exploration de solutions techniques.",
             ],
+            "s3_sub6": "Sécurité, analyse forensique et résilience du serveur",
+            "s3_sub6_items": [
+                "Formation en cybersécurité suivie pendant la période de pandémie, puis animation d'une conférence de cybersécurité dans le cadre institutionnel, destinée à diffuser les bonnes pratiques.",
+                "Analyse forensique d'attaques du serveur à plus d'une reprise, en examinant les preuves disponibles pour déterminer l'origine, le vecteur d'entrée et la portée de l'incident.",
+                "Gestion et revue systématique des journaux du serveur et de l'environnement PHP durant les dernières années de la période, avec un double objectif : corriger les erreurs de code et détecter une activité anormale provenant d'adresses IP inconnues.",
+                "Améliorations de la sécurité du système à partir de tests avec OWASP ZAP, en simulant des attaques pour identifier les points faibles et appliquer les corrections correspondantes.",
+                "Tests de charge et mesure du comportement du serveur avec Apache JMeter, afin de dimensionner la capacité de la plateforme face à une demande concurrente.",
+            ],
             "s4_title": "4. Résultats observables et améliorations rapportées",
             "s4_items": [
                 "Améliorations de performance estimées jusqu'à 80 % dans certains processus du système, notamment dans la génération de rapports et le chargement de services de la plateforme Batería Online, incluant le transfert d'une partie de la logique vers JavaScript pour optimiser la réactivité.",
@@ -486,6 +580,7 @@ def get_content(lang):
                 ["Optimisation des performances", "Amélioration des délais, processus critiques et efficacité fonctionnelle."],
                 ["Résolution d'incidents", "Diagnostic, confinement et correction de problèmes en production."],
                 ["Automatisation et amélioration continue", "Conception de solutions internes, réduction des tâches manuelles et focus permanent sur l'efficacité."],
+                ["Sécurité et analyse forensique", "Détection d'activité anormale, analyse d'incidents sur le serveur et renforcement du système par des tests de sécurité."],
             ],
             "s6_title": "6. Référence de validation externe",
             "s6_intro": "Aux fins de vérification du contexte professionnel, de la relation de travail et de la portée générale des fonctions, la référence professionnelle suivante peut être utilisée :",
@@ -550,6 +645,14 @@ def get_content(lang):
                 "提出旨在降低与大规模通信相关的运营成本的替代方案。",
                 "在2024年和2025年使用人工智能技术作为分析、问题解决和技术解决方案探索的支持。",
             ],
+            "s3_sub6": "安全、取证分析与服务器韧性",
+            "s3_sub6_items": [
+                "在疫情期间完成网络安全培训，随后在机构内部举办网络安全讲座，推广安全良好实践。",
+                "多次对服务器攻击进行取证分析，审查可用证据以确定事件的来源、入侵路径和影响范围。",
+                "在该期间的最后几年系统性地管理和审查服务器与PHP日志，兼顾两个目的：排查代码错误，以及检测来自未知IP地址的异常活动。",
+                "基于OWASP ZAP测试改进系统安全性，通过模拟攻击识别薄弱环节并实施相应修复。",
+                "使用Apache JMeter进行负载测试和服务器行为测量，以评估平台在并发需求下的承载能力。",
+            ],
             "s4_title": "4. 可观察到的成果和报告的改进",
             "s4_items": [
                 "某些系统流程中估计性能提升高达80%，特别是在Batería Online平台的报告生成和服务加载方面，包括将部分逻辑迁移到JavaScript以优化响应。",
@@ -567,6 +670,7 @@ def get_content(lang):
                 ["性能优化", "改进时间线、关键流程和功能效率。"],
                 ["事件解决", "生产问题的诊断、遏制和纠正。"],
                 ["自动化和持续改进", "设计内部解决方案，减少手动任务，持续关注效率。"],
+                ["安全与取证分析", "异常活动检测、服务器事件分析，以及通过安全测试强化系统。"],
             ],
             "s6_title": "6. 外部验证参考",
             "s6_intro": "为验证就业背景、工作关系和职责的一般范围，可使用以下专业参考：",
@@ -593,15 +697,16 @@ LANG_SUFFIX = {
 
 class AchievementsDoc(SimpleDocTemplate):
     """Custom doc to add page footer."""
-    def __init__(self, *args, footer_label="", **kwargs):
+    def __init__(self, *args, footer_label="", footer_font="Helvetica", **kwargs):
         self._footer_label = footer_label
+        self._footer_font = footer_font
         super().__init__(*args, **kwargs)
 
     def afterPage(self):
         canvas = self.canv
         page_num = canvas.getPageNumber()
         canvas.saveState()
-        canvas.setFont("Helvetica", 8.5)
+        canvas.setFont(self._footer_font, 8.5)
         canvas.setFillColor(MUTED)
         canvas.drawRightString(
             PAGE_W - 0.7 * inch, 0.45 * inch,
@@ -613,12 +718,15 @@ class AchievementsDoc(SimpleDocTemplate):
 def build_statement(lang, output_path):
     T = get_content(lang)
     s = make_styles()
+    base_font = apply_cjk_font(s, lang)
+    Paragraph = paragraph_factory(lang)
 
     doc = AchievementsDoc(
         output_path, pagesize=letter,
         leftMargin=0.7 * inch, rightMargin=0.7 * inch,
         topMargin=0.6 * inch, bottomMargin=0.7 * inch,
         footer_label=T["footer_label"],
+        footer_font=base_font,
     )
 
     story = []
@@ -683,7 +791,7 @@ def build_statement(lang, output_path):
 
     # ── Section 3 ──
     story.append(Paragraph(T["s3_title"], s["section_heading"]))
-    for sub_key in ["s3_sub1", "s3_sub2", "s3_sub3", "s3_sub4", "s3_sub5"]:
+    for sub_key in ["s3_sub1", "s3_sub2", "s3_sub3", "s3_sub4", "s3_sub5", "s3_sub6"]:
         story.append(Paragraph(f"<b>{T[sub_key]}</b>", s["sub_heading"]))
         for item in T[f"{sub_key}_items"]:
             story.append(Paragraph(f"\u2022 {item}", s["bullet"]))
