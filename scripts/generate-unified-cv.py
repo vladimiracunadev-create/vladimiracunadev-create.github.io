@@ -823,7 +823,8 @@ def build_ats_section(ats_data, lang="es"):
     items.append(hr())
     items.append(Paragraph(ats_data["h_projects"], s["heading"]))
     for desc, url in ats_data["projects"]:
-        items.append(bp(s["link"], f'{desc} <link href="{url}">{url}</link>'))
+        items.append(bp(s["link"] if url else s["bullet"],
+                        f'{desc} <link href="{url}">{url}</link>' if url else desc))
 
     # Education & Activity
     items.append(hr())

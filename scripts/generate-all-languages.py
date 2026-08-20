@@ -1128,7 +1128,8 @@ def build_cv(data, output_path, lang="es"):
     story.append(_ats_hr())
     story.append(Paragraph(data["h_projects"], s["heading"]))
     for desc, url in data["projects"]:
-        story.append(_ats_bullet(s["link"], f'{desc} <link href="{url}">{url}</link>'))
+        story.append(_ats_bullet(s["link"] if url else s["bullet"],
+                                 f'{desc} <link href="{url}">{url}</link>' if url else desc))
     story.append(_ats_hr())
     story.append(Paragraph(data["h_education"], s["heading"]))
     for item in data["education_activity"]:
@@ -1145,6 +1146,159 @@ def build_cv(data, output_path, lang="es"):
     print(f" -> {output_path} ({size_kb:.1f} KB)")
 
 # We need to rebuild content dicts from the translation data
+
+# ═══════════════════════════════════════════════════
+# AGRUPACIÓN DE PROYECTOS PARA LOS CV
+# ═══════════════════════════════════════════════════
+# El CV es el único documento donde el espacio es crítico: la lista plana de 40+
+# proyectos se comía la página. Aquí se agrupan por categoría, con las mismas
+# familias del README del perfil de GitHub, pero diferenciando las 4 ediciones de
+# RootCause en vez de colapsarlas en "RootCause x4".
+#
+# projects_rec / projects_ats siguen intactas: son el inventario que alimenta
+# sync-portfolio.py. Una clave nueva que aparezca ahí y no esté categorizada
+# abajo cae en el grupo "Otros" — visible, nunca perdida.
+
+PROJECT_GROUPS = [
+    ("products", ["rootcause", "rootcause_mobile", "rootcause_macos", "rootcause_web",
+                  "empresa", "universal", "gabysql", "automa", "chofyai", "rhino",
+                  "violin", "guitarra"]),
+    ("labs", ["problem", "social", "micro", "docker", "wsl", "unikernel", "sandbox",
+              "aws_gh", "aws_gl"]),
+    ("ai", ["langgraph", "operational", "mcp", "agentic", "claude"]),
+    ("curricula", ["modern_cyber", "modern", "python", "multi", "artificial", "blockchain",
+                   "computational", "modern_business", "finance", "executive", "marketing",
+                   "education", "polyglot", "neural", "machine"]),
+    ("science", ["human"]),
+]
+
+GROUP_LABELS = {
+    "es": {
+        "products": "Productos con distribución real",
+        "labs": "Laboratorios de ingeniería",
+        "ai": "IA aplicada",
+        "curricula": "Currículos técnicos",
+        "science": "Computación científica y educativa",
+        "other": "Otros",
+        "code": "Código y documentación",
+    },
+    "en": {
+        "products": "Products with real distribution",
+        "labs": "Engineering labs",
+        "ai": "Applied AI",
+        "curricula": "Technical curricula",
+        "science": "Scientific and educational computing",
+        "other": "Other",
+        "code": "Code and documentation",
+    },
+    "pt": {
+        "products": "Produtos com distribuição real",
+        "labs": "Laboratórios de engenharia",
+        "ai": "IA aplicada",
+        "curricula": "Currículos técnicos",
+        "science": "Computação científica e educativa",
+        "other": "Outros",
+        "code": "Código e documentação",
+    },
+    "it": {
+        "products": "Prodotti con distribuzione reale",
+        "labs": "Laboratori di ingegneria",
+        "ai": "IA applicata",
+        "curricula": "Curricula tecnici",
+        "science": "Informatica scientifica ed educativa",
+        "other": "Altri",
+        "code": "Codice e documentazione",
+    },
+    "fr": {
+        "products": "Produits avec distribution réelle",
+        "labs": "Laboratoires d'ingénierie",
+        "ai": "IA appliquée",
+        "curricula": "Cursus techniques",
+        "science": "Informatique scientifique et éducative",
+        "other": "Autres",
+        "code": "Code et documentation",
+    },
+    "zh": {
+        "products": "已实际发行的产品",
+        "labs": "工程实验室",
+        "ai": "应用AI",
+        "curricula": "技术课程体系",
+        "science": "科学与教育计算",
+        "other": "其他",
+        "code": "代码与文档",
+    },
+}
+
+# Nombre corto por proyecto. Se mantienen los nombres de repositorio (iguales en
+# los 6 idiomas, como ya ocurre en projects_rec) para no multiplicar traducciones.
+PROJECT_NAMES = {
+    "rootcause": "RootCause Windows", "rootcause_mobile": "RootCause Mobile",
+    "rootcause_macos": "RootCause macOS", "rootcause_web": "RootCause Web",
+    "empresa": "Empresa Operativa Chile", "universal": "Universal Code Scanner",
+    "gabysql": "GabySQL", "automa": "Automa PC", "chofyai": "ChofyAI Studio",
+    "rhino": "Rhino Suite", "violin": "Violin Adventure", "guitarra": "Guitarra Adventure",
+    "problem": "Problem-Driven Systems Lab", "social": "Social Bot Scheduler",
+    "micro": "Microsistemas", "docker": "Docker Labs", "wsl": "WSL Labs",
+    "unikernel": "Unikernel Labs", "sandbox": "Sandbox Labs",
+    "aws_gh": "Proyectos AWS", "aws_gl": "Proyectos AWS",
+    "langgraph": "LangGraph RealWorld", "operational": "Operational AI Agents",
+    "mcp": "MCP + Ollama Local", "agentic": "Agentic Plugins Toolkit",
+    "claude": "Claude Skills Toolkit",
+    "modern_cyber": "Cybersecurity", "modern": "GameDev", "python": "Data Science",
+    "multi": "Multi-Cloud", "artificial": "AI Evolution", "blockchain": "Blockchain",
+    "computational": "Computational Mathematics", "modern_business": "Business Creation",
+    "finance": "Finance & Banking", "executive": "Executive Leadership",
+    "marketing": "Marketing & Growth", "education": "Pedagogy",
+    "polyglot": "Polyglot Programming", "neural": "Neural Network Labs",
+    "machine": "Machine Operator",
+    "human": "Human Genome Labs",
+}
+
+# Stack o plataforma. Solo tokens técnicos: se leen igual en los 6 idiomas.
+# Separador interno ", " para no confundirlo con el " · " que separa proyectos.
+PROJECT_STACK = {
+    "rootcause": "Rust, ETW/WPR", "rootcause_mobile": "Flutter, Android/iOS",
+    "rootcause_macos": "Rust, macOS", "rootcause_web": "JS, MV3",
+    "empresa": "JS, Rust, PWA", "universal": "Flutter, AES-256-GCM",
+    "gabysql": "Rust, WAL", "automa": "Python, Playwright",
+    "chofyai": "Tauri, Rust", "rhino": "Rust/WASM, Go",
+    "violin": "Tauri, React", "guitarra": "Tauri, React",
+    "problem": "7 stacks", "social": "n8n, 18+ DB", "micro": "PHP, MCP",
+    "wsl": "wslc", "unikernel": "Unikraft, WSL2", "sandbox": "Linux",
+    "aws_gh": "GitHub", "aws_gl": "GitLab",
+    "langgraph": "Python, 25/25", "operational": "Python, zero-deps",
+    "mcp": "FastAPI, Ollama", "agentic": "MCP, multi-runtime",
+    "claude": "Python, zero-deps",
+    "human": "TypeScript, FASTA/GFF3/VCF",
+}
+
+
+def _project_label(key):
+    name = PROJECT_NAMES.get(key, key.replace("_", " ").title())
+    stack = PROJECT_STACK.get(key)
+    return f"{name} ({stack})" if stack else name
+
+
+def group_projects(lang):
+    """Return [(group_label, 'A (stack) - B - C')] covering every project key."""
+    T = get_content(lang)
+    labels = GROUP_LABELS[lang]
+    all_keys = [key for _, key in T["projects_ats"]]
+    grouped, seen = [], set()
+
+    for group_key, keys in PROJECT_GROUPS:
+        present = [k for k in keys if k in all_keys]
+        if not present:
+            continue
+        seen.update(present)
+        grouped.append((labels[group_key],
+                        " · ".join(_project_label(k) for k in present)))
+
+    leftovers = [k for k in all_keys if k not in seen]
+    if leftovers:
+        grouped.append((labels["other"],
+                        " · ".join(_project_label(k) for k in leftovers)))
+    return grouped
 
 def make_sidebar(lang):
     T = get_content(lang)
@@ -1230,7 +1384,10 @@ def make_rmain(lang):
         h_previous=T["h_previous"],
         previous=PREVIOUS_CAREER[lang],
         h_projects=T["h_projects"],
-        projects=T["projects_rec"],
+        projects=[f"<b>{label}:</b> {items}" for label, items in group_projects(lang)]
+        + [f'<b>{GROUP_LABELS[lang]["code"]}:</b> '
+           f'<link href="{GITHUB_URL}">{GITHUB_URL}</link> · '
+           f'<link href="{GITLAB_URL}">{GITLAB_URL}</link>'],
         doc_links=doc_links,
         h_training=T["h_training"],
         training=T["training"],
@@ -1247,7 +1404,8 @@ def make_transition(lang):
 
 def make_ats(lang):
     T = get_content(lang)
-    projects = [(desc, PROJECTS_URLS[key]) for desc, key in T["projects_ats"]]
+    projects = [(f"{label}: {items}", None) for label, items in group_projects(lang)]
+    projects += [("GitHub:", GITHUB_URL), ("GitLab:", GITLAB_URL)]
     return dict(
         subtitle=T["subtitle_ats"],
         contact_line1="Santiago, Chile | +56 9 8121 8838 | vladimir.acuna.dev@gmail.com",

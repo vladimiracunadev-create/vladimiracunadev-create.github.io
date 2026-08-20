@@ -2,6 +2,41 @@
 
 ## 2026-08-20
 
+### refactor(cv): los proyectos, agrupados por categoria — el CV bajo de 8 a 4 paginas
+
+La lista plana de 42 proyectos, cada uno con su descripcion larga y su URL, se habia comido el
+curriculum. En el resto de los documentos da igual que sea extensa; en el CV el espacio es critico.
+
+Ahora los CV agrupan los proyectos en las **5 familias del README del perfil de GitHub** —
+productos con distribucion real, laboratorios de ingenieria, IA aplicada, curriculos tecnicos y
+computacion cientifica— con el stack de cada uno entre parentesis, y **enlazan a GitHub y GitLab**
+para quien quiera estudiarlos. Las 4 ediciones de RootCause van **diferenciadas** (Windows Rust/ETW ·
+Mobile Flutter · macOS Rust · Web MV3), no colapsadas en un "RootCause x4" como en el diagrama.
+
+| Documento | Antes | Ahora |
+|---|---|---|
+| CV Reclutador (x6 idiomas) | 8 paginas · 42 KB | **4 paginas** · 16 KB |
+| CV ATS (x6 idiomas) | 4 paginas · 25 KB | **2 paginas** · 7 KB |
+
+La pagina del reclutador cabe entera en una hoja: resumen, experiencia, trayectoria previa,
+proyectos y formacion reciente.
+
+**La distribucion no se toco.** Verificado comparando el texto extraido contra el PDF anterior:
+siguen presentes la cabecera navy, la barra lateral, RESUMEN, SKILLS, EXPERIENCIA, TRAYECTORIA
+PREVIA, PROYECTOS, EDUCACION, IDIOMAS, la pagina de transicion ATS y el bloque de contacto. Lo unico
+que cambia de forma es la seccion de proyectos.
+
+**Ningun proyecto se perdio:** los 42 siguen nombrados, verificado sobre el PDF generado
+(41 nombres unicos — Proyectos AWS aparece dos veces, GitHub y GitLab).
+
+`projects_rec` y `projects_ats` **no se tocaron**: siguen siendo el inventario que alimenta
+`sync-portfolio.py`, y `projects_rec` la consume la hoja de vida. La agrupacion se deriva de
+`projects_ats`, y una clave que no este categorizada **cae en el grupo «Otros» en vez de
+desaparecer**. Regla documentada en `CLAUDE.md`.
+
+[BACKUP] `assets/backups/2026-08-19/cv-reclutador*_v3.pdf` — antes de agrupar los proyectos
+[BACKUP] `assets/backups/2026-08-19/cv-ats*_v3.pdf` — antes de agrupar los proyectos
+
 ### feat(content): el logro de ciberseguridad, propagado a web, CV, portafolio y API
 
 La subseccion de ciberseguridad de la Declaracion de Logros se integra ahora en el resto del

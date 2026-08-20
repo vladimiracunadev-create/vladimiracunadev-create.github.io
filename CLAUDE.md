@@ -125,6 +125,25 @@ python scripts/build-zip.py
 
 ---
 
+## Proyectos en los CV — agrupados por categoría
+
+Los CV (`cv-reclutador`, `cv-ats`) **no listan los 40+ proyectos uno por uno**: el espacio ahí es
+crítico. `generate-all-languages.py` los agrupa en 5 categorías (`PROJECT_GROUPS`), con las mismas
+familias del README del perfil de GitHub, y enlaza a GitHub y GitLab para el detalle.
+
+- `projects_rec` y `projects_ats` **siguen siendo el inventario** — no tocarlas: son las listas que
+  alimenta `sync-portfolio.py`, y `projects_rec` la consume la hoja de vida.
+- Al agregar un repo nuevo, categorizarlo en `PROJECT_GROUPS` y darle entrada en `PROJECT_NAMES`
+  (nombre corto) y `PROJECT_STACK` (stack, solo tokens técnicos: se leen igual en los 6 idiomas).
+- Una clave sin categorizar **no se pierde**: cae en el grupo «Otros». Si aparece ahí, es que falta
+  clasificarla.
+- Las 4 ediciones de RootCause van diferenciadas (Windows · Mobile · macOS · Web), no colapsadas.
+
+Los demás documentos (portafolio, hoja de vida) sí llevan la lista extensa: ahí el espacio no es
+crítico.
+
+---
+
 ## Protocolo de backups — OBLIGATORIO antes de modificar PDFs
 
 1. Crear carpeta: `assets/backups/YYYY-MM-DD/`
