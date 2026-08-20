@@ -45,8 +45,8 @@ autorizado en esta sesión.
 Verificación del chino: 0 cajas y CJK real en los 6 documentos (413-1658 caracteres según el
 documento). Las 5 variantes no chinas de la Carta quedan **byte-idénticas en contenido**.
 
-[BACKUP] assets/backups/2026-08-19/declaracion-logros-validacion*_v2.pdf — antes de la subsección de ciberseguridad
-[BACKUP] assets/backups/2026-08-19/carta-recomendacion_sin_firma*_v2.pdf — antes del arreglo de fuente CJK
+[BACKUP] `assets/backups/2026-08-19/declaracion-logros-validacion*_v2.pdf` — antes de la subsección de ciberseguridad
+[BACKUP] `assets/backups/2026-08-19/carta-recomendacion_sin_firma*_v2.pdf` — antes del arreglo de fuente CJK
 
 ### feat(docs): hoja de vida genérica en los 6 idiomas, descargable desde la web
 
@@ -85,10 +85,10 @@ entrada `hoja_de_vida` en `api/v1/artifacts.json` con sus 6 variantes, y referen
 
 `pnpm test` en verde. Total de PDFs públicos: 30 → **36**.
 
-[BACKUP] assets/backups/2026-08-19/index.html_v1 — antes de agregar el botón de descarga
-[BACKUP] assets/backups/2026-08-19/artifacts.json_v1 — antes de agregar el artefacto hoja_de_vida
-[BACKUP] assets/backups/2026-08-19/llm.txt_v1 — antes de listar la hoja de vida
-[BACKUP] assets/backups/2026-08-19/cv-data-api.md_v1 — antes de agregar la tabla de enlaces
+[BACKUP] `assets/backups/2026-08-19/index.html_v1` — antes de agregar el botón de descarga
+[BACKUP] `assets/backups/2026-08-19/artifacts.json_v1` — antes de agregar el artefacto hoja_de_vida
+[BACKUP] `assets/backups/2026-08-19/llm.txt_v1` — antes de listar la hoja de vida
+[BACKUP] `assets/backups/2026-08-19/cv-data-api.md_v1` — antes de agregar la tabla de enlaces
 
 ### sync-portfolio (automático — 2026-08-19)
 
