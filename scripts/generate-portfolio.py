@@ -6,6 +6,7 @@ Run: python scripts/generate-portfolio.py
 """
 
 import os
+import re
 from reportlab.lib.pagesizes import letter
 from reportlab.lib.units import inch
 from reportlab.lib.colors import HexColor
@@ -43,6 +44,32 @@ def _font(lang, bold=False):
     if lang == "zh":
         return "STSong-Light"
     return "Helvetica-Bold" if bold else "Helvetica"
+
+# ── Latin runs inside Chinese text ──────────────────
+# STSong-Light (CID) no tiene glifo para "ñ": el apellido salia "Acua" y el
+# espaciado latino descuadrado. Los tramos no-CJK se dibujan con Helvetica.
+_ZH_CURRENT_LANG = {"v": "es"}
+_ZH_TAG_SPLIT = re.compile(r"(<[^>]+>)")
+_ZH_LATIN_RUN = re.compile(r"[^\u2E80-\u9FFF\u3000-\u303F\uFF00-\uFFEF]+")
+_RL_PARAGRAPH = Paragraph
+
+
+def _wrap_latin_runs(text):
+    out = []
+    for part in _ZH_TAG_SPLIT.split(str(text)):
+        if part.startswith("<") and part.endswith(">"):
+            out.append(part)
+            continue
+        out.append(_ZH_LATIN_RUN.sub(
+            lambda m: m.group(0) if not m.group(0).strip()
+            else '<font name="Helvetica">%s</font>' % m.group(0), part))
+    return "".join(out)
+
+
+def Paragraph(text, style, *args, **kwargs):  # noqa: N802 - shadows reportlab's
+    if _ZH_CURRENT_LANG["v"] == "zh":
+        text = _wrap_latin_runs(text)
+    return _RL_PARAGRAPH(text, style, *args, **kwargs)
 
 def _font_oblique(lang):
     if lang == "zh":
@@ -270,7 +297,8 @@ def get_content(lang):
             "Importaci\u00f3n/migraci\u00f3n de datos desde Excel con validaciones",
             "Automatizaci\u00f3n de comunicaciones: mailing masivo (SMTP, Constant Contact), segmentaci\u00f3n",
             "Soporte de alto nivel a usuarios",
-            "<b>Tecnolog\u00edas:</b> PHP 5/8, JavaScript, jQuery, HTML, CSS, SQL Server, MySQL, Apache, Linux, LimeSurvey, JMeter",
+            "<b>Seguridad:</b> análisis forense de ataques al servidor, revisión de logs Apache/PHP para detectar actividad anómala de IP desconocidas, pruebas con OWASP ZAP y pruebas de carga con JMeter",
+            "<b>Tecnolog\u00edas:</b> PHP 5/8, JavaScript, jQuery, HTML, CSS, SQL Server, MySQL, Apache, Linux, LimeSurvey, JMeter, OWASP ZAP",
         ],
         "exp_prev_title": "Experiencia Previa",
         "exp_prev": [
@@ -428,7 +456,8 @@ def get_content(lang):
             "Data import/migration from Excel with validation",
             "Communication automation: mass email (SMTP, Constant Contact), segmentation",
             "High-level user support",
-            "<b>Technologies:</b> PHP 5/8, JavaScript, jQuery, HTML, CSS, SQL Server, MySQL, Apache, Linux, LimeSurvey, JMeter",
+            "<b>Security:</b> forensic analysis of server attacks, Apache/PHP log review to detect anomalous activity from unknown IPs, OWASP ZAP testing and JMeter load testing",
+            "<b>Technologies:</b> PHP 5/8, JavaScript, jQuery, HTML, CSS, SQL Server, MySQL, Apache, Linux, LimeSurvey, JMeter, OWASP ZAP",
         ],
         "exp_prev_title": "Previous Experience",
         "exp_prev": [
@@ -586,7 +615,8 @@ def get_content(lang):
             "Importa\u00e7\u00e3o/migra\u00e7\u00e3o de dados a partir de Excel com valida\u00e7\u00f5es",
             "Automa\u00e7\u00e3o de comunica\u00e7\u00f5es: email em massa (SMTP, Constant Contact), segmenta\u00e7\u00e3o",
             "Suporte de alto n\u00edvel a usu\u00e1rios",
-            "<b>Tecnologias:</b> PHP 5/8, JavaScript, jQuery, HTML, CSS, SQL Server, MySQL, Apache, Linux, LimeSurvey, JMeter",
+            "<b>Segurança:</b> análise forense de ataques ao servidor, revisão de logs Apache/PHP para detectar atividade anômala de IPs desconhecidos, testes com OWASP ZAP e testes de carga com JMeter",
+            "<b>Tecnologias:</b> PHP 5/8, JavaScript, jQuery, HTML, CSS, SQL Server, MySQL, Apache, Linux, LimeSurvey, JMeter, OWASP ZAP",
         ],
         "exp_prev_title": "Experi\u00eancia Anterior",
         "exp_prev": [
@@ -744,7 +774,8 @@ def get_content(lang):
             "Importazione/migrazione dati da Excel con validazioni",
             "Automazione comunicazioni: email di massa (SMTP, Constant Contact), segmentazione",
             "Supporto di alto livello agli utenti",
-            "<b>Tecnologie:</b> PHP 5/8, JavaScript, jQuery, HTML, CSS, SQL Server, MySQL, Apache, Linux, LimeSurvey, JMeter",
+            "<b>Sicurezza:</b> analisi forense di attacchi al server, revisione dei log Apache/PHP per rilevare attività anomale da IP sconosciuti, test con OWASP ZAP e test di carico con JMeter",
+            "<b>Tecnologie:</b> PHP 5/8, JavaScript, jQuery, HTML, CSS, SQL Server, MySQL, Apache, Linux, LimeSurvey, JMeter, OWASP ZAP",
         ],
         "exp_prev_title": "Esperienza Precedente",
         "exp_prev": [
@@ -902,7 +933,8 @@ def get_content(lang):
             "Importation/migration de donn\u00e9es depuis Excel avec validations",
             "Automatisation des communications : envoi massif (SMTP, Constant Contact), segmentation",
             "Support de haut niveau aux utilisateurs",
-            "<b>Technologies :</b> PHP 5/8, JavaScript, jQuery, HTML, CSS, SQL Server, MySQL, Apache, Linux, LimeSurvey, JMeter",
+            "<b>Sécurité :</b> analyse forensique d'attaques du serveur, revue des journaux Apache/PHP pour détecter une activité anormale d'IP inconnues, tests OWASP ZAP et tests de charge JMeter",
+            "<b>Technologies :</b> PHP 5/8, JavaScript, jQuery, HTML, CSS, SQL Server, MySQL, Apache, Linux, LimeSurvey, JMeter, OWASP ZAP",
         ],
         "exp_prev_title": "Exp\u00e9rience Pr\u00e9c\u00e9dente",
         "exp_prev": [
@@ -1060,7 +1092,8 @@ def get_content(lang):
             "\u4eceExcel\u5bfc\u5165/\u8fc1\u79fb\u6570\u636e\u5e76\u8fdb\u884c\u9a8c\u8bc1",
             "\u901a\u4fe1\u81ea\u52a8\u5316\uff1a\u5927\u89c4\u6a21\u90ae\u4ef6\uff08SMTP\u3001Constant Contact\uff09\u3001\u7ec6\u5206",
             "\u9ad8\u7ea7\u7528\u6237\u652f\u6301",
-            "<b>\u6280\u672f\uff1a</b>PHP 5/8\u3001JavaScript\u3001jQuery\u3001HTML\u3001CSS\u3001SQL Server\u3001MySQL\u3001Apache\u3001Linux\u3001LimeSurvey\u3001JMeter",
+            "<b>\u5b89\u5168\uff1a</b>\u670d\u52a1\u5668\u653b\u51fb\u53d6\u8bc1\u5206\u6790\u3001\u5ba1\u67e5Apache/PHP\u65e5\u5fd7\u4ee5\u68c0\u6d4b\u672a\u77e5IP\u7684\u5f02\u5e38\u6d3b\u52a8\u3001OWASP ZAP\u5b89\u5168\u6d4b\u8bd5\u4e0eJMeter\u8d1f\u8f7d\u6d4b\u8bd5",
+            "<b>\u6280\u672f\uff1a</b>PHP 5/8\u3001JavaScript\u3001jQuery\u3001HTML\u3001CSS\u3001SQL Server\u3001MySQL\u3001Apache\u3001Linux\u3001LimeSurvey\u3001JMeter\u3001OWASP ZAP",
         ],
         "exp_prev_title": "\u4ee5\u5f80\u7ecf\u9a8c",
         "exp_prev": [
@@ -1139,6 +1172,7 @@ class PortfolioDoc(SimpleDocTemplate):
 
 
 def build_portfolio(lang):
+    _ZH_CURRENT_LANG["v"] = lang
     T = get_content(lang)
     s = make_styles(lang)
     suffix = LANG_SUFFIX[lang]

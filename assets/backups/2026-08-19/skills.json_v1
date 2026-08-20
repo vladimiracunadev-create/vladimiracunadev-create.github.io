@@ -1,7 +1,7 @@
 {
     "meta": {
         "version": "v1",
-        "generated_at": "2026-08-20",
+        "generated_at": "2026-08-19",
         "source_pdf": "assets/cv-ats.pdf"
     },
     "skills": {
@@ -120,11 +120,7 @@
                 "IAM Privilegio Mínimo",
                 "OIDC Identity",
                 "CloudFront OAC",
-                "Cognito + JWT + WAF",
-                "OWASP ZAP (DAST / simulación de ataques)",
-                "Análisis forense de incidentes en servidor",
-                "Análisis de logs Apache/PHP para detección de anomalías",
-                "Detección de actividad anómala por IP"
+                "Cognito + JWT + WAF"
             ],
             "level": "senior"
         },
@@ -154,8 +150,7 @@
                 "boto3 / moto",
                 "Lighthouse CI",
                 "JMeter",
-                "Hub CLI (doctor/smoke)",
-                "Apache JMeter (carga y capacidad)"
+                "Hub CLI (doctor/smoke)"
             ],
             "level": "senior"
         }
@@ -190,12 +185,6 @@
             "type": "online_courses",
             "date": "2025-2026",
             "note": "Bases de ML/NLP aplicadas a proyectos prácticos"
-        },
-        {
-            "name": "Curso de ciberseguridad",
-            "type": "course",
-            "date": "2020-2021",
-            "note": "Cursado durante el período de pandemia; derivó en una charla institucional de ciberseguridad en Fundación CEIS Maristas"
         }
     ]
 }

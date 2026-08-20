@@ -1,5 +1,46 @@
 # Changelog
 
+## 2026-08-20
+
+### feat(content): el logro de ciberseguridad, propagado a web, CV, portafolio y API
+
+La subseccion de ciberseguridad de la Declaracion de Logros se integra ahora en el resto del
+sistema, en los 6 idiomas:
+
+- **CV reclutador y CV ATS** (`generate-all-languages.py`): punto nuevo de seguridad en la
+  experiencia CEIS Maristas — analisis forense de ataques, revision sistematica de logs
+  Apache/PHP para detectar actividad anomala de IP desconocidas, endurecimiento con OWASP ZAP,
+  pruebas de carga con JMeter y la charla institucional posterior a la formacion en pandemia.
+  `OWASP ZAP` sumado a la linea de tecnologias y a la categoria Calidad/Seguridad.
+- **Portafolio** (`generate-portfolio.py`): linea de seguridad en la experiencia principal y
+  `OWASP ZAP` en el stack.
+- **Hoja de vida**: lo hereda automaticamente — reutiliza las traducciones de
+  `generate-all-languages.py`, que era el objetivo de haberla construido asi.
+- **Web** (`index.html`): frase de seguridad en el parrafo de CEIS Maristas, visible ya en la
+  vista Reclutador, mas 4 bullets de detalle desde la vista Normal; pills `OWASP ZAP`, `JMeter`
+  y `Forense` en la tarjeta de Bateria Online.
+- **API**: 4 highlights nuevos y 2 tecnologias en la entrada CEIS de `experience.json`;
+  4 items en `security`, 1 en `testing` y el curso de ciberseguridad en `certifications` de
+  `skills.json`.
+- **`llm.txt`**: capacidad de seguridad aplicada en produccion; el conteo de PDFs pasa de
+  "30+" a 36, que es el numero real.
+
+**Arreglo del apellido en los PDF chinos restantes.** Quedaba pendiente de la sesion anterior:
+`cv-ats-chinese`, `cv-reclutador-chinese` y `portafolio-chinese` escribian "Acua" porque la
+fuente CID no tiene glifo para la enye. Se aplico el mismo envoltorio a
+`generate-unified-cv.py` y `generate-portfolio.py`, ademas de dibujar el nombre y la linea de
+contacto de la cabecera en canvas siempre con Helvetica. **Los 6 PDF chinos rinden ahora el
+apellido correcto y ninguno tiene cuadros negros.**
+
+24 PDFs regenerados y verificados: los 24 contienen el contenido nuevo.
+`validate.js` 57 pasadas / 0 errores, `html-validate` limpio, los 6 JSON de la API parsean.
+
+[BACKUP] `assets/backups/2026-08-19/cv-ats*_v2.pdf` — antes del punto de seguridad
+[BACKUP] `assets/backups/2026-08-19/cv-reclutador*_v2.pdf` — antes del punto de seguridad
+[BACKUP] `assets/backups/2026-08-19/portafolio*_v2.pdf` — antes del punto de seguridad
+[BACKUP] `assets/backups/2026-08-19/index.html_v2` — antes de los bullets de seguridad
+[BACKUP] `assets/backups/2026-08-19/experience.json_v1`, `skills.json_v1` — antes de la API
+
 ## 2026-08-19
 
 ### feat(docs): ciberseguridad en la Declaración de Logros — y el chino que salía en cuadraditos

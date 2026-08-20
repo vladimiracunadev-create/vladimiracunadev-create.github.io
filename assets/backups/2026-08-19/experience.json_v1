@@ -1,7 +1,7 @@
 {
     "meta": {
         "version": "v1",
-        "generated_at": "2026-08-20",
+        "generated_at": "2026-08-19",
         "source_pdf": "assets/cv-ats.pdf"
     },
     "experience": [
@@ -64,11 +64,7 @@
                 "Migración tecnológica PHP 5.4 → PHP 8.2+; actualización de servidores/librerías y mejoras de rendimiento.",
                 "Reportes avanzados PDF/Excel con indicadores, percentiles y análisis por curso/nivel/establecimiento.",
                 "Importación y migración de datos masivos desde Excel; automatización de comunicaciones.",
-                "Soporte directo a usuarios clave (coordinadores, orientadores, directivos) y operación en producción.",
-                "Seguridad operacional: análisis forense de ataques al servidor en más de una ocasión, determinando origen, vector de entrada y alcance del incidente.",
-                "Gestión y análisis sistemático de logs del servidor y del entorno PHP: depuración de código y detección de actividad anómala desde direcciones IP desconocidas.",
-                "Endurecimiento del sistema con pruebas de seguridad OWASP ZAP (simulación de ataques) y pruebas de carga/capacidad con Apache JMeter.",
-                "Formación en ciberseguridad durante la pandemia y posterior charla institucional de ciberseguridad."
+                "Soporte directo a usuarios clave (coordinadores, orientadores, directivos) y operación en producción."
             ],
             "technologies": [
                 "PHP",
@@ -80,9 +76,7 @@
                 "Excel",
                 "FPDF",
                 "PhpSpreadsheet",
-                "Constant Contact",
-                "OWASP ZAP",
-                "Análisis de logs (Apache/PHP)"
+                "Constant Contact"
             ],
             "provenance": {
                 "source_pdf": "assets/cv-ats.pdf",

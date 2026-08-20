@@ -169,6 +169,7 @@ def get_content(lang):
                 "<b>Pandemia 2020</b>: migración de servicios presenciales a formato online en tiempo breve (citado en la carta de recomendación).",
                 "Modernización PHP 5.4 → 8.2+, refactor de módulos críticos, traslado de lógica a JavaScript y eliminación de duplicidades en DB.",
                 "Mailing masivo (PHP + Constant Contact) y <b>adopción interna de IA (2024-2025)</b> para análisis y resolución de problemas técnicos.",
+                "<b>Seguridad</b>: análisis forense de ataques al servidor, revisión sistemática de logs (Apache/PHP) para detectar actividad anómala de IP desconocidas, endurecimiento con <b>OWASP ZAP</b> y pruebas de carga con <b>JMeter</b>. Charla interna de ciberseguridad tras formación durante la pandemia.",
             ],
             "ats_experience": [
                 "Diseño, desarrollo y mantención de plataforma de evaluación de alumnos (baterías de test), módulos institucionales y reportes.",
@@ -176,8 +177,9 @@ def get_content(lang):
                 "Desarrollo de reportes avanzados PDF/Excel con indicadores, percentiles y análisis por curso/nivel/establecimiento.",
                 "Importación y migración de datos masivos desde Excel con validaciones; automatización de comunicaciones (envíos, segmentación, seguimiento).",
                 "Soporte directo a usuarios clave (coordinadores, orientadores, directivos) y operación en producción.",
+                "Seguridad operacional: análisis forense de incidentes en el servidor, monitoreo y análisis de logs (Apache/PHP) para detección de actividad anómala, pruebas de seguridad con OWASP ZAP y pruebas de carga con Apache JMeter.",
             ],
-            "exp_tech": "Tecnolog\u00edas: PHP, JavaScript, SQL Server, MySQL, Apache, JMeter, Excel, FPDF/PhpSpreadsheet, Constant Contact",
+            "exp_tech": "Tecnolog\u00edas: PHP, JavaScript, SQL Server, MySQL, Apache, JMeter, OWASP ZAP, Excel, FPDF/PhpSpreadsheet, Constant Contact",
             "exp_logros_label": "M\u00e9tricas y logros cuantificados del periodo CEIS Maristas",
             "projects_rec": [
                 "Cloud/AWS y FinOps — GitHub + GitLab (16 casos AWS A–P, CI/CD 5 stages)",
@@ -317,6 +319,7 @@ def get_content(lang):
                 "<b>2020 Pandemic</b>: migration of in-person services to online format in a short timeframe (cited in the recommendation letter).",
                 "PHP 5.4 → 8.2+ modernization, refactor of critical modules, logic offloading to JavaScript, and DB duplicate cleanup.",
                 "Mass mailing (PHP + Constant Contact) and <b>internal AI adoption (2024-2025)</b> for analysis and technical problem-solving.",
+                "<b>Security</b>: forensic analysis of server attacks, systematic review of Apache/PHP logs to detect anomalous activity from unknown IPs, hardening with <b>OWASP ZAP</b> and load testing with <b>JMeter</b>. In-house cybersecurity talk after training during the pandemic.",
             ],
             "ats_experience": [
                 "Design, development, and maintenance of a student assessment platform (test batteries), institutional modules, and reports.",
@@ -324,8 +327,9 @@ def get_content(lang):
                 "Development of advanced PDF/Excel reports with indicators, percentiles, and analysis by class, level, and school.",
                 "Import and migration of high-volume data from Excel with validations; automation of communications (sending, segmentation, follow-up).",
                 "Direct support for key users (coordinators, counselors, school leaders) and production operations.",
+                "Operational security: forensic analysis of server incidents, log monitoring and analysis (Apache/PHP) for anomaly detection, security testing with OWASP ZAP, and load testing with Apache JMeter.",
             ],
-            "exp_tech": "Technologies: PHP, JavaScript, SQL Server, MySQL, Apache, JMeter, Excel, FPDF/PhpSpreadsheet, Constant Contact",
+            "exp_tech": "Technologies: PHP, JavaScript, SQL Server, MySQL, Apache, JMeter, OWASP ZAP, Excel, FPDF/PhpSpreadsheet, Constant Contact",
             "exp_logros_label": "Quantified metrics and achievements from CEIS Maristas tenure",
             "projects_rec": [
                 "Cloud/AWS and FinOps — GitHub + GitLab (16 AWS cases A–P, 5-stage CI/CD)",
@@ -465,6 +469,7 @@ def get_content(lang):
                 "<b>Pandemia 2020</b>: migração de serviços presenciais para formato online em pouco tempo (citado na carta de recomendação).",
                 "Modernização PHP 5.4 → 8.2+, refatoração de módulos críticos, transferência de lógica para JavaScript e eliminação de duplicidades no DB.",
                 "Mailing massivo (PHP + Constant Contact) e <b>adoção interna de IA (2024-2025)</b> para análise e resolução de problemas técnicos.",
+                "<b>Segurança</b>: análise forense de ataques ao servidor, revisão sistemática de logs (Apache/PHP) para detectar atividade anômala de IPs desconhecidos, fortalecimento com <b>OWASP ZAP</b> e testes de carga com <b>JMeter</b>. Palestra interna de cibersegurança após formação durante a pandemia.",
             ],
             "ats_experience": [
                 "Design, desenvolvimento e manutenção de plataforma de avaliação de alunos (baterias de testes), módulos institucionais e relatórios.",
@@ -472,8 +477,9 @@ def get_content(lang):
                 "Desenvolvimento de relatórios avançados PDF/Excel com indicadores, percentis e análise por turma/nível/instituição.",
                 "Importação e migração de dados massivos do Excel com validações; automação de comunicações (envios, segmentação, acompanhamento).",
                 "Suporte direto a usuários-chave (coordenadores, orientadores, diretores) e operação em produção.",
+                "Segurança operacional: análise forense de incidentes no servidor, monitoramento e análise de logs (Apache/PHP) para detecção de atividade anômala, testes de segurança com OWASP ZAP e testes de carga com Apache JMeter.",
             ],
-            "exp_tech": "Tecnologias: PHP, JavaScript, SQL Server, MySQL, Apache, JMeter, Excel, FPDF/PhpSpreadsheet, Constant Contact",
+            "exp_tech": "Tecnologias: PHP, JavaScript, SQL Server, MySQL, Apache, JMeter, OWASP ZAP, Excel, FPDF/PhpSpreadsheet, Constant Contact",
             "exp_logros_label": "M\u00e9tricas e conquistas quantificadas do per\u00edodo na CEIS Maristas",
             "projects_rec": [
                 "Cloud/AWS e FinOps — GitHub + GitLab (16 casos AWS A–P, CI/CD 5 stages)",
@@ -613,6 +619,7 @@ def get_content(lang):
                 "<b>Pandemia 2020</b>: migrazione di servizi in presenza a formato online in poco tempo (citato nella lettera di raccomandazione).",
                 "Modernizzazione PHP 5.4 → 8.2+, refactoring di moduli critici, trasferimento di logica a JavaScript ed eliminazione di duplicati nel DB.",
                 "Mailing massivo (PHP + Constant Contact) e <b>adozione interna di IA (2024-2025)</b> per analisi e risoluzione di problemi tecnici.",
+                "<b>Sicurezza</b>: analisi forense di attacchi al server, revisione sistematica dei log (Apache/PHP) per rilevare attività anomale da IP sconosciuti, rafforzamento con <b>OWASP ZAP</b> e test di carico con <b>JMeter</b>. Intervento interno sulla cybersicurezza dopo la formazione durante la pandemia.",
             ],
             "ats_experience": [
                 "Design, sviluppo e manutenzione di piattaforma di valutazione studenti (batterie di test), moduli istituzionali e report.",
@@ -620,8 +627,9 @@ def get_content(lang):
                 "Sviluppo di report avanzati PDF/Excel con indicatori, percentili e analisi per classe/livello/istituto.",
                 "Importazione e migrazione massiva dati da Excel con validazioni; automazione comunicazioni (invii, segmentazione, follow-up).",
                 "Supporto diretto agli utenti chiave (coordinatori, consulenti, dirigenti) e operazioni in produzione.",
+                "Sicurezza operativa: analisi forense di incidenti sul server, monitoraggio e analisi dei log (Apache/PHP) per il rilevamento di attività anomale, test di sicurezza con OWASP ZAP e test di carico con Apache JMeter.",
             ],
-            "exp_tech": "Tecnologie: PHP, JavaScript, SQL Server, MySQL, Apache, JMeter, Excel, FPDF/PhpSpreadsheet, Constant Contact",
+            "exp_tech": "Tecnologie: PHP, JavaScript, SQL Server, MySQL, Apache, JMeter, OWASP ZAP, Excel, FPDF/PhpSpreadsheet, Constant Contact",
             "exp_logros_label": "Metriche e risultati quantificati del periodo in CEIS Maristas",
             "projects_rec": [
                 "Cloud/AWS e FinOps — GitHub + GitLab (16 casi AWS A–P, CI/CD 5 stages)",
@@ -761,6 +769,7 @@ def get_content(lang):
                 "<b>Pandémie 2020</b> : migration des services en présentiel vers le format en ligne en peu de temps (cité dans la lettre de recommandation).",
                 "Modernisation PHP 5.4 → 8.2+, refactoring de modules critiques, transfert de logique vers JavaScript et élimination des doublons en DB.",
                 "Mailing de masse (PHP + Constant Contact) et <b>adoption interne d'IA (2024-2025)</b> pour analyse et résolution de problèmes techniques.",
+                "<b>Sécurité</b> : analyse forensique d'attaques du serveur, revue systématique des journaux (Apache/PHP) pour détecter une activité anormale d'IP inconnues, renforcement avec <b>OWASP ZAP</b> et tests de charge avec <b>JMeter</b>. Conférence interne de cybersécurité après une formation pendant la pandémie.",
             ],
             "ats_experience": [
                 "Conception, développement et maintenance d'une plateforme d'évaluation des élèves (batteries de tests), modules institutionnels et rapports.",
@@ -768,8 +777,9 @@ def get_content(lang):
                 "Développement de rapports avancés PDF/Excel avec indicateurs, percentiles et analyse par classe/niveau/établissement.",
                 "Importation et migration massive de données depuis Excel avec validations ; automatisation des communications (envois, segmentation, suivi).",
                 "Support direct aux utilisateurs clés (coordinateurs, conseillers, directeurs) et opérations en production.",
+                "Sécurité opérationnelle : analyse forensique d'incidents serveur, surveillance et analyse des journaux (Apache/PHP) pour la détection d'activité anormale, tests de sécurité avec OWASP ZAP et tests de charge avec Apache JMeter.",
             ],
-            "exp_tech": "Technologies : PHP, JavaScript, SQL Server, MySQL, Apache, JMeter, Excel, FPDF/PhpSpreadsheet, Constant Contact",
+            "exp_tech": "Technologies : PHP, JavaScript, SQL Server, MySQL, Apache, JMeter, OWASP ZAP, Excel, FPDF/PhpSpreadsheet, Constant Contact",
             "exp_logros_label": "M\u00e9triques et r\u00e9alisations quantifi\u00e9es de la p\u00e9riode chez CEIS Maristas",
             "projects_rec": [
                 "Cloud/AWS et FinOps — GitHub + GitLab (16 cas AWS A–P, CI/CD 5 stages)",
@@ -909,6 +919,7 @@ def get_content(lang):
                 "<b>2020 年疫情</b>：在短时间内将线下服务迁移至在线平台（推荐信中提及）。",
                 "PHP 5.4 → 8.2+ 现代化、关键模块重构、逻辑迁移至 JavaScript、数据库去重。",
                 "大规模邮件 (PHP + Constant Contact) 及 <b>2024-2025 内部 AI 应用</b>，用于技术分析与问题解决。",
+                "<b>安全</b>：服务器攻击取证分析、系统性审查Apache/PHP日志以检测未知IP的异常活动、使用<b>OWASP ZAP</b>加固系统、使用<b>JMeter</b>进行负载测试。疫情期间完成培训后在机构内举办网络安全讲座。",
             ],
             "ats_experience": [
                 "设计、开发和维护学生评估平台（测试电池）、机构模块和报表。",
@@ -916,8 +927,9 @@ def get_content(lang):
                 "开发包含指标、百分位和按班级/年级/学校分析的高级PDF/Excel报表。",
                 "从Excel大规模导入和迁移数据并进行验证；通信自动化（发送、分组、跟踪）。",
                 "直接支持关键用户（协调员、顾问、校领导）和生产运营。",
+                "运营安全：服务器事件取证分析、监控与分析Apache/PHP日志以检测异常活动、使用OWASP ZAP进行安全测试、使用Apache JMeter进行负载测试。",
             ],
-            "exp_tech": "\u6280\u672f\u6808\uff1aPHP, JavaScript, SQL Server, MySQL, Apache, JMeter, Excel, FPDF/PhpSpreadsheet, Constant Contact",
+            "exp_tech": "\u6280\u672f\u6808\uff1aPHP, JavaScript, SQL Server, MySQL, Apache, JMeter, OWASP ZAP, Excel, FPDF/PhpSpreadsheet, Constant Contact",
             "exp_logros_label": "CEIS Maristas\u671f\u95f4\u7684\u91cf\u5316\u6307\u6807\u4e0e\u6210\u5c31",
             "projects_rec": [
                 "Cloud/AWS和FinOps — GitHub + GitLab（16个AWS案例 A–P，CI/CD 5阶段）",
@@ -1040,7 +1052,7 @@ SKILLS_VALUES = [
     "JavaScript, HTML, CSS",
     "SQL Server, MySQL/MariaDB, PostgreSQL, MongoDB, Redis, SQLite, DuckDB",
     "Docker/Compose, Kubernetes, CI/CD (GitHub Actions/GitLab CI), AWS (S3, Amplify, CloudFront), Terraform",
-    "hardening, secret scanning (Gitleaks, TruffleHog), anti-injection, Trivy, pip-audit",
+    "hardening, secret scanning (Gitleaks, TruffleHog), anti-injection, Trivy, pip-audit, OWASP ZAP, análisis forense de incidentes, análisis de logs (Apache/PHP)",
     "Prometheus/Grafana",
     "LangGraph, MCP (Model Context Protocol), Ollama, n8n",
 ]
@@ -1081,6 +1093,7 @@ from reportlab.platypus import SimpleDocTemplate
 
 def build_cv(data, output_path, lang="es"):
     """Build a standalone ATS CV PDF."""
+    _ZH_CURRENT_LANG["v"] = lang
     s = _ats_make_styles()
     if lang == "zh":
         try:

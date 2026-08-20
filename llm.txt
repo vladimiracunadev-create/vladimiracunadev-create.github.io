@@ -16,7 +16,7 @@ embedded Rust DB (GabySQL v0.2 — cost-based optimizer, 828 tests), Windows for
 diagnostics product (RootCause Windows Inspector v0.11.0 in Rust edition 2024, 5 editions:
 GUI Setup.exe / Portable .zip / CLI single-binary rootcause.exe / PowerShell .psm1 / VS Code
 .vsix), industrial observability (Prometheus/Grafana), and a fully internationalized document
-suite (30+ PDFs across 6 languages: ES, EN, PT, IT, FR, ZH).
+suite (36 PDFs across 6 languages: ES, EN, PT, IT, FR, ZH).
 The public site also explains professional collaboration formats for scoped projects,
 expert-hour bundles, monthly senior support, technical diagnosis/roadmaps, and
 technical-commercial collaboration, without publishing prices or fee ranges.
@@ -32,7 +32,7 @@ technical-commercial collaboration, without publishing prices or fee ranges.
 - HTML5, CSS3, JavaScript (Vanilla) — no framework dependencies
 - 6-language i18n system (ES/EN/PT/IT/FR/ZH) with CSS-passive switching and dynamic PDF routing
 - Progressive Web App (PWA) with Service Worker; Capacitor for native Android/iOS
-- Python/reportlab PDF generation pipeline (30+ PDFs across 6 languages)
+- Python/reportlab PDF generation pipeline (36 PDFs across 6 languages)
 - GitHub Actions CI/CD: lint, validation, Lighthouse CI, deployment
 - GitLab CI/CD: 15 AWS cases, OIDC, Terraform, SAM, ECS/EKS, FinOps
 - AWS: Lambda/SAM, DynamoDB, ECS Fargate, EKS v1.32, S3/CloudFront/Amplify, Cognito/WAF, EventBridge/SQS/SNS, CloudWatch/X-Ray, Budgets
@@ -40,6 +40,9 @@ technical-commercial collaboration, without publishing prices or fee ranges.
 - Prometheus/Grafana observability; n8n orchestration; LangGraph, MCP, Ollama, FastAPI
 - Polyglot persistence: PHP 8, Python, Go, Node.js/TypeScript, C#, Ruby, Rust + 12+ data engines
 - Rust forensics (RootCause Windows Inspector): ETW + WPR, 5 editions per release, SHA256SUMS
+- Applied security in production (2011-2025, Fundación CEIS Maristas): forensic analysis of
+  server attacks, Apache/PHP log analysis for anomaly detection, OWASP ZAP hardening,
+  Apache JMeter load/capacity testing
 
 ## Contact
 

@@ -757,7 +757,7 @@
                 <span data-zh>大规模心理测评Web套件：渐进式演进与现代化、SQL Server优化、PDF/Excel报告及运营持续性。</span>
               </p>
               <div class="chips">
-                <span class="pill">PHP</span><span class="pill">SQL Server</span><span class="pill" data-es>Reportes</span><span class="pill" data-en>Reporting</span><span class="pill" data-pt>Relatórios</span><span class="pill" data-it>Report</span><span class="pill" data-fr>Rapports</span><span class="pill" data-zh>报告</span><span class="pill" data-es>Operación</span><span class="pill" data-en>Operations</span><span class="pill" data-pt>Operação</span><span class="pill" data-it>Operazioni</span><span class="pill" data-fr>Opérations</span><span class="pill" data-zh>运营</span><span class="pill">OWASP ZAP</span><span class="pill">JMeter</span><span class="pill" data-es>Forense</span><span class="pill" data-en>Forensics</span><span class="pill" data-pt>Forense</span><span class="pill" data-it>Forense</span><span class="pill" data-fr>Forensique</span><span class="pill" data-zh>取证</span>
+                <span class="pill">PHP</span><span class="pill">SQL Server</span><span class="pill" data-es>Reportes</span><span class="pill" data-en>Reporting</span><span class="pill" data-pt>Relatórios</span><span class="pill" data-it>Report</span><span class="pill" data-fr>Rapports</span><span class="pill" data-zh>报告</span><span class="pill" data-es>Operación</span><span class="pill" data-en>Operations</span><span class="pill" data-pt>Operação</span><span class="pill" data-it>Operazioni</span><span class="pill" data-fr>Opérations</span><span class="pill" data-zh>运营</span>
               </div>
               <p class="small muted">
                 <span data-es>Por confidencialidad, no publico repos/código del producto institucional. Validación vía referencia laboral.</span>
@@ -2115,39 +2115,13 @@ make up-dashboard
             <div class="twhat">
               <h3>Fundación CEIS Maristas</h3>
               <p>
-                <span data-es>Arquitectura, desarrollo y operación de plataformas web educativas/psicométricas. Optimización SQL/performance. Seguridad operacional: análisis forense de ataques, gestión de logs y pruebas con OWASP ZAP y JMeter.</span>
-                <span data-en>Architecture, development, and operation of educational/psychometric web platforms. SQL/performance optimization. Operational security: forensic analysis of attacks, log management, and OWASP ZAP and JMeter testing.</span>
-                <span data-pt>Arquitetura, desenvolvimento e operação de plataformas web educativas/psicométricas. Otimização SQL/performance. Segurança operacional: análise forense de ataques, gestão de logs e testes com OWASP ZAP e JMeter.</span>
-                <span data-it>Architettura, sviluppo e operazione di piattaforme web educative/psicometriche. Ottimizzazione SQL/performance. Sicurezza operativa: analisi forense di attacchi, gestione dei log e test con OWASP ZAP e JMeter.</span>
-                <span data-fr>Architecture, développement et exploitation de plateformes web éducatives/psychométriques. Optimisation SQL/performance. Sécurité opérationnelle : analyse forensique d'attaques, gestion des journaux et tests OWASP ZAP et JMeter.</span>
-                <span data-zh>教育/心理测评Web平台的架构、开发与运营。SQL/性能优化。运营安全：攻击取证分析、日志管理，以及OWASP ZAP与JMeter测试。</span>
+                <span data-es>Arquitectura, desarrollo y operación de plataformas web educativas/psicométricas. Optimización SQL/performance.</span>
+                <span data-en>Architecture, development, and operation of educational/psychometric web platforms. SQL/performance optimization.</span>
+                <span data-pt>Arquitetura, desenvolvimento e operação de plataformas web educativas/psicométricas. Otimização SQL/performance.</span>
+                <span data-it>Architettura, sviluppo e operazione di piattaforme web educative/psicometriche. Ottimizzazione SQL/performance.</span>
+                <span data-fr>Architecture, développement et exploitation de plateformes web éducatives/psychométriques. Optimisation SQL/performance.</span>
+                <span data-zh>教育/心理测评Web平台的架构、开发与运营。SQL/性能优化。</span>
               </p>
-              <ul class="bullets small" data-min-level="1">
-                <li data-es><strong>Seguridad:</strong> análisis forense de ataques al servidor en más de una ocasión, determinando origen, vector de entrada y alcance.</li>
-                <li data-en><strong>Security:</strong> forensic analysis of server attacks on more than one occasion, determining origin, entry vector, and scope.</li>
-                <li data-pt><strong>Segurança:</strong> análise forense de ataques ao servidor em mais de uma ocasião, determinando origem, vetor de entrada e alcance.</li>
-                <li data-it><strong>Sicurezza:</strong> analisi forense di attacchi al server in più di un'occasione, determinando origine, vettore di ingresso e portata.</li>
-                <li data-fr><strong>Sécurité :</strong> analyse forensique d'attaques du serveur à plus d'une reprise, en déterminant l'origine, le vecteur d'entrée et la portée.</li>
-                <li data-zh><strong>安全：</strong>多次对服务器攻击进行取证分析，确定来源、入侵路径和影响范围。</li>
-                <li data-es>Gestión y análisis de logs del servidor y del entorno PHP: depuración de código y detección de actividad anómala desde IP desconocidas.</li>
-                <li data-en>Server and PHP log management and analysis: code debugging and detection of anomalous activity from unknown IPs.</li>
-                <li data-pt>Gestão e análise de logs do servidor e do ambiente PHP: depuração de código e detecção de atividade anômala de IPs desconhecidos.</li>
-                <li data-it>Gestione e analisi dei log del server e dell'ambiente PHP: debug del codice e rilevamento di attività anomale da IP sconosciuti.</li>
-                <li data-fr>Gestion et analyse des journaux du serveur et de l'environnement PHP : débogage du code et détection d'activité anormale d'IP inconnues.</li>
-                <li data-zh>管理与分析服务器及PHP环境日志：排查代码错误并检测来自未知IP的异常活动。</li>
-                <li data-es>Endurecimiento del sistema con <strong>OWASP ZAP</strong> (simulación de ataques) y pruebas de carga con <strong>Apache JMeter</strong>.</li>
-                <li data-en>System hardening with <strong>OWASP ZAP</strong> (attack simulation) and load testing with <strong>Apache JMeter</strong>.</li>
-                <li data-pt>Fortalecimento do sistema com <strong>OWASP ZAP</strong> (simulação de ataques) e testes de carga com <strong>Apache JMeter</strong>.</li>
-                <li data-it>Rafforzamento del sistema con <strong>OWASP ZAP</strong> (simulazione di attacchi) e test di carico con <strong>Apache JMeter</strong>.</li>
-                <li data-fr>Renforcement du système avec <strong>OWASP ZAP</strong> (simulation d'attaques) et tests de charge avec <strong>Apache JMeter</strong>.</li>
-                <li data-zh>使用 <strong>OWASP ZAP</strong>（模拟攻击）加固系统，并使用 <strong>Apache JMeter</strong> 进行负载测试。</li>
-                <li data-es>Formación en ciberseguridad durante la pandemia y posterior charla institucional de ciberseguridad.</li>
-                <li data-en>Cybersecurity training during the pandemic and a subsequent in-house cybersecurity talk.</li>
-                <li data-pt>Formação em cibersegurança durante a pandemia e posterior palestra institucional de cibersegurança.</li>
-                <li data-it>Formazione in cybersicurezza durante la pandemia e successivo intervento istituzionale sulla cybersicurezza.</li>
-                <li data-fr>Formation en cybersécurité pendant la pandémie et conférence institutionnelle de cybersécurité par la suite.</li>
-                <li data-zh>疫情期间接受网络安全培训，随后在机构内举办网络安全讲座。</li>
-              </ul>
             </div>
           </div>
 

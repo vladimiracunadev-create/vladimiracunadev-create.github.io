@@ -8,6 +8,7 @@ Output: cv-reclutador.pdf / cv-reclutador-english.pdf
 """
 
 import os
+import re
 from reportlab.lib.pagesizes import letter
 from reportlab.lib.units import inch
 from reportlab.lib.colors import HexColor, white
@@ -28,6 +29,33 @@ except Exception:
     pass
 
 CJK_FONT = "STSong-Light"
+
+# ── Latin runs inside Chinese text ──────────────────
+# STSong-Light (CID) no tiene glifo para "ñ": el apellido salia "Acua" y el
+# espaciado latino descuadrado. Los tramos no-CJK se dibujan con Helvetica.
+_ZH_CURRENT_LANG = {"v": "es"}
+_ZH_TAG_SPLIT = re.compile(r"(<[^>]+>)")
+_ZH_LATIN_RUN = re.compile(r"[^\u2E80-\u9FFF\u3000-\u303F\uFF00-\uFFEF]+")
+_RL_PARAGRAPH = Paragraph
+
+
+def _wrap_latin_runs(text):
+    out = []
+    for part in _ZH_TAG_SPLIT.split(str(text)):
+        if part.startswith("<") and part.endswith(">"):
+            out.append(part)
+            continue
+        out.append(_ZH_LATIN_RUN.sub(
+            lambda m: m.group(0) if not m.group(0).strip()
+            else '<font name="Helvetica">%s</font>' % m.group(0), part))
+    return "".join(out)
+
+
+def Paragraph(text, style, *args, **kwargs):  # noqa: N802 - shadows reportlab's
+    if _ZH_CURRENT_LANG["v"] == "zh":
+        text = _wrap_latin_runs(text)
+    return _RL_PARAGRAPH(text, style, *args, **kwargs)
+
 
 def _apply_cjk(styles_dict):
     """Swap Helvetica fonts in a styles dict for the CJK font."""
@@ -593,13 +621,13 @@ class UnifiedCV(BaseDocTemplate):
         body_font = CJK_FONT if self.lang == "zh" else "Helvetica"
         bold_font = CJK_FONT if self.lang == "zh" else "Helvetica-Bold"
         canvas.setFillColor(WHITE)
-        canvas.setFont(bold_font, 22)
+        canvas.setFont("Helvetica-Bold", 22)  # nombre latino: nunca la CID
         canvas.drawString(0.45*inch, PAGE_H - 0.45*inch, self.header_data["name"])
         canvas.setFillColor(HexColor("#c0d0e8"))
         canvas.setFont(body_font, 10)
         canvas.drawString(0.45*inch, PAGE_H - 0.65*inch, self.header_data["subtitle"])
         canvas.setFillColor(HexColor("#a0b8d0"))
-        canvas.setFont(body_font, 8.5)
+        canvas.setFont("Helvetica", 8.5)  # contacto latino: nunca la CID
         canvas.drawString(0.45*inch, PAGE_H - 0.85*inch, self.header_data["contact"])
         # Sidebar background
         canvas.setFillColor(SIDEBAR_BG)
@@ -618,13 +646,13 @@ class UnifiedCV(BaseDocTemplate):
         body_font = CJK_FONT if self.lang == "zh" else "Helvetica"
         bold_font = CJK_FONT if self.lang == "zh" else "Helvetica-Bold"
         canvas.setFillColor(WHITE)
-        canvas.setFont(bold_font, 22)
+        canvas.setFont("Helvetica-Bold", 22)  # nombre latino: nunca la CID
         canvas.drawString(0.45*inch, PAGE_H - 0.45*inch, self.header_data["name"])
         canvas.setFillColor(HexColor("#c0d0e8"))
         canvas.setFont(body_font, 10)
         canvas.drawString(0.45*inch, PAGE_H - 0.65*inch, self.header_data["subtitle"])
         canvas.setFillColor(HexColor("#a0b8d0"))
-        canvas.setFont(body_font, 8.5)
+        canvas.setFont("Helvetica", 8.5)  # contacto latino: nunca la CID
         canvas.drawString(0.45*inch, PAGE_H - 0.85*inch, self.header_data["contact"])
         canvas.setStrokeColor(ACCENT)
         canvas.setLineWidth(2)
@@ -819,6 +847,7 @@ def build_ats_section(ats_data, lang="es"):
 
 def build_unified(header, sidebar, rmain, transition, ats, output_path, lang="es"):
     """Build the complete unified CV."""
+    _ZH_CURRENT_LANG["v"] = lang
     doc = UnifiedCV(output_path, header, lang=lang)
 
     story = []
