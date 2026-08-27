@@ -2,7 +2,7 @@
 
 **Proyecto:** `vladimiracunadev-create.github.io`
 **Web:** <https://vladimiracunadev-create.github.io/>
-**Última actualización:** 2026-08-19
+**Última actualización:** 2026-08-27
 
 ---
 
@@ -35,6 +35,10 @@ PDFs generados por pipeline Python, PWA instalable, y API JSON estática en `api
 ├── CHANGELOG.md                # Historial de cambios
 ├── CLAUDE.md                   # Este archivo — fuente de verdad
 ├── cv-data-api.md              # Manual de la API JSON
+├── servicios/                  # Páginas de servicio con ruta semántica
+│   └── auditoria-codigo-ia/    # Auditoría de código generado por IA (6 idiomas)
+│       ├── index.html          # La página — 10 secciones, sin data-min-level
+│       └── audit-form.js       # Validación + composición del mailto: (sin backend)
 ├── api/v1/                     # CV Data API estática
 │   ├── meta.json               # Metadatos y capacidades
 │   ├── profile.json            # Perfil profesional
@@ -84,6 +88,25 @@ PDFs generados por pipeline Python, PWA instalable, y API JSON estática en `api
 - `manifest.webmanifest` + `service-worker.js` → instalable en desktop y móvil
 - `apps/mobile/` → proyecto Capacitor para APK/IPA
 - **NUNCA modificar** manifest ni configuración Capacitor sin documentarlo
+
+### Página de servicio: auditoría de código IA
+
+- Ruta: `/servicios/auditoria-codigo-ia/` — pagina propia, **no** una sección de `index.html`
+- Usa el mismo `styles.css` y el mismo `app.js` del raíz: **cero dependencias nuevas**
+- Mantiene los 6 idiomas con el mismo mecanismo `data-XX`; comparte `#selectLang` y `#btnTheme`
+- **No** usa `data-min-level`: es oferta comercial y se ve completa siempre
+- El formulario compone un `mailto:` — no hay backend ni servicio de terceros, y la CSP de la
+  página no abre ningún host externo
+- Puntos de entrada en `index.html`: nav lateral, CTA del hero, sección `#auditoria-ia`,
+  tarjeta en `#servicios` y enlace en el footer
+- Decisiones, verificaciones y pendientes: `docs/AI_CODE_ASSURANCE.md`
+
+### Controles de vista / idioma / tema
+
+Desde 2026-08-27 viven en `.content-controls`, al **tope de la columna de contenido**
+(`.shell__main`), no al pie del sidebar. Los ids y `data-*` no cambiaron, así que `app.js`
+sigue igual. En escritorio la barra es `sticky`; en móvil es estática para no comerse el
+viewport.
 
 ### API JSON estática (api/v1/)
 

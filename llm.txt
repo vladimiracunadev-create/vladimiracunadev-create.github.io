@@ -17,6 +17,11 @@ diagnostics product (RootCause Windows Inspector v0.11.0 in Rust edition 2024, 5
 GUI Setup.exe / Portable .zip / CLI single-binary rootcause.exe / PowerShell .psm1 / VS Code
 .vsix), industrial observability (Prometheus/Grafana), and a fully internationalized document
 suite (36 PDFs across 6 languages: ES, EN, PT, IT, FR, ZH).
+Since 2026-08-27 the portfolio also offers a dedicated professional line: audit, verification
+and recovery of AI-generated software ("AI Code Assurance & Remediation"), covering the
+verification gap, functional verification, technical/security audit, code cleanup, technical
+debt remediation, human-in-the-loop review and AI code governance. No certification,
+guarantee of full vulnerability detection, client name, testimonial or price is claimed.
 The public site also explains professional collaboration formats for scoped projects,
 expert-hour bundles, monthly senior support, technical diagnosis/roadmaps, and
 technical-commercial collaboration, without publishing prices or fee ranges.
@@ -24,6 +29,7 @@ technical-commercial collaboration, without publishing prices or fee ranges.
 ## Index
 
 - [Home](https://vladimiracunadev-create.github.io/): Main portfolio page with skills, projects, experience, services, collaboration formats, contact, and downloads.
+- [AI Code Assurance](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/): Dedicated service page — audit, verification and recovery of AI-generated software (verification gap, functional verification, technical audit, cleanup and technical debt remediation, AI governance), in 6 languages.
 - [Sitemap](https://vladimiracunadev-create.github.io/sitemap.xml): Full URL index of the site.
 - [CV Data API](https://vladimiracunadev-create.github.io/api/v1/meta.json): Static JSON API with profile, experience, projects, skills, and artifact endpoints.
 
@@ -85,4 +91,4 @@ This repository includes an AI skills system (.agents/skills/) for automated mai
 
 ## Last Updated
 
-2026-06-19
+2026-08-27

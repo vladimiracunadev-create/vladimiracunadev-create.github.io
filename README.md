@@ -56,8 +56,28 @@ El sistema cuenta con un motor de **i18n (Internationalization)** e **Theming** 
 
 * **6 idiomas (ES/EN/PT/IT/FR/ZH)**: Cambio de idioma instantáneo sin recarga de página; los enlaces de descarga de PDF cambian automáticamente al documento del idioma activo vía `data-pdf-{lang}`.
 * **3 vistas de lectura**: Reclutador, Normal y Profundo ajustan la densidad del contenido mediante `data-min-level` sin duplicar páginas.
+* **Controles al tope del contenido**: vista, idioma y tema encabezan la columna de lectura (`.content-controls`), no el pie del panel lateral; en escritorio la barra queda anclada al hacer scroll.
 * **Temas Dinámicos**: Modo Oscuro/Claro totalmente reactivo, respetando las preferencias del sistema y del usuario.
 * **Layout Adaptativo**: Estructura industrial capaz de manejar contenidos densos sin colapso visual.
+
+---
+
+## 🔎 Auditoría de código generado por IA
+
+Línea profesional incorporada el 2026-08-27, con página propia en
+[`/servicios/auditoria-codigo-ia/`](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/):
+**auditoría, verificación y recuperación de software generado por IA** (*AI Code Assurance & Remediation*).
+
+Cuatro servicios que se contratan por separado o encadenados:
+
+* **Verificación funcional**: contraste entre requisitos y funcionalidades implementadas, detección de funciones simuladas, pruebas de flujos críticos y casos límite.
+* **Auditoría técnica**: arquitectura, calidad, seguridad, dependencias y licencias, base de datos, rendimiento y observabilidad.
+* **Limpieza y recuperación**: código duplicado o muerto, refactorización progresiva, reducción de deuda técnica, documentación y preparación para producción.
+* **Gobernanza de IA**: reglas de uso de asistentes y agentes, criterios de aprobación humana, trazabilidad y controles antes de integrar o desplegar.
+
+La página está en los 6 idiomas, no usa `data-min-level` (se ve completa en las 4 vistas) y su formulario compone un `mailto:` en cliente: no hay backend ni servicio de terceros, y la CSP no abre ningún host externo. No declara certificaciones, clientes, testimonios, precios ni garantía de detección del 100 % de vulnerabilidades.
+
+Decisiones de implementación y pendientes: [`docs/AI_CODE_ASSURANCE.md`](docs/AI_CODE_ASSURANCE.md).
 
 ---
 
@@ -87,7 +107,7 @@ No reemplaza la identidad principal del perfil; la complementa para oportunidade
 
 **Respaldo verificable:**
 
-* 14+ años en plataformas reales, con modernización progresiva sin cortar operación.
+* 16+ años en plataformas reales, con modernización progresiva sin cortar operación.
 * Experiencia en diseño de arquitectura, integración de sistemas y definición de estándares técnicos.
 * Capacidad para traducir objetivos de negocio en soluciones tecnológicas mantenibles.
 * Flujo asistido por IA con criterio técnico propio y validación humana.

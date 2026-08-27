@@ -40,6 +40,7 @@ ROOT_FILES = [
 DIRS_INCLUDE = [
     "api",
     "experiencia-3d",
+    "servicios",
 ]
 
 # ── assets/ se incluye con exclusiones específicas

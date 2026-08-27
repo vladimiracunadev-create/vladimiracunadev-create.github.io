@@ -15,7 +15,8 @@ const FILES_TO_COPY = [
 const DIRS_TO_COPY = [
     'assets',
     path.join('api', 'v1'),
-    'experiencia-3d'
+    'experiencia-3d',
+    'servicios'
 ];
 
 function copyIfExists(src, dest) {

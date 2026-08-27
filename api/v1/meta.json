@@ -1,7 +1,7 @@
 {
     "meta": {
         "version": "v1",
-        "generated_at": "2026-08-19",
+        "generated_at": "2026-08-27",
         "api_name": "CV Data API",
         "owner": "Vladimir Acuña",
         "base_url": "https://vladimiracunadev-create.github.io",
@@ -15,6 +15,11 @@
         "skills": "/api/v1/skills.json",
         "artifacts": "/api/v1/artifacts.json",
         "meta": "/api/v1/meta.json"
+    },
+    "site_pages": {
+        "home": "/",
+        "ai_code_assurance": "/servicios/auditoria-codigo-ia/",
+        "experiencia_3d": "/experiencia-3d/"
     },
     "capabilities": {
         "artifact_languages": [

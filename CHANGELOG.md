@@ -1,5 +1,90 @@
 # Changelog
 
+## 2026-08-27
+
+### feat(servicios): auditoria de codigo generado por IA — linea profesional nueva con pagina propia
+
+Se incorpora una linea profesional que hasta ahora no existia en el sitio: **auditoria,
+verificacion y recuperacion de software generado por IA** (`AI Code Assurance & Remediation`).
+
+Vive en pagina propia con ruta semantica, **en los 6 idiomas** como el resto del sitio:
+`servicios/auditoria-codigo-ia/index.html` → `/servicios/auditoria-codigo-ia/`.
+
+Diez secciones: hero, la brecha de verificacion, riesgos del codigo generado por IA, los 4
+servicios comerciales (verificacion funcional, auditoria tecnica, limpieza y recuperacion,
+gobernanza de IA), las 8 especialidades presentadas como capacidades complementarias de una
+misma oferta, tipos de proyectos, metodologia de 7 etapas, entregables, modalidades de
+contratacion, FAQ y formulario de contacto.
+
+**Puntos de entrada en la portada** (`index.html`), todos sin `data-min-level` para que se vean
+en las 4 vistas: enlace en la navegacion lateral, boton en el hero, seccion `#auditoria-ia`
+antes de `#productos`, tarjeta en `#servicios` y enlace en el footer.
+
+**El formulario no usa servicios de terceros.** `audit-form.js` valida en cliente y compone un
+`mailto:` que envia el propio cliente de correo de la persona; asi la CSP sigue sin permitir
+hosts externos y ningun dato del visitante sale hacia un proveedor. Los tres campos de opcion
+son grupos de radios y no `<select>`, porque un `<option>` no admite los seis `<span data-XX>`
+del sistema de idiomas. El formulario **no pide contrasenas, tokens, claves ni credenciales**, y
+la pagina lo advierte antes del primer campo.
+
+**Lo que la pagina no afirma:** no hay certificaciones, clientes, testimonios, logotipos,
+premios, estadisticas ni precios, y la FAQ dice de forma explicita que ninguna auditoria honesta
+detecta el 100 % de las vulnerabilidades — lo que se entrega es cobertura declarada.
+
+SEO: `title`, `description`, `canonical`, Open Graph, Twitter Cards y JSON-LD con `Person`,
+`ProfessionalService` (con `hasOfferCatalog`), `BreadcrumbList` y `FAQPage`. La URL entra en
+`sitemap.xml` (prioridad 0.9), en `scripts/generate-seo.js`, en `llm.txt` y en el app shell del
+service worker (`CACHE_NAME` a `v14`). En la API JSON: `site_pages` en `meta.json` y
+`service_lines` en `profile.json`, con los 4 servicios y las 8 especialidades como datos
+reutilizables.
+
+Tambien entra en `scripts/build.js` (`DIRS_TO_COPY`), en `scripts/build-zip.py`
+(`DIRS_INCLUDE`) y en el `lint:html` de `package.json`.
+
+Detalle completo de decisiones, verificaciones y pendientes en `docs/AI_CODE_ASSURANCE.md`.
+
+### fix(content): la trayectoria queda declarada en 16+ anos en todo el sitio
+
+El sitio venia diciendo tres cosas distintas: `14+ anos` en el hero, la meta description y la
+seccion `#roles`; `16 anos` en `api/v1/profile.json`; y `16+ years` en `llm.txt`. La pagina de
+servicio nueva llego a decir `mas de 20`. **Ahora la trayectoria es 16+ en todos los puntos de
+lectura**, en los 6 idiomas:
+
+- `index.html`: 16 cadenas — `meta description`, `og:description`, el parrafo del hero, el
+  resumen de `#roles` y el bullet de modernizacion de legacy.
+- `servicios/auditoria-codigo-ia/index.html`: las 6 variantes del parrafo "por que la
+  experiencia tradicional importa ahora".
+- `README.md` y el `summary` de `api/v1/profile.json`.
+
+**Se conservan a proposito los dos "14+" que van entre parentesis**, en `llm.txt` y en el mismo
+`summary` de `profile.json`: no son la trayectoria, son la permanencia en Fundacion CEIS
+Maristas (2011-2025), que es exactamente lo que declaran los CV en PDF (`14 years of core
+experience at Fundacion CEIS Maristas`). Cambiarlos a 16 volveria falsa esa cifra.
+
+Los generadores de PDF no se tocaron: `generate-portfolio.py` ya declaraba `16+ years` de
+trayectoria, y sus otras menciones a 14 son la misma permanencia en CEIS.
+
+### feat(ui): vista, idioma y tema suben del pie del sidebar al tope del contenido
+
+Los tres controles vivian en `.sidebar__controls`, al final de la columna de 19rem. En
+escritorio quedaban bajo el pliegue y en movil obligaban a abrir el drawer para cambiar de
+vista, idioma o tema. Ahora encabezan la columna de contenido, que es donde se aplican.
+
+- `index.html`: el bloque de controles sale de `.sidebar__inner` y entra en `.shell__main`,
+  justo antes de `<main id="contenido">`. **Los ids y los `data-*` son los mismos**
+  (`#selectLang`, `#btnTheme`, `#themeIcon`, `[data-view-btn]`), asi que `app.js` no se toco.
+- `styles.css`: `.content-controls` nueva. En escritorio (>=1024px) la barra es `sticky` en el
+  tope; en movil es estatica, porque envuelta en dos filas se comeria un cuarto del viewport.
+  Bajo 720px se comprimen los chips: la barra pasa de 219px a 156px de alto en 375px.
+- Los iconos de redes pasan a ser el ultimo bloque del sidebar y heredan el `margin-top: auto`
+  que antes empujaba los controles al pie.
+- Se retiraron `.sidebar__controls` y las reglas `.sidebar .views` / `.settings` / `.chip` /
+  `.views__label` / `.views__group` / `.lang-select`, que quedaron sin elemento al que
+  aplicarse. Ninguna otra pagina las usaba.
+
+Verificado en navegador: cambio de vista, de idioma (incluida la reescritura de los `href` de
+los PDF por idioma) y de tema siguen funcionando; sin scroll horizontal a 375px ni a 1280px.
+
 ## 2026-08-20
 
 ### refactor(cv): los proyectos, agrupados por categoria — el CV bajo de 8 a 4 paginas

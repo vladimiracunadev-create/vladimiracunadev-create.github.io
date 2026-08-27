@@ -1,4 +1,4 @@
-const CACHE_NAME = 'vladi-portfolio-v13-icono-va';
+const CACHE_NAME = 'vladi-portfolio-v14-auditoria-ia';
 const OFFLINE_URL = './offline.html';
 
 const APP_SHELL = [
@@ -12,7 +12,9 @@ const APP_SHELL = [
     './assets/icons/icon-512.png',
     './assets/icons/icon-maskable-512.png',
     './assets/icons/apple-touch-icon.png',
-    './assets/icons/avatar-vladimir.jpg'
+    './assets/icons/avatar-vladimir.jpg',
+    './servicios/auditoria-codigo-ia/',
+    './servicios/auditoria-codigo-ia/audit-form.js'
 ];
 
 const NETWORK_FIRST_PATHS = new Set([
@@ -21,7 +23,10 @@ const NETWORK_FIRST_PATHS = new Set([
     '/styles.css',
     '/app.js',
     '/pwa.js',
-    '/manifest.webmanifest'
+    '/manifest.webmanifest',
+    '/servicios/auditoria-codigo-ia/',
+    '/servicios/auditoria-codigo-ia/index.html',
+    '/servicios/auditoria-codigo-ia/audit-form.js'
 ]);
 
 function toRelativePath(url) {

@@ -9,7 +9,12 @@ const TODAY = new Date().toISOString().split('T')[0];
 // Keep sitemap generation explicit: only public pages that should be indexed.
 const PUBLIC_HTML_FILES = [
     { file: 'index.html', path: '', priority: '1.0' },
-    { file: path.join('experiencia-3d', 'index.html'), path: 'experiencia-3d/', priority: '0.7' }
+    { file: path.join('experiencia-3d', 'index.html'), path: 'experiencia-3d/', priority: '0.7' },
+    {
+        file: path.join('servicios', 'auditoria-codigo-ia', 'index.html'),
+        path: 'servicios/auditoria-codigo-ia/',
+        priority: '0.9'
+    }
 ];
 
 let sitemapContent = `<?xml version="1.0" encoding="UTF-8"?>

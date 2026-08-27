@@ -1,7 +1,7 @@
 {
     "meta": {
         "version": "v1",
-        "generated_at": "2026-08-19",
+        "generated_at": "2026-08-27",
         "source_pdf": "assets/cv-ats.pdf"
     },
     "name": "Vladimir Acuña",
@@ -12,6 +12,33 @@
         "country": "CL"
     },
     "years_experience": 16,
+    "service_lines": [
+        {
+            "id": "ai-code-assurance",
+            "name": "Auditoría, verificación y recuperación de software generado por IA",
+            "title": "Arquitecto de Software y Consultor en Aseguramiento de Código Generado por IA",
+            "title_en": "AI Code Assurance & Remediation Consultant",
+            "url": "https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/",
+            "since": "2026-08-27",
+            "services": [
+                "Verificación funcional",
+                "Auditoría técnica",
+                "Limpieza y recuperación",
+                "Gobernanza de IA"
+            ],
+            "specialities": [
+                "AI Verification Engineer",
+                "AI-Generated Code Auditor",
+                "AI Code Cleanup & Refactoring Specialist",
+                "Technical Debt Remediation Specialist",
+                "AI Code Governance Consultant",
+                "Human-in-the-Loop Reviewer",
+                "AI Software Forensics Specialist",
+                "AI Code Assurance Architect"
+            ],
+            "disclaimer": "Sin certificaciones de auditoría ni garantía de detección del 100% de vulnerabilidades; la cobertura de cada revisión se declara explícitamente."
+        }
+    ],
     "profiles": [
         {
             "network": "GitHub",
@@ -34,7 +61,7 @@
             "url": "https://youtu.be/huIjsH-N7to"
         }
     ],
-    "summary": "16 años diseñando, construyendo y operando software en entornos reales (14+ años en plataformas educativas/psicométricas). Especializado en modernización de sistemas legacy, automatización de procesos e integración de IA aplicada. En 2026 consolidé un ecosistema verificable: 15 casos AWS (14 completados, incluyendo GenAI con Bedrock + Claude Haiku 4.5), 25/25 backends LangGraph operativos (cobertura 100%, v4.14.0) con auditoría de seguridad de 8 capas y cadena de custodia SHA-256, polyglot persistence (9 lenguajes × 12+ DBs), Security Hardening industrial (Trivy, TruffleHog, grype, SBOM, OIDC), observabilidad con Prometheus/Grafana/X-Ray y un portafolio profesional en 6 idiomas (ES/EN/PT/IT/FR/ZH) con 31 PDFs generados por pipeline Python.",
+    "summary": "16+ años diseñando, construyendo y operando software en entornos reales (14+ años en plataformas educativas/psicométricas). Especializado en modernización de sistemas legacy, automatización de procesos e integración de IA aplicada. En 2026 consolidé un ecosistema verificable: 15 casos AWS (14 completados, incluyendo GenAI con Bedrock + Claude Haiku 4.5), 25/25 backends LangGraph operativos (cobertura 100%, v4.14.0) con auditoría de seguridad de 8 capas y cadena de custodia SHA-256, polyglot persistence (9 lenguajes × 12+ DBs), Security Hardening industrial (Trivy, TruffleHog, grype, SBOM, OIDC), observabilidad con Prometheus/Grafana/X-Ray y un portafolio profesional en 6 idiomas (ES/EN/PT/IT/FR/ZH) con 31 PDFs generados por pipeline Python.",
     "languages": [
         {
             "language": "Español",

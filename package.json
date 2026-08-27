@@ -5,7 +5,7 @@
     "scripts": {
         "test": "node scripts/validate.js",
         "validate": "node scripts/validate.js",
-        "lint:html": "html-validate \"index.html\" \"offline.html\" \"experiencia-3d/**/*.html\"",
+        "lint:html": "html-validate \"index.html\" \"offline.html\" \"experiencia-3d/**/*.html\" \"servicios/**/*.html\"",
         "lint:md": "markdownlint-cli2 \"**/*.md\" \"!**/node_modules/**\" \"!.gradle-user-home/**\" \"!.gradle-user-home-*/**\" \"!dist/**\" \"!site/**\"",
         "lint": "pnpm lint:html && pnpm lint:md",
         "sitemap": "node scripts/generate-seo.js",

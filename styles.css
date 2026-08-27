@@ -1254,58 +1254,76 @@ article.card.project > p[role="button"]:focus-visible {
   color: var(--text);
 }
 
-/* ── Controles al pie del sidebar ───────────────────────────────── */
+/* ── Barra de controles al tope del contenido ───────────────────────
+   Vista, idioma y tema vivian al pie del sidebar. Ahi quedaban bajo el
+   pliegue en escritorio y escondidos tras el drawer en movil. Ahora
+   encabezan la columna de contenido, que es donde se aplican.
+   ------------------------------------------------------------------ */
 
-.sidebar__controls {
-  display: grid;
-  gap: 10px;
-  margin-top: auto;
-  padding-top: 14px;
-  border-top: 1px solid var(--line);
+.content-controls {
+  padding: 12px 0 4px;
 }
 
-.sidebar .views,
-.sidebar .settings {
-  display: grid;
-  gap: 8px;
-  min-width: 0;
-  max-width: none;
-  padding: 10px 12px;
-  border-radius: 16px;
-  background: var(--card-soft);
-  backdrop-filter: none;
-}
-
-.sidebar .views__label {
-  font-size: 11px;
-  letter-spacing: .8px;
-  text-transform: uppercase;
-}
-
-/* Dos columnas: las 4 vistas caben en 2x2 sin desbordar los 19rem. */
-.sidebar .views__group {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 6px;
-}
-
-.sidebar .chip {
-  width: 100%;
-  justify-content: center;
-  padding: 8px 6px;
-  font-size: 12px;
-  min-height: 36px;
-  text-align: center;
-}
-
-.sidebar .settings {
-  grid-template-columns: 1fr auto;
+.content-controls__inner {
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0 var(--pad);
 }
 
-.sidebar .lang-select {
-  width: 100%;
-  min-width: 0;
+/* En escritorio se ancla arriba para seguir accesible al hacer scroll.
+   En movil no: la barra envuelve en dos filas y ocuparia demasiado alto
+   de un viewport corto. */
+@media (min-width:1024px) {
+  .content-controls {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    padding: 14px 0 12px;
+    background: color-mix(in srgb, var(--bg) 82%, transparent);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--line);
+  }
+}
+
+/* El boton flotante del drawer ocupa la esquina superior izquierda
+   (12px + 46px). La barra arranca despues del padding-top de
+   .shell__main, asi que no lo pisa; solo se centra para que no quede
+   descolgada a la izquierda. */
+@media (max-width:1023.98px) {
+  .content-controls__inner {
+    justify-content: center;
+  }
+}
+
+/* En pantallas estrechas los 4 chips ya envuelven en dos filas: se
+   comprime la tipografia para que la barra no se coma un cuarto del
+   viewport antes del hero. */
+@media (max-width:720px) {
+  .content-controls__inner {
+    gap: 8px;
+  }
+
+  .content-controls .views,
+  .content-controls .settings {
+    width: 100%;
+    justify-content: center;
+    padding: 6px 8px;
+  }
+
+  .content-controls .chip {
+    padding: 8px 10px;
+    font-size: 12px;
+    min-height: 36px;
+  }
+
+  .content-controls .views__group {
+    gap: 6px;
+  }
 }
 
 /* ── Escritorio: panel fijo ─────────────────────────────────────── */
@@ -1568,11 +1586,14 @@ article.card.project > p[role="button"]:focus-visible {
 /* Copia del sidebar: 3 columnas x 2 filas. En una sola fila los 6 iconos
    pedirian 314px y el interior del sidebar mide 271px, asi que el sexto
    caia solo a una segunda linea. Se mantiene el objetivo tactil de 44px. */
+/* Ultimo bloque del sidebar desde que los controles se fueron al tope
+   del contenido: el auto lo empuja al pie de la columna. */
 .social-icons--side {
   display: grid;
   grid-template-columns: repeat(3, 44px);
   gap: 10px;
-  margin-top: 2px;
+  margin-top: auto;
+  padding-top: 6px;
   padding-left: 4px;
 }
 
@@ -1597,4 +1618,303 @@ article.card.project > p[role="button"]:focus-visible {
 #smartDownloadActions .skeleton-btn {
   flex: 1 1 100%;
   width: auto;
+}
+
+/* ══════════════════════════════════════════════════════════════════
+   PAGINA DE SERVICIO: /servicios/auditoria-codigo-ia/
+   Reutiliza .wrap, .section, .card, .grid, .bullets, .timeline, .btn y
+   .pill del sitio. Aqui solo van las piezas que esa pagina agrega:
+   cabecera de la oferta, rejilla de entregables, FAQ y formulario.
+   ══════════════════════════════════════════════════════════════════ */
+
+/* Columna de contenido sin sidebar: no hereda el padding-top que .shell__main
+   reserva en movil para el boton flotante del drawer, porque aqui no hay. */
+.page-main {
+  min-width: 0;
+}
+
+.btn.subtle {
+  padding: 8px 14px;
+  min-height: 40px;
+  font-weight: 550;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.btn.subtle:hover {
+  color: var(--text);
+}
+
+/* ── Cabecera de la oferta ──────────────────────────────────────── */
+
+.ai-hero {
+  padding: 26px 0 10px;
+}
+
+.ai-eyebrow {
+  margin: 0 0 6px;
+  font-size: 12px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.ai-hero h1 {
+  margin: 0 0 10px;
+  font-size: clamp(28px, 4.2vw, 42px);
+  line-height: 1.15;
+  letter-spacing: -.02em;
+}
+
+.ai-role {
+  margin: 0;
+  font-weight: 650;
+  font-size: 16px;
+}
+
+.ai-role-en {
+  margin: 2px 0 14px;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+/* La frase que resume la propuesta de valor: se separa del cuerpo con una
+   barra de acento en vez de un tamano mayor, para no competir con el h1. */
+.ai-claim {
+  margin: 14px 0 0;
+  padding: 10px 0 10px 14px;
+  border-left: 3px solid var(--accent);
+  font-weight: 600;
+}
+
+/* ── Especialidades ─────────────────────────────────────────────── */
+
+.card.spec h3 {
+  font-size: 14px;
+  letter-spacing: .2px;
+}
+
+/* ── Listas largas a dos columnas ───────────────────────────────── */
+
+@media (min-width:760px) {
+  .bullets--2col {
+    columns: 2;
+    column-gap: 28px;
+  }
+
+  .bullets--2col li {
+    break-inside: avoid;
+  }
+}
+
+/* ── Metodologia: el numero de etapa junto al titulo ────────────── */
+
+.step-n {
+  display: inline-block;
+  min-width: 2.1em;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ── Preguntas frecuentes ───────────────────────────────────────── */
+
+.faq-item {
+  border-bottom: 1px solid var(--line);
+  padding: 4px 0;
+}
+
+.faq-item:last-child {
+  border-bottom: none;
+}
+
+.faq-item summary {
+  padding: 12px 4px;
+  font-weight: 600;
+  cursor: pointer;
+  list-style: none;
+}
+
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-item summary::before {
+  content: "+";
+  display: inline-block;
+  width: 1.4em;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.faq-item[open] summary::before {
+  content: "\2212";
+}
+
+.faq-item summary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 8px;
+}
+
+.faq-item p {
+  margin: 0 0 12px;
+  padding-left: 1.4em;
+}
+
+/* ── Formulario de solicitud ────────────────────────────────────── */
+
+.warn-note {
+  margin: 0 0 14px;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--accent);
+  border-radius: 12px;
+  background: var(--card-soft);
+  color: var(--muted);
+}
+
+.audit-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+@media (max-width:760px) {
+  .audit-form {
+    grid-template-columns: 1fr;
+  }
+}
+
+.field {
+  display: grid;
+  gap: 6px;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.field--wide {
+  grid-column: 1 / -1;
+}
+
+.field label,
+.field legend {
+  padding: 0;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.field .opt {
+  font-weight: 400;
+  color: var(--muted);
+}
+
+.field input,
+.field textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--btn-bg);
+  color: var(--text);
+  font: inherit;
+  font-size: 14px;
+  min-height: 44px;
+}
+
+.field textarea {
+  resize: vertical;
+}
+
+.field input:focus-visible,
+.field textarea:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+  border-color: var(--accent);
+}
+
+/* Estado de error: el borde solo no basta si alguien no distingue el color,
+   asi que ademas se marca aria-invalid y el mensaje sale en #auditError. */
+.field[data-invalid="true"] input,
+.field[data-invalid="true"] textarea,
+.field[data-invalid="true"] .radio-chips {
+  border-color: #f87171;
+}
+
+.field[data-invalid="true"] > label::after,
+.field[data-invalid="true"] > legend::after {
+  content: " *";
+  color: #f87171;
+}
+
+.radio-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 6px;
+  border: 1px solid transparent;
+  border-radius: 14px;
+}
+
+.radio-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--btn-bg);
+  font-size: 13px;
+  cursor: pointer;
+  min-height: 40px;
+}
+
+.radio-chip:hover {
+  border-color: var(--line-strong);
+}
+
+.radio-chip input {
+  accent-color: var(--accent);
+  margin: 0;
+}
+
+.radio-chip:has(input:checked) {
+  background: linear-gradient(180deg, var(--accent-strong), var(--accent-soft));
+  border-color: color-mix(in srgb, var(--accent) 45%, var(--line));
+}
+
+.radio-chip:focus-within {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+#auditSubmit[data-busy="true"] {
+  opacity: .6;
+  pointer-events: none;
+}
+
+/* Los dos mensajes viven en el DOM desde el principio (para que el sistema de
+   6 idiomas los traduzca por CSS) y se muestran por data-on. */
+.form-status {
+  display: none;
+  margin: 12px 0 0;
+  padding: 10px 12px;
+  border-radius: 12px;
+  font-size: 14px;
+}
+
+.form-status[data-on="true"] {
+  display: block;
+}
+
+.form-status--ok {
+  border: 1px solid color-mix(in srgb, var(--accent) 45%, var(--line));
+  background: var(--accent-soft);
+}
+
+.form-status--err {
+  border: 1px solid #f87171;
+  background: rgba(248, 113, 113, .12);
 }
