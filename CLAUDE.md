@@ -47,6 +47,7 @@ PDFs generados por pipeline Python, PWA instalable, y API JSON estática en `api
 │   ├── skills.json             # Habilidades técnicas
 │   └── artifacts.json          # Inventario de PDFs (30+ con 6 variantes c/u)
 ├── assets/                     # PDFs públicos (30+ archivos)
+│   ├── og/                     # Tarjetas Open Graph 1200x630 (generadas)
 │   └── no_aplica/              # Versiones descartadas — NO publicar en API
 ├── scripts/                    # Pipeline de generación
 │   ├── generate-all-languages.py           # 12 CVs (reclutador+ATS × 6 idiomas)
@@ -56,7 +57,8 @@ PDFs generados por pipeline Python, PWA instalable, y API JSON estática en `api
 │   ├── generate-recommendation-letter.py   # Carta de recomendación × 6 idiomas
 │   ├── generate-hoja-de-vida.py            # Hoja de vida genérica × 6 idiomas
 │   ├── generate-ats-cv.py                  # CV ATS standalone
-│   └── generate-recruiter-cv.py            # CV reclutador standalone
+│   ├── generate-recruiter-cv.py            # CV reclutador standalone
+│   └── generate-og-image.py                # Tarjetas Open Graph 1200x630
 ├── docs/                       # Guías: RECRUITER.md, BUILD_GUIDE.md, etc.
 ├── .agents/skills/             # Skills de IA para mantenimiento
 ├── .github/workflows/          # Pipelines CI/CD
@@ -100,6 +102,14 @@ PDFs generados por pipeline Python, PWA instalable, y API JSON estática en `api
 - Puntos de entrada en `index.html`: nav lateral, CTA del hero, sección `#auditoria-ia`,
   tarjeta en `#servicios` y enlace en el footer
 - Decisiones, verificaciones y pendientes: `docs/AI_CODE_ASSURANCE.md`
+
+### Tarjetas Open Graph
+
+`assets/og/*.png` son **generadas**, no dibujadas a mano: `python scripts/generate-og-image.py`.
+Usan los mismos tokens de color que `:root` en `styles.css`. Si cambia el titular de una
+página, hay que actualizar su entrada en `CARDS` y regenerar. Cada página declara
+`og:image` + `twitter:image` con **URL absoluta** (los crawlers no resuelven rutas
+relativas) y su `og:image:alt`.
 
 ### Controles de vista / idioma / tema
 

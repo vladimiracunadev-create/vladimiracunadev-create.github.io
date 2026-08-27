@@ -104,7 +104,7 @@ describen el servicio.
 |---|---|
 | `servicios/auditoria-codigo-ia/index.html` | **Nuevo.** La pagina completa, en 6 idiomas. |
 | `servicios/auditoria-codigo-ia/audit-form.js` | **Nuevo.** Validacion y composicion del `mailto:`. |
-| `index.html` | Enlace en la navegacion lateral, CTA en el hero, seccion `#auditoria-ia` antes de `#productos`, tarjeta en `#servicios` y enlace en el footer. Ademas: los controles de vista/idioma/tema se movieron del pie del sidebar al tope del contenido. |
+| `index.html` | `og:image` + `twitter:image`. Enlace en la navegacion lateral, CTA en el hero, seccion `#auditoria-ia` antes de `#productos`, tarjeta en `#servicios` y enlace en el footer. Ademas: los controles de vista/idioma/tema se movieron del pie del sidebar al tope del contenido. |
 | `styles.css` | `.content-controls` (barra de controles) y el bloque de estilos de la pagina de servicio. Se retiraron las reglas `.sidebar__controls` y `.sidebar .views/.settings`, que quedaron sin elemento al que aplicarse. |
 | `sitemap.xml` | URL nueva. |
 | `scripts/generate-seo.js` | La pagina entra en `PUBLIC_HTML_FILES`. |
@@ -115,6 +115,8 @@ describen el servicio.
 | `scripts/build.js` | `servicios/` entra en `DIRS_TO_COPY`. |
 | `scripts/build-zip.py` | `servicios/` entra en `DIRS_INCLUDE`. |
 | `package.json` | `lint:html` cubre `servicios/**/*.html`. |
+| `scripts/generate-og-image.py` | **Nuevo.** Genera las tarjetas Open Graph 1200x630. |
+| `assets/og/*.png` | **Nuevo.** Las dos tarjetas generadas. |
 | `docs/AI_CODE_ASSURANCE.md` | Este documento. |
 | `CHANGELOG.md` | Entrada de la sesion. |
 
@@ -156,9 +158,10 @@ Chrome (`EPERM`), que es el motivo por el que `pnpm lhci` ya venia con `|| echo`
   (`14 years of core experience at Fundacion CEIS Maristas`). Cambiarlos a 16 volveria falsa esa
   cifra. Los generadores de PDF **no se tocaron**: `generate-portfolio.py` ya declaraba `16+
   years` de trayectoria, y sus "14 years" son la permanencia en CEIS.
-- **Imagen Open Graph.** La pagina declara `twitter:card = summary_large_image` heredando la
-  convencion del sitio, pero el sitio no publica una imagen `og:image` propia. Si se quiere
-  tarjeta con imagen, hay que generarla y declararla.
+- ~~Imagen Open Graph.~~ **Resuelto el 2026-08-27**: `scripts/generate-og-image.py` produce
+  `assets/og/og-home.png` y `assets/og/og-auditoria-codigo-ia.png` (1200x630, con la paleta de
+  `:root`), y ambas paginas declaran `og:image`, `og:image:type/width/height/alt` y
+  `twitter:image` con URL absoluta.
 - **Comprobacion de enlaces en CI.** El `rel="canonical"` apunta a una URL que solo existe una
   vez publicada. La primera ejecucion de Lychee tras el push puede reportarla como rota
   mientras GitHub Pages termina de desplegar. El job no rompe la build (`lycheeverse/lychee-action`

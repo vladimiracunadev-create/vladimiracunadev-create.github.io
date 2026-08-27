@@ -2,6 +2,31 @@
 
 ## 2026-08-27
 
+### feat(seo): tarjetas Open Graph — el sitio declaraba summary_large_image sin imagen
+
+`index.html` y la pagina de servicio declaraban `twitter:card = summary_large_image` pero el
+sitio no publicaba ninguna imagen: al compartir un enlace en LinkedIn, X, Slack o WhatsApp
+salia la tarjeta vacia, con el titulo colgando sobre un rectangulo gris.
+
+`scripts/generate-og-image.py` genera las dos tarjetas de 1200x630 con **los mismos tokens de
+color que `:root` en `styles.css`** (fondo `#0b0d10`, acento `#70a5ff`, las manchas radiales del
+body y el avatar en circulo con su aro de acento), de modo que la vista previa se lee como el
+portafolio y no como un enlace generico:
+
+- `assets/og/og-home.png` — portada.
+- `assets/og/og-auditoria-codigo-ia.png` — /servicios/auditoria-codigo-ia/.
+
+Ambas paginas declaran `og:image`, `og:image:type`, `og:image:width`, `og:image:height`,
+`og:image:alt` y `twitter:image` / `twitter:image:alt`, **con URL absoluta**: los crawlers de
+las redes no resuelven rutas relativas.
+
+Las imagenes son artefactos generados, no dibujos a mano: si cambia el titular de una pagina hay
+que actualizar su entrada en `CARDS` y volver a correr el script. Queda anotado en `CLAUDE.md`.
+
+No hizo falta tocar el empaquetado: `assets/` ya entra completo en `build.js` y en
+`build-zip.py`. Tampoco entran al app shell del service worker — las consumen crawlers, no el
+navegador de la persona, y son 96 KB cada una.
+
 ### feat(servicios): auditoria de codigo generado por IA — linea profesional nueva con pagina propia
 
 Se incorpora una linea profesional que hasta ahora no existia en el sitio: **auditoria,
