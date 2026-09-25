@@ -1,4 +1,4 @@
-const CACHE_NAME = 'vladi-portfolio-v18-release-v250';
+const CACHE_NAME = 'vladi-portfolio-v17-business-card-cache-bust';
 const OFFLINE_URL = './offline.html';
 
 const APP_SHELL = [

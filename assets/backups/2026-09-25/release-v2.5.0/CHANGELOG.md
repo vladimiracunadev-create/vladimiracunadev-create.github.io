@@ -2,40 +2,6 @@
 
 ## 2026-09-25
 
-### release: v2.5.0 — portafolio sincronizado, CV y tarjeta profesional
-
-Publicado en <https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/releases/tag/v2.5.0>
-sobre `main`, con el sitio, el wrapper móvil y los artefactos de descarga alineados en `2.5.0`.
-
-- Portafolio sincronizado con 62 repositorios propios; 36 PDFs vigentes y 12 CV
-  ATS/reclutador reclasificados sin la categoría ambigua `Otros`.
-- Nueva sección web `#tarjeta`, accesible desde el menú, con frente y reverso
-  definitivos, descargas directas y contenido localizado en seis idiomas.
-- Fecha visible de referencia: **2026-09-25, 16:52 (America/Santiago)**.
-- El enlace Android usa nuevamente el alias estable
-  `releases/latest/download/app-debug.apk`, evitando nombres de versión obsoletos.
-- Caché PWA renovada a `v18-release-v250` y registro con cache busting propio.
-- Versiones sincronizadas: paquete raíz y móvil `2.5.0`; Android
-  `versionCode=250` / `versionName=2.5.0`; iOS
-  `CURRENT_PROJECT_VERSION=250` / `MARKETING_VERSION=2.5.0`.
-
-| Artefacto | Tamaño | SHA-256 | Qué es |
-|---|---:|---|---|
-| `portfolio-app-v2.5.0-debug.apk` | 4,84 MB | `b5590253142ee59aaac0ca97347b9d10879831d9f9ff534c416210b09fa49cc3` | APK Android (Capacitor 6), sideload |
-| `app-debug.apk` | 4,84 MB | `b5590253142ee59aaac0ca97347b9d10879831d9f9ff534c416210b09fa49cc3` | Mismo binario bajo el alias estable que enlaza el sitio |
-| `portfolio-pwa-v2.5.0.zip` | 1,29 MB | `4ab13adb4fbd158895cb709fe31731f5f69a32fe9eaa9cf7181b1db98f00da92` | Bundle web/PWA para hosting estático |
-| `SHA256SUMS.txt` | — | — | Checksums verificables de los tres artefactos |
-
-**Verificación de artefactos:** `aapt2 dump badging` confirma Android
-`versionCode=250` / `versionName=2.5.0`. El APK contiene 58 archivos web públicos,
-incluidos 36 PDFs; su `index.html` conserva la fecha y hora de referencia, el
-enlace estable del APK y las dos imágenes corregidas de la tarjeta. Los SHA-256
-de ambas imágenes dentro del APK coinciden exactamente con los originales. El
-bundle PWA contiene 78 archivos y excluye `backups/`, `no_aplica/` y
-`por_solicitud/`.
-
-**Respaldo previo:** `assets/backups/2026-09-25/release-v2.5.0/`.
-
 ### sync-portfolio (automático — 2026-09-25)
 
 - `api/v1/`: generated_at → 2026-09-25

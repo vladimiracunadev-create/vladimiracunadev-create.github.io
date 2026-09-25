@@ -9,7 +9,7 @@ if ('serviceWorker' in navigator) {
             window.location.reload();
         });
 
-        navigator.serviceWorker.register('./service-worker.js?v=9-release-v250')
+        navigator.serviceWorker.register('./service-worker.js?v=8-business-card-cache-bust')
             .then(reg => {
                 console.log('PWA: Service Worker registrado', reg.scope);
                 reg.update().catch(() => console.log('PWA: No se pudo forzar actualización del SW'));
