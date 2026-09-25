@@ -1,4 +1,4 @@
-const CACHE_NAME = 'vladi-portfolio-v16-business-card-services';
+const CACHE_NAME = 'vladi-portfolio-v17-business-card-cache-bust';
 const OFFLINE_URL = './offline.html';
 
 const APP_SHELL = [
@@ -13,8 +13,8 @@ const APP_SHELL = [
     './assets/icons/icon-maskable-512.png',
     './assets/icons/apple-touch-icon.png',
     './assets/icons/avatar-vladimir.jpg',
-    './assets/icons/1.png',
-    './assets/icons/2.png',
+    './assets/icons/1.png?v=5adde69a',
+    './assets/icons/2.png?v=1a55b3e6',
     './servicios/auditoria-codigo-ia/',
     './servicios/auditoria-codigo-ia/audit-form.js'
 ];
