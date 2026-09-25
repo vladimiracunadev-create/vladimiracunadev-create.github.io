@@ -1,7 +1,7 @@
 {
     "meta": {
         "version": "v1",
-        "generated_at": "2026-08-19",
+        "generated_at": "2026-09-25",
         "source_pdf": "assets/cv-ats.pdf"
     },
     "projects": [
@@ -269,7 +269,7 @@
         },
         {
             "name": "claude-skills-toolkit",
-            "description": "🧰 claude-skills-toolkit · ⚡ 14 skills agentic para Claude Code · 🔒 security-audit (12 capas: OSV/KEV/EPSS/SAST/…) · 🐍 python-lint-guard (paridad local↔CI) · 📌 python-deps-pinning · 🏷️ version-bump · 📄 md-to-doc · 📋 yaml-control · 📝 md-lint-fix · 🐳 docker-cleanup · Zero-deps por defecto · Cross-platform 🐧🍎🪟",
+            "description": "🧰 claude-skills-toolkit · ⚡ 15 skills agentic para Claude Code · 🔒 security-audit (12 capas: OSV/KEV/EPSS/SAST/…) · ₿ bitcoin-custody-audit (custodia Bitcoin, 14 etapas) · 🐍 python-lint-guard · 📌 python-deps-pinning · 🏷️ version-bump · 📄 md-to-doc · 📋 yaml-control · 📝 md-lint-fix · 🐳 docker-cleanup · Zero-deps · Cross-platform 🐧🍎🪟",
             "url": "https://github.com/vladimiracunadev-create/claude-skills-toolkit",
             "tags": [
                 "Claude Code",
@@ -411,14 +411,14 @@
         },
         {
             "name": "modern-cybersecurity-program",
-            "description": "🛡️ El programa de ciberseguridad más completo en español — 340 clases, 19 partes, de fundamentos a nivel experto. Laboratorios Docker, retos CTF, autoevaluaciones, guías PDF/PPTX y mapeo a 7 certificaciones (Security+, PenTest+, CySA+, OSCP, CISSP, BTL1, SANS) con 86–92% de cobertura.",
+            "description": "🛡️ modern-cybersecurity-program v1.3.0 · 360 clases en 20 partes · 2.424 términos · CTF, Game Security y 14 plataformas de práctica · app Android/web offline · manual PDF · CI, Security y Pages verificados.",
             "url": "https://github.com/vladimiracunadev-create/modern-cybersecurity-program",
             "tags": [],
             "category": "other"
         },
         {
             "name": "machine-operator-program",
-            "description": "🕹️ Base documental del Programa de Operación y Simulación de Máquinas — mandos, instrumentos, historia, reglamentos y diseño de simulación de motos, autos, buses, grúas, buques, aeronaves y naves espaciales, con foco educativo y de seguridad. 📚",
+            "description": "🕹️ machine-operator-program · 41 módulos formativos, uno por máquina · 451 clases · 502 h 15 min de aprendizaje · Sistemas, mandos, física, seguridad y simulación con fuentes por clase · Markdown + Python 📚",
             "url": "https://github.com/vladimiracunadev-create/machine-operator-program",
             "tags": [],
             "category": "other"
@@ -460,21 +460,21 @@
         },
         {
             "name": "executive-leadership-founder-program",
-            "description": "👔 Programa ejecutivo abierto de 288 clases en 24 partes · 720 h · De asumir tu primer resultado a dirigir una empresa y crear la tuya: liderazgo, equipos, talento, operaciones, KPI/OKR, finanzas, ventas, marketing, producto, estrategia, riesgo, IA, directorio, M&A y founder track Chile · 24 casos, 96 labs y 39 plantillas 📈",
+            "description": "👔 Programa ejecutivo público de 288 clases en 24 partes · 720 h · De asumir tu primer resultado a dirigir una empresa y crear la tuya: liderazgo, equipos, talento, operaciones, KPI/OKR, finanzas, ventas, marketing, producto, estrategia, riesgo, IA, directorio, M&A y founder track Chile · 24 casos, 96 labs y 39 plantillas 📈",
             "url": "https://github.com/vladimiracunadev-create/executive-leadership-founder-program",
             "tags": [],
             "category": "other"
         },
         {
             "name": "finance-and-banking-evolution-program",
-            "description": "🏦 Programa abierto de 356 clases en 23 partes · 534 h · De calcular un porcentaje a construir y defender un banco digital: matemática financiera, contabilidad NIIF, crédito, riesgos, Basilea III, cumplimiento, finanzas abiertas, pagos transfronterizos, DLT, stablecoins, tokenización y MiCA · 26 casos y fuentes oficiales verificables en cada clase 💰",
+            "description": "🏦 Programa abierto de 356 clases · Finanzas y banca, riesgo, custodia de activos digitales, segregación patrimonial, conciliación Ledger↔Bank↔Exchange↔Blockchain, treasury, liquidez, trading, control interno y gobernanza · 27 casos · 298 pruebas",
             "url": "https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program",
             "tags": [],
             "category": "other"
         },
         {
             "name": "blockchain-learning-path",
-            "description": "⛓️ Blockchain Learning Path v0.9.0 · Programa en español: 28 módulos de cero a la infraestructura financiera programable — cripto, Bitcoin, EVM, contratos, seguridad, L2, ZK, DeFi, dinero y liquidación, stablecoins, CBDC/MDBC, pagos y FX, tokenización, RWA, mercados de capitales, custodia y regulación. 70 prácticas, 186 pruebas, apps offline. 🔗",
+            "description": "⛓️ blockchain-learning-path · v0.14.0 · 66 clases, 91 prácticas y 356 pruebas · Andes Quest: DB vs activos on-chain · Solidity, custodia, PoR y forensics · Apps offline 🪟📱🌐",
             "url": "https://github.com/vladimiracunadev-create/blockchain-learning-path",
             "tags": [],
             "category": "other"
@@ -510,14 +510,14 @@
         },
         {
             "name": "artificial-intelligence-evolution-program",
-            "description": "🧠 AI Evolution Program v0.14.1 · 183 clases en 15 partes · 705 notebooks · Eje de 148 papers fundacionales enlazados desde 171 clases, con puente a 5 anexos matemáticos · Apps de Windows (instalador, MSI, portable, exe) y Android · sitio, PDFs y miniaturas ejecutables · La evolución de la IA en español. 🤖",
+            "description": "🧠 artificial-intelligence-evolution-program · v0.17.0 · 183 clases en 15 partes · 705 notebooks · 148 papers fundacionales · IA simbólica → LLMs, RAG, agentes, seguridad y frontera · Apps Windows/Android + PWA offline · Python 🐧🍎🪟",
             "url": "https://github.com/vladimiracunadev-create/artificial-intelligence-evolution-program",
             "tags": [],
             "category": "other"
         },
         {
             "name": "rootcause-web-inspector",
-            "description": "🌐 RootCause Web Inspector v0.1.0 — sensor forense de la superficie del navegador: cookies, sesiones de correo, extensiones, descargas y permisos de sitio. Panel local en 127.0.0.1, extension MV3, CERO dependencias y cero telemetria verificada en CI. Hermano de las ediciones Windows (Rust) y Mobile (Flutter).",
+            "description": "🌐 RootCause Web Inspector v0.2.0 — sensor forense del navegador: cookies, sesiones de correo, extensiones, descargas, permisos y páginas que simulan una ventana real (Browser-in-the-Browser). Panel local en 127.0.0.1, extensión MV3, CERO dependencias y cero telemetría verificada en CI.",
             "url": "https://github.com/vladimiracunadev-create/rootcause-web-inspector",
             "tags": [],
             "category": "other"
@@ -531,14 +531,14 @@
         },
         {
             "name": "multi-cloud-engineering-program",
-            "description": "☁️ Multi-Cloud Engineering Program v2.0.0 · 288 clases en 24 partes · 1.288 horas · El programa de ingeniería multi-cloud más completo en español: AWS, Azure, GCP, Kubernetes, Terraform, SRE, FinOps y arquitectura de sistemas · Manual PDF de 1.220 páginas, 288 labs deterministas con evidencia JSON, CLI con certificado y portal PWA. 🌩️",
+            "description": "☁️ Multi-Cloud Engineering Program v2.2.0 · 288 clases en 24 partes · 1.288 horas · El programa de ingeniería multi-cloud más completo en español: AWS, Azure, GCP, Kubernetes, Terraform, SRE, FinOps y arquitectura de sistemas · Manual PDF de 2.884 páginas, 288 labs con evidencia JSON y 1.032 fuentes trazadas. 🌩️",
             "url": "https://github.com/vladimiracunadev-create/multi-cloud-engineering-program",
             "tags": [],
             "category": "other"
         },
         {
             "name": "neural-network-training-labs",
-            "description": "🧠 Neural Network Training Labs v1.0 · 31 rutas (25 labs + 6 especializaciones) · 93 notebooks · Ciclo completo de ingeniería de IA con datasets públicos reales: sellado de test, registro champion/challenger, API de inferencia, ONNX/INT8/edge, DDP/FSDP2 y cadena de suministro (SBOM/SHA-256). PyTorch · Python 3.11–3.13 🚀",
+            "description": "🧠 Neural Network Training Labs · 31 clases en 7 módulos · ≈214 horas · 93 notebooks · preguntas, mapas visuales, prácticas y evaluación con datos públicos reales · PyTorch",
             "url": "https://github.com/vladimiracunadev-create/neural-network-training-labs",
             "tags": [],
             "category": "other"
@@ -587,7 +587,7 @@
         },
         {
             "name": "empresa-operativa-chile",
-            "description": "🏢 v1.4.0 · Crear, operar y controlar una empresa chilena a través del tiempo: constitución con evidencia, capital y CPT, patente municipal con su base legal, IVA/PPM, F29, cierre anual inmutable y auditoría. Guía, manual y glosario dentro de la app. Android, Windows y navegador. Reglas con fuente oficial. Cero telemetría. 🇨🇱",
+            "description": "🏢 v1.5.0 · Crear, operar y controlar una empresa chilena: constitución con evidencia, capital y CPT, patente municipal, IVA/PPM, F29, cierre anual, control interno e investigación de integridad. Guía, manual y glosario dentro de la app. Android, Windows y navegador. Fuentes oficiales. Cero telemetría. 🇨🇱",
             "url": "https://github.com/vladimiracunadev-create/empresa-operativa-chile",
             "tags": [],
             "category": "other"
@@ -596,6 +596,139 @@
             "name": "rootcause-macos-inspector",
             "description": "🍎 RootCause macOS Inspector v0.1.0 — sensor forense de ciberseguridad para macOS (Rust): persistencia launchd, Gatekeeper, SIP, FileVault, XProtect, permisos TCC, procesos con firma y vecinos de red. Compara cada superficie con un estado bueno conocido y explica qué cambió, con evidencia. Telemetría: cero. Hermano de Windows, Web y Mobile. 🛡️",
             "url": "https://github.com/vladimiracunadev-create/rootcause-macos-inspector",
+            "tags": [],
+            "category": "other"
+        },
+        {
+            "name": "codex-skills-toolkit",
+            "description": "🧰 codex-skills-toolkit · ⚡ 19 Agent Skills para Codex · 🔒 seguridad y supply chain · 🧪 preflight y flujos funcionales · 🧯 resiliencia y estado · 🚦 evidencia de release · 🐍 Python-first · pnpm · Cross-platform 🐧🍎🪟",
+            "url": "https://github.com/vladimiracunadev-create/codex-skills-toolkit",
+            "tags": [],
+            "category": "other"
+        },
+        {
+            "name": "rootcause-qr-inspector",
+            "description": "📱 rootcause-qr-inspector · ⚡ 26 señales locales y 107 pruebas · cámara, imágenes y PDF · evidencia redactada · Flutter/Dart · local-first y telemetría cero · APK Android v0.1.4 publicado",
+            "url": "https://github.com/vladimiracunadev-create/rootcause-qr-inspector",
+            "tags": [],
+            "category": "other"
+        },
+        {
+            "name": "chilean-school-learning-path",
+            "description": "🇨🇱 Matemática y Lenguaje de 1° básico completos: 214 clases en 46 OA · 12.997 propuestas y 2.823 OA · fuentes MINEDUC, evaluación y dificultades de aula · Python + HTML · GitHub Pages",
+            "url": "https://github.com/vladimiracunadev-create/chilean-school-learning-path",
+            "tags": [],
+            "category": "other"
+        },
+        {
+            "name": "architecture-built-environment-learning-program",
+            "description": "🏛️ architecture-built-environment-learning-program · 680 clases en 68 partes y 2 fases · 12 rutas · 622 fuentes trazadas · Markdown, lector offline y GitHub Pages · Python · Español",
+            "url": "https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program",
+            "tags": [],
+            "category": "other"
+        },
+        {
+            "name": "pdf-reader-windows-android",
+            "description": "📄 PDF Reader v0.3.1 · lector PDF Android-first local y de solo lectura · navegación sin saltos, miniaturas acotadas e historial reabrible · Android 7+, Windows y Web · cero cuentas, permisos sensibles y telemetría · APK firmado 🔒",
+            "url": "https://github.com/vladimiracunadev-create/pdf-reader-windows-android",
+            "tags": [],
+            "category": "other"
+        },
+        {
+            "name": "universal-payments-engineering-lab",
+            "description": "💳 Laboratorio autoexplicativo de ingeniería de pagos: 28 familias, DEMO local, estados, ledger, conciliación, seguridad y guías de implementación.",
+            "url": "https://github.com/vladimiracunadev-create/universal-payments-engineering-lab",
+            "tags": [],
+            "category": "other"
+        },
+        {
+            "name": "psychometrics-and-assessment-program",
+            "description": "🧠 psychometrics-and-assessment-program · 🧪 5 instrumentos · 📝 344 ítems · 📐 81 escalas · ⚙️ scoring auditable · 🎓 currículo: 40 clases (5 escritas) · ⚖️ licencias trazables · 🐍 Python 3.11–3.13 · ✅ 57 tests",
+            "url": "https://github.com/vladimiracunadev-create/psychometrics-and-assessment-program",
+            "tags": [],
+            "category": "other"
+        },
+        {
+            "name": "rootcause-server",
+            "description": "🛡️ RootCause Server v0.2.0 — plano de control en Rust que defiende servidores y la red que los rodea: superficie expuesta, ráfagas de autenticación, acceso concedido tras la ráfaga, integridad de archivos críticos y silencio del sensor. 18 reglas con evidencia y runbook — nunca ejecuta nada. Consola local sin dependencias web. 🐧🍎🪟",
+            "url": "https://github.com/vladimiracunadev-create/rootcause-server",
+            "tags": [],
+            "category": "other"
+        },
+        {
+            "name": "aws-desktop-studio",
+            "description": "🧪 AWS Desktop Studio · ⚡ 15 integraciones de inventario + 20 tutoriales · AWS CLI, Electron y localhost · Implementación en desarrollo; no acceso universal · Windows 🪟",
+            "url": "https://github.com/vladimiracunadev-create/aws-desktop-studio",
+            "tags": [],
+            "category": "other"
+        },
+        {
+            "name": "ai-dataset-foundry",
+            "description": "🏭 AI Dataset Foundry v0.2.0 — factoría local-first para convertir PDF, Word, web, Git, JSON y CSV en datasets auditables para pretraining, fine-tuning, RAG y evaluación · Windows + Android offline.",
+            "url": "https://github.com/vladimiracunadev-create/ai-dataset-foundry",
+            "tags": [],
+            "category": "other"
+        },
+        {
+            "name": "rootcause-blockchain-security",
+            "description": "⛓️ Laboratorio profesional watch-only de blockchain forensics y root cause analysis para Bitcoin, Ethereum y Polygon: TX, direcciones, reconciliación, grafos, timelines e informes con evidencia verificable. CLI + API local, cero dependencias, nunca claves privadas. 🛡️",
+            "url": "https://github.com/vladimiracunadev-create/rootcause-blockchain-security",
+            "tags": [],
+            "category": "other"
+        },
+        {
+            "name": "rootcause-bitcoin-defense",
+            "description": "₿ RootCause Bitcoin Defense v0.3.0 — defensa watch-only y laboratorio forense UTXO: inputs, outputs, fees, change, procedencia, grafo de transacciones y reconciliación contable en regtest. App local, cero dependencias, nunca pide semillas ni usa fondos reales. Verificado en CI. 🛡️",
+            "url": "https://github.com/vladimiracunadev-create/rootcause-bitcoin-defense",
+            "tags": [],
+            "category": "other"
+        },
+        {
+            "name": "decentraland-social-arcade",
+            "description": "🕹️ decentraland-social-arcade · 🎮 Experiencia 3D social nativa de Decentraland · 1 MVP y arquitectura multijuego · SDK7 + ECS + TypeScript · documentación en español · sin pagos ni telemetría",
+            "url": "https://github.com/vladimiracunadev-create/decentraland-social-arcade",
+            "tags": [],
+            "category": "other"
+        },
+        {
+            "name": "commerce-operating-system",
+            "description": "🧭 Commerce OS v0.3.0 · demo conceptual guiada en 6 pestañas: catálogo, stock, CRM, pedidos, pagos mock y trazabilidad · Web, Windows y Android · Sin dinero ni SII real",
+            "url": "https://github.com/vladimiracunadev-create/commerce-operating-system",
+            "tags": [],
+            "category": "other"
+        },
+        {
+            "name": "panuelo-al-viento-cueca-app",
+            "description": "🧣 Pañuelo al Viento · Academia interactiva de cueca desde los 10 años · 24 clases, Dojo con huellas y espejo, Pañuelo Lab, Escenario guiado y progreso por habilidades · Flutter local-first · Android + Windows · v0.2.0 💃",
+            "url": "https://github.com/vladimiracunadev-create/panuelo-al-viento-cueca-app",
+            "tags": [],
+            "category": "other"
+        },
+        {
+            "name": "qemu-kvm-labs",
+            "description": "🧰 qemu-kvm-labs · ⚡ 12 labs de virtualización real · QEMU, KVM, libvirt, cloud-init y vm-manager · Linux + WSL2 🐧🪟",
+            "url": "https://github.com/vladimiracunadev-create/qemu-kvm-labs",
+            "tags": [],
+            "category": "other"
+        },
+        {
+            "name": "database-systems-labs",
+            "description": "🗄️ Programa abierto de ingeniería de bases de datos · 74 clases en 15 partes · 230 h · Del modelado conceptual a la arquitectura distribuida, la operación y la recuperación para IA · 120 fuentes con ISBN, DOI o norma citadas clase a clase y verificadas en CI · Glosario de 306 términos · El mismo caso resuelto en 27 motores 📚",
+            "url": "https://github.com/vladimiracunadev-create/database-systems-labs",
+            "tags": [],
+            "category": "other"
+        },
+        {
+            "name": "video-transcript-studio",
+            "description": "🎙️ Un video, una lista o un CANAL COMPLETO de YouTube → texto con marcas de tiempo. Whisper 100% local: sin API, sin cuenta, sin telemetría. Asistente de 4 etapas en escritorio Windows + panel local en 127.0.0.1 + CLI, con la misma cola. MD, PDF, TXT, SRT, VTT, JSON, MP3, OGG. FFmpeg incluido. Modo oscuro. 89 tests. 🇪🇸",
+            "url": "https://github.com/vladimiracunadev-create/video-transcript-studio",
+            "tags": [],
+            "category": "other"
+        },
+        {
+            "name": "framework-ecosystems-labs",
+            "description": "🧪 Laboratorio de clases comparadas: el mismo contrato ejecutable, sin adaptadores, contra Express, FastAPI, Spring Boot, ASP.NET, Django, Rails, Laravel, React, Vue, Svelte y más. 149 clases en 12 partes (70 construidas, 397 casos verificados en CI) · 210 fuentes con ISBN/DOI · seguridad, datos, interfaz",
+            "url": "https://github.com/vladimiracunadev-create/framework-ecosystems-labs",
             "tags": [],
             "category": "other"
         }
