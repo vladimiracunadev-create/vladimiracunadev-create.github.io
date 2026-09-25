@@ -17,13 +17,13 @@ de vigencia.
 - Los 12 archivos `cv-ats*.pdf` y `cv-reclutador*.pdf` se regeneraron en los
   seis idiomas con fecha, hora y zona `America/Santiago`.
 - La web muestra una opción `Tarjeta` en el menú y una sección accesible con
-  `assets/icons/1.png` (frente) y `assets/icons/2.png` (reverso), texto
-  multilingüe y descargas directas.
-- La web muestra la vigencia `2026-09-25, 16:27 (America/Santiago)` y el agente
+  `assets/icons/1.png` (frente) y `assets/icons/2.png` (reverso de servicios),
+  texto multilingüe y descargas directas.
+- La web muestra la vigencia `2026-09-25, 16:36 (America/Santiago)` y el agente
   de sincronización actualizará automáticamente esa referencia en ejecuciones
   posteriores.
-- El service worker usa la caché `vladi-portfolio-v15-business-card` e incluye
-  ambas imágenes en el app shell.
+- El service worker usa la caché `vladi-portfolio-v16-business-card-services`
+  e incluye ambas imágenes en el app shell.
 
 ## Respaldo
 

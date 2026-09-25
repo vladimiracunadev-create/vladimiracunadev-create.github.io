@@ -27,7 +27,8 @@
   de la tarjeta profesional, enlaces de descarga y texto en seis idiomas.
 - La fecha de referencia de la web incluye hora y zona horaria; el sincronizador
   queda preparado para renovarla automáticamente en cada actualización.
-- El app shell PWA incluye ambas imágenes y renueva su caché a `v15`.
+- El app shell PWA incluye ambas imágenes y renueva su caché a `v16` para
+  distribuir el reverso definitivo con el resumen de servicios.
 - Respaldo previo de los 12 CV en
   `assets/backups/2026-09-25/classification-card-fix/`.
 

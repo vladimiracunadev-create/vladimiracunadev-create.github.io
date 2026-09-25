@@ -1,4 +1,4 @@
-const CACHE_NAME = 'vladi-portfolio-v15-business-card';
+const CACHE_NAME = 'vladi-portfolio-v16-business-card-services';
 const OFFLINE_URL = './offline.html';
 
 const APP_SHELL = [
