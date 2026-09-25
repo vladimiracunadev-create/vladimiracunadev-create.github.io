@@ -132,6 +132,10 @@ def recruiter_styles():
             "RBullet", fontName="Helvetica", fontSize=8, leading=10.5,
             textColor=DARK, spaceAfter=0.5, leftIndent=10, bulletIndent=0,
         ),
+        project=ParagraphStyle(
+            "RProject", fontName="Helvetica", fontSize=7.1, leading=8.35,
+            textColor=DARK, spaceAfter=0.25, leftIndent=10, bulletIndent=0,
+        ),
         tech=ParagraphStyle(
             "RTech", fontName="Helvetica", fontSize=7.5, leading=10,
             textColor=MUTED, spaceAfter=1,
@@ -629,6 +633,9 @@ class UnifiedCV(BaseDocTemplate):
         canvas.setFillColor(HexColor("#a0b8d0"))
         canvas.setFont("Helvetica", 8.5)  # contacto latino: nunca la CID
         canvas.drawString(0.45*inch, PAGE_H - 0.85*inch, self.header_data["contact"])
+        canvas.setFont(body_font, 6.5)
+        canvas.drawRightString(PAGE_W - 0.45*inch, PAGE_H - 0.85*inch,
+                               self.header_data.get("updated", ""))
         # Sidebar background
         canvas.setFillColor(SIDEBAR_BG)
         canvas.rect(0, 0, SIDEBAR_W, PAGE_H - HEADER_H, fill=1, stroke=0)
@@ -654,6 +661,9 @@ class UnifiedCV(BaseDocTemplate):
         canvas.setFillColor(HexColor("#a0b8d0"))
         canvas.setFont("Helvetica", 8.5)  # contacto latino: nunca la CID
         canvas.drawString(0.45*inch, PAGE_H - 0.85*inch, self.header_data["contact"])
+        canvas.setFont(body_font, 6.5)
+        canvas.drawRightString(PAGE_W - 0.45*inch, PAGE_H - 0.85*inch,
+                               self.header_data.get("updated", ""))
         canvas.setStrokeColor(ACCENT)
         canvas.setLineWidth(2)
         canvas.line(0, PAGE_H - HEADER_H, PAGE_W, PAGE_H - HEADER_H)
@@ -739,7 +749,7 @@ def build_recruiter_section(sidebar_data, main_data, lang="es"):
 
     items.append(Paragraph(main_data["h_projects"], s["heading"]))
     for proj in main_data["projects"]:
-        items.append(bp(s["bullet"], proj))
+        items.append(bp(s["project"], proj))
 
     # ── Document links (achievements, recommendation) ──
     if main_data.get("doc_links"):
@@ -798,6 +808,8 @@ def build_ats_section(ats_data, lang="es"):
     items.append(Paragraph(ats_data["contact_line1"], s["contact"]))
     items.append(Paragraph(ats_data["contact_line2"], s["contact"]))
     items.append(Paragraph(ats_data["contact_line3"], s["contact"]))
+    if ats_data.get("updated_line"):
+        items.append(Paragraph(ats_data["updated_line"], s["contact"]))
 
     # Summary
     items.append(hr())

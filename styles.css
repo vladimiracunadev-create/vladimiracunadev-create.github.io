@@ -565,6 +565,52 @@ body[data-theme="light"] .lang-select option {
   grid-template-columns: 1fr 1fr 1fr
 }
 
+.business-card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.business-card {
+  margin: 0;
+  padding: 12px;
+  overflow: hidden;
+}
+
+.business-card a {
+  display: block;
+  border-radius: calc(var(--radius2) - 6px);
+  overflow: hidden;
+}
+
+.business-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 7 / 4;
+  object-fit: cover;
+  transition: transform .2s ease;
+}
+
+.business-card a:hover img,
+.business-card a:focus-visible img {
+  transform: scale(1.015);
+}
+
+.business-card figcaption {
+  padding: 12px 4px 2px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.business-card-actions {
+  margin-top: 14px;
+}
+
+.site-updated {
+  font-variant-numeric: tabular-nums;
+}
+
 .card {
   background: var(--card-bg);
   border: 1px solid var(--line);
@@ -961,6 +1007,7 @@ body[data-view="deep"] .repo {
   .grid,
   .grid--2,
   .grid--3,
+  .business-card-grid,
   .signal-grid {
     grid-template-columns: 1fr
   }

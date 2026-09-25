@@ -1,4 +1,4 @@
-const CACHE_NAME = 'vladi-portfolio-v14-auditoria-ia';
+const CACHE_NAME = 'vladi-portfolio-v15-business-card';
 const OFFLINE_URL = './offline.html';
 
 const APP_SHELL = [
@@ -13,6 +13,8 @@ const APP_SHELL = [
     './assets/icons/icon-maskable-512.png',
     './assets/icons/apple-touch-icon.png',
     './assets/icons/avatar-vladimir.jpg',
+    './assets/icons/1.png',
+    './assets/icons/2.png',
     './servicios/auditoria-codigo-ia/',
     './servicios/auditoria-codigo-ia/audit-form.js'
 ];

@@ -18,6 +18,8 @@ Outputs:
 """
 
 import os, sys
+from datetime import datetime
+from zoneinfo import ZoneInfo
 
 # Add parent to path so we can import the other scripts
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -78,6 +80,19 @@ GITHUB_URL = "https://github.com/vladimiracunadev-create"
 GITLAB_URL = "https://gitlab.com/vladimir.acuna.dev-group"
 LINKEDIN_URL = "https://www.linkedin.com/in/vladimir-acuna-valdebenito"
 WEB_URL = "https://vladimiracunadev-create.github.io/"
+
+# La referencia de vigencia se calcula al generar, en la zona horaria declarada
+# del portafolio. De este modo cada PDF informa hasta qué fecha y hora refleja
+# la información, en vez de depender de una fecha manual que puede quedar vieja.
+UPDATED_AT = datetime.now(ZoneInfo("America/Santiago")).strftime("%Y-%m-%d %H:%M")
+UPDATED_LABELS = {
+    "es": f"Información actualizada hasta: {UPDATED_AT} (America/Santiago)",
+    "en": f"Information current through: {UPDATED_AT} (America/Santiago)",
+    "pt": f"Informações atualizadas até: {UPDATED_AT} (America/Santiago)",
+    "it": f"Informazioni aggiornate al: {UPDATED_AT} (America/Santiago)",
+    "fr": f"Informations à jour au : {UPDATED_AT} (America/Santiago)",
+    "zh": f"信息更新至：{UPDATED_AT}（America/Santiago）",
+}
 
 PROJECTS_URLS = {
     "aws_gh": "https://github.com/vladimiracunadev-create/proyectos-aws",
@@ -1357,6 +1372,8 @@ def build_cv(data, output_path, lang="es"):
     story.append(Paragraph(data["contact_line1"], s["contact"]))
     story.append(Paragraph(data["contact_line2"], s["contact"]))
     story.append(Paragraph(data["contact_line3"], s["contact"]))
+    if data.get("updated_line"):
+        story.append(Paragraph(data["updated_line"], s["contact"]))
     story.append(_ats_hr())
     story.append(Paragraph(data["h_summary"], s["heading"]))
     for item in data["summary"]:
@@ -1402,20 +1419,23 @@ def build_cv(data, output_path, lang="es"):
 # RootCause en vez de colapsarlas en "RootCause x4".
 #
 # projects_rec / projects_ats siguen intactas: son el inventario que alimenta
-# sync-portfolio.py. Una clave nueva que aparezca ahí y no esté categorizada
-# abajo cae en el grupo "Otros" — visible, nunca perdida.
+# sync-portfolio.py. Toda clave debe pertenecer expresamente a una familia. Si
+# aparece una nueva sin clasificar, la generación falla para evitar publicar un
+# ambiguo "Otros" que no explica la naturaleza del proyecto.
 
 PROJECT_GROUPS = [
     ("products", ["rootcause", "rootcause_mobile", "rootcause_macos", "rootcause_web",
                   "empresa", "universal", "gabysql", "automa", "chofyai", "rhino",
-                  "violin", "guitarra"]),
+                  "violin", "guitarra", "rootcause_qr", "rootcause_server", "pdf",
+                  "decentraland", "commerce", "video"]),
     ("labs", ["problem", "social", "micro", "docker", "wsl", "unikernel", "sandbox",
-              "aws_gh", "aws_gl"]),
-    ("ai", ["langgraph", "operational", "mcp", "agentic", "claude"]),
+              "aws_gh", "aws_gl", "universal_payments", "aws", "rootcause_blockchain",
+              "rootcause_bitcoin", "qemu", "framework"]),
+    ("ai", ["langgraph", "operational", "mcp", "agentic", "claude", "codex", "ai"]),
     ("curricula", ["modern_cyber", "modern", "python", "multi", "artificial", "blockchain",
                    "computational", "modern_business", "finance", "executive", "marketing",
-                   "education", "polyglot", "neural", "machine"]),
-    ("science", ["human"]),
+                   "education", "polyglot", "neural", "machine", "architecture", "database"]),
+    ("science", ["human", "chilean", "psychometrics", "panuelo"]),
 ]
 
 GROUP_LABELS = {
@@ -1425,7 +1445,6 @@ GROUP_LABELS = {
         "ai": "IA aplicada",
         "curricula": "Currículos técnicos",
         "science": "Computación científica y educativa",
-        "other": "Otros",
         "code": "Código y documentación",
     },
     "en": {
@@ -1434,7 +1453,6 @@ GROUP_LABELS = {
         "ai": "Applied AI",
         "curricula": "Technical curricula",
         "science": "Scientific and educational computing",
-        "other": "Other",
         "code": "Code and documentation",
     },
     "pt": {
@@ -1443,7 +1461,6 @@ GROUP_LABELS = {
         "ai": "IA aplicada",
         "curricula": "Currículos técnicos",
         "science": "Computação científica e educativa",
-        "other": "Outros",
         "code": "Código e documentação",
     },
     "it": {
@@ -1452,7 +1469,6 @@ GROUP_LABELS = {
         "ai": "IA applicata",
         "curricula": "Curricula tecnici",
         "science": "Informatica scientifica ed educativa",
-        "other": "Altri",
         "code": "Codice e documentazione",
     },
     "fr": {
@@ -1461,7 +1477,6 @@ GROUP_LABELS = {
         "ai": "IA appliquée",
         "curricula": "Cursus techniques",
         "science": "Informatique scientifique et éducative",
-        "other": "Autres",
         "code": "Code et documentation",
     },
     "zh": {
@@ -1470,7 +1485,6 @@ GROUP_LABELS = {
         "ai": "应用AI",
         "curricula": "技术课程体系",
         "science": "科学与教育计算",
-        "other": "其他",
         "code": "代码与文档",
     },
 }
@@ -1497,7 +1511,18 @@ PROJECT_NAMES = {
     "marketing": "Marketing & Growth", "education": "Pedagogy",
     "polyglot": "Polyglot Programming", "neural": "Neural Network Labs",
     "machine": "Machine Operator",
-    "human": "Human Genome Labs",
+    "human": "Human Genome Labs", "codex": "Codex Skills Toolkit",
+    "rootcause_qr": "RootCause QR Inspector", "chilean": "Chilean School Learning Path",
+    "architecture": "Architecture & Built Environment", "pdf": "PDF Reader",
+    "universal_payments": "Universal Payments Engineering Lab",
+    "psychometrics": "Psychometrics & Assessment", "rootcause_server": "RootCause Server",
+    "aws": "AWS Desktop Studio", "ai": "AI Dataset Foundry",
+    "rootcause_blockchain": "RootCause Blockchain Security",
+    "rootcause_bitcoin": "RootCause Bitcoin Defense",
+    "decentraland": "Decentraland Social Arcade", "commerce": "Commerce OS",
+    "panuelo": "Pañuelo al Viento", "qemu": "QEMU/KVM Labs",
+    "database": "Database Systems Labs", "video": "Video Transcript Studio",
+    "framework": "Framework Ecosystems Labs",
 }
 
 # Stack o plataforma. Solo tokens técnicos: se leen igual en los 6 idiomas.
@@ -1516,6 +1541,16 @@ PROJECT_STACK = {
     "mcp": "FastAPI, Ollama", "agentic": "MCP, multi-runtime",
     "claude": "Python, zero-deps",
     "human": "TypeScript, FASTA/GFF3/VCF",
+    "codex": "Python, pnpm", "rootcause_qr": "Flutter, Dart",
+    "chilean": "Python, HTML", "architecture": "Python, Markdown",
+    "pdf": "Flutter, Android/Windows/Web", "universal_payments": "payments, ledger",
+    "psychometrics": "Python, 57 tests", "rootcause_server": "Rust, 18 rules",
+    "aws": "Electron, AWS CLI", "ai": "Windows, Android",
+    "rootcause_blockchain": "CLI, local API", "rootcause_bitcoin": "UTXO, regtest",
+    "decentraland": "SDK7, ECS, TypeScript", "commerce": "Web, Windows, Android",
+    "panuelo": "Flutter, Android/Windows", "qemu": "QEMU, KVM, libvirt",
+    "database": "27 DB engines", "video": "Whisper, Windows",
+    "framework": "12 ecosystems, CI",
 }
 
 
@@ -1542,8 +1577,9 @@ def group_projects(lang):
 
     leftovers = [k for k in all_keys if k not in seen]
     if leftovers:
-        grouped.append((labels["other"],
-                        " · ".join(_project_label(k) for k in leftovers)))
+        raise ValueError(
+            "Proyectos sin categoría explícita: " + ", ".join(leftovers)
+        )
     return grouped
 
 def make_sidebar(lang):
@@ -1657,6 +1693,7 @@ def make_ats(lang):
         contact_line1="Santiago, Chile | +56 9 8121 8838 | vladimir.acuna.dev@gmail.com",
         contact_line2=f'Web: <link href="{WEB_URL}">vladimiracunadev-create.github.io</link> | GitHub: <link href="{GITHUB_URL}">github.com/vladimiracunadev-create</link> | GitLab: <link href="{GITLAB_URL}">gitlab.com/vladimir.acuna.dev-group</link>',
         contact_line3=f'LinkedIn: <link href="{LINKEDIN_URL}">linkedin.com/in/vladimir-acuna-valdebenito</link>',
+        updated_line=UPDATED_LABELS[lang],
         h_summary=T["h_summary"],
         summary=T["ats_summary"],
         h_skills=T["h_skills"],
@@ -1681,6 +1718,7 @@ def make_header(lang):
         name="Vladimir Acu\u00f1a",
         subtitle=T["subtitle_rec"],
         contact="Santiago, Chile | +56 9 8121 8838 | vladimir.acuna.dev@gmail.com",
+        updated=UPDATED_LABELS[lang],
     )
 
 

@@ -14,6 +14,23 @@
 - Fechas visibles y versiones principales sincronizadas en los seis idiomas.
 - Portafolios PDF saneados contra emojis/símbolos sin glifo y revisados visualmente.
 
+### fix(portfolio): categorías explícitas, tarjeta y vigencia horaria
+
+- Se eliminó la categoría ambigua `Otros` de los CV ATS y de reclutador: los
+  61 proyectos quedan clasificados explícitamente en productos, laboratorios,
+  IA aplicada, currículos técnicos o computación científica y educativa.
+- El generador de CV ahora falla si un proyecto nuevo no tiene categoría, para
+  impedir que futuras sincronizaciones vuelvan a publicar una agrupación vaga.
+- Los 12 CV ATS/reclutador se regeneraron en seis idiomas y muestran fecha,
+  hora y zona horaria de vigencia (`America/Santiago`).
+- La web incorpora `#tarjeta`, con opción propia en el menú, frente y reverso
+  de la tarjeta profesional, enlaces de descarga y texto en seis idiomas.
+- La fecha de referencia de la web incluye hora y zona horaria; el sincronizador
+  queda preparado para renovarla automáticamente en cada actualización.
+- El app shell PWA incluye ambas imágenes y renueva su caché a `v15`.
+- Respaldo previo de los 12 CV en
+  `assets/backups/2026-09-25/classification-card-fix/`.
+
 ## 2026-08-27
 
 ### feat(seo): tarjetas Open Graph — el sitio declaraba summary_large_image sin imagen

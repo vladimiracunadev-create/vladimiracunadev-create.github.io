@@ -31,8 +31,9 @@ import sys
 import unicodedata
 import urllib.error
 import urllib.request
-from datetime import date
+from datetime import date, datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 # ── UTF-8 en Windows ──────────────────────────────────────────────────────────
 if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
@@ -45,6 +46,9 @@ ASSETS_DIR = ROOT / "assets"
 SCRIPTS_DIR = ROOT / "scripts"
 INDEX_HTML  = ROOT / "index.html"
 TODAY       = date.today().isoformat()
+NOW_LOCAL   = datetime.now(ZoneInfo("America/Santiago"))
+UPDATED_AT_ISO = NOW_LOCAL.isoformat(timespec="minutes")
+UPDATED_AT_DISPLAY = NOW_LOCAL.strftime("%Y-%m-%d, %H:%M")
 
 # ═══════════════════════════════════════════════════════════════════════════════
 # CONFIGURACIÓN CENTRAL — editar aquí cuando cambia la identidad
@@ -852,6 +856,28 @@ def inject_html_cards(new_repos, apply=False):
         log("index.html: sin cards nuevas que agregar", "OK")
 
 
+def update_web_reference_timestamp(apply=False):
+    """Actualiza las seis referencias visibles de vigencia del portafolio."""
+    content = INDEX_HTML.read_text(encoding="utf-8")
+    pattern = re.compile(r'<time(?P<id> id="buildDate")? datetime="[^"]+">[^<]+</time>')
+
+    def replacement(match):
+        id_attr = match.group("id") or ""
+        return f'<time{id_attr} datetime="{UPDATED_AT_ISO}">{UPDATED_AT_DISPLAY}</time>'
+
+    updated, count = pattern.subn(replacement, content)
+    if count != 6:
+        raise RuntimeError(
+            f"Se esperaban 6 referencias horarias en index.html y se encontraron {count}"
+        )
+    log(
+        f"index.html: referencia de vigencia → {UPDATED_AT_DISPLAY} America/Santiago",
+        "OK" if apply else "WARN",
+    )
+    if apply and updated != content:
+        INDEX_HTML.write_text(updated, encoding="utf-8")
+
+
 # ═══════════════════════════════════════════════════════════════════════════════
 # 6. README perfil GitHub
 # ═══════════════════════════════════════════════════════════════════════════════
@@ -1129,6 +1155,10 @@ def main():
     # Gap 1: cards HTML
     if new_repos and not args.only_api:
         inject_html_cards(new_repos, apply=apply)
+
+    # Toda actualización del sitio lleva fecha y hora de referencia visible.
+    if not args.only_api:
+        update_web_reference_timestamp(apply=apply)
 
     # README GitHub
     if new_repos:
