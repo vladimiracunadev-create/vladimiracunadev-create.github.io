@@ -5,11 +5,14 @@
 ### sync-portfolio (automático — 2026-09-25)
 
 - `api/v1/`: generated_at → 2026-09-25
+- Consulta pública corregida: 62 repositorios propios detectados, excluyendo forks.
 - Repos nuevos integrados: codex-skills-toolkit, rootcause-qr-inspector, chilean-school-learning-path, architecture-built-environment-learning-program, pdf-reader-windows-android, universal-payments-engineering-lab, psychometrics-and-assessment-program, rootcause-server, aws-desktop-studio, ai-dataset-foundry, rootcause-blockchain-security, rootcause-bitcoin-defense, decentraland-social-arcade, commerce-operating-system, panuelo-al-viento-cueca-app, qemu-kvm-labs, database-systems-labs, video-transcript-studio, framework-ecosystems-labs
 - Cards HTML agregados en `#proyectos` (index.html)
 - Scripts PDF y api/v1/projects.json actualizados
-- 30 PDFs regenerados (5 tipos × 6 idiomas)
+- 36 PDFs regenerados (6 tipos × 6 idiomas)
 - Backup en `assets/backups/2026-09-25/`
+- Fechas visibles y versiones principales sincronizadas en los seis idiomas.
+- Portafolios PDF saneados contra emojis/símbolos sin glifo y revisados visualmente.
 
 ## 2026-08-27
 

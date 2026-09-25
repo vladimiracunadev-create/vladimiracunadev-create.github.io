@@ -5,8 +5,10 @@ Output: assets/portafolio.pdf, assets/portafolio-english.pdf, etc.
 Run: python scripts/generate-portfolio.py
 """
 
+import json
 import os
 import re
+from xml.sax.saxutils import escape
 from reportlab.lib.pagesizes import letter
 from reportlab.lib.units import inch
 from reportlab.lib.colors import HexColor
@@ -114,6 +116,7 @@ def make_styles(lang="es"):
         bullet=ParagraphStyle(
             "Bullet", fontName=fn, fontSize=9.2, leading=12.5,
             textColor=DARK, spaceAfter=2, leftIndent=12, bulletIndent=0,
+            allowWidows=0, allowOrphans=0,
         ),
         link=ParagraphStyle(
             "Link", fontName=fn, fontSize=8.5, leading=11,
@@ -174,6 +177,49 @@ PROJECT_LINKS = {
     "langgraph": "https://github.com/vladimiracunadev-create/langgraph-realworld",
     "mcp": "https://github.com/vladimiracunadev-create/mcp-ollama-local",
 }
+
+# La API local es la fuente canónica para proyectos cuyo estado cambia con
+# frecuencia. Esto evita que las seis variantes del portafolio conserven
+# versiones y métricas antiguas después de ejecutar sync-portfolio.
+PROJECT_DESCRIPTION_REPOS = {
+    "Modern Cybersecurity Program": "modern-cybersecurity-program",
+    "Artificial Intelligence Evolution Program": "artificial-intelligence-evolution-program",
+    "Finance And Banking Evolution Program": "finance-and-banking-evolution-program",
+    "Blockchain Learning Path": "blockchain-learning-path",
+    "Empresa Operativa Chile": "empresa-operativa-chile",
+    "Executive Leadership Founder Program": "executive-leadership-founder-program",
+    "Machine Operator Program": "machine-operator-program",
+    "Neural Network Training Labs": "neural-network-training-labs",
+    "Multi Cloud Engineering Program": "multi-cloud-engineering-program",
+    "Rootcause Web Inspector": "rootcause-web-inspector",
+    "Claude Skills Toolkit": "claude-skills-toolkit",
+}
+
+_PDF_SYMBOLS_RE = re.compile(
+    "[\U0001F1E6-\U0001F1FF\U0001F300-\U0001F9FF\U000020BF\U00002600-\U000027BF"
+    "\U0001FA00-\U0001FAFF\U0000FE00-\U0000FE0F\U0000200D]+"
+)
+
+
+def _refresh_project_descriptions(projects):
+    api_path = os.path.join(SCRIPT_DIR, "..", "api", "v1", "projects.json")
+    with open(api_path, encoding="utf-8") as stream:
+        api_projects = json.load(stream).get("projects", [])
+    descriptions = {
+        item["url"].rstrip("/").rsplit("/", 1)[-1]: item.get("description", "")
+        for item in api_projects if item.get("url") and item.get("description")
+    }
+    refreshed = []
+    for item in projects:
+        updated = item
+        for label, repo in PROJECT_DESCRIPTION_REPOS.items():
+            if item.startswith(f"<b>{label}") and repo in descriptions:
+                prefix = item.split("</b>", 1)[0] + "</b>"
+                clean = _PDF_SYMBOLS_RE.sub("", descriptions[repo]).replace("≈", "~").strip()
+                updated = f"{prefix} {escape(clean)}"
+                break
+        refreshed.append(updated)
+    return refreshed
 
 
 # ═══════════════════════════════════════════════════════
@@ -1335,7 +1381,12 @@ def get_content(lang):
         "footer": "\u4e13\u4e1a\u4f5c\u54c1\u96c6 \u2014 \u7b2c",
     }
 
-    return T[lang]
+    content = T[lang]
+    content["projects"] = [
+        _PDF_SYMBOLS_RE.sub("", item)
+        for item in _refresh_project_descriptions(content["projects"])
+    ]
+    return content
 
 
 # ═══════════════════════════════════════════════════════
@@ -1429,7 +1480,7 @@ def build_portfolio(lang):
     story.append(hr())
     story.append(Paragraph(T["projects_intro"], s["body"]))
     for p in T["projects"]:
-        story.append(bullet_p(s["bullet"], p))
+        story.append(KeepTogether([bullet_p(s["bullet"], p)]))
     story.append(Spacer(1, 4))
 
     # ── Project Links ──

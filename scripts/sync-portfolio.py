@@ -16,7 +16,7 @@ Qué hace:
     4. Agrega cards HTML en index.html (#proyectos, 6 idiomas)                    [Gap 1]
     5. Propaga cambios de identidad desde SUBTITLES a los scripts de PDFs          [Gap 4]
     6. Actualiza README del perfil GitHub
-    7. Crea backup de PDFs + regenera 30 PDFs
+    7. Crea backup de PDFs + regenera 36 PDFs
     8. Actualiza CHANGELOG.md y hace commit + push
 """
 
@@ -29,6 +29,8 @@ import shutil
 import subprocess
 import sys
 import unicodedata
+import urllib.error
+import urllib.request
 from datetime import date
 from pathlib import Path
 
@@ -102,6 +104,7 @@ REPO_GROUPS = {
     # IA aplicada
     "langgraph-realworld": "ia",                "mcp-ollama-local": "ia",
     "claude-skills-toolkit": "ia",              "neural-network-training-labs": "ia",
+    "codex-skills-toolkit": "ia",               "ai-dataset-foundry": "ia",
     # Currículos técnicos completos
     "computational-mathematics-program": "curriculos", "modern-gamedev-program": "curriculos",
     "modern-cybersecurity-program": "curriculos",      "multi-cloud-engineering-program": "curriculos",
@@ -111,6 +114,7 @@ REPO_GROUPS = {
     "blockchain-learning-path": "curriculos",   "machine-operator-program": "curriculos",
     # Ciencia y educación
     "human-genome-labs": "ciencia",             "violin-adventure": "ciencia",
+    "panuelo-al-viento-cueca-app": "ciencia",
 }
 
 
@@ -155,7 +159,9 @@ def run_capture(cmd):
 # de inyectar descripciones en los scripts de generación de PDFs.
 _EMOJI_RE = re.compile(
     "["
+    "\U0001F1E6-\U0001F1FF"   # banderas (regional indicator pairs)
     "\U0001F300-\U0001F9FF"   # símbolos & pictogramas / emoticons / objetos
+    "\U000020BF"              # símbolo de Bitcoin
     "\U00002600-\U000027BF"   # miscelánea simbólica
     "\U0001FA00-\U0001FA6F"   # símbolos extendidos A
     "\U0001FA70-\U0001FAFF"   # símbolos extendidos B
@@ -216,15 +222,45 @@ def repo_display(name):
 def get_public_repos():
     log("Consultando repos GitHub...", "HEAD")
     out, code = run_capture(
-        "gh repo list vladimiracunadev-create --limit 50 "
-        "--json name,isPrivate,description,updatedAt,url"
+        "gh repo list vladimiracunadev-create --limit 100 "
+        "--json name,isPrivate,isFork,description,updatedAt,url"
     )
     if code != 0:
-        log("No se pudo conectar a GitHub (gh auth login?)", "WARN")
-        return []
-    repos = json.loads(out)
-    public = [r for r in repos if not r["isPrivate"] and r["name"] not in HIDDEN_REPOS]
-    log(f"{len(public)} repos públicos (excluidos ocultos)", "OK")
+        log("gh no disponible; usando la API pública de GitHub", "WARN")
+        request = urllib.request.Request(
+            "https://api.github.com/users/vladimiracunadev-create/repos"
+            "?per_page=100&sort=updated",
+            headers={
+                "Accept": "application/vnd.github+json",
+                "User-Agent": "sync-portfolio",
+            },
+        )
+        try:
+            with urllib.request.urlopen(request, timeout=20) as response:
+                api_repos = json.load(response)
+        except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as exc:
+            log(f"No se pudo consultar GitHub: {exc}", "WARN")
+            return []
+        repos = [
+            {
+                "name": r["name"],
+                "isPrivate": r.get("private", False),
+                "isFork": r.get("fork", False),
+                "description": r.get("description") or "",
+                "updatedAt": r.get("updated_at"),
+                "url": r.get("html_url"),
+            }
+            for r in api_repos
+        ]
+    else:
+        repos = json.loads(out)
+    public = [
+        r for r in repos
+        if not r["isPrivate"]
+        and not r.get("isFork", False)
+        and r["name"] not in HIDDEN_REPOS
+    ]
+    log(f"{len(public)} repos públicos propios (forks y ocultos excluidos)", "OK")
     return public
 
 
@@ -941,7 +977,7 @@ def update_changelog(new_repos, api_changes, identity_changed, skip_pdfs, apply=
     if identity_changed:
         items.append("- Subtítulos de identidad propagados a scripts de PDFs")
     if not skip_pdfs:
-        items.append("- 30 PDFs regenerados (5 tipos × 6 idiomas)")
+        items.append("- 36 PDFs regenerados (6 tipos × 6 idiomas)")
         items.append(f"- Backup en `assets/backups/{TODAY}/`")
 
     if not items:
@@ -983,7 +1019,7 @@ def git_commit_push(new_repos, skip_pdfs, no_push, apply=False):
     if new_repos:
         details.append(f"repos nuevos: {', '.join(r['name'] for r in new_repos)}")
     if not skip_pdfs:
-        details.append("30 PDFs regenerados")
+        details.append("36 PDFs regenerados")
     details.append(f"api/v1/ → {TODAY}")
 
     body = "\n".join(f"- {d}" for d in details)
