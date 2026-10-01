@@ -1,7 +1,7 @@
 {
     "meta": {
         "version": "v1",
-        "generated_at": "2026-09-25",
+        "generated_at": "2026-10-01",
         "source_pdf": "assets/cv-ats.pdf"
     },
     "projects": [
@@ -559,7 +559,7 @@
         },
         {
             "name": "marketing-sales-growth-evolution-program",
-            "description": "📈 Marketing, Sales & Growth Evolution Program v1.0.0 · 336 clases en 24 partes · El programa de marketing, ventas y crecimiento más completo en español: posicionamiento, pricing, venta consultiva, RevOps, growth, analítica e IA comercial · 1.344 conceptos, 1.008 métricas, 96 obras, 17 rutas por rol y portal offline 🇨🇱",
+            "description": "📈 marketing-sales-growth-evolution-program · v1.6.0 · 336 clases en 24 partes · 1.348 conceptos, 1.012 métricas y 97 obras · marketing, ventas, RevOps, growth, analítica e IA comercial · portal offline en Python · 🐧🍎🪟",
             "url": "https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program",
             "tags": [],
             "category": "other"
@@ -615,21 +615,21 @@
         },
         {
             "name": "chilean-school-learning-path",
-            "description": "🇨🇱 Matemática y Lenguaje de 1° básico completos: 214 clases en 46 OA · 12.997 propuestas y 2.823 OA · fuentes MINEDUC, evaluación y dificultades de aula · Python + HTML · GitHub Pages",
+            "description": "🎓 Currículum escolar chileno abierto: 8.841 clases + 4.156 integraciones y 2.823 OA de 1° básico a 4° medio, con fuentes MINEDUC, guías pedagógicas y portal en GitHub Pages.",
             "url": "https://github.com/vladimiracunadev-create/chilean-school-learning-path",
             "tags": [],
             "category": "other"
         },
         {
             "name": "architecture-built-environment-learning-program",
-            "description": "🏛️ architecture-built-environment-learning-program · 680 clases en 68 partes y 2 fases · 12 rutas · 622 fuentes trazadas · Markdown, lector offline y GitHub Pages · Python · Español",
+            "description": "🏛️ Programa integral del entorno construido en español · 📚 680 clases en 68 partes — del encargo al fin de vida: historia, proyecto, ciudad, sistemas, construcción, gestión, operación y rehabilitación · 🏗️ 8 talleres (48 sesiones) · 🧭 12 rutas · 🔗 fuentes trazables por clase",
             "url": "https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program",
             "tags": [],
             "category": "other"
         },
         {
             "name": "pdf-reader-windows-android",
-            "description": "📄 PDF Reader v0.3.1 · lector PDF Android-first local y de solo lectura · navegación sin saltos, miniaturas acotadas e historial reabrible · Android 7+, Windows y Web · cero cuentas, permisos sensibles y telemetría · APK firmado 🔒",
+            "description": "📄 PDF Reader v0.3.3 · lector PDF Android-first local y de solo lectura · acciones continuas, áreas seguras, miniaturas acotadas e historial reabrible · Android 7+, Windows y Web · cero cuentas, permisos sensibles y telemetría · APK firmado 🔒",
             "url": "https://github.com/vladimiracunadev-create/pdf-reader-windows-android",
             "tags": [],
             "category": "other"
@@ -729,6 +729,13 @@
             "name": "framework-ecosystems-labs",
             "description": "🧪 Laboratorio de clases comparadas: el mismo contrato ejecutable, sin adaptadores, contra Express, FastAPI, Spring Boot, ASP.NET, Django, Rails, Laravel, React, Vue, Svelte y más. 149 clases en 12 partes (70 construidas, 397 casos verificados en CI) · 210 fuentes con ISBN/DOI · seguridad, datos, interfaz",
             "url": "https://github.com/vladimiracunadev-create/framework-ecosystems-labs",
+            "tags": [],
+            "category": "other"
+        },
+        {
+            "name": "software-engineering-learning-suite",
+            "description": "🧭 software-engineering-learning-suite · 480 clases · 360 borradores públicos con práctica, fuentes y navegación · Python + Pages · 🐧🍎🪟",
+            "url": "https://github.com/vladimiracunadev-create/software-engineering-learning-suite",
             "tags": [],
             "category": "other"
         }

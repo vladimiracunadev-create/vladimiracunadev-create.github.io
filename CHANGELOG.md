@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-10-01
+
+### sync-portfolio (automático — 2026-10-01)
+
+- `api/v1/`: generated_at → 2026-10-01
+- Repos nuevos integrados: software-engineering-learning-suite
+- Cards HTML agregados en `#proyectos` (index.html)
+- Scripts PDF y api/v1/projects.json actualizados
+- 36 PDFs regenerados (6 tipos × 6 idiomas)
+- Backup en `assets/backups/2026-10-01/`
+
 ## 2026-09-25
 
 ### release: v2.5.0 — portafolio sincronizado, CV y tarjeta profesional
