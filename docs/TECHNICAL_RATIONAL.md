@@ -24,7 +24,7 @@ Hemos elegido **HTML, CSS y JS puro** porque:
 
 ### Internationalization (i18n) de Alto Rendimiento
 
-A diferencia de librerías pesadas, implementamos una **Visibilidad Pasiva** mediante atributos `data-es` y `data-en`. El CSS solo oculta lo inactivo, permitiendo que el navegador renderice instantáneamente sin ejecuciones costosas de JS ni recargas de página.
+A diferencia de librerías pesadas, implementamos una **Visibilidad Pasiva** mediante atributos `data-es`, `data-en`, `data-pt`, `data-it`, `data-fr` y `data-zh`. El CSS solo oculta lo inactivo, permitiendo que el navegador renderice instantáneamente sin ejecuciones costosas de JS ni recargas de página.
 
 ### Temas Dinámicos Reales (Dark/Light)
 
@@ -37,6 +37,10 @@ Usamos `async/await` con patrones de manejo de fallos para cargar datos de APIs 
 ### Automatización vs. Runtime
 
 Automatizamos el **Build** (minificación de CSS/JS, generación de Sitemap) usando Node.js, pero el **Runtime** (lo que corre en el navegador del usuario) es 100% puro. Esto combina lo mejor de ambos mundos: herramientas modernas de desarrollo con una ejecución ligera para el usuario.
+
+### Una fuente de verdad para web, API y PDF
+
+`api/v1/projects.json` conserva el inventario público y los generadores refrescan desde allí los proyectos con evolución frecuente. `scripts/sync-portfolio.py` detecta altas y cambios en GitHub, clasifica cada incorporación de forma explícita y actualiza web, API y fuentes PDF. Si aparece una clave sin categoría, el generador falla en vez de publicar una agrupación ambigua.
 
 ### LLM Discoverability (llm.txt)
 

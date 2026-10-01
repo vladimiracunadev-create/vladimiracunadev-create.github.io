@@ -2,6 +2,8 @@
 
 Este documento proporciona una visión de alto nivel sobre por qué este portafolio demuestra habilidades técnicas sólidas, más allá de ser una simple página de presentación.
 
+**Última verificación:** 2026-10-01. La actualización incorpora Software Engineering Learning Suite, la expansión de Chilean School Learning Path y la regeneración de los 36 PDFs públicos.
+
 ## 🚀 Valor Técnico Destacado
 
 ### 1. Rendimiento y Core Web Vitals (Lighthouse 100)
@@ -21,7 +23,7 @@ El sitio obtiene puntuaciones máximas en performance, accesibilidad y SEO graci
 
 ### 4. Artefactos de validación orientados a reclutamiento
 
-- **PDFs bilingües**: CV ATS, CV reclutador, portafolio y carta de recomendación cuentan con variantes ES/EN para reducir fricción en procesos internacionales.
+- **PDFs en 6 idiomas**: hoja de vida, CV ATS, CV reclutador, portafolio, carta de recomendación y declaración de logros cuentan con variantes ES/EN/PT/IT/FR/ZH para reducir fricción en procesos internacionales.
 - **Declaración de Logros y Validación**: Documento complementario emitido por el profesional que resume mejoras observables, alcance técnico y una referencia externa de contexto laboral.
 - **Decisión de diseño**: este documento se publica separado del CV principal para no mezclar narrativa breve de postulación con evidencia ampliada de logros y validación.
 
@@ -41,7 +43,8 @@ Implementación proactiva de:
 | **DevOps & Cloud** | CI/CD industrial, estrategias de portabilidad (Bundle ZIP), OIDC y optimización FinOps. |
 | **Full-Stack Portability** | Estrategia PWA + Mobile (Capacitor) con un único núcleo agnóstico. |
 | **AI/LLM Ready** | `llm.txt` estándar implementado; `robots.txt` actualizado; SEO files commiteados en raíz del repo. |
-| **Artifacts & Validation** | PDFs bilingües, CV Data API y documento separado de logros con validación externa de contexto. |
+| **Artifacts & Validation** | 36 PDFs en 6 idiomas, CV Data API y documento separado de logros con validación externa de contexto. |
+| **Ingeniería curricular** | Suite pública de ingeniería de software (480 clases planificadas; 360 borradores publicados) y currículum escolar chileno abierto (8.841 clases; 4.156 integraciones; 2.823 OA). |
 
 ## 📈 Conclusión
 

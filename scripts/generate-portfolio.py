@@ -193,6 +193,11 @@ PROJECT_DESCRIPTION_REPOS = {
     "Multi Cloud Engineering Program": "multi-cloud-engineering-program",
     "Rootcause Web Inspector": "rootcause-web-inspector",
     "Claude Skills Toolkit": "claude-skills-toolkit",
+    "Software Engineering Learning Suite": "software-engineering-learning-suite",
+    "Chilean School Learning Path": "chilean-school-learning-path",
+    "Marketing Sales Growth Evolution Program": "marketing-sales-growth-evolution-program",
+    "Pdf Reader Windows Android": "pdf-reader-windows-android",
+    "Architecture Built Environment Learning Program": "architecture-built-environment-learning-program",
 }
 
 _PDF_SYMBOLS_RE = re.compile(

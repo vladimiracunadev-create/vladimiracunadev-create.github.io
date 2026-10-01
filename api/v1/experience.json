@@ -101,6 +101,6 @@
         "ChofyAI Studio (Fase 4, macOS Apple Silicon): disco dual, zona de módulos, stats y empaquetado ad-hoc; Tauri + Rust + React centralizando IA local (Qwen3-TTS, whisper.cpp, FaceFusion, AceForge).",
         "Problem Driven Systems Lab: 12 casos PHP OPERATIVOS (01–12) + caso 03 también en Node.js, con Prometheus + Grafana integrados (puertos 9091/3001).",
         "MCP + Ollama Local: Security & Trust Profile documentado con Bandit + pip-audit + cabeceras de seguridad para LLMs locales con tool calling.",
-        "Portafolio profesional en 6 idiomas (ES/EN/PT/IT/FR/ZH) con 31 PDFs generados por pipeline Python (reportlab), PWA instalable, CV Data API JSON estática y Lighthouse 100."
+        "Portafolio profesional en 6 idiomas (ES/EN/PT/IT/FR/ZH) con 36 PDFs generados por pipeline Python (reportlab), PWA instalable, CV Data API JSON estática y Lighthouse 100."
     ]
 }

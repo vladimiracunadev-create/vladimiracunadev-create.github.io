@@ -28,7 +28,7 @@
             "type": "pdf",
             "category": "cv",
             "default_language": "es",
-            "updated_at": "2026-03-19",
+            "updated_at": "2026-10-01",
             "variants": {
                 "es": {
                     "label": "CV ATS",
@@ -69,7 +69,7 @@
             "type": "pdf",
             "category": "cv",
             "default_language": "es",
-            "updated_at": "2026-03-19",
+            "updated_at": "2026-10-01",
             "variants": {
                 "es": {
                     "label": "CV Reclutador",
@@ -110,7 +110,7 @@
             "type": "pdf",
             "category": "cv",
             "default_language": "es",
-            "updated_at": "2026-08-19",
+            "updated_at": "2026-10-01",
             "variants": {
                 "es": {
                     "label": "Hoja de Vida",
@@ -151,7 +151,7 @@
             "type": "pdf",
             "category": "portfolio",
             "default_language": "es",
-            "updated_at": "2026-03-19",
+            "updated_at": "2026-10-01",
             "variants": {
                 "es": {
                     "label": "Portafolio",
@@ -192,7 +192,7 @@
             "type": "pdf",
             "category": "letter",
             "default_language": "es",
-            "updated_at": "2026-03-19",
+            "updated_at": "2026-10-01",
             "variants": {
                 "es": {
                     "label": "Carta de Recomendación",
@@ -233,7 +233,7 @@
             "type": "pdf",
             "category": "validation",
             "default_language": "es",
-            "updated_at": "2026-03-19",
+            "updated_at": "2026-10-01",
             "rationale": "Published as a separate artifact so recruiters can review validated achievements and external-reference context without overloading the primary CV or portfolio narrative.",
             "variants": {
                 "es": {

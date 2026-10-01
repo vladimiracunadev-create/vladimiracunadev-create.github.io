@@ -1,5 +1,7 @@
 # 🧠 Racional Técnico: ¿Por qué Vanilla?
 
+**Coherencia verificada:** 2026-10-01. Web, CV Data API y generadores PDF comparten el inventario de proyectos; una clave sin clasificación detiene la generación para evitar publicaciones ambiguas.
+
 En una era de frameworks masivos, este proyecto elige deliberadamente volver a las bases. Aquí explicamos el "porqué" detrás de nuestras decisiones de arquitectura.
 
 ## 🏗 La Filosofía KISS (Keep It Simple, Stupid)

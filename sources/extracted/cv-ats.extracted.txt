@@ -1,53 +1,81 @@
 # SOURCE: assets/cv-ats.pdf
-# DATE: 2026-03-13T12:42:15.520116
+# DATE: 2026-10-01T18:36:14.031920
 
 Vladimir Acuña
-Arquitecto de Software | Full■Stack Senior (PHP/JS/SQL) | Modernización & DevOps
-Santiago, Chile | +56 9 8121 8838 | vladimir.acuna.dev@gmail.com | Web: https://vladimiracunadev-create.github.io/ | GitHub:
-https://github.com/vladimiracunadev-create | LinkedIn: https://www.linkedin.com/in/vladimir-acuna-valdebenito
+Arquitecto de Soluciones | Senior Full-Stack | Modernización, Automatización e IA Aplicada
+Santiago, Chile | +56 9 8121 8838 | vladimir.acuna.dev@gmail.com
+Web: vladimiracunadev-create.github.io | GitHub: github.com/vladimiracunadev-create | GitLab: gitlab.com/vladimir.acuna.dev-group
+LinkedIn: linkedin.com/in/vladimir-acuna-valdebenito
+Información actualizada hasta: 2026-10-01 18:35 (America/Santiago)
 RESUMEN
- 14 años liderando el diseño, evolución y operación de una plataforma educativa/psicométrica (2011–2025), con
+ 14 años liderando el diseño, evolución y operación de una plataforma educativa/psicométrica (2011-2025), con
 foco en continuidad operacional.
  Modernización progresiva (PHP 5.4 → PHP 8.2+), optimización de rendimiento y automatización de reportes
 (PDF/Excel) y procesos de datos.
- Experiencia en bases de datos (SQL Server, MySQL/MariaDB) y despliegues/entornos reproducibles con
-Docker y CI/CD.
- Portafolio técnico con casos prácticos (Cloud/AWS, microsistemas y agentes), documentación y demos
-verificables.
+ Experiencia en bases de datos (SQL Server, MySQL/MariaDB) y despliegues/entornos reproducibles con Docker
+y CI/CD.
+ Portafolio técnico con casos prácticos (Cloud/AWS, microsistemas, agentes IA y observabilidad), documentación y
+demos verificables en GitHub y GitLab.
 SKILLS
-Backend: PHP 8.x, Node.js, TypeScript, Python (FastAPI)
+Backend: PHP 8.x, Node.js, TypeScript, Python (FastAPI), Go, Rust, C#, Ruby
 Frontend: JavaScript, HTML, CSS
-Datos: SQL Server, MySQL/MariaDB, modelado, ETL desde Excel
-DevOps/Cloud: Docker/Compose, CI/CD (GitHub Actions/GitLab CI), AWS (S3, Amplify, CloudFront), Terraform
-(básico)
-Calidad/Seguridad: hardening básico, secret scanning, control anti■inyección
-Observabilidad: Prometheus/Grafana (laboratorios y fundamentos)
+Datos: SQL Server, MySQL/MariaDB, PostgreSQL, MongoDB, Redis, SQLite, DuckDB
+DevOps/Cloud: Docker/Compose, Kubernetes, CI/CD (GitHub Actions/GitLab CI), AWS (S3, Amplify, CloudFront), Terraform
+Calidad/Seguridad: hardening, secret scanning (Gitleaks, TruffleHog), anti-injection, Trivy, pip-audit, OWASP ZAP, análisis
+forense de incidentes, análisis de logs (Apache/PHP)
+Observabilidad: Prometheus/Grafana
+IA/Agentes: LangGraph, MCP (Model Context Protocol), Ollama, n8n
 EXPERIENCIA
-Fundación CEIS Maristas — Arquitecto de Software y Desarrollador Full■Stack (2011–2025)
+Fundación CEIS Maristas — Arquitecto de Software y Desarrollador Full-Stack (2011-2025)
  Diseño, desarrollo y mantención de plataforma de evaluación de alumnos (baterías de test), módulos
 institucionales y reportes.
- Migración tecnológica (PHP 5.4 → PHP 8.2+), actualización de servidores/librerías y mejoras de rendimiento
-con JavaScript y pruebas de carga.
+ Migración tecnológica (PHP 5.4 → PHP 8.2+), actualización de servidores/librerías y mejoras de rendimiento con
+JavaScript y pruebas de carga.
  Desarrollo de reportes avanzados PDF/Excel con indicadores, percentiles y análisis por
 curso/nivel/establecimiento.
  Importación y migración de datos masivos desde Excel con validaciones; automatización de comunicaciones
 (envíos, segmentación, seguimiento).
  Soporte directo a usuarios clave (coordinadores, orientadores, directivos) y operación en producción.
-Tecnologías: PHP, JavaScript, SQL Server, MySQL, Apache, JMeter, Excel, FPDF/PhpSpreadsheet, Constant Contact
+ Seguridad operacional: análisis forense de incidentes en el servidor, monitoreo y análisis de logs (Apache/PHP)
+para detección de actividad anómala, pruebas de seguridad con OWASP ZAP y pruebas de carga con Apache
+JMeter.
+Tecnologías: PHP, JavaScript, SQL Server, MySQL, Apache, JMeter, OWASP ZAP, Excel, FPDF/PhpSpreadsheet, Constant
+Contact
 PROYECTOS DESTACADOS
- Cloud/AWS y FinOps (demos y documentación): https://github.com/vladimiracunadev-create/proyectos-aws
- Microsistemas (suite modular y documentación): https://github.com/vladimiracunadev-create/microsistemas
- LangGraph casos reales (agentes con estado): https://github.com/vladimiracunadev-create/langgraph-realworld
- MCP + Ollama local (tooling y PoC): https://github.com/vladimiracunadev-create/mcp-ollama-local
-FORMACIÓN Y ACTIVIDAD RECIENTE
+ Productos con distribución real: RootCause Windows (Rust, ETW/WPR) · RootCause Mobile (Flutter, Android/iOS)
+· RootCause macOS (Rust, macOS) · RootCause Web (JS, MV3) · Empresa Operativa Chile (JS, Rust, PWA) ·
+Universal Code Scanner (Flutter, AES-256-GCM) · GabySQL (Rust, WAL) · Automa PC (Python, Playwright) ·
+ChofyAI Studio (Tauri, Rust) · Rhino Suite (Rust/WASM, Go) · Violin Adventure (Tauri, React) · Guitarra Adventure
 
- Formación continua (cursos online): bases de ML/NLP y automatización práctica aplicada a proyectos.
- Consolidación de portafolio técnico (Cloud/AWS, Docker labs, agentes) y documentación orientada a
+(Tauri, React) · RootCause QR Inspector (Flutter, Dart) · RootCause Server (Rust, 18 rules) · PDF Reader (Flutter,
+Android/Windows/Web) · Decentraland Social Arcade (SDK7, ECS, TypeScript) · Commerce OS (Web, Windows,
+Android) · Video Transcript Studio (Whisper, Windows)
+ Laboratorios de ingeniería: Problem-Driven Systems Lab (7 stacks) · Social Bot Scheduler (n8n, 18+ DB) ·
+Microsistemas (PHP, MCP) · Docker Labs · WSL Labs (wslc) · Unikernel Labs (Unikraft, WSL2) · Sandbox Labs
+(Linux) · Proyectos AWS (GitHub) · Proyectos AWS (GitLab) · Universal Payments Engineering Lab (payments,
+ledger) · AWS Desktop Studio (Electron, AWS CLI) · RootCause Blockchain Security (CLI, local API) · RootCause
+Bitcoin Defense (UTXO, regtest) · QEMU/KVM Labs (QEMU, KVM, libvirt) · Framework Ecosystems Labs (12
+ecosystems, CI)
+ IA aplicada: LangGraph RealWorld (Python, 25/25) · Operational AI Agents (Python, zero-deps) · MCP + Ollama
+Local (FastAPI, Ollama) · Agentic Plugins Toolkit (MCP, multi-runtime) · Claude Skills Toolkit (Python, zero-deps) ·
+Codex Skills Toolkit (Python, pnpm) · AI Dataset Foundry (Windows, Android)
+ Currículos técnicos: Cybersecurity · GameDev · Data Science · Multi-Cloud · AI Evolution · Blockchain ·
+Computational Mathematics · Business Creation · Finance & Banking · Executive Leadership · Marketing & Growth ·
+Pedagogy · Polyglot Programming · Neural Network Labs · Machine Operator · Architecture & Built Environment
+(Python, Markdown) · Database Systems Labs (27 DB engines) · Software Engineering Learning Suite (Python,
+GitHub Pages)
+ Computación científica y educativa: Human Genome Labs (TypeScript, FASTA/GFF3/VCF) · Chilean School
+Learning Path (Python, HTML) · Psychometrics & Assessment (Python, 57 tests) · Pañuelo al Viento (Flutter,
+Android/Windows)
+ GitHub: https://github.com/vladimiracunadev-create
+ GitLab: https://gitlab.com/vladimir.acuna.dev-group
+FORMACIÓN Y ACTIVIDAD RECIENTE
+ Formación continua en automatización práctica, ML/NLP y herramientas de desarrollo.
+ Consolidación de portafolio técnico con laboratorios cloud, microsistemas y documentación orientada a
 reclutadores.
-EDUCACIÓN
 Ingeniería de Ejecución en Computación e Informática
 Universidad de Tarapacá (Arica)
 Técnico de Administración de Empresas (Mención Marketing)
 INACAP (Santiago)
 IDIOMAS
- Inglés: intermedio en lectura; básico en escritura y conversación.
+ Inglés técnico: lectura fluida (documentación, código, papers, IA tooling). Conversación: básica, en mejora activa.

@@ -1,19 +1,22 @@
 # Guía de Validación Local
 
+**Última ejecución integral:** 2026-10-01.
+
 Este proyecto utiliza **Lighthouse CI** para asegurar calidad, accesibilidad y performance.
 
 ## Requisitos Previos
 
-- Node.js instalado.
-- Dependencias instaladas: `npm install`.
+- Node.js 22, igual que en CI.
+- pnpm 11, fijado mediante `packageManager` en `package.json`.
+- Dependencias instaladas con `pnpm install --frozen-lockfile`.
 
 ## Comandos de Validación
 
 Para ejecutar la auditoría completa, usa:
 
-```sh
-npm run build
-npm run lhci
+```bash
+pnpm build
+pnpm lhci
 ```
 
 ### ¿Qué evalúa?
@@ -40,6 +43,18 @@ CACHE_NAME
 ```
 
 La política del proyecto es priorizar que la home se actualice correctamente antes que mantener una caché agresiva del shell principal.
+
+## Coherencia y codificación
+
+- `python scripts/mojibake_probe.py .` detecta degradación UTF-8 mediante un round-trip conservador; `--fix` repara solo cuando reduce marcadores de mojibake.
+- Las fechas de `api/v1/*.json`, `data/resume.json`, `index.html`, `llm.txt` y `sitemap.xml` se contrastan con la sincronización vigente.
+- Los valores históricos del `CHANGELOG.md` se preservan; solo se actualizan marcadores de estado actual.
+
+## Control de PDFs
+
+- El pipeline debe producir 36 PDFs públicos: 6 familias por 6 idiomas.
+- `node scripts/check-pdf.js` valida estructura básica y `pdfinfo` confirma que todos los archivos se abren.
+- Las páginas se renderizan a PNG para revisar tipografía, márgenes, saltos y enlaces visibles antes de publicar.
 
 ## Política de Seguridad (CSP)
 

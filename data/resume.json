@@ -2,7 +2,7 @@
     "schema": "https://jsonresume.org/schema/",
     "meta": {
         "version": "v1",
-        "generated_at": "2026-06-19",
+        "generated_at": "2026-10-01",
         "source_pdf": "assets/cv-ats.pdf",
         "base_url": "https://vladimiracunadev-create.github.io"
     },
@@ -37,7 +37,7 @@
         "14 años liderando el diseño, evolución y operación de una plataforma educativa/psicométrica (2011–2025), con foco en continuidad operacional.",
         "Modernización progresiva (PHP 5.4 → PHP 8.2+), optimización de rendimiento y automatización de reportes (PDF/Excel) y procesos de datos.",
         "Experiencia en bases de datos (SQL Server, MySQL/MariaDB) y despliegues/entornos reproducibles con Docker y CI/CD.",
-        "Portafolio técnico con casos prácticos en GitHub y GitLab (Cloud/AWS, microsistemas, observabilidad y agentes), documentación por perfil y demos verificables."
+        "Portafolio técnico con productos, laboratorios, agentes y currículos trazables en GitHub y GitLab; documentación por perfil, demos verificables y 36 PDFs en 6 idiomas."
     ],
     "skills": {
         "backend": [
@@ -130,6 +130,16 @@
             "name": "MCP + Ollama Local",
             "description": "Tooling PoC con MCP, Ollama y SQLite",
             "url": "https://github.com/vladimiracunadev-create/mcp-ollama-local"
+        },
+        {
+            "name": "Software Engineering Learning Suite",
+            "description": "Currículo público de ingeniería de software con 480 clases planificadas y 360 borradores publicados con práctica, fuentes y navegación",
+            "url": "https://github.com/vladimiracunadev-create/software-engineering-learning-suite"
+        },
+        {
+            "name": "Chilean School Learning Path",
+            "description": "Currículum escolar chileno abierto con 8.841 clases, 4.156 integraciones y 2.823 objetivos de aprendizaje desde 1° básico hasta 4° medio",
+            "url": "https://github.com/vladimiracunadev-create/chilean-school-learning-path"
         }
     ],
     "education": [

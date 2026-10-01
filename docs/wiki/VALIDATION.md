@@ -1,5 +1,7 @@
 # 📊 Guía de Validación Local | Calidad de Software
 
+**Última ejecución integral:** 2026-10-01. Incluye validación web, coherencia de fechas/datos, detección de mojibake y QA estructural/visual de 36 PDFs.
+
 Asegurando que cada línea de código cumpla con los estándares de excelencia técnica mediante auditorías automatizadas.
 
 ---

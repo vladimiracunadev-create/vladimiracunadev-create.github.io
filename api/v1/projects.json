@@ -172,7 +172,7 @@
         },
         {
             "name": "Portfolio · GitHub Pages",
-            "description": "Portafolio profesional en 6 idiomas (ES/EN/PT/IT/FR/ZH), 30+ PDFs generados por pipeline Python, PWA instalable, CI/CD con GitHub Actions, Lighthouse 100, CV Data API.",
+            "description": "Portafolio profesional en 6 idiomas (ES/EN/PT/IT/FR/ZH), 36 PDFs generados por pipeline Python, PWA instalable, CI/CD con GitHub Actions, Lighthouse 100, CV Data API.",
             "url": "https://vladimiracunadev-create.github.io/",
             "tags": [
                 "HTML",
@@ -736,8 +736,14 @@
             "name": "software-engineering-learning-suite",
             "description": "🧭 software-engineering-learning-suite · 480 clases · 360 borradores públicos con práctica, fuentes y navegación · Python + Pages · 🐧🍎🪟",
             "url": "https://github.com/vladimiracunadev-create/software-engineering-learning-suite",
-            "tags": [],
-            "category": "other"
+            "tags": [
+                "Software Engineering",
+                "Curriculum",
+                "Python",
+                "GitHub Pages",
+                "Cross-platform"
+            ],
+            "category": "curriculum"
         }
     ]
 }

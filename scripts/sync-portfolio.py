@@ -90,6 +90,7 @@ REPO_CATEGORIES = {
     "mcp-ollama-local": "ai",
     "unikernel-labs": "platform",
     "chofyai-studio": "ai",
+    "software-engineering-learning-suite": "curriculum",
 }
 
 # Grupo de #proyectos donde vive la card de cada repo en index.html.
@@ -116,6 +117,7 @@ REPO_GROUPS = {
     "executive-leadership-founder-program": "curriculos",  "python-data-science-program": "curriculos",
     "artificial-intelligence-evolution-program": "curriculos", "polyglot-programming-labs": "curriculos",
     "blockchain-learning-path": "curriculos",   "machine-operator-program": "curriculos",
+    "software-engineering-learning-suite": "curriculos",
     # Ciencia y educación
     "human-genome-labs": "ciencia",             "violin-adventure": "ciencia",
     "panuelo-al-viento-cueca-app": "ciencia",
@@ -141,6 +143,7 @@ CATEGORY_TAGS = {
     "platform":     {"es": "Plataforma",    "en": "Platform",     "pt": "Plataforma",     "it": "Piattaforma",   "fr": "Plateforme",  "zh": "平台"},
     "tooling":      {"es": "Herramientas",  "en": "Tooling",      "pt": "Ferramentas",    "it": "Strumenti",     "fr": "Outils",      "zh": "工具"},
     "ai":           {"es": "IA local",      "en": "Local AI",     "pt": "IA local",       "it": "IA locale",     "fr": "IA locale",   "zh": "本地AI"},
+    "curriculum":   {"es": "Currículo",      "en": "Curriculum",   "pt": "Currículo",       "it": "Curriculum",    "fr": "Cursus",      "zh": "课程"},
     "other":        {"es": "Proyecto",      "en": "Project",      "pt": "Projeto",        "it": "Progetto",      "fr": "Projet",      "zh": "项目"},
 }
 

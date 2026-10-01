@@ -1,1457 +1,278 @@
 # SOURCE: assets/portafolio.pdf
-# DATE: 2026-03-13T12:42:15.520116
+# DATE: 2026-10-01T18:36:14.031920
 
-Vladimir  Bernardo  Acuña  Valdebenito  
-Arquitecto  de  Software  &  Desarrollador  Senior  PHP  /  JavaScriptDatos  de  contacto  
-●  Correo:  vladimir.acuna.dev@gmail.com  ●  LinkedIn:  linkedin.com/in/vladimir-acuña-valdebenito-11924a29 ●  Portafolio  web  preliminar:  https://main.d3r1wuymolxagh.amplifyapp.com/ ●  País:  Chile  
-Soy  Ingeniero  de  Ejecución  en  Computación  e  Informática  con  más  de  16  años  de  
-experiencia
- 
-desarrollando,
- 
-manteniendo
- 
-y
- 
-modernizando
- 
-soluciones
- 
-web
- 
-para
- 
-organizaciones
- 
-públicas
- 
-y
- 
-privadas.
- 
-A
- 
-lo
- 
-largo
- 
-de
- 
-mi
- 
-carrera
- 
-he
- 
-trabajado
- 
-especialmente
- 
-en
- 
-sistemas
- 
-críticos
- 
-de
- 
-negocio
-,
- 
-plataformas
- 
-de
- 
-alta
- 
-complejidad
- 
-y
- 
-proyectos
- 
-donde
- 
-la
- 
-continuidad
- 
-operacional,
- 
-la
- 
-calidad
- 
-de
- 
-los
- 
-datos
- 
-y
- 
-el
- 
-rendimiento
- 
-son
- 
-clave.
- 
- 
-En  los  últimos  14  años  me  he  especializado  en  el  diseño,  desarrollo  y  evolución  de  una  
-plataforma
- 
-educativa
- 
-y
- 
-psicométrica
- 
-de
- 
-amplio
- 
-espectro
-.
- 
-Este
- 
-trabajo
- 
-ha
- 
-combinado
- 
-backend,
- 
-frontend,
- 
-bases
- 
-de
- 
-datos,
- 
-generación
- 
-de
- 
-reportes
- 
-avanzados
- 
-y,
- 
-en
- 
-los
- 
-últimos
- 
-años,
- 
-la
- 
-incorporación
- 
-de
- 
-automatizaciones
- 
-e
- 
-Inteligencia
- 
-Artificial
- 
-(IA)
- 
-Agéntica
-,
- 
-optimizando
- 
-los
- 
-sistemas
- 
-y
- 
-procesos
- 
-a
- 
-mi
- 
-cargo,
- 
-con
- 
-foco
- 
-en
- 
-resiliencia
- 
-y
- 
-observabilidad
- 
-de
- 
-flujos.
- 
- 
-Mi  sello  profesional  es  la  Modernización  Progresiva :  tomar  sistemas  legacy  complejos,  
-comprenderlos
- 
-a
- 
-fondo
- 
-y
- 
-evolucionarlos
- 
-hacia
- 
-un
- 
-estado
- 
-moderno,
- 
-estable
- 
-y
- 
-escalable
-,
- 
-utilizando
- 
-prácticas
- 
-de
- 
-observabilidad
- 
-avanzada,
- 
-resiliencia
- 
-industrial
- 
-y
- 
-arquitectura
- 
-cloud
--nativa
- 
-(DevOps/FinOps)
-,
- 
-garantizando
- 
-la
- 
-continuidad
- 
-operacional.-----
-Propuesta
- 
-de
- 
-valor
- 
- 
-Lo  que  ofrezco  a  las  empresas  y  equipos  con  los  que  trabajo:  
-●  Modernización  de  sistemas  legados:  Migraciones  progresivas  desde  entornos  
-antiguos
- 
-(ej.
- 
-PHP
- 
-5.x)
- 
-hacia
- 
-plataformas
- 
-actuales
- 
-(PHP
- 
-8.x)
- 
-y
- 
-arquitecturas
- 
-desacopladas,
- 
-con
- 
-mejoras
- 
-de
- 
-rendimiento,
- 
-seguridad
- 
-y
- 
-mantenibilidad.
- ●  Diseño  y  mantenimiento  de  plataformas  web  complejas:  Experiencia  en  
-sistemas
- 
-con
- 
-múltiples
- 
-módulos,
- 
-grandes
- 
-volúmenes
- 
-de
- 
-datos,
- 
-reportes
- 
-avanzados,
- 
-usuarios
- 
-concurrentes
- 
-e
- 
-integraciones
- 
-externas
- 
-(Banca,
- 
-Pasarelas
- 
-de
- 
-Pago,
- 
-Gobierno).
- ●  Optimización,  Observabilidad  y  Escalabilidad:  Análisis  de  cuellos  de  botella,  
-tuning
- 
-en
- 
-consultas
- 
-SQL,
- 
-refactorización
- 
-de
- 
-código
- 
-e
- 
-implementación
- 
-de
- 
-dashboards
- 
-de
- 
-observabilidad
- 
-(Prometheus/Grafana)
- 
-para
- 
-un
- 
-monitoreo
- 
-proactivo
- 
-y
- 
-mejora
- 
-continua
- 
-del
- 
-rendimiento.
- ●  Automatización,  Analítica  e  IA:  Generación  de  reportes  PDF/Excel,  construcción  
-de
- 
-indicadores
- 
-y
- 
-la
- 
-integración
- 
-de
- 
-prototipos
- 
-de
- 
-IA
- 
-Agéntica
- 
-para
- 
-automatizar
- 
-el
- 
-análisis  de  información  y  la  búsqueda  de  oportunidades  en  procesos.  ●  Cloud  y  Gobernanza  (FinOps):  Experiencia  en  arquitecturas  cloud  inmutables  
-(
-Terraform
-,
- 
-OIDC
- 
-para
- 
-seguridad
- 
-sin
- 
-secretos)
- 
-y
- 
-control
- 
-de
- 
-costos
- 
-en
- 
-la
- 
-nube
- 
-(
-FinOps/AWS
- 
+Vladimir Bernardo Acuña Valdebenito
+Arquitecto de Soluciones | Senior Full-Stack | Modernización, Automatización e IA Aplicada
+ Email: vladimir.acuna.dev@gmail.com
+ LinkedIn: linkedin.com/in/vladimir-acuna-valdebenito
+ Portafolio Web: https://vladimiracunadev-create.github.io/
+ GitHub: https://github.com/vladimiracunadev-create
+ GitLab: https://gitlab.com/vladimir.acuna.dev-group
+ País: Chile
+Introducción Profesional
+Profesional titulado en Ingeniería en Informática, con más de 16 años de experiencia desarrollando, manteniendo y
+modernizando soluciones web para organizaciones públicas y privadas. Especializado en sistemas de misión crítica,
+plataformas complejas, continuidad operacional, calidad de datos y rendimiento.
+Últimos 14 años especializados en el diseño, desarrollo y evolución de una plataforma educativa/psicométrica.
+Combinando backend, frontend, bases de datos, reportes avanzados, y recientemente automatización e IA Agéntica, con
+foco en resiliencia y observabilidad.
+Sello profesional: Modernización Progresiva — tomar sistemas legacy complejos, comprenderlos en profundidad y
+evolucionarlos hacia un estado moderno, estable y escalable utilizando observabilidad avanzada, resiliencia industrial,
+arquitectura cloud-native (DevOps/FinOps), asegurando siempre la continuidad operacional.
+Propuesta de Valor
+ Modernización de sistemas legacy (PHP 5.x → PHP 8.x, arquitecturas desacopladas)
+ Diseño/mantención de plataformas web complejas (múltiples módulos, grandes volúmenes de datos, integraciones
+con banca/pagos/gobierno)
+ Optimización, Observabilidad, Escalabilidad (SQL tuning, dashboards Prometheus/Grafana)
+ Automatización, Analytics, IA (reportes PDF/Excel, indicadores, prototipos de IA Agéntica)
+ Cloud y Gobernanza/FinOps (Terraform, OIDC, AWS Budgets)
+ Developer Experience/DX (Docker Labs, Hub CLI, doctor/smoke tests)
+ Perspectiva holística de negocio (estudios en marketing, administración, finanzas)
+Proyectos Actuales y Foco (Portafolio Público)
+Repositorios públicos demostrando capacidades actuales:
+ Arquitectura Resiliente & Infraestructura Inmutable: CI/CD con GitHub Actions/OIDC, Terraform, FinOps/AWS
 Budgets
-),
- 
-asegurando
- 
-despliegues
- 
-eficientes
- 
-y
- 
-sostenibles.
- ●  Developer  Experience  (DX):  Creación  de  entornos  de  desarrollo  reproducibles  
-(
-Docker
- 
-Labs
-)
- 
-y
- 
-automatización
- 
-de
- 
-validaciones
- 
-(
-Hub
- 
-CLI
-,
- 
-doctor/smoke
- 
-tests
-)
- 
-para
- 
-mejorar
- 
-la
- 
-calidad
- 
-y
- 
-productividad
- 
-del
- 
-equipo.
- ●  Visión  integral  del  negocio:  Gracias  a  estudios  complementarios  en  marketing,  
-administración,
- 
-finanzas
- 
-y
- 
-proyectos,
- 
-entiendo
- 
-no
- 
-solo
- 
-el
- 
-código,
- 
-sino
- 
-también
- 
-el
- 
-impacto
- 
-de
- 
-las
- 
-soluciones
- 
-en
- 
-el
- 
-negocio
- 
-y
- 
-en
- 
-los
- 
-usuarios
- 
-finales.
- 
------ Proyectos  y  Foco  Actual  (Portafolio  Público)  
-Durante  mi  transición  y  foco  actual,  he  desarrollado  laboratorios  y  proofs  of  concept  (PoC)  
-que
- 
-demuestran
- 
-mi
- 
-experticia
- 
-en
- 
-la
- 
-aplicación
- 
-de
- 
-metodologías
- 
-modernas:
- 
-●  Arquitectura  Resiliente  e  Infraestructura  Inmutable:  Implementación  de  CI/CD  
-profesional
- 
-con
- 
-GitHub
- 
-Actions/OIDC
- 
-y
- 
-despliegues
- 
-cloud
- 
-seguros
- 
-con
- 
-Terraform
- 
-y
- 
-gestión
- 
-de
- 
-costos
- 
-(
-FinOps/AWS
- 
-Budgets
-).
- ●  Observabilidad  y  Developer  Experience  (DX):  Creación  de  Docker  Labs  con  
-Prometheus/Grafana
- 
-para
- 
-métricas,
- 
-y
- 
-Microsistemas
- 
-(
-Hub
- 
-CLI
-)
- 
-para
- 
-automatizar
- 
-diagnósticos
- 
-(
-doctor/smoke
- 
-tests
-)
- 
-y
- 
-mejorar
- 
-la
- 
-experiencia
- 
-de
- 
-desarrollo.
- ●  IA  Agéntica:  Prototipos  funcionales  con  LangGraph  y  Ollama  (IA  local) ,  enfocados  
-en
- 
-integrar
- 
-agentes
- 
-con
- 
-estado
- 
-y
- 
-rutas
- 
-condicionales
- 
-en
- 
-el
- 
-flujo
- 
-de
- 
-negocio
- 
-para
- 
-la
- 
-toma
- 
-de
- 
-decisiones
- 
-y
- 
-automatización
- 
-avanzada.
- 
------ Experiencia  relevantePlataforma  educativa  y  psicométrica  (2011–2025)  
-●  Rol:  Desarrollador  Senior  /  Arquitecto  de  Software  (de  facto)  ●  Ámbito:  Fundación  educativa;  soluciones  para  colegios  y  equipos  de  orientación.  ●  Diseño,  desarrollo  y  mantención  de  una  plataforma  web  de  evaluación  de  
-alumnos
-,
- 
-con
- 
-múltiples
- 
-tests,
- 
-módulos
- 
-de
- 
-reportes
- 
-para
- 
-profesores,
- 
-orientadores
- 
-y
- 
-directivos,
- 
-y
- 
-herramientas
- 
-de
- 
-gestión
- 
-para
- 
-la
- 
-institución.
- ●  Migración  tecnológica:  Paso  progresivo  desde  un  entorno  basado  en  PHP  5.4  y  
-servidores
- 
-antiguos
- 
-hacia
- 
-PHP
- 
-8.2
-,
- 
-nuevos
- 
-servidores
- 
-y
- 
-librerías
- 
-actualizadas,
- 
-cuidando
- 
-compatibilidad
- 
-y
- 
-continuidad
- 
-de
- 
-servicio.
- 
-Antes
- 
-de
- 
-la
- 
-migración
- 
-principal,
- 
-realicé
- 
-la
- 
-migración
- 
-de
- 
-varias
- 
-tareas
- 
-a
- 
-JavaScript
- 
-puro
-,
- 
-reduciendo
- 
-carga
- 
-en
- 
-el
- 
-servidor
- 
-y
- 
-mejorando
- 
-tiempos
- 
-de
- 
-respuesta.
- ●  Desarrollo  de  módulos  de  reportes  avanzados:  Generación  de  PDFs,  gráficos  y  
-planillas
- 
-Excel
- 
-con
- 
-indicadores
- 
-psicométricos,
- 
-percentiles,
- 
-categorías
- 
-y
- 
-análisis
- 
-por
- 
-curso,
- 
-nivel
- 
-y
- 
-establecimiento.
- ●  Implementación  de  procesos  de  importación  y  migración  de  datos  desde  Excel  y  
-otras
- 
-fuentes,
- 
-con
- 
-validación,
- 
-normalización
- 
-y
- 
-manejo
- 
-de
- 
-grandes
- 
-volúmenes
- 
-de
- 
-información.
- ●  Automatización  de  comunicaciones  y  marketing  relacional:  Envíos  masivos  de  
-correos
- 
-(SMTP,
- 
-Sendmail,
- 
-Masterbase,
- 
-ConstantContact),
- 
-segmentación
- 
-de
- 
-clientes,
- 
-seguimiento
- 
-y
- 
-apoyo
- 
-a
- 
-la
- 
-gestión
- 
-comercial.
- ●  Soporte  de  alto  nivel  a  usuarios  clave:  Atención  directa  a  coordinadores,  
-orientadores,  directivos  y  alumnos;  participación  en  definición  de  requerimientos,  
-resolución
- 
-de
- 
-incidentes
- 
-y
- 
-mejora
- 
-continua.
- ●  Tecnologías  usadas  (entre  otras):  PHP  5/8,  JavaScript,  jQuery,  HTML,  CSS,  SQL  
-Server,
- 
-MySQL,
- 
-Apache,
- 
-entornos
- 
-Linux
- 
-(CentOS,
- 
-Red
- 
-Hat),
- 
-LimeSurvey,
- 
-herramientas
- 
-de
- 
-ofimática
- 
-avanzada,
- 
-y
- 
-para
- 
-pruebas
- 
-de
- 
-rendimiento
- 
-y
- 
-carga
- 
-Apache
- 
-JMeter.
- 
-Experiencia  previa  destacada  
-●  Organismos  de  Gobierno  (CONACE  –  Consejo  Nacional  para  el  Control  de  
-Estupefacientes):
- 
-Análisis,
- 
-desarrollo
- 
-y
- 
-mantención
- 
-de
- 
-sistemas
- 
-para
- 
-recursos
- 
-humanos,
- 
-adquisiciones,
- 
-inventarios
- 
-y
- 
-control
- 
-de
- 
-sustancias
-.
- 
-Desarrollo
- 
-de
- 
-reportes
- 
-PDF
- 
-y
- 
-Excel,
- 
-integraciones,
- 
-flujos
- 
-administrativos
- 
-y
- 
-módulos
- 
-de
- 
-seguridad
- 
-de
- 
-aplicaciones
- 
-web
-.
- ●  Sector  financiero  y  medios  de  pago  (Transbank,  PointPay,  Corpvida):  Desarrollo  
-de
- 
-sistemas
- 
-de
- 
-gestión
- 
-de
- 
-equipos
- 
-y
- 
-tareas
- 
-(GSET)
-,
- 
-módulos
- 
-de
- 
-facturación,
- 
-integraciones
- 
-con
- 
-bases
- 
-de
- 
-datos
- 
-SQL
- 
-Server
- 
-y
- 
-Oracle.
- 
-Creación
- 
-de
- 
-componentes
- 
-COM
- 
-en
- 
-Visual
- 
-Basic
- 
-6.0,
- 
-generación
- 
-de
- 
-reportes
- 
-en
- 
-Excel
- 
-y
- 
-Crystal
- 
-Reports,
- 
-trabajo
- 
-con
- 
-ASP
- 
-clásico
- 
-y
- 
-PHP.
- ●  Desarrollo  web  para  empresas  diversas  (Giro  Ingeniería,  hoteles,  colegios,  
-proyectos
- 
-educativos):
- 
-Construcción
- 
-de
- 
-sitios
- 
-web
- 
-dinámicos
- 
-y
- 
-estáticos,
- 
-intranets,
- 
-sistemas
- 
-de
- 
-encuestas
- 
-y
- 
-entornos
- 
-educativos
- 
-especializados.
- 
-Combinación
- 
-de
- 
-desarrollo
- 
-técnico
- 
-con
- 
-sensibilidad
- 
-hacia
- 
-el
- 
-usuario
- 
-final
- 
-y
- 
-las
- 
-necesidades
- 
-específicas
- 
-de
- 
-cada
- 
-institución.
- 
------ Formación  
-●  Ingeniería  de  Ejecución  en  Computación  e  Informática ,  Universidad  de  Tarapacá,  
-Arica.
- ●  Técnico  en  Administración  de  Empresas,  mención  Marketing ,  INACAP  (con  
-certificación
- 
-SAP
- 
-Usuario).
- ●  Diversos  cursos  y  formaciones  en  J2EE,  aplicaciones  web  móviles,  
-ciberseguridad
- 
-y
- 
-tecnologías
- 
-relacionadas
- 
-con
- 
-desarrollo
- 
-de
- 
-software
- 
-y
- 
-entornos
- 
-web
-.
- 
-Este  mix  técnico–de  negocios  me  permite  trabajar  de  forma  fluida  tanto  con  equipos  de  TI  
-como
- 
-con
- 
-áreas
- 
-no
- 
-técnicas
- 
-(dirección,
- 
-marketing,
- 
-administración),
- 
-traduciendo
- 
-necesidades
- 
-del
- 
-negocio
- 
-en
- 
-soluciones
- 
-concretas
-.-----
-Competencias
- 
-técnicas
- Categoría  Tecnologías  Clave  
-Backend  PHP  (4/5/8.x),  JavaScript/Node.js  (FastAPI,  n8n),  ASP  clásico,  Visual  Basic  6.0.  
-Frontend  HTML,  CSS,  JavaScript,  jQuery.  
-Bases  de  datos  SQL  Server,  MySQL,  SQLite;  diseño  y  optimización  de  consultas  complejas  (T-SQL,  PL/SQL).  
-Servidores/Entornos  Docker ,  Kubernetes  (K8s  Ready) ,  Linux  (Red  Hat,  CentOS),  Windows  Server,  Apache,  IIS.  
-Cloud/Infraestructura  Terraform ,  AWS  (S3,  Amplify) ,  OIDC,  FinOps/Budgets ,  CI/CD  (GitHub  Actions).  
-Observabilidad  Prometheus ,  Grafana ,  análisis  de  métricas.  
-Resiliencia  Circuit  Breakers,  Idempotencia.  
-IA/Automatización  LangGraph ,  Ollama  (IA  local) ,  n8n  (Orquestación) ,  Apache  JMeter.  
-Developer  Experience  (DX)  Hub  CLI ,  doctor/smoke  tests .  
------ Estilo  de  trabajo  
-●  Orientado  a  la  solución  y  al  detalle:  Me  gusta  entender  a  fondo  los  sistemas  y  
-dejarlos
- 
-funcionando
- 
-mejor
- 
-de
- 
-cómo
- 
-estaban.
- ●  Responsable  y  comprometido:  He  sostenido  plataformas  críticas  durante  años,  
-acompañando
- 
-su
- 
-evolución
- 
-y
- 
-soportando
- 
-periodos
- 
-de
- 
-alta
- 
-demanda.
- ●  Buena  comunicación  con  usuarios  y  equipos  no  técnicos:  Experiencia  en  
-relatorías,
- 
-capacitación
- 
-de
- 
-usuarios,
- 
-elaboración
- 
-de
- 
-manuales
- 
-y
- 
-material
- 
-de
- 
-apoyo.
- ●  Aprendizaje  continuo:  Incorporo  nuevas  tecnologías  cuando  tienen  sentido  para  el  
-negocio,
- 
-sin
- 
-perder
- 
-de
- 
-vista
- 
-la
- 
-estabilidad
- 
-de
- 
-los
- 
-sistemas
- 
-en
- 
-producción.
- 
------ Objetivo  actual  
- 
-Busco  integrarme  a  un  equipo  donde  pueda  aportar  mi  experiencia  en  modernización  de  
-sistemas,
- 
-desarrollo
- 
-web
- 
-y
- 
-optimización
- 
-de
- 
-plataformas
- 
-existentes
-,
- 
-ya
- 
-sea
- 
-en
- 
-el
- 
-rol
- 
-de
- 
-Desarrollador
- 
-Senior
- 
-o
- 
-Arquitecto
- 
-de
- 
-Software
-,
- 
-idealmente
- 
-en
- 
-organizaciones
- 
-que
- 
-valoren
- 
-la
- 
-estabilidad,
- 
-la
- 
-calidad
- 
-técnica
- 
-y
- 
-la
- 
-mejora
- 
-continua
-,
- 
-y
- 
-que
- 
-estén
- 
-en
- 
-proceso
- 
-de
- 
-migración
- 
-o
- 
-evolución
- 
-hacia
- 
-arquitecturas
- 
-modernas
- 
-(Cloud/DevOps)
-.-----
-Referencias
- 
-laborales
- 
-●  Jean  Claude  Dupry  
-Último
- 
-jefe
- 
-directo
- 
-Celular:
- 
-+56
- 
-9
- 
-9415
- 
-6984
- 
- 
- 
+ Observabilidad & DX: Docker Labs con Prometheus/Grafana, Microsistemas (Hub CLI), doctor/smoke tests
+ IA Agéntica: LangGraph v4.15 + Ollama (IA local), 25/25 backends operativos (cobertura 100%), auditoría 8 capas,
+Docker/caso, CI/CD hardened
+ Social Bot Scheduler: Matriz de integración 9 ejes, 9 motores de BD, orquestación n8n, Prometheus/Grafana
+ MCP + Ollama local: Chat IA local, herramientas MCP, 100% privado
+ Unikernel Labs: Control Center Windows — WSL2 + Node.js + WinForms, servicios Unikraft
+ ChofyAI Studio: Lanzador IA local macOS — Tauri + Rust + React, Apple Silicon
+ Problem Driven Systems Lab: Laboratorio Docker-first con 12 problemas reales de ingeniería resueltos en 7 stacks
+(PHP · Python · Node.js · Java · .NET · Go · Rust): rendimiento, observabilidad, resiliencia, modernización legacy y
+arquitectura — con evidencia operacional verificable
+Portafolio Profesional — Pág. 1
+
+ Claude Skills Toolkit: claude-skills-toolkit · 15 skills agentic para Claude Code · security-audit (12 capas:
+OSV/KEV/EPSS/SAST/…) · bitcoin-custody-audit (custodia Bitcoin, 14 etapas) · python-lint-guard · python-deps-pinning
+· version-bump · md-to-doc · yaml-control · md-lint-fix · docker-cleanup · Zero-deps · Cross-platform
+ Gabysql: GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y
+admin web liviano. Diseñada para entornos embebidos y edge
+ Python Data Science Program: Python Data Science Program v3.11.0 · 232 clases en 9 partes (100%) · App
+Windows Qt nativa (PySide6) con la clase en HTML + APK Android con las 232 clases embebidas + lab Python
+(Flask+Jupyter real) · Currículo Python/Polars, ML+Optuna/SHAP, DL
+(PyTorch/LLMs/LoRA-DPO/MCP/agentes/multimodal/JAX), estadística+causalidad, MLOps, ética, capstones
+ Automa · PC Orchestrator v0.2.0: Orquestador local de acciones efectivas sobre Windows · 20 flows declarativos
+JSON que abren ventanas reales, interactúan con DOM, capturan evidencia · Panel local 127.0.0.1 (pywebview +
+PyInstaller) · Python 3.10+, Playwright (headless/visible), SQLite historial, OCR/visión, uv packaging, 115 pytest tests,
+instalador Windows firmado · Local-first
+ RootCause · Windows Inspector v0.11.0: Diagnóstico forense para Windows 10/11 escrito en Rust (edition 2024) ·
+Descubre qué proceso, servicio, carpeta, conexión o traza ETL degrada el equipo · 5 ediciones publicadas: GUI
+Setup.exe, Portable .zip, CLI single-binary rootcause.exe, módulo PowerShell .psm1, extensión VS Code .vsix · ETW ·
+WPR · SHA256SUMS por release · Diagnóstico primero, intervención después
+ Rootcause Mobile Inspector: RootCause Mobile v0.8.0 — sensor forense de diagnóstico para Android e iOS
+(Flutter). Compara cada app consigo misma para detectar consumo anómalo, señala stalkerware activo y distingue
+permisos concedidos de los solo pedidos. Evidencia PDF, 5 idiomas. Sin permiso INTERNET: telemetría cero,
+verificada en cada build
+ Modern Gamedev Program: El programa de desarrollo de videojuegos más completo en español — 352 clases en
+22 partes, de fundamentos a nivel profesional. 2D/3D, física, shaders, IA, audio, multijugador, VR/AR, optimización y
+producción; más especialización en ingeniería: sistemas de gameplay, backend, IA generativa y motores. Godot · Unity
+· Unreal
+ Modern Cybersecurity Program: modern-cybersecurity-program v1.3.0 · 360 clases en 20 partes · 2.424 términos ·
+CTF, Game Security y 14 plataformas de práctica · app Android/web offline · manual PDF · CI, Security y Pages
+verificados.
+ Machine Operator Program: machine-operator-program · 41 módulos formativos, uno por máquina · 451 clases · 502
+h 15 min de aprendizaje · Sistemas, mandos, física, seguridad y simulación con fuentes por clase · Markdown + Python
+ Rhino Suite: Rhino Suite · Suite ofimática web y de escritorio construida desde cero — editor de documentos con
+modelo estructurado, motores Rust/WASM + motor TypeScript compatible, API Go, intercambio DOCX/ODT y
+monorepo evolutivo por fases
+ Human Genome Labs: Human Genome Labs v1.0 · Plataforma científica evolutiva y reproducible para genética
+molecular y genómica · Núcleo TypeScript: secuencias, traducción, ORF, variantes y G-cuádruplex · Contratos
+ScientificResult · FASTA/GFF3/VCF · Módulos con madurez y evidencia explícitas · CLI + lab web PWA + juego
+ Wsl Labs: WSL Container Center · Levanta y controla contenedores en Windows con wslc, el motor de contenedores
+nativo de WSL — 12 casos reales portados de docker-labs, panel de control + launcher. Sin Docker Desktop
+ Computational Mathematics Program: Matemática computacional en español · 18 partes · 360 clases en 5 etapas:
+de contar con los dedos a reproducir un paper · 360 demostraciones deterministas verificadas en CI · sin dependencias
+para aprender · 1080 notebooks · 489 términos de glosario · manual completo en PDF
+ Modern Business Creation Program: Programa de 24 partes y 336 clases para crear y operar una empresa real en
+Chile: de la idea a la constitución, el SII, la operación, la crisis y la salida. Con 360 diagramas, glosario de 1.251
+términos y manual de 1.541 páginas en PDF
+ Executive Leadership Founder Program: Programa ejecutivo público de 288 clases en 24 partes · 720 h · De
+asumir tu primer resultado a dirigir una empresa y crear la tuya: liderazgo, equipos, talento, operaciones, KPI/OKR,
+finanzas, ventas, marketing, producto, estrategia, riesgo, IA, directorio, M&A y founder track Chile · 24 casos, 96 labs y
+39 plantillas
+ Finance And Banking Evolution Program: Programa abierto de 356 clases · Finanzas y banca, riesgo, custodia de
+activos digitales, segregación patrimonial, conciliación Ledger↔Bank↔Exchange↔Blockchain, treasury, liquidez,
+trading, control interno y gobernanza · 27 casos · 298 pruebas
+Portafolio Profesional — Pág. 2
+
+ Blockchain Learning Path: blockchain-learning-path · v0.14.0 · 66 clases, 91 prácticas y 356 pruebas · Andes Quest:
+DB vs activos on-chain · Solidity, custodia, PoR y forensics · Apps offline
+ Universal Code Scanner: Universal Code Scanner v1.1.0 — Lector Flutter de códigos QR y de barras que interpreta
+antes de actuar: 16 señales de riesgo locales por URL, confirmación explícita, historial e inventario cifrados con
+AES-256-GCM. Estado de escaneo siempre visible y tono propio de lectura. Android · iOS · macOS · PWA. Telemetría
+cero
+ Sandbox Labs: Laboratorio de aislamiento en Linux: ejecuta código, archivos y modelos de negocio ajenos bajo
+políticas declaradas, y emite evidencia firmada de qué controles se aplicaron de verdad en tu equipo. 36 casos en dos
+familias — sandboxes técnicos y mercado de capitales con dinero simulado. Experimental y educativo, no un producto
+de seguridad
+ Artificial Intelligence Evolution Program: artificial-intelligence-evolution-program · v0.17.0 · 183 clases en 15 partes
+· 705 notebooks · 148 papers fundacionales · IA simbólica → LLMs, RAG, agentes, seguridad y frontera · Apps
+Windows/Android + PWA offline · Python
+ Rootcause Web Inspector: RootCause Web Inspector v0.2.0 — sensor forense del navegador: cookies, sesiones de
+correo, extensiones, descargas, permisos y páginas que simulan una ventana real (Browser-in-the-Browser). Panel
+local en 127.0.0.1, extensión MV3, CERO dependencias y cero telemetría verificada en CI.
+ Violin Adventure: Mi Aventura con el Violín · App educativa para aprender violín desde los 10 años · 24 lecciones en
+6 mundos, afinador cromático, metrónomo y práctica guiada · Tauri 2 + React + TypeScript · Windows, Android, Linux,
+macOS, iOS y PWA · Sin publicidad, sin cuentas, offline · v1.0.0, instaladores firmados en Releases
+ Multi Cloud Engineering Program: Multi-Cloud Engineering Program v2.2.0 · 288 clases en 24 partes · 1.288 horas ·
+El programa de ingeniería multi-cloud más completo en español: AWS, Azure, GCP, Kubernetes, Terraform, SRE,
+FinOps y arquitectura de sistemas · Manual PDF de 2.884 páginas, 288 labs con evidencia JSON y 1.032 fuentes
+trazadas.
+ Neural Network Training Labs: Neural Network Training Labs · 31 clases en 7 módulos · ~214 horas · 93 notebooks ·
+preguntas, mapas visuales, prácticas y evaluación con datos públicos reales · PyTorch
+ Polyglot Programming Labs: El programa de programación comparada en español — 176 clases en 12 partes. Un
+concepto, 10 lenguajes del núcleo (Python, JS, TS, Java, C#, Go, Rust, C, SQL, PHP) verificados en CI, y un Atlas de
+~40 familias. Aprende el concepto una vez y reconócelo en cualquier lenguaje
+ Education Pedagogy Learning Sciences Program: Pedagogía, Docencia y Ciencias del Aprendizaje v2.0.0 · 300
+clases en 25 partes · El programa de formación pedagógica más completo en español: aprendizaje, didáctica, inclusión,
+currículum, evaluación, convivencia, IA educativa y liderazgo · Evidencia declarada por clase, 14 rutas por rol, 60
+actividades de aula y portal offline
+ Marketing Sales Growth Evolution Program: marketing-sales-growth-evolution-program · v1.6.0 · 336 clases en 24
+partes · 1.348 conceptos, 1.012 métricas y 97 obras · marketing, ventas, RevOps, growth, analítica e IA comercial ·
+portal offline en Python ·
+ Guitarra Adventure: Mi Aventura con la Guitarra · App educativa para aprender guitarra desde los 10 años · 24
+lecciones en 6 mundos, afinador de 6 cuerdas, metrónomo sin deriva y 11 notas grabadas de guitarra real · Tauri 2 +
+React + TypeScript · Windows, Android, Linux, macOS, iOS y PWA · Sin publicidad, sin cuentas, offline · v1.0.0 con
+instaladores en Releases
+ Agentic Plugins Toolkit: agentic-plugins-toolkit · 6 plugins agénticos para Claude Code, OpenAI/Codex, Copilot,
+Gemini y MCP · repository-engineering · legacy-modernization · learning-program-studio · product-evolution ·
+portfolio-governance · rootcause-response · 69 vistas generadas sin drift · Zero-deps
+ Operational Ai Agents: operational-ai-agents · 13 agentes para Claude Code · repository-evolution ·
+legacy-modernization · curriculum-evolution · portfolio-publication · security-remediation · incident-root-cause ·
+professional-profile · Contrato + gates humanos + evidencia verificable · 39 evals deterministas · Zero-deps ·
+Cross-platform
+ Empresa Operativa Chile: v1.5.0 · Crear, operar y controlar una empresa chilena: constitución con evidencia, capital
+y CPT, patente municipal, IVA/PPM, F29, cierre anual, control interno e investigación de integridad. Guía, manual y
+glosario dentro de la app. Android, Windows y navegador. Fuentes oficiales. Cero telemetría.
+Portafolio Profesional — Pág. 3
+
+ Rootcause Macos Inspector: RootCause macOS Inspector v0.1.0 — sensor forense de ciberseguridad para macOS
+(Rust): persistencia launchd, Gatekeeper, SIP, FileVault, XProtect, permisos TCC, procesos con firma y vecinos de red.
+Compara cada superficie con un estado bueno conocido y explica qué cambió, con evidencia. Telemetría: cero.
+Hermano de Windows, Web y Mobile
+ Codex Skills Toolkit: codex-skills-toolkit · 19 Agent Skills para Codex · seguridad y supply chain · preflight y flujos
+funcionales · resiliencia y estado · evidencia de release · Python-first · pnpm · Cross-platform
+ Rootcause Qr Inspector: rootcause-qr-inspector · 26 señales locales y 107 pruebas · cámara, imágenes y PDF ·
+evidencia redactada · Flutter/Dart · local-first y telemetría cero · APK Android v0.1.4 publicado
+ Chilean School Learning Path: Currículum escolar chileno abierto: 8.841 clases + 4.156 integraciones y 2.823 OA
+de 1° básico a 4° medio, con fuentes MINEDUC, guías pedagógicas y portal en GitHub Pages.
+ Architecture Built Environment Learning Program: Programa integral del entorno construido en español · 680
+clases en 68 partes — del encargo al fin de vida: historia, proyecto, ciudad, sistemas, construcción, gestión, operación y
+rehabilitación · 8 talleres (48 sesiones) · 12 rutas · fuentes trazables por clase
+ Pdf Reader Windows Android: PDF Reader v0.3.3 · lector PDF Android-first local y de solo lectura · acciones
+continuas, áreas seguras, miniaturas acotadas e historial reabrible · Android 7+, Windows y Web · cero cuentas,
+permisos sensibles y telemetría · APK firmado
+ Universal Payments Engineering Lab: Laboratorio autoexplicativo de ingeniería de pagos: 28 familias, DEMO local,
+estados, ledger, conciliación, seguridad y guías de implementación
+ Psychometrics And Assessment Program: psychometrics-and-assessment-program · 5 instrumentos · 344 ítems ·
+81 escalas · scoring auditable · currículo: 40 clases (5 escritas) · licencias trazables · Python 3.11–3.13 · 57 tests
+ Rootcause Server: RootCause Server v0.2.0 — plano de control en Rust que defiende servidores y la red que los
+rodea: superficie expuesta, ráfagas de autenticación, acceso concedido tras la ráfaga, integridad de archivos críticos y
+silencio del sensor. 18 reglas con evidencia y runbook — nunca ejecuta nada. Consola local sin dependencias web
+ Aws Desktop Studio: AWS Desktop Studio · 15 integraciones de inventario + 20 tutoriales · AWS CLI, Electron y
+localhost · Implementación en desarrollo; no acceso universal · Windows
+ Ai Dataset Foundry: AI Dataset Foundry v0.2.0 — factoría local-first para convertir PDF, Word, web, Git, JSON y
+CSV en datasets auditables para pretraining, fine-tuning, RAG y evaluación · Windows + Android offline
+ Rootcause Blockchain Security: Laboratorio profesional watch-only de blockchain forensics y root cause analysis
+para Bitcoin, Ethereum y Polygon: TX, direcciones, reconciliación, grafos, timelines e informes con evidencia verificable.
+CLI + API local, cero dependencias, nunca claves privadas
+ Rootcause Bitcoin Defense: RootCause Bitcoin Defense v0.3.0 — defensa watch-only y laboratorio forense UTXO:
+inputs, outputs, fees, change, procedencia, grafo de transacciones y reconciliación contable en regtest. App local, cero
+dependencias, nunca pide semillas ni usa fondos reales. Verificado en CI
+ Decentraland Social Arcade: decentraland-social-arcade · Experiencia 3D social nativa de Decentraland · 1 MVP y
+arquitectura multijuego · SDK7 + ECS + TypeScript · documentación en español · sin pagos ni telemetría
+ Commerce Operating System: Commerce OS v0.3.0 · demo conceptual guiada en 6 pestañas: catálogo, stock,
+CRM, pedidos, pagos mock y trazabilidad · Web, Windows y Android · Sin dinero ni SII real
+ Panuelo Al Viento Cueca App: Pañuelo al Viento · Academia interactiva de cueca desde los 10 años · 24 clases,
+Dojo con huellas y espejo, Pañuelo Lab, Escenario guiado y progreso por habilidades · Flutter local-first · Android +
+Windows · v0.2.0
+ Qemu Kvm Labs: qemu-kvm-labs · 12 labs de virtualización real · QEMU, KVM, libvirt, cloud-init y vm-manager ·
+Linux + WSL2
+ Database Systems Labs: Programa abierto de ingeniería de bases de datos · 74 clases en 15 partes · 230 h · Del
+modelado conceptual a la arquitectura distribuida, la operación y la recuperación para IA · 120 fuentes con ISBN, DOI o
+norma citadas clase a clase y verificadas en CI · Glosario de 306 términos · El mismo caso resuelto en 27 motores
+ Video Transcript Studio: Un video, una lista o un CANAL COMPLETO de YouTube → texto con marcas de tiempo.
+Whisper 100% local: sin API, sin cuenta, sin telemetría. Asistente de 4 etapas en escritorio Windows + panel local en
+127.0.0.1 + CLI, con la misma cola. MD, PDF, TXT, SRT, VTT, JSON, MP3, OGG. FFmpeg incluido. Modo oscuro. 89
+tests.
+Portafolio Profesional — Pág. 4
+
+ Framework Ecosystems Labs: Laboratorio de clases comparadas: el mismo contrato ejecutable, sin adaptadores,
+contra Express, FastAPI, Spring Boot, ASP.NET, Django, Rails, Laravel, React, Vue, Svelte y más. 149 clases en 12
+partes (70 construidas, 397 casos verificados en CI) · 210 fuentes con ISBN/DOI · seguridad, datos, interfaz
+ Software Engineering Learning Suite: software-engineering-learning-suite · 480 clases · 360 borradores públicos
+con práctica, fuentes y navegación · Python + Pages ·
+Enlaces de Proyectos
+ Cloud/AWS (GitHub): https://github.com/vladimiracunadev-create/proyectos-aws
+ Cloud/AWS (GitLab): https://gitlab.com/vladimir.acuna.dev-group/proyectos-aws-gitlab
+ Microsistemas: https://github.com/vladimiracunadev-create/microsistemas
+ Social Bot Scheduler: https://github.com/vladimiracunadev-create/social-bot-scheduler
+ Docker Labs: https://github.com/vladimiracunadev-create/docker-labs
+ LangGraph: https://github.com/vladimiracunadev-create/langgraph-realworld
+ MCP + Ollama: https://github.com/vladimiracunadev-create/mcp-ollama-local
+Experiencia Relevante
+Plataforma educativa/psicométrica (2011–2025)
+ Rol: Desarrollador Senior / Arquitecto de Software (de facto)
+ Alcance: Fundación educativa; soluciones para colegios y equipos de orientación
+ Diseño, desarrollo y mantención de plataforma web de evaluación de alumnos
+ Migración tecnológica: PHP 5.4 → PHP 8.2+, migración JS para rendimiento
+ Módulos de reportes avanzados: PDFs, gráficos, Excel con indicadores psicométricos
+ Importación/migración de datos desde Excel con validaciones
+ Automatización de comunicaciones: mailing masivo (SMTP, Constant Contact), segmentación
+ Soporte de alto nivel a usuarios
+ Seguridad: análisis forense de ataques al servidor, revisión de logs Apache/PHP para detectar actividad anómala de
+IP desconocidas, pruebas con OWASP ZAP y pruebas de carga con JMeter
+ Tecnologías: PHP 5/8, JavaScript, jQuery, HTML, CSS, SQL Server, MySQL, Apache, Linux, LimeSurvey, JMeter,
+OWASP ZAP
+Experiencia Previa
+ Gobierno (CONACE): Sistemas RRHH, adquisiciones, inventarios, reportes PDF/Excel, módulos de seguridad
+ Financiero/Pagos (Transbank, PointPay, Corpvida): Sistemas GSET, facturación, SQL Server/Oracle, VB6 COM,
+Crystal Reports
+ Desarrollo web para diversas organizaciones (Giro Ingeniería, hoteles, colegios): Sitios dinámicos/estáticos,
+intranets, encuestas, ambientes educativos
+Educación
+ Ingeniería en Informática, Universidad de Tarapacá, Arica
+ Técnico en Administración de Empresas (Marketing), INACAP (Certificación SAP User)
+ Cursos varios: J2EE, web móvil, ciberseguridad
+Competencias Técnicas
+Categoría
+Tecnologías / Herramientas
+Backend
+PHP (4/5/8.x), JavaScript/Node.js, TypeScript, Python (FastAPI), Go, Rust, C#, Ruby
+Portafolio Profesional — Pág. 5
+
+Categoría
+Tecnologías / Herramientas
+Frontend
+HTML, CSS, JavaScript
+Bases de Datos
+SQL Server, MySQL/MariaDB, PostgreSQL, MongoDB, Redis, SQLite, DuckDB
+Servidores/Entornos
+Docker, Kubernetes, Linux, Windows Server, Apache
+Cloud/Infraestructura
+Terraform, AWS (S3, Amplify, CloudFront), OIDC, FinOps/Budgets, CI/CD (GitHub Actions/GitLab CI)
+Observabilidad
+Prometheus, Grafana
+Calidad/Seguridad
+Hardening, secret scanning (Gitleaks, TruffleHog), anti-inyección, Trivy, pip-audit
+Resiliencia
+Circuit breakers, Idempotency
+IA/Automatización
+LangGraph, MCP (Model Context Protocol), Ollama, n8n
+DX
+Hub CLI, doctor/smoke tests
+Estilo de Trabajo
+ Orientado a soluciones y al detalle
+ Responsable y comprometido
+ Buena comunicación con equipos no técnicos
+ Aprendizaje continuo
+Objetivo Actual
+Integrar un equipo donde pueda aportar mi experiencia en modernización de sistemas, desarrollo full-stack y operación de
+plataformas, contribuyendo a proyectos de alto impacto con foco en calidad, resiliencia y mejora continua.
+Referencias Profesionales
+Jean Claude Dupry
+Ex jefe directo
+Móvil: +56 9 9415 6984
+Portafolio Profesional — Pág. 6

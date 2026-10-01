@@ -10,6 +10,12 @@
 - Scripts PDF y api/v1/projects.json actualizados
 - 36 PDFs regenerados (6 tipos × 6 idiomas)
 - Backup en `assets/backups/2026-10-01/`
+- `software-engineering-learning-suite` clasificado como currículo técnico en web, API y CV; el generador vuelve a fallar de forma segura ante claves sin categoría.
+- Descripciones vigentes sincronizadas para Chilean School Learning Path, Marketing Sales & Growth, PDF Reader v0.3.3 y Architecture & Built Environment.
+- `data/resume.json`, metadatos de extracción, `llm.txt` y `sitemap.xml` alineados al 2026-10-01.
+- Extracciones textuales ES/EN actualizadas desde los PDFs finales.
+- Reparado el mojibake histórico de `docs/BUILD_GUIDE.md` y añadido `scripts/mojibake_probe.py` para prevenir regresiones.
+- Caché PWA renovada para distribuir de inmediato la web y los documentos regenerados.
 
 ## 2026-09-25
 

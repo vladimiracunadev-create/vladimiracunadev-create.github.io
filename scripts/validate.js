@@ -12,7 +12,7 @@
  *   5. JSON API — all endpoints valid JSON
  *   6. PWA — manifest, service worker, offline page
  *   7. SEO — sitemap, robots, llm.txt
- *   8. Links — external links have rel="noopener"
+ *   8. Links — external links have rel="noopener" or rel="noreferrer"
  */
 
 const fs = require("fs");
@@ -134,8 +134,8 @@ function checkPDFs() {
     if (!link.includes('target="_blank"')) {
       fail(`PDF: Link missing target="_blank": ${link.substring(0, 120)}`);
     }
-    if (!link.includes('rel="noopener"')) {
-      warn(`PDF: Link missing rel="noopener": ${link.substring(0, 120)}`);
+    if (!/rel="[^"]*(?:noopener|noreferrer)[^"]*"/.test(link)) {
+      warn(`PDF: Link missing rel="noopener" or rel="noreferrer": ${link.substring(0, 120)}`);
     }
   }
 
@@ -378,17 +378,18 @@ function checkLinks() {
   const html = readFile("index.html");
   if (!html) return;
 
-  // External links should have rel="noopener"
+  // External links should have rel="noopener" or rel="noreferrer".
+  // Browsers treat noreferrer as implying noopener, so either value is safe.
   const extLinks = html.match(/<a[^>]*href="https?:\/\/[^"]*"[^>]*>/g) || [];
   let missingNoopener = 0;
   for (const link of extLinks) {
-    if (link.includes('target="_blank"') && !link.includes("noopener")) {
+    if (link.includes('target="_blank"') && !/rel="[^"]*(?:noopener|noreferrer)[^"]*"/.test(link)) {
       missingNoopener++;
     }
   }
 
   if (missingNoopener > 0) {
-    warn(`Links: ${missingNoopener} external link(s) with target="_blank" missing rel="noopener"`);
+    warn(`Links: ${missingNoopener} external link(s) with target="_blank" missing rel="noopener" or rel="noreferrer"`);
   } else {
     ok(`Links: All ${extLinks.length} external links properly secured`);
   }

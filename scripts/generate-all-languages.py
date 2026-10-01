@@ -17,9 +17,13 @@ Outputs:
   - cv-ats-chinese.pdf (ZH standalone)
 """
 
-import os, sys
+import json
+import os
+import re
+import sys
 from datetime import datetime
 from zoneinfo import ZoneInfo
+from xml.sax.saxutils import escape
 
 # Add parent to path so we can import the other scripts
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -166,6 +170,57 @@ PREVIOUS_CAREER = {
     "fr": "CONACE / Gouvernement du Chili (2008-2011) \u00b7 E-syste (2011) \u00b7 Corpvida / Servytech (2007-2008) \u00b7 PointPay Chile (2006-2007) \u00b7 Giro Ingenier\u00eda Ltda. (2004-2006) \u00b7 Centre Europ\u00e9en de Formation (2003-2004) \u00b7 Busquesbc (2003) \u00b7 Sygnum Consultores (2003) \u00b7 Golden Guide Chile (2003) \u00b7 Amis D\u00e9fenseurs des Animaux (2001-2002)",
     "zh": "CONACE / \u667a\u5229\u653f\u5e9c (2008-2011) \u00b7 E-syste (2011) \u00b7 Corpvida / Servytech (2007-2008) \u00b7 PointPay Chile (2006-2007) \u00b7 Giro Ingenier\u00eda Ltda. (2004-2006) \u00b7 \u6b27\u6d32\u57f9\u8bad\u4e2d\u5fc3 (2003-2004) \u00b7 Busquesbc (2003) \u00b7 Sygnum Consultores (2003) \u00b7 Golden Guide Chile (2003) \u00b7 \u52a8\u7269\u4fdd\u62a4\u4e4b\u53cb (2001-2002)",
 }
+
+# Proyectos cuyo estado público cambia con frecuencia. Sus descripciones se
+# refrescan desde la CV Data API local para que los 12 CV no queden desfasados
+# tras una sincronización de GitHub.
+CURRENT_PROJECT_REPOS = {
+    "software": ("Software Engineering Learning Suite", "software-engineering-learning-suite"),
+    "chilean": ("Chilean School Learning Path", "chilean-school-learning-path"),
+    "marketing": ("Marketing Sales Growth Evolution Program", "marketing-sales-growth-evolution-program"),
+    "pdf": ("Pdf Reader Windows Android", "pdf-reader-windows-android"),
+    "architecture": ("Architecture Built Environment Learning Program", "architecture-built-environment-learning-program"),
+}
+
+_PDF_SYMBOLS_RE = re.compile(
+    "[\U0001F1E6-\U0001F1FF\U0001F300-\U0001F9FF\U000020BF\U00002600-\U000027BF"
+    "\U0001FA00-\U0001FAFF\U0000FE00-\U0000FE0F\U0000200D]+"
+)
+
+
+def _current_project_descriptions():
+    api_path = os.path.join(SCRIPT_DIR, "..", "api", "v1", "projects.json")
+    with open(api_path, encoding="utf-8") as stream:
+        projects = json.load(stream).get("projects", [])
+    descriptions = {
+        item["url"].rstrip("/").rsplit("/", 1)[-1]: item.get("description", "")
+        for item in projects if item.get("url") and item.get("description")
+    }
+    return {
+        key: escape(_PDF_SYMBOLS_RE.sub("", descriptions.get(repo, "")).replace("≈", "~").strip())
+        for key, (_, repo) in CURRENT_PROJECT_REPOS.items()
+        if descriptions.get(repo)
+    }
+
+
+def _refresh_current_projects(content, lang):
+    descriptions = _current_project_descriptions()
+    for key, (title, _) in CURRENT_PROJECT_REPOS.items():
+        description = descriptions.get(key)
+        if not description:
+            continue
+        prefix = f"{title} — "
+        content["projects_rec"] = [
+            prefix + description if item.startswith(prefix) else item
+            for item in content["projects_rec"]
+        ]
+        punctuation = "：" if lang == "zh" else " :" if lang == "fr" else ":"
+        content["projects_ats"] = [
+            (prefix + description + punctuation, project_key)
+            if project_key == key else (label, project_key)
+            for label, project_key in content["projects_ats"]
+        ]
+    return content
 
 # ═══════════════════════════════════════════════════
 # LANGUAGE CONTENT
@@ -1317,7 +1372,7 @@ def get_content(lang):
         },
     }
 
-    return T[lang]
+    return _refresh_current_projects(T[lang], lang)
 
 
 # Shared skills values (same across all languages)
@@ -1447,7 +1502,8 @@ PROJECT_GROUPS = [
     ("ai", ["langgraph", "operational", "mcp", "agentic", "claude", "codex", "ai"]),
     ("curricula", ["modern_cyber", "modern", "python", "multi", "artificial", "blockchain",
                    "computational", "modern_business", "finance", "executive", "marketing",
-                   "education", "polyglot", "neural", "machine", "architecture", "database"]),
+                    "education", "polyglot", "neural", "machine", "architecture", "database",
+                    "software"]),
     ("science", ["human", "chilean", "psychometrics", "panuelo"]),
 ]
 
@@ -1535,7 +1591,7 @@ PROJECT_NAMES = {
     "decentraland": "Decentraland Social Arcade", "commerce": "Commerce OS",
     "panuelo": "Pañuelo al Viento", "qemu": "QEMU/KVM Labs",
     "database": "Database Systems Labs", "video": "Video Transcript Studio",
-    "framework": "Framework Ecosystems Labs",
+    "framework": "Framework Ecosystems Labs", "software": "Software Engineering Learning Suite",
 }
 
 # Stack o plataforma. Solo tokens técnicos: se leen igual en los 6 idiomas.
@@ -1563,7 +1619,7 @@ PROJECT_STACK = {
     "decentraland": "SDK7, ECS, TypeScript", "commerce": "Web, Windows, Android",
     "panuelo": "Flutter, Android/Windows", "qemu": "QEMU, KVM, libvirt",
     "database": "27 DB engines", "video": "Whisper, Windows",
-    "framework": "12 ecosystems, CI",
+    "framework": "12 ecosystems, CI", "software": "Python, GitHub Pages",
 }
 
 

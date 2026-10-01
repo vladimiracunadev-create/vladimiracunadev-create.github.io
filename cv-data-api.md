@@ -4,6 +4,8 @@
 
 > Currículum publicado como API JSON estática y PDFs descargables, servido desde **GitHub Pages** sin servidor ni autenticación.
 
+**Datos sincronizados:** 2026-10-01. La API incluye el nuevo Software Engineering Learning Suite y descripciones actualizadas de los proyectos con actividad reciente; el inventario público cubre 36 PDFs en 6 idiomas.
+
 ---
 
 ## Qué es

@@ -17,6 +17,9 @@ diagnostics product (RootCause Windows Inspector v0.11.0 in Rust edition 2024, 5
 GUI Setup.exe / Portable .zip / CLI single-binary rootcause.exe / PowerShell .psm1 / VS Code
 .vsix), industrial observability (Prometheus/Grafana), and a fully internationalized document
 suite (36 PDFs across 6 languages: ES, EN, PT, IT, FR, ZH).
+The education portfolio includes the Software Engineering Learning Suite (480 planned lessons,
+360 public drafts) and the open Chilean School Learning Path (8,841 lessons, 4,156 integrations
+and 2,823 learning objectives from first grade through the end of secondary school).
 Since 2026-08-27 the portfolio also offers a dedicated professional line: audit, verification
 and recovery of AI-generated software ("AI Code Assurance & Remediation"), covering the
 verification gap, functional verification, technical/security audit, code cleanup, technical
@@ -91,4 +94,4 @@ This repository includes an AI skills system (.agents/skills/) for automated mai
 
 ## Last Updated
 
-2026-08-27
+2026-10-01
