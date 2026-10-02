@@ -1,5 +1,5 @@
 # SOURCE: assets/carta-recomendacion_sin_firma.pdf
-# DATE: 2026-10-01T18:36:14.031920
+# DATE: 2026-10-01T21:32:10.422781
 
 NOTA: Este documento es una TRANSCRIPCIÓN (no es el original). Se omitieron firmas y datos del firmante por
 privacidad. El original firmado está disponible a solicitud.

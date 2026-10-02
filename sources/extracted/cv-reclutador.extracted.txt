@@ -1,5 +1,5 @@
 # SOURCE: assets/cv-reclutador.pdf
-# DATE: 2026-10-01T18:36:14.031920
+# DATE: 2026-10-01T21:32:10.422781
 
 Vladimir Acuña
 Arquitecto de Soluciones | Senior Full-Stack | Modernización, Automatización e IA Aplicada

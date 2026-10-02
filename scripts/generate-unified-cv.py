@@ -329,6 +329,7 @@ RMAIN_ES = dict(
     doc_links=[
         ("Ver declaración de logros profesionales", "https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf"),
         ("Ver carta de recomendación", "https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma.pdf"),
+        ("Ver nota de vigencia institucional CEIS", "https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis.pdf"),
     ],
     h_training="FORMACI\u00d3N Y ACTIVIDAD RECIENTE",
     training=[
@@ -369,6 +370,7 @@ RMAIN_EN = dict(
     doc_links=[
         ("View professional achievements statement", "https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion-english.pdf"),
         ("View recommendation letter", "https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma-english.pdf"),
+        ("View CEIS institutional context note", "https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis-english.pdf"),
     ],
     h_training="RECENT TRAINING AND PROJECTS",
     training=[

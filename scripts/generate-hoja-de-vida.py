@@ -547,6 +547,12 @@ def build_hoja_de_vida(lang, output_path):
     ))
     refs.append(bullet(
         s["link"],
+        f'{labels["institutional_note"]}: '
+        f'<link href="{BASE_ASSETS_URL}/nota-vigencia-contexto-institucional-ceis{suffix}.pdf">'
+        f'{BASE_ASSETS_URL}/nota-vigencia-contexto-institucional-ceis{suffix}.pdf</link>',
+    ))
+    refs.append(bullet(
+        s["link"],
         f'{labels["achievements"]}: '
         f'<link href="{BASE_ASSETS_URL}/declaracion-logros-validacion{suffix}.pdf">'
         f'{BASE_ASSETS_URL}/declaracion-logros-validacion{suffix}.pdf</link>',

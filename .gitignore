@@ -22,6 +22,9 @@ __pycache__/
 # Discarded PDFs — not published in API (see cv-data-api.md)
 assets/no_aplica/
 
+# Local pre-update safety copies — retained outside publication history
+assets/backups/*/institutional-note-pre-update/
+
 # Deploy ZIPs — generated artifacts, not source
 portfolio-bundle-*.zip
 

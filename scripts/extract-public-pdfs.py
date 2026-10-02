@@ -22,6 +22,8 @@ PDFS = {
     "portafolio-english": "portafolio-english.pdf",
     "carta-recomendacion": "carta-recomendacion_sin_firma.pdf",
     "carta-recomendacion-english": "carta-recomendacion_sin_firma-english.pdf",
+    "nota-vigencia-contexto-institucional-ceis": "nota-vigencia-contexto-institucional-ceis.pdf",
+    "nota-vigencia-contexto-institucional-ceis-english": "nota-vigencia-contexto-institucional-ceis-english.pdf",
     "declaracion-logros-validacion": "declaracion-logros-validacion.pdf",
     "declaracion-logros-validacion-english": "declaracion-logros-validacion-english.pdf",
 }

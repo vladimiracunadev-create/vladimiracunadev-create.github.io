@@ -4,7 +4,7 @@
 
 > Currículum publicado como API JSON estática y PDFs descargables, servido desde **GitHub Pages** sin servidor ni autenticación.
 
-**Datos sincronizados:** 2026-10-01. La API incluye el nuevo Software Engineering Learning Suite y descripciones actualizadas de los proyectos con actividad reciente; el inventario público cubre 36 PDFs en 6 idiomas.
+**Datos sincronizados:** 2026-10-01. La API incluye el nuevo Software Engineering Learning Suite y descripciones actualizadas de los proyectos con actividad reciente; el inventario público cubre 42 PDFs en 6 idiomas.
 
 ---
 
@@ -132,12 +132,25 @@ La **Declaración de Logros y Validación** se publica como artefacto separado: 
 | Français | [`/assets/declaracion-logros-validacion-french.pdf`](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion-french.pdf) |
 | 中文 | [`/assets/declaracion-logros-validacion-chinese.pdf`](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion-chinese.pdf) |
 
+### Nota de Vigencia y Contexto Institucional CEIS
+
+Documento de apoyo emitido por el profesional, no por Fundación CEIS Marista. Explica el cambio de autoridad de 2026, enlaza fuentes institucionales públicas y acompaña la carta de recomendación histórica para facilitar su validación sin modificarla.
+
+| Idioma | Enlace |
+|---|---|
+| Español | [`/assets/nota-vigencia-contexto-institucional-ceis.pdf`](https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis.pdf) |
+| English | [`/assets/nota-vigencia-contexto-institucional-ceis-english.pdf`](https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis-english.pdf) |
+| Português | [`/assets/nota-vigencia-contexto-institucional-ceis-portuguese.pdf`](https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis-portuguese.pdf) |
+| Italiano | [`/assets/nota-vigencia-contexto-institucional-ceis-italian.pdf`](https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis-italian.pdf) |
+| Français | [`/assets/nota-vigencia-contexto-institucional-ceis-french.pdf`](https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis-french.pdf) |
+| 中文 | [`/assets/nota-vigencia-contexto-institucional-ceis-chinese.pdf`](https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis-chinese.pdf) |
+
 ---
 
 ## Cómo actualizar
 
 1. Editar o reemplazar los PDFs en `assets/` o los JSON en `api/v1/`.
-2. Para regenerar todos los PDFs: `python scripts/generate-all-languages.py && python scripts/generate-portfolio.py && python scripts/generate-achievements-statement.py && python scripts/generate-recommendation-letter.py && python scripts/generate-hoja-de-vida.py`
+2. Para regenerar todos los PDFs: `python scripts/generate-all-languages.py && python scripts/generate-portfolio.py && python scripts/generate-achievements-statement.py && python scripts/generate-recommendation-letter.py && python scripts/generate-hoja-de-vida.py && python scripts/generate-institutional-context-note.py`
 3. Ejecutar `git add -A && git commit -m "update: ..." && git push origin main`.
 4. GitHub Pages publica automáticamente en alrededor de 1 minuto.
 
@@ -158,5 +171,6 @@ Para regenerar `robots.txt` y `sitemap.xml`, ejecutar `node scripts/generate-seo
 - [Portafolio](https://vladimiracunadev-create.github.io/)
 - [CV ATS (PDF)](https://vladimiracunadev-create.github.io/assets/cv-ats.pdf)
 - [Achievements Statement (PDF)](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion-english.pdf)
+- [CEIS Institutional Context Note (PDF)](https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis-english.pdf)
 - [artifacts.json](https://vladimiracunadev-create.github.io/api/v1/artifacts.json)
 - [llm.txt](https://vladimiracunadev-create.github.io/llm.txt)

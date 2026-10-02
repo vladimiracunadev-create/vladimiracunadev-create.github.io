@@ -16,7 +16,7 @@ Qué hace:
     4. Agrega cards HTML en index.html (#proyectos, 6 idiomas)                    [Gap 1]
     5. Propaga cambios de identidad desde SUBTITLES a los scripts de PDFs          [Gap 4]
     6. Actualiza README del perfil GitHub
-    7. Crea backup de PDFs + regenera 36 PDFs
+    7. Crea backup de PDFs + regenera 42 PDFs
     8. Actualiza CHANGELOG.md y hace commit + push
 """
 
@@ -973,6 +973,8 @@ def regenerate_pdfs(apply=False):
         "generate-portfolio.py",
         "generate-achievements-statement.py",
         "generate-recommendation-letter.py",
+        "generate-hoja-de-vida.py",
+        "generate-institutional-context-note.py",
     ]
     for name in scripts:
         path = SCRIPTS_DIR / name
@@ -1006,7 +1008,7 @@ def update_changelog(new_repos, api_changes, identity_changed, skip_pdfs, apply=
     if identity_changed:
         items.append("- Subtítulos de identidad propagados a scripts de PDFs")
     if not skip_pdfs:
-        items.append("- 36 PDFs regenerados (6 tipos × 6 idiomas)")
+        items.append("- 42 PDFs regenerados (7 tipos × 6 idiomas)")
         items.append(f"- Backup en `assets/backups/{TODAY}/`")
 
     if not items:
@@ -1048,7 +1050,7 @@ def git_commit_push(new_repos, skip_pdfs, no_push, apply=False):
     if new_repos:
         details.append(f"repos nuevos: {', '.join(r['name'] for r in new_repos)}")
     if not skip_pdfs:
-        details.append("36 PDFs regenerados")
+        details.append("42 PDFs regenerados")
     details.append(f"api/v1/ → {TODAY}")
 
     body = "\n".join(f"- {d}" for d in details)

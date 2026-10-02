@@ -13,11 +13,13 @@ const FILES_TO_COPY = [
     'offline.html'
 ];
 const DIRS_TO_COPY = [
-    'assets',
     path.join('api', 'v1'),
     'experiencia-3d',
     'servicios'
 ];
+const PRIVATE_ASSET_DIRS = new Set(['backups', 'no_aplica', 'por_solicitud']);
+const PRIVATE_ASSET_EXTENSIONS = new Set(['.docx', '.doc', '.xlsx']);
+const PRIVATE_ASSET_FILES = new Set(['LEEME_PDFS.txt']);
 
 function copyIfExists(src, dest) {
     if (!fs.existsSync(src)) {
@@ -31,6 +33,31 @@ function copyIfExists(src, dest) {
         fs.copyFileSync(src, dest);
     }
 
+    return true;
+}
+
+function copyPublicAssets() {
+    const source = 'assets';
+    if (!fs.existsSync(source)) {
+        return false;
+    }
+    fs.cpSync(source, path.join(DIST, source), {
+        recursive: true,
+        filter: current => {
+            const relative = path.relative(source, current);
+            if (!relative) {
+                return true;
+            }
+            const [topLevel] = relative.split(path.sep);
+            if (PRIVATE_ASSET_DIRS.has(topLevel)) {
+                return false;
+            }
+            if (PRIVATE_ASSET_FILES.has(path.basename(relative))) {
+                return false;
+            }
+            return !PRIVATE_ASSET_EXTENSIONS.has(path.extname(relative).toLowerCase());
+        }
+    });
     return true;
 }
 
@@ -62,6 +89,10 @@ if (fs.existsSync(DIST)) {
 fs.mkdirSync(DIST);
 
 console.log('Cleaned dist/');
+
+if (copyPublicAssets()) {
+    console.log('Copied public assets/ (private and backup directories excluded)');
+}
 
 DIRS_TO_COPY.forEach(dir => {
     if (copyIfExists(dir, path.join(DIST, dir))) {

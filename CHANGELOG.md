@@ -2,6 +2,15 @@
 
 ## 2026-10-01
 
+### feat(portfolio): nota de vigencia institucional CEIS
+
+- Incorporada la nota de vigencia y contexto institucional como séptima familia documental, con variantes ES/EN/PT/IT/FR/ZH y un total vigente de 42 PDFs públicos.
+- Conservada sin alteraciones la fuente española entregada; las cinco traducciones preservan el alcance, la advertencia de autoría y los enlaces institucionales de verificación.
+- La web, `api/v1/artifacts.json`, `llm.txt`, la documentación y los generadores enlazan la nota junto a la carta de recomendación histórica.
+- La presentación distingue expresamente que la nota fue emitida por el profesional y no por Fundación CEIS Marista.
+- El build web excluye respaldos, documentos por solicitud y descartes internos sin borrar ni mover los originales.
+- Caché PWA renovada para distribuir la nueva familia documental y sus rutas multilingües.
+
 ### sync-portfolio (automático — 2026-10-01)
 
 - `api/v1/`: generated_at → 2026-10-01

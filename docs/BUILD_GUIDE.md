@@ -14,9 +14,10 @@ python scripts/generate-portfolio.py
 python scripts/generate-achievements-statement.py
 python scripts/generate-recommendation-letter.py
 python scripts/generate-hoja-de-vida.py
+python scripts/generate-institutional-context-note.py
 ```
 
-El resultado esperado son 36 PDFs: 6 familias documentales por 6 idiomas. Valida estructura con `node scripts/check-pdf.js`, renderiza páginas representativas y revisa que no existan recortes, solapamientos ni glifos rotos.
+El resultado esperado son 42 PDFs: 7 familias documentales por 6 idiomas. La nota institucional en español se conserva como fuente y el generador actualiza sus cinco traducciones. Valida estructura con `node scripts/check-pdf.js`, renderiza páginas representativas y revisa que no existan recortes, solapamientos ni glifos rotos.
 
 ---
 

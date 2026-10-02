@@ -9,7 +9,7 @@ if ('serviceWorker' in navigator) {
             window.location.reload();
         });
 
-        navigator.serviceWorker.register('./service-worker.js?v=19-sync-20261001')
+        navigator.serviceWorker.register('./service-worker.js?v=20-institutional-note-20261001')
             .then(reg => {
                 console.log('PWA: Service Worker registrado', reg.scope);
                 reg.update().catch(() => console.log('PWA: No se pudo forzar actualización del SW'));

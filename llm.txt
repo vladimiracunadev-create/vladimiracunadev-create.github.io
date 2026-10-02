@@ -16,7 +16,7 @@ embedded Rust DB (GabySQL v0.2 — cost-based optimizer, 828 tests), Windows for
 diagnostics product (RootCause Windows Inspector v0.11.0 in Rust edition 2024, 5 editions:
 GUI Setup.exe / Portable .zip / CLI single-binary rootcause.exe / PowerShell .psm1 / VS Code
 .vsix), industrial observability (Prometheus/Grafana), and a fully internationalized document
-suite (36 PDFs across 6 languages: ES, EN, PT, IT, FR, ZH).
+suite (42 PDFs across 6 languages: ES, EN, PT, IT, FR, ZH).
 The education portfolio includes the Software Engineering Learning Suite (480 planned lessons,
 360 public drafts) and the open Chilean School Learning Path (8,841 lessons, 4,156 integrations
 and 2,823 learning objectives from first grade through the end of secondary school).
@@ -41,7 +41,7 @@ technical-commercial collaboration, without publishing prices or fee ranges.
 - HTML5, CSS3, JavaScript (Vanilla) — no framework dependencies
 - 6-language i18n system (ES/EN/PT/IT/FR/ZH) with CSS-passive switching and dynamic PDF routing
 - Progressive Web App (PWA) with Service Worker; Capacitor for native Android/iOS
-- Python/reportlab PDF generation pipeline (36 PDFs across 6 languages)
+- Python/reportlab PDF generation pipeline (42 PDFs across 6 languages)
 - GitHub Actions CI/CD: lint, validation, Lighthouse CI, deployment
 - GitLab CI/CD: 15 AWS cases, OIDC, Terraform, SAM, ECS/EKS, FinOps
 - AWS: Lambda/SAM, DynamoDB, ECS Fargate, EKS v1.32, S3/CloudFront/Amplify, Cognito/WAF, EventBridge/SQS/SNS, CloudWatch/X-Ray, Budgets
@@ -72,7 +72,12 @@ All documents are available in 6 languages (ES/EN/PT/IT/FR/ZH). Language suffix 
 - CV Reclutador: /assets/cv-reclutador{suffix}.pdf
 - Portafolio: /assets/portafolio{suffix}.pdf
 - Carta de Recomendación: /assets/carta-recomendacion_sin_firma{suffix}.pdf
+- Nota de Vigencia y Contexto Institucional CEIS: /assets/nota-vigencia-contexto-institucional-ceis{suffix}.pdf
 - Declaración de Logros y Validación: /assets/declaracion-logros-validacion{suffix}.pdf
+
+The CEIS validity/context note is a self-issued professional supporting document, not a document
+issued by Fundación CEIS Marista. It explains the 2026 authority change and accompanies the
+historical recommendation letter for validation.
 
 Full machine-readable inventory: https://vladimiracunadev-create.github.io/api/v1/artifacts.json
 

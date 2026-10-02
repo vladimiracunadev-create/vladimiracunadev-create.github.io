@@ -54,6 +54,6 @@
         "primary_pdf": "assets/cv-ats.pdf",
         "extraction_method": "pypdf + reportlab pipeline",
         "extraction_date": "2026-10-01",
-        "pdf_generation": "Python reportlab (36 PDFs: 6 document families across 6 languages)"
+        "pdf_generation": "Python reportlab (42 PDFs: 7 document families across 6 languages)"
     }
 }

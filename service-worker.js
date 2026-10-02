@@ -1,4 +1,4 @@
-const CACHE_NAME = 'vladi-portfolio-v19-sync-20261001';
+const CACHE_NAME = 'vladi-portfolio-v20-institutional-note-20261001';
 const OFFLINE_URL = './offline.html';
 
 const APP_SHELL = [

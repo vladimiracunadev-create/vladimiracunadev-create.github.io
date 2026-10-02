@@ -1,6 +1,6 @@
 # 🎯 Guía para Reclutadores y Tech Leads
 
-**Última verificación:** 2026-10-01. La actualización incorpora Software Engineering Learning Suite, la expansión de Chilean School Learning Path y 36 PDFs públicos en 6 idiomas.
+**Última verificación:** 2026-10-01. La actualización incorpora Software Engineering Learning Suite, la expansión de Chilean School Learning Path y 42 PDFs públicos en 6 idiomas, incluida la nota institucional que acompaña la carta de recomendación histórica.
 
 Este documento proporciona una visión de alto nivel sobre por qué este portafolio demuestra habilidades técnicas sólidas, más allá de ser una simple página de presentación.
 

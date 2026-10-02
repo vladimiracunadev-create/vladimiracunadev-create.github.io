@@ -1675,26 +1675,32 @@ DOC_LINK_LABELS = {
     "es": {
         "achievements": "Ver declaración de logros profesionales",
         "recommendation": "Ver carta de recomendación",
+        "institutional_note": "Ver nota de vigencia institucional CEIS",
     },
     "en": {
         "achievements": "View professional achievements statement",
         "recommendation": "View recommendation letter",
+        "institutional_note": "View CEIS institutional context note",
     },
     "pt": {
         "achievements": "Ver declaração de conquistas profissionais",
         "recommendation": "Ver carta de recomendação",
+        "institutional_note": "Ver nota de vigência institucional CEIS",
     },
     "it": {
         "achievements": "Vedi dichiarazione dei risultati professionali",
         "recommendation": "Vedi lettera di raccomandazione",
+        "institutional_note": "Vedi nota di contesto istituzionale CEIS",
     },
     "fr": {
         "achievements": "Voir la déclaration de réalisations professionnelles",
         "recommendation": "Voir la lettre de recommandation",
+        "institutional_note": "Voir la note de contexte institutionnel CEIS",
     },
     "zh": {
         "achievements": "查看专业成就声明",
         "recommendation": "查看推荐信",
+        "institutional_note": "查看CEIS机构背景说明",
     },
 }
 
@@ -1711,6 +1717,7 @@ def make_rmain(lang):
     doc_links = [
         (labels["achievements"], f"{base}/declaracion-logros-validacion{suffix}.pdf"),
         (labels["recommendation"], f"{base}/carta-recomendacion_sin_firma{suffix}.pdf"),
+        (labels["institutional_note"], f"{base}/nota-vigencia-contexto-institucional-ceis{suffix}.pdf"),
     ]
     exp_logros_link = (
         T["exp_logros_label"],

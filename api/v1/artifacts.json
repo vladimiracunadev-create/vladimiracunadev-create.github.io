@@ -267,6 +267,49 @@
                     "url": "https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion-chinese.pdf"
                 }
             }
+        },
+        {
+            "id": "ceis_institutional_context_note",
+            "title": "Nota de Vigencia y Contexto Institucional CEIS",
+            "description": "Self-issued professional supporting note that explains the 2026 CEIS authority change and provides current institutional context for validating the historical recommendation letter. It was not issued by Fundación CEIS Marista.",
+            "type": "pdf",
+            "category": "validation",
+            "default_language": "es",
+            "updated_at": "2026-10-01",
+            "related_artifact": "recommendation_letter",
+            "rationale": "Published separately so the historical recommendation remains unchanged while readers receive current, source-linked institutional context.",
+            "variants": {
+                "es": {
+                    "label": "Nota de Vigencia y Contexto Institucional CEIS",
+                    "file": "assets/nota-vigencia-contexto-institucional-ceis.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis.pdf"
+                },
+                "en": {
+                    "label": "CEIS Validity and Institutional Context Note",
+                    "file": "assets/nota-vigencia-contexto-institucional-ceis-english.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis-english.pdf"
+                },
+                "pt": {
+                    "label": "Nota de Vigência e Contexto Institucional CEIS",
+                    "file": "assets/nota-vigencia-contexto-institucional-ceis-portuguese.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis-portuguese.pdf"
+                },
+                "it": {
+                    "label": "Nota di Vigenza e Contesto Istituzionale CEIS",
+                    "file": "assets/nota-vigencia-contexto-institucional-ceis-italian.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis-italian.pdf"
+                },
+                "fr": {
+                    "label": "Note de Validité et de Contexte Institutionnel CEIS",
+                    "file": "assets/nota-vigencia-contexto-institucional-ceis-french.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis-french.pdf"
+                },
+                "zh": {
+                    "label": "CEIS有效性与机构背景说明",
+                    "file": "assets/nota-vigencia-contexto-institucional-ceis-chinese.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis-chinese.pdf"
+                }
+            }
         }
     ],
     "note": "PDFs in assets/no_aplica/ and assets/por_solicitud/ remain intentionally excluded from the public API."

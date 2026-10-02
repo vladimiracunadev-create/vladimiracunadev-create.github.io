@@ -1,6 +1,6 @@
 # 📖 Wiki del Proyecto | Centro de Conocimiento
 
-**Actualizado el 2026-10-01:** nuevo Software Engineering Learning Suite, expansión de Chilean School Learning Path, CV Data API sincronizada y 36 PDFs regenerados en 6 idiomas.
+**Actualizado el 2026-10-01:** nuevo Software Engineering Learning Suite, expansión de Chilean School Learning Path, CV Data API sincronizada y 42 PDFs públicos en 6 idiomas, incluida la nota institucional que acompaña la carta de recomendación histórica.
 
 [![CI Pipeline](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/actions/workflows/ci.yml/badge.svg)](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/actions/workflows/ci.yml)
 [![Wiki Sync](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/actions/workflows/wiki-sync.yml/badge.svg)](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/actions/workflows/wiki-sync.yml)

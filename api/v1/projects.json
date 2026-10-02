@@ -172,7 +172,7 @@
         },
         {
             "name": "Portfolio · GitHub Pages",
-            "description": "Portafolio profesional en 6 idiomas (ES/EN/PT/IT/FR/ZH), 36 PDFs generados por pipeline Python, PWA instalable, CI/CD con GitHub Actions, Lighthouse 100, CV Data API.",
+            "description": "Portafolio profesional en 6 idiomas (ES/EN/PT/IT/FR/ZH), 42 PDFs generados por pipeline Python, PWA instalable, CI/CD con GitHub Actions, Lighthouse 100, CV Data API.",
             "url": "https://vladimiracunadev-create.github.io/",
             "tags": [
                 "HTML",

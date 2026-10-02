@@ -6,7 +6,7 @@ Profundización técnica en los procesos de compilación, firma y resolución de
 
 ## 📄 Paquete documental
 
-Los cinco generadores Python producen 36 PDFs públicos: 6 familias por 6 idiomas. Antes de ejecutar, respalda `assets/*.pdf`; después valida con `node scripts/check-pdf.js`, `pdfinfo` y renderizado visual de páginas representativas. La codificación documental se controla con `python scripts/mojibake_probe.py .`.
+Los seis generadores Python producen 42 PDFs públicos: 7 familias por 6 idiomas. Antes de ejecutar, respalda `assets/*.pdf`; después valida con `node scripts/check-pdf.js`, `pdfinfo` y renderizado visual de páginas representativas. La codificación documental se controla con `python scripts/mojibake_probe.py .`. `generate-institutional-context-note.py` conserva la nota fuente en español y regenera sus cinco traducciones.
 
 ## 🤖 Android Deep-Dive
 
