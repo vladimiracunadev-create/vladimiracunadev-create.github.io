@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "generated_at": "2026-10-16",
+    "language": "nl",
+    "language_name": "Dutch",
+    "native_name": "Nederlands",
+    "direction": "ltr",
+    "source": "https://github.com/vladimiracunadev-create/vladimiracunadev-create/blob/main/README.nl.md"
+  },
+  "profile": {
+    "name": "Vladimir Acuña",
+    "title": "Oplossingsarchitect·Senior Full-Stack·Digitale transformatie·Beheer en operaties",
+    "summary": "- 🔁 Demo's die herproduceerbaar zijnKloon, rennen, valideren. - 🧰 Gestandaardiseerde gereedschappendoctor, ensmokeper repository. - 🛡️ Defense in de diepte. . geheime scanning, beleid, en expliciet verboden praktijken. - 📈 Waarneming — /health, /ready, /metrics, dashboards, en traceerbaarheid. - 📚 Documentatie van het publiek - 📦 Productdistributie - 🌍 Internationalisering. Portfolio in 22 talen (ES·NL·PT·IT·FR·ZH). - 🧭 Technische eerlijkheidOPERATIONAL, DOCUMENTED/SCAFFOLD, ofPLANNED.",
+    "website": "https://vladimiracunadev-create.github.io/i18n/nl/",
+    "github": "https://github.com/vladimiracunadev-create",
+    "gitlab": "https://gitlab.com/vladimir.acuna.dev-group"
+  },
+  "sections": [
+    "🎯Wat je hier zult vinden",
+    "✅Verifieerbare status",
+    "🗺️Ecosysteem bij een glance",
+    "📦Producten met echte distributie",
+    "🧪Technische laboratoria",
+    "🤖Toegepaste AI",
+    "📚Complete technische Curricula",
+    "🔬Wetenschappelijke berekeningen",
+    "⚡Als je 10 minuten hebt om mij te evalueren",
+    "🧠Standaarden die ik toepaste in alle repositories",
+    "✅Beroepsterrein",
+    "🧭Management, administratie en niet-coding carrièremogelijkheden",
+    "🤖AI-geassisteerde ontwikkelingsstroom",
+    "📌Beschikbaarheid",
+    "📬Contactpersoon"
+  ],
+  "artifacts": {
+    "portfolio": "/assets/portafolio-dutch.pdf",
+    "resume": "/assets/hoja-de-vida-dutch.pdf",
+    "recruiter": "/assets/cv-reclutador-dutch.pdf",
+    "ats": "/assets/cv-ats-dutch.pdf",
+    "achievements": "/assets/declaracion-logros-validacion-dutch.pdf",
+    "recommendation": "/assets/carta-recomendacion_sin_firma-dutch.pdf",
+    "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-dutch.pdf"
+  }
+}

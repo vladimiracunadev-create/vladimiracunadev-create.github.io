@@ -1,0 +1,90 @@
+# SOURCE: assets/nota-vigencia-contexto-institucional-ceis-turkish.pdf
+# DATE: 2026-10-16T10:41:53.145370
+
+Vladimir Acuña · 2026-10-16 · 1
+CEIS kurumsal geçerlilik ve bağlam notu
+Çözüm Mimarı·Senior Full-Stack·Dijital Dönüşüm·Yönetim ve Operasyonlar
+- 🔁  Reproducible demos- klon, koşmak, doğrulama. - 🧰  Standartlaştırılmış araç- Makefiles, Hub
+CLI,doctorVesmokeper repository. - 🛡  Savunma derinlikte- gizli tarama, politikalar ve açıkça yasak uygulamalar. -
+📈  Observability — /health, /ready, /metrics, panolar ve izlenebilirlik. - 📚  İzleyici-aware belgeleri- işe alımcı,
+başlangıçta DevOps veya güvenlik, depolara bağlı olarak. - 📦  Ürün dağıtım- indirilebilir sürümler, çekler ve kanıtlar
+inşa; ticari / mağaza imzaları geçerli olduğunda beklemeye karar verdi. - 🌍  Internationalization — portfolio in 22
+languages (ES · EN · PT · IT · FR · ZH · ZH-TW · JA · KO · TR · RU · VI · TH · DE · UK · PL · AR · FA · ID · NL · HI · EL). - 🧭
+Teknik dürüstlük- Her vaka etiketliOPERATIONAL, DOCUMENTED/SCAFFOLD, ya daPLANNED.
+🎯 Burada neler bulacaksınız
+Bu “bir repo” değil: paylaşılan standartlarla bir ekosistemdir.
+🔁  Reproducible demos- klon, koşmak, doğrulama.
+🧰  Standartlaştırılmış araç- Makefiles, Hub CLI,doctorVesmokeper repository.
+🛡  Savunma derinlikte- gizli tarama, politikalar ve açıkça yasak uygulamalar.
+📈  Observability — /health, /ready, /metrics, panolar ve izlenebilirlik.
+📚  İzleyici-aware belgeleri- işe alımcı, başlangıçta DevOps veya güvenlik, depolara bağlı olarak.
+📦  Ürün dağıtım- indirilebilir sürümler, çekler ve kanıtlar inşa; ticari / mağaza imzaları geçerli olduğunda
+beklemeye karar verdi.
+🌍  Internationalization — portfolio in 22 languages (ES · EN · PT · IT · FR · ZH · ZH-TW · JA · KO · TR · RU · VI · TH ·
+DE · UK · PL · AR · FA · ID · NL · HI · EL).
+🧭  Teknik dürüstlük- Her vaka etiketliOPERATIONAL, DOCUMENTED/SCAFFOLD, ya daPLANNED.
+✅ Doğrulanabilir durum
+Surface Concrete evidence
+🧪  Test kapsamı GabySQL828 test testleri+ söndürücü503.8M sorguları(0 Panik)·Empresa Operativa Chile158 Test testleri
+·Automa150 pytest ·multi-OS CI
+🤖  Production-
+grade agents
+LangGraph RealWorld 25/25 operational backends (cases 01–25, 100% coverage) · Operational AI Agents 13
+agents with 39 deterministic evals
+🔗  Polyglot
+integration
+20 cases sender→n8n→receiver —19 operational, individually audited with Docker— · 18+ DB engines · 20+
+containers · 11 patterns
+📦  Distribution 151 releases across an ecosystem of 64 owned public repositories · installers and artifacts .exe · .msi · .dmg ·
+.apk with checksums and build evidence; commercial/store signatures in progress where applicable
+🛡  Tedarik
+zinciri
+KodQL·Semgrep·Bandit·Trivy·Grype·Gitleaks·TruffleHog·CycloneDX SBOM·Scorecard
+📚  Curricula 14,530 classes verifiable across 21 programs, counted by a workflow from real repository structure or a verifiable
+source declared in the repository —not written by hand— · every program declares its editorial status and
+limitations
+
+Vladimir Acuña · 2026-10-16 · 2
+Surface Concrete evidence
+🌐  Portföy
+Portföyü
+Yükleme edilebilir PWA· 22 dil dili · 154 PDFsBoru hattı tarafından üretilen·CV Data API·Capacitor
+Android·Lighthouse 100
+🔒  Telemetri Adli ürünler ve Empresa Operativa Chile'de Sıfır telemetri - her binada doğrulandı (no AndroidINTERNETİzin)
+🌐  Yayınlanmış
+siteleri
+56 GitHub Pages siteleri-55 iniş, bir ürün, program veya ekosistem navigator, artı portföy - her biri kendi
+depolarından dağıtıldı·56 kişi HTTP ile doğrulandı200
+🧠 Tüm depolarda uyguladığım standartlar
+DX ilk önce- koşmak kolay değilse, bir demo veya takım üssü olarak yararlı değildir.
+1 gün hayatta kalabilite 1- metrikler ve izlenebilirlik, bir After Stillt değil.
+Boru hattı olarak güvenlik- gizli tarama, SBOM salıverme başına, açıkça yasak uygulamalar.
+Gerçek direniş- idempotency, devre kesici ve kontrollü bozulma.
+Polyglot by design- dil ve motor, hiçbir zaman moda tarafından seçilmez.
+Dürüst statü hakkında– bir repo yeniden adlandırılmıştı (Multisimulador → machine-operator-programHenüz mevcut
+olmayan umut verici yazılımlardan kaçınmak.
+İşaretler sinyalleridir, kanıt değilHer bir repo da aynı zamanda ilan ederNe yapmaz.
+Model outward — the domain is designed first; the interface is a projection.
+Dış çalışma dışsal olarak ilan edilir- hesabın 70 kamu havuzu, 64 kendi işim. Diğer altı -agentic-qe, Anthropic-
+Cybersecurity-Skills, erpnext, OpenExecutive, raptorVesecurity-audit-skill- çatallar ve kendi işim için tüm
+rakamlardan dışlanır.
+✅ Profesyonel Kapsam
+Çift geçmişim –Bilgisayar Bilimi ve Bilgisayar Mühendisliği + İşletme Yönetimi- iş hedeflerini teknik kararlara ve teknik
+kısıtlamalara, operasyonlar, ürün, müşteriler ve liderlik için açık seçeneklere dönüştürmeme yardımcı olur.
+🎯 Temel kimlik
+Role Backing
+Çözüm Mimarı modüler, ölçeklenebilir sistem tasarımı evrimsel yargı ile
+Legacy Modernization Architect Real legacy evolution (PHP 5.x→8.x, incremental refactoring without interrupting operations)
+Senior Full-Stack / Tech Lead Mimari, yürütme ve gerçek platformlarda standartlar (+16 yıl)
+AI Otomasyon Mimar LangGraph/MCP ile Agentic sistemler ve n8n bekçilerle akışlar
+↗  Doğal genişleme
+AI Oryantasyon Mühendisi · Systems / Rust Mühendis · Mobile Mühendis (Flutter) · Çözümleri Mühendis · Teknik
+Ürün Builder · Teknik Trener · Dijital Dönüşüm Danışmanı · İş / Fonksiyonel Analist · Teknik Ürün Operasyonları
+⚙ Tamamlayıcı Kapsam
+Platform Mühendis / IDP·DevOps / CI-CD·Bulut / AWS Mühendisi·Uygulama SRE·Otomasyon Mühendisi·Teknik-
+kommercial danışman
+
+Vladimir Acuña · 2026-10-16 · 3
+This localized edition is derived from the corresponding complete public GitHub profile translation. Historical recommendation and
+institutional records remain linked to their source editions.
+https://vladimiracunadev-create.github.io/i18n/tr/

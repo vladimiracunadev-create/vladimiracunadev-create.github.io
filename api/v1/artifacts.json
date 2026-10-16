@@ -10,7 +10,23 @@
         "pt",
         "it",
         "fr",
-        "zh"
+        "zh",
+        "zh-TW",
+        "ja",
+        "ko",
+        "tr",
+        "ru",
+        "vi",
+        "th",
+        "de",
+        "uk",
+        "pl",
+        "ar",
+        "fa",
+        "id",
+        "nl",
+        "hi",
+        "el"
     ],
     "language_suffix_map": {
         "es": "",
@@ -18,7 +34,23 @@
         "pt": "-portuguese",
         "it": "-italian",
         "fr": "-french",
-        "zh": "-chinese"
+        "zh": "-chinese",
+        "zh-TW": "-traditional-chinese",
+        "ja": "-japanese",
+        "ko": "-korean",
+        "tr": "-turkish",
+        "ru": "-russian",
+        "vi": "-vietnamese",
+        "th": "-thai",
+        "de": "-german",
+        "uk": "-ukrainian",
+        "pl": "-polish",
+        "ar": "-arabic",
+        "fa": "-persian",
+        "id": "-indonesian",
+        "nl": "-dutch",
+        "hi": "-hindi",
+        "el": "-greek"
     },
     "artifacts": [
         {
@@ -28,7 +60,7 @@
             "type": "pdf",
             "category": "cv",
             "default_language": "es",
-            "updated_at": "2026-10-01",
+            "updated_at": "2026-10-16",
             "variants": {
                 "es": {
                     "label": "CV ATS",
@@ -56,9 +88,89 @@
                     "url": "https://vladimiracunadev-create.github.io/assets/cv-ats-french.pdf"
                 },
                 "zh": {
-                    "label": "ATS简历",
+                    "label": "ATS 简历",
                     "file": "assets/cv-ats-chinese.pdf",
                     "url": "https://vladimiracunadev-create.github.io/assets/cv-ats-chinese.pdf"
+                },
+                "zh-TW": {
+                    "label": "ATS 履歷",
+                    "file": "assets/cv-ats-traditional-chinese.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/cv-ats-traditional-chinese.pdf"
+                },
+                "ja": {
+                    "label": "ATS向けCV",
+                    "file": "assets/cv-ats-japanese.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/cv-ats-japanese.pdf"
+                },
+                "ko": {
+                    "label": "ATS CV",
+                    "file": "assets/cv-ats-korean.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/cv-ats-korean.pdf"
+                },
+                "tr": {
+                    "label": "ATS CV",
+                    "file": "assets/cv-ats-turkish.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/cv-ats-turkish.pdf"
+                },
+                "ru": {
+                    "label": "Резюме ATS",
+                    "file": "assets/cv-ats-russian.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/cv-ats-russian.pdf"
+                },
+                "vi": {
+                    "label": "CV ATS",
+                    "file": "assets/cv-ats-vietnamese.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/cv-ats-vietnamese.pdf"
+                },
+                "th": {
+                    "label": "CV สำหรับ ATS",
+                    "file": "assets/cv-ats-thai.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/cv-ats-thai.pdf"
+                },
+                "de": {
+                    "label": "ATS-Lebenslauf",
+                    "file": "assets/cv-ats-german.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/cv-ats-german.pdf"
+                },
+                "uk": {
+                    "label": "Резюме ATS",
+                    "file": "assets/cv-ats-ukrainian.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/cv-ats-ukrainian.pdf"
+                },
+                "pl": {
+                    "label": "CV ATS",
+                    "file": "assets/cv-ats-polish.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/cv-ats-polish.pdf"
+                },
+                "ar": {
+                    "label": "سيرة ذاتية لنظام ATS",
+                    "file": "assets/cv-ats-arabic.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/cv-ats-arabic.pdf"
+                },
+                "fa": {
+                    "label": "رزومه ATS",
+                    "file": "assets/cv-ats-persian.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/cv-ats-persian.pdf"
+                },
+                "id": {
+                    "label": "CV ATS",
+                    "file": "assets/cv-ats-indonesian.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/cv-ats-indonesian.pdf"
+                },
+                "nl": {
+                    "label": "ATS-cv",
+                    "file": "assets/cv-ats-dutch.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/cv-ats-dutch.pdf"
+                },
+                "hi": {
+                    "label": "ATS CV",
+                    "file": "assets/cv-ats-hindi.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/cv-ats-hindi.pdf"
+                },
+                "el": {
+                    "label": "Βιογραφικό ATS",
+                    "file": "assets/cv-ats-greek.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/cv-ats-greek.pdf"
                 }
             }
         },
@@ -69,10 +181,10 @@
             "type": "pdf",
             "category": "cv",
             "default_language": "es",
-            "updated_at": "2026-10-01",
+            "updated_at": "2026-10-16",
             "variants": {
                 "es": {
-                    "label": "CV Reclutador",
+                    "label": "CV para reclutamiento",
                     "file": "assets/cv-reclutador.pdf",
                     "url": "https://vladimiracunadev-create.github.io/assets/cv-reclutador.pdf"
                 },
@@ -82,17 +194,17 @@
                     "url": "https://vladimiracunadev-create.github.io/assets/cv-reclutador-english.pdf"
                 },
                 "pt": {
-                    "label": "CV Recrutador",
+                    "label": "CV para recrutamento",
                     "file": "assets/cv-reclutador-portuguese.pdf",
                     "url": "https://vladimiracunadev-create.github.io/assets/cv-reclutador-portuguese.pdf"
                 },
                 "it": {
-                    "label": "CV Recruiter",
+                    "label": "CV per selezione",
                     "file": "assets/cv-reclutador-italian.pdf",
                     "url": "https://vladimiracunadev-create.github.io/assets/cv-reclutador-italian.pdf"
                 },
                 "fr": {
-                    "label": "CV Recruteur",
+                    "label": "CV pour le recrutement",
                     "file": "assets/cv-reclutador-french.pdf",
                     "url": "https://vladimiracunadev-create.github.io/assets/cv-reclutador-french.pdf"
                 },
@@ -100,6 +212,86 @@
                     "label": "招聘简历",
                     "file": "assets/cv-reclutador-chinese.pdf",
                     "url": "https://vladimiracunadev-create.github.io/assets/cv-reclutador-chinese.pdf"
+                },
+                "zh-TW": {
+                    "label": "招募履歷",
+                    "file": "assets/cv-reclutador-traditional-chinese.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/cv-reclutador-traditional-chinese.pdf"
+                },
+                "ja": {
+                    "label": "採用担当者向けCV",
+                    "file": "assets/cv-reclutador-japanese.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/cv-reclutador-japanese.pdf"
+                },
+                "ko": {
+                    "label": "채용 담당자용 CV",
+                    "file": "assets/cv-reclutador-korean.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/cv-reclutador-korean.pdf"
+                },
+                "tr": {
+                    "label": "İşe alım CV'si",
+                    "file": "assets/cv-reclutador-turkish.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/cv-reclutador-turkish.pdf"
+                },
+                "ru": {
+                    "label": "Резюме для рекрутера",
+                    "file": "assets/cv-reclutador-russian.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/cv-reclutador-russian.pdf"
+                },
+                "vi": {
+                    "label": "CV dành cho nhà tuyển dụng",
+                    "file": "assets/cv-reclutador-vietnamese.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/cv-reclutador-vietnamese.pdf"
+                },
+                "th": {
+                    "label": "CV สำหรับผู้สรรหา",
+                    "file": "assets/cv-reclutador-thai.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/cv-reclutador-thai.pdf"
+                },
+                "de": {
+                    "label": "Recruiter-Lebenslauf",
+                    "file": "assets/cv-reclutador-german.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/cv-reclutador-german.pdf"
+                },
+                "uk": {
+                    "label": "Резюме для рекрутера",
+                    "file": "assets/cv-reclutador-ukrainian.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/cv-reclutador-ukrainian.pdf"
+                },
+                "pl": {
+                    "label": "CV dla rekrutera",
+                    "file": "assets/cv-reclutador-polish.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/cv-reclutador-polish.pdf"
+                },
+                "ar": {
+                    "label": "سيرة ذاتية لمسؤول التوظيف",
+                    "file": "assets/cv-reclutador-arabic.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/cv-reclutador-arabic.pdf"
+                },
+                "fa": {
+                    "label": "رزومه ویژه استخدام",
+                    "file": "assets/cv-reclutador-persian.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/cv-reclutador-persian.pdf"
+                },
+                "id": {
+                    "label": "CV untuk perekrut",
+                    "file": "assets/cv-reclutador-indonesian.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/cv-reclutador-indonesian.pdf"
+                },
+                "nl": {
+                    "label": "Cv voor recruiters",
+                    "file": "assets/cv-reclutador-dutch.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/cv-reclutador-dutch.pdf"
+                },
+                "hi": {
+                    "label": "भर्तीकर्ता के लिए CV",
+                    "file": "assets/cv-reclutador-hindi.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/cv-reclutador-hindi.pdf"
+                },
+                "el": {
+                    "label": "Βιογραφικό για υπεύθυνο προσλήψεων",
+                    "file": "assets/cv-reclutador-greek.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/cv-reclutador-greek.pdf"
                 }
             }
         },
@@ -110,37 +302,117 @@
             "type": "pdf",
             "category": "cv",
             "default_language": "es",
-            "updated_at": "2026-10-01",
+            "updated_at": "2026-10-16",
             "variants": {
                 "es": {
-                    "label": "Hoja de Vida",
+                    "label": "Hoja de vida profesional",
                     "file": "assets/hoja-de-vida.pdf",
                     "url": "https://vladimiracunadev-create.github.io/assets/hoja-de-vida.pdf"
                 },
                 "en": {
-                    "label": "Curriculum Vitae",
+                    "label": "Professional resume",
                     "file": "assets/hoja-de-vida-english.pdf",
                     "url": "https://vladimiracunadev-create.github.io/assets/hoja-de-vida-english.pdf"
                 },
                 "pt": {
-                    "label": "Currículo",
+                    "label": "Currículo profissional",
                     "file": "assets/hoja-de-vida-portuguese.pdf",
                     "url": "https://vladimiracunadev-create.github.io/assets/hoja-de-vida-portuguese.pdf"
                 },
                 "it": {
-                    "label": "Curriculum Vitae",
+                    "label": "Curriculum professionale",
                     "file": "assets/hoja-de-vida-italian.pdf",
                     "url": "https://vladimiracunadev-create.github.io/assets/hoja-de-vida-italian.pdf"
                 },
                 "fr": {
-                    "label": "Curriculum Vitae",
+                    "label": "Curriculum professionnel",
                     "file": "assets/hoja-de-vida-french.pdf",
                     "url": "https://vladimiracunadev-create.github.io/assets/hoja-de-vida-french.pdf"
                 },
                 "zh": {
-                    "label": "个人简历",
+                    "label": "专业简历",
                     "file": "assets/hoja-de-vida-chinese.pdf",
                     "url": "https://vladimiracunadev-create.github.io/assets/hoja-de-vida-chinese.pdf"
+                },
+                "zh-TW": {
+                    "label": "專業履歷",
+                    "file": "assets/hoja-de-vida-traditional-chinese.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/hoja-de-vida-traditional-chinese.pdf"
+                },
+                "ja": {
+                    "label": "職務経歴書",
+                    "file": "assets/hoja-de-vida-japanese.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/hoja-de-vida-japanese.pdf"
+                },
+                "ko": {
+                    "label": "전문 이력서",
+                    "file": "assets/hoja-de-vida-korean.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/hoja-de-vida-korean.pdf"
+                },
+                "tr": {
+                    "label": "Profesyonel özgeçmiş",
+                    "file": "assets/hoja-de-vida-turkish.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/hoja-de-vida-turkish.pdf"
+                },
+                "ru": {
+                    "label": "Профессиональное резюме",
+                    "file": "assets/hoja-de-vida-russian.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/hoja-de-vida-russian.pdf"
+                },
+                "vi": {
+                    "label": "Sơ yếu lý lịch chuyên nghiệp",
+                    "file": "assets/hoja-de-vida-vietnamese.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/hoja-de-vida-vietnamese.pdf"
+                },
+                "th": {
+                    "label": "ประวัติย่อระดับมืออาชีพ",
+                    "file": "assets/hoja-de-vida-thai.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/hoja-de-vida-thai.pdf"
+                },
+                "de": {
+                    "label": "Beruflicher Lebenslauf",
+                    "file": "assets/hoja-de-vida-german.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/hoja-de-vida-german.pdf"
+                },
+                "uk": {
+                    "label": "Професійне резюме",
+                    "file": "assets/hoja-de-vida-ukrainian.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/hoja-de-vida-ukrainian.pdf"
+                },
+                "pl": {
+                    "label": "Życiorys zawodowy",
+                    "file": "assets/hoja-de-vida-polish.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/hoja-de-vida-polish.pdf"
+                },
+                "ar": {
+                    "label": "السيرة المهنية",
+                    "file": "assets/hoja-de-vida-arabic.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/hoja-de-vida-arabic.pdf"
+                },
+                "fa": {
+                    "label": "رزومه حرفه‌ای",
+                    "file": "assets/hoja-de-vida-persian.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/hoja-de-vida-persian.pdf"
+                },
+                "id": {
+                    "label": "Riwayat hidup profesional",
+                    "file": "assets/hoja-de-vida-indonesian.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/hoja-de-vida-indonesian.pdf"
+                },
+                "nl": {
+                    "label": "Professioneel cv",
+                    "file": "assets/hoja-de-vida-dutch.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/hoja-de-vida-dutch.pdf"
+                },
+                "hi": {
+                    "label": "पेशेवर जीवनवृत्त",
+                    "file": "assets/hoja-de-vida-hindi.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/hoja-de-vida-hindi.pdf"
+                },
+                "el": {
+                    "label": "Επαγγελματικό βιογραφικό",
+                    "file": "assets/hoja-de-vida-greek.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/hoja-de-vida-greek.pdf"
                 }
             }
         },
@@ -151,7 +423,7 @@
             "type": "pdf",
             "category": "portfolio",
             "default_language": "es",
-            "updated_at": "2026-10-01",
+            "updated_at": "2026-10-16",
             "variants": {
                 "es": {
                     "label": "Portafolio",
@@ -182,6 +454,86 @@
                     "label": "作品集",
                     "file": "assets/portafolio-chinese.pdf",
                     "url": "https://vladimiracunadev-create.github.io/assets/portafolio-chinese.pdf"
+                },
+                "zh-TW": {
+                    "label": "作品集",
+                    "file": "assets/portafolio-traditional-chinese.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/portafolio-traditional-chinese.pdf"
+                },
+                "ja": {
+                    "label": "ポートフォリオ",
+                    "file": "assets/portafolio-japanese.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/portafolio-japanese.pdf"
+                },
+                "ko": {
+                    "label": "포트폴리오",
+                    "file": "assets/portafolio-korean.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/portafolio-korean.pdf"
+                },
+                "tr": {
+                    "label": "Portföy",
+                    "file": "assets/portafolio-turkish.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/portafolio-turkish.pdf"
+                },
+                "ru": {
+                    "label": "Портфолио",
+                    "file": "assets/portafolio-russian.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/portafolio-russian.pdf"
+                },
+                "vi": {
+                    "label": "Hồ sơ năng lực",
+                    "file": "assets/portafolio-vietnamese.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/portafolio-vietnamese.pdf"
+                },
+                "th": {
+                    "label": "แฟ้มผลงาน",
+                    "file": "assets/portafolio-thai.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/portafolio-thai.pdf"
+                },
+                "de": {
+                    "label": "Portfolio",
+                    "file": "assets/portafolio-german.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/portafolio-german.pdf"
+                },
+                "uk": {
+                    "label": "Портфоліо",
+                    "file": "assets/portafolio-ukrainian.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/portafolio-ukrainian.pdf"
+                },
+                "pl": {
+                    "label": "Portfolio",
+                    "file": "assets/portafolio-polish.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/portafolio-polish.pdf"
+                },
+                "ar": {
+                    "label": "ملف الأعمال",
+                    "file": "assets/portafolio-arabic.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/portafolio-arabic.pdf"
+                },
+                "fa": {
+                    "label": "نمونه‌کار",
+                    "file": "assets/portafolio-persian.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/portafolio-persian.pdf"
+                },
+                "id": {
+                    "label": "Portofolio",
+                    "file": "assets/portafolio-indonesian.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/portafolio-indonesian.pdf"
+                },
+                "nl": {
+                    "label": "Portfolio",
+                    "file": "assets/portafolio-dutch.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/portafolio-dutch.pdf"
+                },
+                "hi": {
+                    "label": "पोर्टफोलियो",
+                    "file": "assets/portafolio-hindi.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/portafolio-hindi.pdf"
+                },
+                "el": {
+                    "label": "Χαρτοφυλάκιο",
+                    "file": "assets/portafolio-greek.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/portafolio-greek.pdf"
                 }
             }
         },
@@ -192,37 +544,117 @@
             "type": "pdf",
             "category": "letter",
             "default_language": "es",
-            "updated_at": "2026-10-01",
+            "updated_at": "2026-10-16",
             "variants": {
                 "es": {
-                    "label": "Carta de Recomendación",
+                    "label": "Contexto de la carta de recomendación",
                     "file": "assets/carta-recomendacion_sin_firma.pdf",
                     "url": "https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma.pdf"
                 },
                 "en": {
-                    "label": "Recommendation Letter",
+                    "label": "Recommendation letter context",
                     "file": "assets/carta-recomendacion_sin_firma-english.pdf",
                     "url": "https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma-english.pdf"
                 },
                 "pt": {
-                    "label": "Carta de Recomendação",
+                    "label": "Contexto da carta de recomendação",
                     "file": "assets/carta-recomendacion_sin_firma-portuguese.pdf",
                     "url": "https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma-portuguese.pdf"
                 },
                 "it": {
-                    "label": "Lettera di Raccomandazione",
+                    "label": "Contesto della lettera di raccomandazione",
                     "file": "assets/carta-recomendacion_sin_firma-italian.pdf",
                     "url": "https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma-italian.pdf"
                 },
                 "fr": {
-                    "label": "Lettre de Recommandation",
+                    "label": "Contexte de la lettre de recommandation",
                     "file": "assets/carta-recomendacion_sin_firma-french.pdf",
                     "url": "https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma-french.pdf"
                 },
                 "zh": {
-                    "label": "推荐信",
+                    "label": "推荐信背景说明",
                     "file": "assets/carta-recomendacion_sin_firma-chinese.pdf",
                     "url": "https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma-chinese.pdf"
+                },
+                "zh-TW": {
+                    "label": "推薦信背景說明",
+                    "file": "assets/carta-recomendacion_sin_firma-traditional-chinese.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma-traditional-chinese.pdf"
+                },
+                "ja": {
+                    "label": "推薦状の背景説明",
+                    "file": "assets/carta-recomendacion_sin_firma-japanese.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma-japanese.pdf"
+                },
+                "ko": {
+                    "label": "추천서 배경 설명",
+                    "file": "assets/carta-recomendacion_sin_firma-korean.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma-korean.pdf"
+                },
+                "tr": {
+                    "label": "Tavsiye mektubu bağlamı",
+                    "file": "assets/carta-recomendacion_sin_firma-turkish.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma-turkish.pdf"
+                },
+                "ru": {
+                    "label": "Контекст рекомендательного письма",
+                    "file": "assets/carta-recomendacion_sin_firma-russian.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma-russian.pdf"
+                },
+                "vi": {
+                    "label": "Bối cảnh thư giới thiệu",
+                    "file": "assets/carta-recomendacion_sin_firma-vietnamese.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma-vietnamese.pdf"
+                },
+                "th": {
+                    "label": "บริบทของจดหมายแนะนำ",
+                    "file": "assets/carta-recomendacion_sin_firma-thai.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma-thai.pdf"
+                },
+                "de": {
+                    "label": "Kontext des Empfehlungsschreibens",
+                    "file": "assets/carta-recomendacion_sin_firma-german.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma-german.pdf"
+                },
+                "uk": {
+                    "label": "Контекст рекомендаційного листа",
+                    "file": "assets/carta-recomendacion_sin_firma-ukrainian.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma-ukrainian.pdf"
+                },
+                "pl": {
+                    "label": "Kontekst listu polecającego",
+                    "file": "assets/carta-recomendacion_sin_firma-polish.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma-polish.pdf"
+                },
+                "ar": {
+                    "label": "سياق خطاب التوصية",
+                    "file": "assets/carta-recomendacion_sin_firma-arabic.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma-arabic.pdf"
+                },
+                "fa": {
+                    "label": "زمینه نامه توصیه",
+                    "file": "assets/carta-recomendacion_sin_firma-persian.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma-persian.pdf"
+                },
+                "id": {
+                    "label": "Konteks surat rekomendasi",
+                    "file": "assets/carta-recomendacion_sin_firma-indonesian.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma-indonesian.pdf"
+                },
+                "nl": {
+                    "label": "Context van de aanbevelingsbrief",
+                    "file": "assets/carta-recomendacion_sin_firma-dutch.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma-dutch.pdf"
+                },
+                "hi": {
+                    "label": "अनुशंसा पत्र का संदर्भ",
+                    "file": "assets/carta-recomendacion_sin_firma-hindi.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma-hindi.pdf"
+                },
+                "el": {
+                    "label": "Πλαίσιο συστατικής επιστολής",
+                    "file": "assets/carta-recomendacion_sin_firma-greek.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma-greek.pdf"
                 }
             }
         },
@@ -233,38 +665,118 @@
             "type": "pdf",
             "category": "validation",
             "default_language": "es",
-            "updated_at": "2026-10-01",
+            "updated_at": "2026-10-16",
             "rationale": "Published as a separate artifact so recruiters can review validated achievements and external-reference context without overloading the primary CV or portfolio narrative.",
             "variants": {
                 "es": {
-                    "label": "Declaración de Logros",
+                    "label": "Declaración de logros y validación",
                     "file": "assets/declaracion-logros-validacion.pdf",
                     "url": "https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf"
                 },
                 "en": {
-                    "label": "Achievements Statement",
+                    "label": "Achievements and validation statement",
                     "file": "assets/declaracion-logros-validacion-english.pdf",
                     "url": "https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion-english.pdf"
                 },
                 "pt": {
-                    "label": "Declaração de Conquistas",
+                    "label": "Declaração de realizações e validação",
                     "file": "assets/declaracion-logros-validacion-portuguese.pdf",
                     "url": "https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion-portuguese.pdf"
                 },
                 "it": {
-                    "label": "Dichiarazione dei Risultati",
+                    "label": "Dichiarazione dei risultati e convalida",
                     "file": "assets/declaracion-logros-validacion-italian.pdf",
                     "url": "https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion-italian.pdf"
                 },
                 "fr": {
-                    "label": "Déclaration de Réalisations",
+                    "label": "Déclaration de réalisations et validation",
                     "file": "assets/declaracion-logros-validacion-french.pdf",
                     "url": "https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion-french.pdf"
                 },
                 "zh": {
-                    "label": "成就声明",
+                    "label": "成果与验证声明",
                     "file": "assets/declaracion-logros-validacion-chinese.pdf",
                     "url": "https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion-chinese.pdf"
+                },
+                "zh-TW": {
+                    "label": "成果與驗證聲明",
+                    "file": "assets/declaracion-logros-validacion-traditional-chinese.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion-traditional-chinese.pdf"
+                },
+                "ja": {
+                    "label": "実績および検証声明",
+                    "file": "assets/declaracion-logros-validacion-japanese.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion-japanese.pdf"
+                },
+                "ko": {
+                    "label": "성과 및 검증 진술서",
+                    "file": "assets/declaracion-logros-validacion-korean.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion-korean.pdf"
+                },
+                "tr": {
+                    "label": "Başarılar ve doğrulama beyanı",
+                    "file": "assets/declaracion-logros-validacion-turkish.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion-turkish.pdf"
+                },
+                "ru": {
+                    "label": "Заявление о достижениях и проверке",
+                    "file": "assets/declaracion-logros-validacion-russian.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion-russian.pdf"
+                },
+                "vi": {
+                    "label": "Tuyên bố thành tích và xác minh",
+                    "file": "assets/declaracion-logros-validacion-vietnamese.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion-vietnamese.pdf"
+                },
+                "th": {
+                    "label": "คำชี้แจงผลงานและการตรวจสอบ",
+                    "file": "assets/declaracion-logros-validacion-thai.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion-thai.pdf"
+                },
+                "de": {
+                    "label": "Erfolgs- und Validierungserklärung",
+                    "file": "assets/declaracion-logros-validacion-german.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion-german.pdf"
+                },
+                "uk": {
+                    "label": "Заява про досягнення та перевірку",
+                    "file": "assets/declaracion-logros-validacion-ukrainian.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion-ukrainian.pdf"
+                },
+                "pl": {
+                    "label": "Oświadczenie o osiągnięciach i weryfikacji",
+                    "file": "assets/declaracion-logros-validacion-polish.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion-polish.pdf"
+                },
+                "ar": {
+                    "label": "بيان الإنجازات والتحقق",
+                    "file": "assets/declaracion-logros-validacion-arabic.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion-arabic.pdf"
+                },
+                "fa": {
+                    "label": "بیانیه دستاوردها و اعتبارسنجی",
+                    "file": "assets/declaracion-logros-validacion-persian.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion-persian.pdf"
+                },
+                "id": {
+                    "label": "Pernyataan pencapaian dan validasi",
+                    "file": "assets/declaracion-logros-validacion-indonesian.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion-indonesian.pdf"
+                },
+                "nl": {
+                    "label": "Verklaring van prestaties en validatie",
+                    "file": "assets/declaracion-logros-validacion-dutch.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion-dutch.pdf"
+                },
+                "hi": {
+                    "label": "उपलब्धियों और सत्यापन का विवरण",
+                    "file": "assets/declaracion-logros-validacion-hindi.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion-hindi.pdf"
+                },
+                "el": {
+                    "label": "Δήλωση επιτευγμάτων και επικύρωσης",
+                    "file": "assets/declaracion-logros-validacion-greek.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion-greek.pdf"
                 }
             }
         },
@@ -275,39 +787,119 @@
             "type": "pdf",
             "category": "validation",
             "default_language": "es",
-            "updated_at": "2026-10-01",
+            "updated_at": "2026-10-16",
             "related_artifact": "recommendation_letter",
             "rationale": "Published separately so the historical recommendation remains unchanged while readers receive current, source-linked institutional context.",
             "variants": {
                 "es": {
-                    "label": "Nota de Vigencia y Contexto Institucional CEIS",
+                    "label": "Nota de vigencia y contexto institucional CEIS",
                     "file": "assets/nota-vigencia-contexto-institucional-ceis.pdf",
                     "url": "https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis.pdf"
                 },
                 "en": {
-                    "label": "CEIS Validity and Institutional Context Note",
+                    "label": "CEIS institutional validity and context note",
                     "file": "assets/nota-vigencia-contexto-institucional-ceis-english.pdf",
                     "url": "https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis-english.pdf"
                 },
                 "pt": {
-                    "label": "Nota de Vigência e Contexto Institucional CEIS",
+                    "label": "Nota de vigência e contexto institucional CEIS",
                     "file": "assets/nota-vigencia-contexto-institucional-ceis-portuguese.pdf",
                     "url": "https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis-portuguese.pdf"
                 },
                 "it": {
-                    "label": "Nota di Vigenza e Contesto Istituzionale CEIS",
+                    "label": "Nota di validità e contesto istituzionale CEIS",
                     "file": "assets/nota-vigencia-contexto-institucional-ceis-italian.pdf",
                     "url": "https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis-italian.pdf"
                 },
                 "fr": {
-                    "label": "Note de Validité et de Contexte Institutionnel CEIS",
+                    "label": "Note de validité et de contexte institutionnel CEIS",
                     "file": "assets/nota-vigencia-contexto-institucional-ceis-french.pdf",
                     "url": "https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis-french.pdf"
                 },
                 "zh": {
-                    "label": "CEIS有效性与机构背景说明",
+                    "label": "CEIS 机构有效性与背景说明",
                     "file": "assets/nota-vigencia-contexto-institucional-ceis-chinese.pdf",
                     "url": "https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis-chinese.pdf"
+                },
+                "zh-TW": {
+                    "label": "CEIS 機構有效性與背景說明",
+                    "file": "assets/nota-vigencia-contexto-institucional-ceis-traditional-chinese.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis-traditional-chinese.pdf"
+                },
+                "ja": {
+                    "label": "CEIS機関の有効性および背景に関する注記",
+                    "file": "assets/nota-vigencia-contexto-institucional-ceis-japanese.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis-japanese.pdf"
+                },
+                "ko": {
+                    "label": "CEIS 기관 유효성 및 배경 설명",
+                    "file": "assets/nota-vigencia-contexto-institucional-ceis-korean.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis-korean.pdf"
+                },
+                "tr": {
+                    "label": "CEIS kurumsal geçerlilik ve bağlam notu",
+                    "file": "assets/nota-vigencia-contexto-institucional-ceis-turkish.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis-turkish.pdf"
+                },
+                "ru": {
+                    "label": "Примечание о действительности и контексте CEIS",
+                    "file": "assets/nota-vigencia-contexto-institucional-ceis-russian.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis-russian.pdf"
+                },
+                "vi": {
+                    "label": "Ghi chú về hiệu lực và bối cảnh tổ chức CEIS",
+                    "file": "assets/nota-vigencia-contexto-institucional-ceis-vietnamese.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis-vietnamese.pdf"
+                },
+                "th": {
+                    "label": "หมายเหตุความถูกต้องและบริบทสถาบัน CEIS",
+                    "file": "assets/nota-vigencia-contexto-institucional-ceis-thai.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis-thai.pdf"
+                },
+                "de": {
+                    "label": "Hinweis zur Gültigkeit und zum institutionellen Kontext von CEIS",
+                    "file": "assets/nota-vigencia-contexto-institucional-ceis-german.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis-german.pdf"
+                },
+                "uk": {
+                    "label": "Примітка про чинність та інституційний контекст CEIS",
+                    "file": "assets/nota-vigencia-contexto-institucional-ceis-ukrainian.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis-ukrainian.pdf"
+                },
+                "pl": {
+                    "label": "Nota o ważności i kontekście instytucjonalnym CEIS",
+                    "file": "assets/nota-vigencia-contexto-institucional-ceis-polish.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis-polish.pdf"
+                },
+                "ar": {
+                    "label": "ملاحظة صلاحية وسياق مؤسسة CEIS",
+                    "file": "assets/nota-vigencia-contexto-institucional-ceis-arabic.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis-arabic.pdf"
+                },
+                "fa": {
+                    "label": "یادداشت اعتبار و زمینه سازمانی CEIS",
+                    "file": "assets/nota-vigencia-contexto-institucional-ceis-persian.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis-persian.pdf"
+                },
+                "id": {
+                    "label": "Catatan validitas dan konteks institusi CEIS",
+                    "file": "assets/nota-vigencia-contexto-institucional-ceis-indonesian.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis-indonesian.pdf"
+                },
+                "nl": {
+                    "label": "Notitie over geldigheid en institutionele context van CEIS",
+                    "file": "assets/nota-vigencia-contexto-institucional-ceis-dutch.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis-dutch.pdf"
+                },
+                "hi": {
+                    "label": "CEIS संस्थागत वैधता और संदर्भ नोट",
+                    "file": "assets/nota-vigencia-contexto-institucional-ceis-hindi.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis-hindi.pdf"
+                },
+                "el": {
+                    "label": "Σημείωση ισχύος και θεσμικού πλαισίου CEIS",
+                    "file": "assets/nota-vigencia-contexto-institucional-ceis-greek.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis-greek.pdf"
                 }
             }
         }

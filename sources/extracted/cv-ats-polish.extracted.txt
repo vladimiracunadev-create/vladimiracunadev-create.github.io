@@ -1,0 +1,92 @@
+# SOURCE: assets/cv-ats-polish.pdf
+# DATE: 2026-10-16T10:41:53.145370
+
+Vladimir Acuña · 2026-10-16 · 1
+CV ATS
+Architekt rozwiązania·Senior Full- Stack·Transformacja cyfrowa·Zarządzanie i operacje
+- 🔁  Odtwarzalne demo- Klon, uciekaj, potwierdzaj. - 🧰  Znormalizowane oprzyrządowanie- Makefiles, Hub
+CLI,doctor, orazsmokew każdym repozytorium. - 🛡  Obrona w głębi- tajne skanowanie, polityka i wyraźnie
+zabronione praktyki. - 📈  Obserwacja — /health, /ready, /metrics, deski rozdzielcze i identyfikowalność. - 📚
+Dokumentacja dotycząca wiedzy o użytkownikach- rekruter, początkujący, DevOps lub bezpieczeństwo, w
+zależności od repozytorium. - 📦  Dystrybucja produktów- możliwość pobrania, sumy kontrolne i tworzenia
+dowodów; podpisy handlowe / sklepowe zadeklarowane jako oczekujące, w stosownych przypadkach. - 🌍
+Internacjonalizacja- portfolio w 22 językach (ES)·PL·PT·IT·FR·ZH). - 🧭  Szczerość techniczna- każda sprawa
+oznaczonaOPERATIONAL, DOCUMENTED/SCAFFOLDlubPLANNED.
+🎯 Co znajdziesz tutaj
+Nie jest to "jeden repo": jest to ekosystem o wspólnych standardach.
+🔁  Odtwarzalne demo- Klon, uciekaj, potwierdzaj.
+🧰  Znormalizowane oprzyrządowanie- Makefiles, Hub CLI,doctor, orazsmokew każdym repozytorium.
+🛡  Obrona w głębi- tajne skanowanie, polityka i wyraźnie zabronione praktyki.
+📈  Obserwacja — /health, /ready, /metrics, deski rozdzielcze i identyfikowalność.
+📚  Dokumentacja dotycząca wiedzy o użytkownikach- rekruter, początkujący, DevOps lub bezpieczeństwo, w
+zależności od repozytorium.
+📦  Dystrybucja produktów- możliwość pobrania, sumy kontrolne i tworzenia dowodów; podpisy handlowe /
+sklepowe zadeklarowane jako oczekujące, w stosownych przypadkach.
+🌍  Internacjonalizacja- portfolio w 22 językach (ES)·PL·PT·IT·FR·ZH).
+🧭  Szczerość techniczna- każda sprawa oznaczonaOPERATIONAL, DOCUMENTED/SCAFFOLDlubPLANNED.
+✅ Stan weryfikowalny
+Powierzchnia Betonowe dowody
+🧪  Zakres
+badania
+GabySQL828 badań+ rozmycie503,8M zapytania(0 paniki)·Empresa Operativa Chile158 badań ·Automa150
+pikseli ·wieloOS CI
+🤖  Czynniki klasy
+produkcyjnej
+LangGraph RealWorld25 / 25 operacyjnych oparć(sprawy 01- 25, 100%)·Operacyjne środki do zwalczania ptasiej
+grypy13z39 determinalistycznych wymienników
+🔗  Integracja
+poliglotów
+20 sprawnadawca → n8n → odbiornik -19 operacyjne, indywidualnie skontrolowane z Docker -· Silniki o mocy
+18 + DB · 20 + pojemniki ·11 wzorów
+📦  Dystrybucja 151 wydaleńw całym ekosystemie64 będące własnością repozytoriów publicznych ·instalatorzy i
+artefakty.exe · .msi · .dmg · .apkz sumami kontrolnymi i dowodami na budowę; w stosownych przypadkach w
+toku podpisów handlowych / sklepowych
+🛡  Łańcuch
+dostaw
+CodeQL·Semgrep·Bandyta·Trivy·Typ·Gitleaks·TruffleHog Przewodniczący·CycloneDX SBOM·Wyniki
+
+Vladimir Acuña · 2026-10-16 · 2
+Powierzchnia Betonowe dowody
+📚  Programy
+nauczania
+14 530 klasweryfikowalne w 21 programach, policzone przeza workflowze struktury repozytorium rzeczywistego
+lub źródła weryfikowalnego zadeklarowanego w repozytorium - nie napisane ręcznie -·Każdy program deklaruje
+swój status redakcyjny i ograniczenia
+🌐  Portfolio Instalowalne PWA· 22 języków · 154 PDFgenerowane przez rurociąg·API danych CV·Capacitor Android·Latarnia
+morska 100
+🔒  Telemetria Zero telemetrii w wyrobach kryminalistycznych i Empresa Operativa Chile - zweryfikowane w każdej budowie (nie
+AndroidINTERNET(pozwolenie)
+🌐  Published
+sites
+56 GitHub Pages sites —55 landings, one per product, program, or ecosystem navigator, plus the portfolio—
+each deployed from its own repository · all 56 verified with HTTP 200
+✅ Zakres działalności
+Moje podwójne tło...Informatyka i informatyka + Administracja Biznesu- pomaga mi przełożyć cele biznesowe na
+decyzje techniczne i ograniczenia techniczne na jasne opcje dla operacji, produktów, klientów i przywództwa.
+🎯 Tożsamość podstawowa
+Rola Backing
+Architekt rozwiązania Modułowa, skalowalna konstrukcja systemu z oceną ewolucyjną
+Architekt modernizacji dziedzictwa Prawdziwa ewolucja spuścizny (PHP 5.x → 8.x, przyrostowe przeróbki bez przerywania operacji)
+Senior Full- Stack / Tech Lead Architektura, wykonanie i standardy na platformach rzeczywistych (+ 16 lat)
+Architekt automatyzacji AI Systemy agentalne z LangGraph / MCP i n8n przepływają z poręczami
+↗  Naturalne rozszerzenie
+Inżynier orkiestracji AI · Systemy / Inżynier Rust · Inżynier mobilny (Flutter) · Inżynier rozwiązań · Techniczny
+budowniczy produktów · Trener techniczny · Cyfrowy konsultant transformacji · Business / Functional Analyst ·
+Operacje techniczne dotyczące produktu
+⚙ Zakres uzupełniający
+Inżynier platformy / IDP·Devops / CI- CD·Inżynier chmur / AWS·Program SRE·Inżynier automatyki·Konsultant handlowy
+📌 Dostępność
+Otwórz na:Senior Full- Stack·Architektura·Modernizacja dziedzictwa·Platforma / IDP·Program SRE·devops
+pragmatic·Automatyzacja·Automatyzacja AI·analiza biznesowa / funkcjonalna·Koordynacja projektów
+informatycznych·Operacje produktu·transformacja cyfrowa·rozwiązania konsultingowe / presales·kształcenie
+techniczne·jakość i ciągłe doskonalenie·Przyjęcie i zarządzanie ptasią grypą
+Oceniany w zależności od zakresu każdej roli:Właściciel produktu / techniczny menedżer produktu·Dostawa
+usług·Operacje informatyczne·Ryzyko związane z technologią·administracja i operacje·kontrola zarządzania·modernizacja
+sektora publicznego. Tytuły wykonawcze i ogólne zarządzania są przyszłymi celami rozwoju, a nie deklarowane
+doświadczenie.
+Moduł:zdalne lub hybrydowe, w zależności od projektu.
+
+Vladimir Acuña · 2026-10-16 · 3
+This localized edition is derived from the corresponding complete public GitHub profile translation. Historical recommendation and
+institutional records remain linked to their source editions.
+https://vladimiracunadev-create.github.io/i18n/pl/

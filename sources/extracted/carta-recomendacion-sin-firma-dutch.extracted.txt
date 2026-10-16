@@ -1,0 +1,179 @@
+# SOURCE: assets/carta-recomendacion_sin_firma-dutch.pdf
+# DATE: 2026-10-16T10:41:53.145370
+
+Vladimir Acuña · 2026-10-16 · 1
+Context van de aanbevelingsbrief
+Oplossingsarchitect·Senior Full-Stack·Digitale transformatie·Beheer en operaties
+- 🔁  Demo's die herproduceerbaar zijnKloon, rennen, valideren. - 🧰  Gestandaardiseerde gereedschappendoctor, ensmokeper repository. - 🛡
+Defense in de diepte. . geheime scanning, beleid, en expliciet verboden praktijken. - 📈  Waarneming — /health, /ready, /metrics, dashboards,
+en traceerbaarheid. - 📚  Documentatie van het publiek - 📦  Productdistributie - 🌍  Internationalisering. Portfolio in 22 talen
+(ES·NL·PT·IT·FR·ZH). - 🧭  Technische eerlijkheidOPERATIONAL, DOCUMENTED/SCAFFOLD, ofPLANNED.
+✅ Verifieerbare status
+Oppervlakte Concrete bewijzen
+🧪  Testdekking GabySQL828 tests+ fuzzing over503.8M queries(0 paniek)·Empresa Operativa Chili158 tests ·Automatisch150 pytest ·multi-OS CI
+🤖  Productie-
+kwaliteitsagenten
+LangGraph RealWorld25/25 operationele backends(gevallen 01·Operationele AI-agenten13 agentiamet39 deterministische evaluaties
+🔗  Integratie van
+polygloten
+20 zakenafzender→n8n→ ontvanger 19 operationeel, individueel gecontroleerd met Docker· 18+ DB motoren · 20+ containers ·11
+patronen
+📦  Distributie 151 releasesover een ecosysteem van64 openbare registers in eigendom ·installateurs en artefacten.exe · .msi · .dmg · .apkmet
+controlesom en bouwbewijs; commerciële/store-handtekeningen, indien van toepassing
+🛡  Leveringsketen CodeQL·Semgrep·Bandiet·Trivy·GrypeCity in New Jersey USA·Gitleaks·Truffelhog·CycloneDX SBOM·Scorecard
+📚  Curricula 14,530 klassencontroleerbare in 21 programma's, geteld doora workflowvan een echte repositorystructuur of een verifieerbare bron die in
+het repository is opgegeven .·elk programma verklaart zijn redactionele status en beperkingen
+🌐  Portefeuille Installeerbare PWA· 22 talen · 154 PDF'sdoor pijpleiding gegenereerd·CV Data API·Android-condensator·Vuurtoren 100
+🔒  Telemetrie Zero telemetrie in forensische producten en Empresa Operativa Chili INTERNETtoestemming)
+🌐  Gepubliceerde sites 56 GitHub Pagina's sites·alle 56 geverifieerd met HTTP200
+✅ Beroepsterrein
+Mijn dubbele achtergrond .Computerwetenschappen en computersystemen en bedrijfsadministratie
+🎯 Kernidentiteit
+Rol Ondersteuning
+Oplossingsarchitect Modulaire, schaalbare systeemontwerp met evolutionaire beoordeling
+Legacy Modernization Architect Echte legacy evolutie (PHP 5.x→8.x, incrementele refactoring zonder onderbreking van de operaties)
+Senior Full-Stack / Tech Lead Architectuur, uitvoering en normen op echte platforms (+16 jaar)
+AI-automatiseringsarchitect Agentische systemen met LangGraph/MCP en n8n stromen met vangrails
+↗  Natuurlijke uitbreiding
+AI Orchestration Engineer · Systemen / Rust ingenieur · Mobiele ingenieur (Flutter) · Oplossingen ingenieur · Technische productbouwer ·
+Technische trainer · Digitale Transformatie Consultant · Bedrijfs-/functionele analist · Technische productbewerkingen
+⚙ Aanvullende werkingssfeer
+Platform ingenieur / IDP·DevOps / CI-CD·Cloud / AWS Engineer·Toepassing SRE·Automatiseringsingenieur·Technisch-commerciële adviseur
+
+Vladimir Acuña · 2026-10-16 · 2
+🧭 Management, administratie en niet-coding carrièremogelijkheden
+Deze reikwijdte stelt niet dat elke titel is gehouden. Het prioriteiten werk waar de combinatie van computer, bedrijfsadministratie en openbare bewijs
+kan waarde creëren zonder codering is de kerntaak.
+Beroepsfamilie Herkende rollen Eerlijke classificatie Codering Bewijs en voorwaarde
+Technologieleiderschap Hoofd IT·IT-operations Manager·Digitale transformatiebeheer·CIO Toepassingspotentieel
+/ toekomstige
+doelstelling
+Geen/soms Sterke technische basis;
+mensen, budget, verkoper
+en uitvoerende
+verantwoordingsplicht
+moeten afzonderlijk
+worden aangetoond
+Projectbeheer IT-projectcoördinator/manager·PMO·Scrum Master·Beweeglijke
+levering
+Overdraagbaar /
+toepassingspotentieel
+Geen/soms Levering en vrijgave
+bewijs; formeel team,
+budget en sponsor
+verantwoordelijkheid blijft
+een kloof
+Bedrijfsadministratie Bedrijfsbeheerder·Administratie/Bedieningsbeheer·Contractbeheerder Toepassingspotentieel Geen Bedrijfsdiploma en
+operationele artefacten;
+moet geverifieerd
+eigendom van middelen,
+mensen en leveranciers
+Strategie en
+verandering
+Strategieadviseur·Beheer wijzigen·Bedrijfsplanning·Innovatie /
+Transformatie
+Overdraagbaar /
+toepassingspotentieel
+Geen De resultaten van de
+organisatorische adoptie
+moeten worden
+aangetoond.
+Bedrijfsanalyse Bedrijfsanalist·Functioneel/Requirements Analyst·BPM·Continue
+verbetering
+Overdraagbaar /
+toepassingspotentieel
+Geen/soms Domeinmodellering en
+vereisten-bewijs; externe
+belanghebbendenzaken
+zouden de claim
+versterken
+Product en dienst Producteigenaar/manager·Productbewerkingen·Dienstverlening·Succes
+van de klant
+Overdraagbaar /
+toepassingspotentieel
+Geen/soms Roadmaps, levenscyclus,
+releases en operaties;
+P&L, klantenportfolio en
+SLA-bewijs varieert per rol
+Cybersecurity-beheer GRC·IT-controle-auditor·Technologierisico·Informatiebeveiliging /
+Continuïteit
+Toepassingspotentieel Geen/soms Controles en RootCause
+bewijs; organisatie audits
+en relevante referenties
+zijn in behandeling
+Handel en verkoop Technologie voorverkoop·Oplossingen Consultant·Technische
+KAM·B2B Business Development
+Overdraagbaar /
+toepassingspotentieel
+Geen Sterke oplossing/waarde
+vertaling; quota,
+rekeningportefeuille en
+contractonderhandelingen
+worden niet aangevraagd
+Financiën en
+beheerscontrole
+Budget/Kostenanalyse·Projectevaluatie·FP&A·Beheerscontrole Toepassingspotentieel Geen Financiën/FinOps
+artefacten; reële
+budgetten, financiële
+overzichten en bedrijfs
+KPI's zijn nodig
+Kwaliteit Proces/kwaliteitsanalyse·Procesauditor·Continue verbetering Overdraagbaar /
+toepassingspotentieel
+Geen/soms Gates, tests, metrics en
+reproduceerbaarheid;
+formeel eigendom van
+kwaliteitssystemen blijft
+een kloof
+Onderwijs Technische trainer·Facilitator·Academische coördinator·EdTech /
+Instructional Designer
+Overdraagbaar /
+toepassingspotentieel
+Geen/soms 21 programma's en
+14,530 lessen; de formele
+leerresultaten en de
+resultaten van de
+leerlingen moeten
+afzonderlijk worden
+aangetoond
+Logistiek en
+leveranciers
+Aanbesteding·Coördinator
+leveringen/diensten·Verkoper/contractbeheerder
+Toepassingspotentieel Geen Proces- en
+administratiebasis; echte
+inkoop, inventaris en
+prestaties van leveranciers
+zijn nodig
+
+Vladimir Acuña · 2026-10-16 · 3
+Beroepsfamilie Herkende rollen Eerlijke classificatie Codering Bewijs en voorwaarde
+Gegevens en AI-
+governance
+Data Steward·Gegevensbeheer·AI-adoptie / governance Overdraagbaar /
+toepassingspotentieel
+Geen/soms Auditable datasets en
+human-gated agents;
+organisatiebeleid en
+commissies blijven een
+kloof
+Openbare sector Institutionele modernisering·ICT-coördinator·Digitale
+projecten·Openbare planning
+Toepassingspotentieel Geen Chilianse contextsystemen
+en traceerbaarheid; er
+wordt geen ervaring
+opgedaan met
+overheidsopdrachten en
+sectoriële activiteiten
+Defull Spanish role matrixDetails van doelstellingen, verantwoordelijkheden, marktervaring, aanvullende kennis, bewijs, compatibiliteit en lacunes in
+alle 14 families.
+📌 Beschikbaarheid
+Openen voor:Senior Full-Stack·Architectuur·Modernisering van de legacy·Platform/IDP·Toepassing SRE·pragmatische
+DevOps·Automatisering·Automatisering van AI·bedrijfs/functionele analyse·Coördinatie van IT-projecten·Productbewerkingen·digitale
+transformatie·Oplossingen advies/voorverkoop·technisch onderwijs·kwaliteit en continue verbetering·AI-adoptie en -bestuur
+Geevalueerd naar gelang van de rolomvang:Product Eigenaar / technische Product Manager·Dienstverlening·IT-operaties·GRC /
+technologierisico·Administratie en operaties·beheerscontrole·modernisering van de openbare sector. Executive en algemeen beheer titels zijn
+toekomstige ontwikkelingsdoelstellingen, niet geclaimde ervaring.
+Modaliteit:remote of hybride, afhankelijk van het project.
+This localized edition is derived from the corresponding complete public GitHub profile translation. Historical recommendation and institutional records remain linked to
+their source editions.
+https://vladimiracunadev-create.github.io/i18n/nl/

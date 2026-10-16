@@ -14,6 +14,7 @@ const FILES_TO_COPY = [
 ];
 const DIRS_TO_COPY = [
     path.join('api', 'v1'),
+    'i18n',
     'experiencia-3d',
     'servicios'
 ];

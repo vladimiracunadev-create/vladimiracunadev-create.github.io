@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "generated_at": "2026-10-16",
+    "language": "tr",
+    "language_name": "Turkish",
+    "native_name": "Türkçe",
+    "direction": "ltr",
+    "source": "https://github.com/vladimiracunadev-create/vladimiracunadev-create/blob/main/README.tr.md"
+  },
+  "profile": {
+    "name": "Vladimir Acuña",
+    "title": "Çözüm Mimarı·Senior Full-Stack·Dijital Dönüşüm·Yönetim ve Operasyonlar",
+    "summary": "- 🔁 Reproducible demos- klon, koşmak, doğrulama. - 🧰 Standartlaştırılmış araç- Makefiles, Hub CLI,doctorVesmokeper repository. - 🛡️ Savunma derinlikte- gizli tarama, politikalar ve açıkça yasak uygulamalar. - 📈 Observability — /health, /ready, /metrics, panolar ve izlenebilirlik. - 📚 İzleyici-aware belgeleri- işe alımcı, başlangıçta DevOps veya güvenlik, depolara bağlı olarak. - 📦 Ürün dağıtım- indirilebilir sürümler, çekler ve kanıtlar inşa; ticari / mağaza imzaları geçerli olduğunda beklemeye karar verdi. - 🌍 Internationalization — portfolio in 22 languages (ES · EN · PT · IT · FR · ZH · ZH-TW · JA · KO · TR · RU · VI · TH · DE · UK · PL · AR · FA · ID · NL · HI · EL). - 🧭 Teknik dürüstlük- Her vaka etiketliOPERATIONAL, DOCUMENTED/SCAFFOLD, ya daPLANNED.",
+    "website": "https://vladimiracunadev-create.github.io/i18n/tr/",
+    "github": "https://github.com/vladimiracunadev-create",
+    "gitlab": "https://gitlab.com/vladimir.acuna.dev-group"
+  },
+  "sections": [
+    "🎯Burada neler bulacaksınız",
+    "✅Doğrulanabilir durum",
+    "🗺️Bir bakışta ekosistem",
+    "📦Gerçek Dağıtım ile Ürünler",
+    "🧪Mühendislik Laboratuvarları",
+    "🤖Uygulamalı yapay zekâ",
+    "📚Eksiksiz teknik müfredatlar",
+    "🔬Bilimsel Bilgi",
+    "⚡Beni değerlendirmek için 10 dakikanız varsa",
+    "🧠Tüm depolarda uyguladığım standartlar",
+    "✅Profesyonel Kapsam",
+    "🧭Yönetim, Yönetim ve Kariyer Fırsatları",
+    "🤖Yapay zekâ destekli geliştirme akışı",
+    "📌Kullanılabilirlik",
+    "📬İletişim"
+  ],
+  "artifacts": {
+    "portfolio": "/assets/portafolio-turkish.pdf",
+    "resume": "/assets/hoja-de-vida-turkish.pdf",
+    "recruiter": "/assets/cv-reclutador-turkish.pdf",
+    "ats": "/assets/cv-ats-turkish.pdf",
+    "achievements": "/assets/declaracion-logros-validacion-turkish.pdf",
+    "recommendation": "/assets/carta-recomendacion_sin_firma-turkish.pdf",
+    "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-turkish.pdf"
+  }
+}

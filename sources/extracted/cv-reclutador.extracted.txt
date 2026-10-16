@@ -1,10 +1,10 @@
 # SOURCE: assets/cv-reclutador.pdf
-# DATE: 2026-10-01T21:32:10.422781
+# DATE: 2026-10-16T10:41:53.145370
 
 Vladimir Acuña
 Arquitecto de Soluciones | Senior Full-Stack | Modernización, Automatización e IA Aplicada
 Santiago, Chile | +56 9 8121 8838 | vladimir.acuna.dev@gmail.com
-Información actualizada hasta: 2026-10-01 18:35 (America/Santiago)
+Información actualizada hasta: 2026-10-16 10:14 (America/Santiago)
 CONTACTO
 Santiago, Chile
 +56 9 8121 8838
@@ -102,13 +102,15 @@ Toolkit (Python, pnpm) · AI Dataset Foundry (Windows, Android)
  Currículos técnicos: Cybersecurity · GameDev · Data Science · Multi-Cloud · AI Evolution · Blockchain · Computational
 Mathematics · Business Creation · Finance & Banking · Executive Leadership · Marketing & Growth · Pedagogy · Polyglot
 Programming · Neural Network Labs · Machine Operator · Architecture & Built Environment (Python, Markdown) ·
-Database Systems Labs (27 DB engines) · Software Engineering Learning Suite (Python, GitHub Pages)
+Database Systems Labs (27 DB engines) · Lifelong Learning Ecosystem (30 paths, 6 areas) · Modern Software
+Engineering Program (Python, GitHub Pages)
  Computación científica y educativa: Human Genome Labs (TypeScript, FASTA/GFF3/VCF) · Chilean School
 Learning Path (Python, HTML) · Psychometrics & Assessment (Python, 57 tests) · Pañuelo al Viento (Flutter,
 Android/Windows)
  Código y documentación: https://github.com/vladimiracunadev-create · https://gitlab.com/vladimir.acuna.dev-group
 → Ver declaración de logros profesionales
 → Ver carta de recomendación
+→ Ver nota de vigencia institucional CEIS
 FORMACIÓN Y ACTIVIDAD RECIENTE
  Formación continua en automatización práctica, ML/NLP y herramientas de desarrollo.
  Consolidación de portafolio técnico con laboratorios cloud, microsistemas y documentación orientada a
@@ -130,7 +132,7 @@ Arquitecto de Soluciones | Senior Full-Stack | Modernización, Automatización e
 Santiago, Chile | +56 9 8121 8838 | vladimir.acuna.dev@gmail.com
 Web: vladimiracunadev-create.github.io | GitHub: github.com/vladimiracunadev-create | GitLab: gitlab.com/vladimir.acuna.dev-group
 LinkedIn: linkedin.com/in/vladimir-acuna-valdebenito
-Información actualizada hasta: 2026-10-01 18:35 (America/Santiago)
+Información actualizada hasta: 2026-10-16 10:14 (America/Santiago)
 RESUMEN
  14 años liderando el diseño, evolución y operación de una plataforma educativa/psicométrica (2011-2025), con
 foco en continuidad operacional.
@@ -186,8 +188,8 @@ Codex Skills Toolkit (Python, pnpm) · AI Dataset Foundry (Windows, Android)
  Currículos técnicos: Cybersecurity · GameDev · Data Science · Multi-Cloud · AI Evolution · Blockchain ·
 Computational Mathematics · Business Creation · Finance & Banking · Executive Leadership · Marketing & Growth ·
 Pedagogy · Polyglot Programming · Neural Network Labs · Machine Operator · Architecture & Built Environment
-(Python, Markdown) · Database Systems Labs (27 DB engines) · Software Engineering Learning Suite (Python,
-GitHub Pages)
+(Python, Markdown) · Database Systems Labs (27 DB engines) · Lifelong Learning Ecosystem (30 paths, 6 areas) ·
+Modern Software Engineering Program (Python, GitHub Pages)
  Computación científica y educativa: Human Genome Labs (TypeScript, FASTA/GFF3/VCF) · Chilean School
 Learning Path (Python, HTML) · Psychometrics & Assessment (Python, 57 tests) · Pañuelo al Viento (Flutter,
 Android/Windows)

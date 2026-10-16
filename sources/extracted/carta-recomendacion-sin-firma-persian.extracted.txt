@@ -1,0 +1,187 @@
+# SOURCE: assets/carta-recomendacion_sin_firma-persian.pdf
+# DATE: 2026-10-16T10:41:53.145370
+
+Vladimir Acuña · 2026-10-16 · 1
+زﻣﯿﻨﻪ ﻧﺎﻣﻪ ﺗﻮﺻﯿﻪ
+·Full-Stackراه ﺣﻞ ﻣﻌﻤﺎری
+در ﻫﺮsmokeوHub CLIdoctor اﺑﺰار اﺳﺘﺎﻧﺪارد ﺳﺎزﯾﻔﺎﯾﻞ ﻫﺎی🧰- ﮐﻠﻮن، اﺟﺮا، اﻋﺘﺒﺎرReroducible داﻧﻠﻮد ﺑﺎزی🔁  -
+,health, /ready, /metrics ﻗﺎﺑﻠﯿﺖ ﭘﺬﯾﺮی📈 دﻓﺎع در ﻋﻤﻘﺎﺳﮑﻦ ﻣﺨﻔﯽ، ﺳﯿﺎﺳﺖ ﻫﺎ و ﺷﯿﻮه ﻫﺎی آﺷﮑﺎرا ﻣﻤﻨﻮع🛡ﻣﺨﺰن
+📦 ﯾﺎ اﻣﻨﯿﺖ، ﺑﺴﺘﻪ ﺑﻪ ﻣﺨﺰنDevOps آرﺷﯿﻮ ﺑﺮﭼﺴﺐ ﻫﺎی ﻣﺮﺗﺒﻂ- اﺳﺘﺨﺪام ﮐﻨﻨﺪه، ﻣﺒﺘﺪی،📚داﺷﺒﻮرد و ﻗﺎﺑﻠﯿﺖ ردﯾﺎﺑﯽ
+🌍ﺗﻮزﯾﻊ ﻣﺤﺼﻮل- ﻧﺴﺨﻪ ﻫﺎی ﻗﺎﺑﻞ داﻧﻠﻮد، ﭼﮑﻪ ﻫﺎ و ﺳﺎﺧﺖ ﺷﻮاﻫﺪ؛ اﻣﻀﺎﻫﺎی ﺗﺠﺎری / ﻓﺮوﺷﮕﺎه اﻋلام ﺷﺪه در ﺻﻮرت ﻟﺰوم
+Internationalization — portfolio in 22 languages (ES · EN · PT · IT · FR · ZH · ZH-TW · JA · KO · TR · RU · VI · TH · DE ·
+OPERATIONAL, ﺻﺪاﻗﺖ ﻓﻨﯿﻬﺮ ﭘﺮوﻧﺪه ای ﮐﻪ ﺑﺮﭼﺴﺐ زده ﺷﻮد🧭  - .UK · PL · AR · FA · ID · NL · HI · EL)
+.PLANNEDﯾﺎDOCUMENTED/SCAFFOLD
+وﺿﻌﯿﺖ ﻗﺎﺑﻞ ﺗﺎﯾﯿﺪ✅
+SurfaceConcrete evidence
+ﭘﻮﺷﺶ ﺗﺴﺖ 🧪OS CI ﭼﻨﺪ ﺑﻌﺪیAutoma150 pytest ·CI·  ﺗﺴﺖ158 در ﺷﯿﻠﯽEmpresa وﺣﺸﺖ0)fu503.8M + ﺗﺴﺖGabySQL828
+ﺗﻮﻟﯿﺪ ﮐﻨﻨﺪﮔﺎن 🤖 ﻣﻌﯿﺎری39ﺒﺎ ﻋﺎﻣﻠ13 ﻋﻤﻠﯿﺎﺗﯽAI٪ ﭘﻮﺷﺶ100،25 ﺗﺎ01)ﻣﻮرد ﻫﺎی ﺑﺎزﮔﺸﺖ ﻋﻤﻠﯿﺎﺗﯽLangGraph RealWorld25/25
+evalsﺑﺮای
+Polyglot 🔗
+ﯾﮑﭙﺎرﭼﮕﯽ
+ اﻟﮕﻮDB · 20+ ·11+ ﻣﻮﺗﻮرﻫﺎی18 ﺣﺴﺎﺑﺮسی ﻣﯽ ﺷﻮدDockerﺒﻪ ﺻﻮرت ﺟﺪاﮔﺎﻧﻪ ﺑﺎ ﻋﻤﻠﯿﺎت ﻋﻤﻠﯿﺎﺗﯿn8n19ﻓﺮﺳﺘﻨﺪه ﻣﻮرد20
+Distribution 📦releases across an ecosystem of 64 owned public repositories · installers and artifacts .exe · .msi · .dmg · 151
+.apk with checksums and build evidence; commercial/store signatures in progress where applicable
+زﻧﺠﯿﺮه ﺗﺎﻣﯿﻦ 🛡·CycloneDX SBOM·QL·Semgrep·Bandit·Trivy·Grypeﮐﺪ
+Curricula 📚از ﺳﺎﺧﺘﺎر ﻣﺨﺰن واﻗﻌﯽ ﯾﺎ ﯾﮏ ﻣﻨﺒﻊ ﻗﺎﺑﻞ راﺳﺘﯽ ﮐﻪ در ﻣﺨﺰنa workflow ﺑﺮﻧﺎﻣﻪ، ﺷﻤﺎرش ﺷﺪه ﺗﻮﺳﻂ21ﻘﺎﺑﻞ ﺗﺎﯾﯿﺪ در ﮐلاﺳ14530
+اﻋلام ﺷﺪه اﺳﺖ – ﮐﻪ ﻧﻪ ﺑﺎ دﺳﺖ ﻧﻮﺷﺘﻪ ﺷﺪه اﺳﺖ
+ﻧﻤﻮﻧﻪ ﮐﺎرﻫﺎ 🌐100·CV Data API·Androidﺗﻮﻟﯿﺪ ﺷﺪه ﺗﻮﺳﻂ ﺧﻂ ﻟﻮﻟﻪPDF 154 ·  زﺑﺎنPWA· 22ﻧﺼﺐ
+ﺗﻠﻪ 🔒اﺟﺎزهINTERNET(Android در ﻫﺮ ﺳﺎﺧﺖ )ﺑﺪونEmpresaﻋﺪم ﺗﻘﺎرن ﺻﻔﺮ در ﻣﺤﺼﻮلات ﻗﺎﻧﻮﻧﯽ و ﻋﻤﻠﮑﺮد
+ﺳﺎﯾﺖ ﻫﺎی 🌐
+ﻣﻨﺘشر ﺷﺪه
+ ﺗﺎﯾﯿﺪ56 ﻓﺮود، ﯾﮏ ﻣﺤﺼﻮل، ﺑﺮﻧﺎﻣﻪ ﯾﺎ ﻫﺪاﯾﺖ ﮐﻨﻨﺪه اﮐﻮﺳﯿﺴﺘﻢ، ﺑﻪ ﻋلاوه ﻧﻤﻮﻧﻪ ﮐﺎرﻫﺎ – ﻫﺮ ﮐﺪام از ﻣﺨﺰن ﺧﻮد را 55 ﺻﻔﺤﻪ56
+HTTP200ﺷﺪه ﺑﺎ
+ﺣﺮﻓﻪ ای✅
+- ﺑﻪ ﻣﻦ ﮐﻤﮏ ﻣﯽ ﮐﻨﺪ ﺗﺎ اﻫﺪاف ﮐﺴﺐ و ﮐﺎر را ﺑﻪ ﺗﺼﻤﯿﻤﺎتﻣﻬﻨﺪسی ﮐﺎﻣﭙﯿﻮﺗﺮ و ﻣﺤﺎﺳﺒﺎت + ﻣﺪﯾﺮﯾﺖ ﮐﺴﺐ و ﮐﺎرﭘﺲ زﻣﯿﻨﻪ دوﮔﺎﻧﻪ ﻣﻦ -
+ﻓﻨﯽ و ﻣﺤﺪودﯾﺖ ﻫﺎی ﻓﻨﯽ ﺑﻪ ﮔﺰﯾﻨﻪ ﻫﺎی روﺷﻦ ﺑﺮای ﻋﻤﻠﯿﺎت، ﻣﺤﺼﻮل، ﻣﺸﺘﺮﯾﺎن و رﻫﺒﺮی ﺗﺒﺪﯾﻞ ﮐﻨﻢ.
+ﻫﻮﯾﺖ اﺻﻠﯽ🎯
+RoleBacking
+راه ﺣﻞ ﻣﻌﻤﺎریﻃﺮاﺣﯽ ﺳﯿﺴﺘﻢ ﻫﺎی ﻣﻘﯿﺎس ﭘﺬﯾﺮ ﺑﺎ ﻗﻀﺎوت ﺗﮑﺎﻣﻠﯽ
+
+Vladimir Acuña · 2026-10-16 · 2
+RoleBacking
+ﻣﻌﻤﺎری ﻣﺪرن ﺳﺎزی، ﺑﺎزﺳﺎزی ﺗﺪرﯾﺠﯽ ﺑﺪون وﻗﻔﻪ ﻋﻤﻠﯿﺎت8.x (PHP 5.xﺗﮑﺎﻣﻞ ﻣﯿﺮاث واﻗﻌﯽ
+Full-Stack / Tech Leadارﺷﺪ ﺳﺎل( 16ﻣﻌﻤﺎری، اﺟﺮای و اﺳﺘﺎﻧﺪاردﻫﺎی ﺳﯿﺴﺘﻢ ﻋﺎﻣﻞ ﻫﺎی واﻗﻌﯽ
+AIﻣﻌﻤﺎری اﺗﻮﻣﺎﺳﯿﻮن ﺑﺎ ﻣﺤﺎﻓﻈﺎن ﺟﺮﯾﺎن ﻣﯽ ﯾﺎﺑﺪn8n وLangGraph /MCPﺳﯿﺴﺘﻢ ﻫﺎی ﻋﺎﻣﻞ ﺑﺎ
+ ﮔﺴﺘﺮش ﻃﺒﯿﻌﯽ↗
+· ﻣﺮﺑﯽ ﻓﻨﯽ· ﺳﺎزﻧﺪه ﻣﺤﺼﻮل ﻓﻨﯽ · راه ﺣﻞ ﻫﺎی ﻣﻬﻨﺪسی· (Flutterﻣﻬﻨﺪس ﻣﻮﺑﺎﯾﻞ· Rustﺳﯿﺴﺘﻢ ﻫﺎ / ﻣﻬﻨﺪس· AIﻣﻬﻨﺪسی ارﮐﺴﺘﺮ
+ﻋﻤﻠﯿﺎت ﻣﺤﺼﻮل ﻓﻨﯽ · Business / Applied Analysis · ﻣﺸﺎور ﺗﺤﻮل دﯾﺠﯿﺘﺎل
+ﻣﺤﺪوده ﻫﺎی ﺗﮑﻤﯿﻠﯽ⚙
+·SRE·Cloud / AWS·IDP·DevOps / CI-CDﻣﻬﻨﺪسی ﭘﻠﺘﻔﺮم
+ﻣﺪﯾﺮﯾﺖ، ﻣﺪﯾﺮﯾﺖ و ﻓﺮﺻﺖ ﻫﺎی ﺷﻐﻠﯽ ﻏﯿﺮ ﻣﺸﺎرﮐﺘﯽ🧭
+اﯾﻦ داﻣﻨﻪ ادﻋﺎ ﻧﻤﯽ ﮐﻨﺪ ﮐﻪ ﻫﺮ ﻋﻨﻮاﻧﯽ در آن ﻧﮕﻬﺪاری ﺷﺪه اﺳﺖ. اﯾﻦ اوﻟﻮﯾﺖ ﺑﻨﺪی ﮐﺎر را در ﺟﺎﯾﯽ ﮐﻪ ﺗﺮﮐﯿﺒﯽ از ﻣﺤﺎﺳﺒﺎت، ﻣﺪﯾﺮﯾﺖ ﮐﺴﺐ
+و ﮐﺎر و ﺷﻮاﻫﺪ ﻋﻤﻮﻣﯽ ﻣﯽ ﺗﻮاﻧﺪ ﺑﺪون ﺑﺮﻧﺎﻣﻪ ﻧﻮﯾسی ﺑﻪ ﻋﻨﻮان وﻇﯿﻔﻪ اﺻﻠﯽ اﯾﺠﺎد ارزش ﮐﻨﺪ، اوﻟﻮﯾﺖ ﺑﻨﺪی ﻣﯽ ﮐﻨﺪ.
+ﺧﺎﻧﻮاده ﺣﺮﻓﻪ
+ای
+ﺗﺸﺨﯿﺺ ﻧﻘﺶﻃﺒﻘﻪ ﺑﻨﺪی ﺻﺪاﻗﺖCodingﺷﻮاﻫﺪ و شراﯾﻂ
+رﻫﺒﺮی
+ﺗﮑﻨﻮﻟﻮژی
+·IT·ITﻣﺪﯾﺮ
+CIOدﯾﺠﯿﺘﺎل
+ﺑﺮﻧﺎﻣﻪ رﯾﺰی ﺑﺎﻟﻘﻮه /
+ﻫﺪف آﯾﻨﺪه
+ﻫﯿﭻ/ﻣﻌﺠﺰهﭘﺎﯾﻪ ﻓﻨﯽ ﻗﻮی؛ اﻓﺮاد، ﺑﻮدﺟﻪ، ﻓﺮوﺷﻨﺪه و
+ﭘﺎﺳﺨﮕﻮﯾﯽ اﺟﺮاﯾﯽ ﺑﺎﯾﺪ ﺑﻪ ﻃﻮر ﺟﺪاﮔﺎﻧﻪ
+اﺛﺒﺎت ﺷﻮﻧﺪ
+ﻣﺪﯾﺮﯾﺖ ﭘﺮوژهﭘﺮوژه ﻫﻤﺎﻫﻨﮓ ﮐﻨﻨﺪه /
+·PMOﻣﺪﯾﺮﯾﺖ
+·Master
+ﻗﺎﺑﻠﯿﺖ اﻧﺘﻘﺎل
+ﻗﺎﺑﻠﯿﺖ درﺧﻮاﺳﺖ
+ﻫﯿﭻ/ﻣﻌﺠﺰهﺗﺤﻮﯾﻞ و اﻧﺘﺸﺎر ﺷﻮاﻫﺪ؛ ﺗﯿﻢ رﺳﻤﯽ،
+ﺑﻮدﺟﻪ و ﻣﺴﺌﻮﻟﯿﺖ ﺣﻤﺎﯾﺖ از آن ﻫﻤﭽﻨﺎن
+ﯾﮏ ﺷﮑﺎف اﺳﺖ
+ﻣﺪﯾﺮﯾﺖ ﮐﺴﺐ
+و ﮐﺎر
+ﻣﺪﯾﺮ ﮐﺴﺐ و ﮐﺎر
+ﻣﺪﯾﺮ
+ﮐﺎرﺑﺮد ﺑﺎﻟﻘﻮهﻫﯿﭻ ﮐﺲدرﺟﻪ ﮐﺴﺐ و ﮐﺎر و ﻣﺼﻨﻮﻋﺎت ﻋﻤﻠﯿﺎﺗﯽ؛
+ﻧﯿﺎز ﺑﻪ ﻣﺎﻟﮑﯿﺖ ﺗﺎﯾﯿﺪ ﺷﺪه از ﻣﻨﺎﺑﻊ، ﻣﺮدم
+و ﺗﺎﻣﯿﻦ ﮐﻨﻨﺪﮔﺎن
+اﺳﺘﺮاﺗﮋی و
+ﺗﻐﯿﯿﺮ
+اﺳﺘﺮاﺗﮋی ﻣﺸﺎور
+شرﮐﺖ
+ﻗﺎﺑﻠﯿﺖ اﻧﺘﻘﺎل /
+ﻗﺎﺑﻠﯿﺖ درﺧﻮاﺳﺖ
+ﻫﯿﭻ ﮐﺲﻣﺪرن ﺳﺎزی ﻣﯿﺮاث و ارزﯾﺎﺑﯽ راه ﺣﻞ؛
+ﻧﺘﺎﯾﺞ ﭘﺬﯾﺮش ﺳﺎزﻣﺎﻧﯽ ﺑﺎﯾﺪ ﻧﺸﺎن داده
+ﺷﻮد
+ﺗﺤﻠﯿﻞ ﮐﺴﺐ و
+ﮐﺎر
+ﺗﺤﻠﯿﻠﮕﺮ ﮐﺴﺐ و ﮐﺎر
+·requirements Analysis·BPM
+ﻣﺴﺘﻤﺮ
+ﻗﺎﺑﻠﯿﺖ اﻧﺘﻘﺎل /
+ﻗﺎﺑﻠﯿﺖ درﺧﻮاﺳﺖ
+ﻫﯿﭻ/ﻣﻌﺠﺰهﻣﺪل ﺳﺎزی داﻣﻨﻪ و ﺷﻮاﻫﺪ ﻣﻮرد ﻧﯿﺎز؛
+ﻣﻮارد ذﯾﻨﻔﻌﺎن ﺧﺎرﺟﯽ اﯾﻦ ادﻋﺎ را ﺗﻘﻮﯾﺖ
+ﻣﯽ ﮐﻨﻨﺪ
+ﻣﺤﺼﻮل و
+ﺧﺪﻣﺎت
+ﻣﺎﻟﮏ ﻣﺤﺼﻮل / ﻣﺪﯾﺮ
+ﻣﺤﺼﻮل
+ﻣﺸﺘﺮی
+ﻗﺎﺑﻠﯿﺖ اﻧﺘﻘﺎل /
+ﻗﺎﺑﻠﯿﺖ درﺧﻮاﺳﺖ
+ﻫﯿﭻ/ﻣﻌﺠﺰهﻧﻘﺸﻪ ﻫﺎی ﺟﺎده، ﭼﺮﺧﻪ ﻋﻤﺮ، آزاد ﺳﺎزی و
+، ﻧﻤﻮﻧﻪ ﮐﺎرﻫﺎ ﻣﺸﺘﺮی وP&Lﻋﻤﻠﯿﺎت؛
+ ﺑﺎ ﻧﻘﺶ ﻣﺘﻔﺎوت اﺳﺖSLAﺷﻮاﻫﺪ
+ﻣﺪﯾﺮﯾﺖ اﻣﻨﯿﺖ
+ﺳﺎﯾﺒﺮی
+·IT Auditor·GRC
+Continuityرﯾﺴﮏ
+ﮐﺎرﺑﺮد ﺑﺎﻟﻘﻮهﻫﯿﭻ/ﻣﻌﺠﺰهﮐﻨﺘﺮل ﻫﺎ و رﯾﺸﻪ ﻫﺎ ﺑﻪ دﻟﯿﻞ ﺷﻮاﻫﺪ؛
+ﺣﺴﺎﺑﺮسی ﻫﺎی ﺳﺎزﻣﺎﻧﯽ و اﻋﺘﺒﺎر ﻫﺎی
+ﻣﺮﺑﻮﻃﻪ در اﻧﺘﻈﺎر
+ﺗﺠﺎرت و ﻓﺮوش·Presaleﺗﮑﻨﻮﻟﻮژی
+ ﺗﻮﺳﻌﻪ ﮐﺴﺐ وKAM·B2Bﻣﺸﺎور
+ﮐﺎر
+ﻗﺎﺑﻠﯿﺖ اﻧﺘﻘﺎل /
+ﻗﺎﺑﻠﯿﺖ درﺧﻮاﺳﺖ
+ﻫﯿﭻ ﮐﺲراه ﺣﻞ ﻗﻮی / ﺗﺮﺟﻤﻪ ارزش؛ ﺳﻬﻤﯿﻪ ﺑﻨﺪی،
+ﺣﺴﺎب و ﻣﺬاﮐﺮه ﻗﺮارداد ادﻋﺎ ﻧﻤﯽ ﺷﻮد
+ﻣﺪﯾﺮﯾﺖ و
+ﻣﺪﯾﺮﯾﺖ ﮐﻨﺘﺮل
+FP &ﺑﻮدﺟﻪ / ﺗﺤﻠﯿﻠﮕﺮ
+·A
+ﮐﺎرﺑﺮد ﺑﺎﻟﻘﻮهﻫﯿﭻ ﮐﺲداراﯾﯽ / ﻋﻤﻠﯿﺎت؛ ﺑﻮدﺟﻪ واﻗﻌﯽ، ﺑﯿﺎﻧﯿﻪ
+ ﻫﺎی شرﮐﺘﯽ ﻣﻮرد ﻧﯿﺎزKPIﻫﺎی ﻣﺎﻟﯽ و
+اﺳﺖ
+
+Vladimir Acuña · 2026-10-16 · 3
+ﺧﺎﻧﻮاده ﺣﺮﻓﻪ
+ای
+ﺗﺸﺨﯿﺺ ﻧﻘﺶﻃﺒﻘﻪ ﺑﻨﺪی ﺻﺪاﻗﺖCodingﺷﻮاﻫﺪ و شراﯾﻂ
+QualityProcess/Quality Analyst · Process
+Auditor · Continuous Improvement
+Transferable /
+application
+potential
+None/occasionalGates, tests, metrics, and
+reproducibility; formal quality-
+system ownership remains a gap
+EducationTechnical Trainer · Facilitator ·
+Academic Coordinator · EdTech /
+Instructional Designer
+Transferable /
+application
+potential
+None/occasionalprograms and 14,530 classes; 21
+formal teaching and learner
+outcomes must be evidenced
+separately
+ﺗﺪارﮐﺎت و
+ﺗﺎﻣﯿﻦ ﮐﻨﻨﺪﮔﺎن
+ﺧﺮﯾﺪ
+ﮐﻨﻨﺪه
+ﮐﺎرﺑﺮد ﺑﺎﻟﻘﻮهﻫﯿﭻ ﮐﺲﻓﺮآﯾﻨﺪ و ﭘﺎﯾﮕﺎه دوﻟﺖ؛ ﺗﺪارﮐﺎت واﻗﻌﯽ،
+ﻣﻮﺟﻮدی و ﻋﻤﻠﮑﺮد ﺗﺎﻣﯿﻦ ﮐﻨﻨﺪه ﻣﻮرد ﻧﯿﺎز
+اﺳﺖ
+داده ﻫﺎ و
+AIﻣﺪﯾﺮﯾﺖ
+·Stewardداده ﻫﺎی
+ / ﺣﺎﮐﻤﯿﺖAIﻫﺎ
+ﻗﺎﺑﻠﯿﺖ اﻧﺘﻘﺎل /
+ﻗﺎﺑﻠﯿﺖ درﺧﻮاﺳﺖ
+ﻫﯿﭻ/ﻣﻌﺠﺰهﻣﺠﻤﻮﻋﻪ داده ﻫﺎی ﻗﺎﺑﻞ ﺣﺴﺎﺑﺮسی و
+ﻋﻮاﻣﻞ اﻧﺴﺎﻧﯽ؛ ﺳﯿﺎﺳﺖ ﻫﺎی ﺳﺎزﻣﺎﻧﯽ و
+ﮐﻤﯿﺘﻪ ﻫﺎ ﻫﻤﭽﻨﺎن ﺷﮑﺎف ﻫﺴﺘﻨﺪ
+ﺑﺨﺶ ﻋﻤﻮﻣﯽﻣﺪرن ﺳﺎزی ﻧﻬﺎدی
+·ICT
+ﻋﻤﻮﻣﯽ
+ﮐﺎرﺑﺮد ﺑﺎﻟﻘﻮهﻫﯿﭻ ﮐﺲﺳﯿﺴﺘﻢ ﻫﺎی ﻣﺘﻦ ﺷﯿﻠﯽ و ﻗﺎﺑﻞ ردﯾﺎﺑﯽ؛
+ادﻋﺎ ﻧﻤﯽ ﺷﻮد ﮐﻪ ﺧﺮﯾﺪ ﻋﻤﻮﻣﯽ و ﺗﺠﺮﺑﻪ
+ﺑﺨﺶ
+The full Spanish role matrix details objectives, responsibilities, market experience, complementary knowledge, evidence,
+.compatibility, and gaps across all 14 families
+در دﺳﺘﺮس ﺑﻮدن📌
+Open to: Senior Full-Stack · Architecture · Legacy modernization · Platform/IDP · Application SRE · pragmatic DevOps ·
+Automation · AI Automation · business/functional analysis · IT project coordination · Product Operations · digital
+transformation · solutions consulting/presales · technical education · quality and continuous improvement · AI adoption
+and governance
+·GRC·ITﻣﺎﻟﮏ ﻣﺤﺼﻮل / ﻣﺪﯾﺮ ﻣﺤﺼﻮل ﻓﻨﯽ ارزﯾﺎﺑﯽ ﺑﺎ ﺗﻮﺟﻪ ﺑﻪ داﻣﻨﻪ ﻫﺮ ﻧﻘﺶ:
+ﻋﻤﻠﯿﺎت
+از راه دور ﯾﺎ ﻫﯿﺒﺮﯾﺪی، ﺑﺴﺘﻪ ﺑﻪ ﭘﺮوژه.ﺗﻐﯿﯿﺮ:
+This localized edition is derived from the corresponding complete public GitHub profile translation. Historical recommendation and
+.institutional records remain linked to their source editions
+/https://vladimiracunadev-create.github.io/i18n/fa

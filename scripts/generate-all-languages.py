@@ -1529,7 +1529,7 @@ PROJECT_GROUPS = [
     ("curricula", ["modern_cyber", "modern", "python", "multi", "artificial", "blockchain",
                    "computational", "modern_business", "finance", "executive", "marketing",
                     "education", "polyglot", "neural", "machine", "architecture", "database",
-                    "software"]),
+                    "lifelong", "modern_software"]),
     ("science", ["human", "chilean", "psychometrics", "panuelo"]),
 ]
 
@@ -1618,6 +1618,8 @@ PROJECT_NAMES = {
     "panuelo": "Pañuelo al Viento", "qemu": "QEMU/KVM Labs",
     "database": "Database Systems Labs", "video": "Video Transcript Studio",
     "framework": "Framework Ecosystems Labs", "software": "Software Engineering Learning Suite",
+    "lifelong": "Lifelong Learning Ecosystem",
+    "modern_software": "Modern Software Engineering Program",
 }
 
 # Stack o plataforma. Solo tokens técnicos: se leen igual en los 6 idiomas.
@@ -1646,6 +1648,7 @@ PROJECT_STACK = {
     "panuelo": "Flutter, Android/Windows", "qemu": "QEMU, KVM, libvirt",
     "database": "27 DB engines", "video": "Whisper, Windows",
     "framework": "12 ecosystems, CI", "software": "Python, GitHub Pages",
+    "lifelong": "30 paths, 6 areas", "modern_software": "Python, GitHub Pages",
 }
 
 
@@ -1659,7 +1662,10 @@ def group_projects(lang):
     """Return [(group_label, 'A (stack) - B - C')] covering every project key."""
     T = get_content(lang)
     labels = GROUP_LABELS[lang]
-    all_keys = [key for _, key in T["projects_ats"]]
+    # software-engineering-learning-suite was renamed to
+    # modern-software-engineering-program. The synchronizer keeps the historical
+    # source entry for traceability, while published documents use the current one.
+    all_keys = [key for _, key in T["projects_ats"] if key != "software"]
     grouped, seen = [], set()
 
     for group_key, keys in PROJECT_GROUPS:

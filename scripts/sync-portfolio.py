@@ -16,7 +16,7 @@ Qué hace:
     4. Agrega cards HTML en index.html (#proyectos, 6 idiomas)                    [Gap 1]
     5. Propaga cambios de identidad desde SUBTITLES a los scripts de PDFs          [Gap 4]
     6. Actualiza README del perfil GitHub
-    7. Crea backup de PDFs + regenera 42 PDFs
+    7. Crea backup de PDFs + regenera 154 PDFs en 22 idiomas
     8. Actualiza CHANGELOG.md y hace commit + push
 """
 
@@ -969,20 +969,21 @@ def backup_pdfs(apply=False):
 def regenerate_pdfs(apply=False):
     log("Regenerando PDFs...", "HEAD")
     scripts = [
-        "generate-all-languages.py",
-        "generate-portfolio.py",
-        "generate-achievements-statement.py",
-        "generate-recommendation-letter.py",
-        "generate-hoja-de-vida.py",
-        "generate-institutional-context-note.py",
+        ("generate-all-languages.py", []),
+        ("generate-portfolio.py", []),
+        ("generate-achievements-statement.py", []),
+        ("generate-recommendation-letter.py", []),
+        ("generate-hoja-de-vida.py", []),
+        ("generate-institutional-context-note.py", []),
+        ("generate-expanded-locales.py", ["--pdfs"]),
     ]
-    for name in scripts:
+    for name, args in scripts:
         path = SCRIPTS_DIR / name
         if not path.exists():
             log(f"{name} no encontrado — omitido", "WARN")
             continue
         if apply:
-            r = subprocess.run([sys.executable, str(path)], cwd=str(ROOT),
+            r = subprocess.run([sys.executable, str(path), *args], cwd=str(ROOT),
                                capture_output=True, text=True)
             log(f"{name}", "OK" if r.returncode == 0 else "ERR")
             if r.returncode != 0:
@@ -1008,7 +1009,7 @@ def update_changelog(new_repos, api_changes, identity_changed, skip_pdfs, apply=
     if identity_changed:
         items.append("- Subtítulos de identidad propagados a scripts de PDFs")
     if not skip_pdfs:
-        items.append("- 42 PDFs regenerados (7 tipos × 6 idiomas)")
+        items.append("- 154 PDFs regenerados (7 tipos × 22 idiomas)")
         items.append(f"- Backup en `assets/backups/{TODAY}/`")
 
     if not items:
@@ -1038,8 +1039,9 @@ def git_commit_push(new_repos, skip_pdfs, no_push, apply=False):
         return
     log("Preparando commit...", "HEAD")
 
-    files = ["api/v1/", "CHANGELOG.md", "index.html",
-             "scripts/generate-all-languages.py", "scripts/generate-portfolio.py"]
+    files = ["api/v1/", "CHANGELOG.md", "index.html", "i18n/", "docs/i18n/",
+             "scripts/generate-all-languages.py", "scripts/generate-portfolio.py",
+             "scripts/generate-expanded-locales.py"]
     if not skip_pdfs:
         files.append("assets/")
 
@@ -1050,7 +1052,7 @@ def git_commit_push(new_repos, skip_pdfs, no_push, apply=False):
     if new_repos:
         details.append(f"repos nuevos: {', '.join(r['name'] for r in new_repos)}")
     if not skip_pdfs:
-        details.append("42 PDFs regenerados")
+        details.append("154 PDFs regenerados")
     details.append(f"api/v1/ → {TODAY}")
 
     body = "\n".join(f"- {d}" for d in details)

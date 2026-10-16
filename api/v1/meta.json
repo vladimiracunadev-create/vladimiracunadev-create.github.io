@@ -14,12 +14,14 @@
         "projects": "/api/v1/projects.json",
         "skills": "/api/v1/skills.json",
         "artifacts": "/api/v1/artifacts.json",
-        "meta": "/api/v1/meta.json"
+        "meta": "/api/v1/meta.json",
+        "i18n": "/api/v1/i18n/index.json"
     },
     "site_pages": {
         "home": "/",
         "ai_code_assurance": "/servicios/auditoria-codigo-ia/",
-        "experiencia_3d": "/experiencia-3d/"
+        "experiencia_3d": "/experiencia-3d/",
+        "localized": "/i18n/{locale}/"
     },
     "capabilities": {
         "artifact_languages": [
@@ -28,16 +30,48 @@
             "pt",
             "it",
             "fr",
-            "zh"
+            "zh",
+            "zh-TW",
+            "ja",
+            "ko",
+            "tr",
+            "ru",
+            "vi",
+            "th",
+            "de",
+            "uk",
+            "pl",
+            "ar",
+            "fa",
+            "id",
+            "nl",
+            "hi",
+            "el"
         ],
-        "artifact_switching": "Download links switch to the corresponding language variant in the website UI via data-pdf-{lang} attributes.",
+        "artifact_switching": "The six inline SPA languages switch in place; 16 additional languages use complete localized pages. Every locale links to seven matching PDF artifacts.",
         "language_suffix_map": {
             "es": "",
             "en": "-english",
             "pt": "-portuguese",
             "it": "-italian",
             "fr": "-french",
-            "zh": "-chinese"
+            "zh": "-chinese",
+            "zh-TW": "-traditional-chinese",
+            "ja": "-japanese",
+            "ko": "-korean",
+            "tr": "-turkish",
+            "ru": "-russian",
+            "vi": "-vietnamese",
+            "th": "-thai",
+            "de": "-german",
+            "uk": "-ukrainian",
+            "pl": "-polish",
+            "ar": "-arabic",
+            "fa": "-persian",
+            "id": "-indonesian",
+            "nl": "-dutch",
+            "hi": "-hindi",
+            "el": "-greek"
         }
     },
     "seo": {
@@ -53,7 +87,7 @@
     "data_source": {
         "primary_pdf": "assets/cv-ats.pdf",
         "extraction_method": "pypdf + reportlab pipeline",
-        "extraction_date": "2026-10-01",
-        "pdf_generation": "Python reportlab (42 PDFs: 7 document families across 6 languages)"
+        "extraction_date": "2026-10-16",
+        "pdf_generation": "Python reportlab + Chromium print pipeline (154 PDFs: 7 document families across 22 languages)"
     }
 }

@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "generated_at": "2026-10-16",
+    "language": "id",
+    "language_name": "Indonesian",
+    "native_name": "Bahasa Indonesia",
+    "direction": "ltr",
+    "source": "https://github.com/vladimiracunadev-create/vladimiracunadev-create/blob/main/README.id.md"
+  },
+  "profile": {
+    "name": "Vladimir Acuña",
+    "title": "Arsitek Solusi·Senior Full- Stack·Transformasi Digital·Manajemen & Operasi",
+    "summary": "- 🔁 Demo dapat direproduksi- Klon, lari, validasi. - 🧰 Standardisasi Tooling- Makefiles, Hub CRI,doctor, dansmokeper repositori. - 🛡️ Pertahanan dalam kedalaman- Pemindaian rahasia, kebijakan, dan praktek terlarang secara eksplisit. - 📈 Observasi — /health, /ready, /metrics, dasbor, dan traceability. - 📚 Dokumentasi audiencearenalitentment- perekrut, pemula, DevOps, atau keamanan, tergantung pada repositori. - 📦 Pemrograman distribusi- bisa diunduh rilis, checksums, dan membuat bukti; tanda tangan komersial / store dideklarasikan sebagai tertunda ketika berlaku. - 🌍 Internasionalisasi- Portofolio dalam 22 bahasa (ES·EN·PT·IT·FR·ZH). - 🧭 Kejujuran teknis- setiap kasus berlabelOPERATIONAL, DOCUMENTED/SCAFFOLD, atauPLANNED.",
+    "website": "https://vladimiracunadev-create.github.io/i18n/id/",
+    "github": "https://github.com/vladimiracunadev-create",
+    "gitlab": "https://gitlab.com/vladimir.acuna.dev-group"
+  },
+  "sections": [
+    "🎯Apa yang akan Anda temukan di sini",
+    "✅Status Dapat Diverifikasi",
+    "🗺️Ekosistem Pada A Glance",
+    "📦Produk Dengan Distribusi Nyata",
+    "🧪Laboratorium Teknik",
+    "🤖AI Terapan",
+    "📚Curricula Teknis Lengkap",
+    "🔬Komputer Ilmiah",
+    "⚡Jika kau memiliki 10 menit untuk mengevaluasi aku",
+    "🧠Standar yang saya terapkan di semua repositori",
+    "✅Scope Profesional",
+    "🧭Manajemen, Administrasi, dan Non- Coding Kesempatan Karir",
+    "🤖Alur pengembangan berbantuan AI",
+    "📌Ketersediaan",
+    "📬Kontak"
+  ],
+  "artifacts": {
+    "portfolio": "/assets/portafolio-indonesian.pdf",
+    "resume": "/assets/hoja-de-vida-indonesian.pdf",
+    "recruiter": "/assets/cv-reclutador-indonesian.pdf",
+    "ats": "/assets/cv-ats-indonesian.pdf",
+    "achievements": "/assets/declaracion-logros-validacion-indonesian.pdf",
+    "recommendation": "/assets/carta-recomendacion_sin_firma-indonesian.pdf",
+    "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-indonesian.pdf"
+  }
+}

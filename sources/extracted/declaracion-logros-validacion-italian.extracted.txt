@@ -1,0 +1,145 @@
+# SOURCE: assets/declaracion-logros-validacion-italian.pdf
+# DATE: 2026-10-16T10:41:53.145370
+
+DICHIARAZIONE DI RISULTATI PROFESSIONALI
+ con riferimento di validazione esterna
+Professionista
+Vladimir Bernardo Acuña
+Valdebenito
+Periodo
+Maggio 2011 - 31 ottobre
+2025
+Organizzazione
+Fundación CEIS Marista
+Documento
+Redatto dal professionista
+stesso
+Riferimento
+lavorativo
+Jean Claude Dupry
+E-mail istituzionale
+jdupry@ceismaristas.cl
+Nota di ambito. Questo documento è stato preparato dal professionista stesso come antecedente formale per processi
+lavorativi, di reclutamento e validazione dell'esperienza. Il riferimento esterno incluso di seguito consente di verificare il
+contesto, il rapporto di lavoro e l'ambito generale delle funzioni, senza attribuire automaticamente la paternità del
+presente documento al contatto menzionato.
+1. Scopo del documento
+Documentare, in modo ordinato e professionale, i principali contributi tecnici, funzionali e di continuità operativa
+sviluppati da Vladimir Bernardo Acuña Valdebenito durante il suo operato presso la Fondazione CEIS Marista. Il
+documento intende servire come supporto curriculare e professionale, presentando risultati, miglioramenti
+osservabili e competenze dimostrate in contesti operativi reali.
+2. Contesto generale delle prestazioni
+Durante il periodo indicato, il professionista ha svolto funzioni tecniche e strategiche associate allo sviluppo,
+manutenzione, modernizzazione, supporto, automazione e integrazione di piattaforme utilizzate in ambienti
+produttivi reali. Il suo lavoro ha combinato analisi, sviluppo full stack, risoluzione di incidenti, miglioramento delle
+prestazioni, coordinamento tecnico e continuità operativa, gestendo simultaneamente molteplici fronti di lavoro e
+vincoli infrastrutturali.
+3. Principali risultati e contributi
+Modernizzazione tecnologica e riduzione del debito tecnico
+ Partecipazione a processi di modernizzazione progressiva di sistemi legacy, specialmente in ambienti PHP,
+favorendo la transizione verso basi tecnologiche più attuali e manutenibili.
+ Refactoring e miglioramento di moduli critici, aumentando leggibilità, manutenibilità, stabilità e potenziale
+evolutivo dei componenti rilevanti.
+ Preparazione tecnica delle piattaforme esistenti per la continuità e il miglioramento futuro, anche in scenari
+dove non era possibile un rinnovamento integrale immediato.
+Prestazioni, stabilità e continuità operativa
+ Ottimizzazione di processi di esecuzione critica, con riduzione dei tempi di risposta e miglioramento
+dell'esperienza operativa degli utenti interni ed esterni.
+ Gestione degli incidenti in produzione con approccio analitico, identificando le cause, definendo azioni
+correttive e applicando misure preventive per ridurre le ricorrenze.
+Dichiarazione di Risultati Professionali - Pagina 1
+
+ Mantenimento della continuità operativa in contesti con limitazioni tecniche, risolvendo le contingenze con
+pragmatismo e impegno per la disponibilità del servizio.
+Migrazioni, infrastruttura e standardizzazione
+ Partecipazione a migrazioni di server e piattaforme, fornendo coordinamento tecnico per ridurre i rischi di
+interruzione.
+ Collaborazione nella standardizzazione di configurazioni e ambienti, contribuendo a un'operazione più
+stabile e controllata.
+ Adattamento di soluzioni a infrastrutture restrittive, ottenendo risultati funzionali anche con risorse limitate.
+Automazione, strumenti interni e integrazioni
+ Progettazione e implementazione di strumenti e soluzioni interne orientate a risolvere esigenze operative
+concrete.
+ Automazione di processi manuali, riducendo il carico operativo, gli errori e i tempi di esecuzione.
+ Supporto e implementazione su piattaforme come LimeSurvey e WordPress, insieme a integrazioni su SQL
+Server e MySQL.
+Comunicazioni, efficienza e innovazione applicata
+ Implementazione di processi di invio massivo di e-mail tramite PHP e Constant Contact, supportando la
+continuità delle comunicazioni istituzionali.
+ Proposta di alternative orientate alla riduzione dei costi operativi associati alle comunicazioni massive.
+ Utilizzo di tecnologie di intelligenza artificiale durante il 2024 e 2025 come supporto per analisi, risoluzione
+di problemi ed esplorazione di soluzioni tecniche.
+Sicurezza, analisi forense e resilienza del server
+ Formazione in cybersicurezza svolta durante il periodo della pandemia e successivo intervento sulla
+cybersicurezza in ambito istituzionale, volto a diffondere buone pratiche.
+ Analisi forense di attacchi al server in più di un'occasione, esaminando le evidenze disponibili per
+determinare origine, vettore di ingresso e portata dell'incidente.
+ Gestione e revisione sistematica dei log del server e dell'ambiente PHP negli ultimi anni del periodo, con un
+duplice scopo: correggere errori di codice e rilevare attività anomale provenienti da indirizzi IP sconosciuti.
+ Miglioramenti della sicurezza del sistema a partire da test con OWASP ZAP, simulando attacchi per
+individuare punti deboli e applicare le correzioni corrispondenti.
+ Test di carico e misurazione del comportamento del server con Apache JMeter, per dimensionare la
+capacità della piattaforma in presenza di domanda concorrente.
+4. Risultati osservabili e miglioramenti riportati
+ Miglioramenti delle prestazioni stimati fino all'80% in determinati processi del sistema, specialmente nella
+generazione di report e nel caricamento dei servizi della piattaforma Batería Online, incluso il trasferimento di
+parte della logica a JavaScript per ottimizzare la reattività.
+ Riduzione stimata vicina al 90% nei processi di assistenza clienti della Batería Online tra il 2020 e la data di
+separazione, supportata da miglioramenti del flusso, maggiore chiarezza delle istruzioni e meccanismi di
+continuità per interruzioni o perdite di connessione.
+ Ottimizzazione approssimativa del 45% in alcuni componenti del sistema di batterie, sia a livello di
+database che di codice, mediante eliminazione di duplicazioni, pulizia di strutture obsolete e riorganizzazione
+Dichiarazione di Risultati Professionali - Pagina 2
+
+delle informazioni in schemi più efficienti.
+ Completamento consistente di compiti e deliverable, adattandosi sia a pianificazioni formali che a
+cambiamenti di requisiti emersi durante lo sviluppo.
+ Completamento anticipato di compiti programmati durante il 2025 e, in almeno un caso rilevante,
+evitamento di supporto esterno mediante studio e risoluzione interna di un problema inizialmente previsto per
+una nuova assunzione.
+ Supporto simultaneo di molteplici prodotti o linee di lavoro all'interno dell'istituzione, arrivando in certi
+periodi a intervenire su fino a cinque fronti in modo concorrente.
+5. Competenze dimostrate
+Competenza
+Descrizione
+Architettura e sviluppo
+Coinvolgimento full stack nell'analisi, sviluppo, integrazione e
+supporto di piattaforme produttive.
+Modernizzazione di sistemi legacy
+Capacità di evolvere sistemi esistenti senza compromettere la
+continuità operativa.
+Ottimizzazione delle prestazioni
+Miglioramento dei tempi, processi critici ed efficienza funzionale.
+Risoluzione di incidenti
+Diagnosi, contenimento e correzione di problemi in produzione.
+Automazione e miglioramento continuo
+Progettazione di soluzioni interne, riduzione di compiti manuali e
+focus permanente sull'efficienza.
+Sicurezza e analisi forense
+Rilevamento di attività anomale, analisi di incidenti sul server e
+rafforzamento del sistema tramite test di sicurezza.
+6. Riferimento di validazione esterna
+Per fini di verifica del contesto lavorativo, del rapporto di lavoro e dell'ambito generale delle funzioni, può essere
+utilizzato il seguente riferimento professionale:
+Nome
+Jean Claude Dupry
+Carica
+Production Manager / Fundación CEIS Orientación
+E-mail
+jdupry@ceismaristas.cl
+Cellulare
++56 9 9415 6984
+Importante: il riferimento sopra indicato è incluso al solo scopo di facilitare la validazione del contesto lavorativo e
+professionale. La sua inclusione non implica paternità, revisione preventiva, approvazione scritta né emissione di questo
+documento da parte della persona indicata, salvo conferma espressa successiva.
+7. Dichiarazione del professionista
+Dichiaro che le informazioni qui presentate sono state elaborate in buona fede, a partire da funzioni
+effettivamente svolte, risultati osservati e precedenti professionali disponibili. Questo documento può essere
+integrato con CV, portfolio, lettera di raccomandazione, repository e altri materiali di supporto richiesti durante un
+processo di valutazione professionale.
+Dichiarazione di Risultati Professionali - Pagina 3
+
+Vladimir Bernardo Acuña Valdebenito
+Data di emissione: 13 marzo 2026
+Documento emesso dal professionista
+Dichiarazione di Risultati Professionali - Pagina 4

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'vladi-portfolio-v20-institutional-note-20261001';
+const CACHE_NAME = 'vladi-portfolio-v21-i18n-20261016';
 const OFFLINE_URL = './offline.html';
 
 const APP_SHELL = [
@@ -26,6 +26,7 @@ const NETWORK_FIRST_PATHS = new Set([
     '/app.js',
     '/pwa.js',
     '/manifest.webmanifest',
+    '/i18n/localized.css',
     '/servicios/auditoria-codigo-ia/',
     '/servicios/auditoria-codigo-ia/index.html',
     '/servicios/auditoria-codigo-ia/audit-form.js'

@@ -1,0 +1,80 @@
+# SOURCE: assets/cv-ats-portuguese.pdf
+# DATE: 2026-10-16T10:41:53.145370
+
+Vladimir Acuña
+Arquiteto de Soluções | Senior Full-Stack | Modernização, Automação e IA Aplicada
+Santiago, Chile | +56 9 8121 8838 | vladimir.acuna.dev@gmail.com
+Web: vladimiracunadev-create.github.io | GitHub: github.com/vladimiracunadev-create | GitLab: gitlab.com/vladimir.acuna.dev-group
+LinkedIn: linkedin.com/in/vladimir-acuna-valdebenito
+Informações atualizadas até: 2026-10-16 10:14 (America/Santiago)
+RESUMO
+ 14 anos liderando o design, evolução e operação de uma plataforma educacional/psicométrica (2011-2025), com
+foco em continuidade operacional.
+ Modernização progressiva (PHP 5.4 → PHP 8.2+), otimização de desempenho e automação de relatórios
+(PDF/Excel) e processos de dados.
+ Experiência em bancos de dados (SQL Server, MySQL/MariaDB) e deploys/ambientes reproduzíveis com Docker
+e CI/CD.
+ Portfólio técnico com casos práticos (Cloud/AWS, microsistemas, agentes IA e observabilidade), documentação e
+demos verificáveis no GitHub e GitLab.
+SKILLS
+Backend: PHP 8.x, Node.js, TypeScript, Python (FastAPI), Go, Rust, C#, Ruby
+Frontend: JavaScript, HTML, CSS
+Dados: SQL Server, MySQL/MariaDB, PostgreSQL, MongoDB, Redis, SQLite, DuckDB
+DevOps/Cloud: Docker/Compose, Kubernetes, CI/CD (GitHub Actions/GitLab CI), AWS (S3, Amplify, CloudFront), Terraform
+Qualidade/Segurança: hardening, secret scanning (Gitleaks, TruffleHog), anti-injection, Trivy, pip-audit, OWASP ZAP,
+análisis forense de incidentes, análisis de logs (Apache/PHP)
+Observabilidade: Prometheus/Grafana
+IA/Agentes: LangGraph, MCP (Model Context Protocol), Ollama, n8n
+EXPERIÊNCIA
+Fundação CEIS Maristas — Arquiteto de Software e Desenvolvedor Full-Stack (2011-2025)
+ Design, desenvolvimento e manutenção de plataforma de avaliação de alunos (baterias de testes), módulos
+institucionais e relatórios.
+ Migração tecnológica (PHP 5.4 → PHP 8.2+), atualização de servidores/bibliotecas e melhorias de desempenho
+com JavaScript e testes de carga.
+ Desenvolvimento de relatórios avançados PDF/Excel com indicadores, percentis e análise por
+turma/nível/instituição.
+ Importação e migração de dados massivos do Excel com validações; automação de comunicações (envios,
+segmentação, acompanhamento).
+ Suporte direto a usuários-chave (coordenadores, orientadores, diretores) e operação em produção.
+ Segurança operacional: análise forense de incidentes no servidor, monitoramento e análise de logs (Apache/PHP)
+para detecção de atividade anômala, testes de segurança com OWASP ZAP e testes de carga com Apache JMeter.
+Tecnologias: PHP, JavaScript, SQL Server, MySQL, Apache, JMeter, OWASP ZAP, Excel, FPDF/PhpSpreadsheet, Constant
+Contact
+PROJETOS DESTACADOS
+ Produtos com distribuição real: RootCause Windows (Rust, ETW/WPR) · RootCause Mobile (Flutter, Android/iOS)
+· RootCause macOS (Rust, macOS) · RootCause Web (JS, MV3) · Empresa Operativa Chile (JS, Rust, PWA) ·
+Universal Code Scanner (Flutter, AES-256-GCM) · GabySQL (Rust, WAL) · Automa PC (Python, Playwright) ·
+ChofyAI Studio (Tauri, Rust) · Rhino Suite (Rust/WASM, Go) · Violin Adventure (Tauri, React) · Guitarra Adventure
+(Tauri, React) · RootCause QR Inspector (Flutter, Dart) · RootCause Server (Rust, 18 rules) · PDF Reader (Flutter,
+
+Android/Windows/Web) · Decentraland Social Arcade (SDK7, ECS, TypeScript) · Commerce OS (Web, Windows,
+Android) · Video Transcript Studio (Whisper, Windows)
+ Laboratórios de engenharia: Problem-Driven Systems Lab (7 stacks) · Social Bot Scheduler (n8n, 18+ DB) ·
+Microsistemas (PHP, MCP) · Docker Labs · WSL Labs (wslc) · Unikernel Labs (Unikraft, WSL2) · Sandbox Labs
+(Linux) · Proyectos AWS (GitHub) · Proyectos AWS (GitLab) · Universal Payments Engineering Lab (payments,
+ledger) · AWS Desktop Studio (Electron, AWS CLI) · RootCause Blockchain Security (CLI, local API) · RootCause
+Bitcoin Defense (UTXO, regtest) · QEMU/KVM Labs (QEMU, KVM, libvirt) · Framework Ecosystems Labs (12
+ecosystems, CI)
+ IA aplicada: LangGraph RealWorld (Python, 25/25) · Operational AI Agents (Python, zero-deps) · MCP + Ollama
+Local (FastAPI, Ollama) · Agentic Plugins Toolkit (MCP, multi-runtime) · Claude Skills Toolkit (Python, zero-deps) ·
+Codex Skills Toolkit (Python, pnpm) · AI Dataset Foundry (Windows, Android)
+ Currículos técnicos: Cybersecurity · GameDev · Data Science · Multi-Cloud · AI Evolution · Blockchain ·
+Computational Mathematics · Business Creation · Finance & Banking · Executive Leadership · Marketing & Growth ·
+Pedagogy · Polyglot Programming · Neural Network Labs · Machine Operator · Architecture & Built Environment
+(Python, Markdown) · Database Systems Labs (27 DB engines) · Lifelong Learning Ecosystem (30 paths, 6 areas) ·
+Modern Software Engineering Program (Python, GitHub Pages)
+ Computação científica e educativa: Human Genome Labs (TypeScript, FASTA/GFF3/VCF) · Chilean School
+Learning Path (Python, HTML) · Psychometrics & Assessment (Python, 57 tests) · Pañuelo al Viento (Flutter,
+Android/Windows)
+ GitHub: https://github.com/vladimiracunadev-create
+ GitLab: https://gitlab.com/vladimir.acuna.dev-group
+FORMAÇÃO E ATIVIDADE RECENTE
+ Formação contínua em automação prática, ML/NLP e ferramentas de desenvolvimento.
+ Consolidação de portfólio técnico com laboratórios cloud, microsistemas e documentação orientada a
+recrutadores.
+Engenharia de Execução em Computação e Informática
+Universidad de Tarapacá (Arica)
+Técnico em Administração de Empresas (Ênfase em Marketing)
+INACAP (Santiago)
+IDIOMAS
+ Inglês técnico: leitura fluente (documentação, código, papers, IA tooling). Conversação: básica, em melhoria ativa.

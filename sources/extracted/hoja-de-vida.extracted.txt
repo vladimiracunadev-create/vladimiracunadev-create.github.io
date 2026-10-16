@@ -1,0 +1,167 @@
+# SOURCE: assets/hoja-de-vida.pdf
+# DATE: 2026-10-16T10:41:53.145370
+
+Vladimir Acuña —
+HOJA DE VIDA
+pág. 1
+Vladimir Acuña
+HOJA DE VIDA
+Arquitecto de Soluciones | Senior Full-Stack | Modernización, Automatización e IA Aplicada
+Documento genérico de presentación profesional. No está dirigido a un cargo específico: sirve para cualquier proceso de selección, con
+independencia del nombre del puesto.
+DATOS PERSONALES
+Nombre completo:
+Vladimir Bernardo Acuña Valdebenito
+Ubicación:
+Santiago, Chile
+Teléfono:
++56 9 8121 8838
+Correo electrónico:
+vladimir.acuna.dev@gmail.com
+Sitio web / portafolio:
+https://vladimiracunadev-create.github.io/
+LinkedIn:
+https://www.linkedin.com/in/vladimir-acuna-valdebenito
+GitHub:
+https://github.com/vladimiracunadev-create
+GitLab:
+https://gitlab.com/vladimir.acuna.dev-group
+Actualizado:
+agosto de 2026
+PERFIL PROFESIONAL
+ 14 años de experiencia principal en Fundación CEIS Maristas (2011-2025), desarrollando, manteniendo y
+modernizando una plataforma educativa/psicométrica.
+ Experiencia previa en desarrollo web y soporte de sistemas para instituciones públicas y privadas, con foco en PHP,
+SQL Server/MySQL, reportería PDF/Excel, migración de datos e integraciones.
+ Portafolio técnico actual con proyectos y laboratorios en Docker, AWS, CI/CD, observabilidad e IA aplicada a
+automatización, publicados en GitHub y GitLab.
+EXPERIENCIA LABORAL
+Arquitecto de Software · Analista y Desarrollador Full-Stack
+Fundación CEIS Maristas — Santiago, Chile · mayo 2011 — octubre 2025
+Funciones y responsabilidades:
+ Diseño, desarrollo y mantención de plataforma de evaluación de alumnos (baterías de test), módulos institucionales y
+reportes.
+ Migración tecnológica (PHP 5.4 → PHP 8.2+), actualización de servidores/librerías y mejoras de rendimiento con
+JavaScript y pruebas de carga.
+ Desarrollo de reportes avanzados PDF/Excel con indicadores, percentiles y análisis por curso/nivel/establecimiento.
+ Importación y migración de datos masivos desde Excel con validaciones; automatización de comunicaciones (envíos,
+segmentación, seguimiento).
+ Soporte directo a usuarios clave (coordinadores, orientadores, directivos) y operación en producción.
+ Seguridad operacional: análisis forense de incidentes en el servidor, monitoreo y análisis de logs (Apache/PHP) para
+detección de actividad anómala, pruebas de seguridad con OWASP ZAP y pruebas de carga con Apache JMeter.
+Logros verificados:
+ Métricas verificadas: 80% mejora en reportes/carga de Batería Online · 90% menos fricción en atención a clientes
+(2020-2025) · 45% optimización DB/código · hasta 5 frentes concurrentes en ciertos períodos.
+ Pandemia 2020: migración de servicios presenciales a formato online en tiempo breve (citado en la carta de
+recomendación).
+ Métricas y logros cuantificados del periodo CEIS Maristas:
+https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf
+Tecnologías: PHP, JavaScript, SQL Server, MySQL, Apache, JMeter, OWASP ZAP, Excel, FPDF/PhpSpreadsheet, Constant
+Contact
+
+Vladimir Acuña —
+HOJA DE VIDA
+pág. 2
+TRAYECTORIA PREVIA
+Desarrollo web, soporte de sistemas y reportería para instituciones públicas y privadas.
+CONACE / Gobierno de Chile (2008-2011) · E-syste (2011) · Corpvida / Servytech (2007-2008) · PointPay Chile (2006-2007) · Giro
+Ingeniería Ltda. (2004-2006) · Centro Europeo para la Capacitación (2003-2004) · Busquesbc (2003) · Sygnum Consultores (2003)
+· Golden Guide Chile (2003) · Amigos Defensores de los Animales (2001-2002)
+FORMACIÓN ACADÉMICA
+Ingeniería de Ejecución en Computación e Informática
+Universidad de Tarapacá (Arica)
+Técnico de Administración de Empresas (Mención Marketing)
+INACAP (Santiago)
+COMPETENCIAS TÉCNICAS
+Backend: PHP 8.x, Node.js, TypeScript, Python (FastAPI), Go, Rust, C#, Ruby
+Frontend: JavaScript, HTML, CSS
+Datos: SQL Server, MySQL/MariaDB, PostgreSQL, MongoDB, Redis, SQLite, DuckDB
+DevOps/Cloud: Docker/Compose, Kubernetes, CI/CD (GitHub Actions/GitLab CI), AWS (S3, Amplify, CloudFront), Terraform
+Calidad/Seguridad: hardening, secret scanning (Gitleaks, TruffleHog), anti-injection, Trivy, pip-audit, OWASP ZAP, análisis
+forense de incidentes, análisis de logs (Apache/PHP)
+Observabilidad: Prometheus/Grafana
+IA/Agentes: LangGraph, MCP (Model Context Protocol), Ollama, n8n
+IDIOMAS
+ Español: nativo.
+ Inglés técnico: lectura fluida (documentación, código, papers, IA tooling). Conversación: básica, en mejora activa.
+PROYECTOS Y PORTAFOLIO
+El detalle técnico, las métricas y el código de cada proyecto están en el portafolio PDF y en el sitio web.
+ Cloud/AWS y FinOps
+ Multi Cloud Engineering Program
+ Microsistemas
+ Neural Network Training Labs
+ Social Bot Scheduler
+ Polyglot Programming Labs
+ Docker Labs
+ Education Pedagogy Learning Sciences Program
+ LangGraph
+ Marketing Sales Growth Evolution Program
+ MCP + Ollama local
+ Guitarra Adventure
+ Unikernel Labs
+ Agentic Plugins Toolkit
+ ChofyAI Studio
+ Operational Ai Agents
+ Problem Driven Systems Lab
+ Empresa Operativa Chile
+ Claude Skills Toolkit
+ Rootcause Macos Inspector
+ Gabysql
+ Codex Skills Toolkit
+ Python Data Science Program
+ Rootcause Qr Inspector
+ Automa · PC Orchestrator v0.3.0
+ Chilean School Learning Path
+ RootCause · Windows Inspector v0.19.0
+ Architecture Built Environment Learning Program
+ Rootcause Mobile Inspector
+ Pdf Reader Windows Android
+ Modern Gamedev Program
+ Universal Payments Engineering Lab
+ Modern Cybersecurity Program
+ Psychometrics And Assessment Program
+ Machine Operator Program
+ Rootcause Server
+ Rhino Suite
+ Aws Desktop Studio
+ Human Genome Labs
+ Ai Dataset Foundry
+ Wsl Labs
+ Rootcause Blockchain Security
+ Computational Mathematics Program
+ Rootcause Bitcoin Defense
+ Modern Business Creation Program
+ Decentraland Social Arcade
+ Executive Leadership Founder Program
+ Commerce Operating System
+ Finance And Banking Evolution Program
+ Panuelo Al Viento Cueca App
+ Blockchain Learning Path
+ Qemu Kvm Labs
+ Universal Code Scanner
+ Database Systems Labs
+
+Vladimir Acuña —
+HOJA DE VIDA
+pág. 3
+ Sandbox Labs
+ Video Transcript Studio
+ Artificial Intelligence Evolution Program
+ Framework Ecosystems Labs
+ Rootcause Web Inspector
+ Lifelong Learning Ecosystem
+ Violin Adventure
+ Modern Software Engineering Program
+ Sitio web / portafolio: https://vladimiracunadev-create.github.io/
+ GitHub: https://github.com/vladimiracunadev-create · GitLab: https://gitlab.com/vladimir.acuna.dev-group
+FORMACIÓN Y ACTIVIDAD RECIENTE
+ Formación continua en automatización práctica, ML/NLP y herramientas de desarrollo.
+ Consolidación de portafolio técnico con laboratorios cloud, microsistemas y documentación orientada a reclutadores.
+REFERENCIAS Y DOCUMENTOS DE RESPALDO
+ Ver carta de recomendación: https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma.pdf
+ Ver nota de vigencia institucional CEIS:
+https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis.pdf
+ Ver declaración de logros profesionales: https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf
+ Último jefe directo: Jean Claude Dupry (Fundación CEIS Maristas) — contacto disponible a solicitud.
+ Referencias laborales disponibles a solicitud.
+Esta hoja de vida está publicada en 22 idiomas en https://vladimiracunadev-create.github.io/

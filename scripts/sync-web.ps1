@@ -11,6 +11,10 @@ if (Test-Path $TargetDir) {
 # Copia de archivos core
 Copy-Item "index.html", "styles.css", "app.js", "pwa.js", "manifest.webmanifest", "service-worker.js", "offline.html" -Destination $TargetDir
 
+# Copia de rutas localizadas y del contrato JSON público usado por la web.
+Copy-Item "i18n" -Destination $TargetDir -Recurse -Force
+Copy-Item "api" -Destination $TargetDir -Recurse -Force
+
 # Copia de assets, excluyendo lo que el sitio NO publica.
 # Copiar 'assets' entero metia dentro del APK:
 #   - backups/       ~3 MB de PDFs historicos ya superados (41% del APK)

@@ -1,0 +1,90 @@
+# SOURCE: assets/cv-ats-german.pdf
+# DATE: 2026-10-16T10:41:53.145370
+
+Vladimir Acuña · 2026-10-16 · 1
+ATS-Lebenslauf
+Lösungsarchitekt·Senior Full-Stack·Digitale Transformation·Management & Operations
+- 🔁  Reproduzierbare DemosKlonen, Laufen, Validieren. - 🧰  Standardisierte Werkzeuge— Makefiles, Hub
+CLI,doctor, undsmokepro Repository. - 🛡  Verteidigung in der Tiefe- geheimes Scannen, Richtlinien und
+ausdrücklich verbotene Praktiken. - 📈  Beobachtung — /health, /ready, /metricsDashboards und
+Rückverfolgbarkeit. - 📚  Audienzbewusste Dokumentation- Recruiter, Anfänger, DevOps oder Sicherheit, abhängig
+vom Repository. - 📦  Verteilung der Erzeugnisse- herunterladbare Releases, Checksummen und Build-Beweise;
+kommerzielle / Store-Signaturen, die als anhängig erklärt wurden, wenn anwendbar. - 🌍  Internationalisierung—
+Portfolio in 22 Sprachen (ES)·EN·PT·IT·F·ZH. - 🧭  Technische EhrlichkeitJeder Fall gekennzeichnetOPERATIONAL,
+DOCUMENTED/SCAFFOLD, oderPLANNED.
+🎯 Was Sie hier finden werden
+Dies ist kein „One Repo: Es ist ein Ökosystem mit gemeinsamen Standards.
+🔁  Reproduzierbare DemosKlonen, Laufen, Validieren.
+🧰  Standardisierte Werkzeuge— Makefiles, Hub CLI,doctor, undsmokepro Repository.
+🛡  Verteidigung in der Tiefe- geheimes Scannen, Richtlinien und ausdrücklich verbotene Praktiken.
+📈  Beobachtung — /health, /ready, /metricsDashboards und Rückverfolgbarkeit.
+📚  Audienzbewusste Dokumentation- Recruiter, Anfänger, DevOps oder Sicherheit, abhängig vom Repository.
+📦  Verteilung der Erzeugnisse- herunterladbare Releases, Checksummen und Build-Beweise; kommerzielle /
+Store-Signaturen, die als anhängig erklärt wurden, wenn anwendbar.
+🌍  Internationalisierung— Portfolio in 22 Sprachen (ES)·EN·PT·IT·F·ZH.
+🧭  Technische EhrlichkeitJeder Fall gekennzeichnetOPERATIONAL, DOCUMENTED/SCAFFOLD, oderPLANNED.
+✅ Nachprüfbarer Status
+Oberfläche Konkrete Beweise
+🧪
+Testabdeckung
+GabySQL828 Prüfungen+ Fuzzing over503,8 Mio. Abfragen(0 Paniken)·Empresa Operativa Chile158 Prüfungen
+·Automa150 pytest ·Mehrfach-OS-KI
+🤖  Mittel zur
+Herstellung
+LangGraph RealWorld25/25 operative Backends(Fälle 01-25, 100% Abdeckung)·Operationelle KI-Agenten13
+Agentenmit39 deterministische Evals
+🔗  Polyglotte 20 FälleSender → n8n → Empfänger —19 Einsatzkräfte, einzeln mit Docker auditiert -· 18+ DB-Motoren · 20+
+Container ·11 Muster
+📦  Verteilung 151 ReleasesIn einem Ökosystem von64 im Eigentum stehende öffentliche Datenspeicher ·Installateure und
+Artefakte.exe · .msi · .dmg · .apkmit Prüfsummen und Baunachweisen; ggf. laufende Signaturen von
+Geschäfts-/Ladengeschäften
+🛡  Lieferkette CodeQL·Semgrep·Bandit·Triviolett·Grype·Gitleaks·TrüffelHog·CycloneDX SBOM·Scorecard
+📚  Curricula 14.530 Klassenüber 21 Programme nachprüfbar, gezählt nacha workflowaus einer realen Repository-Struktur
+oder einer überprüfbaren Quelle, die im Repository deklariert ist – nicht von Hand geschrieben –·Jedes Programm
+erklärt seinen redaktionellen Status und seine Einschränkungen
+
+Vladimir Acuña · 2026-10-16 · 2
+Oberfläche Konkrete Beweise
+🌐  Portfolio Installierbare PWA· 22 Sprachen · 154 PDFserzeugt durch Pipeline·CV Daten-API·Kondensator
+Android·Lighthouse 100
+🔒  Telemetrie Null Telemetrie in forensischen Produkten und Empresa Operativa Chile - in jedem Build verifiziert (kein
+Android)INTERNETErlaubnis
+🌐
+Veröffentlichte
+Websites
+56 GitHub Seiten55 Landungen, eine pro Produkt, Programm oder Ökosystem-Navigator, plus das Portfolio -
+jede aus ihrem eigenen Repository bereitgestellt·alle 56 verifiziert mit HTTP200
+✅ Berufsumfang
+Mein dualer Hintergrund -Informatik und Computing Engineering + Business Administration— hilft mir,
+Geschäftsziele in technische Entscheidungen und technische Einschränkungen in klare Optionen für Betrieb, Produkt,
+Kunden und Führung zu übersetzen.
+🎯 Kernidentität
+Rolle Rückhalt
+Lösungsarchitekt Modulares, skalierbares Systemdesign mit evolutionärem Urteil
+Legacy Modernisation
+Architekt
+Reale Legacy-Evolution (PHP 5.x → 8.x, inkrementelles Refactoring ohne Unterbrechung des
+Betriebs)
+Senior Full-Stack / Tech Lead Architektur, Ausführung und Standards auf realen Plattformen (+16 Jahre)
+AI Automation Architekt Agentische Systeme mit LangGraph/MCP und n8n fließt mit Leitplanken
+↗  Natürliche Erweiterung
+AI Orchestration Engineer · Systeme / Rust Engineer · Mobile Engineer (Flutter) · Solutions Engineer · Technischer
+Produktbauer · Technischer Trainer · Digital Transformation Berater · Business / Funktionaler Analyst · Technische
+Produktoperationen
+⚙ Ergänzender Anwendungsbereich
+Plattformingenieur / IDP·DevOps / CI-CD·Cloud / AWS Engineer·Antrag SRE·Automatisierungsingenieur·Technischer
+Berater
+📌 Verfügbarkeit
+Offen für:Senior Full-Stack·Architektur·Legacy Modernisierung·Plattform/IDP·Antrag SRE·pragmatische
+DevOps·Automatisierung·AI Automation·Business/Funktionalanalyse·IT Projektkoordinierung·Produktoperationen·Digitale
+Transformation·Solutions Consulting/Presales·technische Ausbildung·Qualität und kontinuierliche Verbesserung·KI-
+Adoption und Governance
+Bewertet nach dem Umfang jeder Rolle:Product Owner / technischer Produktmanager·Service Delivery·IT-Betrieb·GRC /
+Technologierisiko·Verwaltung und Operationen·Verwaltungskontrolle·Modernisierung des öffentlichen Sektors. Executive
+und General Management Titel sind zukünftige Entwicklungsziele, nicht beanspruchte Erfahrung.
+Modalität:Remote oder Hybrid, je nach Projekt.
+
+Vladimir Acuña · 2026-10-16 · 3
+This localized edition is derived from the corresponding complete public GitHub profile translation. Historical recommendation and
+institutional records remain linked to their source editions.
+https://vladimiracunadev-create.github.io/i18n/de/

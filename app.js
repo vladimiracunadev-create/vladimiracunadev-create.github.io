@@ -123,7 +123,19 @@ function toggleTheme() {
   setTheme(cur === "dark" ? "light" : "dark");
 }
 
+const INLINE_LANGS = ["es", "en", "pt", "it", "fr", "zh"];
+const SUPPORTED_LANGS = [
+  ...INLINE_LANGS, "zh-TW", "ja", "ko", "tr", "ru", "vi", "th", "de",
+  "uk", "pl", "ar", "fa", "id", "nl", "hi", "el",
+];
+
 function setLang(lang) {
+  if (!SUPPORTED_LANGS.includes(lang)) lang = "es";
+  if (!INLINE_LANGS.includes(lang)) {
+    localStorage.setItem("portfolio_lang", lang);
+    window.location.assign(`i18n/${encodeURIComponent(lang)}/`);
+    return;
+  }
   document.body.dataset.lang = lang;
   localStorage.setItem("portfolio_lang", lang);
   const sel = $("#selectLang");
@@ -149,11 +161,11 @@ function handleLangChange(e) {
 
 function detectLang() {
   const saved = localStorage.getItem("portfolio_lang");
-  if (saved) return saved;
-  const supported = ["es", "en", "pt", "it", "fr", "zh"];
-  const browser = (navigator.language || navigator.languages?.[0] || "es")
-    .toLowerCase().slice(0, 2);
-  return supported.includes(browser) ? browser : "es";
+  if (saved && SUPPORTED_LANGS.includes(saved)) return saved;
+  const browserLocale = (navigator.language || navigator.languages?.[0] || "es");
+  if (/^zh-(tw|hk|mo)/i.test(browserLocale)) return "zh-TW";
+  const browser = browserLocale.toLowerCase().slice(0, 2);
+  return SUPPORTED_LANGS.includes(browser) ? browser : "es";
 }
 
 // Bump cuando se agregue/cambie el set de vistas — fuerza que los visitantes
@@ -373,7 +385,7 @@ function initCopyEmail() {
   });
 }
 
-// Emite los 6 <span data-XX> que espera el sistema de idiomas del sitio.
+// Emite los 6 <span data-XX> de la SPA; los otros 16 idiomas usan páginas completas en /i18n/.
 // Escribir textContent o un literal suelto deja ese texto en un solo idioma
 // para los seis, porque styles.css decide que mostrar por atributo.
 const LANGS = ["es", "en", "pt", "it", "fr", "zh"];

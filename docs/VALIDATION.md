@@ -1,6 +1,6 @@
 # Guía de Validación Local
 
-**Última ejecución integral:** 2026-10-01.
+**Última ejecución integral:** 2026-10-16.
 
 Este proyecto utiliza **Lighthouse CI** para asegurar calidad, accesibilidad y performance.
 
@@ -52,7 +52,7 @@ La política del proyecto es priorizar que la home se actualice correctamente an
 
 ## Control de PDFs
 
-- El pipeline debe producir 42 PDFs públicos: 7 familias por 6 idiomas.
+- El pipeline debe producir 154 PDFs públicos: 7 familias por 22 idiomas.
 - `node scripts/check-pdf.js` valida estructura básica y `pdfinfo` confirma que todos los archivos se abren.
 - Las páginas se renderizan a PNG para revisar tipografía, márgenes, saltos y enlaces visibles antes de publicar.
 

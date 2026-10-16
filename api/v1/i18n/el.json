@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "generated_at": "2026-10-16",
+    "language": "el",
+    "language_name": "Greek",
+    "native_name": "Ελληνικά",
+    "direction": "ltr",
+    "source": "https://github.com/vladimiracunadev-create/vladimiracunadev-create/blob/main/README.el.md"
+  },
+  "profile": {
+    "name": "Vladimir Acuña",
+    "title": "Αρχιτέκτονας Λύσης·Ανώτερος πλήρης στοίβα·Ψηφιακή Μεταμόρφωση·Διαχείριση & Λειτουργίες",
+    "summary": "- 🔁 Αναπαραγωγικά demos— κλώνος, τρέχα, επικυρώσε. - 🧰 Τυποποιημένη εργαλειοθέτηση— Makefiles, Hub CLI,doctor, καιsmokeανά χώρο αποθήκευσης. - 🛡️ Άμυνα σε βάθος— μυστική σάρωση, πολιτικές και ρητά απαγορευμένες πρακτικές. - 📈 Παρατηρησιμότητα — /health, /ready, /metrics, ταμπλό και ιχνηλασιμότητα. - 📚 Τεκμηρίωση για το κοινό— στρατολογητή, αρχάριο, DevOps ή ασφάλεια, ανάλογα με το χώρο αποθήκευσης. - 📦 Κατανομή προϊόντων— τις εκδόσεις, τα ληφθέντα έγγραφα και τα αποδεικτικά στοιχεία, - 🌍 Διεθνοποίηση— χαρτοφυλάκιο σε 22 γλώσσες (ES)·ΕΝ·PT·ΤΙ·FR·ΖΗ). - 🧭 Τεχνική ειλικρίνεια— κάθε περίπτωση με ετικέταOPERATIONAL, DOCUMENTED/SCAFFOLD, ήPLANNED.",
+    "website": "https://vladimiracunadev-create.github.io/i18n/el/",
+    "github": "https://github.com/vladimiracunadev-create",
+    "gitlab": "https://gitlab.com/vladimir.acuna.dev-group"
+  },
+  "sections": [
+    "🎯Τι θα Βρείτε Εδώ",
+    "✅Επαληθευμένη κατάσταση",
+    "🗺️Ecosystem σε μια λάμψη",
+    "📦Προϊόντα με πραγματική διανομή",
+    "🧪Εργαστήρια Μηχανικών",
+    "🤖Εφαρμοσμένη ΤΝ",
+    "📚Πλήρης τεχνική επιμέλεια",
+    "🔬Επιστημονική Υπολογιστική",
+    "⚡Αν έχετε 10 λεπτά για να με αξιολογήσετε",
+    "🧠Πρότυπα που εφαρμόζω σε όλα τα αποθετήρια",
+    "✅Επαγγελματικό πεδίο εφαρμογής",
+    "🧭Διαχείριση, Διοίκηση και Μη Κωδικοποίηση Ευκαιρίες Καριέρας",
+    "🤖AI-βοηθούμενη ροή ανάπτυξης",
+    "📌Διαθεσιμότητα",
+    "📬Επαφή"
+  ],
+  "artifacts": {
+    "portfolio": "/assets/portafolio-greek.pdf",
+    "resume": "/assets/hoja-de-vida-greek.pdf",
+    "recruiter": "/assets/cv-reclutador-greek.pdf",
+    "ats": "/assets/cv-ats-greek.pdf",
+    "achievements": "/assets/declaracion-logros-validacion-greek.pdf",
+    "recommendation": "/assets/carta-recomendacion_sin_firma-greek.pdf",
+    "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-greek.pdf"
+  }
+}

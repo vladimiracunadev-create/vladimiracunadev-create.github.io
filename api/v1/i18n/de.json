@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "generated_at": "2026-10-16",
+    "language": "de",
+    "language_name": "German",
+    "native_name": "Deutsch",
+    "direction": "ltr",
+    "source": "https://github.com/vladimiracunadev-create/vladimiracunadev-create/blob/main/README.de.md"
+  },
+  "profile": {
+    "name": "Vladimir Acuña",
+    "title": "Lösungsarchitekt·Senior Full-Stack·Digitale Transformation·Management & Operations",
+    "summary": "- 🔁 Reproduzierbare DemosKlonen, Laufen, Validieren. - 🧰 Standardisierte Werkzeuge— Makefiles, Hub CLI,doctor, undsmokepro Repository. - 🛡️ Verteidigung in der Tiefe- geheimes Scannen, Richtlinien und ausdrücklich verbotene Praktiken. - 📈 Beobachtung — /health, /ready, /metricsDashboards und Rückverfolgbarkeit. - 📚 Audienzbewusste Dokumentation- Recruiter, Anfänger, DevOps oder Sicherheit, abhängig vom Repository. - 📦 Verteilung der Erzeugnisse- herunterladbare Releases, Checksummen und Build-Beweise; kommerzielle / Store-Signaturen, die als anhängig erklärt wurden, wenn anwendbar. - 🌍 Internationalisierung— Portfolio in 22 Sprachen (ES)·EN·PT·IT·F·ZH. - 🧭 Technische EhrlichkeitJeder Fall gekennzeichnetOPERATIONAL, DOCUMENTED/SCAFFOLD, oderPLANNED.",
+    "website": "https://vladimiracunadev-create.github.io/i18n/de/",
+    "github": "https://github.com/vladimiracunadev-create",
+    "gitlab": "https://gitlab.com/vladimir.acuna.dev-group"
+  },
+  "sections": [
+    "🎯Was Sie hier finden werden",
+    "✅Nachprüfbarer Status",
+    "🗺️Ökosystem auf einen Blick",
+    "📦Produkte mit realer Distribution",
+    "🧪Technische Laboratorien",
+    "🤖Angewandte KI",
+    "📚Komplette technische Lehrpläne",
+    "🔬Wissenschaftliche Datenverarbeitung",
+    "⚡Wenn Sie 10 Minuten Zeit haben, mich zu bewerten",
+    "🧠Standards, die ich in allen Repositories anwende",
+    "✅Berufsumfang",
+    "🧭Management, Administration und Non-Coding Karrieremöglichkeiten",
+    "🤖AI-unterstützter Entwicklungsfluss",
+    "📌Verfügbarkeit",
+    "📬Kontakt"
+  ],
+  "artifacts": {
+    "portfolio": "/assets/portafolio-german.pdf",
+    "resume": "/assets/hoja-de-vida-german.pdf",
+    "recruiter": "/assets/cv-reclutador-german.pdf",
+    "ats": "/assets/cv-ats-german.pdf",
+    "achievements": "/assets/declaracion-logros-validacion-german.pdf",
+    "recommendation": "/assets/carta-recomendacion_sin_firma-german.pdf",
+    "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-german.pdf"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "generated_at": "2026-10-16",
+    "language": "zh",
+    "language_name": "Simplified Chinese",
+    "native_name": "简体中文",
+    "direction": "ltr",
+    "source": "https://github.com/vladimiracunadev-create/vladimiracunadev-create/blob/main/README.zh.md"
+  },
+  "profile": {
+    "name": "Vladimir Acuña",
+    "title": "解决方案架构师 · Senior Full-Stack · 数字化转型 · 管理与运营",
+    "summary": "- 🔁 可复现 Demo — clone、运行、验证。 - 🧰 标准化工具链 — 每个仓库都有 Makefile、Hub CLI、doctor 和 smoke。 - 🛡️ 纵深防御 — secret scanning、策略和明确禁止的实践。 - 📈 可观测性 — /health、/ready、/metrics、dashboard 和可追踪性。 - 📚 面向不同读者的文档 — 招聘方、初学者、DevOps 或安全人员，按仓库定位。 - 📦 产品级分发 — 可下载 release、checksum、build 证据；商业签名/商店发布在适用时标注为进行中。 - 🌍 国际化 — 作品集支持 22 种语言（ES · EN · PT · IT · FR · ZH · ZH-TW · JA · KO · TR · RU · VI · TH · DE · UK · PL · AR · FA · ID · NL · HI · EL）。 - 🧭 技术诚实 — 每个案例标注为 OPERATIONAL、DOCUMENTED/SCAFFOLD 或 PLANNED。",
+    "website": "https://vladimiracunadev-create.github.io/i18n/zh/",
+    "github": "https://github.com/vladimiracunadev-create",
+    "gitlab": "https://gitlab.com/vladimir.acuna.dev-group"
+  },
+  "sections": [
+    "🎯 这里有什么",
+    "✅ 可验证状态",
+    "🗺️ 生态系统概览",
+    "📦 真实分发的产品",
+    "🧪 工程实验室",
+    "🤖 应用 AI",
+    "📚 完整技术课程",
+    "🔬 科学计算",
+    "⚡ 如果你有 10 分钟评估我",
+    "🧠 我在所有仓库中应用的标准",
+    "✅ 专业范围",
+    "🧭 管理、行政与无需编程的职业机会",
+    "🤖 AI 辅助开发流程",
+    "📌 可合作方向",
+    "📬 联系方式"
+  ],
+  "artifacts": {
+    "portfolio": "/assets/portafolio-chinese.pdf",
+    "resume": "/assets/hoja-de-vida-chinese.pdf",
+    "recruiter": "/assets/cv-reclutador-chinese.pdf",
+    "ats": "/assets/cv-ats-chinese.pdf",
+    "achievements": "/assets/declaracion-logros-validacion-chinese.pdf",
+    "recommendation": "/assets/carta-recomendacion_sin_firma-chinese.pdf",
+    "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-chinese.pdf"
+  }
+}

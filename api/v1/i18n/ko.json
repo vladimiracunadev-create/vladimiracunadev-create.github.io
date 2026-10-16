@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "generated_at": "2026-10-16",
+    "language": "ko",
+    "language_name": "Korean",
+    "native_name": "한국어",
+    "direction": "ltr",
+    "source": "https://github.com/vladimiracunadev-create/vladimiracunadev-create/blob/main/README.ko.md"
+  },
+  "profile": {
+    "name": "Vladimir Acuña",
+    "title": "솔루션 Architect·수석 풀-스택·디지털 전환·관리 및 운영",
+    "summary": "- 🔁 Reproducible 데모— clone, 실행, 검증. - 🧰 표준화 된 툴링— Makefiles, 허브 CLI,doctor, 및smoke저장소 당. - 🛡️ 방어력- 비밀 검사, 정책 및 명시적으로 금지 관행. - 📈 옵션 정보 — /health, /ready, /metrics, 대쉬보드 및 추적성. - 📚 Audience-aware 문서- 채용자, 초급자, DevOps, 또는 보안, 저장소에 따라. - 📦 제품 유통— 다운로드 가능한 릴리즈, 체크섬, 그리고 증거를 구축; 상업/스토어 서명은 적용할 때 보류로 선언. - 🌍 국제화— 6개국의 포트폴리오 (ES)·₢ 킹·유형: pt·...·담당자: Mr. wang·ZH). - 🧭 기술 정직— 각 케이스 라벨OPERATIONAL, DOCUMENTED/SCAFFOLD, 또는PLANNED.",
+    "website": "https://vladimiracunadev-create.github.io/i18n/ko/",
+    "github": "https://github.com/vladimiracunadev-create",
+    "gitlab": "https://gitlab.com/vladimir.acuna.dev-group"
+  },
+  "sections": [
+    "🎯여기에서 확인할 수 있는 내용",
+    "✅검증된 상태",
+    "🗺️한눈에 보는 생태계",
+    "📦Real Distribution을 통한 제품",
+    "🧪엔지니어링 연구소",
+    "🤖응용 AI",
+    "📚완전한 기술 교육과정",
+    "🔬과학 컴퓨팅",
+    "⚡저를 평가할 시간이 10분이라면",
+    "🧠모든 저장소에 적용하는 표준",
+    "✅전문 범위",
+    "🧭관리, 관리, 비 코딩 경력 기회",
+    "🤖AI-Assisted 개발 흐름",
+    "📌가용성",
+    "📬연락처"
+  ],
+  "artifacts": {
+    "portfolio": "/assets/portafolio-korean.pdf",
+    "resume": "/assets/hoja-de-vida-korean.pdf",
+    "recruiter": "/assets/cv-reclutador-korean.pdf",
+    "ats": "/assets/cv-ats-korean.pdf",
+    "achievements": "/assets/declaracion-logros-validacion-korean.pdf",
+    "recommendation": "/assets/carta-recomendacion_sin_firma-korean.pdf",
+    "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-korean.pdf"
+  }
+}

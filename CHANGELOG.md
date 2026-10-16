@@ -9,6 +9,16 @@
 - Cards HTML agregados en `#proyectos` (index.html)
 - Scripts PDF y api/v1/projects.json actualizados
 
+### feat(i18n): cobertura integral de 22 idiomas
+
+- Respaldados los 42 PDF públicos previos en `assets/backups/2026-10-16/`, con manifiesto SHA-256.
+- Ampliadas las siete familias documentales a 22 idiomas y 154 PDF públicos; todos tienen extracción textual verificable.
+- Añadidas 22 páginas localizadas, 22 documentos Markdown y 22 contratos JSON derivados de las traducciones del README principal de GitHub.
+- Integrados los idiomas nuevos en selector, detección de navegador, sitemap, PWA, build web, ZIP y copia móvil.
+- Actualizados CV Data API, documentación técnica, guías, wiki y fuentes SEO al 16 de octubre de 2026.
+- Incorporados Lifelong Learning Ecosystem y Modern Software Engineering Program; retirada la referencia pública al repositorio renombrado.
+- Validados 154 PDF, 702 páginas, siete sistemas de escritura, 129 comprobaciones de integridad y lint HTML/Markdown sin errores.
+
 ## 2026-10-01
 
 ### feat(portfolio): nota de vigencia institucional CEIS

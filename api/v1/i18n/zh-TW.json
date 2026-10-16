@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "generated_at": "2026-10-16",
+    "language": "zh-TW",
+    "language_name": "Traditional Chinese",
+    "native_name": "繁體中文",
+    "direction": "ltr",
+    "source": "https://github.com/vladimiracunadev-create/vladimiracunadev-create/blob/main/README.zh-TW.md"
+  },
+  "profile": {
+    "name": "Vladimir Acuña",
+    "title": "解決方案架構·高階全速板·數字轉換·管理和業務",
+    "summary": "- 🔁 可複製的演示——克隆,執行,驗證. - 🧰 標準化工具檔案,CLI中心,doctor,以及smoke每個儲存器。 - 🛡️ 深入防禦秘密掃描、政策和明確禁止的做法。 - 📈 觀察性 — /health, /ready, /metrics儀表板 和可追蹤性 - 📚 觀眾認識檔案——根據暫存器的不同,招募者,初學者,DevOps,或安全性. - 📦 產品銷售可下載的釋出、核對和建立證據;酌情宣佈商業/儲存簽名待決。 - 🌍 國際化——以6種語文編寫的教材(ES)·EN 語·常規·資訊科技·法語·) ,\"中國共產黨黨史人物彙編\"(第1輯). - 🧭 技術誠實- 每一個案件都標註在標籤上OPERATIONAL, DOCUMENTED/SCAFFOLD,或 ,或 ,PLANNED.",
+    "website": "https://vladimiracunadev-create.github.io/i18n/zh-TW/",
+    "github": "https://github.com/vladimiracunadev-create",
+    "gitlab": "https://gitlab.com/vladimir.acuna.dev-group"
+  },
+  "sections": [
+    "🎯你在這裡能找到什麼",
+    "✅可核實狀態",
+    "🗺️生態系統一一",
+    "📦具有實際分佈的產品",
+    "🧪工程實驗室",
+    "🤖應用AI",
+    "📚完成技術課程",
+    "🔬科學計算",
+    "⚡如果你有十分鐘的時間來評價我",
+    "🧠標準一應用到所有倉庫",
+    "✅專業範圍",
+    "🧭管理、行政和非編碼職業機會",
+    "🤖AI-輔助發展流動",
+    "📌可用性",
+    "📬聯絡人"
+  ],
+  "artifacts": {
+    "portfolio": "/assets/portafolio-traditional-chinese.pdf",
+    "resume": "/assets/hoja-de-vida-traditional-chinese.pdf",
+    "recruiter": "/assets/cv-reclutador-traditional-chinese.pdf",
+    "ats": "/assets/cv-ats-traditional-chinese.pdf",
+    "achievements": "/assets/declaracion-logros-validacion-traditional-chinese.pdf",
+    "recommendation": "/assets/carta-recomendacion_sin_firma-traditional-chinese.pdf",
+    "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-traditional-chinese.pdf"
+  }
+}

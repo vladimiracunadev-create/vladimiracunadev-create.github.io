@@ -1,0 +1,639 @@
+# SOURCE: assets/cv-reclutador-polish.pdf
+# DATE: 2026-10-16T10:41:53.145370
+
+Vladimir Acuña · 2026-10-16 · 1
+CV dla rekrutera
+Architekt rozwiązania·Senior Full- Stack·Transformacja cyfrowa·Zarządzanie i operacje
+- 🔁  Odtwarzalne demo- Klon, uciekaj, potwierdzaj. - 🧰  Znormalizowane oprzyrządowanie- Makefiles, Hub
+CLI,doctor, orazsmokew każdym repozytorium. - 🛡  Obrona w głębi- tajne skanowanie, polityka i wyraźnie
+zabronione praktyki. - 📈  Obserwacja — /health, /ready, /metrics, deski rozdzielcze i identyfikowalność. - 📚
+Dokumentacja dotycząca wiedzy o użytkownikach- rekruter, początkujący, DevOps lub bezpieczeństwo, w
+zależności od repozytorium. - 📦  Dystrybucja produktów- możliwość pobrania, sumy kontrolne i tworzenia
+dowodów; podpisy handlowe / sklepowe zadeklarowane jako oczekujące, w stosownych przypadkach. - 🌍
+Internacjonalizacja- portfolio w 22 językach (ES)·PL·PT·IT·FR·ZH). - 🧭  Szczerość techniczna- każda sprawa
+oznaczonaOPERATIONAL, DOCUMENTED/SCAFFOLDlubPLANNED.
+🎯 Co znajdziesz tutaj
+Nie jest to "jeden repo": jest to ekosystem o wspólnych standardach.
+🔁  Odtwarzalne demo- Klon, uciekaj, potwierdzaj.
+🧰  Znormalizowane oprzyrządowanie- Makefiles, Hub CLI,doctor, orazsmokew każdym repozytorium.
+🛡  Obrona w głębi- tajne skanowanie, polityka i wyraźnie zabronione praktyki.
+📈  Obserwacja — /health, /ready, /metrics, deski rozdzielcze i identyfikowalność.
+📚  Dokumentacja dotycząca wiedzy o użytkownikach- rekruter, początkujący, DevOps lub bezpieczeństwo, w
+zależności od repozytorium.
+📦  Dystrybucja produktów- możliwość pobrania, sumy kontrolne i tworzenia dowodów; podpisy handlowe /
+sklepowe zadeklarowane jako oczekujące, w stosownych przypadkach.
+🌍  Internacjonalizacja- portfolio w 22 językach (ES)·PL·PT·IT·FR·ZH).
+🧭  Szczerość techniczna- każda sprawa oznaczonaOPERATIONAL, DOCUMENTED/SCAFFOLDlubPLANNED.
+✅ Stan weryfikowalny
+Powierzchnia Betonowe dowody
+🧪  Zakres
+badania
+GabySQL828 badań+ rozmycie503,8M zapytania(0 paniki)·Empresa Operativa Chile158 badań ·Automa150
+pikseli ·wieloOS CI
+🤖  Czynniki klasy
+produkcyjnej
+LangGraph RealWorld25 / 25 operacyjnych oparć(sprawy 01- 25, 100%)·Operacyjne środki do zwalczania ptasiej
+grypy13z39 determinalistycznych wymienników
+🔗  Integracja
+poliglotów
+20 sprawnadawca → n8n → odbiornik -19 operacyjne, indywidualnie skontrolowane z Docker -· Silniki o mocy
+18 + DB · 20 + pojemniki ·11 wzorów
+📦  Dystrybucja 151 wydaleńw całym ekosystemie64 będące własnością repozytoriów publicznych ·instalatorzy i
+artefakty.exe · .msi · .dmg · .apkz sumami kontrolnymi i dowodami na budowę; w stosownych przypadkach w
+toku podpisów handlowych / sklepowych
+🛡  Łańcuch
+dostaw
+CodeQL·Semgrep·Bandyta·Trivy·Typ·Gitleaks·TruffleHog Przewodniczący·CycloneDX SBOM·Wyniki
+
+Vladimir Acuña · 2026-10-16 · 2
+Powierzchnia Betonowe dowody
+📚  Programy
+nauczania
+14 530 klasweryfikowalne w 21 programach, policzone przeza workflowze struktury repozytorium rzeczywistego
+lub źródła weryfikowalnego zadeklarowanego w repozytorium - nie napisane ręcznie -·Każdy program deklaruje
+swój status redakcyjny i ograniczenia
+🌐  Portfolio Instalowalne PWA· 22 języków · 154 PDFgenerowane przez rurociąg·API danych CV·Capacitor Android·Latarnia
+morska 100
+🔒  Telemetria Zero telemetrii w wyrobach kryminalistycznych i Empresa Operativa Chile - zweryfikowane w każdej budowie (nie
+AndroidINTERNET(pozwolenie)
+🌐  Published
+sites
+56 GitHub Pages sites —55 landings, one per product, program, or ecosystem navigator, plus the portfolio—
+each deployed from its own repository · all 56 verified with HTTP 200
+📦 Produkty z dystrybucją rzeczywistą
+Oprogramowanie, które jest pobierane, instalowane i używane - nie tylko sklonowane.
+Produkt Co to jest? Stack Dostawa
+🔍
+RootCause
+Windows
+Cyberbezpieczeństwa: każde
+anomalia może być pierwszym
+znakiem zagrożenia. Diagnos
+najpierw, interweniować później
+Rdza 🦀  ·ETW / WPR v0.19.0 · 16 uwolnień · 5 edycji:
+GUI·Przenośne·CLI·PowerShell·Kod VS· landing
+📱
+RootCause
+Mobile
+Mobilne rodzeństwo: czujnik
+sądowy, który porównuje każdą
+aplikację do siebie, flagi
+stalkerware i oddziela przyznane
+uprawnienia od tylko tych, o które
+się zwrócono
+Tłok·KotlinaCity in New Jersey
+USA·Swift
+v0.8.0 ·weryfikowalny Android APK·5 języków·
+zero telemetrii · landing
+🍎
+RootCause
+macOS
+wydanie makos:launchdtrwałość,
+Gatekeeper, SIP, FileVault,
+XProtect, TCC uprawnienia,
+podpisane procesy i sąsiedzi sieci
+- każda powierzchnia sprawdzona
+w stanie wiedzy
+Rdza 🦀  ·macOS 13 + v0.1.0 ·pierwsze opublikowane
+wydanie·Apache- 2, 0· landing
+🖥
+RootCause
+Server
+Sygnatura serwera: koreluje to, co
+żaden pojedynczy dziennik nie
+widzi razem - odsłonięta
+powierzchnia, pękanie prób
+dostępu, sesja przyznana temu
+samemu adresowi, krytyczna
+integralność plików i cisza czujnika
+- i zmienia ją w jedno zdalne
+zdanie
+Rdza 🦀  ·Okna·Linux·makos v0.2.0 · 18 zasadz dowodami i księgą
+biegacza·nigdy nie wykonuje działań
+samodzielnie·konsola lokalna bez zależności od
+sieci· nie opublikowano jeszcze wydania ·
+landing
+🌐
+RootCause
+Web
+Przeglądarka czujników: pliki
+cookie, sesje e-mail, rozszerzenia,
+pobieranie, uprawnienia i strony,
+które naśladują prawdziwe okno
+JavaScript·Rozszerzenie MV3 v0.2.0 ·nie opublikowano jeszcze wydania·panel
+na127.0.0.1 ·0 zależności·zero telemetrii
+zweryfikowane w CI· landing
+₿
+RootCause
+Bitcoin
+Defense
+Tylko Watch obrony Bitcoin
+przechowywania: inwentaryzuje
+pochodzenie każdego klucza,
+krzyżuje go z opublikowanych
+ostrzeżeń i wyjaśnia przyczyny z
+dowodami
+JavaScript·Aplikacja
+Windows·panel lokalny
+v0.3.0 · 2 wydania ·0 zależności·nigdy nie prosi
+o nasiona·zweryfikowane w CI· landing
+
+Vladimir Acuña · 2026-10-16 · 3
+Produkt Co to jest? Stack Dostawa
+⛓
+RootCause
+Blockchain
+Security
+Konsola wielołańcuchowa - tylko:
+umowy na zapasy, proxy,
+wyrocznie, mosty, zarządzanie i
+zależności, i generuje książki
+startowe z przyczyn root-
+JavaScript·Aplikacja
+Windows·panel lokalny
+v0.3.0w repozytorium·opublikowane
+wydanie:v0.1.0 ·0 zależności·nigdy nie prosi o
+prywatne klucze·zweryfikowane w CI· landing
+📷
+RootCause
+QR
+Inspector
+Lokalna aplikacja Android do
+sprawdzania kodów QR przed
+działaniem: wyjaśnia 26 sygnałów,
+oddziela fakty od hipotez, i
+eksport zredagowane dowody
+Tłok·Dart v0.1.4 · 5 uwolnień · 107 testów ·opublikowany
+Android APK·weryfikowalny SHA- 256·podpisy
+techniczne pakietu APK; podpisów handlowych /
+sklepowych w toku·zero telemetrii· landing
+🏢
+Empresa
+Operativa
+Chile
+Przewodnik SpA przed
+włączeniem do każdego
+miesięcznego zamknięcia:
+włączenie z dowodami, VAT
+carryforward, F29 projekt,
+niezmienne zamknięcia, i dziennik
+audytu. Każda zasada wskazuje na
+oficjalne źródło
+JavaScript·Rdza·PWA v1.5.0 ·Android·Okna·przeglądarka· 158 badań ·
+0 zależności produkcji ·zero telemetrii· landing
+🔍
+Universal
+Code
+Scanner
+Czytnik QR i kodów kreskowych,
+żeinterpretuje przed podjęciem
+działania: 16 lokalnych sygnałów
+ryzyka URL i potwierdzenie
+Tłok·Dart v1.1.0 ·Android·iOS·makos·PWA·Zaszyfrowana
+historiaAES- 256- GCM · landing
+🗄
+GabySQL
+Baza danych wbudowanych:
+pojedyncza.dbplik, ENENCJA,
+optymalizator oparty na kosztach,
+HTTP / JSON API
+Rdza 🦀 Okna·makos·Linux· landing
+🤖  Automa
+PC
+Lokalny orchestrator: JSON
+przepływa, które otwierają
+prawdziwe okna, interakcji z DOM,
+i zostawić dowody
+Python·Playwright·pywebview v0.3.0 · 27 przepływów ·publikowany i
+weryfikowalny instalator· landing
+🏭  AI
+Dataset
+Foundry
+Lokalna fabryka, która
+przekształca PDF, Word, web, Git,
+JSON i CSV w weryfikowalne
+zbiory danych do wstępnego
+szkolenia, dostrajania, RAG i oceny
+Python v0.2.0 ·Windows + offline Android·pierwsze
+opublikowane wydanie· landing
+☁  AWS
+Desktop
+Studio
+Local- first app z 15 AWS invent
+integrations, 20 tutorials, CLI /
+SSO, i tylko read- defaults;
+implementacja w toku, nie
+uniwersalny dostęp
+JavaScript·Okna v0.1.1 ·pierwsze opublikowane wydanie· landing
+🧭
+Commerce
+OS
+Demo koncepcyjne z
+przewodnikiem operacji
+handlowych: katalog, magazyn,
+CRM, zamówienia, makiety
+płatności i identyfikowalność
+JavaScript·Web·Okna·Android v0.3.0 · 2 wydania ·brak realnych pieniędzy lub
+chilijski organ podatkowy integracji· landing
+📄  PDF
+Reader
+Android- pierwszy lokalny czytnik
+tylko do odczytu, z nie-
+powiększeniem ziarna, ponownie
+włączyć historię, Udostępnianie
+WhatsApp i wybór default-
+readera
+HTML·Web·Android·Okna v0.3.3 ·Podpisane APK·Brak kont, wrażliwe
+uprawnienia lub telemetria· landing
+🎙  Video
+Transcript
+Jeden film, lista odtwarzania,
+lubcały kanał YouTubedo
+Python·PySide6·FastaPI·szept v0.2.0 ·Desktop systemu Windows + panel
+lokalny na127.0.0.1+ CLI,dzielenie się tą samą
+
+Vladimir Acuña · 2026-10-16 · 4
+Produkt Co to jest? Stack Dostawa
+Studio wysyłania wiadomości z
+znacznikami czasu. Nie polega na
+istniejących napisach: Whisper
+rozpoznaje dźwiękna twojej
+maszynie, bez API, konta lub
+klucza do konfiguracji
+kolejką ·MD·PDF·TXT·SRT·VTT·JSON·MP3·OGG·
+89 badań ·w połączeniu z FFmpeg·zero
+telemetrii· landing
+🎨  ChofyAI
+Studio
+Lokalny twórczy wyrzutnia AI:
+organizuje Qwen3-TTS,
+whisper.cpp, FaceFusion, AceForge
+i ComfyUI
+Tauri 2·Rdza·Reakcja v0.5.1· 5 / 5 narzędzi z prawdziwym
+wnioskiem ·Krzemionka do
+Apple·eksperymentalne okna· nie
+opublikowano jeszcze wydania · site
+🦏  Rhino
+Suite
+Apartament biurowy od podstaw:
+zasady dokumentu nie zależą od
+DOM - HTML jest tylko projekcją
+Rdza / WASM·Idź.·Reakcja 19 Monorepo ewolucyjne według faz· landing
+🎻  My
+Violin
+Adventure
+Aplikacja edukacyjna dla dzieci:
+tuner chromatyczny, metronom
+precyzyjny audio- zegara, piosenki
+z prawdziwymi skrzypcami
+Tauri 2·Reakcja·TS v1.3.0 ·Okna·Android·Linux·makos·PWA· landing
+🎸  My
+Guitar
+Adventure
+Sygnatura strun plucked-: 24
+lekcje w 6 światach, 6- tuner strun,
+bezdryfujący metronom i 11
+prawdziwych nut gitarowych
+Tauri 2·Reakcja·TS v1.0.0 ·Okna·Android·Linux·makos·iOS·PWA·brak
+kont, reklam lub zależności online· landing
+🧣  Pañuelo
+al Viento
+Cueca od 10 roku życia: 24 klasy w
+8 poziomach, 72 aktywności,
+laboratorium 6-pulsacyjne (3 + 3 i
+2 + 2 + 2), i dostępne schematy
+podłogi. Pisze, żeuzupełnia, nie
+zastępuje, nauczycieli i nosicieli
+kultury
+Tłok·Dart v0.2.0 ·Android 7 +·Windows 10 /
+11·APK·EXE·MSI·przenośne· 29 testów + 2
+walidatory ·brak kamery, mikrofonu, konta,
+reklam lub internetu· landing
+📚 Kompletne programy nauczania technicznego
+Sekwencyjne programy w języku hiszpańskim, ze statusem i zakresem deklarowanym przez każde repozytorium. 21
+programów dodaje się do14 530 klas, policzonea workflowz rzeczywistej struktury repozytorium lub źródła
+weryfikowalnego zadeklarowanego w repozytorium; odznaka odświeża raz w tygodniu i nie jest zapisywana ręcznie.
+🧭  Lifelong Learning Ecosystemjest federacyjnym kompasem łączącym 30 prawdziwych ścieżek przez 6 obszarów
+poprzez mapy wizualne iaccessible offline portal; nie jest on liczony jako dodatkowy program.
+Program Klasy Zakres
+🔢  Computational
+Mathematics
+360 Od liczenia na palcach do reprodukcji papieru· 360 demonstracje deterministyczne zweryfikowane w
+CI ·1,080 notesów·489- termin glosariusz· site
+🏦  Finance and
+Banking
+356 534 h·matematyka finansowa i MSSF → kredyty, ryzyko, Bazylea III, otwarte finanse, DLT, stablecoins, i
+MiCA· 27 spraw · 298 testów · site
+🎮  GameDev 352 Matematyka i C # / C + + / GDSscript → cieniarki, AI, multiplayer, VR / AR·GodotCity in Ontario
+Canada·Jedność·Nierealne· 10 laboratoriów Godota zweryfikowanych w CI(301 kontroli)· site
+🛡  Cybersecurity 360 v1.3.0 ·20 części·fundacje → Red Team, DFIR, bezpieczeństwo w chmurze, wykorzystać dev, CTF, i
+bezpieczeństwa gry·mapined to7 certyfikatów ·offline Android / aplikacja web·Podręcznik PDF·CI,
+Bezpieczeństwo i Strony zweryfikowane· site
+
+Vladimir Acuña · 2026-10-16 · 5
+Program Klasy Zakres
+📈  Marketing,
+Sales, and Growth
+336 24 części z definicjami operacyjnymi, arkuszami pomiarowymi, weryfikowalną bibliografią oraz chilijskim
+kontekstem regulacyjnym· v1.6.0 ·1. 29M słowa·17 ścieżek role-· site
+🏢  Business
+Creation
+336 Tworzenie i prowadzenie prawdziwej firmy w Chile: od idei do włączenia, organu podatkowego, operacji,
+kryzysu i wyjścia·360 schematów·Glosariusz o terminie 1,251@@·Podręcznik na stronie 1,548-
+stronicaName· site
+🏛  Architecture
+and Built
+Environment
+830 83 części·60 sesji integracyjnych·34 ścieżki·źródła identyfikowalne·Markdown, czytnik offline i strony
+GitHub· site
+🇨🇱  Chilean School
+Learning Path
+8,841 Stopnie 1- 12· 4.156 zintegrowane doświadczenia międzyprogramowe · 2,823 Cele edukacyjne
+·Źródła MINEDUC·brak oczekujących propozycji i specjalistyczny przegląd człowieka nadal w toku· site
+🧭  Modern
+Software
+Engineering
+480 40 części i 8 etapów·fundacje → produkty, architektura, bezpieczeństwo, DevOps, SRE, SPEC, AI i
+systemy wieloagencyjne·status redakcyjny zadeklarowany przez repozytorium· site
+🎓  Pedagogy and
+Learning Sciences
+300 Od tego, jak człowiek uczy się, jak nauczyciele są szkoleni·25 części· każda klasa deklaruje stan i
+granice dowodów ·wczesna umiejętność czytania i pisania, metody porównawcze, szczególne potrzeby
+edukacyjne, współistnienie, różnorodność kulturowa i dowody międzynarodowe·Słownik 1097- term,
+325 diagramów i 60-aktywny bank klasy·14 ścieżek kariery według ról·LMS- exportable· v2.1.0 · site
+☁  Multi-Cloud 288 AWS·Azure·GCP·Kubernety·Terraform·SRE·Finansowe· 1 288 godzin ·288 laboratoriów z dowodami
+JSON·1,032 źródła śledzone·2,884- strona PDF instrukcja· site
+🎖  Executive
+Leadership
+288 Od posiadania pierwszego wyniku do prowadzenia firmy i zakładania własnych: zespołów, KPI / OKR,
+finansów, produktów, ryzyka, zarządu i M & A·24 przypadki, 96 laboratoriów i 39 szablonów· site
+🐍  Python Data
+Science
+232 Polary, ML + Optuna / SHAP, PyTorch / LLMs / LRA, MLOps·natywna aplikacja Windows + Android APK·
+site
+🧠  AI Evolution 184 Symboliczne → probabilistic → głębokie uczenie → LLM, RAG, agentów, bezpieczeństwa i granic·
+v0.17.0 · 708 notebooków · 148 dokumentów założycielskich ·offline aplikacje Windows, Android i
+PWA· site
+🌐  Comparative
+Programming
+176 Jedna koncepcja,10 językówzweryfikowane w CI -1,360 implementacje- plus1,632 programóww
+językach żyjący w stanie spoczynku (COBOL, Fortran, Ada, RPG, MUMPS...) i atlas60 kart w 15
+rodzinach ·v1.1.0· site
+🧩  Frameworks
+Compared
+149 Jeden kontrakt wykonywalny, bez adapterów, przeciwko Express, FastaPI, Spring Boot, ASP.NET, Django,
+Rails, Laravel, React, Vue, Svelte i więcej·12 części· 70 klas zbudowanych · 397 spraw
+zweryfikowanych w CI · 210 ISBN / DOI sources · site
+🗄  Databases 74 v3.0.0 ·inżynieria bazy danych w 15 częściach·230 godzin· weryfikowalne źródło dla każdego
+roszczenia: 120 źródeł z ISBN, DOI, lub standard·ta sama sprawa rozwiązana w 27 silnikach·Słownik 306-
+termin·150 pikseli· site
+📐  Psychometrics
+and Assessment
+40 W jaki sposób instrument pomiarowy jest budowany, oceniany, zatwierdzany i poddawany audytowi·8
+części·z silnikiem wykonywalnym5 instrumentów i 344 pozycji, 276 domen publicznych
+⛓  Blockchain 66 v0.14.0 ·od 0 do programowalnej infrastruktury finansowej i analizy na łańcuchu· 91 praktykoraz363
+badania ·kontrakty z Foundry (fuzing i niezmienni) i Slither static analysis in CI·aplikacje offline
+zweryfikowane przez otwarcie binarnego i liczenie jego zawartości· site
+🧠  Neural
+Network Training
+Labs
+31 7 modułów·214 godzin· 93 notebooki- 31 klas, 31 wersji studenckich i 31 rozwiązań -·pytania, mapy
+wizualne, praktyki i ocena z prawdziwymi danymi publicznymi·PyTorchCity in Germany· study site
+🕹  Machine
+Operator
+451 41 modułów szkoleniowych, jeden na maszynę· 502 h 15 min ·systemy, sterowanie, fizyka,
+bezpieczeństwo i projektowanie symulacji ze źródłami na klasę·* nie ma jeszcze symulatora
+wykonywalnego, i jest to zadeklarowane w ten sposób *
+
+Vladimir Acuña · 2026-10-16 · 6
+✅ Zakres działalności
+Moje podwójne tło...Informatyka i informatyka + Administracja Biznesu- pomaga mi przełożyć cele biznesowe na
+decyzje techniczne i ograniczenia techniczne na jasne opcje dla operacji, produktów, klientów i przywództwa.
+🎯 Tożsamość podstawowa
+Rola Backing
+Architekt rozwiązania Modułowa, skalowalna konstrukcja systemu z oceną ewolucyjną
+Architekt modernizacji dziedzictwa Prawdziwa ewolucja spuścizny (PHP 5.x → 8.x, przyrostowe przeróbki bez przerywania operacji)
+Senior Full- Stack / Tech Lead Architektura, wykonanie i standardy na platformach rzeczywistych (+ 16 lat)
+Architekt automatyzacji AI Systemy agentalne z LangGraph / MCP i n8n przepływają z poręczami
+↗  Naturalne rozszerzenie
+Inżynier orkiestracji AI · Systemy / Inżynier Rust · Inżynier mobilny (Flutter) · Inżynier rozwiązań · Techniczny
+budowniczy produktów · Trener techniczny · Cyfrowy konsultant transformacji · Business / Functional Analyst ·
+Operacje techniczne dotyczące produktu
+⚙ Zakres uzupełniający
+Inżynier platformy / IDP·Devops / CI- CD·Inżynier chmur / AWS·Program SRE·Inżynier automatyki·Konsultant handlowy
+🧭 Zarządzanie, Administracja i niekodujące szanse na karierę
+Zakres ten nie stanowi, że każdy tytuł został zachowany. Priorytetem jest praca, w której połączenie komputerów,
+administracji przedsiębiorstw i dowodów publicznych może tworzyć wartość bez kodowania jako podstawowego
+obowiązku.
+Rodzina zawodowa Uznane role Uczciwa
+klasyfikacja
+Kodowanie Dowody i stan
+Liderem
+technologicznym
+Szef IT·Kierownik ds. operacji
+IT·Kierownik transformacji cyfrowej·CIO
+Potencjał
+zastosowania /
+cel na przyszłość
+Brak /
+sporadycznie
+Silne podstawy techniczne;
+ludzie, budżet, sprzedawca i
+odpowiedzialność
+wykonawczą muszą być
+udowodnione oddzielnie
+Zarządzanie
+projektami
+Koordynator projektu IT /
+menedżer·PMO·Mistrz Scrum·Dostawa
+zwinnych
+Potencjał
+nadający się do
+przenoszenia /
+zastosowania
+Brak /
+sporadycznie
+Dowody dostawy i wydania;
+formalny zespół, budżet i
+odpowiedzialność sponsora
+pozostaje luką
+Administracja
+biznesowa
+Administrator biznesu·Administracja /
+Kierownik Operacyjny·Administrator
+umowy
+Potencjalny
+potencjał
+zastosowania
+Brak Stopień działalności i
+artefakty operacyjne;
+wymaga zweryfikowanej
+własności zasobów, ludzi i
+dostawców
+Strategia i zmiany Konsultant Strategii·Zmień
+menedżera·Planowanie
+korporacyjne·Innowacje / transformacja
+Potencjał
+nadający się do
+przenoszenia /
+zastosowania
+Brak Modernizacja i ocena
+rozwiązań w zakresie
+legacji; należy wykazać
+wyniki organizacyjne
+adopcji
+
+Vladimir Acuña · 2026-10-16 · 7
+Rodzina zawodowa Uznane role Uczciwa
+klasyfikacja
+Kodowanie Dowody i stan
+Analiza biznesowa Analityk biznesu·Analityk funkcjonalny
+/ wymagania·BPM·Ciągłe doskonalenie
+Potencjał
+nadający się do
+przenoszenia /
+zastosowania
+Brak /
+sporadycznie
+Modeling domeny i wymogi
+dowody; zewnętrzne
+sprawy zainteresowanych
+stron wzmocniłyby wniosek
+Produkt i usługi Właściciel produktu /
+menedżer·Operacje produktu·Dostawa
+usług·Sukces klienta
+Potencjał
+nadający się do
+przenoszenia /
+zastosowania
+Brak /
+sporadycznie
+Mapy drogowe, cykl życia,
+wydania i operacje; P & L,
+portfolio klientów i dowody
+SLA różnią się w zależności
+od roli
+Zarządzanie
+bezpieczeństwem
+cybernetycznym
+GRC·Audytor kontroli IT·Ryzyko
+technologiczne·Bezpieczeństwo
+informacji / Ciągłość
+Potencjalny
+potencjał
+zastosowania
+Brak /
+sporadycznie
+Kontrole i dowody
+RootCause; audyty
+organizacyjne i
+odpowiednie kwalifikacje są
+w toku
+Sprzedaż i sprzedaż Pregales Technology·Konsultant ds.
+rozwiązań·KAM techniczny·B2B Rozwój
+działalności gospodarczej
+Potencjał
+nadający się do
+przenoszenia /
+zastosowania
+Brak Silny sposób
+przetłumaczenia / wartość;
+kwoty, portfolio rachunków
+i negocjacje umowne nie są
+zgłaszane
+Kontrola finansów i
+zarządzania
+Budżet / Analityk kosztów·Ocena
+projektu·FP & A·Kontrola zarządzania
+Potencjalny
+potencjał
+zastosowania
+Brak Artefakty finansowe /
+finansowe; potrzebne są
+prawdziwe budżety,
+sprawozdania finansowe i
+korporacyjne KPI
+Jakość Proces / Analizator jakości·Audytor
+procesu·Ciągłe doskonalenie
+Potencjał
+nadający się do
+przenoszenia /
+zastosowania
+Brak /
+sporadycznie
+Bramy, testy, wskaźniki i
+odtwarzalność; posiadanie
+formalnego systemu jakości
+pozostaje luką
+Edukacja Trener
+techniczny·Ułatwiacz·Koordynator
+akademicki·EdTech / Projektant
+Instrukcji
+Potencjał
+nadający się do
+przenoszenia /
+zastosowania
+Brak /
+sporadycznie
+21 programów i 14,530 klas;
+oficjalne wyniki nauczania i
+uczenia się muszą być
+udokumentowane
+oddzielnie
+Logistyka i dostawcy Zamówienia publiczne·Koordynator ds.
+dostaw / operacji·Kierownik /
+zleceniodawca
+Potencjalny
+potencjał
+zastosowania
+Brak Podstawy procesu i
+administracji; potrzebne są
+rzeczywiste zamówienia,
+inwentaryzacja i wydajność
+dostawcy
+Zarządzanie danymi i
+ptasimi zwierzętami i
+ptasimi zwierzętami
+Data Steward·Zarządzanie
+danymi·Przyjęcie / zarządzanie PWI
+Potencjał
+nadający się do
+przenoszenia /
+zastosowania
+Brak /
+sporadycznie
+Zestawy danych
+audytowych i agenci
+zajmujący się ochroną
+przed ludźmi; polityka
+organizacyjna i komitety
+nadal pozostają luką
+Sektor publiczny Modernizacja
+instytucjonalna·Koordynator
+TIK·Projekty cyfrowe·Planowanie
+publiczne
+Potencjalny
+potencjał
+zastosowania
+Brak Systemy kontekstowe i
+identyfikowalność; nie
+wnioskuje się o zamówienia
+publiczne i doświadczenie
+sektorowe
+Wfull Spanish role matrixszczegółowe cele, obowiązki, doświadczenie rynkowe, uzupełniająca wiedza, dowody, zgodność i
+luki we wszystkich 14 rodzinach.
+
+Vladimir Acuña · 2026-10-16 · 8
+📌 Dostępność
+Otwórz na:Senior Full- Stack·Architektura·Modernizacja dziedzictwa·Platforma / IDP·Program SRE·devops
+pragmatic·Automatyzacja·Automatyzacja AI·analiza biznesowa / funkcjonalna·Koordynacja projektów
+informatycznych·Operacje produktu·transformacja cyfrowa·rozwiązania konsultingowe / presales·kształcenie
+techniczne·jakość i ciągłe doskonalenie·Przyjęcie i zarządzanie ptasią grypą
+Oceniany w zależności od zakresu każdej roli:Właściciel produktu / techniczny menedżer produktu·Dostawa
+usług·Operacje informatyczne·Ryzyko związane z technologią·administracja i operacje·kontrola zarządzania·modernizacja
+sektora publicznego. Tytuły wykonawcze i ogólne zarządzania są przyszłymi celami rozwoju, a nie deklarowane
+doświadczenie.
+Moduł:zdalne lub hybrydowe, w zależności od projektu.
+This localized edition is derived from the corresponding complete public GitHub profile translation. Historical recommendation and
+institutional records remain linked to their source editions.
+https://vladimiracunadev-create.github.io/i18n/pl/

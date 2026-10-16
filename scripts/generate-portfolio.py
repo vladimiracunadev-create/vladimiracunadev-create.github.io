@@ -216,6 +216,8 @@ def _refresh_project_descriptions(projects):
     }
     refreshed = []
     for item in projects:
+        if item.startswith("<b>Software Engineering Learning Suite"):
+            continue
         updated = item
         for label, repo in PROJECT_DESCRIPTION_REPOS.items():
             if item.startswith(f"<b>{label}") and repo in descriptions:

@@ -1,0 +1,472 @@
+# SOURCE: assets/cv-reclutador-dutch.pdf
+# DATE: 2026-10-16T10:41:53.145370
+
+Vladimir Acuña · 2026-10-16 · 1
+Cv voor recruiters
+Oplossingsarchitect·Senior Full-Stack·Digitale transformatie·Beheer en operaties
+- 🔁  Demo's die herproduceerbaar zijnKloon, rennen, valideren. - 🧰  Gestandaardiseerde gereedschappendoctor, ensmokeper repository. - 🛡
+Defense in de diepte. . geheime scanning, beleid, en expliciet verboden praktijken. - 📈  Waarneming — /health, /ready, /metrics, dashboards,
+en traceerbaarheid. - 📚  Documentatie van het publiek - 📦  Productdistributie - 🌍  Internationalisering. Portfolio in 22 talen
+(ES·NL·PT·IT·FR·ZH). - 🧭  Technische eerlijkheidOPERATIONAL, DOCUMENTED/SCAFFOLD, ofPLANNED.
+🎯 Wat je hier zult vinden
+Dit is geen repo: het is een ecosysteem met gedeelde standaarden.
+🔁  Demo's die herproduceerbaar zijnKloon, rennen, valideren.🧰  Gestandaardiseerde gereedschappendoctor, ensmokeper repository.
+🛡  Defense in de diepte. . geheime scanning, beleid, en expliciet verboden praktijken.
+📈  Waarneming — /health, /ready, /metrics, dashboards, en traceerbaarheid.
+📚  Documentatie van het publiek
+📦  Productdistributie
+🌍  Internationalisering. Portfolio in 22 talen (ES·NL·PT·IT·FR·ZH).
+🧭  Technische eerlijkheidOPERATIONAL, DOCUMENTED/SCAFFOLD, ofPLANNED.
+✅ Verifieerbare status
+Oppervlakte Concrete bewijzen
+🧪  Testdekking GabySQL828 tests+ fuzzing over503.8M queries(0 paniek)·Empresa Operativa Chili158 tests ·Automatisch150 pytest ·multi-OS CI
+🤖  Productie-
+kwaliteitsagenten
+LangGraph RealWorld25/25 operationele backends(gevallen 01·Operationele AI-agenten13 agentiamet39 deterministische evaluaties
+🔗  Integratie van
+polygloten
+20 zakenafzender→n8n→ ontvanger 19 operationeel, individueel gecontroleerd met Docker· 18+ DB motoren · 20+ containers ·11
+patronen
+📦  Distributie 151 releasesover een ecosysteem van64 openbare registers in eigendom ·installateurs en artefacten.exe · .msi · .dmg · .apkmet
+controlesom en bouwbewijs; commerciële/store-handtekeningen, indien van toepassing
+🛡  Leveringsketen CodeQL·Semgrep·Bandiet·Trivy·GrypeCity in New Jersey USA·Gitleaks·Truffelhog·CycloneDX SBOM·Scorecard
+📚  Curricula 14,530 klassencontroleerbare in 21 programma's, geteld doora workflowvan een echte repositorystructuur of een verifieerbare bron die in
+het repository is opgegeven .·elk programma verklaart zijn redactionele status en beperkingen
+🌐  Portefeuille Installeerbare PWA· 22 talen · 154 PDF'sdoor pijpleiding gegenereerd·CV Data API·Android-condensator·Vuurtoren 100
+🔒  Telemetrie Zero telemetrie in forensische producten en Empresa Operativa Chili INTERNETtoestemming)
+🌐  Gepubliceerde sites 56 GitHub Pagina's sites·alle 56 geverifieerd met HTTP200
+📦 Producten met echte distributie
+Software die wordt gedownload, geïnstalleerd en gebruikt ..niet alleen gekloond.
+Product Wat het is. Stack Levering
+🔍
+RootCause
+Windows
+Cybersecurity forensics: elke abnormale resource
+vervorming kan het eerste teken van een
+bedreiging zijn. Diagnose eerst, later ingrijpen
+Roest 🦀  ·ETW/WPR v0,19,0 · 16 releases · 5 edities:
+GUI·Draagbaar·CLI·PowerShell·VS-code· landing
+📱
+RootCause
+Mobile
+De mobiele broer en zus: een forensische sensor
+die elke app met zichzelf vergelijkt, vlaggen
+stalkerware, en onderscheidt verleend
+toestemmingen van slechts gevraagde
+Flutter·Kotlin·Snel v0,8.0 ·verifieerbare Android APK·5 talen· nul telemetrie ·
+landing
+
+Vladimir Acuña · 2026-10-16 · 2
+Product Wat het is. Stack Levering
+🍎
+RootCause
+macOS
+macOS-editie:launchdpersistentie, Gatekeeper,
+SIP, FileVault, XProtect, TCC machtigingen,
+ondertekende processen, en netwerk buren .. elk
+oppervlak gecontroleerd tegen een bekende-
+goede staat
+Roest 🦀  ·macOS 13+ v0,1.0 ·eerste uitgave·Apache-2.0· landing
+🖥
+RootCause
+Server
+De server broers: correleert wat geen enkel log
+ziet samen .. blootgesteld oppervlak, toegang-
+verlichte barsten, een sessie toegekend aan
+datzelfde adres, kritieke bestand integriteit, en
+sensor stilte .. en verandert het in een actieerbare
+zin
+Roest 🦀  ·Vensters·Linux·macOS v0.2.0 · 18 regelsmet bewijs en runbook·voert nooit acties uit
+op zichzelf·lokale console zonder web afhankelijkheden· nog
+geen publicatie · landing
+🌐
+RootCause
+Web
+Forensische sensor van de browser: cookies, e-
+mailsessies, extensies, downloads, machtigingen
+en pagina's die een echt venster imiteren
+JavaScript·MV3-uitbreiding v0.2.0 ·nog geen publicatie·paneel aan127.0.0.1 ·nul
+afhankelijkheden·nul telemetrie geverifieerd in CI· landing
+₿ RootCause
+Bitcoin
+Defense
+Watch-only verdediging voor Bitcoin bewaring:
+inventariseert de oorsprong van elke sleutel,
+kruis-checkt het met gepubliceerde
+waarschuwingen, en verklaart worteloorzaak met
+bewijs
+JavaScript·Windows-app·lokaal
+paneel
+v0.3.0 · 2 releases ·nul afhankelijkheden·nooit om zaden
+vraagt·geverifieerd in CI· landing
+⛓
+RootCause
+Blockchain
+Security
+Multi-keten horloge-alleen console:
+inventarissen contracten, proxies, orakels,
+bruggen, governance, en afhankelijkheden, en
+genereert root-cause runbooks
+JavaScript·Windows-app·lokaal
+paneel
+v0.3.0in het archief·Uitgegeven:v0.1.0 ·nul
+afhankelijkheden·vraagt nooit om privésleutels·geverifieerd in
+CI· landing
+📷
+RootCause
+QR Inspector
+Lokale Android-app voor het inspecteren van QR
+codes voordat u gaat handelen: legt 26 signalen
+uit, scheidt feiten van hypothesen, en exporteert
+geredigeerd bewijsmateriaal
+Flutter·Dart v0.1.4 · 5 releases · 107 tests ·gepubliceerd Android
+APK·Verifieerbare SHA-256·technische handtekening van het
+APK-pakket; commerciële/store-ondertekeningen in
+uitvoering·nul telemetrie· landing
+🏢  Empresa
+Operativa
+Chile
+Geeft een SpA van vóór de oprichting aan elke
+maandelijkse sluiting: verwerking met
+bewijsmateriaal, BTW-overschrijving, F29-
+ontwerp, onveranderlijk sluiten en auditlogboek.
+Elke regel wijst naar de officiële bron
+JavaScript·Roest·PWA v1.5.0 ·Android·Vensters·browser· 158 tests · 0
+productieafhankelijkheden ·nul telemetrie· landing
+🔍  Universal
+Code
+Scanner
+QR en barcode lezer datinterpreteert voordat u
+handelt: 16 lokale URL-risicosignalen en
+expliciete bevestiging
+Flutter·Dart v11,0 ·Android·iOS·macOS·PWA·versleutelde
+geschiedenisAES-256-GCM · landing
+🗄  GabySQL Ingebedde database: single.dbbestand, WAL,
+kostengebaseerde optimalisatie, HTTP/JSON API
+Roest 🦀 Vensters·macOS·Linux· landing
+🤖  Automa
+PC
+Lokale orkestmeester: JSON stroomt door echte
+ramen, interageert met de DOM en laat bewijs
+achter
+Python·Playwright·pywebview v0.3.0 · 27 stromen ·gepubliceerd en controleerbare
+installateur· landing
+🏭  AI
+Dataset
+Foundry
+Lokale-eerste fabriek die PDF, Word, web, Git,
+JSON en CSV verandert in auditeerbare datasets
+voor vooropleiding, fine-tuning, RAG en
+evaluatie
+Python v0.2.0 ·Windows + offline Android·eerste uitgave· landing
+☁  AWS
+Desktop
+Studio
+Lokale-eerste app met 15 AWS inventaris
+integraties, 20 tutorials, CLI/SSO, en alleen-lezen
+standaards; implementatie in uitvoering, niet
+universele toegang
+JavaScript·Vensters v0.1.1 ·eerste uitgave· landing
+🧭
+Commerce
+OS
+Begeleid conceptuele demo van commerciële
+operaties: catalogus, voorraad, CRM,
+bestellingen, spotbetalingen en traceerbaarheid
+JavaScript·Web·Vensters·Android v0.3.0 · 2 releases ·geen echt geld of Chileense
+belastingautoriteit integratie· landing
+📄  PDF
+Reader
+Android-eerste lokale alleen-lezen lezer, met no-
+crop zoom, heropenbare geschiedenis,
+WhatsApp delen, en standaard-lezer selectie
+HTML·Web·Android·Vensters v0.3.3 ·ondertekend APK·geen rekeningen, gevoelige
+machtigingen of telemetrie· landing
+🎙  Video
+Transcript
+Studio
+Eén video, afspeellijst, ofgehele YouTube-
+kanaaltekst met tijdstempels. Het is niet
+afhankelijk van bestaande ondertitels: Whisper
+herkent audioop uw machine, zonder API,
+account of sleutel om te configureren
+Python·PySide6·FastAPI·sneller
+fluisteren
+v0.2.0 ·Windows-bureaublad + lokaal paneel op127.0.0.1+
+CLI,dezelfde wachtrij delen
+·MD·PDF·TXT·SRT·VTT·JSON·MP3·OGG· 89 tests ·gebundelde
+FFmpeg·nul telemetrie· landing
+🎨  ChofyAI
+Studio
+Lokale creatieve AI-lanceerder: orkesten Qwen3-
+TTS, whisper.cpp, FaceFusion, AceForge en
+ComfyUI
+Tauri 2·Roest·Reageren v05.1· 5/5 gereedschappen met echte gevolgtrekkingen
+·macOS Apple Silicium·experimentele vensters· nog geen
+publicatie · site
+
+Vladimir Acuña · 2026-10-16 · 3
+Product Wat het is. Stack Levering
+🦏  Rhino
+Suite
+Kantooruite vanaf nul: documentregels hangen
+niet af van de DOM . HTML is slechts een
+projectie
+Rust/WASM·Ga.·Reageer 19 Evolutionaire monorepo naar fasen· landing
+🎻  My Violin
+Adventure
+Educatieve app voor kinderen: chromatische
+tuner, audio-klok-accurate metronoom, liedjes
+met echte viool
+Tauri 2·Reageren·TS v1.3.0 ·Vensters·Android·Linux·macOS·PWA· landing
+🎸  My
+Guitar
+Adventure
+De geplukte snaar broers en zussen: 24 lessen in
+6 werelden, 6-snarige tuner, drift-free
+metronoom, en 11 echte gitaarnoten
+Tauri 2·Reageren·TS v1.0.0 ·Vensters·Android·Linux·macOS·iOS·PWA·geen
+accounts, advertenties of online afhankelijkheid· landing
+🧣  Pañuelo
+al Viento
+Cueca vanaf 10 jaar: 24 klassen in 8 niveaus, 72
+activiteiten, zes-puls lab (3+3 en 2+2+2), en
+toegankelijke vloerdiagrammen. Het stelt dat
+hetaanvullingen, niet vervangen, leerkrachten
+en cultuurdragers
+Flutter·Dart v0.2.0 ·Android 7+·Windows 10/11·APK·EXE·MSI·draagbaar·
+29 tests + 2 validatoren ·geen camera, microfoon, account,
+advertenties of internet· landing
+📚 Complete technische Curricula
+Sequentiële programma's in het Spaans, met status en toepassingsgebied die door elke repository worden opgegeven. De 21 programma's tellen
+samen tot14,530 klassen, geteld doora workflowvan een echte repository structuur of een verifieerbare bron die in de repository is opgegeven; de
+badge ververst wekelijks en wordt niet met de hand geschreven.
+🧭  Lifelong Learning Ecosystemis een gefedereerd kompas dat 30 echte paden over 6 gebieden verbindt via visuele kaarten en eenaccessible offline
+portal; het wordt niet als een aanvullend programma gerekend.
+Programma Klassen Toepassingsgebied
+🔢  Computational
+Mathematics
+360 Van het tellen op vingers tot het reproduceren van een papier· 360 deterministische demonstraties geverifieerd in CI ·1.080
+notebooks·489-term glossarium· site
+🏦  Finance and
+Banking
+356 534 uur·financiële wiskunde en IFRS → krediet, risico, Basel III, open finance, DLT, stallcoins en MiCA· 27 zaken · 298 tests · site
+🎮  GameDev 352 Wiskunde en C#/C++/GDScript → shaders, AI, multiplayer, VR/AR·Godot·Eenheid·Onwerkelijk· 10 Godot labs geverifieerd in
+CI(301)· site
+🛡  Cybersecurity 360 v1.3.0 ·20 delen·foundations → Rood team, DFIR, cloud security, exploit dev, CTF, en spelbeveiliging·in kaart gebracht7
+certificeringen ·offline Android/web-app·PDF handleiding·CI, Security en Pagina's geverifieerd· site
+📈  Marketing, Sales,
+and Growth
+336 24 delen met operationele definities, meetbladen, controleerbare bibliografie en Chileense regelgeving· v1.6.0 ·1.29M woorden·17
+op rollen gebaseerde paden· site
+🏢  Business
+Creation
+336 Een echt bedrijf in Chili oprichten en exploiteren: van idee tot integratie, belastingautoriteit, operaties, crisis en exit·360
+diagrammen·1.251-term glossarium·1 548 pagina's handleiding· site
+🏛  Architecture and
+Built Environment
+830 83 delen·60 integratieve sessies·34 paden·traceerbare bronnen·Markdown, offline lezer, en GitHub pagina's· site
+🇨🇱  Chilean School
+Learning Path
+8,841 Graad 1· 4.156 geïntegreerde cross-curriculaire ervaringen · 2 823 leerdoelstellingen ·MINEDUC-bronnen·geen hangende
+voorstellen en gespecialiseerde menselijke evaluatie nog in behandeling· site
+🧭  Modern
+Software
+Engineering
+480 40 delen en 8 fasen·foundations → product, architectuur, beveiliging, DevOps, SRE, SPEC, AI en multi-agent systemen·redactionele
+status opgegeven door het archief· site
+🎓  Pedagogy and
+Learning Sciences
+300 Van hoe iemand leert hoe leraren worden opgeleid·25 delen· elke klasse verklaart zijn bewijsstaat en -limieten ·vroege
+alfabetisering, vergelijkende methoden, specifieke onderwijsbehoeften, coëxistentie, culturele diversiteit en internationale bewijzen·1
+097-term glossarium, 325 diagrammen en een 60-activiteitsklaslokaalbank·14 loopbaantrajecten naar rol·LMS-exporteerbaar· v21,0 ·
+site
+☁  Multi-Cloud 288 AWS·Azure·GCP·Kubernetten·Terraform·SRE·FinOps· 1,288 uur ·288 labs met JSON bewijs·1.032 getraceerde bronnen·2,884-pagina
+PDF handleiding· site
+🎖  Executive
+Leadership
+288 Van het bezitten van uw eerste resultaat tot het leiden van een bedrijf en het oprichten van uw eigen: teams, KPI/OKR, financiën,
+product, risico, bestuur, en M&A·24 gevallen, 96 labs en 39 templates· site
+🐍  Python Data
+Science
+232 Polars, ML+Optuna/SHAP, PyTorch/LLMs/LoRA, MLOps·native Windows-app + Android APK· site
+🧠  AI Evolution 184 Symbolic → probabilistische → diep leren → LLM's, RAG, agenten, veiligheid en grens· v0,17,0 · 708 notebooks · 148
+basisdocumenten ·offline Windows, Android en PWA-apps· site
+
+Vladimir Acuña · 2026-10-16 · 4
+Programma Klassen Toepassingsgebied
+🌐  Comparative
+Programming
+176 Eén concept,10 talengeverifieerd in CI 1.360 implementaties1.632 programma'sin nog levende talen (COBOL, Fortran, Ada, RPG,
+MUMPS...) en een atlas van60 kaarten in 15 families ·v11,0· site
+🧩  Frameworks
+Compared
+149 Een uitvoerbaar contract, zonder adapters, tegen Express, FastAPI, Spring Boot, ASP.NET, Django, Rails, Laravel, React, Vue, Svelte, en
+meer·12 delen· 70 gebouwde klassen · 397 gevallen gecontroleerd in CI · 210 ISBN/DOI bronnen · site
+🗄  Databases 74 v3.0.0 ·database engineering in 15 delen·230 uur· de verifieerbare bron voor elke claim: 120 bronnen met ISBN, DOI, of
+standaard·hetzelfde geval opgelost in 27 motoren·306-term glossarium·150 pytest· site
+📐  Psychometrics
+and Assessment
+40 Hoe een meetinstrument wordt gebouwd, gescoord, gevalideerd en gecontroleerd·8 delen·uitvoerbare motor met5 instrumenten
+en 344 posten, 276 openbare domein
+⛓  Blockchain 66 v0.14,0 ·van nul naar programmeerbare financiële infrastructuur en on-chain analytics· 91 praktijkenen363 tests ·contracten met
+Foundry (fuzzing en invarianten) en Slither statische analyse in CI·Offline apps geverifieerd door het openen van de binaire en het
+tellen van de inhoud· site
+🧠  Neural Network
+Training Labs
+31 7 modules·≈214 uur· 93 notebooks·vragen, visuele kaarten, praktijken en evaluatie met echte publieke gegevens·PyTorch· study site
+🕹  Machine
+Operator
+451 41 opleidingsmodules, één per machine· 502 uur 15 min. ·systemen, besturingen, natuurkunde, veiligheid en simulatieontwerp
+met bronnen per klasse·nog geen uitvoerbare simulator, en het wordt die manier verklaard
+✅ Beroepsterrein
+Mijn dubbele achtergrond .Computerwetenschappen en computersystemen en bedrijfsadministratie
+🎯 Kernidentiteit
+Rol Ondersteuning
+Oplossingsarchitect Modulaire, schaalbare systeemontwerp met evolutionaire beoordeling
+Legacy Modernization Architect Echte legacy evolutie (PHP 5.x→8.x, incrementele refactoring zonder onderbreking van de operaties)
+Senior Full-Stack / Tech Lead Architectuur, uitvoering en normen op echte platforms (+16 jaar)
+AI-automatiseringsarchitect Agentische systemen met LangGraph/MCP en n8n stromen met vangrails
+↗  Natuurlijke uitbreiding
+AI Orchestration Engineer · Systemen / Rust ingenieur · Mobiele ingenieur (Flutter) · Oplossingen ingenieur · Technische productbouwer ·
+Technische trainer · Digitale Transformatie Consultant · Bedrijfs-/functionele analist · Technische productbewerkingen
+⚙ Aanvullende werkingssfeer
+Platform ingenieur / IDP·DevOps / CI-CD·Cloud / AWS Engineer·Toepassing SRE·Automatiseringsingenieur·Technisch-commerciële adviseur
+🧭 Management, administratie en niet-coding carrièremogelijkheden
+Deze reikwijdte stelt niet dat elke titel is gehouden. Het prioriteiten werk waar de combinatie van computer, bedrijfsadministratie en openbare bewijs
+kan waarde creëren zonder codering is de kerntaak.
+Beroepsfamilie Herkende rollen Eerlijke classificatie Codering Bewijs en voorwaarde
+Technologieleiderschap Hoofd IT·IT-operations Manager·Digitale transformatiebeheer·CIO Toepassingspotentieel
+/ toekomstige
+doelstelling
+Geen/soms Sterke technische basis;
+mensen, budget, verkoper
+en uitvoerende
+verantwoordingsplicht
+moeten afzonderlijk
+worden aangetoond
+Projectbeheer IT-projectcoördinator/manager·PMO·Scrum Master·Beweeglijke
+levering
+Overdraagbaar /
+toepassingspotentieel
+Geen/soms Levering en vrijgave
+bewijs; formeel team,
+budget en sponsor
+verantwoordelijkheid blijft
+een kloof
+Bedrijfsadministratie Bedrijfsbeheerder·Administratie/Bedieningsbeheer·Contractbeheerder Toepassingspotentieel Geen Bedrijfsdiploma en
+operationele artefacten;
+moet geverifieerd
+
+Vladimir Acuña · 2026-10-16 · 5
+Beroepsfamilie Herkende rollen Eerlijke classificatie Codering Bewijs en voorwaarde
+eigendom van middelen,
+mensen en leveranciers
+Strategie en
+verandering
+Strategieadviseur·Beheer wijzigen·Bedrijfsplanning·Innovatie /
+Transformatie
+Overdraagbaar /
+toepassingspotentieel
+Geen De resultaten van de
+organisatorische adoptie
+moeten worden
+aangetoond.
+Bedrijfsanalyse Bedrijfsanalist·Functioneel/Requirements Analyst·BPM·Continue
+verbetering
+Overdraagbaar /
+toepassingspotentieel
+Geen/soms Domeinmodellering en
+vereisten-bewijs; externe
+belanghebbendenzaken
+zouden de claim
+versterken
+Product en dienst Producteigenaar/manager·Productbewerkingen·Dienstverlening·Succes
+van de klant
+Overdraagbaar /
+toepassingspotentieel
+Geen/soms Roadmaps, levenscyclus,
+releases en operaties;
+P&L, klantenportfolio en
+SLA-bewijs varieert per rol
+Cybersecurity-beheer GRC·IT-controle-auditor·Technologierisico·Informatiebeveiliging /
+Continuïteit
+Toepassingspotentieel Geen/soms Controles en RootCause
+bewijs; organisatie audits
+en relevante referenties
+zijn in behandeling
+Handel en verkoop Technologie voorverkoop·Oplossingen Consultant·Technische
+KAM·B2B Business Development
+Overdraagbaar /
+toepassingspotentieel
+Geen Sterke oplossing/waarde
+vertaling; quota,
+rekeningportefeuille en
+contractonderhandelingen
+worden niet aangevraagd
+Financiën en
+beheerscontrole
+Budget/Kostenanalyse·Projectevaluatie·FP&A·Beheerscontrole Toepassingspotentieel Geen Financiën/FinOps
+artefacten; reële
+budgetten, financiële
+overzichten en bedrijfs
+KPI's zijn nodig
+Kwaliteit Proces/kwaliteitsanalyse·Procesauditor·Continue verbetering Overdraagbaar /
+toepassingspotentieel
+Geen/soms Gates, tests, metrics en
+reproduceerbaarheid;
+formeel eigendom van
+kwaliteitssystemen blijft
+een kloof
+Onderwijs Technische trainer·Facilitator·Academische coördinator·EdTech /
+Instructional Designer
+Overdraagbaar /
+toepassingspotentieel
+Geen/soms 21 programma's en
+14,530 lessen; de formele
+leerresultaten en de
+resultaten van de
+leerlingen moeten
+afzonderlijk worden
+aangetoond
+Logistiek en
+leveranciers
+Aanbesteding·Coördinator
+leveringen/diensten·Verkoper/contractbeheerder
+Toepassingspotentieel Geen Proces- en
+administratiebasis; echte
+inkoop, inventaris en
+prestaties van leveranciers
+zijn nodig
+Gegevens en AI-
+governance
+Data Steward·Gegevensbeheer·AI-adoptie / governance Overdraagbaar /
+toepassingspotentieel
+Geen/soms Auditable datasets en
+human-gated agents;
+organisatiebeleid en
+commissies blijven een
+kloof
+Openbare sector Institutionele modernisering·ICT-coördinator·Digitale
+projecten·Openbare planning
+Toepassingspotentieel Geen Chilianse contextsystemen
+en traceerbaarheid; er
+wordt geen ervaring
+opgedaan met
+overheidsopdrachten en
+sectoriële activiteiten
+Defull Spanish role matrixDetails van doelstellingen, verantwoordelijkheden, marktervaring, aanvullende kennis, bewijs, compatibiliteit en lacunes in
+alle 14 families.
+
+Vladimir Acuña · 2026-10-16 · 6
+📌 Beschikbaarheid
+Openen voor:Senior Full-Stack·Architectuur·Modernisering van de legacy·Platform/IDP·Toepassing SRE·pragmatische
+DevOps·Automatisering·Automatisering van AI·bedrijfs/functionele analyse·Coördinatie van IT-projecten·Productbewerkingen·digitale
+transformatie·Oplossingen advies/voorverkoop·technisch onderwijs·kwaliteit en continue verbetering·AI-adoptie en -bestuur
+Geevalueerd naar gelang van de rolomvang:Product Eigenaar / technische Product Manager·Dienstverlening·IT-operaties·GRC /
+technologierisico·Administratie en operaties·beheerscontrole·modernisering van de openbare sector. Executive en algemeen beheer titels zijn
+toekomstige ontwikkelingsdoelstellingen, niet geclaimde ervaring.
+Modaliteit:remote of hybride, afhankelijk van het project.
+This localized edition is derived from the corresponding complete public GitHub profile translation. Historical recommendation and institutional records remain linked to
+their source editions.
+https://vladimiracunadev-create.github.io/i18n/nl/

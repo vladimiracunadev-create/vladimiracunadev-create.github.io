@@ -4,7 +4,7 @@
 
 > Currículum publicado como API JSON estática y PDFs descargables, servido desde **GitHub Pages** sin servidor ni autenticación.
 
-**Datos sincronizados:** 2026-10-01. La API incluye el nuevo Software Engineering Learning Suite y descripciones actualizadas de los proyectos con actividad reciente; el inventario público cubre 42 PDFs en 6 idiomas.
+**Datos sincronizados:** 2026-10-16. La API incorpora Modern Software Engineering Program, Lifelong Learning Ecosystem y las descripciones actualizadas de los proyectos con actividad reciente; el inventario público cubre 154 PDFs en 22 idiomas.
 
 ---
 
@@ -31,7 +31,8 @@ https://vladimiracunadev-create.github.io
 | [`/api/v1/experience.json`](https://vladimiracunadev-create.github.io/api/v1/experience.json) | Experiencia laboral |
 | [`/api/v1/projects.json`](https://vladimiracunadev-create.github.io/api/v1/projects.json) | Proyectos destacados |
 | [`/api/v1/skills.json`](https://vladimiracunadev-create.github.io/api/v1/skills.json) | Skills, educación e idiomas |
-| [`/api/v1/artifacts.json`](https://vladimiracunadev-create.github.io/api/v1/artifacts.json) | Inventario de PDFs públicos con 6 variantes de idioma c/u |
+| [`/api/v1/artifacts.json`](https://vladimiracunadev-create.github.io/api/v1/artifacts.json) | Inventario de PDFs públicos con 22 variantes de idioma c/u |
+| [`/api/v1/i18n/index.json`](https://vladimiracunadev-create.github.io/api/v1/i18n/index.json) | Índice de los 22 perfiles localizados y sus artefactos |
 
 ---
 
@@ -56,11 +57,11 @@ console.log(profile, artifacts);
 
 ---
 
-## PDFs directos — 6 idiomas (ES/EN/PT/IT/FR/ZH)
+## PDFs directos — 22 idiomas (ES/EN/PT/IT/FR/ZH/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL)
 
-Los PDFs están disponibles en **6 idiomas**. En la interfaz web, el selector de idioma cambia automáticamente el enlace de descarga al documento equivalente vía atributos `data-pdf-{lang}`.
+Los PDFs están disponibles en **22 idiomas**. Los 22 idiomas embebidos en la SPA cambian el enlace de descarga mediante `data-pdf-{lang}`; los otros 16 abren una página localizada completa en `/i18n/{locale}/` con sus siete documentos.
 
-**Mapa de sufijos:** ES → `` | EN → `-english` | PT → `-portuguese` | IT → `-italian` | FR → `-french` | ZH → `-chinese`
+**Mapa de sufijos:** ES → `` · EN → `-english` · PT → `-portuguese` · IT → `-italian` · FR → `-french` · ZH → `-chinese` · ZH-TW → `-traditional-chinese` · JA → `-japanese` · KO → `-korean` · TR → `-turkish` · RU → `-russian` · VI → `-vietnamese` · TH → `-thai` · DE → `-german` · UK → `-ukrainian` · PL → `-polish` · AR → `-arabic` · FA → `-persian` · ID → `-indonesian` · NL → `-dutch` · HI → `-hindi` · EL → `-greek`.
 
 ### Hoja de Vida
 

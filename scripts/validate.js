@@ -7,7 +7,7 @@
  * Categories:
  *   1. CSP & Security — no inline styles/scripts
  *   2. PDF Integrity — all referenced PDFs exist, correct targets
- *   3. Bilingual Consistency — all 6 languages present where expected
+ *   3. Localization — six inline SPA languages plus 22 complete locale routes
  *   4. View System — data-min-level attributes valid
  *   5. JSON API — all endpoints valid JSON
  *   6. PWA — manifest, service worker, offline page
@@ -19,7 +19,12 @@ const fs = require("fs");
 const path = require("path");
 
 const ROOT = path.resolve(__dirname, "..");
-const LANGS = ["es", "en", "pt", "it", "fr", "zh"];
+const INLINE_LANGS = ["es", "en", "pt", "it", "fr", "zh"];
+const LOCALES = [
+  "es", "en", "pt", "it", "fr", "zh", "zh-TW", "ja", "ko", "tr", "ru",
+  "vi", "th", "de", "uk", "pl", "ar", "fa", "id", "nl", "hi", "el",
+];
+const EXPECTED_PDF_COUNT = 154;
 const VIEWS = ["0", "1", "2"];
 
 let errors = [];
@@ -149,19 +154,41 @@ function checkPDFs() {
   if (pdfPairs.length > 0 || pdfPairsAlt.length > 0) {
     ok(`PDF: ${pdfPairs.length + pdfPairsAlt.length} bilingual PDF pair(s) declared`);
   }
+
+  const publicPdfs = fs.readdirSync(path.join(ROOT, "assets"))
+    .filter(name => name.toLowerCase().endsWith(".pdf"));
+  if (publicPdfs.length === EXPECTED_PDF_COUNT) {
+    ok(`PDF: ${EXPECTED_PDF_COUNT} public artifacts present`);
+  } else {
+    fail(`PDF: Expected ${EXPECTED_PDF_COUNT} public artifacts, found ${publicPdfs.length}`);
+  }
+
+  const artifacts = JSON.parse(readFile("api/v1/artifacts.json"));
+  for (const artifact of artifacts.artifacts || []) {
+    const variants = artifact.variants || {};
+    for (const locale of LOCALES) {
+      const variant = variants[locale];
+      if (!variant || !variant.file) {
+        fail(`PDF: ${artifact.id} is missing the ${locale} variant`);
+      } else if (!fileExists(variant.file)) {
+        fail(`PDF: ${artifact.id}/${locale} references missing ${variant.file}`);
+      }
+    }
+  }
+  ok(`PDF: API declares all ${LOCALES.length} locales for seven artifact families`);
 }
 
 // ═══════════════════════════════════════════════════
 // 3. BILINGUAL CONSISTENCY
 // ═══════════════════════════════════════════════════
 
-function checkBilingual() {
+function checkLocalization() {
   const html = readFile("index.html");
   if (!html) return;
 
   // Count elements per language
   const counts = {};
-  for (const lang of LANGS) {
+  for (const lang of INLINE_LANGS) {
     const pattern = new RegExp(`data-${lang}[\\s>]`, "g");
     const matches = html.match(pattern);
     counts[lang] = matches ? matches.length : 0;
@@ -174,7 +201,7 @@ function checkBilingual() {
   ok(`Bilingual: ES baseline = ${esCount} elements`);
 
   // EN must match ES exactly (primary pair). Others are secondary — warn if >5% gap, fail if >20%.
-  for (const lang of LANGS) {
+  for (const lang of INLINE_LANGS) {
     if (lang === "es") continue;
     const diff = esCount - counts[lang];
     const pct = ((diff / esCount) * 100).toFixed(1);
@@ -193,6 +220,24 @@ function checkBilingual() {
     } else {
       ok(`Bilingual: ${lang.toUpperCase()} = ${counts[lang]} (ES has ${esCount}, diff=${diff})`);
     }
+  }
+
+
+  for (const locale of LOCALES) {
+    const page = `i18n/${locale}/index.html`;
+    const api = `api/v1/i18n/${locale}.json`;
+    const doc = `docs/i18n/${locale}/README.md`;
+    for (const file of [page, api, doc]) {
+      if (fileExists(file)) ok(`Localization: ${file} exists`);
+      else fail(`Localization: Missing ${file}`);
+    }
+  }
+
+  const localeIndex = JSON.parse(readFile("api/v1/i18n/index.json"));
+  if ((localeIndex.languages || []).length === LOCALES.length) {
+    ok(`Localization: API index lists ${LOCALES.length} locales`);
+  } else {
+    fail(`Localization: API index does not list exactly ${LOCALES.length} locales`);
   }
 }
 
@@ -462,7 +507,7 @@ checkStructure();
 checkCSP();
 checkEncoding();
 checkPDFs();
-checkBilingual();
+checkLocalization();
 checkViews();
 checkAPI();
 checkPWA();

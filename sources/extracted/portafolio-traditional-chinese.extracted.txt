@@ -1,0 +1,598 @@
+# SOURCE: assets/portafolio-traditional-chinese.pdf
+# DATE: 2026-10-16T10:41:53.145370
+
+Vladimir Acuña · 2026-10-16 · 1
+作品集
+解決⽅案架構 · ⾼階全速板 · 數字轉換 · 管理和業務
+- 🔁  可複製的演⽰ —— 克隆 , 執⾏ , 驗證 . - 🧰  標準化⼯具檔案 ,CLI 中⼼ ,doctor, 以及 smoke 每個儲存器。  - 🛡  深⼊防
+禦秘密掃描、政策和明確禁⽌的做法。  - 📈  觀察性  — /health, /ready, /metrics 儀表板  和可追蹤性  - 📚  觀眾認識檔
+案 —— 根據暫存器的不同 , 招募者 , 初學者 ,DevOps, 或安全性 . - 📦  產品銷售可下載的釋出、核對和建⽴證據 ; 酌情宣佈
+商業 / 儲存簽名待決。  - 🌍  國際化 —— 以 6 種語⽂編寫的教材 (ES)·EN 語 · 常規 · 資訊科技 · 法語 ·) ," 中國共產黨黨史⼈物
+彙編 "( 第 1 輯 ). - 🧭  技術誠實 - 每⼀個案件都標註在標籤上 OPERATIONAL, DOCUMENTED/SCAFFOLD, 或  , 或
+,PLANNED.
+🎯 你在這裡能找到什麼
+這不是 “ ⼀回式 ” 的 : 它是具有共同標準的⽣態系統。
+🔁  可複製的演⽰—— 克隆 , 執⾏ , 驗證 .
+🧰  標準化⼯具檔案 ,CLI 中⼼ ,doctor, 以及smoke每個儲存器。
+🛡  深⼊防禦秘密掃描、政策和明確禁⽌的做法。
+📈  觀察性 — /health, /ready, /metrics儀表板  和可追蹤性
+📚  觀眾認識檔案—— 根據暫存器的不同 , 招募者 , 初學者 ,DevOps, 或安全性 .
+📦  產品銷售可下載的釋出、核對和建⽴證據 ; 酌情宣佈商業 / 儲存簽名待決。
+🌍  國際化—— 以 6 種語⽂編寫的教材 (ES)·EN 語 · 常規 · 資訊科技 · 法語 ·) ," 中國共產黨黨史⼈物彙編 "( 第 1 輯 ).
+🧭  技術誠實- 每⼀個案件都標註在標籤上OPERATIONAL, DOCUMENTED/SCAFFOLD, 或  , 或  ,PLANNED.
+✅ 可核實狀態
+表⾯ 具體證據
+🧪  測試覆蓋
+率
+蓋⽐ SQL828 個測試+ 模糊過503.8M 次 查 詢(0 恐慌 ) ( 笑聲 )· 智利企業158 次試驗 · ⾃動150 個⽕試 · 多作業系統分類
+🤖  ⽣產級製
+劑
+朗格勒真實世界25/25 業務後端( 病例 01-25,100% 覆蓋 )· 業務助理13 名特⼯⼈員與39 個確定性評估
+🔗  多塊塊融
+合
+20 個案件傳送者  n8n 收發者 -19 起業務, 個⼈審計  與多克  -· 18+ DB 發動機 · 20 個以上集裝箱 ·11 種模式
+📦  分發 151 次釋放跨越⽣態系統的64 個擁有的公共儲存庫 · 安裝器和⽂物.exe · .msi · .dmg · .apk核對和建⽴證據 ; 酌情在商業 /
+儲存中籤名
+🛡  供應鏈 程式碼 QL· 衛星 · 匪幫 · 特⾥維 · 格萊普 · 巨頭 · 旋轉⽊偶 · 旋⾵ DX SBOM· 計分卡
+📚  課程 14 530 個班級21 個⽅案可核 查 , 按a workflow或可核 查 的來源 ,· 每個節⽬都宣佈其編輯地位和限制
+🌐  組合 可安裝的  PWA· 22 種語⾔ · 154 個 PDF管道產⽣的 ·CV 資料  API· 電容安卓 · 燈塔  100
+🔒  遙測 法證產品和智利企業的零遙測 —— 在每個建築中都得到核實 ( 無 Android)INTERNET許可權 )
+🌐  出版網站 56 個基特胡佈網⾴網站-55 次著陸 , 每件產品、程式或⽣態系統導航員⼀次 , 加上組合 —— 從⾃⼰的儲存庫部署 · 全部 56 個已
+與 HTTP 核實200
+
+Vladimir Acuña · 2026-10-16 · 2
+🗺 ⽣態系統⼀⼀
+flowchart TD
+    A[" 🧠  Technical judgment<br/>architecture · modernization · operations"] --> B[" 📦  Products<br/>with real
+distribution"]
+    A --> C[" 🧪  Engineering<br/>laboratories"]
+    A --> D[" 🤖  Applied AI<br/>agents and automation"]
+    A --> E[" 📚  Complete<br/>technical curricula"]
+    A --> F[" 🔬  Scientific<br/>and educational computing"]
+    B --> B1["RootCause ×8 · GabySQL · Automa · Code Scanner<br/>Video Transcript Studio · ChofyAI · Rhino Suite ·
+Empresa Operativa Chile<br/>AI Dataset Foundry · AWS Desktop Studio · Commerce OS · PDF Reader"]
+    C --> C1["Docker · WSL · Unikernel · QEMU/KVM · Sandbox<br/>Microsystems · Problem-Driven · Payments ·
+Decentraland"]
+    D --> D1["LangGraph · MCP+Ollama · Operational AI Agents<br/>Claude Skills · Codex Skills · Agentic Plugins ·
+Social Bot"]
+    E --> E1["Cybersecurity · GameDev · Data Science · Multi-Cloud · AI · Blockchain<br/>Frameworks · Mathematics ·
+Business · Finance · Leadership · Marketing · Pedagogy<br/>Software Engineering · Architecture · Chilean School
+Path<br/>Neural networks · Machine operation"]
+    F --> F1["Human Genome Labs<br/>My Violin Adventure · My Guitar Adventure<br/>Pañuelo al Viento"]
+📦 具有實際分佈的產品
+軟體被下載 , 安裝 , 使⽤ —— 不僅被克隆 .
+產品 是什麼來著 ? 堆疊 交付
+🔍
+RootCause
+Windows
+網路安全法證 : 每⼀次異常的資源扭曲 , 都
+可能是威脅的第⼀個跡象 . 先診斷 , 後⼲預
+鏽 🦀
+·ETW/WPR 電
+⼦資料交換系
+統
+0.19.0 維基百科中的相關條⽬ : 維基百科 · 16 次釋出 · 5
+個版本: 圖形介⾯ · 可移植 · 國家學習⽔平 · 電殼 ·VS 程式碼 ·
+landing
+📱
+RootCause
+Mobile
+移動兄弟 : ⼀個法證感測器 , 將每個應⽤程
+式與⾃⼰進⾏⽐較 , 標出跟蹤器的旗⼦ , 並
+將所授予的許可與僅要求的許可分開。
+⼩蝶  , 蝶  , 蝶  ,
+蝶  , 蝶  , 蝶 · 科
+特林語 Name·
+輕取
+以 0.8.0 計 · 可核 查 的 Android APK·5 種語⾔ · 零遙測 ·
+landing
+🍎
+RootCause
+macOS
+macOS 版  :launchd持續、守⾨、 SIP 、
+FileVault 、 XProtect 、 TCC 許可權、簽名程
+序和網路鄰居 —— 每個表⾯都對照已知的
+良好狀態檢 查
+鏽 🦀  ·macOS
+13+ 常規
+單位 : 千分之⼀ · ⾸次釋出 · 阿帕奇 -2.0 維基⽉球線上解說 -
+阿帕奇 -2.0· landing
+🖥
+RootCause
+Server
+伺服器兄弟關係 : 將沒有單⼀⽇誌所看到的
+東⻄聯絡起來 —— 曝光的表⾯、訪問的嘗
+試、給予同⼀地址的會話、關鍵檔案完整
+性和感測器的沉默 —— 並將其變成⼀個可
+操作的句⼦
+鏽 🦀  · 視窗 · 連
+結 ·macOS 系
+統
+以 0.2.0 計 · 18 第  條證據和記錄 · 從未單獨執⾏動作 · 本地
+控制檯 , 不含網路依賴性 · ⽬前尚未釋出 · landing
+🌐
+RootCause
+Web
+瀏覽器法證感測器 : cookie, 電⼦郵件會話 ,
+擴充套件 , 下載 , 許可權 , 以及模模擬實視
+窗的⾴⾯
+Java 指令碼
+·MV3 擴充套
+件
+以 0.2.0 計 · ⽬前尚未釋出 · ⾯板開⼝127.0.0.1 · 零依賴關
+係 · 在  CI 中驗證的零遙測 · landing
+₿ RootCause
+Bitcoin
+Defense
+僅監視 Bitcoin 監管的辯護 : 盤點每把鑰匙的
+來源 , ⽤公佈的警告進⾏交叉核對 , ⽤證據
+解釋根源
+Java 指令碼 · 視
+窗應⽤程式 · 本
+地⾯板
+維基⽉球 0.3.0 · 2 次釋出 · 零依賴關係 · 永遠不要要求種⼦ ·
+已核實的  CI· landing
+⛓
+RootCause
+Blockchain
+Security
+多鏈只監視控制檯 : 庫存合同、代理、甲⾻
+⽂、橋樑、治理和依賴性 , ⽣成根源執⾏本
+Java 指令碼 · 視
+窗應⽤程式 · 本
+地⾯板
+維基⽉球 0.3.0儲存器中 · 已釋出發⾏  :v0.1.0 · 零依賴關係
+· 從未要求私鑰 · 已核實的  CI· landing
+📷
+RootCause
+⽤於檢 查  QR 程式碼的本地 Android app
+操作前 : 解釋  26 個訊號 , 將事實與假說區
+⼩蝶  , 蝶  , 蝶  ,
+蝶  , 蝶  , 蝶 · 達
+編號為 0.1.4 · 5 次釋出 · 107 次測試 · 已出版的 Android
+APK· 可核 查 的 SHA-256·APK 成套技術簽名 ; 商業 / 儲存簽
+
+Vladimir Acuña · 2026-10-16 · 3
+產品 是什麼來著 ? 堆疊 交付
+QR
+Inspector
+分開來 , 並輸出被編輯的證據 特 名正在進⾏ · 零遙測 · landing
+🏢  Empresa
+Operativa
+Chile
+將註冊前的證券交易指南改為每⽉關閉 : 附
+有證據的註冊、增 值 稅結轉、 F29 草案、
+不可改變的關閉和審計記錄。  每⼀個規則
+都指向它的官⽅來源
+Java 指令碼 · 鏽
+· 太平洋婦⼥協
+會
+5 ⽉ 1 ⽇ , 紐約 · 機器⼈ · 視窗 · 瀏覽器 · 158 次試驗 · 0 個⽣產
+依賴 · 零遙測 · landing
+🔍  Universal
+Code
+Scanner
+QR 和條碼讀取器⾏動前的翻譯: 16 個本地
+URL ⾵險訊號並明確確認
+⼩蝶  , 蝶  , 蝶  ,
+蝶  , 蝶  , 蝶 · 達
+特
+維基百科中的相關條⽬ : 維基語錄連結 : 名⼈名⾔  - 分類 ·
+機器⼈ ·iOS 系統 ·macOS 系統 · 太平洋婦⼥協會 · 加密歷史
+AES-256-GCM 導彈 · landing
+🗄  GabySQL 嵌⼊式資料庫 : 單.db檔案 , WAL, 基於成本
+的最佳化器 , HTTP/ JSON API
+鏽 🦀 視窗 ·macOS 系統 · 連結 · landing
+🤖  Automa
+PC
+本地管絃樂器 :JSON 流出開 啟 真實視窗 , 與
+DOM 互動 , 留下證據
+蟒蛇 · 劇作家
+·pywebview ⾴
+⾯檢視
+維基⽉球 0.3.0 · 27 個流動 · 已公佈和可核 查 的安裝器 ·
+landing
+🏭  AI
+Dataset
+Foundry
+本地第⼀⼯廠 , 將 PDF 、 Word 、 Web 、
+Git 、 JSON 和 CSV 轉化為可審計的資料集 ,
+⽤於預訓、微調、 RAG 和評價
+蟒蛇 以 0.2.0 計 ·Windows + 離線 Android 軟體 · ⾸次釋出 ·
+landing
+☁  AWS
+Desktop
+Studio
+本地第⼀應⽤程式 , 包含 15 個 AWS 庫存整
+合 ,20 個教程 ,CLI/SSO, 以及只讀預設 ; 執⾏
+中 , 沒有普及
+Java 指令碼 · 視
+窗
+編號為 0.1.1 · ⾸次釋出 · landing
+🧭
+Commerce
+OS
+商業業務的引導概念⽰範 : ⽬錄、庫存、客
+戶關係管理、訂單、模擬付款和可追蹤性
+Java 指令碼 · 網
+⾴ · 視窗 · 機器
+⼈
+維基⽉球 0.3.0 · 2 次釋出 · 沒有任何實收資⾦或智利稅務
+當局的⼀體化 · landing
+📄  PDF
+Reader
+Android- 第⼀臺本地只讀讀取器 , 其無剪
+輯縮放 , 可重開歷史、  WhatsApp 共享以
+及預設讀取器選擇
+HTML 語⾔ · 網
+⾴ · 機器⼈ · 視
+窗
+0.3.3 資料 · 已簽名的 APK· 沒有賬戶、敏感許可權或遙測 ·
+landing
+🎙  Video
+Transcript
+Studio
+影⽚、播放列表或整個 YouTube 頻道以時
+間戳來⽂字。  它不依賴現有的字幕 : 低聲
+識別⾳訊    訣竟  , 沒有  API 、賬戶或⾦
+鑰來配置
+蟒蛇 · 雙管
+6·FastAPI 軟體
+· 快速低聲
+以 0.2.0 計 · 視窗桌⾯ + 本地⾯板在127.0.0.1+CLI, + + +
++ + + + + + + + + + + + + + + + + + + + + + + + + +
++ + + + + + + + + + + + + + + + + + + + + + + + + +
++ + + + + + + + + + + + + + + + + + + + + + + + + +
++ + + + + + + + + + + + + + + + + + + + + + + + + +
++ + + + + + + + + + + + + + + + + +共享相同的佇列 ·
+貨幣 · 個⼈檔案 · ⾃動除錯 · 特別審判庭 · 虛擬 TT· 傑森 , 你好
+嗎 ?·MP3 調變解調器 · 歐格 · 89 次測試 · 捆綁的 FFmpeg 軟
+體 · 零遙測 · landing
+🎨  ChofyAI
+Studio
+本地創意 AI 發射裝置 : 管弦樂團  Qune3-
+TTS, 低語 .cpp,FaceFusion,AceForge, 和
+ComfyUI
+陶⾥語  2· 鏽 · 反
+應
+5.1 以內 · 5/5 ⼯具 , 並有真實的推論 ·macOS 蘋果 矽 · 實驗
+視窗 · ⽬前尚未釋出 · site
+🦏  Rhino
+Suite
+從頭開始的辦公套件 : ⽂件規則不依賴於
+DOM —— HTML 僅僅是⼀個投影
+粗⼝ / ⽡斯⽶ ·
+去吧 , 我們⾛ ·
+反應  19
+按相位演化的單重⼒ · landing
+🎻  My
+Violin
+Adventure
+兒童教育應⽤ : 花⾊調奏器、錄⾳鍾精確的
+節拍器、有真琴的歌曲
+陶⾥語  2· 反應
+·TS 調製
+編號 : 1.3.0 · 視窗 · 機器⼈ · 連結 ·macOS 系統 · 太平洋婦⼥協
+會 · landing
+🎸  My
+Guitar
+Adventure
+接弦的弟弟 : 6 個世界的 24 個課 ,6 個弦調奏
+者 , 無漂流的節奏 , 和 11 個真正的吉他⾳符
+陶⾥語  2· 反應
+·TS 調製
+單曲  1. 0.0 · 視窗 · 機器⼈ · 連結 ·macOS 系統 ·iOS 系統 · 太平
+洋婦⼥協會 · 沒有賬戶、廣告或線上依賴 · landing
+
+Vladimir Acuña · 2026-10-16 · 4
+產品 是什麼來著 ? 堆疊 交付
+🧣  Pañuelo
+al Viento
+10 歲的 Cueca:8 級 24 個班級 ,72 個活動 ,6 個
+脈衝實驗室 (3+3 和 2+2+2), 以及可訪問的
+地平圖 . 宣告如下 :補充 , ⽽不是替換教師和
+⽂化傳承者
+⼩蝶  , 蝶  , 蝶  ,
+蝶  , 蝶  , 蝶 · 達
+特
+以 0.2.0 計 ·7+ 號機器⼈ ·Windows 10/11 視窗  10/11·APK
+⾃動交換 ·EXE 資料 · 模⾥⻄斯 · ⾏動式 · 29 個測試 +2 個驗證
+器 · 沒有相機、⿆克⾵、賬戶、廣告或網際網路 · landing
+🧪 ⼯程實驗室
+重播 ( R) 所顯⽰的
+🐳  Problem-Driven
+Systems Lab
+20 個真正的問題( 負載下緯度 ,N+1, 重試⾵暴 , 出洩 , 單層 , 快取被印出 , 回壓 , 零下⾏遷移 , 被遺忘  DLQ) 具有⾼純
+度注⼊出故障 , 解⼊ .7 個堆: ⾸⾴ 8· 蟒蛇 · 節點 .js· ⽖哇島 21·.NET 8 資料 · 衝出 1.23 · 粗⼝ 1.83 號 · landing
+📆  Social Bot Scheduler 以 4.10.0 計 · 20 個案件來源 =n8n= 收件者18+ DB 發動機 —19 起業務, 個⼈審計  與多克  -8 層審計、⼀⼿護
+欄、斷路器和 DLQ· landing
+🧰  Microsistemas 12 個診斷和現代化微型應⽤程式⽤於最⾼階 · 本地只讀的  MCP 伺服器 · 分三個階段進⾏硬化 · landing
+🧪  Docker Labs 13 個實驗室4 個服務平臺 + ⾃動.exe裝有發射裝置的安裝器 · landing
+🐳  WSL Labs 12 個案件開 啟wslc, 本地 WSL 集裝箱發動機 ——不掛起⼦桌⾯ · landing
+⚡  Unikernel Labs “ 單核管的容器桌⾯ ” : 使⽤  WSL2 後端控制  Unikraft 的  Windows 控制器 ,kraft+ QEMU/KVM· landing
+🧰  QEMU/KVM Labs 12 個實驗室與 QEMU 、 KVM 、 libvirt 、雲 -init 以及vm-manager有關  Linux 和  WSL2 的 · landing
+🛡  Sandbox Labs Linux 隔離 : 執⾏第三⽅程式碼、檔案 , 以及宣佈的政策下的商務模式簽發了實際適⽤控制措施的簽名證據 ·
+36 個案件15 個技術市場和 21 個資本市場 ,· 已申報為實驗和教育產品 , 不是安全產品 *· landing
+💳  Universal Payments
+Engineering Lab
+28 個⽀付家庭當地⾃我解釋演⽰ : 狀態、分類賬、對賬、安全和執⾏指南 · landing
+🕹  Decentraland Social
+Arcade
+原⽣的 Decentraliand 社交  三維體驗 : ⼀個 MVP 和多遊戲架構 , 並配有  SDK7, ECS, 和  TypeScript· ⻄班⽛⽂⽂
+件 · 無付款或遙測
+☁  AWS Projects Progressive cases where each one adds one AWS service and a new GitHub Actions capability · SAA-C03
+· DVA-C02 · SOA-C02 coverage
+🤖 應⽤ AI
+重播 ( R) 所顯⽰的
+🤖  LangGraph
+RealWorld
+25/25 業務後端—— 打出狀態 , 有條件的路線 ,NDJSON 流線 ,DEMO/LIVE 模式 ,8 個安全層 ,SHA-256 監管鏈
+🧭
+Operational AI
+Agents
+13 個業務代理克勞德密碼和相容執⾏時間 : 每個系統都收到⼀個完整的任務 —— 儲存器演變、遺產現代化、課程設計、
+組合出版、安全補救、事件分析 —— 根據申報的合同、⼈⼝和可核 查 的證據 · 39 個確定性評估 ·34 個測試 · 零潛⼊ ( 僅限
+Stdlib)· 連結 ·macOS 系統 · 視窗 · site
+🧠  MCP +
+Ollama Local
+沙盒中帶有  MCP ⼯具的本地⾸個 AI· 127.0.0.1繫結 · 多層信任配置 · 誠實地說 , 這是有限度的 ,
+🧩  Agentic
+Plugins Toolkit
+6 個代理外掛可從⼀個來源在克洛德碼、 OpenAI/Codex 、副駕駛、雙⼦座和 MCP 中安裝 :repository-engineering,
+legacy-modernization, learning-program-studio, product-evolution, portfolio-governance, 以及rootcause-
+response · 69 個⽣成的不漂移的檢視—— 每次執⾏時間都從同⼀份合同中收到其格式 .· 零讀取 · 連結 ·macOS 系統 · 視窗 ·
+site
+
+Vladimir Acuña · 2026-10-16 · 5
+重播 ( R) 所顯⽰的
+🧰  Claude
+Skills Toolkit
+15 個代理技能克勞德程式碼 · 安保服務: 12 層security-audit維也納 (OSV)· 開源軟體國際化之簡體中⽂組 · 電⼦軟體系
+統 · 薩斯德 · 容器 · 保密 ) 和 14 階段bitcoin-custody-audit · 重置閘⾨: pre-commit-guard, pre-push-guard, yaml-
+control, md-lint-fix, python-lint-guard · ⼀致性: repo-coherence-audit, version-bump, python-version-
+control, python-deps-pinning · 掛起點: docker-cleanup, docker-compose-doctor · ⽂件: md-to-doc · 零讀取 · 跨平臺
+🧰  Codex
+Skills Toolkit
+19 個代理技能⽤於編碼 : 安全和供應鏈、⾶⾏前、功能流動、復原⼒和狀態、釋放證據、 Python/YAML/Markdown ⾨、
+版本、依賴、 Docker 和檔案 · 蟒蛇第⼀號 · pnpm · 連結 ·macOS 系統 · 視窗 · site
+📚 完成技術課程
+⻄班⽛語序列程式 , 每個儲存器都宣告狀態和範圍 . 21 個⽅案加起來是 :14 530 個班級, 計算為a workflow, 從真正的暫存器結構
+或暫存器中宣告的可核 查 源 ; 徽章每週重新整理⼀次 , 不由⼿寫 .
+🧭  Lifelong Learning Ecosystem是⼀個聯邦指南針 , 透過視覺地圖和影象圖連線 6 個地區的 30 個真實路徑accessible offline
+portal; 不計為附加程式。
+程式 類 範圍
+🔢  Computational
+Mathematics
+360 從依靠⼿指到複製出紙 · 360 起在 CI 核實的決定性⽰威 ·1 080 個筆記本 ·489 個術語表 · site
+🏦  Finance and
+Banking
+356 534 ⼩時 · ⾦融數學和《國際財務報告準則》  —— 信貸、⾵險、巴塞爾三號、公開⾦融、 DLT 、穩定幣和
+MICA· 27 個案件 · 298 次測試 · site
+🎮  GameDev 352 數學和 C#/C++/GDScript → 陰影器 ,AI, 多⼈遊戲 ,VR/AR· 哥多特語 · 團結 · 虛幻 · 在 CI 中核實的 10 個⼽多實驗
+室(301 次檢 查 )· site
+🛡  Cybersecurity 360 編號 : 1.3.0 ·20 個部分 ·– 紅⾊團隊 ,DFIR, 雲安全 , 開發 dev,CTF, 和遊戲安全 · 對映到7 份證書 · 離線
+Android/web app·PDF ⼿冊 · 核實了 CI 、安保和網⾴ · site
+📈  Marketing,
+Sales, and Growth
+336 24 個部分 , 包括業務定義、計量單、可核 查 的參考書⽬和智利的監管背景 · 千分之⼀ .6.0 千分之⼀ .
+·1.29M 字數 ·17 個基於⾓⾊的路徑 · site
+🏢  Business
+Creation
+336 在智利建⽴和經營⼀家真正的公司 : 從想法到成⽴、稅務當局、業務、危機和退出 ·360 個圖表 ·1 251 個任
+期詞彙表 ·1 548 ⾴⼿冊 · site
+🏛  Architecture
+and Built
+Environment
+830 83 個編 ·60 屆綜合會議 ·34 道路徑 · 可追蹤來源 · 下⾏、離線閱讀器和  GitHub Pages· site
+🇨🇱  Chilean School
+Learning Path
+8,841 1 ⾄ 12 年級 · 4 156 次綜合跨課程經驗 · 2 823 個學習⽬標 · 聯剛特派團的訊息來源 · 尚未提出待決提案和尚
+未進⾏專⾨⼈⼒審 查 · site
+🧭  Modern
+Software
+Engineering
+480 40 個部分和 8 個階段 · 基礎  → 產品、建築、安全、 DevOps 、 SRE 、 SPEC 、 AI 和多代理系統 · 資料庫宣佈的
+編輯地位 · site
+🎓  Pedagogy and
+Learning Sciences
+300 從⼀個⼈如何學習到如何培訓教師 ·25 個部分 · 每⼀類都宣告其證據狀態和限度 · 早期識字、⽐較⽅法、
+具體教育需要、共處、⽂化多樣性和國際證據 ·1 097 個定期詞彙表、 325 個圖表和 60 個活動課堂庫 · 按⾓
+⾊分列的 14 個職業道路 ·LMS 可出⼝ · 維基百科中的相關條⽬ : 維基語錄連結 : 名⼈名⾔  - 分類 · site
+☁  Multi-Cloud 288 ⾃動取款機 · 阿蘇雷 ·GCP 常規 · 庫伯涅斯 · 地表 · 塞爾維亞 · 財務操作 · 1 288 ⼩時 ·288 個有 JSON 證據的實驗室
+·1 032 個來源 ·2 884 ⾴ PDF ⼿冊 · site
+🎖  Executive
+Leadership
+288 從擁有第⼀個結果到領導⼀個公司和建⽴⾃⼰的團隊 : 團隊、 KPI/OKR 、⾦融、產品、⾵險、板⼦和併購
+·24 個病例、 96 個實驗室和 39 個模板 · site
+
+Vladimir Acuña · 2026-10-16 · 6
+程式 類 範圍
+🐍  Python Data
+Science
+232 極地 ,ML+Optuna/SHAP,PyTorch/LLMS/LORA,MLOps· 本地  Windows 應⽤程式  + Android APK· site
+🧠  AI Evolution 184 典型的  / 機率的  / 深層學習  / 法學碩⼠、  研究與培訓、代理、安全和邊境 · 0.17.0 億 · 708 個筆記本 ·
+148 份基礎檔案 · 離線的  Windows, Android, 和  PWA 應⽤程式 · site
+🌐  Comparative
+Programming
+176 有個概念10 種語⾔由 CI 核實  -1 360 項執⾏+ 加上1 632 個⽅案以活語⾔ (COBOL 、 Fortran 、 Ada 、 RPG 、
+MUPS......) 和地圖集15 個家庭的 60 張卡⽚ · 維基百科中的相關條⽬ : 維基語錄連結 : 名⼈名⾔  - 分類 · site
+🧩  Frameworks
+Compared
+149 ⼀份沒有介⾯卡的可執⾏合同 , 針對快遞、快活 API 、斯普林布特、 ASP.NET 、 Django 、 Rails 、 Laravel 、
+React 、 Vue 、 Svelte 等 ·12 個部分 · 70 個建築班級 · 397 起在 CI 核實的案件 · 210 ISBN/DOI 來源  網際網路
+檔案館的存檔 , 存檔⽇期 2013-03-02. · site
+🗄  Databases 74 單曲 3. 0.0 ·15 個部分的資料庫⼯程 ·230 ⼩時 · 每項索賠的可核實來源:120 有 ISBN,DOI, 或標準來源 .·27 個
+引擎破了同樣的案⼦ ·306 個術語表 ·150 個⽕試 · site
+📐  Psychometrics
+and Assessment
+40 衡量⼯具如何構建、打分、驗證和審計 ·8 個部分 · 可執⾏引擎 , 使⽤5 項⽂書和 344 項 ,276 項公共領域
+⛓  Blockchain 66 0.14.0 維基百科 · 從零到可程式設計的⾦融基礎設施和鏈上分析 · 91 個做法財務報告和已審計財務報表
+363 次測試 · 與開業公司 ( 模糊和變化不定 ) 和 CI 的 Slither 靜態分析的合同 · 開 啟 ⼆進位制並計數其內容的離
+線應⽤程式 · site
+🧠  Neural Network
+Training Labs
+31 7 modules · ≈214 hours · 93 notebooks —31 classes, 31 student versions, and 31 solutions— ·
+questions, visual maps, practices, and assessment with real public data · PyTorch · study site
+🕹  Machine
+Operator
+451 41 個培訓單元, 每臺⼀臺機器 · 502 ⼩時 15 分鐘 · 系統、控制、物理、安全和模擬設計 , 每類源 ·還沒有可執
+⾏模擬器 , ⽽且它被宣佈為這樣
+🔬 科學計算
+重播 ( R) 所顯⽰的
+🧬  Human Genome
+Labs
+複製基因組學平臺 : 已打⼊ScientificResult<T>合同 ,FASTA/GFF3/VCF, 模組與明確到期和證據. 絕對誠實 :它不
+進⾏臨床診斷· site
+⚡ 如果你有⼗分鐘的時間來評價我
+想法不僅僅是看程式碼 , ⽽是看怎麼樣記錄我的⽅式  以及我如何使⼀切可以執⾏
+A 道 —— 真正可觀察和有條理*( 我最喜歡的 ) *
+git clone https://github.com/vladimiracunadev-create/social-bot-scheduler.git
+將會看到⼯作流程 , 度量衡 , 儀表板 , 和護欄 , 覆蓋 19 個案例和 18+ DB 引擎。
+B 道 —— 幾分鐘內可複製的基礎設施
+git clone https://github.com/vladimiracunadev-create/docker-labs.git
+C 道 —— 具有型別狀態的代理
+git clone https://github.com/vladimiracunadev-create/langgraph-realworld.git
+D 道 —— 不克隆的粗糙法證產品
+從中下載安裝器或  CLI ⼆進位制RootCause releases並核實SHA256SUMS.
+
+Vladimir Acuña · 2026-10-16 · 7
+🧠 標準⼀應⽤到所有倉庫
+第⼀次 DX 遊戲—— 如果執⾏不便 , 則作為演⽰或團隊基礎 , 並不有⽤ .
+第 1 天起的可觀察性—— 衡量尺度和可追溯性 , 不是事後思考 .
+安全作為管道—— 秘密掃描 , 每出⼀出 SBOM, 明令禁⽌的做法 .
+實際復原⼒—— ⼀能分解 , 斷路器分解 , 並有控制的降解 .
+設計型多塊—— 語⾔和引擎由⽤例選擇 , 從不由時尚選擇 .
+誠實的狀態—— ⼀雷波被更名 (.Multisimulador → machine-operator-program), 以避免尚不存在的有希望的軟體 .
+徽章是訊號 , 不是證據—— 每筆還本付息也宣告做它不做的東⻄.
+型號向外—— 域名設計為先 ; 介⾯為投影 .
+對外⼯作被宣佈為對外⼯作—— 該賬戶的 70 個公共庫藏中 , 有 64 個是我的⼯作 . 其他六⼈  都已經 ...agentic-qe,
+Anthropic-Cybersecurity-Skills, erpnext, OpenExecutive, raptor, 以及security-audit-skill—— 是叉⼦ , 並且被排除在我
+⾃⼰⼯作的所有數字之外 .
+✅ 專業範圍
+我的雙重背景電腦科學與計算⼯程 + ⼯商管理—— 幫助我把業務⽬標轉化為技術決定和技術制約轉化為明確的業務選擇 , 產
+品 , 客戶和領導權 .
+🎯 核⼼⾝份
+作⽤ 備份
+解決⽅案架構 具有進化判斷⼒的可縮放式系統設計
+遺產現代化建築師 真正的遺產演變 (PHP 5.x 8.x, 增量再造⽽不會中斷操作 ).
+⾼階全層 / 技術鉛 實際平臺的架構、執⾏和標準 (+16 年 )
+AI ⾃動化建築師 具有 LangGraph/MCP 和有護欄的 n8n 流動的代理系統
+↗  ⾃然延伸
+AI 管絃樂⼯程師 · 系統 / 粗糙⼯程師 · 移動⼯程師 (Flutter) · 解決⽅案⼯程師 · 技術產品構建器 · 技術培訓⼈員 · 數字轉換顧
+問 · 業務 / 職能分析員 · 技術產品業務
+⚙ 補充範圍
+平臺⼯程師 / 境內流離失所者 · 開發 / 開發 / 開發 / 開發 · 雲 / AWS ⼯程師 · 應⽤程式  SRE· ⾃動化⼯程師 · 技術商業諮詢⼈
+🧭 管理、⾏政和⾮編碼職業機會
+這⼀範圍並不聲稱每個標題都得到了保留。  它優先考慮的是計算機、⼯商管理和公共證據的組合能 夠 創造價 值 ⽽不會把編
+碼作為核⼼義務的⼯作。
+專業家庭 公認作⽤ 誠實的分類 編碼 證據和情況
+技術領導 資訊科技主管 · 資訊科技業務經理 · 數字轉換管
+理器 · ⾸席資訊幹事
+應⽤潛⼒ / 未
+來⽬標
+無 / 偶
+然
+強有⼒的技術基礎 ; ⼈員、預算、供應商和⾏
+政問責制必須分別證明
+專案管理 資訊科技專案協調員 / 管理⼈員 · 個⼈ · 斯克魯姆
+⼤師 · 急速交付
+可轉讓 / 應⽤
+潛⼒
+無 / 偶
+然
+提供和釋放證據 ; 正式團隊、預算和贊助者責
+任仍是⼀個空⽩
+⼯商管理 ⼯商管理者 · ⾏政 / 業務管理員 · 合同管理員 應⽤潛⼒ 無 商業學位和業務⽂物 ; 需要核實資源、⼈員和
+供應商的所有權
+
+Vladimir Acuña · 2026-10-16 · 8
+專業家庭 公認作⽤ 誠實的分類 編碼 證據和情況
+戰略和改⾰ 戰略顧問 · 更改管理器 · 機構規劃 · 創新 / 轉型 可轉讓 / 應⽤
+潛⼒
+無 遺產現代化和解決⽅案評價 ; 必須展⽰組織採
+納成果
+業務分析 業務分析員 · 職能 / 需求分析員 · 銀⾏和銀⾏ · 不斷
+改進
+可轉讓 / 應⽤
+潛⼒
+無 / 偶
+然
+領域模型和要求證據 ; 外部利益攸關⽅案件會
+加強索賠
+產品和服務 產品所有⼈ / 經理 · 產品操作 · 提供服務 · 客戶成功 可轉讓 / 應⽤
+潛⼒
+無 / 偶
+然
+路線圖、⽣命週期、釋出和業務 ;P&L 、客戶組
+合和 SLA 證據因作⽤⽽異
+網路安全管
+理
+GRC 紅⼗字與紅新⽉聯會 · 資訊科技控制審計
+員 · 技術⾵險 · 資訊保安 / 連續性
+應⽤潛⼒ 無 / 偶
+然
+控制和根原因證據 ; 組織審計和有關證書有待
+審 查
+商業和銷售 技術 · 解決⽅案顧問 · 技術型 KAM·B2B 企業發展 可轉讓 / 應⽤
+潛⼒
+無 強有⼒的解決⽅案 / 價 值 翻譯 ; 沒有要求配額、
+賬戶組合和合同談判
+財務和管理
+控制
+預算 / 成本分析 · 專案評價 · 計劃⽣育和艾滋病 · 管
+理控制
+應⽤潛⼒ 無 財務 / 財務處的⽂物 ; 需要實際預算、財務報表
+和公司 KPI
+質量 流程 / 質量分析員 · 過程審計員 · 不斷改進 可轉讓 / 應⽤
+潛⼒
+無 / 偶
+然
+蓋茨、測試、衡量尺度和可複製性 ; 正式的質
+量系統所有權仍然是⼀個空⽩
+學歷 技術培訓⼈員 · 主持⼈ · 學術協調員 ·EdTech / 指
+令設計器
+可轉讓 / 應⽤
+潛⼒
+無 / 偶
+然
+21 個⽅案和 14 530 個班級 ; 正式教學和學習成
+果必須分別證明
+後勤和供應
+商
+採購 · 供應 / 業務協調員 · 供應商 / 合同管理員 應⽤潛⼒ 無 流程和⾏政基礎 ; 需要真正的採購、庫存和供
+應商業績
+資料和⼈⼯
+智慧治理
+資料管理 · 資料治理 ·AI 收養 / 治理 可轉讓 / 應⽤
+潛⼒
+無 / 偶
+然
+審計資料集和⼈⽂因素 ; 組織政策和委員會仍
+然是個空⽩
+公共部⾨ 機構現代化 · 資訊和通訊技術協調員 · 數字專案 ·
+公共規劃
+應⽤潛⼒ 無 智利的⽂字系統和可追蹤性 ; 公共採購和部⾨
+經驗沒有被提出
+電話full Spanish role matrix詳細列出所有 14 個家庭的⽬標、責任、市場經驗、補充知識、證據、相容性和差距。
+🤖 AI- 輔助發展流動
+⼯具 主要⽤途
+克勞德程式碼 建築審 查 、實施和技術檔案
+聊天 GPT 附加軟體 分析、結構和迭代 ( ⾃ 2023 年起 )
+程式碼 程式碼⽣成和重構
+反重⼒ 加快發展和⾃動化流動
+VS 程式碼 / 開 啟 程式碼 綜合 AI 援助的環境
+我綜合了⾃⼰的技術判斷 , ⼈性驗證 , 建築⽅向 . AI 能增強能⼒ , 速度 , 以及達到 —— 它不會取代經驗 .
+📌 可⽤性
+開 啟 到  :⾼階全速板 · 建築 · 遺產現代化 · 平臺 / 綜合發展⽅案 · 應⽤程式  SRE· 實⽤的  DevOps 軟體 · ⾃動化 ·AI ⾃動化 · 業務 / 職能分
+析 · 資訊科技專案協調 · 產品操作 · 數字化轉換 · 諮詢 / 銷售 · 技術教育 · 質量和不斷改進 ·AI 收養和治理
+
+Vladimir Acuña · 2026-10-16 · 9
+根據每個⾓⾊的範圍進⾏評估 :產品所有⼈ / 技術產品經理 · 提供服務 · 資訊科技業務 ·GRC/ 技術⾵險 · ⾏政和業務 · 管理控制 · 公共
+部⾨的現代化。  ⾏政和⼀般管理頭銜是未來的發展⽬標 , ⽽不是聲稱的經驗。
+模式  :遠端或混合 , 取決於專案。
+📬 聯絡⼈
+🤝  Contribute · 🛡  Security · ⚖  Code of Conduct
+README 與可核 查 的公共庫狀態同步 —— 圖和變化透過 API 讀取 ——· 最後核實 :2026 年 10 ⽉ 12 ⽇。
+This localized edition is derived from the corresponding complete public GitHub profile translation. Historical recommendation and
+institutional records remain linked to their source editions.
+https://vladimiracunadev-create.github.io/i18n/zh-TW/

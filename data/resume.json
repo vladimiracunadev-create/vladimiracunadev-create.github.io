@@ -2,9 +2,33 @@
     "schema": "https://jsonresume.org/schema/",
     "meta": {
         "version": "v1",
-        "generated_at": "2026-10-01",
+        "generated_at": "2026-10-16",
         "source_pdf": "assets/cv-ats.pdf",
-        "base_url": "https://vladimiracunadev-create.github.io"
+        "base_url": "https://vladimiracunadev-create.github.io",
+        "available_locales": [
+            "es",
+            "en",
+            "pt",
+            "it",
+            "fr",
+            "zh",
+            "zh-TW",
+            "ja",
+            "ko",
+            "tr",
+            "ru",
+            "vi",
+            "th",
+            "de",
+            "uk",
+            "pl",
+            "ar",
+            "fa",
+            "id",
+            "nl",
+            "hi",
+            "el"
+        ]
     },
     "basics": {
         "name": "Vladimir Acuña",
@@ -37,7 +61,7 @@
         "14 años liderando el diseño, evolución y operación de una plataforma educativa/psicométrica (2011–2025), con foco en continuidad operacional.",
         "Modernización progresiva (PHP 5.4 → PHP 8.2+), optimización de rendimiento y automatización de reportes (PDF/Excel) y procesos de datos.",
         "Experiencia en bases de datos (SQL Server, MySQL/MariaDB) y despliegues/entornos reproducibles con Docker y CI/CD.",
-        "Portafolio técnico con productos, laboratorios, agentes y currículos trazables en GitHub y GitLab; documentación por perfil, demos verificables y 42 PDFs en 6 idiomas."
+        "Portafolio técnico con productos, laboratorios, agentes y currículos trazables en GitHub y GitLab; documentación por perfil, demos verificables y 154 PDFs en 22 idiomas."
     ],
     "skills": {
         "backend": [
@@ -132,14 +156,19 @@
             "url": "https://github.com/vladimiracunadev-create/mcp-ollama-local"
         },
         {
-            "name": "Software Engineering Learning Suite",
-            "description": "Currículo público de ingeniería de software con 480 clases planificadas y 360 borradores publicados con práctica, fuentes y navegación",
-            "url": "https://github.com/vladimiracunadev-create/software-engineering-learning-suite"
-        },
-        {
             "name": "Chilean School Learning Path",
             "description": "Currículum escolar chileno abierto con 8.841 clases, 4.156 integraciones y 2.823 objetivos de aprendizaje desde 1° básico hasta 4° medio",
             "url": "https://github.com/vladimiracunadev-create/chilean-school-learning-path"
+        },
+        {
+            "name": "Lifelong Learning Ecosystem",
+            "description": "Brújula curricular federada con 30 recorridos en 6 áreas, mapas visuales y portal offline accesible.",
+            "url": "https://github.com/vladimiracunadev-create/lifelong-learning-ecosystem"
+        },
+        {
+            "name": "Modern Software Engineering Program",
+            "description": "Programa de 480 clases, 40 partes y 8 etapas: fundamentos, producto, arquitectura, DevOps e IA.",
+            "url": "https://github.com/vladimiracunadev-create/modern-software-engineering-program"
         }
     ],
     "education": [

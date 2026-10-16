@@ -39,6 +39,7 @@ ROOT_FILES = [
 # ── Directorios a incluir completos (con filtros de exclusión)
 DIRS_INCLUDE = [
     "api",
+    "i18n",
     "experiencia-3d",
     "servicios",
 ]

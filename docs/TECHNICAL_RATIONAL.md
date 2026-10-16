@@ -24,7 +24,7 @@ Hemos elegido **HTML, CSS y JS puro** porque:
 
 ### Internationalization (i18n) de Alto Rendimiento
 
-A diferencia de librerías pesadas, implementamos una **Visibilidad Pasiva** mediante atributos `data-es`, `data-en`, `data-pt`, `data-it`, `data-fr` y `data-zh`. El CSS solo oculta lo inactivo, permitiendo que el navegador renderice instantáneamente sin ejecuciones costosas de JS ni recargas de página.
+La internacionalización usa dos capas compatibles. Los 22 idiomas originales mantienen **visibilidad pasiva** mediante `data-es`, `data-en`, `data-pt`, `data-it`, `data-fr` y `data-zh`, por lo que cambian al instante dentro de la SPA. Los otros 122 idiomas se generan como páginas estáticas completas en `/i18n/{locale}/` desde los README traducidos del perfil principal. Esta capa evita multiplicar por 22 el DOM de la SPA y permite tipografía RTL, CJK, devanagari y tailandesa con documentos y endpoints propios.
 
 ### Temas Dinámicos Reales (Dark/Light)
 

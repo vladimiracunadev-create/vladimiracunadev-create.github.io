@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "generated_at": "2026-10-16",
+    "language": "fa",
+    "language_name": "Persian",
+    "native_name": "فارسی",
+    "direction": "rtl",
+    "source": "https://github.com/vladimiracunadev-create/vladimiracunadev-create/blob/main/README.fa.md"
+  },
+  "profile": {
+    "name": "Vladimir Acuña",
+    "title": "راه حل معماری·پیر Full-Stack·تحول دیجیتال·مدیریت و عملیات",
+    "summary": "- 🔁 دانلود بازی Reroducible- کلون، اجرا، اعتبار - 🧰 ابزار استاندارد سازیفایل های Makefiles، Hub CLIdoctorوsmokeدر هر مخزن - 🛡️ دفاع در عمقاسکن مخفی، سیاست ها و شیوه های آشکارا ممنوع - 📈 قابلیت پذیری — /health, /ready, /metrics, داشبورد و قابلیت ردیابی - 📚 آرشیو برچسب های مرتبط- استخدام کننده، مبتدی، DevOps یا امنیت، بسته به مخزن. - 📦 توزیع محصول- نسخه های قابل دانلود، چکه ها و ساخت شواهد؛ امضاهای تجاری / فروشگاه اعلام شده در صورت لزوم. - 🌍 Internationalization — portfolio in 22 languages (ES · EN · PT · IT · FR · ZH · ZH-TW · JA · KO · TR · RU · VI · TH · DE · UK · PL · AR · FA · ID · NL · HI · EL). - 🧭 صداقت فنیهر پرونده ای که برچسب زده شودOPERATIONAL, DOCUMENTED/SCAFFOLDیاPLANNED.",
+    "website": "https://vladimiracunadev-create.github.io/i18n/fa/",
+    "github": "https://github.com/vladimiracunadev-create",
+    "gitlab": "https://gitlab.com/vladimir.acuna.dev-group"
+  },
+  "sections": [
+    "🎯آنچه در اینجا پیدا خواهید کرد",
+    "✅وضعیت قابل تایید",
+    "🗺️سیستم در یک نگاه",
+    "📦محصولات با توزیع واقعی",
+    "🧪آزمایشگاه های مهندسی",
+    "🤖کاربردی AI",
+    "📚ویژگی های فنی کامل",
+    "🔬محاسبات علمی",
+    "⚡اگر 10 دقیقه وقت دارید تا من را ارزیابی کنید",
+    "🧠استانداردهایی که در سراسر مخازن اعمال می کنم",
+    "✅حرفه ای",
+    "🧭مدیریت، مدیریت و فرصت های شغلی غیر مشارکتی",
+    "🤖جریان توسعه AI-Assisted Development Flow",
+    "📌در دسترس بودن",
+    "📬تماس"
+  ],
+  "artifacts": {
+    "portfolio": "/assets/portafolio-persian.pdf",
+    "resume": "/assets/hoja-de-vida-persian.pdf",
+    "recruiter": "/assets/cv-reclutador-persian.pdf",
+    "ats": "/assets/cv-ats-persian.pdf",
+    "achievements": "/assets/declaracion-logros-validacion-persian.pdf",
+    "recommendation": "/assets/carta-recomendacion_sin_firma-persian.pdf",
+    "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-persian.pdf"
+  }
+}

@@ -16,7 +16,7 @@
 ## Descripción del proyecto
 
 Portafolio profesional de Vladimir Acuña (Arquitecto de Software / Full-Stack Senior / Polyglot Engineer).
-SPA estática en Vanilla HTML/CSS/JS, desplegada en GitHub Pages. Sistema de 6 idiomas, 3 vistas,
+SPA estática en Vanilla HTML/CSS/JS, desplegada en GitHub Pages. Sistema de 22 idiomas, 3 vistas,
 PDFs generados por pipeline Python, PWA instalable, y API JSON estática en `api/v1/`.
 
 ---
@@ -24,7 +24,7 @@ PDFs generados por pipeline Python, PWA instalable, y API JSON estática en `api
 ## Mapa de archivos
 
 ```text
-├── index.html                  # SPA principal — 6 idiomas + 3 vistas + PWA
+├── index.html                  # SPA principal — 22 idiomas + 3 vistas + PWA
 ├── app.js                      # i18n, PDF routing multilingüe, lógica de vistas
 ├── style.css                   # Estilos principales
 ├── manifest.webmanifest        # Configuración PWA
@@ -36,7 +36,7 @@ PDFs generados por pipeline Python, PWA instalable, y API JSON estática en `api
 ├── CLAUDE.md                   # Este archivo — fuente de verdad
 ├── cv-data-api.md              # Manual de la API JSON
 ├── servicios/                  # Páginas de servicio con ruta semántica
-│   └── auditoria-codigo-ia/    # Auditoría de código generado por IA (6 idiomas)
+│   └── auditoria-codigo-ia/    # Auditoría de código generado por IA (22 idiomas)
 │       ├── index.html          # La página — 10 secciones, sin data-min-level
 │       └── audit-form.js       # Validación + composición del mailto: (sin backend)
 ├── api/v1/                     # CV Data API estática
@@ -45,17 +45,18 @@ PDFs generados por pipeline Python, PWA instalable, y API JSON estática en `api
 │   ├── experience.json         # Experiencia laboral
 │   ├── projects.json           # Proyectos del ecosistema
 │   ├── skills.json             # Habilidades técnicas
-│   └── artifacts.json          # Inventario de PDFs (30+ con 6 variantes c/u)
+│   ├── artifacts.json          # Inventario de 154 PDFs (7 familias × 22 variantes)
+│   └── i18n/                   # Perfil y artefactos localizados por idioma
 ├── assets/                     # PDFs públicos (30+ archivos)
 │   ├── og/                     # Tarjetas Open Graph 1200x630 (generadas)
 │   └── no_aplica/              # Versiones descartadas — NO publicar en API
 ├── scripts/                    # Pipeline de generación
-│   ├── generate-all-languages.py           # 12 CVs (reclutador+ATS × 6 idiomas)
+│   ├── generate-all-languages.py           # 12 CVs (reclutador+ATS × 22 idiomas)
 │   ├── generate-unified-cv.py              # CV unificado base
-│   ├── generate-portfolio.py               # Portafolio × 6 idiomas
-│   ├── generate-achievements-statement.py  # Declaración de logros × 6 idiomas
-│   ├── generate-recommendation-letter.py   # Carta de recomendación × 6 idiomas
-│   ├── generate-hoja-de-vida.py            # Hoja de vida genérica × 6 idiomas
+│   ├── generate-portfolio.py               # Portafolio × 22 idiomas
+│   ├── generate-achievements-statement.py  # Declaración de logros × 22 idiomas
+│   ├── generate-recommendation-letter.py   # Carta de recomendación × 22 idiomas
+│   ├── generate-hoja-de-vida.py            # Hoja de vida genérica × 22 idiomas
 │   ├── generate-ats-cv.py                  # CV ATS standalone
 │   ├── generate-recruiter-cv.py            # CV reclutador standalone
 │   └── generate-og-image.py                # Tarjetas Open Graph 1200x630
@@ -70,7 +71,7 @@ PDFs generados por pipeline Python, PWA instalable, y API JSON estática en `api
 
 ## Arquitectura técnica
 
-### Sistema de idiomas (6 idiomas)
+### Sistema de idiomas (22 idiomas)
 
 - **Idiomas:** ES, EN, PT, IT, FR, ZH
 - **Sufijos de archivo:** `""` / `-english` / `-portuguese` / `-italian` / `-french` / `-chinese`
@@ -95,7 +96,7 @@ PDFs generados por pipeline Python, PWA instalable, y API JSON estática en `api
 
 - Ruta: `/servicios/auditoria-codigo-ia/` — pagina propia, **no** una sección de `index.html`
 - Usa el mismo `styles.css` y el mismo `app.js` del raíz: **cero dependencias nuevas**
-- Mantiene los 6 idiomas con el mismo mecanismo `data-XX`; comparte `#selectLang` y `#btnTheme`
+- Mantiene los 22 idiomas con el mismo mecanismo `data-XX`; comparte `#selectLang` y `#btnTheme`
 - **No** usa `data-min-level`: es oferta comercial y se ve completa siempre
 - El formulario compone un `mailto:` — no hay backend ni servicio de terceros, y la CSP de la
   página no abre ningún host externo
@@ -122,7 +123,7 @@ viewport.
 
 - Servida directamente por GitHub Pages — sin servidor
 - 6 endpoints: meta, profile, experience, projects, skills, artifacts
-- `artifacts.json` contiene las 6 variantes de idioma para cada uno de los 5 documentos públicos
+- `artifacts.json` contiene las 22 variantes de idioma para cada una de las 7 familias documentales públicas
 - Actualizar manualmente tras cambios en PDFs o contenido
 
 ---
@@ -167,7 +168,7 @@ familias del README del perfil de GitHub, y enlaza a GitHub y GitLab para el det
 - `projects_rec` y `projects_ats` **siguen siendo el inventario** — no tocarlas: son las listas que
   alimenta `sync-portfolio.py`, y `projects_rec` la consume la hoja de vida.
 - Al agregar un repo nuevo, categorizarlo en `PROJECT_GROUPS` y darle entrada en `PROJECT_NAMES`
-  (nombre corto) y `PROJECT_STACK` (stack, solo tokens técnicos: se leen igual en los 6 idiomas).
+  (nombre corto) y `PROJECT_STACK` (stack, solo tokens técnicos: se leen igual en los 22 idiomas).
 - Una clave sin categorizar **no se pierde**: cae en el grupo «Otros». Si aparece ahí, es que falta
   clasificarla.
 - Las 4 ediciones de RootCause van diferenciadas (Windows · Mobile · macOS · Web), no colapsadas.
@@ -180,7 +181,7 @@ crítico.
 ## Protocolo de backups — OBLIGATORIO antes de modificar PDFs
 
 1. Crear carpeta: `assets/backups/YYYY-MM-DD/`
-2. Copiar los archivos originales con sufijo `_vN` (las 6 variantes)
+2. Copiar los archivos originales con sufijo `_vN` (las 22 variantes disponibles)
 3. Registrar en `CHANGELOG.md`: `[BACKUP] assets/backups/YYYY-MM-DD/archivo_vN — motivo`
 4. NUNCA sobrescribir un backup existente
 5. La versión activa siempre está en `assets/`
@@ -244,7 +245,7 @@ pnpm run lint:html     # HTML validation
 1. NUNCA destruir contenido — solo integrar y complementar
 2. NUNCA modificar un PDF sin backup previo en `assets/backups/`
 3. NUNCA sobrescribir un backup existente
-4. NUNCA romper el sistema de 6 idiomas
+4. NUNCA romper el sistema de 22 idiomas
 5. NUNCA tocar la lógica de vistas Reclutador/Normal/Profundo
 6. NUNCA modificar manifest PWA ni configuración Capacitor sin documentarlo
 7. NUNCA hacer commit sin actualizar CHANGELOG.md primero

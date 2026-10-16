@@ -36,7 +36,7 @@ dependencia**: reutiliza `styles.css` y `app.js` del raiz. Los unicos ficheros p
 
 ### 2.2 Seis idiomas, no solo espanol
 
-La regla 4 de `CLAUDE.md` prohibe romper el sistema de 6 idiomas. La pagina usa el mismo
+La regla 4 de `CLAUDE.md` prohibe romper el sistema de 22 idiomas. La pagina usa el mismo
 mecanismo pasivo por CSS (`data-es` / `data-en` / `data-pt` / `data-it` / `data-fr` / `data-zh`)
 y el mismo `<select id="selectLang">`, asi que el idioma elegido en la portada se conserva al
 entrar (`localStorage.portfolio_lang`). El espanol sigue siendo el idioma por defecto.
@@ -102,7 +102,7 @@ describen el servicio.
 
 | Fichero | Cambio |
 |---|---|
-| `servicios/auditoria-codigo-ia/index.html` | **Nuevo.** La pagina completa, en 6 idiomas. |
+| `servicios/auditoria-codigo-ia/index.html` | **Nuevo.** La pagina completa, en 22 idiomas. |
 | `servicios/auditoria-codigo-ia/audit-form.js` | **Nuevo.** Validacion y composicion del `mailto:`. |
 | `index.html` | `og:image` + `twitter:image`. Enlace en la navegacion lateral, CTA en el hero, seccion `#auditoria-ia` antes de `#productos`, tarjeta en `#servicios` y enlace en el footer. Ademas: los controles de vista/idioma/tema se movieron del pie del sidebar al tope del contenido. |
 | `styles.css` | `.content-controls` (barra de controles) y el bloque de estilos de la pagina de servicio. Se retiraron las reglas `.sidebar__controls` y `.sidebar .views/.settings`, que quedaron sin elemento al que aplicarse. |

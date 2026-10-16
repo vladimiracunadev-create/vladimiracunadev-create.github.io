@@ -1,0 +1,157 @@
+# SOURCE: assets/hoja-de-vida-chinese.pdf
+# DATE: 2026-10-16T10:41:53.145370
+
+Vladimir Acuña —
+个人简历
+第 1 页
+Vladimir Acuña
+个人简历
+解决方案架构师 | 高级全栈开发 | 现代化、自动化与应用AI
+通用职业介绍文件。本文件未针对特定职位：无论招聘岗位名称为何，均适用于任何招聘流程。
+个人信息
+姓名:
+Vladimir Bernardo Acuña Valdebenito
+所在地:
+Santiago, Chile
+电话:
++56 9 8121 8838
+电子邮箱:
+vladimir.acuna.dev@gmail.com
+网站 / 作品集:
+https://vladimiracunadev-create.github.io/
+领英:
+https://www.linkedin.com/in/vladimir-acuna-valdebenito
+GitHub:
+https://github.com/vladimiracunadev-create
+GitLab:
+https://gitlab.com/vladimir.acuna.dev-group
+更新日期:
+2026年8月
+职业简介
+• 14年在CEIS Maristas基金会的核心经验（2011-2025），开发、维护和现代化教育/心理测量平台。
+• 在公共和私营机构的Web开发和系统支持方面的早期经验，专注于PHP、SQL
+Server/MySQL、PDF/Excel报表、数据迁移和集成。
+• 当前技术作品集包括Docker、AWS、CI/CD、可观测性和AI自动化的项目和实验室，发布在GitHub和GitLab上。
+工作经历
+软件架构师 · 系统分析师兼全栈开发工程师
+Fundación CEIS Maristas — 智利圣地亚哥 · 2011年5月 — 2025年10月
+职责与工作内容:
+• 设计、开发和维护学生评估平台（测试电池）、机构模块和报表。
+• 技术迁移（PHP 5.4 → PHP 8.2+），服务器/库升级，以及JavaScript和负载测试的性能改进。
+• 开发包含指标、百分位和按班级/年级/学校分析的高级PDF/Excel报表。
+• 从Excel大规模导入和迁移数据并进行验证；通信自动化（发送、分组、跟踪）。
+• 直接支持关键用户（协调员、顾问、校领导）和生产运营。
+• 运营安全：服务器事件取证分析、监控与分析Apache/PHP日志以检测异常活动、使用OWASP
+ZAP进行安全测试、使用Apache JMeter进行负载测试。
+已验证的成果:
+• 已验证指标：Batería Online 报表/加载提升 80% · 客户支持摩擦减少 90%（2020-2025）· 数据库/代码优化 45% ·
+特定时期同时处理多达 5 条工作线。
+• 2020 年疫情：在短时间内将线下服务迁移至在线平台（推荐信中提及）。
+• CEIS Maristas期间的量化指标与成就: https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion-chinese.pdf
+技术栈：PHP, JavaScript, SQL Server, MySQL, Apache, JMeter, OWASP ZAP, Excel, FPDF/PhpSpreadsheet, Constant Contact
+此前职业经历
+为公共和私营机构提供网站开发、系统支持与报表服务。
+CONACE / 智利政府 (2008-2011) · E-syste (2011) · Corpvida / Servytech (2007-2008) · PointPay Chile (2006-2007) · Giro
+Ingeniería Ltda. (2004-2006) · 欧洲培训中心 (2003-2004) · Busquesbc (2003) · Sygnum Consultores (2003) · Golden Guide Chile
+(2003) · 动物保护之友 (2001-2002)
+
+Vladimir Acuña —
+个人简历
+第 2 页
+教育背景
+计算机与信息工程
+Universidad de Tarapacá (Arica)
+工商管理技术员（市场营销方向）
+INACAP (Santiago)
+专业技能
+后端： PHP 8.x, Node.js, TypeScript, Python (FastAPI), Go, Rust, C#, Ruby
+前端： JavaScript, HTML, CSS
+数据： SQL Server, MySQL/MariaDB, PostgreSQL, MongoDB, Redis, SQLite, DuckDB
+DevOps/云： Docker/Compose, Kubernetes, CI/CD (GitHub Actions/GitLab CI), AWS (S3, Amplify, CloudFront), Terraform
+质量/安全： hardening, secret scanning (Gitleaks, TruffleHog), anti-injection, Trivy, pip-audit, OWASP ZAP, análisis forense de
+incidentes, análisis de logs (Apache/PHP)
+可观测性： Prometheus/Grafana
+AI/代理： LangGraph, MCP (Model Context Protocol), Ollama, n8n
+语言
+• 西班牙语：母语。
+• 技术英语：流利阅读（文档、代码、论文、AI工具）。会话：基础，正在积极提升。
+项目与作品集
+各项目的技术细节、指标与源代码详见作品集PDF及网站。
+ Cloud/AWS和FinOps
+ Multi Cloud Engineering Program
+ 微系统
+ Neural Network Training Labs
+ Social Bot Scheduler
+ Polyglot Programming Labs
+ Docker Labs
+ Education Pedagogy Learning Sciences Program
+ LangGraph
+ Marketing Sales Growth Evolution Program
+ MCP + 本地Ollama
+ Guitarra Adventure
+ Unikernel Labs
+ Agentic Plugins Toolkit
+ ChofyAI Studio
+ Operational Ai Agents
+ Problem Driven Systems Lab
+ Empresa Operativa Chile
+ Claude Skills Toolkit
+ Rootcause Macos Inspector
+ Gabysql
+ Codex Skills Toolkit
+ Python Data Science Program
+ Rootcause Qr Inspector
+ Automa · PC Orchestrator v0.3.0
+ Chilean School Learning Path
+ RootCause · Windows Inspector v0.19.0
+ Architecture Built Environment Learning Program
+ Rootcause Mobile Inspector
+ Pdf Reader Windows Android
+ Modern Gamedev Program
+ Universal Payments Engineering Lab
+ Modern Cybersecurity Program
+ Psychometrics And Assessment Program
+ Machine Operator Program
+ Rootcause Server
+ Rhino Suite
+ Aws Desktop Studio
+ Human Genome Labs
+ Ai Dataset Foundry
+ Wsl Labs
+ Rootcause Blockchain Security
+ Computational Mathematics Program
+ Rootcause Bitcoin Defense
+ Modern Business Creation Program
+ Decentraland Social Arcade
+ Executive Leadership Founder Program
+ Commerce Operating System
+ Finance And Banking Evolution Program
+ Panuelo Al Viento Cueca App
+ Blockchain Learning Path
+ Qemu Kvm Labs
+ Universal Code Scanner
+ Database Systems Labs
+ Sandbox Labs
+ Video Transcript Studio
+ Artificial Intelligence Evolution Program
+ Framework Ecosystems Labs
+ Rootcause Web Inspector
+ Lifelong Learning Ecosystem
+ Violin Adventure
+ Modern Software Engineering Program
+• 网站 / 作品集: https://vladimiracunadev-create.github.io/
+• GitHub: https://github.com/vladimiracunadev-create · GitLab: https://gitlab.com/vladimir.acuna.dev-group
+
+Vladimir Acuña —
+个人简历
+第 3 页
+近期培训与活动
+• 持续学习实用自动化、ML/NLP和开发工具。
+• 巩固技术作品集，包括云实验室、微系统和面向招聘人员的文档。
+推荐人与证明文件
+• 查看推荐信: https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma-chinese.pdf
+• 查看CEIS机构背景说明: https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis-chinese.pdf
+• 查看专业成就声明: https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion-chinese.pdf
+• 最近直属上级：Jean Claude Dupry（Fundación CEIS Maristas）——联系方式可应要求提供。
+• 工作推荐人信息可应要求提供。
+本简历提供22种语言版本，详见 https://vladimiracunadev-create.github.io/

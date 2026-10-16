@@ -1,0 +1,152 @@
+# SOURCE: assets/declaracion-logros-validacion-french.pdf
+# DATE: 2026-10-16T10:41:53.145370
+
+DÉCLARATION DE RÉALISATIONS PROFESSIONNELLES
+ avec référence de validation externe
+Professionnel
+Vladimir Bernardo Acuña
+Valdebenito
+Période
+Mai 2011 - 31 octobre 2025
+Organisation
+Fundación CEIS Marista
+Document
+Rédigé par le professionnel
+lui-même
+Référence
+professionnelle
+Jean Claude Dupry
+E-mail institutionnel
+jdupry@ceismaristas.cl
+Note de portée. Ce document a été préparé par le professionnel lui-même comme antécédent formel pour des
+processus d'emploi, de recrutement et de validation d'expérience. La référence externe incluse ci-dessous permet de
+vérifier le contexte, la relation de travail et la portée générale des fonctions, sans attribuer automatiquement la paternité
+du présent document au contact mentionné.
+1. Objet du document
+Consigner, de manière ordonnée et professionnelle, les principales contributions techniques, fonctionnelles et de
+continuité opérationnelle développées par Vladimir Bernardo Acuña Valdebenito au cours de son activité à la
+Fondation CEIS Marista. Ce document vise à servir de support curriculaire et professionnel, présentant des
+réalisations, des améliorations observables et des compétences démontrées dans des contextes opérationnels
+réels.
+2. Contexte général des performances
+Au cours de la période indiquée, le professionnel a exercé des fonctions techniques et stratégiques liées au
+développement, à la maintenance, à la modernisation, au support, à l'automatisation et à l'intégration de
+plateformes utilisées dans des environnements de production réels. Son travail a combiné analyse,
+développement full stack, résolution d'incidents, amélioration des performances, coordination technique et
+continuité opérationnelle, tout en gérant simultanément de multiples fronts de travail et contraintes
+d'infrastructure.
+3. Principales réalisations et contributions
+Modernisation technologique et réduction de la dette technique
+ Participation à des processus de modernisation progressive de systèmes legacy, notamment dans des
+environnements PHP, favorisant la transition vers des bases technologiques plus actuelles et maintenables.
+ Refactoring et amélioration de modules critiques, augmentant la lisibilité, la maintenabilité, la stabilité et le
+potentiel d'évolution des composants pertinents.
+ Préparation technique des plateformes existantes pour leur continuité et amélioration future, même dans
+des scénarios où un renouvellement intégral immédiat n'était pas possible.
+Performance, stabilité et continuité opérationnelle
+ Optimisation des processus d'exécution critique, avec réduction des temps de réponse et amélioration de
+l'expérience opérationnelle des utilisateurs internes et externes.
+Déclaration de Réalisations Professionnelles - Page 1
+
+ Traitement des incidents en production avec une approche analytique, identifiant les causes, définissant
+des actions correctives et appliquant des mesures préventives pour réduire les récurrences.
+ Maintien de la continuité opérationnelle dans des contextes avec des limitations techniques, résolvant les
+contingences avec pragmatisme et engagement envers la disponibilité du service.
+Migrations, infrastructure et standardisation
+ Participation aux migrations de serveurs et plateformes, fournissant une coordination technique pour
+réduire les risques d'interruption.
+ Collaboration à la standardisation des configurations et environnements, contribuant à une exploitation plus
+stable et contrôlée.
+ Adaptation des solutions aux infrastructures restrictives, obtenant des résultats fonctionnels même avec
+des ressources limitées.
+Automatisation, outils internes et intégrations
+ Conception et implémentation d'outils et solutions internes visant à répondre à des besoins opérationnels
+concrets.
+ Automatisation de processus manuels, réduisant la charge opérationnelle, les erreurs et les temps
+d'exécution.
+ Support et implémentation sur des plateformes telles que LimeSurvey et WordPress, ainsi que des
+intégrations sur SQL Server et MySQL.
+Communications, efficacité et innovation appliquée
+ Mise en place de processus d'envoi massif d'e-mails via PHP et Constant Contact, soutenant la continuité
+des communications institutionnelles.
+ Proposition d'alternatives visant à réduire les coûts opérationnels liés aux communications de masse.
+ Utilisation de technologies d'intelligence artificielle en 2024 et 2025 comme support d'analyse, de résolution
+de problèmes et d'exploration de solutions techniques.
+Sécurité, analyse forensique et résilience du serveur
+ Formation en cybersécurité suivie pendant la période de pandémie, puis animation d'une conférence de
+cybersécurité dans le cadre institutionnel, destinée à diffuser les bonnes pratiques.
+ Analyse forensique d'attaques du serveur à plus d'une reprise, en examinant les preuves disponibles pour
+déterminer l'origine, le vecteur d'entrée et la portée de l'incident.
+ Gestion et revue systématique des journaux du serveur et de l'environnement PHP durant les dernières
+années de la période, avec un double objectif : corriger les erreurs de code et détecter une activité anormale
+provenant d'adresses IP inconnues.
+ Améliorations de la sécurité du système à partir de tests avec OWASP ZAP, en simulant des attaques pour
+identifier les points faibles et appliquer les corrections correspondantes.
+ Tests de charge et mesure du comportement du serveur avec Apache JMeter, afin de dimensionner la
+capacité de la plateforme face à une demande concurrente.
+4. Résultats observables et améliorations rapportées
+ Améliorations de performance estimées jusqu'à 80 % dans certains processus du système, notamment
+dans la génération de rapports et le chargement de services de la plateforme Batería Online, incluant le
+transfert d'une partie de la logique vers JavaScript pour optimiser la réactivité.
+Déclaration de Réalisations Professionnelles - Page 2
+
+ Réduction estimée proche de 90 % dans les processus de support client de la Batería Online entre 2020 et
+la date de séparation, soutenue par des améliorations de flux, des instructions plus claires et des
+mécanismes de continuité face aux interruptions ou pertes de connexion.
+ Optimisation approximative de 45 % dans certains composants du système de batteries, tant au niveau de
+la base de données que du code, par élimination des doublons, nettoyage des structures obsolètes et
+réorganisation de l'information en schémas plus efficaces.
+ Accomplissement constant des tâches et livrables, s'adaptant aussi bien aux planifications formelles qu'aux
+changements de besoins apparus en cours de développement.
+ Réalisation anticipée de tâches programmées en 2025 et, dans au moins un cas pertinent, évitement d'un
+recours externe par étude et résolution interne d'un problème initialement prévu pour une nouvelle
+embauche.
+ Support simultané de multiples produits ou lignes de travail au sein de l'institution, atteignant jusqu'à cinq
+fronts concurrents pendant certaines périodes.
+5. Compétences démontrées
+Compétence
+Description
+Architecture et développement
+Implication full stack dans l'analyse, le développement,
+l'intégration et le support de plateformes de production.
+Modernisation de systèmes legacy
+Capacité à faire évoluer des systèmes existants sans
+compromettre la continuité opérationnelle.
+Optimisation des performances
+Amélioration des délais, processus critiques et efficacité
+fonctionnelle.
+Résolution d'incidents
+Diagnostic, confinement et correction de problèmes en
+production.
+Automatisation et amélioration
+continue
+Conception de solutions internes, réduction des tâches manuelles
+et focus permanent sur l'efficacité.
+Sécurité et analyse forensique
+Détection d'activité anormale, analyse d'incidents sur le serveur
+et renforcement du système par des tests de sécurité.
+6. Référence de validation externe
+Aux fins de vérification du contexte professionnel, de la relation de travail et de la portée générale des fonctions,
+la référence professionnelle suivante peut être utilisée :
+Nom
+Jean Claude Dupry
+Poste
+Production Manager / Fundación CEIS Orientación
+E-mail
+jdupry@ceismaristas.cl
+Mobile
++56 9 9415 6984
+Important : la référence ci-dessus est incluse dans le seul but de faciliter la validation du contexte professionnel et d'emploi.
+Son inclusion n'implique pas la paternité, la révision préalable, l'approbation écrite ni l'émission de ce document par la
+personne nommée ci-dessus, sauf confirmation expresse ultérieure.
+Déclaration de Réalisations Professionnelles - Page 3
+
+7. Déclaration du professionnel
+Je déclare que les informations présentées ici ont été élaborées de bonne foi, à partir de fonctions effectivement
+exercées, de résultats observés et d'antécédents professionnels disponibles. Ce document peut être complété
+par un CV, un portfolio, une lettre de recommandation, des dépôts et d'autres documents justificatifs demandés
+lors d'un processus d'évaluation professionnelle.
+Vladimir Bernardo Acuña Valdebenito
+Date d'émission : 13 mars 2026
+Document émis par le professionnel
+Déclaration de Réalisations Professionnelles - Page 4

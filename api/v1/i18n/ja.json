@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "generated_at": "2026-10-16",
+    "language": "ja",
+    "language_name": "Japanese",
+    "native_name": "日本語",
+    "direction": "ltr",
+    "source": "https://github.com/vladimiracunadev-create/vladimiracunadev-create/blob/main/README.ja.md"
+  },
+  "profile": {
+    "name": "Vladimir Acuña",
+    "title": "ソリューションアーキテクト·シニアフルスタック·デジタル変革·経営・運営",
+    "summary": "- 🔁 再発可能なデモ— クローン、実行、検証。 - 🧰 標準化された工具細工— Makefiles、ハブ CLI、doctorと と と と 、smokeリポジトリごとに。 - 🛡️ 深さの防衛— 秘密のスキャン、ポリシー、および明示的に禁止された慣行。 - 📈 観察性 — /health, /ready, /metrics、ダッシュボードおよびトレーサビリティ。 - 📚 オーディエンス・アウェアのドキュメント— リポジトリに応じて、リクルーター、初心者、DevOps、またはセキュリティ。 - 📦 製品の流通— ダウンロード可能なリリース、チェックサム、および証拠のビルド。 該当する場合、商業/ストアのシグネチャは保留中のものとして宣言しました。 - 🌍 国際的なサービス— 6つの言語のポートフォリオ(ES)·エントリー·ツイート·インフォメーション·フリガナ·ZH)。 - 🧭 技術的な正直者— ラベルを貼る全てのケースOPERATIONAL, DOCUMENTED/SCAFFOLD, またはPLANNED.",
+    "website": "https://vladimiracunadev-create.github.io/i18n/ja/",
+    "github": "https://github.com/vladimiracunadev-create",
+    "gitlab": "https://gitlab.com/vladimir.acuna.dev-group"
+  },
+  "sections": [
+    "🎯あなたを見つけるためにここに",
+    "✅検証可能なステータス",
+    "🗺️地球の環境システム",
+    "📦実質の配分を用いるプロダクト",
+    "🧪エンジニアリング研究所",
+    "🤖応用AI",
+    "📚完全な技術的なカリキュラム",
+    "🔬科学コンピューティング",
+    "⚡自分を評価するために10分を持っている場合",
+    "🧠リポジトリ全体で適用する標準",
+    "✅プロフェッショナルスコープ",
+    "🧭経営・管理・非コーディングのキャリア機会",
+    "🤖AI-Assisted Development Flow(AI-Assisted Development Flow) 開発実績",
+    "📌利用条件",
+    "📬コンタクト"
+  ],
+  "artifacts": {
+    "portfolio": "/assets/portafolio-japanese.pdf",
+    "resume": "/assets/hoja-de-vida-japanese.pdf",
+    "recruiter": "/assets/cv-reclutador-japanese.pdf",
+    "ats": "/assets/cv-ats-japanese.pdf",
+    "achievements": "/assets/declaracion-logros-validacion-japanese.pdf",
+    "recommendation": "/assets/carta-recomendacion_sin_firma-japanese.pdf",
+    "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-japanese.pdf"
+  }
+}

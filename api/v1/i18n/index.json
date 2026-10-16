@@ -1,0 +1,383 @@
+{
+  "meta": {
+    "generated_at": "2026-10-16",
+    "count": 22,
+    "default": "es"
+  },
+  "languages": [
+    {
+      "code": "es",
+      "name": "Spanish",
+      "native_name": "Español",
+      "direction": "ltr",
+      "web": "/i18n/es/",
+      "api": "/api/v1/i18n/es.json",
+      "artifacts": {
+        "portfolio": "/assets/portafolio.pdf",
+        "resume": "/assets/hoja-de-vida.pdf",
+        "recruiter": "/assets/cv-reclutador.pdf",
+        "ats": "/assets/cv-ats.pdf",
+        "achievements": "/assets/declaracion-logros-validacion.pdf",
+        "recommendation": "/assets/carta-recomendacion_sin_firma.pdf",
+        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis.pdf"
+      }
+    },
+    {
+      "code": "en",
+      "name": "English",
+      "native_name": "English",
+      "direction": "ltr",
+      "web": "/i18n/en/",
+      "api": "/api/v1/i18n/en.json",
+      "artifacts": {
+        "portfolio": "/assets/portafolio-english.pdf",
+        "resume": "/assets/hoja-de-vida-english.pdf",
+        "recruiter": "/assets/cv-reclutador-english.pdf",
+        "ats": "/assets/cv-ats-english.pdf",
+        "achievements": "/assets/declaracion-logros-validacion-english.pdf",
+        "recommendation": "/assets/carta-recomendacion_sin_firma-english.pdf",
+        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-english.pdf"
+      }
+    },
+    {
+      "code": "pt",
+      "name": "Portuguese",
+      "native_name": "Português",
+      "direction": "ltr",
+      "web": "/i18n/pt/",
+      "api": "/api/v1/i18n/pt.json",
+      "artifacts": {
+        "portfolio": "/assets/portafolio-portuguese.pdf",
+        "resume": "/assets/hoja-de-vida-portuguese.pdf",
+        "recruiter": "/assets/cv-reclutador-portuguese.pdf",
+        "ats": "/assets/cv-ats-portuguese.pdf",
+        "achievements": "/assets/declaracion-logros-validacion-portuguese.pdf",
+        "recommendation": "/assets/carta-recomendacion_sin_firma-portuguese.pdf",
+        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-portuguese.pdf"
+      }
+    },
+    {
+      "code": "it",
+      "name": "Italian",
+      "native_name": "Italiano",
+      "direction": "ltr",
+      "web": "/i18n/it/",
+      "api": "/api/v1/i18n/it.json",
+      "artifacts": {
+        "portfolio": "/assets/portafolio-italian.pdf",
+        "resume": "/assets/hoja-de-vida-italian.pdf",
+        "recruiter": "/assets/cv-reclutador-italian.pdf",
+        "ats": "/assets/cv-ats-italian.pdf",
+        "achievements": "/assets/declaracion-logros-validacion-italian.pdf",
+        "recommendation": "/assets/carta-recomendacion_sin_firma-italian.pdf",
+        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-italian.pdf"
+      }
+    },
+    {
+      "code": "fr",
+      "name": "French",
+      "native_name": "Français",
+      "direction": "ltr",
+      "web": "/i18n/fr/",
+      "api": "/api/v1/i18n/fr.json",
+      "artifacts": {
+        "portfolio": "/assets/portafolio-french.pdf",
+        "resume": "/assets/hoja-de-vida-french.pdf",
+        "recruiter": "/assets/cv-reclutador-french.pdf",
+        "ats": "/assets/cv-ats-french.pdf",
+        "achievements": "/assets/declaracion-logros-validacion-french.pdf",
+        "recommendation": "/assets/carta-recomendacion_sin_firma-french.pdf",
+        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-french.pdf"
+      }
+    },
+    {
+      "code": "zh",
+      "name": "Simplified Chinese",
+      "native_name": "简体中文",
+      "direction": "ltr",
+      "web": "/i18n/zh/",
+      "api": "/api/v1/i18n/zh.json",
+      "artifacts": {
+        "portfolio": "/assets/portafolio-chinese.pdf",
+        "resume": "/assets/hoja-de-vida-chinese.pdf",
+        "recruiter": "/assets/cv-reclutador-chinese.pdf",
+        "ats": "/assets/cv-ats-chinese.pdf",
+        "achievements": "/assets/declaracion-logros-validacion-chinese.pdf",
+        "recommendation": "/assets/carta-recomendacion_sin_firma-chinese.pdf",
+        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-chinese.pdf"
+      }
+    },
+    {
+      "code": "zh-TW",
+      "name": "Traditional Chinese",
+      "native_name": "繁體中文",
+      "direction": "ltr",
+      "web": "/i18n/zh-TW/",
+      "api": "/api/v1/i18n/zh-TW.json",
+      "artifacts": {
+        "portfolio": "/assets/portafolio-traditional-chinese.pdf",
+        "resume": "/assets/hoja-de-vida-traditional-chinese.pdf",
+        "recruiter": "/assets/cv-reclutador-traditional-chinese.pdf",
+        "ats": "/assets/cv-ats-traditional-chinese.pdf",
+        "achievements": "/assets/declaracion-logros-validacion-traditional-chinese.pdf",
+        "recommendation": "/assets/carta-recomendacion_sin_firma-traditional-chinese.pdf",
+        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-traditional-chinese.pdf"
+      }
+    },
+    {
+      "code": "ja",
+      "name": "Japanese",
+      "native_name": "日本語",
+      "direction": "ltr",
+      "web": "/i18n/ja/",
+      "api": "/api/v1/i18n/ja.json",
+      "artifacts": {
+        "portfolio": "/assets/portafolio-japanese.pdf",
+        "resume": "/assets/hoja-de-vida-japanese.pdf",
+        "recruiter": "/assets/cv-reclutador-japanese.pdf",
+        "ats": "/assets/cv-ats-japanese.pdf",
+        "achievements": "/assets/declaracion-logros-validacion-japanese.pdf",
+        "recommendation": "/assets/carta-recomendacion_sin_firma-japanese.pdf",
+        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-japanese.pdf"
+      }
+    },
+    {
+      "code": "ko",
+      "name": "Korean",
+      "native_name": "한국어",
+      "direction": "ltr",
+      "web": "/i18n/ko/",
+      "api": "/api/v1/i18n/ko.json",
+      "artifacts": {
+        "portfolio": "/assets/portafolio-korean.pdf",
+        "resume": "/assets/hoja-de-vida-korean.pdf",
+        "recruiter": "/assets/cv-reclutador-korean.pdf",
+        "ats": "/assets/cv-ats-korean.pdf",
+        "achievements": "/assets/declaracion-logros-validacion-korean.pdf",
+        "recommendation": "/assets/carta-recomendacion_sin_firma-korean.pdf",
+        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-korean.pdf"
+      }
+    },
+    {
+      "code": "tr",
+      "name": "Turkish",
+      "native_name": "Türkçe",
+      "direction": "ltr",
+      "web": "/i18n/tr/",
+      "api": "/api/v1/i18n/tr.json",
+      "artifacts": {
+        "portfolio": "/assets/portafolio-turkish.pdf",
+        "resume": "/assets/hoja-de-vida-turkish.pdf",
+        "recruiter": "/assets/cv-reclutador-turkish.pdf",
+        "ats": "/assets/cv-ats-turkish.pdf",
+        "achievements": "/assets/declaracion-logros-validacion-turkish.pdf",
+        "recommendation": "/assets/carta-recomendacion_sin_firma-turkish.pdf",
+        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-turkish.pdf"
+      }
+    },
+    {
+      "code": "ru",
+      "name": "Russian",
+      "native_name": "Русский",
+      "direction": "ltr",
+      "web": "/i18n/ru/",
+      "api": "/api/v1/i18n/ru.json",
+      "artifacts": {
+        "portfolio": "/assets/portafolio-russian.pdf",
+        "resume": "/assets/hoja-de-vida-russian.pdf",
+        "recruiter": "/assets/cv-reclutador-russian.pdf",
+        "ats": "/assets/cv-ats-russian.pdf",
+        "achievements": "/assets/declaracion-logros-validacion-russian.pdf",
+        "recommendation": "/assets/carta-recomendacion_sin_firma-russian.pdf",
+        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-russian.pdf"
+      }
+    },
+    {
+      "code": "vi",
+      "name": "Vietnamese",
+      "native_name": "Tiếng Việt",
+      "direction": "ltr",
+      "web": "/i18n/vi/",
+      "api": "/api/v1/i18n/vi.json",
+      "artifacts": {
+        "portfolio": "/assets/portafolio-vietnamese.pdf",
+        "resume": "/assets/hoja-de-vida-vietnamese.pdf",
+        "recruiter": "/assets/cv-reclutador-vietnamese.pdf",
+        "ats": "/assets/cv-ats-vietnamese.pdf",
+        "achievements": "/assets/declaracion-logros-validacion-vietnamese.pdf",
+        "recommendation": "/assets/carta-recomendacion_sin_firma-vietnamese.pdf",
+        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-vietnamese.pdf"
+      }
+    },
+    {
+      "code": "th",
+      "name": "Thai",
+      "native_name": "ไทย",
+      "direction": "ltr",
+      "web": "/i18n/th/",
+      "api": "/api/v1/i18n/th.json",
+      "artifacts": {
+        "portfolio": "/assets/portafolio-thai.pdf",
+        "resume": "/assets/hoja-de-vida-thai.pdf",
+        "recruiter": "/assets/cv-reclutador-thai.pdf",
+        "ats": "/assets/cv-ats-thai.pdf",
+        "achievements": "/assets/declaracion-logros-validacion-thai.pdf",
+        "recommendation": "/assets/carta-recomendacion_sin_firma-thai.pdf",
+        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-thai.pdf"
+      }
+    },
+    {
+      "code": "de",
+      "name": "German",
+      "native_name": "Deutsch",
+      "direction": "ltr",
+      "web": "/i18n/de/",
+      "api": "/api/v1/i18n/de.json",
+      "artifacts": {
+        "portfolio": "/assets/portafolio-german.pdf",
+        "resume": "/assets/hoja-de-vida-german.pdf",
+        "recruiter": "/assets/cv-reclutador-german.pdf",
+        "ats": "/assets/cv-ats-german.pdf",
+        "achievements": "/assets/declaracion-logros-validacion-german.pdf",
+        "recommendation": "/assets/carta-recomendacion_sin_firma-german.pdf",
+        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-german.pdf"
+      }
+    },
+    {
+      "code": "uk",
+      "name": "Ukrainian",
+      "native_name": "Українська",
+      "direction": "ltr",
+      "web": "/i18n/uk/",
+      "api": "/api/v1/i18n/uk.json",
+      "artifacts": {
+        "portfolio": "/assets/portafolio-ukrainian.pdf",
+        "resume": "/assets/hoja-de-vida-ukrainian.pdf",
+        "recruiter": "/assets/cv-reclutador-ukrainian.pdf",
+        "ats": "/assets/cv-ats-ukrainian.pdf",
+        "achievements": "/assets/declaracion-logros-validacion-ukrainian.pdf",
+        "recommendation": "/assets/carta-recomendacion_sin_firma-ukrainian.pdf",
+        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-ukrainian.pdf"
+      }
+    },
+    {
+      "code": "pl",
+      "name": "Polish",
+      "native_name": "Polski",
+      "direction": "ltr",
+      "web": "/i18n/pl/",
+      "api": "/api/v1/i18n/pl.json",
+      "artifacts": {
+        "portfolio": "/assets/portafolio-polish.pdf",
+        "resume": "/assets/hoja-de-vida-polish.pdf",
+        "recruiter": "/assets/cv-reclutador-polish.pdf",
+        "ats": "/assets/cv-ats-polish.pdf",
+        "achievements": "/assets/declaracion-logros-validacion-polish.pdf",
+        "recommendation": "/assets/carta-recomendacion_sin_firma-polish.pdf",
+        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-polish.pdf"
+      }
+    },
+    {
+      "code": "ar",
+      "name": "Arabic",
+      "native_name": "العربية",
+      "direction": "rtl",
+      "web": "/i18n/ar/",
+      "api": "/api/v1/i18n/ar.json",
+      "artifacts": {
+        "portfolio": "/assets/portafolio-arabic.pdf",
+        "resume": "/assets/hoja-de-vida-arabic.pdf",
+        "recruiter": "/assets/cv-reclutador-arabic.pdf",
+        "ats": "/assets/cv-ats-arabic.pdf",
+        "achievements": "/assets/declaracion-logros-validacion-arabic.pdf",
+        "recommendation": "/assets/carta-recomendacion_sin_firma-arabic.pdf",
+        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-arabic.pdf"
+      }
+    },
+    {
+      "code": "fa",
+      "name": "Persian",
+      "native_name": "فارسی",
+      "direction": "rtl",
+      "web": "/i18n/fa/",
+      "api": "/api/v1/i18n/fa.json",
+      "artifacts": {
+        "portfolio": "/assets/portafolio-persian.pdf",
+        "resume": "/assets/hoja-de-vida-persian.pdf",
+        "recruiter": "/assets/cv-reclutador-persian.pdf",
+        "ats": "/assets/cv-ats-persian.pdf",
+        "achievements": "/assets/declaracion-logros-validacion-persian.pdf",
+        "recommendation": "/assets/carta-recomendacion_sin_firma-persian.pdf",
+        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-persian.pdf"
+      }
+    },
+    {
+      "code": "id",
+      "name": "Indonesian",
+      "native_name": "Bahasa Indonesia",
+      "direction": "ltr",
+      "web": "/i18n/id/",
+      "api": "/api/v1/i18n/id.json",
+      "artifacts": {
+        "portfolio": "/assets/portafolio-indonesian.pdf",
+        "resume": "/assets/hoja-de-vida-indonesian.pdf",
+        "recruiter": "/assets/cv-reclutador-indonesian.pdf",
+        "ats": "/assets/cv-ats-indonesian.pdf",
+        "achievements": "/assets/declaracion-logros-validacion-indonesian.pdf",
+        "recommendation": "/assets/carta-recomendacion_sin_firma-indonesian.pdf",
+        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-indonesian.pdf"
+      }
+    },
+    {
+      "code": "nl",
+      "name": "Dutch",
+      "native_name": "Nederlands",
+      "direction": "ltr",
+      "web": "/i18n/nl/",
+      "api": "/api/v1/i18n/nl.json",
+      "artifacts": {
+        "portfolio": "/assets/portafolio-dutch.pdf",
+        "resume": "/assets/hoja-de-vida-dutch.pdf",
+        "recruiter": "/assets/cv-reclutador-dutch.pdf",
+        "ats": "/assets/cv-ats-dutch.pdf",
+        "achievements": "/assets/declaracion-logros-validacion-dutch.pdf",
+        "recommendation": "/assets/carta-recomendacion_sin_firma-dutch.pdf",
+        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-dutch.pdf"
+      }
+    },
+    {
+      "code": "hi",
+      "name": "Hindi",
+      "native_name": "हिन्दी",
+      "direction": "ltr",
+      "web": "/i18n/hi/",
+      "api": "/api/v1/i18n/hi.json",
+      "artifacts": {
+        "portfolio": "/assets/portafolio-hindi.pdf",
+        "resume": "/assets/hoja-de-vida-hindi.pdf",
+        "recruiter": "/assets/cv-reclutador-hindi.pdf",
+        "ats": "/assets/cv-ats-hindi.pdf",
+        "achievements": "/assets/declaracion-logros-validacion-hindi.pdf",
+        "recommendation": "/assets/carta-recomendacion_sin_firma-hindi.pdf",
+        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-hindi.pdf"
+      }
+    },
+    {
+      "code": "el",
+      "name": "Greek",
+      "native_name": "Ελληνικά",
+      "direction": "ltr",
+      "web": "/i18n/el/",
+      "api": "/api/v1/i18n/el.json",
+      "artifacts": {
+        "portfolio": "/assets/portafolio-greek.pdf",
+        "resume": "/assets/hoja-de-vida-greek.pdf",
+        "recruiter": "/assets/cv-reclutador-greek.pdf",
+        "ats": "/assets/cv-ats-greek.pdf",
+        "achievements": "/assets/declaracion-logros-validacion-greek.pdf",
+        "recommendation": "/assets/carta-recomendacion_sin_firma-greek.pdf",
+        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-greek.pdf"
+      }
+    }
+  ]
+}

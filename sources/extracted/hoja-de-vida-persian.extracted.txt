@@ -1,0 +1,577 @@
+# SOURCE: assets/hoja-de-vida-persian.pdf
+# DATE: 2026-10-16T10:41:53.145370
+
+Vladimir Acuña · 2026-10-16 · 1
+رزوﻣﻪ ﺣﺮﻓﻪ ای
+·Full-Stackراه ﺣﻞ ﻣﻌﻤﺎری
+در ﻫﺮsmokeوHub CLIdoctor اﺑﺰار اﺳﺘﺎﻧﺪارد ﺳﺎزﯾﻔﺎﯾﻞ ﻫﺎی🧰- ﮐﻠﻮن، اﺟﺮا، اﻋﺘﺒﺎرReroducible داﻧﻠﻮد ﺑﺎزی🔁  -
+,health, /ready, /metrics ﻗﺎﺑﻠﯿﺖ ﭘﺬﯾﺮی📈 دﻓﺎع در ﻋﻤﻘﺎﺳﮑﻦ ﻣﺨﻔﯽ، ﺳﯿﺎﺳﺖ ﻫﺎ و ﺷﯿﻮه ﻫﺎی آﺷﮑﺎرا ﻣﻤﻨﻮع🛡ﻣﺨﺰن
+📦 ﯾﺎ اﻣﻨﯿﺖ، ﺑﺴﺘﻪ ﺑﻪ ﻣﺨﺰنDevOps آرﺷﯿﻮ ﺑﺮﭼﺴﺐ ﻫﺎی ﻣﺮﺗﺒﻂ- اﺳﺘﺨﺪام ﮐﻨﻨﺪه، ﻣﺒﺘﺪی،📚داﺷﺒﻮرد و ﻗﺎﺑﻠﯿﺖ ردﯾﺎﺑﯽ
+🌍ﺗﻮزﯾﻊ ﻣﺤﺼﻮل- ﻧﺴﺨﻪ ﻫﺎی ﻗﺎﺑﻞ داﻧﻠﻮد، ﭼﮑﻪ ﻫﺎ و ﺳﺎﺧﺖ ﺷﻮاﻫﺪ؛ اﻣﻀﺎﻫﺎی ﺗﺠﺎری / ﻓﺮوﺷﮕﺎه اﻋلام ﺷﺪه در ﺻﻮرت ﻟﺰوم
+Internationalization — portfolio in 22 languages (ES · EN · PT · IT · FR · ZH · ZH-TW · JA · KO · TR · RU · VI · TH · DE ·
+OPERATIONAL, ﺻﺪاﻗﺖ ﻓﻨﯿﻬﺮ ﭘﺮوﻧﺪه ای ﮐﻪ ﺑﺮﭼﺴﺐ زده ﺷﻮد🧭  - .UK · PL · AR · FA · ID · NL · HI · EL)
+.PLANNEDﯾﺎDOCUMENTED/SCAFFOLD
+آﻧﭽﻪ در اﯾﻨﺠﺎ ﭘﯿﺪا ﺧﻮاﻫﯿﺪ ﮐﺮد🎯
+«repoاﯾﻦ ﯾﮏ
+- ﮐﻠﻮن، اﺟﺮا، اﻋﺘﺒﺎرReroducibleداﻧﻠﻮد ﺑﺎزی 🔁
+در ﻫﺮ ﻣﺨﺰنsmokeوHub CLIdoctorﻔﺎﯾﻞ ﻫﺎیاﺑﺰار اﺳﺘﺎﻧﺪارد ﺳﺎزﯾ 🧰
+ﺎﺳﮑﻦ ﻣﺨﻔﯽ، ﺳﯿﺎﺳﺖ ﻫﺎ و ﺷﯿﻮه ﻫﺎی آﺷﮑﺎرا ﻣﻤﻨﻮعدﻓﺎع در ﻋﻤﻘ 🛡
+, داﺷﺒﻮرد و ﻗﺎﺑﻠﯿﺖ ردﯾﺎﺑﯽhealth, /ready, /metrics/ — ﻗﺎﺑﻠﯿﺖ ﭘﺬﯾﺮی 📈
+ ﯾﺎ اﻣﻨﯿﺖ، ﺑﺴﺘﻪ ﺑﻪ ﻣﺨﺰنDevOps- اﺳﺘﺨﺪام ﮐﻨﻨﺪه، ﻣﺒﺘﺪی،آرﺷﯿﻮ ﺑﺮﭼﺴﺐ ﻫﺎی ﻣﺮﺗﺒﻂ 📚
+- ﻧﺴﺨﻪ ﻫﺎی ﻗﺎﺑﻞ داﻧﻠﻮد، ﭼﮑﻪ ﻫﺎ و ﺳﺎﺧﺖ ﺷﻮاﻫﺪ؛ اﻣﻀﺎﻫﺎی ﺗﺠﺎری / ﻓﺮوﺷﮕﺎه اﻋلام ﺷﺪه در ﺻﻮرت ﻟﺰومﺗﻮزﯾﻊ ﻣﺤﺼﻮل  📦
+Internationalization — portfolio in 22 languages (ES · EN · PT · IT · FR · ZH · ZH-TW · JA · KO · TR · RU · VI · TH · 🌍
+.DE · UK · PL · AR · FA · ID · NL · HI · EL)
+.PLANNEDﯾﺎOPERATIONAL, DOCUMENTED/SCAFFOLDﻬﺮ ﭘﺮوﻧﺪه ای ﮐﻪ ﺑﺮﭼﺴﺐ زده ﺷﻮدﺻﺪاﻗﺖ ﻓﻨﯿ 🧭
+وﺿﻌﯿﺖ ﻗﺎﺑﻞ ﺗﺎﯾﯿﺪ✅
+SurfaceConcrete evidence
+ﭘﻮﺷﺶ ﺗﺴﺖ 🧪OS CI ﭼﻨﺪ ﺑﻌﺪیAutoma150 pytest ·CI·  ﺗﺴﺖ158 در ﺷﯿﻠﯽEmpresa وﺣﺸﺖ0)fu503.8M + ﺗﺴﺖGabySQL828
+ﺗﻮﻟﯿﺪ ﮐﻨﻨﺪﮔﺎن 🤖 ﻣﻌﯿﺎری39ﺒﺎ ﻋﺎﻣﻠ13 ﻋﻤﻠﯿﺎﺗﯽAI٪ ﭘﻮﺷﺶ100،25 ﺗﺎ01)ﻣﻮرد ﻫﺎی ﺑﺎزﮔﺸﺖ ﻋﻤﻠﯿﺎﺗﯽLangGraph RealWorld25/25
+evalsﺑﺮای
+Polyglot 🔗
+ﯾﮑﭙﺎرﭼﮕﯽ
+ اﻟﮕﻮDB · 20+ ·11+ ﻣﻮﺗﻮرﻫﺎی18 ﺣﺴﺎﺑﺮسی ﻣﯽ ﺷﻮدDockerﺒﻪ ﺻﻮرت ﺟﺪاﮔﺎﻧﻪ ﺑﺎ ﻋﻤﻠﯿﺎت ﻋﻤﻠﯿﺎﺗﯿn8n19ﻓﺮﺳﺘﻨﺪه ﻣﻮرد20
+Distribution 📦releases across an ecosystem of 64 owned public repositories · installers and artifacts .exe · .msi · .dmg · 151
+.apk with checksums and build evidence; commercial/store signatures in progress where applicable
+زﻧﺠﯿﺮه ﺗﺎﻣﯿﻦ 🛡·CycloneDX SBOM·QL·Semgrep·Bandit·Trivy·Grypeﮐﺪ
+Curricula 📚از ﺳﺎﺧﺘﺎر ﻣﺨﺰن واﻗﻌﯽ ﯾﺎ ﯾﮏ ﻣﻨﺒﻊ ﻗﺎﺑﻞ راﺳﺘﯽ ﮐﻪ در ﻣﺨﺰنa workflow ﺑﺮﻧﺎﻣﻪ، ﺷﻤﺎرش ﺷﺪه ﺗﻮﺳﻂ21ﻘﺎﺑﻞ ﺗﺎﯾﯿﺪ در ﮐلاﺳ14530
+اﻋلام ﺷﺪه اﺳﺖ – ﮐﻪ ﻧﻪ ﺑﺎ دﺳﺖ ﻧﻮﺷﺘﻪ ﺷﺪه اﺳﺖ
+ﻧﻤﻮﻧﻪ ﮐﺎرﻫﺎ 🌐100·CV Data API·Androidﺗﻮﻟﯿﺪ ﺷﺪه ﺗﻮﺳﻂ ﺧﻂ ﻟﻮﻟﻪPDF 154 ·  زﺑﺎنPWA· 22ﻧﺼﺐ
+ﺗﻠﻪ 🔒اﺟﺎزهINTERNET(Android در ﻫﺮ ﺳﺎﺧﺖ )ﺑﺪونEmpresaﻋﺪم ﺗﻘﺎرن ﺻﻔﺮ در ﻣﺤﺼﻮلات ﻗﺎﻧﻮﻧﯽ و ﻋﻤﻠﮑﺮد
+
+Vladimir Acuña · 2026-10-16 · 2
+SurfaceConcrete evidence
+ﺳﺎﯾﺖ ﻫﺎی 🌐
+ﻣﻨﺘشر ﺷﺪه
+ ﺗﺎﯾﯿﺪ56 ﻓﺮود، ﯾﮏ ﻣﺤﺼﻮل، ﺑﺮﻧﺎﻣﻪ ﯾﺎ ﻫﺪاﯾﺖ ﮐﻨﻨﺪه اﮐﻮﺳﯿﺴﺘﻢ، ﺑﻪ ﻋلاوه ﻧﻤﻮﻧﻪ ﮐﺎرﻫﺎ – ﻫﺮ ﮐﺪام از ﻣﺨﺰن ﺧﻮد را 55 ﺻﻔﺤﻪ56
+HTTP200ﺷﺪه ﺑﺎ
+ﻣﺤﺼﻮلات ﺑﺎ ﺗﻮزﯾﻊ واﻗﻌﯽ📦
+ﻧﺮم اﻓﺰاری ﮐﻪ داﻧﻠﻮد، ﻧﺼﺐ و اﺳﺘﻔﺎده ﻣﯽ ﺷﻮد - ﻧﻪ ﺗﻨﻬﺎ ﮐﻠﻮن ﺷﺪه اﺳﺖ
+ProductWhat it isStackDelivery
+RootCause 🔍
+Windows
+Cybersecurity forensics: every anomalous resource
+distortion may be the first sign of a threat. Diagnose
+first, intervene later
+Rust 🦀  ·
+ETW/WPR
+v0.19.0 · 16 releases · 5 editions: GUI ·
+Portable · CLI · PowerShell · VS Code ·
+landing
+RootCause 📱
+Mobile
+The mobile sibling: a forensic sensor that compares
+each app against itself, flags stalkerware, and
+separates granted permissions from merely
+requested ones
+Flutter · Kotlin ·
+Swift
+v0.8.0 · verifiable Android APK · 5
+languages · zero telemetry · landing
+RootCause 🍎
+macOS
+،ﭘﺎﯾﺪاری، دروازه ﺑﺎن، macOSlaunchdﻧﺴﺨﻪ
+ ﻣﺠﻮزﻫﺎی، ﻓﺮاﯾﻨﺪﻫﺎی اﻣﻀﺎ ﺷﺪه وTCC
+ﻫﻤﺴﺎﯾﮕﺎن ﺷﺒﮑﻪ - ﻫﺮ ﺳﻄﺢ در ﺑﺮاﺑﺮ ﯾﮏ ﺣﺎﻟﺖ ﺷﻨﺎﺧﺘﻪ
+ﺷﺪه ﺑﺮرسی ﻣﯽ ﺷﻮد
+Rust 🦀  ·macOS
++13
+Apache-2.0·· v0.1.0
+landing
+RootCause 🖥
+Server
+The server sibling: correlates what no single log sees
+together — exposed surface, access-attempt bursts,
+a session granted to that same address, critical file
+integrity, and sensor silence — and turns it into one
+actionable sentence
+Rust 🦀  ·
+Windows · Linux
+· macOS
+v0.2.0 · 18 rules with evidence and
+runbook · never executes actions on its
+own · local console without web
+dependencies · no published release yet
+· landing
+RootCause 🌐
+Web
+Browser forensic sensor: cookies, email sessions,
+extensions, downloads, permissions, and pages that
+imitate a real window
+JavaScript · MV3
+extension
+v0.2.0 · no published release yet · panel
+on 127.0.0.1 · zero dependencies · zero
+telemetry verified in CI · landing
+RootCause ₿
+Bitcoin
+Defense
+Watch-only defense for Bitcoin custody: inventories
+the origin of each key, cross-checks it with
+published warnings, and explains root cause with
+evidence
+JavaScript ·
+Windows app ·
+local panel
+v0.3.0 · 2 releases · zero dependencies ·
+never asks for seeds · verified in CI ·
+landing
+RootCause ⛓
+Blockchain
+Security
+Multi-chain watch-only console: inventories
+contracts, proxies, oracles, bridges, governance, and
+dependencies, and generates root-cause runbooks
+JavaScript ·
+Windows app ·
+local panel
+v0.3.0 in the repository · published
+release: v0.1.0 · zero dependencies ·
+never asks for private keys · verified in CI ·
+landing
+RootCause 📷
+QR Inspector
+ ﻗﺒﻞ از ﻋﻤﻞQRﺑﺮﻧﺎﻣﻪ ﻣﺤﻠﯽ آﻧﺪروﯾﺪ ﺑﺮای ﺑﺮرسی ﮐﺪﻫﺎی
+ ﺳﯿﮕﻨﺎل، ﺟﺪا ﮐﺮدن ﺣﻘﺎﯾﻖ از ﻓﺮﺿﯿﻪ ﻫﺎ 26ﺗﻮﺿﯿﺢ ﻣﯽ دﻫﺪ
+و ﺻﺎدرات ﺷﻮاﻫﺪ ﻗﺮﻣﺰ
+·FlutterAndroid APK·  ﺗﺴﺖ107 ·  اﻧﺘﺸﺎرv0.1.4 · 5
+SHA-ﻣﻨﺘشر ﺷﺪه
+·256
+landingﻓﺮوﺷﮕﺎه در ﭘﯿشرﻓﺖ
+Empresa 🏢
+Operativa
+Chile
+Guides a SpA from before incorporation to each
+monthly close: incorporation with evidence, VAT
+carry-forward, F29 draft, immutable close, and audit
+log. Every rule points to its official source
+JavaScript · Rust
+· PWA
+v1.5.0 · Android · Windows · browser ·
+158 tests · 0 production dependencies ·
+zero telemetry · landing
+Universal 🔍
+Code Scanner
+QR and barcode reader that interprets before
+acting: 16 local URL risk signals and explicit
+confirmation
+Flutter · Dartv1.1.0 · Android · iOS · macOS · PWA ·
+encrypted history AES-256-GCM ·
+landing
+GabySQL 🗄Embedded database: single .db file, WAL, cost-
+based optimizer, HTTP/JSON API
+🦀  RustWindows · macOS · Linux · landing
+
+Vladimir Acuña · 2026-10-16 · 3
+ProductWhat it isStackDelivery
+Automa 🤖
+PC
+Local orchestrator: JSON flows that open real
+windows, interact with the DOM, and leave evidence
+Python ·
+Playwright ·
+pywebview
+v0.3.0 · 27 flows · published and
+verifiable installer · landing
+AI Dataset 🏭
+Foundry
+Local-first factory that turns PDF, Word, web, Git,
+JSON, and CSV into auditable datasets for
+pretraining, fine-tuning, RAG, and evaluation
+Pythonv0.2.0 · Windows + offline Android · first
+published release · landing
+AWS ☁
+Desktop
+Studio
+Local-first app with 15 AWS inventory integrations,
+20 tutorials, CLI/SSO, and read-only defaults;
+implementation in progress, not universal access
+JavaScript ·
+Windows
+v0.1.1 · first published release · landing
+Commerce 🧭
+OS
+Guided conceptual demo of commercial operations:
+catalog, stock, CRM, orders, mock payments, and
+traceability
+JavaScript · Web
+· Windows ·
+Android
+v0.3.0 · 2 releases · no real money or
+Chilean tax authority integration · landing
+PDF 📄
+Reader
+Android-first local read-only reader, with no-crop
+zoom, reopenable history, WhatsApp sharing, and
+default-reader selection
+HTML · Web ·
+Android ·
+Windows
+v0.3.3 · signed APK · no accounts,
+sensitive permissions, or telemetry ·
+landing
+Video 🎙
+Transcript
+Studio
+One video, playlist, or entire YouTube channel to
+text with timestamps. It does not rely on existing
+subtitles: Whisper recognizes audio on your
+machine, with no API, account, or key to configure
+Python ·
+PySide6 ·
+FastAPI · faster-
+whisper
+v0.2.0 · Windows desktop + local panel
+on 127.0.0.1 + CLI, sharing the same
+queue · MD · PDF · TXT · SRT · VTT · JSON
+· MP3 · OGG · 89 tests · bundled FFmpeg ·
+zero telemetry · landing
+ChofyAI 🎨
+Studio
+Local creative AI launcher: orchestrates Qwen3-TTS,
+whisper.cpp, FaceFusion, AceForge, and ComfyUI
+Tauri 2 · Rust ·
+React
+v0.5.1 · 5/5 tools with real inference ·
+macOS Apple Silicon · experimental
+Windows · no published release yet · site
+Rhino 🦏
+Suite
+Office suite from scratch: document rules do not
+depend on the DOM — HTML is only a projection
+Rust/WASM ·
+Go · React 19
+Evolutionary monorepo by phases ·
+landing
+My Violin 🎻
+Adventure
+Educational app for children: chromatic tuner,
+audio-clock-accurate metronome, songs with real
+violin
+Tauri 2 · React ·
+TS
+v1.3.0 · Windows · Android · Linux ·
+macOS · PWA · landing
+My Guitar 🎸
+Adventure
+The plucked-string sibling: 24 lessons in 6 worlds, 6-
+string tuner, drift-free metronome, and 11 real
+guitar notes
+Tauri 2 · React ·
+TS
+v1.0.0 · Windows · Android · Linux ·
+macOS · iOS · PWA · no accounts, ads, or
+online dependency · landing
+Pañuelo al 🧣
+Viento
+ ﻓﻌﺎﻟﯿﺖ،72 ﺳﻄﺢ،8 ﮐلاس در24 :10 از ﺳﻦCueca
+(، و ﻧﻤﻮدار ﮐﻒ ﻗﺎﺑﻞ2+2 و3+3آزﻣﺎﯾﺸﮕﺎه ﺷﺶ ﭘﺎﻟﺲ
+ﻤﻌﻠﻤﺎن وﻤﮑﻤﻞ ﻫﺎ، ﻧﻪ ﺟﺎﯾﮕﺰﯾﻨدﺳﺘﺮس اﺳﺖ. ﻣﯽ ﮔﻮﯾﺪ ﮐﻬ
+ﺻﺎﺣﺒﺎن ﻓﺮﻫﻨﮓ
+·Flutter·10/11·+v0.2.0 ·Android 7
+2 ﺗﺴﺖ29·APK·EXE·MSIﺑﺎزی
+· اﻋﺘﺒﺎر ﺳﻨﺠﯽ
+landingﺗﺒﻠﯿﻐﺎت ﯾﺎ اﯾﻨﺘﺮﻧﺖ
+آزﻣﺎﯾﺸﮕﺎه ﻫﺎی ﻣﻬﻨﺪسی🧪
+Repoآﻧﭽﻪ ﮐﻪ ﻧﺸﺎن ﻣﯽ دﻫﺪ
+Problem-Driven 🐳
+Systems Lab
+real problems (latency under load, N+1, retry storms, leaks, monoliths, cache stampede, backpressure, 20
+zero-downtime migration, forgotten DLQ) with high-fidelity injected failures, solved in 7 stacks: PHP 8 ·
+Python · Node.js · Java 21 · .NET 8 · Go 1.23 · Rust 1.83 · landing
+Social Bot 📆
+Scheduler
+ ﺣﺴﺎﺑﺮسی ﻣﯽDockerﺒﻪ ﺻﻮرت ﺟﺪاﮔﺎﻧﻪ ﺑﺎ ﻋﻤﻠﯿﺎت ﻋﻤﻠﯿﺎﺗﯿDB —19+ ﻣﻮﺗﻮرﻫﺎیn8n18ﻣﻨﺒﻊ ﻣﻮردv4.10.0 · 20
+DLQ· landingﺤﺴﺎﺑﺮسی، ﻣﺤﺎﻓﻈﺎن، ﺷﮑﺴﺘﻦ ﻣﺪار و لاﯾﻬ8ﺷﻮد
+Microsistemas 🧰landing ﻣﺮﺣﻠﻪ3·Read- Only MCP server·PHP ﻣﯿﮑﺮوﮐﺎرﻫﺎی ﺗﺸﺨﯿصی و ﻣﺪرن ﺳﺎزی12
+
+Vladimir Acuña · 2026-10-16 · 4
+Repoآﻧﭽﻪ ﮐﻪ ﻧﺸﺎن ﻣﯽ دﻫﺪ
+Docker Labs 🧪Launcher· landingﻧﺼﺐ ﮐﻨﻨﺪه ﺑﺎexe. + ﺧﻮدﮐﺎر4serviceﺪر ﯾﮏ ﭘﻠﺖ ﻓﺮم آزﻣﺎﯾﺸﮕﺎﻫ۳۱
+WSL Labs 🐳Docker Desktop · landingﺑﺪون –WSLﻣﻮﺗﻮر ﻇﺮوف ﺑﻮﻣﯽwslcدر ﻣﻮرد12
+Unikernel Labs ⚡WSL2 backendkraftQEMU / KVM· landing ﺑﺎUniDSM" : ﮐﻨﺘﺮل وﯾﻨﺪوز ﺑﺮ Docker Desktop for Unikernels"
+QEMU/KVM Labs 🧰WSL2· landingدر ﻟﯿﻨﻮﮐﺲ وvm-manager وCloud-initﻤﺠﺎزی ﺳﺎزی واﻗﻌﯽ ﺑﺎ آزﻣﺎﯾﺸﮕﺎﻫ12
+Sandbox Labs 🛡ﮔﺰارش ﻫﺎی اﻣﻀﺎ ﺷﺪهاﻧﺰوای ﻟﯿﻨﻮﮐﺲ: اﺟﺮای ﮐﺪ ﺷﺨﺺ ﺛﺎﻟﺚ، ﻓﺎﯾﻞ ﻫﺎ و ﻣﺪل ﻫﺎی ﺗﺠﺎری ﺗﺤﺖ ﺳﯿﺎﺳﺖ ﻫﺎی اﻋلام ﺷﺪه و
+ سرﻣﺎﯾﻪ۱۲ ﺑﺎزار ﻓﻨﯽ و ۵۱در دو ﺧﺎﻧﻮاده –  ﻣﻮرد۶۳· ﮐﻪ در واﻗﻊ ﮐﻨﺘﺮل ﻫﺎ اﻋﻤﺎل ﻣﯽ ﺷﻮﻧﺪ
+landingﯾﮏ ﻣﺤﺼﻮل اﻣﻨﯿﺘﯽ
+Universal Payments 💳
+Engineering Lab
+landingﺪر ﯾﮏ دﻣﻮی ﻣﺤﻠﯽ ﺧﻮد ﺗﻮﺿﯿﺤﯽ: دوﻟﺖ ﻫﺎ، ﮐﻠﻠﯽ، آﺷﺘﯽ، اﻣﻨﯿﺖ و راﻫﻨﻤﺎﻫﺎی ﭘﯿﺎده ﺳﺎزی ﺧﺎﻧﻮاده ﭘﺮداﺧﺘ28
+Decentraland 🕹
+Social Arcade
+·TypeScript وECS و ﯾﮏ ﻣﻌﻤﺎری ﭼﻨﺪ ﺑﺎزی ﺑﺎMVP: ﯾﮏDecentraland Social 3Dﺗﺠﺮﺑﻪ ﺑﻮﻣﯽ
+اﺳﭙﺎﻧﯿﺎﯾﯽ
+AWS Projects ☁GitHub Actions·SAA-C03·DVA-ﻗﺎﺑﻠﯿﺖ ﺟﺪﯾﺪو را اﺿﺎﻓﻪ ﻣﯽ ﮐﻨﺪAWSﻣﻮارد ﭘﯿشرﻓﺘﻪ ﮐﻪ ﻫﺮ ﯾﮏ از آﻧﻬﺎ ﯾﮏ سروﯾﺲ
+SOA-C02·C02
+AIﮐﺎرﺑﺮدی🤖
+Repoآﻧﭽﻪ ﮐﻪ ﻧﺸﺎن ﻣﯽ دﻫﺪ
+LangGraph 🤖
+RealWorld
+ لاﯾﻪ اﻣﻨﯿﺘﯽ، زﻧﺠﯿﺮه ﻧﮕﻬﺪاری8، ﺣﺎﻟﺖNDJSON- ﺣﺎﻟﺖ ﻧﻮع، ﻣﺴﯿﺮﻫﺎی ﻣشروط، ﺟﺮﯾﺎن ﺑﺎزﮔﺸﺖ ﻋﻤﻠﯿﺎﺗﯽ25/25
+SHA-256
+🧭
+Operational AI
+Agents
+operational agents for Claude Code and compatible runtimes: each receives a complete mission —repository 13
+evolution, legacy modernization, curriculum design, portfolio publishing, security remediation, incident analysis—
+under a declared contract, human gates, and verifiable evidence · 39 deterministic evals · 34 tests · zero-deps
+(stdlib only) · Linux · macOS · Windows · site
+MCP + 🧠
+Ollama Local
+Local-first AI with MCP tools in a sandbox · 127.0.0.1 bind · multilayer trust profile · honest about its limits
+Agentic 🧩
+Plugins Toolkit
+agentic plugins installable in Claude Code, OpenAI/Codex, Copilot, Gemini, and MCP from one source: 6
+repository-engineering, legacy-modernization, learning-program-studio, product-evolution, portfolio-
+governance, and rootcause-response · 69 generated views without drift —each runtime receives its format from
+the same contract— · zero-deps · Linux · macOS · Windows · site
+Claude 🧰
+Skills Toolkit
+agentic skills for Claude Code · security: 12-layer security-audit (OSV · KEV · EPSS · SAST · container · secrets) 15
+and 14-stage bitcoin-custody-audit · repo gates: pre-commit-guard, pre-push-guard, yaml-control, md-lint-
+fix, python-lint-guard · coherence: repo-coherence-audit, version-bump, python-version-control, python-
+deps-pinning · Docker: docker-cleanup, docker-compose-doctor · docs: md-to-doc · zero-deps · cross-platform
+Codex 🧰
+Skills Toolkit
+agentic skills for Codex: security and supply chain, preflight, functional flows, resilience and state, release 19
+evidence, Python/YAML/Markdown gates, versioning, dependencies, Docker, and documents · Python-first · pnpm ·
+Linux · macOS · Windows · site
+وﯾﮋﮔﯽ ﻫﺎی ﻓﻨﯽ ﮐﺎﻣﻞ📚
+ﺸﻤﺎرش ﮐلاﺳ14530 ﺑﺮﻧﺎﻣﻪ اﺿﺎﻓﻪ ﺷﺪه ﺑﻪ21ﺑﺮﻧﺎﻣﻪ ﻫﺎی اﮐﺘﺸﺎﻓﯽ در اﺳﭙﺎﻧﯿﺎﯾﯽ، ﺑﺎ وﺿﻌﯿﺖ و ﻣﺤﺪوده اﻋلام ﺷﺪه ﺗﻮﺳﻂ ﻫﺮ ﻣﺨﺰن
+از ﺳﺎﺧﺘﺎر ﻣﺨﺰن واﻗﻌﯽ ﯾﺎ ﯾﮏ ﻣﻨﺒﻊ ﻗﺎﺑﻞ راﺳﺘﯽ ﮐﻪ در ﻣﺨﺰن اﻋلام ﺷﺪه اﺳﺖ؛ ﻧﺸﺎن ﻫﺮ ﻫﻔﺘﻪ ﺗﺎزه ﻣﯽ ﺷﻮد وa workflowﺷﺪه ﺗﻮﺳﻂ
+ﺗﻮﺳﻂ دﺳﺖ ﻧﻮﺷﺘﻪ ﻧﻤﯽ ﺷﻮد.
+
+Vladimir Acuña · 2026-10-16 · 5
+ ﻧﺎﺣﯿﻪ از ﻃﺮﯾﻖ ﻧﻘﺸﻪ ﻫﺎی ﺑصری و6 ﻣﺴﯿﺮ واﻗﻌﯽ را در30ﯾﮏ ﻗﻄﺐ ﻧﻤﺎی ﺗﻐﺬﯾﻪ ﺷﺪه اﺳﺖ ﮐﻪLifelong Learning Ecosystem 🧭
+اﯾﻦ ﺑﻪ ﻋﻨﻮان ﯾﮏ ﺑﺮﻧﺎﻣﻪ اﺿﺎﻓﯽ ﺷﻤﺮده ﻧﻤﯽ ﺷﻮدaccessible offline portalﯾﮏ ﻗﻄﺐ ﻧﻤﺎی ﺑصری ﻣﺘﺼﻞ ﻣﯽ ﮐﻨﺪ
+ProgramClassesScope
+Computational 🔢
+Mathematics
+360- واژه۹۸۴ ﻧﻮت ﺑﻮکCI ·1080 ﺗﻈﺎﻫﺮات ﻗﺎﻃﻊ ﺗﺎﯾﯿﺪ ﺷﺪه در360از ﺷﻤﺎرش روی اﻧﮕﺸﺘﺎن ﺗﺎ ﺑﺎزﺗﻮﻟﯿﺪ ﯾﮏ ﮐﺎﻏﺬ
+siteﻧﺎﻣﻪ
+Finance and 🏦
+Banking
+356·  ﻣﻮردMiCA· 27، ﺛﺎﺑﺖ ﮐﻮﯾﻦ ﻫﺎ وDLT، اﻣﻮر ﻣﺎﻟﯽ ﺑﺎز،III اﻋﺘﺒﺎر، رﯾﺴﮏ، ﺑﺎزل IFRS·h 534
+site · 298ﺗﺴﺖ ﻫﺎی
+GameDev 🎮352Mathematics and C#/C++/GDScript → shaders, AI, multiplayer, VR/AR · Godot · Unity · Unreal · 10
+Godot labs verified in CI (301 checks) · site
+Cybersecurity 🛡360 و اﻣﻨﯿﺖ ﺑﺎزیCTF، اﻣﻨﯿﺖ اﺑﺮ، ﺑﻬﺮه ﺑﺮداری ازDFIR ﻗﺴﻤﺖv1.3.0 ·20
+site، اﻣﻨﯿﺖ و ﺻﻔﺤﺎت ﺗﺎﯾﯿﺪ ﺷﺪهAndroid / Web·PDF Manual·CI·  ﮔﻮاﻫﯿﻨﺎﻣﻪ7ﺑﺮای
+Marketing, Sales, 📈
+and Growth
+336 ﺑﺨﺶ ﺑﺎ ﺗﻌﺎرﯾﻒ ﻋﻤﻠﯿﺎﺗﯽ، ورق ﻫﺎی اﻧﺪازه ﮔﯿﺮی، ﺑﯽ اﻋﺘﺒﺎر ﺑﻮدن واﻗﻌﯽ، و زﻣﯿﻨﻪ ﺗﻨﻈﯿﻢ ﻣﻘﺮرات ﺷﯿﻠﯽ24
+site ﻣﺴﯿﺮ ﻣﺒﺘﻨﯽ ﺑﺮ ﻧﻘﺶ17 ﮐﻠﻤﺎتv1.6.0 ·1.29M
+Business 🏢
+Creation
+336360اﯾﺠﺎد و ﮐﺎر ﯾﮏ شرﮐﺖ واﻗﻌﯽ در ﺷﯿﻠﯽ: از اﯾﺪه ﺑﻪ ﻣﺸﺎرﮐﺖ، اﻗﺘﺪار ﻣﺎﻟﯿﺎﺗﯽ، ﻋﻤﻠﯿﺎت، ﺑﺤﺮان و ﺧﺮوج
+site ﺻﻔﺤﻪ راﻫﻨﻤﺎی548-251ﻧﻤﻮدار
+Architecture and 🏛
+Built Environment
+830GitHub· ﻣﺴﯿﺮ34 ﺟﻠﺴﻪ ی ﯾﮑﭙﺎرﭼﻪ60 ﻗﺴﻤﺖ83
+site
+🇨🇱  Chilean School
+Learning Path
+8,841·  اﻫﺪاف ﯾﺎدﮔﯿﺮی2823 ·  ﺗﺠﺮﺑﻪ ﺑﺮﻧﺎﻣﻪ ﻫﺎی درسی ﯾﮑﭙﺎرﭼﻪ۵۱،۴·12- 1درﺟﻪ
+siteﺗﺨﺼصی اﻧﺴﺎﻧﯽ ﻫﻨﻮز در اﻧﺘﻈﺎر ﻧﯿﺴﺖ
+Modern 🧭
+Software
+Engineering
+480 و ﺳﯿﺴﺘﻢ ﻫﺎی ﭼﻨﺪAI ﻣﺮﺣﻠﻪ8 ﻗﺴﻤﺖ و40
+siteﻋﺎﻣﻠﯽ
+Pedagogy and 🎓
+Learning Sciences
+300ﻫﺮ ﮐلاسی وﺿﻌﯿﺖ و ﻣﺤﺪودﯾﺖ ﻫﺎی ﺧﻮد را ﻗﺴﻤﺖ25از ﭼﮕﻮﻧﮕﯽ ﯾﺎدﮔﯿﺮی ﯾﮏ ﻓﺮد ﺑﻪ ﭼﮕﻮﻧﮕﯽ آﻣﻮزش ﻣﻌﻠﻤﺎن
+· اﻋلام ﻣﯽ ﮐﻨﺪ
+LMS-Exportable· ﻣﺴﯿﺮ ﺷﻐﻠﯽ ﺑﺎ ﻧﻘﺶactive Class bank·14-60 وtermary, 325 Dias-1097ﺑﯿﻦ اﻟﻤﻠﻠﯽ
+v2.1.0 · site
+Multi-Cloud ☁288 آزﻣﺎﯾﺸﮕﺎه ﺑﺎ ﺷﻮاﻫﺪ288·  ﺳﺎﻋﺖTerraform·SRE·FinOps· 288·AWS·Azure·GCP·Kubernetes
+PDF· site ﺻﻔﺤﻪ راﻫﻨﻤﺎی2884 ﻣﻨﺎﺑﻊ ردﯾﺎﺑﯽJSON·1032
+Executive 🎖
+Leadership
+288، اﻣﻮر ﻣﺎﻟﯽ، ﻣﺤﺼﻮل، ﺧﻄﺮ، KPI /OKRاز داﺷﺘﻦ اوﻟﯿﻦ ﻧﺘﯿﺠﻪ ﺧﻮد ﺑﺮای رﻫﺒﺮی ﯾﮏ شرﮐﺖ و ﺗﺎﺳﯿﺲ ﺧﻮد: ﺗﯿﻢ ﻫﺎ،
+site ﻗﺎﻟﺐ39 آزﻣﺎﯾﺸﮕﺎه و96 ﻣﻮرد،M&A·24ﻫﯿﺌﺖ ﻣﺪﯾﺮه و
+Python Data 🐍
+Science
+232Android APK· site·MLOps
+AI Evolution 🧠184ﻧﻤﺎد
+Comparative 🌐
+Programming
+176،ﺪر زﺑﺎن ﻫﺎی زﻧﺪه ) ﺑﺮﻧﺎﻣﻬ750- ﺑﻪ ﻋلاوه ﭘﯿﺎده ﺳﺎزیCI -360ﺘﺎﯾﯿﺪ ﺷﺪه در زﺑﺎﻧ10ﯾﮏ ﻣﻔﻬﻮم،
+v1.1.0· site·  ﺧﺎﻧﻮاده15 ﮐﺎرت درalas of of the60 ...( وMUMPS
+Frameworks 🧩
+Compared
+149،ﯾﮏ ﻗﺮارداد اﺟﺮاﯾﯽ، ﺑﺪون آداﭘﺘﻮر، در ﺑﺮاﺑﺮ
+ISBN/DOI · siteﻣﻨﺎﺑﻊ· CI ﻣﻮرد ﺗﺎﯾﯿﺪ در397 ·  ﮐلاس ﺳﺎﺧﺖ70 ﻗﺴﻤﺖ12 و ﺑﯿﺸﺘﺮSvelte
+Databases 🗄74DEC ﻣﻨﺒﻊ ﺑﺎ120ﻣﻨﺒﻊ ﻗﺎﺑﻞ اﺛﺒﺎت ﺑﺮای ﻫﺮ ادﻋﺎﯾﯽ ﺳﺎﻋﺖ230 ﺑﺨﺶ15· v3.0.0
+pytest· site 150- ﺑﻠﻨﺪ ﻣﺪت306 ﻣﻮﺗﻮر ﺣﻞ ﺷﺪ27ﯾﺎ اﺳﺘﺎﻧﺪارد
+Psychometrics 📐
+and Assessment
+40 ﻗﺴﻤﺖ8ﭼﮕﻮﻧﻪ ﯾﮏ اﺑﺰار اﻧﺪازه ﮔﯿﺮی ﺳﺎﺧﺘﻪ ﺷﺪه، ﺑﻪ ﺛﻤﺮ رﺳﺎﻧﺪه، ﻣﻌﺘﺒﺮ و ﺣﺴﺎﺑﺮسی ﺷﺪه اﺳﺖ
+Public-domain 276 آﯾﺘﻢ،344 اﺑﺰار و5ﺑﺎ
+Blockchain ⛓66363ﻮ ﺷﯿﻮﻫ91· v0.14.0
+·CI درSlither )ﺗﺤﺮﯾﻢ و ﻋﺎﯾﻖ( و ﺗﺠﺰﯾﻪ و ﺗﺤﻠﯿﻞ اﺳﺘﺎﺗﯿﮏFoundry· ﺗﺴﺖ
+siteﮐﺮدن ﺑﺎﯾﻨﺮی و ﺷﻤﺎرش ﻣﺤﺘﻮﯾﺎت آن ﺗﺎﯾﯿﺪ ﺷﺪه اﺳﺖ
+
+Vladimir Acuña · 2026-10-16 · 6
+ProgramClassesScope
+Neural Network 🧠
+Training Labs
+31 راه ﺣﻞ31 ﻧﺴﺨﻪ داﻧﺸﺠﻮﯾﯽ و31 ﮐلاس،31 - دﻓﺘﺮﭼﻪ ﯾﺎدداﺷﺖ93 ﻣﺎژول 7
+PyTorch· study siteﺑصری، ﺷﯿﻮه ﻫﺎ و ارزﯾﺎﺑﯽ ﺑﺎ داده ﻫﺎی ﻋﻤﻮﻣﯽ واﻗﻌﯽ
+Machine 🕹
+Operator
+451·  دﻗﯿﻘﻪh 15 502ﯿﮏ در ﻫﺮ ﻣﺎﺷﯿﻦ ﻣﺎژول آﻣﻮزﺷ 41
+ﺑﺎ ﻣﻨﺎﺑﻊ در ﻫﺮ ﮐلاس
+ﺣﺮﻓﻪ ای✅
+- ﺑﻪ ﻣﻦ ﮐﻤﮏ ﻣﯽ ﮐﻨﺪ ﺗﺎ اﻫﺪاف ﮐﺴﺐ و ﮐﺎر را ﺑﻪ ﺗﺼﻤﯿﻤﺎتﻣﻬﻨﺪسی ﮐﺎﻣﭙﯿﻮﺗﺮ و ﻣﺤﺎﺳﺒﺎت + ﻣﺪﯾﺮﯾﺖ ﮐﺴﺐ و ﮐﺎرﭘﺲ زﻣﯿﻨﻪ دوﮔﺎﻧﻪ ﻣﻦ -
+ﻓﻨﯽ و ﻣﺤﺪودﯾﺖ ﻫﺎی ﻓﻨﯽ ﺑﻪ ﮔﺰﯾﻨﻪ ﻫﺎی روﺷﻦ ﺑﺮای ﻋﻤﻠﯿﺎت، ﻣﺤﺼﻮل، ﻣﺸﺘﺮﯾﺎن و رﻫﺒﺮی ﺗﺒﺪﯾﻞ ﮐﻨﻢ.
+ﻫﻮﯾﺖ اﺻﻠﯽ🎯
+RoleBacking
+راه ﺣﻞ ﻣﻌﻤﺎریﻃﺮاﺣﯽ ﺳﯿﺴﺘﻢ ﻫﺎی ﻣﻘﯿﺎس ﭘﺬﯾﺮ ﺑﺎ ﻗﻀﺎوت ﺗﮑﺎﻣﻠﯽ
+ﻣﻌﻤﺎری ﻣﺪرن ﺳﺎزی، ﺑﺎزﺳﺎزی ﺗﺪرﯾﺠﯽ ﺑﺪون وﻗﻔﻪ ﻋﻤﻠﯿﺎت8.x (PHP 5.xﺗﮑﺎﻣﻞ ﻣﯿﺮاث واﻗﻌﯽ
+Full-Stack / Tech Leadارﺷﺪ ﺳﺎل( 16ﻣﻌﻤﺎری، اﺟﺮای و اﺳﺘﺎﻧﺪاردﻫﺎی ﺳﯿﺴﺘﻢ ﻋﺎﻣﻞ ﻫﺎی واﻗﻌﯽ
+AIﻣﻌﻤﺎری اﺗﻮﻣﺎﺳﯿﻮن ﺑﺎ ﻣﺤﺎﻓﻈﺎن ﺟﺮﯾﺎن ﻣﯽ ﯾﺎﺑﺪn8n وLangGraph /MCPﺳﯿﺴﺘﻢ ﻫﺎی ﻋﺎﻣﻞ ﺑﺎ
+ ﮔﺴﺘﺮش ﻃﺒﯿﻌﯽ↗
+· ﻣﺮﺑﯽ ﻓﻨﯽ· ﺳﺎزﻧﺪه ﻣﺤﺼﻮل ﻓﻨﯽ · راه ﺣﻞ ﻫﺎی ﻣﻬﻨﺪسی· (Flutterﻣﻬﻨﺪس ﻣﻮﺑﺎﯾﻞ· Rustﺳﯿﺴﺘﻢ ﻫﺎ / ﻣﻬﻨﺪس· AIﻣﻬﻨﺪسی ارﮐﺴﺘﺮ
+ﻋﻤﻠﯿﺎت ﻣﺤﺼﻮل ﻓﻨﯽ · Business / Applied Analysis · ﻣﺸﺎور ﺗﺤﻮل دﯾﺠﯿﺘﺎل
+ﻣﺤﺪوده ﻫﺎی ﺗﮑﻤﯿﻠﯽ⚙
+·SRE·Cloud / AWS·IDP·DevOps / CI-CDﻣﻬﻨﺪسی ﭘﻠﺘﻔﺮم
+ﻣﺪﯾﺮﯾﺖ، ﻣﺪﯾﺮﯾﺖ و ﻓﺮﺻﺖ ﻫﺎی ﺷﻐﻠﯽ ﻏﯿﺮ ﻣﺸﺎرﮐﺘﯽ🧭
+اﯾﻦ داﻣﻨﻪ ادﻋﺎ ﻧﻤﯽ ﮐﻨﺪ ﮐﻪ ﻫﺮ ﻋﻨﻮاﻧﯽ در آن ﻧﮕﻬﺪاری ﺷﺪه اﺳﺖ. اﯾﻦ اوﻟﻮﯾﺖ ﺑﻨﺪی ﮐﺎر را در ﺟﺎﯾﯽ ﮐﻪ ﺗﺮﮐﯿﺒﯽ از ﻣﺤﺎﺳﺒﺎت، ﻣﺪﯾﺮﯾﺖ ﮐﺴﺐ
+و ﮐﺎر و ﺷﻮاﻫﺪ ﻋﻤﻮﻣﯽ ﻣﯽ ﺗﻮاﻧﺪ ﺑﺪون ﺑﺮﻧﺎﻣﻪ ﻧﻮﯾسی ﺑﻪ ﻋﻨﻮان وﻇﯿﻔﻪ اﺻﻠﯽ اﯾﺠﺎد ارزش ﮐﻨﺪ، اوﻟﻮﯾﺖ ﺑﻨﺪی ﻣﯽ ﮐﻨﺪ.
+ﺧﺎﻧﻮاده ﺣﺮﻓﻪ
+ای
+ﺗﺸﺨﯿﺺ ﻧﻘﺶﻃﺒﻘﻪ ﺑﻨﺪی ﺻﺪاﻗﺖCodingﺷﻮاﻫﺪ و شراﯾﻂ
+رﻫﺒﺮی
+ﺗﮑﻨﻮﻟﻮژی
+·IT·ITﻣﺪﯾﺮ
+CIOدﯾﺠﯿﺘﺎل
+ﺑﺮﻧﺎﻣﻪ رﯾﺰی ﺑﺎﻟﻘﻮه /
+ﻫﺪف آﯾﻨﺪه
+ﻫﯿﭻ/ﻣﻌﺠﺰهﭘﺎﯾﻪ ﻓﻨﯽ ﻗﻮی؛ اﻓﺮاد، ﺑﻮدﺟﻪ، ﻓﺮوﺷﻨﺪه و
+ﭘﺎﺳﺨﮕﻮﯾﯽ اﺟﺮاﯾﯽ ﺑﺎﯾﺪ ﺑﻪ ﻃﻮر ﺟﺪاﮔﺎﻧﻪ
+اﺛﺒﺎت ﺷﻮﻧﺪ
+ﻣﺪﯾﺮﯾﺖ ﭘﺮوژهﭘﺮوژه ﻫﻤﺎﻫﻨﮓ ﮐﻨﻨﺪه /
+·PMOﻣﺪﯾﺮﯾﺖ
+·Master
+ﻗﺎﺑﻠﯿﺖ اﻧﺘﻘﺎل
+ﻗﺎﺑﻠﯿﺖ درﺧﻮاﺳﺖ
+ﻫﯿﭻ/ﻣﻌﺠﺰهﺗﺤﻮﯾﻞ و اﻧﺘﺸﺎر ﺷﻮاﻫﺪ؛ ﺗﯿﻢ رﺳﻤﯽ،
+ﺑﻮدﺟﻪ و ﻣﺴﺌﻮﻟﯿﺖ ﺣﻤﺎﯾﺖ از آن ﻫﻤﭽﻨﺎن
+ﯾﮏ ﺷﮑﺎف اﺳﺖ
+ﻣﺪﯾﺮﯾﺖ ﮐﺴﺐ
+و ﮐﺎر
+ﻣﺪﯾﺮ ﮐﺴﺐ و ﮐﺎر
+ﻣﺪﯾﺮ
+ﮐﺎرﺑﺮد ﺑﺎﻟﻘﻮهﻫﯿﭻ ﮐﺲدرﺟﻪ ﮐﺴﺐ و ﮐﺎر و ﻣﺼﻨﻮﻋﺎت ﻋﻤﻠﯿﺎﺗﯽ؛
+ﻧﯿﺎز ﺑﻪ ﻣﺎﻟﮑﯿﺖ ﺗﺎﯾﯿﺪ ﺷﺪه از ﻣﻨﺎﺑﻊ، ﻣﺮدم
+و ﺗﺎﻣﯿﻦ ﮐﻨﻨﺪﮔﺎن
+
+Vladimir Acuña · 2026-10-16 · 7
+ﺧﺎﻧﻮاده ﺣﺮﻓﻪ
+ای
+ﺗﺸﺨﯿﺺ ﻧﻘﺶﻃﺒﻘﻪ ﺑﻨﺪی ﺻﺪاﻗﺖCodingﺷﻮاﻫﺪ و شراﯾﻂ
+اﺳﺘﺮاﺗﮋی و
+ﺗﻐﯿﯿﺮ
+اﺳﺘﺮاﺗﮋی ﻣﺸﺎور
+شرﮐﺖ
+ﻗﺎﺑﻠﯿﺖ اﻧﺘﻘﺎل /
+ﻗﺎﺑﻠﯿﺖ درﺧﻮاﺳﺖ
+ﻫﯿﭻ ﮐﺲﻣﺪرن ﺳﺎزی ﻣﯿﺮاث و ارزﯾﺎﺑﯽ راه ﺣﻞ؛
+ﻧﺘﺎﯾﺞ ﭘﺬﯾﺮش ﺳﺎزﻣﺎﻧﯽ ﺑﺎﯾﺪ ﻧﺸﺎن داده
+ﺷﻮد
+ﺗﺤﻠﯿﻞ ﮐﺴﺐ و
+ﮐﺎر
+ﺗﺤﻠﯿﻠﮕﺮ ﮐﺴﺐ و ﮐﺎر
+·requirements Analysis·BPM
+ﻣﺴﺘﻤﺮ
+ﻗﺎﺑﻠﯿﺖ اﻧﺘﻘﺎل /
+ﻗﺎﺑﻠﯿﺖ درﺧﻮاﺳﺖ
+ﻫﯿﭻ/ﻣﻌﺠﺰهﻣﺪل ﺳﺎزی داﻣﻨﻪ و ﺷﻮاﻫﺪ ﻣﻮرد ﻧﯿﺎز؛
+ﻣﻮارد ذﯾﻨﻔﻌﺎن ﺧﺎرﺟﯽ اﯾﻦ ادﻋﺎ را ﺗﻘﻮﯾﺖ
+ﻣﯽ ﮐﻨﻨﺪ
+ﻣﺤﺼﻮل و
+ﺧﺪﻣﺎت
+ﻣﺎﻟﮏ ﻣﺤﺼﻮل / ﻣﺪﯾﺮ
+ﻣﺤﺼﻮل
+ﻣﺸﺘﺮی
+ﻗﺎﺑﻠﯿﺖ اﻧﺘﻘﺎل /
+ﻗﺎﺑﻠﯿﺖ درﺧﻮاﺳﺖ
+ﻫﯿﭻ/ﻣﻌﺠﺰهﻧﻘﺸﻪ ﻫﺎی ﺟﺎده، ﭼﺮﺧﻪ ﻋﻤﺮ، آزاد ﺳﺎزی و
+، ﻧﻤﻮﻧﻪ ﮐﺎرﻫﺎ ﻣﺸﺘﺮی وP&Lﻋﻤﻠﯿﺎت؛
+ ﺑﺎ ﻧﻘﺶ ﻣﺘﻔﺎوت اﺳﺖSLAﺷﻮاﻫﺪ
+ﻣﺪﯾﺮﯾﺖ اﻣﻨﯿﺖ
+ﺳﺎﯾﺒﺮی
+·IT Auditor·GRC
+Continuityرﯾﺴﮏ
+ﮐﺎرﺑﺮد ﺑﺎﻟﻘﻮهﻫﯿﭻ/ﻣﻌﺠﺰهﮐﻨﺘﺮل ﻫﺎ و رﯾﺸﻪ ﻫﺎ ﺑﻪ دﻟﯿﻞ ﺷﻮاﻫﺪ؛
+ﺣﺴﺎﺑﺮسی ﻫﺎی ﺳﺎزﻣﺎﻧﯽ و اﻋﺘﺒﺎر ﻫﺎی
+ﻣﺮﺑﻮﻃﻪ در اﻧﺘﻈﺎر
+ﺗﺠﺎرت و ﻓﺮوش·Presaleﺗﮑﻨﻮﻟﻮژی
+ ﺗﻮﺳﻌﻪ ﮐﺴﺐ وKAM·B2Bﻣﺸﺎور
+ﮐﺎر
+ﻗﺎﺑﻠﯿﺖ اﻧﺘﻘﺎل /
+ﻗﺎﺑﻠﯿﺖ درﺧﻮاﺳﺖ
+ﻫﯿﭻ ﮐﺲراه ﺣﻞ ﻗﻮی / ﺗﺮﺟﻤﻪ ارزش؛ ﺳﻬﻤﯿﻪ ﺑﻨﺪی،
+ﺣﺴﺎب و ﻣﺬاﮐﺮه ﻗﺮارداد ادﻋﺎ ﻧﻤﯽ ﺷﻮد
+ﻣﺪﯾﺮﯾﺖ و
+ﻣﺪﯾﺮﯾﺖ ﮐﻨﺘﺮل
+FP &ﺑﻮدﺟﻪ / ﺗﺤﻠﯿﻠﮕﺮ
+·A
+ﮐﺎرﺑﺮد ﺑﺎﻟﻘﻮهﻫﯿﭻ ﮐﺲداراﯾﯽ / ﻋﻤﻠﯿﺎت؛ ﺑﻮدﺟﻪ واﻗﻌﯽ، ﺑﯿﺎﻧﯿﻪ
+ ﻫﺎی شرﮐﺘﯽ ﻣﻮرد ﻧﯿﺎزKPIﻫﺎی ﻣﺎﻟﯽ و
+اﺳﺖ
+QualityProcess/Quality Analyst · Process
+Auditor · Continuous Improvement
+Transferable /
+application
+potential
+None/occasionalGates, tests, metrics, and
+reproducibility; formal quality-
+system ownership remains a gap
+EducationTechnical Trainer · Facilitator ·
+Academic Coordinator · EdTech /
+Instructional Designer
+Transferable /
+application
+potential
+None/occasionalprograms and 14,530 classes; 21
+formal teaching and learner
+outcomes must be evidenced
+separately
+ﺗﺪارﮐﺎت و
+ﺗﺎﻣﯿﻦ ﮐﻨﻨﺪﮔﺎن
+ﺧﺮﯾﺪ
+ﮐﻨﻨﺪه
+ﮐﺎرﺑﺮد ﺑﺎﻟﻘﻮهﻫﯿﭻ ﮐﺲﻓﺮآﯾﻨﺪ و ﭘﺎﯾﮕﺎه دوﻟﺖ؛ ﺗﺪارﮐﺎت واﻗﻌﯽ،
+ﻣﻮﺟﻮدی و ﻋﻤﻠﮑﺮد ﺗﺎﻣﯿﻦ ﮐﻨﻨﺪه ﻣﻮرد ﻧﯿﺎز
+اﺳﺖ
+داده ﻫﺎ و
+AIﻣﺪﯾﺮﯾﺖ
+·Stewardداده ﻫﺎی
+ / ﺣﺎﮐﻤﯿﺖAIﻫﺎ
+ﻗﺎﺑﻠﯿﺖ اﻧﺘﻘﺎل /
+ﻗﺎﺑﻠﯿﺖ درﺧﻮاﺳﺖ
+ﻫﯿﭻ/ﻣﻌﺠﺰهﻣﺠﻤﻮﻋﻪ داده ﻫﺎی ﻗﺎﺑﻞ ﺣﺴﺎﺑﺮسی و
+ﻋﻮاﻣﻞ اﻧﺴﺎﻧﯽ؛ ﺳﯿﺎﺳﺖ ﻫﺎی ﺳﺎزﻣﺎﻧﯽ و
+ﮐﻤﯿﺘﻪ ﻫﺎ ﻫﻤﭽﻨﺎن ﺷﮑﺎف ﻫﺴﺘﻨﺪ
+ﺑﺨﺶ ﻋﻤﻮﻣﯽﻣﺪرن ﺳﺎزی ﻧﻬﺎدی
+·ICT
+ﻋﻤﻮﻣﯽ
+ﮐﺎرﺑﺮد ﺑﺎﻟﻘﻮهﻫﯿﭻ ﮐﺲﺳﯿﺴﺘﻢ ﻫﺎی ﻣﺘﻦ ﺷﯿﻠﯽ و ﻗﺎﺑﻞ ردﯾﺎﺑﯽ؛
+ادﻋﺎ ﻧﻤﯽ ﺷﻮد ﮐﻪ ﺧﺮﯾﺪ ﻋﻤﻮﻣﯽ و ﺗﺠﺮﺑﻪ
+ﺑﺨﺶ
+The full Spanish role matrix details objectives, responsibilities, market experience, complementary knowledge, evidence,
+.compatibility, and gaps across all 14 families
+در دﺳﺘﺮس ﺑﻮدن📌
+Open to: Senior Full-Stack · Architecture · Legacy modernization · Platform/IDP · Application SRE · pragmatic DevOps ·
+Automation · AI Automation · business/functional analysis · IT project coordination · Product Operations · digital
+transformation · solutions consulting/presales · technical education · quality and continuous improvement · AI adoption
+and governance
+·GRC·ITﻣﺎﻟﮏ ﻣﺤﺼﻮل / ﻣﺪﯾﺮ ﻣﺤﺼﻮل ﻓﻨﯽ ارزﯾﺎﺑﯽ ﺑﺎ ﺗﻮﺟﻪ ﺑﻪ داﻣﻨﻪ ﻫﺮ ﻧﻘﺶ:
+ﻋﻤﻠﯿﺎت
+
+Vladimir Acuña · 2026-10-16 · 8
+از راه دور ﯾﺎ ﻫﯿﺒﺮﯾﺪی، ﺑﺴﺘﻪ ﺑﻪ ﭘﺮوژهﺗﻐﯿﯿﺮ:
+This localized edition is derived from the corresponding complete public GitHub profile translation. Historical recommendation and
+.institutional records remain linked to their source editions
+/https://vladimiracunadev-create.github.io/i18n/fa

@@ -1,0 +1,76 @@
+# SOURCE: assets/nota-vigencia-contexto-institucional-ceis-persian.pdf
+# DATE: 2026-10-16T10:41:53.145370
+
+Vladimir Acuña · 2026-10-16 · 1
+CEISﯾﺎدداﺷﺖ اﻋﺘﺒﺎر و زﻣﯿﻨﻪ ﺳﺎزﻣﺎﻧﯽ
+·Full-Stackراه ﺣﻞ ﻣﻌﻤﺎری
+در ﻫﺮsmokeوHub CLIdoctor اﺑﺰار اﺳﺘﺎﻧﺪارد ﺳﺎزﯾﻔﺎﯾﻞ ﻫﺎی🧰- ﮐﻠﻮن، اﺟﺮا، اﻋﺘﺒﺎرReroducible داﻧﻠﻮد ﺑﺎزی🔁  -
+,health, /ready, /metrics ﻗﺎﺑﻠﯿﺖ ﭘﺬﯾﺮی📈 دﻓﺎع در ﻋﻤﻘﺎﺳﮑﻦ ﻣﺨﻔﯽ، ﺳﯿﺎﺳﺖ ﻫﺎ و ﺷﯿﻮه ﻫﺎی آﺷﮑﺎرا ﻣﻤﻨﻮع🛡ﻣﺨﺰن
+📦 ﯾﺎ اﻣﻨﯿﺖ، ﺑﺴﺘﻪ ﺑﻪ ﻣﺨﺰنDevOps آرﺷﯿﻮ ﺑﺮﭼﺴﺐ ﻫﺎی ﻣﺮﺗﺒﻂ- اﺳﺘﺨﺪام ﮐﻨﻨﺪه، ﻣﺒﺘﺪی،📚داﺷﺒﻮرد و ﻗﺎﺑﻠﯿﺖ ردﯾﺎﺑﯽ
+🌍ﺗﻮزﯾﻊ ﻣﺤﺼﻮل- ﻧﺴﺨﻪ ﻫﺎی ﻗﺎﺑﻞ داﻧﻠﻮد، ﭼﮑﻪ ﻫﺎ و ﺳﺎﺧﺖ ﺷﻮاﻫﺪ؛ اﻣﻀﺎﻫﺎی ﺗﺠﺎری / ﻓﺮوﺷﮕﺎه اﻋلام ﺷﺪه در ﺻﻮرت ﻟﺰوم
+Internationalization — portfolio in 22 languages (ES · EN · PT · IT · FR · ZH · ZH-TW · JA · KO · TR · RU · VI · TH · DE ·
+OPERATIONAL, ﺻﺪاﻗﺖ ﻓﻨﯿﻬﺮ ﭘﺮوﻧﺪه ای ﮐﻪ ﺑﺮﭼﺴﺐ زده ﺷﻮد🧭  - .UK · PL · AR · FA · ID · NL · HI · EL)
+.PLANNEDﯾﺎDOCUMENTED/SCAFFOLD
+آﻧﭽﻪ در اﯾﻨﺠﺎ ﭘﯿﺪا ﺧﻮاﻫﯿﺪ ﮐﺮد🎯
+«repoاﯾﻦ ﯾﮏ
+- ﮐﻠﻮن، اﺟﺮا، اﻋﺘﺒﺎرReroducibleداﻧﻠﻮد ﺑﺎزی 🔁
+در ﻫﺮ ﻣﺨﺰنsmokeوHub CLIdoctorﻔﺎﯾﻞ ﻫﺎیاﺑﺰار اﺳﺘﺎﻧﺪارد ﺳﺎزﯾ 🧰
+ﺎﺳﮑﻦ ﻣﺨﻔﯽ، ﺳﯿﺎﺳﺖ ﻫﺎ و ﺷﯿﻮه ﻫﺎی آﺷﮑﺎرا ﻣﻤﻨﻮعدﻓﺎع در ﻋﻤﻘ 🛡
+, داﺷﺒﻮرد و ﻗﺎﺑﻠﯿﺖ ردﯾﺎﺑﯽhealth, /ready, /metrics/ — ﻗﺎﺑﻠﯿﺖ ﭘﺬﯾﺮی 📈
+ ﯾﺎ اﻣﻨﯿﺖ، ﺑﺴﺘﻪ ﺑﻪ ﻣﺨﺰنDevOps- اﺳﺘﺨﺪام ﮐﻨﻨﺪه، ﻣﺒﺘﺪی،آرﺷﯿﻮ ﺑﺮﭼﺴﺐ ﻫﺎی ﻣﺮﺗﺒﻂ 📚
+- ﻧﺴﺨﻪ ﻫﺎی ﻗﺎﺑﻞ داﻧﻠﻮد، ﭼﮑﻪ ﻫﺎ و ﺳﺎﺧﺖ ﺷﻮاﻫﺪ؛ اﻣﻀﺎﻫﺎی ﺗﺠﺎری / ﻓﺮوﺷﮕﺎه اﻋلام ﺷﺪه در ﺻﻮرت ﻟﺰومﺗﻮزﯾﻊ ﻣﺤﺼﻮل  📦
+Internationalization — portfolio in 22 languages (ES · EN · PT · IT · FR · ZH · ZH-TW · JA · KO · TR · RU · VI · TH · 🌍
+.DE · UK · PL · AR · FA · ID · NL · HI · EL)
+.PLANNEDﯾﺎOPERATIONAL, DOCUMENTED/SCAFFOLDﻬﺮ ﭘﺮوﻧﺪه ای ﮐﻪ ﺑﺮﭼﺴﺐ زده ﺷﻮدﺻﺪاﻗﺖ ﻓﻨﯿ 🧭
+وﺿﻌﯿﺖ ﻗﺎﺑﻞ ﺗﺎﯾﯿﺪ✅
+SurfaceConcrete evidence
+ﭘﻮﺷﺶ ﺗﺴﺖ 🧪OS CI ﭼﻨﺪ ﺑﻌﺪیAutoma150 pytest ·CI·  ﺗﺴﺖ158 در ﺷﯿﻠﯽEmpresa وﺣﺸﺖ0)fu503.8M + ﺗﺴﺖGabySQL828
+ﺗﻮﻟﯿﺪ ﮐﻨﻨﺪﮔﺎن 🤖 ﻣﻌﯿﺎری39ﺒﺎ ﻋﺎﻣﻠ13 ﻋﻤﻠﯿﺎﺗﯽAI٪ ﭘﻮﺷﺶ100،25 ﺗﺎ01)ﻣﻮرد ﻫﺎی ﺑﺎزﮔﺸﺖ ﻋﻤﻠﯿﺎﺗﯽLangGraph RealWorld25/25
+evalsﺑﺮای
+Polyglot 🔗
+ﯾﮑﭙﺎرﭼﮕﯽ
+ اﻟﮕﻮDB · 20+ ·11+ ﻣﻮﺗﻮرﻫﺎی18 ﺣﺴﺎﺑﺮسی ﻣﯽ ﺷﻮدDockerﺒﻪ ﺻﻮرت ﺟﺪاﮔﺎﻧﻪ ﺑﺎ ﻋﻤﻠﯿﺎت ﻋﻤﻠﯿﺎﺗﯿn8n19ﻓﺮﺳﺘﻨﺪه ﻣﻮرد20
+Distribution 📦releases across an ecosystem of 64 owned public repositories · installers and artifacts .exe · .msi · .dmg · 151
+.apk with checksums and build evidence; commercial/store signatures in progress where applicable
+زﻧﺠﯿﺮه ﺗﺎﻣﯿﻦ 🛡·CycloneDX SBOM·QL·Semgrep·Bandit·Trivy·Grypeﮐﺪ
+Curricula 📚از ﺳﺎﺧﺘﺎر ﻣﺨﺰن واﻗﻌﯽ ﯾﺎ ﯾﮏ ﻣﻨﺒﻊ ﻗﺎﺑﻞ راﺳﺘﯽ ﮐﻪ در ﻣﺨﺰنa workflow ﺑﺮﻧﺎﻣﻪ، ﺷﻤﺎرش ﺷﺪه ﺗﻮﺳﻂ21ﻘﺎﺑﻞ ﺗﺎﯾﯿﺪ در ﮐلاﺳ14530
+اﻋلام ﺷﺪه اﺳﺖ – ﮐﻪ ﻧﻪ ﺑﺎ دﺳﺖ ﻧﻮﺷﺘﻪ ﺷﺪه اﺳﺖ
+ﻧﻤﻮﻧﻪ ﮐﺎرﻫﺎ 🌐100·CV Data API·Androidﺗﻮﻟﯿﺪ ﺷﺪه ﺗﻮﺳﻂ ﺧﻂ ﻟﻮﻟﻪPDF 154 ·  زﺑﺎنPWA· 22ﻧﺼﺐ
+ﺗﻠﻪ 🔒اﺟﺎزهINTERNET(Android در ﻫﺮ ﺳﺎﺧﺖ )ﺑﺪونEmpresaﻋﺪم ﺗﻘﺎرن ﺻﻔﺮ در ﻣﺤﺼﻮلات ﻗﺎﻧﻮﻧﯽ و ﻋﻤﻠﮑﺮد
+
+Vladimir Acuña · 2026-10-16 · 2
+SurfaceConcrete evidence
+ﺳﺎﯾﺖ ﻫﺎی 🌐
+ﻣﻨﺘشر ﺷﺪه
+ ﺗﺎﯾﯿﺪ56 ﻓﺮود، ﯾﮏ ﻣﺤﺼﻮل، ﺑﺮﻧﺎﻣﻪ ﯾﺎ ﻫﺪاﯾﺖ ﮐﻨﻨﺪه اﮐﻮﺳﯿﺴﺘﻢ، ﺑﻪ ﻋلاوه ﻧﻤﻮﻧﻪ ﮐﺎرﻫﺎ – ﻫﺮ ﮐﺪام از ﻣﺨﺰن ﺧﻮد را 55 ﺻﻔﺤﻪ56
+HTTP200ﺷﺪه ﺑﺎ
+اﺳﺘﺎﻧﺪاردﻫﺎﯾﯽ ﮐﻪ در سراسر ﻣﺨﺎزن اﻋﻤﺎل ﻣﯽ ﮐﻨﻢ 🧠
+اﮔﺮ اﺟﺮای آن آﺳﺎن ﻧﺒﺎﺷﺪ، ﺑﻪ ﻋﻨﻮان ﯾﮏ دﻣﻮی ﯾﺎ ﺑﻪ ﻋﻨﻮان ﯾﮏ ﭘﺎﯾﮕﺎه ﺗﯿﻤﯽ ﻣﻔﯿﺪ ﻧﯿﺴﺖDXاوﻟﯿﻦ
+- ﻣﻌﯿﺎرﻫﺎ و ﻗﺎﺑﻠﯿﺖ ردﯾﺎﺑﯽ، ﻧﻪ ﯾﮏ ﭘﺲ اﻧﺪاز.1ﻗﺎﺑﻠﯿﺖ اﻃﻤﯿﻨﺎن از روز
+ در ﻫﺮ آزادی، ﺑﻪ ﻃﻮر واﺿﺢ ﻣﻤﻨﻮع اﺳﺖ.SBOMﺎﺳﮑﻦ ﻣﺨﻔﯽ،اﻣﻨﯿﺖ ﺑﻪ ﻋﻨﻮان ﺧﻂ ﻟﻮﻟﻬ
+– ﻗﺎﺑﻠﯿﺖ ﺗﺸﺨﯿﺺ، ﺷﮑﺴﺘﻦ ﻣﺪار و ﺗﺨﺮﯾﺐ ﮐﻨﺘﺮل ﺷﺪه اﻧﻌﻄﺎف ﭘﺬﯾﺮی واﻗﻌﯽ
+ﺰﺑﺎن و ﻣﻮﺗﻮر اﻧﺘﺨﺎب ﺷﺪه ﺗﻮﺳﻂ ﻣﻮرد اﺳﺘﻔﺎده، ﻫﺮﮔﺰ ﺑﺎ ﻣﺪ. ﺑﺎ ﻃﺮاﺣﯿPolyglot
+ﺑﺮای ﺟﻠﻮﮔﯿﺮی از ﻧﺮم اﻓﺰارMultisimulador → machine-operator-programﯿﮏ ﺑﺎر ﺗﻐﯿﯿﺮ ﻧﺎم داده ﺷﺪﺻﺪاﻗﺖ در ﻣﻮرد وﺿﻌﯿﺘ
+اﻣﯿﺪوار ﮐﻨﻨﺪه ﮐﻪ ﻫﻨﻮز وﺟﻮد ﻧﺪارد.
+.آﻧﭽﻪ ﮐﻪ اﻧﺠﺎم ﻧﻤﯽ دﻫﺪﻫﺮ ﺑﺎر ﮐﻪ دوﺑﺎره اﻋلام ﻣﯽ ﮐﻨﺪﻧﺸﺎﻧﻪ ﻫﺎ ﻫﺴﺘﻨﺪ، ﻧﻪ ﺷﻮاﻫﺪ
+- داﻣﻨﻪ اﺑﺘﺪا ﻃﺮاﺣﯽ ﺷﺪه اﺳﺖ؛ راﺑﻂ ﯾﮏ ﭘﯿﺶ ﺑﯿﻨﯽ اﺳﺖ.ﻣﺪل ﺧﺎرﺟﯽ
+agentic-qe, ﻧﻔﺮ ﮐﺎر ﺧﻮدم ﻫﺴﺘﻨﺪ. ﺷﺶ ﺑﻌﺪی64 ﻧﻤﺎﯾﻨﺪﮔﯽ ﻋﻤﻮﻣﯽ ﺣﺴﺎب،70ازﮐﺎر ﺧﺎرﺟﯽ ﺑﻪ ﻋﻨﻮان ﺧﺎرﺟﯽ اﻋلام ﻣﯽ ﺷﻮد
+ﭼﻨﮕﺎل ﻫﺴﺘﻨﺪ و از ﺗﻤﺎم ارﻗﺎم ﺑﺮای security-audit-skillوAnthropic-Cybersecurity-Skills, erpnext, OpenExecutive, raptor
+ﮐﺎر ﺧﻮدم ﻣﺤﺮوم ﻫﺴﺘﻨﺪ
+ﺣﺮﻓﻪ ای✅
+- ﺑﻪ ﻣﻦ ﮐﻤﮏ ﻣﯽ ﮐﻨﺪ ﺗﺎ اﻫﺪاف ﮐﺴﺐ و ﮐﺎر را ﺑﻪ ﺗﺼﻤﯿﻤﺎتﻣﻬﻨﺪسی ﮐﺎﻣﭙﯿﻮﺗﺮ و ﻣﺤﺎﺳﺒﺎت + ﻣﺪﯾﺮﯾﺖ ﮐﺴﺐ و ﮐﺎرﭘﺲ زﻣﯿﻨﻪ دوﮔﺎﻧﻪ ﻣﻦ -
+ﻓﻨﯽ و ﻣﺤﺪودﯾﺖ ﻫﺎی ﻓﻨﯽ ﺑﻪ ﮔﺰﯾﻨﻪ ﻫﺎی روﺷﻦ ﺑﺮای ﻋﻤﻠﯿﺎت، ﻣﺤﺼﻮل، ﻣﺸﺘﺮﯾﺎن و رﻫﺒﺮی ﺗﺒﺪﯾﻞ ﮐﻨﻢ.
+ﻫﻮﯾﺖ اﺻﻠﯽ🎯
+RoleBacking
+راه ﺣﻞ ﻣﻌﻤﺎریﻃﺮاﺣﯽ ﺳﯿﺴﺘﻢ ﻫﺎی ﻣﻘﯿﺎس ﭘﺬﯾﺮ ﺑﺎ ﻗﻀﺎوت ﺗﮑﺎﻣﻠﯽ
+ﻣﻌﻤﺎری ﻣﺪرن ﺳﺎزی، ﺑﺎزﺳﺎزی ﺗﺪرﯾﺠﯽ ﺑﺪون وﻗﻔﻪ ﻋﻤﻠﯿﺎت8.x (PHP 5.xﺗﮑﺎﻣﻞ ﻣﯿﺮاث واﻗﻌﯽ
+Full-Stack / Tech Leadارﺷﺪ ﺳﺎل( 16ﻣﻌﻤﺎری، اﺟﺮای و اﺳﺘﺎﻧﺪاردﻫﺎی ﺳﯿﺴﺘﻢ ﻋﺎﻣﻞ ﻫﺎی واﻗﻌﯽ
+AIﻣﻌﻤﺎری اﺗﻮﻣﺎﺳﯿﻮن ﺑﺎ ﻣﺤﺎﻓﻈﺎن ﺟﺮﯾﺎن ﻣﯽ ﯾﺎﺑﺪn8n وLangGraph /MCPﺳﯿﺴﺘﻢ ﻫﺎی ﻋﺎﻣﻞ ﺑﺎ
+ ﮔﺴﺘﺮش ﻃﺒﯿﻌﯽ↗
+· ﻣﺮﺑﯽ ﻓﻨﯽ· ﺳﺎزﻧﺪه ﻣﺤﺼﻮل ﻓﻨﯽ · راه ﺣﻞ ﻫﺎی ﻣﻬﻨﺪسی· (Flutterﻣﻬﻨﺪس ﻣﻮﺑﺎﯾﻞ· Rustﺳﯿﺴﺘﻢ ﻫﺎ / ﻣﻬﻨﺪس· AIﻣﻬﻨﺪسی ارﮐﺴﺘﺮ
+ﻋﻤﻠﯿﺎت ﻣﺤﺼﻮل ﻓﻨﯽ · Business / Applied Analysis · ﻣﺸﺎور ﺗﺤﻮل دﯾﺠﯿﺘﺎل
+ﻣﺤﺪوده ﻫﺎی ﺗﮑﻤﯿﻠﯽ⚙
+·SRE·Cloud / AWS·IDP·DevOps / CI-CDﻣﻬﻨﺪسی ﭘﻠﺘﻔﺮم
+This localized edition is derived from the corresponding complete public GitHub profile translation. Historical recommendation and
+.institutional records remain linked to their source editions
+/https://vladimiracunadev-create.github.io/i18n/fa

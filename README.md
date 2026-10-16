@@ -2,13 +2,13 @@
 
 [![CI Pipeline](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/actions/workflows/ci.yml/badge.svg)](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/actions/workflows/ci.yml)
 [![Wiki Sync](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/actions/workflows/wiki-sync.yml/badge.svg)](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/actions/workflows/wiki-sync.yml)
-[![Bilingual](https://img.shields.io/badge/Language-ES%2FEN-blue?style=flat-square)](index.html)
+[![Languages](https://img.shields.io/badge/Languages-22-blue?style=flat-square)](docs/i18n/README.md)
 [![Themes](https://img.shields.io/badge/Theme-Dark%2FLight-blueviolet?style=flat-square)](index.html)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
 Este repositorio alberga un **Portafolio de Alto Rendimiento** diseñado bajo la filosofía **KISS (Keep It Simple, Stupid)**. Se presenta como un núcleo estático puro, optimizado para la eficiencia extrema, que sirve de base para una arquitectura multiplataforma escalable (PWA + Mobile).
 
-**Estado verificado:** 2026-10-01. La web, la CV Data API, los generadores y los 42 PDFs públicos se sincronizan desde las mismas fuentes; los documentos previos se conservan en `assets/backups/2026-10-01/`.
+**Estado verificado:** 2026-10-16. La web, la CV Data API, los generadores y los 154 PDFs públicos se sincronizan desde las mismas fuentes; los documentos previos se conservan en `assets/backups/2026-10-16/`.
 
 ---
 
@@ -47,9 +47,9 @@ Este proyecto ha escalado de un portafolio personal a un **Demostrador Industria
 5. **Cloud Profesional + GenAI**: 14/15 casos AWS completados (incluyendo Caso I GenAI con Bedrock + Claude Haiku 4.5 + Lambda + xray-sdk; Caso O X-Ray distribuido). Infra inmutable (Terraform), seguridad OIDC y FinOps. Cobertura por certificación: ~68% SAA-C03, ~68% DVA-C02, ~50% SOA-C02. EKS v1.32 + ECS Fargate.
 6. **Multiplatform Core**: un solo código fuente para Web, PWA y Apps Nativas (Capacitor). Python Data Science Program v3.8.0 con 232 clases en 9 partes incluye App Desktop Windows nativa (PySide6 + Qt + kernel Jupyter interactivo) y App Android (Expo SDK 51). ChofyAI Studio v0.5.1 corre en macOS Apple Silicon + soporte experimental Windows + NVIDIA GPU (Tauri + Rust + React, pnpm + SHA-512 lockfile).
 7. **IA Agéntica & Local-First + LLM Discoverability**: LangGraph v4.15 con 25/25 backends operativos (cobertura 100%), estado tipado y rutas condicionales. MCP + Ollama Local con Security & Trust Profile (Bandit + pip-audit + Semgrep + CodeQL + SBOM) y blueprint AWS migration. Discoverability semántica vía `llm.txt`.
-8. **Internacionalización Completa**: 6 idiomas (ES/EN/PT/IT/FR/ZH) con 42 PDFs generados por pipeline Python/reportlab — hoja de vida genérica, CVs ATS y reclutador, portafolio, carta de recomendación, nota de vigencia institucional y declaración de logros. La nota es un apoyo emitido por el profesional, no por CEIS, y contextualiza la carta histórica. El selector de idioma cambia automáticamente los PDFs descargables vía `data-pdf-{lang}`.
+8. **Internacionalización Completa**: 22 idiomas (ES/EN/PT/IT/FR/ZH/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL) con 154 PDFs generados por pipeline Python/reportlab + Chromium — hoja de vida genérica, CVs ATS y reclutador, portafolio, carta de recomendación, nota de vigencia institucional y declaración de logros. Los 22 idiomas originales permanecen embebidos en la SPA; los otros 16 usan páginas estáticas completas derivadas de los README traducidos del perfil principal.
 9. **Producto comercial Windows**: RootCause Windows Inspector v0.11.0 — diagnóstico forense escrito en Rust (edition 2024) con 5 ediciones publicadas (GUI Setup.exe, Portable .zip, CLI single-binary `rootcause.exe`, módulo PowerShell `.psm1`, extensión VS Code `.vsix`), ETW · WPR, SHA256SUMS por release, 11+ releases tagueadas. Landing en `/rootcause-windows-inspector/`.
-10. **Ingeniería curricular trazable**: Software Engineering Learning Suite incorpora 480 clases planificadas y 360 borradores públicos con práctica, fuentes y navegación. Chilean School Learning Path creció a 8.841 clases, 4.156 integraciones y 2.823 objetivos de aprendizaje desde 1° básico hasta 4° medio.
+10. **Ingeniería curricular trazable**: Modern Software Engineering Program reúne 480 clases en 40 partes y 8 etapas. Lifelong Learning Ecosystem conecta 30 recorridos en 6 áreas sin contarse como programa adicional. Chilean School Learning Path alcanza 8.841 clases, 4.156 integraciones y 2.823 objetivos de aprendizaje desde 1° básico hasta 4° medio.
 
 ---
 
@@ -57,7 +57,7 @@ Este proyecto ha escalado de un portafolio personal a un **Demostrador Industria
 
 El sistema cuenta con un motor de **i18n (Internationalization)** e **Theming** de alto rendimiento:
 
-* **6 idiomas (ES/EN/PT/IT/FR/ZH)**: Cambio de idioma instantáneo sin recarga de página; los enlaces de descarga de PDF cambian automáticamente al documento del idioma activo vía `data-pdf-{lang}`.
+* **22 idiomas (ES/EN/PT/IT/FR/ZH/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL)**: los 22 idiomas originales cambian al instante dentro de la SPA; los otros 16 abren páginas completas en `/i18n/{locale}/`, cada una con sus siete PDF y endpoint JSON.
 * **3 vistas de lectura**: Reclutador, Normal y Profundo ajustan la densidad del contenido mediante `data-min-level` sin duplicar páginas.
 * **Controles al tope del contenido**: vista, idioma y tema encabezan la columna de lectura (`.content-controls`), no el pie del panel lateral; en escritorio la barra queda anclada al hacer scroll.
 * **Temas Dinámicos**: Modo Oscuro/Claro totalmente reactivo, respetando las preferencias del sistema y del usuario.
@@ -78,7 +78,7 @@ Cuatro servicios que se contratan por separado o encadenados:
 * **Limpieza y recuperación**: código duplicado o muerto, refactorización progresiva, reducción de deuda técnica, documentación y preparación para producción.
 * **Gobernanza de IA**: reglas de uso de asistentes y agentes, criterios de aprobación humana, trazabilidad y controles antes de integrar o desplegar.
 
-La página está en los 6 idiomas, no usa `data-min-level` (se ve completa en las 4 vistas) y su formulario compone un `mailto:` en cliente: no hay backend ni servicio de terceros, y la CSP no abre ningún host externo. No declara certificaciones, clientes, testimonios, precios ni garantía de detección del 100 % de vulnerabilidades.
+La página del servicio conserva sus seis traducciones embebidas, no usa `data-min-level` (se ve completa en las 4 vistas) y su formulario compone un `mailto:` en cliente: no hay backend ni servicio de terceros, y la CSP no abre ningún host externo. La capa `/i18n/` ofrece el perfil profesional completo en los 22 idiomas. No declara certificaciones, clientes, testimonios, precios ni garantía de detección del 100 % de vulnerabilidades.
 
 Decisiones de implementación y pendientes: [`docs/AI_CODE_ASSURANCE.md`](docs/AI_CODE_ASSURANCE.md).
 
@@ -185,16 +185,17 @@ Para compartir ese binario, usa una **GitHub Release**; no lo subas al árbol no
 ├── apps/                    # Contenedores móviles nativos (Capacitor)
 ├── docs/                    # Documentación profunda y guías de sistema
 ├── scripts/                 # Pipeline de generación de PDFs y build
-│   ├── generate-all-languages.py        # Genera 12 CVs (reclutador+ATS × 6 idiomas)
+│   ├── generate-all-languages.py        # Genera 12 CVs especializados (2 tipos × 22 idiomas)
+│   ├── generate-expanded-locales.py     # Genera web/API/docs en 22 idiomas + 112 PDFs adicionales
 │   ├── generate-unified-cv.py           # CV unificado (reclutador pág 1 + ATS págs 3-4)
-│   ├── generate-portfolio.py            # Portafolio × 6 idiomas
-│   ├── generate-achievements-statement.py  # Declaración de logros × 6 idiomas
-│   ├── generate-recommendation-letter.py   # Carta de recomendación × 6 idiomas
+│   ├── generate-portfolio.py            # Portafolio especializado × 22 idiomas
+│   ├── generate-achievements-statement.py  # Declaración de logros × 22 idiomas
+│   ├── generate-recommendation-letter.py   # Carta de recomendación × 22 idiomas
 │   ├── generate-ats-cv.py               # CV ATS standalone
 │   ├── generate-recruiter-cv.py         # CV reclutador standalone
 │   ├── build-zip.py                     # Genera ZIP de despliegue para AWS/Amplify
 │   └── fix-md-lint.py                   # Auto-corrige errores markdownlint pre-push
-├── assets/                  # PDFs públicos (30+ variantes en 6 idiomas)
+├── assets/                  # 154 PDFs públicos (7 familias × 22 idiomas)
 │   └── no_aplica/           # Versiones descartadas — no publicadas en la API
 ├── .agents/skills/          # Skills de IA para automatizar el portafolio
 ├── api/v1/                  # CV Data API — endpoints JSON estáticos
@@ -203,11 +204,13 @@ Para compartir ese binario, usa una **GitHub Release**; no lo subas al árbol no
 │   ├── experience.json      # Experiencia laboral
 │   ├── projects.json        # Proyectos del ecosistema
 │   ├── skills.json          # Habilidades técnicas
-│   └── artifacts.json       # Inventario de PDFs con 6 variantes c/u
+│   ├── artifacts.json       # Inventario de PDFs con 22 variantes c/u
+│   └── i18n/                # Perfil y artefactos localizados por idioma
 ├── data/                    # JSON Resume canónico (resume.json)
 ├── sources/extracted/       # Textos extraídos de PDFs (auditoría)
 ├── .github/workflows/       # Pipelines CI/CD (calidad, SEO, Lighthouse)
-├── index.html               # SPA principal — 6 idiomas + 3 vistas + PWA
+├── i18n/                    # 22 páginas estáticas completas derivadas del README principal
+├── index.html               # SPA principal — 22 idiomas embebidos + acceso a 16 adicionales
 ├── app.js                   # Lógica i18n, PDF routing multilingüe, vistas
 ├── robots.txt               # Directivas para crawlers de búsqueda
 ├── sitemap.xml              # Mapa del sitio para SEO
@@ -256,7 +259,7 @@ El currículum está publicado como **API JSON estática de solo lectura**, extr
 
 📑 [Manual completo → `cv-data-api.md`](cv-data-api.md)
 
-Los artefactos públicos disponen de variantes en **6 idiomas (ES/EN/PT/IT/FR/ZH)** y el selector de idioma del sitio cambia automáticamente las descargas al PDF equivalente vía atributos `data-pdf-{lang}`. Además, se incorporó una **Declaración de Logros y Validación** como respaldo separado: resume logros observables y facilita validación externa sin reemplazar el CV ni el portafolio principal. Las cartas de recomendación también están disponibles en los 6 idiomas.
+Los artefactos públicos disponen de variantes en **22 idiomas (ES/EN/PT/IT/FR/ZH/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL)**. La SPA cambia las descargas de sus 22 idiomas embebidos; cada página adicional enlaza directamente sus siete PDF. Además, se incorporó una **Declaración de Logros y Validación** como respaldo separado: resume logros observables y facilita validación externa sin reemplazar el CV ni el portafolio principal. Las cartas de recomendación también están disponibles en los 22 idiomas.
 
 El sitio también enlaza documentación pública de repos clave cuando existe (`README.md` y, en algunos casos, `RECRUITER.md`) para reducir fricción de evaluación técnica y de reclutamiento.
 
@@ -270,6 +273,7 @@ El sitio también enlaza documentación pública de repos clave cuando existe (`
 | [`/api/v1/skills.json`](https://vladimiracunadev-create.github.io/api/v1/skills.json) | Skills, educación, idiomas |
 | [`/api/v1/artifacts.json`](https://vladimiracunadev-create.github.io/api/v1/artifacts.json) | PDFs con URLs directas |
 | [`/api/v1/meta.json`](https://vladimiracunadev-create.github.io/api/v1/meta.json) | Metadatos de la API |
+| [`/api/v1/i18n/index.json`](https://vladimiracunadev-create.github.io/api/v1/i18n/index.json) | Índice de los 22 idiomas |
 
 ### CV PDF principal
 
@@ -277,7 +281,7 @@ El sitio también enlaza documentación pública de repos clave cuando existe (`
 
 ### Hoja de vida genérica
 
-📄 **[Hoja de Vida (PDF)](https://vladimiracunadev-create.github.io/assets/hoja-de-vida.pdf)** — documento clásico y completo, no dirigido a un cargo específico; sirve para cualquier proceso de selección. Disponible en los 6 idiomas.
+📄 **[Hoja de Vida (PDF)](https://vladimiracunadev-create.github.io/assets/hoja-de-vida.pdf)** — documento clásico y completo, no dirigido a un cargo específico; sirve para cualquier proceso de selección. Disponible en los 22 idiomas.
 
 ### Artefacto de validación complementario
 

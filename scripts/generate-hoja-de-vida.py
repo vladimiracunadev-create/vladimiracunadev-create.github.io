@@ -102,7 +102,7 @@ HDV = {
         "h_refs": "REFERENCIAS Y DOCUMENTOS DE RESPALDO",
         "refs_available": "Referencias laborales disponibles a solicitud.",
         "ref_manager": "Último jefe directo: Jean Claude Dupry (Fundación CEIS Maristas) — contacto disponible a solicitud.",
-        "footer_note": "Esta hoja de vida está publicada en 6 idiomas (ES · EN · PT · IT · FR · ZH) en",
+        "footer_note": "Esta hoja de vida está publicada en 22 idiomas en",
         "page": "pág.",
     },
     "en": {
@@ -133,7 +133,7 @@ HDV = {
         "h_refs": "REFERENCES AND SUPPORTING DOCUMENTS",
         "refs_available": "Work references available upon request.",
         "ref_manager": "Most recent direct manager: Jean Claude Dupry (Fundación CEIS Maristas) — contact available upon request.",
-        "footer_note": "This CV is published in 6 languages (ES · EN · PT · IT · FR · ZH) at",
+        "footer_note": "This CV is published in 22 languages at",
         "page": "p.",
     },
     "pt": {
@@ -164,7 +164,7 @@ HDV = {
         "h_refs": "REFERÊNCIAS E DOCUMENTOS DE APOIO",
         "refs_available": "Referências profissionais disponíveis mediante solicitação.",
         "ref_manager": "Último gestor direto: Jean Claude Dupry (Fundación CEIS Maristas) — contato disponível mediante solicitação.",
-        "footer_note": "Este currículo está publicado em 6 idiomas (ES · EN · PT · IT · FR · ZH) em",
+        "footer_note": "Este currículo está publicado em 22 idiomas em",
         "page": "pág.",
     },
     "it": {
@@ -195,7 +195,7 @@ HDV = {
         "h_refs": "REFERENZE E DOCUMENTI DI SUPPORTO",
         "refs_available": "Referenze lavorative disponibili su richiesta.",
         "ref_manager": "Ultimo responsabile diretto: Jean Claude Dupry (Fundación CEIS Maristas) — contatto disponibile su richiesta.",
-        "footer_note": "Questo curriculum è pubblicato in 6 lingue (ES · EN · PT · IT · FR · ZH) su",
+        "footer_note": "Questo curriculum è pubblicato in 22 lingue su",
         "page": "pag.",
     },
     "fr": {
@@ -226,7 +226,7 @@ HDV = {
         "h_refs": "RÉFÉRENCES ET DOCUMENTS JUSTIFICATIFS",
         "refs_available": "Références professionnelles disponibles sur demande.",
         "ref_manager": "Dernier responsable direct : Jean Claude Dupry (Fundación CEIS Maristas) — contact disponible sur demande.",
-        "footer_note": "Ce curriculum vitae est publié en 6 langues (ES · EN · PT · IT · FR · ZH) sur",
+        "footer_note": "Ce curriculum vitae est publié en 22 langues sur",
         "page": "p.",
     },
     "zh": {
@@ -257,7 +257,7 @@ HDV = {
         "h_refs": "推荐人与证明文件",
         "refs_available": "工作推荐人信息可应要求提供。",
         "ref_manager": "最近直属上级：Jean Claude Dupry（Fundación CEIS Maristas）——联系方式可应要求提供。",
-        "footer_note": "本简历提供6种语言版本（ES · EN · PT · IT · FR · ZH），详见",
+        "footer_note": "本简历提供22种语言版本，详见",
         "page": "第", "page_end": " 页",
     },
 }
@@ -501,7 +501,11 @@ def build_hoja_de_vida(lang, output_path):
     story.append(hr())
     story.append(Paragraph(H["projects_note"], s["small"]))
     story.append(Spacer(1, 2))
-    names = [p.split(" — ")[0].strip() for p in T["projects_rec"]]
+    names = [
+        p.split(" — ")[0].strip()
+        for p in T["projects_rec"]
+        if not p.startswith("Software Engineering Learning Suite")
+    ]
     half = (len(names) + 1) // 2
     col_a, col_b = names[:half], names[half:]
     col_b += [""] * (len(col_a) - len(col_b))

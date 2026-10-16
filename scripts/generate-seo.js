@@ -17,6 +17,19 @@ const PUBLIC_HTML_FILES = [
     }
 ];
 
+const LOCALIZED_LOCALES = [
+    'es', 'en', 'pt', 'it', 'fr', 'zh', 'zh-TW', 'ja', 'ko', 'tr', 'ru',
+    'vi', 'th', 'de', 'uk', 'pl', 'ar', 'fa', 'id', 'nl', 'hi', 'el'
+];
+
+LOCALIZED_LOCALES.forEach(locale => {
+    PUBLIC_HTML_FILES.push({
+        file: path.join('i18n', locale, 'index.html'),
+        path: `i18n/${locale}/`,
+        priority: locale === 'es' ? '0.9' : '0.8'
+    });
+});
+
 let sitemapContent = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">`;
 

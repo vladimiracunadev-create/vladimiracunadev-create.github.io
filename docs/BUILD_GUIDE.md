@@ -1,6 +1,6 @@
 # 🛠️ Guía de Construcción y Distribución
 
-**Verificada:** 2026-10-01. El archivo se mantiene en UTF-8 y se controla con `python scripts/mojibake_probe.py .`.
+**Verificada:** 2026-10-16. El archivo se mantiene en UTF-8 y se controla con `python scripts/mojibake_probe.py .`.
 
 Esta guía detalla los pasos técnicos necesarios para transformar el núcleo web del portafolio en aplicaciones instalables para Windows, macOS y dispositivos móviles (Android/iOS).
 
@@ -15,9 +15,10 @@ python scripts/generate-achievements-statement.py
 python scripts/generate-recommendation-letter.py
 python scripts/generate-hoja-de-vida.py
 python scripts/generate-institutional-context-note.py
+python scripts/generate-expanded-locales.py --pdfs
 ```
 
-El resultado esperado son 42 PDFs: 7 familias documentales por 6 idiomas. La nota institucional en español se conserva como fuente y el generador actualiza sus cinco traducciones. Valida estructura con `node scripts/check-pdf.js`, renderiza páginas representativas y revisa que no existan recortes, solapamientos ni glifos rotos.
+El resultado esperado son 154 PDFs: los generadores especializados mantienen 42 archivos (7 familias × 22 idiomas) y `generate-expanded-locales.py --pdfs` crea los 112 adicionales (7 × 16). La nota institucional en español se conserva como fuente. Valida estructura con `node scripts/check-pdf.js`, `pdfinfo`, extracción de texto y renderizado visual de una muestra representativa de cada sistema de escritura.
 
 ---
 

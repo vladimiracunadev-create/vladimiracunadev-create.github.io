@@ -172,7 +172,7 @@
         },
         {
             "name": "Portfolio · GitHub Pages",
-            "description": "Portafolio profesional en 6 idiomas (ES/EN/PT/IT/FR/ZH), 42 PDFs generados por pipeline Python, PWA instalable, CI/CD con GitHub Actions, Lighthouse 100, CV Data API.",
+            "description": "Portafolio profesional en 22 idiomas (ES/EN/PT/IT/FR/ZH/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL), 154 PDFs generados por pipeline Python, PWA instalable, CI/CD con GitHub Actions, Lighthouse 100, CV Data API.",
             "url": "https://vladimiracunadev-create.github.io/",
             "tags": [
                 "HTML",
@@ -182,7 +182,7 @@
                 "Python",
                 "reportlab",
                 "i18n",
-                "6 idiomas",
+                "22 idiomas",
                 "CI/CD",
                 "GitHub Pages"
             ],
@@ -733,31 +733,18 @@
             "category": "other"
         },
         {
-            "name": "software-engineering-learning-suite",
-            "description": "🧭 software-engineering-learning-suite · 480 clases · 360 borradores públicos con práctica, fuentes y navegación · Python + Pages · 🐧🍎🪟",
-            "url": "https://github.com/vladimiracunadev-create/software-engineering-learning-suite",
-            "tags": [
-                "Software Engineering",
-                "Curriculum",
-                "Python",
-                "GitHub Pages",
-                "Cross-platform"
-            ],
-            "category": "curriculum"
-        },
-        {
             "name": "lifelong-learning-ecosystem",
             "description": "🧭 Brújula curricular federada para aprender durante toda la vida · 30 recorridos reales en 6 áreas · programas, laboratorios y apps conectados con mapas visuales, evidencia verificable y un portal offline accesible",
             "url": "https://github.com/vladimiracunadev-create/lifelong-learning-ecosystem",
             "tags": [],
-            "category": "other"
+            "category": "curriculum"
         },
         {
             "name": "modern-software-engineering-program",
             "description": "🧭 Programa de Ingeniería de Software Moderna · 480 clases, 40 partes y 8 etapas · aprendizaje conectado, práctica, evidencia y fuentes · fundamentos → producto → arquitectura → DevOps → IA · Python + Pages · 🐧🍎🪟",
             "url": "https://github.com/vladimiracunadev-create/modern-software-engineering-program",
             "tags": [],
-            "category": "other"
+            "category": "curriculum"
         }
     ]
 }
