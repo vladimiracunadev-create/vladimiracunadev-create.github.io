@@ -1,7 +1,7 @@
 {
     "meta": {
         "version": "v1",
-        "generated_at": "2026-10-01",
+        "generated_at": "2026-10-16",
         "source_pdf": "assets/cv-ats.pdf"
     },
     "projects": [
@@ -241,7 +241,7 @@
         },
         {
             "name": "Problem Driven Systems Lab",
-            "description": "🧪 Laboratorio de sistemas distribuido con 20 casos reales Docker-first para diagnosticar y resolver problemas criticos de rendimiento, observabilidad, resiliencia y arquitectura 🐳",
+            "description": "🧪 Laboratorio Docker-first con 20 problemas reales en 7 stacks · rendimiento, observabilidad, resiliencia, concurrencia y modernización · hubs operativos en PHP, Python, Node.js, Java, .NET, Go y Rust",
             "url": "https://github.com/vladimiracunadev-create/problem-driven-systems-lab",
             "tags": [
                 "PHP 8",
@@ -292,7 +292,7 @@
         },
         {
             "name": "gabysql v0.2.0 · Fase 3",
-            "description": "🗄️ GabySQL · Base de datos embebida en Rust, multiplataforma, archivo único .db, WAL, API HTTP/JSON y admin web liviano. Diseñada para entornos embebidos y edge. 🦀",
+            "description": "🗄️ Base de datos embebida en Rust · archivo único .db + WAL con recuperación y CRC · SQL relacional, transacciones, API HTTP/JSON, admin y modelador web · Windows, Linux y macOS 🐧🍎🪟",
             "url": "https://github.com/vladimiracunadev-create/gabysql",
             "version": "v0.2.0",
             "tags": [
@@ -411,7 +411,7 @@
         },
         {
             "name": "modern-cybersecurity-program",
-            "description": "🛡️ modern-cybersecurity-program v1.3.0 · 360 clases en 20 partes · 2.424 términos · CTF, Game Security y 14 plataformas de práctica · app Android/web offline · manual PDF · CI, Security y Pages verificados.",
+            "description": "🛡️ Programa de Ciberseguridad Moderna · 360 clases, 20 partes · aprendizaje conectado, práctica, evidencia y fuentes · fundamentos → Red Team → Blue Team/DFIR → cloud/DevSecOps → IA y Game Security · Python + Pages + app offline · 🐧🍎🪟",
             "url": "https://github.com/vladimiracunadev-create/modern-cybersecurity-program",
             "tags": [],
             "category": "other"
@@ -474,7 +474,7 @@
         },
         {
             "name": "blockchain-learning-path",
-            "description": "⛓️ blockchain-learning-path · v0.14.0 · 66 clases, 91 prácticas y 356 pruebas · Andes Quest: DB vs activos on-chain · Solidity, custodia, PoR y forensics · Apps offline 🪟📱🌐",
+            "description": "⛓️ Ruta práctica en español: 66 clases, 91 prácticas y 363 pruebas · Bitcoin, Ethereum, Solidity, tokenización, custodia, Proof of Reserves y forensics · Web y apps offline para Windows y Android 🌐🪟📱",
             "url": "https://github.com/vladimiracunadev-create/blockchain-learning-path",
             "tags": [],
             "category": "other"
@@ -510,7 +510,7 @@
         },
         {
             "name": "artificial-intelligence-evolution-program",
-            "description": "🧠 artificial-intelligence-evolution-program · v0.17.0 · 183 clases en 15 partes · 705 notebooks · 148 papers fundacionales · IA simbólica → LLMs, RAG, agentes, seguridad y frontera · Apps Windows/Android + PWA offline · Python 🐧🍎🪟",
+            "description": "🧠 Programa evolutivo de inteligencia artificial · v0.17.0 · 184 clases en 15 partes · 708 notebooks · 148 papers fundacionales · de la IA simbólica a LLM, RAG, agentes, seguridad y frontera · apps Windows/Android + PWA offline · Python 🐧🍎🪟",
             "url": "https://github.com/vladimiracunadev-create/artificial-intelligence-evolution-program",
             "tags": [],
             "category": "other"
@@ -559,7 +559,7 @@
         },
         {
             "name": "marketing-sales-growth-evolution-program",
-            "description": "📈 marketing-sales-growth-evolution-program · v1.6.0 · 336 clases en 24 partes · 1.348 conceptos, 1.012 métricas y 97 obras · marketing, ventas, RevOps, growth, analítica e IA comercial · portal offline en Python · 🐧🍎🪟",
+            "description": "📈 Programa integral de marketing, ventas y growth · v1.6.0 · 336 clases en 24 partes · 1.348 conceptos, 1.012 métricas y 97 obras · marketing, ventas, RevOps, analítica e IA comercial · portal offline en Python · 🐧🍎🪟",
             "url": "https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program",
             "tags": [],
             "category": "other"
@@ -608,7 +608,7 @@
         },
         {
             "name": "rootcause-qr-inspector",
-            "description": "📱 rootcause-qr-inspector · ⚡ 26 señales locales y 107 pruebas · cámara, imágenes y PDF · evidencia redactada · Flutter/Dart · local-first y telemetría cero · APK Android v0.1.4 publicado",
+            "description": "📱 Inspector local de QR y códigos de barras · 26 señales de riesgo, 107 pruebas y evidencia redactada · cámara, imágenes y PDF · Flutter/Dart · sin cuentas ni telemetría · APK Android v0.1.4 publicado",
             "url": "https://github.com/vladimiracunadev-create/rootcause-qr-inspector",
             "tags": [],
             "category": "other"
@@ -622,7 +622,7 @@
         },
         {
             "name": "architecture-built-environment-learning-program",
-            "description": "🏛️ Programa integral del entorno construido en español · 📚 680 clases en 68 partes — del encargo al fin de vida: historia, proyecto, ciudad, sistemas, construcción, gestión, operación y rehabilitación · 🏗️ 8 talleres (48 sesiones) · 🧭 12 rutas · 🔗 fuentes trazables por clase",
+            "description": "🏛️ Programa abierto de arquitectura y entorno construido en español · 830 clases en 83 partes, 60 sesiones, 34 rutas y una ruta aplicada de vivienda con costos y permisos trazables",
             "url": "https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program",
             "tags": [],
             "category": "other"
@@ -636,7 +636,7 @@
         },
         {
             "name": "universal-payments-engineering-lab",
-            "description": "💳 Laboratorio autoexplicativo de ingeniería de pagos: 28 familias, DEMO local, estados, ledger, conciliación, seguridad y guías de implementación.",
+            "description": "💳 Laboratorio educativo para entender pagos de punta a punta · 28 familias en DEMO determinista · estados, idempotencia, ledger balanceado, conciliación, fallos y 4 adapters · Python 3.11+, local y sin mover dinero",
             "url": "https://github.com/vladimiracunadev-create/universal-payments-engineering-lab",
             "tags": [],
             "category": "other"
@@ -744,6 +744,20 @@
                 "Cross-platform"
             ],
             "category": "curriculum"
+        },
+        {
+            "name": "lifelong-learning-ecosystem",
+            "description": "🧭 Brújula curricular federada para aprender durante toda la vida · 30 recorridos reales en 6 áreas · programas, laboratorios y apps conectados con mapas visuales, evidencia verificable y un portal offline accesible",
+            "url": "https://github.com/vladimiracunadev-create/lifelong-learning-ecosystem",
+            "tags": [],
+            "category": "other"
+        },
+        {
+            "name": "modern-software-engineering-program",
+            "description": "🧭 Programa de Ingeniería de Software Moderna · 480 clases, 40 partes y 8 etapas · aprendizaje conectado, práctica, evidencia y fuentes · fundamentos → producto → arquitectura → DevOps → IA · Python + Pages · 🐧🍎🪟",
+            "url": "https://github.com/vladimiracunadev-create/modern-software-engineering-program",
+            "tags": [],
+            "category": "other"
         }
     ]
 }

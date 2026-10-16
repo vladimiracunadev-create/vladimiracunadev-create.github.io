@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-10-16
+
+### sync-portfolio (automático — 2026-10-16)
+
+- `api/v1/`: generated_at → 2026-10-16
+- Repos nuevos integrados: lifelong-learning-ecosystem, modern-software-engineering-program
+- Cards HTML agregados en `#proyectos` (index.html)
+- Scripts PDF y api/v1/projects.json actualizados
+
 ## 2026-10-01
 
 ### feat(portfolio): nota de vigencia institucional CEIS

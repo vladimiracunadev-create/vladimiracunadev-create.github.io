@@ -160,6 +160,8 @@ PROJECTS_URLS = {
     "video": "https://github.com/vladimiracunadev-create/video-transcript-studio",
     "framework": "https://github.com/vladimiracunadev-create/framework-ecosystems-labs",
     "software": "https://github.com/vladimiracunadev-create/software-engineering-learning-suite",
+    "lifelong": "https://github.com/vladimiracunadev-create/lifelong-learning-ecosystem",
+    "modern_software": "https://github.com/vladimiracunadev-create/modern-software-engineering-program",
 }
 
 PREVIOUS_CAREER = {
@@ -332,6 +334,8 @@ def get_content(lang):
                 "Video Transcript Studio — Un video, una lista o un CANAL COMPLETO de YouTube → texto con marcas de tiempo. Whisper 100% local: sin API, sin cuenta, sin telemetría. Asistente de 4 etapas en escritorio Windows + panel local en 127.0.0.1 + CLI, con la misma cola. MD, PDF, TXT, SRT, VTT, JSON, MP3, OGG. FFmpeg incluido. Modo oscuro. 89 tests. 🇪🇸",
                 "Framework Ecosystems Labs — Laboratorio de clases comparadas: el mismo contrato ejecutable, sin adaptadores, contra Express, FastAPI, Spring Boot, ASP.NET, Django, Rails, Laravel, React, Vue, Svelte y más. 149 clases en 12 partes (70 construidas, 397 casos verificados en CI) · 210 fuentes con ISBN/DOI · seguridad, datos, interfaz",
                 "Software Engineering Learning Suite — software-engineering-learning-suite · 480 clases · 360 borradores públicos con práctica, fuentes y navegación · Python + Pages ·",
+                "Lifelong Learning Ecosystem — Brújula curricular federada para aprender durante toda la vida · 30 recorridos reales en 6 áreas · programas, laboratorios y apps conectados con mapas visuales, evidencia verificable y un portal offline accesible",
+                "Modern Software Engineering Program — Programa de Ingeniería de Software Moderna · 480 clases, 40 partes y 8 etapas · aprendizaje conectado, práctica, evidencia y fuentes · fundamentos → producto → arquitectura → DevOps → IA · Python + Pages ·",
 ],
             "projects_ats": [
                 ("Cloud/AWS y FinOps — GitHub (demos y documentación):", "aws_gh"),
@@ -396,6 +400,8 @@ def get_content(lang):
                 ("Video Transcript Studio — Un video, una lista o un CANAL COMPLETO de YouTube → texto con marcas de tiempo. Whisper 100% local: sin API, sin cuenta, sin telemetría. Asistente de 4 etapas en escritorio Windows + panel local en 127.0.0.1 + CLI, con la misma cola. MD, PDF, TXT, SRT, VTT, JSON, MP3, OGG. FFmpeg incluido. Modo oscuro. 89 tests. 🇪🇸:", "video"),
                 ("Framework Ecosystems Labs — Laboratorio de clases comparadas: el mismo contrato ejecutable, sin adaptadores, contra Express, FastAPI, Spring Boot, ASP.NET, Django, Rails, Laravel, React, Vue, Svelte y más. 149 clases en 12 partes (70 construidas, 397 casos verificados en CI) · 210 fuentes con ISBN/DOI · seguridad, datos, interfaz:", "framework"),
                 ("Software Engineering Learning Suite — software-engineering-learning-suite · 480 clases · 360 borradores públicos con práctica, fuentes y navegación · Python + Pages ·:", "software"),
+                ("Lifelong Learning Ecosystem — Brújula curricular federada para aprender durante toda la vida · 30 recorridos reales en 6 áreas · programas, laboratorios y apps conectados con mapas visuales, evidencia verificable y un portal offline accesible:", "lifelong"),
+                ("Modern Software Engineering Program — Programa de Ingeniería de Software Moderna · 480 clases, 40 partes y 8 etapas · aprendizaje conectado, práctica, evidencia y fuentes · fundamentos → producto → arquitectura → DevOps → IA · Python + Pages ·:", "modern_software"),
 ],
             "training": [
                 "Formaci\u00f3n continua en automatizaci\u00f3n pr\u00e1ctica, ML/NLP y herramientas de desarrollo.",
@@ -522,6 +528,8 @@ def get_content(lang):
                 "Video Transcript Studio — Un video, una lista o un CANAL COMPLETO de YouTube → texto con marcas de tiempo. Whisper 100% local: sin API, sin cuenta, sin telemetría. Asistente de 4 etapas en escritorio Windows + panel local en 127.0.0.1 + CLI, con la misma cola. MD, PDF, TXT, SRT, VTT, JSON, MP3, OGG. FFmpeg incluido. Modo oscuro. 89 tests. 🇪🇸",
                 "Framework Ecosystems Labs — Laboratorio de clases comparadas: el mismo contrato ejecutable, sin adaptadores, contra Express, FastAPI, Spring Boot, ASP.NET, Django, Rails, Laravel, React, Vue, Svelte y más. 149 clases en 12 partes (70 construidas, 397 casos verificados en CI) · 210 fuentes con ISBN/DOI · seguridad, datos, interfaz",
                 "Software Engineering Learning Suite — software-engineering-learning-suite · 480 clases · 360 borradores públicos con práctica, fuentes y navegación · Python + Pages ·",
+                "Lifelong Learning Ecosystem — Brújula curricular federada para aprender durante toda la vida · 30 recorridos reales en 6 áreas · programas, laboratorios y apps conectados con mapas visuales, evidencia verificable y un portal offline accesible",
+                "Modern Software Engineering Program — Programa de Ingeniería de Software Moderna · 480 clases, 40 partes y 8 etapas · aprendizaje conectado, práctica, evidencia y fuentes · fundamentos → producto → arquitectura → DevOps → IA · Python + Pages ·",
 ],
             "projects_ats": [
                 ("Cloud/AWS and FinOps — GitHub (demos and documentation):", "aws_gh"),
@@ -586,6 +594,8 @@ def get_content(lang):
                 ("Video Transcript Studio — Un video, una lista o un CANAL COMPLETO de YouTube → texto con marcas de tiempo. Whisper 100% local: sin API, sin cuenta, sin telemetría. Asistente de 4 etapas en escritorio Windows + panel local en 127.0.0.1 + CLI, con la misma cola. MD, PDF, TXT, SRT, VTT, JSON, MP3, OGG. FFmpeg incluido. Modo oscuro. 89 tests. 🇪🇸:", "video"),
                 ("Framework Ecosystems Labs — Laboratorio de clases comparadas: el mismo contrato ejecutable, sin adaptadores, contra Express, FastAPI, Spring Boot, ASP.NET, Django, Rails, Laravel, React, Vue, Svelte y más. 149 clases en 12 partes (70 construidas, 397 casos verificados en CI) · 210 fuentes con ISBN/DOI · seguridad, datos, interfaz:", "framework"),
                 ("Software Engineering Learning Suite — software-engineering-learning-suite · 480 clases · 360 borradores públicos con práctica, fuentes y navegación · Python + Pages ·:", "software"),
+                ("Lifelong Learning Ecosystem — Brújula curricular federada para aprender durante toda la vida · 30 recorridos reales en 6 áreas · programas, laboratorios y apps conectados con mapas visuales, evidencia verificable y un portal offline accesible:", "lifelong"),
+                ("Modern Software Engineering Program — Programa de Ingeniería de Software Moderna · 480 clases, 40 partes y 8 etapas · aprendizaje conectado, práctica, evidencia y fuentes · fundamentos → producto → arquitectura → DevOps → IA · Python + Pages ·:", "modern_software"),
 ],
             "training": [
                 "Continuous training in practical automation, ML/NLP, and development tools.",
@@ -712,6 +722,8 @@ def get_content(lang):
                 "Video Transcript Studio — Un video, una lista o un CANAL COMPLETO de YouTube → texto con marcas de tiempo. Whisper 100% local: sin API, sin cuenta, sin telemetría. Asistente de 4 etapas en escritorio Windows + panel local en 127.0.0.1 + CLI, con la misma cola. MD, PDF, TXT, SRT, VTT, JSON, MP3, OGG. FFmpeg incluido. Modo oscuro. 89 tests. 🇪🇸",
                 "Framework Ecosystems Labs — Laboratorio de clases comparadas: el mismo contrato ejecutable, sin adaptadores, contra Express, FastAPI, Spring Boot, ASP.NET, Django, Rails, Laravel, React, Vue, Svelte y más. 149 clases en 12 partes (70 construidas, 397 casos verificados en CI) · 210 fuentes con ISBN/DOI · seguridad, datos, interfaz",
                 "Software Engineering Learning Suite — software-engineering-learning-suite · 480 clases · 360 borradores públicos con práctica, fuentes y navegación · Python + Pages ·",
+                "Lifelong Learning Ecosystem — Brújula curricular federada para aprender durante toda la vida · 30 recorridos reales en 6 áreas · programas, laboratorios y apps conectados con mapas visuales, evidencia verificable y un portal offline accesible",
+                "Modern Software Engineering Program — Programa de Ingeniería de Software Moderna · 480 clases, 40 partes y 8 etapas · aprendizaje conectado, práctica, evidencia y fuentes · fundamentos → producto → arquitectura → DevOps → IA · Python + Pages ·",
 ],
             "projects_ats": [
                 ("Cloud/AWS e FinOps — GitHub (demos e documentação):", "aws_gh"),
@@ -776,6 +788,8 @@ def get_content(lang):
                 ("Video Transcript Studio — Un video, una lista o un CANAL COMPLETO de YouTube → texto con marcas de tiempo. Whisper 100% local: sin API, sin cuenta, sin telemetría. Asistente de 4 etapas en escritorio Windows + panel local en 127.0.0.1 + CLI, con la misma cola. MD, PDF, TXT, SRT, VTT, JSON, MP3, OGG. FFmpeg incluido. Modo oscuro. 89 tests. 🇪🇸:", "video"),
                 ("Framework Ecosystems Labs — Laboratorio de clases comparadas: el mismo contrato ejecutable, sin adaptadores, contra Express, FastAPI, Spring Boot, ASP.NET, Django, Rails, Laravel, React, Vue, Svelte y más. 149 clases en 12 partes (70 construidas, 397 casos verificados en CI) · 210 fuentes con ISBN/DOI · seguridad, datos, interfaz:", "framework"),
                 ("Software Engineering Learning Suite — software-engineering-learning-suite · 480 clases · 360 borradores públicos con práctica, fuentes y navegación · Python + Pages ·:", "software"),
+                ("Lifelong Learning Ecosystem — Brújula curricular federada para aprender durante toda la vida · 30 recorridos reales en 6 áreas · programas, laboratorios y apps conectados con mapas visuales, evidencia verificable y un portal offline accesible:", "lifelong"),
+                ("Modern Software Engineering Program — Programa de Ingeniería de Software Moderna · 480 clases, 40 partes y 8 etapas · aprendizaje conectado, práctica, evidencia y fuentes · fundamentos → producto → arquitectura → DevOps → IA · Python + Pages ·:", "modern_software"),
 ],
             "training": [
                 "Forma\u00e7\u00e3o cont\u00ednua em automa\u00e7\u00e3o pr\u00e1tica, ML/NLP e ferramentas de desenvolvimento.",
@@ -902,6 +916,8 @@ def get_content(lang):
                 "Video Transcript Studio — Un video, una lista o un CANAL COMPLETO de YouTube → texto con marcas de tiempo. Whisper 100% local: sin API, sin cuenta, sin telemetría. Asistente de 4 etapas en escritorio Windows + panel local en 127.0.0.1 + CLI, con la misma cola. MD, PDF, TXT, SRT, VTT, JSON, MP3, OGG. FFmpeg incluido. Modo oscuro. 89 tests. 🇪🇸",
                 "Framework Ecosystems Labs — Laboratorio de clases comparadas: el mismo contrato ejecutable, sin adaptadores, contra Express, FastAPI, Spring Boot, ASP.NET, Django, Rails, Laravel, React, Vue, Svelte y más. 149 clases en 12 partes (70 construidas, 397 casos verificados en CI) · 210 fuentes con ISBN/DOI · seguridad, datos, interfaz",
                 "Software Engineering Learning Suite — software-engineering-learning-suite · 480 clases · 360 borradores públicos con práctica, fuentes y navegación · Python + Pages ·",
+                "Lifelong Learning Ecosystem — Brújula curricular federada para aprender durante toda la vida · 30 recorridos reales en 6 áreas · programas, laboratorios y apps conectados con mapas visuales, evidencia verificable y un portal offline accesible",
+                "Modern Software Engineering Program — Programa de Ingeniería de Software Moderna · 480 clases, 40 partes y 8 etapas · aprendizaje conectado, práctica, evidencia y fuentes · fundamentos → producto → arquitectura → DevOps → IA · Python + Pages ·",
 ],
             "projects_ats": [
                 ("Cloud/AWS e FinOps — GitHub (demo e documentazione):", "aws_gh"),
@@ -966,6 +982,8 @@ def get_content(lang):
                 ("Video Transcript Studio — Un video, una lista o un CANAL COMPLETO de YouTube → texto con marcas de tiempo. Whisper 100% local: sin API, sin cuenta, sin telemetría. Asistente de 4 etapas en escritorio Windows + panel local en 127.0.0.1 + CLI, con la misma cola. MD, PDF, TXT, SRT, VTT, JSON, MP3, OGG. FFmpeg incluido. Modo oscuro. 89 tests. 🇪🇸:", "video"),
                 ("Framework Ecosystems Labs — Laboratorio de clases comparadas: el mismo contrato ejecutable, sin adaptadores, contra Express, FastAPI, Spring Boot, ASP.NET, Django, Rails, Laravel, React, Vue, Svelte y más. 149 clases en 12 partes (70 construidas, 397 casos verificados en CI) · 210 fuentes con ISBN/DOI · seguridad, datos, interfaz:", "framework"),
                 ("Software Engineering Learning Suite — software-engineering-learning-suite · 480 clases · 360 borradores públicos con práctica, fuentes y navegación · Python + Pages ·:", "software"),
+                ("Lifelong Learning Ecosystem — Brújula curricular federada para aprender durante toda la vida · 30 recorridos reales en 6 áreas · programas, laboratorios y apps conectados con mapas visuales, evidencia verificable y un portal offline accesible:", "lifelong"),
+                ("Modern Software Engineering Program — Programa de Ingeniería de Software Moderna · 480 clases, 40 partes y 8 etapas · aprendizaje conectado, práctica, evidencia y fuentes · fundamentos → producto → arquitectura → DevOps → IA · Python + Pages ·:", "modern_software"),
 ],
             "training": [
                 "Formazione continua in automazione pratica, ML/NLP e strumenti di sviluppo.",
@@ -1092,6 +1110,8 @@ def get_content(lang):
                 "Video Transcript Studio — Un video, una lista o un CANAL COMPLETO de YouTube → texto con marcas de tiempo. Whisper 100% local: sin API, sin cuenta, sin telemetría. Asistente de 4 etapas en escritorio Windows + panel local en 127.0.0.1 + CLI, con la misma cola. MD, PDF, TXT, SRT, VTT, JSON, MP3, OGG. FFmpeg incluido. Modo oscuro. 89 tests. 🇪🇸",
                 "Framework Ecosystems Labs — Laboratorio de clases comparadas: el mismo contrato ejecutable, sin adaptadores, contra Express, FastAPI, Spring Boot, ASP.NET, Django, Rails, Laravel, React, Vue, Svelte y más. 149 clases en 12 partes (70 construidas, 397 casos verificados en CI) · 210 fuentes con ISBN/DOI · seguridad, datos, interfaz",
                 "Software Engineering Learning Suite — software-engineering-learning-suite · 480 clases · 360 borradores públicos con práctica, fuentes y navegación · Python + Pages ·",
+                "Lifelong Learning Ecosystem — Brújula curricular federada para aprender durante toda la vida · 30 recorridos reales en 6 áreas · programas, laboratorios y apps conectados con mapas visuales, evidencia verificable y un portal offline accesible",
+                "Modern Software Engineering Program — Programa de Ingeniería de Software Moderna · 480 clases, 40 partes y 8 etapas · aprendizaje conectado, práctica, evidencia y fuentes · fundamentos → producto → arquitectura → DevOps → IA · Python + Pages ·",
 ],
             "projects_ats": [
                 ("Cloud/AWS et FinOps — GitHub (démos et documentation) :", "aws_gh"),
@@ -1156,6 +1176,8 @@ def get_content(lang):
                 ("Video Transcript Studio — Un video, una lista o un CANAL COMPLETO de YouTube → texto con marcas de tiempo. Whisper 100% local: sin API, sin cuenta, sin telemetría. Asistente de 4 etapas en escritorio Windows + panel local en 127.0.0.1 + CLI, con la misma cola. MD, PDF, TXT, SRT, VTT, JSON, MP3, OGG. FFmpeg incluido. Modo oscuro. 89 tests. 🇪🇸 :", "video"),
                 ("Framework Ecosystems Labs — Laboratorio de clases comparadas: el mismo contrato ejecutable, sin adaptadores, contra Express, FastAPI, Spring Boot, ASP.NET, Django, Rails, Laravel, React, Vue, Svelte y más. 149 clases en 12 partes (70 construidas, 397 casos verificados en CI) · 210 fuentes con ISBN/DOI · seguridad, datos, interfaz :", "framework"),
                 ("Software Engineering Learning Suite — software-engineering-learning-suite · 480 clases · 360 borradores públicos con práctica, fuentes y navegación · Python + Pages · :", "software"),
+                ("Lifelong Learning Ecosystem — Brújula curricular federada para aprender durante toda la vida · 30 recorridos reales en 6 áreas · programas, laboratorios y apps conectados con mapas visuales, evidencia verificable y un portal offline accesible :", "lifelong"),
+                ("Modern Software Engineering Program — Programa de Ingeniería de Software Moderna · 480 clases, 40 partes y 8 etapas · aprendizaje conectado, práctica, evidencia y fuentes · fundamentos → producto → arquitectura → DevOps → IA · Python + Pages · :", "modern_software"),
 ],
             "training": [
                 "Formation continue en automatisation pratique, ML/NLP et outils de d\u00e9veloppement.",
@@ -1282,6 +1304,8 @@ def get_content(lang):
                 "Video Transcript Studio — Un video, una lista o un CANAL COMPLETO de YouTube → texto con marcas de tiempo. Whisper 100% local: sin API, sin cuenta, sin telemetría. Asistente de 4 etapas en escritorio Windows + panel local en 127.0.0.1 + CLI, con la misma cola. MD, PDF, TXT, SRT, VTT, JSON, MP3, OGG. FFmpeg incluido. Modo oscuro. 89 tests. 🇪🇸",
                 "Framework Ecosystems Labs — Laboratorio de clases comparadas: el mismo contrato ejecutable, sin adaptadores, contra Express, FastAPI, Spring Boot, ASP.NET, Django, Rails, Laravel, React, Vue, Svelte y más. 149 clases en 12 partes (70 construidas, 397 casos verificados en CI) · 210 fuentes con ISBN/DOI · seguridad, datos, interfaz",
                 "Software Engineering Learning Suite — software-engineering-learning-suite · 480 clases · 360 borradores públicos con práctica, fuentes y navegación · Python + Pages ·",
+                "Lifelong Learning Ecosystem — Brújula curricular federada para aprender durante toda la vida · 30 recorridos reales en 6 áreas · programas, laboratorios y apps conectados con mapas visuales, evidencia verificable y un portal offline accesible",
+                "Modern Software Engineering Program — Programa de Ingeniería de Software Moderna · 480 clases, 40 partes y 8 etapas · aprendizaje conectado, práctica, evidencia y fuentes · fundamentos → producto → arquitectura → DevOps → IA · Python + Pages ·",
 ],
             "projects_ats": [
                 ("Cloud/AWS和FinOps — GitHub（演示和文档）：", "aws_gh"),
@@ -1346,6 +1370,8 @@ def get_content(lang):
                 ("Video Transcript Studio — Un video, una lista o un CANAL COMPLETO de YouTube → texto con marcas de tiempo. Whisper 100% local: sin API, sin cuenta, sin telemetría. Asistente de 4 etapas en escritorio Windows + panel local en 127.0.0.1 + CLI, con la misma cola. MD, PDF, TXT, SRT, VTT, JSON, MP3, OGG. FFmpeg incluido. Modo oscuro. 89 tests. 🇪🇸：", "video"),
                 ("Framework Ecosystems Labs — Laboratorio de clases comparadas: el mismo contrato ejecutable, sin adaptadores, contra Express, FastAPI, Spring Boot, ASP.NET, Django, Rails, Laravel, React, Vue, Svelte y más. 149 clases en 12 partes (70 construidas, 397 casos verificados en CI) · 210 fuentes con ISBN/DOI · seguridad, datos, interfaz：", "framework"),
                 ("Software Engineering Learning Suite — software-engineering-learning-suite · 480 clases · 360 borradores públicos con práctica, fuentes y navegación · Python + Pages ·：", "software"),
+                ("Lifelong Learning Ecosystem — Brújula curricular federada para aprender durante toda la vida · 30 recorridos reales en 6 áreas · programas, laboratorios y apps conectados con mapas visuales, evidencia verificable y un portal offline accesible：", "lifelong"),
+                ("Modern Software Engineering Program — Programa de Ingeniería de Software Moderna · 480 clases, 40 partes y 8 etapas · aprendizaje conectado, práctica, evidencia y fuentes · fundamentos → producto → arquitectura → DevOps → IA · Python + Pages ·：", "modern_software"),
 ],
             "training": [
                 "\u6301\u7eed\u5b66\u4e60\u5b9e\u7528\u81ea\u52a8\u5316\u3001ML/NLP\u548c\u5f00\u53d1\u5de5\u5177\u3002",
