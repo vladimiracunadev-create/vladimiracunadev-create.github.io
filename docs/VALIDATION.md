@@ -1,6 +1,6 @@
 # Guía de Validación Local
 
-**Última ejecución integral:** 2026-10-16.
+**Última ejecución integral:** 2026-10-25.
 
 Este proyecto utiliza **Lighthouse CI** para asegurar calidad, accesibilidad y performance.
 
@@ -15,9 +15,13 @@ Este proyecto utiliza **Lighthouse CI** para asegurar calidad, accesibilidad y p
 Para ejecutar la auditoría completa, usa:
 
 ```bash
+pnpm test
+pnpm lint
 pnpm build
 pnpm lhci
 ```
+
+`pnpm test` ejecuta la integridad general y `scripts/validate-i18n.js`: 22 rutas, 16 secciones, cuatro vistas, Markdown, API, fallback español, artefactos y RTL para árabe/persa. CI ejecuta este gate en `.github/workflows/ci.yml`.
 
 ### ¿Qué evalúa?
 
@@ -33,6 +37,17 @@ El `service-worker` usa una estrategia híbrida para evitar que cambios visibles
 - **`network-first`** para navegación y archivos de shell (`index.html`, `styles.css`, `app.js`, `pwa.js`, `manifest.webmanifest`).
 - **`cache-first`** para assets estáticos más estables.
 - **Invalidación por versión** mediante `CACHE_NAME` y versión en `pwa.js` cuando hay cambios importantes de entrega.
+- **Entradas offline localizadas**: las 22 rutas y `data/portfolio-i18n.json` forman parte del shell precacheado.
+
+## Matriz funcional i18n
+
+- Idioma: selección explícita, persistencia tras recarga y detección del navegador.
+- Fallback: una clave ausente muestra español sin vaciar navegación ni controles.
+- Estado: tema e idioma permanecen al cambiar entre Reclutador, Normal, Profundo y Freelance.
+- Rutas: `/i18n/{locale}/` conserva el locale al entrar a la SPA.
+- RTL: `html[dir="rtl"]` para árabe y persa; el resto usa `ltr`.
+- Descargas: cada locale resuelve sus siete PDF y todos existen.
+- Mobile/PWA/Capacitor: `scripts/sync-web.ps1` y `.sh` copian la misma SPA, `i18n/`, API y contrato.
 
 Si un cambio visual no aparece tras publicar, revisar primero:
 

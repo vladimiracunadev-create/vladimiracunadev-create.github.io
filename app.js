@@ -128,25 +128,60 @@ const SUPPORTED_LANGS = [
   ...INLINE_LANGS, "zh-TW", "ja", "ko", "tr", "ru", "vi", "th", "de",
   "uk", "pl", "ar", "fa", "id", "nl", "hi", "el",
 ];
+const RTL_LANGS = new Set(["ar", "fa"]);
+const PDF_SUFFIXES = {
+  es: "", en: "-english", pt: "-portuguese", it: "-italian", fr: "-french",
+  zh: "-chinese", "zh-TW": "-traditional-chinese", ja: "-japanese",
+  ko: "-korean", tr: "-turkish", ru: "-russian", vi: "-vietnamese",
+  th: "-thai", de: "-german", uk: "-ukrainian", pl: "-polish",
+  ar: "-arabic", fa: "-persian", id: "-indonesian", nl: "-dutch",
+  hi: "-hindi", el: "-greek",
+};
+
+function applyLanguageFallback(lang) {
+  $$('[data-i18n-fallback="es"]').forEach(el => el.removeAttribute("data-i18n-fallback"));
+  if (lang === "es") return;
+
+  const requestedAttribute = `data-${lang}`;
+  $$('[data-es]').forEach(spanish => {
+    const parent = spanish.parentElement;
+    if (!parent) return;
+    const translatedSibling = Array.from(parent.children).some(candidate =>
+      candidate.tagName === spanish.tagName && candidate.hasAttribute(requestedAttribute)
+    );
+    if (!translatedSibling) spanish.setAttribute("data-i18n-fallback", "es");
+  });
+}
+
+function syncLanguageUrl(lang) {
+  const url = new URL(window.location.href);
+  if (/\/i18n\/[A-Za-z-]+\/?$/.test(url.pathname)) return;
+  url.searchParams.set("lang", lang);
+  window.history.replaceState({}, "", `${url.pathname}${url.search}${url.hash}`);
+}
 
 function setLang(lang) {
   if (!SUPPORTED_LANGS.includes(lang)) lang = "es";
-  if (!INLINE_LANGS.includes(lang)) {
-    localStorage.setItem("portfolio_lang", lang);
-    window.location.assign(`i18n/${encodeURIComponent(lang)}/`);
-    return;
-  }
-  document.body.dataset.lang = lang;
+  const contentLang = INLINE_LANGS.includes(lang) ? lang : "es";
+  document.body.dataset.lang = contentLang;
+  document.body.dataset.locale = lang;
+  document.documentElement.lang = lang;
+  document.documentElement.dir = RTL_LANGS.has(lang) ? "rtl" : "ltr";
+  document.documentElement.dataset.contentLang = contentLang;
+  applyLanguageFallback(lang);
   localStorage.setItem("portfolio_lang", lang);
   const sel = $("#selectLang");
   if (sel) sel.value = lang;
   updateLocalizedPdfLinks(lang);
+  syncLanguageUrl(lang);
 }
 
 function resolveLocalizedPdfHref(link, lang) {
   const fallback = link.dataset.pdfEs || link.getAttribute("href") || "#";
-  const key = "pdf" + lang.charAt(0).toUpperCase() + lang.slice(1);
-  return link.dataset[key] || fallback;
+  const key = "pdf" + lang.split("-").map(part => part.charAt(0).toUpperCase() + part.slice(1)).join("");
+  if (link.dataset[key]) return link.dataset[key];
+  const suffix = PDF_SUFFIXES[lang];
+  return suffix === undefined ? fallback : fallback.replace(/\.pdf$/i, `${suffix}.pdf`);
 }
 
 function updateLocalizedPdfLinks(lang) {
@@ -160,6 +195,10 @@ function handleLangChange(e) {
 }
 
 function detectLang() {
+  const requested = new URLSearchParams(window.location.search).get("lang");
+  if (requested !== null) return SUPPORTED_LANGS.includes(requested) ? requested : "es";
+  const routeLocale = window.location.pathname.match(/\/i18n\/([A-Za-z-]+)\/?$/)?.[1];
+  if (routeLocale && SUPPORTED_LANGS.includes(routeLocale)) return routeLocale;
   const saved = localStorage.getItem("portfolio_lang");
   if (saved && SUPPORTED_LANGS.includes(saved)) return saved;
   const browserLocale = (navigator.language || navigator.languages?.[0] || "es");
@@ -385,9 +424,9 @@ function initCopyEmail() {
   });
 }
 
-// Emite los 6 <span data-XX> de la SPA; los otros 16 idiomas usan páginas completas en /i18n/.
-// Escribir textContent o un literal suelto deja ese texto en un solo idioma
-// para los seis, porque styles.css decide que mostrar por atributo.
+// Emite los seis idiomas con traducción inline. Los otros 16 locales conservan
+// la misma SPA y muestran español como fallback explícito del contenido.
+// styles.css decide qué variante mostrar por atributo.
 const LANGS = ["es", "en", "pt", "it", "fr", "zh"];
 const i18n = dict => LANGS.map(l => `<span data-${l}>${dict[l]}</span>`).join("");
 

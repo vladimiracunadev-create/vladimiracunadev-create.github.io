@@ -1,5 +1,20 @@
 # Changelog
 
+## 2026-10-25
+
+### fix(i18n): una SPA canónica para web, móvil, PWA y Markdown
+
+- Creado `data/portfolio-i18n.json` como contrato de 22 locales, dirección, sufijos PDF, 16 secciones y cuatro vistas (`recruiter`, `normal`, `deep`, `freelance`).
+- Corregido `app.js` para conservar idioma, tema y vista; aplicar fallback por clave a español; sincronizar `html.lang`/`dir`; resolver árabe y persa en RTL; y seleccionar las 154 variantes PDF.
+- Las 22 rutas `/i18n/{locale}/` ahora preservan el locale y entregan la misma SPA en lugar de sustituir el portafolio por el README público del perfil.
+- `scripts/generate-expanded-locales.py` genera Markdown y API desde las secciones de `index.html`; `sources/profile-readme/` permanece separado y ya no es una fuente del sitio.
+- Alineadas las copias PWA/Capacitor, el build, el service worker y ambos scripts `sync-web`; las rutas localizadas y el contrato quedan disponibles en caché offline.
+- Corregido overflow horizontal RTL/móvil causado por la posición fuera de pantalla del enlace accesible de salto.
+- Añadidos `scripts/validate-i18n.js` y `scripts/functional-i18n-smoke.js`, integrados en GitHub Actions, para equivalencia estructural, persistencia, viewport móvil, RTL y recuperación offline.
+- Validación final satisfactoria: `pnpm test` (132 controles base + 1.081 controles i18n), `pnpm lint` (0 errores), `pnpm build`, 39 aserciones funcionales —incluido el ciclo completo del selector de 22 idiomas—, 154 PDF comprobados y 0 candidatos de mojibake.
+- Reconciliada la documentación actual y eliminadas listas de locales duplicadas sin alterar entradas históricas del changelog.
+- `[BACKUP] assets/backups/2026-10-25/i18n-overhaul-v1/` — fuentes previas de web, PWA, API, rutas, Markdown, generadores, CI, móvil y documentación.
+
 ## 2026-10-16
 
 ### sync-portfolio (automático — 2026-10-16)

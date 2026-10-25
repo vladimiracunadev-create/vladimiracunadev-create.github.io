@@ -1,36 +1,125 @@
 {
   "meta": {
-    "generated_at": "2026-10-16",
+    "generated_at": "2026-10-25",
     "language": "ko",
     "language_name": "Korean",
     "native_name": "한국어",
     "direction": "ltr",
-    "source": "https://github.com/vladimiracunadev-create/vladimiracunadev-create/blob/main/README.ko.md"
+    "content_language": "es",
+    "fallback_language": "es",
+    "source": "https://vladimiracunadev-create.github.io/index.html"
   },
   "profile": {
     "name": "Vladimir Acuña",
-    "title": "솔루션 Architect·수석 풀-스택·디지털 전환·관리 및 운영",
-    "summary": "- 🔁 Reproducible 데모— clone, 실행, 검증. - 🧰 표준화 된 툴링— Makefiles, 허브 CLI,doctor, 및smoke저장소 당. - 🛡️ 방어력- 비밀 검사, 정책 및 명시적으로 금지 관행. - 📈 옵션 정보 — /health, /ready, /metrics, 대쉬보드 및 추적성. - 📚 Audience-aware 문서- 채용자, 초급자, DevOps, 또는 보안, 저장소에 따라. - 📦 제품 유통— 다운로드 가능한 릴리즈, 체크섬, 그리고 증거를 구축; 상업/스토어 서명은 적용할 때 보류로 선언. - 🌍 국제화— 6개국의 포트폴리오 (ES)·₢ 킹·유형: pt·...·담당자: Mr. wang·ZH). - 🧭 기술 정직— 각 케이스 라벨OPERATIONAL, DOCUMENTED/SCAFFOLD, 또는PLANNED.",
+    "title": "Arquitectura, modernización, automatización e IA aplicada a proyectos reales.",
+    "summary": "Arquitecto de Soluciones · Senior Full-Stack · Líder Tecnológico . 16+ años liderando la evolución de plataformas. Especializado en modernización de sistemas legacy , automatización de procesos , cloud & CI/CD e integración de IA aplicada .",
     "website": "https://vladimiracunadev-create.github.io/i18n/ko/",
     "github": "https://github.com/vladimiracunadev-create",
     "gitlab": "https://gitlab.com/vladimir.acuna.dev-group"
   },
+  "views": [
+    "recruiter",
+    "normal",
+    "deep",
+    "freelance"
+  ],
   "sections": [
-    "🎯여기에서 확인할 수 있는 내용",
-    "✅검증된 상태",
-    "🗺️한눈에 보는 생태계",
-    "📦Real Distribution을 통한 제품",
-    "🧪엔지니어링 연구소",
-    "🤖응용 AI",
-    "📚완전한 기술 교육과정",
-    "🔬과학 컴퓨팅",
-    "⚡저를 평가할 시간이 10분이라면",
-    "🧠모든 저장소에 적용하는 표준",
-    "✅전문 범위",
-    "🧭관리, 관리, 비 코딩 경력 기회",
-    "🤖AI-Assisted 개발 흐름",
-    "📌가용성",
-    "📬연락처"
+    {
+      "id": "hero",
+      "title": "Arquitectura, modernización, automatización e IA aplicada a proyectos reales.",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "resultados",
+      "title": "Resultados verificables",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "evolucion",
+      "title": "Pilares Técnicos Consolidados",
+      "min_level": 1,
+      "freelance_hidden": true
+    },
+    {
+      "id": "auditoria-ia",
+      "title": "Auditoría de código generado por IA",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "productos",
+      "title": "Productos descargables",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "proyectos",
+      "title": "Proyectos destacados",
+      "min_level": 1,
+      "freelance_hidden": true
+    },
+    {
+      "id": "demos",
+      "title": "Demos en vivo",
+      "min_level": 1,
+      "freelance_hidden": false
+    },
+    {
+      "id": "experiencia",
+      "title": "Experiencia",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "flujo-ia",
+      "title": "Flujo de desarrollo asistido por IA",
+      "min_level": 2,
+      "freelance_hidden": true
+    },
+    {
+      "id": "roles",
+      "title": "Alcance profesional real",
+      "min_level": 1,
+      "freelance_hidden": true
+    },
+    {
+      "id": "servicios",
+      "title": "Servicios",
+      "min_level": 2,
+      "freelance_hidden": false
+    },
+    {
+      "id": "modalidades",
+      "title": "Freelance · Modalidades de colaboración",
+      "min_level": 2,
+      "freelance_hidden": false
+    },
+    {
+      "id": "descargas",
+      "title": "Centro de Descargas",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "referencias",
+      "title": "Referencias laborales",
+      "min_level": 2,
+      "freelance_hidden": true
+    },
+    {
+      "id": "tarjeta",
+      "title": "Tarjeta de presentación",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "contacto",
+      "title": "Contacto",
+      "min_level": 0,
+      "freelance_hidden": false
+    }
   ],
   "artifacts": {
     "portfolio": "/assets/portafolio-korean.pdf",

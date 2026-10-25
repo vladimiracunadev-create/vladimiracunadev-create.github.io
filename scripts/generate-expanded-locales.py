@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Generate the 22-language web, API, documentation and PDF surface.
+"""Generate the 22-language routes, API, Markdown and optional PDF surface.
 
-The six original portfolio locales keep their hand-authored SPA translations and
-specialized PDF generators. The additional locales are sourced from the fully
-translated GitHub profile READMEs committed under sources/profile-readme/.
+The portfolio itself (``index.html``) is the professional-content source.  The
+GitHub profile translations under ``sources/profile-readme`` are deliberately
+separate and are never used as a substitute for website content.
 """
 
 from __future__ import annotations
@@ -21,16 +21,18 @@ from datetime import date
 from pathlib import Path
 
 import markdown
+from bs4 import BeautifulSoup
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE_DIR = ROOT / "sources" / "profile-readme"
+CONTRACT_PATH = ROOT / "data" / "portfolio-i18n.json"
+PORTFOLIO_PATH = ROOT / "index.html"
 WEB_DIR = ROOT / "i18n"
 DOCS_DIR = ROOT / "docs" / "i18n"
 API_DIR = ROOT / "api" / "v1" / "i18n"
 ASSETS_DIR = ROOT / "assets"
 PDF_TMP_DIR = ROOT / "tmp" / "pdfs"
-TODAY = date(2026, 10, 16).isoformat()
+TODAY = date.today().isoformat()
 FULL_LANGUAGE_CODES = "ES · EN · PT · IT · FR · ZH · ZH-TW · JA · KO · TR · RU · VI · TH · DE · UK · PL · AR · FA · ID · NL · HI · EL"
 
 
@@ -44,32 +46,19 @@ class Locale:
     direction: str = "ltr"
 
 
-LOCALES = (
-    Locale("es", "README.md", "", "Español", "Spanish"),
-    Locale("en", "README.en.md", "-english", "English", "English"),
-    Locale("pt", "README.pt.md", "-portuguese", "Português", "Portuguese"),
-    Locale("it", "README.it.md", "-italian", "Italiano", "Italian"),
-    Locale("fr", "README.fr.md", "-french", "Français", "French"),
-    Locale("zh", "README.zh.md", "-chinese", "简体中文", "Simplified Chinese"),
-    Locale("zh-TW", "README.zh-TW.md", "-traditional-chinese", "繁體中文", "Traditional Chinese"),
-    Locale("ja", "README.ja.md", "-japanese", "日本語", "Japanese"),
-    Locale("ko", "README.ko.md", "-korean", "한국어", "Korean"),
-    Locale("tr", "README.tr.md", "-turkish", "Türkçe", "Turkish"),
-    Locale("ru", "README.ru.md", "-russian", "Русский", "Russian"),
-    Locale("vi", "README.vi.md", "-vietnamese", "Tiếng Việt", "Vietnamese"),
-    Locale("th", "README.th.md", "-thai", "ไทย", "Thai"),
-    Locale("de", "README.de.md", "-german", "Deutsch", "German"),
-    Locale("uk", "README.uk.md", "-ukrainian", "Українська", "Ukrainian"),
-    Locale("pl", "README.pl.md", "-polish", "Polski", "Polish"),
-    Locale("ar", "README.ar.md", "-arabic", "العربية", "Arabic", "rtl"),
-    Locale("fa", "README.fa.md", "-persian", "فارسی", "Persian", "rtl"),
-    Locale("id", "README.id.md", "-indonesian", "Bahasa Indonesia", "Indonesian"),
-    Locale("nl", "README.nl.md", "-dutch", "Nederlands", "Dutch"),
-    Locale("hi", "README.hi.md", "-hindi", "हिन्दी", "Hindi"),
-    Locale("el", "README.el.md", "-greek", "Ελληνικά", "Greek"),
+CONTRACT = json.loads(CONTRACT_PATH.read_text(encoding="utf-8"))
+LOCALES = tuple(
+    Locale(
+        item["code"],
+        "",
+        item["suffix"],
+        item["native_name"],
+        item["english_name"],
+        item["direction"],
+    )
+    for item in CONTRACT["locales"]
 )
-
-INLINE_CODES = {"es", "en", "pt", "it", "fr", "zh"}
+INLINE_CODES = set(CONTRACT["inline_locales"])
 
 DOCUMENTS = (
     ("portfolio", "portafolio", "Portfolio"),
@@ -109,11 +98,115 @@ TITLES = {
 }
 
 
-def source_for(locale: Locale) -> str:
-    path = SOURCE_DIR / locale.source
-    if not path.exists():
-        raise FileNotFoundError(f"Missing localized source: {path}")
-    return path.read_text(encoding="utf-8")
+def portfolio_soup(locale: Locale) -> BeautifulSoup:
+    """Return the website DOM reduced to one locale with ES key fallback."""
+    soup = BeautifulSoup(PORTFOLIO_PATH.read_text(encoding="utf-8"), "html.parser")
+    requested = locale.code if locale.code in INLINE_CODES else CONTRACT["fallback_locale"]
+    language_attributes = {f"data-{code}" for code in INLINE_CODES}
+
+    for tag in list(soup.find_all(True)):
+        if not getattr(tag, "attrs", None):
+            continue
+        present = language_attributes.intersection(tag.attrs)
+        if not present:
+            continue
+        if f"data-{requested}" in present:
+            continue
+        if "data-es" in present:
+            parent = tag.parent
+            translated_sibling = parent and any(
+                sibling.name == tag.name and sibling.has_attr(f"data-{requested}")
+                for sibling in parent.find_all(recursive=False)
+            )
+            if not translated_sibling:
+                continue
+        tag.decompose()
+
+    for unwanted in soup.select("script, style, svg, noscript"):
+        unwanted.decompose()
+    return soup
+
+
+def markdown_text(tag) -> str:
+    fragment = BeautifulSoup(str(tag), "html.parser")
+    for br in fragment.find_all("br"):
+        br.replace_with("\n")
+    for code in fragment.find_all("code"):
+        code.replace_with(f"`{code.get_text(' ', strip=True)}`")
+    for link in fragment.find_all("a", href=True):
+        label = " ".join(link.get_text(" ", strip=True).split())
+        href = link.get("href", "")
+        if href.startswith("#"):
+            href = f"https://vladimiracunadev-create.github.io/{href}"
+        elif not re.match(r"^(?:https?:|mailto:|tel:)", href):
+            href = f"https://vladimiracunadev-create.github.io/{href.lstrip('/')}"
+        link.replace_with(f"[{label}]({href})" if label else href)
+    return " ".join(fragment.get_text(" ", strip=True).split())
+
+
+def localized_portfolio_markdown(locale: Locale) -> tuple[str, list[dict]]:
+    """Render Markdown and API section metadata from the canonical website."""
+    soup = portfolio_soup(locale)
+    lines = [
+        "# Vladimir Acuña — Portafolio profesional",
+        "",
+        "<!-- Generated from canonical portfolio content: index.html -->",
+        f"<!-- locale:{locale.code}; fallback:{CONTRACT['fallback_locale']} -->",
+        "",
+        f"> Idioma solicitado: `{locale.code}` · Contenido faltante: fallback por clave a español.",
+        "",
+        "Vistas disponibles: `recruiter`, `normal`, `deep` y `freelance`.",
+        "",
+    ]
+    api_sections = []
+
+    for section_contract in CONTRACT["sections"]:
+        section = soup.select_one(section_contract["selector"])
+        if section is None:
+            raise ValueError(
+                f"Canonical section {section_contract['id']} not found with "
+                f"selector {section_contract['selector']}"
+            )
+        title_tag = section.find(["h1", "h2"])
+        title = markdown_text(title_tag) if title_tag else section_contract.get("title", section_contract["id"])
+        lines.extend((f"## {title}", "", f"<!-- portfolio-section:{section_contract['id']} -->", ""))
+        emitted = set()
+        for element in section.find_all(["h1", "h2", "h3", "h4", "p", "li", "tr"]):
+            if element is title_tag:
+                continue
+            text = markdown_text(element)
+            if not text:
+                continue
+            if element.name == "li":
+                rendered = f"- {text}"
+            elif element.name in {"h1", "h2", "h3", "h4"}:
+                rendered = f"### {text}"
+            elif element.name == "tr":
+                cells = [markdown_text(cell) for cell in element.find_all(["th", "td"], recursive=False)]
+                rendered = "| " + " | ".join(cells) + " |" if cells else text
+            else:
+                rendered = text
+            if rendered in emitted:
+                continue
+            emitted.add(rendered)
+            lines.extend((rendered, ""))
+
+        for link in section.find_all("a", href=True):
+            rendered = markdown_text(link)
+            if rendered and rendered not in emitted:
+                emitted.add(rendered)
+                lines.extend((rendered, ""))
+
+        api_sections.append(
+            {
+                "id": section_contract["id"],
+                "title": title,
+                "min_level": section_contract["min_level"],
+                "freelance_hidden": section_contract["freelance_hidden"],
+            }
+        )
+
+    return "\n".join(lines).rstrip() + "\n", api_sections
 
 
 def clean_source(text: str) -> str:
@@ -122,50 +215,6 @@ def clean_source(text: str) -> str:
     text = re.sub(r"!\[[^\]]*\]\([^)]*\)", "", text)
     text = re.sub(r"<!--.*?-->", "", text, flags=re.S)
     return text.strip()
-
-
-def expanded_source(text: str) -> str:
-    """Normalize the inherited six-language claim in translated profile sources."""
-    replacements = {
-        "6 idiomas": "22 idiomas",
-        "6 languages": "22 languages",
-        "6 langues": "22 langues",
-        "6 lingue": "22 lingue",
-        "6 Sprachen": "22 Sprachen",
-        "6 языках": "22 языках",
-        "6 языков": "22 языков",
-        "6 мовах": "22 мовах",
-        "6 мов": "22 мов",
-        "6 językach": "22 językach",
-        "6 języków": "22 języków",
-        "6 لغات": "22 لغات",
-        "6 زبان": "22 زبان",
-        "۶ زبان": "۲۲ زبان",
-        "6 bahasa": "22 bahasa",
-        "6 talen": "22 talen",
-        "6 भाषाओं": "22 भाषाओं",
-        "6 भाषाएँ": "22 भाषाएँ",
-        "6 γλώσσες": "22 γλώσσες",
-        "6種語言": "22種語言",
-        "6 個語言": "22 個語言",
-        "6 种语言": "22 种语言",
-        "6言語": "22言語",
-        "6 の言語": "22 の言語",
-        "6개 언어": "22개 언어",
-        "6 개 언어": "22 개 언어",
-        "6 dil": "22 dil",
-        "6 ngôn ngữ": "22 ngôn ngữ",
-        "6 ภาษา": "22 ภาษา",
-        "36 PDFs": "154 PDFs",
-        "36 PDF": "154 PDF",
-        "PDF36": "PDF154",
-        "36個PDF": "154個PDF",
-        "42 PDFs": "154 PDFs",
-        "ES · EN · PT · IT · FR · ZH": FULL_LANGUAGE_CODES,
-    }
-    for old, new in replacements.items():
-        text = text.replace(old, new)
-    return text
 
 
 def plain(text: str) -> str:
@@ -250,48 +299,39 @@ def accessible_table_markup(fragment: str) -> str:
     return fragment
 
 
-def page_html(locale: Locale, profile: dict, markdown_text: str) -> str:
-    body = accessible_table_markup(
-        markdown.markdown(
-            clean_source(markdown_text),
-            extensions=["extra", "tables", "fenced_code", "sane_lists"],
-        )
-    )
+def page_html(locale: Locale) -> str:
+    """Create a locale entry route that hands off to the canonical SPA."""
+    target = f"../../?lang={html.escape(locale.code)}"
     return f"""<!DOCTYPE html>
 <html lang="{html.escape(locale.code)}" dir="{locale.direction}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="{html.escape(profile['summary'][:260])}">
-  <title>{html.escape(profile['title'])} · {html.escape(locale.native_name)}</title>
+  <meta name="description" content="Portafolio profesional de Vladimir Acuña · {html.escape(locale.native_name)}">
+  <meta http-equiv="refresh" content="0; url={target}">
+  <title>Vladimir Acuña · {html.escape(locale.native_name)}</title>
   <link rel="canonical" href="https://vladimiracunadev-create.github.io/i18n/{html.escape(locale.code)}/">
   {alternate_links()}
   <link rel="stylesheet" href="../localized.css">
 </head>
 <body>
-  <header class="locale-bar">
-    <a class="home-link" href="../../">← Interactive portfolio</a>
-    <label>Language
-      <select id="locale-select" aria-label="Language">{language_options(locale.code)}</select>
-    </label>
-    <span class="stamp">{TODAY} · America/Santiago</span>
-  </header>
-  <main>
-    <section class="downloads" aria-label="PDF documents">
-      <h2>PDF · {html.escape(locale.native_name)}</h2>
-      <div class="doc-grid">{document_links(locale)}</div>
-      <a class="api-link" href="../../api/v1/i18n/{html.escape(locale.code)}.json">JSON API</a>
-    </section>
-    <article class="profile-content">{body}</article>
+  <main class="route-entry">
+    <h1>Vladimir Acuña · {html.escape(locale.native_name)}</h1>
+    <p>Loading the canonical portfolio…</p>
+    <p><a href="{target}">Open portfolio</a></p>
   </main>
-  <footer>Source synchronized from the public GitHub profile · {TODAY}</footer>
   <script src="../localized.js"></script>
 </body>
 </html>
 """
 
 
-def api_payload(locale: Locale, profile: dict) -> dict:
+def api_payload(locale: Locale, sections: list[dict], markdown_text: str) -> dict:
+    paragraphs = [
+        line for line in markdown_text.splitlines()
+        if line and not line.startswith(("#", "<!--", ">", "Vistas disponibles:"))
+    ]
+    summary = next((line for line in paragraphs if len(line) > 100), "")
     return {
         "meta": {
             "generated_at": TODAY,
@@ -299,17 +339,20 @@ def api_payload(locale: Locale, profile: dict) -> dict:
             "language_name": locale.english_name,
             "native_name": locale.native_name,
             "direction": locale.direction,
-            "source": f"https://github.com/vladimiracunadev-create/vladimiracunadev-create/blob/main/{locale.source}",
+            "content_language": locale.code if locale.code in INLINE_CODES else CONTRACT["fallback_locale"],
+            "fallback_language": CONTRACT["fallback_locale"],
+            "source": "https://vladimiracunadev-create.github.io/index.html",
         },
         "profile": {
             "name": "Vladimir Acuña",
-            "title": profile["subtitle"],
-            "summary": profile["summary"],
+            "title": sections[0]["title"] if sections else "Portafolio profesional",
+            "summary": summary,
             "website": f"https://vladimiracunadev-create.github.io/i18n/{locale.code}/",
             "github": "https://github.com/vladimiracunadev-create",
             "gitlab": "https://gitlab.com/vladimir.acuna.dev-group",
         },
-        "sections": [item["heading"] for item in profile["sections"]],
+        "views": CONTRACT["views"],
+        "sections": sections,
         "artifacts": artifact_map(locale),
     }
 
@@ -338,8 +381,8 @@ def pdf_html(locale: Locale, profile: dict, kind: str, title: str) -> str:
         extensions=["extra", "tables", "fenced_code", "sane_lists"],
     )
     source_note = (
-        "This localized edition is derived from the corresponding complete public GitHub profile translation. "
-        "Historical recommendation and institutional records remain linked to their source editions."
+        "This localized edition is derived from the canonical portfolio website. "
+        "Missing translation keys fall back to Spanish; profile README content remains separate."
     )
     return f"""<!DOCTYPE html>
 <html lang="{html.escape(locale.code)}" dir="{locale.direction}">
@@ -423,60 +466,39 @@ def write_common_css() -> None:
     css = """\
 :root { color-scheme: dark light; --bg:#08111f; --panel:#101d31; --text:#edf4ff; --muted:#a8b7ca; --accent:#6eb6ff; --line:#2c405b; }
 * { box-sizing:border-box; }
-html { scroll-behavior:smooth; }
 body { margin:0; background:var(--bg); color:var(--text); font:16px/1.65 system-ui,"Segoe UI","Nirmala UI","Yu Gothic","Malgun Gothic",sans-serif; }
 a { color:var(--accent); }
-.locale-bar { position:sticky; top:0; z-index:2; display:flex; gap:1rem; align-items:center; flex-wrap:wrap; padding:.8rem max(1rem,calc((100% - 1120px)/2)); background:rgba(8,17,31,.96); border-bottom:1px solid var(--line); }
-.locale-bar label { display:flex; align-items:center; gap:.5rem; }
-.locale-bar select { max-width:16rem; padding:.45rem; border-radius:.5rem; }
-.home-link { font-weight:700; }
-.stamp { margin-inline-start:auto; color:var(--muted); font-size:.85rem; }
-main { max-width:1120px; margin:auto; padding:1.5rem; }
-.downloads { background:var(--panel); border:1px solid var(--line); border-radius:1rem; padding:1rem 1.2rem; margin-bottom:2rem; }
-.doc-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:.6rem; }
-.doc-link,.api-link { display:block; padding:.65rem .8rem; border:1px solid var(--line); border-radius:.65rem; text-decoration:none; }
-.api-link { margin-top:.8rem; width:max-content; }
-.profile-content { overflow-wrap:anywhere; }
-.profile-content h1 { font-size:clamp(2rem,5vw,3.5rem); line-height:1.1; }
-.profile-content h2 { margin-top:2.3rem; color:#a9d5ff; border-bottom:1px solid var(--line); padding-bottom:.35rem; }
-.profile-content table { display:block; overflow-x:auto; border-collapse:collapse; width:100%; }
-.profile-content th,.profile-content td { border:1px solid var(--line); padding:.55rem; vertical-align:top; }
-.align-left { text-align:left; }
-.align-center { text-align:center; }
-.align-right { text-align:right; }
-.profile-content pre { overflow:auto; background:#06101c; padding:1rem; border-radius:.7rem; }
-.profile-content img { max-width:100%; }
-footer { max-width:1120px; margin:2rem auto; padding:1.5rem; color:var(--muted); border-top:1px solid var(--line); }
-@media (prefers-color-scheme:light) { :root { --bg:#f7fafc; --panel:#fff; --text:#132238; --muted:#53657b; --accent:#075eb5; --line:#cad5e2; } .locale-bar { background:rgba(247,250,252,.96); } .profile-content h2 { color:#164f82; } .profile-content pre { background:#eef3f8; } }
+.route-entry { max-width:44rem; margin:12vh auto; padding:2rem; background:var(--panel); border:1px solid var(--line); border-radius:1rem; }
+@media (prefers-color-scheme:light) { :root { --bg:#f7fafc; --panel:#fff; --text:#132238; --muted:#53657b; --accent:#075eb5; --line:#cad5e2; } }
 """
     (WEB_DIR / "localized.css").write_text(css, encoding="utf-8")
     (WEB_DIR / "localized.js").write_text(
         "\"use strict\";\n"
-        "document.getElementById(\"locale-select\").addEventListener(\"change\", function () {\n"
-        "  window.location.href = \"../\" + encodeURIComponent(this.value) + \"/\";\n"
-        "});\n",
+        "const locale = document.documentElement.lang || \"es\";\n"
+        "localStorage.setItem(\"portfolio_lang\", locale);\n"
+        "const target = new URL(\"../../\", window.location.href);\n"
+        "target.searchParams.set(\"lang\", locale);\n"
+        "target.hash = window.location.hash;\n"
+        "window.location.replace(target);\n",
         encoding="utf-8",
     )
 
 
 def generate_locale(locale: Locale, generate_pdf: bool) -> None:
-    raw = expanded_source(source_for(locale))
-    profile = parse_profile(raw)
+    markdown_text, sections = localized_portfolio_markdown(locale)
+    profile = parse_profile(markdown_text)
 
     web_path = WEB_DIR / locale.code / "index.html"
     web_path.parent.mkdir(parents=True, exist_ok=True)
-    web_path.write_text(page_html(locale, profile, raw), encoding="utf-8")
+    web_path.write_text(page_html(locale), encoding="utf-8")
 
     docs_path = DOCS_DIR / locale.code / "README.md"
     docs_path.parent.mkdir(parents=True, exist_ok=True)
-    docs_path.write_text(
-        f"<!-- Synced from the public GitHub profile on {TODAY}. -->\n\n{raw.rstrip()}\n",
-        encoding="utf-8",
-    )
+    docs_path.write_text(markdown_text, encoding="utf-8")
 
     API_DIR.mkdir(parents=True, exist_ok=True)
     (API_DIR / f"{locale.code}.json").write_text(
-        json.dumps(api_payload(locale, profile), ensure_ascii=False, indent=2) + "\n",
+        json.dumps(api_payload(locale, sections, markdown_text), ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
 
@@ -510,14 +532,15 @@ def write_indexes() -> None:
     lines = [
         "# Documentación internacional",
         "",
-        f"**Sincronizada:** {TODAY}. Las 22 versiones proceden del README público principal.",
+        f"**Generada:** {TODAY}. Las 22 versiones proceden del contenido canónico del portafolio (`index.html`).",
+        "El README público del perfil se mantiene separado en `sources/profile-readme/`.",
         "",
         "| Código | Idioma | Documento | Web | API |",
         "|---|---|---|---|---|",
     ]
     for loc in LOCALES:
         lines.append(
-            f"| `{loc.code}` | {loc.native_name} | [{loc.source}]({loc.code}/README.md) | "
+            f"| `{loc.code}` | {loc.native_name} | [`README.md`]({loc.code}/README.md) | "
             f"[/i18n/{loc.code}/](../../i18n/{loc.code}/) | "
             f"[`{loc.code}.json`](../../api/v1/i18n/{loc.code}.json) |"
         )
@@ -563,7 +586,8 @@ def update_canonical_contracts() -> None:
     meta["site_pages"]["localized"] = "/i18n/{locale}/"
     meta["capabilities"]["artifact_languages"] = locale_codes
     meta["capabilities"]["artifact_switching"] = (
-        "The six inline SPA languages switch in place; 16 additional languages use complete localized pages. "
+        "All 22 language choices use the same SPA, four views, navigation and components. "
+        "Six locales have inline translations; missing keys fall back to Spanish. "
         "Every locale links to seven matching PDF artifacts."
     )
     meta["capabilities"]["language_suffix_map"] = suffix_map
@@ -621,49 +645,6 @@ def update_canonical_contracts() -> None:
     resume_path.write_text(json.dumps(resume, ensure_ascii=False, indent=4) + "\n", encoding="utf-8")
 
 
-def update_current_documentation() -> None:
-    targets = (
-        ROOT / "README.md",
-        ROOT / "CLAUDE.md",
-        ROOT / "cv-data-api.md",
-        ROOT / "llm.txt",
-        ROOT / "docs" / "AI_CODE_ASSURANCE.md",
-        ROOT / "docs" / "BEGINNER_GUIDE.md",
-        ROOT / "docs" / "BUILD_GUIDE.md",
-        ROOT / "docs" / "RECRUITER.md",
-        ROOT / "docs" / "TECHNICAL_RATIONAL.md",
-        ROOT / "docs" / "VALIDATION.md",
-        ROOT / "docs" / "wiki" / "BUILD_GUIDE.md",
-        ROOT / "docs" / "wiki" / "Home.md",
-        ROOT / "docs" / "wiki" / "RECRUITER.md",
-        ROOT / "docs" / "wiki" / "TECHNICAL_RATIONAL.md",
-        ROOT / "docs" / "wiki" / "VALIDATION.md",
-    )
-    replacements = (
-        ("2026-10-01", TODAY),
-        ("42 PDFs", "154 PDFs"),
-        ("42 pdf", "154 pdf"),
-        ("6 idiomas", "22 idiomas"),
-        ("seis idiomas", "22 idiomas"),
-        ("6 languages", "22 languages"),
-        ("six languages", "22 languages"),
-        ("ES/EN/PT/IT/FR/ZH", FULL_LANGUAGE_CODES.replace(" · ", "/")),
-        ("ES · EN · PT · IT · FR · ZH", FULL_LANGUAGE_CODES),
-        ("7 familias por 6 idiomas", "7 familias por 22 idiomas"),
-        ("7 document families across 6 languages", "7 document families across 22 languages"),
-        ("7 tipos × 6 idiomas", "7 tipos × 22 idiomas"),
-        ("30 archivos, 6 idiomas", "154 archivos, 22 idiomas"),
-        ("los seis generadores Python producen 154 PDFs", "los generadores producen 154 PDFs"),
-    )
-    for path in targets:
-        if not path.exists():
-            continue
-        text = path.read_text(encoding="utf-8")
-        for old, new in replacements:
-            text = text.replace(old, new)
-        path.write_text(text, encoding="utf-8")
-
-
 def write_backup_manifest() -> None:
     """Record the immutable pre-update PDF backup created for this refresh."""
     backup_dir = ASSETS_DIR / "backups" / TODAY
@@ -683,7 +664,8 @@ def write_backup_manifest() -> None:
 - Ubicación original: `assets/*.pdf`.
 - Integridad: SHA-256 registrado en `SHA256SUMS.txt`.
 - Alcance posterior: 7 familias documentales en 22 idiomas, **154 PDF públicos**.
-- Fuentes lingüísticas: README principal y sus 21 traducciones del perfil público de GitHub.
+- Fuente de contenido: portafolio canónico `index.html`; fallback de claves a español.
+- Los README del perfil GitHub permanecen separados y no alimentan el sitio ni estos documentos.
 
 Los directorios privados `assets/no_aplica/` y `assets/por_solicitud/` no fueron modificados ni publicados.
 """
@@ -704,9 +686,8 @@ def main() -> None:
         generate_locale(locale, generate_pdf)
     write_indexes()
     update_canonical_contracts()
-    update_current_documentation()
     write_backup_manifest()
-    print(f"Generated {len(selected_locales)} localized web pages, docs and API documents.")
+    print(f"Generated {len(selected_locales)} locale routes, portfolio Markdown and API documents.")
     if args.pdfs:
         pdf_locale_count = sum(loc.code not in INLINE_CODES for loc in selected_locales)
         print(f"Generated {pdf_locale_count * len(DOCUMENTS)} additional PDFs.")

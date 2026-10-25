@@ -1,36 +1,125 @@
 {
   "meta": {
-    "generated_at": "2026-10-16",
+    "generated_at": "2026-10-25",
     "language": "hi",
     "language_name": "Hindi",
     "native_name": "हिन्दी",
     "direction": "ltr",
-    "source": "https://github.com/vladimiracunadev-create/vladimiracunadev-create/blob/main/README.hi.md"
+    "content_language": "es",
+    "fallback_language": "es",
+    "source": "https://vladimiracunadev-create.github.io/index.html"
   },
   "profile": {
     "name": "Vladimir Acuña",
-    "title": "समाधान वास्तुकार·वरिष्ठ पूर्ण-स्टैक·डिजिटल रूपांतरण·प्रबंधन और संचालन",
-    "summary": "- 🔁 Reproducible demos— क्लोन, रन, मान्य। - 🧰 मानकीकृत टूलिंग- मेकफ़ाइल्स, हब सीएलआई,doctor, औरsmokeप्रति भंडार - 🛡️ गहराई में रक्षा- गुप्त स्कैनिंग, नीतियों और स्पष्ट रूप से निषिद्ध प्रथाओं। - 📈 अवलोकन — /health, /ready, /metricsडैशबोर्ड, और अनुरेखणता। - 📚 ऑडियंस-एवेयर प्रलेखन- रिपोजिटरी के आधार पर भर्तीकर्ता, शुरुआतकर्ता, देवोप, या सुरक्षा। - 📦 उत्पाद वितरण- डाउनलोड करने योग्य रिलीज, चेकसम और सबूत का निर्माण; वाणिज्यिक / स्टोर हस्ताक्षर जब लागू किया लंबित घोषित किया गया। - 🌍 अंतर्राष्ट्रीयकरण22 भाषाओं में पोर्टफोलियो (ES)·एन·पीटी·आईटी·FR·ZH). - 🧭 तकनीकी ईमानदारी— प्रत्येक मामले में लेबलOPERATIONAL, DOCUMENTED/SCAFFOLDयाPLANNED.",
+    "title": "Arquitectura, modernización, automatización e IA aplicada a proyectos reales.",
+    "summary": "Arquitecto de Soluciones · Senior Full-Stack · Líder Tecnológico . 16+ años liderando la evolución de plataformas. Especializado en modernización de sistemas legacy , automatización de procesos , cloud & CI/CD e integración de IA aplicada .",
     "website": "https://vladimiracunadev-create.github.io/i18n/hi/",
     "github": "https://github.com/vladimiracunadev-create",
     "gitlab": "https://gitlab.com/vladimir.acuna.dev-group"
   },
+  "views": [
+    "recruiter",
+    "normal",
+    "deep",
+    "freelance"
+  ],
   "sections": [
-    "🎯आपको यहाँ क्या मिलेगा",
-    "✅सत्यापन योग्य स्थिति",
-    "🗺️पारिस्थितिकी तंत्र एक झलक में",
-    "📦उत्पाद रियल डिस्ट्रीब्यूशन के साथ",
-    "🧪इंजीनियरिंग प्रयोगशाला",
-    "🤖एअर इंडिया",
-    "📚तकनीकी पाठ्यक्रम",
-    "🔬वैज्ञानिक कम्प्यूटिंग",
-    "⚡यदि आपके पास 10 मिनट हैं तो मुझे खाली करने के लिए",
-    "🧠वे मानक जिन्हें मैं सभी रिपॉज़िटरी में लागू करता हूँ",
-    "✅व्यावसायिक क्षेत्र",
-    "🧭प्रबंधन, प्रशासन और गैर कोडिंग कैरियर के अवसर",
-    "🤖एआई-एसिस्टेड डेवलपमेंट फ्लो",
-    "📌उपलब्धता",
-    "📬संपर्क"
+    {
+      "id": "hero",
+      "title": "Arquitectura, modernización, automatización e IA aplicada a proyectos reales.",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "resultados",
+      "title": "Resultados verificables",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "evolucion",
+      "title": "Pilares Técnicos Consolidados",
+      "min_level": 1,
+      "freelance_hidden": true
+    },
+    {
+      "id": "auditoria-ia",
+      "title": "Auditoría de código generado por IA",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "productos",
+      "title": "Productos descargables",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "proyectos",
+      "title": "Proyectos destacados",
+      "min_level": 1,
+      "freelance_hidden": true
+    },
+    {
+      "id": "demos",
+      "title": "Demos en vivo",
+      "min_level": 1,
+      "freelance_hidden": false
+    },
+    {
+      "id": "experiencia",
+      "title": "Experiencia",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "flujo-ia",
+      "title": "Flujo de desarrollo asistido por IA",
+      "min_level": 2,
+      "freelance_hidden": true
+    },
+    {
+      "id": "roles",
+      "title": "Alcance profesional real",
+      "min_level": 1,
+      "freelance_hidden": true
+    },
+    {
+      "id": "servicios",
+      "title": "Servicios",
+      "min_level": 2,
+      "freelance_hidden": false
+    },
+    {
+      "id": "modalidades",
+      "title": "Freelance · Modalidades de colaboración",
+      "min_level": 2,
+      "freelance_hidden": false
+    },
+    {
+      "id": "descargas",
+      "title": "Centro de Descargas",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "referencias",
+      "title": "Referencias laborales",
+      "min_level": 2,
+      "freelance_hidden": true
+    },
+    {
+      "id": "tarjeta",
+      "title": "Tarjeta de presentación",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "contacto",
+      "title": "Contacto",
+      "min_level": 0,
+      "freelance_hidden": false
+    }
   ],
   "artifacts": {
     "portfolio": "/assets/portafolio-hindi.pdf",

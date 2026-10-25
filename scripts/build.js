@@ -18,6 +18,7 @@ const DIRS_TO_COPY = [
     'experiencia-3d',
     'servicios'
 ];
+const PUBLIC_DATA_FILES = [path.join('data', 'portfolio-i18n.json')];
 const PRIVATE_ASSET_DIRS = new Set(['backups', 'no_aplica', 'por_solicitud']);
 const PRIVATE_ASSET_EXTENSIONS = new Set(['.docx', '.doc', '.xlsx']);
 const PRIVATE_ASSET_FILES = new Set(['LEEME_PDFS.txt']);
@@ -31,6 +32,7 @@ function copyIfExists(src, dest) {
     if (stats.isDirectory()) {
         fs.cpSync(src, dest, { recursive: true });
     } else {
+        fs.mkdirSync(path.dirname(dest), { recursive: true });
         fs.copyFileSync(src, dest);
     }
 
@@ -105,6 +107,10 @@ FILES_TO_COPY.forEach(file => {
     if (copyIfExists(file, path.join(DIST, file))) {
         console.log(`Copied ${file}`);
     }
+});
+
+PUBLIC_DATA_FILES.forEach(file => {
+    copyIfExists(file, path.join(DIST, file));
 });
 
 try {

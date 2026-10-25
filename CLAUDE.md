@@ -2,7 +2,7 @@
 
 **Proyecto:** `vladimiracunadev-create.github.io`
 **Web:** <https://vladimiracunadev-create.github.io/>
-**Última actualización:** 2026-08-27
+**Última actualización:** 2026-10-25
 
 ---
 
@@ -16,7 +16,7 @@
 ## Descripción del proyecto
 
 Portafolio profesional de Vladimir Acuña (Arquitecto de Software / Full-Stack Senior / Polyglot Engineer).
-SPA estática en Vanilla HTML/CSS/JS, desplegada en GitHub Pages. Sistema de 22 idiomas, 3 vistas,
+SPA estática en Vanilla HTML/CSS/JS, desplegada en GitHub Pages. Sistema de 22 idiomas, 4 vistas,
 PDFs generados por pipeline Python, PWA instalable, y API JSON estática en `api/v1/`.
 
 ---
@@ -24,9 +24,9 @@ PDFs generados por pipeline Python, PWA instalable, y API JSON estática en `api
 ## Mapa de archivos
 
 ```text
-├── index.html                  # SPA principal — 22 idiomas + 3 vistas + PWA
+├── index.html                  # SPA principal — contenido canónico + 4 vistas + PWA
 ├── app.js                      # i18n, PDF routing multilingüe, lógica de vistas
-├── style.css                   # Estilos principales
+├── styles.css                  # Estilos principales
 ├── manifest.webmanifest        # Configuración PWA
 ├── service-worker.js           # Cache & Offline
 ├── robots.txt                  # SEO crawlers
@@ -64,7 +64,7 @@ PDFs generados por pipeline Python, PWA instalable, y API JSON estática en `api
 ├── .agents/skills/             # Skills de IA para mantenimiento
 ├── .github/workflows/          # Pipelines CI/CD
 ├── apps/                       # Capacitor (Android/iOS)
-└── data/                       # resume.json canónico
+└── data/                       # resume.json + contrato portfolio-i18n.json
 ```
 
 ---
@@ -73,18 +73,21 @@ PDFs generados por pipeline Python, PWA instalable, y API JSON estática en `api
 
 ### Sistema de idiomas (22 idiomas)
 
-- **Idiomas:** ES, EN, PT, IT, FR, ZH
-- **Sufijos de archivo:** `""` / `-english` / `-portuguese` / `-italian` / `-french` / `-chinese`
+- **Contrato:** `data/portfolio-i18n.json` define 22 locales, dirección, sufijos, vistas y secciones
+- **Traducciones inline:** ES, EN, PT, IT, FR, ZH
+- **Fallback:** toda clave ausente usa español sin perder el idioma solicitado
 - **HTML:** atributos `data-es`, `data-en`, `data-pt`, `data-it`, `data-fr`, `data-zh` en elementos de texto
-- **PDFs:** atributos `data-pdf-es`, `data-pdf-en`, `data-pdf-pt`, `data-pdf-it`, `data-pdf-fr`, `data-pdf-zh` en links
-- **JS:** `resolveLocalizedPdfHref(link, lang)` en `app.js` resuelve el PDF correcto al cambiar idioma
-- **Cambio de idioma:** CSS pasivo — sin recarga de página
+- **PDFs:** `resolveLocalizedPdfHref(link, lang)` aplica los 22 sufijos sobre el enlace español canónico
+- **Rutas:** `/i18n/{locale}/` conserva el locale y redirige a la misma SPA con `?lang={locale}`
+- **Estado:** idioma, tema y vista persisten en `localStorage`; `html.lang` y `dir` se actualizan en runtime
+- **Documentación:** `docs/i18n/` y `api/v1/i18n/` se generan desde `index.html`, nunca desde el README del perfil
 
-### Sistema de vistas (3 niveles)
+### Sistema de vistas (4 modos)
 
 - `recruiter` (nivel 0): muestra elementos sin `data-min-level` o con `data-min-level="0"`
 - `normal` (nivel 1): muestra nivel 0 + 1
 - `deep` (nivel 2): muestra todo
+- `freelance`: vista curada por `data-freelance-hide`, independiente de la jerarquía 0–2
 
 ### PWA & Capacitor
 
@@ -234,8 +237,9 @@ crítico.
 ## Validación
 
 ```bash
-pnpm test              # 51 checks de integridad
-pnpm run lint:html     # HTML validation
+pnpm test              # Integridad general + equivalencia i18n de 22 locales
+pnpm lint              # HTML + Markdown
+pnpm build             # Artefacto estático en dist/
 ```
 
 ---

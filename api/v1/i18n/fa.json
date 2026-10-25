@@ -1,36 +1,125 @@
 {
   "meta": {
-    "generated_at": "2026-10-16",
+    "generated_at": "2026-10-25",
     "language": "fa",
     "language_name": "Persian",
     "native_name": "فارسی",
     "direction": "rtl",
-    "source": "https://github.com/vladimiracunadev-create/vladimiracunadev-create/blob/main/README.fa.md"
+    "content_language": "es",
+    "fallback_language": "es",
+    "source": "https://vladimiracunadev-create.github.io/index.html"
   },
   "profile": {
     "name": "Vladimir Acuña",
-    "title": "راه حل معماری·پیر Full-Stack·تحول دیجیتال·مدیریت و عملیات",
-    "summary": "- 🔁 دانلود بازی Reroducible- کلون، اجرا، اعتبار - 🧰 ابزار استاندارد سازیفایل های Makefiles، Hub CLIdoctorوsmokeدر هر مخزن - 🛡️ دفاع در عمقاسکن مخفی، سیاست ها و شیوه های آشکارا ممنوع - 📈 قابلیت پذیری — /health, /ready, /metrics, داشبورد و قابلیت ردیابی - 📚 آرشیو برچسب های مرتبط- استخدام کننده، مبتدی، DevOps یا امنیت، بسته به مخزن. - 📦 توزیع محصول- نسخه های قابل دانلود، چکه ها و ساخت شواهد؛ امضاهای تجاری / فروشگاه اعلام شده در صورت لزوم. - 🌍 Internationalization — portfolio in 22 languages (ES · EN · PT · IT · FR · ZH · ZH-TW · JA · KO · TR · RU · VI · TH · DE · UK · PL · AR · FA · ID · NL · HI · EL). - 🧭 صداقت فنیهر پرونده ای که برچسب زده شودOPERATIONAL, DOCUMENTED/SCAFFOLDیاPLANNED.",
+    "title": "Arquitectura, modernización, automatización e IA aplicada a proyectos reales.",
+    "summary": "Arquitecto de Soluciones · Senior Full-Stack · Líder Tecnológico . 16+ años liderando la evolución de plataformas. Especializado en modernización de sistemas legacy , automatización de procesos , cloud & CI/CD e integración de IA aplicada .",
     "website": "https://vladimiracunadev-create.github.io/i18n/fa/",
     "github": "https://github.com/vladimiracunadev-create",
     "gitlab": "https://gitlab.com/vladimir.acuna.dev-group"
   },
+  "views": [
+    "recruiter",
+    "normal",
+    "deep",
+    "freelance"
+  ],
   "sections": [
-    "🎯آنچه در اینجا پیدا خواهید کرد",
-    "✅وضعیت قابل تایید",
-    "🗺️سیستم در یک نگاه",
-    "📦محصولات با توزیع واقعی",
-    "🧪آزمایشگاه های مهندسی",
-    "🤖کاربردی AI",
-    "📚ویژگی های فنی کامل",
-    "🔬محاسبات علمی",
-    "⚡اگر 10 دقیقه وقت دارید تا من را ارزیابی کنید",
-    "🧠استانداردهایی که در سراسر مخازن اعمال می کنم",
-    "✅حرفه ای",
-    "🧭مدیریت، مدیریت و فرصت های شغلی غیر مشارکتی",
-    "🤖جریان توسعه AI-Assisted Development Flow",
-    "📌در دسترس بودن",
-    "📬تماس"
+    {
+      "id": "hero",
+      "title": "Arquitectura, modernización, automatización e IA aplicada a proyectos reales.",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "resultados",
+      "title": "Resultados verificables",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "evolucion",
+      "title": "Pilares Técnicos Consolidados",
+      "min_level": 1,
+      "freelance_hidden": true
+    },
+    {
+      "id": "auditoria-ia",
+      "title": "Auditoría de código generado por IA",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "productos",
+      "title": "Productos descargables",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "proyectos",
+      "title": "Proyectos destacados",
+      "min_level": 1,
+      "freelance_hidden": true
+    },
+    {
+      "id": "demos",
+      "title": "Demos en vivo",
+      "min_level": 1,
+      "freelance_hidden": false
+    },
+    {
+      "id": "experiencia",
+      "title": "Experiencia",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "flujo-ia",
+      "title": "Flujo de desarrollo asistido por IA",
+      "min_level": 2,
+      "freelance_hidden": true
+    },
+    {
+      "id": "roles",
+      "title": "Alcance profesional real",
+      "min_level": 1,
+      "freelance_hidden": true
+    },
+    {
+      "id": "servicios",
+      "title": "Servicios",
+      "min_level": 2,
+      "freelance_hidden": false
+    },
+    {
+      "id": "modalidades",
+      "title": "Freelance · Modalidades de colaboración",
+      "min_level": 2,
+      "freelance_hidden": false
+    },
+    {
+      "id": "descargas",
+      "title": "Centro de Descargas",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "referencias",
+      "title": "Referencias laborales",
+      "min_level": 2,
+      "freelance_hidden": true
+    },
+    {
+      "id": "tarjeta",
+      "title": "Tarjeta de presentación",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "contacto",
+      "title": "Contacto",
+      "min_level": 0,
+      "freelance_hidden": false
+    }
   ],
   "artifacts": {
     "portfolio": "/assets/portafolio-persian.pdf",

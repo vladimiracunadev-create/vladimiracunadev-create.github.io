@@ -2,7 +2,9 @@
 
 Profundización técnica en los procesos de compilación, firma y resolución de conflictos de entorno para Android e iOS.
 
-**Verificada:** 2026-10-16.
+**Verificada:** 2026-10-25.
+
+Antes de empaquetar, instala `scripts/requirements-i18n.txt` y ejecuta `python scripts/generate-expanded-locales.py`, `pnpm test`, `pnpm lint` y `pnpm build`. La sincronización móvil copia la misma SPA, las 22 rutas, API y contrato i18n.
 
 ## 📄 Paquete documental
 

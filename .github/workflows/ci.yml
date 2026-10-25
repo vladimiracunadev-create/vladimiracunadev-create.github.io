@@ -39,7 +39,13 @@ jobs:
         run: pnpm lint:md
 
       - name: Portfolio Integrity Check
-        run: pnpm test
+        run: pnpm validate
+
+      - name: Internationalization Equivalence (22 locales)
+        run: pnpm test:i18n
+
+      - name: Functional i18n (mobile and RTL)
+        run: pnpm test:functional:i18n
 
   seo:
     name: SEO Generation

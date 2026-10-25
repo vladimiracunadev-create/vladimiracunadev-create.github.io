@@ -1,11 +1,18 @@
-const CACHE_NAME = 'vladi-portfolio-v21-i18n-20261016';
+const CACHE_NAME = 'vladi-portfolio-v22-i18n-20261025';
 const OFFLINE_URL = './offline.html';
+const LOCALE_ROUTES = [
+    'es', 'en', 'pt', 'it', 'fr', 'zh', 'zh-TW', 'ja', 'ko', 'tr', 'ru',
+    'vi', 'th', 'de', 'uk', 'pl', 'ar', 'fa', 'id', 'nl', 'hi', 'el'
+].map((locale) => `./i18n/${locale}/`);
 
 const APP_SHELL = [
     './',
     './index.html',
     './offline.html',
     './manifest.webmanifest',
+    './data/portfolio-i18n.json',
+    './i18n/localized.css',
+    './i18n/localized.js',
     './assets/favicon.svg',
     './assets/icons/icon.svg',
     './assets/icons/icon-192.png',
@@ -16,7 +23,8 @@ const APP_SHELL = [
     './assets/icons/1.png?v=5adde69a',
     './assets/icons/2.png?v=1a55b3e6',
     './servicios/auditoria-codigo-ia/',
-    './servicios/auditoria-codigo-ia/audit-form.js'
+    './servicios/auditoria-codigo-ia/audit-form.js',
+    ...LOCALE_ROUTES
 ];
 
 const NETWORK_FIRST_PATHS = new Set([
@@ -57,7 +65,7 @@ async function networkFirst(request, fallbackUrl) {
         }
         return response;
     } catch (error) {
-        const cached = await cache.match(request);
+        const cached = await cache.match(request, { ignoreSearch: request.mode === 'navigate' });
         if (cached) {
             return cached;
         }

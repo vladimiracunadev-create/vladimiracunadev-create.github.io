@@ -1,36 +1,125 @@
 {
   "meta": {
-    "generated_at": "2026-10-16",
+    "generated_at": "2026-10-25",
     "language": "el",
     "language_name": "Greek",
     "native_name": "Ελληνικά",
     "direction": "ltr",
-    "source": "https://github.com/vladimiracunadev-create/vladimiracunadev-create/blob/main/README.el.md"
+    "content_language": "es",
+    "fallback_language": "es",
+    "source": "https://vladimiracunadev-create.github.io/index.html"
   },
   "profile": {
     "name": "Vladimir Acuña",
-    "title": "Αρχιτέκτονας Λύσης·Ανώτερος πλήρης στοίβα·Ψηφιακή Μεταμόρφωση·Διαχείριση & Λειτουργίες",
-    "summary": "- 🔁 Αναπαραγωγικά demos— κλώνος, τρέχα, επικυρώσε. - 🧰 Τυποποιημένη εργαλειοθέτηση— Makefiles, Hub CLI,doctor, καιsmokeανά χώρο αποθήκευσης. - 🛡️ Άμυνα σε βάθος— μυστική σάρωση, πολιτικές και ρητά απαγορευμένες πρακτικές. - 📈 Παρατηρησιμότητα — /health, /ready, /metrics, ταμπλό και ιχνηλασιμότητα. - 📚 Τεκμηρίωση για το κοινό— στρατολογητή, αρχάριο, DevOps ή ασφάλεια, ανάλογα με το χώρο αποθήκευσης. - 📦 Κατανομή προϊόντων— τις εκδόσεις, τα ληφθέντα έγγραφα και τα αποδεικτικά στοιχεία, - 🌍 Διεθνοποίηση— χαρτοφυλάκιο σε 22 γλώσσες (ES)·ΕΝ·PT·ΤΙ·FR·ΖΗ). - 🧭 Τεχνική ειλικρίνεια— κάθε περίπτωση με ετικέταOPERATIONAL, DOCUMENTED/SCAFFOLD, ήPLANNED.",
+    "title": "Arquitectura, modernización, automatización e IA aplicada a proyectos reales.",
+    "summary": "Arquitecto de Soluciones · Senior Full-Stack · Líder Tecnológico . 16+ años liderando la evolución de plataformas. Especializado en modernización de sistemas legacy , automatización de procesos , cloud & CI/CD e integración de IA aplicada .",
     "website": "https://vladimiracunadev-create.github.io/i18n/el/",
     "github": "https://github.com/vladimiracunadev-create",
     "gitlab": "https://gitlab.com/vladimir.acuna.dev-group"
   },
+  "views": [
+    "recruiter",
+    "normal",
+    "deep",
+    "freelance"
+  ],
   "sections": [
-    "🎯Τι θα Βρείτε Εδώ",
-    "✅Επαληθευμένη κατάσταση",
-    "🗺️Ecosystem σε μια λάμψη",
-    "📦Προϊόντα με πραγματική διανομή",
-    "🧪Εργαστήρια Μηχανικών",
-    "🤖Εφαρμοσμένη ΤΝ",
-    "📚Πλήρης τεχνική επιμέλεια",
-    "🔬Επιστημονική Υπολογιστική",
-    "⚡Αν έχετε 10 λεπτά για να με αξιολογήσετε",
-    "🧠Πρότυπα που εφαρμόζω σε όλα τα αποθετήρια",
-    "✅Επαγγελματικό πεδίο εφαρμογής",
-    "🧭Διαχείριση, Διοίκηση και Μη Κωδικοποίηση Ευκαιρίες Καριέρας",
-    "🤖AI-βοηθούμενη ροή ανάπτυξης",
-    "📌Διαθεσιμότητα",
-    "📬Επαφή"
+    {
+      "id": "hero",
+      "title": "Arquitectura, modernización, automatización e IA aplicada a proyectos reales.",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "resultados",
+      "title": "Resultados verificables",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "evolucion",
+      "title": "Pilares Técnicos Consolidados",
+      "min_level": 1,
+      "freelance_hidden": true
+    },
+    {
+      "id": "auditoria-ia",
+      "title": "Auditoría de código generado por IA",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "productos",
+      "title": "Productos descargables",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "proyectos",
+      "title": "Proyectos destacados",
+      "min_level": 1,
+      "freelance_hidden": true
+    },
+    {
+      "id": "demos",
+      "title": "Demos en vivo",
+      "min_level": 1,
+      "freelance_hidden": false
+    },
+    {
+      "id": "experiencia",
+      "title": "Experiencia",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "flujo-ia",
+      "title": "Flujo de desarrollo asistido por IA",
+      "min_level": 2,
+      "freelance_hidden": true
+    },
+    {
+      "id": "roles",
+      "title": "Alcance profesional real",
+      "min_level": 1,
+      "freelance_hidden": true
+    },
+    {
+      "id": "servicios",
+      "title": "Servicios",
+      "min_level": 2,
+      "freelance_hidden": false
+    },
+    {
+      "id": "modalidades",
+      "title": "Freelance · Modalidades de colaboración",
+      "min_level": 2,
+      "freelance_hidden": false
+    },
+    {
+      "id": "descargas",
+      "title": "Centro de Descargas",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "referencias",
+      "title": "Referencias laborales",
+      "min_level": 2,
+      "freelance_hidden": true
+    },
+    {
+      "id": "tarjeta",
+      "title": "Tarjeta de presentación",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "contacto",
+      "title": "Contacto",
+      "min_level": 0,
+      "freelance_hidden": false
+    }
   ],
   "artifacts": {
     "portfolio": "/assets/portafolio-greek.pdf",

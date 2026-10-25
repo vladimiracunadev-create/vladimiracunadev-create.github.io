@@ -1,36 +1,125 @@
 {
   "meta": {
-    "generated_at": "2026-10-16",
+    "generated_at": "2026-10-25",
     "language": "id",
     "language_name": "Indonesian",
     "native_name": "Bahasa Indonesia",
     "direction": "ltr",
-    "source": "https://github.com/vladimiracunadev-create/vladimiracunadev-create/blob/main/README.id.md"
+    "content_language": "es",
+    "fallback_language": "es",
+    "source": "https://vladimiracunadev-create.github.io/index.html"
   },
   "profile": {
     "name": "Vladimir Acuña",
-    "title": "Arsitek Solusi·Senior Full- Stack·Transformasi Digital·Manajemen & Operasi",
-    "summary": "- 🔁 Demo dapat direproduksi- Klon, lari, validasi. - 🧰 Standardisasi Tooling- Makefiles, Hub CRI,doctor, dansmokeper repositori. - 🛡️ Pertahanan dalam kedalaman- Pemindaian rahasia, kebijakan, dan praktek terlarang secara eksplisit. - 📈 Observasi — /health, /ready, /metrics, dasbor, dan traceability. - 📚 Dokumentasi audiencearenalitentment- perekrut, pemula, DevOps, atau keamanan, tergantung pada repositori. - 📦 Pemrograman distribusi- bisa diunduh rilis, checksums, dan membuat bukti; tanda tangan komersial / store dideklarasikan sebagai tertunda ketika berlaku. - 🌍 Internasionalisasi- Portofolio dalam 22 bahasa (ES·EN·PT·IT·FR·ZH). - 🧭 Kejujuran teknis- setiap kasus berlabelOPERATIONAL, DOCUMENTED/SCAFFOLD, atauPLANNED.",
+    "title": "Arquitectura, modernización, automatización e IA aplicada a proyectos reales.",
+    "summary": "Arquitecto de Soluciones · Senior Full-Stack · Líder Tecnológico . 16+ años liderando la evolución de plataformas. Especializado en modernización de sistemas legacy , automatización de procesos , cloud & CI/CD e integración de IA aplicada .",
     "website": "https://vladimiracunadev-create.github.io/i18n/id/",
     "github": "https://github.com/vladimiracunadev-create",
     "gitlab": "https://gitlab.com/vladimir.acuna.dev-group"
   },
+  "views": [
+    "recruiter",
+    "normal",
+    "deep",
+    "freelance"
+  ],
   "sections": [
-    "🎯Apa yang akan Anda temukan di sini",
-    "✅Status Dapat Diverifikasi",
-    "🗺️Ekosistem Pada A Glance",
-    "📦Produk Dengan Distribusi Nyata",
-    "🧪Laboratorium Teknik",
-    "🤖AI Terapan",
-    "📚Curricula Teknis Lengkap",
-    "🔬Komputer Ilmiah",
-    "⚡Jika kau memiliki 10 menit untuk mengevaluasi aku",
-    "🧠Standar yang saya terapkan di semua repositori",
-    "✅Scope Profesional",
-    "🧭Manajemen, Administrasi, dan Non- Coding Kesempatan Karir",
-    "🤖Alur pengembangan berbantuan AI",
-    "📌Ketersediaan",
-    "📬Kontak"
+    {
+      "id": "hero",
+      "title": "Arquitectura, modernización, automatización e IA aplicada a proyectos reales.",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "resultados",
+      "title": "Resultados verificables",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "evolucion",
+      "title": "Pilares Técnicos Consolidados",
+      "min_level": 1,
+      "freelance_hidden": true
+    },
+    {
+      "id": "auditoria-ia",
+      "title": "Auditoría de código generado por IA",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "productos",
+      "title": "Productos descargables",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "proyectos",
+      "title": "Proyectos destacados",
+      "min_level": 1,
+      "freelance_hidden": true
+    },
+    {
+      "id": "demos",
+      "title": "Demos en vivo",
+      "min_level": 1,
+      "freelance_hidden": false
+    },
+    {
+      "id": "experiencia",
+      "title": "Experiencia",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "flujo-ia",
+      "title": "Flujo de desarrollo asistido por IA",
+      "min_level": 2,
+      "freelance_hidden": true
+    },
+    {
+      "id": "roles",
+      "title": "Alcance profesional real",
+      "min_level": 1,
+      "freelance_hidden": true
+    },
+    {
+      "id": "servicios",
+      "title": "Servicios",
+      "min_level": 2,
+      "freelance_hidden": false
+    },
+    {
+      "id": "modalidades",
+      "title": "Freelance · Modalidades de colaboración",
+      "min_level": 2,
+      "freelance_hidden": false
+    },
+    {
+      "id": "descargas",
+      "title": "Centro de Descargas",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "referencias",
+      "title": "Referencias laborales",
+      "min_level": 2,
+      "freelance_hidden": true
+    },
+    {
+      "id": "tarjeta",
+      "title": "Tarjeta de presentación",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "contacto",
+      "title": "Contacto",
+      "min_level": 0,
+      "freelance_hidden": false
+    }
   ],
   "artifacts": {
     "portfolio": "/assets/portafolio-indonesian.pdf",

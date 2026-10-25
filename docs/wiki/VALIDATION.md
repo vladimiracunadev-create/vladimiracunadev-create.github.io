@@ -1,6 +1,6 @@
 # 📊 Guía de Validación Local | Calidad de Software
 
-**Última ejecución integral:** 2026-10-16. Incluye validación web, coherencia de fechas/datos, detección de mojibake y QA estructural/visual de 154 PDFs.
+**Última ejecución integral:** 2026-10-25. Incluye 22 rutas i18n, 16 secciones equivalentes, cuatro vistas, fallback español, RTL árabe/persa, PWA/Capacitor, API, Markdown y 154 PDFs.
 
 Asegurando que cada línea de código cumpla con los estándares de excelencia técnica mediante auditorías automatizadas.
 
@@ -13,8 +13,10 @@ Utilizamos **Lighthouse CI (LHCI)** como gatekeeper de calidad antes de cualquie
 ### Comandos de Inspección
 
 ```bash
-npm run build      # Genera el artefacto web optimizado
-npm run lhci       # Ejecuta la batería de pruebas de Lighthouse
+pnpm test          # Integridad general + 1.000+ checks i18n
+pnpm lint          # HTML + Markdown
+pnpm build         # Artefacto web optimizado
+pnpm lhci          # Lighthouse
 ```
 
 ---

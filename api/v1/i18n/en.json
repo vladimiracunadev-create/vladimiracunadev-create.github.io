@@ -1,36 +1,125 @@
 {
   "meta": {
-    "generated_at": "2026-10-16",
+    "generated_at": "2026-10-25",
     "language": "en",
     "language_name": "English",
     "native_name": "English",
     "direction": "ltr",
-    "source": "https://github.com/vladimiracunadev-create/vladimiracunadev-create/blob/main/README.en.md"
+    "content_language": "en",
+    "fallback_language": "es",
+    "source": "https://vladimiracunadev-create.github.io/index.html"
   },
   "profile": {
     "name": "Vladimir Acuña",
-    "title": "Solution Architect · Senior Full-Stack · Digital Transformation · Management & Operations",
-    "summary": "- 🔁 Reproducible demos — clone, run, validate. - 🧰 Standardized tooling — Makefiles, Hub CLI, doctor, and smoke per repository. - 🛡️ Defense in depth — secret scanning, policies, and explicitly forbidden practices. - 📈 Observability — /health, /ready, /metrics, dashboards, and traceability. - 📚 Audience-aware documentation — recruiter, beginner, DevOps, or security, depending on the repository. - 📦 Product distribution — downloadable releases, checksums, and build evidence; commercial/store signatures declared as pending when applicable. - 🌍 Internationalization — portfolio in 22 languages (ES · EN · PT · IT · FR · ZH · ZH-TW · JA · KO · TR · RU · VI · TH · DE · UK · PL · AR · FA · ID · NL · HI · EL). - 🧭 Technical honesty — every case labeled OPERATIONAL, DOCUMENTED/SCAFFOLD, or PLANNED.",
+    "title": "Architecture, modernization, automation, and applied AI for real-world projects.",
+    "summary": "Solutions Architect · Senior Full-Stack · Technology Lead . 16+ years leading platform evolution. Specialized in legacy system modernization , process automation , cloud & CI/CD , and applied AI integration .",
     "website": "https://vladimiracunadev-create.github.io/i18n/en/",
     "github": "https://github.com/vladimiracunadev-create",
     "gitlab": "https://gitlab.com/vladimir.acuna.dev-group"
   },
+  "views": [
+    "recruiter",
+    "normal",
+    "deep",
+    "freelance"
+  ],
   "sections": [
-    "🎯 What You Will Find Here",
-    "✅ Verifiable Status",
-    "🗺️ Ecosystem At A Glance",
-    "📦 Products With Real Distribution",
-    "🧪 Engineering Laboratories",
-    "🤖 Applied AI",
-    "📚 Complete Technical Curricula",
-    "🔬 Scientific Computing",
-    "⚡ If You Have 10 Minutes To Evaluate Me",
-    "🧠 Standards I Apply Across Repositories",
-    "✅ Professional Scope",
-    "🧭 Management, Administration, and Non-Coding Career Opportunities",
-    "🤖 AI-Assisted Development Flow",
-    "📌 Availability",
-    "📬 Contact"
+    {
+      "id": "hero",
+      "title": "Architecture, modernization, automation, and applied AI for real-world projects.",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "resultados",
+      "title": "Resultados verificables",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "evolucion",
+      "title": "Consolidated Technical Pillars",
+      "min_level": 1,
+      "freelance_hidden": true
+    },
+    {
+      "id": "auditoria-ia",
+      "title": "Audit of AI-generated code",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "productos",
+      "title": "Downloadable Products",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "proyectos",
+      "title": "Featured Projects",
+      "min_level": 1,
+      "freelance_hidden": true
+    },
+    {
+      "id": "demos",
+      "title": "Live Demos",
+      "min_level": 1,
+      "freelance_hidden": false
+    },
+    {
+      "id": "experiencia",
+      "title": "Experience",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "flujo-ia",
+      "title": "AI-Assisted Development Workflow",
+      "min_level": 2,
+      "freelance_hidden": true
+    },
+    {
+      "id": "roles",
+      "title": "Real Professional Scope",
+      "min_level": 1,
+      "freelance_hidden": true
+    },
+    {
+      "id": "servicios",
+      "title": "Services",
+      "min_level": 2,
+      "freelance_hidden": false
+    },
+    {
+      "id": "modalidades",
+      "title": "Freelance · Collaboration Formats",
+      "min_level": 2,
+      "freelance_hidden": false
+    },
+    {
+      "id": "descargas",
+      "title": "Download Center",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "referencias",
+      "title": "Work References",
+      "min_level": 2,
+      "freelance_hidden": true
+    },
+    {
+      "id": "tarjeta",
+      "title": "Business card",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "contacto",
+      "title": "Contact",
+      "min_level": 0,
+      "freelance_hidden": false
+    }
   ],
   "artifacts": {
     "portfolio": "/assets/portafolio-english.pdf",

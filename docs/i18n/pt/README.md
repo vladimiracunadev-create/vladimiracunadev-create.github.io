@@ -1,310 +1,1082 @@
-<!-- Synced from the public GitHub profile on 2026-10-16. -->
+# Vladimir Acuña — Portafolio profesional
 
-<div align="center">
+<!-- Generated from canonical portfolio content: index.html -->
+<!-- locale:pt; fallback:es -->
 
-# 👋 Vladimir Acuña
-
-## **Arquiteto de Soluções · Senior Full-Stack · Transformação Digital · Gestão e Operações**
-
-**Engenheiro em Informática e Computação e Administrador de Empresas, com mais de 16 anos construindo e operando software em ambientes reais. Conecto negócios, pessoas, processos e tecnologia para desenhar, avaliar, entregar e sustentar soluções — com evidência verificável neste GitHub.**
-
-[![Portfólio](https://img.shields.io/badge/🌐_Portf%C3%B3lio_ao_vivo-vladimiracunadev--create.github.io-0366d6?style=for-the-badge)](https://vladimiracunadev-create.github.io/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Vladimir_Acuña-0a66c2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29/)
-[![Email](https://img.shields.io/badge/Email-vladimir.acuna.dev-c14438?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vladimir.acuna.dev@gmail.com)
-
-[![Experiência](https://img.shields.io/badge/experi%C3%AAncia-%2B16%20anos-e67e22?style=for-the-badge)](#-escopo-profissional)
-[![Produtos](https://img.shields.io/badge/produtos-artefatos%20verific%C3%A1veis-007c83?style=for-the-badge)](#-produtos-com-distribuição-real)
-[![Currículos](https://img.shields.io/badge/curr%C3%ADculos-21%20programas-3fb950?style=for-the-badge)](#-currículos-técnicos-completos)
-
-<!-- STATS:START -->
-[![Repositórios públicos](https://img.shields.io/badge/reposit%C3%B3rios%20p%C3%BAblicos-64-7c5cff?style=for-the-badge&logo=github)](https://github.com/vladimiracunadev-create?tab=repositories)
-[![Releases publicadas](https://img.shields.io/badge/releases%20publicadas-151-f39c12?style=for-the-badge&logo=github)](https://github.com/vladimiracunadev-create?tab=repositories)
-[![Linguagens](https://img.shields.io/badge/linguagens%20principais-10-0366d6?style=for-the-badge)](#-ecossistema-em-uma-visão)
-[![Aulas](https://img.shields.io/badge/aulas%20de%20curr%C3%ADculo-14530-3fb950?style=for-the-badge)](#-currículos-técnicos-completos)
-[![Forks](https://img.shields.io/badge/forks-3-8957e5?style=for-the-badge&logo=github)](https://github.com/vladimiracunadev-create?tab=repositories)
-<!-- STATS:END -->
-
-[![Estrelas](https://img.shields.io/github/stars/vladimiracunadev-create?style=for-the-badge&logo=github&label=estrelas&color=e3b341)](https://github.com/vladimiracunadev-create?tab=repositories)
-[![Seguidores](https://img.shields.io/github/followers/vladimiracunadev-create?style=for-the-badge&logo=github&label=seguidores&color=58a6ff)](https://github.com/vladimiracunadev-create?tab=followers)
-
-[🌐 Portfólio (22 idiomas)](https://vladimiracunadev-create.github.io/) ·
-[🧩 Ecossistema](#-ecossistema-em-uma-visão) ·
-[⚡ Avalie-me em 10 minutos](#-se-você-tem-10-minutos-para-me-avaliar) ·
-[✅ Escopo profissional](#-escopo-profissional) ·
-[🧭 Gestão sem programação](#-gestão-administração-e-oportunidades-profissionais-sem-programação) ·
-[📋 Matriz de cargos](PROFESIONAL_ROLES.md) ·
-[📬 Contato](#-contato)
-
-**🌐 Versões completas:** [Español](README.md) · [English](README.en.md) · [Português](README.pt.md) · [Italiano](README.it.md) · [Français](README.fr.md) · [简体中文](README.zh.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Türkçe](README.tr.md) · [Русский](README.ru.md) · [Tiếng Việt](README.vi.md) · [ไทย](README.th.md) · [Deutsch](README.de.md) · [Українська](README.uk.md) · [Polski](README.pl.md) · [العربية](README.ar.md) · [فارسی](README.fa.md) · [Bahasa Indonesia](README.id.md) · [Nederlands](README.nl.md) · [हिन्दी](README.hi.md) · [Ελληνικά](README.el.md)
-
-**Núcleo técnico:**
-PHP 8 · Python · Rust · Go · Node/TS · Java 21 · .NET 8 · Dart/Flutter · WASM
-· AWS · Terraform · Kubernetes · Docker · n8n · LangGraph/MCP · CI/CD · FinOps · Observabilidade
-
-**Ponte negócio–tecnologia:** análise de processos e requisitos · avaliação de soluções · coordenação de entrega · operações e continuidade · riscos · produto e serviço · formação técnica
-
-</div>
-
----
-
-> [!NOTE]
-> Este perfil não transforma possibilidades em experiência. Experiência comprovada, competências transferíveis, possibilidades de candidatura e objetivos futuros são diferenciados explicitamente.
-
-## 🎯 O Que Você Vai Encontrar Aqui
-
-Não é “um repo”: é um ecossistema com padrões comuns.
-
-- 🔁 **Demos reproduzíveis** — clonar, executar, validar.
-- 🧰 **Tooling padronizado** — Makefiles, Hub CLI, `doctor` e `smoke` por repositório.
-- 🛡️ **Defesa em profundidade** — secret scanning, políticas e práticas proibidas explicitamente.
-- 📈 **Observabilidade** — `/health`, `/ready`, `/metrics`, dashboards e rastreabilidade.
-- 📚 **Documentação por audiência** — recrutador, iniciante, DevOps ou segurança, conforme o repositório.
-- 📦 **Distribuição como produto** — releases baixáveis, checksums e evidência de build; assinaturas comerciais/de loja declaradas como pendentes quando aplicável.
-- 🌍 **Internacionalização** — portfólio em 22 idiomas (ES · EN · PT · IT · FR · ZH · ZH-TW · JA · KO · TR · RU · VI · TH · DE · UK · PL · AR · FA · ID · NL · HI · EL).
-- 🧭 **Honestidade técnica** — cada caso marcado como `OPERACIONAL`, `DOCUMENTADO/SCAFFOLD` ou `PLANEJADO`.
-
-## ✅ Estado Verificável
-
-| Superfície | Evidência concreta |
-|---|---|
-| 🧪 **Cobertura de testes** | GabySQL **828 testes** + fuzz de **503,8 M queries** (0 panics) · Empresa Operativa Chile **158 testes** · Automa **150 pytest** · CI multi-OS |
-| 🤖 **Agentes em produção** | LangGraph RealWorld **25/25 backends operacionais** (casos 01–25, cobertura 100 %) · Operational AI Agents **13 agentes** com **39 evals determinísticos** |
-| 🔗 **Integração políglota** | **20 casos** emissor→n8n→receptor —**19 operacionais**, auditados um a um com Docker— · **18+ motores de BD** · **20+ contêineres** · 11 padrões |
-| 📦 **Distribuição** | **151 releases** publicadas em um ecossistema de **64 repositórios públicos próprios** · instaladores e artefatos `.exe` · `.msi` · `.dmg` · `.apk` com checksums e evidência de build; assinaturas comerciais/de loja em andamento quando aplicável |
-| 🛡️ **Cadeia de suprimentos** | CodeQL · Semgrep · Bandit · Trivy · Grype · Gitleaks · TruffleHog · SBOM CycloneDX · Scorecard |
-| 📚 **Currículos** | **14.530 aulas** verificáveis em 21 programas, contadas por [um workflow](.github/workflows/stats.yml) sobre estrutura real ou fonte verificável declarada no repositório —não escritas à mão— · cada programa declara seu estado editorial e seus limites |
-| 🌐 **Portfólio** | PWA instalável · **22 idiomas** · **154 PDFs** por pipeline · CV Data API · Capacitor Android · Lighthouse 100 |
-| 🔒 **Telemetria** | Zero nos produtos forenses e em Empresa Operativa Chile — verificada em cada build (sem permissão `INTERNET` no Android) |
-| 🌐 **Sites publicados** | **56 sites** no GitHub Pages —55 landings, uma por produto, programa ou navegador do ecossistema, mais o portfólio— todos implantados a partir do próprio repositório · os 56 verificados com resposta `200` |
-
-## 🗺️ Ecossistema Em Uma Visão
-
-```mermaid
-flowchart TD
-    A["🧠 Critério técnico<br/>arquitetura · modernização · operação"] --> B["📦 Produtos<br/>com distribuição real"]
-    A --> C["🧪 Laboratórios<br/>de engenharia"]
-    A --> D["🤖 IA aplicada<br/>agentes e automação"]
-    A --> E["📚 Currículos<br/>técnicos completos"]
-    A --> F["🔬 Computação<br/>científica e educativa"]
-
-    B --> B1["RootCause ×8 · GabySQL · Automa · Code Scanner<br/>Video Transcript Studio · ChofyAI · Rhino Suite · Empresa Operativa Chile<br/>AI Dataset Foundry · AWS Desktop Studio · Commerce OS · PDF Reader"]
-    C --> C1["Docker · WSL · Unikernel · QEMU/KVM · Sandbox<br/>Microsistemas · Problem-Driven · Payments · Decentraland"]
-    D --> D1["LangGraph · MCP+Ollama · Operational AI Agents<br/>Claude Skills · Codex Skills · Agentic Plugins · Social Bot"]
-    E --> E1["Cibersegurança · GameDev · Data Science · Multi-Cloud · IA · Blockchain<br/>Frameworks · Matemática · Negócios · Finanças · Liderança · Marketing · Pedagogia<br/>Engenharia de software · Arquitetura · Rota escolar chilena<br/>Redes neurais · Operação de máquinas"]
-    F --> F1["Human Genome Labs<br/>Minha Aventura com o Violino · Minha Aventura com a Guitarra<br/>Pañuelo al Viento"]
-```
-
-## 📦 Produtos Com Distribuição Real
-
-Software que se baixa, instala e usa — não apenas se clona.
-
-| Produto | O que é | Stack | Entrega |
-|---|---|---|---|
-| [🔍 **RootCause Windows**](https://github.com/vladimiracunadev-create/rootcause-windows-inspector) | Forense de cibersegurança: toda distorção anômala de recursos pode ser o primeiro indício de uma ameaça. Diagnóstico primeiro, intervenção depois | Rust 🦀 · ETW/WPR | **v0.19.0** · **16 releases** · **5 edições**: GUI · Portable · CLI · PowerShell · VS Code · [landing](https://vladimiracunadev-create.github.io/rootcause-windows-inspector/) |
-| [📱 **RootCause Mobile**](https://github.com/vladimiracunadev-create/rootcause-mobile-inspector) | O irmão móvel: sensor forense que compara cada app consigo mesmo, aponta stalkerware e separa permissões concedidas das apenas solicitadas | Flutter · Kotlin · Swift | **v0.8.0** · APK Android verificável · 5 idiomas · **telemetria zero** · [landing](https://vladimiracunadev-create.github.io/rootcause-mobile-inspector/) |
-| [🍎 **RootCause macOS**](https://github.com/vladimiracunadev-create/rootcause-macos-inspector) | Edição macOS: persistência `launchd`, Gatekeeper, SIP, FileVault, XProtect, permissões TCC, processos assinados e vizinhos de rede — cada superfície contra um estado bom conhecido | Rust 🦀 · macOS 13+ | **v0.1.0** · primeira release publicada · Apache-2.0 · [landing](https://vladimiracunadev-create.github.io/rootcause-macos-inspector/) |
-| [🖥️ **RootCause Server**](https://github.com/vladimiracunadev-create/rootcause-server) | O irmão de servidor: correlaciona superfície exposta, rajadas de tentativas, sessão concedida ao mesmo endereço, integridade de arquivos críticos e silêncio do sensor em uma frase acionável | Rust 🦀 · Windows · Linux · macOS | **v0.2.0** · **18 regras** com evidência e runbook · nunca executa ações sozinho · console local sem dependências web · **ainda sem release publicada** · [landing](https://vladimiracunadev-create.github.io/rootcause-server/) |
-| [🌐 **RootCause Web**](https://github.com/vladimiracunadev-create/rootcause-web-inspector) | Sensor forense do navegador: cookies, sessões de email, extensões, downloads, permissões e páginas que simulam uma janela real | JavaScript · extensão MV3 | **v0.2.0** · ainda sem release publicada · painel em `127.0.0.1` · zero dependências · telemetria zero verificada em CI · [landing](https://vladimiracunadev-create.github.io/rootcause-web-inspector/) |
-| [₿ **RootCause Bitcoin Defense**](https://github.com/vladimiracunadev-create/rootcause-bitcoin-defense) | Defesa watch-only para custódia Bitcoin: inventaria a procedência de cada chave, cruza com avisos publicados e explica a causa raiz com evidência | JavaScript · app Windows · painel local | **v0.3.0** · **2 releases** · zero dependências · nunca pede seeds · verificado em CI · [landing](https://vladimiracunadev-create.github.io/rootcause-bitcoin-defense/) |
-| [⛓️ **RootCause Blockchain Security**](https://github.com/vladimiracunadev-create/rootcause-blockchain-security) | Console watch-only multi-chain: inventaria contratos, proxies, oráculos, pontes, governança e dependências, e gera runbooks de causa raiz | JavaScript · app Windows · painel local | **v0.3.0** no repositório · release publicada: `v0.1.0` · zero dependências · nunca pede chaves privadas · verificado em CI · [landing](https://vladimiracunadev-create.github.io/rootcause-blockchain-security/) |
-| [📷 **RootCause QR Inspector**](https://github.com/vladimiracunadev-create/rootcause-qr-inspector) | App Android local para inspecionar QR antes de agir: explica 26 sinais, separa fatos de hipóteses e exporta evidência redigida | Flutter · Dart | **v0.1.4** · **5 releases** · **107 testes** · APK Android publicado · SHA-256 verificável · assinatura técnica de pacote APK; assinaturas comerciais/de loja em andamento · telemetria zero · [landing](https://vladimiracunadev-create.github.io/rootcause-qr-inspector/) |
-| [🏢 **Empresa Operativa Chile**](https://github.com/vladimiracunadev-create/empresa-operativa-chile) | Acompanha uma SpA desde antes de existir até o fechamento de cada mês: constituição com evidência, IVA com saldo carregado, rascunho F29, fechamento imutável e trilha de auditoria. Cada regra com fonte oficial | JavaScript · Rust · PWA | **v1.5.0** · Android · Windows · navegador · **158 testes** · **0 dependências de produção** · telemetria zero · [landing](https://vladimiracunadev-create.github.io/empresa-operativa-chile/) |
-| [🔍 **Universal Code Scanner**](https://github.com/vladimiracunadev-create/universal-code-scanner) | Leitor de QR e códigos de barras que **interpreta antes de agir**: 16 sinais locais de risco por URL e confirmação explícita | Flutter · Dart | **v1.1.0** · Android · iOS · macOS · PWA · histórico cifrado **AES-256-GCM** · [landing](https://vladimiracunadev-create.github.io/universal-code-scanner/) |
-| [🗄️ **GabySQL**](https://github.com/vladimiracunadev-create/gabysql) | Banco de dados embutido: arquivo único `.db`, WAL, otimizador por custos, API HTTP/JSON | Rust 🦀 | Windows · macOS · Linux · [landing](https://vladimiracunadev-create.github.io/gabysql/) |
-| [🤖 **Automa PC**](https://github.com/vladimiracunadev-create/automa-pc) | Orquestrador local: flows JSON que abrem janelas reais, interagem com DOM e deixam evidência | Python · Playwright · pywebview | **v0.3.0** · **27 flows** · instalador publicado e verificável · [landing](https://vladimiracunadev-create.github.io/automa-pc/) |
-| [🏭 **AI Dataset Foundry**](https://github.com/vladimiracunadev-create/ai-dataset-foundry) | Fábrica local-first que converte PDF, Word, web, Git, JSON e CSV em datasets auditáveis para pretraining, fine-tuning, RAG e avaliação | Python | **v0.2.0** · Windows + Android offline · primeira release publicada · [landing](https://vladimiracunadev-create.github.io/ai-dataset-foundry/) |
-| [☁️ **AWS Desktop Studio**](https://github.com/vladimiracunadev-create/aws-desktop-studio) | App local-first com 15 integrações de inventário AWS, 20 tutoriais, CLI/SSO e leitura por padrão; implementação em desenvolvimento, sem acesso universal | JavaScript · Windows | **v0.1.1** · primeira release publicada · [landing](https://vladimiracunadev-create.github.io/aws-desktop-studio/) |
-| [🧭 **Commerce OS**](https://github.com/vladimiracunadev-create/commerce-operating-system) | Demo conceitual guiada de operação comercial: catálogo, estoque, CRM, pedidos, pagamentos mock e rastreabilidade | JavaScript · Web · Windows · Android | **v0.3.0** · **2 releases** · sem dinheiro nem SII real · [landing](https://vladimiracunadev-create.github.io/commerce-operating-system/) |
-| [📄 **PDF Reader**](https://github.com/vladimiracunadev-create/pdf-reader-windows-android) | Leitor Android-first local e somente leitura, com zoom sem cortes, histórico reabrível, compartilhamento para WhatsApp e escolha como leitor padrão | HTML · Web · Android · Windows | **v0.3.3** · APK assinado · zero contas, permissões sensíveis e telemetria · [landing](https://vladimiracunadev-create.github.io/pdf-reader-windows-android/) |
-| [🎙️ **Video Transcript Studio**](https://github.com/vladimiracunadev-create/video-transcript-studio) | Um vídeo, uma lista ou um **canal completo** do YouTube para texto com timestamps. Não depende de legendas: Whisper reconhece o áudio **no seu computador**, sem API, conta ou chave | Python · PySide6 · FastAPI · faster-whisper | **v0.2.0** · desktop Windows + painel local em `127.0.0.1` + CLI, **com a mesma fila** · MD · PDF · TXT · SRT · VTT · JSON · MP3 · OGG · **89 testes** · FFmpeg incluído · telemetria zero · [landing](https://vladimiracunadev-create.github.io/video-transcript-studio/) |
-| [🎨 **ChofyAI Studio**](https://github.com/vladimiracunadev-create/chofyai-studio) | Launcher de IA criativa local: orquestra Qwen3-TTS, whisper.cpp, FaceFusion, AceForge e ComfyUI | Tauri 2 · Rust · React | v0.5.1 · **5/5 ferramentas com inferência real** · macOS Apple Silicon · Windows experimental · **ainda sem release publicada** · [site](https://vladimiracunadev-create.github.io/chofyai-studio/) |
-| [🦏 **Rhino Suite**](https://github.com/vladimiracunadev-create/rhino-suite) | Suíte de escritório do zero: as regras do documento não dependem do DOM — o HTML é apenas uma projeção | Rust/WASM · Go · React 19 | Monorepo evolutivo por fases · [landing](https://vladimiracunadev-create.github.io/rhino-suite/) |
-| [🎻 **Minha Aventura com o Violino**](https://github.com/vladimiracunadev-create/violin-adventure) | App educativo infantil: afinador cromático, metrônomo exato no relógio de áudio e canções com violino real | Tauri 2 · React · TS | **v1.3.0** · Windows · Android · Linux · macOS · PWA · [landing](https://vladimiracunadev-create.github.io/violin-adventure/) |
-| [🎸 **Minha Aventura com a Guitarra**](https://github.com/vladimiracunadev-create/guitarra-adventure) | O irmão de corda dedilhada: 24 lições em 6 mundos, afinador das 6 cordas, metrônomo sem deriva e 11 notas reais de guitarra | Tauri 2 · React · TS | **v1.0.0** · Windows · Android · Linux · macOS · iOS · PWA · sem contas, publicidade ou dependência online · [landing](https://vladimiracunadev-create.github.io/guitarra-adventure/) |
-| [🧣 **Pañuelo al Viento**](https://github.com/vladimiracunadev-create/panuelo-al-viento-cueca-app) | A cueca a partir dos 10 anos: 24 aulas em 8 níveis, 72 atividades, laboratório de seis pulsos (3+3 e 2+2+2) e diagramas de chão acessíveis. Declara que **complementa, não substitui**, docentes e cultores | Flutter · Dart | **v0.2.0** · Android 7+ · Windows 10/11 · APK · EXE · MSI · portable · **29 testes + 2 validadores** · sem câmera, microfone, conta, publicidade ou internet · [landing](https://vladimiracunadev-create.github.io/panuelo-al-viento-cueca-app/) |
-
-## 🧪 Laboratórios De Engenharia
-
-| Repo | O que demonstra |
-|---|---|
-| [🐳 **Problem-Driven Systems Lab**](https://github.com/vladimiracunadev-create/problem-driven-systems-lab) | **20 problemas reais** (latência sob carga, N+1, retry storms, vazamentos, monólito, cache stampede, backpressure, migração sem downtime, DLQ esquecida) com falhas de alta fidelidade injetadas, resolvidas em **7 stacks**: PHP 8 · Python · Node.js · Java 21 · .NET 8 · **Go 1.23** · **Rust 1.83** · [landing](https://vladimiracunadev-create.github.io/problem-driven-systems-lab/) |
-| [📆 **Social Bot Scheduler**](https://github.com/vladimiracunadev-create/social-bot-scheduler) | **v4.10.0** · **20 casos** origem→n8n→receptor sobre **18+ motores de BD** —**19 operacionais**, auditados um a um com Docker— auditoria de **8 camadas**, guardrails de idempotência, circuit breaker e DLQ · [landing](https://vladimiracunadev-create.github.io/social-bot-scheduler/) |
-| [🧰 **Microsistemas**](https://github.com/vladimiracunadev-create/microsistemas) | **12 microapps** de diagnóstico e modernização PHP · servidor MCP local somente leitura · hardening em 3 fases · [landing](https://vladimiracunadev-create.github.io/microsistemas/) |
-| [🧪 **Docker Labs**](https://github.com/vladimiracunadev-create/docker-labs) | **13 labs** em plataforma de 4 serviços + instalador `.exe` automatizado com launcher · [landing](https://vladimiracunadev-create.github.io/docker-labs/) |
-| [🐳 **WSL Labs**](https://github.com/vladimiracunadev-create/wsl-labs) | **12 casos** sobre `wslc`, o motor de contêineres nativo do WSL — **sem Docker Desktop** · [landing](https://vladimiracunadev-create.github.io/wsl-labs/) |
-| [⚡ **Unikernel Labs**](https://github.com/vladimiracunadev-create/unikernel-labs) | “Docker Desktop para unikernels”: controle Windows sobre Unikraft com backend WSL2, `kraft` + QEMU/KVM · [landing](https://vladimiracunadev-create.github.io/unikernel-labs/) |
-| [🧰 **QEMU/KVM Labs**](https://github.com/vladimiracunadev-create/qemu-kvm-labs) | **12 labs** de virtualização real com QEMU, KVM, libvirt, cloud-init e `vm-manager` sobre Linux e WSL2 · [landing](https://vladimiracunadev-create.github.io/qemu-kvm-labs/) |
-| [🛡️ **Sandbox Labs**](https://github.com/vladimiracunadev-create/sandbox-labs) | Isolamento em Linux: executa código, arquivos e modelos de negócio de terceiros sob políticas declaradas e **emite evidência assinada dos controles realmente aplicados** · **36 casos** em duas famílias —15 técnicos e 21 de mercado de capitais— · experimental e educativo, *não um produto de segurança* · [landing](https://vladimiracunadev-create.github.io/sandbox-labs/) |
-| [💳 **Universal Payments Engineering Lab**](https://github.com/vladimiracunadev-create/universal-payments-engineering-lab) | **28 famílias** de pagamentos em uma demo local autoexplicativa: estados, ledger, conciliação, segurança e guias de implementação · [landing](https://vladimiracunadev-create.github.io/universal-payments-engineering-lab/) |
-| [🕹️ **Decentraland Social Arcade**](https://github.com/vladimiracunadev-create/decentraland-social-arcade) | Experiência 3D social nativa de Decentraland: um MVP e arquitetura multijogo com SDK7, ECS e TypeScript · documentação em espanhol · sem pagamentos nem telemetria |
-| [☁️ **Projetos AWS**](https://github.com/vladimiracunadev-create/proyectos-aws) | Casos progressivos em que cada um adiciona um serviço AWS **e** uma nova capacidade de GitHub Actions · cobertura SAA-C03 · DVA-C02 · SOA-C02 |
-
-## 🤖 IA Aplicada
-
-| Repo | O que demonstra |
-|---|---|
-| [🤖 **LangGraph RealWorld**](https://github.com/vladimiracunadev-create/langgraph-realworld) | **25/25 backends operacionais** — estado tipado, rotas condicionais, streaming NDJSON, modo DEMO/LIVE, 8 camadas de segurança, cadeia de custódia SHA-256 |
-| [🧭 **Operational AI Agents**](https://github.com/vladimiracunadev-create/operational-ai-agents) | **13 agentes operacionais** para Claude Code e runtimes compatíveis: cada um recebe uma missão completa —evolução de repositórios, modernização de legado, desenho curricular, publicação de portfólio, remediação de segurança, análise de incidentes— sob **contrato declarado, gates humanos e evidência verificável** · **39 evals determinísticos** · 34 testes · zero-deps (somente stdlib) · Linux · macOS · Windows · [site](https://vladimiracunadev-create.github.io/operational-ai-agents/) |
-| [🧠 **MCP + Ollama Local**](https://github.com/vladimiracunadev-create/mcp-ollama-local) | IA local-first com tools MCP em sandbox · bind `127.0.0.1` · trust profile multicamada · honesto sobre seus limites |
-| [🧩 **Agentic Plugins Toolkit**](https://github.com/vladimiracunadev-create/agentic-plugins-toolkit) | **6 plugins agentic** instaláveis em Claude Code, OpenAI/Codex, Copilot, Gemini e MCP a partir de uma única fonte: `repository-engineering`, `legacy-modernization`, `learning-program-studio`, `product-evolution`, `portfolio-governance` e `rootcause-response` · **69 vistas geradas sem drift** · zero-deps · Linux · macOS · Windows · [site](https://vladimiracunadev-create.github.io/agentic-plugins-toolkit/) |
-| [🧰 **Claude Skills Toolkit**](https://github.com/vladimiracunadev-create/claude-skills-toolkit) | **15 skills agentic** para Claude Code · **segurança**: `security-audit` de 12 camadas e `bitcoin-custody-audit` em 14 etapas · gates de repositório, coerência, Docker e documentação · zero-deps · multiplataforma |
-| [🧰 **Codex Skills Toolkit**](https://github.com/vladimiracunadev-create/codex-skills-toolkit) | **19 skills agentic** para Codex: segurança e supply chain, preflight, fluxos funcionais, resiliência e estado, evidência de release, gates Python/YAML/Markdown, versões, dependências, Docker e documentos · Python-first · `pnpm` · Linux · macOS · Windows · [site](https://vladimiracunadev-create.github.io/codex-skills-toolkit/) |
-
-## 📚 Currículos Técnicos Completos
-
-Programas sequenciais em espanhol, com estado e escopo declarados por cada repositório. Os 21 programas somam **14.530 aulas**, contadas por [um workflow](.github/workflows/stats.yml) sobre estrutura real ou fonte verificável declarada no repositório; a insígnia é atualizada semanalmente e não está escrita à mão.
-
-🧭 [**Lifelong Learning Ecosystem**](https://github.com/vladimiracunadev-create/lifelong-learning-ecosystem) é uma bússola federada que conecta 30 percursos reais em 6 áreas, com mapas visuais e um [portal offline acessível](https://vladimiracunadev-create.github.io/lifelong-learning-ecosystem/), sem ser contado como programa adicional.
-
-| Programa | Aulas | Alcance |
-|---|---:|---|
-| [🔢 **Matemática Computacional**](https://github.com/vladimiracunadev-create/computational-mathematics-program) | 360 | De contar nos dedos a reproduzir um paper · **360 demonstrações determinísticas verificadas em CI** · 1.080 notebooks · glossário de 489 termos · [site](https://vladimiracunadev-create.github.io/computational-mathematics-program/) |
-| [🏦 **Finanças e Banca**](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program) | 356 | 534 h · matemática financeira e IFRS → crédito, riscos, Basileia III, finanças abertas, DLT, stablecoins e MiCA · **27 casos** · **298 testes** · [site](https://vladimiracunadev-create.github.io/finance-and-banking-evolution-program/) |
-| [🎮 **GameDev**](https://github.com/vladimiracunadev-create/modern-gamedev-program) | 352 | Matemática e C#/C++/GDScript → shaders, IA, multiplayer, VR/AR · Godot · Unity · Unreal · **10 labs Godot verificados em CI** (301 checagens) · [site](https://vladimiracunadev-create.github.io/modern-gamedev-program/) |
-| [🛡️ **Cibersegurança**](https://github.com/vladimiracunadev-create/modern-cybersecurity-program) | 360 | **v1.3.0** · 20 partes · fundamentos → Red Team, DFIR, cloud security, exploit dev, CTF e game security · mapeado a **7 certificações** · app Android/web offline · manual PDF · CI, Security e Pages verificados · [site](https://vladimiracunadev-create.github.io/modern-cybersecurity-program/) |
-| [📈 **Marketing, Vendas e Crescimento**](https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program) | 336 | 24 partes com definições operacionais, fichas de medição, bibliografia verificável e contexto regulatório chileno · **v1.6.0** · 1,29 M palavras · 17 rotas por papel · [site](https://vladimiracunadev-create.github.io/marketing-sales-growth-evolution-program/) |
-| [🏢 **Criação de Empresas**](https://github.com/vladimiracunadev-create/modern-business-creation-program) | 336 | Criar e operar uma empresa real no Chile: da ideia à constituição, SII, operação, crise e saída · 360 diagramas · glossário de 1.251 termos · manual de 1.548 páginas · [site](https://vladimiracunadev-create.github.io/modern-business-creation-program/) |
-| [🏛️ **Arquitetura e Ambiente Construído**](https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program) | 830 | 83 partes · 60 sessões integradoras · 34 rotas · fontes rastreáveis · Markdown, leitor offline e GitHub Pages · [site](https://vladimiracunadev-create.github.io/architecture-built-environment-learning-program/) |
-| [🇨🇱 **Rota Escolar Chilena**](https://github.com/vladimiracunadev-create/chilean-school-learning-path) | 8.841 | Do 1º ano básico ao 4º ano médio · **4.156 experiências transversais integradas** · **2.823 objetivos de aprendizagem** · fontes MINEDUC · nenhuma proposta pendente e revisão humana especializada ainda pendente · [site](https://vladimiracunadev-create.github.io/chilean-school-learning-path/) |
-| [🧭 **Engenharia de software moderna**](https://github.com/vladimiracunadev-create/modern-software-engineering-program) | 480 | 40 partes e 8 etapas · fundamentos → produto, arquitetura, segurança, DevOps, SRE, SPEC, IA e sistemas multiagente · estado editorial declarado pelo repositório · [site](https://vladimiracunadev-create.github.io/modern-software-engineering-program/) |
-| [🎓 **Pedagogia e Ciências da Aprendizagem**](https://github.com/vladimiracunadev-create/education-pedagogy-learning-sciences-program) | 300 | De como uma pessoa aprende a como se forma quem ensina · 25 partes · **cada aula declara seu estado de evidência e limites** · alfabetização inicial, metodologias comparadas, necessidades educativas específicas, convivência, diversidade cultural e evidência internacional · glossário de 1.097 termos, 325 diagramas e banco de 60 atividades · 14 rotas de carreira · exportável a LMS · **v2.1.0** · [site](https://vladimiracunadev-create.github.io/education-pedagogy-learning-sciences-program/) |
-| [☁️ **Multi-Cloud**](https://github.com/vladimiracunadev-create/multi-cloud-engineering-program) | 288 | AWS · Azure · GCP · Kubernetes · Terraform · SRE · FinOps · **1.288 horas** · 288 labs com evidência JSON · 1.032 fontes rastreadas · manual PDF de 2.884 páginas · [site](https://vladimiracunadev-create.github.io/multi-cloud-engineering-program/) |
-| [🎖️ **Liderança Executiva**](https://github.com/vladimiracunadev-create/executive-leadership-founder-program) | 288 | De assumir seu primeiro resultado a dirigir uma empresa e fundar a própria: equipes, KPI/OKR, finanças, produto, risco, conselho e M&A · 24 casos, 96 labs e 39 modelos · [site](https://vladimiracunadev-create.github.io/executive-leadership-founder-program/) |
-| [🐍 **Python Data Science**](https://github.com/vladimiracunadev-create/python-data-science-program) | 232 | Polars, ML+Optuna/SHAP, PyTorch/LLMs/LoRA, MLOps · app Windows nativo + APK Android · [site](https://vladimiracunadev-create.github.io/python-data-science-program/) |
-| [🧠 **Evolução da IA**](https://github.com/vladimiracunadev-create/artificial-intelligence-evolution-program) | 184 | Simbólica → probabilística → deep learning → LLMs, RAG, agentes, segurança e fronteira · **v0.17.0** · **708 notebooks** · **148 papers fundacionais** · apps Windows, Android e PWA offline · [site](https://vladimiracunadev-create.github.io/artificial-intelligence-evolution-program/) |
-| [🌐 **Programação Comparada**](https://github.com/vladimiracunadev-create/polyglot-programming-labs) | 176 | Um conceito, **10 linguagens** verificadas em CI — **1.360 implementações** — mais **1.632 programas** em linguagens ainda vivas (COBOL, Fortran, Ada, RPG, MUMPS…) e atlas de **60 fichas em 15 famílias** · v1.1.0 · [site](https://vladimiracunadev-create.github.io/polyglot-programming-labs/) |
-| [🧩 **Frameworks Comparados**](https://github.com/vladimiracunadev-create/framework-ecosystems-labs) | 149 | Um contrato executável contra Express, FastAPI, Spring Boot, ASP.NET, Django, Rails, Laravel, React, Vue, Svelte e mais · 12 partes · **70 aulas construídas** · **397 casos verificados em CI** · **210 fontes** ISBN/DOI · [site](https://vladimiracunadev-create.github.io/framework-ecosystems-labs/) |
-| [🗄️ **Bancos de Dados**](https://github.com/vladimiracunadev-create/database-systems-labs) | 74 | **v3.0.0** · engenharia de bancos de dados em 15 partes · 230 horas · **fonte verificável de cada afirmação**: 120 fontes com ISBN, DOI ou norma · o mesmo caso resolvido em 27 motores · glossário de 306 termos · 150 pytest · [site](https://vladimiracunadev-create.github.io/database-systems-labs/) |
-| [📐 **Psicometria e Medição**](https://github.com/vladimiracunadev-create/psychometrics-and-assessment-program) | 40 | Como se constrói, pontua, valida e audita um instrumento de medição · 8 partes · motor executável com **5 instrumentos e 344 itens, 276 de domínio público** |
-| [⛓️ **Blockchain**](https://github.com/vladimiracunadev-create/blockchain-learning-path) | 66 | **v0.14.0** · do zero à infraestrutura financeira programável e analítica on-chain · **91 práticas** e **363 testes** · contratos com Foundry e análise estática Slither em CI · apps offline verificados abrindo o binário e contando seu conteúdo · [site](https://vladimiracunadev-create.github.io/blockchain-learning-path/) |
-| [🧠 **Neural Network Training Labs**](https://github.com/vladimiracunadev-create/neural-network-training-labs) | 31 | 7 módulos · ≈214 horas · **93 notebooks** —31 aulas, 31 versões para estudante e 31 soluções— · perguntas, mapas visuais, práticas e avaliação com dados públicos reais · PyTorch · [site de estudo](https://vladimiracunadev-create.github.io/neural-network-training-labs/) |
-| [🕹️ **Machine Operator**](https://github.com/vladimiracunadev-create/machine-operator-program) | 451 | **41 módulos formativos**, um por máquina · **502 h 15 min** · sistemas, comandos, física, segurança e desenho de simulação com fontes por aula · *ainda sem simulador executável, e isso é declarado* |
-
-## 🔬 Computação Científica
-
-| Repo | O que demonstra |
-|---|---|
-| [🧬 **Human Genome Labs**](https://github.com/vladimiracunadev-create/human-genome-labs) | Plataforma reproduzível de genômica: contratos tipados `ScientificResult<T>`, FASTA/GFF3/VCF, módulos com **maturidade e evidência explícitas**. Honestidade radical: *não realiza diagnóstico clínico* · [site](https://vladimiracunadev-create.github.io/human-genome-labs/) |
-
-## ⚡ Se Você Tem 10 Minutos Para Me Avaliar
-
-A ideia não é apenas olhar código: é ver **como penso**, como documento e como faço tudo ser executável.
-
-**Rota A — Observabilidade e orquestração real** *(minha favorita)*
-
-```bash
-git clone https://github.com/vladimiracunadev-create/social-bot-scheduler.git
-```
-
-Você verá workflows, métricas, dashboards e guardrails sobre 19 casos e 18+ motores de BD.
-
-**Rota B — Infraestrutura reproduzível em minutos**
-
-```bash
-git clone https://github.com/vladimiracunadev-create/docker-labs.git
-```
-
-**Rota C — Agentes com estado tipado**
-
-```bash
-git clone https://github.com/vladimiracunadev-create/langgraph-realworld.git
-```
-
-**Rota D — Produto forense em Rust, sem clonar**
-
-Baixe o instalador ou binário CLI em [releases do RootCause](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases) e verifique `SHA256SUMS`.
-
-## 🧠 Padrões Que Aplico Em Todos Os Repositórios
-
-- **DX primeiro** — se não roda fácil, não serve como demo nem como base de equipe.
-- **Observabilidade desde o dia 1** — métricas e rastreabilidade, não como remendo posterior.
-- **Segurança como pipeline** — secret scanning, SBOM por release, práticas proibidas declaradas.
-- **Resiliência real** — idempotência, circuit breaker e degradação controlada.
-- **Poliglota por desenho** — linguagem e motor escolhidos pelo caso de uso, nunca por moda.
-- **Honestidade sobre o estado** — um repo foi renomeado (`Multisimulador` → `machine-operator-program`) para não prometer software que ainda não existe.
-- **Badges são sinais, não evidência** — cada repo também declara **o que NÃO faz**.
-- **Do modelo para fora** — o domínio é desenhado primeiro; a interface é uma projeção.
-- **O que é externo é declarado** — dos 70 repositórios públicos da conta, 64 são obra própria. Os outros seis —[`agentic-qe`](https://github.com/vladimiracunadev-create/agentic-qe), [`Anthropic-Cybersecurity-Skills`](https://github.com/vladimiracunadev-create/Anthropic-Cybersecurity-Skills), [`erpnext`](https://github.com/vladimiracunadev-create/erpnext), [`OpenExecutive`](https://github.com/vladimiracunadev-create/OpenExecutive), [`raptor`](https://github.com/vladimiracunadev-create/raptor) e [`security-audit-skill`](https://github.com/vladimiracunadev-create/security-audit-skill)— são forks e ficam fora das métricas de obra própria.
-
-## ✅ Escopo Profissional
-
-Minha formação dupla —**Engenharia em Informática e Computação + Administração de Empresas**— permite traduzir objetivos de negócio em decisões técnicas e restrições técnicas em opções claras para operações, produto, clientes e direção.
-
-### 🎯 Identidade Principal
-
-| Papel | Respaldo |
-|---|---|
-| **Arquiteto de Soluções** | Desenho de sistemas modulares, escaláveis e com critério evolutivo |
-| **Arquiteto de Modernização de Legado** | Evolução real de legado (PHP 5.x→8.x, refatoração incremental sem interromper operação) |
-| **Senior Full-Stack / Tech Lead** | Arquitetura, execução e padrões em plataformas reais (+16 anos) |
-| **Arquiteto de Automação com IA** | Sistemas agentic com LangGraph/MCP e fluxos n8n com guardrails |
-
-### ↗ Expansão Natural
-
-**AI Orchestration Engineer** · **Systems / Rust Engineer** · **Mobile Engineer (Flutter)** · **Solutions Engineer** · **Technical Product Builder** · **Technical Trainer** · **Consultor de Transformação Digital** · **Business / Functional Analyst** · **Product Operations Técnico**
-
-### ⚙️ Escopo Complementar
-
-Platform Engineer / IDP · DevOps / CI-CD · Cloud / AWS Engineer · SRE de aplicações · Automation Engineer · Consultor técnico-comercial
-
-## 🧭 Gestão, Administração e Oportunidades Profissionais sem Programação
-
-Esta ampliação não afirma que todos estes cargos tenham sido exercidos. Prioriza funções em que informática, administração e evidência pública geram valor sem programação como tarefa central.
-
-| Família | Cargos reconhecíveis | Classificação honesta | Programação | Evidência e condição |
-|---|---|---|---|---|
-| **Direção tecnológica** | Head of IT · IT Operations Manager · Gerente de Transformação · CIO | **Possibilidade / objetivo futuro** | Nenhuma/ocasional | Base técnica forte; pessoas, orçamento, fornecedores e accountability executivo devem ser comprovados |
-| **Projetos** | Coordenador/Project Manager · PMO · Scrum Master · Agile Delivery | **Transferível / possibilidade** | Nenhuma/ocasional | Entrega e releases; faltam equipe, orçamento e sponsor formais |
-| **Administração** | Administrador · Gerência administrativa/operacional · Contratos | **Possibilidade** | Nenhuma | Formação e artefatos operacionais; ownership real de recursos e pessoas é brecha |
-| **Estratégia** | Consultoria · Change Manager · Planejamento · Inovação/Transformação | **Transferível / possibilidade** | Nenhuma | Modernização e avaliação de soluções; adoção organizacional deve ser demonstrada |
-| **Análise empresarial** | Business/Functional Analyst · Requisitos · BPM · Melhoria contínua | **Transferível / possibilidade** | Nenhuma/ocasional | Modelagem e documentação; casos com stakeholders externos fortaleceriam o perfil |
-| **Produto e serviço** | Product Owner/Manager · Product Operations · Service Delivery · Customer Success | **Transferível / possibilidade** | Nenhuma/ocasional | Roadmaps e ciclo de vida; P&L, carteira e SLA dependem do cargo |
-| **GRC e continuidade** | GRC · Auditor TI · Risco tecnológico · Segurança/Continuidade | **Possibilidade** | Nenhuma/ocasional | Controles e RootCause; auditorias organizacionais e credenciais não são declaradas |
-| **Comercial** | Pré-vendas · Solutions Consultant · KAM técnico · Business Development | **Transferível / possibilidade** | Nenhuma | Tradução de valor; quota, carteira e negociação contratual não são alegadas |
-| **Finanças e controle** | Orçamento/custos · Avaliação · FP&A · Controle de gestão | **Possibilidade** | Nenhuma | Finanças e FinOps; faltam orçamento e demonstrações reais |
-| **Qualidade** | Quality/Process Analyst · Auditor · Melhoria contínua | **Transferível / possibilidade** | Nenhuma/ocasional | Gates, testes e métricas; falta ownership formal de sistema de qualidade |
-| **Educação** | Instrutor · Facilitador · Coordenador acadêmico · EdTech/Design Instrucional | **Transferível / possibilidade** | Nenhuma/ocasional | 21 programas e 14.530 aulas; docência formal deve ser comprovada separadamente |
-| **Logística** | Compras · Abastecimento · Fornecedores · Coordenação operacional | **Possibilidade** | Nenhuma | Base de processos; compras, inventário e fornecedores reais são brechas |
-| **Dados e IA** | Data Steward · Data Governance · Adoção/Governança de IA | **Transferível / possibilidade** | Nenhuma/ocasional | Datasets auditáveis e gates humanos; políticas e comitês organizacionais são brecha |
-| **Setor público** | Modernização · Coordenador TIC · Projetos digitais · Planejamento público | **Possibilidade** | Nenhuma | Contexto chileno e rastreabilidade; compras públicas e experiência setorial não são alegadas |
-
-A [matriz completa em espanhol](PROFESIONAL_ROLES.md) detalha objetivos, responsabilidades, experiência de mercado, conhecimentos complementares, evidências, compatibilidade e brechas das 14 famílias.
-
-## 🤖 Fluxo De Desenvolvimento Assistido Por IA
-
-| Ferramenta | Uso principal |
-|---|---|
-| **Claude Code** | Revisão arquitetônica, implementação e documentação técnica |
-| **ChatGPT Plus** | Análise, arquitetura e iteração (desde 2023) |
-| **Codex** | Geração e refatoração de código |
-| **Antigravity** | Aceleração de fluxos de desenvolvimento e automação |
-| **VS Code / OpenCode** | Ambientes com assistência IA integrada |
-
-> Combino critério técnico próprio, validação humana e direção arquitetônica. A IA amplia capacidade, velocidade e alcance — não substitui experiência.
-
-## 📌 Disponibilidade
-
-**Aberto a:** Senior Full-Stack · Arquitetura · Modernização de legado · Platform/IDP · SRE · DevOps · Automação · AI Automation · análise de negócio/funcional · coordenação de projetos TI · Product Operations · transformação digital · pré-vendas/soluções · educação tecnológica · qualidade · adoção e governança de IA
-
-**Avaliado conforme o escopo:** Product Owner/Manager técnico · Service Delivery · Operações TI · GRC/risco · administração/operações · controle de gestão · modernização pública. Gerência e direção são objetivos futuros, não experiência declarada.
-
-**Modalidade:** remoto ou híbrido, conforme o projeto.
-
-## 📬 Contato
-
-[![Web](https://img.shields.io/badge/Web-vladimiracunadev--create.github.io-0366d6?style=flat-square)](https://vladimiracunadev-create.github.io/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Vladimir_Acuña-0a66c2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29/)
-[![GitLab](https://img.shields.io/badge/GitLab-vladimir.acuna.dev-fc6d26?style=flat-square&logo=gitlab)](https://gitlab.com/vladimir.acuna.dev-group/vladimir.acuna.dev-group)
-[![Email](https://img.shields.io/badge/Email-vladimir.acuna.dev@gmail.com-c14438?style=flat-square&logo=gmail&logoColor=white)](mailto:vladimir.acuna.dev@gmail.com)
-
----
-
-<div align="center">
-
-[🤝 Contribuir](CONTRIBUTING.pt.md) ·
-[🛡️ Segurança](SECURITY.pt.md) ·
-[⚖️ Código de conduta](CODE_OF_CONDUCT.pt.md)
-
-<sub>README sincronizado com o estado verificável dos repositórios públicos —números e mudanças lidos por API— · última verificação: 12 de outubro de 2026.</sub>
-
-</div>
+> Idioma solicitado: `pt` · Contenido faltante: fallback por clave a español.
+
+Vistas disponibles: `recruiter`, `normal`, `deep` y `freelance`.
+
+## Arquitetura, modernização, automação e IA aplicada a projetos reais.
+
+<!-- portfolio-section:hero -->
+
+Arquiteto de Soluções · Full-Stack Sênior · Líder Tecnológico . 16+ anos liderando a evolução de plataformas. Especializado em modernização de sistemas legados , automação de processos , cloud & CI/CD e integração de IA aplicada .
+
+Fluxo de desenvolvimento assistido por IA — ChatGPT Plus · Claude Code · Antigravity — com critério técnico próprio e validação humana.
+
+Interface preparada para múltiplos idiomas , vistas Recrutador / Normal / Profundo / Freelance , tema claro / escuro e implantação web, PWA e APK .
+
+Informações do portfólio atualizadas até 2026-10-25, 13:28 (America/Santiago).
+
+### Quem sou profissionalmente
+
+Sou Arquiteto de Soluções e Desenvolvedor Sênior Full-Stack com base em engenharia, operação real e modernização progressiva. Meu trabalho está no cruzamento entre sistemas legados, automação, cloud/CI-CD, observabilidade e IA aplicada com critério técnico próprio.
+
+Tenho facilidade para organizar contextos complexos, estabilizar operações, traduzir requisitos em decisões técnicas e construir entregáveis sustentáveis. Não trabalho com frases genéricas: prefiro levantar restrições, riscos, responsáveis e próximos passos concretos.
+
+### Meu Padrão Industrial
+
+- Observabilidade: Dashboards no Grafana para eliminar caixas pretas.
+
+- Resiliência: Circuit breakers e idempotência (Guardrails).
+
+- Cloud & FinOps: 15 casos AWS (ECS/EKS, Lambda, DynamoDB, Cognito, EventBridge, CloudWatch/X-Ray), OIDC e FinOps.
+
+- Developer Experience: Hub CLI, testes `doctor` e `smoke`, DevContainers.
+
+- Segurança: gitleaks, tfsec, pre-commit hooks, IAM least privilege e secret scanning.
+
+- Serverless & Event-Driven: Lambda/SAM, DynamoDB, EventBridge, SQS/SNS e Cognito.
+
+### Se você é recrutador
+
+Identidade principal:
+
+Pontos fortes: modernização legacy · automação · cloud/CI-CD · IA aplicada · colaboração distribuída.
+
+Também posso assumir funções de Líder Tecnológico / Tech Lead em equipes que precisam estruturar sua arquitetura, modernizar sistemas existentes, definir padrões técnicos e conectar negócios com desenvolvimento.
+
+- Baixe o CV ou portfólio no seu idioma.
+
+- Revise as conquistas resumidas e a validação externa.
+
+- Abra README ou RECRUITER.md nos repositórios principais.
+
+### Como aparece nos meus Repositórios
+
+Demos reproduzíveis, IaC (Terraform), CI/CD no GitHub e GitLab, serverless (Lambda/SAM), event-driven (EventBridge/SQS/SNS), segurança (gitleaks/tfsec/OIDC) e documentação por perfil. 15 casos AWS validados em monorepo GitLab.
+
+[Vamos conversar](https://vladimiracunadev-create.github.io/#contacto)
+
+[Ver produtos](https://vladimiracunadev-create.github.io/#productos)
+
+[Auditoria de código IA](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/)
+
+[Ver projetos](https://vladimiracunadev-create.github.io/#proyectos)
+
+[Ver demos](https://vladimiracunadev-create.github.io/#demos)
+
+[Ver documentos](https://vladimiracunadev-create.github.io/#descargas)
+
+[Ver validação](https://vladimiracunadev-create.github.io/#referencias)
+
+[Ver escopo](https://vladimiracunadev-create.github.io/#roles)
+
+## Resultados verificables
+
+<!-- portfolio-section:resultados -->
+
+melhoria estimada em processos críticos e relatórios
+
+menos fricção operacional e suporte no Batería Online
+
+otimização aproximada em componentes de BD/código
+
+frentes simultâneos atendidos em certos períodos
+
+## Pilares Técnicos Consolidados
+
+<!-- portfolio-section:evolucion -->
+
+Padrões industriais aplicados de forma transversal em todo o ecossistema verificável: 14 casos AWS, 25 backends LangGraph operacionais (cobertura 100%), 12 labs Docker, 12 microssistemas e 60 casos operacionais em Problem Driven Systems Lab (12 × 5 stacks) — todos com observabilidade, hardening e reprodutibilidade.
+
+### 📈 Observabilidade Industrial
+
+Prometheus + Grafana em Docker Labs, Social Bot e Problem-Driven (portas 9091/3001). LangGraph v4.15 expõe `/health` , `/ready` , `/metrics` e LangSmith opt-in. Caso O AWS implementa X-Ray distribuído.
+
+### 🛡️ Security Hardening
+
+Auditoria 8 camadas no LangGraph (non-root, 127.0.0.1, grype `fail-build` , nginx TLS, detect-secrets, Trojan Source, pip-compile, Dependabot). Microsistemas v3.x: Hardening 3 fases + SBOM por release. Trivy no Social Bot v4.3. TruffleHog + detect-secrets nos projetos AWS.
+
+### ♻️ Resiliência & Continuidade
+
+Idempotência, Circuit Breakers e desvio controlado (DLQ) para falhas de terceiros. Polyglot persistence no Social Bot v4.3 (9 linguagens × 12+ DBs) com runtime isolation. Streaming + DEMO/LIVE + checkpoints SQLite no LangGraph para tolerância a falhas LLM.
+
+### 🛠️ DX & Reprodutibilidade
+
+Hub CLI multi-OS e Windows Installer assinado no Docker Labs v1.5. Tests `doctor` e `smoke` , Makefile operacional e validações por caso. CI/CD hardened no GitHub Actions com OIDC e matrix builds. Skills do Claude Code para fluxos repetíveis.
+
+### ☁️ Cloud Profissional · GenAI
+
+14/15 casos AWS concluídos (incluindo GenAI com Bedrock + Claude Haiku 4.5 + Lambda). Infraestrutura imutável (Terraform), segurança OIDC e FinOps. Cobertura por certificação: ~68% SAA-C03, ~68% DVA-C02, ~50% SOA-C02. EKS v1.32 + ECS Fargate.
+
+### 🤖 IA Agêntica & Local-First
+
+LangGraph v4.15: 25/25 backends operacionais (cobertura 100%) com estado tipado e rotas condicionais. MCP + Ollama Local com Security & Trust Profile (Bandit + pip-audit) e blueprint AWS migration. ChofyAI Studio v0.5.1 (macOS Apple Silicon + suporte experimental Windows + NVIDIA GPU): Qwen3-TTS, whisper.cpp, FaceFusion, AceForge — IA local sem nuvem, pnpm + SHA-512 lockfile.
+
+## Auditoria de código gerado por IA
+
+<!-- portfolio-section:auditoria-ia -->
+
+Nova linha profissional: verificar, auditar e recuperar software criado com inteligência artificial.
+
+A lacuna de verificação surge quando a IA produz código mais rápido do que uma equipe consegue compreender, testar e validar. O resultado parece terminado, mesmo contendo erros, vulnerabilidades, dívida técnica ou funcionalidades simuladas.
+
+Não se trata apenas de revisar código. Trata-se de recuperar o controle técnico do produto.
+
+[Ver o serviço completo](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/)
+
+[Solicitar diagnóstico técnico](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/#contacto)
+
+## Produtos para download
+
+<!-- portfolio-section:productos -->
+
+Produtos finalizados com instalador assinado (.exe), bundle portátil (.zip) ou app móvel (.apk). Cada um inclui landing page própria quando aplicável, releases versionados no GitHub e verificação SHA-256 quando aplicável.
+
+### RootCause · Windows Inspector
+
+Software forense de cibersegurança para Windows escrito em Rust (edition 2024) — complementa o antivírus/EDR com telemetria zero. Descobre qual processo, serviço, pasta, conexão ou trace ETL degrada a máquina (disco 100%, crescimento anormal de %TEMP%, lentidão, alto consumo de RAM, rede sem explicação). 5 edições: GUI Desktop (Setup.exe), Portátil .zip, CLI single-binary (rootcause.exe), CLI Portátil, módulo PowerShell e extensão VS Code. ETW · WPR · alto desempenho. Diagnóstico primeiro, intervenção depois.
+
+### Automa · PC Orchestrator
+
+Orquestrador local de ações efetivas sobre Windows. 27 flows declarativos JSON (inclui extração e vigilância web com evidência SHA-256) · Playwright + pywebview + PyInstaller · 150 testes pytest · instalador assinado.
+
+### Python Data Science Program
+
+Programa de 232 aulas em 9 partes (Python aplicado, ML, DL, MLOps, engenharia de dados, ética, capstones). App Windows nativo (PySide6 + Qt + Jupyter), portátil, app Android e curso PDF/PPTX.
+
+### ChofyAI Studio
+
+Lançador de desktop para IA local. Orquestra 5 ferramentas: Qwen3-TTS, whisper.cpp, FaceFusion, AceForge e ComfyUI. Tauri 2 + Rust + React. Validado em macOS Apple Silicon; suporte experimental Windows + CUDA. 5/5 inferência real.
+
+### Docker Labs · Control Center
+
+Laboratório pessoal de containers Docker/Compose em múltiplos stacks (PHP, Node.js, Python, BDs, DevOps). Hub CLI multi-OS e Windows Installer assinado, doctor/smoke tests.
+
+### Microsistemas · Productivity Suite
+
+12 microapps web autocontidos para tarefas recorrentes: desenvolvimento, manutenção, diagnóstico e modernização legacy. 195 katas em 67 tecnologias. Hardening 3 fases + SBOM por release.
+
+### Unikernel Control Center
+
+Suite profissional para operar serviços Unikraft no Windows com backend WSL2. Controle total via Dashboard Node.js e Launcher WinForms em localhost. Arquitetura de alto desempenho e orquestração unikernel.
+
+### GabySQL · Embedded DB + Modeler
+
+Banco de dados embarcado em Rust (arquivo único .db, WAL, cost-based optimizer, SAVEPOINT/ROLLBACK, 828 testes, fuzzing 503.8M queries) + GabyModeler GUI desktop. Builds para Windows, macOS arm64 e Linux x86_64.
+
+[Landing](https://vladimiracunadev-create.github.io/rootcause-windows-inspector/)
+
+[Setup .exe](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest/download/RootCause-Setup.exe)
+
+[Portátil .zip](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest/download/RootCause-Portable.zip)
+
+[CLI Portable .zip](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest/download/RootCause-CLI-Portable.zip)
+
+[VS Code .vsix](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest/download/RootCause-VSCode-Extension.vsix)
+
+[Todas as edições](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest)
+
+[GitHub](https://github.com/vladimiracunadev-create/rootcause-windows-inspector)
+
+[Landing](https://vladimiracunadev-create.github.io/automa-pc/)
+
+[Baixar .exe](https://github.com/vladimiracunadev-create/automa-pc/releases/latest/download/Automa-Setup-v0.3.0.exe)
+
+[GitHub](https://github.com/vladimiracunadev-create/automa-pc)
+
+[Landing](https://vladimiracunadev-create.github.io/python-data-science-program/)
+
+[.exe](https://github.com/vladimiracunadev-create/python-data-science-program/releases/latest/download/PythonDSProgram_Setup_v3.8.0.exe)
+
+[.zip](https://github.com/vladimiracunadev-create/python-data-science-program/releases/latest/download/PythonDSProgram_windows_portable_v3.8.0.zip)
+
+[.apk](https://github.com/vladimiracunadev-create/python-data-science-program/releases/latest/download/PythonDSProgram_android_v3.8.0_debug.apk)
+
+[GitHub](https://github.com/vladimiracunadev-create/python-data-science-program)
+
+[Landing](https://vladimiracunadev-create.github.io/chofyai-studio/)
+
+[GitHub](https://github.com/vladimiracunadev-create/chofyai-studio)
+
+[Baixar .exe](https://github.com/vladimiracunadev-create/docker-labs/releases/latest/download/docker-labs-setup-1.5.0.exe)
+
+[Release v1.5.0](https://github.com/vladimiracunadev-create/docker-labs/releases/latest)
+
+[GitHub](https://github.com/vladimiracunadev-create/docker-labs)
+
+[Baixar .zip](https://github.com/vladimiracunadev-create/microsistemas/releases/latest/download/microsistemas-v1.1.0.zip)
+
+[Release v1.1.0](https://github.com/vladimiracunadev-create/microsistemas/releases/latest)
+
+[GitHub](https://github.com/vladimiracunadev-create/microsistemas)
+
+[Baixar .exe](https://github.com/vladimiracunadev-create/unikernel-labs/releases/latest/download/UnikernelLabs.Launcher.exe)
+
+[Release v2.0.0](https://github.com/vladimiracunadev-create/unikernel-labs/releases/latest)
+
+[GitHub](https://github.com/vladimiracunadev-create/unikernel-labs)
+
+[Modeler .exe](https://github.com/vladimiracunadev-create/gabysql/releases/latest/download/gabymodeler_0.1.0_x64-setup.exe)
+
+[Engine .zip (Win)](https://github.com/vladimiracunadev-create/gabysql/releases/download/v0.2.0/gabysql-v0.2.0-windows-x86_64.zip)
+
+[Todas as releases](https://github.com/vladimiracunadev-create/gabysql/releases)
+
+[GitHub](https://github.com/vladimiracunadev-create/gabysql)
+
+## Projetos em destaque
+
+<!-- portfolio-section:proyectos -->
+
+Seleção com foco em modernização, produtividade, automação e demos verificáveis.
+
+### Bateria Online (Fundação CEIS)
+
+Suite psicométrica web de grande escala: evolução/suporte e modernização progressiva, otimização SQL Server, relatórios PDF/Excel e continuidade operacional.
+
+Por confidencialidade, não publico repositórios/código do produto institucional. Validação via referência profissional.
+
+### Produtos com distribuição real
+
+### RootCause · Windows Inspector
+
+Software forense de cibersegurança para Windows 10/11 escrito em Rust: detecta distorções anômalas de CPU, disco, rede, processos, inicialização automática e serviços contra baselines conhecidas, correlaciona sinais em incidentes (SQLite) e explica a causa raiz com evidência. 5 modalidades em produção (GUI Fluent bilíngue ES/EN, CLI, módulo PowerShell com 9 cmdlets, extensão VS Code, tray icon) e distribuição via Scoop · Winget · Chocolatey. Complementa o antivírus/EDR. Telemetria: zero.
+
+### RootCause · Mobile Inspector
+
+Sensor forense de diagnóstico para Android e iOS construído em Flutter (coletores nativos Kotlin/Swift). Motor de regras local que detecta distorções anômalas de memória, armazenamento, bateria e superfície de permissões, com semáforo de severidade, histórico de até 500 capturas, detecção de stalkerware ativo e evidência forense em JSON e PDF (5 idiomas). APK v0.8.0 assinado em Releases. Sem permissão INTERNET: telemetria zero, verificada em cada build.
+
+### Rootcause Web Inspector · Projeto
+
+RootCause Web Inspector v0.2.0 — sensor forense da superfície do navegador: cookies, sessões de e-mail, extensões, downloads e permissões de site. Painel local em 127.0.0.1, extensão MV3, ZERO dependências e zero telemetria verificada em CI. Irmão das edições Windows (Rust) e Mobile (Flutter)
+
+### Universal Code Scanner · Projeto
+
+Universal Code Scanner v1.1.0 — Leitor Flutter de códigos QR e de barras que interpreta antes de agir: 16 sinais de risco locais por URL, confirmação explícita, histórico e inventário cifrados com AES-256-GCM. Estado do escaneamento sempre visível e tom próprio de leitura. Android · iOS · macOS · PWA. Telemetria zero
+
+### GabySQL
+
+Banco de dados embarcado escrito em Rust do zero como projeto de pesquisa: arquivo único .db com WAL, SQL relacional completo (CTEs, window functions, triggers, PL/pgSQL, Row-Level Security), otimizador cost-based com EXPLAIN ANALYZE, API HTTP/JSON com transações cross-request e 828 testes verdes em 3 sistemas operacionais. Fuzz do parser: 503.8M queries, 0 panics.
+
+### Automa · PC Orchestrator
+
+Orquestrador local v0.3.0 de ações efetivas sobre Windows: 27 flows operacionais declarativos em JSON que abrem janelas reais, interagem com DOM, capturam evidências e vigiam a web (crawl BFS, detector de mudanças e monitoramento de valores com evidência SHA-256). Painel local em 127.0.0.1 (pywebview + PyInstaller) com scheduler cron e lock SQLite. Stack Python 3.10+, Playwright (headless/visible), OCR/visão, uv packaging, 150 testes pytest, instalador Windows assinado.
+
+### ChofyAI Studio · IA Local macOS
+
+Launcher de desktop v0.5.1 que orquestra 5 ferramentas de IA local (Qwen3-TTS, whisper.cpp, FaceFusion, AceForge, ComfyUI) com instalação reprodutível, controle real de processos e 5/5 em inferência real. Validado em macOS Apple Silicon; suporte experimental Windows + CUDA. Tauri 2 + Rust + React. Privacidade total sem dependências cloud.
+
+### Rhino Suite · Escritório
+
+Suíte de escritório web e desktop construída do zero (v0.7.0, Fase 2.5): editor de documentos com modelo estruturado (JSON schema v5), motor Rust compilado para WebAssembly + motor TypeScript compatível, interface React 19, API Go com contas e compartilhamento, e intercâmbio DOCX/ODT com leitor/escritor próprio sem dependências externas.
+
+### Guitarra Adventure · Projeto
+
+Mi Aventura con la Guitarra · App educativa para aprender guitarra desde los 10 años · 24 lecciones en 6 mundos, afinador de 6 cuerdas, metrónomo sin deriva y 11 notas grabadas de guitarra real · Tauri 2 + React + TypeScript · Windows, Android, Linux, macOS, iOS y PWA · Sin publicidad, sin cuentas, offline · v1.0.0 con instaladores en Releases
+
+### Agentic Plugins Toolkit · Projeto
+
+agentic-plugins-toolkit · 6 plugins agénticos para Claude Code, OpenAI/Codex, Copilot, Gemini y MCP · repository-engineering · legacy-modernization · learning-program-studio · product-evolution · portfolio-governance · rootcause-response · 69 vistas generadas sin drift · Zero-deps
+
+### Operational Ai Agents · Projeto
+
+operational-ai-agents · 13 agentes para Claude Code · repository-evolution · legacy-modernization · curriculum-evolution · portfolio-publication · security-remediation · incident-root-cause · professional-profile · Contrato + gates humanos + evidencia verificable · 39 evals deterministas · Zero-deps · Cross-platform
+
+### Empresa Operativa Chile · Projeto
+
+v1.5.0 · Crear, operar y controlar una empresa chilena a través del tiempo: constitución con evidencia, capital y CPT, patente municipal con su base legal, IVA/PPM, F29, cierre anual inmutable y auditoría. Guía, manual y glosario dentro de la app. Android, Windows y navegador. Reglas con fuente oficial. Cero telemetría. 🇨🇱
+
+### Rootcause Macos Inspector · Projeto
+
+RootCause macOS Inspector v0.1.0 — sensor forense de ciberseguridad para macOS (Rust): persistencia launchd, Gatekeeper, SIP, FileVault, XProtect, permisos TCC, procesos con firma y vecinos de red. Compara cada superficie con un estado bueno conocido y explica qué cambió, con evidencia. Telemetría: cero. Hermano de Windows, Web y Mobile
+
+### Codex Skills Toolkit · Projeto
+
+codex-skills-toolkit · 19 Agent Skills para Codex · seguridad y supply chain · preflight y flujos funcionales · resiliencia y estado · evidencia de release · Python-first · pnpm · Cross-platform
+
+### Rootcause Qr Inspector · Projeto
+
+rootcause-qr-inspector · 26 señales locales y 107 pruebas · cámara, imágenes y PDF · evidencia redactada · Flutter/Dart · local-first y telemetría cero · APK Android v0.1.4 publicado
+
+### Pdf Reader Windows Android · Projeto
+
+PDF Reader v0.3.3 · leitor de PDF local, somente leitura e Android-first · ações contínuas, áreas seguras, miniaturas limitadas e histórico reabrível · Android 7+, Windows e Web · sem contas, permissões sensíveis ou telemetria · APK assinado
+
+### Rootcause Server · Projeto
+
+RootCause Server v0.2.0 — plano de control en Rust que defiende servidores y la red que los rodea: superficie expuesta, ráfagas de autenticación, acceso concedido tras la ráfaga, integridad de archivos críticos y silencio del sensor. 18 reglas con evidencia y runbook — nunca ejecuta nada. Consola local sin dependencias web
+
+### Aws Desktop Studio · Projeto
+
+AWS Desktop Studio · 15 integraciones de inventario + 20 tutoriales · AWS CLI, Electron y localhost · Implementación en desarrollo; no acceso universal · Windows
+
+### Ai Dataset Foundry · Projeto
+
+AI Dataset Foundry v0.2.0 — factoría local-first para convertir PDF, Word, web, Git, JSON y CSV en datasets auditables para pretraining, fine-tuning, RAG y evaluación · Windows + Android offline
+
+### Rootcause Blockchain Security · Projeto
+
+Laboratorio profesional watch-only de blockchain forensics y root cause analysis para Bitcoin, Ethereum y Polygon: TX, direcciones, reconciliación, grafos, timelines e informes con evidencia verificable. CLI + API local, cero dependencias, nunca claves privadas
+
+### Rootcause Bitcoin Defense · Projeto
+
+₿ RootCause Bitcoin Defense v0.3.0 — defensa watch-only y laboratorio forense UTXO: inputs, outputs, fees, change, procedencia, grafo de transacciones y reconciliación contable en regtest. App local, cero dependencias, nunca pide semillas ni usa fondos reales. Verificado en CI
+
+### Decentraland Social Arcade · Projeto
+
+decentraland-social-arcade · Experiencia 3D social nativa de Decentraland · 1 MVP y arquitectura multijuego · SDK7 + ECS + TypeScript · documentación en español · sin pagos ni telemetría
+
+### Commerce Operating System · Projeto
+
+Commerce OS v0.3.0 · demo conceptual guiada en 6 pestañas: catálogo, stock, CRM, pedidos, pagos mock y trazabilidad · Web, Windows y Android · Sin dinero ni SII real
+
+### Panuelo Al Viento Cueca App · Projeto
+
+Pañuelo al Viento · Academia interactiva de cueca desde los 10 años · 24 clases, Dojo con huellas y espejo, Pañuelo Lab, Escenario guiado y progreso por habilidades · Flutter local-first · Android + Windows · v0.2.0
+
+### Video Transcript Studio · Projeto
+
+Un video, una lista o un CANAL COMPLETO de YouTube → texto con marcas de tiempo. Whisper 100% local: sin API, sin cuenta, sin telemetría. Asistente de 4 etapas en escritorio Windows + panel local en 127.0.0.1 + CLI, con la misma cola. MD, PDF, TXT, SRT, VTT, JSON, MP3, OGG. FFmpeg incluido. Modo oscuro. 89 tests. 🇪🇸
+
+### Lifelong Learning Ecosystem · Projeto
+
+Bússola federada que conecta 30 percursos reais em 6 áreas, com mapas visuais e um portal offline acessível; não é contada como programa adicional.
+
+### Laboratórios de engenharia
+
+### Docker Labs · Infra Hub
+
+Laboratórios por stack com foco "levanta em 60s". Inclui dashboard local, Compose, stacks reais e rotas práticas de observabilidade com Prometheus/Grafana.
+
+- Dashboards locais para explorar métricas de contêineres.
+
+- Manifestos preparados para Kubernetes (K8s) e observabilidade.
+
+### Cloud Portfolio · AWS & FinOps
+
+16 casos AWS (A–P) — todos concluídos, incluindo o Caso P (Strands Agents) implantado e validado na AWS, o GenAI Caso I (Bedrock + Claude Haiku 4.5 + Lambda + xray-sdk) e o Caso O (X-Ray distribuído); apenas as Fases 2–3 do Caso M (Multi-Região · Global Accelerator) ficam no backlog. Stack: Terraform, OIDC, S3/Amplify/CloudFront, Lambda/SAM, DynamoDB, Cognito/WAF, EventBridge/SQS/SNS, CloudWatch, ECS Fargate, EKS v1.32, FinOps. Segurança com TruffleHog + detect-secrets + gitleaks + tfsec. Cobertura ~68% SAA-C03 / ~68% DVA-C02 / ~50% SOA-C02.
+
+### Microssistemas · Productivity Suite
+
+Suite modular para diagnóstico e modernização. Inclui Hub CLI, Makefile operacional, validações doctor/smoke e utilitários para reduzir fricção na manutenção real.
+
+- Conversor de acentos, visualizador SQL seguro e visualizador de logs industrial.
+
+- Migrador parcial PHP 8.x e gerador de manifestos.
+
+- Orientado a reduzir fricção e melhorar a DX da equipa.
+
+### Social Bot Scheduler · Orquestração
+
+Laboratório poliglota de integração v4.9.1: 19 casos operacionais Origem → n8n → Receptor sobre 18+ motores de BD (SQL, NoSQL, grafos, vetorial, séries temporais, streaming), auditados end-to-end com Docker. Guardrails de resiliência (idempotência, circuit breaker, DLQ), 11 padrões arquiteturais e master dashboard com estado ao vivo.
+
+### Problem Driven Systems Lab
+
+12 desafios de engenharia × 7 stacks = 84 casos operacionais (PHP 8 · Python · Node.js · Java 21 · .NET 8 · Go · Rust) com Dashboards Interativos por caso (UI nativa para diagnóstico visual + métricas em tempo real). Padrões Adapter, Strangler, Circuit Breaker, LRU e Cancellation. Plano AWS_MIGRATION.md (ECS Fargate · Lambda · EKS) com cost estimates e mapping explícito a SECURITY.md.
+
+### WSL Labs · Container Center
+
+Centro de controle de contêineres para Windows sobre wslc, o motor de contêineres nativo do WSL (v0.4.1) — sem Docker Desktop. Painel web Node.js (:9092) para construir, subir e monitorar contêineres, launcher Windows em Go (.exe) e 12 casos reais portados de docker-labs com imagem e RAM medidas. containers.config.json como fonte única da verdade.
+
+### Unikernel Labs · Centro de Controlo
+
+Unikernel Control Center v2.0.0 · Suite tipo "Docker Desktop para unikernels": opera serviços Unikraft no Windows sobre WSL2 com kraft + QEMU/KVM. Dashboard Node.js com health em tempo real (localhost:9091), Launcher WinForms (.NET), instalador .exe e API local endurecida (anti DNS-rebinding, CSRF e path traversal).
+
+### Sandbox Labs · Projeto
+
+Laboratório de isolamento em Linux: executa código, arquivos e modelos de negócio de terceiros sob políticas declaradas e emite evidência assinada de quais controles foram realmente aplicados na sua máquina. 36 casos em duas famílias — sandboxes técnicos e mercado de capitais com dinheiro simulado. Experimental e educativo, não um produto de segurança
+
+### Universal Payments Engineering Lab · Projeto
+
+Laboratorio autoexplicativo de ingeniería de pagos: 28 familias, DEMO local, estados, ledger, conciliación, seguridad y guías de implementación
+
+### Qemu Kvm Labs · Projeto
+
+qemu-kvm-labs · 12 labs de virtualización real · QEMU, KVM, libvirt, cloud-init y vm-manager · Linux + WSL2
+
+### Database Systems Labs · Projeto
+
+Programa abierto de ingeniería de bases de datos · 74 clases en 15 partes · 230 h · Del modelado conceptual a la arquitectura distribuida, la operación y la recuperación para IA · 120 fuentes con ISBN, DOI o norma citadas clase a clase y verificadas en CI · Glosario de 306 términos · El mismo caso resuelto en 27 motores
+
+### Framework Ecosystems Labs · Projeto
+
+Laboratorio de clases comparadas: el mismo contrato ejecutable, sin adaptadores, contra Express, FastAPI, Spring Boot, ASP.NET, Django, Rails, Laravel, React, Vue, Svelte y más. 149 clases en 12 partes (70 construidas, 397 casos verificados en CI) · 210 fuentes con ISBN/DOI · seguridad, datos, interfaz
+
+### IA aplicada
+
+### LangGraph · Agentic Resilience
+
+LangGraph v4.15.0 · 25/25 backends operacionais (cobertura 100%, casos 01–25): streaming NDJSON, DEMO/LIVE, OAuth2 opt-in, observabilidade LangSmith, /metrics, 8 camadas de segurança, cadeia de custódia SHA-256, Docker por caso e CI/CD hardened.
+
+### MCP Ollama Local
+
+Web local (FastAPI) + Ollama + ferramentas via MCP e persistência em SQLite. Privacidade total (localhost), ferramentas seguras e documentação para onboarding técnico e recrutamento.
+
+### Claude Skills Toolkit
+
+15 skills agênticos para Claude Code (v0.2.0): security-audit (12 camadas — OSV/KEV/EPSS/SAST/secrets/container/typosquat…), python-lint-guard (paridade local↔CI), python-deps-pinning, version-bump, md-to-doc, yaml-control, md-lint-fix, docker-cleanup, docker-compose-doctor, pre-push-guard, web-snap e mais. Zero-deps por padrão e multiplataforma (Linux/macOS/Windows).
+
+### Neural Network Training Labs · Projeto
+
+Neural Network Training Labs v1.0 · 31 trilhas (25 labs + 6 especializações) · 93 notebooks · Ciclo completo de engenharia de IA com datasets públicos reais: selagem de teste, registro champion/challenger, API de inferência, ONNX/INT8/edge, DDP/FSDP2 e cadeia de suprimentos (SBOM/SHA-256). PyTorch · Python 3.11–3.13
+
+### Currículos técnicos completos
+
+### Computational Mathematics Program · Projeto
+
+Matemática computacional em espanhol · 18 partes · 360 aulas em 5 etapas: de contar nos dedos a reproduzir um paper · 360 demonstrações determinísticas verificadas em CI · sem dependências para aprender · 1080 notebooks · 489 termos de glossário · manual completo em PDF
+
+### Modern GameDev Program
+
+O programa de desenvolvimento de jogos mais completo em espanhol — 352 aulas em 22 partes, de fundamentos a nível profissional. Matemática, C#/C++/GDScript, padrões e ECS; 10 laboratórios Godot verificados em CI e abordagem agnóstica de motor: Godot 4 · Unity · Unreal.
+
+### Modern Cybersecurity Program
+
+O programa de cibersegurança mais completo em espanhol — 360 aulas em 20 partes, de fundamentos a nível experto. Laboratórios Docker levantados por comando, desafios CTF com writeups, autoavaliações, guias PDF/PPTX e mapeamento para 7 certificações (Security+, PenTest+, CySA+, OSCP, CISSP, BTL1, SANS) com 86–92% de cobertura.
+
+### Multi Cloud Engineering Program · Projeto
+
+Multi-Cloud Engineering Program v2.2.0 · 288 aulas em 24 partes · 1.288 horas · O programa de engenharia multi-cloud mais completo em espanhol: AWS, Azure, GCP, Kubernetes, Terraform, SRE, FinOps e arquitetura de sistemas · Manual PDF de 1.220 páginas, 288 labs determinísticos com evidência JSON, CLI com certificado e portal PWA.
+
+### Finance And Banking Evolution Program · Projeto
+
+Programa aberto de 356 aulas em 23 partes · 534 h · De calcular uma porcentagem a construir e defender um banco digital: matemática financeira, contabilidade IFRS, crédito, riscos, Basileia III, compliance, finanças abertas, pagamentos transfronteiriços, DLT, stablecoins, tokenização e MiCA · 26 casos e fontes oficiais verificáveis em cada aula
+
+### Modern Business Creation Program · Projeto
+
+Programa de 24 partes e 336 aulas para criar e operar uma empresa real no Chile: da ideia à constituição, o SII, a operação, a crise e a saída. Com 360 diagramas, glossário de 1.251 termos e manual de 1.541 páginas em PDF
+
+### Executive Leadership Founder Program · Projeto
+
+Programa executivo aberto de 288 aulas em 24 partes · 720 h · De assumir seu primeiro resultado a dirigir uma empresa e criar a sua: liderança, equipes, talento, operações, KPI/OKR, finanças, vendas, marketing, produto, estratégia, risco, IA, conselho, M&A e founder track Chile · 24 casos, 96 labs e 39 modelos
+
+### Python Data Science Program
+
+232 aulas em 9 partes (Python aplicado, ML clássico, Deep Learning, estatística inferencial, MLOps, engenharia de dados, recomendadores, ética, capstones). Laboratório Flask interativo + app de desktop Windows nativo (PySide6 + Qt + kernel Jupyter) + app Android (Expo SDK 51). 232 PDFs + 232 PPTX gerados.
+
+### Artificial Intelligence Evolution Program · Projeto
+
+AI Evolution Program v0.17.0 · 180 aulas em 15 partes com matéria completa · 540 notebooks com exercícios e soluções · PDFs por parte + programa completo (~1.100 págs) · A evolução da IA em espanhol: simbólica, ML, deep learning, LLMs, RAG, agentes, MLOps, segurança e fronteira
+
+### Polyglot Programming Labs · Projeto
+
+O programa de programação comparada em espanhol — 176 aulas em 12 partes. Um conceito, 10 linguagens do núcleo (Python, JS, TS, Java, C#, Go, Rust, C, SQL, PHP) verificadas em CI, e um Atlas de ~40 famílias. Aprenda o conceito uma vez e reconheça-o em qualquer linguagem
+
+### Blockchain Learning Path · Projeto
+
+Blockchain Learning Path v0.14.0 · Programa em espanhol: 28 módulos do zero à infraestrutura financeira programável — cripto, Bitcoin, EVM, contratos, segurança, L2, ZK, DeFi, dinheiro e liquidação, stablecoins, CBDC, pagamentos e FX, tokenização, RWA, mercados de capitais, custódia e regulação. 70 práticas, 186 testes, apps offline
+
+### Machine Operator Program
+
+Base documental do Programa de Operação e Simulação de Máquinas: 41 cursos (29 veículos reais + 12 naves de ficção) com 11 módulos cada — comandos, instrumentos, história, regulamentos e design de simulação — com foco educativo e de segurança. Ainda sem simulador executável; CI valida estrutura e links.
+
+### Education Pedagogy Learning Sciences Program · Projeto
+
+Pedagogía, Docencia y Ciencias del Aprendizaje v2.0.0 · 300 clases en 25 partes · El programa de formación pedagógica más completo en español: aprendizaje, didáctica, inclusión, currículum, evaluación, convivencia, IA educativa y liderazgo · Evidencia declarada por clase, 14 rutas por rol, 60 actividades de aula y portal offline 🇨🇱
+
+### Marketing Sales Growth Evolution Program · Projeto
+
+Marketing, Sales & Growth Evolution Program v1.6.0 · 336 aulas em 24 partes · 1.348 conceitos, 1.012 métricas e 97 obras · marketing, vendas, RevOps, growth, análise e IA comercial · portal offline em Python
+
+### Chilean School Learning Path · Projeto
+
+Currículo escolar chileno aberto: 8.841 aulas, 4.156 integrações e 2.823 objetivos de aprendizagem do 1º ano básico ao último ano do ensino médio, com fontes do MINEDUC, guias pedagógicos e portal no GitHub Pages.
+
+### Architecture Built Environment Learning Program · Projeto
+
+Programa integral do ambiente construído em espanhol: 680 aulas em 68 partes, da encomenda ao fim de vida; história, projeto, cidade, sistemas, construção, gestão, operação e reabilitação · 8 oficinas (48 sessões) · 12 rotas · fontes rastreáveis por aula.
+
+### Psychometrics And Assessment Program · Projeto
+
+psychometrics-and-assessment-program · 5 instrumentos · 344 ítems · 81 escalas · scoring auditable · currículo: 40 clases (5 escritas) · licencias trazables · Python 3.11–3.13 · 57 tests
+
+### Engenharia de software moderna · Currículo técnico
+
+480 aulas, 40 partes e 8 etapas · fundamentos → produto, arquitetura, segurança, DevOps, SRE, SPEC, IA e sistemas multiagente · estado editorial declarado pelo repositório.
+
+### Ciência e educação
+
+### Human Genome Labs
+
+Plataforma científica evolutiva e reprodutível para genética molecular e genômica (v1.0.0): núcleo TypeScript verificável (sequências, tradução, ORF, variantes, G-quadruplex), contratos ScientificResult, leitores FASTA/GFF3/VCF, CLI científica, laboratório web PWA e jogo educativo. Não realiza diagnóstico clínico.
+
+### Violin Adventure · Projeto
+
+Minha Aventura com o Violino · App educativo para aprender violino a partir dos 10 anos · 24 lições em 6 mundos, afinador cromático, metrônomo e prática guiada · Tauri 2 + React + TypeScript · Windows, Android, Linux, macOS, iOS e PWA · Sem publicidade, sem contas, offline · v1.0.0, instaladores assinados nas Releases
+
+⚡ Vários projetos deste portfólio foram desenvolvidos com fluxo assistido por IA (Claude Code · ChatGPT Plus · Antigravity) combinado com validação técnica e direção arquitetural próprias.
+
+### Repositórios recentes (auto)
+
+Carregado das APIs públicas do GitHub e GitLab (ordenado por atualização). Exibe estrelas ★ e forks ⑂.
+
+### Atividade recente (auto)
+
+⬆ commits · 🔀 PRs / MRs · 🚀 releases — GitHub e GitLab em tempo real.
+
+[Ver referência](https://vladimiracunadev-create.github.io/#referencias)
+
+[Contactar-me](https://vladimiracunadev-create.github.io/#contacto)
+
+[GitHub](https://github.com/vladimiracunadev-create/rootcause-windows-inspector)
+
+[Release v0.19.0](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest)
+
+[Landing](https://vladimiracunadev-create.github.io/rootcause-windows-inspector/)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/rootcause-mobile-inspector)
+
+[Release v0.2.1](https://github.com/vladimiracunadev-create/rootcause-mobile-inspector/releases/latest)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/rootcause-web-inspector)
+
+[Site do produto](https://vladimiracunadev-create.github.io/universal-code-scanner/)
+
+[Testar no navegador](https://vladimiracunadev-create.github.io/universal-code-scanner/app/)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/universal-code-scanner)
+
+[Baixar APK](https://github.com/vladimiracunadev-create/universal-code-scanner/releases/latest)
+
+[GitHub](https://github.com/vladimiracunadev-create/gabysql)
+
+[Release desktop-v0.1.0](https://github.com/vladimiracunadev-create/gabysql/releases/latest)
+
+[GitHub](https://github.com/vladimiracunadev-create/automa-pc)
+
+[Release v0.3.0](https://github.com/vladimiracunadev-create/automa-pc/releases/latest)
+
+[Site](https://vladimiracunadev-create.github.io/automa-pc/)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/chofyai-studio)
+
+[Commits](https://github.com/vladimiracunadev-create/chofyai-studio/commits/main)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/rhino-suite)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/guitarra-adventure)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/agentic-plugins-toolkit)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/operational-ai-agents)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/empresa-operativa-chile)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/rootcause-macos-inspector)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/codex-skills-toolkit)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/rootcause-qr-inspector)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/pdf-reader-windows-android)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/rootcause-server)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/aws-desktop-studio)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/ai-dataset-foundry)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/rootcause-blockchain-security)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/rootcause-bitcoin-defense)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/decentraland-social-arcade)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/commerce-operating-system)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/panuelo-al-viento-cueca-app)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/video-transcript-studio)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/lifelong-learning-ecosystem)
+
+[GitHub](https://github.com/vladimiracunadev-create/docker-labs)
+
+[Release v1.5.0](https://github.com/vladimiracunadev-create/docker-labs/releases/latest)
+
+[README](https://github.com/vladimiracunadev-create/docker-labs/blob/main/README.md)
+
+[RECRUITER.md](https://github.com/vladimiracunadev-create/docker-labs/blob/main/RECRUITER.md)
+
+[Demos](https://vladimiracunadev-create.github.io/#demos)
+
+[GitHub](https://github.com/vladimiracunadev-create/proyectos-aws)
+
+[Commits](https://github.com/vladimiracunadev-create/proyectos-aws/commits/main)
+
+[README](https://github.com/vladimiracunadev-create/proyectos-aws/blob/main/README.md)
+
+[GitLab](https://gitlab.com/vladimir.acuna.dev-group/proyectos-aws-gitlab)
+
+[Ver Demos](https://vladimiracunadev-create.github.io/#demos)
+
+[GitHub](https://github.com/vladimiracunadev-create/microsistemas)
+
+[Release v1.1.0](https://github.com/vladimiracunadev-create/microsistemas/releases/latest)
+
+[README](https://github.com/vladimiracunadev-create/microsistemas/blob/main/README.md)
+
+[RECRUITER.md](https://github.com/vladimiracunadev-create/microsistemas/blob/main/docs/RECRUITER.md)
+
+[GitHub](https://github.com/vladimiracunadev-create/social-bot-scheduler)
+
+[Release v4.9.1](https://github.com/vladimiracunadev-create/social-bot-scheduler/releases/latest)
+
+[README](https://github.com/vladimiracunadev-create/social-bot-scheduler/blob/main/README.md)
+
+[GitHub](https://github.com/vladimiracunadev-create/problem-driven-systems-lab)
+
+[Commits](https://github.com/vladimiracunadev-create/problem-driven-systems-lab/commits/main)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/wsl-labs)
+
+[Release v0.4.1](https://github.com/vladimiracunadev-create/wsl-labs/releases/latest)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/unikernel-labs)
+
+[Release v2.0.0](https://github.com/vladimiracunadev-create/unikernel-labs/releases/latest)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/sandbox-labs)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/universal-payments-engineering-lab)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/qemu-kvm-labs)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/database-systems-labs)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/framework-ecosystems-labs)
+
+[GitHub](https://github.com/vladimiracunadev-create/langgraph-realworld)
+
+[Commits](https://github.com/vladimiracunadev-create/langgraph-realworld/commits/main)
+
+[README](https://github.com/vladimiracunadev-create/langgraph-realworld/blob/main/README.md)
+
+[RECRUITER.md](https://github.com/vladimiracunadev-create/langgraph-realworld/blob/main/docs/RECRUITER.md)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/mcp-ollama-local)
+
+[Commits](https://github.com/vladimiracunadev-create/mcp-ollama-local/commits/main)
+
+[README](https://github.com/vladimiracunadev-create/mcp-ollama-local/blob/main/README.md)
+
+[GitHub](https://github.com/vladimiracunadev-create/claude-skills-toolkit)
+
+[Commits](https://github.com/vladimiracunadev-create/claude-skills-toolkit/commits/main)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/neural-network-training-labs)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/computational-mathematics-program)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/modern-gamedev-program)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/modern-cybersecurity-program)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/multi-cloud-engineering-program)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/modern-business-creation-program)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/executive-leadership-founder-program)
+
+[GitHub](https://github.com/vladimiracunadev-create/python-data-science-program)
+
+[Release v3.8.0](https://github.com/vladimiracunadev-create/python-data-science-program/releases/latest)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/artificial-intelligence-evolution-program)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/polyglot-programming-labs)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/blockchain-learning-path)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/machine-operator-program)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/education-pedagogy-learning-sciences-program)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/chilean-school-learning-path)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/psychometrics-and-assessment-program)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/modern-software-engineering-program)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/human-genome-labs)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/violin-adventure)
+
+## Demos ao vivo
+
+<!-- portfolio-section:demos -->
+
+Links públicos para ver implantações reais (quando aplicável).
+
+### Portfolio Web · GitHub Pages
+
+Portfólio web em 22 idiomas implantado no GitHub Pages via GitHub Actions. PWA instalável, Lighthouse 100, 154 PDFs gerados por pipeline e API JSON i18n.
+
+### AWS S3 + GitHub Actions
+
+Deploy automático (sync) via GitHub OIDC. Fluxo profissional com validações.
+
+### Portal de Documentação (GitLab CI)
+
+PWA Glassmorphism implantado a partir do GitLab via OIDC e OAC (Caso L - FinOps).
+
+### AWS Amplify · Deploy por branches
+
+Continuous Deployment com build automático, SSL e ambientes isolados (main/dev).
+
+### Docker Labs: dashboard local
+
+Um “hub” local para explorar labs por stack. Ideal para entrevistas técnicas.
+
+[Ver site](https://vladimiracunadev-create.github.io/)
+
+[GitHub](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io)
+
+[Ver demo](https://mi-pagina-scrum-123.s3.us-east-2.amazonaws.com/index.html)
+
+[GitHub Repo](https://github.com/vladimiracunadev-create/proyectos-aws)
+
+[Ver demo](http://finops-vladimir-portfolio-case-l.s3-website.us-east-2.amazonaws.com)
+
+[GitLab Repo](https://gitlab.com/vladimir.acuna.dev-group/vladimir.acuna.dev-group)
+
+[Demo main](https://main.d3r1wuymolxagh.amplifyapp.com/)
+
+[Demo dev](https://dev.d20m8tc0banvg.amplifyapp.com/)
+
+## Experiência
+
+<!-- portfolio-section:experiencia -->
+
+Resumo por marcos (use a vista “Profundo” para detalhes).
+
+### Transição (laboratórios + portfólio)
+
+Padronização de ambientes, laboratórios Docker/AWS, automação, observabilidade e protótipos com IA local.
+
+- Documentação reproduzível por perfil (recrutador, desenvolvedor e casos práticos).
+
+- Foco em práticas: branches, PRs, CI/CD, Pages e releases.
+
+### Fundación CEIS Maristas
+
+Arquitetura, desenvolvimento e operação de plataformas web educativas/psicométricas. Otimização SQL/performance. Segurança operacional: análise forense de ataques, gestão de logs e testes com OWASP ZAP e JMeter.
+
+- Segurança: análise forense de ataques ao servidor em mais de uma ocasião, determinando origem, vetor de entrada e alcance.
+
+- Gestão e análise de logs do servidor e do ambiente PHP: depuração de código e detecção de atividade anômala de IPs desconhecidos.
+
+- Fortalecimento do sistema com OWASP ZAP (simulação de ataques) e testes de carga com Apache JMeter .
+
+- Formação em cibersegurança durante a pandemia e posterior palestra institucional de cibersegurança.
+
+### Negócio + TI
+
+Formação técnica em administração de empresas: processos, eficiência, marketing e mensuração.
+
+## Fluxo de desenvolvimento assistido por IA
+
+<!-- portfolio-section:flujo-ia -->
+
+Uso ferramentas de IA como aceleradores técnicos reais em projetos, não como substitutos do critério próprio.
+
+### Ferramentas em uso ativo
+
+- ChatGPT Plus (desde 2023) · análise, arquitetura, iteração e documentação
+
+- Codex · geração e refatoração de código
+
+- Claude Code · revisão arquitetônica, implementação e documentação técnica
+
+- Antigravity · aceleração de fluxos de desenvolvimento e automação
+
+- VS Code / OpenCode · ambientes de desenvolvimento com assistência IA integrada
+
+### Onde aplico IA no fluxo
+
+- Diagnóstico técnico e análise de arquitetura
+
+- Design de soluções e validação de decisões
+
+- Implementação, refatoração e testes
+
+- Documentação técnica e por perfil
+
+- Aceleração de projetos e iteração sobre repositórios
+
+"Combino critério técnico próprio, validação humana e direção arquitetônica. A IA amplifica capacidade, velocidade e alcance técnico — não substitui experiência."
+
+## Alcance profissional real
+
+<!-- portfolio-section:roles -->
+
+Hierarquia clara: identidade principal primeiro, expansão natural depois, alcance complementar por último.
+
+### 🎯 Identidade principal
+
+16+ anos de arquitetura, desenvolvimento e operação de plataformas reais. Modernização progressiva sem interromper a operação, integração de sistemas, automação de processos e IA aplicada — com critério técnico próprio e validação humana.
+
+### ↗ Expansão natural — cargos que posso assumir com força
+
+Respaldados por experiência direta, projetos verificáveis e fluxo assistido por IA.
+
+### Líder Tecnológico / Tech Lead
+
+Direção técnica de projetos, definição de arquitetura, revisão de decisões críticas, acompanhamento de equipes, modernização de sistemas existentes e conexão entre objetivos de negócio e soluções tecnológicas sustentáveis.
+
+### AI Orchestration Engineer
+
+Design de sistemas agênticos com LangGraph, FastAPI e MCP. Agentes com estado, rotas condicionais e resiliência.
+
+### AI Automation Engineer
+
+Automação de fluxos com n8n, Python e orquestradores resilientes. Circuit Breaker, Idempotência e observabilidade.
+
+### Solutions Engineer
+
+Demos e PoCs reais, comunicação técnico-negócio, requisitos e arquitetura orientada ao cliente.
+
+### Technical Product Builder
+
+Construção de produtos digitais end-to-end: arquitetura, desenvolvimento, operação e entrega com critério de produto.
+
+### Consultor de Transformação Digital
+
+Diagnóstico técnico, plano evolutivo e execução de modernização em organizações com sistemas legados reais.
+
+### Product Operations Técnico
+
+Operação, continuidade e evolução de plataformas com foco em redução de fricção, observabilidade e melhoria contínua.
+
+### Instrutor de Programação e Pensamento Computacional
+
+445+ horas lecionadas como relator técnico (2003–2004 e 2011): programação web, HTML/CSS, Office e hardware. Trabalho de conclusão: ambiente educativo web para crianças com Síndrome de Down (nota 6,7). Engenharia em Computação (UTA) + 16 anos operando plataformas educativas reais.
+
+### 🧭 Que tipo de liderança tecnológica ofereço
+
+- Liderança técnica prática, não apenas administrativa.
+
+- Decisões baseadas em experiência real de produção.
+
+- Modernização gradual sem interromper a operação.
+
+- Documentação clara para equipes, recrutadores e continuidade.
+
+- IA como amplificador técnico, não substituto do critério profissional.
+
+- Foco em estabilidade, manutenibilidade, segurança e redução da dívida técnica.
+
+### ⚙️ Alcance complementar
+
+Extensão lógica do perfil. Assumo estes papéis quando o contexto ou o projeto o requerem, não como identidade principal.
+
+### ✅ Por que posso assumir este alcance
+
+- Liderazgo tecnológico — Guía técnica de equipos, definición de estándares, revisión de riesgos y acompañamiento en decisiones críticas.
+
+- Arquitectura de soluciones — Diseño y evolución de sistemas desde la raíz hasta producción.
+
+- Modernización de legacy — 16+ años con sistemas heredados sin cortar operación.
+
+- Automatización — n8n, Python, workflows resilientes con observabilidad en Grafana.
+
+- Cloud / CI/CD — AWS (Lambda, DynamoDB, ECS, EKS, Cognito, EventBridge, CloudWatch/X-Ray), Terraform, OIDC, FinOps.
+
+- Desarrollo polyglot — Python, Go, TypeScript, Node.js, PHP 8.x, C#, Ruby, PowerShell, Makefile.
+
+- Integración de IA — LangGraph, MCP, Ollama, ChatGPT Plus, Claude Code.
+
+- Comunicación técnico-negocio — Formación en administración + experiencia real en proyectos institucionales.
+
+- Colaboración y documentación — Docs por perfil, RECRUITER.md, evidencia verificable en repos.
+
+### 🔗 Papéis relacionados segundo o contexto
+
+Abordáveis conforme o tipo de projeto, empresa ou necessidade específica.
+
+## Serviços
+
+<!-- portfolio-section:servicios -->
+
+Intervenções por etapas alinhadas com arquitetura real, modernização e evolução técnica sustentável.
+
+### Auditoria de código gerado por IA
+
+Verificação funcional, auditoria técnica, limpeza e redução de dívida técnica, e governança de IA para equipes que já desenvolvem com assistentes e agentes.
+
+### Modernização de Sistemas Legados
+
+Refatoração progressiva, migração de PHP/stack legado, CI/CD, testes automatizados e implantação segura sem interromper a operação.
+
+### Automação de Processos e Workflows
+
+Design e implementação de fluxos automatizados com n8n, Python e orquestradores resilientes. Circuit Breaker, Idempotência e observabilidade incluídos.
+
+### Integração de IA Aplicada
+
+Incorporação de agentes, LLMs e fluxos assistidos por IA em produtos e processos reais. LangGraph, MCP, Ollama e FastAPI.
+
+### Arquitetura Cloud, CI/CD e Observabilidade
+
+AWS (ECS/EKS, Lambda/SAM, DynamoDB, Cognito, EventBridge/SQS/SNS, CloudWatch/X-Ray, S3/CloudFront), Terraform, OIDC, FinOps, GitHub/GitLab CI e Prometheus/Grafana.
+
+### Diagnóstico Técnico e Plano Evolutivo
+
+Avaliação integral: riscos, dívida técnica, performance, custos e roteiro priorizado com quick wins acionáveis.
+
+[Ver o serviço completo](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/)
+
+## Freelance · Modalidades de colaboração
+
+<!-- portfolio-section:modalidades -->
+
+Trabalho em formatos flexíveis conforme o problema, a criticidade, o alcance e o nível de envolvimento necessário.
+
+### Projeto delimitado
+
+Para modernização pontual, integrações, automação específica, melhoria crítica ou entregáveis concretos.
+
+### Bolsa de horas / apoio especialista
+
+Para equipes que precisam acelerar decisões técnicas, destravar arquitetura, validar implementações ou resolver gargalos.
+
+### Acompanhamento mensal
+
+Para evolução contínua, suporte sênior, roadmap técnico, continuidade operacional e melhoria progressiva.
+
+### Diagnóstico + roteiro
+
+Para organizar o contexto, identificar riscos, priorizar decisões e definir uma estratégia de implementação realista.
+
+### Colaboração técnico-comercial
+
+Para apoiar conversas com clientes ou stakeholders, traduzir requisitos em soluções viáveis e acompanhar pré-venda ou definição técnica.
+
+### Modernização, resgate e IA aplicada
+
+Apoio quando há sistemas frágeis, operação em curso, automações pendentes, decisões de arquitetura, cloud/CI-CD, observabilidade ou adoção pragmática de IA.
+
+### Como defino a modalidade adequada
+
+Na prática, separo discovery, arquitetura, execução, testes, documentação, coordenação e suporte posterior. Se o trabalho mistura várias camadas, organizo por fases ou por capacidade mensal para evitar expectativas difusas.
+
+### Sem tarifas fixas publicadas
+
+Não publico tarifas fixas porque cada intervenção muda conforme complexidade, risco, urgência e nível de envolvimento. Prefiro revisar primeiro o objetivo e o alcance para propor a modalidade adequada.
+
+Projeto, apoio especialista ou colaboração pontual? Vamos conversar sobre o contexto e revisar o melhor formato de trabalho.
+
+[Vamos revisar o alcance](https://vladimiracunadev-create.github.io/#contacto)
+
+## Central de Downloads
+
+<!-- portfolio-section:descargas -->
+
+Acesse as versões nativas e os documentos profissionais públicos.
+
+### Recomendado
+
+Detectando dispositivo...
+
+### Outras Versões
+
+Use estes links se a detecção automática não corresponder ao seu dispositivo.
+
+### Documentos PDF
+
+O seletor de idioma muda cada download para o PDF equivalente no idioma ativo.
+
+A nota de vigência é um documento de apoio emitido pelo profissional, não pela Fundación CEIS Marista. Contextualiza a mudança de autoridade de 2026 e deve ser revisada junto com a carta de recomendação histórica.
+
+A declaração de conquistas é publicada separadamente para resumir resultados observáveis e facilitar a validação externa sem substituir o CV ou o portfólio.
+
+O Currículo é o documento genérico: formato clássico e completo, sem ser direcionado a um cargo específico. Serve para qualquer processo seletivo, mesmo quando a vaga tem um nome pouco comum.
+
+### Arquivos técnicos
+
+Arquivos de descoberta na raiz do site (SEO + IA).
+
+[Android (APK)](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/releases/latest/download/app-debug.apk)
+
+[Portfólio](https://vladimiracunadev-create.github.io/assets/portafolio.pdf)
+
+[Currículo](https://vladimiracunadev-create.github.io/assets/hoja-de-vida.pdf)
+
+[CV Recrutador](https://vladimiracunadev-create.github.io/assets/cv-reclutador.pdf)
+
+[CV ATS](https://vladimiracunadev-create.github.io/assets/cv-ats.pdf)
+
+[Carta de Recomendação](https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma.pdf)
+
+[Nota de Vigência CEIS](https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis.pdf)
+
+[Declaração de Conquistas](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
+
+[robots.txt](https://vladimiracunadev-create.github.io/robots.txt)
+
+[sitemap.xml](https://vladimiracunadev-create.github.io/sitemap.xml)
+
+[llm.txt](https://vladimiracunadev-create.github.io/llm.txt)
+
+## Referências profissionais
+
+<!-- portfolio-section:referencias -->
+
+Para projetos institucionais, a validação é realizada por referência.
+
+### Conquistas resumidas e validação
+
+- Até 80% de melhoria estimada em processos críticos e geração de relatórios.
+
+- Redução de cerca de 90% na fricção operacional e suporte do Batería Online.
+
+- Otimização aproximada de 45% em componentes de banco de dados e código.
+
+- Atendimento simultâneo de até 5 frentes de trabalho em certos períodos.
+
+Estes números são apresentados em uma declaração formal emitida pelo profissional, com referência externa para validar o contexto laboral e o escopo geral.
+
+### Jean Claude Dupry · Último gestor direto
+
+Celular : +56 9 9415 6984
+
+Posso enviar um resumo por escrito e exemplos de impacto se necessário.
+
+[Ver declaração](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
+
+## Cartão de apresentação
+
+<!-- portfolio-section:tarjeta -->
+
+Guarde meus dados profissionais ou compartilhe este portfólio pelo código QR. O verso resume minhas áreas de serviço: aplicações web, arquitetura cloud, dados, APIs, IA, automação e cibersegurança.
+
+https://vladimiracunadev-create.github.io/assets/icons/1.png?v=5adde69a
+
+https://vladimiracunadev-create.github.io/assets/icons/2.png?v=1a55b3e6
+
+[Baixar frente](https://vladimiracunadev-create.github.io/assets/icons/1.png?v=5adde69a)
+
+[Baixar verso](https://vladimiracunadev-create.github.io/assets/icons/2.png?v=1a55b3e6)
+
+## Contato
+
+<!-- portfolio-section:contacto -->
+
+Modernização, automação, arquitetura ou integração de IA aplicada? Escreva-me.
+
+Disponível para me integrar rapidamente a equipes e comunidades técnicas por meio de canais colaborativos como o Slack.
+
+[vladimir.acuna.dev@gmail.com](mailto:vladimir.acuna.dev@gmail.com)
+
+[LinkedIn](https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29)
+
+[GitHub](https://github.com/vladimiracunadev-create)

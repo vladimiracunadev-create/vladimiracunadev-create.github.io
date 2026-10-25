@@ -1,36 +1,125 @@
 {
   "meta": {
-    "generated_at": "2026-10-16",
+    "generated_at": "2026-10-25",
     "language": "zh-TW",
     "language_name": "Traditional Chinese",
     "native_name": "繁體中文",
     "direction": "ltr",
-    "source": "https://github.com/vladimiracunadev-create/vladimiracunadev-create/blob/main/README.zh-TW.md"
+    "content_language": "es",
+    "fallback_language": "es",
+    "source": "https://vladimiracunadev-create.github.io/index.html"
   },
   "profile": {
     "name": "Vladimir Acuña",
-    "title": "解決方案架構·高階全速板·數字轉換·管理和業務",
-    "summary": "- 🔁 可複製的演示——克隆,執行,驗證. - 🧰 標準化工具檔案,CLI中心,doctor,以及smoke每個儲存器。 - 🛡️ 深入防禦秘密掃描、政策和明確禁止的做法。 - 📈 觀察性 — /health, /ready, /metrics儀表板 和可追蹤性 - 📚 觀眾認識檔案——根據暫存器的不同,招募者,初學者,DevOps,或安全性. - 📦 產品銷售可下載的釋出、核對和建立證據;酌情宣佈商業/儲存簽名待決。 - 🌍 國際化——以6種語文編寫的教材(ES)·EN 語·常規·資訊科技·法語·) ,\"中國共產黨黨史人物彙編\"(第1輯). - 🧭 技術誠實- 每一個案件都標註在標籤上OPERATIONAL, DOCUMENTED/SCAFFOLD,或 ,或 ,PLANNED.",
+    "title": "Arquitectura, modernización, automatización e IA aplicada a proyectos reales.",
+    "summary": "Arquitecto de Soluciones · Senior Full-Stack · Líder Tecnológico . 16+ años liderando la evolución de plataformas. Especializado en modernización de sistemas legacy , automatización de procesos , cloud & CI/CD e integración de IA aplicada .",
     "website": "https://vladimiracunadev-create.github.io/i18n/zh-TW/",
     "github": "https://github.com/vladimiracunadev-create",
     "gitlab": "https://gitlab.com/vladimir.acuna.dev-group"
   },
+  "views": [
+    "recruiter",
+    "normal",
+    "deep",
+    "freelance"
+  ],
   "sections": [
-    "🎯你在這裡能找到什麼",
-    "✅可核實狀態",
-    "🗺️生態系統一一",
-    "📦具有實際分佈的產品",
-    "🧪工程實驗室",
-    "🤖應用AI",
-    "📚完成技術課程",
-    "🔬科學計算",
-    "⚡如果你有十分鐘的時間來評價我",
-    "🧠標準一應用到所有倉庫",
-    "✅專業範圍",
-    "🧭管理、行政和非編碼職業機會",
-    "🤖AI-輔助發展流動",
-    "📌可用性",
-    "📬聯絡人"
+    {
+      "id": "hero",
+      "title": "Arquitectura, modernización, automatización e IA aplicada a proyectos reales.",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "resultados",
+      "title": "Resultados verificables",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "evolucion",
+      "title": "Pilares Técnicos Consolidados",
+      "min_level": 1,
+      "freelance_hidden": true
+    },
+    {
+      "id": "auditoria-ia",
+      "title": "Auditoría de código generado por IA",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "productos",
+      "title": "Productos descargables",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "proyectos",
+      "title": "Proyectos destacados",
+      "min_level": 1,
+      "freelance_hidden": true
+    },
+    {
+      "id": "demos",
+      "title": "Demos en vivo",
+      "min_level": 1,
+      "freelance_hidden": false
+    },
+    {
+      "id": "experiencia",
+      "title": "Experiencia",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "flujo-ia",
+      "title": "Flujo de desarrollo asistido por IA",
+      "min_level": 2,
+      "freelance_hidden": true
+    },
+    {
+      "id": "roles",
+      "title": "Alcance profesional real",
+      "min_level": 1,
+      "freelance_hidden": true
+    },
+    {
+      "id": "servicios",
+      "title": "Servicios",
+      "min_level": 2,
+      "freelance_hidden": false
+    },
+    {
+      "id": "modalidades",
+      "title": "Freelance · Modalidades de colaboración",
+      "min_level": 2,
+      "freelance_hidden": false
+    },
+    {
+      "id": "descargas",
+      "title": "Centro de Descargas",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "referencias",
+      "title": "Referencias laborales",
+      "min_level": 2,
+      "freelance_hidden": true
+    },
+    {
+      "id": "tarjeta",
+      "title": "Tarjeta de presentación",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "contacto",
+      "title": "Contacto",
+      "min_level": 0,
+      "freelance_hidden": false
+    }
   ],
   "artifacts": {
     "portfolio": "/assets/portafolio-traditional-chinese.pdf",

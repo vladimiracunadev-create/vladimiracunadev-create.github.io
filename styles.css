@@ -54,6 +54,11 @@ body[data-lang="it"] [data-it] { display: revert !important; }
 body[data-lang="fr"] [data-fr] { display: revert !important; }
 body[data-lang="zh"] [data-zh] { display: revert !important; }
 
+/* Fallback por clave: si una traducción no existe, app.js marca el nodo ES
+   equivalente. Esto mantiene completa la UI en los 22 locales sin mezclar
+   fuentes de contenido ni dejar controles vacíos. */
+[data-i18n-fallback="es"] { display: revert !important; }
+
 /* Elementos de bloque: forzar display:block donde revert no alcanza */
 body:not([data-lang]) div[data-es],  body[data-lang="es"] div[data-es],
 body:not([data-lang]) section[data-es], body[data-lang="es"] section[data-es],
@@ -148,15 +153,25 @@ pre {
 
 .skip {
   position: absolute;
-  left: -999px;
   width: 1px;
   height: 1px;
-  overflow: hidden
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0
 }
 
 .skip:focus {
-  left: 12px;
-  top: 12px;
+  position: fixed;
+  inset-inline-start: 12px;
+  inset-block-start: 12px;
+  clip: auto;
+  clip-path: none;
+  margin: 0;
+  white-space: normal;
   width: auto;
   height: auto;
   padding: 8px 10px;

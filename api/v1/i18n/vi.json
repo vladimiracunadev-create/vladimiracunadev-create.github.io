@@ -1,36 +1,125 @@
 {
   "meta": {
-    "generated_at": "2026-10-16",
+    "generated_at": "2026-10-25",
     "language": "vi",
     "language_name": "Vietnamese",
     "native_name": "Tiếng Việt",
     "direction": "ltr",
-    "source": "https://github.com/vladimiracunadev-create/vladimiracunadev-create/blob/main/README.vi.md"
+    "content_language": "es",
+    "fallback_language": "es",
+    "source": "https://vladimiracunadev-create.github.io/index.html"
   },
   "profile": {
     "name": "Vladimir Acuña",
-    "title": "Kiến trúc giải quyết·Người đầy đủ cao cấp·Biến hình số·Quản lý & thao tác",
-    "summary": "- 🔁 Bản thử nghiệm không được hỗ trợ- Nhân bản, chạy, xác nhận. - 🧰 Bánh ngọt chuẩn hoá- Tạo ra tập tin, máy nghe trộm,doctor, vàsmokeMỗi kho. - 🛡️ Phòng thủ sâu— quét bí mật, chính sách và những thực hành rõ ràng bị cấm đoán. - 📈 Khả năng quan sát — /health, /ready, /metricsBảng điều khiển, và khả năng truy tìm. - 📚 Tài liệu hướng dẫn khán giả- ý thức— Người tuyển dụng, người mới bắt đầu, người bị giam giữ, hay người bảo vệ, tùy thuộc vào kho tàng. - 📦 Phân phối sản phẩm— Những chương trình phát hành, kiểm tra và xây dựng bằng chứng; những ký hiệu thương mại/ hàng hóa được công bố là đang chờ khi được áp dụng. - 🌍 Quốc tế hoá— Danh mục đầu tư trong 22 ngôn ngữ (ES·EN·PT·IT·FR·ZH). - 🧭 Thành thật với kỹ thuật viên- mọi trường hợp được dán nhãnOPERATIONAL, DOCUMENTED/SCAFFOLD, hoặcPLANNED.",
+    "title": "Arquitectura, modernización, automatización e IA aplicada a proyectos reales.",
+    "summary": "Arquitecto de Soluciones · Senior Full-Stack · Líder Tecnológico . 16+ años liderando la evolución de plataformas. Especializado en modernización de sistemas legacy , automatización de procesos , cloud & CI/CD e integración de IA aplicada .",
     "website": "https://vladimiracunadev-create.github.io/i18n/vi/",
     "github": "https://github.com/vladimiracunadev-create",
     "gitlab": "https://gitlab.com/vladimir.acuna.dev-group"
   },
+  "views": [
+    "recruiter",
+    "normal",
+    "deep",
+    "freelance"
+  ],
   "sections": [
-    "🎯Những gì bạn sẽ tìm thấy ở đây",
-    "✅Trạng thái có thể truy cập",
-    "🗺️Hệ thống sinh thái đang hưng thịnh",
-    "📦Những sản phẩm có thật sự được phân phối",
-    "🧪Phòng thí nghiệm kỹ thuật",
-    "🤖AI ứng dụng",
-    "📚Máy tính trình duyệt kỹ thuật toàn bộ",
-    "🔬Tính toán khoa học",
-    "⚡Nếu anh có 10 phút để đánh giá tôi",
-    "🧠Những tiêu chuẩn tôi áp dụng xuyên qua các kho",
-    "✅Phạm vi chuyên nghiệp",
-    "🧭Quản lý, quản lý và không kiểm soát sự bất tiện của các nhà kinh doanh",
-    "🤖Quy trình phát triển có AI hỗ trợ",
-    "📌Tính khả năng",
-    "📬Liên hệ"
+    {
+      "id": "hero",
+      "title": "Arquitectura, modernización, automatización e IA aplicada a proyectos reales.",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "resultados",
+      "title": "Resultados verificables",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "evolucion",
+      "title": "Pilares Técnicos Consolidados",
+      "min_level": 1,
+      "freelance_hidden": true
+    },
+    {
+      "id": "auditoria-ia",
+      "title": "Auditoría de código generado por IA",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "productos",
+      "title": "Productos descargables",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "proyectos",
+      "title": "Proyectos destacados",
+      "min_level": 1,
+      "freelance_hidden": true
+    },
+    {
+      "id": "demos",
+      "title": "Demos en vivo",
+      "min_level": 1,
+      "freelance_hidden": false
+    },
+    {
+      "id": "experiencia",
+      "title": "Experiencia",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "flujo-ia",
+      "title": "Flujo de desarrollo asistido por IA",
+      "min_level": 2,
+      "freelance_hidden": true
+    },
+    {
+      "id": "roles",
+      "title": "Alcance profesional real",
+      "min_level": 1,
+      "freelance_hidden": true
+    },
+    {
+      "id": "servicios",
+      "title": "Servicios",
+      "min_level": 2,
+      "freelance_hidden": false
+    },
+    {
+      "id": "modalidades",
+      "title": "Freelance · Modalidades de colaboración",
+      "min_level": 2,
+      "freelance_hidden": false
+    },
+    {
+      "id": "descargas",
+      "title": "Centro de Descargas",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "referencias",
+      "title": "Referencias laborales",
+      "min_level": 2,
+      "freelance_hidden": true
+    },
+    {
+      "id": "tarjeta",
+      "title": "Tarjeta de presentación",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "contacto",
+      "title": "Contacto",
+      "min_level": 0,
+      "freelance_hidden": false
+    }
   ],
   "artifacts": {
     "portfolio": "/assets/portafolio-vietnamese.pdf",

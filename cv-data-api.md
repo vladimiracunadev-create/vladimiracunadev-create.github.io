@@ -4,7 +4,7 @@
 
 > Currículum publicado como API JSON estática y PDFs descargables, servido desde **GitHub Pages** sin servidor ni autenticación.
 
-**Datos sincronizados:** 2026-10-16. La API incorpora Modern Software Engineering Program, Lifelong Learning Ecosystem y las descripciones actualizadas de los proyectos con actividad reciente; el inventario público cubre 154 PDFs en 22 idiomas.
+**Datos sincronizados:** 2026-10-25. Los endpoints localizados derivan de las mismas 16 secciones canónicas del portafolio y declaran cuatro vistas, dirección y fallback; el inventario público cubre 154 PDFs en 22 idiomas.
 
 ---
 
@@ -57,9 +57,9 @@ console.log(profile, artifacts);
 
 ---
 
-## PDFs directos — 22 idiomas (ES/EN/PT/IT/FR/ZH/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL)
+## PDFs directos — 22 idiomas (ES/EN/PT/IT/FR/ZH/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL)
 
-Los PDFs están disponibles en **22 idiomas**. Los 22 idiomas embebidos en la SPA cambian el enlace de descarga mediante `data-pdf-{lang}`; los otros 16 abren una página localizada completa en `/i18n/{locale}/` con sus siete documentos.
+Los PDFs están disponibles en **22 idiomas**. La SPA calcula cada variante a partir del sufijo canónico del locale; las rutas `/i18n/{locale}/` conservan la selección y entran al mismo sitio, con fallback por clave a español.
 
 **Mapa de sufijos:** ES → `` · EN → `-english` · PT → `-portuguese` · IT → `-italian` · FR → `-french` · ZH → `-chinese` · ZH-TW → `-traditional-chinese` · JA → `-japanese` · KO → `-korean` · TR → `-turkish` · RU → `-russian` · VI → `-vietnamese` · TH → `-thai` · DE → `-german` · UK → `-ukrainian` · PL → `-polish` · AR → `-arabic` · FA → `-persian` · ID → `-indonesian` · NL → `-dutch` · HI → `-hindi` · EL → `-greek`.
 

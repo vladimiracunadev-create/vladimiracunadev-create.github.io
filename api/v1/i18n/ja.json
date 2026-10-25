@@ -1,36 +1,125 @@
 {
   "meta": {
-    "generated_at": "2026-10-16",
+    "generated_at": "2026-10-25",
     "language": "ja",
     "language_name": "Japanese",
     "native_name": "日本語",
     "direction": "ltr",
-    "source": "https://github.com/vladimiracunadev-create/vladimiracunadev-create/blob/main/README.ja.md"
+    "content_language": "es",
+    "fallback_language": "es",
+    "source": "https://vladimiracunadev-create.github.io/index.html"
   },
   "profile": {
     "name": "Vladimir Acuña",
-    "title": "ソリューションアーキテクト·シニアフルスタック·デジタル変革·経営・運営",
-    "summary": "- 🔁 再発可能なデモ— クローン、実行、検証。 - 🧰 標準化された工具細工— Makefiles、ハブ CLI、doctorと と と と 、smokeリポジトリごとに。 - 🛡️ 深さの防衛— 秘密のスキャン、ポリシー、および明示的に禁止された慣行。 - 📈 観察性 — /health, /ready, /metrics、ダッシュボードおよびトレーサビリティ。 - 📚 オーディエンス・アウェアのドキュメント— リポジトリに応じて、リクルーター、初心者、DevOps、またはセキュリティ。 - 📦 製品の流通— ダウンロード可能なリリース、チェックサム、および証拠のビルド。 該当する場合、商業/ストアのシグネチャは保留中のものとして宣言しました。 - 🌍 国際的なサービス— 6つの言語のポートフォリオ(ES)·エントリー·ツイート·インフォメーション·フリガナ·ZH)。 - 🧭 技術的な正直者— ラベルを貼る全てのケースOPERATIONAL, DOCUMENTED/SCAFFOLD, またはPLANNED.",
+    "title": "Arquitectura, modernización, automatización e IA aplicada a proyectos reales.",
+    "summary": "Arquitecto de Soluciones · Senior Full-Stack · Líder Tecnológico . 16+ años liderando la evolución de plataformas. Especializado en modernización de sistemas legacy , automatización de procesos , cloud & CI/CD e integración de IA aplicada .",
     "website": "https://vladimiracunadev-create.github.io/i18n/ja/",
     "github": "https://github.com/vladimiracunadev-create",
     "gitlab": "https://gitlab.com/vladimir.acuna.dev-group"
   },
+  "views": [
+    "recruiter",
+    "normal",
+    "deep",
+    "freelance"
+  ],
   "sections": [
-    "🎯あなたを見つけるためにここに",
-    "✅検証可能なステータス",
-    "🗺️地球の環境システム",
-    "📦実質の配分を用いるプロダクト",
-    "🧪エンジニアリング研究所",
-    "🤖応用AI",
-    "📚完全な技術的なカリキュラム",
-    "🔬科学コンピューティング",
-    "⚡自分を評価するために10分を持っている場合",
-    "🧠リポジトリ全体で適用する標準",
-    "✅プロフェッショナルスコープ",
-    "🧭経営・管理・非コーディングのキャリア機会",
-    "🤖AI-Assisted Development Flow(AI-Assisted Development Flow) 開発実績",
-    "📌利用条件",
-    "📬コンタクト"
+    {
+      "id": "hero",
+      "title": "Arquitectura, modernización, automatización e IA aplicada a proyectos reales.",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "resultados",
+      "title": "Resultados verificables",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "evolucion",
+      "title": "Pilares Técnicos Consolidados",
+      "min_level": 1,
+      "freelance_hidden": true
+    },
+    {
+      "id": "auditoria-ia",
+      "title": "Auditoría de código generado por IA",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "productos",
+      "title": "Productos descargables",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "proyectos",
+      "title": "Proyectos destacados",
+      "min_level": 1,
+      "freelance_hidden": true
+    },
+    {
+      "id": "demos",
+      "title": "Demos en vivo",
+      "min_level": 1,
+      "freelance_hidden": false
+    },
+    {
+      "id": "experiencia",
+      "title": "Experiencia",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "flujo-ia",
+      "title": "Flujo de desarrollo asistido por IA",
+      "min_level": 2,
+      "freelance_hidden": true
+    },
+    {
+      "id": "roles",
+      "title": "Alcance profesional real",
+      "min_level": 1,
+      "freelance_hidden": true
+    },
+    {
+      "id": "servicios",
+      "title": "Servicios",
+      "min_level": 2,
+      "freelance_hidden": false
+    },
+    {
+      "id": "modalidades",
+      "title": "Freelance · Modalidades de colaboración",
+      "min_level": 2,
+      "freelance_hidden": false
+    },
+    {
+      "id": "descargas",
+      "title": "Centro de Descargas",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "referencias",
+      "title": "Referencias laborales",
+      "min_level": 2,
+      "freelance_hidden": true
+    },
+    {
+      "id": "tarjeta",
+      "title": "Tarjeta de presentación",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "contacto",
+      "title": "Contacto",
+      "min_level": 0,
+      "freelance_hidden": false
+    }
   ],
   "artifacts": {
     "portfolio": "/assets/portafolio-japanese.pdf",

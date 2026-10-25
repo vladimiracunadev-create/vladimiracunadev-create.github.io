@@ -1,36 +1,125 @@
 {
   "meta": {
-    "generated_at": "2026-10-16",
+    "generated_at": "2026-10-25",
     "language": "th",
     "language_name": "Thai",
     "native_name": "ไทย",
     "direction": "ltr",
-    "source": "https://github.com/vladimiracunadev-create/vladimiracunadev-create/blob/main/README.th.md"
+    "content_language": "es",
+    "fallback_language": "es",
+    "source": "https://vladimiracunadev-create.github.io/index.html"
   },
   "profile": {
     "name": "Vladimir Acuña",
-    "title": "สถาปัตยกรรม ทาง แก้·แพ็ครุ่นน้อง·การแปลงภาพดิจิทัล·ปฏิบัติการการจัดการ",
-    "summary": "- 🔁 โม เด็ค ที่ สามารถ ทํา งาน ได้-โคลน วิ่ง มั่นใจ - 🧰 ตัวเล่นมาตรฐาน-เมคเฟช, ฮับ ซีแอลไอdoctorและsmokeต่อคลังเก็บของ - 🛡️ การป้องกันในความลึก-การสแกนลับ นโยบาย และกิจกรรมต้องห้าม - 📈 ความไวแสง — /health, /ready, /metricsหนวดและรอยขีดข่วน - 📚 เอกสารที่ปรากฏแก่ผู้ชม-คนรับสมัคร มือใหม่ เดวอป หรือ รปภ. ขึ้นอยู่กับคลังสินค้า - 📦 การกระจายตัวของโปรดักต์— เปิดตัวแบบดาวน์โหลดได้, Checksums, และสร้างหลักฐาน; ลายเซ็นการค้า/สโตร์ ที่ประกาศว่าใช้ได้ชั่วคราว - 🌍 การแบ่งเขตการปกครอง— ประวัติ ย่อ ใน 22 ภาษา (ส.·เอ็น·ขนาด PT·มัน·ฟิล์ม FR·ZH). - 🧭 ความซื่อสัตย์เชิงเทคนิค-ทุกคดีที่ถูกติดป้ายOPERATIONAL, DOCUMENTED/SCAFFOLDหรือPLANNED.",
+    "title": "Arquitectura, modernización, automatización e IA aplicada a proyectos reales.",
+    "summary": "Arquitecto de Soluciones · Senior Full-Stack · Líder Tecnológico . 16+ años liderando la evolución de plataformas. Especializado en modernización de sistemas legacy , automatización de procesos , cloud & CI/CD e integración de IA aplicada .",
     "website": "https://vladimiracunadev-create.github.io/i18n/th/",
     "github": "https://github.com/vladimiracunadev-create",
     "gitlab": "https://gitlab.com/vladimir.acuna.dev-group"
   },
+  "views": [
+    "recruiter",
+    "normal",
+    "deep",
+    "freelance"
+  ],
   "sections": [
-    "🎯สิ่งที่คุณจะพบที่นี่",
-    "✅สถานะที่ใช้ได้",
-    "🗺️ภาพรวมระบบนิเวศ",
-    "📦ผลิตภัณฑ์ที่มีการเผยแพร่จริง",
-    "🧪ห้องปฏิบัติการวิศวกรรม",
-    "🤖ปรับใช้ AI",
-    "📚หลักสูตรเทคนิคฉบับสมบูรณ์",
-    "🔬การประมวลผลเชิงวิทยาศาสตร์",
-    "⚡หากคุณมีเวลา 10 นาทีเพื่อประเมินผม",
-    "🧠มาตรฐานที่ผมใช้ในทุกคลัง",
-    "✅ขอบเขตงาน",
-    "🧭การจัดการ, การบริหาร, และโอกาสงานที่ไม่ประสบความสําเร็จ",
-    "🤖กระบวนการพัฒนาที่มี AI ช่วย",
-    "📌ความสามารถ",
-    "📬ติดต่อ"
+    {
+      "id": "hero",
+      "title": "Arquitectura, modernización, automatización e IA aplicada a proyectos reales.",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "resultados",
+      "title": "Resultados verificables",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "evolucion",
+      "title": "Pilares Técnicos Consolidados",
+      "min_level": 1,
+      "freelance_hidden": true
+    },
+    {
+      "id": "auditoria-ia",
+      "title": "Auditoría de código generado por IA",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "productos",
+      "title": "Productos descargables",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "proyectos",
+      "title": "Proyectos destacados",
+      "min_level": 1,
+      "freelance_hidden": true
+    },
+    {
+      "id": "demos",
+      "title": "Demos en vivo",
+      "min_level": 1,
+      "freelance_hidden": false
+    },
+    {
+      "id": "experiencia",
+      "title": "Experiencia",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "flujo-ia",
+      "title": "Flujo de desarrollo asistido por IA",
+      "min_level": 2,
+      "freelance_hidden": true
+    },
+    {
+      "id": "roles",
+      "title": "Alcance profesional real",
+      "min_level": 1,
+      "freelance_hidden": true
+    },
+    {
+      "id": "servicios",
+      "title": "Servicios",
+      "min_level": 2,
+      "freelance_hidden": false
+    },
+    {
+      "id": "modalidades",
+      "title": "Freelance · Modalidades de colaboración",
+      "min_level": 2,
+      "freelance_hidden": false
+    },
+    {
+      "id": "descargas",
+      "title": "Centro de Descargas",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "referencias",
+      "title": "Referencias laborales",
+      "min_level": 2,
+      "freelance_hidden": true
+    },
+    {
+      "id": "tarjeta",
+      "title": "Tarjeta de presentación",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "contacto",
+      "title": "Contacto",
+      "min_level": 0,
+      "freelance_hidden": false
+    }
   ],
   "artifacts": {
     "portfolio": "/assets/portafolio-thai.pdf",

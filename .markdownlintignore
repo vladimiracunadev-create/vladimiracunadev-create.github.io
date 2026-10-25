@@ -1,6 +1,7 @@
 node_modules/
 dist/
 site/
+assets/backups/
 .cache/
 apps/mobile/android/build/
 apps/mobile/ios/build/

@@ -1,36 +1,125 @@
 {
   "meta": {
-    "generated_at": "2026-10-16",
+    "generated_at": "2026-10-25",
     "language": "uk",
     "language_name": "Ukrainian",
     "native_name": "Українська",
     "direction": "ltr",
-    "source": "https://github.com/vladimiracunadev-create/vladimiracunadev-create/blob/main/README.uk.md"
+    "content_language": "es",
+    "fallback_language": "es",
+    "source": "https://vladimiracunadev-create.github.io/index.html"
   },
   "profile": {
     "name": "Vladimir Acuña",
-    "title": "Архітектор рішення·Старший повний ступінь·Цифрова трансформація·Управління та операції",
-    "summary": "- 🔁 Відтворюються демо— клон, біг, валід. - 🧰 Стандартний інструмент— Макефи, Хаб КЛІ,doctorйsmokeза репозиторію. - 🛡️ Захист глибини— секретне сканування, політики та явно заборонені практики. - 📈 Відповідальність — /health, /ready, /metrics, прилади, прилади, - 📚 Аудиторія-програма— рекрутер, початківця, DevOps, або безпека, в залежності від репозиторій. - 📦 Розподіл продуктів— завантажувальні релізи, контрольні та складові докази; підписи комерційного/магазину, заявлені у разі необхідності. - 🌍 Інтернаціоналізація— портфоліо 22 мов (ES)·СЕРЕДОВИЩА·ПТ·ЦЕНА ЗА ЧАС:·ФОП·ЗХ. - 🧭 Технічна чесність— кожен випадок, позначенийOPERATIONAL, DOCUMENTED/SCAFFOLDабоPLANNED.",
+    "title": "Arquitectura, modernización, automatización e IA aplicada a proyectos reales.",
+    "summary": "Arquitecto de Soluciones · Senior Full-Stack · Líder Tecnológico . 16+ años liderando la evolución de plataformas. Especializado en modernización de sistemas legacy , automatización de procesos , cloud & CI/CD e integración de IA aplicada .",
     "website": "https://vladimiracunadev-create.github.io/i18n/uk/",
     "github": "https://github.com/vladimiracunadev-create",
     "gitlab": "https://gitlab.com/vladimir.acuna.dev-group"
   },
+  "views": [
+    "recruiter",
+    "normal",
+    "deep",
+    "freelance"
+  ],
   "sections": [
-    "🎯Що ви знайдете тут",
-    "✅Вигідний статус",
-    "🗺️Екосистема на погляді",
-    "📦Продукція з реальним розподілом",
-    "🧪Інженерні лабораторії",
-    "🤖Прикладна AI",
-    "📚Повний технічний навчальний план",
-    "🔬Науковий склад",
-    "⚡Якщо ви маєте 10 хвилин, щоб оцінити мене",
-    "🧠Стандарти, які я застосовую в усіх репозиторіях",
-    "✅Професійний Scope",
-    "🧭Управління, адміністрування та незгодні можливості кар'єри",
-    "🤖Процес розробки за допомогою ШІ",
-    "📌Наявність",
-    "📬Контакти"
+    {
+      "id": "hero",
+      "title": "Arquitectura, modernización, automatización e IA aplicada a proyectos reales.",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "resultados",
+      "title": "Resultados verificables",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "evolucion",
+      "title": "Pilares Técnicos Consolidados",
+      "min_level": 1,
+      "freelance_hidden": true
+    },
+    {
+      "id": "auditoria-ia",
+      "title": "Auditoría de código generado por IA",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "productos",
+      "title": "Productos descargables",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "proyectos",
+      "title": "Proyectos destacados",
+      "min_level": 1,
+      "freelance_hidden": true
+    },
+    {
+      "id": "demos",
+      "title": "Demos en vivo",
+      "min_level": 1,
+      "freelance_hidden": false
+    },
+    {
+      "id": "experiencia",
+      "title": "Experiencia",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "flujo-ia",
+      "title": "Flujo de desarrollo asistido por IA",
+      "min_level": 2,
+      "freelance_hidden": true
+    },
+    {
+      "id": "roles",
+      "title": "Alcance profesional real",
+      "min_level": 1,
+      "freelance_hidden": true
+    },
+    {
+      "id": "servicios",
+      "title": "Servicios",
+      "min_level": 2,
+      "freelance_hidden": false
+    },
+    {
+      "id": "modalidades",
+      "title": "Freelance · Modalidades de colaboración",
+      "min_level": 2,
+      "freelance_hidden": false
+    },
+    {
+      "id": "descargas",
+      "title": "Centro de Descargas",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "referencias",
+      "title": "Referencias laborales",
+      "min_level": 2,
+      "freelance_hidden": true
+    },
+    {
+      "id": "tarjeta",
+      "title": "Tarjeta de presentación",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "contacto",
+      "title": "Contacto",
+      "min_level": 0,
+      "freelance_hidden": false
+    }
   ],
   "artifacts": {
     "portfolio": "/assets/portafolio-ukrainian.pdf",

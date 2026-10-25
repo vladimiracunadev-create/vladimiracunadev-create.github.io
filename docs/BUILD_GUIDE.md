@@ -1,8 +1,10 @@
 # 🛠️ Guía de Construcción y Distribución
 
-**Verificada:** 2026-10-16. El archivo se mantiene en UTF-8 y se controla con `python scripts/mojibake_probe.py .`.
+**Verificada:** 2026-10-25. El archivo se mantiene en UTF-8 y se controla con `python scripts/mojibake_probe.py .`.
 
 Esta guía detalla los pasos técnicos necesarios para transformar el núcleo web del portafolio en aplicaciones instalables para Windows, macOS y dispositivos móviles (Android/iOS).
+
+Antes de empaquetar, instala el generador con `python -m pip install -r scripts/requirements-i18n.txt` y ejecuta `python scripts/generate-expanded-locales.py`, `pnpm test`, `pnpm lint` y `pnpm build`. El generador toma contenido de `index.html` y contrato de `data/portfolio-i18n.json`; no consume `sources/profile-readme/`.
 
 ## Regeneración del paquete documental
 

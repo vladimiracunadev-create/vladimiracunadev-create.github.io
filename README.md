@@ -8,7 +8,7 @@
 
 Este repositorio alberga un **Portafolio de Alto Rendimiento** diseñado bajo la filosofía **KISS (Keep It Simple, Stupid)**. Se presenta como un núcleo estático puro, optimizado para la eficiencia extrema, que sirve de base para una arquitectura multiplataforma escalable (PWA + Mobile).
 
-**Estado verificado:** 2026-10-16. La web, la CV Data API, los generadores y los 154 PDFs públicos se sincronizan desde las mismas fuentes; los documentos previos se conservan en `assets/backups/2026-10-16/`.
+**Estado verificado:** 2026-10-25. `index.html` es la fuente profesional del sitio y de los Markdown/API localizados; `data/portfolio-i18n.json` define el contrato de 22 idiomas, 16 secciones y 4 vistas. Los README del perfil GitHub permanecen separados en `sources/profile-readme/`. El respaldo previo a esta corrección está en `assets/backups/2026-10-25/i18n-overhaul-v1/`.
 
 ---
 
@@ -47,7 +47,7 @@ Este proyecto ha escalado de un portafolio personal a un **Demostrador Industria
 5. **Cloud Profesional + GenAI**: 14/15 casos AWS completados (incluyendo Caso I GenAI con Bedrock + Claude Haiku 4.5 + Lambda + xray-sdk; Caso O X-Ray distribuido). Infra inmutable (Terraform), seguridad OIDC y FinOps. Cobertura por certificación: ~68% SAA-C03, ~68% DVA-C02, ~50% SOA-C02. EKS v1.32 + ECS Fargate.
 6. **Multiplatform Core**: un solo código fuente para Web, PWA y Apps Nativas (Capacitor). Python Data Science Program v3.8.0 con 232 clases en 9 partes incluye App Desktop Windows nativa (PySide6 + Qt + kernel Jupyter interactivo) y App Android (Expo SDK 51). ChofyAI Studio v0.5.1 corre en macOS Apple Silicon + soporte experimental Windows + NVIDIA GPU (Tauri + Rust + React, pnpm + SHA-512 lockfile).
 7. **IA Agéntica & Local-First + LLM Discoverability**: LangGraph v4.15 con 25/25 backends operativos (cobertura 100%), estado tipado y rutas condicionales. MCP + Ollama Local con Security & Trust Profile (Bandit + pip-audit + Semgrep + CodeQL + SBOM) y blueprint AWS migration. Discoverability semántica vía `llm.txt`.
-8. **Internacionalización Completa**: 22 idiomas (ES/EN/PT/IT/FR/ZH/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL) con 154 PDFs generados por pipeline Python/reportlab + Chromium — hoja de vida genérica, CVs ATS y reclutador, portafolio, carta de recomendación, nota de vigencia institucional y declaración de logros. Los 22 idiomas originales permanecen embebidos en la SPA; los otros 16 usan páginas estáticas completas derivadas de los README traducidos del perfil principal.
+8. **Internacionalización Completa**: 22 idiomas (ES/EN/PT/IT/FR/ZH/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL) con 154 PDFs generados por pipeline Python/reportlab + Chromium. Las seis traducciones inline se muestran en la misma SPA y toda clave ausente usa fallback español; las rutas `/i18n/{locale}/` conservan el idioma solicitado y entregan la misma navegación, componentes, tema y vistas.
 9. **Producto comercial Windows**: RootCause Windows Inspector v0.11.0 — diagnóstico forense escrito en Rust (edition 2024) con 5 ediciones publicadas (GUI Setup.exe, Portable .zip, CLI single-binary `rootcause.exe`, módulo PowerShell `.psm1`, extensión VS Code `.vsix`), ETW · WPR, SHA256SUMS por release, 11+ releases tagueadas. Landing en `/rootcause-windows-inspector/`.
 10. **Ingeniería curricular trazable**: Modern Software Engineering Program reúne 480 clases en 40 partes y 8 etapas. Lifelong Learning Ecosystem conecta 30 recorridos en 6 áreas sin contarse como programa adicional. Chilean School Learning Path alcanza 8.841 clases, 4.156 integraciones y 2.823 objetivos de aprendizaje desde 1° básico hasta 4° medio.
 
@@ -57,8 +57,8 @@ Este proyecto ha escalado de un portafolio personal a un **Demostrador Industria
 
 El sistema cuenta con un motor de **i18n (Internationalization)** e **Theming** de alto rendimiento:
 
-* **22 idiomas (ES/EN/PT/IT/FR/ZH/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL)**: los 22 idiomas originales cambian al instante dentro de la SPA; los otros 16 abren páginas completas en `/i18n/{locale}/`, cada una con sus siete PDF y endpoint JSON.
-* **3 vistas de lectura**: Reclutador, Normal y Profundo ajustan la densidad del contenido mediante `data-min-level` sin duplicar páginas.
+* **22 idiomas (ES/EN/PT/IT/FR/ZH/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL)**: una sola SPA conserva idioma, tema y vista. Seis idiomas tienen traducción inline; las claves ausentes hacen fallback a español y las descargas se resuelven para las 22 variantes.
+* **4 vistas de lectura**: Reclutador, Normal, Profundo y Freelance ajustan la densidad y relevancia mediante `data-min-level` y `data-freelance-hide` sin duplicar páginas.
 * **Controles al tope del contenido**: vista, idioma y tema encabezan la columna de lectura (`.content-controls`), no el pie del panel lateral; en escritorio la barra queda anclada al hacer scroll.
 * **Temas Dinámicos**: Modo Oscuro/Claro totalmente reactivo, respetando las preferencias del sistema y del usuario.
 * **Layout Adaptativo**: Estructura industrial capaz de manejar contenidos densos sin colapso visual.
@@ -161,6 +161,7 @@ Explora las guías detalladas según tu interés:
 ### 🛠️ Perfiles Técnicos & DevOps
 
 * [🛠️ **Guía de Construcción**](docs/BUILD_GUIDE.md): Pasos para generar APK, IPA y PWA Desktop.
+* [🌐 **Auditoría i18n 2026-10-25**](docs/I18N_AUDIT_2026-10-25.md): divergencias, correcciones, archivos y evidencia reproducible.
 * [🚀 **Construcción Directa (Android)**](docs/MOBILE_DIRECT_BUILD.md): Flujo rápido para generar APK desde Windows.
 * [📱 **Manual Mobile (Android/iOS)**](docs/GUIA_MAESTRA_MOBILE.md): Configuración profunda de Capacitor.
 * [🩹 **Solución de Problemas iOS**](docs/IOS_TROUBLESHOOTING.md): Guía de supervivencia en Xcode.
@@ -206,11 +207,11 @@ Para compartir ese binario, usa una **GitHub Release**; no lo subas al árbol no
 │   ├── skills.json          # Habilidades técnicas
 │   ├── artifacts.json       # Inventario de PDFs con 22 variantes c/u
 │   └── i18n/                # Perfil y artefactos localizados por idioma
-├── data/                    # JSON Resume canónico (resume.json)
+├── data/                    # Resume y contrato canónico portfolio-i18n.json
 ├── sources/extracted/       # Textos extraídos de PDFs (auditoría)
 ├── .github/workflows/       # Pipelines CI/CD (calidad, SEO, Lighthouse)
-├── i18n/                    # 22 páginas estáticas completas derivadas del README principal
-├── index.html               # SPA principal — 22 idiomas embebidos + acceso a 16 adicionales
+├── i18n/                    # 22 rutas de entrada a la SPA canónica
+├── index.html               # SPA principal — contenido profesional canónico
 ├── app.js                   # Lógica i18n, PDF routing multilingüe, vistas
 ├── robots.txt               # Directivas para crawlers de búsqueda
 ├── sitemap.xml              # Mapa del sitio para SEO
@@ -259,7 +260,7 @@ El currículum está publicado como **API JSON estática de solo lectura**, extr
 
 📑 [Manual completo → `cv-data-api.md`](cv-data-api.md)
 
-Los artefactos públicos disponen de variantes en **22 idiomas (ES/EN/PT/IT/FR/ZH/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL)**. La SPA cambia las descargas de sus 22 idiomas embebidos; cada página adicional enlaza directamente sus siete PDF. Además, se incorporó una **Declaración de Logros y Validación** como respaldo separado: resume logros observables y facilita validación externa sin reemplazar el CV ni el portafolio principal. Las cartas de recomendación también están disponibles en los 22 idiomas.
+Los artefactos públicos disponen de variantes en **22 idiomas (ES/EN/PT/IT/FR/ZH/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL)**. La SPA resuelve las siete descargas del idioma solicitado mediante el mapa canónico de sufijos. Además, se incorporó una **Declaración de Logros y Validación** como respaldo separado: resume logros observables y facilita validación externa sin reemplazar el CV ni el portafolio principal. Las cartas de recomendación también están disponibles en los 22 idiomas.
 
 El sitio también enlaza documentación pública de repos clave cuando existe (`README.md` y, en algunos casos, `RECRUITER.md`) para reducir fricción de evaluación técnica y de reclutamiento.
 

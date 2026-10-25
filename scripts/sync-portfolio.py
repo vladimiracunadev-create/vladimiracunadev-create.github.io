@@ -1040,7 +1040,7 @@ def git_commit_push(new_repos, skip_pdfs, no_push, apply=False):
     log("Preparando commit...", "HEAD")
 
     files = ["api/v1/", "CHANGELOG.md", "index.html", "i18n/", "docs/i18n/",
-             "scripts/generate-all-languages.py", "scripts/generate-portfolio.py",
+             "data/portfolio-i18n.json", "scripts/generate-all-languages.py", "scripts/generate-portfolio.py",
              "scripts/generate-expanded-locales.py"]
     if not skip_pdfs:
         files.append("assets/")

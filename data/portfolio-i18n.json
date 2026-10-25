@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "default_locale": "es",
+  "fallback_locale": "es",
+  "content_source": "index.html",
+  "profile_readme_source": "sources/profile-readme/",
+  "views": [
+    "recruiter",
+    "normal",
+    "deep",
+    "freelance"
+  ],
+  "inline_locales": [
+    "es",
+    "en",
+    "pt",
+    "it",
+    "fr",
+    "zh"
+  ],
+  "locales": [
+    { "code": "es", "suffix": "", "native_name": "Español", "english_name": "Spanish", "direction": "ltr" },
+    { "code": "en", "suffix": "-english", "native_name": "English", "english_name": "English", "direction": "ltr" },
+    { "code": "pt", "suffix": "-portuguese", "native_name": "Português", "english_name": "Portuguese", "direction": "ltr" },
+    { "code": "it", "suffix": "-italian", "native_name": "Italiano", "english_name": "Italian", "direction": "ltr" },
+    { "code": "fr", "suffix": "-french", "native_name": "Français", "english_name": "French", "direction": "ltr" },
+    { "code": "zh", "suffix": "-chinese", "native_name": "简体中文", "english_name": "Simplified Chinese", "direction": "ltr" },
+    { "code": "zh-TW", "suffix": "-traditional-chinese", "native_name": "繁體中文", "english_name": "Traditional Chinese", "direction": "ltr" },
+    { "code": "ja", "suffix": "-japanese", "native_name": "日本語", "english_name": "Japanese", "direction": "ltr" },
+    { "code": "ko", "suffix": "-korean", "native_name": "한국어", "english_name": "Korean", "direction": "ltr" },
+    { "code": "tr", "suffix": "-turkish", "native_name": "Türkçe", "english_name": "Turkish", "direction": "ltr" },
+    { "code": "ru", "suffix": "-russian", "native_name": "Русский", "english_name": "Russian", "direction": "ltr" },
+    { "code": "vi", "suffix": "-vietnamese", "native_name": "Tiếng Việt", "english_name": "Vietnamese", "direction": "ltr" },
+    { "code": "th", "suffix": "-thai", "native_name": "ไทย", "english_name": "Thai", "direction": "ltr" },
+    { "code": "de", "suffix": "-german", "native_name": "Deutsch", "english_name": "German", "direction": "ltr" },
+    { "code": "uk", "suffix": "-ukrainian", "native_name": "Українська", "english_name": "Ukrainian", "direction": "ltr" },
+    { "code": "pl", "suffix": "-polish", "native_name": "Polski", "english_name": "Polish", "direction": "ltr" },
+    { "code": "ar", "suffix": "-arabic", "native_name": "العربية", "english_name": "Arabic", "direction": "rtl" },
+    { "code": "fa", "suffix": "-persian", "native_name": "فارسی", "english_name": "Persian", "direction": "rtl" },
+    { "code": "id", "suffix": "-indonesian", "native_name": "Bahasa Indonesia", "english_name": "Indonesian", "direction": "ltr" },
+    { "code": "nl", "suffix": "-dutch", "native_name": "Nederlands", "english_name": "Dutch", "direction": "ltr" },
+    { "code": "hi", "suffix": "-hindi", "native_name": "हिन्दी", "english_name": "Hindi", "direction": "ltr" },
+    { "code": "el", "suffix": "-greek", "native_name": "Ελληνικά", "english_name": "Greek", "direction": "ltr" }
+  ],
+  "sections": [
+    { "id": "hero", "selector": "section.hero", "min_level": 0, "freelance_hidden": false },
+    { "id": "resultados", "selector": "#resultados", "title": "Resultados verificables", "min_level": 0, "freelance_hidden": false },
+    { "id": "evolucion", "selector": "#evolucion", "min_level": 1, "freelance_hidden": true },
+    { "id": "auditoria-ia", "selector": "#auditoria-ia", "min_level": 0, "freelance_hidden": false },
+    { "id": "productos", "selector": "#productos", "min_level": 0, "freelance_hidden": false },
+    { "id": "proyectos", "selector": "#proyectos", "min_level": 1, "freelance_hidden": true },
+    { "id": "demos", "selector": "#demos", "min_level": 1, "freelance_hidden": false },
+    { "id": "experiencia", "selector": "#experiencia", "min_level": 0, "freelance_hidden": false },
+    { "id": "flujo-ia", "selector": "#flujo-ia", "min_level": 2, "freelance_hidden": true },
+    { "id": "roles", "selector": "#roles", "min_level": 1, "freelance_hidden": true },
+    { "id": "servicios", "selector": "#servicios", "min_level": 2, "freelance_hidden": false },
+    { "id": "modalidades", "selector": "#modalidades", "min_level": 2, "freelance_hidden": false },
+    { "id": "descargas", "selector": "#descargas", "min_level": 0, "freelance_hidden": false },
+    { "id": "referencias", "selector": "#referencias", "min_level": 2, "freelance_hidden": true },
+    { "id": "tarjeta", "selector": "#tarjeta", "min_level": 0, "freelance_hidden": false },
+    { "id": "contacto", "selector": "#contacto", "min_level": 0, "freelance_hidden": false }
+  ]
+}

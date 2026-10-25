@@ -1,36 +1,125 @@
 {
   "meta": {
-    "generated_at": "2026-10-16",
+    "generated_at": "2026-10-25",
     "language": "ar",
     "language_name": "Arabic",
     "native_name": "العربية",
     "direction": "rtl",
-    "source": "https://github.com/vladimiracunadev-create/vladimiracunadev-create/blob/main/README.ar.md"
+    "content_language": "es",
+    "fallback_language": "es",
+    "source": "https://vladimiracunadev-create.github.io/index.html"
   },
   "profile": {
     "name": "Vladimir Acuña",
-    "title": "Solution Architect·أقدم مجموعة كاملة·التحول الرقمي·العمليات الإدارية",
-    "summary": "- 🔁 التخفيضات القابلة للتكاثر- مستنسخة، تشغيل، والتحقق. - 🧰 الأدوات الموحدة-المكافآت، (هوب كلي)doctorوsmokeلكل مستودع - 🛡️ الدفاع بعمق- المسح السري والسياسات والممارسات المحظورة صراحة. - 📈 القابلية للاحترام — /health, /ready, /metricsلوحات الـ (داش) و (التعقب) - 📚 وثائق التوعية بالسمعة- المجند، المبتدئ، الفيروس، أو الأمن، حسب المستودع. - 📦 توزيع المنتجات- الإطلاقات القابلة للحمل، والخصوم، وبناء الأدلة؛ والتوقيعات التجارية/التاريخية التي يُعلن أنها معلقة عند الاقتضاء. - 🌍 التدنيس- حافظة بست لغات )الإيسا(·EN·PT·هو·FR·ZH. - 🧭 الأمانة التقنية- كل حالة تحمل اسماOPERATIONAL, DOCUMENTED/SCAFFOLDأوPLANNED.",
+    "title": "Arquitectura, modernización, automatización e IA aplicada a proyectos reales.",
+    "summary": "Arquitecto de Soluciones · Senior Full-Stack · Líder Tecnológico . 16+ años liderando la evolución de plataformas. Especializado en modernización de sistemas legacy , automatización de procesos , cloud & CI/CD e integración de IA aplicada .",
     "website": "https://vladimiracunadev-create.github.io/i18n/ar/",
     "github": "https://github.com/vladimiracunadev-create",
     "gitlab": "https://gitlab.com/vladimir.acuna.dev-group"
   },
+  "views": [
+    "recruiter",
+    "normal",
+    "deep",
+    "freelance"
+  ],
   "sections": [
-    "🎯ما الذي ستجده هنا",
-    "✅الحالة التي يمكن التحقق منها",
-    "🗺️النظام الإيكولوجي في غلاف",
-    "📦المنتجات ذات التوزيع الحقيقي",
-    "🧪المختبرات الهندسية",
-    "🤖الذكاء الاصطناعي التطبيقي",
-    "📚المناهج التقنية الكاملة",
-    "🔬الحوسبة العلمية",
-    "⚡إذا كان لديك 10 دقائق لتقييمي",
-    "🧠المعايير التي أطبقها في جميع أنحاء المخازن",
-    "✅النطاق المهني",
-    "🧭فرص العمل في مجالات الإدارة والإدارة وغير الترميز",
-    "🤖سير التطوير بمساعدة الذكاء الاصطناعي",
-    "📌توافر",
-    "📬الاتصال"
+    {
+      "id": "hero",
+      "title": "Arquitectura, modernización, automatización e IA aplicada a proyectos reales.",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "resultados",
+      "title": "Resultados verificables",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "evolucion",
+      "title": "Pilares Técnicos Consolidados",
+      "min_level": 1,
+      "freelance_hidden": true
+    },
+    {
+      "id": "auditoria-ia",
+      "title": "Auditoría de código generado por IA",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "productos",
+      "title": "Productos descargables",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "proyectos",
+      "title": "Proyectos destacados",
+      "min_level": 1,
+      "freelance_hidden": true
+    },
+    {
+      "id": "demos",
+      "title": "Demos en vivo",
+      "min_level": 1,
+      "freelance_hidden": false
+    },
+    {
+      "id": "experiencia",
+      "title": "Experiencia",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "flujo-ia",
+      "title": "Flujo de desarrollo asistido por IA",
+      "min_level": 2,
+      "freelance_hidden": true
+    },
+    {
+      "id": "roles",
+      "title": "Alcance profesional real",
+      "min_level": 1,
+      "freelance_hidden": true
+    },
+    {
+      "id": "servicios",
+      "title": "Servicios",
+      "min_level": 2,
+      "freelance_hidden": false
+    },
+    {
+      "id": "modalidades",
+      "title": "Freelance · Modalidades de colaboración",
+      "min_level": 2,
+      "freelance_hidden": false
+    },
+    {
+      "id": "descargas",
+      "title": "Centro de Descargas",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "referencias",
+      "title": "Referencias laborales",
+      "min_level": 2,
+      "freelance_hidden": true
+    },
+    {
+      "id": "tarjeta",
+      "title": "Tarjeta de presentación",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "contacto",
+      "title": "Contacto",
+      "min_level": 0,
+      "freelance_hidden": false
+    }
   ],
   "artifacts": {
     "portfolio": "/assets/portafolio-arabic.pdf",

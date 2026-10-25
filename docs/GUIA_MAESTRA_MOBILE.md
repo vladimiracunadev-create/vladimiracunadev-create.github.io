@@ -58,6 +58,8 @@ Para generar archivos **IPA**:
 
 Cada vez que realices un cambio en el código web (raíz del proyecto), debes sincronizarlo con las plataformas móviles:
 
+La sincronización incluye `index.html`, `app.js`, `styles.css`, las 22 rutas `i18n/`, `api/` y `data/portfolio-i18n.json`. Por eso idioma, tema, cuatro vistas, RTL y fallback se comportan igual en navegador, PWA, Android e iOS.
+
 ### Operación en un solo paso
 
 - **Para iOS (en macOS)**:

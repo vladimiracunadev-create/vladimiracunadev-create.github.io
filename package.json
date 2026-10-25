@@ -3,10 +3,12 @@
     "version": "2.5.0",
     "description": "Static portfolio with CI/CD",
     "scripts": {
-        "test": "node scripts/validate.js",
+        "test": "node scripts/validate.js && node scripts/validate-i18n.js",
+        "test:i18n": "node scripts/validate-i18n.js",
+        "test:functional:i18n": "node scripts/functional-i18n-smoke.js",
         "validate": "node scripts/validate.js",
         "lint:html": "html-validate \"index.html\" \"offline.html\" \"i18n/**/*.html\" \"experiencia-3d/**/*.html\" \"servicios/**/*.html\"",
-        "lint:md": "markdownlint-cli2 \"**/*.md\" \"!**/node_modules/**\" \"!.gradle-user-home/**\" \"!.gradle-user-home-*/**\" \"!dist/**\" \"!site/**\" \"!sources/profile-readme/**\" \"!docs/i18n/**\"",
+        "lint:md": "markdownlint-cli2 \"**/*.md\" \"!**/node_modules/**\" \"!.gradle-user-home/**\" \"!.gradle-user-home-*/**\" \"!dist/**\" \"!site/**\" \"!assets/backups/**\" \"!sources/profile-readme/**\" \"!docs/i18n/**\"",
         "lint": "pnpm lint:html && pnpm lint:md",
         "sitemap": "node scripts/generate-seo.js",
         "build": "node scripts/build.js",
@@ -21,8 +23,5 @@
         "@lhci/cli": "^0.13.0"
     },
     "private": true,
-    "packageManager": "pnpm@11.0.0",
-    "pnpm": {
-        "onlyBuiltDependencies": []
-    }
+    "packageManager": "pnpm@11.0.0"
 }

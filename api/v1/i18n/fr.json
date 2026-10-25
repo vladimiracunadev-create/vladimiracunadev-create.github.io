@@ -1,36 +1,125 @@
 {
   "meta": {
-    "generated_at": "2026-10-16",
+    "generated_at": "2026-10-25",
     "language": "fr",
     "language_name": "French",
     "native_name": "Français",
     "direction": "ltr",
-    "source": "https://github.com/vladimiracunadev-create/vladimiracunadev-create/blob/main/README.fr.md"
+    "content_language": "fr",
+    "fallback_language": "es",
+    "source": "https://vladimiracunadev-create.github.io/index.html"
   },
   "profile": {
     "name": "Vladimir Acuña",
-    "title": "Architecte de Solutions · Senior Full-Stack · Transformation Numérique · Gestion et Opérations",
-    "summary": "- 🔁 Démos reproductibles — cloner, exécuter, valider. - 🧰 Outillage standardisé — Makefiles, Hub CLI, doctor et smoke par dépôt. - 🛡️ Défense en profondeur — secret scanning, politiques et pratiques interdites explicites. - 📈 Observabilité — /health, /ready, /metrics, dashboards et traçabilité. - 📚 Documentation par audience — recruteur, débutant, DevOps ou sécurité selon le dépôt. - 📦 Distribution comme produit — releases téléchargeables, checksums et preuves de build ; signatures commerciales/store indiquées comme en cours quand applicable. - 🌍 Internationalisation — portfolio en 22 langues (ES · EN · PT · IT · FR · ZH · ZH-TW · JA · KO · TR · RU · VI · TH · DE · UK · PL · AR · FA · ID · NL · HI · EL). - 🧭 Honnêteté technique — chaque cas marqué OPÉRATIONNEL, DOCUMENTÉ/SCAFFOLD ou PLANIFIÉ.",
+    "title": "Architecture, modernisation, automatisation et IA appliquée à des projets réels.",
+    "summary": "Architecte de Solutions · Senior Full-Stack · Leader Technologique . 16+ ans à piloter l'évolution des plateformes. Spécialisé en modernisation de systèmes legacy , automatisation des processus , cloud & CI/CD et intégration d'IA appliquée .",
     "website": "https://vladimiracunadev-create.github.io/i18n/fr/",
     "github": "https://github.com/vladimiracunadev-create",
     "gitlab": "https://gitlab.com/vladimir.acuna.dev-group"
   },
+  "views": [
+    "recruiter",
+    "normal",
+    "deep",
+    "freelance"
+  ],
   "sections": [
-    "🎯 Ce Que Vous Trouverez Ici",
-    "✅ État Vérifiable",
-    "🗺️ L’Écosystème En Un Coup D’Œil",
-    "📦 Produits Avec Distribution Réelle",
-    "🧪 Laboratoires D’Ingénierie",
-    "🤖 IA Appliquée",
-    "📚 Cursus Techniques Complets",
-    "🔬 Calcul Scientifique",
-    "⚡ Si Vous Avez 10 Minutes Pour M’Évaluer",
-    "🧠 Standards Que J’Applique Dans Tous Les Dépôts",
-    "✅ Périmètre Professionnel",
-    "🧭 Gestion, Administration et Opportunités Professionnelles sans Programmation",
-    "🤖 Flux De Développement Assisté Par IA",
-    "📌 Disponibilité",
-    "📬 Contact"
+    {
+      "id": "hero",
+      "title": "Architecture, modernisation, automatisation et IA appliquée à des projets réels.",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "resultados",
+      "title": "Resultados verificables",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "evolucion",
+      "title": "Piliers Techniques Consolidés",
+      "min_level": 1,
+      "freelance_hidden": true
+    },
+    {
+      "id": "auditoria-ia",
+      "title": "Audit du code généré par IA",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "productos",
+      "title": "Produits téléchargeables",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "proyectos",
+      "title": "Projets en vedette",
+      "min_level": 1,
+      "freelance_hidden": true
+    },
+    {
+      "id": "demos",
+      "title": "Démos en direct",
+      "min_level": 1,
+      "freelance_hidden": false
+    },
+    {
+      "id": "experiencia",
+      "title": "Expérience",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "flujo-ia",
+      "title": "Flux de développement assisté par IA",
+      "min_level": 2,
+      "freelance_hidden": true
+    },
+    {
+      "id": "roles",
+      "title": "Portée professionnelle réelle",
+      "min_level": 1,
+      "freelance_hidden": true
+    },
+    {
+      "id": "servicios",
+      "title": "Services",
+      "min_level": 2,
+      "freelance_hidden": false
+    },
+    {
+      "id": "modalidades",
+      "title": "Freelance · Modalités de collaboration",
+      "min_level": 2,
+      "freelance_hidden": false
+    },
+    {
+      "id": "descargas",
+      "title": "Centre de Téléchargements",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "referencias",
+      "title": "Références professionnelles",
+      "min_level": 2,
+      "freelance_hidden": true
+    },
+    {
+      "id": "tarjeta",
+      "title": "Carte de visite",
+      "min_level": 0,
+      "freelance_hidden": false
+    },
+    {
+      "id": "contacto",
+      "title": "Contact",
+      "min_level": 0,
+      "freelance_hidden": false
+    }
   ],
   "artifacts": {
     "portfolio": "/assets/portafolio-french.pdf",

@@ -7,7 +7,7 @@
  * Categories:
  *   1. CSP & Security — no inline styles/scripts
  *   2. PDF Integrity — all referenced PDFs exist, correct targets
- *   3. Localization — six inline SPA languages plus 22 complete locale routes
+ *   3. Localization — six inline translations plus 22 canonical SPA entry routes
  *   4. View System — data-min-level attributes valid
  *   5. JSON API — all endpoints valid JSON
  *   6. PWA — manifest, service worker, offline page
@@ -26,6 +26,7 @@ const LOCALES = [
 ];
 const EXPECTED_PDF_COUNT = 154;
 const VIEWS = ["0", "1", "2"];
+const I18N_CONTRACT = "data/portfolio-i18n.json";
 
 let errors = [];
 let warnings = [];
@@ -233,6 +234,23 @@ function checkLocalization() {
     }
   }
 
+  if (!fileExists(I18N_CONTRACT)) {
+    fail(`Localization: Missing canonical contract ${I18N_CONTRACT}`);
+  } else {
+    const contract = JSON.parse(readFile(I18N_CONTRACT));
+    const contractLocales = (contract.locales || []).map(locale => locale.code);
+    if (JSON.stringify(contractLocales) === JSON.stringify(LOCALES)) {
+      ok("Localization: Canonical contract defines the expected 22 locales in order");
+    } else {
+      fail("Localization: Canonical locale contract differs from runtime locale order");
+    }
+    if (contract.content_source === "index.html" && contract.fallback_locale === "es") {
+      ok("Localization: Portfolio content source and Spanish fallback are canonical");
+    } else {
+      fail("Localization: Canonical source must be index.html with es fallback");
+    }
+  }
+
   const localeIndex = JSON.parse(readFile("api/v1/i18n/index.json"));
   if ((localeIndex.languages || []).length === LOCALES.length) {
     ok(`Localization: API index lists ${LOCALES.length} locales`);
@@ -271,10 +289,10 @@ function checkViews() {
   }
 
   // Check view buttons exist (uses data-view-btn attribute)
-  if (html.includes('data-view-btn="recruiter"') && html.includes('data-view-btn="normal"') && html.includes('data-view-btn="deep"')) {
-    ok("Views: All 3 view buttons present");
+  if (html.includes('data-view-btn="recruiter"') && html.includes('data-view-btn="normal"') && html.includes('data-view-btn="deep"') && html.includes('data-view-btn="freelance"')) {
+    ok("Views: All 4 view buttons present");
   } else {
-    fail("Views: Missing one or more view buttons (recruiter/normal/deep)");
+    fail("Views: Missing one or more view buttons (recruiter/normal/deep/freelance)");
   }
 }
 
@@ -453,6 +471,7 @@ function checkStructure() {
     "service-worker.js",
     "manifest.webmanifest",
     "offline.html",
+    I18N_CONTRACT,
     "package.json",
   ];
 

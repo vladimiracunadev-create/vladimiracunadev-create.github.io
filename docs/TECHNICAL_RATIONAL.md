@@ -24,7 +24,9 @@ Hemos elegido **HTML, CSS y JS puro** porque:
 
 ### Internationalization (i18n) de Alto Rendimiento
 
-La internacionalización usa dos capas compatibles. Los 22 idiomas originales mantienen **visibilidad pasiva** mediante `data-es`, `data-en`, `data-pt`, `data-it`, `data-fr` y `data-zh`, por lo que cambian al instante dentro de la SPA. Los otros 122 idiomas se generan como páginas estáticas completas en `/i18n/{locale}/` desde los README traducidos del perfil principal. Esta capa evita multiplicar por 22 el DOM de la SPA y permite tipografía RTL, CJK, devanagari y tailandesa con documentos y endpoints propios.
+La internacionalización usa una sola SPA y un contrato estructurado en `data/portfolio-i18n.json`. Seis traducciones inline mantienen visibilidad pasiva mediante `data-es`, `data-en`, `data-pt`, `data-it`, `data-fr` y `data-zh`; para cualquiera de los 22 locales, una clave ausente hace fallback a español. Las rutas `/i18n/{locale}/` son entradas a esa misma SPA, no copias del README del perfil. `app.js` persiste idioma, tema y vista, actualiza `html.lang`/`dir`, activa RTL para árabe y persa y resuelve las 22 variantes PDF.
+
+Los Markdown en `docs/i18n/` y los contratos de `api/v1/i18n/` se generan desde las 16 secciones de `index.html`. `sources/profile-readme/` conserva la documentación del perfil GitHub como superficie independiente.
 
 ### Temas Dinámicos Reales (Dark/Light)
 
