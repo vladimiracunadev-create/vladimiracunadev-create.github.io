@@ -4,549 +4,549 @@
 <!-- locale:tr; catalog:portfolio-translations.json; fallback:es -->
 <!-- views:recruiter,normal,deep,freelance -->
 
-## Mimari, modernizasyon, otomasyon ve IA gerçek projelere uygulanır.
+## Gerçek projelere uygulanan mimari, modernizasyon, otomasyon ve yapay zeka.
 
 <!-- portfolio-section:hero -->
 
-Çözümlerin mimarı · Senior Full-Stack · Teknolojik Lider . 16 + yıl platformların evrimine yol açtı. Özelleştir in Yasal sistemlerin modernizasyonu , Süreç otomasyon süreci otomasyon , bulut & CI / CD e Bütünleşik Uygulama IA .
+Çözüm Mimarı · Kıdemli Tam Yığın · Teknoloji Lideri . 16 yılı aşkın süredir evrime öncülük ediyor platformlardan oluşuyor. Uzmanlaşmış eski sistemlerin modernizasyonu , otomasyon süreçler , bulut ve CI/CD e Yapay zeka entegrasyonu uygulanan .
 
-IA tarafından desteklenen geliştirme akışı - ChatGPT Plus · Claude Code · Antigravity - teknik kriterler ve insan doğrulama ile.
+Yapay zeka destekli geliştirme akışı — ChatGPT Plus · Claude Kodu · Antigravity — kendi teknik kriterleri ve insan doğrulaması ile.
 
-Interface için hazır Birden çok dil dili , vistas Reclute / Normal / Derin / Freelance , tema Işık / karanlık ve dağıtım Web, PWA ve Pul .
+Arayüz şunun için hazırlandı: birden fazla dil , görüntülemeler İşveren / Normal / Derin / Serbest Çalışan , tema açık / karanlık ve dağıtım web, PWA ve APK .
 
-Güncellenen portföydeki bilgiler güncellere kadar 2026-10-25, 13:28 (Amerika / Santiago).
+Portföy bilgileri şu tarihten itibaren güncellendi: 2026-10-25, 13:28 (Amerika/Santiago).
 
-### Kim profesyonel olarak profesyonel olarakyim
+### Profesyonel olarak ben kimim
 
-Ben mühendislik, gerçek operasyon ve ilerici modernizasyon temelinde çözüm ve Kıdemli Full-Stack mimarım.İşim, otomasyon, bulut / CIC, gözlemlenebilirlik ve IA sistemleri kendi teknik kriteriyle uygulanır.
+Ben mühendislik, gerçek operasyon ve ilerici modernizasyona dayalı bir Çözüm Mimarı ve Kıdemli Full Stack'im. Çalışmam eski sistemler, otomasyon, bulut/CI-CD, gözlemlenebilirlik ve kendi teknik kriterleriyle uygulanan yapay zekanın kesişim noktasındadır.
 
-Karmaşık bağlamlarla rahatım, stabilizasyon işlemi, teknik kararlara gereksinimleri tercüme ediyorum ve uygulanabilir bakım inşa etmiyorum. genel ifadelerden çalışmaıyorum: kısıtlamaları, riskleri, sorumlu ve bir sonraki somut adımları kaldırmayı tercih ediyorum.
+Karmaşık bağlamları organize etme, operasyonları istikrara kavuşturma, gereksinimleri teknik kararlara dönüştürme ve sürdürülebilir teslimatlar oluşturma konusunda rahatım. Genel ifadelerle çalışmıyorum: Kısıtlamaları, riskleri, sorumlu tarafları ve sonraki somut adımları öne çıkarmayı tercih ediyorum.
 
-### My Industrial Standard
+### Endüstriyel Standardım
 
-- Observability: Grafana'daki Dashboards siyah kutuları kaldırmak için.
+- Gözlemlenebilirlik: Kara kutuları ortadan kaldırmak için Grafana'daki kontrol panelleri.
 
-- Resilience: Devre kesiciler ve idempotency (Guarrails).
+- Esneklik: Devre kesiciler ve geçici güç (Korkuluklar).
 
-- Bulut & FinOps: 15 AWS vakası (ECS / EKS, Lambda, DynamoDB, Cognito, EventBridge, CloudWatch / X-Ray), OIDC ve FinOps.
+- Bulut ve FinOps: 15 AWS vakası (ECS/EKS, Lambda, DynamoDB, Cognito, EventBridge, CloudWatch/X-Ray), OIDC ve FinOps.
 
-- Geliştirici Deneyimi: Hub CLI, testlerin doktoru ‘ve’ sigara ‘, DevContainers.
+- Geliştirici Deneyimi: Hub CLI, 'doktor' ve 'duman' testleri, DevContainers.
 
-- Güvenlik: Sık sık, tfsec, pre-commit kancaları, IAM en az ayrıcalık ve gizli tarama.
+- Güvenlik: gitleaks, tfsec, ön işleme kancaları, IAM en az ayrıcalığı ve gizli tarama.
 
-- Serverless & Event-Driven: Lambda / SAM, DynamoDB, EventBridge, SQS / SNS ve Cognito.
+- Sunucusuz ve Olay Odaklı: Lambda/SAM, DynamoDB, EventBridge, SQS/SNS ve Cognito.
 
-### İşe alımdan gelirseniz
+### Askere alımdan geliyorsanız
 
-Ana kimlik:
+Birincil Kimlik:
 
-Fortalers: Modernizasyon mirası · otomasyon · bulut / Cic-CD · IA uygulamalı · dağıtılmış işbirliği.
+Güçlü Yönler: eski modernizasyon · otomasyon · bulut/CI-CD · Uygulamalı yapay zeka · dağıtılmış işbirliği.
 
-Ayrıca roller de üstlenebilirim Teknoloji Lideri / Tech Lead Yapılı, modernize mevcut sistemlere ihtiyaç duyan ekipmanda, teknik standartları ve gelişimle bağlantılı iş tanımlamıştır.
+Ayrıca şu rolleri de üstlenebilirim: Líder Tecnológico / Tech Lead mimariyi organize etmesi, mevcut sistemleri modernize etmesi, teknik standartları tanımlaması ve iş ile geliştirme arasında bağlantı kurması gereken ekiplerde.
 
-- CV veya portföyünüzü dilinizde indirin.
+- Kendi dilinizdeki CV'yi veya portföyü indirin.
 
-- Özet başarıları ve dış doğrulamayı inceler.
+- Özet başarıları ve harici doğrulamayı inceleyin.
 
-- Açık OKME veya RECRUITER.md anahtar yeniden.
+- Anahtar depolarında README veya RECRUITER.md dosyasını açın.
 
-### Nasıl Repos'umda görünüyor
+### Depolarımda nasıl görünüyor
 
-Tekrarroducible, IaC (Terraform), CI / CD GitHub ve GitLab, sunucusuz (Lambda / SAM), etkinlik odaklı ( EventBridge / SQS / SNS), güvenlik (gitleaks / tfsec / OIDC) ve profil belgeleri. 15 AWS vakaları GitLab monorep'te doğrulandı.
+Tekrarlanabilir demolar, IaC (Terraform), GitHub ve GitLab'da CI/CD, sunucusuz (Lambda/SAM), olay odaklı (EventBridge/SQS/SNS), güvenlik (gitleaks/tfsec/OIDC) ve profil başına belgeler. GitLab monorepo'da doğrulanan 15 AWS vakası.
 
-[Konuşalım](https://vladimiracunadev-create.github.io/#contacto)
+[Hadi konuşalım](https://vladimiracunadev-create.github.io/#contacto)
 
-[Ürünleri Gör](https://vladimiracunadev-create.github.io/#productos)
+[Ürünleri gör](https://vladimiracunadev-create.github.io/#productos)
 
 [AI Kod Denetimi](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/)
 
-[Projeleri Gör](https://vladimiracunadev-create.github.io/#proyectos)
+[Projelere bakın](https://vladimiracunadev-create.github.io/#proyectos)
 
-[Demoları Gör](https://vladimiracunadev-create.github.io/#demos)
+[Demolara bakın](https://vladimiracunadev-create.github.io/#demos)
 
-[Belgeler Görül](https://vladimiracunadev-create.github.io/#descargas)
+[Belgeleri görüntüle](https://vladimiracunadev-create.github.io/#descargas)
 
-[Geçerlilik](https://vladimiracunadev-create.github.io/#referencias)
+[Doğrulamaya bakın](https://vladimiracunadev-create.github.io/#referencias)
 
-[See scope](https://vladimiracunadev-create.github.io/#roles)
+[Kapsamı görüntüle](https://vladimiracunadev-create.github.io/#roles)
 
 ## Resultados verificables
 
 <!-- portfolio-section:resultados -->
 
-Kritik süreçlerde tahmin edilen iyileşme ve raporlar
+mejora estimada en procesos críticos y reportes
 
-Online Battery'te daha az operasyonel sürtünme ve destek
+Battery Online'da daha az operasyonel sürtünme ve destek
 
-DB / kod bileşenlerindeki yaklaşık optimizasyon
+Veritabanı bileşenlerinde/kodunda yaklaşık optimizasyon
 
-Eş zamanlı cepheler belirli dönemlerde katıldı
+belirli dönemlerde hizmet veren eşzamanlı cepheler
 
-## Consolidated Technical Pillars
+## Birleştirilmiş Teknik Sütunlar
 
 <!-- portfolio-section:evolucion -->
 
-Endüstriyel standartlar doğrulanabilir ekosisteme karşı transverse uygulanır: 14 AWS vakası, 25 LangGraph sırt uçları işletimi (% 100 kapsama), 12 Docker laboratuvarı, 12 mikrosistem ve 60 işletim durumu Problem Driven Systems Lab (12 × 5 yığın) - tüm gözlemlenebilirlik, sertleştirme ve reproditeability.
+Doğrulanabilir ekosistemin tamamında çapraz olarak uygulanan endüstri standartları: 14 AWS vakası, 25 operasyonel LangGraph arka ucu (%100 kapsam), 12 Docker laboratuvarı, 12 mikrosistem ve Problem Odaklı Sistemler Laboratuvarı'nda 60 operasyonel vaka (12 × 5 yığın) — tümü gözlemlenebilirlik, sağlamlaştırma ve tekrarlanabilirlik ile birlikte.
 
-### 📈 Endüstriyel Observability
+### 📈 Endüstriyel Gözlemlenebilirlik
 
-Prometheus + Grafana in Docker Labs, Social Bot and Problem-Driven (ports 9091 / 3001). LangGraph v4.15 ortaya çıkıyor `/health` , `/ready` , `/metrics` Ve LangSmith opt-in. AWS Case O X-Ray dağıtıldı.
+Docker Labs, Social Bot ve Problem-Driven'da Prometheus + Grafana (bağlantı noktaları 9091/3001). LangGraph v4.15 ortaya çıkıyor `/health` , `/ready` , `/metrics` ve LangSmith katılımı. AWS Case O, dağıtılmış X-Ray uygular.
 
-### 🛡️ Güvenlik Zorlaştırıyor
+### 🛡️ Güvenlik Güçlendirmesi
 
-LangGraph'da 8 katmanlı denetim (toprak, 127.0.0.1, grype `fail-build` , nginx TLS, algılama-sirleri, Truva Kaynağı, pip-compile, Bağabot) Microsystemas v3.x: Her sürümde 3 aşama + SBOM.
+LangGraph'ta 8 katmanı denetleyin (root olmayan, 127.0.0.1, grype) `fail-build` , nginx TLS, tespit sırları, Truva Atı Kaynağı, pip-compile, Dependabot). Microsystems v3.x: Her sürümde sertleştirme 3 aşama + SBOM. Sosyal Bot v4.3 ile ilgili Trivy. TruffleHog + AWS projelerinde sırları tespit eder.
 
-### ♻️ Resilience & Süreklilik
+### ♻️ Dayanıklılık ve Süreklilik
 
-Idempotence, Devre Breakers ve üçüncü taraf başarısızlıklar için sapmayı kontrol edin. Polyglot, Sosyal Bot v4.3 (9 dilde × 12 + DBs) çalıştırılabilir. Streaming + DEMO / LIVE + kontrol noktaları LLM başarısızlık toleransı için LangGraph'da SQLite.
+Üçüncü taraf arızaları için Idempower, Devre Kesiciler ve kontrollü bypass (DLQ). Çalışma zamanı izolasyonu ile Social Bot v4.3'te (9 dil × 12+ veritabanı) çok dilli kalıcılık. LLM hata toleransı için LangGraph'ta akış + DEMO/LIVE + SQLite kontrol noktaları.
 
-### 🛠️ DX & Reproducability
+### 🛠️ DX ve Tekrarlanabilirlik
 
-Hub CLI multi-OS ve Windows Installer Docker Labs v1.5'te imzalanmıştır. Testler `doctor` ve `smoke` , Operasyonel ve vaka dosyası. CI / CD, OIDC ve matrix binalarıyla GitHub Actions'ta ortaya çıktı. Claude Code'un tekrarlanabilir akışlar için yetenekleri.
+Docker Labs v1.5'te Çoklu İşletim Sistemi CLI Merkezi ve İmzalı Windows Yükleyici. Testler `doctor` ] ve `smoke` , Operasyonel Makefile ve durum başına doğrulamalar. CI/CD, OIDC ve matris yapılarıyla GitHub Actions'da sağlamlaştırıldı. Tekrarlanabilir akışlar için Claude Code becerileri.
 
 ### ☁️ Profesyonel Bulut · GenAI
 
-14 / 15 AWS vakaları tamamlandı (Brerock + Claude Haiku 4.5 + Lambda) Değişemez altyapı (Terraform), OIDC güvenlik ve FinOps. Sertifika kapsamı: -% 68 SAA-C03, -% 68 DVA-C02, -% 50 SOA-C02. EKS v1.32 + ECS Fargate.
+14/15 AWS vakası tamamlandı (Bedrock + Claude Haiku 4.5 + Lambda ile GenAI dahil). Değişmez altyapı (Terraform), OIDC güvenliği ve FinOps. Sertifika kapsamı: ~%68 SAA-C03, ~%68 DVA-C02, ~%50 SOA-C02. EKS v1.32 + ECS Fargate.
 
-### 🤖 IA Agentica & Local-First
+### 🤖 Ajansal Yapay Zeka ve Öncelikli Yerel
 
-LangGraph v4.15: 25 / 25 operasyonel geri dönüşler (% 100 kapsama) ile birlikte, ELEKTRON + Yerel Olama Güvenlik ve Güven Profil (Bandit + pip-audit) ve mavi baskı AWS göçü. ChofyAI Studio v0.5.1 (Eltek Silikon Mac + deneysel destek Windows + NVIDIA): Qwen3-TTS, fısılda.cpp, FaceFusion, AceForge - yerel bulut-512 dosyası.
+LangGraph v4.15: Yazılı durum ve koşullu rotalarla 25/25 operasyonel arka uçlar (%100 kapsam). Güvenlik ve Güven Profili (Bandit + pip-audit) ve AWS geçişi planı ile MCP + Olmama Yerel. ChofyAI Studio v0.5.1 (macOS Apple Silicon + Windows deneysel desteği + NVIDIA GPU): Qwen3-TTS, fısıldama.cpp, FaceFusion, AceForge — Bulutsuz yerel yapay zeka, pnpm + SHA-512 kilit dosyası.
 
-## IA tarafından yaratılan Kod denetimi
+## Yapay zeka tarafından oluşturulan kod denetimi
 
 <!-- portfolio-section:auditoria-ia -->
 
-Yeni profesyonel çizgi: Yapay zeka ile yaratılan yazılımları doğrulayın, denetim edin ve kurtarın.
+Yeni profesyonel çizgi: yapay zekayla oluşturulan yazılımı doğrulayın, denetleyin ve kurtarın.
 
-Doğrulama boşluk, IA'nın bir takımdan daha hızlı kod üretmesi, test ve doğrulaması gibi görünüyor. Sonuç, hataları, kırılganları, teknik borcu veya simülasyonlu işlevleri içeriyorsa bile.
+Doğrulama açığı, yapay zeka bir ekibin anlayabileceği, test edebileceği ve doğrulayabileceğinden daha hızlı kod ürettiğinde ortaya çıkar. Hatalar, güvenlik açıkları, teknik borçlar veya simüle edilmiş işlevler içerse bile sonuç tamamlanmış gibi görünür.
 
-Sadece inceleme kodu hakkında değil. Ürün teknik kontrolünü kurtarmakla ilgilidir.
+Bu sadece kodu incelemekle ilgili değil. Ürünün teknik kontrolünün yeniden sağlanmasıyla ilgilidir.
 
-[Tam servise bakın](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/)
+[Hizmetin tamamını görün](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/)
 
-[Teknik tanı](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/#contacto)
+[Teknik teşhis talep et](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/#contacto)
 
-## Tek kullanımlık ürünler
+## İndirilebilir ürünler
 
 <!-- portfolio-section:productos -->
 
-Ürünler imzalanmış bir taksi (.exe), taşınabilir paket (.zip) veya mobil uygulama (.app) ile tamamlandı ve her biri, uygun yerde GitHub ve SHA-256 doğrulamasında kendi iniş sayfasını içeriyor.
+İmzalı yükleyici (.exe), taşınabilir paket (.zip) veya mobil uygulama (.apk) içeren tamamlanmış ürünler. Her biri, uygun olduğunda kendi açılış sayfasını, GitHub'da sürümlendirilmiş yayınları ve uygun olduğunda SHA-256 doğrulamasını içerir.
 
-### Kök Çünkü · Windows Inspector
+### RootCause · Windows Denetçisi
 
-Windows için dijital güvenlik adli yazılım Rust'ta yazılmış (yaklaşık 2024) - sıfır telemetri ile antivirüs / EDR'yi tamamlamaktadır. Hangi işlemi, servisi, klasörü, bağlantı veya izi ETL bilgisayarı (% 100 sürücü, anormal büyüme% TEMP%, yavaş, yüksek RAM tüketimi, açıklama olmadan ağ). 5 baskı: GUI Desktop (Setup.exe), Portreatif .zip, CLI portatif (root çünkü.exe), 97 Portreatif, PowerShell modülü ve VS Kodu uzatması · yüksek performans. İlk önce teşhis, daha sonra müdahale.
+Windows için Rust (2024 sürümü) ile yazılmış siber güvenlik adli yazılımı — sıfır telemetri ile antivirüs/EDR'yi tamamlar. Hangi işlemin, hizmetin, klasörün, bağlantının veya ETL izinin bilgisayarınızın kalitesini düşürdüğünü öğrenin (%100 disk, %TEMP% anormal büyüme, yavaşlık, yüksek RAM tüketimi, açıklanamayan ağ). 5 sürüm: GUI Masaüstü (Setup.exe), Taşınabilir .zip, CLI tek ikili (rootcause.exe), CLI Taşınabilir, PowerShell modülü ve VS Code uzantısı. ETW · WPR · yüksek performans. Önce teşhis, sonra müdahale.
 
-### Automa · PC Orchstrator
+### Otoma · PC Orkestratörü
 
-Windows'ta 27 declaratif akışlar JSON'da (örneğin çıkartma ve web gözetimi SHA-256) · Playwright + pywebview + PyInstaller · 150 pytest testleri · imzalanmış.
+Windows'ta etkili eylemlerin yerel orkestratörü. JSON'da 27 bildirimsel akış (SHA-256 kanıtlarıyla çıkarma ve web izlemeyi içerir) · Oyun yazarı + pywebview + PyInstaller · 150 pytest testi · imzalı yükleyici.
 
-### Python Data Science Program
+### Python Veri Bilimi Programı
 
-Program 232 9 bölümde (Python, ML, DL, MLOps, veri mühendisliği, etik, capstons) Windows yerli (PySide6 + Qt + Jüpiter), taşınabilir, Android uygulama ve PDF / 4X kursu.
+9 bölümden oluşan 232 derslik program (Uygulamalı Python, ML, DL, MLOps, veri mühendisliği, etik, temeller). Yerel Windows masaüstü uygulaması (PySide6 + Qt + Jupyter), taşınabilir, Android uygulaması ve PDF/PPTX kursu.
 
-### ChofyAI Studio
+### ChofyAI Stüdyosu
 
-Yerel IA. Orquesta 5 araçları için masaüstü başlatıcı: Qwen3-TTS, fısılda.cpp, FaceFusion, AceForge ve ComfyUI. Tauri 2 + Rust + Reak. Validado Mac Apple Silikon; Deney desteği Windows + CUDA. 5 / 5 gerçek bir inference.
+Yerel yapay zeka için masaüstü başlatıcısı. Orkestra 5 araçları: Qwen3-TTS, fısıldama.cpp, FaceFusion, AceForge ve ComfyUI. Tauri 2 + Pas + Tepki. macOS Apple Silicon doğrulandı; deneysel destek Windows + CUDA. 5/5 gerçek çıkarım.
 
-### Docker Labs · Kontrol Merkezi
+### Docker Laboratuvarları · Kontrol Merkezi
 
-Docker / birden çok yığınta (PHP, Node.js, Python, BD, DevOps) Hub CLI multi-OS ve Windows Installer imzaladı, doktor / sigara testleri.
+Birden fazla yığında (PHP, Node.js, Python, DB, DevOps) Kişisel Docker/Compose konteyner laboratuvarı. Çoklu İşletim Sistemi CLI merkezi ve imzalı Windows Installer, doktor/duman testleri.
 
-### Mikrosystems · Verimlilik Suite
+### Mikrosistemler · Üretkenlik Paketi
 
-Mevcut görevler için 12 kendi kendine özgü web mikro uygulama: miras, miras, tanı ve modernizasyon 67 teknolojide 195 katas. Sertleşme 3 aşama + SBOM serbest bırakmak için.
+Tekrarlanan görevler için 12 bağımsız web mikro uygulaması: eski sistemlerin geliştirilmesi, bakımı, teşhisi ve modernizasyonu. 67 teknolojide 195 kata. Sertleştirme 3 faz + sürüm başına SBOM.
 
-### Unikernel Control Center
+### Unikernel Kontrol Merkezi
 
-Windows'ta WSL2 backend ile Unikraft hizmetleri çalıştırmak için profesyonel bir süit. Dashboard Node.js ve Launcher WinForms in localhost. High-perverim mimarisi ve tekil orkestrası.
+WSL2 arka ucuyla Windows'ta Unikraft hizmetlerini çalıştırmaya yönelik profesyonel paket. Localhost'ta Dashboard Node.js ve Başlatıcı WinForms aracılığıyla tam kontrol. Yüksek performanslı mimari ve tek çekirdekli orkestrasyon.
 
-### GabySQL · gömülü DB + Modeller
+### GabySQL · Gömülü Veritabanı + Modelleyici
 
-Rust tabanlı, maliyet bazlı, SAVEPOINT / ROLLBACK, 828 test, 503.8M iddia) + Gaby Modeler GUI masaüstü. Windows, MacCo64 ve Linux x86 64 bina.
+Rust'a gömülü veritabanı (tek .db dosyası, WAL, maliyet tabanlı iyileştirici, SAVEPOINT/ROLLBACK, 828 test, bulanık 503,8 milyon sorgu) + GabyModeler masaüstü GUI. Windows, macOS arm64 ve Linux x86_64 için derlemeler.
 
-[Araziye](https://vladimiracunadev-create.github.io/rootcause-windows-inspector/)
+[İniş](https://vladimiracunadev-create.github.io/rootcause-windows-inspector/)
 
 [Kurulum .exe](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest/download/RootCause-Setup.exe)
 
-[Portre .zip](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest/download/RootCause-Portable.zip)
+[Taşınabilir .zip](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest/download/RootCause-Portable.zip)
 
-[K.](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest/download/RootCause-CLI-Portable.zip)
+[CLI Taşınabilir .zip](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest/download/RootCause-CLI-Portable.zip)
 
 [VS Kodu .vsix](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest/download/RootCause-VSCode-Extension.vsix)
 
-[Tüm baskılar](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest)
+[Tüm basımlar](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest)
 
 [GitHub](https://github.com/vladimiracunadev-create/rootcause-windows-inspector)
 
-[Araziye](https://vladimiracunadev-create.github.io/automa-pc/)
+[İniş](https://vladimiracunadev-create.github.io/automa-pc/)
 
-[Download .exe](https://github.com/vladimiracunadev-create/automa-pc/releases/latest/download/Automa-Setup-v0.3.0.exe)
+[.exe'yi indir](https://github.com/vladimiracunadev-create/automa-pc/releases/latest/download/Automa-Setup-v0.3.0.exe)
 
 [GitHub](https://github.com/vladimiracunadev-create/automa-pc)
 
-[Araziye](https://vladimiracunadev-create.github.io/python-data-science-program/)
+[İniş](https://vladimiracunadev-create.github.io/python-data-science-program/)
 
 [.exe](https://github.com/vladimiracunadev-create/python-data-science-program/releases/latest/download/PythonDSProgram_Setup_v3.8.0.exe)
 
 [.zip](https://github.com/vladimiracunadev-create/python-data-science-program/releases/latest/download/PythonDSProgram_windows_portable_v3.8.0.zip)
 
-[.3.](https://github.com/vladimiracunadev-create/python-data-science-program/releases/latest/download/PythonDSProgram_android_v3.8.0_debug.apk)
+[.apk](https://github.com/vladimiracunadev-create/python-data-science-program/releases/latest/download/PythonDSProgram_android_v3.8.0_debug.apk)
 
 [GitHub](https://github.com/vladimiracunadev-create/python-data-science-program)
 
-[Araziye](https://vladimiracunadev-create.github.io/chofyai-studio/)
+[İniş](https://vladimiracunadev-create.github.io/chofyai-studio/)
 
 [GitHub](https://github.com/vladimiracunadev-create/chofyai-studio)
 
-[Download .exe](https://github.com/vladimiracunadev-create/docker-labs/releases/latest/download/docker-labs-setup-1.5.0.exe)
+[.exe'yi indir](https://github.com/vladimiracunadev-create/docker-labs/releases/latest/download/docker-labs-setup-1.5.0.exe)
 
-[Salı v1.5.0](https://github.com/vladimiracunadev-create/docker-labs/releases/latest)
+[Sürüm v1.5.0](https://github.com/vladimiracunadev-create/docker-labs/releases/latest)
 
 [GitHub](https://github.com/vladimiracunadev-create/docker-labs)
 
-[Download .zip](https://github.com/vladimiracunadev-create/microsistemas/releases/latest/download/microsistemas-v1.1.0.zip)
+[.zip dosyasını indir](https://github.com/vladimiracunadev-create/microsistemas/releases/latest/download/microsistemas-v1.1.0.zip)
 
-[Salı v1.1.0](https://github.com/vladimiracunadev-create/microsistemas/releases/latest)
+[Sürüm v1.1.0](https://github.com/vladimiracunadev-create/microsistemas/releases/latest)
 
 [GitHub](https://github.com/vladimiracunadev-create/microsistemas)
 
-[Download .exe](https://github.com/vladimiracunadev-create/unikernel-labs/releases/latest/download/UnikernelLabs.Launcher.exe)
+[.exe'yi indir](https://github.com/vladimiracunadev-create/unikernel-labs/releases/latest/download/UnikernelLabs.Launcher.exe)
 
-[Salı v2.0.0](https://github.com/vladimiracunadev-create/unikernel-labs/releases/latest)
+[Sürüm v2.0.0](https://github.com/vladimiracunadev-create/unikernel-labs/releases/latest)
 
 [GitHub](https://github.com/vladimiracunadev-create/unikernel-labs)
 
-[Modeler .exe](https://github.com/vladimiracunadev-create/gabysql/releases/latest/download/gabymodeler_0.1.0_x64-setup.exe)
+[Modelleyici .exe](https://github.com/vladimiracunadev-create/gabysql/releases/latest/download/gabymodeler_0.1.0_x64-setup.exe)
 
 [Motor .zip (Win)](https://github.com/vladimiracunadev-create/gabysql/releases/download/v0.2.0/gabysql-v0.2.0-windows-x86_64.zip)
 
-[Bütün sürümler](https://github.com/vladimiracunadev-create/gabysql/releases)
+[Tüm sürümler](https://github.com/vladimiracunadev-create/gabysql/releases)
 
 [GitHub](https://github.com/vladimiracunadev-create/gabysql)
 
-## Öne Çıkan Projeler
+## Öne çıkan projeler
 
 <!-- portfolio-section:proyectos -->
 
-Modernizasyon, verimlilik, otomasyon ve doğrulanabilir demolara odaklanmakla seçim.
+Modernizasyon, üretkenlik, otomasyon ve doğrulanabilir demolara odaklanan seçim.
 
-### Online batarya (CEIS Foundation)
+### Çevrimiçi Davullar (CEIS Vakfı)
 
-Büyük ölçekli web psikometrik süit: evrim / destek ve ilerici modernizasyon, SQL Server optimizasyonu, PDF / Excel raporları ve operasyonel süreklilik.
+Büyük ölçekli web psikometri paketi: evrim/destek ve aşamalı modernizasyon, SQL Server optimizasyonu, PDF/Excel raporları ve operasyonel süreklilik.
 
-Gizliliğe göre, kurumsal ürünün yeniden yüklenmesini ve kodunu yayınlamayın.İş referansı aracılığıyla doğrulama.
+Gizlilik nedeniyle kurumsal ürün repolarını/kodlarını yayınlamıyorum. İstihdam referansı yoluyla doğrulama.
 
-### Gerçek dağıtım ürünleri ile
+### Gerçek dağıtıma sahip ürünler
 
-### Kök Çünkü · Windows Inspector
+### RootCause · Windows Denetçisi
 
-Cyber Security Forensic Software for Windows 10 / 11 yazılı Rust: CPU, disk, ağ, süreçler, öz-boot ve hizmetler bilinen temel hatlarına karşı, korelasyon sinyalleri (SQLite) ve üretimdeki 5 mod (GUI Biling Fluual Fluent ES / EN, CLI, PowerShell modülü 9 cmdlets, VS Kod uzantılı uzatma, trafik ikonları ve Scoop · Winget · Chocolate / EDR. Telemetri: sıfır.
+Windows 10/11 için Rust'ta yazılmış siber güvenlik adli yazılımı: bilinen temellere göre CPU, disk, ağ, işlemler, önyükleme ve hizmetlerdeki anormal bozulmaları tespit eder, olaylardaki sinyalleri ilişkilendirir (SQLite) ve temel nedeni kanıtlarla açıklar. Üretimde 5 yöntem (Akıcı iki dilli ES/EN GUI, CLI, 9 cmdlet'li PowerShell modülü, VS Code uzantısı, tepsi simgesi) ve Scoop · Winget · Chocolatey aracılığıyla dağıtım. Antivirüs/EDR'yi tamamlar. Telemetri: sıfır.
 
-### Kök Çünkü · Mobile Inspector
+### RootCause · Mobil Denetleyici
 
-Android ve iOS için adli tanı sensörü, Flutter'da inşa edildi (Serbest koleksiyoncular Kotlin / Swift).Normal hafıza, depolama, batarya ve izinler yüzey bozulmaları, bir ciddiyetle, 500 yakalamaya kadar aktif stalkerware algılama ve JSON'da aktif kanıt (5 dilde).
+Android ve iOS için Flutter'da yerleşik adli teşhis sensörü (yerel Kotlin/Swift toplayıcıları). Semafor şiddeti, 500'e kadar yakalama geçmişi, aktif takip yazılımlarının tespiti ve JSON ve PDF'de (5 dilde) adli kanıtlarla bellek, depolama, pil ve izinler yüzeyindeki anormal bozulmaları tespit eden yerel kurallar motoru. APK v0.8.0 Sürümlerinde oturum açıldı. İNTERNET izni yok: sıfır telemetri, her yapıda doğrulandı.
 
-### Rot because Web Inspector · Project
+### Kök Neden Web Denetleyicisi · Proje
 
-Kök Çünkü Web Inspector v0.2.0 - Tarayıcı yüzeyinin adli sensör: kurabiyeler, posta seansları, uzantıları, indirmeler ve site izinleri. 127.0.0.1'de Yerel panel MV3, CERO bağımlılık ve sıfır telemetri CI'de doğrulandı.
+RootCause Web Inspector v0.2.0 — tarayıcı yüzeyi adli sensörü: çerezler, posta oturumları, uzantılar, indirmeler ve site izinleri. 127.0.0.1'deki yerel panel, MV3 uzantısı, SIFIR bağımlılıklar ve CI'da sıfır telemetri doğrulandı. Brother of Windows (Rust) ve Mobile (Flutter) sürümleri
 
-### Universal Code Browser · Project
+### Evrensel Kod Tarayıcı · Proje
 
-Universal Code Browser v1.1.0 - Yararlı QR kodları ve barların Flutter okuyucusu hareket etmeden önce yorum yapar: URL'de 16 yerel risk sinyalleri, açık onay, tarih ve envanter AES-256-GCM ile şifrelenir.Her zaman görünür tarama durumu ve kendi okuma ton. Android · iOS · Macmetri
+Evrensel Kod Tarayıcı v1.1.0 — Harekete geçmeden önce yorumlayan Flutter QR ve barkod okuyucu: URL başına 16 yerel risk sinyali, açık onay, geçmiş ve AES-256-GCM ile şifrelenmiş envanter. Tarama durumu her zaman görünür ve kendi okuma tonu. Android · iOS · macOS · PWA. Sıfır telemetri
 
 ### GabySQL
 
-Fist tabanlı şişelenmiş veritabanı bir araştırma projesi olarak: WAL ile benzersiz .db dosyası, tam ilişki SQL (CTEs) pencere işlevleri, tetikleyiciler ve PL / pgSQL. HTTP / JSON API, çapraz sorgu işlemleri ve 3 işletim sistemlerinde 828 yeşil testlerle.
+Rust'ta bir araştırma projesi olarak sıfırdan yazılmış yerleşik veritabanı: WAL içeren tek .db dosyası, tam ilişkisel SQL (CTE'ler, pencere işlevleri, tetikleyiciler, PL/pgSQL, Satır Düzeyinde Güvenlik), EXPLAIN ANALYZE ile maliyet tabanlı optimize edici, çapraz istek işlemleriyle HTTP/JSON API ve 3 işletim sisteminde 828 yeşil test. Ayrıştırıcı bulanıklığı: 503,8 milyon sorgu, 0 panik.
 
-### Automa · PC Orchstrator
+### Otoma · PC Orkestratörü
 
-Orquestador local v0.3.0 de acciones efectivas sobre Windows: 27 flows operativos declarativos en JSON que abren ventanas reales, interactúan con DOM, capturan evidencia y vigilan la web (crawl BFS, detector de cambios y monitoreo de valores con evidencia SHA-256). Panel local en 127.0.0.1 (pywebview + PyInstaller) con scheduler cron y lock SQLite. Stack Python 3.10+, Playwright (headless/visible), OCR/visión, uv packaging, 150 pytest tests, instalador Windows firmado.
+Windows'ta etkili eylemler için Yerel Orkestratör v0.3.0: JSON'da gerçek pencereleri açan, DOM ile etkileşime giren, kanıt yakalayan ve web'i izleyen 27 bildirimsel operasyonel akış (BFS taraması, değişiklik algılayıcısı ve SHA-256 kanıtıyla değer izleme). Cron zamanlayıcı ve SQLite kilidi ile 127.0.0.1'deki yerel panel (pywebview + PyInstaller). Stack Python 3.10+, Oyun Yazarı (başsız/görünür), OCR/vision, uv paketleme, 150 pytest testi, imzalı Windows yükleyici.
 
-### ChofyAI Studio · A Local Mac
+### ChofyAI Studio · Yerel AI macOS
 
-Launcher de masaüstü v0.5.1 que anicó 5 todo de IA locales (Qwen3-TTS, fısılda.cpp, FaceFusion, AceForge, ComfyUI) con intalación reproducible, kontrol gerçek de kehaneti gerçek 5 / 5 en fazla Macon'u gerçek Windows + CUDA. Tauri 2 + Rust + Reaks + Rez + Rezcia.
+Desktop Launcher v0.5.1, tekrarlanabilir kurulum, gerçek süreç kontrolü ve gerçek çıkarımda 5/5 ile 5 yerel yapay zeka aracını (Qwen3-TTS, whisse.cpp, FaceFusion, AceForge, ComfyUI) düzenler. macOS Apple Silicon'da doğrulanmıştır; deneysel destek Windows + CUDA. Tauri 2 + Pas + Tepki. Bulut bağımlılıkları olmadan tam gizlilik.
 
-### Rhino Suite · Resmi
+### Rhino Suite · Ofis otomasyonu
 
-Web ve masaüstü ofis süiti, sıfırdan inşa edildi (v0.7.0, Faz 2.5): yapılandırılmış model (JSON şema v5) ile belge editörü, Rust motoru, WebAssembly + uyumlu TypeScript motoru, Reak 19 arayüzü, API Go with account and share, ve DOCX / ODT exchange with okuyucu / kendi yazarı dışlayıcılığa bağlı olmadan.
+Sıfırdan oluşturulmuş web ve masaüstü ofis paketi (v0.7.0, Aşama 2.5): yapılandırılmış modele sahip belge düzenleyici (JSON şeması v5), WebAssembly + TypeScript motoruyla uyumlu olarak derlenmiş Rust motoru, React 19 arayüzü, hesaplar ve paylaşımla Go API ve harici bağımlılıklar olmadan kendi okuyucu/yazıcısıyla DOCX/ODT alışverişi.
 
-### Adventure Guitar · Project
+### Macera Gitarı · Proje
 
-Gitar ile Maceram · 10 yaşından beri gitar öğrenmek için Eğitim App · 6 dünya üzerinde 24 ders, 6string melodi, non-drift metronome ve 11 kayıt gerçek gitar notları · Tauri 2 + Reak + TipScript · Windows, Android, Linux, Mac, iOS ve PWA · Hiçbir reklam, hesap yok, çevrimdışı · v1.0
+Gitarla Maceram · 10 yaşından itibaren gitar öğrenmek için eğitici uygulama · 6 dünyada 24 ders, 6 telli akort aleti, sürüklenmeyen metronom ve 11 kayıtlı gerçek gitar notası · Tauri 2 + React + TypeScript · Windows, Android, Linux, macOS, iOS ve PWA · Reklam yok, hesap yok, çevrimdışı · Sürümlerdeki yükleyicilerle v1.0.0
 
-### Agenic Plugins Toolkit · Project
+### Aracı Eklentileri Araç Seti · Proje
 
-Gemini ve MCP · repository-mühendislik · geleneksel-modernleşme · öğrenme-program-studio · üretim -evrim · portföy-governance agentic-jurins-toolkit · Claude Code, OpenAI / Kodx, Copilot, Neden sorumlu · sürüklenmeyen 69 görüş
+ajan-eklentileri-araç seti · Claude Code, OpenAI/Codex, Copilot, Gemini ve MCP için 6 ajan eklentisi · veri havuzu mühendisliği · eski modernizasyon · öğrenme-program-stüdyosu · ürün gelişimi · portföy yönetimi · kök neden-yanıt · sapma olmadan oluşturulan 69 görüntüleme · Sıfır derinlik
 
-### Operasyonel Ai Agents · Proje
+### Operasyonel Yapay Zeka Temsilcileri · Proje
 
-Claude Code için "a- ajanlar"ın çalışması · repository -evrim · geleneksel-modernleşme · müfredat - devrim · portföy-yaralama · güvenlik aracılık · olay-vardır- · profesyonel profil · Sözleşme + insan Gates + doğrulanabilir kanıtlar · 39 evals determinable · Zero-deps · Cross-platform platform
+operasyonel-ai-agents · Claude Code için 13 temsilci · veri havuzu-gelişimi · eski-modernizasyon · müfredat-gelişimi · portfolyo-yayın · güvenlik-iyileştirme · olay-kök-neden · profesyonel profil · Sözleşme + insan kapıları + doğrulanabilir kanıtlar · 39 deterministik değerlendirme · Sıfır derinlik · Çapraz platform
 
-### Şili Operasyon Şirketi · Proje
+### Şili'de İşletmeci Şirket · Proje
 
-v1.5.0 · Zaman içinde bir Şili şirketi kurmak ve kontrol edin: Kanıt, sermaye ve CPT ile belediye patenti, yasal üssü, KDV / PPM, F29, yıllık değişmez kapanış ve denetim. Kılavuz, manuel ve parlaklama kuralları resmi kaynakla.
+v1.5.0 · Zaman içinde bir Şili şirketi oluşturun, işletin ve kontrol edin: kanıt, sermaye ve CPT ile anayasa, yasal dayanağıyla belediye patenti, KDV/PPM, F29, değişmez yıllık kapanış ve denetim. Uygulama içindeki kılavuz, kılavuz ve sözlük. Android, Windows ve tarayıcı. Resmi kaynağı olan kurallar. Sıfır telemetri. 🇨🇱
 
-### Rot because Macos Inspector · Project
+### Kök Neden Macos Denetçisi · Proje
 
-RotCause MacInspector v0.1.0 - Linux için adli siber güvenlik sensörü (Rust): kalıcılık başlatılmış, kapıcı, SIP, FileVault, X Koruma, TCC izinleri, imza ve ağ komşularıyla ilgili işlemleri iyi bilinen bir durumla karşılayın ve neyin değiştiğini açıklayın.
+RootCause macOS Inspector v0.1.0 — macOS (Rust) için siber güvenlik adli sensörü: başlatma kalıcılığı, Gatekeeper, SIP, FileVault, XProtect, TCC izinleri, imzalı işlemler ve ağ komşuları. Her yüzeyi bilinen iyi bir durumla karşılaştırın ve neyin değiştiğini kanıtlarla açıklayın. Telemetri: sıfır. Windows, Web ve Mobilin Kardeşi
 
-### Kodx Becerileri Toolkit · Project
+### Codex Becerileri Araç Seti · Proje
 
-codex-kalp-toolkit · Kodx için 19 Agent Becerileri · güvenlik ve tedarik zinciri · ön aydınlatma ve işlevsel akışlar · esneklik ve devlet · salıverme kanıtı · Python-ilk · pnpm · Cross-platform
+codex-becerileri-araç seti · Codex için 19 Temsilci Becerisi · güvenlik ve tedarik zinciri · ön kontrol ve işlevsel akışlar · esneklik ve durum · yayın kanıtı · öncelikli Python · npm · Çapraz platform
 
-### Rot because Qr Inspector · Project
+### Temel Neden Qr Denetçisi · Proje
 
-Kök nedeni-qr-inspector · 26 yerel sinyal ve 107 test · kamera, görüntüler ve PDF · yazılı kanıtlar · Flutter / Dart · yerel-ilk ve sıfır telemetri · Plus v0.1.4 yayınlandı
+rootcause-qr-inspector · 26 yerel sinyal ve 107 test · kamera, görüntüler ve PDF · düzeltilmiş kanıtlar · Flutter/Dart · yerel öncelikli ve sıfır telemetri · APK Android v0.1.4 yayınlandı
 
-### Pdf Reader Windows Android · Project
+### Pdf Okuyucu Windows Android · Proje
 
-PDF Reader v0.3.3 · PDF okuyucu Android-ilk yerel ve sadece · sürekli eylemleri, güvenli alanları, başları ve yeniden kullanılabilir tarihi · Android 7 +, Windows ve Web · sıfır hesaplar, hassas izinler ve telemetri · Pul imzalanmış
+PDF Okuyucu v0.3.3 · Android'in ilk yerel ve salt okunur PDF okuyucusu · sürekli eylemler, güvenli alanlar, sınırlı küçük resimler ve yeniden açılabilir geçmiş · Android 7+, Windows ve Web · sıfır hesap, hassas izinler ve telemetri · İmzalı APK
 
-### Rot because Server · Project
+### Kök Neden Sunucusu · Proje
 
-KökCause Server v0.2.0 - Rust kontrol uçağı, sunucuları ve çevre ağı savunmak: maruz yüzey, kimlik doğrulama patlamaları, patlamadan sonra verilen erişim, kritik dosya bütünlüğü ve sensör sessizliği ile 18 kural ve çalıştırma defteri - hiçbir zaman web bağımlılık olmadan yerel konsolu uygulama.
+RootCause Sunucusu v0.2.0 — Rust'ta sunucuları ve etraflarındaki ağı koruyan kontrol düzlemi: açıkta kalan yüzey, kimlik doğrulama patlamaları, patlama sonrasında verilen erişim, kritik dosya bütünlüğü ve sensör sessizliği. Kanıt ve runbook içeren 18 kural — hiçbir şeyi yürütmez. Web bağımlılığı olmayan yerel konsol
 
-### Aws Desktop Studio · Project
+### Aws Masaüstü Stüdyosu · Projesi
 
-AWS Desktop Studio · 15 envanter entegrasyonları + 20 öğreticiler · AWS CLI, Electron ve yerelhost · Development uygulamaları; üniversite dışı erişim · Windows
+AWS Desktop Studio · 15 stok entegrasyonu + 20 eğitim · AWS CLI, Electron ve localhost · Geliştirme aşamasında dağıtım; evrensel erişim yok Windows
 
-### Ai Dataset Foundry · Project
+### Ai Veri Kümesi Dökümhanesi · Projesi
 
-AI Dataset Foundry v0.2.0 - yerel fabrika - PDF, Word, web, Git, JSON ve CSV, iyi eğitim için denetim edilebilir verilere dönüştürülür, RAG ve değerlendirme · Windows + Android çevrimdışı
+AI Dataset Foundry v0.2.0 — PDF, Word, web, Git, JSON ve CSV'yi ön eğitim, ince ayar, RAG ve değerlendirme için denetlenebilir veri kümelerine dönüştüren yerel ilk fabrika · Windows + Android çevrimdışı
 
-### Rot because Blockchain Security · Project
+### Blockchain Güvenliğinin Kök Nedeni · Projesi
 
-Profesyonel saat-sadece kilitleme Zinciri adliye laboratuvarları ve kök Bitcoin, Etheum ve Polygon için analize neden olur: TX, adresler, uzlaşma, grafikler, zaman çizelgesi ve doğrulanabilir kanıtlarla raporlar. 97 + yerel API, sıfır bağımlılıklar, asla özel anahtarlar,
+Bitcoin, Ethereum ve Polygon: TX, adresler, mutabakat, grafikler, zaman çizelgeleri ve doğrulanabilir kanıtlarla birlikte raporlar için yalnızca izlenebilir profesyonel blockchain adli tıp ve kök neden analiz laboratuvarı. CLI + yerel API, sıfır bağımlılık, hiçbir zaman özel anahtarlar
 
-### Rot because Bitcoin Defense · Project
+### Bitcoin Savunmasının Kök Nedeni · Projesi
 
-₿ Köklü Bitcoin Savunma v0.3.0 - sadece savunma ve adli laboratuvar UTXO: girişler, çıktılar, ücretler, değişim, kanıtlanmışlık, işlem grafiği ve muhasebe uzlaşması için regtest. Local app, zero dependencies, never ask for lips or use real money.
+₿ RootCause Bitcoin Defense v0.3.0 — yalnızca izleme savunması ve UTXO adli tıp laboratuvarı: kayıt testinde girdiler, çıktılar, ücretler, değişiklik, kaynak, işlem grafiği ve muhasebe mutabakatı. Yerel uygulama, sıfır bağımlılık, hiçbir zaman tohum istemez veya gerçek fon kullanmaz. CI'da doğrulandı
 
-### Demerkezve Sosyal Arcade · Proje
+### Decentraland Sosyal Oyun Salonu · Projesi
 
-Sosyal-arcade · Sosyal 3D yerel olarak Demerkez ve · 1 MVP ve çoklu oyun mimarisi · SDK7 + ECS + TypeScript · İspanyolca · ödeme veya telemetri olmadan
+merkezi olmayan-sosyal-oyun salonu · Merkezi olmayan yerel sosyal 3D deneyimi · 1 MVP ve çoklu oyun mimarisi · SDK7 + ECS + TypeScript · İspanyolca belgeler · ödeme veya telemetri yok
 
-### Ticaret İşletim Sistemi · Proje
+### Ticari İşletim Sistemi · Proje
 
-Ticaret OS v0.3.0 · 6 sekmede yollanan kavramsal demo: katalog, stok, CRM, siparişler, ceza ve izlenebilirlik · Web, Windows ve Android · Para veya gerçek SII
+Commerce OS v0.3.0 · 6 sekmede rehberli kavramsal demo: katalog, stok, CRM, siparişler, sahte ödemeler ve izlenebilirlik · Web, Windows ve Android · Parasız veya gerçek SII
 
-### Cueca App Wind Flyer · Project
+### Eşarp Al Viento Cueca Uygulaması · Proje
 
-Wind D bok · Etkileşimli Cueca Akademisi 10 yaşında · 24 sınıf, baskı ve ayna ile Dojo, D bok Lab, Scenario rehberlik ve yetenek ilerlemesi · LocalFlutter - ilk · Android + Windows · v0.2.0
+Rüzgardaki Mendil · 10 yaşından itibaren etkileşimli cueca akademisi · 24 sınıf, ayak izleri ve aynalı Dojo, Mendil Laboratuvarı, Rehberli senaryo ve becerilere göre ilerleme · Önce yerel flutter · Android + Windows · v0.2.0
 
-### Video Transcript Studio · Project
+### Video Transkript Stüdyosu · Projesi
 
-Bir video, liste veya YouTube COMPLETE CANAL → zaman işaretleri ile metin. Whisper 100% yerel: API, hiçbir telemetri, 127.0.0.1 + 97, aynı kuyrukla. MD, PDF, TXT, SRT, VTT, JSON, MP3, OG. 89 testini ekledi.
+Bir YouTube videosu, listesi veya KANALIN TAMAMI → zaman damgalı metin. %100 yerel Whisper: API yok, hesap yok, telemetri yok. Windows masaüstünde 4 aşamalı sihirbaz + 127.0.0.1 + CLI'de yerel panel, aynı sıra ile. MD, PDF, TXT, SRT, VTT, JSON, MP3, OGG. FFmpeg dahil. Karanlık mod. 89 test. 🇪🇸
 
-### Lifelong Learning Ekosystem · Project
+### Hayat Boyu Öğrenme Ekosistemi · Projesi
 
-6 alanda 30 gerçek turları görsel haritalarla ve erişilebilir bir çevrimdışı portalla birleştiren Federal compass; ek bir program olarak sayılmıyor.
+6 bölgedeki 30 gerçek rotayı görsel haritalar ve erişilebilir bir çevrimdışı portalla birbirine bağlayan birleşik pusula; Ek program sayılmaz.
 
-### Mühendislik laboratuvar laboratuvarları
+### Mühendislik laboratuvarları
 
-### Docker Labs · Infra Hub
+### Docker Laboratuvarları · Infra Hub
 
-60'larda "kapı" odak ile ev laboratuvarları. Yerel pano, atölye, gerçek yığınlar ve Prometheus / Grafana ile pratik gözlemlenebilir rotalar içerir.
+"60'larda artış" yaklaşımıyla yığın başına laboratuvar. Yerel kontrol panelini, Oluşturmayı, gerçek yığınları ve Prometheus/Grafana ile pratik gözlemlenebilirlik yollarını içerir.
 
-- Yerel Dashboards konteyner metriklerini araştırmak için.
+- Kapsayıcı metriklerini keşfetmek için yerel kontrol panelleri.
 
-- Kubernetes (K8s) için hazırlanan Manifestolar ve gözlemlenebilirlik.
+- Kubernetes (K8'ler) ve gözlemlenebilirlik için manifestler hazırlandı.
 
-### Bulut Portföyü · AWS & FinOps
+### Bulut Portföyü · AWS ve FinOps
 
-16 AWS (A-P) vakaları - tüm tamamlanmış, P (Strands Agents) davasında kullanılan ve AWS'de doğrulanmış ve doğrulanmış durumda, GenAI davası I (Bedrock + Claude Haiku 4.5 + Lambda + xray-sdk) ve O durumda (X-Ray dağıtılmıştı); gerilog sadece M davanın 2-3 fassı (Multi- Bölge Global Hızlandırıcı)
+16 AWS vakası (A–P) — tümü tamamlandı; AWS'de dağıtılan ve doğrulanan Vaka P (Strands Agents), GenAI Vaka I (Bedrock + Claude Haiku 4.5 + Lambda + xray-sdk) ve Vaka O (dağıtılmış X-Ray) dahil; yalnızca biriktirme listesinde Durum M'nin 2-3. Aşamaları (Çoklu Bölge · Küresel Hızlandırıcı). Yığın: Terraform, OIDC, S3/Amplify/CloudFront, Lambda/SAM, DynamoDB, Cognito/WAF, EventBridge/SQS/SNS, CloudWatch, ECS Fargate, EKS v1.32, FinOps. TruffleHog + Detect-secrets + gitleaks + tfsec ile güvenlik. Kapsama ~%68 SAA-C03 / ~%68 DVA-C02 / ~%50 SOA-C02.
 
-### Mikrosystems · Verimlilik Suite
+### Mikrosistemler · Üretkenlik Paketi
 
-Tanı ve modernizasyon için modüler süit. Hub CLI, Operasyonel Makefile, Doktor / Duman Geçerliliği ve hizmetleri gerçek bakımda sürtünmeyi azaltmayı amaçlamaktadır.
+Teşhis ve modernizasyon için modüler paket. Gerçek bakımda sürtünmeyi azaltmayı amaçlayan Hub CLI, operasyonel Makefile, doktor/duman doğrulamaları ve yardımcı programları içerir.
 
-- Accent dönüştürücü, güvenli SQL ve endüstriyel log görünümer.
+- Accent dönüştürücü, güvenli SQL görüntüleyici ve endüstriyel günlük görüntüleyici.
 
-- PHP 8.x kısmi migrator ve manifesto jeneratörü.
+- Kısmi PHP 8.x aktarıcı ve bildirim oluşturucu.
 
-- Vakumluluğu azaltmak ve ekipmanın DXini geliştirmek için Oriented.
+- Sürtünmeyi azaltmayı ve takımın DX'ini geliştirmeyi amaçlıyordu.
 
-### Sosyal Bot Scheduler · Orkestrası
+### Sosyal Bot Zamanlayıcı · Düzenleme
 
-Polyglot bütünleme laboratuvarı v4.9.1: 19 operasyonel vaka Origin → n8n → 18 + BD motorlar üzerinde (SQL, NoSQL, grafikler, vektör, zaman serisi, akış), Docker ile son derece sonlu sonlu son dereceler.Relamentor, DLQ), 11 mimari desenler ve paniğe sahip üst düzey.
+Polyglot entegrasyon laboratuvarı v4.9.1: 19 işletim durumu Origin → n8n → 18'den fazla veritabanı motorundaki alıcı (SQL, NoSQL, grafikler, vektör, zaman serisi, akış), Docker ile uçtan uca denetlendi. Dayanıklı korkuluklar (idempotence, devre kesici, DLQ), 11 mimari desen ve canlı durumlu ana gösterge paneli.
 
-### Problem Driven Systems Lab
+### Sorun Odaklı Sistemler Laboratuvarı
 
-12 mühendislik zorlukları × 7 yığınlar = 84 işletim durumu (PHP 8 · Python · Node.js · Java 21 · .NET 8 · Go · Rust) Dashboards ile gerçek zamanlı olarak deneysel olarak teşhis için yerel. Adapt, Stler, Devre Lanet, LRU ve Cancellasyon Plan AWS MIGRATION.md (ECS Fargate · Lambda · EKS) maliyet tahminleri ve açık haritaları ile SECRITY.
+12 mühendislik zorluğu × 7 yığın = 84 operasyonel durum (PHP 8 · Python · Node.js · Java 21 · .NET 8 · Go · Rust) ve vaka başına Etkileşimli Kontrol Panelleri (görsel teşhis için yerel kullanıcı arayüzü + gerçek zamanlı ölçümler). Adaptör, Strangler, Devre Kesici, LRU ve İptal modelleri. Maliyet tahminleri ve SECURITY.md ile açık eşleme ile AWS_MIGRATION.md'yi (ECS Fargate · Lambda · EKS) planlayın.
 
 ### WSL Laboratuvarları · Konteyner Merkezi
 
-Pencere için konteyner Kontrol Merkezi, WSL yerli konteyner motoru (v0.4.1) - Docker Desktop. Node.js web paneli (: 9092) inşa etmek, asansör ve monitör konteynerleri, Go'da Windows (.exe) ve 12 gerçek vakaları görüntü ve RAM ölçülmüş konteynerler. yapılandır.json gerçek bir kaynak olarak yapılandırın.
+Yerel WSL konteyner motoru (v0.4.1) olan wslc üzerinde Windows için Konteyner Kontrol Merkezi — Docker Masaüstü olmadan. Kapsayıcılar, Windows in Go başlatıcısı (.exe) ve ölçülen görüntü ve RAM ile liman işçisi laboratuvarlarından taşınan 12 gerçek vakayı oluşturmak, başlatmak ve izlemek için Node.js web paneli (:9092). Container.config.json'u tek bir gerçek kaynak olarak görüyoruz.
 
 ### Unikernel Laboratuvarları · Kontrol Merkezi
 
-Unikernel Control Center v2.0.0 · Suite türü "Docker Desktop for Unikernels": Windows'tan WSL2'de + Lane QEMU / KVM. Dashboard Node.js with real-time health (localhost: 9091), Launcher WinFormlar (.NET) ve yerel sert-to-kullanıcı API (anti-DNS-reclining, CSRF ve yol benzeri).
+Unikernel Kontrol Merkezi v2.0.0 · "Tek çekirdekler için Docker Masaüstü" paketi: Unikraft hizmetlerini WSL2 üzerinden kraft + QEMU/KVM ile Windows'tan çalıştırın. Gerçek zamanlı sağlık (localhost:9091), WinForms Başlatıcı (.NET), .exe yükleyici ve güçlendirilmiş yerel API (DNS yeniden bağlama önleme, CSRF ve yol geçişi) içeren Node.js Kontrol Paneli.
 
-### Sandbox Laboratuvarları · Proje
+### Korumalı Alan Laboratuvarları · Proje
 
-Linux izolasyon laboratuvarı: ilan edilen politikalar altında diğerlerinin kodu, dosyaları ve iş modellerini çalıştırın ve sorunlar aslında takımınızda uygulanan kontrollerin kanıtlarını imzaladı. 36 vakada iki aile - teknik sandboxlar ve sermaye piyasası simdi para ile. Deneysel ve eğitim, güvenlik ürünü değil.
+Linux Yalıtım Laboratuvarı: Yabancı kodu, dosyaları ve iş modellerini beyan edilen politikalar kapsamında çalıştırın ve bilgisayarınıza gerçekte hangi kontrollerin uygulandığına dair imzalı kanıtlar yayınlayın. İki ailede 36 vaka: teknik sanal alanlar ve para simüle edilmiş sermaye piyasaları. Deneysel ve eğiticidir, güvenlik ürünü değildir
 
-### Universal Payments Engineering Lab · Project
+### Evrensel Ödeme Mühendisliği Laboratuvarı · Projesi
 
-Self-explanatoryal ödeme mühendisliği laboratuarı: 28 aile, yerel DEMO, devletler, fasayıcı, konciliasyon, güvenlik ve uygulama rehberleri
+Açıklamalı ödeme mühendisliği laboratuvarı: 28 aile, yerel DEMO, eyaletler, defter, mutabakat, güvenlik ve uygulama kılavuzları
 
 ### Qemu Kvm Laboratuvarları · Proje
 
-qemu-kvm-labs · 12 gerçek sanallaştırma laboratuvarı · QEMU, KVM, libvirt, bulut-init ve vm-manager · Linux + WSL2
+qemu-kvm-labs · 12 gerçek sanallaştırma laboratuvarı · QEMU, KVM, libvirt, cloud-init ve vm-manager · Linux + WSL2
 
 ### Veritabanı Sistemleri Laboratuvarları · Proje
 
-Açık veritabanı mühendisliği programı · 15 bölümdeki 74 sınıf · 230 h · IA · 120 kaynak için kavramsal modellemeden, IA · ISBN ile ilgili olarak, DOI veya standart belirtilen sınıfla sınıf ve CI'de doğrulandı · Sözel 306 terimler · 27 motorda aynı durum çözülmüştür
+Açık veritabanı mühendisliği programı · 15 bölümde 74 sınıf · 230 saat · Kavramsal modellemeden dağıtılmış mimariye, AI için operasyon ve kurtarmaya · ISBN, DOI veya sınıfa göre standart alıntı yapılan ve CI'da doğrulanmış 120 kaynak · 306 terim sözlüğü · Aynı durum 27 motorda çözüldü
 
-### Çerçeve Ekosistemleri Laboratuvarları · Proje
+### Çerçeve Ekosistem Laboratuvarları · Proje
 
-Karşılaştırmalı sınıf laboratuvarı: aynı ek sözleşme, adaptör olmadan, Express, FastAPI, Spring Boot, ASP.NET, Django, Rails, Laravel, Reak, Vue, Svelte ve daha fazlası. 149 sınıf 12 bölümde (70 inşa edilmiş, CI’de doğrulanmış) · 210 kaynak ISBN / DOI · güvenlik, veri, arayüz, arayüz, Laravel, Reaktör, Vue, Svelte ve daha fazlası. 149 sınıflar.
+Karşılaştırılan Sınıflar Laboratuvarı: Express, FastAPI, Spring Boot, ASP.NET, Django, Rails, Laravel, React, Vue, Svelte ve daha fazlasına karşı aynı yürütülebilir sözleşme, bağdaştırıcı yok. 12 bölümde 149 sınıf (70 yerleşik, CI'da doğrulanmış 397 vaka) · ISBN/DOI'li 210 kaynak · güvenlik, veri, arayüz
 
-### IA applied
+### Uygulamalı Yapay Zeka
 
-### LangGraph · Agenic Resilience
+### LangGraph · Ajansal Esneklik
 
-LangGraph v4.15.0 · 25 / 25 operasyonel geri dönüşler (% 100 kapsama, 01-25 vaka): NDJSON, DEMO / LIVE, OAuth2 opt-in, LangSmith gözlemlenebilirlik, / metrikler, 8 güvenlik tabakaları, SHA-256 gözaltı zinciri, Docker per case ve CI / CD sertleşmiş.
+LangGraph v4.15.0 · 25/25 operasyonel arka uçlar (%100 kapsam, vaka 01-25): NDJSON akışı, DEMO/LIVE, OAuth2 katılımı, LangSmith gözlemlenebilirliği, /metrics, 8 güvenlik katmanı, SHA-256 gözetim zinciri, kasa başına Docker ve güçlendirilmiş CI/CD.
 
-### MCP Local Olama
+### MCP Ollama Yerel
 
-Yerel Web (FastAPI) + Olama + araçları MCP ile ve SQLite'de devam ediyor. Total mahremiyet (yerelhost), teknik dağıtım ve işe alım için güvenli araçlar ve belgeler.
+Yerel web (FastAPI) + Ollama + MCP aracılığıyla araçlar ve SQLite'ta kalıcılık. Teknik katılım ve işe alım için tam gizlilik (localhost), güvenli araçlar ve belgeler.
 
-### Claude Becerileri Toolkit
+### Claude Becerileri Araç Seti
 
-Claude Code için 15 beceri ajanı (v0.2.0): güvenlik görevlisi. python- lint-guard (yerel parity ↔ CI), piThon-deps-pinning. pre-push-guard, Web- snap and more. Zero-deps by default & crosss-1 platform (Linux / Mac)
+Claude Code (v0.2.0) için 15 ajansal beceri: güvenlik denetimi (12 katman — OSV/KEV/EPSS/SAST/secrets/container/typosquat…), python-lint-guard (yerel eşlik↔CI), python-deps-pinning, version-bump, md-to-doc, yaml-control, md-lint-fix, docker-cleanup, docker-compose-doctor, ön itme koruması, web snap ve daha fazlası. Varsayılan olarak sıfır derinlik ve platformlar arası (Linux/macOS/Windows).
 
-### Neural Network Training Labs · Project
+### Sinir Ağı Eğitim Laboratuvarları · Proje
 
-Neural Network Education Labs v1.0 · 31 rotalar (25 laboratuvarlar + 6 uzmanlık) · 93 defter · Gerçek kamu veri setleriyle mühendislik döngüsü: test mühür, gölge / meydan okuma, inference API, NX / INT8 / kenar, DDP / FSDP2 ve tedarik zinciri (SBOM / SHA-256).
+Neural Network Training Labs v1.0 · 31 rota (25 laboratuvar + 6 uzmanlık) · 93 not defteri · Gerçek genel veri kümeleriyle eksiksiz AI mühendislik döngüsü: test yalıtımı, şampiyon/meydan okuyan kaydı, çıkarım API'si, ONNX/INT8/edge, DDP/FSDP2 ve tedarik zinciri (SBOM/SHA-256). PyTorch · Python 3.11–3.13
 
-### Tamam teknik curricula
+### Eksiksiz teknik müfredat
 
-### Bilgisayar Matematik Programı · Proje
+### Hesaplamalı Matematik Programı · Proje
 
-Matemática computacional en español · 18 partes · 360 clases en 5 etapas: de contar con los dedos a reproducir un paper · 360 demostraciones deterministas verificadas en CI · sin dependencias para aprender · 1080 notebooks · 489 términos de glosario · manual completo en PDF
+İspanyolca hesaplamalı matematik · 18 bölüm · 5 aşamada 360 ders: parmaklarınızla saymaktan bir makaleyi yeniden oluşturmaya kadar · CI'de doğrulanmış 360 deterministik kanıt · öğrenilecek bağımlılık yok · 1080 not defteri · 489 sözlük terimi · tam PDF kılavuzu
 
-### Modern Gamedev Programı
+### Modern GameDev Programı
 
-İspanyolca'daki en tam video oyunu geliştirme programı - 22 bölümde profesyonel temeller. Matematik, C # / C + / GDiff, desenler ve ECS; 10 Godot laboratuvarı CI ve motor agnostic yaklaşımda doğrulandı: Godot 4 · Unity · Real.
+İspanyolca'daki en eksiksiz video oyunu geliştirme programı — Profesyonel düzeyde temel bilgilerden oluşan 22 bölümden oluşan 352 ders. Matematik, C#/C++/GDScript, desenler ve ECS; 10 Godot Laboratuvarı CI ve motordan bağımsız yaklaşımla doğrulandı: Godot 4 · Unity · Gerçekdışı.
 
 ### Modern Siber Güvenlik Programı
 
-İspanyolca'daki en tam siber güvenlik programı - 20 bölümde temeller uzman düzeyde. Docker laboratuvarları, draftlar, öz değerlendirmeler, PDF / 4X rehberleri ve 7 sertifikaya haritalama (Güvenlik +, PenTest +, CySA +, OSCP, CISSP, BTL1, SANS) 86-92 kapsama alanı ile.
+İspanyolca'daki en eksiksiz siber güvenlik programı — Temel bilgilerden uzmanlık düzeyine kadar 20 bölümden oluşan 360 ders. Komutla oluşturulabilen Docker laboratuvarları, yazılarla CTF zorlukları, öz değerlendirmeler, PDF/PPTX kılavuzları ve %86-92 kapsama alanıyla 7 sertifikaya (Security+, PenTest+, CySA+, OSCP, CISSP, BTL1, SANS) eşleme.
 
-### Multi Cloud Engineering Programı · Project
+### Çoklu Bulut Mühendisliği Programı · Proje
 
-MultiCloud Engineering Programı v2.2.0 · 24 bölümde · 1.288 saat · İspanyolca'daki en tam çoklu bulut mühendisliği programı: AWS, Azure, GCP, Kubernetes, Terraform, SRE, FinOps ve sistem mimarisi · 1.220 sayfa PDF Manual, 288 sekmeler İngilizce ve PWA portal ile kanıt.
+Çoklu Bulut Mühendisliği Programı v2.2.0 · 24 bölümde 288 ders · 1.288 saat · İspanyolca'daki en eksiksiz çoklu bulut mühendisliği programı: AWS, Azure, GCP, Kubernetes, Terraform, SRE, FinOps ve sistem mimarisi · 1.220 sayfalık PDF kılavuzu, JSON kanıtlarıyla birlikte 288 deterministik laboratuvar, sertifika ve PWA portalıyla CLI.
 
-### Finans ve Bankacılık Evrim Programı · Proje
+### Finans ve Bankacılık Gelişimi Programı · Proje
 
-23 bölümde 356 sınıf açık program · 534 h · Her sınıfta bir dijital banka inşa etmek ve savunmak için bir yüzdesi hesaplamak: finansal matematik, IFRS muhasebe, kredi, risk, Basel III, uyumluluk, açık finans, sınır ötesi ödemeler, DLT, stabilcoins, tokenizasyon ve MICA · 26 vaka ve resmi kaynaklar her sınıfta doğrulanabilir: finansal matematik, IFRS muhasebe, kredi, risk, Basel III, uyumluluk, açık finans, sınır ötesi ödeme, DLT, stabilizatörlük ve MICA · 26 vaka ve resmi kaynaklar
+23 bölümden oluşan 356 dersten oluşan açık program · 534 saat · Yüzde hesaplamasından dijital banka oluşturmaya ve savunmaya kadar: finansal matematik, IFRS muhasebesi, kredi, riskler, Basel III, uyumluluk, açık finans, sınır ötesi ödemeler, DLT, stablecoin'ler, tokenizasyon ve MiCA · Her sınıfta 26 vaka ve doğrulanabilir resmi kaynaklar
 
 ### Modern İş Yaratma Programı · Proje
 
-24part programı ve 336 sınıfları Şili'de gerçek bir şirket oluşturmak ve çalışmak: anayasa, SII, operasyon, kriz ve çıktı. 360 diyagramlar ile, 1.251 terimleri ve 1,541 sayfalık PDF ve el kitabı ile PDF
+Şili'de gerçek bir şirket kurmak ve işletmek için 24 bölümlü, 336 sınıflı program: fikirden anayasaya, SII'ye, operasyona, krize ve çıkışa kadar. 360 diyagram, 1.251 terimden oluşan bir sözlük ve 1.541 sayfalık PDF kılavuzuyla
 
-### Yönetici Liderliği Programı · Proje
+### Yönetici Liderlik Kurucu Programı · Proje
 
-24 bölümde 288 sınıf açık yönetici programı · 720 h · Bir şirketle ilk sonucunuzu varsaymak ve sizinkileri yaratmak: liderlik, takımlar, yetenek, operasyonlar, KPI / OKR, finans, satış, pazarlama, ürün, strateji, risk, IA, dizi, M & A ve ayak izi Şili · 24 vaka, 96 laboratuvarlar ve 39 şablonlar, 96 laboratuarlar ve 39 şablonlar, liderlik, ekipler, yetenek, operasyon, KPI / TamamR, satışlar, KPI / pazarlama, pazarlama, ürün, strateji, risk, IA, dizi, M & A ve ayak izi
+24 bölümden oluşan 288 dersten oluşan açık yönetici programı · 720 saat · İlk sonucunuzu üstlenmekten bir şirketi yönetmeye ve kendinizinkini oluşturmaya kadar: liderlik, ekipler, yetenek, operasyonlar, KPI/OKR, finans, satış, pazarlama, ürün, strateji, risk, yapay zeka, dizin, birleşme ve satın almalar ve kurucu takibi Şili · 24 vaka, 96 laboratuvar ve 39 şablon
 
-### Python Data Science Program
+### Python Veri Bilimi Programı
 
-9 bölümde 232 sınıf (Python, klasik ML, Deep Learning, inferential Statistics, MLOps, data mühendisliği, önerilen, etik, capstons). Flask interaktif + masaüstü uygulaması yerli Windows (PySide6 + Qt + Jüpiter) + Android uygulaması (Expo SDK 51). 232 PDFs + 232 PX üretti.
+9 bölümde 232 sınıf (Uygulamalı Python, klasik makine öğrenimi, Derin Öğrenme, çıkarımsal istatistikler, MLOps, veri mühendisliği, tavsiyeciler, etik, temeller). İnteraktif Flask laboratuvarı + yerel Windows masaüstü uygulaması (PySide6 + Qt + Jupyter çekirdeği) + Android uygulaması (Expo SDK 51). 232 PDF + 232 PPTX oluşturuldu.
 
-### Yapay Zeka Evrimi Programı · Proje
+### Yapay Zeka Gelişim Programı · Proje
 
-AI Evolution Programı v0.17.0 · 15 parçada 180 sınıf tam madde ile · 540 adet egzersiz ve çözümlerle · PDF'ler kısmen + tam program (~ 1.100 sayfa) · IA'nın İspanyol'daki evrimi: sembolik, ML, derin öğrenme, LLMs, RAG, ajanlar, MLOps, güvenlik ve sınır hesapları
+AI Evolution Program v0.17.0 · Tam materyalle 15 parça halinde 180 sınıf · Alıştırmalar ve çözümler içeren 540 not defteri · Parça başına PDF + tam program (~1.100 sayfa) · İspanyolcada yapay zekanın evrimi: sembolik, makine öğrenimi, derin öğrenme, LLM'ler, RAG, aracılar, MLOps, güvenlik ve sınır
 
-### Polyglot Programlama Laboratuvarları · Proje
+### Çok Dilli Programlama Laboratuvarları · Proje
 
-Program İspanyolca ile karşılaştırıldı - 12 bölümde 176 sınıf. Bir konsept, 10 temel dil (Python, JS, TS, Java, C #, Go, Rust, C, SQL, PHP) CI'de doğrulandı ve bir kez konsepti öğrenin ve bir kez tekrar bağlantı kurun
+İspanyolca karşılaştırmalı programlama programı — 12 bölümde 176 ders. Tek bir konsept, CI'da doğrulanmış 10 temel dil (Python, JS, TS, Java, C#, Go, Rust, C, SQL, PHP) ve yaklaşık 40 aileden oluşan bir Atlas. Konsepti bir kez öğrenin ve onu herhangi bir dilde tanıyın
 
-### Blockchain Learning Path · Project
+### Blockchain Öğrenme Yolu · Proje
 
-Blockchain Learning Path v0.14.0 · İspanyolca Programı: programlanabilir finansal altyapıya sıfır modüller - şifre, Bitcoin, EVM, sözleşmeler, güvenlik, L2, ZK, DeFi, para ve sıvıtasyon, stabilcoins, CBDC / MDBC, ödemeler ve FX, tokenizasyon, RWA, sermaye piyasaları, tutukluluk ve yönetmelikleri. 70 uygulama, 186 test, uygulamalar çevrimdışı, uygulamalar
+Blockchain Öğrenme Yolu v0.14.0 · İspanyolca Program: Sıfırdan programlanabilir finansal altyapıya kadar 28 modül - kripto, Bitcoin, EVM, sözleşmeler, güvenlik, L2, ZK, DeFi, para ve ödeme, stabil paralar, CBDC/MDBC, ödemeler ve FX, tokenizasyon, RWA, sermaye piyasaları, saklama ve düzenleme. 70 pratik, 186 test, çevrimdışı uygulamalar
 
-### Makine Operatör Programı
+### Makine Operatörü Programı
 
-Makine Programının Operasyon ve Simülasyonu: 41 ders (29 gerçek araçlar + 12 kurgu gemileri) her bir modülle kontroller, araçlar, tarih, düzenlemeler ve simülasyon tasarımı - eğitim ve güvenlik odaklama olmadan bile.
+Makine Operasyonu ve Simülasyon Programının belgesel tabanı: Her biri 11 modül içeren 41 kurs (29 gerçek araç + 12 kurgusal gemi) - kontroller, aletler, tarih, düzenlemeler ve simülasyon tasarımı - eğitim ve güvenlik odaklı. Hala çalıştırılabilir bir simülatör yok; CI yapıyı ve bağlantıları doğrular.
 
-### Eğitim Pedagoji Öğrenme Bilimleri Programı · Proje
+### Eğitim Pedagojisi Öğrenme Bilimleri Programı · Proje
 
-Pedagoji, Öğretim ve Öğrenme Bilimleri v2.0.0 · 25 bölümde 300 sınıf · İspanyolca'daki en tam öğretim programı: öğrenme, öğretme, dahil etme, müfredat, değerlendirme, koexistence, eğitim IA ve liderlik · Sınıf tarafından ilan edilen 14 rol rotaları, 60 sınıf faaliyetleri ve çevrimdışı portal
+Pedagoji, Öğretme ve Öğrenme Bilimleri v2.0.0 · 25 bölümde 300 ders · İspanyolca'daki en eksiksiz pedagojik eğitim programı: öğrenme, didaktik, katılım, müfredat, değerlendirme, birlikte yaşama, eğitimsel yapay zeka ve liderlik · Sınıfa göre beyan edilen kanıtlar, role göre 14 rota, 60 sınıf etkinliği ve çevrimdışı portal 🇨🇱
 
-### Pazarlama Satışları Evrim Programı · Proje
+### Pazarlama Satış Büyümesinin Gelişimi Programı · Proje
 
-Pazarlama, Satış ve Büyüme Evrim Programı v1.6.0 · 24 bölümde 336 sınıf · 1.348 konsept, 1.012 metrik ve 97 iş · pazarlama, satış, RevOps, büyüme, analitik ve ticari IA · Python'da · Python portalı
+Pazarlama, Satış ve Büyüme Gelişimi Programı v1.6.0 · 24 bölümde 336 sınıf · 1.348 konsept, 1.012 metrik ve 97 çalışma · pazarlama, satış, RevOps, büyüme, analiz ve ticari yapay zeka · Python'da çevrimdışı portal
 
-### Şili Okul Öğrenme Yolu · Proje
+### Şili Okulu Öğrenim Yolu · Projesi
 
-Open Chilean okul müfredatı: 8,841 sınıf, 4,156 entegrasyonlar ve 2,823 OA, MINEDUC kaynakları ile, pedagojik rehberler ve GitHub Pages portalları ile.
+Şili açık okul müfredatı: MINEDUC kaynakları, pedagojik rehberler ve GitHub Sayfalarındaki portal ile 8.841 sınıf, 4.156 entegrasyon ve 1. sınıftan 4. sınıfa kadar 2.823 AE.
 
-### Mimarlık Çevre Öğrenme Programı · Proje
+### Mimarlık Yapılı Çevre Öğrenim Programı · Proje
 
-İspanyol tabanlı çevrenin kapsamlı programı: 68 bölümden, komisyondan yaşamın sonuna kadar; tarih, proje, şehir, sistemler, inşaat, yönetim, operasyon ve rehabilitasyon · 8 atölye (48 seans) · 12 rotalar sınıf başına kullanılabilir kaynaklar.
+İspanyolca'da kapsamlı yapılı çevre programı: devreye alma aşamasından kullanım ömrünün sonuna kadar 68 bölümden oluşan 680 sınıf; tarih, proje, şehir, sistemler, inşaat, yönetim, işletme ve rehabilitasyon · 8 atölye (48 oturum) · 12 rota · sınıf başına izlenebilir kaynaklar.
 
-### Psikometrikler ve Değerlendirme Programı · Proje
+### Psikometri ve Değerlendirme Programı · Proje
 
-Psikometrik ve değerlendirmeler programı · 5 enstrüman · 344 eşya · 81 ölçek · programlanabilir · 40 sınıf (5 yazılı) · Traceable lisanslar · Python 3.11-3.13 · 57 test
+psikometri ve değerlendirme programı · 5 araç · 344 öğe · 81 ölçek · denetlenebilir puanlama · müfredat: 40 sınıf (5 yazılı) · izlenebilir lisanslar · Python 3.11–3.13 · 57 test
 
 ### Modern yazılım mühendisliği · Teknik müfredat
 
-480 sınıf, 40 parça ve 8 aşama · temeller → ürün, mimarlık, güvenlik, DevOps, SRE, SPEC, IA ve multiagent sistemler · editör durumu repository tarafından ilan edildi.
+480 sınıf, 40 parça ve 8 aşama · temel bilgiler → ürün, mimari, güvenlik, DevOps, SRE, SPEC, yapay zeka ve çok aracılı sistemler · depo tarafından bildirilen düzenleme durumu.
 
 ### Bilim ve eğitim
 
-### İnsan Genom Laboratuarları
+### İnsan Genomu Laboratuvarları
 
-Plataforma científica evolutiva y reproducible para genética molecular y genómica (v1.0.0): núcleo TypeScript verificable (secuencias, traducción, ORF, variantes, G-cuádruplex), contratos ScientificResult, lectores FASTA/GFF3/VCF, CLI científica, laboratorio web PWA y juego educativo. No realiza diagnóstico clínico.
+Moleküler genetik ve genomik için evrimsel ve tekrarlanabilir bilimsel platform (v1.0.0): Doğrulanabilir TypeScript çekirdeği (diziler, çeviri, ORF, varyantlar, G-dörtlüler), ScientificResult sözleşmeleri, FASTA/GFF3/VCF okuyucuları, Scientific CLI, PWA web laboratuvarı ve eğitici oyun. Klinik tanı koymaz.
 
-### Violin Adventure · Project
+### Keman Macerası · Proje
 
-Violin · 10 yaşından beri keman öğrenmek için Eğitim Uygulaması · 6 dünya, chromatic melodir, metronom ve rehberlik uygulamaları · Tauri 2 + Reaktör + TypeScript · Windows, Android, Linux, Mac, iOS ve PWA · Hayır, hesap yok, çevrimdışı · v1.0.0, taksiciler yayınlarda imza attı.
+Kemanla Maceram · 10 yaşından itibaren keman öğrenmek için eğitici uygulama · 6 dünyada 24 ders, kromatik tuner, metronom ve rehberli uygulama · Tauri 2 + React + TypeScript · Windows, Android, Linux, macOS, iOS ve PWA · Reklam yok, hesap yok, çevrimdışı · v1.0.0, Sürümlerde imzalı yükleyiciler
 
-⚡ Bu portföyün birkaç projesi IA (Claude Code · ChatGPT Plus · Antigravity) tarafından teknik geçerlilik ve mimari yön ile bir araya getirildi.
+⚡ Bu portföydeki birçok proje, kendi teknik doğrulaması ve mimari yönetimiyle birlikte yapay zeka destekli akış (Claude Code · ChatGPT Plus · Antigravity) ile geliştirildi.
 
-### Son incelemeler (car)
+### Son depolar (otomatik)
 
-GitHub ve GitLab'ın halk API'lerinden yükleniyor ( güncelleştirme ile sipariş ediliyor). Yıldızları ve çatalları gösteriyor.
+Genel GitHub ve GitLab API'lerinden yüklenmiştir (güncellemeye göre sıralanmıştır). Yıldızları ★ ve çatalları ⑂ gösterir.
 
-### Son etkinlik (kendi)
+### Son etkinlik (otomatik)
 
-⬆ taahhütler · hs / MRs · serbestlikler - GitHub ve GitLab gerçek zamanlı olarak.
+⬆ taahhütler · 🔀 Halkla İlişkiler / MR'ler · 🚀 yayınlar — GitHub ve GitLab gerçek zamanlı olarak.
 
-[Referans](https://vladimiracunadev-create.github.io/#referencias)
+[Bkz. referans](https://vladimiracunadev-create.github.io/#referencias)
 
-[İletişim benimle iletişime geçin](https://vladimiracunadev-create.github.io/#contacto)
+[Benimle iletişime geç](https://vladimiracunadev-create.github.io/#contacto)
 
 [GitHub](https://github.com/vladimiracunadev-create/rootcause-windows-inspector)
 
-[Salı v0.19.0](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest)
+[Sürüm v0.19.0](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest)
 
-[Araziye](https://vladimiracunadev-create.github.io/rootcause-windows-inspector/)
+[İniş](https://vladimiracunadev-create.github.io/rootcause-windows-inspector/)
 
 [Repo (GitHub)](https://github.com/vladimiracunadev-create/rootcause-mobile-inspector)
 
-[Salı v0.2.1](https://github.com/vladimiracunadev-create/rootcause-mobile-inspector/releases/latest)
+[Sürüm v0.2.1](https://github.com/vladimiracunadev-create/rootcause-mobile-inspector/releases/latest)
 
 [Repo (GitHub)](https://github.com/vladimiracunadev-create/rootcause-web-inspector)
 
 [Ürün sitesi](https://vladimiracunadev-create.github.io/universal-code-scanner/)
 
-[Tarayıcıda Test](https://vladimiracunadev-create.github.io/universal-code-scanner/app/)
+[Tarayıcıda deneyin](https://vladimiracunadev-create.github.io/universal-code-scanner/app/)
 
 [Repo (GitHub)](https://github.com/vladimiracunadev-create/universal-code-scanner)
 
-[Download](https://github.com/vladimiracunadev-create/universal-code-scanner/releases/latest)
+[APK'yı indir](https://github.com/vladimiracunadev-create/universal-code-scanner/releases/latest)
 
 [GitHub](https://github.com/vladimiracunadev-create/gabysql)
 
-[Masaüstü-v0.1.0](https://github.com/vladimiracunadev-create/gabysql/releases/latest)
+[Masaüstü-v0.1.0'ı yayınlayın](https://github.com/vladimiracunadev-create/gabysql/releases/latest)
 
 [GitHub](https://github.com/vladimiracunadev-create/automa-pc)
 
-[Salı v0.3.0](https://github.com/vladimiracunadev-create/automa-pc/releases/latest)
+[Sürüm v0.3.0](https://github.com/vladimiracunadev-create/automa-pc/releases/latest)
 
-[Site Sitesi](https://vladimiracunadev-create.github.io/automa-pc/)
+[Sitesi](https://vladimiracunadev-create.github.io/automa-pc/)
 
 [Repo (GitHub)](https://github.com/vladimiracunadev-create/chofyai-studio)
 
@@ -592,9 +592,9 @@ GitHub ve GitLab'ın halk API'lerinden yükleniyor ( güncelleştirme ile sipari
 
 [GitHub](https://github.com/vladimiracunadev-create/docker-labs)
 
-[Salı v1.5.0](https://github.com/vladimiracunadev-create/docker-labs/releases/latest)
+[Sürüm v1.5.0](https://github.com/vladimiracunadev-create/docker-labs/releases/latest)
 
-[DME](https://github.com/vladimiracunadev-create/docker-labs/blob/main/README.md)
+[BENİOKU](https://github.com/vladimiracunadev-create/docker-labs/blob/main/README.md)
 
 [RECRUITER.md](https://github.com/vladimiracunadev-create/docker-labs/blob/main/RECRUITER.md)
 
@@ -604,25 +604,25 @@ GitHub ve GitLab'ın halk API'lerinden yükleniyor ( güncelleştirme ile sipari
 
 [Taahhütler](https://github.com/vladimiracunadev-create/proyectos-aws/commits/main)
 
-[DME](https://github.com/vladimiracunadev-create/proyectos-aws/blob/main/README.md)
+[BENİOKU](https://github.com/vladimiracunadev-create/proyectos-aws/blob/main/README.md)
 
 [GitLab](https://gitlab.com/vladimir.acuna.dev-group/proyectos-aws-gitlab)
 
-[Demos'ları Gör](https://vladimiracunadev-create.github.io/#demos)
+[Demolara Bakın](https://vladimiracunadev-create.github.io/#demos)
 
 [GitHub](https://github.com/vladimiracunadev-create/microsistemas)
 
-[Salı v1.1.0](https://github.com/vladimiracunadev-create/microsistemas/releases/latest)
+[Sürüm v1.1.0](https://github.com/vladimiracunadev-create/microsistemas/releases/latest)
 
-[DME](https://github.com/vladimiracunadev-create/microsistemas/blob/main/README.md)
+[BENİOKU](https://github.com/vladimiracunadev-create/microsistemas/blob/main/README.md)
 
 [RECRUITER.md](https://github.com/vladimiracunadev-create/microsistemas/blob/main/docs/RECRUITER.md)
 
 [GitHub](https://github.com/vladimiracunadev-create/social-bot-scheduler)
 
-[Salı v4.9.1](https://github.com/vladimiracunadev-create/social-bot-scheduler/releases/latest)
+[Sürüm v4.9.1](https://github.com/vladimiracunadev-create/social-bot-scheduler/releases/latest)
 
-[DME](https://github.com/vladimiracunadev-create/social-bot-scheduler/blob/main/README.md)
+[BENİOKU](https://github.com/vladimiracunadev-create/social-bot-scheduler/blob/main/README.md)
 
 [GitHub](https://github.com/vladimiracunadev-create/problem-driven-systems-lab)
 
@@ -630,11 +630,11 @@ GitHub ve GitLab'ın halk API'lerinden yükleniyor ( güncelleştirme ile sipari
 
 [Repo (GitHub)](https://github.com/vladimiracunadev-create/wsl-labs)
 
-[Salı v0.4.1](https://github.com/vladimiracunadev-create/wsl-labs/releases/latest)
+[Sürüm v0.4.1](https://github.com/vladimiracunadev-create/wsl-labs/releases/latest)
 
 [Repo (GitHub)](https://github.com/vladimiracunadev-create/unikernel-labs)
 
-[Salı v2.0.0](https://github.com/vladimiracunadev-create/unikernel-labs/releases/latest)
+[Sürüm v2.0.0](https://github.com/vladimiracunadev-create/unikernel-labs/releases/latest)
 
 [Repo (GitHub)](https://github.com/vladimiracunadev-create/sandbox-labs)
 
@@ -650,7 +650,7 @@ GitHub ve GitLab'ın halk API'lerinden yükleniyor ( güncelleştirme ile sipari
 
 [Taahhütler](https://github.com/vladimiracunadev-create/langgraph-realworld/commits/main)
 
-[DME](https://github.com/vladimiracunadev-create/langgraph-realworld/blob/main/README.md)
+[BENİOKU](https://github.com/vladimiracunadev-create/langgraph-realworld/blob/main/README.md)
 
 [RECRUITER.md](https://github.com/vladimiracunadev-create/langgraph-realworld/blob/main/docs/RECRUITER.md)
 
@@ -658,7 +658,7 @@ GitHub ve GitLab'ın halk API'lerinden yükleniyor ( güncelleştirme ile sipari
 
 [Taahhütler](https://github.com/vladimiracunadev-create/mcp-ollama-local/commits/main)
 
-[DME](https://github.com/vladimiracunadev-create/mcp-ollama-local/blob/main/README.md)
+[BENİOKU](https://github.com/vladimiracunadev-create/mcp-ollama-local/blob/main/README.md)
 
 [GitHub](https://github.com/vladimiracunadev-create/claude-skills-toolkit)
 
@@ -682,7 +682,7 @@ GitHub ve GitLab'ın halk API'lerinden yükleniyor ( güncelleştirme ile sipari
 
 [GitHub](https://github.com/vladimiracunadev-create/python-data-science-program)
 
-[Salı v3.8.0](https://github.com/vladimiracunadev-create/python-data-science-program/releases/latest)
+[Sürüm v3.8.0](https://github.com/vladimiracunadev-create/python-data-science-program/releases/latest)
 
 [Repo (GitHub)](https://github.com/vladimiracunadev-create/artificial-intelligence-evolution-program)
 
@@ -708,371 +708,371 @@ GitHub ve GitLab'ın halk API'lerinden yükleniyor ( güncelleştirme ile sipari
 
 [Repo (GitHub)](https://github.com/vladimiracunadev-create/violin-adventure)
 
-## Hadi yaşayalım.
+## Canlı demolar
 
 <!-- portfolio-section:demos -->
 
-Gerçek dağıtımları görmek için halk bağlantıları ( uygulanabilir olduğunda).
+Gerçek dağıtımları görmek için genel bağlantılar (varsa).
 
-### Portfolio Web · GitHub Pages
+### Web Portföyü · GitHub Sayfaları
 
-GitHub Pages'te dağıtılan 22 dilde Web portföyü GitHub Actions. PWA kurulabilir, Işıkthouse 100, 154 PDFs boru hattı ve JSON i18n API tarafından üretilen.
+GitHub Eylemleri aracılığıyla GitHub Sayfalarında dağıtılan 22 dilde web portföyü. Pipeline ve JSON i18n API tarafından oluşturulan yüklenebilir PWA, Lighthouse 100, 154 PDF'ler.
 
-### AWS S3 + GitHub Actions
+### AWS S3 + GitHub Eylemleri
 
-Otomatik dağıtım (en) GitHub OIDC. Profesyonel akışları geçerliliklerle birlikte.
+GitHub OIDC aracılığıyla otomatik dağıtım (senkronizasyon). Doğrulamalarla profesyonel akış.
 
 ### Dokümantasyon Portalı (GitLab CI)
 
-Cammorphism PWA, GitLab'tan OIDC ve OAC (Case L - FinOps) aracılığıyla konuşmuştu.
+Glassmorphism PWA, OIDC ve OAC (Case L - FinOps) aracılığıyla GitLab'dan dağıtıldı.
 
-### AWS'yi düzeltin
+### AWS Amplify · Şubelere göre dağıtım
 
-Otomatik bina, SSL ve izole ortamlarla sürekli olarak işlenir (bak / .).
+Otomatik oluşturma, SSL ve yalıtılmış ortamlar (ana/geliştirme) ile Sürekli Dağıtım.
 
-### Docker Labs: yerel pano
+### Docker Labs: yerel kontrol paneli
 
-Laboratuvarları çöp tarafından keşfetmek için yerel bir "hub", teknik röportajlar için ideal.
+Laboratuvarları yığın bazında keşfetmek için yerel bir "merkez". Teknik görüşmeler için idealdir.
 
-[Bak site](https://vladimiracunadev-create.github.io/)
+[Siteye bakın](https://vladimiracunadev-create.github.io/)
 
 [GitHub](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io)
 
 [Demoya bakın](https://mi-pagina-scrum-123.s3.us-east-2.amazonaws.com/index.html)
 
-[GitHub Repo](https://github.com/vladimiracunadev-create/proyectos-aws)
+[GitHub Deposu](https://github.com/vladimiracunadev-create/proyectos-aws)
 
 [Demoya bakın](http://finops-vladimir-portfolio-case-l.s3-website.us-east-2.amazonaws.com)
 
-[GitLab Repo](https://gitlab.com/vladimir.acuna.dev-group/vladimir.acuna.dev-group)
+[GitLab Repo'su](https://gitlab.com/vladimir.acuna.dev-group/vladimir.acuna.dev-group)
 
-[Main talep](https://main.d3r1wuymolxagh.amplifyapp.com/)
+[Demo ana](https://main.d3r1wuymolxagh.amplifyapp.com/)
 
-[Demo Dev](https://dev.d20m8tc0banvg.amplifyapp.com/)
+[Demo geliştirici](https://dev.d20m8tc0banvg.amplifyapp.com/)
 
 ## Deneyim
 
 <!-- portfolio-section:experiencia -->
 
-Notlar (bilgiler için "Deep" görüşünü kullanın).
+Kilometre taşlarına göre özet (ayrıntılar için “Derin” görünümü kullanın).
 
-### Transition (laboratories + portföy)
+### Geçiş (laboratuvarlar + portföy)
 
-Çevre standardizasyon, Docker / AWS laboratuvarları, otomasyon, gözlemlenebilirlik ve prototipler yerel IA ile.
+Ortamların standardizasyonu, Docker/AWS laboratuvarları, otomasyon, gözlemlenebilirlik ve yerel yapay zeka ile prototip oluşturma.
 
-- Profil (recruiter, geliştirici ve pratik vakalar) tarafından kopyalanabilir belge.
+- Profil başına tekrarlanabilir belgeler (işe alan kişi, geliştirici ve örnek olay çalışmaları).
 
-- Uygulamaya odaklanın: şubeler, PRs, CI / CD, Pages ve yayınlar.
+- Uygulamalara odaklanın: şubeler, PR'ler, CI/CD, Sayfalar ve yayınlar.
 
-### CEIS Maristas Foundation
+### CEIS Marist Vakfı
 
-Eğitim / psikometrik web platformlarının tasarımı ve çalışması. Optimizasyon SQL / performans. Operasyonel güvenlik: Saldırıların adli analizi, OWASP ZAP ve JMeter ile giriş ve test yönetimi.
+Eğitimsel/psikometrik web platformlarının mimarisi, geliştirilmesi ve işletilmesi. SQL/performans optimizasyonu. Operasyonel güvenlik: OWASP ZAP ve JMeter ile saldırıların adli analizi, günlük yönetimi ve test edilmesi.
 
-- Güvenlik: Bir fırsattan daha fazla sunucu saldırılarının adli analizi, kökeni belirleme, giriş vektörü ve ulaşmak.
+- Güvenlik: Sunucuya birden fazla kez yapılan saldırıların adli analizi, kökeni, giriş vektörü ve kapsamı belirlenir.
 
-- Sunucu ve PHP ortamının yönetimi ve analizi: Bilinmeyen IP'den anormal aktivitenin temizlenmesi ve tespiti.
+- Sunucu ve PHP ortamı günlüklerinin yönetimi ve analizi: kod hata ayıklaması ve bilinmeyen IP'lerden gelen anormal etkinliklerin tespiti.
 
-- Sistem çapında OWASP ZAP (Saldırıların simülasyonu) ve testleri ile yükleyin Apache JMeter .
+- Sistem sertleştirmesi OWASP ZAP (saldırı simülasyonu) ve yük testi Apache JMeter .
 
-- Turizm sırasında siber güvenlik eğitimi ve daha sonraki kurumsal siber güvenlik hakkında konuşmak.
+- Pandemi sırasında siber güvenlik eğitimi ve ardından gelen kurumsal siber güvenlik konuşmaları.
 
-### İş + IT
+### İş + BT
 
-İş yönetiminde teknik eğitim: süreçler, verimlilik, pazarlama ve ölçüm.
+İşletme yönetiminde teknik eğitim: süreçler, verimlilik, pazarlama ve ölçüm.
 
-## Geliştirme akışı IA tarafından yardımcı oldu
+## Yapay zeka destekli geliştirme akışı
 
 <!-- portfolio-section:flujo-ia -->
 
-IA araçlarını projelerde gerçek teknik hızlandırıcılar olarak kullanıyorum, kendi kriter için yedekler olarak değil.
+Yapay zeka araçlarını projelerde gerçek teknik hızlandırıcılar olarak kullanıyorum, kendi kararlarımın yerine geçmiyor.
 
-### Aktif kullanımda araçlar
+### Aktif kullanımdaki araçlar
 
-- ChatGPT Plus (2023'ten beri) · Analiz, mimarlık, iterasyon ve dokümantasyon
+- ChatGPT Plus (2023'ten beri) · analiz, mimari, yineleme ve dokümantasyon
 
-- Kod · Kod nesli ve yeniden faktörleme
+- Kodeks · kod oluşturma ve yeniden düzenleme
 
-- Claude Code · Mimari inceleme, uygulama ve teknik dokümantasyon
+- Claude Kodu · mimari inceleme, uygulama ve teknik dokümantasyon
 
-- Antika · Geliştirme ve otomasyon hızları hızlanıyor
+- Yerçekimine Karşı · geliştirme ve otomasyon akışlarının hızlandırılması
 
-- VS Code / OpenKo · Bütünleşik IA yardımlarıyla gelişim ortamları
+- VS Code / OpenCode · entegre yapay zeka desteğine sahip geliştirme ortamları
 
-### IA'yı akışta nereye uygulayacağım
+### Yapay zekayı akışta nereye uygularım
 
-- Teknik tanı ve mimarlık analizi
+- Teknik teşhis ve mimari analiz
 
-- Çözüm tasarımı ve karar geçerliliği
+- Çözüm tasarımı ve karar doğrulama
 
-- Uygulama, refaksiyon ve test
+- Uygulama, yeniden düzenleme ve test etme
 
-- Teknik ve profil belgeleri
+- Teknik belgeler ve profile göre
 
-- Proje hızlandırma ve depozit iteration
+- Projelerin hızlandırılması ve depolarda yineleme
 
-"Kendim, insan doğrulama ve mimari yönümün teknik kriterlerini bir araya getiriyorum. IA amplify kapasite, hız ve teknik erişim - deneyim yerini değiştirmiyor. "
+"Kendi teknik yargımı, insan doğrulamasını ve mimari yönlendirmemi birleştiriyorum. Yapay zeka teknik kapasiteyi, hızı ve kapsamı artırır; deneyimin yerini almaz."
 
-## Gerçek profesyonel kapsamı
+## Gerçek mesleki kapsam
 
 <!-- portfolio-section:roles -->
 
-Clear Hierarchy: ilk ana kimlik, sonra doğal genişleme, sonunda tamamlayıcı ulaşır.
+Açık hiyerarşi: önce temel kimlik, sonra doğal genişleme, en son tamamlayıcı kapsam.
 
-### 🎯 Ana kimlik
+### 🎯 Birincil Kimlik
 
-16 + mimarlık, gerçek platformların gelişimi ve operasyonu. Operasyon, sistem entegrasyonu, süreç otomasyonu ve IA'yı - teknik kriter ve insan doğrulama ile modernizasyon.
+16 yılı aşkın mimari, gerçek platformların geliştirilmesi ve işletilmesi. Kendi teknik kriterleri ve insan doğrulaması ile kesme işlemleri, sistem entegrasyonu, süreç otomasyonu ve uygulamalı yapay zeka olmadan aşamalı modernizasyon.
 
-### ↗ Doğal genişleme - güçle varsayabileceğim suçlamaları
+### ↗ Doğal genişleme — güçlü bir şekilde üstlenebileceğim pozisyonlar
 
-Doğrudan deneyim tarafından desteklenen, doğrulanabilir projeler ve IA-assisted akış.
+Doğrudan deneyim, doğrulanabilir projeler ve yapay zeka destekli akışla desteklenir.
 
-### Teknoloji Lideri / Tech Lead
+### Líder Tecnológico / Tech Lead
 
-Teknik proje yönü, mimarlık tanımı, kritik kararların gözden geçirilmesi, ekipman kompaniment, mevcut sistemlerin modernizasyonu ve iş hedefleri ve sürdürülebilir teknolojik çözümler arasındaki bağlantı.
+Teknik proje yönetimi, mimari tanımı, kritik kararların gözden geçirilmesi, ekip desteği, mevcut sistemlerin modernizasyonu ve iş hedefleri ile sürdürülebilir teknolojik çözümler arasındaki bağlantı.
 
-### AI Orkestrası Mühendisi
+### Yapay Zeka Düzenleme Mühendisi
 
-LangGraph, FastAPI ve MCP ile yaş arası sistemlerin tasarımı. Agents with state, koşullu rotalar ve dayanıklılık.
+LangGraph, FastAPI ve MCP ile etmenli sistemlerin tasarımı. Durum bilgisi olan aracılar, koşullu yollar ve esneklik.
 
-### AI Otomasyon Mühendisi
+### Yapay Zeka Otomasyon Mühendisi
 
-n8n, Python ve dayanıklı orkestralar ile akışların Otomasyonu. Devre Breaker, Idempotence ve gözlemlenebilirlik.
+n8n, Python ve esnek orkestratörlerle akış otomasyonu. Devre Kesici, Idempotence ve gözlemlenebilirlik.
 
-### Çözümleri Mühendis
+### Çözüm Mühendisi
 
-Biz veriyoruz ve PoCs gerçek, teknik iletişim - iş, gereksinimleri ve müşteri odaklı mimari.
+Gerçek demolar ve PoC'ler, teknik-iş iletişimi, gereksinimler ve müşteri odaklı mimari.
 
-### Teknik Ürün Builder
+### Teknik Ürün Oluşturucu
 
-Dijital ürünlerin inşaatı sona erecek: mimarlık, geliştirme, işletme ve ürün kriterleri ile teslimat.
+Uçtan uca dijital ürünlerin oluşturulması: mimari, geliştirme, işletme ve ürün kriterleriyle teslimat.
 
 ### Dijital Dönüşüm Danışmanı
 
-Teknik tanı, gerçek miras sistemleri olan kuruluşlarda modernleşmenin evrimsel planı ve uygulanması.
+Gerçek eski sistemlere sahip kuruluşlarda teknik teşhis, evrimsel plan ve modernizasyon uygulaması.
 
-### Ürün Operasyonları Teknik Teknik
+### Ürün Operasyon Teknisyeni
 
-Dayanıklılık azaltımı, gözlemlenebilirlik ve sürekli iyileştirmeye odaklanmakla platformların sürekliliği ve evrimi.
+Sürtünmeyi azaltma, gözlemlenebilirlik ve sürekli iyileştirme odaklı platformların işletimi, sürekliliği ve gelişimi.
 
-### Bilgisayar Programlaması ve Düşünce Eğitmeni
+### Programlama ve Hesaplamalı Düşünme Eğitmeni
 
-445 + saat teknik raportör (2003-2004, 2011): Web programlama, HTML / CSS, Office ve donanım. Üniversitenin Down Sendromu (note 6.7) Ing. in Computing and Informatics (UTA) + 16 yıl işletim gerçek eğitim platformları.
+Teknik raportör olarak 445+ saat eğitim (2003–2004, 2011): web programlama, HTML/CSS, Ofis ve donanım. Down Sendromlu çocuklara yönelik web eğitim ortamında üniversite diploması (not 6.7). Bilgisayar ve Bilişim Mühendisi (UTA) + 16 yıl gerçek eğitimsel değerlendirme platformlarını işletiyor.
 
 ### 🧭 Ne tür bir teknolojik liderlik sunuyorum
 
-- Pratik teknik liderlik, sadece idari değil.
+- Sadece idari değil, pratik teknik liderlik.
 
 - Gerçek üretim deneyimine dayanan kararlar.
 
-- Operasyon kesintisi olmadan ölçeksel modernizasyon.
+- Çalışmayı kesintiye uğratmadan kademeli modernizasyon.
 
-- Takımlar, işe alımlar ve süreklilik için açık belgeler.
+- Ekipler, işe alım görevlileri ve süreklilik için anlaşılır belgeler.
 
-- Teknik bir yükseltici olarak, profesyonel kriter için bir yedek olarak değil.
+- Teknik bir amplifikatör olarak yapay zeka, mesleki muhakemenin yerini alacak şekilde değil.
 
-- Stabiliteye, sürdürülebilirliğe, güvenlik ve teknik borç azaltımına yaklaşımı.
+- İstikrar, sürdürülebilirlik, güvenlik ve teknik borcun azaltılmasına odaklanın.
 
-### ⚙️ Tamamlayıcı kapsamı
+### ⚙️ Ek kapsam
 
-Profilin mantıksal uzantısı. bağlam veya proje gerektirdiğinde bu roller alıyorum, ana kimlik olarak değil.
+Profilin mantıksal uzantısı. Bu rolleri ana kimliğim olarak değil, bağlam veya proje gerektirdiğinde üstleniyorum.
 
-### ✅ Neden bu aralığı alabilir
+### ✅ Neden bu kapsamı varsayabilirim?
 
-- Teknolojik liderlik — Teknik ekipmana kılavuz, standartların tanımı, risk incelemesi ve kritik kararlarda takip.
+- Teknolojik liderlik — Ekipmana ilişkin teknik kılavuz, standartların tanımı, risk incelemesi ve kritik kararlarda destek.
 
-- Çözümlerin tasarımı — Üretime ve sistemlerin tasarımı ve evrimi.
+- Çözüm mimarisi — Kökten üretime kadar sistemlerin tasarımı ve geliştirilmesi.
 
-- Law Modernization — 16 + yıl miras alınan sistemleri kesme işlemi olmadan.
+- Eski modernizasyon — Kesme işlemi gerektirmeyen eski sistemlerle 16+ yıl.
 
-- Automatización — n8n, Python, Grafana'da gözlemlenebilirlik ile dayanıklı iş akışları.
+- Otomasyon — n8n, Python, Grafana'da gözlemlenebilirliğe sahip esnek iş akışları.
 
-- Cloud / CI / CD — AWS (Lambda, DynamoDB, ECS, EKS, Cognito, EventBridge, CloudWatch / X-Ray), Terraform, OIDC, FinOps.
+- Bulut / CI/CD — AWS (Lambda, DynamoDB, ECS, EKS, Cognito, EventBridge, CloudWatch/X-Ray), Terraform, OIDC, FinOps.
 
-- Polyglot gelişimi — Python, Go, TypeScript, Node.js, PHP 8.x, C #, Ruby, PowerShell, Makefile.
+- Çok dilli geliştirme — Python, Go, TypeScript, Node.js, PHP 8.x, C#, Ruby, PowerShell, Makefile.
 
-- IA'nın bütünleşmesi — LangGraph, MCP, Olama, ChatGPT Plus, Claude Code.
+- Yapay Zeka Entegrasyonu — LangGraph, MCP, Ollama, ChatGPT Plus, Claude Code.
 
-- Teknik iletişim - iş — Yönetim eğitimi + kurumsal projelerde gerçek deneyim.
+- Teknik-iş iletişimi — Yönetim eğitimi + kurumsal projelerde gerçek deneyim.
 
-- İşbirliği ve Belgeler — DCs by profile, RECRUITER.md, yeniden kullanılabilir kanıtlar.
+- İşbirliği ve dokümantasyon — Profil başına dokümanlar, RECRUITER.md, depolarda doğrulanabilir kanıtlar.
 
-### 🔗 bağlamı bağlamı ile ilgili roller
+### 🔗 Bağlama göre ilgili roller
 
-Proje türü, şirket veya özel ihtiyaç tarafından öngörülemez.
+Proje türüne, şirkete veya özel ihtiyaca göre adreslenebilir.
 
 ## Hizmetler
 
 <!-- portfolio-section:servicios -->
 
-Sahnelerdeki aralar gerçek mimarlık, modernizasyon ve sürdürülebilir teknik evrim ile uyumludur.
+Gerçek mimari, modernizasyon ve sürdürülebilir teknik evrimle uyumlu aşamalar halinde müdahaleler.
 
-### IA tarafından yaratılan Kod denetimi
+### Yapay zeka tarafından oluşturulan kod denetimi
 
-Fonksiyonel doğrulama, teknik denetim, teknik borç tespiti ve azaltımı ve ekipler için bir yönetim zaten yardımcı ve ajanlar ile gelişmiştir.
+Asistanlar ve temsilcilerle halihazırda gelişmekte olan ekipler için işlevsel doğrulama, teknik denetim, teknik borç temizleme ve azaltma ve yapay zeka yönetimi.
 
-### Miras Sistemlerinin Modernizasyonu
+### Eski Sistem Modernizasyonu
 
-Progresif Refaksiyon, PHP / miras göçü durdur, CI / CD, otomatik test ve kesme işlemi olmadan güvenli dağıtım.
+Aşamalı yeniden düzenleme, PHP/yığın eski geçişi, CI/CD, otomatik test ve kesme işlemleri olmadan güvenli dağıtım.
 
-### Süreç ve İş Akışı Otomasyon
+### Süreç ve İş Akışı Otomasyonu
 
-n8n, Python ve dirençli orkestralar ile otomatik akışların tasarımı ve uygulanması. Devre Breaker, Idempotency ve observability dahil.
+N8n, Python ve esnek orkestratörlerle otomatik akışların tasarlanması ve uygulanması. Devre Kesici, Idempotence ve gözlemlenebilirlik dahildir.
 
-### Uygulamalı IA entegrasyonu
+### Uygulamalı Yapay Zeka Entegrasyonu
 
-Ajansların, LLM'lerin ve IA-assisted akışların gerçek ürünlere ve süreçlere doğru ilerledi. LangGraph, MCP, Olama ve HızlıAPI.
+Temsilcilerin, LLM'lerin ve yapay zeka destekli akışların gerçek ürün ve süreçlere dahil edilmesi. LangGraph, MCP, Ollama ve FastAPI.
 
-### Bulut Mimarisi, CI / CD ve Observability
+### Bulut Mimarisi, CI/CD ve Gözlemlenebilirlik
 
-AWS (ECS / EKS, Lambda / SAM, DynamoDB, Cognito, EventBridge / SQS / SNS, CloudWatch / X-Ray, S3 / CloudFront), Terraform, OIDC, FinOps, GitHub / GitLab CI ve Prometheus / Grafana.
+AWS (ECS/EKS, Lambda/SAM, DynamoDB, Cognito, EventBridge/SQS/SNS, CloudWatch/X-Ray, S3/CloudFront), Terraform, OIDC, FinOps, GitHub/GitLab CI ve Prometheus/Grafana.
 
-### Teknik Tanı ve Evrimsel Plan
+### Teknik Teşhis ve Gelişim Planı
 
-Kapsamlı değerlendirme: riskler, teknik borç, performans, maliyetler ve hızlı kazanım ile öncelikli yol haritası yapılabilir.
+Kapsamlı değerlendirme: riskler, teknik borç, performans, maliyetler ve eyleme geçirilebilir hızlı kazanımlarla öncelikli yol haritası.
 
-[Tam servise bakın](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/)
+[Hizmetin tamamını görün](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/)
 
-## Freelance · İşbirliğinin Değiştirilmesi
+## Serbest Çalışan · İşbirliği yöntemleri
 
 <!-- portfolio-section:modalidades -->
 
-Soruna göre esnek formatlarda çalışıyorum, kritiklik, katılım kapsamı ve gerekli katılımın seviyesi.
+Soruna, kritikliğe, kapsam ve gerekli katılım düzeyine bağlı olarak esnek formatlarda çalışıyorum.
 
-### Project kesim out out
+### Sınırlı proje
 
-zamanında modernizasyon, entegrasyon, özel otomasyon, kritik iyileştirme veya beton teslim edilebilirler için.
+Belirli modernizasyon, entegrasyonlar, özel otomasyon, kritik iyileştirme veya belirli teslimatlar için.
 
-### Uzman destek / saat çanta
+### Çalışma saatleri / uzman desteği
 
-Teknik kararları hızlandırmaya ihtiyaç duyan takımlar için, mimariyi açın, uygulamaları doğrulayın veya şişeleri çözmeniz gerekir.
+Teknik kararları hızlandırması, mimarinin kilidini açması, uygulamaları doğrulaması veya darboğazları çözmesi gereken ekipler için.
 
-### Acompañamiento mensual
+### Aylık destek
 
-Sürekli evrim için, üst düzey destek, teknik yol haritası, operasyonel süreklilik ve ilerici iyileşme.
+Sürekli gelişim, kıdemli destek, teknik yol haritası, operasyonel süreklilik ve aşamalı iyileştirme için.
 
-### Tanı + yol haritası
+### Teşhis + yol haritası
 
-bağlamı sipariş etmek için, riskleri tanımlamak, kararlara öncelik vermek ve gerçekçi bir uygulama stratejisi tanımlamak.
+Bağlamı düzenlemek, riskleri belirlemek, kararları önceliklendirmek ve gerçekçi bir uygulama stratejisi tanımlamak.
 
-### Teknik-kommercial işbirliği
+### Teknik-ticari işbirliği
 
-Müşteriler veya paydaşları ile konuşmaları desteklemek için, uygulanabilir çözümlere ihtiyaçlar çevirerek predata veya teknik tanıma eşlik eder.
+Müşteriler veya paydaşlarla yapılan görüşmeleri desteklemek için gereksinimleri uygulanabilir çözümlere dönüştürün ve satış öncesi veya teknik tanımlara eşlik edin.
 
-### Modernizasyon, kurtarma ve IA'yı Uyguladı
+### Modernizasyon, kurtarma ve uygulamalı yapay zeka
 
-kırılgan sistemler olduğunda, yaşam operasyonu, otomasyonlar, mimari kararlar, bulut / Cic@-@ CD, gözlemlenebilirlik veya pragmatik IA'nın benimsenmesi.
+Kırılgan sistemler, canlı operasyon, bekleyen otomasyonlar, mimari kararlar, bulut/CI-CD, gözlemlenebilirlik veya pragmatik yapay zekanın benimsenmesi olduğunda destek.
 
-### Uygun modality nasıl tanımlıyorum
+### Uygun yöntemi nasıl tanımlarım
 
-Uygulamada, ayrı keşif, mimarlık, uygulama, test, belgeleme, koordinasyon ve daha sonra destek. sipariş birkaç katman karıştırırsa, diferansiyel beklentilerden kaçınmak için aşamaları veya aylık kapasitede sipariş ediyorum.
+Uygulamada keşif, mimari, yürütme, test etme, belgeleme, koordinasyon ve sonraki desteği ayırıyorum. Sipariş birkaç katmanı karıştırıyorsa, dağınık beklentilerden kaçınmak için aşamalara göre veya aylık kapasiteye göre sipariş veririm.
 
-### Yayınlanmış herhangi bir sabit oran yayınlanmadı
+### Yayınlanmış sabit oran yok
 
-Sabit oranları yayınlamam çünkü her müdahale karmaşıklığına göre değişir, risk, aciliyet ve katılım seviyesi. Ben uygun modality önermek için objektif ve kapsamı ilk incelemeyi tercih ederim.
+Sabit oranları yayınlamıyorum çünkü her müdahale karmaşıklığa, riske, aciliyete ve katılım düzeyine göre değişir. Uygun yöntemi önermek için öncelikle amaç ve kapsamı gözden geçirmeyi tercih ederim.
 
-¿Proje, uzman destek veya zamanında işbirliği? bağlamı tartışıyoruz ve en iyi çalışma biçimini inceliyoruz.
+Proje mi, uzman desteği mi yoksa özel işbirliği mi? Bağlamı tartışalım ve en iyi çalışma formatını gözden geçirelim.
 
-[kapsamı hakkında konuşalım.](https://vladimiracunadev-create.github.io/#contacto)
+[Kapsam hakkında konuşalım](https://vladimiracunadev-create.github.io/#contacto)
 
-## Discharge Centre
+## İndirme Merkezi
 
 <!-- portfolio-section:descargas -->
 
-Yerli versiyonlara ve kamu profesyonel belgelerine erişim.
+Yerel sürümlere ve genel profesyonel belgelere erişin.
 
 ### Önerilen
 
-ekipman ...
+Ekipman algılanıyor...
 
-### Diğer sürümler
+### Diğer Sürümler
 
-Otomatik algılama cihazınızla eşleşmezse bu bağlantıları kullanın.
+Otomatik algılama cihazınızla eşleşmiyorsa bu bağlantıları kullanın.
 
-### Documentos PDF
+### PDF Belgeleri
 
-Dil seçici veya her indirmeyi aktif dilde eşdeğer PDF'ye değiştirir.
+Dil seçici, her indirmeyi etkin dildeki eşdeğer PDF'ye değiştirir.
 
-Geçerli not, Fundación CEIS Marista tarafından yayınlanan bir destek belgesidir. 2026 yılında otoritenin metinselleştirilmiş bir değişimidir ve tarihi öneri mektubu ile birlikte gözden geçirilmesi gerekir.
+Geçerlilik notu, CEIS Marist Vakfı tarafından değil, profesyonel tarafından verilen bir destek belgesidir. 2026'daki yetki değişikliğini bağlamsallaştırır ve tarihi tavsiye mektubuyla birlikte gözden geçirilmelidir.
 
-Başarının ifadesi, CV veya portföy değiştirmeden dış doğrulamayı ayrı olarak yayınlanmaktadır.
+Başarı beyanı, gözlemlenebilir sonuçları özetlemek ve özgeçmişi veya portföyü değiştirmeden harici doğrulamayı kolaylaştırmak için ayrı olarak yayınlanır.
 
-Life Sheet genel belgedir: klasik ve tam bir format, belirli bir ücrete yönlendirilmeden. Herhangi bir seçim sürecine hizmet eder, ancak posta alışılmadık bir isime sahip olsa bile.
+Özgeçmiş genel bir belgedir: belirli bir konuma yönlendirilmeden klasik ve eksiksiz format. Pozisyonun alışılmadık bir adı olsa bile her türlü seçim süreci için kullanışlıdır.
 
 ### Teknik dosyalar
 
-Sitenin kökündeki Discovery dosyaları (SEO + IA).
+Site kökündeki keşif dosyaları (SEO + AI).
 
 [Android (APK)](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/releases/latest/download/app-debug.apk)
 
-[Portföy Portföyü](https://vladimiracunadev-create.github.io/assets/portafolio.pdf)
+[Portföy](https://vladimiracunadev-create.github.io/assets/portafolio.pdf)
 
-[Life page](https://vladimiracunadev-create.github.io/assets/hoja-de-vida.pdf)
+[Devam Et](https://vladimiracunadev-create.github.io/assets/hoja-de-vida.pdf)
 
-[CV Reclutor](https://vladimiracunadev-create.github.io/assets/cv-reclutador.pdf)
+[CV İşe Alma Aracı](https://vladimiracunadev-create.github.io/assets/cv-reclutador.pdf)
 
 [CV ATS](https://vladimiracunadev-create.github.io/assets/cv-ats.pdf)
 
-[Öneri Mektupları](https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma.pdf)
+[Tavsiye Mektubu](https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma.pdf)
 
-[CEIS Watch Note Not](https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis.pdf)
+[CEIS Geçerlilik Notu](https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis.pdf)
 
-[Başarıların Dekrasyonları](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
+[Başarıların Bildirisi](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
 
-[Robotlar.txt](https://vladimiracunadev-create.github.io/robots.txt)
+[robots.txt](https://vladimiracunadev-create.github.io/robots.txt)
 
-[sitemap.xml](https://vladimiracunadev-create.github.io/sitemap.xml)
+[site haritası.xml](https://vladimiracunadev-create.github.io/sitemap.xml)
 
 [llm.txt](https://vladimiracunadev-create.github.io/llm.txt)
 
-## İşbirlikleri Referansları
+## İş referansları
 
 <!-- portfolio-section:referencias -->
 
-Kurumsal projeler için, geçerlilik referans yoluyla yapılır.
+Kurumsal projeler için doğrulama referans yoluyla gerçekleştirilir.
 
-### Özet başarılar ve geçerlilik
+### Özet başarıları ve doğrulama
 
-- Up 80% Kritik süreçlerde tahmin edilen iyileşme ve raporlama.
+- Kadar 80% kritik süreçlerde ve rapor oluşturmada tahmini iyileşme.
 
-- Azalmaya yakın 90% Operasyonel sürtünme ve Online Battery üzerinde destek.
+- Reducción cercana al 90% Battery Online'da operasyonel sürtünme ve destek.
 
-- Approximate Optimizasyonu 45% Veritabanı ve kod bileşenleri.
+- Optimización aproximada de 45% veritabanı bileşenleri ve kodunda.
 
-- Simultane up-to- 5 cephe Bazı dönemlerde çalışır.
+- En fazla eşzamanlı dikkat 5 cephe belirli dönemlerde çalışma.
 
-Bu rakamlar profesyonel tarafından yayınlanan resmi bir açıklamada, çalışma bağlamını ve genel kapsamı doğrulamak için dış referansla sunulur.
+Bu rakamlar, iş bağlamını ve genel kapsamı doğrulamak için harici referanslarla birlikte profesyonel tarafından yayınlanan resmi bir beyanda sunulmaktadır.
 
-### Jean Claude Dupry · Son doğrudan şef
+### Jean Claude Dupry · Son doğrudan patron
 
-Hücre hücresi : +56 9 9415 6984
+Cep telefonu : +56 9 9415 6984
 
-Buna ihtiyacınız olursa yazılı bir özet gönderebilir ve örnek gönderebilirim.
+İhtiyacınız olursa yazılı bir özet ve etki örnekleri gönderebilirim.
 
-[Açıklamayı gör](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
+[Açıklamaya bakın](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
 
-## Sunum kartı
+## Kartvizit
 
 <!-- portfolio-section:tarjeta -->
 
-Profesyonel verilerimi kurtar veya bu portföyü QR kodu kullanarak paylaşın. Ters hizmet alanlarımı özetliyor: web uygulamaları, bulut mimarisi, veri, APIs, IA, otomasyon ve siber güvenlik.
+Mesleki bilgilerimi kaydedin veya bu portföyü QR kodunu kullanarak paylaşın. Arka kısım hizmet alanlarımı özetliyor: web uygulamaları, bulut mimarisi, veriler, API'ler, yapay zeka, otomasyon ve siber güvenlik.
 
 https://vladimiracunadev-create.github.io/assets/icons/1.png?v=5adde69a
 
 https://vladimiracunadev-create.github.io/assets/icons/2.png?v=1a55b3e6
 
-[Download Front Download](https://vladimiracunadev-create.github.io/assets/icons/1.png?v=5adde69a)
+[Önden indir](https://vladimiracunadev-create.github.io/assets/icons/1.png?v=5adde69a)
 
-[Download ters](https://vladimiracunadev-create.github.io/assets/icons/2.png?v=1a55b3e6)
+[Tersten indir](https://vladimiracunadev-create.github.io/assets/icons/2.png?v=1a55b3e6)
 
 ## İletişim
 
 <!-- portfolio-section:contacto -->
 
-¿Modernizasyon, otomasyon, mimarlık veya uygulama entegrasyonu IA? bana yazın.
+Uygulamalı yapay zeka modernizasyonu, otomasyonu, mimarisi veya entegrasyonu? Bana yaz.
 
-Kendimi hızlı bir şekilde, Slack gibi işbirliği kanalları aracılığıyla teknik takımlara ve topluluklara entegre etmek için kullanılabilir.
+Slack gibi işbirliğine dayalı kanallar aracılığıyla ekiplere ve teknik topluluklara hızla entegre olmaya uygundur.
 
-[vladimir.acuna.dev @ gmail.com](mailto:vladimir.acuna.dev@gmail.com)
+[vladimir.acuna.dev@gmail.com](mailto:vladimir.acuna.dev@gmail.com)
 
 [LinkedIn](https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29)
 

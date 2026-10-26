@@ -11,8 +11,8 @@
   },
   "profile": {
     "name": "Vladimir Acuña",
-    "title": "建築、近代化、自動化、IA を応用したプロジェクト。",
-    "summary": "ソリューションの建築家・シニアフルスタック・ テクノロジーリーダー . 16 + プラットフォームの進化をリード年. 専門に 法制度の近代化 , プロセス自動化 , クラウド&CI/CD ツイート 統合された応用IA .",
+    "title": "アーキテクチャ、最新化、自動化、AI が実際のプロジェクトに適用されます。",
+    "summary": "ソリューション アーキテクト · シニア フルスタック · テクノロジーリーダー 。 16 年以上にわたって進化をリード プラットフォームの。 専門分野 レガシー システムの最新化 , オートメーション プロセス , クラウドと CI/CD e AIの統合 適用された .",
     "website": "https://vladimiracunadev-create.github.io/i18n/ja/",
     "github": "https://github.com/vladimiracunadev-create",
     "gitlab": "https://gitlab.com/vladimir.acuna.dev-group"
@@ -26,7 +26,7 @@
   "sections": [
     {
       "id": "hero",
-      "title": "建築、近代化、自動化、IA を応用したプロジェクト。",
+      "title": "アーキテクチャ、最新化、自動化、AI が実際のプロジェクトに適用されます。",
       "min_level": 0,
       "freelance_hidden": false
     },
@@ -38,31 +38,31 @@
     },
     {
       "id": "evolucion",
-      "title": "連結技術柱",
+      "title": "統合された技術的柱",
       "min_level": 1,
       "freelance_hidden": true
     },
     {
       "id": "auditoria-ia",
-      "title": "IAが生成するコード監査",
+      "title": "AI 生成コード監査",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "productos",
-      "title": "使い捨て製品",
+      "title": "ダウンロード可能な製品",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "proyectos",
-      "title": "注目プロジェクト",
+      "title": "注目のプロジェクト",
       "min_level": 1,
       "freelance_hidden": true
     },
     {
       "id": "demos",
-      "title": "生きよう。",
+      "title": "ライブデモ",
       "min_level": 1,
       "freelance_hidden": false
     },
@@ -74,13 +74,13 @@
     },
     {
       "id": "flujo-ia",
-      "title": "IAが支援する開発フロー",
+      "title": "AI 支援開発フロー",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "roles",
-      "title": "実質の専門の規模",
+      "title": "実際の専門的範囲",
       "min_level": 1,
       "freelance_hidden": true
     },
@@ -92,31 +92,31 @@
     },
     {
       "id": "modalidades",
-      "title": "フリーランス・コラボレーションのモダリティ",
+      "title": "フリーランス · コラボレーションの様式",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "descargas",
-      "title": "放電センター",
+      "title": "ダウンロード センター",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "referencias",
-      "title": "労働基準",
+      "title": "ジョブリファレンス",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "tarjeta",
-      "title": "プレゼンテーションカード",
+      "title": "名刺",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "contacto",
-      "title": "今すぐ連絡",
+      "title": "お問い合わせ",
       "min_level": 0,
       "freelance_hidden": false
     }

@@ -11,8 +11,8 @@
   },
   "profile": {
     "name": "Vladimir Acuña",
-    "title": "Mimari, modernizasyon, otomasyon ve IA gerçek projelere uygulanır.",
-    "summary": "Çözümlerin mimarı · Senior Full-Stack · Teknolojik Lider . 16 + yıl platformların evrimine yol açtı. Özelleştir in Yasal sistemlerin modernizasyonu , Süreç otomasyon süreci otomasyon , bulut & CI / CD e Bütünleşik Uygulama IA .",
+    "title": "Gerçek projelere uygulanan mimari, modernizasyon, otomasyon ve yapay zeka.",
+    "summary": "Çözüm Mimarı · Kıdemli Tam Yığın · Teknoloji Lideri . 16 yılı aşkın süredir evrime öncülük ediyor platformlardan oluşuyor. Uzmanlaşmış eski sistemlerin modernizasyonu , otomasyon süreçler , bulut ve CI/CD e Yapay zeka entegrasyonu uygulanan .",
     "website": "https://vladimiracunadev-create.github.io/i18n/tr/",
     "github": "https://github.com/vladimiracunadev-create",
     "gitlab": "https://gitlab.com/vladimir.acuna.dev-group"
@@ -26,7 +26,7 @@
   "sections": [
     {
       "id": "hero",
-      "title": "Mimari, modernizasyon, otomasyon ve IA gerçek projelere uygulanır.",
+      "title": "Gerçek projelere uygulanan mimari, modernizasyon, otomasyon ve yapay zeka.",
       "min_level": 0,
       "freelance_hidden": false
     },
@@ -38,31 +38,31 @@
     },
     {
       "id": "evolucion",
-      "title": "Consolidated Technical Pillars",
+      "title": "Birleştirilmiş Teknik Sütunlar",
       "min_level": 1,
       "freelance_hidden": true
     },
     {
       "id": "auditoria-ia",
-      "title": "IA tarafından yaratılan Kod denetimi",
+      "title": "Yapay zeka tarafından oluşturulan kod denetimi",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "productos",
-      "title": "Tek kullanımlık ürünler",
+      "title": "İndirilebilir ürünler",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "proyectos",
-      "title": "Öne Çıkan Projeler",
+      "title": "Öne çıkan projeler",
       "min_level": 1,
       "freelance_hidden": true
     },
     {
       "id": "demos",
-      "title": "Hadi yaşayalım.",
+      "title": "Canlı demolar",
       "min_level": 1,
       "freelance_hidden": false
     },
@@ -74,13 +74,13 @@
     },
     {
       "id": "flujo-ia",
-      "title": "Geliştirme akışı IA tarafından yardımcı oldu",
+      "title": "Yapay zeka destekli geliştirme akışı",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "roles",
-      "title": "Gerçek profesyonel kapsamı",
+      "title": "Gerçek mesleki kapsam",
       "min_level": 1,
       "freelance_hidden": true
     },
@@ -92,25 +92,25 @@
     },
     {
       "id": "modalidades",
-      "title": "Freelance · İşbirliğinin Değiştirilmesi",
+      "title": "Serbest Çalışan · İşbirliği yöntemleri",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "descargas",
-      "title": "Discharge Centre",
+      "title": "İndirme Merkezi",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "referencias",
-      "title": "İşbirlikleri Referansları",
+      "title": "İş referansları",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "tarjeta",
-      "title": "Sunum kartı",
+      "title": "Kartvizit",
       "min_level": 0,
       "freelance_hidden": false
     },

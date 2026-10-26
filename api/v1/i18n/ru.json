@@ -11,8 +11,8 @@
   },
   "profile": {
     "name": "Vladimir Acuña",
-    "title": "Архитектура, модернизация, автоматизация и ИА применяются к реальным проектам.",
-    "summary": "Архитектор решений · Старший полный стек · технологический лидер . 16+ лет, ведущих эволюцию платформ. Модернизация правовых систем , автоматизация процессов , Облако и CI / CD e Интегрированный прикладный ИА .",
+    "title": "Архитектура, модернизация, автоматизация и искусственный интеллект в применении к реальным проектам.",
+    "summary": "Архитектор решений · Старший специалист полного стека · Лидер технологий . 16+ лет лидерства в развитии платформ. Специализируется на модернизация устаревших систем , автоматизация процессы , облако и CI/CD е Интеграция ИИ прикладной .",
     "website": "https://vladimiracunadev-create.github.io/i18n/ru/",
     "github": "https://github.com/vladimiracunadev-create",
     "gitlab": "https://gitlab.com/vladimir.acuna.dev-group"
@@ -26,7 +26,7 @@
   "sections": [
     {
       "id": "hero",
-      "title": "Архитектура, модернизация, автоматизация и ИА применяются к реальным проектам.",
+      "title": "Архитектура, модернизация, автоматизация и искусственный интеллект в применении к реальным проектам.",
       "min_level": 0,
       "freelance_hidden": false
     },
@@ -38,19 +38,19 @@
     },
     {
       "id": "evolucion",
-      "title": "Консолидированные технические столбы",
+      "title": "Консолидированные технические основы",
       "min_level": 1,
       "freelance_hidden": true
     },
     {
       "id": "auditoria-ia",
-      "title": "Аудит кода, созданный IA",
+      "title": "Аудит кода, сгенерированного ИИ",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "productos",
-      "title": "одноразовые продукты",
+      "title": "Загружаемые продукты",
       "min_level": 0,
       "freelance_hidden": false
     },
@@ -62,7 +62,7 @@
     },
     {
       "id": "demos",
-      "title": "Пойдем жить.",
+      "title": "Живые демонстрации",
       "min_level": 1,
       "freelance_hidden": false
     },
@@ -74,13 +74,13 @@
     },
     {
       "id": "flujo-ia",
-      "title": "Поток развития, которому помогает ИА",
+      "title": "Процесс разработки с помощью ИИ",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "roles",
-      "title": "Реальный профессиональный масштаб",
+      "title": "Фактический профессиональный объем",
       "min_level": 1,
       "freelance_hidden": true
     },
@@ -92,31 +92,31 @@
     },
     {
       "id": "modalidades",
-      "title": "Freelance - условия сотрудничества",
+      "title": "Фриланс · Условия сотрудничества",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "descargas",
-      "title": "Центр разрядки",
+      "title": "Центр загрузки",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "referencias",
-      "title": "Ссылки на труд",
+      "title": "Ссылки на вакансии",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "tarjeta",
-      "title": "Презентационная карточка",
+      "title": "Визитная карточка",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "contacto",
-      "title": "Связаться сейчас",
+      "title": "Контакт",
       "min_level": 0,
       "freelance_hidden": false
     }

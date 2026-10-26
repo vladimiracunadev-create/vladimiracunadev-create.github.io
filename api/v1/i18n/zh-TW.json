@@ -11,8 +11,8 @@
   },
   "profile": {
     "name": "Vladimir Acuña",
-    "title": "建築、現代化、自動化和IA應用到實際專案中。",
-    "summary": "- 雲和 FinOps : 15個AWS案例(ECS/EKS,Lambda,DynamomDB,Cognitto, EventBridge, Cloud Watch / X-Ray),OIDC和FinOps.",
+    "title": "架構、現代化、自動化和人工智慧應用於實際專案。",
+    "summary": "可重現的示範、IaC (Terraform)、GitHub 和 GitLab 上的 CI/CD、無伺服器 (Lambda/SAM)、事件驅動 (EventBridge/SQS/SNS)、安全性 (gitleaks/tfsec/OIDC) 以及每個設定檔的文件。 15 個 AWS 案例在 GitLab monorepo 中得到驗證。",
     "website": "https://vladimiracunadev-create.github.io/i18n/zh-TW/",
     "github": "https://github.com/vladimiracunadev-create",
     "gitlab": "https://gitlab.com/vladimir.acuna.dev-group"
@@ -26,7 +26,7 @@
   "sections": [
     {
       "id": "hero",
-      "title": "建築、現代化、自動化和IA應用到實際專案中。",
+      "title": "架構、現代化、自動化和人工智慧應用於實際專案。",
       "min_level": 0,
       "freelance_hidden": false
     },
@@ -44,25 +44,25 @@
     },
     {
       "id": "auditoria-ia",
-      "title": "內部審計機構生成的程式碼審計",
+      "title": "AI產生的程式碼審核",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "productos",
-      "title": "可處置產品",
+      "title": "可下載的產品",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "proyectos",
-      "title": "精選專案",
+      "title": "特色項目",
       "min_level": 1,
       "freelance_hidden": true
     },
     {
       "id": "demos",
-      "title": "上活話去.",
+      "title": "現場演示",
       "min_level": 1,
       "freelance_hidden": false
     },
@@ -74,13 +74,13 @@
     },
     {
       "id": "flujo-ia",
-      "title": "由國際投資協會協助的發展流動",
+      "title": "AI輔助開發流程",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "roles",
-      "title": "真正的專業範圍",
+      "title": "實際專業範圍",
       "min_level": 1,
       "freelance_hidden": true
     },
@@ -92,31 +92,31 @@
     },
     {
       "id": "modalidades",
-      "title": "自由合作方式",
+      "title": "自由業·協作方式",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "descargas",
-      "title": "排氣中心",
+      "title": "下載中心",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "referencias",
-      "title": "勞工參考",
+      "title": "工作參考",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "tarjeta",
-      "title": "簡報卡",
+      "title": "名片",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "contacto",
-      "title": "聯絡",
+      "title": "聯絡方式",
       "min_level": 0,
       "freelance_hidden": false
     }

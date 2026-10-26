@@ -11,8 +11,8 @@
   },
   "profile": {
     "name": "Vladimir Acuña",
-    "title": "건축, 현대화, 자동화 및 IA는 실제 프로젝트에 적용했습니다.",
-    "summary": "솔루션의 건축가 · 수석 풀 스택 · 기술 리더 . 16 + 년 플랫폼의 진화를 선도. 전문적으로 법률 시스템의 현대화 , 공정 자동화 , 클라우드 및 CI / CD ₢ 킹 통합 IA .",
+    "title": "실제 프로젝트에 적용되는 아키텍처, 현대화, 자동화 및 AI.",
+    "summary": "솔루션 설계자 · 수석 풀스택 · 기술 리더 . 16년 이상 선도적인 발전 플랫폼의. 전문 레거시 시스템의 현대화 , 자동화 프로세스 , 클라우드 및 CI/CD 이자형 AI 통합 적용됨 .",
     "website": "https://vladimiracunadev-create.github.io/i18n/ko/",
     "github": "https://github.com/vladimiracunadev-create",
     "gitlab": "https://gitlab.com/vladimir.acuna.dev-group"
@@ -26,7 +26,7 @@
   "sections": [
     {
       "id": "hero",
-      "title": "건축, 현대화, 자동화 및 IA는 실제 프로젝트에 적용했습니다.",
+      "title": "실제 프로젝트에 적용되는 아키텍처, 현대화, 자동화 및 AI.",
       "min_level": 0,
       "freelance_hidden": false
     },
@@ -38,19 +38,19 @@
     },
     {
       "id": "evolucion",
-      "title": "통합 기술 기둥",
+      "title": "통합된 기술 기반",
       "min_level": 1,
       "freelance_hidden": true
     },
     {
       "id": "auditoria-ia",
-      "title": "IA에 의해 생성 된 코드 감사",
+      "title": "AI 생성 코드 감사",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "productos",
-      "title": "제품 소개",
+      "title": "다운로드 가능한 제품",
       "min_level": 0,
       "freelance_hidden": false
     },
@@ -62,19 +62,19 @@
     },
     {
       "id": "demos",
-      "title": "사가현",
+      "title": "라이브 데모",
       "min_level": 1,
       "freelance_hidden": false
     },
     {
       "id": "experiencia",
-      "title": "경력",
+      "title": "경험치",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "flujo-ia",
-      "title": "IA에 의해 지원되는 개발 교류",
+      "title": "AI 지원 개발 흐름",
       "min_level": 2,
       "freelance_hidden": true
     },
@@ -86,37 +86,37 @@
     },
     {
       "id": "servicios",
-      "title": "운행",
+      "title": "서비스",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "modalidades",
-      "title": "Freelance · 협력의 모델",
+      "title": "프리랜서 · 협업 양식",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "descargas",
-      "title": "출력 센터",
+      "title": "다운로드 센터",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "referencias",
-      "title": "Labour 참고",
+      "title": "채용정보",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "tarjeta",
-      "title": "발표 카드",
+      "title": "명함",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "contacto",
-      "title": "지금 연락",
+      "title": "연락처",
       "min_level": 0,
       "freelance_hidden": false
     }

@@ -42,7 +42,7 @@
 
 堡垒:现代化遗产 自动化 云/Cic-CD 应用 集成合作
 
-我也可以承担 技术领导/技术领导 设备需要结构化、现有系统现代化、确定技术标准以及业务与发展挂钩。
+我也可以扮演以下角色 技术负责人/技术负责人 在需要组织架构、现代化现有系统、定义技术标准并将业务与开发联系起来的团队中。
 
 - 用您的语言下载 CV 或 组合 。
 
@@ -132,11 +132,11 @@ LangGraph v4.15:25 / 25 操作后端(100%覆盖) 有尖端状态和有条件的�
 
 产品完成后, 安装了签名安装器(.exe)、 便携式捆绑(.zip) 或移动应用程序(.app) 。 每个软件都包含在应用时自己的登陆页, 酌情发布 GitHub 和 SHA-256 的验证。
 
-### 根因- 视窗检查器
+### 根本原因 · Windows 检查器
 
 以 Rust (edition 2024) 编写的Windows 数字安全法证软件 - 用零遥测法补充了反病毒/ EDR. 发现哪个过程,服务,文件夹,连接或微量ETL 降解了计算机(100%驱动,异常生长% TEMP %,慢速,高消耗RAM,网络而无解释). 5版: GUI桌面 (Setup.exe),Portable.zip, CLI 单二元(rootcause.exe), CLI Portable,PowerShell模块和VS代码扩展-高性能. 先诊断后干预.
 
-### 自动 · 个人计算机整形仪
+### Automa PC Orchestrator
 
 本地 Orquer 有效动作在 Windows 上的 27 个声明流 在 JSON (包括有证据 SHA-256 的取出和网络监视) → Playwright + pywebview + PyInstaller → 150 pytest 测试 → 已签名安装器 。
 
@@ -144,85 +144,85 @@ LangGraph v4.15:25 / 25 操作后端(100%覆盖) 有尖端状态和有条件的�
 
 程序232课分9个部分(Python应用,ML,DL,MLOPS,数据工程,伦理学,Capstons). Windows本土(PySide6 + Qt + Jupiter),可移植,Android应用和PDF/PTX课程.
 
-### 肖菲AI工作室
+### ChofyAI工作室
 
 用于本地IA. Orquesta 5工具的桌面发射器: Qune3-TTS, sleep.cpp, FaceFusion, AceForge和ComfyUI. Tauri 2 + Rust + React. viardo macOS Apple硅; 实验支持 Windows + CUDA. 5 / 5 real exergence.
 
-### Docker 实验室 控制中心
+### Docker 实验室·控制中心
 
 Docker / 作曲多堆( PHP, Node.js, Python, BD, DevOps). Hub CLI 多OS和Windows安装器签名,博士/烟雾测试.
 
-### 微型系统 生产力套件
+### 微系统·生产力套件
 
 12个自成一体的网络微应用,用于经常性任务: 后遗症系统的开发,维护,诊断和现代化. 195 katas in 67 Technology. Hardening 3 profile + SBOM for label.
 
-### 单核控制中心
+### Unikernel 控制中心
 
 专业套件,在Windows中操作Unikraft服务,并配有WSL2后端. 通过Dashboard Node.js和Localhost的Lunder WinForms全面控制. 高性能架构和单内核管弦乐.
 
-### GabySQL → 嵌入式 DB + 建模器
+### GabySQL·嵌入式数据库+建模器
 
 以粗糙为主,以成本为主,SAVEPOINT / ROLLBACK,828个测试,模糊503.8M索赔) + GabyModeler GUI桌面. Windows, macOS arm64和Linux x86 64 建筑.
 
 [着陆](https://vladimiracunadev-create.github.io/rootcause-windows-inspector/)
 
-[设置.exe](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest/download/RootCause-Setup.exe)
+[安装程序.exe](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest/download/RootCause-Setup.exe)
 
 [便携式.zip](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest/download/RootCause-Portable.zip)
 
-[CLI 便携式.zip](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest/download/RootCause-CLI-Portable.zip)
+[CLI 便携式 .zip](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest/download/RootCause-CLI-Portable.zip)
 
 [VS 代码 .vsix](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest/download/RootCause-VSCode-Extension.vsix)
 
 [所有版本](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest)
 
-[基特胡布语Name](https://github.com/vladimiracunadev-create/rootcause-windows-inspector)
+[GitHub](https://github.com/vladimiracunadev-create/rootcause-windows-inspector)
 
 [着陆](https://vladimiracunadev-create.github.io/automa-pc/)
 
 [下载.exe](https://github.com/vladimiracunadev-create/automa-pc/releases/latest/download/Automa-Setup-v0.3.0.exe)
 
-[基特胡布语Name](https://github.com/vladimiracunadev-create/automa-pc)
+[GitHub](https://github.com/vladimiracunadev-create/automa-pc)
 
 [着陆](https://vladimiracunadev-create.github.io/python-data-science-program/)
 
 [.执行](https://github.com/vladimiracunadev-create/python-data-science-program/releases/latest/download/PythonDSProgram_Setup_v3.8.0.exe)
 
-[.齐拉](https://github.com/vladimiracunadev-create/python-data-science-program/releases/latest/download/PythonDSProgram_windows_portable_v3.8.0.zip)
+[.zip](https://github.com/vladimiracunadev-create/python-data-science-program/releases/latest/download/PythonDSProgram_windows_portable_v3.8.0.zip)
 
-[.数据k](https://github.com/vladimiracunadev-create/python-data-science-program/releases/latest/download/PythonDSProgram_android_v3.8.0_debug.apk)
+[.apk](https://github.com/vladimiracunadev-create/python-data-science-program/releases/latest/download/PythonDSProgram_android_v3.8.0_debug.apk)
 
-[基特胡布语Name](https://github.com/vladimiracunadev-create/python-data-science-program)
+[GitHub](https://github.com/vladimiracunadev-create/python-data-science-program)
 
 [着陆](https://vladimiracunadev-create.github.io/chofyai-studio/)
 
-[基特胡布语Name](https://github.com/vladimiracunadev-create/chofyai-studio)
+[GitHub](https://github.com/vladimiracunadev-create/chofyai-studio)
 
 [下载.exe](https://github.com/vladimiracunadev-create/docker-labs/releases/latest/download/docker-labs-setup-1.5.0.exe)
 
 [发布 v1.5.0](https://github.com/vladimiracunadev-create/docker-labs/releases/latest)
 
-[基特胡布语Name](https://github.com/vladimiracunadev-create/docker-labs)
+[GitHub](https://github.com/vladimiracunadev-create/docker-labs)
 
 [下载.zip](https://github.com/vladimiracunadev-create/microsistemas/releases/latest/download/microsistemas-v1.1.0.zip)
 
 [发布 v1.1.0](https://github.com/vladimiracunadev-create/microsistemas/releases/latest)
 
-[基特胡布语Name](https://github.com/vladimiracunadev-create/microsistemas)
+[GitHub](https://github.com/vladimiracunadev-create/microsistemas)
 
 [下载.exe](https://github.com/vladimiracunadev-create/unikernel-labs/releases/latest/download/UnikernelLabs.Launcher.exe)
 
-[发布 v 2. 0.0](https://github.com/vladimiracunadev-create/unikernel-labs/releases/latest)
+[发布 v2.0.0](https://github.com/vladimiracunadev-create/unikernel-labs/releases/latest)
 
-[基特胡布语Name](https://github.com/vladimiracunadev-create/unikernel-labs)
+[GitHub](https://github.com/vladimiracunadev-create/unikernel-labs)
 
 [建模师.exe](https://github.com/vladimiracunadev-create/gabysql/releases/latest/download/gabymodeler_0.1.0_x64-setup.exe)
 
-[.zip (温) 引擎 .](https://github.com/vladimiracunadev-create/gabysql/releases/download/v0.2.0/gabysql-v0.2.0-windows-x86_64.zip)
+[引擎.zip (Win)](https://github.com/vladimiracunadev-create/gabysql/releases/download/v0.2.0/gabysql-v0.2.0-windows-x86_64.zip)
 
 [所有释放](https://github.com/vladimiracunadev-create/gabysql/releases)
 
-[基特胡布语Name](https://github.com/vladimiracunadev-create/gabysql)
+[GitHub](https://github.com/vladimiracunadev-create/gabysql)
 
 ## 特色项目
 
@@ -238,7 +238,7 @@ Docker / 作曲多堆( PHP, Node.js, Python, BD, DevOps). Hub CLI 多OS和Window
 
 ### 实际销售的产品
 
-### 根因- 视窗检查器
+### 根本原因 · Windows 检查器
 
 Windows 10/11的网络安全法证软件用Rust写道:根据已知的基线检测CPU,磁盘,网络,进程,自启动和服务异常扭曲,将事件信号(SQLite)关联起来并用证据解释根源. 制作中的5种模式(GUI Bilantic Fluent ES / EN,CLI,PowerShell模块有9个cmdlets,VS代码扩展,流量图标),并通过Scoop ^ Winget ^ 巧克力. 完成为抗病毒/EDR. 遥测:0.
 
@@ -258,7 +258,7 @@ Root Beause Web Victor v. 2. 0 - 浏览器表面的法证传感器: cookie,邮�
 
 以拳为主的瓶装数据库作为研究项目:与WAL独有的.db文件,完整的关系 SQL (CTEs)窗口功能,触发器和PL / pgSQL. HTTP / JSON API 具有交叉请求交易和3个操作系统中的828个绿色测试.
 
-### 自动 · 个人计算机整形仪
+### Automa PC Orchestrator
 
 本地 v0. 3. 0 有效动作 Orquer 在 Windows 上: 27 JSON 操作流量打开真实窗口,与 DOM 互动,获取证据并监视网络( crawl BFS, 变化检测器和值监测, 使用 SHA-256 证据). 本地面板 on 127.0.0.1 (pyweview + PyInstaller) 有克龙和 SQLite 调度器. Stack Python 3.10 +, Playwright (无头/可见), OCR / 视觉, uv 包装, Windows 签名, hyplock, 150, hp.
 
@@ -356,7 +356,7 @@ OS v. 3. 0 指导6个标签的概念演示:目录、股票、客户关系管理�
 
 16 AWS(A-P)案件----全部结案,包括AWS部署和验证的P(Strands Agents)案件、GenAI案件一(Bedrock + Claude Haiku 4.5 + Lambda + xray-sdk)和O案件(X-Ray分布);仅积压了M案件2-3个Fases (多区域全球加速器). Stack: Terraform, OIDC, S3 / 放大 / Cloudront, Lambda / SAM, Dfidt, EfS, EfS /Cddddd., EfS, EfS, Efdddd.
 
-### 微型系统 生产力套件
+### 微系统·生产力套件
 
 诊断和现代化模块套件,包括中央液化液化物、操作性成份、医生/烟雾鉴定和减少实际维修摩擦的公用事业。
 
@@ -402,7 +402,7 @@ QEMU-kvm-labs · 12个真正的虚拟化实验室 · QEMU, KVM, libvirt, 云-ini
 
 比较级实验室:同一份可执行合同,没有适配器,与快递、快递、春靴、ASP.NET、Django、Rails、Laravel、React、Vue、Svelte等公司对接。 149个班,共12个部分(70个建造,397个案例在CI中核实) ^ 210个来源,有ISBN /DOI 安全、数据、接口
 
-### 应用的IA
+### 应用人工智能
 
 ### · 致病复原力
 
@@ -518,195 +518,195 @@ AI Evolution Program v0.17.0 – 180个班,共15个部分,内容完整 + 540个�
 
 [联系我](https://vladimiracunadev-create.github.io/#contacto)
 
-[基特胡布语Name](https://github.com/vladimiracunadev-create/rootcause-windows-inspector)
+[GitHub](https://github.com/vladimiracunadev-create/rootcause-windows-inspector)
 
 [发布 v0.19.0](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest)
 
 [着陆](https://vladimiracunadev-create.github.io/rootcause-windows-inspector/)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/rootcause-mobile-inspector)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/rootcause-mobile-inspector)
 
-[发布 v. 2.1](https://github.com/vladimiracunadev-create/rootcause-mobile-inspector/releases/latest)
+[发布 v0.2.1](https://github.com/vladimiracunadev-create/rootcause-mobile-inspector/releases/latest)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/rootcause-web-inspector)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/rootcause-web-inspector)
 
 [产品网站](https://vladimiracunadev-create.github.io/universal-code-scanner/)
 
 [在浏览器中测试](https://vladimiracunadev-create.github.io/universal-code-scanner/app/)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/universal-code-scanner)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/universal-code-scanner)
 
 [下载APK](https://github.com/vladimiracunadev-create/universal-code-scanner/releases/latest)
 
-[基特胡布语Name](https://github.com/vladimiracunadev-create/gabysql)
+[GitHub](https://github.com/vladimiracunadev-create/gabysql)
 
-[释放桌面- v0.1.0](https://github.com/vladimiracunadev-create/gabysql/releases/latest)
+[发布桌面-v0.1.0](https://github.com/vladimiracunadev-create/gabysql/releases/latest)
 
-[基特胡布语Name](https://github.com/vladimiracunadev-create/automa-pc)
+[GitHub](https://github.com/vladimiracunadev-create/automa-pc)
 
-[发布 v0. 3. 0](https://github.com/vladimiracunadev-create/automa-pc/releases/latest)
+[发布 v0.3.0](https://github.com/vladimiracunadev-create/automa-pc/releases/latest)
 
 [站点](https://vladimiracunadev-create.github.io/automa-pc/)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/chofyai-studio)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/chofyai-studio)
 
-[承诺](https://github.com/vladimiracunadev-create/chofyai-studio/commits/main)
+[提交](https://github.com/vladimiracunadev-create/chofyai-studio/commits/main)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/rhino-suite)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/rhino-suite)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/guitarra-adventure)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/guitarra-adventure)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/agentic-plugins-toolkit)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/agentic-plugins-toolkit)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/operational-ai-agents)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/operational-ai-agents)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/empresa-operativa-chile)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/empresa-operativa-chile)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/rootcause-macos-inspector)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/rootcause-macos-inspector)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/codex-skills-toolkit)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/codex-skills-toolkit)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/rootcause-qr-inspector)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/rootcause-qr-inspector)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/pdf-reader-windows-android)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/pdf-reader-windows-android)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/rootcause-server)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/rootcause-server)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/aws-desktop-studio)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/aws-desktop-studio)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/ai-dataset-foundry)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/ai-dataset-foundry)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/rootcause-blockchain-security)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/rootcause-blockchain-security)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/rootcause-bitcoin-defense)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/rootcause-bitcoin-defense)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/decentraland-social-arcade)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/decentraland-social-arcade)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/commerce-operating-system)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/commerce-operating-system)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/panuelo-al-viento-cueca-app)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/panuelo-al-viento-cueca-app)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/video-transcript-studio)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/video-transcript-studio)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/lifelong-learning-ecosystem)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/lifelong-learning-ecosystem)
 
-[基特胡布语Name](https://github.com/vladimiracunadev-create/docker-labs)
+[GitHub](https://github.com/vladimiracunadev-create/docker-labs)
 
 [发布 v1.5.0](https://github.com/vladimiracunadev-create/docker-labs/releases/latest)
 
-[读取](https://github.com/vladimiracunadev-create/docker-labs/blob/main/README.md)
+[自述文件](https://github.com/vladimiracunadev-create/docker-labs/blob/main/README.md)
 
-[卢旺达](https://github.com/vladimiracunadev-create/docker-labs/blob/main/RECRUITER.md)
+[招聘者.md](https://github.com/vladimiracunadev-create/docker-labs/blob/main/RECRUITER.md)
 
 [演示](https://vladimiracunadev-create.github.io/#demos)
 
-[基特胡布语Name](https://github.com/vladimiracunadev-create/proyectos-aws)
+[GitHub](https://github.com/vladimiracunadev-create/proyectos-aws)
 
-[承诺](https://github.com/vladimiracunadev-create/proyectos-aws/commits/main)
+[提交](https://github.com/vladimiracunadev-create/proyectos-aws/commits/main)
 
-[读取](https://github.com/vladimiracunadev-create/proyectos-aws/blob/main/README.md)
+[自述文件](https://github.com/vladimiracunadev-create/proyectos-aws/blob/main/README.md)
 
-[吉特拉布语Name](https://gitlab.com/vladimir.acuna.dev-group/proyectos-aws-gitlab)
+[GitLab](https://gitlab.com/vladimir.acuna.dev-group/proyectos-aws-gitlab)
 
-[见Demos](https://vladimiracunadev-create.github.io/#demos)
+[查看演示](https://vladimiracunadev-create.github.io/#demos)
 
-[基特胡布语Name](https://github.com/vladimiracunadev-create/microsistemas)
+[GitHub](https://github.com/vladimiracunadev-create/microsistemas)
 
 [发布 v1.1.0](https://github.com/vladimiracunadev-create/microsistemas/releases/latest)
 
-[读取](https://github.com/vladimiracunadev-create/microsistemas/blob/main/README.md)
+[自述文件](https://github.com/vladimiracunadev-create/microsistemas/blob/main/README.md)
 
-[卢旺达](https://github.com/vladimiracunadev-create/microsistemas/blob/main/docs/RECRUITER.md)
+[招聘者.md](https://github.com/vladimiracunadev-create/microsistemas/blob/main/docs/RECRUITER.md)
 
-[基特胡布语Name](https://github.com/vladimiracunadev-create/social-bot-scheduler)
+[GitHub](https://github.com/vladimiracunadev-create/social-bot-scheduler)
 
 [发布 v4.9.1](https://github.com/vladimiracunadev-create/social-bot-scheduler/releases/latest)
 
-[读取](https://github.com/vladimiracunadev-create/social-bot-scheduler/blob/main/README.md)
+[自述文件](https://github.com/vladimiracunadev-create/social-bot-scheduler/blob/main/README.md)
 
-[基特胡布语Name](https://github.com/vladimiracunadev-create/problem-driven-systems-lab)
+[GitHub](https://github.com/vladimiracunadev-create/problem-driven-systems-lab)
 
-[承诺](https://github.com/vladimiracunadev-create/problem-driven-systems-lab/commits/main)
+[提交](https://github.com/vladimiracunadev-create/problem-driven-systems-lab/commits/main)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/wsl-labs)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/wsl-labs)
 
-[发布 v. 4.1](https://github.com/vladimiracunadev-create/wsl-labs/releases/latest)
+[发布 v0.4.1](https://github.com/vladimiracunadev-create/wsl-labs/releases/latest)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/unikernel-labs)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/unikernel-labs)
 
-[发布 v 2. 0.0](https://github.com/vladimiracunadev-create/unikernel-labs/releases/latest)
+[发布 v2.0.0](https://github.com/vladimiracunadev-create/unikernel-labs/releases/latest)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/sandbox-labs)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/sandbox-labs)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/universal-payments-engineering-lab)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/universal-payments-engineering-lab)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/qemu-kvm-labs)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/qemu-kvm-labs)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/database-systems-labs)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/database-systems-labs)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/framework-ecosystems-labs)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/framework-ecosystems-labs)
 
-[基特胡布语Name](https://github.com/vladimiracunadev-create/langgraph-realworld)
+[GitHub](https://github.com/vladimiracunadev-create/langgraph-realworld)
 
-[承诺](https://github.com/vladimiracunadev-create/langgraph-realworld/commits/main)
+[提交](https://github.com/vladimiracunadev-create/langgraph-realworld/commits/main)
 
-[读取](https://github.com/vladimiracunadev-create/langgraph-realworld/blob/main/README.md)
+[自述文件](https://github.com/vladimiracunadev-create/langgraph-realworld/blob/main/README.md)
 
-[卢旺达](https://github.com/vladimiracunadev-create/langgraph-realworld/blob/main/docs/RECRUITER.md)
+[招聘者.md](https://github.com/vladimiracunadev-create/langgraph-realworld/blob/main/docs/RECRUITER.md)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/mcp-ollama-local)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/mcp-ollama-local)
 
-[承诺](https://github.com/vladimiracunadev-create/mcp-ollama-local/commits/main)
+[提交](https://github.com/vladimiracunadev-create/mcp-ollama-local/commits/main)
 
-[读取](https://github.com/vladimiracunadev-create/mcp-ollama-local/blob/main/README.md)
+[自述文件](https://github.com/vladimiracunadev-create/mcp-ollama-local/blob/main/README.md)
 
-[基特胡布语Name](https://github.com/vladimiracunadev-create/claude-skills-toolkit)
+[GitHub](https://github.com/vladimiracunadev-create/claude-skills-toolkit)
 
-[承诺](https://github.com/vladimiracunadev-create/claude-skills-toolkit/commits/main)
+[提交](https://github.com/vladimiracunadev-create/claude-skills-toolkit/commits/main)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/neural-network-training-labs)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/neural-network-training-labs)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/computational-mathematics-program)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/computational-mathematics-program)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/modern-gamedev-program)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/modern-gamedev-program)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/modern-cybersecurity-program)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/modern-cybersecurity-program)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/multi-cloud-engineering-program)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/multi-cloud-engineering-program)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/modern-business-creation-program)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/modern-business-creation-program)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/executive-leadership-founder-program)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/executive-leadership-founder-program)
 
-[基特胡布语Name](https://github.com/vladimiracunadev-create/python-data-science-program)
+[GitHub](https://github.com/vladimiracunadev-create/python-data-science-program)
 
 [发布 v3.8.0](https://github.com/vladimiracunadev-create/python-data-science-program/releases/latest)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/artificial-intelligence-evolution-program)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/artificial-intelligence-evolution-program)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/polyglot-programming-labs)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/polyglot-programming-labs)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/blockchain-learning-path)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/blockchain-learning-path)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/machine-operator-program)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/machine-operator-program)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/education-pedagogy-learning-sciences-program)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/education-pedagogy-learning-sciences-program)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/chilean-school-learning-path)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/chilean-school-learning-path)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/psychometrics-and-assessment-program)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/psychometrics-and-assessment-program)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/modern-software-engineering-program)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/modern-software-engineering-program)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/human-genome-labs)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/human-genome-labs)
 
-[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/violin-adventure)
+[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/violin-adventure)
 
 ## 上活话去.
 
@@ -718,7 +718,7 @@ AI Evolution Program v0.17.0 – 180个班,共15个部分,内容完整 + 540个�
 
 通过GitHub Actions在GitHub Pages中部署的22种语言的Web组合. PWA可以安装,Lightthouse 100,由管道生成的154个PDF和JSON i18n API.
 
-### AWS S3 + GitHub 动作
+### AWS S3 + GitHub 操作
 
 自动部署(sync)通过GitHub OIDC. 专业流与验证.
 
@@ -736,15 +736,15 @@ AI Evolution Program v0.17.0 – 180个班,共15个部分,内容完整 + 540个�
 
 [查看网站](https://vladimiracunadev-create.github.io/)
 
-[基特胡布语Name](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io)
+[GitHub](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io)
 
 [查看演示](https://mi-pagina-scrum-123.s3.us-east-2.amazonaws.com/index.html)
 
-[GitHub 重取原样](https://github.com/vladimiracunadev-create/proyectos-aws)
+[GitHub 存储库](https://github.com/vladimiracunadev-create/proyectos-aws)
 
 [查看演示](http://finops-vladimir-portfolio-case-l.s3-website.us-east-2.amazonaws.com)
 
-[吉特拉布重现](https://gitlab.com/vladimir.acuna.dev-group/vladimir.acuna.dev-group)
+[GitLab 仓库](https://gitlab.com/vladimir.acuna.dev-group/vladimir.acuna.dev-group)
 
 [主要需求](https://main.d3r1wuymolxagh.amplifyapp.com/)
 
@@ -764,17 +764,17 @@ AI Evolution Program v0.17.0 – 180个班,共15个部分,内容完整 + 540个�
 
 - 注重实践:分支、公关、CI/CD、网页和发行。
 
-### CEIS Maristas基金会
+### CEIS Marist 基金会
 
 教育/心理测量网络平台的架构、开发和运行。优化SQL/性能。操作安全:对攻击的法证分析、日志管理和测试与OWASP ZAP和JMeter。
 
 - 警卫: 多次对服务器攻击进行法证分析,确定来源,输入矢量和可达性.
 
-- 服务器和PHP环境日志的管理和分析:代码清理和检测来自未知IP的异常活动.
+- 服务器和PHP环境日志的管理和分析：代码调试和未知IP异常活动检测。
 
-- 全系统 OWASP ZAP 软件 (模拟攻击)和装入试验 Apache JMeter 数据 .
+- 系统强化 OWASP ZAP （攻击模拟）和负载测试 Apache JMeter .
 
-- 大流行病期间的网络安全培训以及随后的机构网络安全讲座。
+- 疫情期间的网络安全培训以及随后的机构网络安全讲座。
 
 ### 业务+信息技术
 
@@ -788,15 +788,15 @@ AI Evolution Program v0.17.0 – 180个班,共15个部分,内容完整 + 540个�
 
 ### 正在使用的工具
 
-- 聊天GPT 附加软件 (自2023年以来 · 分析、结构、迭代和文件
+- ChatGPT Plus (自2023年以来 · 分析、结构、迭代和文件
 
-- 代码 · 代码生成和再设计
+- 法典 · 代码生成和再设计
 
 - 克劳德代码 · 建筑设计审查、执行和技术文件
 
 - 反重力 · 加快发展和自动化流动
 
-- VS 代码/ 打开代码 · 综合国际影响评估援助的发展环境
+- VS Code / OpenCode · 综合国际影响评估援助的发展环境
 
 ### 我应用IA在流中
 
@@ -826,15 +826,15 @@ AI Evolution Program v0.17.0 – 180个班,共15个部分,内容完整 + 540个�
 
 由直接经验、可核查的项目和内部审计师协会协助的流程提供支持。
 
-### 技术领导/技术领导
+### 技术负责人/技术负责人
 
 技术项目方向、结构定义、关键决定的审查、设备配套、现有系统的现代化以及业务目标与可持续技术解决办法之间的联系。
 
-### AI 管弦乐工程师
+### 人工智能编排工程师
 
 设计出与LangGraph,FastAPI和MCP相通的自源系统. 具有状态,有条件的路线和韧性的代表.
 
-### AI 自动化工程师
+### 人工智能自动化工程师
 
 与n8n,Python和有弹性的管弦乐器相接的流自动化. Circuit Breaker, Addpotence and observation.
 
@@ -878,23 +878,23 @@ AI Evolution Program v0.17.0 – 180个班,共15个部分,内容完整 + 540个�
 
 ### ✅ 我为什么要走这个距离
 
-- 技术领导 — 关键决策中设备技术指南,标准定义,风险审查和后续.
+- 技术领先 — 设备技术指南、标准定义、风险审查和关键决策支持。
 
-- 解决方案的设计 — 系统从根到出产的设计和演变.
+- 解决方案架构 — 系统从根到生产的设计和演化。
 
-- 法律现代化 — 16年+有不切入操作的继承系统.
+- 遗留现代化 — 使用遗留系统 16 年以上，未进行任何切割操作。
 
-- 自动化 — n8n,活活活活泼,具有可观察性的工作流程在格拉法纳.
+- 自动化 — n8n、Python、Grafana 中具有可观察性的弹性工作流程。
 
-- 云/ CI/ CD 单曲 — AWS(兰布达,DynamotB,ECS,EKS,Cognitto,事件Bridge,Cloud Watch / X-Ray),Terraform,OIDC,FinOps.
+- 云/CI/CD - AWS（Lambda、DynamoDB、ECS、EKS、Cognito、EventBridge、CloudWatch/X-Ray）、Terraform、OIDC、FinOps。
 
-- 聚糖开发 — Python, Go, TypeScript, Node.js, PHP 8.x, C#, Ruby, PowerShell, Makefile.
+- 多语言开发 — Python、Go、TypeScript、Node.js、PHP 8.x、C#、Ruby、PowerShell、Makefile。
 
-- 整合国际审计机构 — 朗格拉夫,MCP,奥拉玛,ChatGPT Plus,克洛德代码.
+- 人工智能集成 — LangGraph、MCP、Ollama、ChatGPT Plus、克劳德代码。
 
-- 技术交流----业务 — 管理培训+机构项目的实际经验。
+- 技术-业务沟通 — 管理培训+机构项目的真实经验。
 
-- 协作与文件 — 按剖面图、RERUITER.md,可核实的证据重新提交。
+- 协作和文档 - 每个配置文件的文档，RECRUTER.md，存储库中可验证的证据。
 
 ### 🔗 按背景分列的相关作用
 
@@ -1002,7 +1002,7 @@ AWS(ECS / EKS,Lambda / SAM, DynamotB, Cognito, EventBridge / SQS / SNS, Cloud Wa
 
 发现文件位于站点根部(SEO + IA).
 
-[安卓( APK)](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/releases/latest/download/app-debug.apk)
+[安卓 （APK）](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/releases/latest/download/app-debug.apk)
 
 [组合](https://vladimiracunadev-create.github.io/assets/portafolio.pdf)
 
@@ -1018,11 +1018,11 @@ AWS(ECS / EKS,Lambda / SAM, DynamotB, Cognito, EventBridge / SQS / SNS, Cloud Wa
 
 [成就宣言](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
 
-[机器人.txt( 自动)](https://vladimiracunadev-create.github.io/robots.txt)
+[机器人.txt](https://vladimiracunadev-create.github.io/robots.txt)
 
-[sitemap.xml 页面存档备份,存于互联网档案馆](https://vladimiracunadev-create.github.io/sitemap.xml)
+[站点地图.xml](https://vladimiracunadev-create.github.io/sitemap.xml)
 
-[工作周期( 周一至周五)](https://vladimiracunadev-create.github.io/llm.txt)
+[llm.txt](https://vladimiracunadev-create.github.io/llm.txt)
 
 ## 劳工参考
 
@@ -1072,8 +1072,8 @@ https://vladimiracunadev-create.github.io/assets/icons/2.png?v=1a55b3e6
 
 可以通过Slack等合作渠道,迅速融入技术团队和社区。
 
-[维拉迪米尔.acuna.dev @gmail.com 互联网档案馆的存檔,存档日期2013-10-02.](mailto:vladimir.acuna.dev@gmail.com)
+[vladimir.acuna.dev@gmail.com](mailto:vladimir.acuna.dev@gmail.com)
 
-[链接到](https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29)
+[领英](https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29)
 
-[基特胡布语Name](https://github.com/vladimiracunadev-create)
+[GitHub](https://github.com/vladimiracunadev-create)

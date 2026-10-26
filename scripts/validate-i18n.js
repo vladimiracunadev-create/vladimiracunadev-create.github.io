@@ -29,7 +29,7 @@ function check(condition, message) {
 
 function hasRepeatedNgram(value) {
   const words = value.split(/\s+/u)
-    .map(word => word.replace(/^\W+|\W+$/gu, "").toLocaleLowerCase())
+    .map(word => word.replace(/^[^\p{L}\p{N}]+|[^\p{L}\p{N}]+$/gu, "").toLocaleLowerCase())
     .filter(word => word && !["quot", "amp", "nbsp"].includes(word));
   for (let width = 1; width <= Math.min(12, Math.floor(words.length / 2)); width += 1) {
     const repeats = width === 1 ? 3 : 2;

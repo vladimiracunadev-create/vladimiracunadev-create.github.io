@@ -42,7 +42,7 @@ Identité principale:
 
 Fortaleres: modernisation legacy · automation · cloud / Cic-CD · IA appliquée · collaboration distribuée.
 
-Je peux aussi assumer des rôles de Leader technologique / Tech Leader dans les équipements qui doivent être structurés, modernisés, les systèmes existants, les normes techniques définies et les activités liées au développement.
+Je peux également assumer des rôles de Leader Technologique / Tech Lead dans des équipes qui ont besoin d'organiser l'architecture, de moderniser les systèmes existants, de définir des normes techniques et de connecter l'entreprise au développement.
 
 - Téléchargez le CV ou le portfolio dans votre langue.
 
@@ -132,19 +132,19 @@ Il ne s'agit pas seulement de revoir le code, mais de récupérer le contrôle t
 
 Produits finis avec un installateur signé (.exe), un paquet portable (.zip) ou une application mobile (.app). Chacun comprend une page d'atterrissage propre quand il s'agit, libère versed dans GitHub et SHA-256 vérification, le cas échéant.
 
-### Rootcare · Inspecteur Windows
+### RootCause · Inspecteur Windows
 
 Le logiciel de sécurité numérique pour Windows écrit dans Rust (édition 2024) - complète l'antivirus / EDR avec la télémétrie zéro. Découvrez quel processus, service, dossier, connexion ou trace ETL dégrade l'ordinateur (100% drive, croissance anormale% TEMP%, lente, consommation élevée de RAM, réseau sans explication). 5 éditions: GUI Desktop (Setup.exe), Portable .zip, CLI monobinaire (rootcause.exe), CLI Portable, PowerShell module et VS Code extension · haute performance. Diagnostic d'abord, intervention plus tard.
 
-### Automa · Orchstrateur PC
+### Orchestrateur Automa PC
 
 Orquer local des actions efficaces sur Windows. 27 flux déclaratifs sur JSON (inclut extraction et surveillance web avec preuve SHA-256) · Playwright + pywebview + PyInstaller · 150 tests pytest · installateur signé.
 
-### Programme de sciences des données Python
+### Programme de science des données Python
 
 Programme 232 classes en 9 parties (Python appliqué, ML, DL, MLOps, ingénierie des données, éthique, capstons). Natif de Windows (PySide6 + Qt + Jupiter), portable, application Android et cours PDF / PPTX.
 
-### Studio ChofyAI
+### ChofyAI Studio
 
 Lanceur de bureau pour IA local. Orquesta 5 outils: Qwen3-TTS, chuchuchuch.cpp, FaceFusion, AceForge et ComfyUI. Tauri 2 + Rust + React. Validado macOS Apple Silicon; support expérimental Windows + CUDA. 5 / 5 inférence réelle.
 
@@ -152,15 +152,15 @@ Lanceur de bureau pour IA local. Orquesta 5 outils: Qwen3-TTS, chuchuchuch.cpp, 
 
 Composez dans plusieurs piles (PHP, Node.js, Python, BD, DevOps). Hub CLI multi-OS et Windows Installer signé, médecin / test de fumée.
 
-### Microsystèmes · Suite Productivity
+### Microsistemas · Productivity Suite
 
 12 micro-applications web autonomes pour des tâches récurrentes : développement, maintenance, diagnostic et modernisation de systèmes existants. 195 katas dans 67 technologies.
 
-### Centre de contrôle d'Unikernel
+### Centre de contrôle Unikernel
 
 Suite professionnelle pour utiliser les services Unikraft dans Windows avec le moteur WSL2. Contrôle complet via Dashboard Node.js et Launcher WinForms dans localhost. Architecture haute performance et orchestration unikernel.
 
-### GabySQL · Débit intégré DB + Modélisateur
+### GabySQL · DB + Modeleur embarqué
 
 Rust-based, basé sur les coûts, SAVEPOINT / ROLLBACK, 828 tests, flou 503,8M revendications) + GabyModélisateur de bureau GUI. Windows, macOS arm64 et Linux x86 64 bâtiment.
 
@@ -170,19 +170,19 @@ Rust-based, basé sur les coûts, SAVEPOINT / ROLLBACK, 828 tests, flou 503,8M r
 
 [Portable .zip](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest/download/RootCause-Portable.zip)
 
-[CLI Portable .zip](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest/download/RootCause-CLI-Portable.zip)
+[CLI portable .zip](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest/download/RootCause-CLI-Portable.zip)
 
 [Code VS .vsix](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest/download/RootCause-VSCode-Extension.vsix)
 
 [Toutes les éditions](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest)
 
-[- C'est pas vrai.](https://github.com/vladimiracunadev-create/rootcause-windows-inspector)
+[GitHub](https://github.com/vladimiracunadev-create/rootcause-windows-inspector)
 
 [Débarquement](https://vladimiracunadev-create.github.io/automa-pc/)
 
 [Télécharger .exe](https://github.com/vladimiracunadev-create/automa-pc/releases/latest/download/Automa-Setup-v0.3.0.exe)
 
-[- C'est pas vrai.](https://github.com/vladimiracunadev-create/automa-pc)
+[GitHub](https://github.com/vladimiracunadev-create/automa-pc)
 
 [Débarquement](https://vladimiracunadev-create.github.io/python-data-science-program/)
 
@@ -190,31 +190,31 @@ Rust-based, basé sur les coûts, SAVEPOINT / ROLLBACK, 828 tests, flou 503,8M r
 
 [.zip](https://github.com/vladimiracunadev-create/python-data-science-program/releases/latest/download/PythonDSProgram_windows_portable_v3.8.0.zip)
 
-[.Apk](https://github.com/vladimiracunadev-create/python-data-science-program/releases/latest/download/PythonDSProgram_android_v3.8.0_debug.apk)
+[.apk](https://github.com/vladimiracunadev-create/python-data-science-program/releases/latest/download/PythonDSProgram_android_v3.8.0_debug.apk)
 
-[- C'est pas vrai.](https://github.com/vladimiracunadev-create/python-data-science-program)
+[GitHub](https://github.com/vladimiracunadev-create/python-data-science-program)
 
 [Débarquement](https://vladimiracunadev-create.github.io/chofyai-studio/)
 
-[- C'est pas vrai.](https://github.com/vladimiracunadev-create/chofyai-studio)
+[GitHub](https://github.com/vladimiracunadev-create/chofyai-studio)
 
 [Télécharger .exe](https://github.com/vladimiracunadev-create/docker-labs/releases/latest/download/docker-labs-setup-1.5.0.exe)
 
 [Sortie v1.5.0](https://github.com/vladimiracunadev-create/docker-labs/releases/latest)
 
-[- C'est pas vrai.](https://github.com/vladimiracunadev-create/docker-labs)
+[GitHub](https://github.com/vladimiracunadev-create/docker-labs)
 
 [Télécharger .zip](https://github.com/vladimiracunadev-create/microsistemas/releases/latest/download/microsistemas-v1.1.0.zip)
 
-[Release v1.1.0](https://github.com/vladimiracunadev-create/microsistemas/releases/latest)
+[Sortie v1.1.0](https://github.com/vladimiracunadev-create/microsistemas/releases/latest)
 
-[- C'est pas vrai.](https://github.com/vladimiracunadev-create/microsistemas)
+[GitHub](https://github.com/vladimiracunadev-create/microsistemas)
 
 [Télécharger .exe](https://github.com/vladimiracunadev-create/unikernel-labs/releases/latest/download/UnikernelLabs.Launcher.exe)
 
-[Release v2.0.0](https://github.com/vladimiracunadev-create/unikernel-labs/releases/latest)
+[Sortie v2.0.0](https://github.com/vladimiracunadev-create/unikernel-labs/releases/latest)
 
-[- C'est pas vrai.](https://github.com/vladimiracunadev-create/unikernel-labs)
+[GitHub](https://github.com/vladimiracunadev-create/unikernel-labs)
 
 [Modèle .exe](https://github.com/vladimiracunadev-create/gabysql/releases/latest/download/gabymodeler_0.1.0_x64-setup.exe)
 
@@ -222,7 +222,7 @@ Rust-based, basé sur les coûts, SAVEPOINT / ROLLBACK, 828 tests, flou 503,8M r
 
 [Toutes les versions](https://github.com/vladimiracunadev-create/gabysql/releases)
 
-[- C'est pas vrai.](https://github.com/vladimiracunadev-create/gabysql)
+[GitHub](https://github.com/vladimiracunadev-create/gabysql)
 
 ## Projets en vedette
 
@@ -238,7 +238,7 @@ Par confidentialité, je ne publie pas de repos / code du produit institutionnel
 
 ### Produits avec distribution réelle
 
-### Rootcare · Inspecteur Windows
+### RootCause · Inspecteur Windows
 
 Cyber Security Le logiciel médico-légal pour Windows 10 / 11 écrit en Rust: détecte les distorsions anormales du processeur, disque, réseau, processus, auto-démarrage et services par rapport aux lignes de base connues, corréle les signaux d'incident (SQLite) et explique la cause profonde avec des preuves. 5 modes de production (GUI Bilingue Fluent ES / EN, CLI, module PowerShell avec 9 cmdlets, extension du code VS, icône de trafic) et de distribution via Scoop · Winget · Chocolat. Complete à antivirus / EDR. Télémétrie: zéro.
 
@@ -258,7 +258,7 @@ Universal Code Scanner v1.1.0 - Lecteur de flûtes de codes QR et de barres qu'i
 
 Base de données en bouteille à base de fist comme un projet de recherche: fichier .db unique avec WAL, fonctions pleines relationnelles SQL (CTE), déclencheurs et PL / pgSQL. API HTTP / JSON avec transactions interrequêtes et 828 tests verts dans 3 systèmes d'exploitation.
 
-### Automa · Orchstrateur PC
+### Orchestrateur Automa PC
 
 Local v0.3.0 Orquer des actions efficaces sur Windows: 27 flux d'exploitation JSON qui ouvrent des fenêtres réelles, interagissent avec DOM, capturent des preuves et surveillent le web (crawl BFS, détecteur de changement et surveillance des valeurs avec des preuves SHA-256). Panneau local sur 127.0.0.1 (pywebview + PyInstaller) avec cron et SQLite Scheduler. Stack Python 3.10 +, Playwright (sans tête / visible), OCR / vision, uv packaging, Windows signé, hyplock, 150, hp.
 
@@ -356,7 +356,7 @@ Laboratoires de piles avec mise au point "jusqu'à 60s". Comprend le tableau de 
 
 16 cas AWS (A-P) - tous complétés, y compris le cas P (agents de marques) déployé et validé dans AWS, le cas GenAI I (Bedrock + Claude Haiku 4.5 + Lambda + xray-sdk) et le cas O (X-Ray distribué); arriéré seulement les 2-3 Fases de l'affaire M (Accélérateur Global Multi-Région).
 
-### Microsystèmes · Suite Productivity
+### Microsistemas · Productivity Suite
 
 Suite modulaire pour le diagnostic et la modernisation. Comprend Hub CLI, Operational Makefile, Doctor / Smoke Validation et les utilitaires visant à réduire la friction dans l'entretien réel.
 
@@ -450,7 +450,7 @@ Programme 24-parties et 336 classes pour créer et exploiter une entreprise rée
 
 Programme exécutif ouvert de 288 classes en 24 parties · 720 h · Pour prendre en charge votre premier résultat pour diriger une entreprise et créer le vôtre: leadership, équipes, talents, opérations, KPI / OKR, finance, ventes, marketing, produit, stratégie, risque, IA, répertoire, M & A et piste de pied Chili · 24 cas, 96 laboratoires et 39 modèles
 
-### Programme de sciences des données Python
+### Programme de science des données Python
 
 232 cours en 9 parties (Python appliqué, ML classique, Deep Learning, statistiques inferentiels, MLOps, ingénierie des données, recommandé, éthique, capstons). Flacon interactif + application de bureau native Windows (PySide6 + Qt + noyau Jupiter) + application Android (Expo SDK 51). 232 PDF + 232 PPTX générés.
 
@@ -518,195 +518,195 @@ Il est chargé à partir des API publiques de GitHub et GitLab (ordonné par mis
 
 [Contactez-moi](https://vladimiracunadev-create.github.io/#contacto)
 
-[- C'est pas vrai.](https://github.com/vladimiracunadev-create/rootcause-windows-inspector)
+[GitHub](https://github.com/vladimiracunadev-create/rootcause-windows-inspector)
 
 [Sortie v0.19.0](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest)
 
 [Débarquement](https://vladimiracunadev-create.github.io/rootcause-windows-inspector/)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/rootcause-mobile-inspector)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/rootcause-mobile-inspector)
 
-[Libération v0.2.1](https://github.com/vladimiracunadev-create/rootcause-mobile-inspector/releases/latest)
+[Sortie v0.2.1](https://github.com/vladimiracunadev-create/rootcause-mobile-inspector/releases/latest)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/rootcause-web-inspector)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/rootcause-web-inspector)
 
 [Site du produit](https://vladimiracunadev-create.github.io/universal-code-scanner/)
 
 [Tester dans le navigateur](https://vladimiracunadev-create.github.io/universal-code-scanner/app/)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/universal-code-scanner)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/universal-code-scanner)
 
-[Télécharger APK](https://github.com/vladimiracunadev-create/universal-code-scanner/releases/latest)
+[Télécharger l'APK](https://github.com/vladimiracunadev-create/universal-code-scanner/releases/latest)
 
-[- C'est pas vrai.](https://github.com/vladimiracunadev-create/gabysql)
+[GitHub](https://github.com/vladimiracunadev-create/gabysql)
 
-[Relâchez le bureau-v0.1.0](https://github.com/vladimiracunadev-create/gabysql/releases/latest)
+[Sortie du bureau-v0.1.0](https://github.com/vladimiracunadev-create/gabysql/releases/latest)
 
-[- C'est pas vrai.](https://github.com/vladimiracunadev-create/automa-pc)
+[GitHub](https://github.com/vladimiracunadev-create/automa-pc)
 
-[Relâcher v0.3.0](https://github.com/vladimiracunadev-create/automa-pc/releases/latest)
+[Sortie v0.3.0](https://github.com/vladimiracunadev-create/automa-pc/releases/latest)
 
 [Site](https://vladimiracunadev-create.github.io/automa-pc/)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/chofyai-studio)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/chofyai-studio)
 
-[Engagements](https://github.com/vladimiracunadev-create/chofyai-studio/commits/main)
+[Valide](https://github.com/vladimiracunadev-create/chofyai-studio/commits/main)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/rhino-suite)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/rhino-suite)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/guitarra-adventure)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/guitarra-adventure)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/agentic-plugins-toolkit)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/agentic-plugins-toolkit)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/operational-ai-agents)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/operational-ai-agents)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/empresa-operativa-chile)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/empresa-operativa-chile)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/rootcause-macos-inspector)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/rootcause-macos-inspector)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/codex-skills-toolkit)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/codex-skills-toolkit)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/rootcause-qr-inspector)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/rootcause-qr-inspector)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/pdf-reader-windows-android)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/pdf-reader-windows-android)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/rootcause-server)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/rootcause-server)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/aws-desktop-studio)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/aws-desktop-studio)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/ai-dataset-foundry)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/ai-dataset-foundry)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/rootcause-blockchain-security)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/rootcause-blockchain-security)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/rootcause-bitcoin-defense)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/rootcause-bitcoin-defense)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/decentraland-social-arcade)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/decentraland-social-arcade)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/commerce-operating-system)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/commerce-operating-system)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/panuelo-al-viento-cueca-app)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/panuelo-al-viento-cueca-app)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/video-transcript-studio)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/video-transcript-studio)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/lifelong-learning-ecosystem)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/lifelong-learning-ecosystem)
 
-[- C'est pas vrai.](https://github.com/vladimiracunadev-create/docker-labs)
+[GitHub](https://github.com/vladimiracunadev-create/docker-labs)
 
 [Sortie v1.5.0](https://github.com/vladimiracunadev-create/docker-labs/releases/latest)
 
-[LIRE](https://github.com/vladimiracunadev-create/docker-labs/blob/main/README.md)
+[LISEZMOI](https://github.com/vladimiracunadev-create/docker-labs/blob/main/README.md)
 
-[ÉTAT D'AVANCEMENT](https://github.com/vladimiracunadev-create/docker-labs/blob/main/RECRUITER.md)
+[RECRUTEUR.md](https://github.com/vladimiracunadev-create/docker-labs/blob/main/RECRUITER.md)
 
-[Démonstrations](https://vladimiracunadev-create.github.io/#demos)
+[Démos](https://vladimiracunadev-create.github.io/#demos)
 
-[- C'est pas vrai.](https://github.com/vladimiracunadev-create/proyectos-aws)
+[GitHub](https://github.com/vladimiracunadev-create/proyectos-aws)
 
-[Engagements](https://github.com/vladimiracunadev-create/proyectos-aws/commits/main)
+[Valide](https://github.com/vladimiracunadev-create/proyectos-aws/commits/main)
 
-[LIRE](https://github.com/vladimiracunadev-create/proyectos-aws/blob/main/README.md)
+[LISEZMOI](https://github.com/vladimiracunadev-create/proyectos-aws/blob/main/README.md)
 
-[LabGit](https://gitlab.com/vladimir.acuna.dev-group/proyectos-aws-gitlab)
+[GitLab](https://gitlab.com/vladimir.acuna.dev-group/proyectos-aws-gitlab)
 
 [Voir les démos](https://vladimiracunadev-create.github.io/#demos)
 
-[- C'est pas vrai.](https://github.com/vladimiracunadev-create/microsistemas)
+[GitHub](https://github.com/vladimiracunadev-create/microsistemas)
 
-[Release v1.1.0](https://github.com/vladimiracunadev-create/microsistemas/releases/latest)
+[Sortie v1.1.0](https://github.com/vladimiracunadev-create/microsistemas/releases/latest)
 
-[LIRE](https://github.com/vladimiracunadev-create/microsistemas/blob/main/README.md)
+[LISEZMOI](https://github.com/vladimiracunadev-create/microsistemas/blob/main/README.md)
 
-[ÉTAT D'AVANCEMENT](https://github.com/vladimiracunadev-create/microsistemas/blob/main/docs/RECRUITER.md)
+[RECRUTEUR.md](https://github.com/vladimiracunadev-create/microsistemas/blob/main/docs/RECRUITER.md)
 
-[- C'est pas vrai.](https://github.com/vladimiracunadev-create/social-bot-scheduler)
+[GitHub](https://github.com/vladimiracunadev-create/social-bot-scheduler)
 
-[Libération v4.9.1](https://github.com/vladimiracunadev-create/social-bot-scheduler/releases/latest)
+[Sortie v4.9.1](https://github.com/vladimiracunadev-create/social-bot-scheduler/releases/latest)
 
-[LIRE](https://github.com/vladimiracunadev-create/social-bot-scheduler/blob/main/README.md)
+[LISEZMOI](https://github.com/vladimiracunadev-create/social-bot-scheduler/blob/main/README.md)
 
-[- C'est pas vrai.](https://github.com/vladimiracunadev-create/problem-driven-systems-lab)
+[GitHub](https://github.com/vladimiracunadev-create/problem-driven-systems-lab)
 
-[Engagements](https://github.com/vladimiracunadev-create/problem-driven-systems-lab/commits/main)
+[Valide](https://github.com/vladimiracunadev-create/problem-driven-systems-lab/commits/main)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/wsl-labs)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/wsl-labs)
 
-[Libération v0.4.1](https://github.com/vladimiracunadev-create/wsl-labs/releases/latest)
+[Sortie v0.4.1](https://github.com/vladimiracunadev-create/wsl-labs/releases/latest)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/unikernel-labs)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/unikernel-labs)
 
-[Release v2.0.0](https://github.com/vladimiracunadev-create/unikernel-labs/releases/latest)
+[Sortie v2.0.0](https://github.com/vladimiracunadev-create/unikernel-labs/releases/latest)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/sandbox-labs)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/sandbox-labs)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/universal-payments-engineering-lab)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/universal-payments-engineering-lab)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/qemu-kvm-labs)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/qemu-kvm-labs)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/database-systems-labs)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/database-systems-labs)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/framework-ecosystems-labs)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/framework-ecosystems-labs)
 
-[- C'est pas vrai.](https://github.com/vladimiracunadev-create/langgraph-realworld)
+[GitHub](https://github.com/vladimiracunadev-create/langgraph-realworld)
 
-[Engagements](https://github.com/vladimiracunadev-create/langgraph-realworld/commits/main)
+[Valide](https://github.com/vladimiracunadev-create/langgraph-realworld/commits/main)
 
-[LIRE](https://github.com/vladimiracunadev-create/langgraph-realworld/blob/main/README.md)
+[LISEZMOI](https://github.com/vladimiracunadev-create/langgraph-realworld/blob/main/README.md)
 
-[ÉTAT D'AVANCEMENT](https://github.com/vladimiracunadev-create/langgraph-realworld/blob/main/docs/RECRUITER.md)
+[RECRUTEUR.md](https://github.com/vladimiracunadev-create/langgraph-realworld/blob/main/docs/RECRUITER.md)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/mcp-ollama-local)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/mcp-ollama-local)
 
-[Engagements](https://github.com/vladimiracunadev-create/mcp-ollama-local/commits/main)
+[Valide](https://github.com/vladimiracunadev-create/mcp-ollama-local/commits/main)
 
-[LIRE](https://github.com/vladimiracunadev-create/mcp-ollama-local/blob/main/README.md)
+[LISEZMOI](https://github.com/vladimiracunadev-create/mcp-ollama-local/blob/main/README.md)
 
-[- C'est pas vrai.](https://github.com/vladimiracunadev-create/claude-skills-toolkit)
+[GitHub](https://github.com/vladimiracunadev-create/claude-skills-toolkit)
 
-[Engagements](https://github.com/vladimiracunadev-create/claude-skills-toolkit/commits/main)
+[Valide](https://github.com/vladimiracunadev-create/claude-skills-toolkit/commits/main)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/neural-network-training-labs)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/neural-network-training-labs)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/computational-mathematics-program)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/computational-mathematics-program)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/modern-gamedev-program)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/modern-gamedev-program)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/modern-cybersecurity-program)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/modern-cybersecurity-program)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/multi-cloud-engineering-program)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/multi-cloud-engineering-program)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/modern-business-creation-program)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/modern-business-creation-program)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/executive-leadership-founder-program)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/executive-leadership-founder-program)
 
-[- C'est pas vrai.](https://github.com/vladimiracunadev-create/python-data-science-program)
+[GitHub](https://github.com/vladimiracunadev-create/python-data-science-program)
 
-[Sortie v3.8.0](https://github.com/vladimiracunadev-create/python-data-science-program/releases/latest)
+[Version v3.8.0](https://github.com/vladimiracunadev-create/python-data-science-program/releases/latest)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/artificial-intelligence-evolution-program)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/artificial-intelligence-evolution-program)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/polyglot-programming-labs)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/polyglot-programming-labs)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/blockchain-learning-path)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/blockchain-learning-path)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/machine-operator-program)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/machine-operator-program)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/education-pedagogy-learning-sciences-program)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/education-pedagogy-learning-sciences-program)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/chilean-school-learning-path)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/chilean-school-learning-path)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/psychometrics-and-assessment-program)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/psychometrics-and-assessment-program)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/modern-software-engineering-program)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/modern-software-engineering-program)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/human-genome-labs)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/human-genome-labs)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/violin-adventure)
+[Dépôt (GitHub)](https://github.com/vladimiracunadev-create/violin-adventure)
 
 ## Allons vivre.
 
@@ -718,7 +718,7 @@ Liens publics pour voir les déploiements réels (le cas échéant).
 
 Portefeuille Web en 22 langues déployées dans les pages GitHub via les actions GitHub. PWA peut être installé, Lightthouse 100, 154 PDF générés par pipeline et API JSON i18n.
 
-### AWS S3 + Actions GitHub
+### Actions AWS S3 + GitHub
 
 Déploiement automatique (sync) via GitHub OIDC. Flux professionnel avec validations.
 
@@ -736,15 +736,15 @@ Un « hub » local pour explorer les laboratoires par pile. Idéal pour les entr
 
 [Voir site](https://vladimiracunadev-create.github.io/)
 
-[- C'est pas vrai.](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io)
+[GitHub](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io)
 
 [Voir la démo](https://mi-pagina-scrum-123.s3.us-east-2.amazonaws.com/index.html)
 
-[Rép. GitHub](https://github.com/vladimiracunadev-create/proyectos-aws)
+[Dépôt GitHub](https://github.com/vladimiracunadev-create/proyectos-aws)
 
 [Voir la démo](http://finops-vladimir-portfolio-case-l.s3-website.us-east-2.amazonaws.com)
 
-[GitLab Repo](https://gitlab.com/vladimir.acuna.dev-group/vladimir.acuna.dev-group)
+[Dépôt GitLab](https://gitlab.com/vladimir.acuna.dev-group/vladimir.acuna.dev-group)
 
 [Demande principale](https://main.d3r1wuymolxagh.amplifyapp.com/)
 
@@ -764,17 +764,17 @@ Normalisation des environnements, laboratoires Docker / AWS, automatisation, obs
 
 - Se concentrer sur la pratique : directions générales, PR, IC / CD, Pages et versions.
 
-### Fondation CEIS Maristas
+### Fondation Mariste CEIS
 
 Architecture, développement et fonctionnement de plateformes web éducatives / psychométriques. Optimisation SQL / performance. Sécurité opérationnelle: analyse médico-légale des attaques, gestion du log et des tests avec OWASP ZAP et JMeter.
 
 - Sécurité : analyse médico-légale des attaques de serveurs à plus d'une occasion, déterminant l'origine, le vecteur d'entrée et la portée.
 
-- Gestion et analyse du journal d'environnement serveur et PHP : nettoyage du code et détection d'une activité anormale à partir d'une IP inconnue.
+- Gestion et analyse des logs du serveur et de l'environnement PHP : débogage de code et détection d'activité anormale provenant d'IP inconnues.
 
-- À l ' échelle du système ZAP OWASP (simulation des attaques) et essais de charge avec JMeter Apache .
+- Renforcement du système avec OWASPZAP (simulation d'attaque) et tests de charge avec Apache JMeter .
 
-- Formation à la cybersécurité pendant la pandémie et discours institutionnels sur la cybersécurité.
+- Formation sur la cybersécurité pendant la pandémie et discussions institutionnelles ultérieures sur la cybersécurité.
 
 ### Entreprises + TI
 
@@ -792,11 +792,11 @@ J'utilise les outils IA comme accélérateurs techniques réels dans les projets
 
 - Codex · génération de code et refactorisation
 
-- Code Claude · Examen, mise en œuvre et documentation technique
+- Claude Code · Examen, mise en œuvre et documentation technique
 
 - Antigravité · accélération des flux de développement et d'automatisation
 
-- Code VS / OpenCode · environnement de développement avec une assistance intégrée aux fins de l ' évaluation
+- VSCode/OpenCode · environnement de développement avec une assistance intégrée aux fins de l ' évaluation
 
 ### Lorsque j'applique IA dans le flux
 
@@ -826,23 +826,23 @@ Hiérarchie claire : première identité principale, puis expansion naturelle, p
 
 avec l'expérience directe, des projets vérifiables et des flux assistés par l'IV.
 
-### Leader technologique / Tech Leader
+### Leader Technologique / Tech Lead
 
 Direction technique du projet, définition de l'architecture, examen des décisions critiques, accompagnement de l'équipement, modernisation des systèmes existants et connexion entre les objectifs opérationnels et les solutions technologiques durables.
 
-### Ingénieur d'orchestre AI
+### Ingénieur en orchestration IA
 
 Conception de systèmes agéniques avec LangGraph, FastAPI et MCP. Agents avec état, voies conditionnelles et résilience.
 
-### Ingénieur d'automatisation AI
+### Ingénieur en automatisation IA
 
 Automatisation des flux avec n8n, Python et orchestres résilients. Disjoncteur, Idempotence et observabilité.
 
-### Ingénieur de solutions
+### Ingénieur Solutions
 
 Nous donnons et poc. de vraies communications techniques - affaires, exigences et l'architecture orientée client.
 
-### Fabricant de produits techniques
+### Constructeur de produits techniques
 
 Construction de produits numériques de bout en bout : architecture, développement, exploitation et livraison avec critères de produit.
 
@@ -878,23 +878,23 @@ L'extension logique du profil. Je prends ces rôles lorsque le contexte ou le pr
 
 ### ✅ Pourquoi je peux prendre cette gamme
 
-- Leadership technologique — Guide technique sur l'équipement, définition des normes, examen des risques et suivi des décisions critiques.
+- Leadership technologique — Guide technique des équipements, définition des normes, revue des risques et accompagnement dans les décisions critiques.
 
-- La conception des solutions — Conception et évolution des systèmes de la racine à la production.
+- Architecture des solutions — Conception et évolution de systèmes de la racine à la production.
 
-- Modernisation du droit — 16 ans et plus avec des systèmes hérités sans opération de coupe.
+- Modernisation héritée — Plus de 16 ans d'expérience avec des systèmes existants sans opération de découpe.
 
 - Automatisation — n8n, Python, workflows résilients avec observabilité dans Grafana.
 
-- Nuage / CI / CD — AWS (Lambda, DynamoDB, ECS, EKS, Cognito, EventBridge, CloudWatch / X-Ray), Terraform, OIDC, FinOps.
+- Nuage/CI/CD — AWS (Lambda, DynamoDB, ECS, EKS, Cognito, EventBridge, CloudWatch/X-Ray), Terraform, OIDC, FinOps.
 
-- Développement des polyglottes — Python, Go, TypeScript, Node.js, PHP 8.x, C #, Ruby, PowerShell, Makefile.
+- Développement polyglotte — Python, Go, TypeScript, Node.js, PHP 8.x, C#, Ruby, PowerShell, Makefile.
 
-- Intégration de l'IA — LangGraph, MCP, Olama, ChatGPT Plus, Claude Code.
+- Intégration de l'IA — LangGraph, MCP, Ollama, ChatGPT Plus, Claude Code.
 
-- Communication technique - entreprise — Formation en gestion + expérience réelle dans les projets institutionnels.
+- Communication technico-commerciale — Formation en administration + réelle expérience de projets institutionnels.
 
-- Collaboration et documentation — Les données de l'enquête sont présentées dans le tableau ci-dessous.
+- Collaboration et documentation — Documents par profil, RECRUITER.md, preuves vérifiables dans les dépôts.
 
 ### 🔗 Rôles connexes par contexte
 
@@ -1020,9 +1020,9 @@ Fichiers de découverte à la racine du site (SEO + IA).
 
 [robots.txt](https://vladimiracunadev-create.github.io/robots.txt)
 
-[sitemap.xml](https://vladimiracunadev-create.github.io/sitemap.xml)
+[plan du site.xml](https://vladimiracunadev-create.github.io/sitemap.xml)
 
-[Ilm.txt](https://vladimiracunadev-create.github.io/llm.txt)
+[llm.txt](https://vladimiracunadev-create.github.io/llm.txt)
 
 ## Références de main-d'œuvre
 
@@ -1042,7 +1042,7 @@ Pour les projets institutionnels, la validation est effectuée par référence.
 
 Ces chiffres sont présentés dans une déclaration officielle publiée par le professionnel, avec référence externe pour valider le contexte de travail et la portée générale.
 
-### Jean Claude Dupry · Dernier chef direct
+### Jean-Claude Dupry · Dernier chef direct
 
 Cellule : +56 9 9415 6984
 
@@ -1072,8 +1072,8 @@ https://vladimiracunadev-create.github.io/assets/icons/2.png?v=1a55b3e6
 
 Disponible pour m'intégrer rapidement dans les équipes techniques et les communautés par des canaux collaboratifs comme Slack.
 
-[Vladimir.acuna.dev @ gmail.com](mailto:vladimir.acuna.dev@gmail.com)
+[vladimir.acuna.dev@gmail.com](mailto:vladimir.acuna.dev@gmail.com)
 
 [LinkedIn](https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29)
 
-[- C'est pas vrai.](https://github.com/vladimiracunadev-create)
+[GitHub](https://github.com/vladimiracunadev-create)

@@ -445,6 +445,7 @@ def is_suspicious_translation(value: str, source: str) -> bool:
     mojibake = ("Ã", "Â", "ðŸ", "рї", "�")
     return (
         not value.strip()
+        or re.search(r"\[\[\[U\d+\]\]\]", value) is not None
         or len(value) >= 2500
         or (len(source) >= 40 and len(value) > len(source) * 5)
         or any(marker in value for marker in mojibake)

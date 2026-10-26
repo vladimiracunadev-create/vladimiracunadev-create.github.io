@@ -11,8 +11,8 @@
   },
   "profile": {
     "name": "Vladimir Acuña",
-    "title": "Kiến trúc, hiện đại hóa, tự động hóa và IA áp dụng cho các dự án thực sự.",
-    "summary": "Kiến trúc sư giải pháp l· Senior Full-Stack * Trưởng khoa học . 16 + năm dẫn đầu sự phát triển của nền tảng, được đặc biệt hóa Hiện đại hóa hệ thống pháp luật , xử lý tự động hoá , mây và CN / CD e Comment .",
+    "title": "Kiến trúc, hiện đại hóa, tự động hóa và AI áp dụng vào dự án thực tế.",
+    "summary": "Kiến trúc sư giải pháp · Full-Stack cao cấp · Trưởng nhóm công nghệ . Hơn 16 năm dẫn đầu sự phát triển của các nền tảng. Chuyên về hiện đại hóa các hệ thống cũ , tự động hóa quá trình , đám mây & CI/CD e Tích hợp AI áp dụng .",
     "website": "https://vladimiracunadev-create.github.io/i18n/vi/",
     "github": "https://github.com/vladimiracunadev-create",
     "gitlab": "https://gitlab.com/vladimir.acuna.dev-group"
@@ -26,7 +26,7 @@
   "sections": [
     {
       "id": "hero",
-      "title": "Kiến trúc, hiện đại hóa, tự động hóa và IA áp dụng cho các dự án thực sự.",
+      "title": "Kiến trúc, hiện đại hóa, tự động hóa và AI áp dụng vào dự án thực tế.",
       "min_level": 0,
       "freelance_hidden": false
     },
@@ -38,19 +38,19 @@
     },
     {
       "id": "evolucion",
-      "title": "Trụ sở kỹ thuật Hợp nhất",
+      "title": "Trụ cột kỹ thuật hợp nhất",
       "min_level": 1,
       "freelance_hidden": true
     },
     {
       "id": "auditoria-ia",
-      "title": "Kiểm tra mã xuất phát từ IA",
+      "title": "Kiểm tra mã do AI tạo",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "productos",
-      "title": "Những sản phẩm có thể phân hủy",
+      "title": "Sản phẩm có thể tải xuống",
       "min_level": 0,
       "freelance_hidden": false
     },
@@ -62,7 +62,7 @@
     },
     {
       "id": "demos",
-      "title": "Hãy đi trực tiếp.",
+      "title": "Bản demo trực tiếp",
       "min_level": 1,
       "freelance_hidden": false
     },
@@ -74,13 +74,13 @@
     },
     {
       "id": "flujo-ia",
-      "title": "Sự phát triển dòng chảy được trợ giúp bởi IA",
+      "title": "Quy trình phát triển được hỗ trợ bởi AI",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "roles",
-      "title": "Phạm vi nghề nghiệp thực sự",
+      "title": "Phạm vi chuyên môn thực tế",
       "min_level": 1,
       "freelance_hidden": true
     },
@@ -92,25 +92,25 @@
     },
     {
       "id": "modalidades",
-      "title": "Sự tự do # Modalities of Counation",
+      "title": "Làm việc tự do · Phương thức hợp tác",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "descargas",
-      "title": "Trung tâm tháo gỡ",
+      "title": "Trung tâm tải xuống",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "referencias",
-      "title": "Tài liệu tham khảo Labour",
+      "title": "Tài liệu tham khảo công việc",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "tarjeta",
-      "title": "Phiên bản trình diễn",
+      "title": "Danh thiếp",
       "min_level": 0,
       "freelance_hidden": false
     },
