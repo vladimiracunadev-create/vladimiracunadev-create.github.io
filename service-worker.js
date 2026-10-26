@@ -1,4 +1,4 @@
-const CACHE_NAME = 'vladi-portfolio-v23-full-i18n-20261025';
+const CACHE_NAME = 'vladi-portfolio-v24-full-i18n-20261026';
 const OFFLINE_URL = './offline.html';
 const LOCALE_ROUTES = [
     'es', 'en', 'pt', 'it', 'fr', 'zh', 'zh-TW', 'ja', 'ko', 'tr', 'ru',
