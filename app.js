@@ -137,6 +137,111 @@ const PDF_SUFFIXES = {
   ar: "-arabic", fa: "-persian", id: "-indonesian", nl: "-dutch",
   hi: "-hindi", el: "-greek",
 };
+const TRANSLATION_CATALOG = window.PORTFOLIO_TRANSLATIONS || { locales: {} };
+const TRANSLATABLE_ATTRIBUTES = ["title", "aria-label", "placeholder", "alt"];
+const SKIP_TRANSLATION_TAGS = new Set(["CODE", "PRE", "KBD", "SAMP", "SCRIPT", "STYLE", "OPTION", "TITLE"]);
+const originalText = new Map();
+const originalAttributes = new Map();
+let canonicalTextNodes;
+let canonicalAttributeTargets;
+
+function localizedAncestor(element) {
+  for (let current = element; current; current = current.parentElement) {
+    for (const code of INLINE_LANGS) {
+      if (current.hasAttribute?.(`data-${code}`)) return code;
+    }
+  }
+  return null;
+}
+
+function getCanonicalTextNodes() {
+  if (canonicalTextNodes) return canonicalTextNodes;
+  canonicalTextNodes = [];
+  const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+  for (let node = walker.nextNode(); node; node = walker.nextNode()) {
+    const value = node.nodeValue || "";
+    const parent = node.parentElement;
+    if (!parent || !value.trim() || SKIP_TRANSLATION_TAGS.has(parent.tagName)) continue;
+    const localized = localizedAncestor(parent);
+    if (localized && localized !== "es") continue;
+    if (!/\p{L}/u.test(value)) continue;
+    originalText.set(node, value);
+    canonicalTextNodes.push(node);
+  }
+  return canonicalTextNodes;
+}
+
+function getCanonicalAttributeTargets() {
+  if (canonicalAttributeTargets) return canonicalAttributeTargets;
+  canonicalAttributeTargets = [];
+  document.querySelectorAll("*").forEach(element => {
+    TRANSLATABLE_ATTRIBUTES.forEach(attribute => {
+      const value = element.getAttribute(attribute);
+      if (!value || !/\p{L}/u.test(value)) return;
+      originalAttributes.set(`${canonicalAttributeTargets.length}`, { element, attribute, value });
+      canonicalAttributeTargets.push({ element, attribute });
+    });
+  });
+  return canonicalAttributeTargets;
+}
+
+function restoreCanonicalContent() {
+  getCanonicalTextNodes().forEach(node => {
+    if (originalText.has(node)) node.nodeValue = originalText.get(node);
+  });
+  getCanonicalAttributeTargets().forEach((target, index) => {
+    const original = originalAttributes.get(`${index}`);
+    if (original) target.element.setAttribute(target.attribute, original.value);
+  });
+}
+
+function replacePreservingWhitespace(node, translated) {
+  const original = originalText.get(node) || node.nodeValue || "";
+  const leading = original.match(/^\s*/)?.[0] || "";
+  const trailing = original.match(/\s*$/)?.[0] || "";
+  node.nodeValue = `${leading}${translated}${trailing}`;
+}
+
+function applyTranslationCatalog(lang) {
+  const locale = TRANSLATION_CATALOG.locales?.[lang];
+  if (!locale) return false;
+  getCanonicalTextNodes().forEach((node, index) => {
+    const translated = locale.translations?.[`u${String(index).padStart(4, "0")}`];
+    if (translated) replacePreservingWhitespace(node, translated);
+  });
+  getCanonicalAttributeTargets().forEach((target, index) => {
+    const key = `a${String(index).padStart(4, "0")}_${target.attribute}`;
+    const translated = locale.attributes?.[key];
+    if (translated) target.element.setAttribute(target.attribute, translated);
+  });
+  return true;
+}
+
+function runtimeText(key, fallback, replacements = {}) {
+  const lang = document.body?.dataset.locale || "es";
+  let value = TRANSLATION_CATALOG.locales?.[lang]?.runtime?.[key] || fallback;
+  Object.entries(replacements).forEach(([name, replacement]) => {
+    value = value.replaceAll(`{${name}}`, String(replacement));
+  });
+  return value;
+}
+
+function uiText(key, localizedFallback, replacements = {}) {
+  const lang = document.body?.dataset.locale || "es";
+  const fallback = typeof localizedFallback === "string"
+    ? localizedFallback
+    : (localizedFallback?.[lang] || localizedFallback?.es || "");
+  return runtimeText(key, fallback, replacements);
+}
+
+function escapeHtml(value) {
+  return String(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
 
 function applyLanguageFallback(lang) {
   $$('[data-i18n-fallback="es"]').forEach(el => el.removeAttribute("data-i18n-fallback"));
@@ -162,18 +267,22 @@ function syncLanguageUrl(lang) {
 
 function setLang(lang) {
   if (!SUPPORTED_LANGS.includes(lang)) lang = "es";
-  const contentLang = INLINE_LANGS.includes(lang) ? lang : "es";
-  document.body.dataset.lang = contentLang;
+  restoreCanonicalContent();
+  const catalogApplied = lang !== "es" && applyTranslationCatalog(lang);
+  const contentLang = catalogApplied || lang === "es" ? lang : (INLINE_LANGS.includes(lang) ? lang : "es");
+  document.body.dataset.lang = catalogApplied ? "es" : contentLang;
   document.body.dataset.locale = lang;
   document.documentElement.lang = lang;
   document.documentElement.dir = RTL_LANGS.has(lang) ? "rtl" : "ltr";
   document.documentElement.dataset.contentLang = contentLang;
-  applyLanguageFallback(lang);
+  if (!catalogApplied) applyLanguageFallback(lang);
+  document.title = runtimeText("document_title", "Vladimir Acuña — Arquitecto de Soluciones · Senior Full-Stack");
   localStorage.setItem("portfolio_lang", lang);
   const sel = $("#selectLang");
   if (sel) sel.value = lang;
   updateLocalizedPdfLinks(lang);
   syncLanguageUrl(lang);
+  if ($("#smartDownloadActions")) initAppDownloads();
 }
 
 function resolveLocalizedPdfHref(link, lang) {
@@ -297,7 +406,7 @@ async function loadRecentRepos() {
     if (!repos.length) throw new Error("empty");
 
     box.innerHTML = repos.map(r => {
-      const updated = new Date(r.pushed).toLocaleDateString("es-CL", { year: "numeric", month: "short", day: "2-digit" });
+      const updated = new Date(r.pushed).toLocaleDateString(document.documentElement.lang || "es-CL", { year: "numeric", month: "short", day: "2-digit" });
       const forkBadge = r.isFork ? ' · <span title="Fork">⑂ fork</span>' : "";
       const sourceBadge = `<span class="pill mini" title="${r.source === "GL" ? "GitLab" : "GitHub"}">${r.source}</span>`;
       return `
@@ -310,7 +419,7 @@ async function loadRecentRepos() {
           </div>`;
     }).join("");
   } catch (e) {
-    box.innerHTML = `<div class="muted small">No se pudo cargar la lista. Ver repos en <a href="https://github.com/vladimiracunadev-create" target="_blank" rel="noreferrer">GitHub</a> y <a href="https://gitlab.com/vladimir.acuna.dev-group" target="_blank" rel="noreferrer">GitLab</a>.</div>`;
+    box.innerHTML = `<div class="muted small">${escapeHtml(runtimeText("repos_error", "No se pudo cargar la lista."))} <a href="https://github.com/vladimiracunadev-create" target="_blank" rel="noreferrer">GitHub</a> / <a href="https://gitlab.com/vladimir.acuna.dev-group" target="_blank" rel="noreferrer">GitLab</a>.</div>`;
   }
 }
 
@@ -319,10 +428,10 @@ function timeAgo(dateStr) {
   const days = Math.floor(diff / 86400000);
   const hours = Math.floor(diff / 3600000);
   const mins = Math.floor(diff / 60000);
-  if (days > 30) return new Date(dateStr).toLocaleDateString("es-CL", { month: "short", day: "2-digit", year: "numeric" });
-  if (days > 0) return `hace ${days}d`;
-  if (hours > 0) return `hace ${hours}h`;
-  return `hace ${mins}m`;
+  if (days > 30) return new Date(dateStr).toLocaleDateString(document.documentElement.lang || "es-CL", { month: "short", day: "2-digit", year: "numeric" });
+  if (days > 0) return runtimeText("ago_days", `hace ${days}d`, { count: days });
+  if (hours > 0) return runtimeText("ago_hours", `hace ${hours}h`, { count: hours });
+  return runtimeText("ago_minutes", `hace ${mins}m`, { count: mins });
 }
 
 async function loadRecentActivity() {
@@ -379,10 +488,10 @@ async function loadRecentActivity() {
     if (!totalCommits && !highlights.length) throw new Error("empty");
 
     const stats = [
-      totalCommits  ? `⬆ ${totalCommits} commits`  : null,
+      totalCommits  ? `⬆ ${totalCommits} ${runtimeText("commits", "commits")}`  : null,
       totalPRs      ? `🔀 ${totalPRs} PRs / MRs`   : null,
-      totalReleases ? `🚀 ${totalReleases} releases` : null,
-      activeRepos.size ? `📦 ${activeRepos.size} repos` : null,
+      totalReleases ? `🚀 ${totalReleases} ${runtimeText("releases", "releases")}` : null,
+      activeRepos.size ? `📦 ${activeRepos.size} ${runtimeText("repos", "repos")}` : null,
     ].filter(Boolean).map(s => `<span class="pill">${s}</span>`).join(" ");
 
     const top = highlights
@@ -404,7 +513,7 @@ async function loadRecentActivity() {
 
     box.innerHTML = `<div class="chips chips--stats">${stats}</div>${top}`;
   } catch (e) {
-    box.innerHTML = `<div class="muted small">No se pudo cargar la actividad.</div>`;
+    box.innerHTML = `<div class="muted small">${escapeHtml(runtimeText("activity_error", "No se pudo cargar la actividad."))}</div>`;
   }
 }
 
@@ -416,10 +525,10 @@ function initCopyEmail() {
     try {
       await navigator.clipboard.writeText(email);
       const old = btn.textContent;
-      btn.textContent = "Copiado ✔";
+      btn.textContent = runtimeText("copied", "Copiado ✔");
       setTimeout(() => btn.textContent = old, 1200);
     } catch {
-      prompt("Copia el email:", email);
+      prompt(runtimeText("copy_email", "Copia el email:"), email);
     }
   });
 }
@@ -466,25 +575,26 @@ function initAppDownloads() {
   const REPO_URL = "https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/releases/latest/download";
   const APK_URL = `${REPO_URL}/app-debug.apk`;
 
-  const apk = (label, primary) => `<a class="btn${primary ? " primary" : ""}" href="${APK_URL}">${i18n(label)}</a>`;
-  const pwa = (label, primary) => `<button class="btn${primary ? " primary" : ""}" type="button" data-pwa-trigger>${i18n(label)}</button>`;
+  const apk = (key, label, primary) => `<a class="btn${primary ? " primary" : ""}" href="${APK_URL}">${escapeHtml(uiText(key, label))}</a>`;
+  const pwa = (key, label, primary) => `<button class="btn${primary ? " primary" : ""}" type="button" data-pwa-trigger>${escapeHtml(uiText(key, label))}</button>`;
 
   let noticeDict, html;
   if (isAndroid) {
-    noticeDict = platformNotice("Android");
-    html = apk(DL_LABELS.apk, true);
+    noticeDict = uiText("detected_platform", platformNotice("Android"), { platform: "Android" });
+    html = apk("download_apk", DL_LABELS.apk, true);
   } else if (isIOS || isMac) {
-    noticeDict = platformNotice(isIOS ? "iOS" : "macOS");
-    html = pwa(DL_LABELS.pwaApp, true);
+    const platform = isIOS ? "iOS" : "macOS";
+    noticeDict = uiText("detected_platform", platformNotice(platform), { platform });
+    html = pwa("install_pwa_app", DL_LABELS.pwaApp, true);
   } else if (isWindows) {
-    noticeDict = platformNotice("Windows");
-    html = pwa(DL_LABELS.pwaDesktop, true) + apk(DL_LABELS.apkEmu, false);
+    noticeDict = uiText("detected_platform", platformNotice("Windows"), { platform: "Windows" });
+    html = pwa("install_pwa_desktop", DL_LABELS.pwaDesktop, true) + apk("download_apk_emulator", DL_LABELS.apkEmu, false);
   } else {
-    noticeDict = UNKNOWN_NOTICE;
-    html = apk(DL_LABELS.apk, true) + pwa(DL_LABELS.pwa, false);
+    noticeDict = uiText("unknown_platform", UNKNOWN_NOTICE);
+    html = apk("download_apk", DL_LABELS.apk, true) + pwa("install_pwa", DL_LABELS.pwa, false);
   }
 
-  notice.innerHTML = i18n(noticeDict);
+  notice.textContent = noticeDict;
   actions.innerHTML = html;
 }
 

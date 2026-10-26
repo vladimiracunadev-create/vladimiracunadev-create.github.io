@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at": "2026-10-25",
+    "generated_at": "2026-10-26",
     "language": "vi",
     "language_name": "Vietnamese",
     "native_name": "Tiếng Việt",
     "direction": "ltr",
-    "content_language": "es",
+    "content_language": "vi",
     "fallback_language": "es",
     "source": "https://vladimiracunadev-create.github.io/index.html"
   },
   "profile": {
     "name": "Vladimir Acuña",
-    "title": "Arquitectura, modernización, automatización e IA aplicada a proyectos reales.",
-    "summary": "Arquitecto de Soluciones · Senior Full-Stack · Líder Tecnológico . 16+ años liderando la evolución de plataformas. Especializado en modernización de sistemas legacy , automatización de procesos , cloud & CI/CD e integración de IA aplicada .",
+    "title": "Kiến trúc, hiện đại hóa, tự động hóa và IA áp dụng cho các dự án thực sự.",
+    "summary": "Kiến trúc sư giải pháp l· Senior Full-Stack * Trưởng khoa học . 16 + năm dẫn đầu sự phát triển của nền tảng, được đặc biệt hóa Hiện đại hóa hệ thống pháp luật , xử lý tự động hoá , mây và CN / CD e Comment .",
     "website": "https://vladimiracunadev-create.github.io/i18n/vi/",
     "github": "https://github.com/vladimiracunadev-create",
     "gitlab": "https://gitlab.com/vladimir.acuna.dev-group"
@@ -26,7 +26,7 @@
   "sections": [
     {
       "id": "hero",
-      "title": "Arquitectura, modernización, automatización e IA aplicada a proyectos reales.",
+      "title": "Kiến trúc, hiện đại hóa, tự động hóa và IA áp dụng cho các dự án thực sự.",
       "min_level": 0,
       "freelance_hidden": false
     },
@@ -38,85 +38,85 @@
     },
     {
       "id": "evolucion",
-      "title": "Pilares Técnicos Consolidados",
+      "title": "Trụ sở kỹ thuật Hợp nhất",
       "min_level": 1,
       "freelance_hidden": true
     },
     {
       "id": "auditoria-ia",
-      "title": "Auditoría de código generado por IA",
+      "title": "Kiểm tra mã xuất phát từ IA",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "productos",
-      "title": "Productos descargables",
+      "title": "Những sản phẩm có thể phân hủy",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "proyectos",
-      "title": "Proyectos destacados",
+      "title": "Dự án nổi bật",
       "min_level": 1,
       "freelance_hidden": true
     },
     {
       "id": "demos",
-      "title": "Demos en vivo",
+      "title": "Hãy đi trực tiếp.",
       "min_level": 1,
       "freelance_hidden": false
     },
     {
       "id": "experiencia",
-      "title": "Experiencia",
+      "title": "Kinh nghiệm",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "flujo-ia",
-      "title": "Flujo de desarrollo asistido por IA",
+      "title": "Sự phát triển dòng chảy được trợ giúp bởi IA",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "roles",
-      "title": "Alcance profesional real",
+      "title": "Phạm vi nghề nghiệp thực sự",
       "min_level": 1,
       "freelance_hidden": true
     },
     {
       "id": "servicios",
-      "title": "Servicios",
+      "title": "Dịch vụ",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "modalidades",
-      "title": "Freelance · Modalidades de colaboración",
+      "title": "Sự tự do # Modalities of Counation",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "descargas",
-      "title": "Centro de Descargas",
+      "title": "Trung tâm tháo gỡ",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "referencias",
-      "title": "Referencias laborales",
+      "title": "Tài liệu tham khảo Labour",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "tarjeta",
-      "title": "Tarjeta de presentación",
+      "title": "Phiên bản trình diễn",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "contacto",
-      "title": "Contacto",
+      "title": "Liên hệ",
       "min_level": 0,
       "freelance_hidden": false
     }

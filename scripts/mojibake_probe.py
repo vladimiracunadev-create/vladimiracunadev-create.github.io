@@ -17,8 +17,8 @@ TEXT_SUFFIXES = {
     ".sh", ".txt", ".webmanifest", ".xml", ".yaml", ".yml",
 }
 SKIP_DIRS = {
-    ".git", ".gradle-user-home", "dist", "dist-release", "node_modules",
-    "assets", "sources",
+    ".git", ".gradle-user-home", ".vendor", "dist", "dist-release",
+    "node_modules", "assets", "sources", "tmp",
 }
 MARKERS = ("Ã", "Â", "â", "ð", "ï")
 

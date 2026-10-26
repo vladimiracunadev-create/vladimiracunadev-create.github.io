@@ -1,6 +1,6 @@
 # Documentación internacional
 
-**Generada:** 2026-10-25. Las 22 versiones proceden del contenido canónico del portafolio (`index.html`).
+**Generada:** 2026-10-26. Las 22 versiones proceden del contenido canónico del portafolio (`index.html`).
 El README público del perfil se mantiene separado en `sources/profile-readme/`.
 
 | Código | Idioma | Documento | Web | API |

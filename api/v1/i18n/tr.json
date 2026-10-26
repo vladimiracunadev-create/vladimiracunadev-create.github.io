@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at": "2026-10-25",
+    "generated_at": "2026-10-26",
     "language": "tr",
     "language_name": "Turkish",
     "native_name": "Türkçe",
     "direction": "ltr",
-    "content_language": "es",
+    "content_language": "tr",
     "fallback_language": "es",
     "source": "https://vladimiracunadev-create.github.io/index.html"
   },
   "profile": {
     "name": "Vladimir Acuña",
-    "title": "Arquitectura, modernización, automatización e IA aplicada a proyectos reales.",
-    "summary": "Arquitecto de Soluciones · Senior Full-Stack · Líder Tecnológico . 16+ años liderando la evolución de plataformas. Especializado en modernización de sistemas legacy , automatización de procesos , cloud & CI/CD e integración de IA aplicada .",
+    "title": "Mimari, modernizasyon, otomasyon ve IA gerçek projelere uygulanır.",
+    "summary": "Çözümlerin mimarı · Senior Full-Stack · Teknolojik Lider . 16 + yıl platformların evrimine yol açtı. Özelleştir in Yasal sistemlerin modernizasyonu , Süreç otomasyon süreci otomasyon , bulut & CI / CD e Bütünleşik Uygulama IA .",
     "website": "https://vladimiracunadev-create.github.io/i18n/tr/",
     "github": "https://github.com/vladimiracunadev-create",
     "gitlab": "https://gitlab.com/vladimir.acuna.dev-group"
@@ -26,7 +26,7 @@
   "sections": [
     {
       "id": "hero",
-      "title": "Arquitectura, modernización, automatización e IA aplicada a proyectos reales.",
+      "title": "Mimari, modernizasyon, otomasyon ve IA gerçek projelere uygulanır.",
       "min_level": 0,
       "freelance_hidden": false
     },
@@ -38,85 +38,85 @@
     },
     {
       "id": "evolucion",
-      "title": "Pilares Técnicos Consolidados",
+      "title": "Consolidated Technical Pillars",
       "min_level": 1,
       "freelance_hidden": true
     },
     {
       "id": "auditoria-ia",
-      "title": "Auditoría de código generado por IA",
+      "title": "IA tarafından yaratılan Kod denetimi",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "productos",
-      "title": "Productos descargables",
+      "title": "Tek kullanımlık ürünler",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "proyectos",
-      "title": "Proyectos destacados",
+      "title": "Öne Çıkan Projeler",
       "min_level": 1,
       "freelance_hidden": true
     },
     {
       "id": "demos",
-      "title": "Demos en vivo",
+      "title": "Hadi yaşayalım.",
       "min_level": 1,
       "freelance_hidden": false
     },
     {
       "id": "experiencia",
-      "title": "Experiencia",
+      "title": "Deneyim",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "flujo-ia",
-      "title": "Flujo de desarrollo asistido por IA",
+      "title": "Geliştirme akışı IA tarafından yardımcı oldu",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "roles",
-      "title": "Alcance profesional real",
+      "title": "Gerçek profesyonel kapsamı",
       "min_level": 1,
       "freelance_hidden": true
     },
     {
       "id": "servicios",
-      "title": "Servicios",
+      "title": "Hizmetler",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "modalidades",
-      "title": "Freelance · Modalidades de colaboración",
+      "title": "Freelance · İşbirliğinin Değiştirilmesi",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "descargas",
-      "title": "Centro de Descargas",
+      "title": "Discharge Centre",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "referencias",
-      "title": "Referencias laborales",
+      "title": "İşbirlikleri Referansları",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "tarjeta",
-      "title": "Tarjeta de presentación",
+      "title": "Sunum kartı",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "contacto",
-      "title": "Contacto",
+      "title": "İletişim",
       "min_level": 0,
       "freelance_hidden": false
     }

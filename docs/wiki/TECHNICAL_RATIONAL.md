@@ -1,6 +1,6 @@
 # 🧠 Racional Técnico: ¿Por qué Vanilla?
 
-**Coherencia verificada:** 2026-10-25. `index.html` y `data/portfolio-i18n.json` definen una SPA con 22 locales, fallback por clave a español, cuatro vistas y RTL para árabe/persa. Los Markdown/API localizados derivan del portafolio; `sources/profile-readme/` permanece separado.
+**Coherencia verificada:** 2026-10-26. `index.html`, `data/portfolio-i18n.json` y `data/portfolio-translations.json` definen una SPA con 22 locales, 933 textos y 36 atributos por idioma traducido, fallback por clave a español, cuatro vistas y RTL para árabe/persa. Los Markdown/API localizados derivan del portafolio; `sources/profile-readme/` permanece separado.
 
 En una era de frameworks masivos, este proyecto elige deliberadamente volver a las bases. Aquí explicamos el "porqué" detrás de nuestras decisiones de arquitectura.
 

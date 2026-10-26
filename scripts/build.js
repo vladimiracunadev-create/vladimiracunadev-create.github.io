@@ -18,7 +18,10 @@ const DIRS_TO_COPY = [
     'experiencia-3d',
     'servicios'
 ];
-const PUBLIC_DATA_FILES = [path.join('data', 'portfolio-i18n.json')];
+const PUBLIC_DATA_FILES = [
+    path.join('data', 'portfolio-i18n.json'),
+    path.join('data', 'portfolio-translations.json')
+];
 const PRIVATE_ASSET_DIRS = new Set(['backups', 'no_aplica', 'por_solicitud']);
 const PRIVATE_ASSET_EXTENSIONS = new Set(['.docx', '.doc', '.xlsx']);
 const PRIVATE_ASSET_FILES = new Set(['LEEME_PDFS.txt']);

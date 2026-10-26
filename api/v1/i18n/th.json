@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at": "2026-10-25",
+    "generated_at": "2026-10-26",
     "language": "th",
     "language_name": "Thai",
     "native_name": "ไทย",
     "direction": "ltr",
-    "content_language": "es",
+    "content_language": "th",
     "fallback_language": "es",
     "source": "https://vladimiracunadev-create.github.io/index.html"
   },
   "profile": {
     "name": "Vladimir Acuña",
-    "title": "Arquitectura, modernización, automatización e IA aplicada a proyectos reales.",
-    "summary": "Arquitecto de Soluciones · Senior Full-Stack · Líder Tecnológico . 16+ años liderando la evolución de plataformas. Especializado en modernización de sistemas legacy , automatización de procesos , cloud & CI/CD e integración de IA aplicada .",
+    "title": "สถาปัตยกรรม การทันสมัย การอัตโนมัติ และกิจการภายใน ได้นําไปใช้กับโครงการจริง",
+    "summary": "สถาปนิกฝ่ายแก้ปัญหาของ สมเด็จพระราชวงศ์เต็ม-สแต็ค ผู้นําเทคโนโลยี . 16 + ปีนําวิวัฒนาการของแพลตฟอร์ม สเปเชียลใน การ ปรับ ปรุง ระบบ กฎหมาย ให้ ทัน สมัย , ประมวลผลอัตโนมัติ , เมฆ & ซีดี / ซีดี e ปรับใช้ข้อมูล IC .",
     "website": "https://vladimiracunadev-create.github.io/i18n/th/",
     "github": "https://github.com/vladimiracunadev-create",
     "gitlab": "https://gitlab.com/vladimir.acuna.dev-group"
@@ -26,7 +26,7 @@
   "sections": [
     {
       "id": "hero",
-      "title": "Arquitectura, modernización, automatización e IA aplicada a proyectos reales.",
+      "title": "สถาปัตยกรรม การทันสมัย การอัตโนมัติ และกิจการภายใน ได้นําไปใช้กับโครงการจริง",
       "min_level": 0,
       "freelance_hidden": false
     },
@@ -38,85 +38,85 @@
     },
     {
       "id": "evolucion",
-      "title": "Pilares Técnicos Consolidados",
+      "title": "ส่วนเสริมเทคนิคที่รวมเข้ากับอุปกรณ์",
       "min_level": 1,
       "freelance_hidden": true
     },
     {
       "id": "auditoria-ia",
-      "title": "Auditoría de código generado por IA",
+      "title": "การตรวจสอบรหัสที่สร้างขึ้นโดย IA",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "productos",
-      "title": "Productos descargables",
+      "title": "ผลิตภัณฑ์ที่ไม่สามารถกําจัดได้",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "proyectos",
-      "title": "Proyectos destacados",
+      "title": "โครงการเด่น",
       "min_level": 1,
       "freelance_hidden": true
     },
     {
       "id": "demos",
-      "title": "Demos en vivo",
+      "title": "ไปถ่ายทอดสดกัน",
       "min_level": 1,
       "freelance_hidden": false
     },
     {
       "id": "experiencia",
-      "title": "Experiencia",
+      "title": "ประสบการณ์",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "flujo-ia",
-      "title": "Flujo de desarrollo asistido por IA",
+      "title": "การ ไหล เวียนของการพัฒนาโดย IA",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "roles",
-      "title": "Alcance profesional real",
+      "title": "ขอบเขตงานจริง",
       "min_level": 1,
       "freelance_hidden": true
     },
     {
       "id": "servicios",
-      "title": "Servicios",
+      "title": "บริการ",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "modalidades",
-      "title": "Freelance · Modalidades de colaboración",
+      "title": "ความสามารถในการร่วมงานอิสระ",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "descargas",
-      "title": "Centro de Descargas",
+      "title": "ยกเลิกการชาร์จ",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "referencias",
-      "title": "Referencias laborales",
+      "title": "อ้างอิงจาก Lobour",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "tarjeta",
-      "title": "Tarjeta de presentación",
+      "title": "การนําเสนอ",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "contacto",
-      "title": "Contacto",
+      "title": "ติดต่อ",
       "min_level": 0,
       "freelance_hidden": false
     }

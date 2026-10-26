@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at": "2026-10-25",
+    "generated_at": "2026-10-26",
     "language": "uk",
     "language_name": "Ukrainian",
     "native_name": "Українська",
     "direction": "ltr",
-    "content_language": "es",
+    "content_language": "uk",
     "fallback_language": "es",
     "source": "https://vladimiracunadev-create.github.io/index.html"
   },
   "profile": {
     "name": "Vladimir Acuña",
-    "title": "Arquitectura, modernización, automatización e IA aplicada a proyectos reales.",
-    "summary": "Arquitecto de Soluciones · Senior Full-Stack · Líder Tecnológico . 16+ años liderando la evolución de plataformas. Especializado en modernización de sistemas legacy , automatización de procesos , cloud & CI/CD e integración de IA aplicada .",
+    "title": "Архітектура, модернізація, автоматизація та IA надали реальним проектам.",
+    "summary": "Архітектор рішень · Старший повноступеневий · Технологічний керівник . 16 + роки провідної еволюції платформ. Спеціалізована в модернізація юридичних систем , автоматизація процесів , Хмара і CI / CD укр інтегрована прикладна IA .",
     "website": "https://vladimiracunadev-create.github.io/i18n/uk/",
     "github": "https://github.com/vladimiracunadev-create",
     "gitlab": "https://gitlab.com/vladimir.acuna.dev-group"
@@ -26,7 +26,7 @@
   "sections": [
     {
       "id": "hero",
-      "title": "Arquitectura, modernización, automatización e IA aplicada a proyectos reales.",
+      "title": "Архітектура, модернізація, автоматизація та IA надали реальним проектам.",
       "min_level": 0,
       "freelance_hidden": false
     },
@@ -38,85 +38,85 @@
     },
     {
       "id": "evolucion",
-      "title": "Pilares Técnicos Consolidados",
+      "title": "Консолідовані технічні плити",
       "min_level": 1,
       "freelance_hidden": true
     },
     {
       "id": "auditoria-ia",
-      "title": "Auditoría de código generado por IA",
+      "title": "Аудит коду IA",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "productos",
-      "title": "Productos descargables",
+      "title": "Одноразові вироби",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "proyectos",
-      "title": "Proyectos destacados",
+      "title": "Рекомендовані проєкти",
       "min_level": 1,
       "freelance_hidden": true
     },
     {
       "id": "demos",
-      "title": "Demos en vivo",
+      "title": "Давайте жити.",
       "min_level": 1,
       "freelance_hidden": false
     },
     {
       "id": "experiencia",
-      "title": "Experiencia",
+      "title": "Досвід",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "flujo-ia",
-      "title": "Flujo de desarrollo asistido por IA",
+      "title": "Проект «Розвиток розвитку»",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "roles",
-      "title": "Alcance profesional real",
+      "title": "Реальний професійний обсяг",
       "min_level": 1,
       "freelance_hidden": true
     },
     {
       "id": "servicios",
-      "title": "Servicios",
+      "title": "Послуги",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "modalidades",
-      "title": "Freelance · Modalidades de colaboración",
+      "title": "Freelance · Модальність співпраці",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "descargas",
-      "title": "Centro de Descargas",
+      "title": "Центр детермінації",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "referencias",
-      "title": "Referencias laborales",
+      "title": "Довідники праці",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "tarjeta",
-      "title": "Tarjeta de presentación",
+      "title": "Презентаційна картка",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "contacto",
-      "title": "Contacto",
+      "title": "Зв'язатися зараз",
       "min_level": 0,
       "freelance_hidden": false
     }

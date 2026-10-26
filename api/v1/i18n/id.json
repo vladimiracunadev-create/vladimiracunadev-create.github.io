@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at": "2026-10-25",
+    "generated_at": "2026-10-26",
     "language": "id",
     "language_name": "Indonesian",
     "native_name": "Bahasa Indonesia",
     "direction": "ltr",
-    "content_language": "es",
+    "content_language": "id",
     "fallback_language": "es",
     "source": "https://vladimiracunadev-create.github.io/index.html"
   },
   "profile": {
     "name": "Vladimir Acuña",
-    "title": "Arquitectura, modernización, automatización e IA aplicada a proyectos reales.",
-    "summary": "Arquitecto de Soluciones · Senior Full-Stack · Líder Tecnológico . 16+ años liderando la evolución de plataformas. Especializado en modernización de sistemas legacy , automatización de procesos , cloud & CI/CD e integración de IA aplicada .",
+    "title": "Arsitektur, modernisasi, otomatisasi dan IA diterapkan pada proyek-proyek nyata.",
+    "summary": "Arsitek solusi Pemimpin Teknologi . 16 + tahun memimpin evolusi dari platform. Spesialisasi pada Modernisasi sistem hukum , proses otomatisasi , cloud & CI / CD e terintegrasi diaplikasikan IA .",
     "website": "https://vladimiracunadev-create.github.io/i18n/id/",
     "github": "https://github.com/vladimiracunadev-create",
     "gitlab": "https://gitlab.com/vladimir.acuna.dev-group"
@@ -26,7 +26,7 @@
   "sections": [
     {
       "id": "hero",
-      "title": "Arquitectura, modernización, automatización e IA aplicada a proyectos reales.",
+      "title": "Arsitektur, modernisasi, otomatisasi dan IA diterapkan pada proyek-proyek nyata.",
       "min_level": 0,
       "freelance_hidden": false
     },
@@ -38,85 +38,85 @@
     },
     {
       "id": "evolucion",
-      "title": "Pilares Técnicos Consolidados",
+      "title": "Pilar Teknis Terkonsolidasikan",
       "min_level": 1,
       "freelance_hidden": true
     },
     {
       "id": "auditoria-ia",
-      "title": "Auditoría de código generado por IA",
+      "title": "Audit kode yang dihasilkan oleh IA",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "productos",
-      "title": "Productos descargables",
+      "title": "Produk yang dapat disposable",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "proyectos",
-      "title": "Proyectos destacados",
+      "title": "Proyek unggulan",
       "min_level": 1,
       "freelance_hidden": true
     },
     {
       "id": "demos",
-      "title": "Demos en vivo",
+      "title": "Mari kita pergi hidup.",
       "min_level": 1,
       "freelance_hidden": false
     },
     {
       "id": "experiencia",
-      "title": "Experiencia",
+      "title": "Pengalaman",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "flujo-ia",
-      "title": "Flujo de desarrollo asistido por IA",
+      "title": "Aliran pembangunan dibantu oleh IA",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "roles",
-      "title": "Alcance profesional real",
+      "title": "Ruang lingkup profesional yang sebenarnya",
       "min_level": 1,
       "freelance_hidden": true
     },
     {
       "id": "servicios",
-      "title": "Servicios",
+      "title": "Layanan",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "modalidades",
-      "title": "Freelance · Modalidades de colaboración",
+      "title": "Pemulihan",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "descargas",
-      "title": "Centro de Descargas",
+      "title": "Pusat Pengosongan",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "referencias",
-      "title": "Referencias laborales",
+      "title": "Referensi Buruh",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "tarjeta",
-      "title": "Tarjeta de presentación",
+      "title": "Kartu presentasi",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "contacto",
-      "title": "Contacto",
+      "title": "Kontak",
       "min_level": 0,
       "freelance_hidden": false
     }

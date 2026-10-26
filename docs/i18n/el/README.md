@@ -1,559 +1,556 @@
-# Vladimir Acuña — Portafolio profesional
+# Vladimir Acuña — Χαρτοφυλάκιο
 
 <!-- Generated from canonical portfolio content: index.html -->
-<!-- locale:el; fallback:es -->
+<!-- locale:el; catalog:portfolio-translations.json; fallback:es -->
+<!-- views:recruiter,normal,deep,freelance -->
 
-> Idioma solicitado: `el` · Contenido faltante: fallback por clave a español.
-
-Vistas disponibles: `recruiter`, `normal`, `deep` y `freelance`.
-
-## Arquitectura, modernización, automatización e IA aplicada a proyectos reales.
+## Η αρχιτεκτονική, ο εκσυγχρονισμός, ο αυτοματισμός και η ΙΑ εφαρμόζονται σε πραγματικά έργα.
 
 <!-- portfolio-section:hero -->
 
-Arquitecto de Soluciones · Senior Full-Stack · Líder Tecnológico . 16+ años liderando la evolución de plataformas. Especializado en modernización de sistemas legacy , automatización de procesos , cloud & CI/CD e integración de IA aplicada .
+Ο αρχιτέκτονας των λύσεων · Senior Full-Stack · Τεχνολογικός ηγέτης . 16 + χρόνια ηγετικά την εξέλιξη των πλατφορμών. εκσυγχρονισμός των νομικών συστημάτων , αυτοματοποίηση διεργασίας , cloud & CI / CD ε ΙΑ (ενοποιημένος εφαρμοζόμενος ΙΑ) .
 
-Flujo de desarrollo asistido por IA — ChatGPT Plus · Claude Code · Antigravity — con criterio técnico propio y validación humana.
+Ροή ανάπτυξης που επικουρείται από το IA - ChatGPT Plus · Claude Code · Αντιβαρύτητα - με τεχνικά κριτήρια και ανθρώπινη επικύρωση.
 
-Interfaz preparada para múltiples idiomas , vistas Reclutador / Normal / Profundo / Freelance , tema claro / oscuro y despliegue web, PWA y APK .
+Διασύνδεση προετοιμασμένη για πολλαπλές γλώσσες , προβολή Αναφέρετε / Κανονικό / Βαθύ / Ελεύθερο , θέμα φως / σκοτάδι και ανάπτυξη Ιστός, PWA και APK .
 
-Información del portafolio actualizada hasta el 2026-10-25, 13:28 (America/Santiago).
+Πληροφορίες σχετικά με το επικαιροποιημένο χαρτοφυλάκιο μέχρι το 2026-10-25, 13:28 (Αμερική / Σαντιάγο).
 
-### Quién soy profesionalmente
+### Ποιος είμαι επαγγελματικά;
 
-Soy Arquitecto de Soluciones y Senior Full-Stack con base en ingeniería, operación real y modernización progresiva. Mi trabajo está en el cruce entre sistemas legacy, automatización, cloud/CI-CD, observabilidad e IA aplicada con criterio técnico propio.
+Είμαι αρχιτέκτονας λύσεων και Senior Full-Stack με βάση τη μηχανική, την πραγματική λειτουργία και τον προοδευτικό εκσυγχρονισμό. Η δουλειά μου βρίσκεται στο σταυροδρόμι μεταξύ κληροδοτήσεων, αυτοματισμού, cloud / CIC, παρατηρησιμότητα και IA συστήματα που εφαρμόζονται με το δικό του τεχνικό κριτήριο.
 
-Me acomoda ordenar contextos complejos, estabilizar operación, traducir requerimientos a decisiones técnicas y construir entregables mantenibles. No trabajo desde frases genéricas: prefiero levantar restricciones, riesgos, responsables y próximos pasos concretos.
+Είμαι άνετα με πολύπλοκα πλαίσια, σταθεροποιεί τη λειτουργία, μεταφράσει απαιτήσεις σε τεχνικές αποφάσεις και να οικοδομήσουμε παραδοτέα συντήρηση. Δεν εργάζομαι από γενικές φράσεις: Προτιμώ να άρει περιορισμούς, κινδύνους, υπεύθυνη και τα επόμενα συγκεκριμένα βήματα.
 
-### Mi Estándar Industrial
+### Το βιομηχανικό μου πρότυπο
 
-- Observabilidad: Dashboards en Grafana para eliminar cajas negras.
+- Παρατηρησιμότητα: Ντακάρ στην Γκραφανά για να αφαιρέσετε τα μαύρα κουτιά.
 
-- Resiliencia: Circuit breakers e idempotencia (Guardrails).
+- Αντοχή: Διακόπτες κυκλωμάτων και ιδεοδυναμία (Guarrails).
 
-- Cloud & FinOps: 15 casos AWS (ECS/EKS, Lambda, DynamoDB, Cognito, EventBridge, CloudWatch/X-Ray), OIDC y FinOps.
+- Σύννεφο & FinOps: 15 περιπτώσεις AWS (ECS / EKS, Lambda, DynamoDB, Cognito, EventBridge, CloudWatch / X-Ray), OIDC και FinOps.
 
-- Developer Experience: Hub CLI, tests `doctor` y `smoke`, DevContainers.
+- Εμπειρία προγραμματιστή: Hub CLI, τεστ \"γιατρός 'και' καπνός', DevContainers.
 
-- Seguridad: gitleaks, tfsec, pre-commit hooks, IAM least privilege y secret scanning.
+- Ασφάλεια: Gitleaks, tfsec, προ-δέσμευση γάντζους, IAM λιγότερο προνόμιο και μυστική σάρωση.
 
-- Serverless & Event-Driven: Lambda/SAM, DynamoDB, EventBridge, SQS/SNS y Cognito.
+- & Driven χωρίς εξυπηρετητή: Lambda / SAM, DynamoDB, EventBridge, SQS / SNS και Cognito.
 
-### Si vienes desde reclutamiento
+### Αν προέρχεστε από στρατολόγηση
 
-Identidad principal:
+Κύρια ταυτότητα:
 
-Fortalezas: modernización legacy · automatización · cloud/CI-CD · IA aplicada · colaboración distribuida.
+Fortaleres: κληρονομιά εκσυγχρονισμού · αυτοματοποίηση · cloud / Cic-CD · IA appliced · κατανεμημένη συνεργασία.
 
-También puedo asumir roles de Líder Tecnológico / Tech Lead en equipos que necesiten ordenar arquitectura, modernizar sistemas existentes, definir estándares técnicos y conectar negocio con desarrollo.
+Μπορώ επίσης να αναλάβω ρόλους Τεχνολογικός ηγέτης / τεχνολογικός μόλυβδος σε εξοπλισμό που πρέπει να δομηθεί, εκσυγχρονισμένα υπάρχοντα συστήματα, καθορισμένα τεχνικά πρότυπα και να συνδεθούν με την ανάπτυξη.
 
-- Descarga el CV o portafolio en tu idioma.
+- Κατεβάστε το βιογραφικό σημείωμα ή το χαρτοφυλάκιο στη γλώσσα σας.
 
-- Revisa logros resumidos y validación externa.
+- Ανασκοπεί συνοπτικά επιτεύγματα και εξωτερική επικύρωση.
 
-- Abre README o RECRUITER.md en los repos clave.
+- Άνοιγμα README ή ReECRUITER.md σε key repos.
 
-### Cómo se ve en mis Repos
+### Πώς φαίνεται στον Αντιπρόσωπό μου
 
-Demos reproducibles, IaC (Terraform), CI/CD en GitHub y GitLab, serverless (Lambda/SAM), event-driven (EventBridge/SQS/SNS), seguridad (gitleaks/tfsec/OIDC) y documentación por perfil. 15 casos AWS validados en monorepo GitLab.
+Δίνουμε αναπαραγωγιμότητα, IaC (Terraform), CI / CD σε GitHub και GitLab, χωρίς server (Lambda / SAM), που καθοδηγείται από γεγονότα (EventBridge / SQS / SNS), ασφάλεια (gitleaks / tfsec / OIDC) και τεκμηρίωση προφίλ. 15 περιπτώσεις AWS επικυρωμένες σε GitLab monorep.
 
-[Conversemos](https://vladimiracunadev-create.github.io/#contacto)
+[Ας μιλήσουμε](https://vladimiracunadev-create.github.io/#contacto)
 
-[Ver productos](https://vladimiracunadev-create.github.io/#productos)
+[Δείτε προϊόντα](https://vladimiracunadev-create.github.io/#productos)
 
-[Auditoría de código IA](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/)
+[Έλεγχος κώδικα AI](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/)
 
-[Ver proyectos](https://vladimiracunadev-create.github.io/#proyectos)
+[Δείτε έργα](https://vladimiracunadev-create.github.io/#proyectos)
 
-[Ver demos](https://vladimiracunadev-create.github.io/#demos)
+[Δείτε επιδείξεις](https://vladimiracunadev-create.github.io/#demos)
 
-[Ver documentos](https://vladimiracunadev-create.github.io/#descargas)
+[Βλέπε έγγραφα](https://vladimiracunadev-create.github.io/#descargas)
 
-[Ver validación](https://vladimiracunadev-create.github.io/#referencias)
+[Βλέπε επικύρωση](https://vladimiracunadev-create.github.io/#referencias)
 
-[Ver alcance](https://vladimiracunadev-create.github.io/#roles)
+[Βλέπε πεδίο εφαρμογής](https://vladimiracunadev-create.github.io/#roles)
 
 ## Resultados verificables
 
 <!-- portfolio-section:resultados -->
 
-mejora estimada en procesos críticos y reportes
+εκτιμώμενη βελτίωση των κρίσιμων διαδικασιών και εκθέσεων
 
-menos fricción operativa y soporte en Batería Online
+λιγότερη επιχειρησιακή τριβή και υποστήριξη σε on-line μπαταρία
 
-optimización aproximada en componentes DB/código
+κατά προσέγγιση βελτιστοποίηση σε DB / κωδικά συστατικά
 
-frentes concurrentes atendidos en ciertos períodos
+ταυτόχρονες μετωπικές μετωπίες που παρακολούθησαν σε ορισμένες περιόδους
 
-## Pilares Técnicos Consolidados
+## Ενοποιημένοι Τεχνικοί Πυλώνες
 
 <!-- portfolio-section:evolucion -->
 
-Estándares industriales aplicados de forma transversal en todo el ecosistema verificable: 14 casos AWS, 25 backends LangGraph operativos (cobertura 100%), 12 labs Docker, 12 microsistemas y 60 casos operativos en Problem Driven Systems Lab (12 × 5 stacks) — todos con observabilidad, hardening y reproducibilidad.
+Βιομηχανικά πρότυπα που εφαρμόζονται εγκάρσια σε όλο το επαληθεύσιμο οικοσύστημα: 14 περιπτώσεις AWS, 25 LangGraph backends που λειτουργούν (100% κάλυψη), 12 Docker labs, 12 microsystems και 60 λειτουργικών περιπτώσεων στο Problem Driven Systems Lab (12 × 5 stacks) - όλα με παρατηρησιμότητα, σκλήρυνση και αναπαραγωγιμότητα.
 
-### 📈 Observabilidad Industrial
+### 📈 Βιομηχανική Παρατηρησιμότητα
 
-Prometheus + Grafana en Docker Labs, Social Bot y Problem-Driven (puertos 9091/3001). LangGraph v4.15 expone `/health` , `/ready` , `/metrics` y LangSmith opt-in. AWS Caso O implementa X-Ray distribuido.
+Προμηθέας + Grafana σε εργαστήρια Docker, Κοινωνική Bot και Πρόβλημα-Driven (λιμάνια 9091 / 3001). LangGraph v4.15 εκθέτει `/health` , `/ready` , `/metrics` Και το LangSmith opt-in. Η υπόθεση O της AWS υλοποιεί X-Ray διανεμηθεί.
 
-### 🛡️ Security Hardening
+### 🛡️ Ασφάλεια Harding
 
-Auditoría 8 capas en LangGraph (non-root, 127.0.0.1, grype `fail-build` , nginx TLS, detect-secrets, Trojan Source, pip-compile, Dependabot). Microsistemas v3.x: Hardening 3 fases + SBOM en cada release. Trivy en Social Bot v4.3. TruffleHog + detect-secrets en proyectos AWS.
+Έλεγχος 8-επίστρωσης στο LangGraph (μη-ρίζα, 127.0.0.1, γκρίπ) `fail-build` , Nginx TLS, ανίχνευση-απόρρητα, Τρωική Πηγή, pip-compile, Depentabot). Microsistemas v3.x: Σκληρά 3 φάσεις + SBOM σε κάθε κυκλοφορία. Trivy in Social Bot v4.3. TruffleHog + ανιχνεύουν-απόρρητα σε έργα AWS.
 
-### ♻️ Resiliencia & Continuidad
+### ♻️ Αντοχή & Συνέχεια
 
-Idempotencia, Circuit Breakers y desvío controlado (DLQ) para fallos de terceros. Polyglot persistence en Social Bot v4.3 (9 lenguajes × 12+ DBs) con runtime isolation. Streaming + DEMO/LIVE + checkpoints SQLite en LangGraph para tolerancia a fallos LLM.
+Ιδεότητα, Διακόπτες κυκλώματος και ελεγχόμενη απόκλιση (DLQ) για τις αστοχίες τρίτων. Πολυγλωττική επιμονή στο Social Bot v4.3 (9 γλώσσες × 12 + DBs) με την εκτέλεση απομόνωση. Στρέιμινγκ + DEMO / LIVE + σημεία ελέγχου SQLite στο LangGraph για την ανοχή αποτυχίας LLM.
 
-### 🛠️ DX & Reproducibilidad
+### 🛠️ DX & αναπαραγωγιμότητα
 
-Hub CLI multi-OS y Windows Installer firmado en Docker Labs v1.5. Tests `doctor` y `smoke` , Makefile operativo y validaciones por caso. CI/CD hardened en GitHub Actions con OIDC y matrix builds. Skills de Claude Code para flujos repetibles.
+Hub CLI multi-OS και Windows Installer υπέγραψε στο Docker Labs v1.5. Δοκιμές `doctor` και `smoke` , Επιχειρησιακό και κατά περίπτωση αρχείο. CI / CD αιωρείται σε GitHub Δράσεις με OIDC και κτίρια μήτρα.
 
-### ☁️ Cloud Profesional · GenAI
+### ☁️ Επαγγελματικό Σύννεφο · GenAI
 
-14/15 casos AWS completados (incluyendo GenAI con Bedrock + Claude Haiku 4.5 + Lambda). Infraestructura inmutable (Terraform), seguridad OIDC y FinOps. Cobertura por certificación: ~68% SAA-C03, ~68% DVA-C02, ~50% SOA-C02. EKS v1.32 + ECS Fargate.
+14 / 15 Οι υποθέσεις AWS ολοκληρώθηκαν (συμπεριλαμβανομένου του GenAI με Bedrock + Claude Haiku 4.5 + Lambda). Αμετάβλητη υποδομή (Terraform), ασφάλεια OIDC και FinOps. Κάλυψη πιστοποίησης: ~ 68% SAA-C03, ~ 68% DVA-C02, ~ 50% SOA-C02. EKS v1.32 + ECS Fargate.
 
-### 🤖 IA Agéntica & Local-First
+### 🤖 IA Agentica & Τοπικός-Πρώτος
 
-LangGraph v4.15: 25/25 backends operativos (cobertura 100%) con estado tipado y rutas condicionales. MCP + Ollama Local con Security & Trust Profile (Bandit + pip-audit) y blueprint AWS migration. ChofyAI Studio v0.5.1 (macOS Apple Silicon + soporte experimental Windows + NVIDIA GPU): Qwen3-TTS, whisper.cpp, FaceFusion, AceForge — IA local sin nube, pnpm + SHA-512 lockfile.
+LangGraph v4.15: 25 / 25 λειτουργικά συστήματα υποστήριξης (100% κάλυψη) με tipid κατάσταση και υπό όρους διαδρομές. MCP + Τοπικό Olama με Προφίλ Ασφάλεια & Εμπιστοσύνη (Bandit + pip-audit) και το σχέδιο AWS μετανάστευση. ChofyAI Studio v0.5.1 (Apple Silicon macOS + πειραματική υποστήριξη Windows + NVIDIA GPU): Qwen3-TTS, ψιθυριστά.cpp, FaceFusion, AceFusge - τοπικό cloud-free, pnpm + SHA-512 αρχείο.
 
-## Auditoría de código generado por IA
+## Έλεγχος κώδικα που δημιουργήθηκε από τις IA
 
 <!-- portfolio-section:auditoria-ia -->
 
-Nueva línea profesional: verificar, auditar y recuperar software creado con inteligencia artificial.
+Νέα επαγγελματική γραμμή: επαλήθευση, έλεγχο και ανάκτηση λογισμικού που δημιουργήθηκε με τεχνητή νοημοσύνη.
 
-La brecha de verificación aparece cuando la IA produce código más rápido de lo que un equipo puede comprenderlo, probarlo y validarlo. El resultado parece terminado, aunque contenga errores, vulnerabilidades, deuda técnica o funcionalidades simuladas.
+Το κενό επαλήθευσης εμφανίζεται όταν η IA παράγει κώδικα γρηγορότερα από ό, τι μια ομάδα μπορεί να καταλάβει, να δοκιμάσει και να επικυρώσει τον. Το αποτέλεσμα φαίνεται να έχει ολοκληρωθεί, ακόμα και αν περιέχει σφάλματα, τρωτά σημεία, τεχνικό χρέος ή προσομοιώσεις λειτουργικότητας.
 
-No se trata solamente de revisar código. Se trata de recuperar el control técnico del producto.
+Δεν είναι μόνο για την αναθεώρηση κώδικα, αλλά για την ανάκτηση του τεχνικού ελέγχου του προϊόντος.
 
-[Ver el servicio completo](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/)
+[Δείτε την πλήρη υπηρεσία](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/)
 
-[Solicitar diagnóstico técnico](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/#contacto)
+[Αίτηση τεχνικής διάγνωσης](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/#contacto)
 
-## Productos descargables
+## Προϊόντα που μπορούν να χρησιμοποιηθούν
 
 <!-- portfolio-section:productos -->
 
-Productos terminados con instalador firmado (.exe), bundle portable (.zip) o app móvil (.apk). Cada uno incluye landing page propia cuando aplica, releases versionados en GitHub y verificación SHA-256 donde corresponde.
+Προϊόντα που έχουν ολοκληρωθεί με υπογεγραμμένο εγκαταστάτη (exe), φορητό πακέτο (.zip) ή κινητό app (.app). Κάθε ένα περιλαμβάνει την σελίδα προσγείωσης του δικού του όταν εφαρμόζεται, κυκλοφορεί στιχουργική GitHub και SHA-256 επαλήθευση, όπου ενδείκνυται.
 
-### RootCause · Windows Inspector
+### Root αιτία · Επιθεωρητής των Windows
 
-Software forense de ciberseguridad para Windows escrito en Rust (edition 2024) — complementa al antivirus/EDR con telemetría cero. Descubre qué proceso, servicio, carpeta, conexión o traza ETL degrada el equipo (disco 100%, crecimiento anormal de %TEMP%, lentitud, alto consumo de RAM, red sin explicación). 5 ediciones: GUI Desktop (Setup.exe), Portable .zip, CLI single-binary (rootcause.exe), CLI Portable, módulo PowerShell y extensión VS Code. ETW · WPR · alto rendimiento. Diagnóstico primero, intervención después.
+Το ψηφιακό λογισμικό σήμανσης ασφαλείας για τα Windows που γράφτηκε σε Rust (έκδοση 2024) - συμπληρώνει το antivirus / EDR με μηδενική τηλεμετρία. Ανακαλύψτε ποια διαδικασία, υπηρεσία, φάκελο, σύνδεση ή ίχνος ETL υποβαθμίζει τον υπολογιστή (100% drive, μη φυσιολογική ανάπτυξη% TEMP%, αργή, υψηλή κατανάλωση RAM, δίκτυο χωρίς εξήγηση). 5 εκδόσεις: GUI Desktop (Setup.exe), Φορητό .zip, CLI ενιαίο-binary (root.exe), CLI Φορητό, PowerShell μονάδα και VS επέκταση κώδικα · υψηλή απόδοση. Πρώτα η διάγνωση, μετά η παρέμβαση.
 
-### Automa · PC Orchestrator
+### Automa · Οργαστής PC
 
-Orquestador local de acciones efectivas sobre Windows. 27 flows declarativos en JSON (incluye extracción y vigilancia web con evidencia SHA-256) · Playwright + pywebview + PyInstaller · 150 pytest tests · instalador firmado.
+Τοπική Orquer των αποτελεσματικών ενεργειών για τα Windows. 27 δηλωτικές ροές σε JSON (περιλαμβάνει εξαγωγή και παρακολούθηση ιστού με στοιχεία SHA-256) · Playwright + pywebview + PyInstaller · 150 δοκιμές pytest · υπογεγραμμένος εγκαταστάτης.
 
-### Python Data Science Program
+### Πρόγραμμα επιστήμης δεδομένων Python
 
-Programa de 232 clases en 9 partes (Python aplicado, ML, DL, MLOps, ingeniería de datos, ética, capstones). App escritorio Windows nativa (PySide6 + Qt + Jupyter), portable, app Android y curso PDF/PPTX.
+Πρόγραμμα 232 τάξεων σε 9 μέρη (Python appliced, ML, DL, MLOps, data engineering, ethics, capstons). Windows εγγενές (PySide6 + Qt + Jupiter), φορητό, Android app και PDF / PPTX course.
 
-### ChofyAI Studio
+### Στούντιο ChofyAI
 
-Lanzador de escritorio para IA local. Orquesta 5 herramientas: Qwen3-TTS, whisper.cpp, FaceFusion, AceForge y ComfyUI. Tauri 2 + Rust + React. Validado macOS Apple Silicon; soporte experimental Windows + CUDA. 5/5 inferencia real.
+Εκκινητής επιφάνειας εργασίας για τα εργαλεία της τοπικής IA. Orquesta 5: Qwen3-TTS, shirt.cpp, FaceFusion, AceForge και ComfyUI. Tauri 2 + Rust + React.
 
-### Docker Labs · Control Center
+### Εργαστήρια Docker · Κέντρο Ελέγχου
 
-Laboratorio personal de contenedores Docker/Compose en múltiples stacks (PHP, Node.js, Python, BD, DevOps). Hub CLI multi-OS y Windows Installer firmado, doctor/smoke tests.
+Docker / Συνθέστε σε πολλαπλές στοίβες (PHP, Node.js, Python, BD, DevOps).
 
-### Microsistemas · Productivity Suite
+### Μικροσυστήματα · Σουίτα παραγωγικότητας
 
-12 microapps web autocontenidas para tareas recurrentes: desarrollo, mantención, diagnóstico y modernización de sistemas legacy. 195 katas en 67 tecnologías. Hardening 3 fases + SBOM por release.
+12 αυτοτελείς μικροεφαρμογή για επαναλαμβανόμενες εργασίες: ανάπτυξη, συντήρηση, διάγνωση και εκσυγχρονισμός των συστημάτων κληρονομιάς. 195 κατάς σε 67 τεχνολογίες. Σκληροποίηση 3 φάσεων + SBOM για απελευθέρωση.
 
-### Unikernel Control Center
+### Κέντρο ελέγχου Unikernel
 
-Suite profesional para operar servicios Unikraft en Windows con backend WSL2. Control total vía Dashboard Node.js y Launcher WinForms en localhost. Arquitectura de alto rendimiento y orquestación unikernel.
+Επαγγελματική σουίτα για να λειτουργήσει Unikraft υπηρεσίες στα Windows με WSL2 σύστημα υποστήριξης. Πλήρης έλεγχος μέσω Dashboard κόμβος.js και Εκτοξευτής WinForms σε τοπικό host.
 
-### GabySQL · Embedded DB + Modeler
+### GabySQL · Ενσωματωμένο DB + μοντελοποιητής
 
 Base de datos embebida en Rust (archivo único .db, WAL, cost-based optimizer, SAVEPOINT/ROLLBACK, 828 tests, fuzzing 503.8M queries) + GabyModeler GUI de escritorio. Builds para Windows, macOS arm64 y Linux x86_64.
 
-[Landing](https://vladimiracunadev-create.github.io/rootcause-windows-inspector/)
+[Προσγείωση](https://vladimiracunadev-create.github.io/rootcause-windows-inspector/)
 
-[Setup .exe](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest/download/RootCause-Setup.exe)
+[Set .exe](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest/download/RootCause-Setup.exe)
 
-[Portable .zip](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest/download/RootCause-Portable.zip)
+[Φορητό .zip](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest/download/RootCause-Portable.zip)
 
-[CLI Portable .zip](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest/download/RootCause-CLI-Portable.zip)
+[Φορητό .zip CLI](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest/download/RootCause-CLI-Portable.zip)
 
-[VS Code .vsix](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest/download/RootCause-VSCode-Extension.vsix)
+[Κωδικός VS .v6](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest/download/RootCause-VSCode-Extension.vsix)
 
-[Todas las ediciones](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest)
+[Όλες οι εκδόσεις](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest)
 
 [GitHub](https://github.com/vladimiracunadev-create/rootcause-windows-inspector)
 
-[Landing](https://vladimiracunadev-create.github.io/automa-pc/)
+[Προσγείωση](https://vladimiracunadev-create.github.io/automa-pc/)
 
-[Descargar .exe](https://github.com/vladimiracunadev-create/automa-pc/releases/latest/download/Automa-Setup-v0.3.0.exe)
+[Λήψη .exe](https://github.com/vladimiracunadev-create/automa-pc/releases/latest/download/Automa-Setup-v0.3.0.exe)
 
 [GitHub](https://github.com/vladimiracunadev-create/automa-pc)
 
-[Landing](https://vladimiracunadev-create.github.io/python-data-science-program/)
+[Προσγείωση](https://vladimiracunadev-create.github.io/python-data-science-program/)
 
 [.exe](https://github.com/vladimiracunadev-create/python-data-science-program/releases/latest/download/PythonDSProgram_Setup_v3.8.0.exe)
 
-[.zip](https://github.com/vladimiracunadev-create/python-data-science-program/releases/latest/download/PythonDSProgram_windows_portable_v3.8.0.zip)
+[.φερμουάρ](https://github.com/vladimiracunadev-create/python-data-science-program/releases/latest/download/PythonDSProgram_windows_portable_v3.8.0.zip)
 
-[.apk](https://github.com/vladimiracunadev-create/python-data-science-program/releases/latest/download/PythonDSProgram_android_v3.8.0_debug.apk)
+[.apk (ασπ.](https://github.com/vladimiracunadev-create/python-data-science-program/releases/latest/download/PythonDSProgram_android_v3.8.0_debug.apk)
 
 [GitHub](https://github.com/vladimiracunadev-create/python-data-science-program)
 
-[Landing](https://vladimiracunadev-create.github.io/chofyai-studio/)
+[Προσγείωση](https://vladimiracunadev-create.github.io/chofyai-studio/)
 
 [GitHub](https://github.com/vladimiracunadev-create/chofyai-studio)
 
-[Descargar .exe](https://github.com/vladimiracunadev-create/docker-labs/releases/latest/download/docker-labs-setup-1.5.0.exe)
+[Λήψη .exe](https://github.com/vladimiracunadev-create/docker-labs/releases/latest/download/docker-labs-setup-1.5.0.exe)
 
-[Release v1.5.0](https://github.com/vladimiracunadev-create/docker-labs/releases/latest)
+[Απελευθερώστε v1.5.0](https://github.com/vladimiracunadev-create/docker-labs/releases/latest)
 
 [GitHub](https://github.com/vladimiracunadev-create/docker-labs)
 
-[Descargar .zip](https://github.com/vladimiracunadev-create/microsistemas/releases/latest/download/microsistemas-v1.1.0.zip)
+[Λήψη .zip](https://github.com/vladimiracunadev-create/microsistemas/releases/latest/download/microsistemas-v1.1.0.zip)
 
-[Release v1.1.0](https://github.com/vladimiracunadev-create/microsistemas/releases/latest)
+[Απελευθερώστε v1.1.0.](https://github.com/vladimiracunadev-create/microsistemas/releases/latest)
 
 [GitHub](https://github.com/vladimiracunadev-create/microsistemas)
 
-[Descargar .exe](https://github.com/vladimiracunadev-create/unikernel-labs/releases/latest/download/UnikernelLabs.Launcher.exe)
+[Λήψη .exe](https://github.com/vladimiracunadev-create/unikernel-labs/releases/latest/download/UnikernelLabs.Launcher.exe)
 
-[Release v2.0.0](https://github.com/vladimiracunadev-create/unikernel-labs/releases/latest)
+[Απελευθερώστε το v2.0.0](https://github.com/vladimiracunadev-create/unikernel-labs/releases/latest)
 
 [GitHub](https://github.com/vladimiracunadev-create/unikernel-labs)
 
-[Modeler .exe](https://github.com/vladimiracunadev-create/gabysql/releases/latest/download/gabymodeler_0.1.0_x64-setup.exe)
+[Μοντελοποιητής .exe](https://github.com/vladimiracunadev-create/gabysql/releases/latest/download/gabymodeler_0.1.0_x64-setup.exe)
 
-[Engine .zip (Win)](https://github.com/vladimiracunadev-create/gabysql/releases/download/v0.2.0/gabysql-v0.2.0-windows-x86_64.zip)
+[Κινητήρας .zip (Win)](https://github.com/vladimiracunadev-create/gabysql/releases/download/v0.2.0/gabysql-v0.2.0-windows-x86_64.zip)
 
-[Todas las releases](https://github.com/vladimiracunadev-create/gabysql/releases)
+[Όλες οι εκδόσεις](https://github.com/vladimiracunadev-create/gabysql/releases)
 
 [GitHub](https://github.com/vladimiracunadev-create/gabysql)
 
-## Proyectos destacados
+## Επιλεγμένα έργα
 
 <!-- portfolio-section:proyectos -->
 
-Selección con foco en modernización, productividad, automatización y demos verificables.
+Επιλογή με έμφαση στον εκσυγχρονισμό, την παραγωγικότητα, τον αυτοματισμό και την επαληθεύσιμη επίδειξη.
 
-### Batería Online (Fundación CEIS)
+### Συνδεδεμένη μπαταρία (Ίδρυμα CEIS)
 
-Suite psicométrica web a gran escala: evolución/soporte y modernización progresiva, optimización SQL Server, reportes PDF/Excel y continuidad operacional.
+Μεγάλης κλίμακας web ψυχομετρική σουίτα: εξέλιξη / υποστήριξη και προοδευτικός εκσυγχρονισμός, βελτιστοποίηση SQL Server, PDF / Excel αναφορές και επιχειρησιακή συνέχεια.
 
-Por confidencialidad, no publico repos/código del producto institucional. Validación vía referencia laboral.
+Με εμπιστευτικότητα, δεν δημοσιεύω repos / κωδικό του θεσμικού προϊόντος.
 
-### Productos con distribución real
+### Προϊόντα με πραγματική διανομή
 
-### RootCause · Windows Inspector
+### Root αιτία · Επιθεωρητής των Windows
 
-Software forense de ciberseguridad para Windows 10/11 escrito en Rust: detecta distorsiones anómalas de CPU, disco, red, procesos, autoarranque y servicios contra baselines conocidas, correlaciona señales en incidentes (SQLite) y explica la causa raíz con evidencia. 5 modalidades en producción (GUI Fluent bilingüe ES/EN, CLI, módulo PowerShell con 9 cmdlets, extensión VS Code, tray icon) y distribución vía Scoop · Winget · Chocolatey. Complementa al antivirus/EDR. Telemetría: cero.
+Cyber Security Forensic Software for Windows 10 / 11 γραμμένες σε Rust: ανιχνεύει μη φυσιολογικές στρεβλώσεις της CPU, δίσκο, δίκτυο, διαδικασίες, αυτο-boot και υπηρεσίες έναντι γνωστών βασικών τιμών, συσχετίζει τα σήματα συμβάντων (SQLite) και εξηγεί τη βασική αιτία με στοιχεία. 5 τρόποι στην παραγωγή (GUI Δίγλωσση Fluent ES / EN, CLI, PowerShell μονάδα με 9 cmdlets, VS επέκταση κώδικα, εικονίδιο κυκλοφορίας) και διανομή μέσω Scoop · Winget · Σοκολάτα. Πλήρης σε αντιιών / EDR. Τηλεμετρία: μηδέν.
 
-### RootCause · Mobile Inspector
+### Root Prouse · Κινητός επιθεωρητής
 
-Sensor forense de diagnóstico para Android e iOS construido en Flutter (colectores nativos Kotlin/Swift). Motor de reglas local que detecta distorsiones anómalas de memoria, almacenamiento, batería y superficie de permisos, con semáforo de severidad, historial de hasta 500 capturas, detección de stalkerware activo y evidencia forense en JSON y PDF (5 idiomas). APK v0.8.0 firmado en Releases. Sin permiso INTERNET: telemetría cero, verificada en cada build.
+Εγκληματολογικός διαγνωστικός αισθητήρας για Android και iOS που είναι ενσωματωμένος σε Flatter (native collecters Kotlin / Swift). Τοπική μηχανή κανόνα που ανιχνεύει μη φυσιολογική μνήμη, αποθήκευση, μπαταρία και άδειες παραμορφώσεις επιφάνειας, με ένα φως σοβαρότητας, καταγράψτε μέχρι 500 αλιεύματα, ενεργό ανίχνευση λογισμικού και ιατροδικαστικά στοιχεία σε JSON και PDF (5 γλώσσες). APK v0.8.0 υπογεγραμμένο σε κυκλοφορίες. Χωρίς άδεια INTERNET: μηδενική τηλεμετρία, επαληθεύεται σε κάθε κτίριο.
 
-### Rootcause Web Inspector · Proyecto
+### Περιστροφή αιτίας Web Inspector · Έργο
 
-RootCause Web Inspector v0.2.0 — sensor forense de la superficie del navegador: cookies, sesiones de correo, extensiones, descargas y permisos de sitio. Panel local en 127.0.0.1, extension MV3, CERO dependencias y cero telemetria verificada en CI. Hermano de las ediciones Windows (Rust) y Mobile (Flutter)
+Root Prouse Web Inspector v0.2.0 - Εγκληματολογικός αισθητήρας της επιφάνειας του προγράμματος περιήγησης: cookies, συνεδρίες αλληλογραφίας, επεκτάσεις, λήψεις και άδειες site. Τοπικός πίνακας σε 127.0.0.1, επέκταση MV3, CERO εξαρτήσεις και μηδενική τηλεμετρία επαληθεύεται σε CI. Αδελφός των Windows (Rust) και Mobile εκδόσεις (Flutter)
 
-### Universal Code Scanner · Proyecto
+### Γενικός ανιχνευτής κώδικα · Έργο
 
-Universal Code Scanner v1.1.0 — Lector Flutter de códigos QR y de barras que interpreta antes de actuar: 16 señales de riesgo locales por URL, confirmación explícita, historial e inventario cifrados con AES-256-GCM. Estado de escaneo siempre visible y tono propio de lectura. Android · iOS · macOS · PWA. Telemetría cero
+Universal Scanner κώδικα v1.1.0 - Αναγνωστής Flatter των κωδικών QR και των μπαρ ερμηνεύει πριν από την ενέργεια: 16 τοπικά σήματα κινδύνου ανά URL, ρητή επιβεβαίωση, ιστορικό και απογραφή κρυπτογραφημένο με AES-256-GCM. Πάντα ορατή κατάσταση σάρωσης και τον δικό τόνο ανάγνωσης. Android · iOS · macOS · PWA. Zero Telemetry
 
-### GabySQL
+### GabySQL (Γαβριέλλα)
 
 Base de datos embebida escrita en Rust desde cero como proyecto de investigación: archivo único .db con WAL, SQL relacional completo (CTEs, window functions, triggers, PL/pgSQL, Row-Level Security), optimizador cost-based con EXPLAIN ANALYZE, API HTTP/JSON con transacciones cross-request y 828 tests verdes en 3 sistemas operativos. Fuzz del parser: 503.8M queries, 0 panics.
 
-### Automa · PC Orchestrator
+### Automa · Οργαστής PC
 
-Orquestador local v0.3.0 de acciones efectivas sobre Windows: 27 flows operativos declarativos en JSON que abren ventanas reales, interactúan con DOM, capturan evidencia y vigilan la web (crawl BFS, detector de cambios y monitoreo de valores con evidencia SHA-256). Panel local en 127.0.0.1 (pywebview + PyInstaller) con scheduler cron y lock SQLite. Stack Python 3.10+, Playwright (headless/visible), OCR/visión, uv packaging, 150 pytest tests, instalador Windows firmado.
+Τοπική v0.3.0 Orquer των αποτελεσματικών ενεργειών στα Windows: 27 JSON λειτουργικές ροές που ανοίγουν πραγματικά παράθυρα, αλληλεπιδρούν με DOM, συλλαμβάνουν στοιχεία και παρακολουθούν το web (crawl BFS, ανιχνευτής αλλαγής και την παρακολούθηση τιμών με SHA-256 στοιχεία). Τοπική οθόνη σε 127.0.0.1 (pywebview + PyInstaller) με cron και SQLite Schedler. Stack Python 3.10 +, Playwright (άμεσα / ορατή), OCR / όραμα, συσκευασία uv, Windows υπογεγραμμένη, υπνόκ, 150, hp.
 
-### ChofyAI Studio · IA Local macOS
+### Στούντιο ChofyAI · Τοπικό μακό
 
-Launcher de escritorio v0.5.1 que orquesta 5 herramientas de IA local (Qwen3-TTS, whisper.cpp, FaceFusion, AceForge, ComfyUI) con instalación reproducible, control real de procesos y 5/5 en inferencia real. Validado en macOS Apple Silicon; soporte experimental Windows + CUDA. Tauri 2 + Rust + React. Privacidad total sin dependencias cloud.
+Εκτοξευτής de de desktop v0.5.1 que anicó 5 todo de IA locies (Qwen3-TTS, shirt.cpp, FaceFusion, AceForge, ComfyUI) con instalación reproducable, control real de procesos y 5 / 5 en income real. Validado en macOS Apple Silicon; support experimental Windows + CUDA. Tauri 2 + Rust + React. Privacidad ολική αμαρτία quidencia cloud.
 
-### Rhino Suite · Ofimática
+### Rhino Suite · Επίσημη σουίτα
 
-Suite ofimática web y de escritorio construida desde cero (v0.7.0, Fase 2.5): editor de documentos con modelo estructurado (JSON schema v5), motor Rust compilado a WebAssembly + motor TypeScript compatible, interfaz React 19, API Go con cuentas y compartición, e intercambio DOCX/ODT con lector/escritor propio sin dependencias externas.
+Web και desktop office suite κατασκευασμένο από το μηδέν (v0.7.0, Φάση 2.5): επεξεργαστής εγγράφων με δομημένο μοντέλο (JSON schema v5), Rust κινητήρας μεταγλωττισμένο στο WebAssembly + συμβατός κινητήρας TypeScript, React 19 interface, API Go with account and sharing, και DOCX / ODT ανταλλαγή με αναγνώστη / δικό συγγραφέα χωρίς εξωτερικές εξαρτήσεις.
 
-### Guitarra Adventure · Proyecto
+### Κιθάρα περιπέτειας · Έργο
 
-Mi Aventura con la Guitarra · App educativa para aprender guitarra desde los 10 años · 24 lecciones en 6 mundos, afinador de 6 cuerdas, metrónomo sin deriva y 11 notas grabadas de guitarra real · Tauri 2 + React + TypeScript · Windows, Android, Linux, macOS, iOS y PWA · Sin publicidad, sin cuentas, offline · v1.0.0 con instaladores en Releases
+My Adventure with Guitar · Educational App to lear κιθάρα από 10 ετών · 24 μαθήματα σε 6 κόσμους, 6-χορδή tuner, μη-συρροή metronome και 11 ηχογραφημένες νότες πραγματικής κιθάρας · Tauri 2 + React + TypeScript · Windows, Android, Linux, macOS, iOS και PWA · Χωρίς διαφημίσεις, χωρίς λογαριασμούς, offline · v1.0 με εγκαταστάτες κυκλοφοριών
 
-### Agentic Plugins Toolkit · Proyecto
+### Εργαλείο Agenic Plugins · έργο
 
-agentic-plugins-toolkit · 6 plugins agénticos para Claude Code, OpenAI/Codex, Copilot, Gemini y MCP · repository-engineering · legacy-modernization · learning-program-studio · product-evolution · portfolio-governance · rootcause-response · 69 vistas generadas sin drift · Zero-deps
+gentic-plugins-toolkit · 6 gentic plugins για Claude Code, OpenAI / Codex, Copilot, Gemini και MCP · manufactory-engineering · leured-modernization · learning-program-studio · παραγωγή - εξέλιξη · διαχείριση χαρτοφυλακίου · root cone-response · 69 προβολές που δημιουργούνται χωρίς load · Zero-deps · Zero-deps
 
-### Operational Ai Agents · Proyecto
+### Επιχειρησιακοί Ai Agents · Έργο
 
-operational-ai-agents · 13 agentes para Claude Code · repository-evolution · legacy-modernization · curriculum-evolution · portfolio-publication · security-remediation · incident-root-cause · professional-profile · Contrato + gates humanos + evidencia verificable · 39 evals deterministas · Zero-deps · Cross-platform
+Η λειτουργία των πρακτόρων" για τον κώδικα Claude · αποθετήριο · εξέλιξη · εκδημοκρατισμός · διδακτικό πρόγραμμα · εκ νέου έκδοση · διαχείριση χαρτοφυλακίου · αποκατάσταση της ασφάλειας · αιτία συμβάντων · επαγγελματικό προφίλ · σύμβαση + ανθρώπινες πύλες + επαληθεύσιμα στοιχεία · 39 εξισώσεις αποδεδειγμένα · Zero-deps · σταυροειδής πλατφόρμα
 
-### Empresa Operativa Chile · Proyecto
+### Χιλιανή Επιχειρησιακή Εταιρεία · Έργο
 
-v1.5.0 · Crear, operar y controlar una empresa chilena a través del tiempo: constitución con evidencia, capital y CPT, patente municipal con su base legal, IVA/PPM, F29, cierre anual inmutable y auditoría. Guía, manual y glosario dentro de la app. Android, Windows y navegador. Reglas con fuente oficial. Cero telemetría. 🇨🇱
+v1.5.0 · Δημιουργία, λειτουργία και έλεγχο μιας χιλιανής εταιρείας με την πάροδο του χρόνου: σύνταγμα με αποδεικτικά στοιχεία, κεφάλαιο και CPT, δημοτικό δίπλωμα ευρεσιτεχνίας με τη νομική βάση, ΦΠΑ / PPM, F29, ετήσιο αμετάβλητο κλείσιμο και έλεγχο. Οδηγός, εγχειρίδιο και γλωσσάριο μέσα στην εφαρμογή Android, Windows και browser. Κανόνες με επίσημη πηγή.
 
-### Rootcause Macos Inspector · Proyecto
+### Rot αιτία Macos Επιθεωρητής · Έργο
 
-RootCause macOS Inspector v0.1.0 — sensor forense de ciberseguridad para macOS (Rust): persistencia launchd, Gatekeeper, SIP, FileVault, XProtect, permisos TCC, procesos con firma y vecinos de red. Compara cada superficie con un estado bueno conocido y explica qué cambió, con evidencia. Telemetría: cero. Hermano de Windows, Web y Mobile
+Rot Procee macOS Inspector v0.1.0 - εγκληματολογικός αισθητήρας ασφάλειας στον κυβερνοχώρο για macOS (Rust): επιμονή που εκτοξεύεται, Gatekeepper, SIP, FileVault, XProtect, άδειες TCC, διαδικασίες με υπογραφή και γείτονες δικτύου. Συγκρίνετε κάθε επιφάνεια με μια γνωστή κατάσταση και εξηγήστε τι άλλαξε, με στοιχεία. Τηλεμετρία: μηδέν. Windows αδελφός, Web και Mobile
 
-### Codex Skills Toolkit · Proyecto
+### Εργαλειοθήκη δεξιοτήτων Codex · Έργο
 
-codex-skills-toolkit · 19 Agent Skills para Codex · seguridad y supply chain · preflight y flujos funcionales · resiliencia y estado · evidencia de release · Python-first · pnpm · Cross-platform
+codex-skills-toolkit · 19 δεξιότητες πράκτορα για τον κώδικα · αλυσίδα ασφάλειας και εφοδιασμού · προ πτήσης και λειτουργικές ροές · ανθεκτικότητα και κατάσταση · αποδεικτικά στοιχεία για την απελευθέρωση · Python-first · pnpm · Cross-platform
 
-### Rootcause Qr Inspector · Proyecto
+### Περιστροφή αιτία Qr Επιθεωρητής · Έργο
 
-rootcause-qr-inspector · 26 señales locales y 107 pruebas · cámara, imágenes y PDF · evidencia redactada · Flutter/Dart · local-first y telemetría cero · APK Android v0.1.4 publicado
+root gene-qr-inspectiveor · 26 τοπικά σήματα και 107 δοκιμές · κάμερα, εικόνες και PDF · γραπτές αποδείξεις · Flatter / Dart · τοπική πρώτη και μηδενική τηλεμετρία · APK Android v0.1.4 δημοσιεύθηκε
 
-### Pdf Reader Windows Android · Proyecto
+### Pdf Reader Windows Android · Έργο
 
-PDF Reader v0.3.3 · lector PDF Android-first local y de solo lectura · acciones continuas, áreas seguras, miniaturas acotadas e historial reabrible · Android 7+, Windows y Web · cero cuentas, permisos sensibles y telemetría · APK firmado
+PDF Reader v0.3.3 · PDF αναγνώστης Android-πρώτος τοπικός και μόνο ανάγνωση · συνεχείς ενέργειες, ασφαλείς περιοχές, μικρογραφία και reabreable ιστορικό · Android 7 +, Windows και Web · μηδενικοί λογαριασμοί, ευαίσθητες άδειες και τηλεμετρία · APK υπογεγραμμένο
 
-### Rootcause Server · Proyecto
+### Περιστροφή του εξυπηρετητή αιτίας · Έργο
 
-RootCause Server v0.2.0 — plano de control en Rust que defiende servidores y la red que los rodea: superficie expuesta, ráfagas de autenticación, acceso concedido tras la ráfaga, integridad de archivos críticos y silencio del sensor. 18 reglas con evidencia y runbook — nunca ejecuta nada. Consola local sin dependencias web
+Root Prouse Server v0.2.0 - Rust επίπεδο ελέγχου που υπερασπίζεται τους servers και το περιβάλλον δίκτυο: εκτεθειμένη επιφάνεια, εκρήξεις ταυτοποίησης, πρόσβαση που χορηγείται μετά την έκρηξη, κρίσιμη ακεραιότητα αρχείου και σιγή αισθητήρων. 18 κανόνες με στοιχεία και βιβλίο εκτέλεσης - ποτέ δεν εκτελεί τίποτα. Τοπική κονσόλα χωρίς εξαρτήσεις ιστού
 
-### Aws Desktop Studio · Proyecto
+### Aws Desktop Studio · Έργο
 
-AWS Desktop Studio · 15 integraciones de inventario + 20 tutoriales · AWS CLI, Electron y localhost · Implementación en desarrollo; no acceso universal · Windows
+AWS Desktop Studio · 15 incriduations απογραφή + 20 tutorials · AWS CLI, Electron και localhost · Εφαρμογή ανάπτυξης· μη καθολική πρόσβαση · Windows
 
-### Ai Dataset Foundry · Proyecto
+### χυτήριο Ai Dataset · Έργο
 
-AI Dataset Foundry v0.2.0 — factoría local-first para convertir PDF, Word, web, Git, JSON y CSV en datasets auditables para pretraining, fine-tuning, RAG y evaluación · Windows + Android offline
+AI Dataset Foundry v0.2.0 - τοπικό εργοστάσιο -πρώτο να μετατρέψει PDF, Word, web, Git, JSON και CSV σε ελεγχόμενα δεδομένα για την προκατάρτιση, την εξομάλυνση, RAG και την αξιολόγηση · Windows + Android offline
 
-### Rootcause Blockchain Security · Proyecto
+### Στροφή αιτίας Blockchain Ασφάλεια · Έργο
 
-Laboratorio profesional watch-only de blockchain forensics y root cause analysis para Bitcoin, Ethereum y Polygon: TX, direcciones, reconciliación, grafos, timelines e informes con evidencia verificable. CLI + API local, cero dependencias, nunca claves privadas
+Επαγγελματικό εργαστήριο μόνο για την ανάλυση της εγκληματολογίας lockchain και της βασικής αιτίας για Bitcoin, Etheum και Polygon: TX, διευθύνσεις, συμφιλίωση, γραφήματα, χρονοδιαγράμματα και αναφορές με επαληθεύσιμα στοιχεία. CLI + τοπικό API, μηδενικές εξαρτήσεις, ποτέ ιδιωτικά κλειδιά
 
-### Rootcause Bitcoin Defense · Proyecto
+### Στροφή αιτία Bitcoin Άμυνας · Έργο
 
-₿ RootCause Bitcoin Defense v0.3.0 — defensa watch-only y laboratorio forense UTXO: inputs, outputs, fees, change, procedencia, grafo de transacciones y reconciliación contable en regtest. App local, cero dependencias, nunca pide semillas ni usa fondos reales. Verificado en CI
+₿ Root Procee Bitcoin Defense v0.3.0 - μόνο άμυνα και εγκληματολογικό εργαστήριο UTXO: εισροές, εξόδους, τέλη, αλλαγή, προέλευση, γράφημα συναλλαγών και λογιστική συμφιλίωση σε regtest. Τοπική εφαρμογή, μηδενικές εξαρτήσεις, ποτέ να ζητήσει σπόρους ή να χρησιμοποιήσει πραγματικά κεφάλαια.
 
-### Decentraland Social Arcade · Proyecto
+### Αποκεντρωμένη και Κοινωνική Arcade · Έργο
 
-decentraland-social-arcade · Experiencia 3D social nativa de Decentraland · 1 MVP y arquitectura multijuego · SDK7 + ECS + TypeScript · documentación en español · sin pagos ni telemetría
+κοινωνική-ακαδημαϊκή · κοινωνική 3D εμπειρία εγγενής στην αποκέντρωση · 1 MVP και αρχιτεκτονική πολλαπλών παιχνιδιών · SDK7 + ECS + TypeScript · τεκμηρίωση στα ισπανικά · χωρίς πληρωμή ή τηλεμετρία
 
-### Commerce Operating System · Proyecto
+### Λειτουργικό σύστημα εμπορίου · Έργο
 
-Commerce OS v0.3.0 · demo conceptual guiada en 6 pestañas: catálogo, stock, CRM, pedidos, pagos mock y trazabilidad · Web, Windows y Android · Sin dinero ni SII real
+Εμπόριο OS v0.3.0 · εννοιολογική επίδειξη καθοδηγείται σε 6 καρτέλες: κατάλογος, απόθεμα, CRM, παραγγελίες, εικονικές πληρωμές και ιχνηλασιμότητα · Web, Windows και Android · Δεν υπάρχουν χρήματα ή πραγματικό SII
 
-### Panuelo Al Viento Cueca App · Proyecto
+### Το Cueca App ανεμοπλάνο · έργο
 
-Pañuelo al Viento · Academia interactiva de cueca desde los 10 años · 24 clases, Dojo con huellas y espejo, Pañuelo Lab, Escenario guiado y progreso por habilidades · Flutter local-first · Android + Windows · v0.2.0
+Wind Dangle · Interactive Academy of Cueca από 10 ετών · 24 τάξεις, Dojo με εκτυπώσεις και καθρέφτη, Dangle Lab, Σενάριο καθοδηγείται και την πρόοδο δεξιοτήτων · LocalFluter - first · Android + Windows · v0.2.0
 
-### Video Transcript Studio · Proyecto
+### Video Transcript Studio · Έργο
 
-Un video, una lista o un CANAL COMPLETO de YouTube → texto con marcas de tiempo. Whisper 100% local: sin API, sin cuenta, sin telemetría. Asistente de 4 etapas en escritorio Windows + panel local en 127.0.0.1 + CLI, con la misma cola. MD, PDF, TXT, SRT, VTT, JSON, MP3, OGG. FFmpeg incluido. Modo oscuro. 89 tests. 🇪🇸
+Ένα βίντεο, λίστα ή ένα YouTube COMPLETE CANAL → κείμενο με χρονικές ενδείξεις. Ψίθυρος 100% τοπικό: δεν API, δεν τηλεμετρία, δεν 4-στάδιο βοηθός στα Windows + τοπικό πάνελ σε 127.0.0.1 + CLI, με την ίδια ουρά. MD, PDF, TXT, SRT, VTT, JSON, MP3, OGG. FFmpeg περιλαμβάνονται. Σκοτεινή λειτουργία. 89 δοκιμές.
 
-### Lifelong Learning Ecosystem · Proyecto
+### Δια Βίου Μάθηση Οικοσύστημα · Έργο
 
-Brújula federada que conecta 30 recorridos reales en 6 áreas con mapas visuales y un portal offline accesible; no se cuenta como un programa adicional.
+Ομοσπονδιακή πυξίδα που συνδέει 30 πραγματικές εκδρομές σε 6 περιοχές με οπτικούς χάρτες και μια προσβάσιμη offline πύλη?Δεν υπολογίζεται ως ένα πρόσθετο πρόγραμμα.
 
-### Laboratorios de ingeniería
+### Εργαστήρια μηχανικών
 
-### Docker Labs · Infra Hub
+### Εργαστήρια Docker · Κέντρο Infra
 
-Laboratorios por stack con enfoque "levanta en 60s". Incluye dashboard local, Compose, stacks reales y rutas prácticas de observabilidad con Prometheus/Grafana.
+Στοίβα εργαστήρια με "up στο 60s" εστίαση. Περιλαμβάνει τοπικό ταμπλό, σύνθεση, πραγματικές στοίβες και πρακτικές διαδρομές παρατηρησιμότητας με Προμηθέα / Grafana.
 
-- Dashboards locales para explorar métricas de contenedores.
+- Τοπικοί πίνακες για να εξερευνήσετε τις μετρήσεις εμπορευματοκιβωτίων.
 
-- Manifiestos preparados para Kubernetes (K8s) y observabilidad.
+- Μανιφέστο που παρασκευάζεται για Kubernetes (K8s) και παρατηρησιμότητα.
 
-### Cloud Portfolio · AWS & FinOps
+### Χαρτοφυλάκιο Cloud · AWS & FinOps
 
-16 casos AWS (A–P) — todos completados, incluidos el Caso P (Strands Agents) desplegado y validado en AWS, el GenAI Caso I (Bedrock + Claude Haiku 4.5 + Lambda + xray-sdk) y el Caso O (X-Ray distribuido); en backlog solo las Fases 2–3 del Caso M (Multi-Región · Global Accelerator). Stack: Terraform, OIDC, S3/Amplify/CloudFront, Lambda/SAM, DynamoDB, Cognito/WAF, EventBridge/SQS/SNS, CloudWatch, ECS Fargate, EKS v1.32, FinOps. Seguridad con TruffleHog + detect-secrets + gitleaks + tfsec. Cobertura ~68% SAA-C03 / ~68% DVA-C02 / ~50% SOA-C02.
+16 υποθέσεις AWS (A-P) - όλες ολοκληρωμένες, συμπεριλαμβανομένης της υπόθεσης P (Ενεργοί) που αναπτύχθηκε και επικυρώθηκε στο AWS, η υπόθεση GenAI I (Bedrock + Claude Haiku 4.5 + Lambda + xray-sdk) και η υπόθεση O (X-Ray κατανεμημένη)· παρασκηνιακές μόνο οι 2-3 Fases της υπόθεσης M (Πολυπεριφέρεια Global Accelerator). Στοίβα: Terraform, OIDC, S3 / Amplify / CloudFront, Lambda / SAM, Dynamidt / Cfidt, EfS, EfS / Cddd., EfS, Ef.
 
-### Microsistemas · Productivity Suite
+### Μικροσυστήματα · Σουίτα παραγωγικότητας
 
-Suite modular para diagnóstico y modernización. Incluye Hub CLI, Makefile operativo, validaciones doctor/smoke y utilidades orientadas a bajar fricción en mantención real.
+Περιλαμβάνει Hub CLI, Επιχειρησιακό Makefile, Doctor / Smoke Επικύρωση και βοηθητικές υπηρεσίες που αποσκοπούν στη μείωση της τριβής στην πραγματική συντήρηση.
 
-- Conversor de acentos, visor SQL seguro y visor de logs industrial.
+- Μετατροπέας προεξοχής, ασφαλής SQL και βιομηχανικός προβολέας καταγραφής.
 
-- Migrador parcial PHP 8.x y generador de manifiestos.
+- PHP 8.x μερική μεταδευτήρας και γεννήτρια μανιφέστου.
 
-- Orientado a reducir la fricción y mejorar la DX del equipo.
+- Προσανατολισμένα να μειώσει την τριβή και να βελτιώσει το DX του εξοπλισμού.
 
-### Social Bot Scheduler · Orquestación
+### Πρόγραμμα κοινωνικών Bot · Ορχήστρα
 
-Laboratorio políglota de integración v4.9.1: 19 casos operativos Origen → n8n → Receptor sobre 18+ motores de BD (SQL, NoSQL, grafos, vectorial, series temporales, streaming), auditados end-to-end con Docker. Guardrails de resiliencia (idempotencia, circuit breaker, DLQ), 11 patrones arquitectónicos y master dashboard con estado en vivo.
+Εργαστήριο ενσωμάτωσης πολυσφαιρών v4.9.1: 19 επιχειρησιακές περιπτώσεις Προέλευση → n8n → Υποδοχέα πάνω από 18 + BD κινητήρες (SQL, NoSQL, γραφήματα, διανύσμα, σειρά χρόνου, streaming), ελεγμένο τέλος-σε-τέλος με Docker. Προφυλακτήρες ανθεκτικότητας (ιδεότητα, διακόπτης κυκλώματος, DLQ), 11 αρχιτεκτονικά μοτίβα και πλοίαρχος ταμπλό με ζωντανή κατάσταση.
 
-### Problem Driven Systems Lab
+### Εργαστήριο συστημάτων Driven Πρόβλημα
 
-12 desafíos de ingeniería × 7 stacks = 84 casos operativos (PHP 8 · Python · Node.js · Java 21 · .NET 8 · Go · Rust) con Dashboards Interactivos por caso (UI nativa para diagnóstico visual + métricas en tiempo real). Patrones Adapter, Strangler, Circuit Breaker, LRU y Cancellation. Plan AWS_MIGRATION.md (ECS Fargate · Lambda · EKS) con cost estimates y mapping explícito a SECURITY.md.
+12 προκλήσεις μηχανικής × 7 στοίβες = 84 περιπτώσεις λειτουργίας (PHP 8 · Python · κόμβος · Java 21 · .NET 8 · Go · Rust) με Dashboards Interactive ανά περίπτωση (UI εγγενής για οπτική και μετρική διάγνωση σε πραγματικό χρόνο). Προσαρμογέας, Στραγγαλιστής, Διακόπτης κυκλωμάτων, LRU και Ακύρωση. Σχέδιο AWS MITGRATION.md (ECS Fargate · Lamda · EKS) με εκτιμήσεις κόστους και ρητή χαρτογράφηση στο SECRITYMD.
 
-### WSL Labs · Container Center
+### Εργαστήρια WSL · Κέντρο Δοκιμών
 
-Centro de control de contenedores para Windows sobre wslc, el motor de contenedores nativo de WSL (v0.4.1) — sin Docker Desktop. Panel web Node.js (:9092) para construir, levantar y supervisar contenedores, launcher Windows en Go (.exe) y 12 casos reales portados de docker-labs con imagen y RAM medidas. containers.config.json como fuente única de verdad.
+Κέντρο Ελέγχου Δοχείου για τα Windows πάνω από wslc, το WSL εγγενές μηχανή δοχείο (v0.4.1) - χωρίς Docker Desktop. Node.js πίνακα ιστού (: 9092) για την κατασκευή, ανύψωση και οθόνη δοχεία, εκτοξευτής Windows in Go (.exe) και 12 πραγματικές περιπτώσεις με docker- εργαστήρια με την εικόνα και RAM μετρηθεί. δοχεία.config.json ως μια μοναδική πηγή της αλήθειας.
 
-### Unikernel Labs · Control Center
+### Εργαστήρια Unikernel · Κέντρο Ελέγχου
 
-Unikernel Control Center v2.0.0 · Suite tipo "Docker Desktop para unikernels": opera servicios Unikraft desde Windows sobre WSL2 con kraft + QEMU/KVM. Dashboard Node.js con health en tiempo real (localhost:9091), Launcher WinForms (.NET), instalador .exe y API local endurecida (anti DNS-rebinding, CSRF y path traversal).
+Unikernel Control Center v2.0.0 · Suite type "Docker Desktop for Unikernels": λειτουργεί Unikraft υπηρεσίες από τα Windows στο WSL2 με kraft + QEMU / KVM. Dashboard Node.js με πραγματικό χρόνο υγείας (τοπικός οικοδεσπότης: 9091), Εκτοξευτής WinForms (.NET), .exe εγκαταστάτης και τοπικό σκληρό στη χρήση API (αντι-DNS-απενεργοποιώντας, CSRF και διαδρομή-όπως).
 
-### Sandbox Labs · Proyecto
+### Εργαστήρια Sandbox · Έργο
 
-Laboratorio de aislamiento en Linux: ejecuta código, archivos y modelos de negocio ajenos bajo políticas declaradas, y emite evidencia firmada de qué controles se aplicaron de verdad en tu equipo. 36 casos en dos familias — sandboxes técnicos y mercado de capitales con dinero simulado. Experimental y educativo, no un producto de seguridad
+Εργαστήριο απομόνωσης Linux: τρέχει κώδικα, αρχεία και επιχειρηματικά μοντέλα άλλων στο πλαίσιο δηλωμένων πολιτικών, και θέματα υπέγραψε αποδεικτικά στοιχεία για το τι έλεγχοι που πραγματικά εφαρμόστηκαν στην ομάδα σας. 36 περιπτώσεις σε δύο οικογένειες - τεχνικά αμμοκουτιά και κεφαλαιαγορά με προσομοίωση χρημάτων. Πειραματικό και εκπαιδευτικό, όχι ένα προϊόν ασφάλειας
 
-### Universal Payments Engineering Lab · Proyecto
+### Εργαστήριο γενικής μηχανικής πληρωμών · Έργο
 
-Laboratorio autoexplicativo de ingeniería de pagos: 28 familias, DEMO local, estados, ledger, conciliación, seguridad y guías de implementación
+Αυτο-εξηγηματικό εργαστήριο μηχανικής πληρωμών: 28 οικογένειες, τοπικές DEMO, κράτη, καθολικό, συνδιαλλαγή, ασφάλεια και οδηγοί εφαρμογής
 
-### Qemu Kvm Labs · Proyecto
+### Εργαστήρια Qemu Kvm · Έργο
 
-qemu-kvm-labs · 12 labs de virtualización real · QEMU, KVM, libvirt, cloud-init y vm-manager · Linux + WSL2
+qemu-kvm-labs · 12 εργαστήρια εικονικοποίησης · QEMU, KVM, libvirt, cloud-init και vm-manager · Linux + WSL2
 
-### Database Systems Labs · Proyecto
+### Εργαστήρια Συστημάτων Βάσεων Δεδομένων · Έργο
 
-Programa abierto de ingeniería de bases de datos · 74 clases en 15 partes · 230 h · Del modelado conceptual a la arquitectura distribuida, la operación y la recuperación para IA · 120 fuentes con ISBN, DOI o norma citadas clase a clase y verificadas en CI · Glosario de 306 términos · El mismo caso resuelto en 27 motores
+Ανοικτό πρόγραμμα μηχανικής βάσης δεδομένων · 74 τάξεις σε 15 μέρη · 230 h · Από την εννοιολογική μοντελοποίηση σε κατανεμημένη αρχιτεκτονική, λειτουργία και ανάκτηση για IA · 120 πηγές με ISBN, DOI ή πρότυπο που αναφέρεται τάξη στην τάξη και επαληθεύεται σε CI · Γλωσσάριο 306 όρους · Η ίδια περίπτωση λύθηκε σε 27 κινητήρες
 
-### Framework Ecosystems Labs · Proyecto
+### Εργαστήρια Οικοσυστημάτων Πλαίσιο · Έργο
 
-Laboratorio de clases comparadas: el mismo contrato ejecutable, sin adaptadores, contra Express, FastAPI, Spring Boot, ASP.NET, Django, Rails, Laravel, React, Vue, Svelte y más. 149 clases en 12 partes (70 construidas, 397 casos verificados en CI) · 210 fuentes con ISBN/DOI · seguridad, datos, interfaz
+Συγκριτικό εργαστήριο τάξης: η ίδια σύμβαση εκτελέσιμη, χωρίς προσαρμογείς, κατά Express, FastAPI, Spring Boot, ASP.NET, Django, Rails, Laravel, React, Vue, Svelte και πολλά άλλα. 149 τάξεις σε 12 μέρη (70 χτίστηκε, 397 περιπτώσεις επαληθευθεί σε CI) · 210 πηγές με ISBN / DOI · ασφάλεια, δεδομένα, διασύνδεση
 
-### IA aplicada
+### ΙΑ εφαρμόζεται
 
-### LangGraph · Agentic Resilience
+### LangGraph · Αγγειογενής ανθεκτικότητα
 
-LangGraph v4.15.0 · 25/25 backends operativos (cobertura 100%, casos 01–25): streaming NDJSON, DEMO/LIVE, OAuth2 opt-in, observabilidad LangSmith, /metrics, 8 capas de seguridad, cadena de custodia SHA-256, Docker por caso y CI/CD hardened.
+LangGraph v4.15.0 · 25 / 25 λειτουργικά συστήματα υποστήριξης (100% κάλυψη, 01-25 περιπτώσεις): streaming NDJSON, DEMO / LIVE, OAuth2 opt-in, LangSmith παρατηρησιμότητα, / μετρικά, 8 στρώματα ασφαλείας, SHA-256 αλυσίδα επιμέλειας, Docker ανά περίπτωση και CI / CD σκληρύνει.
 
-### MCP Ollama Local
+### MCP Τοπική Olama
 
-Web local (FastAPI) + Ollama + herramientas vía MCP y persistencia en SQLite. Privacidad total (localhost), herramientas seguras y documentación para onboarding técnico y reclutamiento.
+Τοπικός Ιστός (FastAPI) + εργαλεία Olama + μέσω MCP και επιμονής στο SQLite. Πλήρης ιδιωτικότητα (localhost), ασφαλή εργαλεία και τεκμηρίωση για τεχνική επιβίβαση και πρόσληψη.
 
-### Claude Skills Toolkit
+### Εργαλείο Claude Skills
 
-15 skills agentic para Claude Code (v0.2.0): security-audit (12 capas — OSV/KEV/EPSS/SAST/secrets/container/typosquat…), python-lint-guard (paridad local↔CI), python-deps-pinning, version-bump, md-to-doc, yaml-control, md-lint-fix, docker-cleanup, docker-compose-doctor, pre-push-guard, web-snap y más. Zero-deps por defecto y cross-platform (Linux/macOS/Windows).
+15 skills agent for Claude Code (v0.2.0): Ασφάλεια-ελέγχος. python- lint-guard (τοπική ισοτιμία ↔ CI), piThon-deps--pinning. pre-push-guar, web- snap και άλλα. Zero--deps από προεπιλογή & crosss-1 πλατφόρμα (Linux / macOS)
 
-### Neural Network Training Labs · Proyecto
+### Εργαστήρια Εκπαίδευσης Νευρικών Δικτύων · Έργο
 
-Neural Network Training Labs v1.0 · 31 rutas (25 labs + 6 especializaciones) · 93 notebooks · Ciclo completo de ingeniería de IA con datasets públicos reales: sellado de test, registro champion/challenger, API de inferencia, ONNX/INT8/edge, DDP/FSDP2 y cadena de suministro (SBOM/SHA-256). PyTorch · Python 3.11–3.13
+Νευρωνικά Εργαστήρια Εκπαίδευσης Δικτύου v1.0 · 31 διαδρομές (25 εργαστήρια + 6 ειδικότητες) · 93 σημειωματάρια · Πλήρης κύκλος μηχανικών IA με πραγματικά δημόσια σύνολα δεδομένων: σφράγιση δοκιμών, σάμπιον / πρόκληση, συμπέρανα API, ONNX / INT8 / άκρη, DDP / FSDP2 και εφοδιαστική αλυσίδα (SBOM / SHA-256). PyTorch · Python 3.11.3.13
 
-### Currículos técnicos completos
+### Πλήρη τεχνικά προγράμματα σπουδών
 
-### Computational Mathematics Program · Proyecto
+### Πρόγραμμα Μαθηματικών Υπολογιστών · Έργο
 
-Matemática computacional en español · 18 partes · 360 clases en 5 etapas: de contar con los dedos a reproducir un paper · 360 demostraciones deterministas verificadas en CI · sin dependencias para aprender · 1080 notebooks · 489 términos de glosario · manual completo en PDF
+Μαθηματικά υπολογιστών στα ισπανικά · 18 μέρη · 360 τάξεις σε 5 στάδια: από το να έχουν τα δάχτυλα να παίξουν ένα χαρτί · 360 ντετερμινιστικές διαδηλώσεις επαληθεύονται σε CI · χωρίς εξαρτήσεις να μάθουν · 1080 σημειωματάρια · 489 γλωσσάριο όροι · πλήρες εγχειρίδιο σε PDF
 
-### Modern GameDev Program
+### Σύγχρονο πρόγραμμα Gamedev
 
-El programa de desarrollo de videojuegos más completo en español — 352 clases en 22 partes, de fundamentos a nivel profesional. Matemáticas, C#/C++/GDScript, patrones y ECS; 10 laboratorios Godot verificados en CI y enfoque agnóstico de motor: Godot 4 · Unity · Unreal.
+Το πιο πλήρες πρόγραμμα ανάπτυξης βιντεοπαιχνιδιών στα ισπανικά - 352 τάξεις σε 22 μέρη, των επαγγελματικών θεμελιωδών. Μαθηματικά, C # / C + / GDScript, μοτίβα και ECS? 10 εργαστήρια Godot επαληθεύονται σε CI και κινητήρα αγνωστικιστική προσέγγιση: Godot 4 · Ενότητα · Unreal.
 
-### Modern Cybersecurity Program
+### Σύγχρονο πρόγραμμα Cyber Security
 
-El programa de ciberseguridad más completo en español — 360 clases en 20 partes, de fundamentos a nivel experto. Laboratorios Docker levantables por comando, retos CTF con writeups, autoevaluaciones, guías PDF/PPTX y mapeo a 7 certificaciones (Security+, PenTest+, CySA+, OSCP, CISSP, BTL1, SANS) con 86–92% de cobertura.
+Το πιο πλήρες πρόγραμμα ασφάλειας στον κυβερνοχώρο στα ισπανικά - 360 τάξεις σε 20 μέρη, των θεμελιωδών σε επίπεδο εμπειρογνωμόνων. Docker εργαστήρια μέχρι με εντολή, CTF προκλήσεις με σχέδια, αυτοαξιολογήσεις, PDF / PPTX οδηγούς και χαρτογράφηση σε 7 πιστοποιήσεις (Ασφάλεια +, PenTest +, CySA +, OSCP, CISSP, BTL1, SANS) με 86-92% κάλυψη.
 
-### Multi Cloud Engineering Program · Proyecto
+### Πρόγραμμα Μηχανικής Πολλαπλών Σύννεφων · Έργο
 
-Multi-Cloud Engineering Program v2.2.0 · 288 clases en 24 partes · 1.288 horas · El programa de ingeniería multi-cloud más completo en español: AWS, Azure, GCP, Kubernetes, Terraform, SRE, FinOps y arquitectura de sistemas · Manual PDF de 1.220 páginas, 288 labs deterministas con evidencia JSON, CLI con certificado y portal PWA.
+Πρόγραμμα Μηχανικών MultiCloud v2.2.0 · 288 τάξεις σε 24 μέρη · 1.288 ώρες · Το πιο πλήρες πρόγραμμα μηχανικής πολλαπλών κλώνων στα ισπανικά: AWS, Azure, GCP, Kubernetes, Terraform, SRE, FinOps και αρχιτεκτονική συστημάτων · 1.220-σελίδα εγχειρίδιο PDF, 288 καρτέλες determinist με JSON, CLI αποδείξεις με πιστοποιητικό και PWA πύλη.
 
-### Finance And Banking Evolution Program · Proyecto
+### Πρόγραμμα Χρηματοοικονομικής και Τραπεζικής Εξέλιξης · Έργο
 
-Programa abierto de 356 clases en 23 partes · 534 h · De calcular un porcentaje a construir y defender un banco digital: matemática financiera, contabilidad NIIF, crédito, riesgos, Basilea III, cumplimiento, finanzas abiertas, pagos transfronterizos, DLT, stablecoins, tokenización y MiCA · 26 casos y fuentes oficiales verificables en cada clase
+Ανοικτό πρόγραμμα 356 τάξεων σε 23 μέρη · 534 h · Για να υπολογίσετε ένα ποσοστό για την κατασκευή και την υπεράσπιση μιας ψηφιακής τράπεζας: χρηματοοικονομικά μαθηματικά, λογιστική ΔΠΧΠ, πιστώσεις, κινδύνους, Βασιλεία III, συμμόρφωση, ανοικτή χρηματοδότηση, διασυνοριακές πληρωμές, DLT, σταθερά νομίσματα, tokenization και MICA · 26 περιπτώσεις και επίσημες πηγές επαληθεύσιμες σε κάθε κατηγορία
 
-### Modern Business Creation Program · Proyecto
+### Πρόγραμμα Σύγχρονης Δημιουργίας Επιχειρήσεων · Έργο
 
-Programa de 24 partes y 336 clases para crear y operar una empresa real en Chile: de la idea a la constitución, el SII, la operación, la crisis y la salida. Con 360 diagramas, glosario de 1.251 términos y manual de 1.541 páginas en PDF
+24-μέρος πρόγραμμα και 336 τάξεις για τη δημιουργία και λειτουργία μιας πραγματικής εταιρείας στη Χιλή: από την ιδέα στο σύνταγμα, το SII, λειτουργία, κρίση και την έξοδο. Με 360 διαγράμματα, γλωσσάριο 1.251 όρους και εγχειρίδιο των 1.541 σελίδων σε PDF
 
-### Executive Leadership Founder Program · Proyecto
+### Εκτελεστικό Ιδρυτικό Πρόγραμμα Ηγεσίας · Έργο
 
-Programa ejecutivo abierto de 288 clases en 24 partes · 720 h · De asumir tu primer resultado a dirigir una empresa y crear la tuya: liderazgo, equipos, talento, operaciones, KPI/OKR, finanzas, ventas, marketing, producto, estrategia, riesgo, IA, directorio, M&A y founder track Chile · 24 casos, 96 labs y 39 plantillas
+Ανοικτό εκτελεστικό πρόγραμμα 288 τάξεων σε 24 μέρη · 720 h · Για να αναλάβει το πρώτο αποτέλεσμα σας για να τρέξει μια εταιρεία και να δημιουργήσει το δικό σας: ηγεσία, ομάδες, ταλέντο, λειτουργίες, KPI / OKR, χρηματοδότηση, πωλήσεις, μάρκετινγκ, προϊόν, στρατηγική, κίνδυνος, IA, κατάλογος, M & A και foot track Χιλή · 24 περιπτώσεις, 96 εργαστήρια και 39 πρότυπα
 
-### Python Data Science Program
+### Πρόγραμμα επιστήμης δεδομένων Python
 
 232 clases en 9 partes (Python aplicado, ML clásico, Deep Learning, estadística inferencial, MLOps, ingeniería de datos, recomendadores, ética, capstones). Laboratorio Flask interactivo + app de escritorio Windows nativa (PySide6 + Qt + kernel Jupyter) + app Android (Expo SDK 51). 232 PDFs + 232 PPTX generados.
 
-### Artificial Intelligence Evolution Program · Proyecto
+### Πρόγραμμα εξέλιξης τεχνητής νοημοσύνης · Έργο
 
-AI Evolution Program v0.17.0 · 180 clases en 15 partes con materia completa · 540 notebooks con ejercicios y soluciones · PDFs por parte + programa completo (~1.100 pags) · La evolución de la IA en español: simbólica, ML, deep learning, LLMs, RAG, agentes, MLOps, seguridad y frontera
+AI Evolution Program v0.17.0 · 180 τάξεις σε 15 μέρη με πλήρη ύλη · 540 σημειωματάρια με ασκήσεις και λύσεις · PDF από μέρος + πλήρες πρόγραμμα (~ 1.100 σελίδες) · Η εξέλιξη της IA στα ισπανικά: συμβολική, ML, βαθιά μάθηση, LLMs, RAG, πράκτορες, MLOps, ασφάλεια και σύνορα
 
-### Polyglot Programming Labs · Proyecto
+### Εργαστήρια Προγραμματισμού Πολυγλωσσών · Έργο
 
-El programa de programación comparada en español — 176 clases en 12 partes. Un concepto, 10 lenguajes del núcleo (Python, JS, TS, Java, C#, Go, Rust, C, SQL, PHP) verificados en CI, y un Atlas de ~40 familias. Aprende el concepto una vez y reconócelo en cualquier lenguaje
+Το πρόγραμμα συγκρίθηκε στα ισπανικά - 176 μαθήματα σε 12 μέρη. Μια έννοια, 10 βασικές γλώσσες (Python, JS, TS, Java, C #, Go, Rust, C, SQL, PHP) επαληθεύτηκε σε CI, και ένας Άτλαντας ~ 40 οικογένειες. Μάθετε την έννοια μια φορά και επανασυνδέστε την σε οποιαδήποτε γλώσσα
 
-### Blockchain Learning Path · Proyecto
+### Διαδρομή μάθησης Blockchain · Έργο
 
-Blockchain Learning Path v0.14.0 · Programa en español: 28 módulos de cero a la infraestructura financiera programable — cripto, Bitcoin, EVM, contratos, seguridad, L2, ZK, DeFi, dinero y liquidación, stablecoins, CBDC/MDBC, pagos y FX, tokenización, RWA, mercados de capitales, custodia y regulación. 70 prácticas, 186 pruebas, apps offline
+Blockchain Μάθηση Μονοπάτι v0.14.0 · Πρόγραμμα στα ισπανικά: 28 ενότητες του μηδενικού στην προγραμματιζόμενη οικονομική υποδομή - κρύπτη, Bitcoin, EVM, συμβάσεις, ασφάλεια, L2, ZK, DeFi, χρήματα και εκκαθάριση, stablecoins, CBDC / MDBC, πληρωμές και FX, tokenization, RWA, κεφαλαιαγορές, επιμέλεια και ρύθμιση. 70 πρακτικές, 186 δοκιμές, εφαρμογές offline
 
-### Machine Operator Program
+### Πρόγραμμα Χειριστηρίου Μηχανημάτων
 
-Base documental del Programa de Operación y Simulación de Máquinas: 41 cursos (29 vehículos reales + 12 naves de ficción) con 11 módulos cada uno — mandos, instrumentos, historia, reglamentos y diseño de simulación — con foco educativo y de seguridad. Aún sin simulador ejecutable; CI valida estructura y enlaces.
+Η βάση ντοκιμαντέρ του Προγράμματος Λειτουργίας και Προσομοίωσης Μηχανημάτων: 41 μαθήματα (29 πραγματικά οχήματα + 12 πλοία φαντασίας) με 11 ενότητες το καθένα - ελέγχους, όργανα, ιστορία, κανονισμούς και σχεδιασμό προσομοίωσης - με εκπαιδευτική και την ασφάλεια εστίαση. Ακόμα και χωρίς εκτελέσιμο προσομοιωτή? CI έγκυρη δομή και συνδέσεις.
 
-### Education Pedagogy Learning Sciences Program · Proyecto
+### Πρόγραμμα Παιδαγωγικής Εκπαίδευσης - Πρόγραμμα Παιδαγωγικών Επιστημών
 
-Pedagogía, Docencia y Ciencias del Aprendizaje v2.0.0 · 300 clases en 25 partes · El programa de formación pedagógica más completo en español: aprendizaje, didáctica, inclusión, currículum, evaluación, convivencia, IA educativa y liderazgo · Evidencia declarada por clase, 14 rutas por rol, 60 actividades de aula y portal offline 🇨🇱
+Παιδαγωγική, Διδασκαλία και Μάθηση Επιστήμες v2.0.0 · 300 τάξεις σε 25 μέρη · Το πιο πλήρες διδακτικό πρόγραμμα στα ισπανικά: μάθηση, διδασκαλία, ένταξη, πρόγραμμα σπουδών, αξιολόγηση, συνύπαρξη, εκπαιδευτική IA και ηγεσία · Αποδείξεις που δηλώνονται ανά τάξη, 14 διαδρομές roleόλων, 60 δραστηριότητες στην τάξη και offline πύλη
 
-### Marketing Sales Growth Evolution Program · Proyecto
+### Πρόγραμμα ανάπτυξης πωλήσεων μάρκετινγκ · Έργο
 
-Marketing, Sales & Growth Evolution Program v1.6.0 · 336 clases en 24 partes · 1.348 conceptos, 1.012 métricas y 97 obras · marketing, ventas, RevOps, growth, analítica e IA comercial · portal offline en Python
+Πρόγραμμα Marketing, Πωλήσεων και Ανάπτυξης Εξέλιξης της Μάρκετινγκ v1.6.0 · 336 τάξεις σε 24 μέρη · 1.348 έννοιες, 1.012 μετρικές και 97 εργασίες · μάρκετινγκ, πωλήσεων, RevOps, ανάπτυξης, ανάλυσης και εμπορικής IA · offline πύλη σε Python
 
-### Chilean School Learning Path · Proyecto
+### Διαδρομή εκμάθησης σχολείου Χιλής · Έργο
 
-Currículum escolar chileno abierto: 8.841 clases, 4.156 integraciones y 2.823 OA desde 1° básico hasta 4° medio, con fuentes MINEDUC, guías pedagógicas y portal en GitHub Pages.
+Ανοικτό Χιλιανό σχολικό πρόγραμμα σπουδών: 8.841 τάξεις, 4.156 ενσωματώσεις και 2.823 OA από 1 βασικό έως 4 μέση, με πηγές MINEDUC, παιδαγωγικούς οδηγούς και πύλη στο GitHub Σελίδες.
 
-### Architecture Built Environment Learning Program · Proyecto
+### Αρχιτεκτονική Οικοδομήση Πρόγραμμα Εκπαίδευσης Περιβάλλοντος · Έργο
 
-Programa integral del entorno construido en español: 680 clases en 68 partes, desde el encargo hasta el fin de vida; historia, proyecto, ciudad, sistemas, construcción, gestión, operación y rehabilitación · 8 talleres (48 sesiones) · 12 rutas · fuentes trazables por clase.
+Το συνολικό πρόγραμμα του ισπανικού περιβάλλοντος: 680 τάξεις σε 68 μέρη, από την επιτροπή μέχρι το τέλος της ζωής, ιστορία, έργο, πόλη, συστήματα, κατασκευή, διαχείριση, λειτουργία και αποκατάσταση · 8 εργαστήρια (48 συνεδρίες) · 12 διαδρομές · προσβάσιμες πηγές ανά τάξη.
 
-### Psychometrics And Assessment Program · Proyecto
+### Πρόγραμμα Ψυχομετρικής και Αξιολόγησης · Έργο
 
-psychometrics-and-assessment-program · 5 instrumentos · 344 ítems · 81 escalas · scoring auditable · currículo: 40 clases (5 escritas) · licencias trazables · Python 3.11–3.13 · 57 tests
+Πρόγραμμα ψυχομετρικών και αξιολογήσεων · 5 όργανα · 344 αντικείμενα · 81 κλίμακες · ακουστική τρομάζω · πρόγραμμα σπουδών: 40 τάξεις (5 γραπτές) · Ιχνηλάσιμες άδειες · Python 3.11.3.13 · 57 δοκιμές
 
-### Ingeniería de software moderna · Currículo técnico
+### Σύγχρονη μηχανική λογισμικού · Τεχνική διδακτέα ύλη
 
-480 clases, 40 partes y 8 etapas · fundamentos → producto, arquitectura, seguridad, DevOps, SRE, SPEC, IA y sistemas multiagente · estado editorial declarado por el repositorio.
+480 τάξεις, 40 μέρη και 8 στάδια · θεμέλια → προϊόν, αρχιτεκτονική, ασφάλεια, DevOps, SRE, SPEC, IA και πολυπράγοντας συστήματα · συντακτική κατάσταση που δηλώνεται από το αποθετήριο.
 
-### Ciencia y educación
+### Επιστήμη και εκπαίδευση
 
-### Human Genome Labs
+### Εργαστήρια ανθρώπινου γονιδιώματος
 
-Plataforma científica evolutiva y reproducible para genética molecular y genómica (v1.0.0): núcleo TypeScript verificable (secuencias, traducción, ORF, variantes, G-cuádruplex), contratos ScientificResult, lectores FASTA/GFF3/VCF, CLI científica, laboratorio web PWA y juego educativo. No realiza diagnóstico clínico.
+Εξελικτική και αναπαραγώγιμη επιστημονική πλατφόρμα για μοριακή και γονιδιωματική γενετική (v1.0.0): επαληθεύσιμος πυρήνας TypeScript (sequences, translation, ORF, versions, G-quádruplex), Συμβάσεις Επιστημονικών Αποτελεσμάτων, FASTA / GF3 / VCF αναγνώστες, επιστημονικό εργαστήριο ιστού CLI, PWA και εκπαιδευτικό παιχνίδι.
 
-### Violin Adventure · Proyecto
+### Βιολί Περιπέτεια · Έργο
 
-Mi Aventura con el Violín · App educativa para aprender violín desde los 10 años · 24 lecciones en 6 mundos, afinador cromático, metrónomo y práctica guiada · Tauri 2 + React + TypeScript · Windows, Android, Linux, macOS, iOS y PWA · Sin publicidad, sin cuentas, offline · v1.0.0, instaladores firmados en Releases
+Η περιπέτεια μου με το βιολί · Εκπαιδευτική εφαρμογή για να μάθουν βιολί από την ηλικία των 10 · 24 μαθήματα σε 6 κόσμους, χρωματικός tuder, metronome και καθοδηγούμενη πρακτική · Tauri 2 + React + TypeScript · Windows, Android, Linux, macOS, iOS και PWA · Χωρίς διαφήμιση, χωρίς λογαριασμούς, offline · v1.0, εγκαταστάτες που έχουν υπογράψει σε κυκλοφορίες
 
-⚡ Varios proyectos de este portafolio fueron desarrollados con flujo asistido por IA (Claude Code · ChatGPT Plus · Antigravity) combinado con validación técnica y dirección arquitectónica propias.
+⚡ Αρκετά έργα του χαρτοφυλακίου αυτού αναπτύχθηκαν με τη ροή που επικουρείται από την IA (Κωδικός Claude · ChatGPT Plus · Αντιβαρύτητα) σε συνδυασμό με την τεχνική επικύρωση και την αρχιτεκτονική κατεύθυνση.
 
-### Repos recientes (auto)
+### Πρόσφατες κριτικές (car)
 
-Se carga desde las APIs públicas de GitHub y GitLab (ordenada por actualización). Muestra estrellas ★ y forks ⑂.
+Είναι φορτωμένο από τα δημόσια APIs του GitHub και GitLab (παραγγέλθηκε από την ενημέρωση).
 
-### Actividad reciente (auto)
+### Πρόσφατη δραστηριότητα (εαυτός)
 
-⬆ commits · 🔀 PRs / MRs · 🚀 releases — GitHub y GitLab en tiempo real.
+⬆ missions · hs / Mrs · releases - GitHub και GitLab σε πραγματικό χρόνο.
 
-[Ver referencia](https://vladimiracunadev-create.github.io/#referencias)
+[Βλέπε παραπομπή](https://vladimiracunadev-create.github.io/#referencias)
 
-[Contactarme](https://vladimiracunadev-create.github.io/#contacto)
+[Επικοινώνησε μαζί μου.](https://vladimiracunadev-create.github.io/#contacto)
 
 [GitHub](https://github.com/vladimiracunadev-create/rootcause-windows-inspector)
 
-[Release v0.19.0](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest)
+[Απελευθερώστε το v0.19.0](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest)
 
-[Landing](https://vladimiracunadev-create.github.io/rootcause-windows-inspector/)
+[Προσγείωση](https://vladimiracunadev-create.github.io/rootcause-windows-inspector/)
 
 [Repo (GitHub)](https://github.com/vladimiracunadev-create/rootcause-mobile-inspector)
 
-[Release v0.2.1](https://github.com/vladimiracunadev-create/rootcause-mobile-inspector/releases/latest)
+[Απελευθερώστε το v0.2.1](https://github.com/vladimiracunadev-create/rootcause-mobile-inspector/releases/latest)
 
 [Repo (GitHub)](https://github.com/vladimiracunadev-create/rootcause-web-inspector)
 
-[Sitio del producto](https://vladimiracunadev-create.github.io/universal-code-scanner/)
+[Τόπος παραγωγής](https://vladimiracunadev-create.github.io/universal-code-scanner/)
 
-[Probar en el navegador](https://vladimiracunadev-create.github.io/universal-code-scanner/app/)
+[Δοκιμή στον περιηγητή](https://vladimiracunadev-create.github.io/universal-code-scanner/app/)
 
 [Repo (GitHub)](https://github.com/vladimiracunadev-create/universal-code-scanner)
 
-[Descargar APK](https://github.com/vladimiracunadev-create/universal-code-scanner/releases/latest)
+[Λήψη APK](https://github.com/vladimiracunadev-create/universal-code-scanner/releases/latest)
 
 [GitHub](https://github.com/vladimiracunadev-create/gabysql)
 
-[Release desktop-v0.1.0](https://github.com/vladimiracunadev-create/gabysql/releases/latest)
+[Απελευθέρωση επιφάνειας εργασίας-v0.1.0](https://github.com/vladimiracunadev-create/gabysql/releases/latest)
 
 [GitHub](https://github.com/vladimiracunadev-create/automa-pc)
 
-[Release v0.3.0](https://github.com/vladimiracunadev-create/automa-pc/releases/latest)
+[Απελευθερώσεις κατά 0.3.0](https://github.com/vladimiracunadev-create/automa-pc/releases/latest)
 
-[Sitio](https://vladimiracunadev-create.github.io/automa-pc/)
+[Ιστοσελίδα](https://vladimiracunadev-create.github.io/automa-pc/)
 
 [Repo (GitHub)](https://github.com/vladimiracunadev-create/chofyai-studio)
 
-[Commits](https://github.com/vladimiracunadev-create/chofyai-studio/commits/main)
+[Αναλήψεις υποχρεώσεων](https://github.com/vladimiracunadev-create/chofyai-studio/commits/main)
 
 [Repo (GitHub)](https://github.com/vladimiracunadev-create/rhino-suite)
 
@@ -595,49 +592,49 @@ Se carga desde las APIs públicas de GitHub y GitLab (ordenada por actualizació
 
 [GitHub](https://github.com/vladimiracunadev-create/docker-labs)
 
-[Release v1.5.0](https://github.com/vladimiracunadev-create/docker-labs/releases/latest)
+[Απελευθερώστε v1.5.0](https://github.com/vladimiracunadev-create/docker-labs/releases/latest)
 
-[README](https://github.com/vladimiracunadev-create/docker-labs/blob/main/README.md)
+[ΕΓΓΡΑΦΗ](https://github.com/vladimiracunadev-create/docker-labs/blob/main/README.md)
 
-[RECRUITER.md](https://github.com/vladimiracunadev-create/docker-labs/blob/main/RECRUITER.md)
+[RECRUITER.md (στα Αγγλικά).](https://github.com/vladimiracunadev-create/docker-labs/blob/main/RECRUITER.md)
 
-[Demos](https://vladimiracunadev-create.github.io/#demos)
+[Επιδείξεις](https://vladimiracunadev-create.github.io/#demos)
 
 [GitHub](https://github.com/vladimiracunadev-create/proyectos-aws)
 
-[Commits](https://github.com/vladimiracunadev-create/proyectos-aws/commits/main)
+[Αναλήψεις υποχρεώσεων](https://github.com/vladimiracunadev-create/proyectos-aws/commits/main)
 
-[README](https://github.com/vladimiracunadev-create/proyectos-aws/blob/main/README.md)
+[ΕΓΓΡΑΦΗ](https://github.com/vladimiracunadev-create/proyectos-aws/blob/main/README.md)
 
-[GitLab](https://gitlab.com/vladimir.acuna.dev-group/proyectos-aws-gitlab)
+[ΓκιτΛάμπ](https://gitlab.com/vladimir.acuna.dev-group/proyectos-aws-gitlab)
 
-[Ver Demos](https://vladimiracunadev-create.github.io/#demos)
+[Βλέπε Demos](https://vladimiracunadev-create.github.io/#demos)
 
 [GitHub](https://github.com/vladimiracunadev-create/microsistemas)
 
-[Release v1.1.0](https://github.com/vladimiracunadev-create/microsistemas/releases/latest)
+[Απελευθερώστε v1.1.0.](https://github.com/vladimiracunadev-create/microsistemas/releases/latest)
 
-[README](https://github.com/vladimiracunadev-create/microsistemas/blob/main/README.md)
+[ΕΓΓΡΑΦΗ](https://github.com/vladimiracunadev-create/microsistemas/blob/main/README.md)
 
-[RECRUITER.md](https://github.com/vladimiracunadev-create/microsistemas/blob/main/docs/RECRUITER.md)
+[RECRUITER.md (στα Αγγλικά).](https://github.com/vladimiracunadev-create/microsistemas/blob/main/docs/RECRUITER.md)
 
 [GitHub](https://github.com/vladimiracunadev-create/social-bot-scheduler)
 
-[Release v4.9.1](https://github.com/vladimiracunadev-create/social-bot-scheduler/releases/latest)
+[Απελευθερώστε το v4.9.1](https://github.com/vladimiracunadev-create/social-bot-scheduler/releases/latest)
 
-[README](https://github.com/vladimiracunadev-create/social-bot-scheduler/blob/main/README.md)
+[ΕΓΓΡΑΦΗ](https://github.com/vladimiracunadev-create/social-bot-scheduler/blob/main/README.md)
 
 [GitHub](https://github.com/vladimiracunadev-create/problem-driven-systems-lab)
 
-[Commits](https://github.com/vladimiracunadev-create/problem-driven-systems-lab/commits/main)
+[Αναλήψεις υποχρεώσεων](https://github.com/vladimiracunadev-create/problem-driven-systems-lab/commits/main)
 
 [Repo (GitHub)](https://github.com/vladimiracunadev-create/wsl-labs)
 
-[Release v0.4.1](https://github.com/vladimiracunadev-create/wsl-labs/releases/latest)
+[Απελευθερώστε το v0.4.1](https://github.com/vladimiracunadev-create/wsl-labs/releases/latest)
 
 [Repo (GitHub)](https://github.com/vladimiracunadev-create/unikernel-labs)
 
-[Release v2.0.0](https://github.com/vladimiracunadev-create/unikernel-labs/releases/latest)
+[Απελευθερώστε το v2.0.0](https://github.com/vladimiracunadev-create/unikernel-labs/releases/latest)
 
 [Repo (GitHub)](https://github.com/vladimiracunadev-create/sandbox-labs)
 
@@ -651,21 +648,21 @@ Se carga desde las APIs públicas de GitHub y GitLab (ordenada por actualizació
 
 [GitHub](https://github.com/vladimiracunadev-create/langgraph-realworld)
 
-[Commits](https://github.com/vladimiracunadev-create/langgraph-realworld/commits/main)
+[Αναλήψεις υποχρεώσεων](https://github.com/vladimiracunadev-create/langgraph-realworld/commits/main)
 
-[README](https://github.com/vladimiracunadev-create/langgraph-realworld/blob/main/README.md)
+[ΕΓΓΡΑΦΗ](https://github.com/vladimiracunadev-create/langgraph-realworld/blob/main/README.md)
 
-[RECRUITER.md](https://github.com/vladimiracunadev-create/langgraph-realworld/blob/main/docs/RECRUITER.md)
+[RECRUITER.md (στα Αγγλικά).](https://github.com/vladimiracunadev-create/langgraph-realworld/blob/main/docs/RECRUITER.md)
 
 [Repo (GitHub)](https://github.com/vladimiracunadev-create/mcp-ollama-local)
 
-[Commits](https://github.com/vladimiracunadev-create/mcp-ollama-local/commits/main)
+[Αναλήψεις υποχρεώσεων](https://github.com/vladimiracunadev-create/mcp-ollama-local/commits/main)
 
-[README](https://github.com/vladimiracunadev-create/mcp-ollama-local/blob/main/README.md)
+[ΕΓΓΡΑΦΗ](https://github.com/vladimiracunadev-create/mcp-ollama-local/blob/main/README.md)
 
 [GitHub](https://github.com/vladimiracunadev-create/claude-skills-toolkit)
 
-[Commits](https://github.com/vladimiracunadev-create/claude-skills-toolkit/commits/main)
+[Αναλήψεις υποχρεώσεων](https://github.com/vladimiracunadev-create/claude-skills-toolkit/commits/main)
 
 [Repo (GitHub)](https://github.com/vladimiracunadev-create/neural-network-training-labs)
 
@@ -685,7 +682,7 @@ Se carga desde las APIs públicas de GitHub y GitLab (ordenada por actualizació
 
 [GitHub](https://github.com/vladimiracunadev-create/python-data-science-program)
 
-[Release v3.8.0](https://github.com/vladimiracunadev-create/python-data-science-program/releases/latest)
+[Απελευθερώστε v3.8.0](https://github.com/vladimiracunadev-create/python-data-science-program/releases/latest)
 
 [Repo (GitHub)](https://github.com/vladimiracunadev-create/artificial-intelligence-evolution-program)
 
@@ -711,372 +708,372 @@ Se carga desde las APIs públicas de GitHub y GitLab (ordenada por actualizació
 
 [Repo (GitHub)](https://github.com/vladimiracunadev-create/violin-adventure)
 
-## Demos en vivo
+## Πάμε να ζήσουμε.
 
 <!-- portfolio-section:demos -->
 
-Enlaces públicos para ver despliegues reales (cuando aplica).
+Δημόσιοι σύνδεσμοι για να δείτε τις πραγματικές αποστολές (κατά περίπτωση).
 
-### Portfolio Web · GitHub Pages
+### Ιστός χαρτοφυλακίου · Σελίδες GitHub
 
-Portafolio web en 22 idiomas desplegado en GitHub Pages vía GitHub Actions. PWA instalable, Lighthouse 100, 154 PDFs generados por pipeline y API JSON i18n.
+Το χαρτοφυλάκιο του διαδικτύου σε 22 γλώσσες που αναπτύσσονται σε GitHub Σελίδες μέσω GitHub Δράσεις. PWA μπορεί να εγκατασταθεί, Φάρος 100, 154 PDFs που παράγονται από τον αγωγό και JSON i18n API.
 
-### AWS S3 + GitHub Actions
+### AWS S3 + ενέργειες GitHub
 
-Deploy automático (sync) vía GitHub OIDC. Flujo profesional con validaciones.
+Αυτόματη ανάπτυξη (συγχρονισμός) μέσω GitHub OIDC. Επαγγελματική ροή με επικυρώσεις.
 
-### Portal de Documentación (GitLab CI)
+### Πύλη τεκμηρίωσης (GitLab CI)
 
-Glassmorphism PWA desplegado desde GitLab vía OIDC y OAC (Caso L - FinOps).
+Γυάλινος μορφισμός PWA αναπτύχθηκε από GitLab μέσω OIDC και OAC (υπόθεση L - FinOps).
 
-### AWS Amplify · Deploy por ramas
+### AWS Ενισχύστε · Αναπτύξτε με κλάδους
 
-Continuous Deployment con build automático, SSL y entornos aislados (main/dev).
+Συνεχής ανάπτυξη με αυτόματο κτίριο, SSL και απομονωμένα περιβάλλοντα (main / dev).
 
-### Docker Labs: dashboard local
+### Εργαστήρια Docker: τοπικό ταμπλό
 
-Un “hub” local para explorar labs por stack. Ideal para entrevistas técnicas.
+Ένα τοπικό "hub" για να εξερευνήσετε τα εργαστήρια με στοίβα. Ιδανικό για τεχνικές συνεντεύξεις.
 
-[Ver sitio](https://vladimiracunadev-create.github.io/)
+[Δείτε το site](https://vladimiracunadev-create.github.io/)
 
 [GitHub](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io)
 
-[Ver demo](https://mi-pagina-scrum-123.s3.us-east-2.amazonaws.com/index.html)
+[Δείτε το demo](https://mi-pagina-scrum-123.s3.us-east-2.amazonaws.com/index.html)
 
-[GitHub Repo](https://github.com/vladimiracunadev-create/proyectos-aws)
+[Αποθήκευση GitHub](https://github.com/vladimiracunadev-create/proyectos-aws)
 
-[Ver demo](http://finops-vladimir-portfolio-case-l.s3-website.us-east-2.amazonaws.com)
+[Δείτε το demo](http://finops-vladimir-portfolio-case-l.s3-website.us-east-2.amazonaws.com)
 
 [GitLab Repo](https://gitlab.com/vladimir.acuna.dev-group/vladimir.acuna.dev-group)
 
-[Demo main](https://main.d3r1wuymolxagh.amplifyapp.com/)
+[Κύρια ζήτηση](https://main.d3r1wuymolxagh.amplifyapp.com/)
 
-[Demo dev](https://dev.d20m8tc0banvg.amplifyapp.com/)
+[Αποτύπωση dev](https://dev.d20m8tc0banvg.amplifyapp.com/)
 
-## Experiencia
+## Εμπειρία
 
 <!-- portfolio-section:experiencia -->
 
-Resumen por hitos (usa la vista “Profundo” para detalles).
+Περίληψη από ορόσημα (χρησιμοποιήστε την προβολή "Deep" για λεπτομέρειες).
 
-### Transición (laboratorios + portafolio)
+### Μετάβαση (εργαστήρια + χαρτοφυλάκιο)
 
-Estandarización de entornos, laboratorios Docker/AWS, automatización, observabilidad y prototipos con IA local.
+Τυποποίηση περιβαλλόντων, εργαστήρια Docker / AWS, αυτοματοποίηση, παρατηρησιμότητα και πρωτότυπα με τοπικές IA.
 
-- Documentación reproducible por perfil (reclutador, desarrollador y casos prácticos).
+- Αναπαραγωγική τεκμηρίωση ανά προφίλ (πρόληψη, προγραμματιστής και πρακτικές περιπτώσεις).
 
-- Foco en prácticas: ramas, PRs, CI/CD, Pages y releases.
+- Επικεντρωθείτε στην πρακτική: υποκαταστήματα, PRs, CI / CD, Σελίδες και κυκλοφορίες.
 
-### Fundación CEIS Maristas
+### Ίδρυμα CEIS Maristas
 
-Arquitectura, desarrollo y operación de plataformas web educativas/psicométricas. Optimización SQL/performance. Seguridad operacional: análisis forense de ataques, gestión de logs y pruebas con OWASP ZAP y JMeter.
+Αρχιτεκτονική, ανάπτυξη και λειτουργία εκπαιδευτικών / ψυχομετρικών web πλατφορμών. Βελτιστοποίηση SQL / απόδοση. Επιχειρησιακή ασφάλεια: εγκληματολογική ανάλυση επιθέσεων, διαχείριση του ημερολογίου και δοκιμές με OWASP ZAP και JMeter.
 
-- Seguridad: análisis forense de ataques al servidor en más de una ocasión, determinando origen, vector de entrada y alcance.
+- Ασφάλεια: ιατροδικαστική ανάλυση επιθέσεων διακομιστών σε περισσότερες από μία περιπτώσεις, προσδιορισμός της προέλευσης, το διάνυσμα εισόδου και να φτάσει.
 
-- Gestión y análisis de logs del servidor y del entorno PHP: depuración de código y detección de actividad anómala desde IP desconocidas.
+- Διαχείριση και ανάλυση του εξυπηρετητή και του συστήματος καταγραφής περιβάλλοντος PHP: καθαρισμός κώδικα και ανίχνευση μη φυσιολογικής δραστηριότητας από άγνωστη IP.
 
-- Endurecimiento del sistema con OWASP ZAP (simulación de ataques) y pruebas de carga con Apache JMeter .
+- Σε όλο το σύστημα ΧΩΡΟΣ OWASP (προσομοίωση προσβολών) και δοκιμές φορτίου με JMeter Απάτσι .
 
-- Formación en ciberseguridad durante la pandemia y posterior charla institucional de ciberseguridad.
+- Εκπαίδευση στην κυβερνοασφάλεια κατά τη διάρκεια της πανδημίας και της μετέπειτα θεσμικής συζήτησης για την κυβερνοασφάλεια.
 
-### Negocio + TI
+### Επιχειρήσεις + IT
 
-Formación técnica en administración de empresas: procesos, eficiencia, marketing y medición.
+Τεχνική κατάρτιση στη διαχείριση των επιχειρήσεων: διαδικασίες, αποδοτικότητα, μάρκετινγκ και μέτρηση.
 
-## Flujo de desarrollo asistido por IA
+## Ροή ανάπτυξης που ενισχύεται από τις IA
 
 <!-- portfolio-section:flujo-ia -->
 
-Uso herramientas de IA como aceleradores técnicos reales en proyectos, no como sustitutos del criterio propio.
+Χρησιμοποιώ εργαλεία ΙΑ ως πραγματικούς τεχνικούς επιταχυντές σε έργα, όχι ως υποκατάστατα του ίδιου κριτηρίου.
 
-### Herramientas en uso activo
+### Εργαλεία εν ενεργεία
 
-- ChatGPT Plus (desde 2023) · análisis, arquitectura, iteración y documentación
+- ChatGPT Plus (από 2023) · ανάλυση, αρχιτεκτονική, επανάληψη και τεκμηρίωση
 
-- Codex · generación y refactorización de código
+- Κώδικας · παραγωγή και αναπαράγοντα κωδικών
 
-- Claude Code · revisión arquitectónica, implementación y documentación técnica
+- Κωδικός Claude · αρχιτεκτονική επανεξέταση, εφαρμογή και τεχνική τεκμηρίωση
 
-- Antigravity · aceleración de flujos de desarrollo y automatización
+- Αντιβαρύτητα · επιτάχυνση των ροών ανάπτυξης και αυτοματοποίησης
 
-- VS Code / OpenCode · entornos de desarrollo con asistencia IA integrada
+- Κωδικός VS / OpenCode · περιβάλλοντα ανάπτυξης με ολοκληρωμένη βοήθεια ΙΑ
 
-### Dónde aplico IA en el flujo
+### Όπου εφαρμόζω IA στη ροή
 
-- Diagnóstico técnico y análisis de arquitectura
+- Τεχνική διάγνωση και ανάλυση αρχιτεκτονικής
 
-- Diseño de soluciones y validación de decisiones
+- Σχεδιασμός και επικύρωση απόφασης
 
-- Implementación, refactorización y pruebas
+- Εφαρμογή, επαναπροσδιορισμός και δοκιμές
 
-- Documentación técnica y por perfil
+- Τεχνική τεκμηρίωση και τεκμηρίωση προφίλ
 
-- Aceleración de proyectos e iteración sobre repositorios
+- Επαναλήψεις της επιτάχυνσης και του αποθετηρίου του έργου
 
-"Combino criterio técnico propio, validación humana y dirección arquitectónica. La IA amplifica capacidad, velocidad y alcance técnico — no reemplaza experiencia."
+"Συνδυάζω τεχνικά κριτήρια δικής μου, ανθρώπινης επικύρωσης και αρχιτεκτονικής κατεύθυνσης. Η IA ενισχύει την ικανότητα, την ταχύτητα και την τεχνική πρόσβαση - δεν αντικαθιστά την εμπειρία. "
 
-## Alcance profesional real
+## Πραγματικό επαγγελματικό πεδίο εφαρμογής
 
 <!-- portfolio-section:roles -->
 
-Jerarquía clara: identidad principal primero, expansión natural después, alcance complementario al final.
+Καθαρή Ιεραρχία: πρώτα κύρια ταυτότητα, μετά φυσική επέκταση, συμπληρωματική φτάσει στο τέλος.
 
-### 🎯 Identidad principal
+### 🎯 Κύρια ταυτότητα
 
-16+ años de arquitectura, desarrollo y operación de plataformas reales. Modernización progresiva sin cortar operación, integración de sistemas, automatización de procesos e IA aplicada — con criterio técnico propio y validación humana.
+16 + χρόνια αρχιτεκτονικής, ανάπτυξης και λειτουργίας πραγματικών πλατφορμών. Προοδευτικός εκσυγχρονισμός χωρίς κοπή λειτουργίας, ενσωμάτωση συστημάτων, αυτοματοποίηση διεργασιών και εφαρμοσμένη ΙΑ - με τεχνικό κριτήριο και ανθρώπινη επικύρωση.
 
-### ↗ Expansión natural — cargos que puedo asumir con fuerza
+### ↗ Φυσική επέκταση - κατηγορίες μπορώ να υποθέσω με δύναμη
 
-Respaldados por experiencia directa, proyectos verificables y flujo asistido por IA.
+που υποστηρίζεται από άμεση εμπειρία, επαληθεύσιμα έργα και IA-βοηθητική ροή.
 
-### Líder Tecnológico / Tech Lead
+### Τεχνολογικός ηγέτης / τεχνολογικός μόλυβδος
 
-Dirección técnica de proyectos, definición de arquitectura, revisión de decisiones críticas, acompañamiento de equipos, modernización de sistemas existentes y conexión entre objetivos de negocio y soluciones tecnológicas mantenibles.
+Τεχνική κατεύθυνση του έργου, ορισμός της αρχιτεκτονικής, αναθεώρηση των κρίσιμων αποφάσεων, συνοδεία εξοπλισμού, εκσυγχρονισμός των υφιστάμενων συστημάτων και σύνδεση μεταξύ των επιχειρηματικών στόχων και βιώσιμων τεχνολογικών λύσεων.
 
-### AI Orchestration Engineer
+### AI Μηχανικός ορχήστρας
 
-Diseño de sistemas agénticos con LangGraph, FastAPI y MCP. Agentes con estado, rutas condicionales y resiliencia.
+Σχεδιασμός αγενών συστημάτων με LangGraph, FastAPI και MCP. Πράκτορες με κρατικές, υπό όρους διαδρομές και ανθεκτικότητα.
 
-### AI Automation Engineer
+### Μηχανικός αυτοματισμού AI
 
-Automatización de flujos con n8n, Python y orquestadores resilientes. Circuit Breaker, Idempotencia y observabilidad.
+Αυτοματισμός ροών με n8n, Python και ανθεκτικούς ενορχηστρωτές. Διακόπτης κυκλωμάτων, Ιδεότητα και παρατηρησιμότητα.
 
-### Solutions Engineer
+### Λύσεις Μηχανικός
 
-Demos y PoCs reales, comunicación técnico-negocio, requisitos y arquitectura orientada a cliente.
+Δίνουμε και PoCs πραγματική, τεχνική επικοινωνία - επιχειρήσεις, απαιτήσεις και προσανατολισμένη στους πελάτες αρχιτεκτονική.
 
-### Technical Product Builder
+### Κατασκευαστής τεχνικών προϊόντων
 
-Construcción de productos digitales end-to-end: arquitectura, desarrollo, operación y entrega con criterio de producto.
+Κατασκευή ψηφιακών προϊόντων από το τέλος του: αρχιτεκτονική, ανάπτυξη, λειτουργία και παράδοση με κριτήρια προϊόντος.
 
-### Consultor de Transformación Digital
+### Σύμβουλος Ψηφιακής Μεταμόρφωσης
 
-Diagnóstico técnico, plan evolutivo y ejecución de modernización en organizaciones con sistemas legacy reales.
+Τεχνική διάγνωση, εξελικτικό σχέδιο και εφαρμογή του εκσυγχρονισμού σε οργανισμούς με πραγματικά κληροδοτημένα συστήματα.
 
-### Product Operations Técnico
+### Τεχνικές λειτουργίες προϊόντων
 
-Operación, continuidad y evolución de plataformas con foco en reducción de fricción, observabilidad y mejora continua.
+Λειτουργία, συνέχεια και εξέλιξη πλατφορμών με έμφαση στη μείωση της τριβής, τη παρατηρησιμότητα και τη συνεχή βελτίωση.
 
-### Instructor de Programación y Pensamiento Computacional
+### Προγραμματισμός και Καθηγητής Σκέψης Υπολογιστών
 
-445+ horas dictadas como relator técnico (2003–2004, 2011): programación web, HTML/CSS, Office y hardware. Titulación universitaria sobre entorno educativo web para niños con Síndrome de Down (nota 6.7). Ing. en Computación e Informática (UTA) + 16 años operando plataformas de evaluación educativa real.
+445 + ώρες που δίνονται ως τεχνικός εισηγητής (2003-2004, 2011): προγραμματισμός ιστού, HTML / CSS, Γραφείο και υλικό. Πτυχίο στο εκπαιδευτικό περιβάλλον ιστού για παιδιά με σύνδρομο Down (σημείωση 6.7). Πχ. στην Πληροφορική και Υπολογιστική (UTA) + 16 χρόνια λειτουργίας πραγματικών εκπαιδευτικών πλατφορμών αξιολόγησης.
 
-### 🧭 Qué tipo de liderazgo tecnológico ofrezco
+### 🧭 Τι είδους τεχνολογική ηγεσία προσφέρω;
 
-- Liderazgo técnico práctico, no solo administrativo.
+- Πρακτική τεχνική ηγεσία, όχι μόνο διοικητική.
 
-- Decisiones basadas en experiencia real de producción.
+- Αποφάσεις που βασίζονται σε πραγματική εμπειρία παραγωγής.
 
-- Modernización gradual sin interrumpir la operación.
+- Σταδιακή εκσυγχρονισμός χωρίς διακοπή λειτουργίας.
 
-- Documentación clara para equipos, reclutadores y continuidad.
+- Καθαρή τεκμηρίωση για ομάδες, στρατολογητές και συνέχεια.
 
-- IA como amplificador técnico, no como sustituto del criterio profesional.
+- IA ως τεχνικός ενισχυτής, όχι ως υποκατάστατο του επαγγελματικού κριτηρίου.
 
-- Enfoque en estabilidad, mantenibilidad, seguridad y reducción de deuda técnica.
+- Προσέγγιση της σταθερότητας, της βιωσιμότητας, της ασφάλειας και της τεχνικής μείωσης του χρέους.
 
-### ⚙️ Alcance complementario
+### ⚙️ Συμπληρωματικό πεδίο εφαρμογής
 
-Extensión lógica del perfil. Asumo estos roles cuando el contexto o el proyecto lo requieren, no como identidad principal.
+Η λογική επέκταση του προφίλ. Αναλαμβάνω αυτούς τους ρόλους όταν το απαιτεί το πλαίσιο ή το έργο, όχι ως κύρια ταυτότητα.
 
-### ✅ Por qué puedo asumir este alcance
+### ✅ Γιατί να πάρω αυτό το εύρος;
 
-- Liderazgo tecnológico — Guía técnica de equipos, definición de estándares, revisión de riesgos y acompañamiento en decisiones críticas.
+- Τεχνολογική ηγεσία — Τεχνικός οδηγός για τον εξοπλισμό, τον ορισμό των προτύπων, την επανεξέταση των κινδύνων και την παρακολούθηση των κρίσιμων αποφάσεων.
 
-- Arquitectura de soluciones — Diseño y evolución de sistemas desde la raíz hasta producción.
+- Ο σχεδιασμός των λύσεων — Σχεδιασμός και εξέλιξη συστημάτων από τη ρίζα στην παραγωγή.
 
-- Modernización de legacy — 16+ años con sistemas heredados sin cortar operación.
+- Εκσυγχρονισμός του Νόμου — 16 + χρόνια με κληρονομικά συστήματα χωρίς να κοπεί η λειτουργία.
 
-- Automatización — n8n, Python, workflows resilientes con observabilidad en Grafana.
+- Αυτοματοποίηση — n8n, Python, ανθεκτικές ροές εργασίας με παρατηρησιμότητα στο Grafana.
 
-- Cloud / CI/CD — AWS (Lambda, DynamoDB, ECS, EKS, Cognito, EventBridge, CloudWatch/X-Ray), Terraform, OIDC, FinOps.
+- Σύννεφο / CI / CD — AWS (Lambda, DynamoDB, ECS, EKS, Cognito, EventBridge, CloudWatch / X-Ray), Terraform, OIDC, FinOps.
 
-- Desarrollo polyglot — Python, Go, TypeScript, Node.js, PHP 8.x, C#, Ruby, PowerShell, Makefile.
+- Ανάπτυξη πολυσφαιρίου — Python, Go, TypeScript, κόμβος.js, PHP 8.x, C #, Ruby, Powershell, Makefile.
 
-- Integración de IA — LangGraph, MCP, Ollama, ChatGPT Plus, Claude Code.
+- Ολοκλήρωση των ΙΑ — LangGraph, MCP, Olama, ChatGPT Plus, Κώδικας Claude.
 
-- Comunicación técnico-negocio — Formación en administración + experiencia real en proyectos institucionales.
+- Τεχνικές επικοινωνίες - επιχειρήσεις — Κατάρτιση διαχείρισης + πραγματική εμπειρία σε θεσμικά σχέδια.
 
-- Colaboración y documentación — Docs por perfil, RECRUITER.md, evidencia verificable en repos.
+- Συνεργασία και τεκμηρίωση — DC ανά προφίλ, RECRUITER.md, αποδεικτικά στοιχεία επαληθεύσιμα σε repos.
 
-### 🔗 Roles relacionados según contexto
+### 🔗 Σχετικοί ρόλοι ανά πλαίσιο
 
-Abordables según tipo de proyecto, empresa o necesidad específica.
+Απομάκρυνση ανά τύπο έργου, εταιρεία ή συγκεκριμένη ανάγκη.
 
-## Servicios
+## Υπηρεσίες
 
 <!-- portfolio-section:servicios -->
 
-Intervenciones por etapas alineadas con arquitectura real, modernización y evolución técnica sostenible.
+Παρεμβάσεις σε στάδια ευθυγραμμισμένες με την πραγματική αρχιτεκτονική, τον εκσυγχρονισμό και την αειφόρο τεχνική εξέλιξη.
 
-### Auditoría de código generado por IA
+### Έλεγχος κώδικα που δημιουργήθηκε από τις IA
 
-Verificación funcional, auditoría técnica, limpieza y reducción de deuda técnica, y gobernanza de IA para equipos que ya desarrollan con asistentes y agentes.
+Λειτουργική επαλήθευση, τεχνικός έλεγχος, τεχνική εκκαθάριση και μείωση του χρέους και διακυβέρνηση της IA για ομάδες που έχουν ήδη αναπτυχθεί με βοηθούς και πράκτορες.
 
-### Modernización de Sistemas Legacy
+### Εκσυγχρονισμός των Συστημάτων Κληρονομιάς
 
-Refactor progresivo, migración de PHP/stack legacy, CI/CD, pruebas automatizadas y despliegue seguro sin cortar operación.
+Προοδευτικός Αντιδραστήρας, PHP / σταματήσει κληρονομιά μετανάστευσης, CI / CD, αυτοματοποιημένες δοκιμές και ασφαλή ανάπτυξη χωρίς διακοπή λειτουργίας.
 
-### Automatización de Procesos y Workflows
+### Αυτοματοποίηση της διεργασίας και της ροής εργασίας
 
-Diseño e implementación de flujos automatizados con n8n, Python y orquestadores resilientes. Circuit Breaker, Idempotencia y observabilidad incluidos.
+Σχεδιασμός και υλοποίηση αυτοματοποιημένων ροών με n8n, Python και ανθεκτικούς ενορχηστρωτές. Περικοπή Breaker, Ιδεότητα και παρατηρησιμότητα συμπεριλαμβάνονται.
 
-### Integración de IA Aplicada
+### Ολοκλήρωση των εφαρμοσμένων IA
 
-Incorporación de agentes, LLMs y flujos asistidos por IA a productos y procesos reales. LangGraph, MCP, Ollama y FastAPI.
+Ένταξη των παραγόντων, LLM και IA-βοηθηθείσες ροές σε πραγματικά προϊόντα και διαδικασίες. LangGraph, MCP, Olama και FastAPI.
 
-### Arquitectura Cloud, CI/CD y Observabilidad
+### Αρχιτεκτονική Cloud, CI / CD και Παρατηρησιμότητα
 
-AWS (ECS/EKS, Lambda/SAM, DynamoDB, Cognito, EventBridge/SQS/SNS, CloudWatch/X-Ray, S3/CloudFront), Terraform, OIDC, FinOps, GitHub/GitLab CI y Prometheus/Grafana.
+AWS (ECS / EKS, Lambda / SAM, DynamoDB, Cognito, EventBridge / SQS / SNS, CloudWatch / X-Ray, S3 / CloudFront), Terraform, OIDC, FinOps, GitHub / GitLab CI και Προμηθέας / Grafana.
 
-### Diagnóstico Técnico y Plan Evolutivo
+### Τεχνική διάγνωση και εξελικτικό σχέδιο
 
-Evaluación integral: riesgos, deuda técnica, performance, costos y hoja de ruta priorizada con quick wins accionables.
+Συνολική αξιολόγηση: μπορούν να γίνουν κίνδυνοι, τεχνικά χρέη, επιδόσεις, κόστος και χάρτης πορείας προτεραιότητας με γρήγορες νίκες.
 
-[Ver el servicio completo](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/)
+[Δείτε την πλήρη υπηρεσία](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/)
 
-## Freelance · Modalidades de colaboración
+## Ελεύθερη παροχή · Μορφές συνεργασίας
 
 <!-- portfolio-section:modalidades -->
 
-Trabajo en formatos flexibles según el problema, la criticidad, el alcance y el nivel de involucramiento requerido.
+Εργάζομαι σε ευέλικτες μορφές ανάλογα με το πρόβλημα, την κρισιμότητα, το πεδίο εφαρμογής και το επίπεδο συμμετοχής που απαιτείται.
 
-### Proyecto acotado
+### Αποκοπή έργου
 
-Para modernización puntual, integraciones, automatización específica, mejora crítica o entregables concretos.
+Για τον έγκαιρο εκσυγχρονισμό, την ολοκλήρωση, την ειδική αυτοματοποίηση, την κρίσιμη βελτίωση ή τα συγκεκριμένα παραδοτέα.
 
-### Bolsa de horas / apoyo experto
+### Ειδική υποστήριξη / τσάντα ώρα
 
-Para equipos que necesitan acelerar decisiones técnicas, destrabar arquitectura, validar implementaciones o resolver cuellos de botella.
+Για ομάδες που πρέπει να επιταχύνουν τις τεχνικές αποφάσεις, να ξεκλειδώσουν την αρχιτεκτονική, να επικυρώσουν υλοποιήσεις ή να λύσουν προβλήματα.
 
-### Acompañamiento mensual
+### Μηνιαία συνδρομή
 
-Para evolución sostenida, soporte senior, roadmap técnico, continuidad operativa y mejora progresiva.
+Για τη διαρκή εξέλιξη, την ανώτερη υποστήριξη, τον τεχνικό χάρτη πορείας, τη λειτουργική συνέχεια και τη σταδιακή βελτίωση.
 
-### Diagnóstico + hoja de ruta
+### Διάγνωση + οδικός χάρτης
 
-Para ordenar contexto, identificar riesgos, priorizar decisiones y definir una estrategia de implementación realista.
+Για να διατάξει το πλαίσιο, να εντοπίσει τους κινδύνους, να δώσει προτεραιότητα στις αποφάσεις και να καθορίσει μια ρεαλιστική στρατηγική εφαρμογής.
 
-### Colaboración técnico-comercial
+### Τεχνική-εμπορική συνεργασία
 
-Para apoyar conversaciones con clientes o stakeholders, traducir requerimientos a soluciones viables y acompañar preventa o definición técnica.
+Για να υποστηρίξει τις συζητήσεις με τους πελάτες ή τους ενδιαφερόμενους, μεταφράστε τις απαιτήσεις σε βιώσιμες λύσεις και να συνοδεύσει τα προδεδομένα ή τον τεχνικό ορισμό.
 
-### Modernización, rescate e IA aplicada
+### Εκσυγχρονισμός, διάσωση και εφαρμογή ΙΑ
 
-Apoyo cuando hay sistemas frágiles, operación viva, automatizaciones pendientes, decisiones de arquitectura, cloud/CI-CD, observabilidad o adopción pragmática de IA.
+Υποστήριξη όταν υπάρχουν εύθραυστα συστήματα, λειτουργία διαβίωσης, εκκρεμείς αυτοματισμοί, αρχιτεκτονικές αποφάσεις, cloud / Cic@-@ CD, παρατηρησιμότητα ή πραγματιστική υιοθέτηση της IA.
 
-### Cómo defino la modalidad adecuada
+### Πώς θα ορίσω την κατάλληλη μέθοδο
 
-En la práctica separo discovery, arquitectura, ejecución, pruebas, documentación, coordinación y soporte posterior. Si el encargo mezcla varias capas, lo ordeno por fases o por capacidad mensual para evitar expectativas difusas.
+Στην πράξη, ξεχωριστή ανακάλυψη, αρχιτεκτονική, εκτέλεση, δοκιμή, τεκμηρίωση, συντονισμός και αργότερα υποστήριξη. Αν η σειρά αναμιγνύει αρκετά στρώματα, την παραγγέλνω σε φάσεις ή μηνιαία ικανότητα για να αποφευχθεί η διάχυτη προσδοκίες.
 
-### Sin tarifas fijas publicadas
+### Δεν δημοσιεύθηκαν σταθερά επιτόκια
 
-No publico tarifas fijas porque cada intervención cambia según complejidad, riesgo, urgencia y nivel de involucramiento. Prefiero revisar primero el objetivo y el alcance para proponer la modalidad adecuada.
+Δεν δημοσιεύω σταθερά επιτόκια, διότι κάθε παρέμβαση αλλάζει ανάλογα με την πολυπλοκότητα, τον κίνδυνο, τον επείγοντα χαρακτήρα και το επίπεδο συμμετοχής.
 
-¿Proyecto, apoyo experto o colaboración puntual? Conversemos el contexto y revisamos el mejor formato de trabajo.
+¿Έργο, υποστήριξη εμπειρογνωμόνων ή έγκαιρη συνεργασία; Συζητάμε το πλαίσιο και επανεξετάζουμε την καλύτερη μορφή εργασίας.
 
-[Conversemos el alcance](https://vladimiracunadev-create.github.io/#contacto)
+[Ας μιλήσουμε για το πεδίο.](https://vladimiracunadev-create.github.io/#contacto)
 
-## Centro de Descargas
+## Κέντρο Εκφόρτισης
 
 <!-- portfolio-section:descargas -->
 
-Accede a las versiones nativas y documentos profesionales públicos.
+Πρόσβαση στις εγγενείς εκδόσεις και δημόσια επαγγελματικά έγγραφα.
 
-### Recomendado
+### Συνιστώμενη
 
-Detectando equipo...
+Ανιχνευτής εξοπλισμού...
 
-### Otras Versiones
+### Άλλες εκδόσεις
 
-Usa estos enlaces si la detección automática no coincide con tu dispositivo.
+Χρησιμοποιήστε αυτούς τους συνδέσμους αν η αυτόματη ανίχνευση δεν ταιριάζει με τη συσκευή σας.
 
-### Documentos PDF
+### Έγγραφα PDF
 
-El selector de idioma cambia cada descarga al PDF equivalente en el idioma activo.
+Ο επιλογέας γλώσσας αλλάζει κάθε λήψη στο αντίστοιχο PDF στην ενεργό γλώσσα.
 
-La nota de vigencia es un documento de apoyo emitido por el profesional, no por Fundación CEIS Marista. Contextualiza el cambio de autoridad de 2026 y debe revisarse junto con la carta de recomendación histórica.
+Το έγκυρο σημείωμα είναι ένα έγγραφο υποστήριξης που εκδόθηκε από τον επαγγελματία, όχι από την Fundación CEIS Marista. Πρόκειται για μια αλλαγή εξουσίας που έχει γίνει με κείμενο το 2026 και πρέπει να επανεξεταστεί μαζί με την επιστολή της ιστορικής σύστασης.
 
-La declaración de logros se publica aparte para resumir resultados observables y facilitar validación externa sin reemplazar el CV ni el portafolio.
+Η δήλωση επίτευξης εκδίδεται χωριστά για να συνοψίσει τα παρατηρήσιμα αποτελέσματα και να διευκολύνει την εξωτερική επικύρωση χωρίς να αντικαθιστά το βιογραφικό σημείωμα ή το χαρτοφυλάκιο.
 
-La Hoja de Vida es el documento genérico: formato clásico y completo, sin estar dirigido a un cargo específico. Sirve para cualquier proceso de selección, aunque el puesto tenga un nombre poco habitual.
+Το Life Sheet είναι το γενικό έγγραφο: ένα κλασικό και πλήρες σχήμα, χωρίς να κατευθύνεται σε μια συγκεκριμένη χρέωση. Εξυπηρετεί οποιαδήποτε διαδικασία επιλογής, ακόμη και αν η θέση έχει ένα ασυνήθιστο όνομα.
 
-### Archivos técnicos
+### Τεχνικά αρχεία
 
-Archivos de descubrimiento en la raíz del sitio (SEO + IA).
+Ανακαλύψτε αρχεία στη ρίζα του site (SEO + IA).
 
-[Android (APK)](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/releases/latest/download/app-debug.apk)
+[Ανδροειδές (APK)](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/releases/latest/download/app-debug.apk)
 
-[Portafolio](https://vladimiracunadev-create.github.io/assets/portafolio.pdf)
+[Χαρτοφυλάκιο](https://vladimiracunadev-create.github.io/assets/portafolio.pdf)
 
-[Hoja de Vida](https://vladimiracunadev-create.github.io/assets/hoja-de-vida.pdf)
+[Σωσίβιο φύλλο](https://vladimiracunadev-create.github.io/assets/hoja-de-vida.pdf)
 
-[CV Reclutador](https://vladimiracunadev-create.github.io/assets/cv-reclutador.pdf)
+[Ανακλαστικό CV](https://vladimiracunadev-create.github.io/assets/cv-reclutador.pdf)
 
-[CV ATS](https://vladimiracunadev-create.github.io/assets/cv-ats.pdf)
+[CV ATS (Βιογραφικά στοιχεία)](https://vladimiracunadev-create.github.io/assets/cv-ats.pdf)
 
-[Carta de Recomendación](https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma.pdf)
+[Συστατική επιστολή](https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma.pdf)
 
-[Nota de Vigencia CEIS](https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis.pdf)
+[Σημείωση παρακολούθησης CEIS](https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis.pdf)
 
-[Declaración de Logros](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
+[Δήλωση επιτευγμάτων](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
 
-[robots.txt](https://vladimiracunadev-create.github.io/robots.txt)
+[ρομπότ.txt](https://vladimiracunadev-create.github.io/robots.txt)
 
-[sitemap.xml](https://vladimiracunadev-create.github.io/sitemap.xml)
+[χάρτης τοποθεσίας.xml](https://vladimiracunadev-create.github.io/sitemap.xml)
 
-[llm.txt](https://vladimiracunadev-create.github.io/llm.txt)
+[llm.txt (Ιρλανδία)](https://vladimiracunadev-create.github.io/llm.txt)
 
-## Referencias laborales
+## Αριθμός αναφοράς εργασίας
 
 <!-- portfolio-section:referencias -->
 
-Para proyectos institucionales, la validación se realiza vía referencia.
+Για τα θεσμικά σχέδια, η επικύρωση πραγματοποιείται μέσω αναφοράς.
 
-### Logros resumidos y validación
+### Συνοπτικά επιτεύγματα και επικύρωση
 
-- Hasta 80% de mejora estimada en procesos críticos y generación de reportes.
+- Πάνω 80% εκτιμώμενη βελτίωση των κρίσιμων διαδικασιών και υποβολή εκθέσεων.
 
-- Reducción cercana al 90% en fricción operativa y soporte sobre Batería Online.
+- Μείωση κοντά 90% σε επιχειρησιακή τριβή και υποστήριξη μέσω της Online Μπαταρίας.
 
-- Optimización aproximada de 45% en componentes de base de datos y código.
+- Κατά προσέγγιση βελτιστοποίηση της 45% σε δεδομένα και στοιχεία κώδικα.
 
-- Atención simultánea de hasta 5 frentes de trabajo en ciertos períodos.
+- Ταυτόχρονη μέχρι... 5 μέτωπα να εργάζονται σε ορισμένες περιόδους.
 
-Estas cifras se presentan en una declaración formal emitida por el profesional, con referencia externa para validar contexto laboral y alcance general.
+Τα στοιχεία αυτά παρουσιάζονται σε επίσημη δήλωση που εκδίδεται από τον επαγγελματία, με εξωτερική αναφορά στην επικύρωση του πλαισίου εργασίας και του γενικού πεδίου εφαρμογής.
 
-### Jean Claude Dupry · Último jefe directo
+### Ζαν Κλοντ Ντούπρυ. · Τελευταίος επικεφαλής
 
-Celular : +56 9 9415 6984
+Κελί : +56 9 9415 6984
 
-Puedo enviar un resumen por escrito y ejemplos de impacto si lo necesitas.
+Μπορώ να στείλω μια γραπτή περίληψη και παραδείγματα αντίκτυπου αν τη χρειαστείτε.
 
-[Ver declaración](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
+[Βλέπε δήλωση](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
 
-## Tarjeta de presentación
+## Κάρτα παρουσίασης
 
 <!-- portfolio-section:tarjeta -->
 
-Guarda mis datos profesionales o comparte este portafolio mediante el código QR. El reverso resume mis áreas de servicio: aplicaciones web, arquitectura cloud, datos, APIs, IA, automatización y ciberseguridad.
+Αποθήκευση επαγγελματικών δεδομένων μου ή να μοιραστούν αυτό το χαρτοφυλάκιο χρησιμοποιώντας τον κωδικό QR. Το αντίστροφο συνοψίζει τους τομείς υπηρεσιών μου: εφαρμογές web, αρχιτεκτονική cloud, δεδομένα, APIs, IA, αυτοματοποίηση και την ασφάλεια στον κυβερνοχώρο.
 
 https://vladimiracunadev-create.github.io/assets/icons/1.png?v=5adde69a
 
 https://vladimiracunadev-create.github.io/assets/icons/2.png?v=1a55b3e6
 
-[Descargar frente](https://vladimiracunadev-create.github.io/assets/icons/1.png?v=5adde69a)
+[Λήψη πρόσθιου](https://vladimiracunadev-create.github.io/assets/icons/1.png?v=5adde69a)
 
-[Descargar reverso](https://vladimiracunadev-create.github.io/assets/icons/2.png?v=1a55b3e6)
+[Λήψη αντιστροφής](https://vladimiracunadev-create.github.io/assets/icons/2.png?v=1a55b3e6)
 
-## Contacto
+## Επαφή
 
 <!-- portfolio-section:contacto -->
 
-¿Modernización, automatización, arquitectura o integración de IA aplicada? Escríbeme.
+¿Εκσυγχρονισμός, αυτοματοποίηση, αρχιτεκτονική ή ενσωμάτωση των εφαρμοσμένων ΕΥ; Γράψτε μου.
 
-Disponible para integrarme rápidamente a equipos y comunidades técnicas a través de canales colaborativos como Slack.
+Διατίθεται για να ενσωματωθώ γρήγορα σε τεχνικές ομάδες και κοινότητες μέσω συνεργατικών καναλιών όπως ο Σλακ.
 
-[vladimir.acuna.dev@gmail.com](mailto:vladimir.acuna.dev@gmail.com)
+[vladimir.acuna.dev @ gmail.com](mailto:vladimir.acuna.dev@gmail.com)
 
-[LinkedIn](https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29)
+[ΣύνδεσηIn](https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29)
 
 [GitHub](https://github.com/vladimiracunadev-create)

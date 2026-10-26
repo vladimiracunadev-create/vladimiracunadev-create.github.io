@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-25",
+    "generated_at": "2026-10-26",
     "language": "fr",
     "language_name": "French",
     "native_name": "Français",
@@ -11,8 +11,8 @@
   },
   "profile": {
     "name": "Vladimir Acuña",
-    "title": "Architecture, modernisation, automatisation et IA appliquée à des projets réels.",
-    "summary": "Architecte de Solutions · Senior Full-Stack · Leader Technologique . 16+ ans à piloter l'évolution des plateformes. Spécialisé en modernisation de systèmes legacy , automatisation des processus , cloud & CI/CD et intégration d'IA appliquée .",
+    "title": "Architecture, modernisation, automatisation et IA appliquées à des projets réels.",
+    "summary": "L'architecte des solutions · Senior Full-Stack · Leader technologique . 16 ans + tête de l'évolution des plateformes. modernisation des systèmes juridiques , automatisation des processus , Cloud & CI / CD e IA intégrée appliquée .",
     "website": "https://vladimiracunadev-create.github.io/i18n/fr/",
     "github": "https://github.com/vladimiracunadev-create",
     "gitlab": "https://gitlab.com/vladimir.acuna.dev-group"
@@ -26,7 +26,7 @@
   "sections": [
     {
       "id": "hero",
-      "title": "Architecture, modernisation, automatisation et IA appliquée à des projets réels.",
+      "title": "Architecture, modernisation, automatisation et IA appliquées à des projets réels.",
       "min_level": 0,
       "freelance_hidden": false
     },
@@ -38,19 +38,19 @@
     },
     {
       "id": "evolucion",
-      "title": "Piliers Techniques Consolidés",
+      "title": "Piliers techniques consolidés",
       "min_level": 1,
       "freelance_hidden": true
     },
     {
       "id": "auditoria-ia",
-      "title": "Audit du code généré par IA",
+      "title": "Audit de code généré par l'IV",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "productos",
-      "title": "Produits téléchargeables",
+      "title": "Produits jetables",
       "min_level": 0,
       "freelance_hidden": false
     },
@@ -62,7 +62,7 @@
     },
     {
       "id": "demos",
-      "title": "Démos en direct",
+      "title": "Allons vivre.",
       "min_level": 1,
       "freelance_hidden": false
     },
@@ -74,13 +74,13 @@
     },
     {
       "id": "flujo-ia",
-      "title": "Flux de développement assisté par IA",
+      "title": "Flux de développement assistés par l'AI",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "roles",
-      "title": "Portée professionnelle réelle",
+      "title": "Champ d'application professionnel réel",
       "min_level": 1,
       "freelance_hidden": true
     },
@@ -92,25 +92,25 @@
     },
     {
       "id": "modalidades",
-      "title": "Freelance · Modalités de collaboration",
+      "title": "Libre circulation · Modalités de collaboration",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "descargas",
-      "title": "Centre de Téléchargements",
+      "title": "Centre de décharge",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "referencias",
-      "title": "Références professionnelles",
+      "title": "Références de main-d'œuvre",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "tarjeta",
-      "title": "Carte de visite",
+      "title": "Carte de présentation",
       "min_level": 0,
       "freelance_hidden": false
     },

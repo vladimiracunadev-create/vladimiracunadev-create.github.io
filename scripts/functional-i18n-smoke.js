@@ -162,7 +162,7 @@ async function main() {
     })`);
     check(state.url.endsWith("/?lang=ar"), "Arabic route did not enter the canonical SPA URL");
     check(state.lang === "ar" && state.dir === "rtl", "Arabic html.lang/dir mismatch");
-    check(state.contentLang === "es" && state.locale === "ar", "Arabic Spanish fallback state mismatch");
+    check(state.contentLang === "ar" && state.locale === "ar", "Arabic localized content state mismatch");
     check(state.selected === "ar" && state.storedLang === "ar", "Arabic selection was not persisted");
     check(state.views === 4 && state.sections >= 16, "Arabic route lost views or canonical sections");
     check(/-arabic\.pdf$/.test(state.firstPdf), "Arabic PDF routing did not select the localized artifact");
@@ -247,13 +247,13 @@ async function main() {
           contentLang:document.documentElement.dataset.contentLang,
           locale:document.body.dataset.locale,
           query:new URLSearchParams(location.search).get('lang'),
-          pdf:document.querySelector('[data-pdf-link]').getAttribute('href')
+          pdf:document.querySelector('[data-pdf-link]').getAttribute('href'),
+          skip:document.querySelector('a.skip').textContent.trim()
         };
       });
     })()`);
+    const spanishSkip = localeStates.find(item => item.code === "es")?.skip;
     for (const localeState of localeStates) {
-      const expectedContent = ["es", "en", "pt", "it", "fr", "zh"].includes(localeState.code)
-        ? localeState.code : "es";
       check(
         localeState.lang === localeState.code &&
         localeState.dir === localeState.expectedDir &&
@@ -261,7 +261,8 @@ async function main() {
         localeState.stored === localeState.code &&
         localeState.locale === localeState.code &&
         localeState.query === localeState.code &&
-        localeState.contentLang === expectedContent &&
+        localeState.contentLang === localeState.code &&
+        (localeState.code === "es" || localeState.skip !== spanishSkip) &&
         localeState.pdf.endsWith(`${localeState.suffix}.pdf`),
         `${localeState.code}: selector, persistence, fallback, direction or PDF mismatch`
       );

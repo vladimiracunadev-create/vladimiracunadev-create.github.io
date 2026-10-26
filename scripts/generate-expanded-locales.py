@@ -21,12 +21,13 @@ from datetime import date
 from pathlib import Path
 
 import markdown
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, Comment, NavigableString
 
 
 ROOT = Path(__file__).resolve().parents[1]
 CONTRACT_PATH = ROOT / "data" / "portfolio-i18n.json"
 PORTFOLIO_PATH = ROOT / "index.html"
+TRANSLATIONS_PATH = ROOT / "data" / "portfolio-translations.json"
 WEB_DIR = ROOT / "i18n"
 DOCS_DIR = ROOT / "docs" / "i18n"
 API_DIR = ROOT / "api" / "v1" / "i18n"
@@ -59,6 +60,12 @@ LOCALES = tuple(
     for item in CONTRACT["locales"]
 )
 INLINE_CODES = set(CONTRACT["inline_locales"])
+TRANSLATION_CATALOG = (
+    json.loads(TRANSLATIONS_PATH.read_text(encoding="utf-8"))
+    if TRANSLATIONS_PATH.exists()
+    else {"locales": {}}
+)
+SKIP_TRANSLATION_TAGS = {"code", "pre", "kbd", "samp", "script", "style", "option", "title"}
 
 DOCUMENTS = (
     ("portfolio", "portafolio", "Portfolio"),
@@ -70,8 +77,8 @@ DOCUMENTS = (
     ("institutional", "nota-vigencia-contexto-institucional-ceis", "CEIS institutional context note"),
 )
 
-# Localized document names. Body content comes from the corresponding translated
-# README, so the generator never fabricates professional claims.
+# Localized document names. Body content comes from the canonical website plus
+# the versioned translation catalog; the profile README remains independent.
 TITLES = {
     "es": ["Portafolio", "Hoja de vida profesional", "CV para reclutamiento", "CV ATS", "Declaración de logros y validación", "Contexto de la carta de recomendación", "Nota de vigencia y contexto institucional CEIS"],
     "en": ["Portfolio", "Professional resume", "Recruiter CV", "ATS CV", "Achievements and validation statement", "Recommendation letter context", "CEIS institutional validity and context note"],
@@ -98,10 +105,52 @@ TITLES = {
 }
 
 
+def language_attribute(element) -> str | None:
+    for ancestor in (element, *element.parents):
+        for code in INLINE_CODES:
+            if ancestor.has_attr(f"data-{code}"):
+                return code
+    return None
+
+
+def canonical_text_nodes(soup: BeautifulSoup):
+    nodes = []
+    for node in soup.body.descendants:
+        if (
+            not isinstance(node, NavigableString)
+            or isinstance(node, Comment)
+            or not str(node).strip()
+            or node.parent.name in SKIP_TRANSLATION_TAGS
+        ):
+            continue
+        localized = language_attribute(node.parent)
+        if localized is not None and localized != "es":
+            continue
+        if any(character.isalpha() for character in str(node)):
+            nodes.append(node)
+    return nodes
+
+
+def apply_catalog(soup: BeautifulSoup, locale: str) -> bool:
+    localized = TRANSLATION_CATALOG.get("locales", {}).get(locale)
+    if not localized:
+        return False
+    for index, node in enumerate(canonical_text_nodes(soup)):
+        translated = localized.get("translations", {}).get(f"u{index:04d}")
+        if not translated:
+            continue
+        original = str(node)
+        leading = re.match(r"^\s*", original).group(0)
+        trailing = re.search(r"\s*$", original).group(0)
+        node.replace_with(f"{leading}{translated}{trailing}")
+    return True
+
+
 def portfolio_soup(locale: Locale) -> BeautifulSoup:
-    """Return the website DOM reduced to one locale with ES key fallback."""
+    """Return the website DOM reduced to one complete localized catalog."""
     soup = BeautifulSoup(PORTFOLIO_PATH.read_text(encoding="utf-8"), "html.parser")
-    requested = locale.code if locale.code in INLINE_CODES else CONTRACT["fallback_locale"]
+    catalog_applied = locale.code != "es" and apply_catalog(soup, locale.code)
+    requested = "es" if catalog_applied else (locale.code if locale.code in INLINE_CODES else CONTRACT["fallback_locale"])
     language_attributes = {f"data-{code}" for code in INLINE_CODES}
 
     for tag in list(soup.find_all(True)):
@@ -148,14 +197,11 @@ def localized_portfolio_markdown(locale: Locale) -> tuple[str, list[dict]]:
     """Render Markdown and API section metadata from the canonical website."""
     soup = portfolio_soup(locale)
     lines = [
-        "# Vladimir Acuña — Portafolio profesional",
+        f"# Vladimir Acuña — {TITLES[locale.code][0]}",
         "",
         "<!-- Generated from canonical portfolio content: index.html -->",
-        f"<!-- locale:{locale.code}; fallback:{CONTRACT['fallback_locale']} -->",
-        "",
-        f"> Idioma solicitado: `{locale.code}` · Contenido faltante: fallback por clave a español.",
-        "",
-        "Vistas disponibles: `recruiter`, `normal`, `deep` y `freelance`.",
+        f"<!-- locale:{locale.code}; catalog:portfolio-translations.json; fallback:{CONTRACT['fallback_locale']} -->",
+        f"<!-- views:{','.join(CONTRACT['views'])} -->",
         "",
     ]
     api_sections = []
@@ -339,7 +385,7 @@ def api_payload(locale: Locale, sections: list[dict], markdown_text: str) -> dic
             "language_name": locale.english_name,
             "native_name": locale.native_name,
             "direction": locale.direction,
-            "content_language": locale.code if locale.code in INLINE_CODES else CONTRACT["fallback_locale"],
+            "content_language": locale.code if locale.code in TRANSLATION_CATALOG.get("locales", {}) or locale.code in INLINE_CODES else CONTRACT["fallback_locale"],
             "fallback_language": CONTRACT["fallback_locale"],
             "source": "https://vladimiracunadev-create.github.io/index.html",
         },
@@ -586,8 +632,8 @@ def update_canonical_contracts() -> None:
     meta["site_pages"]["localized"] = "/i18n/{locale}/"
     meta["capabilities"]["artifact_languages"] = locale_codes
     meta["capabilities"]["artifact_switching"] = (
-        "All 22 language choices use the same SPA, four views, navigation and components. "
-        "Six locales have inline translations; missing keys fall back to Spanish. "
+        "All 22 language choices use the same SPA, complete versioned translations, four views, navigation and components. "
+        "A missing catalog key falls back to Spanish without changing the selected locale. "
         "Every locale links to seven matching PDF artifacts."
     )
     meta["capabilities"]["language_suffix_map"] = suffix_map
@@ -664,7 +710,7 @@ def write_backup_manifest() -> None:
 - Ubicación original: `assets/*.pdf`.
 - Integridad: SHA-256 registrado en `SHA256SUMS.txt`.
 - Alcance posterior: 7 familias documentales en 22 idiomas, **154 PDF públicos**.
-- Fuente de contenido: portafolio canónico `index.html`; fallback de claves a español.
+- Fuente de contenido: portafolio canónico `index.html` + catálogo versionado completo; fallback excepcional por clave a español.
 - Los README del perfil GitHub permanecen separados y no alimentan el sitio ni estos documentos.
 
 Los directorios privados `assets/no_aplica/` y `assets/por_solicitud/` no fueron modificados ni publicados.

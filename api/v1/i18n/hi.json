@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at": "2026-10-25",
+    "generated_at": "2026-10-26",
     "language": "hi",
     "language_name": "Hindi",
     "native_name": "हिन्दी",
     "direction": "ltr",
-    "content_language": "es",
+    "content_language": "hi",
     "fallback_language": "es",
     "source": "https://vladimiracunadev-create.github.io/index.html"
   },
   "profile": {
     "name": "Vladimir Acuña",
-    "title": "Arquitectura, modernización, automatización e IA aplicada a proyectos reales.",
-    "summary": "Arquitecto de Soluciones · Senior Full-Stack · Líder Tecnológico . 16+ años liderando la evolución de plataformas. Especializado en modernización de sistemas legacy , automatización de procesos , cloud & CI/CD e integración de IA aplicada .",
+    "title": "आर्किटेक्चर, आधुनिकीकरण, स्वचालन और आई.ए. ने वास्तविक परियोजनाओं पर लागू किया।",
+    "summary": "समाधान के वास्तुकार · वरिष्ठ पूर्ण-स्टैक · प्रौद्योगिकी लीडर . 16 + वर्षों में प्लेटफार्मों के विकास का नेतृत्व किया। कानूनी प्रणालियों का आधुनिकीकरण , प्रक्रिया स्वचालन , बादल और CI / CD E एकीकृत लागू IA .",
     "website": "https://vladimiracunadev-create.github.io/i18n/hi/",
     "github": "https://github.com/vladimiracunadev-create",
     "gitlab": "https://gitlab.com/vladimir.acuna.dev-group"
@@ -26,7 +26,7 @@
   "sections": [
     {
       "id": "hero",
-      "title": "Arquitectura, modernización, automatización e IA aplicada a proyectos reales.",
+      "title": "आर्किटेक्चर, आधुनिकीकरण, स्वचालन और आई.ए. ने वास्तविक परियोजनाओं पर लागू किया।",
       "min_level": 0,
       "freelance_hidden": false
     },
@@ -38,85 +38,85 @@
     },
     {
       "id": "evolucion",
-      "title": "Pilares Técnicos Consolidados",
+      "title": "समेकित तकनीकी स्तंभ",
       "min_level": 1,
       "freelance_hidden": true
     },
     {
       "id": "auditoria-ia",
-      "title": "Auditoría de código generado por IA",
+      "title": "आई ए द्वारा उत्पन्न कोड लेखा परीक्षा",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "productos",
-      "title": "Productos descargables",
+      "title": "डिस्पोजेबल उत्पाद",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "proyectos",
-      "title": "Proyectos destacados",
+      "title": "प्रमुख परियोजनाएँ",
       "min_level": 1,
       "freelance_hidden": true
     },
     {
       "id": "demos",
-      "title": "Demos en vivo",
+      "title": "चलो रहते हैं।",
       "min_level": 1,
       "freelance_hidden": false
     },
     {
       "id": "experiencia",
-      "title": "Experiencia",
+      "title": "अनुभव",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "flujo-ia",
-      "title": "Flujo de desarrollo asistido por IA",
+      "title": "आई ए द्वारा सहायता प्रदान की गई विकास प्रवाह",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "roles",
-      "title": "Alcance profesional real",
+      "title": "वास्तविक पेशेवर गुंजाइश",
       "min_level": 1,
       "freelance_hidden": true
     },
     {
       "id": "servicios",
-      "title": "Servicios",
+      "title": "सेवाएँ",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "modalidades",
-      "title": "Freelance · Modalidades de colaboración",
+      "title": "Freelance · सहयोग की Modality",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "descargas",
-      "title": "Centro de Descargas",
+      "title": "डिस्चार्ज सेंटर",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "referencias",
-      "title": "Referencias laborales",
+      "title": "श्रम संदर्भ",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "tarjeta",
-      "title": "Tarjeta de presentación",
+      "title": "प्रस्तुति कार्ड",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "contacto",
-      "title": "Contacto",
+      "title": "संपर्क",
       "min_level": 0,
       "freelance_hidden": false
     }

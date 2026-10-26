@@ -7,7 +7,7 @@
  * Categories:
  *   1. CSP & Security — no inline styles/scripts
  *   2. PDF Integrity — all referenced PDFs exist, correct targets
- *   3. Localization — six inline translations plus 22 canonical SPA entry routes
+ *   3. Localization — complete runtime catalog plus 22 canonical SPA entry routes
  *   4. View System — data-min-level attributes valid
  *   5. JSON API — all endpoints valid JSON
  *   6. PWA — manifest, service worker, offline page

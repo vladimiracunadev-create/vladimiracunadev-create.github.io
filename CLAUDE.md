@@ -2,7 +2,7 @@
 
 **Proyecto:** `vladimiracunadev-create.github.io`
 **Web:** <https://vladimiracunadev-create.github.io/>
-**Última actualización:** 2026-10-25
+**Última actualización:** 2026-10-26
 
 ---
 
@@ -74,9 +74,9 @@ PDFs generados por pipeline Python, PWA instalable, y API JSON estática en `api
 ### Sistema de idiomas (22 idiomas)
 
 - **Contrato:** `data/portfolio-i18n.json` define 22 locales, dirección, sufijos, vistas y secciones
-- **Traducciones inline:** ES, EN, PT, IT, FR, ZH
+- **Catálogo completo:** `data/portfolio-translations.json` contiene 933 textos y 36 atributos para cada uno de los 21 idiomas traducidos; español permanece canónico
 - **Fallback:** toda clave ausente usa español sin perder el idioma solicitado
-- **HTML:** atributos `data-es`, `data-en`, `data-pt`, `data-it`, `data-fr`, `data-zh` en elementos de texto
+- **HTML:** los atributos inline históricos permanecen compatibles, pero el runtime aplica el catálogo completo para los 22 locales
 - **PDFs:** `resolveLocalizedPdfHref(link, lang)` aplica los 22 sufijos sobre el enlace español canónico
 - **Rutas:** `/i18n/{locale}/` conserva el locale y redirige a la misma SPA con `?lang={locale}`
 - **Estado:** idioma, tema y vista persisten en `localStorage`; `html.lang` y `dir` se actualizan en runtime

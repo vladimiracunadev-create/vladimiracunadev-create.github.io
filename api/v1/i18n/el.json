@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at": "2026-10-25",
+    "generated_at": "2026-10-26",
     "language": "el",
     "language_name": "Greek",
     "native_name": "Ελληνικά",
     "direction": "ltr",
-    "content_language": "es",
+    "content_language": "el",
     "fallback_language": "es",
     "source": "https://vladimiracunadev-create.github.io/index.html"
   },
   "profile": {
     "name": "Vladimir Acuña",
-    "title": "Arquitectura, modernización, automatización e IA aplicada a proyectos reales.",
-    "summary": "Arquitecto de Soluciones · Senior Full-Stack · Líder Tecnológico . 16+ años liderando la evolución de plataformas. Especializado en modernización de sistemas legacy , automatización de procesos , cloud & CI/CD e integración de IA aplicada .",
+    "title": "Η αρχιτεκτονική, ο εκσυγχρονισμός, ο αυτοματισμός και η ΙΑ εφαρμόζονται σε πραγματικά έργα.",
+    "summary": "Ο αρχιτέκτονας των λύσεων · Senior Full-Stack · Τεχνολογικός ηγέτης . 16 + χρόνια ηγετικά την εξέλιξη των πλατφορμών. εκσυγχρονισμός των νομικών συστημάτων , αυτοματοποίηση διεργασίας , cloud & CI / CD ε ΙΑ (ενοποιημένος εφαρμοζόμενος ΙΑ) .",
     "website": "https://vladimiracunadev-create.github.io/i18n/el/",
     "github": "https://github.com/vladimiracunadev-create",
     "gitlab": "https://gitlab.com/vladimir.acuna.dev-group"
@@ -26,7 +26,7 @@
   "sections": [
     {
       "id": "hero",
-      "title": "Arquitectura, modernización, automatización e IA aplicada a proyectos reales.",
+      "title": "Η αρχιτεκτονική, ο εκσυγχρονισμός, ο αυτοματισμός και η ΙΑ εφαρμόζονται σε πραγματικά έργα.",
       "min_level": 0,
       "freelance_hidden": false
     },
@@ -38,85 +38,85 @@
     },
     {
       "id": "evolucion",
-      "title": "Pilares Técnicos Consolidados",
+      "title": "Ενοποιημένοι Τεχνικοί Πυλώνες",
       "min_level": 1,
       "freelance_hidden": true
     },
     {
       "id": "auditoria-ia",
-      "title": "Auditoría de código generado por IA",
+      "title": "Έλεγχος κώδικα που δημιουργήθηκε από τις IA",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "productos",
-      "title": "Productos descargables",
+      "title": "Προϊόντα που μπορούν να χρησιμοποιηθούν",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "proyectos",
-      "title": "Proyectos destacados",
+      "title": "Επιλεγμένα έργα",
       "min_level": 1,
       "freelance_hidden": true
     },
     {
       "id": "demos",
-      "title": "Demos en vivo",
+      "title": "Πάμε να ζήσουμε.",
       "min_level": 1,
       "freelance_hidden": false
     },
     {
       "id": "experiencia",
-      "title": "Experiencia",
+      "title": "Εμπειρία",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "flujo-ia",
-      "title": "Flujo de desarrollo asistido por IA",
+      "title": "Ροή ανάπτυξης που ενισχύεται από τις IA",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "roles",
-      "title": "Alcance profesional real",
+      "title": "Πραγματικό επαγγελματικό πεδίο εφαρμογής",
       "min_level": 1,
       "freelance_hidden": true
     },
     {
       "id": "servicios",
-      "title": "Servicios",
+      "title": "Υπηρεσίες",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "modalidades",
-      "title": "Freelance · Modalidades de colaboración",
+      "title": "Ελεύθερη παροχή · Μορφές συνεργασίας",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "descargas",
-      "title": "Centro de Descargas",
+      "title": "Κέντρο Εκφόρτισης",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "referencias",
-      "title": "Referencias laborales",
+      "title": "Αριθμός αναφοράς εργασίας",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "tarjeta",
-      "title": "Tarjeta de presentación",
+      "title": "Κάρτα παρουσίασης",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "contacto",
-      "title": "Contacto",
+      "title": "Επαφή",
       "min_level": 0,
       "freelance_hidden": false
     }

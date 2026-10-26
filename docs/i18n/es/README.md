@@ -1,11 +1,8 @@
-# Vladimir Acuña — Portafolio profesional
+# Vladimir Acuña — Portafolio
 
 <!-- Generated from canonical portfolio content: index.html -->
-<!-- locale:es; fallback:es -->
-
-> Idioma solicitado: `es` · Contenido faltante: fallback por clave a español.
-
-Vistas disponibles: `recruiter`, `normal`, `deep` y `freelance`.
+<!-- locale:es; catalog:portfolio-translations.json; fallback:es -->
+<!-- views:recruiter,normal,deep,freelance -->
 
 ## Arquitectura, modernización, automatización e IA aplicada a proyectos reales.
 

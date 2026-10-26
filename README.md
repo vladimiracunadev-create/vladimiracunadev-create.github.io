@@ -8,7 +8,7 @@
 
 Este repositorio alberga un **Portafolio de Alto Rendimiento** diseñado bajo la filosofía **KISS (Keep It Simple, Stupid)**. Se presenta como un núcleo estático puro, optimizado para la eficiencia extrema, que sirve de base para una arquitectura multiplataforma escalable (PWA + Mobile).
 
-**Estado verificado:** 2026-10-25. `index.html` es la fuente profesional del sitio y de los Markdown/API localizados; `data/portfolio-i18n.json` define el contrato de 22 idiomas, 16 secciones y 4 vistas. Los README del perfil GitHub permanecen separados en `sources/profile-readme/`. El respaldo previo a esta corrección está en `assets/backups/2026-10-25/i18n-overhaul-v1/`.
+**Estado verificado:** 2026-10-26. `index.html` es la fuente profesional del sitio y de los Markdown/API localizados; `data/portfolio-i18n.json` define el contrato de 22 idiomas, 16 secciones y 4 vistas, y `data/portfolio-translations.json` contiene las traducciones completas. Los README del perfil GitHub permanecen separados en `sources/profile-readme/`. Los respaldos previos a las correcciones están en `assets/backups/2026-10-25/`.
 
 ---
 
@@ -47,7 +47,7 @@ Este proyecto ha escalado de un portafolio personal a un **Demostrador Industria
 5. **Cloud Profesional + GenAI**: 14/15 casos AWS completados (incluyendo Caso I GenAI con Bedrock + Claude Haiku 4.5 + Lambda + xray-sdk; Caso O X-Ray distribuido). Infra inmutable (Terraform), seguridad OIDC y FinOps. Cobertura por certificación: ~68% SAA-C03, ~68% DVA-C02, ~50% SOA-C02. EKS v1.32 + ECS Fargate.
 6. **Multiplatform Core**: un solo código fuente para Web, PWA y Apps Nativas (Capacitor). Python Data Science Program v3.8.0 con 232 clases en 9 partes incluye App Desktop Windows nativa (PySide6 + Qt + kernel Jupyter interactivo) y App Android (Expo SDK 51). ChofyAI Studio v0.5.1 corre en macOS Apple Silicon + soporte experimental Windows + NVIDIA GPU (Tauri + Rust + React, pnpm + SHA-512 lockfile).
 7. **IA Agéntica & Local-First + LLM Discoverability**: LangGraph v4.15 con 25/25 backends operativos (cobertura 100%), estado tipado y rutas condicionales. MCP + Ollama Local con Security & Trust Profile (Bandit + pip-audit + Semgrep + CodeQL + SBOM) y blueprint AWS migration. Discoverability semántica vía `llm.txt`.
-8. **Internacionalización Completa**: 22 idiomas (ES/EN/PT/IT/FR/ZH/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL) con 154 PDFs generados por pipeline Python/reportlab + Chromium. Las seis traducciones inline se muestran en la misma SPA y toda clave ausente usa fallback español; las rutas `/i18n/{locale}/` conservan el idioma solicitado y entregan la misma navegación, componentes, tema y vistas.
+8. **Internacionalización Completa**: 22 idiomas (ES/EN/PT/IT/FR/ZH/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL) con un catálogo versionado de 933 textos y 36 atributos por cada uno de los 21 idiomas traducidos, más español canónico/fallback, y 154 PDFs. Las rutas `/i18n/{locale}/` conservan el idioma solicitado y entregan la misma navegación, componentes, tema y vistas.
 9. **Producto comercial Windows**: RootCause Windows Inspector v0.11.0 — diagnóstico forense escrito en Rust (edition 2024) con 5 ediciones publicadas (GUI Setup.exe, Portable .zip, CLI single-binary `rootcause.exe`, módulo PowerShell `.psm1`, extensión VS Code `.vsix`), ETW · WPR, SHA256SUMS por release, 11+ releases tagueadas. Landing en `/rootcause-windows-inspector/`.
 10. **Ingeniería curricular trazable**: Modern Software Engineering Program reúne 480 clases en 40 partes y 8 etapas. Lifelong Learning Ecosystem conecta 30 recorridos en 6 áreas sin contarse como programa adicional. Chilean School Learning Path alcanza 8.841 clases, 4.156 integraciones y 2.823 objetivos de aprendizaje desde 1° básico hasta 4° medio.
 
@@ -57,7 +57,7 @@ Este proyecto ha escalado de un portafolio personal a un **Demostrador Industria
 
 El sistema cuenta con un motor de **i18n (Internationalization)** e **Theming** de alto rendimiento:
 
-* **22 idiomas (ES/EN/PT/IT/FR/ZH/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL)**: una sola SPA conserva idioma, tema y vista. Seis idiomas tienen traducción inline; las claves ausentes hacen fallback a español y las descargas se resuelven para las 22 variantes.
+* **22 idiomas (ES/EN/PT/IT/FR/ZH/ZH-TW/JA/KO/TR/RU/VI/TH/DE/UK/PL/AR/FA/ID/NL/HI/EL)**: una sola SPA conserva idioma, tema y vista. El catálogo completo traduce cada unidad visible y atributo accesible; sólo una clave realmente ausente hace fallback a español, sin cambiar el locale, y las descargas se resuelven para las 22 variantes.
 * **4 vistas de lectura**: Reclutador, Normal, Profundo y Freelance ajustan la densidad y relevancia mediante `data-min-level` y `data-freelance-hide` sin duplicar páginas.
 * **Controles al tope del contenido**: vista, idioma y tema encabezan la columna de lectura (`.content-controls`), no el pie del panel lateral; en escritorio la barra queda anclada al hacer scroll.
 * **Temas Dinámicos**: Modo Oscuro/Claro totalmente reactivo, respetando las preferencias del sistema y del usuario.

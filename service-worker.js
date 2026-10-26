@@ -1,4 +1,4 @@
-const CACHE_NAME = 'vladi-portfolio-v22-i18n-20261025';
+const CACHE_NAME = 'vladi-portfolio-v23-full-i18n-20261025';
 const OFFLINE_URL = './offline.html';
 const LOCALE_ROUTES = [
     'es', 'en', 'pt', 'it', 'fr', 'zh', 'zh-TW', 'ja', 'ko', 'tr', 'ru',
@@ -11,8 +11,10 @@ const APP_SHELL = [
     './offline.html',
     './manifest.webmanifest',
     './data/portfolio-i18n.json',
+    './data/portfolio-translations.json',
     './i18n/localized.css',
     './i18n/localized.js',
+    './i18n/translations.js',
     './assets/favicon.svg',
     './assets/icons/icon.svg',
     './assets/icons/icon-192.png',

@@ -1,1082 +1,1079 @@
-# Vladimir Acuña — Portafolio profesional
+# Vladimir Acuña — Портфоліо
 
 <!-- Generated from canonical portfolio content: index.html -->
-<!-- locale:uk; fallback:es -->
+<!-- locale:uk; catalog:portfolio-translations.json; fallback:es -->
+<!-- views:recruiter,normal,deep,freelance -->
 
-> Idioma solicitado: `uk` · Contenido faltante: fallback por clave a español.
-
-Vistas disponibles: `recruiter`, `normal`, `deep` y `freelance`.
-
-## Arquitectura, modernización, automatización e IA aplicada a proyectos reales.
+## Архітектура, модернізація, автоматизація та IA надали реальним проектам.
 
 <!-- portfolio-section:hero -->
 
-Arquitecto de Soluciones · Senior Full-Stack · Líder Tecnológico . 16+ años liderando la evolución de plataformas. Especializado en modernización de sistemas legacy , automatización de procesos , cloud & CI/CD e integración de IA aplicada .
+Архітектор рішень · Старший повноступеневий · Технологічний керівник . 16 + роки провідної еволюції платформ. Спеціалізована в модернізація юридичних систем , автоматизація процесів , Хмара і CI / CD укр інтегрована прикладна IA .
 
-Flujo de desarrollo asistido por IA — ChatGPT Plus · Claude Code · Antigravity — con criterio técnico propio y validación humana.
+Потік розвитку IA - ЧаГП Плюс · Клодовий Кодекс · Антигравітність - з технічними критеріями та реанімацією людини.
 
-Interfaz preparada para múltiples idiomas , vistas Reclutador / Normal / Profundo / Freelance , tema claro / oscuro y despliegue web, PWA y APK .
+Інтерфейс, підготовлений для кілька мов , гляд Reclute / Нормальний / Глибоко / Freelance , Мистецтво світло / темний та розгортання Веб-сайт, PWA і APK .
 
-Información del portafolio actualizada hasta el 2026-10-25, 13:28 (America/Santiago).
+Інформація про оновлений портфель до 2026-10-25, 13:28 (Америка / Сантьяго.
 
-### Quién soy profesionalmente
+### Хто я професійно
 
-Soy Arquitecto de Soluciones y Senior Full-Stack con base en ingeniería, operación real y modernización progresiva. Mi trabajo está en el cruce entre sistemas legacy, automatización, cloud/CI-CD, observabilidad e IA aplicada con criterio técnico propio.
+Я архітектор рішень та старший повностацький комплекс з базою в машинобудуванні, реальній експлуатації та прогресивній модернізації. Моя робота на перехресті між спадщиною, автоматизація, хмарою / CIC, спостережливістю та системами IA, що застосовуються з власним технічним критерієм.
 
-Me acomoda ordenar contextos complejos, estabilizar operación, traducir requerimientos a decisiones técnicas y construir entregables mantenibles. No trabajo desde frases genéricas: prefiero levantar restricciones, riesgos, responsables y próximos pasos concretos.
+Я комфортний з складними контекстами, стабільною роботою, перевести вимоги до технічних рішень і побудувати доставку. Я не працює від генеричних фраз: Я віддаю перевагу обмеженням підйому, ризикам, відповідальним і наступним конкретним етапам.
 
-### Mi Estándar Industrial
+### Стандарт Промисловий
 
-- Observabilidad: Dashboards en Grafana para eliminar cajas negras.
+- Дотримання: Зламати в Графані для видалення чорних ящиків.
 
-- Resiliencia: Circuit breakers e idempotencia (Guardrails).
+- Збереження: Роз’єми та недоліки (Гуарари).
 
-- Cloud & FinOps: 15 casos AWS (ECS/EKS, Lambda, DynamoDB, Cognito, EventBridge, CloudWatch/X-Ray), OIDC y FinOps.
+- Хмари та фінOps: 15 AWS (ECS / EKS, Lambda, DynamoDB, Cognito, EventBridge, CloudWatch / X-Ray), OIDC та FinOps.
 
-- Developer Experience: Hub CLI, tests `doctor` y `smoke`, DevContainers.
+- Досвід розробника: Хаб КЛІ, тести лікаря «і» курка «, DevContainers.
 
-- Seguridad: gitleaks, tfsec, pre-commit hooks, IAM least privilege y secret scanning.
+- Безпека: gitleaks, tfsec, попередньо допуску гаків, IAM найменш привілеї та секретне сканування.
 
-- Serverless & Event-Driven: Lambda/SAM, DynamoDB, EventBridge, SQS/SNS y Cognito.
+- Серверний безвідмовний і привідний: Ламба / SAM, ДинамоDB, EventBridge, SQS / SNS і Cognito.
 
-### Si vienes desde reclutamiento
+### Якщо ви приїжджаєте з підбору
 
-Identidad principal:
+Головна ідентичність:
 
-Fortalezas: modernización legacy · automatización · cloud/CI-CD · IA aplicada · colaboración distribuida.
+Fortaleres: Модернізація спадщина · автоматизація · хмарний / Cic-CD · IA застосовано · розподілене співробітництво.
 
-También puedo asumir roles de Líder Tecnológico / Tech Lead en equipos que necesiten ordenar arquitectura, modernizar sistemas existentes, definir estándares técnicos y conectar negocio con desarrollo.
+Я також можу припустити ролі Технологічний лідер / Tech Lead в обладнанні, що необхідно структурувати, модернізувати існуючі системи, визначені технічні стандарти та пов’язані з розвитком бізнесу.
 
-- Descarga el CV o portafolio en tu idioma.
+- Завантажте резюме або портфоліо на Вашій мові.
 
-- Revisa logros resumidos y validación externa.
+- Відгуки про результати та зовнішню перевірку.
 
-- Abre README o RECRUITER.md en los repos clave.
+- Відкрийте README або RECRUITER.md у ключових репозиціях.
 
-### Cómo se ve en mis Repos
+### Як виглядає в моїй репозиції
 
-Demos reproducibles, IaC (Terraform), CI/CD en GitHub y GitLab, serverless (Lambda/SAM), event-driven (EventBridge/SQS/SNS), seguridad (gitleaks/tfsec/OIDC) y documentación por perfil. 15 casos AWS validados en monorepo GitLab.
+Ми надаємо рефродувальну, IaC (Terraform), CI / CD в GitHub і GitLab, без серверів (Lambda / SAM), привідний (EventBridge / SQS / SNS), безпеку (gitleaks / tfsec / OIDC) і профільну документацію. 15 AWS випадків, що діють в монореп GitLab.
 
-[Conversemos](https://vladimiracunadev-create.github.io/#contacto)
+[Поговоримо](https://vladimiracunadev-create.github.io/#contacto)
 
-[Ver productos](https://vladimiracunadev-create.github.io/#productos)
+[Переглянути продукти](https://vladimiracunadev-create.github.io/#productos)
 
-[Auditoría de código IA](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/)
+[Аудит коду ШІ](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/)
 
-[Ver proyectos](https://vladimiracunadev-create.github.io/#proyectos)
+[Переглянути проєкти](https://vladimiracunadev-create.github.io/#proyectos)
 
-[Ver demos](https://vladimiracunadev-create.github.io/#demos)
+[Переглянути демо](https://vladimiracunadev-create.github.io/#demos)
 
-[Ver documentos](https://vladimiracunadev-create.github.io/#descargas)
+[Переглянути документи](https://vladimiracunadev-create.github.io/#descargas)
 
-[Ver validación](https://vladimiracunadev-create.github.io/#referencias)
+[Подати заявку](https://vladimiracunadev-create.github.io/#referencias)
 
-[Ver alcance](https://vladimiracunadev-create.github.io/#roles)
+[Дивитися обсяг](https://vladimiracunadev-create.github.io/#roles)
 
 ## Resultados verificables
 
 <!-- portfolio-section:resultados -->
 
-mejora estimada en procesos críticos y reportes
+оцінка покращення критичних процесів та звітів
 
-menos fricción operativa y soporte en Batería Online
+менш оперативна тертя та підтримка в Інтернет-акумуляторі
 
-optimización aproximada en componentes DB/código
+приблизна оптимізація в компонентах DB / код
 
-frentes concurrentes atendidos en ciertos períodos
+приймали участь у певних періодах
 
-## Pilares Técnicos Consolidados
+## Консолідовані технічні плити
 
 <!-- portfolio-section:evolucion -->
 
-Estándares industriales aplicados de forma transversal en todo el ecosistema verificable: 14 casos AWS, 25 backends LangGraph operativos (cobertura 100%), 12 labs Docker, 12 microsistemas y 60 casos operativos en Problem Driven Systems Lab (12 × 5 stacks) — todos con observabilidad, hardening y reproducibilidad.
+Промислові стандарти застосовуються поперечні через верифіковану екосистему: 14 AWS, 25 LangGraph задніх кінцівок (100% покриття), 12 Docker лабораторії, 12 мікросистем і 60 операційних випадків в лабораторії Problem Driven Systems Lab (12 × 5 стеків) - всі з спостережливістю, загартуванням і відтворюваністю.
 
-### 📈 Observabilidad Industrial
+### 📈 Промислова експертиза
 
-Prometheus + Grafana en Docker Labs, Social Bot y Problem-Driven (puertos 9091/3001). LangGraph v4.15 expone `/health` , `/ready` , `/metrics` y LangSmith opt-in. AWS Caso O implementa X-Ray distribuido.
+Prometheus + Grafana в Docker Labs, Соціальний бот і Problem-Driven (порти 9091 / 3001). LangGraph v4.15 вигнає `/health` , `/ready` , `/metrics` І LangSmith опти-в. AWS Case O реалізує X-Ray розподілені.
 
-### 🛡️ Security Hardening
+### 🛡️ Безпека
 
-Auditoría 8 capas en LangGraph (non-root, 127.0.0.1, grype `fail-build` , nginx TLS, detect-secrets, Trojan Source, pip-compile, Dependabot). Microsistemas v3.x: Hardening 3 fases + SBOM en cada release. Trivy en Social Bot v4.3. TruffleHog + detect-secrets en proyectos AWS.
+8-шаровий аудит в LangGraph (не роот, 127.0.0.1, grype `fail-build` , nginx TLS, виявлення-secrets, Trojan Джерело, pip-compile, залежно від того, що микросистемати v3.x: Затверджувати 3 фази + SBOM в кожному випуску. Витривалість в Соціальному Боті v4.3. TruffleHog + виявлення-secrets в проектах AWS.
 
-### ♻️ Resiliencia & Continuidad
+### ♻️ Надійність та безперервність
 
-Idempotencia, Circuit Breakers y desvío controlado (DLQ) para fallos de terceros. Polyglot persistence en Social Bot v4.3 (9 lenguajes × 12+ DBs) con runtime isolation. Streaming + DEMO/LIVE + checkpoints SQLite en LangGraph para tolerancia a fallos LLM.
+Idempotence, вимикачі та контрольовані відхилення (DLQ) для сторонніх збоїв. Поліглотність наполегливості в Соціальному Боті V4.3 (9 мов × 12 + DB) з пусковою ізоляцією. Потокове + DEMO / LIVE + контрольні точки SQLite в LangGraph для LLM толерантності до збою.
 
-### 🛠️ DX & Reproducibilidad
+### 🛠️ DX & Репродукція
 
-Hub CLI multi-OS y Windows Installer firmado en Docker Labs v1.5. Tests `doctor` y `smoke` , Makefile operativo y validaciones por caso. CI/CD hardened en GitHub Actions con OIDC y matrix builds. Skills de Claude Code para flujos repetibles.
+Hub CLI мульти-OS і Windows Інсталятор підписаний в Docker Labs v1.5. Тести `doctor` і `smoke` , Операційний та випадковий файл. CI / CD, що передається в GitHub Дії з OIDC та матричних будівель. Навички Claude Code для повторюваних потоків.
 
-### ☁️ Cloud Profesional · GenAI
+### ☁️ Професійна Хмара · GenAI
 
-14/15 casos AWS completados (incluyendo GenAI con Bedrock + Claude Haiku 4.5 + Lambda). Infraestructura inmutable (Terraform), seguridad OIDC y FinOps. Cobertura por certificación: ~68% SAA-C03, ~68% DVA-C02, ~50% SOA-C02. EKS v1.32 + ECS Fargate.
+14 / 15 AWS завершені (включаючи GenAI з Bedrock + Claude Haiku 4.5 + Lambda). Незмінна інфраструктура (Terraform), OIDC безпеки та FinOps. Покриття сертифікації: ~ 68% SAA-C03, ~ 68% DVA-C02, ~ 50% SOA-C02. EKS v1.32 + ECS Fargate.
 
-### 🤖 IA Agéntica & Local-First
+### 🤖 IA Агентика та місцевий
 
-LangGraph v4.15: 25/25 backends operativos (cobertura 100%) con estado tipado y rutas condicionales. MCP + Ollama Local con Security & Trust Profile (Bandit + pip-audit) y blueprint AWS migration. ChofyAI Studio v0.5.1 (macOS Apple Silicon + soporte experimental Windows + NVIDIA GPU): Qwen3-TTS, whisper.cpp, FaceFusion, AceForge — IA local sin nube, pnpm + SHA-512 lockfile.
+LangGraph v4.15: 25 / 25 операційних запобіжників (100% покриття) з наконечником стану та умовними маршрутами. MCP + Local Olama з профілів безпеки та довіри (Bandit + pip-audit) та синім відбитком AWS міграції. ChofyAI Studio v0.5.1 (Apple Silicon macOS + експериментальна підтримка Windows + NVIDIA GPU): Qwen3-TTS, whisper.cpp, FaceFusion, AceForge - локальний без хмар, pnpm + SHA-512 файл.
 
-## Auditoría de código generado por IA
+## Аудит коду IA
 
 <!-- portfolio-section:auditoria-ia -->
 
-Nueva línea profesional: verificar, auditar y recuperar software creado con inteligencia artificial.
+Нова професійна лінія: перевірка, перевірка та відновлення програмного забезпечення, створеного з штучним інтелектом.
 
-La brecha de verificación aparece cuando la IA produce código más rápido de lo que un equipo puede comprenderlo, probarlo y validarlo. El resultado parece terminado, aunque contenga errores, vulnerabilidades, deuda técnica o funcionalidades simuladas.
+У випадку, якщо у неї є помилки, вразливості, технічний борг або імітаційні функціональності.
 
-No se trata solamente de revisar código. Se trata de recuperar el control técnico del producto.
+Не просто про перегляд коду. Це про відновлення технічного контролю продукту.
 
-[Ver el servicio completo](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/)
+[Переглянути повний сервіс](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/)
 
-[Solicitar diagnóstico técnico](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/#contacto)
+[Технічна діагностика](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/#contacto)
 
-## Productos descargables
+## Одноразові вироби
 
 <!-- portfolio-section:productos -->
 
-Productos terminados con instalador firmado (.exe), bundle portable (.zip) o app móvil (.apk). Cada uno incluye landing page propia cuando aplica, releases versionados en GitHub y verificación SHA-256 donde corresponde.
+Продукція, що завершується підпискою (.exe), переносним пакетом (.zip) або мобільним додатком (.app). Кожна частина включає в себе сторінку посадки власної, коли вона діє, випускає в себе верифіковану перевірку GitHub і SHA-256, де це доречно.
 
-### RootCause · Windows Inspector
+### КорнекСейза · Інспектор Windows
 
-Software forense de ciberseguridad para Windows escrito en Rust (edition 2024) — complementa al antivirus/EDR con telemetría cero. Descubre qué proceso, servicio, carpeta, conexión o traza ETL degrada el equipo (disco 100%, crecimiento anormal de %TEMP%, lentitud, alto consumo de RAM, red sin explicación). 5 ediciones: GUI Desktop (Setup.exe), Portable .zip, CLI single-binary (rootcause.exe), CLI Portable, módulo PowerShell y extensión VS Code. ETW · WPR · alto rendimiento. Diagnóstico primero, intervención después.
+Цифрове програмне забезпечення безпеки для Windows, написане в Rust (edition 2024) - доповнює антивірус / EDR з нульовою телеметрією. Відкрийте процес, сервіс, папка, підключення або слід ETL деградує комп'ютер (100% диск, аномалій ріст% TEMP%, повільне, висока споживання оперативної пам'яті, мережі без пояснення). 5 видань: GUI Desktop (Setup.exe), Портативний .zip, CLI одно-бінарний (rootcause.exe), CLI Portable, PowerShell модуль і розширення VS Code · висока продуктивність. Діагностика, інтервенція пізніше.
 
-### Automa · PC Orchestrator
+### Автомат · ПК Орхстратор
 
-Orquestador local de acciones efectivas sobre Windows. 27 flows declarativos en JSON (incluye extracción y vigilancia web con evidencia SHA-256) · Playwright + pywebview + PyInstaller · 150 pytest tests · instalador firmado.
+Місцевий Оркестр ефективних дій на Windows. 27 декларативних потоків на JSON (включає екстракцію та відеоспостереження з доказами SHA-256) · Playwright + pywebview + PyInstaller · 150 тестів для тестування на pyInstaller · підписаний інсталятор.
 
-### Python Data Science Program
+### Програма Data Science
 
-Programa de 232 clases en 9 partes (Python aplicado, ML, DL, MLOps, ingeniería de datos, ética, capstones). App escritorio Windows nativa (PySide6 + Qt + Jupyter), portable, app Android y curso PDF/PPTX.
+Програма 232 класи в 9 частинах (Притиснення, ML, DL, MLOps, інженерія даних, етика, капстони). Вікна рідна (PySide6 + Qt + Юпітер), портативна, Android додаток та PDF / PPTX курс.
 
-### ChofyAI Studio
+### Софія
 
-Lanzador de escritorio para IA local. Orquesta 5 herramientas: Qwen3-TTS, whisper.cpp, FaceFusion, AceForge y ComfyUI. Tauri 2 + Rust + React. Validado macOS Apple Silicon; soporte experimental Windows + CUDA. 5/5 inferencia real.
+пусконапускач для локальних IA. Orquesta 5 інструментів: Qwen3-TTS, whisper.cpp, FaceFusion, AceForge і ComfyUI. Tauri 2 + Rust + React. Дієдо macOS Apple Silicon; експериментальна підтримка Windows + CUDA. 5 / 5 реальна інфляція.
 
-### Docker Labs · Control Center
+### Docker Labs · Центр управління
 
-Laboratorio personal de contenedores Docker/Compose en múltiples stacks (PHP, Node.js, Python, BD, DevOps). Hub CLI multi-OS y Windows Installer firmado, doctor/smoke tests.
+Docker / Композиція в декількох стеках (PHP, Node.js, Python, BD, DevOps). Hub CLI багатоOS і Windows Installer підписано, доктор / димови.
 
-### Microsistemas · Productivity Suite
+### Мікросистеми · Люкс продуктивності
 
-12 microapps web autocontenidas para tareas recurrentes: desarrollo, mantención, diagnóstico y modernización de sistemas legacy. 195 katas en 67 tecnologías. Hardening 3 fases + SBOM por release.
+12 самовмістних веб-максів для рецидивних задач: розробка, технічне обслуговування, діагностика та модернізація систем спадкування. 195 katas в 67 технологіях. Затвердження 3 фази + SBOM для випуску.
 
-### Unikernel Control Center
+### Центр управління кермом
 
-Suite profesional para operar servicios Unikraft en Windows con backend WSL2. Control total vía Dashboard Node.js y Launcher WinForms en localhost. Arquitectura de alto rendimiento y orquestación unikernel.
+Професійний люкс для роботи Unikraft послуги в Windows з підтримкою WSL2. Повне керування через Dashboard Node.js і Launcher WinForms в локальномуhost. Архітектура високої продуктивності та оркестрування Unikernel.
 
-### GabySQL · Embedded DB + Modeler
+### GabySQL · Вбудований DB + модельлер
 
-Base de datos embebida en Rust (archivo único .db, WAL, cost-based optimizer, SAVEPOINT/ROLLBACK, 828 tests, fuzzing 503.8M queries) + GabyModeler GUI de escritorio. Builds para Windows, macOS arm64 y Linux x86_64.
+Rust-на основі, вартість на основі, SAVEPOINT / ROLLBACK, 828 тести, нечітко 503.8M претензій) + GabyModeler GUI Desktop. Windows, macOS arm64 та Linux x86 64 корпус.
 
-[Landing](https://vladimiracunadev-create.github.io/rootcause-windows-inspector/)
+[Земельні ділянки](https://vladimiracunadev-create.github.io/rootcause-windows-inspector/)
 
-[Setup .exe](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest/download/RootCause-Setup.exe)
+[Налаштування .exe](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest/download/RootCause-Setup.exe)
 
-[Portable .zip](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest/download/RootCause-Portable.zip)
+[Завантажити .zip](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest/download/RootCause-Portable.zip)
 
-[CLI Portable .zip](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest/download/RootCause-CLI-Portable.zip)
+[Завантажити CLI Portable для Windows 7, 8, 10](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest/download/RootCause-CLI-Portable.zip)
 
-[VS Code .vsix](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest/download/RootCause-VSCode-Extension.vsix)
+[Код ВС .vsix](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest/download/RootCause-VSCode-Extension.vsix)
 
-[Todas las ediciones](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest)
+[Всі видання](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest)
 
-[GitHub](https://github.com/vladimiracunadev-create/rootcause-windows-inspector)
+[ГитХуб](https://github.com/vladimiracunadev-create/rootcause-windows-inspector)
 
-[Landing](https://vladimiracunadev-create.github.io/automa-pc/)
+[Земельні ділянки](https://vladimiracunadev-create.github.io/automa-pc/)
 
-[Descargar .exe](https://github.com/vladimiracunadev-create/automa-pc/releases/latest/download/Automa-Setup-v0.3.0.exe)
+[Завантажити .exe](https://github.com/vladimiracunadev-create/automa-pc/releases/latest/download/Automa-Setup-v0.3.0.exe)
 
-[GitHub](https://github.com/vladimiracunadev-create/automa-pc)
+[ГитХуб](https://github.com/vladimiracunadev-create/automa-pc)
 
-[Landing](https://vladimiracunadev-create.github.io/python-data-science-program/)
+[Земельні ділянки](https://vladimiracunadev-create.github.io/python-data-science-program/)
 
-[.exe](https://github.com/vladimiracunadev-create/python-data-science-program/releases/latest/download/PythonDSProgram_Setup_v3.8.0.exe)
+[.интерв'ю](https://github.com/vladimiracunadev-create/python-data-science-program/releases/latest/download/PythonDSProgram_Setup_v3.8.0.exe)
 
-[.zip](https://github.com/vladimiracunadev-create/python-data-science-program/releases/latest/download/PythonDSProgram_windows_portable_v3.8.0.zip)
+[.й](https://github.com/vladimiracunadev-create/python-data-science-program/releases/latest/download/PythonDSProgram_windows_portable_v3.8.0.zip)
 
-[.apk](https://github.com/vladimiracunadev-create/python-data-science-program/releases/latest/download/PythonDSProgram_android_v3.8.0_debug.apk)
+[.АПК](https://github.com/vladimiracunadev-create/python-data-science-program/releases/latest/download/PythonDSProgram_android_v3.8.0_debug.apk)
 
-[GitHub](https://github.com/vladimiracunadev-create/python-data-science-program)
+[ГитХуб](https://github.com/vladimiracunadev-create/python-data-science-program)
 
-[Landing](https://vladimiracunadev-create.github.io/chofyai-studio/)
+[Земельні ділянки](https://vladimiracunadev-create.github.io/chofyai-studio/)
 
-[GitHub](https://github.com/vladimiracunadev-create/chofyai-studio)
+[ГитХуб](https://github.com/vladimiracunadev-create/chofyai-studio)
 
-[Descargar .exe](https://github.com/vladimiracunadev-create/docker-labs/releases/latest/download/docker-labs-setup-1.5.0.exe)
+[Завантажити .exe](https://github.com/vladimiracunadev-create/docker-labs/releases/latest/download/docker-labs-setup-1.5.0.exe)
 
-[Release v1.5.0](https://github.com/vladimiracunadev-create/docker-labs/releases/latest)
+[Випуск v1.5.0](https://github.com/vladimiracunadev-create/docker-labs/releases/latest)
 
-[GitHub](https://github.com/vladimiracunadev-create/docker-labs)
+[ГитХуб](https://github.com/vladimiracunadev-create/docker-labs)
 
-[Descargar .zip](https://github.com/vladimiracunadev-create/microsistemas/releases/latest/download/microsistemas-v1.1.0.zip)
+[Завантажити .zip](https://github.com/vladimiracunadev-create/microsistemas/releases/latest/download/microsistemas-v1.1.0.zip)
 
-[Release v1.1.0](https://github.com/vladimiracunadev-create/microsistemas/releases/latest)
+[Випуск v1.1.0](https://github.com/vladimiracunadev-create/microsistemas/releases/latest)
 
-[GitHub](https://github.com/vladimiracunadev-create/microsistemas)
+[ГитХуб](https://github.com/vladimiracunadev-create/microsistemas)
 
-[Descargar .exe](https://github.com/vladimiracunadev-create/unikernel-labs/releases/latest/download/UnikernelLabs.Launcher.exe)
+[Завантажити .exe](https://github.com/vladimiracunadev-create/unikernel-labs/releases/latest/download/UnikernelLabs.Launcher.exe)
 
-[Release v2.0.0](https://github.com/vladimiracunadev-create/unikernel-labs/releases/latest)
+[Випущено v2.0.0](https://github.com/vladimiracunadev-create/unikernel-labs/releases/latest)
 
-[GitHub](https://github.com/vladimiracunadev-create/unikernel-labs)
+[ГитХуб](https://github.com/vladimiracunadev-create/unikernel-labs)
 
-[Modeler .exe](https://github.com/vladimiracunadev-create/gabysql/releases/latest/download/gabymodeler_0.1.0_x64-setup.exe)
+[Модельер .exe](https://github.com/vladimiracunadev-create/gabysql/releases/latest/download/gabymodeler_0.1.0_x64-setup.exe)
 
-[Engine .zip (Win)](https://github.com/vladimiracunadev-create/gabysql/releases/download/v0.2.0/gabysql-v0.2.0-windows-x86_64.zip)
+[Двигун .zip (Win)](https://github.com/vladimiracunadev-create/gabysql/releases/download/v0.2.0/gabysql-v0.2.0-windows-x86_64.zip)
 
-[Todas las releases](https://github.com/vladimiracunadev-create/gabysql/releases)
+[Всі релізи](https://github.com/vladimiracunadev-create/gabysql/releases)
 
-[GitHub](https://github.com/vladimiracunadev-create/gabysql)
+[ГитХуб](https://github.com/vladimiracunadev-create/gabysql)
 
-## Proyectos destacados
+## Рекомендовані проєкти
 
 <!-- portfolio-section:proyectos -->
 
-Selección con foco en modernización, productividad, automatización y demos verificables.
+Підбір з фокусом на модернізації, продуктивності, автоматизації та врізних демо-демонстраціях.
 
-### Batería Online (Fundación CEIS)
+### Онлайн акумулятор (Фундація СЕІС)
 
-Suite psicométrica web a gran escala: evolución/soporte y modernización progresiva, optimización SQL Server, reportes PDF/Excel y continuidad operacional.
+Багатофункціональний веб-історичний люкс: еволюція / підтримка та прогресивна модернізація, оптимізація SQL Server, звіти PDF / Excel та оперативна безперервність.
 
-Por confidencialidad, no publico repos/código del producto institucional. Validación vía referencia laboral.
+За конфіденційність я не публікую репозицію / код інституційного продукту. Дійсність через трудовий довідник.
 
-### Productos con distribución real
+### Продукція з реальним розподілом
 
-### RootCause · Windows Inspector
+### КорнекСейза · Інспектор Windows
 
-Software forense de ciberseguridad para Windows 10/11 escrito en Rust: detecta distorsiones anómalas de CPU, disco, red, procesos, autoarranque y servicios contra baselines conocidas, correlaciona señales en incidentes (SQLite) y explica la causa raíz con evidencia. 5 modalidades en producción (GUI Fluent bilingüe ES/EN, CLI, módulo PowerShell con 9 cmdlets, extensión VS Code, tray icon) y distribución vía Scoop · Winget · Chocolatey. Complementa al antivirus/EDR. Telemetría: cero.
+Програмне забезпечення для Crypto Security для Windows 10 / 11, написане в Rust: виявляє ненормальні спотворення процесора, диска, мережі, процесів, самозавантаження та послуги проти відомих базових систем, корелює сигнали інцидентів (SQLite) і пояснює причину кореневої причини з доказами. 5 режимів у виробництві (GUI Bilingual Fluent ES / EN, CLI, PowerShell модуль з 9 смдлетами, розширенням VS Code, піктограма трафіку) і поширення через Scoop · Winget · Шоколад. Повний антивірус / EDR. Telemetry: нуль.
 
-### RootCause · Mobile Inspector
+### Корнеза · Мобільний інспектор
 
-Sensor forense de diagnóstico para Android e iOS construido en Flutter (colectores nativos Kotlin/Swift). Motor de reglas local que detecta distorsiones anómalas de memoria, almacenamiento, batería y superficie de permisos, con semáforo de severidad, historial de hasta 500 capturas, detección de stalkerware activo y evidencia forense en JSON y PDF (5 idiomas). APK v0.8.0 firmado en Releases. Sin permiso INTERNET: telemetría cero, verificada en cada build.
+Судовий діагностичний датчик для Android та iOS, побудований в Flutter (нативних колекторів Котлін / Swift). Двигун місцевого правила, який виявляє патологічну пам'ять, зберігання, акумулятор та дозволи поверхневих спотворень, з важкою світлою, запис до 500 ловців, активного виявлення стекланів та судових доказів в JSON і PDF (5 мов). APK v0.8.0 підписано в релізах. Без дозволу INTERNET: нульова телеметрія, перевірена в кожному будинку.
 
-### Rootcause Web Inspector · Proyecto
+### Веб-інспекція Rotcause · Проект
 
-RootCause Web Inspector v0.2.0 — sensor forense de la superficie del navegador: cookies, sesiones de correo, extensiones, descargas y permisos de sitio. Panel local en 127.0.0.1, extension MV3, CERO dependencias y cero telemetria verificada en CI. Hermano de las ediciones Windows (Rust) y Mobile (Flutter)
+RootCause Web Inspector v0.2.0 - Судовий датчик поверхні браузера: печиво, поштові сесії, розширення, завантаження та дозволи на сайт. Місцева панель в 127.0.0.1, розширення MV3, CERO залежностей та нульова телеметрія, перевірена на CI. Брат Windows (Rust) та Мобільні видання (Flutter)
 
-### Universal Code Scanner · Proyecto
+### Універсальний сканер коду · Проект
 
-Universal Code Scanner v1.1.0 — Lector Flutter de códigos QR y de barras que interpreta antes de actuar: 16 señales de riesgo locales por URL, confirmación explícita, historial e inventario cifrados con AES-256-GCM. Estado de escaneo siempre visible y tono propio de lectura. Android · iOS · macOS · PWA. Telemetría cero
+Універсальний сканер коду v1.1.0 - Плоттер зчитувач QR-кодів і барів, які він інтерпретує до дії: 16 локальних сигналів ризику за URL, явне підтвердження, історія та інвентаризацію, зашифровані AES-256-GCM. Завжди видимий статус сканування та власний тон читання. Android · iOS · MacOS · PWA. Zero Telemetry
 
-### GabySQL
+### ДЖИС
 
-Base de datos embebida escrita en Rust desde cero como proyecto de investigación: archivo único .db con WAL, SQL relacional completo (CTEs, window functions, triggers, PL/pgSQL, Row-Level Security), optimizador cost-based con EXPLAIN ANALYZE, API HTTP/JSON con transacciones cross-request y 828 tests verdes en 3 sistemas operativos. Fuzz del parser: 503.8M queries, 0 panics.
+Fist-на основі пляшкової бази як дослідницький проект: унікальний .db файл з WAL, повнофункціональні функції вікна SQL (CTEs), тригери та PL / pgSQL. HTTP / JSON API з крос-запитами та 828 зеленими тестами в 3 операційних системах.
 
-### Automa · PC Orchestrator
+### Автомат · ПК Орхстратор
 
-Orquestador local v0.3.0 de acciones efectivas sobre Windows: 27 flows operativos declarativos en JSON que abren ventanas reales, interactúan con DOM, capturan evidencia y vigilan la web (crawl BFS, detector de cambios y monitoreo de valores con evidencia SHA-256). Panel local en 127.0.0.1 (pywebview + PyInstaller) con scheduler cron y lock SQLite. Stack Python 3.10+, Playwright (headless/visible), OCR/visión, uv packaging, 150 pytest tests, instalador Windows firmado.
+Місцевий v0.3.0 Оркестр ефективних дій на Windows: 27 JSON операційних потоків, які відкривають реальні вікна, взаємодіють з DOM, захоплюють докази і моніторують веб (crawl BFS, змініть детектор і значення моніторингу з SHA-256 доказами). Місцева панель на 127.0.0.1 (pywebview + PyInstaller) з cron і SQLite Calendar. Стейк Python 3.10 +, Playwright (головний / видимий), OCR / бачення, uv упаковка, Windows підписано, hyplock, 150, hp.
 
-### ChofyAI Studio · IA Local macOS
+### Чоф'їАудит · Місцеві macOS
 
-Launcher de escritorio v0.5.1 que orquesta 5 herramientas de IA local (Qwen3-TTS, whisper.cpp, FaceFusion, AceForge, ComfyUI) con instalación reproducible, control real de procesos y 5/5 en inferencia real. Validado en macOS Apple Silicon; soporte experimental Windows + CUDA. Tauri 2 + Rust + React. Privacidad total sin dependencias cloud.
+Launcher de Desktop v0.5.1 que anicó 5 todo de IA локалізації (Qwen3-TTS, cper.cpp, FaceFusion, AceForge, ComfyUI) con instalación відтворювати реальний de procesos y 5 / 5 en inference real. Validado en macOS Apple Silicon; підтримка експериментальних Windows + CUDA. Tauri 2 + Rust + React. Privacidad загальний sin залежно від того, що
 
-### Rhino Suite · Ofimática
+### Rino Suite · Офіційний веб-сайт
 
-Suite ofimática web y de escritorio construida desde cero (v0.7.0, Fase 2.5): editor de documentos con modelo estructurado (JSON schema v5), motor Rust compilado a WebAssembly + motor TypeScript compatible, interfaz React 19, API Go con cuentas y compartición, e intercambio DOCX/ODT con lector/escritor propio sin dependencias externas.
+Web- та настільний офісний пакет, побудований з нуля (v0.7.0, Phase 2.5): редактор документів з структурованою моделлю (JSON schema v5), Rust-двигун, складений в WebAssembly + сумісний TypeScript-двигун, React 19 інтерфейс, API Go з обліковим записом та обміном, і DOCX / ODT обмін з зчитувачем / власним письменником без зовнішніх залежностей.
 
-### Guitarra Adventure · Proyecto
+### Пригоди Гітара · Проект
 
-Mi Aventura con la Guitarra · App educativa para aprender guitarra desde los 10 años · 24 lecciones en 6 mundos, afinador de 6 cuerdas, metrónomo sin deriva y 11 notas grabadas de guitarra real · Tauri 2 + React + TypeScript · Windows, Android, Linux, macOS, iOS y PWA · Sin publicidad, sin cuentas, offline · v1.0.0 con instaladores en Releases
+Мій Пригода з гітарою · Навчальний додаток для вивчення гітари від 10 років · 24 уроки на 6 світів, 6-string тюнер, недрифний метроном і 11 записаних ноти реальної гітари · Таурі 2 + React + TypeScript · Windows, Android, Linux, macOS, iOS і PWA · немає реклами, немає акаунтів, автономних · v1.0 з виходами інсталятори
 
-### Agentic Plugins Toolkit · Proyecto
+### Агенні плагіни Інструментарій · Проект
 
-agentic-plugins-toolkit · 6 plugins agénticos para Claude Code, OpenAI/Codex, Copilot, Gemini y MCP · repository-engineering · legacy-modernization · learning-program-studio · product-evolution · portfolio-governance · rootcause-response · 69 vistas generadas sin drift · Zero-deps
+агентські плагіни-toolkit · 6 агентичних плагінів для Claude Code, OpenAI / Codex, Copilot, Gemini і MCP · репозиторійно-інженерне управління · спадщина-модернізація · навчання-програма-студія · виробництво -evolution · портфель-контролю · кореневий-реконцентрат · 69 переглядів, сформованих без drift · Zero-deps
 
-### Operational Ai Agents · Proyecto
+### Операційні агенти Ai · Проект
 
-operational-ai-agents · 13 agentes para Claude Code · repository-evolution · legacy-modernization · curriculum-evolution · portfolio-publication · security-remediation · incident-root-cause · professional-profile · Contrato + gates humanos + evidencia verificable · 39 evals deterministas · Zero-deps · Cross-platform
+операція "А- агенти" для Claude Code · репозиторій -evolution · спадщина-модернізація · навчальна програма -evolution · портфель-громадський облік · захист-відмова · інцидент-роот-кауз · професійний-профіль · Договір + людські ворота + внутрішнє докази · 39 ОВД детерміновані · Зеро-депс · Кро-платформа
 
-### Empresa Operativa Chile · Proyecto
+### Чиліан Операційна компанія · Проект
 
-v1.5.0 · Crear, operar y controlar una empresa chilena a través del tiempo: constitución con evidencia, capital y CPT, patente municipal con su base legal, IVA/PPM, F29, cierre anual inmutable y auditoría. Guía, manual y glosario dentro de la app. Android, Windows y navegador. Reglas con fuente oficial. Cero telemetría. 🇨🇱
+v1.5.0 · Створювати, керувати та контролювати чиліанську компанію з часом: конституція з доказами, капіталом та CPT, муніципальний патент з його правовою основою, НДВ / ПМ, F29, щорічний незамінний закриття та аудит. Керівництво, керівництво та глянцевий в межах Android, Windows та браузера додаток. Правила з офіційним джерелом.
 
-### Rootcause Macos Inspector · Proyecto
+### Rotcause Macos Inspector · Проект
 
-RootCause macOS Inspector v0.1.0 — sensor forense de ciberseguridad para macOS (Rust): persistencia launchd, Gatekeeper, SIP, FileVault, XProtect, permisos TCC, procesos con firma y vecinos de red. Compara cada superficie con un estado bueno conocido y explica qué cambió, con evidencia. Telemetría: cero. Hermano de Windows, Web y Mobile
+RotCause macOS Inspector v0.1.0 - сенсор для кібербезпеки для macOS (Rust): персистентство запускається, шлюгер, SIP, FileVault, XProtect, TCC дозволи, процеси з підписом та мережевими сусідами. Порівняйте кожну поверхню з відомим державом і поясніть, що змінено, з доказами. Телеметрія: нуль. Брат Windows, Веб- та мобільний
 
-### Codex Skills Toolkit · Proyecto
+### Codex Skills Toolkit · Проект
 
-codex-skills-toolkit · 19 Agent Skills para Codex · seguridad y supply chain · preflight y flujos funcionales · resiliencia y estado · evidencia de release · Python-first · pnpm · Cross-platform
+Кодx-skills-toolkit · 19 Агент навички для Codex · Мережа безпеки і постачання · префліт і функціональних потоків · стійкість і стан · докази виходу · Python-first · pnpm · Cross-platform
 
-### Rootcause Qr Inspector · Proyecto
+### Rotcause Qr Inspector · Проект
 
-rootcause-qr-inspector · 26 señales locales y 107 pruebas · cámara, imágenes y PDF · evidencia redactada · Flutter/Dart · local-first y telemetría cero · APK Android v0.1.4 publicado
+kornecause-qr-inspector · 26 місцевих сигналів і 107 тестів · камера, зображення і PDF · письмові докази · Flutter / Dart · локально-перша і нульова телеметрія · APK Android v0.1.4 опубліковано
 
-### Pdf Reader Windows Android · Proyecto
+### Pdf Reader Windows Android · Проект
 
-PDF Reader v0.3.3 · lector PDF Android-first local y de solo lectura · acciones continuas, áreas seguras, miniaturas acotadas e historial reabrible · Android 7+, Windows y Web · cero cuentas, permisos sensibles y telemetría · APK firmado
+PDF Reader v0.3.3 · PDF зчитувач Android-перший локальний і читати тільки · безперервні дії, безпечні зони, мініатюри і відключення історії · Android 7 +, Windows і Web · нульові рахунки, чутливі дозволи та телеметрія · APK підписано
 
-### Rootcause Server · Proyecto
+### Сервер Rotcause · Проект
 
-RootCause Server v0.2.0 — plano de control en Rust que defiende servidores y la red que los rodea: superficie expuesta, ráfagas de autenticación, acceso concedido tras la ráfaga, integridad de archivos críticos y silencio del sensor. 18 reglas con evidencia y runbook — nunca ejecuta nada. Consola local sin dependencias web
+RootCause Server v0.2.0 - літак керування рустами, який захищає сервери і навколишню мережу: піддається поверхні, автентифікації лопається, доступ, надані після вибуху, критичної цілісності файлів і сенсорної тиші. 18 правил з доказами і пусковою книгою - ніколи не виконує нічого. Місцева консоль без інтернет-залежністей
 
-### Aws Desktop Studio · Proyecto
+### Aws Desktop Studio · Проект
 
-AWS Desktop Studio · 15 integraciones de inventario + 20 tutoriales · AWS CLI, Electron y localhost · Implementación en desarrollo; no acceso universal · Windows
+AWS Desktop Studio · 15 інтеграційних пристроїв + 20 підручників · AWS CLI, Електрон та локальнийhost · Реалізація розробки; неуніверсальний доступ · Windows
 
-### Ai Dataset Foundry · Proyecto
+### Ai Dataset Foundry · Проект
 
-AI Dataset Foundry v0.2.0 — factoría local-first para convertir PDF, Word, web, Git, JSON y CSV en datasets auditables para pretraining, fine-tuning, RAG y evaluación · Windows + Android offline
+AI Dataset Foundry v0.2.0 - локальна фабрика -перший для перетворення PDF, Word, веб, Git, JSON і CSV в аудитовані дані для претренування, тонкотуїнг, RAG і оцінка · Windows + Android автономний
 
-### Rootcause Blockchain Security · Proyecto
+### Rotcause Blockchain Security · Проект
 
-Laboratorio profesional watch-only de blockchain forensics y root cause analysis para Bitcoin, Ethereum y Polygon: TX, direcciones, reconciliación, grafos, timelines e informes con evidencia verificable. CLI + API local, cero dependencias, nunca claves privadas
+Професійна лабораторія фіксаторів та аналізів першопричинної причини для Біткойн, Етеуму та Полігону: TX, адреси, розвідувальні роботи, графіки, часові лінії та звіти з в'язаними доказами. CLI + локальний API, нульові залежності, ніколи не приватні ключі
 
-### Rootcause Bitcoin Defense · Proyecto
+### Rotcause Bitcoin Defense · Проект
 
-₿ RootCause Bitcoin Defense v0.3.0 — defensa watch-only y laboratorio forense UTXO: inputs, outputs, fees, change, procedencia, grafo de transacciones y reconciliación contable en regtest. App local, cero dependencias, nunca pide semillas ni usa fondos reales. Verificado en CI
+₿ RootCause Bitcoin Defense v0.3.0 - годинниковий захист і судова лабораторія UTXO: вводи, виходи, збори, зміна, прованс, графік транзакцій і бухгалтерський захищаючи в ретесті. Місцевий додаток, нульові залежності, ніколи не просять насіння або використовувати реальні кошти.
 
-### Decentraland Social Arcade · Proyecto
+### Децентраланд Соціальна Аркада · Проект
 
-decentraland-social-arcade · Experiencia 3D social nativa de Decentraland · 1 MVP y arquitectura multijuego · SDK7 + ECS + TypeScript · documentación en español · sin pagos ni telemetría
+Соціально-аркад · Соціальний досвід 3D, що є рідним для децентраланта · 1 MVP та багатогранної архітектури · SDK7 + ECS + TypeScript · документація іспанською мовою · без оплати або телеметрії
 
-### Commerce Operating System · Proyecto
+### Торгова система · Проект
 
-Commerce OS v0.3.0 · demo conceptual guiada en 6 pestañas: catálogo, stock, CRM, pedidos, pagos mock y trazabilidad · Web, Windows y Android · Sin dinero ni SII real
+Торгівля OS v0.3.0 · концептуальний демо-гід, що ведеться в 6 вкладках: каталог, акції, CRM, замовлення, mock платежі і простеження · Веб, Windows і Android · Немає грошей або реальних SII
 
-### Panuelo Al Viento Cueca App · Proyecto
+### The Cueca App Wind Flyer · Проект
 
-Pañuelo al Viento · Academia interactiva de cueca desde los 10 años · 24 clases, Dojo con huellas y espejo, Pañuelo Lab, Escenario guiado y progreso por habilidades · Flutter local-first · Android + Windows · v0.2.0
+Wind Dangle · Інтерактивна академія Cueca від 10 років · 24 класи, Dojo з принтами і дзеркалом, Dangle Lab, Scenario керований і майстерність прогресу · LocalFlutter -перший · Android + Windows · v0.2.0
 
-### Video Transcript Studio · Proyecto
+### Відеозапис студії · Проект
 
-Un video, una lista o un CANAL COMPLETO de YouTube → texto con marcas de tiempo. Whisper 100% local: sin API, sin cuenta, sin telemetría. Asistente de 4 etapas en escritorio Windows + panel local en 127.0.0.1 + CLI, con la misma cola. MD, PDF, TXT, SRT, VTT, JSON, MP3, OGG. FFmpeg incluido. Modo oscuro. 89 tests. 🇪🇸
+Відео, список або YouTube COMLETE CANAL → текст з позначками часу. Whisper 100% локальний: немає API, немає телеметрії, не 4-ступінковий помічник на Windows + локальній панелі на 127.0.0.1 + CLI, з тим же хвостом. MD, PDF, TXT, SRT, VTT, JSON, MP3, OGGG. FFmpeg включено. Темний режим. 89 тестів.
 
-### Lifelong Learning Ecosystem · Proyecto
+### Проект «Економічний розвиток життя»
 
-Brújula federada que conecta 30 recorridos reales en 6 áreas con mapas visuales y un portal offline accesible; no se cuenta como un programa adicional.
+Федеральний компас, який з'єднує 30 реальних турів у 6 областях з візуальними картами та доступним офлайн-порталом; не підраховується як додаткова програма.
 
-### Laboratorios de ingeniería
+### Інженерні лабораторії
 
-### Docker Labs · Infra Hub
+### Docker Labs · Інфрагма
 
-Laboratorios por stack con enfoque "levanta en 60s". Incluye dashboard local, Compose, stacks reales y rutas prácticas de observabilidad con Prometheus/Grafana.
+Стейк лабораторії з фокусом "до 60-х". Включає в себе локальну панель, складання, реальні стеки та практичні маршрути з дотриманням прометеусу / Графану.
 
-- Dashboards locales para explorar métricas de contenedores.
+- Місцеві щити для вивчення контейнерних метриків.
 
-- Manifiestos preparados para Kubernetes (K8s) y observabilidad.
+- Маніфести, приготовані для Кубернетелей (K8s) і спостережливості.
 
-### Cloud Portfolio · AWS & FinOps
+### Хмарний портфоліо · AWS & FinOps
 
 16 casos AWS (A–P) — todos completados, incluidos el Caso P (Strands Agents) desplegado y validado en AWS, el GenAI Caso I (Bedrock + Claude Haiku 4.5 + Lambda + xray-sdk) y el Caso O (X-Ray distribuido); en backlog solo las Fases 2–3 del Caso M (Multi-Región · Global Accelerator). Stack: Terraform, OIDC, S3/Amplify/CloudFront, Lambda/SAM, DynamoDB, Cognito/WAF, EventBridge/SQS/SNS, CloudWatch, ECS Fargate, EKS v1.32, FinOps. Seguridad con TruffleHog + detect-secrets + gitleaks + tfsec. Cobertura ~68% SAA-C03 / ~68% DVA-C02 / ~50% SOA-C02.
 
-### Microsistemas · Productivity Suite
+### Мікросистеми · Люкс продуктивності
 
-Suite modular para diagnóstico y modernización. Incluye Hub CLI, Makefile operativo, validaciones doctor/smoke y utilidades orientadas a bajar fricción en mantención real.
+Модульний люкс для діагностики та модернізації. Включає в себе Hub CLI, операційний макіяж, довідник / димовидалення та утиліти, спрямовані на зменшення тертя в реальному обслуговуванні.
 
-- Conversor de acentos, visor SQL seguro y visor de logs industrial.
+- Перетворювачі Accent, захищений SQL та промисловий журнал.
 
-- Migrador parcial PHP 8.x y generador de manifiestos.
+- PHP 8.x частковий мігратор і проявляється генератор.
 
-- Orientado a reducir la fricción y mejorar la DX del equipo.
+- Призначений для зменшення тертя і поліпшення DX обладнання.
 
-### Social Bot Scheduler · Orquestación
+### Соціальний бот-рекрутер · Оркестр
 
-Laboratorio políglota de integración v4.9.1: 19 casos operativos Origen → n8n → Receptor sobre 18+ motores de BD (SQL, NoSQL, grafos, vectorial, series temporales, streaming), auditados end-to-end con Docker. Guardrails de resiliencia (idempotencia, circuit breaker, DLQ), 11 patrones arquitectónicos y master dashboard con estado en vivo.
+Лабораторія інтеграції поліглоту в4.9.1: 19 операційних випадків Походження → n8n → Приймач понад 18 + BD-двигуни (SQL, NoSQL, графіки, вектор, часовий ряд, потокове передавання), аудитований кінець-кінець з Docker. Захисні охоронці (ідемпотенція, вимикач, DLQ), 11 архітектурних візерунків і панельний майстер з живим статусом.
 
-### Problem Driven Systems Lab
+### Лабораторія систем керованих систем
 
-12 desafíos de ingeniería × 7 stacks = 84 casos operativos (PHP 8 · Python · Node.js · Java 21 · .NET 8 · Go · Rust) con Dashboards Interactivos por caso (UI nativa para diagnóstico visual + métricas en tiempo real). Patrones Adapter, Strangler, Circuit Breaker, LRU y Cancellation. Plan AWS_MIGRATION.md (ECS Fargate · Lambda · EKS) con cost estimates y mapping explícito a SECURITY.md.
+12 технічних завдань × 7 стеків = 84 операційних випадків (PHP 8 · Python · Node.js · Java 21 · .NET 8 · Go · Rust) з Dashboards Interactive per case (UI рідний для візуальної та метричної діагностики в реальному часі). Адаптер, Strangler, транзистор, LRU та скасування. План AWS MIGRATION.md (ECS Fargate · Lambda · EKS) з оцінками вартості та явним відображенням до SECRITYmd.
 
-### WSL Labs · Container Center
+### WSL Labs · Контейнерний центр
 
-Centro de control de contenedores para Windows sobre wslc, el motor de contenedores nativo de WSL (v0.4.1) — sin Docker Desktop. Panel web Node.js (:9092) para construir, levantar y supervisar contenedores, launcher Windows en Go (.exe) y 12 casos reales portados de docker-labs con imagen y RAM medidas. containers.config.json como fuente única de verdad.
+Контролерний центр для Windows над wslc, WSL рідний контейнерний двигун (v0.4.1) - без Docker Desktop. Node.js веб-панель (: 9092) для побудови, підйому та контрольних контейнерів, запуску Windows в Go (.exe) та 12 реальних випадків з docker-labs з зображенням та оперативною пам'яттю вимірюється. контейнери.config.json як унікальний джерело правди.
 
-### Unikernel Labs · Control Center
+### Unikernel Labs · Центр управління
 
-Unikernel Control Center v2.0.0 · Suite tipo "Docker Desktop para unikernels": opera servicios Unikraft desde Windows sobre WSL2 con kraft + QEMU/KVM. Dashboard Node.js con health en tiempo real (localhost:9091), Launcher WinForms (.NET), instalador .exe y API local endurecida (anti DNS-rebinding, CSRF y path traversal).
+Unikernel Control Center v2.0.0 · Suite типу "Докер Desktop для Unikernels": працює сервіси Unikraft від Windows на WSL2 з крафтом + QEMU / KVM. Dashboard Node.js з безпечним здоров'ям (localhost: 9091), Launcher WinForms (.NET), .exe інсталятор і локальний жорсткий-користувач API (анти-DNS-reclining, CSRF і шлях-подібний).
 
-### Sandbox Labs · Proyecto
+### Сендвіч Лабора · Проект
 
-Laboratorio de aislamiento en Linux: ejecuta código, archivos y modelos de negocio ajenos bajo políticas declaradas, y emite evidencia firmada de qué controles se aplicaron de verdad en tu equipo. 36 casos en dos familias — sandboxes técnicos y mercado de capitales con dinero simulado. Experimental y educativo, no un producto de seguridad
+Лабораторія ізоляції Linux: працює код, файли та бізнес-моделі інших за заявленими політиками, а також питання, що були фактично застосовані на вашій команді. 36 випадків у двох сім'ях - технічні пісочниці та капіталовий ринок з імітацією грошей. Експериментально-освітні, не продукт безпеки
 
-### Universal Payments Engineering Lab · Proyecto
+### Універсальна інженерна лабораторія розрахунків · Проект
 
-Laboratorio autoexplicativo de ingeniería de pagos: 28 familias, DEMO local, estados, ledger, conciliación, seguridad y guías de implementación
+Самовипланова лабораторія платіжної техніки: 28 сімей, місцевих DEMO, штатів, придушення, примирення, контроль і здійснення інструкцій
 
-### Qemu Kvm Labs · Proyecto
+### Qemu Kvm Labs · Проект
 
-qemu-kvm-labs · 12 labs de virtualización real · QEMU, KVM, libvirt, cloud-init y vm-manager · Linux + WSL2
+Qemu-kvm-labs · 12 реальних віртуалізаційних лабораторій · QEMU, KVM, libvirt, хмарно-вмістовий і vm-manager · Linux + WSL2
 
-### Database Systems Labs · Proyecto
+### Бази даних Labs · Проект
 
-Programa abierto de ingeniería de bases de datos · 74 clases en 15 partes · 230 h · Del modelado conceptual a la arquitectura distribuida, la operación y la recuperación para IA · 120 fuentes con ISBN, DOI o norma citadas clase a clase y verificadas en CI · Glosario de 306 términos · El mismo caso resuelto en 27 motores
+Програма з проектування баз даних · 74 класи в 15 частинах · 230 h · Від концептуального моделювання до поширення архітектури, експлуатації та відновлення для IA · 120 джерел з ISBN, DOI або стандартом, зазначеним класом та перевіреним на CI · Glossary 306 умов · Те ж саме: вирішення 27 двигунів
 
-### Framework Ecosystems Labs · Proyecto
+### Рамкові системи Ecosystems Labs · Проект
 
-Laboratorio de clases comparadas: el mismo contrato ejecutable, sin adaptadores, contra Express, FastAPI, Spring Boot, ASP.NET, Django, Rails, Laravel, React, Vue, Svelte y más. 149 clases en 12 partes (70 construidas, 397 casos verificados en CI) · 210 fuentes con ISBN/DOI · seguridad, datos, interfaz
+Лабораторія порівняльного класу: той же виконуваний контракт, без адаптерів, проти Експресу, FastAPI, весняного чоботи, ASP.NET, Django, Rails, Laravel, React, Vue, Svelte та багато іншого. 149 класи в 12 частинах (70 вбудованих, 397 випадків, перевірених на CI) · 210 джерела з ISBN / DOI · безпека, дані, інтерфейс
 
-### IA aplicada
+### IA нанесла
 
-### LangGraph · Agentic Resilience
+### LangGraph · Агенний опір
 
-LangGraph v4.15.0 · 25/25 backends operativos (cobertura 100%, casos 01–25): streaming NDJSON, DEMO/LIVE, OAuth2 opt-in, observabilidad LangSmith, /metrics, 8 capas de seguridad, cadena de custodia SHA-256, Docker por caso y CI/CD hardened.
+LangGraph v4.15.0 · 25 / 25 операційних запобіжників (100% покриття, 01-25 випадків): потокове NDJSON, DEMO / LIVE, OAuth2 опція, LangSmith observability, / метрика, 8 шарів безпеки, SHA-256 ланцюг згортання, Docker на випадок і CI / CD загартоване.
 
-### MCP Ollama Local
+### MCP Місцева Оляма
 
-Web local (FastAPI) + Ollama + herramientas vía MCP y persistencia en SQLite. Privacidad total (localhost), herramientas seguras y documentación para onboarding técnico y reclutamiento.
+Місцевий веб (FastAPI) + Olama + інструменти через MCP і наполегливість в SQLite. Загальна конфіденційність (localhost), безпечні інструменти та документація для технічного бортового та рекрутингу.
 
-### Claude Skills Toolkit
+### Клодові навички інструментарій
 
-15 skills agentic para Claude Code (v0.2.0): security-audit (12 capas — OSV/KEV/EPSS/SAST/secrets/container/typosquat…), python-lint-guard (paridad local↔CI), python-deps-pinning, version-bump, md-to-doc, yaml-control, md-lint-fix, docker-cleanup, docker-compose-doctor, pre-push-guard, web-snap y más. Zero-deps por defecto y cross-platform (Linux/macOS/Windows).
+15 навичок агента для Claude Code (v0.2.0): Security-audit. python- lint-guard (локальна парність CI), piThon-deps-pinning. pre-push-guard, JavaScript licenses API Веб-сайт Go1.13.8
 
-### Neural Network Training Labs · Proyecto
+### Проект «Наукові мережі»
 
-Neural Network Training Labs v1.0 · 31 rutas (25 labs + 6 especializaciones) · 93 notebooks · Ciclo completo de ingeniería de IA con datasets públicos reales: sellado de test, registro champion/challenger, API de inferencia, ONNX/INT8/edge, DDP/FSDP2 y cadena de suministro (SBOM/SHA-256). PyTorch · Python 3.11–3.13
+Neural Network Training Labs v1.0 · 31 маршрути (25 лабораторій + 6 спеціалізація) · 93 блокноти · Повний цикл інженерії з реальними публічними даними: тестове затискання, шампіон / виклик, інфера API, ONNX / INT8 / кромка, DDP / FSDP2 і ланцюжка постачання (SBOM / SHA-256). PyTorch · Python 3.11-3.13
 
-### Currículos técnicos completos
+### Повний технічний навчальний план
 
-### Computational Mathematics Program · Proyecto
+### Програма математики комп'ютерних програм · Проект
 
-Matemática computacional en español · 18 partes · 360 clases en 5 etapas: de contar con los dedos a reproducir un paper · 360 demostraciones deterministas verificadas en CI · sin dependencias para aprender · 1080 notebooks · 489 términos de glosario · manual completo en PDF
+Комп'ютерна математика в іспанській мові · 18 частин · 360 класи в 5 етапів: від того, що пальці грати в папір · 360 детермінованих демонстрацій, перевірених в CI · без залежностей, щоб дізнатися · 1080 ноутбуків · 489 глянцевих термінів · повний посібник в PDF
 
-### Modern GameDev Program
+### Програма Gamedev
 
-El programa de desarrollo de videojuegos más completo en español — 352 clases en 22 partes, de fundamentos a nivel profesional. Matemáticas, C#/C++/GDScript, patrones y ECS; 10 laboratorios Godot verificados en CI y enfoque agnóstico de motor: Godot 4 · Unity · Unreal.
+Програма розвитку відео в іспанській - 352 класи в 22 частинах, професійних основ. Математика, C # / C + / GDScript, візерунки та ECS; 10 лабораторій Godot, перевірених на CI та моторно-діагностичний підхід: Godot 4 · Unreal.
 
-### Modern Cybersecurity Program
+### Програма «Сучасна кібербезпека»
 
-El programa de ciberseguridad más completo en español — 360 clases en 20 partes, de fundamentos a nivel experto. Laboratorios Docker levantables por comando, retos CTF con writeups, autoevaluaciones, guías PDF/PPTX y mapeo a 7 certificaciones (Security+, PenTest+, CySA+, OSCP, CISSP, BTL1, SANS) con 86–92% de cobertura.
+Найповніший програм з кібербезпеки іспанською мовою - 360 класи в 20 частинах, основ на рівні експерта. Докерські лабораторії вгору по команді, виклики CTF з проектами, самооцінки, керівництво PDF / PPTX і картографування до 7 сертифікацій (Security +, PenTest +, CySA +, OSCP, CISSP, BTL1, SANS) з 86-92% покриття.
 
-### Multi Cloud Engineering Program · Proyecto
+### Програма багатохмарного інженера · Проект
 
-Multi-Cloud Engineering Program v2.2.0 · 288 clases en 24 partes · 1.288 horas · El programa de ingeniería multi-cloud más completo en español: AWS, Azure, GCP, Kubernetes, Terraform, SRE, FinOps y arquitectura de sistemas · Manual PDF de 1.220 páginas, 288 labs deterministas con evidencia JSON, CLI con certificado y portal PWA.
+Багатохмарний інженерний програм v2.2.0 · 288 класи в 24 частини · 1.288 годин · Найповніший багатоканальний інженерна програма іспанської мови: AWS, Azure, GCP, Kubernetes, Terraform, SRE, FinOps і системна архітектура · 1,220-сторінка PDF Manual, 288 вкладок детермінініста з JSON, CLI докази з сертифікатом і PWA портал.
 
-### Finance And Banking Evolution Program · Proyecto
+### Програма «Фінанси та банківські еволюції» · Проект
 
-Programa abierto de 356 clases en 23 partes · 534 h · De calcular un porcentaje a construir y defender un banco digital: matemática financiera, contabilidad NIIF, crédito, riesgos, Basilea III, cumplimiento, finanzas abiertas, pagos transfronterizos, DLT, stablecoins, tokenización y MiCA · 26 casos y fuentes oficiales verificables en cada clase
+Програма 356 класів в 23 частини · 534 h · Розрахувати відсоток для побудови та захисту цифрового банку: фінансові математики, облік IFRS, кредит, ризики, Базовий III, відповідність, відкриті фінанси, транскордонні платежі, DLT, стабільні монети, токенізація та MICA · 26 справ та офіційних джерел, що виявляються в кожному класі
 
-### Modern Business Creation Program · Proyecto
+### Програма розвитку бізнесу · Проект
 
-Programa de 24 partes y 336 clases para crear y operar una empresa real en Chile: de la idea a la constitución, el SII, la operación, la crisis y la salida. Con 360 diagramas, glosario de 1.251 términos y manual de 1.541 páginas en PDF
+24-й тур програми та 336 класів для створення та роботи реальної компанії в Чилі: від ідеї до застигання, SII, операції, кризи та виходу. З 360 діаграмами, глянцевими 1,251 термінами та ручним 1,541 сторінок у PDF
 
-### Executive Leadership Founder Program · Proyecto
+### Програма розвитку лідерства · Проект
 
-Programa ejecutivo abierto de 288 clases en 24 partes · 720 h · De asumir tu primer resultado a dirigir una empresa y crear la tuya: liderazgo, equipos, talento, operaciones, KPI/OKR, finanzas, ventas, marketing, producto, estrategia, riesgo, IA, directorio, M&A y founder track Chile · 24 casos, 96 labs y 39 plantillas
+Відкрита виконавча програма 288 класів в 24 частини · 720 h · Припустимо, що ваш перший результат для запуску компанії і створення ваших: лідерство, команди, талант, операції, KPI / OKR, фінанси, продаж, маркетинг, продукт, стратегія, ризик, IA, каталог, M & A і фут трек Чилі · 24 випадки, 96 лабораторій і 39 шаблонів
 
-### Python Data Science Program
+### Програма Data Science
 
-232 clases en 9 partes (Python aplicado, ML clásico, Deep Learning, estadística inferencial, MLOps, ingeniería de datos, recomendadores, ética, capstones). Laboratorio Flask interactivo + app de escritorio Windows nativa (PySide6 + Qt + kernel Jupyter) + app Android (Expo SDK 51). 232 PDFs + 232 PPTX generados.
+232 класи в 9 частинах (Python застосувати, класичний ML, глибоке навчання, неференціальна статистика, MLOps, інженерія даних, рекомендується, етичний, капшони). Flask інтерактивний + настільний додаток рідних Windows (PySide6 + Qt + ядро Юпітер) + додаток Android (Expo SDK 51). 232 PDFs + 232 PPTX генерується.
 
-### Artificial Intelligence Evolution Program · Proyecto
+### Програма штучного інтелекту Evolution · Проект
 
-AI Evolution Program v0.17.0 · 180 clases en 15 partes con materia completa · 540 notebooks con ejercicios y soluciones · PDFs por parte + programa completo (~1.100 pags) · La evolución de la IA en español: simbólica, ML, deep learning, LLMs, RAG, agentes, MLOps, seguridad y frontera
+Програма AI Evolution v0.17.0 · 180 класів в 15 частинах з повним значенням · 540 ноутбуків з вправами і рішеннями · PDF за участю частини + повної програми (~ 1.100 сторінок) · Еволюція IA в іспанській мові: символічний, ML, глибоке навчання, LLMs, RAG, агенти, MLOps, безпека та кордон
 
-### Polyglot Programming Labs · Proyecto
+### Поліглотні програми
 
-El programa de programación comparada en español — 176 clases en 12 partes. Un concepto, 10 lenguajes del núcleo (Python, JS, TS, Java, C#, Go, Rust, C, SQL, PHP) verificados en CI, y un Atlas de ~40 familias. Aprende el concepto una vez y reconócelo en cualquier lenguaje
+Програма в порівнянні з іспанською - 176 класи в 12 частинах. Концепція, 10 основних мов (Питон, JS, TS, Java, C #, Go, Rust, C, SQL, PHP) перевірена на CI, а Atlas ~ 40 сімей. Дізнайтеся поняття один раз і від'єднати його в будь-якій мові
 
-### Blockchain Learning Path · Proyecto
+### Проект «Планета для навчання блокчейну»
 
-Blockchain Learning Path v0.14.0 · Programa en español: 28 módulos de cero a la infraestructura financiera programable — cripto, Bitcoin, EVM, contratos, seguridad, L2, ZK, DeFi, dinero y liquidación, stablecoins, CBDC/MDBC, pagos y FX, tokenización, RWA, mercados de capitales, custodia y regulación. 70 prácticas, 186 pruebas, apps offline
+Blockchain Learning Path v0.14.0 · Програма іспанською мовою: 28 модулів нуля до програми фінансової інфраструктури - crypt, Bitcoin, EVM, контракти, безпека, L2, ZK, DeFi, гроші та ліквідація, стабільні монети, CBDC / MDBC, платежі та FX, токенізація, RWA, ринки капіталу, Зберігання та регулювання. 70 практик, 186 тести, програми офлайн
 
-### Machine Operator Program
+### Програма оператора машин
 
-Base documental del Programa de Operación y Simulación de Máquinas: 41 cursos (29 vehículos reales + 12 naves de ficción) con 11 módulos cada uno — mandos, instrumentos, historia, reglamentos y diseño de simulación — con foco educativo y de seguridad. Aún sin simulador ejecutable; CI valida estructura y enlaces.
+Документальна основа Програми та моделювання машин: 41 курс (29 реальних транспортних засобів + 12 фантастичних суден) з 11-ма модулями кожного - контрольні, інструменти, історія, правила та імітаційний дизайн - з навчально-технічним та безпечним фокусом. Навіть без виконуваних тренажерів, CI діє структура та посилання.
 
-### Education Pedagogy Learning Sciences Program · Proyecto
+### Програма освітніх наук для педагогіки · Проект
 
-Pedagogía, Docencia y Ciencias del Aprendizaje v2.0.0 · 300 clases en 25 partes · El programa de formación pedagógica más completo en español: aprendizaje, didáctica, inclusión, currículum, evaluación, convivencia, IA educativa y liderazgo · Evidencia declarada por clase, 14 rutas por rol, 60 actividades de aula y portal offline 🇨🇱
+Педагогія, навчання та навчання наук v2.0.0 · 300 класів в 25 частинах · Найповніший викладацький курс іспанської мови: навчання, навчання, включення, навчальна програма, оцінка, співіснування, освіти IA та лідерство · Відмова, заявлена класом, 14 рольових маршрутів, 60 класичних заходів та офлайн портал
 
-### Marketing Sales Growth Evolution Program · Proyecto
+### Програма збуту маркетингу Evolution · Проект
 
-Marketing, Sales & Growth Evolution Program v1.6.0 · 336 clases en 24 partes · 1.348 conceptos, 1.012 métricas y 97 obras · marketing, ventas, RevOps, growth, analítica e IA comercial · portal offline en Python
+Маркетинг, продажі та зростання Evolution Програма v1.6.0 · 336 класи за 24 частини · 1.348 концепції, 1.012 метричні та 97 роботи · маркетинг, продаж, рекрутинг, зростання, аналітичний та комерційний IA · автономний портал на Python
 
-### Chilean School Learning Path · Proyecto
+### Чиліан Школа Навчальний шлях · Проект
 
-Currículum escolar chileno abierto: 8.841 clases, 4.156 integraciones y 2.823 OA desde 1° básico hasta 4° medio, con fuentes MINEDUC, guías pedagógicas y portal en GitHub Pages.
+Відкритий чиліан шкільний навчальний план: 8841 класи, 4,156 інтеграцій і 2,823 ОА з 1 базового до 4 середнього, з джерелами МІНЕДУ, педагогічними напрямами та порталом в GitHub Сторінки.
 
-### Architecture Built Environment Learning Program · Proyecto
+### Проект «Навчання навколишнього середовища»
 
-Programa integral del entorno construido en español: 680 clases en 68 partes, desde el encargo hasta el fin de vida; historia, proyecto, ciudad, sistemas, construcción, gestión, operación y rehabilitación · 8 talleres (48 sesiones) · 12 rutas · fuentes trazables por clase.
+Комплексна програма іспанського середовища: 680 класів в 68 частинах, від комісії до кінця життя; історія, проект, місто, системи, будівництво, управління, експлуатація та реабілітація · 8 майстер-класів (48 сеансів) · 12 маршрутів · урочищені джерела за клас.
 
-### Psychometrics And Assessment Program · Proyecto
+### Програма «Стратегічність та оцінка» · Проект
 
-psychometrics-and-assessment-program · 5 instrumentos · 344 ítems · 81 escalas · scoring auditable · currículo: 40 clases (5 escritas) · licencias trazables · Python 3.11–3.13 · 57 tests
+Психометрична програма оцінки та оцінки · 5 інструментів · 344 одиниць · 81 масштаби · слухняний рубрик · навчальних планів: 40 класів (5 письмових) · Витратні ліцензії · Python 3.11-3.13 · 57 тестів
 
-### Ingeniería de software moderna · Currículo técnico
+### Сучасна інженерія програмного забезпечення · Технічна навчальна програма
 
-480 clases, 40 partes y 8 etapas · fundamentos → producto, arquitectura, seguridad, DevOps, SRE, SPEC, IA y sistemas multiagente · estado editorial declarado por el repositorio.
+480 класів, 40 частин і 8 етапів · основи → продукт, архітектура, безпека, DevOps, SRE, SPEC, IA і багатоагентні системи · редакційне державе, оголошене репозиторією.
 
-### Ciencia y educación
+### Наукові та навчальні дисципліни
 
-### Human Genome Labs
+### Людські лабораторії
 
-Plataforma científica evolutiva y reproducible para genética molecular y genómica (v1.0.0): núcleo TypeScript verificable (secuencias, traducción, ORF, variantes, G-cuádruplex), contratos ScientificResult, lectores FASTA/GFF3/VCF, CLI científica, laboratorio web PWA y juego educativo. No realiza diagnóstico clínico.
+Еволюціонарна та рефструктивна наукова платформа для молекулярно-гуменевих генетиків (v1.0.0): верифікований ядро TypeScript (заходи, переклад, ORF, варіанти, G-quádruplex), Наукові результати контрактів, FASTA / GF3 / VCF зчитувачі, науковий CLI, веб-лабораторія та освітня гра.
 
-### Violin Adventure · Proyecto
+### скрипка пригода · проект
 
-Mi Aventura con el Violín · App educativa para aprender violín desde los 10 años · 24 lecciones en 6 mundos, afinador cromático, metrónomo y práctica guiada · Tauri 2 + React + TypeScript · Windows, Android, Linux, macOS, iOS y PWA · Sin publicidad, sin cuentas, offline · v1.0.0, instaladores firmados en Releases
+Мій Пригода з скрипкою · Навчальний додаток для вивчення скрипки з віку 10 · 24 уроків на 6 світах, хроматичний меліор, метроном і направляюча практика · Таурі 2 + React + TypeScript · Windows, Android, Linux, macOS, iOS і PWA · Немає реклами, немає акаунтів, автономних · v1.0.0, інсталятори підписані в релізах
 
-⚡ Varios proyectos de este portafolio fueron desarrollados con flujo asistido por IA (Claude Code · ChatGPT Plus · Antigravity) combinado con validación técnica y dirección arquitectónica propias.
+⚡ Кілька проектів цього портфоліо були розроблені з потоком, що допомагає ІА (Клодовий Кодекс · ЧаГП Плюс · Антигравітність) в поєднанні з технічними валідацією та архітектурним напрямком.
 
-### Repos recientes (auto)
+### Останні відгуки (авто)
 
-Se carga desde las APIs públicas de GitHub y GitLab (ordenada por actualización). Muestra estrellas ★ y forks ⑂.
+Він завантажується з публічних API GitHub і GitLab (замовлено оновленням). Він показує зірки і прокидки.
 
-### Actividad reciente (auto)
+### Недавні дії (сама)
 
-⬆ commits · 🔀 PRs / MRs · 🚀 releases — GitHub y GitLab en tiempo real.
+⬆ Відповідальність · hs / MRs · релізи - GitHub і GitLab в режимі реального часу.
 
-[Ver referencia](https://vladimiracunadev-create.github.io/#referencias)
+[Переглянути посилання](https://vladimiracunadev-create.github.io/#referencias)
 
-[Contactarme](https://vladimiracunadev-create.github.io/#contacto)
+[Зв'язатися з нами](https://vladimiracunadev-create.github.io/#contacto)
 
-[GitHub](https://github.com/vladimiracunadev-create/rootcause-windows-inspector)
+[ГитХуб](https://github.com/vladimiracunadev-create/rootcause-windows-inspector)
 
-[Release v0.19.0](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest)
+[Випуск v0.19.0](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest)
 
-[Landing](https://vladimiracunadev-create.github.io/rootcause-windows-inspector/)
+[Земельні ділянки](https://vladimiracunadev-create.github.io/rootcause-windows-inspector/)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/rootcause-mobile-inspector)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/rootcause-mobile-inspector)
 
-[Release v0.2.1](https://github.com/vladimiracunadev-create/rootcause-mobile-inspector/releases/latest)
+[Випуск v0.2.1](https://github.com/vladimiracunadev-create/rootcause-mobile-inspector/releases/latest)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/rootcause-web-inspector)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/rootcause-web-inspector)
 
-[Sitio del producto](https://vladimiracunadev-create.github.io/universal-code-scanner/)
+[Сайт: www.d.com.ua](https://vladimiracunadev-create.github.io/universal-code-scanner/)
 
-[Probar en el navegador](https://vladimiracunadev-create.github.io/universal-code-scanner/app/)
+[Тестування в браузері](https://vladimiracunadev-create.github.io/universal-code-scanner/app/)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/universal-code-scanner)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/universal-code-scanner)
 
-[Descargar APK](https://github.com/vladimiracunadev-create/universal-code-scanner/releases/latest)
+[Завантажити APK](https://github.com/vladimiracunadev-create/universal-code-scanner/releases/latest)
 
-[GitHub](https://github.com/vladimiracunadev-create/gabysql)
+[ГитХуб](https://github.com/vladimiracunadev-create/gabysql)
 
-[Release desktop-v0.1.0](https://github.com/vladimiracunadev-create/gabysql/releases/latest)
+[Видаляє настільний ПК-v0.1.0](https://github.com/vladimiracunadev-create/gabysql/releases/latest)
 
-[GitHub](https://github.com/vladimiracunadev-create/automa-pc)
+[ГитХуб](https://github.com/vladimiracunadev-create/automa-pc)
 
-[Release v0.3.0](https://github.com/vladimiracunadev-create/automa-pc/releases/latest)
+[Випуск v0.3.0](https://github.com/vladimiracunadev-create/automa-pc/releases/latest)
 
-[Sitio](https://vladimiracunadev-create.github.io/automa-pc/)
+[КОМПЛЕКС](https://vladimiracunadev-create.github.io/automa-pc/)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/chofyai-studio)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/chofyai-studio)
 
-[Commits](https://github.com/vladimiracunadev-create/chofyai-studio/commits/main)
+[Товари](https://github.com/vladimiracunadev-create/chofyai-studio/commits/main)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/rhino-suite)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/rhino-suite)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/guitarra-adventure)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/guitarra-adventure)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/agentic-plugins-toolkit)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/agentic-plugins-toolkit)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/operational-ai-agents)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/operational-ai-agents)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/empresa-operativa-chile)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/empresa-operativa-chile)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/rootcause-macos-inspector)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/rootcause-macos-inspector)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/codex-skills-toolkit)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/codex-skills-toolkit)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/rootcause-qr-inspector)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/rootcause-qr-inspector)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/pdf-reader-windows-android)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/pdf-reader-windows-android)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/rootcause-server)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/rootcause-server)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/aws-desktop-studio)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/aws-desktop-studio)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/ai-dataset-foundry)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/ai-dataset-foundry)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/rootcause-blockchain-security)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/rootcause-blockchain-security)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/rootcause-bitcoin-defense)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/rootcause-bitcoin-defense)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/decentraland-social-arcade)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/decentraland-social-arcade)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/commerce-operating-system)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/commerce-operating-system)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/panuelo-al-viento-cueca-app)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/panuelo-al-viento-cueca-app)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/video-transcript-studio)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/video-transcript-studio)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/lifelong-learning-ecosystem)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/lifelong-learning-ecosystem)
 
-[GitHub](https://github.com/vladimiracunadev-create/docker-labs)
+[ГитХуб](https://github.com/vladimiracunadev-create/docker-labs)
 
-[Release v1.5.0](https://github.com/vladimiracunadev-create/docker-labs/releases/latest)
+[Випуск v1.5.0](https://github.com/vladimiracunadev-create/docker-labs/releases/latest)
 
-[README](https://github.com/vladimiracunadev-create/docker-labs/blob/main/README.md)
+[ЧАСТИНО](https://github.com/vladimiracunadev-create/docker-labs/blob/main/README.md)
 
-[RECRUITER.md](https://github.com/vladimiracunadev-create/docker-labs/blob/main/RECRUITER.md)
+[РУЙТЕР.МД](https://github.com/vladimiracunadev-create/docker-labs/blob/main/RECRUITER.md)
 
-[Demos](https://vladimiracunadev-create.github.io/#demos)
+[Демо](https://vladimiracunadev-create.github.io/#demos)
 
-[GitHub](https://github.com/vladimiracunadev-create/proyectos-aws)
+[ГитХуб](https://github.com/vladimiracunadev-create/proyectos-aws)
 
-[Commits](https://github.com/vladimiracunadev-create/proyectos-aws/commits/main)
+[Товари](https://github.com/vladimiracunadev-create/proyectos-aws/commits/main)
 
-[README](https://github.com/vladimiracunadev-create/proyectos-aws/blob/main/README.md)
+[ЧАСТИНО](https://github.com/vladimiracunadev-create/proyectos-aws/blob/main/README.md)
 
-[GitLab](https://gitlab.com/vladimir.acuna.dev-group/proyectos-aws-gitlab)
+[HYIP и SSL](https://gitlab.com/vladimir.acuna.dev-group/proyectos-aws-gitlab)
 
-[Ver Demos](https://vladimiracunadev-create.github.io/#demos)
+[Дивитися демо](https://vladimiracunadev-create.github.io/#demos)
 
-[GitHub](https://github.com/vladimiracunadev-create/microsistemas)
+[ГитХуб](https://github.com/vladimiracunadev-create/microsistemas)
 
-[Release v1.1.0](https://github.com/vladimiracunadev-create/microsistemas/releases/latest)
+[Випуск v1.1.0](https://github.com/vladimiracunadev-create/microsistemas/releases/latest)
 
-[README](https://github.com/vladimiracunadev-create/microsistemas/blob/main/README.md)
+[ЧАСТИНО](https://github.com/vladimiracunadev-create/microsistemas/blob/main/README.md)
 
-[RECRUITER.md](https://github.com/vladimiracunadev-create/microsistemas/blob/main/docs/RECRUITER.md)
+[РУЙТЕР.МД](https://github.com/vladimiracunadev-create/microsistemas/blob/main/docs/RECRUITER.md)
 
-[GitHub](https://github.com/vladimiracunadev-create/social-bot-scheduler)
+[ГитХуб](https://github.com/vladimiracunadev-create/social-bot-scheduler)
 
-[Release v4.9.1](https://github.com/vladimiracunadev-create/social-bot-scheduler/releases/latest)
+[Випуск v4.9.1](https://github.com/vladimiracunadev-create/social-bot-scheduler/releases/latest)
 
-[README](https://github.com/vladimiracunadev-create/social-bot-scheduler/blob/main/README.md)
+[ЧАСТИНО](https://github.com/vladimiracunadev-create/social-bot-scheduler/blob/main/README.md)
 
-[GitHub](https://github.com/vladimiracunadev-create/problem-driven-systems-lab)
+[ГитХуб](https://github.com/vladimiracunadev-create/problem-driven-systems-lab)
 
-[Commits](https://github.com/vladimiracunadev-create/problem-driven-systems-lab/commits/main)
+[Товари](https://github.com/vladimiracunadev-create/problem-driven-systems-lab/commits/main)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/wsl-labs)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/wsl-labs)
 
-[Release v0.4.1](https://github.com/vladimiracunadev-create/wsl-labs/releases/latest)
+[Випуск v0.4.1](https://github.com/vladimiracunadev-create/wsl-labs/releases/latest)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/unikernel-labs)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/unikernel-labs)
 
-[Release v2.0.0](https://github.com/vladimiracunadev-create/unikernel-labs/releases/latest)
+[Випущено v2.0.0](https://github.com/vladimiracunadev-create/unikernel-labs/releases/latest)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/sandbox-labs)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/sandbox-labs)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/universal-payments-engineering-lab)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/universal-payments-engineering-lab)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/qemu-kvm-labs)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/qemu-kvm-labs)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/database-systems-labs)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/database-systems-labs)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/framework-ecosystems-labs)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/framework-ecosystems-labs)
 
-[GitHub](https://github.com/vladimiracunadev-create/langgraph-realworld)
+[ГитХуб](https://github.com/vladimiracunadev-create/langgraph-realworld)
 
-[Commits](https://github.com/vladimiracunadev-create/langgraph-realworld/commits/main)
+[Товари](https://github.com/vladimiracunadev-create/langgraph-realworld/commits/main)
 
-[README](https://github.com/vladimiracunadev-create/langgraph-realworld/blob/main/README.md)
+[ЧАСТИНО](https://github.com/vladimiracunadev-create/langgraph-realworld/blob/main/README.md)
 
-[RECRUITER.md](https://github.com/vladimiracunadev-create/langgraph-realworld/blob/main/docs/RECRUITER.md)
+[РУЙТЕР.МД](https://github.com/vladimiracunadev-create/langgraph-realworld/blob/main/docs/RECRUITER.md)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/mcp-ollama-local)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/mcp-ollama-local)
 
-[Commits](https://github.com/vladimiracunadev-create/mcp-ollama-local/commits/main)
+[Товари](https://github.com/vladimiracunadev-create/mcp-ollama-local/commits/main)
 
-[README](https://github.com/vladimiracunadev-create/mcp-ollama-local/blob/main/README.md)
+[ЧАСТИНО](https://github.com/vladimiracunadev-create/mcp-ollama-local/blob/main/README.md)
 
-[GitHub](https://github.com/vladimiracunadev-create/claude-skills-toolkit)
+[ГитХуб](https://github.com/vladimiracunadev-create/claude-skills-toolkit)
 
-[Commits](https://github.com/vladimiracunadev-create/claude-skills-toolkit/commits/main)
+[Товари](https://github.com/vladimiracunadev-create/claude-skills-toolkit/commits/main)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/neural-network-training-labs)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/neural-network-training-labs)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/computational-mathematics-program)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/computational-mathematics-program)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/modern-gamedev-program)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/modern-gamedev-program)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/modern-cybersecurity-program)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/modern-cybersecurity-program)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/multi-cloud-engineering-program)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/multi-cloud-engineering-program)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/modern-business-creation-program)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/modern-business-creation-program)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/executive-leadership-founder-program)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/executive-leadership-founder-program)
 
-[GitHub](https://github.com/vladimiracunadev-create/python-data-science-program)
+[ГитХуб](https://github.com/vladimiracunadev-create/python-data-science-program)
 
-[Release v3.8.0](https://github.com/vladimiracunadev-create/python-data-science-program/releases/latest)
+[Випуск v3.8.0](https://github.com/vladimiracunadev-create/python-data-science-program/releases/latest)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/artificial-intelligence-evolution-program)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/artificial-intelligence-evolution-program)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/polyglot-programming-labs)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/polyglot-programming-labs)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/blockchain-learning-path)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/blockchain-learning-path)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/machine-operator-program)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/machine-operator-program)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/education-pedagogy-learning-sciences-program)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/education-pedagogy-learning-sciences-program)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/chilean-school-learning-path)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/chilean-school-learning-path)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/psychometrics-and-assessment-program)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/psychometrics-and-assessment-program)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/modern-software-engineering-program)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/modern-software-engineering-program)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/human-genome-labs)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/human-genome-labs)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/violin-adventure)
+[Репо (GitHub)](https://github.com/vladimiracunadev-create/violin-adventure)
 
-## Demos en vivo
+## Давайте жити.
 
 <!-- portfolio-section:demos -->
 
-Enlaces públicos para ver despliegues reales (cuando aplica).
+Публічні посилання, щоб побачити актуальні розгортання (при використанні).
 
-### Portfolio Web · GitHub Pages
+### Веб-сайт GitHub
 
-Portafolio web en 22 idiomas desplegado en GitHub Pages vía GitHub Actions. PWA instalable, Lighthouse 100, 154 PDFs generados por pipeline y API JSON i18n.
+Веб-порт у 22 мовах, розміщених у GitHub Сторінки через GitHub Actions. PWA може бути встановлена, Lightthouse 100, 154 PDF, що генеруються трубопроводом та JSON i18n API.
 
-### AWS S3 + GitHub Actions
+### AWS S3 + GitHub Дії
 
-Deploy automático (sync) vía GitHub OIDC. Flujo profesional con validaciones.
+Автоматичне розгортання (sync) через GitHub OIDC. Професійне потік з валідацією.
 
-### Portal de Documentación (GitLab CI)
+### Документація (GitLab CI)
 
-Glassmorphism PWA desplegado desde GitLab vía OIDC y OAC (Caso L - FinOps).
+Скломорфізм PWA розгорнуто з GitLab через OIDC та OAC (Case L - FinOps).
 
-### AWS Amplify · Deploy por ramas
+### AWS Amplify · Розгортання по гілках
 
-Continuous Deployment con build automático, SSL y entornos aislados (main/dev).
+Безперервне розгортання з автоматичною будівлею, SSL та ізольованими середовищами (основний / делюкс).
 
-### Docker Labs: dashboard local
+### Docker Labs: локальний панель
 
-Un “hub” local para explorar labs por stack. Ideal para entrevistas técnicas.
+Місцева «хуб» для вивчення лабораторій у вигляді стека. Ідеально підходить для технічних інтерв’ю.
 
-[Ver sitio](https://vladimiracunadev-create.github.io/)
+[Почати сайт](https://vladimiracunadev-create.github.io/)
 
-[GitHub](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io)
+[ГитХуб](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io)
 
-[Ver demo](https://mi-pagina-scrum-123.s3.us-east-2.amazonaws.com/index.html)
+[Дивитися демо](https://mi-pagina-scrum-123.s3.us-east-2.amazonaws.com/index.html)
 
-[GitHub Repo](https://github.com/vladimiracunadev-create/proyectos-aws)
+[GitHub Репо](https://github.com/vladimiracunadev-create/proyectos-aws)
 
-[Ver demo](http://finops-vladimir-portfolio-case-l.s3-website.us-east-2.amazonaws.com)
+[Дивитися демо](http://finops-vladimir-portfolio-case-l.s3-website.us-east-2.amazonaws.com)
 
-[GitLab Repo](https://gitlab.com/vladimir.acuna.dev-group/vladimir.acuna.dev-group)
+[GitLab Репо](https://gitlab.com/vladimir.acuna.dev-group/vladimir.acuna.dev-group)
 
-[Demo main](https://main.d3r1wuymolxagh.amplifyapp.com/)
+[Головна попит](https://main.d3r1wuymolxagh.amplifyapp.com/)
 
 [Demo dev](https://dev.d20m8tc0banvg.amplifyapp.com/)
 
-## Experiencia
+## Досвід
 
 <!-- portfolio-section:experiencia -->
 
-Resumen por hitos (usa la vista “Profundo” para detalles).
+Резюме намітань (за допомогою «Deep» для деталей).
 
-### Transición (laboratorios + portafolio)
+### Перехід (лабораторії + портфель)
 
-Estandarización de entornos, laboratorios Docker/AWS, automatización, observabilidad y prototipos con IA local.
+Стандартизація навколишнього середовища, Docker / AWS лабораторій, автоматизація, спостережливість та прототипи з локальною IA.
 
-- Documentación reproducible por perfil (reclutador, desarrollador y casos prácticos).
+- Відповідна документація профілю (рекрутер, розробник та практичні випадки).
 
-- Foco en prácticas: ramas, PRs, CI/CD, Pages y releases.
+- Зосереджуйте увагу на практиці: гілки, PR, CI / CD, сторінки та релізи.
 
-### Fundación CEIS Maristas
+### Фонд Мартистаса
 
-Arquitectura, desarrollo y operación de plataformas web educativas/psicométricas. Optimización SQL/performance. Seguridad operacional: análisis forense de ataques, gestión de logs y pruebas con OWASP ZAP y JMeter.
+Архітектура, розробка та робота освітніх / психометричних веб-платформ. Оптимізація SQL / продуктивність. Оперативна безпека: судовий аналіз атак, управління логом та тестування з OWASP ZAP та JMeter.
 
-- Seguridad: análisis forense de ataques al servidor en más de una ocasión, determinando origen, vector de entrada y alcance.
+- Безпека: судовий аналіз атак сервера на більш ніж одну з випадків, визначення походження, вектор введення та досягнення.
 
-- Gestión y análisis de logs del servidor y del entorno PHP: depuración de código y detección de actividad anómala desde IP desconocidas.
+- Управління та аналіз стану сервера та PHP: очищення коду та виявлення аномальної активності від невідомого IP.
 
-- Endurecimiento del sistema con OWASP ZAP (simulación de ataques) y pruebas de carga con Apache JMeter .
+- Система ОВАСП ЗАП (моделювання атак та випробувань навантаження з ДЖМЕР .
 
-- Formación en ciberseguridad durante la pandemia y posterior charla institucional de ciberseguridad.
+- Навчання в кібербезпекі під час пандемічної та подальшої інституційної дискусії на кібербезпекі.
 
-### Negocio + TI
+### Бізнес + IT
 
-Formación técnica en administración de empresas: procesos, eficiencia, marketing y medición.
+Технічне навчання в управлінні бізнесом: процеси, ефективність, маркетинг та вимірювання.
 
-## Flujo de desarrollo asistido por IA
+## Проект «Розвиток розвитку»
 
 <!-- portfolio-section:flujo-ia -->
 
-Uso herramientas de IA como aceleradores técnicos reales en proyectos, no como sustitutos del criterio propio.
+Я використовую інструменти IA як реальні технічні акселератори в проектах, не як замінники для власних. критерій.
 
-### Herramientas en uso activo
+### Інструменти для активного використання
 
-- ChatGPT Plus (desde 2023) · análisis, arquitectura, iteración y documentación
+- ЧаГП плюс (з 2023) · аналіз, архітектура, ітерація та документація
 
-- Codex · generación y refactorización de código
+- Кодx · створення та рефакторизація коду
 
-- Claude Code · revisión arquitectónica, implementación y documentación técnica
+- Код товару · архітектурний огляд, впровадження та технічна документація
 
-- Antigravity · aceleración de flujos de desarrollo y automatización
+- Антигравітність · прискорення процесів розробки та автоматизації
 
-- VS Code / OpenCode · entornos de desarrollo con asistencia IA integrada
+- Код ВС / OpenCode · IA-допомоги
 
-### Dónde aplico IA en el flujo
+### Де я наносила IA в потік
 
-- Diagnóstico técnico y análisis de arquitectura
+- Технічний аналіз діагностики та архітектури
 
-- Diseño de soluciones y validación de decisiones
+- Розробка та перевірка рішень
 
-- Implementación, refactorización y pruebas
+- Реалізація, рефакторизація та тестування
 
-- Documentación técnica y por perfil
+- Технічна та профільна документація
 
-- Aceleración de proyectos e iteración sobre repositorios
+- Прогнозування та репозиторійна ітерація
 
-"Combino criterio técnico propio, validación humana y dirección arquitectónica. La IA amplifica capacidad, velocidad y alcance técnico — no reemplaza experiencia."
+"Я поєдную технічні критерії власної, валідації людини та архітектурного напрямку. IA посилює продуктивність, швидкість та технічний досяг - це не замінює досвід. "
 
-## Alcance profesional real
+## Реальний професійний обсяг
 
 <!-- portfolio-section:roles -->
 
-Jerarquía clara: identidad principal primero, expansión natural después, alcance complementario al final.
+Очистити ієрархію: перша головна ідентичність, потім природне розширення, доповнюється до кінця.
 
-### 🎯 Identidad principal
+### 🎯 Головна
 
-16+ años de arquitectura, desarrollo y operación de plataformas reales. Modernización progresiva sin cortar operación, integración de sistemas, automatización de procesos e IA aplicada — con criterio técnico propio y validación humana.
+16 + роки архітектури, розробки та експлуатації реальних платформ. Прогресивна модернізація без операції різання, інтеграція систем, автоматизації процесів та застосування IA - з технічним критерієм та реанімацією людини.
 
-### ↗ Expansión natural — cargos que puedo asumir con fuerza
+### ↗ Природне розширення - зарядки можна припускати з міцністю
 
-Respaldados por experiencia directa, proyectos verificables y flujo asistido por IA.
+Підтримувані прямі проекти та IA-просвітницькі витрати.
 
-### Líder Tecnológico / Tech Lead
+### Технологічний лідер / Tech Lead
 
-Dirección técnica de proyectos, definición de arquitectura, revisión de decisiones críticas, acompañamiento de equipos, modernización de sistemas existentes y conexión entre objetivos de negocio y soluciones tecnológicas mantenibles.
+Технічний напрямок проекту, визначення архітектури, огляд критичних рішень, обладнання, модернізація існуючих систем та підключення бізнес-цільових задач та сталого технологічного рішення.
 
-### AI Orchestration Engineer
+### Інженер з техніка
 
-Diseño de sistemas agénticos con LangGraph, FastAPI y MCP. Agentes con estado, rutas condicionales y resiliencia.
+Проектування атомічних систем з LangGraph, FastAPI та MCP. Агенти з державними, умовними маршрутами та резилітацією.
 
-### AI Automation Engineer
+### Інженер з автоматизації штучного інтелекту
 
-Automatización de flujos con n8n, Python y orquestadores resilientes. Circuit Breaker, Idempotencia y observabilidad.
+Автоматизація потоків з n8n, Python та резисторними оркестрами. Колесний вимикач, Ідемпотензія та спостережливість.
 
-### Solutions Engineer
+### Інженер-консультант з питань автоматизації
 
-Demos y PoCs reales, comunicación técnico-negocio, requisitos y arquitectura orientada a cliente.
+Ми надаємо та поставляємо реальний, технічний зв'язок - бізнес, вимоги та індивідуальна архітектура.
 
-### Technical Product Builder
+### Технічний конструктор продуктів
 
-Construcción de productos digitales end-to-end: arquitectura, desarrollo, operación y entrega con criterio de producto.
+Будівництво цифрових продуктів в кінці: архітектура, розробка, робота та доставка з критеріями продукту.
 
-### Consultor de Transformación Digital
+### Консультант з цифрової трансформації
 
-Diagnóstico técnico, plan evolutivo y ejecución de modernización en organizaciones con sistemas legacy reales.
+Технічна діагностика, еволюційний план та впровадження модернізації в організаціях з реальними системами спадкоподібної системи.
 
-### Product Operations Técnico
+### Технічні характеристики продукту
 
-Operación, continuidad y evolución de plataformas con foco en reducción de fricción, observabilidad y mejora continua.
+Операція, безперервність і еволюція платформ з фокусом на тертях, спостереженні і безперервному поліпшенні.
 
-### Instructor de Programación y Pensamiento Computacional
+### Комп'ютерне програмування та думка
 
-445+ horas dictadas como relator técnico (2003–2004, 2011): programación web, HTML/CSS, Office y hardware. Titulación universitaria sobre entorno educativo web para niños con Síndrome de Down (nota 6.7). Ing. en Computación e Informática (UTA) + 16 años operando plataformas de evaluación educativa real.
+445 + години, які надаються технічним репортером (2003-2004 рр.), 2011 р.): веб програмування, HTML / CSS, офіс та обладнання. Університетський ступінь на веб-освітній середовищі для дітей з синдромом внизу (примітки 6.7). У розділі Комп'ютерні та інформатики (UTA) + 16 років працює реальні навчальні платформи.
 
-### 🧭 Qué tipo de liderazgo tecnológico ofrezco
+### 🧭 Що таке технологічне керівництво
 
-- Liderazgo técnico práctico, no solo administrativo.
+- Практичне керівництво по технічному праві, не просто адміністративно.
 
-- Decisiones basadas en experiencia real de producción.
+- Рішення на основі досвіду реального виробництва.
 
-- Modernización gradual sin interrumpir la operación.
+- Поступово-відновлювальна модернізація без перерв.
 
-- Documentación clara para equipos, reclutadores y continuidad.
+- Очистити документацію для команд, рекрутерів та безперервності.
 
-- IA como amplificador técnico, no como sustituto del criterio profesional.
+- IA як технічний підсилювач, не як замінник професійного критерію.
 
-- Enfoque en estabilidad, mantenibilidad, seguridad y reducción de deuda técnica.
+- Підхід до стабільності, стійкості, безпеки та технічного скорочення заборгованості.
 
-### ⚙️ Alcance complementario
+### ⚙️ Додатковий обсяг
 
-Extensión lógica del perfil. Asumo estos roles cuando el contexto o el proyecto lo requieren, no como identidad principal.
+логічного розширення профілю. Я приймаю на цих ролях, коли контекст або проект вимагає його, не як основний стиль.
 
-### ✅ Por qué puedo asumir este alcance
+### ✅ Чому я можу прийняти цей діапазон
 
-- Liderazgo tecnológico — Guía técnica de equipos, definición de estándares, revisión de riesgos y acompañamiento en decisiones críticas.
+- Технологічна діяльність — Технічний посібник з обладнання, визначення стандартів, огляд ризиків та дотримання критичних рішень.
 
-- Arquitectura de soluciones — Diseño y evolución de sistemas desde la raíz hasta producción.
+- Дизайн рішень — Розробка та еволюція систем з кореня до виробництва.
 
-- Modernización de legacy — 16+ años con sistemas heredados sin cortar operación.
+- Модернізація — 16 + років з успадкої системою без операції різання.
 
-- Automatización — n8n, Python, workflows resilientes con observabilidad en Grafana.
+- Автоматика — n8n, Python, резисивні робочі процеси з спостережливістю в Графані.
 
-- Cloud / CI/CD — AWS (Lambda, DynamoDB, ECS, EKS, Cognito, EventBridge, CloudWatch/X-Ray), Terraform, OIDC, FinOps.
+- Хмар / CI / CD — AWS (Lambda, DynamoDB, ECS, EKS, Cognito, EventBridge, CloudWatch / X-Ray), Terraform, OIDC, FinOps.
 
-- Desarrollo polyglot — Python, Go, TypeScript, Node.js, PHP 8.x, C#, Ruby, PowerShell, Makefile.
+- Розробка поліглоту — English, Українська, Français...
 
-- Integración de IA — LangGraph, MCP, Ollama, ChatGPT Plus, Claude Code.
+- Інтеграція IA — LangGraph, MCP, Olama, ЧаГП Плюс, Клодовий код.
 
-- Comunicación técnico-negocio — Formación en administración + experiencia real en proyectos institucionales.
+- Технічне спілкування - бізнес — Навчання в організації та реалізації проектів.
 
-- Colaboración y documentación — Docs por perfil, RECRUITER.md, evidencia verificable en repos.
+- Співпраця та документація — DCs by profile, RECRUITER.md, докази, що вдається в репозиції.
 
-### 🔗 Roles relacionados según contexto
+### 🔗 Супутні ролі контексту
 
-Abordables según tipo de proyecto, empresa o necesidad específica.
+Збуджена за типом проекту, компанією або конкретною потребою.
 
-## Servicios
+## Послуги
 
 <!-- portfolio-section:servicios -->
 
-Intervenciones por etapas alineadas con arquitectura real, modernización y evolución técnica sostenible.
+Ведуться роботи на етапах, вирівняні з реальною архітектурою, модернізацією та стійкою технікою.
 
-### Auditoría de código generado por IA
+### Аудит коду IA
 
-Verificación funcional, auditoría técnica, limpieza y reducción de deuda técnica, y gobernanza de IA para equipos que ya desarrollan con asistentes y agentes.
+Функціональна перевірка, технічний аудит, технічний борговий облік та скорочення, а також управління IA для команд вже розроблені помічниками та агентами.
 
-### Modernización de Sistemas Legacy
+### Модернізація систем спадкування
 
-Refactor progresivo, migración de PHP/stack legacy, CI/CD, pruebas automatizadas y despliegue seguro sin cortar operación.
+Прогресивний рефактор, PHP / зупинити міграцію спадок, CI / CD, автоматизоване тестування та безпечне розгортання без операції різання.
 
-### Automatización de Procesos y Workflows
+### Автоматизація процесів та робочого процесу
 
-Diseño e implementación de flujos automatizados con n8n, Python y orquestadores resilientes. Circuit Breaker, Idempotencia y observabilidad incluidos.
+Розробка та впровадження автоматизованих потоків з n8n, Python та резисторними оркестрами.
 
-### Integración de IA Aplicada
+### Інтеграція прикладної IA
 
-Incorporación de agentes, LLMs y flujos asistidos por IA a productos y procesos reales. LangGraph, MCP, Ollama y FastAPI.
+Некорпорація агентів, ЛММ та IA-просованих потоків в реальні продукти та процеси. ЛангГраф, МПК, Оламіна та ШПАПІ.
 
-### Arquitectura Cloud, CI/CD y Observabilidad
+### Хмарна архітектура, CI / CD і спостереження
 
-AWS (ECS/EKS, Lambda/SAM, DynamoDB, Cognito, EventBridge/SQS/SNS, CloudWatch/X-Ray, S3/CloudFront), Terraform, OIDC, FinOps, GitHub/GitLab CI y Prometheus/Grafana.
+AWS (ECS / EKS, Lambda / SAM, DynamoDB, Cognito, EventBridge / SQS / SNS, CloudWatch / X-Ray, S3 / CloudFront), Terraform, OIDC, FinOps, GitHub / GitLab CI і Prometheus / Grafana.
 
-### Diagnóstico Técnico y Plan Evolutivo
+### Технічна діагностика та еволюція плану
 
-Evaluación integral: riesgos, deuda técnica, performance, costos y hoja de ruta priorizada con quick wins accionables.
+Комплексна оцінка: ризики, технічний борг, виконання, витрати та пріоритетна карта автодоріг з швидкою вигранкою.
 
-[Ver el servicio completo](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/)
+[Переглянути повний сервіс](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/)
 
-## Freelance · Modalidades de colaboración
+## Freelance · Модальність співпраці
 
 <!-- portfolio-section:modalidades -->
 
-Trabajo en formatos flexibles según el problema, la criticidad, el alcance y el nivel de involucramiento requerido.
+Я працюю в гнучких форматах за проблемою, критичністю, обсягом і рівнем залученості, необхідною.
 
-### Proyecto acotado
+### Проект відключився
 
-Para modernización puntual, integraciones, automatización específica, mejora crítica o entregables concretos.
+Для своєчасної модернізації, інтеграції, конкретної автоматизації, критичного вдосконалення або постачання бетону.
 
-### Bolsa de horas / apoyo experto
+### Експертна підтримка / часовий мішок
 
-Para equipos que necesitan acelerar decisiones técnicas, destrabar arquitectura, validar implementaciones o resolver cuellos de botella.
+Для команд, які необхідно прискорити технічні рішення, розблокувати архітектуру, валідувати виконання або вирішувати пляшки.
 
-### Acompañamiento mensual
+### Щомісячна допомога
 
-Para evolución sostenida, soporte senior, roadmap técnico, continuidad operativa y mejora progresiva.
+Для забезпечення стійкої еволюції, підвищення підтримки, технічної Дорожньої карти, безперервності та прогресивного вдосконалення.
 
-### Diagnóstico + hoja de ruta
+### Діагностика + Дорожня карта
 
-Para ordenar contexto, identificar riesgos, priorizar decisiones y definir una estrategia de implementación realista.
+Щоб замовити контекст, визначити ризики, першочергові рішення та визначити стратегію реалізації.
 
-### Colaboración técnico-comercial
+### Технічно-комерційне співробітництво
 
-Para apoyar conversaciones con clientes o stakeholders, traducir requerimientos a soluciones viables y acompañar preventa o definición técnica.
+Для підтримки бесід з клієнтами або зацікавленими сторонами, перевести вимоги до в'язаних рішень і супроводжувати предані або технічні визначення.
 
-### Modernización, rescate e IA aplicada
+### Модернізація, рятувальна та прикладна IA
 
-Apoyo cuando hay sistemas frágiles, operación viva, automatizaciones pendientes, decisiones de arquitectura, cloud/CI-CD, observabilidad o adopción pragmática de IA.
+Підтримка при наявності крихких систем, живої роботи, закінчуючи автоматизацією, архітектурних рішень, хмарних / Cic@-@ CD, спостережливості або прагматичного прийняття IA.
 
-### Cómo defino la modalidad adecuada
+### Як визначити відповідну модаліту
 
-En la práctica separo discovery, arquitectura, ejecución, pruebas, documentación, coordinación y soporte posterior. Si el encargo mezcla varias capas, lo ordeno por fases o por capacidad mensual para evitar expectativas difusas.
+У практиці окремого відкриття, архітектури, виконання, тестування, документація, координація та подальша підтримка. Якщо замовлення змішує декілька шарів, я замовляємо його в фази або щомісячну ємність, щоб уникнути дифузійних очікувань.
 
-### Sin tarifas fijas publicadas
+### Немає фіксованих ставок
 
-No publico tarifas fijas porque cada intervención cambia según complejidad, riesgo, urgencia y nivel de involucramiento. Prefiero revisar primero el objetivo y el alcance para proponer la modalidad adecuada.
+Я не опублікувати фіксовані тарифи, оскільки кожен зміни втручання відповідно до складності, ризику, терміновості та рівня участі. Я б досить перший огляд об’єктивної та об’ємної точки, щоб запропонувати відповідну модальтику.
 
-¿Proyecto, apoyo experto o colaboración puntual? Conversemos el contexto y revisamos el mejor formato de trabajo.
+¿Ми обговорюємо контекст та переглядаємо найкращий формат роботи.
 
-[Conversemos el alcance](https://vladimiracunadev-create.github.io/#contacto)
+[Промо-розмовник про сферу.](https://vladimiracunadev-create.github.io/#contacto)
 
-## Centro de Descargas
+## Центр детермінації
 
 <!-- portfolio-section:descargas -->
 
-Accede a las versiones nativas y documentos profesionales públicos.
+Доступ до власних версій та публічних професійних документів.
 
-### Recomendado
+### Гарантований
 
-Detectando equipo...
+Виявлення обладнання ...
 
-### Otras Versiones
+### Інші варіанти
 
-Usa estos enlaces si la detección automática no coincide con tu dispositivo.
+Використовуйте ці посилання, якщо автоматичне виявлення не відповідає вашому пристрою.
 
-### Documentos PDF
+### Документи PDF
 
-El selector de idioma cambia cada descarga al PDF equivalente en el idioma activo.
+English languageEspañol idioma中文 语言Русский языкУкраїнська моваPortuguese idioma
 
-La nota de vigencia es un documento de apoyo emitido por el profesional, no por Fundación CEIS Marista. Contextualiza el cambio de autoridad de 2026 y debe revisarse junto con la carta de recomendación histórica.
+Важна замітка - це супровідний документ, виданий професіоналом, а не Фондаконом CEIS Марішаста. Він являє собою текстоорієнтовану зміну повноважень у 2026 році і має бути розглянутий разом з листом історичної рекомендації.
 
-La declaración de logros se publica aparte para resumir resultados observables y facilitar validación externa sin reemplazar el CV ni el portafolio.
+Заява досягнення видається окремо, щоб підбити додержані результати та полегшувати зовнішню перевірку без заміни CV або портфоліо.
 
-La Hoja de Vida es el documento genérico: formato clásico y completo, sin estar dirigido a un cargo específico. Sirve para cualquier proceso de selección, aunque el puesto tenga un nombre poco habitual.
+The Life Sheet є загальним документом: класичний і повний формат, не будучи спрямований на конкретну зарядку. Він обслуговує будь-який процес відбору, навіть якщо пост має незвичайне ім'я.
 
-### Archivos técnicos
+### Технічні файли
 
-Archivos de descubrimiento en la raíz del sitio (SEO + IA).
+Виявлені файли в корені сайту (SEO + IA).
 
 [Android (APK)](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/releases/latest/download/app-debug.apk)
 
-[Portafolio](https://vladimiracunadev-create.github.io/assets/portafolio.pdf)
+[Портфоліо](https://vladimiracunadev-create.github.io/assets/portafolio.pdf)
 
-[Hoja de Vida](https://vladimiracunadev-create.github.io/assets/hoja-de-vida.pdf)
+[Листи](https://vladimiracunadev-create.github.io/assets/hoja-de-vida.pdf)
 
-[CV Reclutador](https://vladimiracunadev-create.github.io/assets/cv-reclutador.pdf)
+[Реквізор з резюме](https://vladimiracunadev-create.github.io/assets/cv-reclutador.pdf)
 
-[CV ATS](https://vladimiracunadev-create.github.io/assets/cv-ats.pdf)
+[КВАРТИРИ](https://vladimiracunadev-create.github.io/assets/cv-ats.pdf)
 
-[Carta de Recomendación](https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma.pdf)
+[Лист рекомендації](https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma.pdf)
 
-[Nota de Vigencia CEIS](https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis.pdf)
+[CEIS Watch Примітка](https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis.pdf)
 
-[Declaración de Logros](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
+[Декларація досягнень](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
 
 [robots.txt](https://vladimiracunadev-create.github.io/robots.txt)
 
-[sitemap.xml](https://vladimiracunadev-create.github.io/sitemap.xml)
+[Електронний ресурс](https://vladimiracunadev-create.github.io/sitemap.xml)
 
-[llm.txt](https://vladimiracunadev-create.github.io/llm.txt)
+[JavaScript licenses API Веб-сайт](https://vladimiracunadev-create.github.io/llm.txt)
 
-## Referencias laborales
+## Довідники праці
 
 <!-- portfolio-section:referencias -->
 
-Para proyectos institucionales, la validación se realiza vía referencia.
+Для інституційних проектів здійснюється перевірка за посиланням.
 
-### Logros resumidos y validación
+### Збір та перевірка
 
-- Hasta 80% de mejora estimada en procesos críticos y generación de reportes.
+- Вгору 80% оцінка покращення критичних процесів та звітності.
 
-- Reducción cercana al 90% en fricción operativa y soporte sobre Batería Online.
+- Зменшення близько до 90% в оперативному тертях і підтримці Інтернет-акумулятора.
 
-- Optimización aproximada de 45% en componentes de base de datos y código.
+- Приблизна оптимізація 45% в базі даних та компонентів коду.
 
-- Atención simultánea de hasta 5 frentes de trabajo en ciertos períodos.
+- Симулятивний до 5 фасадів робота в певних періодах.
 
-Estas cifras se presentan en una declaración formal emitida por el profesional, con referencia externa para validar contexto laboral y alcance general.
+Ці цифри представлені у офіційному заяві, виданому професіоналом, з зовнішнім посиланням на перевірку на валідацію контексту роботи та загального обсягу.
 
-### Jean Claude Dupry · Último jefe directo
+### Жан Клод Депри · Останні прямі
 
-Celular : +56 9 9415 6984
+Панчохи : +56 9 9415 6984
 
-Puedo enviar un resumen por escrito y ejemplos de impacto si lo necesitas.
+Я можу надіслати письмовий резюме і приклади впливу, якщо вам потрібно.
 
-[Ver declaración](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
+[Переглянути пропозицію](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
 
-## Tarjeta de presentación
+## Презентаційна картка
 
 <!-- portfolio-section:tarjeta -->
 
-Guarda mis datos profesionales o comparte este portafolio mediante el código QR. El reverso resume mis áreas de servicio: aplicaciones web, arquitectura cloud, datos, APIs, IA, automatización y ciberseguridad.
+Збережіть свої професійні дані або поділіть цей портфоліо за допомогою QR-коду. Відновлено узагальнені сфери послуг: веб-додатки, хмарна архітектура, дані, API, IA, автоматизація та кібербезпека.
 
 https://vladimiracunadev-create.github.io/assets/icons/1.png?v=5adde69a
 
 https://vladimiracunadev-create.github.io/assets/icons/2.png?v=1a55b3e6
 
-[Descargar frente](https://vladimiracunadev-create.github.io/assets/icons/1.png?v=5adde69a)
+[Завантажити Front](https://vladimiracunadev-create.github.io/assets/icons/1.png?v=5adde69a)
 
-[Descargar reverso](https://vladimiracunadev-create.github.io/assets/icons/2.png?v=1a55b3e6)
+[Завантажити зворотний](https://vladimiracunadev-create.github.io/assets/icons/2.png?v=1a55b3e6)
 
-## Contacto
+## Зв'язатися зараз
 
 <!-- portfolio-section:contacto -->
 
-¿Modernización, automatización, arquitectura o integración de IA aplicada? Escríbeme.
+¿Модернізація, автоматизація, архітектура або інтеграція прикладної IA? Напишіть мені.
 
-Disponible para integrarme rápidamente a equipos y comunidades técnicas a través de canales colaborativos como Slack.
+Доступно для швидкого інтегрування власних в технічні команди та громади через колаборативні канали, такі як Slack.
 
 [vladimir.acuna.dev@gmail.com](mailto:vladimir.acuna.dev@gmail.com)
 
-[LinkedIn](https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29)
+[Контактори](https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29)
 
-[GitHub](https://github.com/vladimiracunadev-create)
+[ГитХуб](https://github.com/vladimiracunadev-create)

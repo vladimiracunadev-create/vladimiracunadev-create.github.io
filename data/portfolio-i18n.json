@@ -3,6 +3,7 @@
   "default_locale": "es",
   "fallback_locale": "es",
   "content_source": "index.html",
+  "translation_catalog": "data/portfolio-translations.json",
   "profile_readme_source": "sources/profile-readme/",
   "views": [
     "recruiter",

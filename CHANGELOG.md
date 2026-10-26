@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-10-26
+
+### fix(i18n): traducción completa y equivalente para los 22 idiomas
+
+- Añadido `data/portfolio-translations.json` como catálogo reproducible del portafolio canónico: 933 textos y 36 atributos para cada uno de los 21 idiomas traducidos; español permanece como fuente y fallback por clave.
+- Corregido `app.js` para aplicar traducciones completas sin abandonar la SPA, conservar idioma/tema/vista en móvil y PWA, actualizar `html.lang` y activar RTL para árabe y persa.
+- Regenerados los 22 Markdown y contratos API desde `index.html`; `sources/profile-readme/` permanece separado y no sustituye contenido del sitio.
+- Incluidos el catálogo y su runtime en caché PWA, build web y sincronización Capacitor para futuros releases Android/iOS.
+- Endurecidos los generadores y validadores para impedir catálogos incompletos, marcadores sin resolver, divergencias de rutas y regresiones entre web, Markdown, API y móvil.
+- Evidencia local: `pnpm test` (132 + 1.302 controles), `pnpm test:functional:i18n` (39/39), `pnpm lint`, `pnpm build`, 22 rutas y copias móviles con hashes coincidentes.
+- `[BACKUP] assets/backups/2026-10-25/full-translation-v2/` — archivos previos a la regeneración completa.
+
 ## 2026-10-25
 
 ### fix(i18n): una SPA canónica para web, móvil, PWA y Markdown

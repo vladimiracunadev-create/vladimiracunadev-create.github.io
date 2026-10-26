@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-25",
+    "generated_at": "2026-10-26",
     "language": "pt",
     "language_name": "Portuguese",
     "native_name": "Português",
@@ -11,8 +11,8 @@
   },
   "profile": {
     "name": "Vladimir Acuña",
-    "title": "Arquitetura, modernização, automação e IA aplicada a projetos reais.",
-    "summary": "Arquiteto de Soluções · Full-Stack Sênior · Líder Tecnológico . 16+ anos liderando a evolução de plataformas. Especializado em modernização de sistemas legados , automação de processos , cloud & CI/CD e integração de IA aplicada .",
+    "title": "Arquitetura, modernização, automação e IA aplicados a projetos reais.",
+    "summary": "O arquiteto de soluções · Full-Stack Sênior · Líder Tecnológico . 16 + anos liderando a evolução das plataformas. Especializado em modernização dos sistemas jurídicos , automação de processo , nuvem & CI / CD e IA aplicada integrada .",
     "website": "https://vladimiracunadev-create.github.io/i18n/pt/",
     "github": "https://github.com/vladimiracunadev-create",
     "gitlab": "https://gitlab.com/vladimir.acuna.dev-group"
@@ -26,7 +26,7 @@
   "sections": [
     {
       "id": "hero",
-      "title": "Arquitetura, modernização, automação e IA aplicada a projetos reais.",
+      "title": "Arquitetura, modernização, automação e IA aplicados a projetos reais.",
       "min_level": 0,
       "freelance_hidden": false
     },
@@ -38,19 +38,19 @@
     },
     {
       "id": "evolucion",
-      "title": "Pilares Técnicos Consolidados",
+      "title": "Pilares técnicos consolidados",
       "min_level": 1,
       "freelance_hidden": true
     },
     {
       "id": "auditoria-ia",
-      "title": "Auditoria de código gerado por IA",
+      "title": "Auditoria de código gerada pela IA",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "productos",
-      "title": "Produtos para download",
+      "title": "Produtos descartáveis",
       "min_level": 0,
       "freelance_hidden": false
     },
@@ -62,7 +62,7 @@
     },
     {
       "id": "demos",
-      "title": "Demos ao vivo",
+      "title": "Vamos ao vivo.",
       "min_level": 1,
       "freelance_hidden": false
     },
@@ -74,13 +74,13 @@
     },
     {
       "id": "flujo-ia",
-      "title": "Fluxo de desenvolvimento assistido por IA",
+      "title": "Fluxo de desenvolvimento assistido pelos IA",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "roles",
-      "title": "Alcance profissional real",
+      "title": "Alcance profesional real",
       "min_level": 1,
       "freelance_hidden": true
     },
@@ -98,13 +98,13 @@
     },
     {
       "id": "descargas",
-      "title": "Central de Downloads",
+      "title": "Centro de Quitação",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "referencias",
-      "title": "Referências profissionais",
+      "title": "Referências trabalhistas",
       "min_level": 2,
       "freelance_hidden": true
     },

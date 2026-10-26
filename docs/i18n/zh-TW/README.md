@@ -1,1082 +1,1079 @@
-# Vladimir Acuña — Portafolio profesional
+# Vladimir Acuña — 作品集
 
 <!-- Generated from canonical portfolio content: index.html -->
-<!-- locale:zh-TW; fallback:es -->
+<!-- locale:zh-TW; catalog:portfolio-translations.json; fallback:es -->
+<!-- views:recruiter,normal,deep,freelance -->
 
-> Idioma solicitado: `zh-TW` · Contenido faltante: fallback por clave a español.
-
-Vistas disponibles: `recruiter`, `normal`, `deep` y `freelance`.
-
-## Arquitectura, modernización, automatización e IA aplicada a proyectos reales.
+## 建築、現代化、自動化和IA應用到實際專案中。
 
 <!-- portfolio-section:hero -->
 
-Arquitecto de Soluciones · Senior Full-Stack · Líder Tecnológico . 16+ años liderando la evolución de plataformas. Especializado en modernización de sistemas legacy , automatización de procesos , cloud & CI/CD e integración de IA aplicada .
+解決方案設計師 高階全層設計師 技術領導 . 16年+年領導平臺演變. 專門化於. 法律制度的現代化 , 工藝自動化 , 雲和 CI / CD 單曲 e 個 綜合應用的IA .
 
-Flujo de desarrollo asistido por IA — ChatGPT Plus · Claude Code · Antigravity — con criterio técnico propio y validación humana.
+由IA-ChatGPT Plus-克洛德程式碼-抗重力-輔助的發展流程,技術標準和人類驗證.
 
-Interfaz preparada para múltiples idiomas , vistas Reclutador / Normal / Profundo / Freelance , tema claro / oscuro y despliegue web, PWA y APK .
+為下列專案準備介面: 多語種 , 檢視 縮放/ 正常/ 深放/ 自由 , 主題 淺/ 暗 部署 網路、太平洋和太平洋共同體秘書處 .
 
-Información del portafolio actualizada hasta el 2026-10-25, 13:28 (America/Santiago).
+截至2007年12月31日的更新專案組合資訊 2026-10-25, 13:28 (美洲/聖地亞哥)。
 
-### Quién soy profesionalmente
+### 我是誰專業的
 
-Soy Arquitecto de Soluciones y Senior Full-Stack con base en ingeniería, operación real y modernización progresiva. Mi trabajo está en el cruce entre sistemas legacy, automatización, cloud/CI-CD, observabilidad e IA aplicada con criterio técnico propio.
+我是一個解決方案和高階全速板的設計者,在工程、實際執行和漸進現代化方面有其基礎。 我的工作正處於遺產、自動化、雲/CIC、可觀察性和以自身技術標準應用的IA系統之間的交叉口。
 
-Me acomoda ordenar contextos complejos, estabilizar operación, traducir requerimientos a decisiones técnicas y construir entregables mantenibles. No trabajo desde frases genéricas: prefiero levantar restricciones, riesgos, responsables y próximos pasos concretos.
+我對複雜的環境、穩定執行、將要求轉化為技術決定和建立可交付的維護感到欣慰。 我並不用普通的短語來形容:我寧願取消限制、風險、負責和下一步的具體步驟。
 
-### Mi Estándar Industrial
+### 我的工業標準
 
-- Observabilidad: Dashboards en Grafana para eliminar cajas negras.
+- 觀察性 : 在格拉法納的取出黑匣子的活板.
 
-- Resiliencia: Circuit breakers e idempotencia (Guardrails).
+- 復原力: 斷路器和電磁(Guarrails).
 
-- Cloud & FinOps: 15 casos AWS (ECS/EKS, Lambda, DynamoDB, Cognito, EventBridge, CloudWatch/X-Ray), OIDC y FinOps.
+- 雲和 FinOps : 15個AWS案例(ECS/EKS,Lambda,DynamomDB,Cognitto, EventBridge, Cloud Watch / X-Ray),OIDC和FinOps.
 
-- Developer Experience: Hub CLI, tests `doctor` y `smoke`, DevContainers.
+- 開發者經驗 : 中樞CLI,測試"醫生""和"煙", DevContainers.
 
-- Seguridad: gitleaks, tfsec, pre-commit hooks, IAM least privilege y secret scanning.
+- 警衛: 被扣去的,Tfsec, 承諾前鉤子, IAM最不特權和秘密掃描.
 
-- Serverless & Event-Driven: Lambda/SAM, DynamoDB, EventBridge, SQS/SNS y Cognito.
+- 無伺服器事件驅動( E) : 蘭巴達/ SAM, DynamotB, Event Bridge, SQS / SNS 和 Cognito. 網際網路檔案館的存檔,存檔日期2013-12-21.,.
 
-### Si vienes desde reclutamiento
+### 如果你是來自招募
 
-Identidad principal:
+主要身份:
 
-Fortalezas: modernización legacy · automatización · cloud/CI-CD · IA aplicada · colaboración distribuida.
+堡壘:現代化遺產 自動化 雲/Cic-CD 應用 整合合作
 
-También puedo asumir roles de Líder Tecnológico / Tech Lead en equipos que necesiten ordenar arquitectura, modernizar sistemas existentes, definir estándares técnicos y conectar negocio con desarrollo.
+我也可以承擔 技術領導/技術領導 裝置需要結構化、現有系統現代化、確定技術標準以及業務與發展掛鉤。
 
-- Descarga el CV o portafolio en tu idioma.
+- 用您的語言下載 CV 或 組合 。
 
-- Revisa logros resumidos y validación externa.
+- 它審查總結成就和外部驗證。
 
-- Abre README o RECRUITER.md en los repos clave.
+- 在金鑰重置中開啟 README 或 RRERUITER. md.
 
-### Cómo se ve en mis Repos
+### 在我的遺物裡看起來怎麼樣?
 
-Demos reproducibles, IaC (Terraform), CI/CD en GitHub y GitLab, serverless (Lambda/SAM), event-driven (EventBridge/SQS/SNS), seguridad (gitleaks/tfsec/OIDC) y documentación por perfil. 15 casos AWS validados en monorepo GitLab.
+我們提供可複製的IaC(Terraform)、GitHub和GitLab的CI / CD、無伺服器(Lambda / SAM)、事件驅動(EventBridge / SQS / SNS)、安全(gitleaks / tfse / OIDC)和配置檔案。
 
-[Conversemos](https://vladimiracunadev-create.github.io/#contacto)
+[我們來聊聊](https://vladimiracunadev-create.github.io/#contacto)
 
-[Ver productos](https://vladimiracunadev-create.github.io/#productos)
+[查看產品](https://vladimiracunadev-create.github.io/#productos)
 
-[Auditoría de código IA](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/)
+[人工智慧程式碼審核](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/)
 
-[Ver proyectos](https://vladimiracunadev-create.github.io/#proyectos)
+[查看專案](https://vladimiracunadev-create.github.io/#proyectos)
 
-[Ver demos](https://vladimiracunadev-create.github.io/#demos)
+[查看演示](https://vladimiracunadev-create.github.io/#demos)
 
-[Ver documentos](https://vladimiracunadev-create.github.io/#descargas)
+[見文件](https://vladimiracunadev-create.github.io/#descargas)
 
-[Ver validación](https://vladimiracunadev-create.github.io/#referencias)
+[參見驗證](https://vladimiracunadev-create.github.io/#referencias)
 
-[Ver alcance](https://vladimiracunadev-create.github.io/#roles)
+[見範圍](https://vladimiracunadev-create.github.io/#roles)
 
 ## Resultados verificables
 
 <!-- portfolio-section:resultados -->
 
-mejora estimada en procesos críticos y reportes
+關鍵程序和報告的估計改進
 
-menos fricción operativa y soporte en Batería Online
+減少線上電池中的操作摩擦和支援
 
-optimización aproximada en componentes DB/código
+DB / 程式碼元件的大致最佳化
 
-frentes concurrentes atendidos en ciertos períodos
+在某些時期同時參加前線活動
 
-## Pilares Técnicos Consolidados
+## 綜合技術支柱
 
 <!-- portfolio-section:evolucion -->
 
-Estándares industriales aplicados de forma transversal en todo el ecosistema verificable: 14 casos AWS, 25 backends LangGraph operativos (cobertura 100%), 12 labs Docker, 12 microsistemas y 60 casos operativos en Problem Driven Systems Lab (12 × 5 stacks) — todos con observabilidad, hardening y reproducibilidad.
+工業標準適用於可核查生態系統的橫向:14個AWS病例、25個LangGraph後端操作(100%覆蓋)、12個多克實驗室、12個微系統以及60個Proble Driends系統實驗室操作病例(12個x5個堆)——所有案例都具有可觀察性、硬化性和再生產性。
 
-### 📈 Observabilidad Industrial
+### 📈 工業可觀察性
 
-Prometheus + Grafana en Docker Labs, Social Bot y Problem-Driven (puertos 9091/3001). LangGraph v4.15 expone `/health` , `/ready` , `/metrics` y LangSmith opt-in. AWS Caso O implementa X-Ray distribuido.
+Prometheus + Grafana in Docker Labs, Social Bot and problem-Driven (ports 9091/3001). LangGraph v4.15 曝光 網際網路檔案館的存檔,存檔日期2013-12-21. `/health` , `/ready` , `/metrics` 還有LangSmith選入,AWS Case O執行X-Ray分發.
 
-### 🛡️ Security Hardening
+### 🛡️ 安全哈丁
 
-Auditoría 8 capas en LangGraph (non-root, 127.0.0.1, grype `fail-build` , nginx TLS, detect-secrets, Trojan Source, pip-compile, Dependabot). Microsistemas v3.x: Hardening 3 fases + SBOM en cada release. Trivy en Social Bot v4.3. TruffleHog + detect-secrets en proyectos AWS.
+朗格拉夫的8層審計(非根, 127.0.0.1,格里佩) `fail-build` , nginx TLS, detect-secrets, Trojan Source, pip-compile, Dependabot). Microsistemas v3.x: Hardening 3 fases + SBOM en cada release. Trivy en Social Bot v4.3. TruffleHog + detect-secrets en proyectos AWS.
 
-### ♻️ Resiliencia & Continuidad
+### ♻️ 復原力和連續性
 
-Idempotencia, Circuit Breakers y desvío controlado (DLQ) para fallos de terceros. Polyglot persistence en Social Bot v4.3 (9 lenguajes × 12+ DBs) con runtime isolation. Streaming + DEMO/LIVE + checkpoints SQLite en LangGraph para tolerancia a fallos LLM.
+超能, 斷路器和受控偏差( DLQ) 第三方故障。 Polyglot 堅持在 Social Bot v4.3 (9種語言 × 12 + DB) 中執行隔離 。 流動 + DEMO / LIVE + 檢查站 SQLite in LLM 故障容忍度 。
 
-### 🛠️ DX & Reproducibilidad
+### 🛠️ DX 可複製性
 
-Hub CLI multi-OS y Windows Installer firmado en Docker Labs v1.5. Tests `doctor` y `smoke` , Makefile operativo y validaciones por caso. CI/CD hardened en GitHub Actions con OIDC y matrix builds. Skills de Claude Code para flujos repetibles.
+在 Docker Labs v1.5. 測試中籤名的 Hub CLI 多操作和 Windows 安裝器 `doctor` 財務報告和已審計財務報表 `smoke` , 操作和個案檔案。 CI / CD 和 OIDC 和矩陣建築一起在 GitHub 動作中徘徊。 Claude Code 的可重複流 。
 
-### ☁️ Cloud Profesional · GenAI
+### ☁️ 專業雲 —— GenAI
 
-14/15 casos AWS completados (incluyendo GenAI con Bedrock + Claude Haiku 4.5 + Lambda). Infraestructura inmutable (Terraform), seguridad OIDC y FinOps. Cobertura por certificación: ~68% SAA-C03, ~68% DVA-C02, ~50% SOA-C02. EKS v1.32 + ECS Fargate.
+14 / 15 AWS 案件完成(包括GenAI 與 Bedrock + Claude Haiku 4.5 + Lambda). 不可改變的基礎設施(Terraform),OIDC 的安全和 FinOps. 認證範圍:~ 68% SAA-C03,~ 68% DVA-C02,~ 50% SOA-C02. EKS v 1.32 + ECS Fargate.
 
-### 🤖 IA Agéntica & Local-First
+### 🤖 本地代理 & 本地第一
 
-LangGraph v4.15: 25/25 backends operativos (cobertura 100%) con estado tipado y rutas condicionales. MCP + Ollama Local con Security & Trust Profile (Bandit + pip-audit) y blueprint AWS migration. ChofyAI Studio v0.5.1 (macOS Apple Silicon + soporte experimental Windows + NVIDIA GPU): Qwen3-TTS, whisper.cpp, FaceFusion, AceForge — IA local sin nube, pnpm + SHA-512 lockfile.
+LangGraph v4.15:25 / 25 操作後端(100%覆蓋) 有尖端狀態和有條件的路由. MCP + 本地Olama 具有安全與信任配置(Bandit + pip-oidit)和藍圖 AWS遷移. ChofyAI Studio v0.5.1 (APL Silicon macOS + 實驗支援 Windows + NVIDIA GPU): Qune3-TTS, slec.cpp, FaceFusion, AceForge - 本地無雲,pm + SHA-512檔案.
 
-## Auditoría de código generado por IA
+## 內部審計機構生成的程式碼審計
 
 <!-- portfolio-section:auditoria-ia -->
 
-Nueva línea profesional: verificar, auditar y recuperar software creado con inteligencia artificial.
+新的專業行:核查,稽核並回收用人工智慧建立的軟體.
 
-La brecha de verificación aparece cuando la IA produce código más rápido de lo que un equipo puede comprenderlo, probarlo y validarlo. El resultado parece terminado, aunque contenga errores, vulnerabilidades, deuda técnica o funcionalidades simuladas.
+校驗漏洞出現在IA生成程式碼的速度比團隊能理解,測試和驗證快。結果似乎已經完成,即使它包含出錯,弱點,技術債務或模擬功能。
 
-No se trata solamente de revisar código. Se trata de recuperar el control técnico del producto.
+不僅僅是審查程式碼,而是恢復對產品的技術控制.
 
-[Ver el servicio completo](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/)
+[全部服務都看齊了](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/)
 
-[Solicitar diagnóstico técnico](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/#contacto)
+[請求技術診斷](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/#contacto)
 
-## Productos descargables
+## 可處置產品
 
 <!-- portfolio-section:productos -->
 
-Productos terminados con instalador firmado (.exe), bundle portable (.zip) o app móvil (.apk). Cada uno incluye landing page propia cuando aplica, releases versionados en GitHub y verificación SHA-256 donde corresponde.
+產品完成後, 安裝了簽名安裝器(.exe)、 行動式捆綁(.zip) 或移動應用程式(.app) 。 每個軟體都包含在應用時自己的登陸頁, 酌情釋出 GitHub 和 SHA-256 的驗證。
 
-### RootCause · Windows Inspector
+### 根因- 視窗檢查器
 
-Software forense de ciberseguridad para Windows escrito en Rust (edition 2024) — complementa al antivirus/EDR con telemetría cero. Descubre qué proceso, servicio, carpeta, conexión o traza ETL degrada el equipo (disco 100%, crecimiento anormal de %TEMP%, lentitud, alto consumo de RAM, red sin explicación). 5 ediciones: GUI Desktop (Setup.exe), Portable .zip, CLI single-binary (rootcause.exe), CLI Portable, módulo PowerShell y extensión VS Code. ETW · WPR · alto rendimiento. Diagnóstico primero, intervención después.
+以 Rust (edition 2024) 編寫的Windows 數字安全法證軟體 - 用零遙測法補充了反病毒/ EDR. 發現哪個過程,服務,資料夾,連線或微量ETL 降解了計算機(100%驅動,異常生長% TEMP %,慢速,高消耗RAM,網路而無解釋). 5版: GUI桌面 (Setup.exe),Portable.zip, CLI 單二元(rootcause.exe), CLI Portable,PowerShell模組和VS程式碼擴充套件-高效能. 先診斷後干預.
 
-### Automa · PC Orchestrator
+### 自動 · 個人計算機整形儀
 
-Orquestador local de acciones efectivas sobre Windows. 27 flows declarativos en JSON (incluye extracción y vigilancia web con evidencia SHA-256) · Playwright + pywebview + PyInstaller · 150 pytest tests · instalador firmado.
+本地 Orquer 有效動作在 Windows 上的 27 個宣告流 在 JSON (包括有證據 SHA-256 的取出和網路監視) → Playwright + pywebview + PyInstaller → 150 pytest 測試 → 已簽名安裝器 。
 
-### Python Data Science Program
+### Python 資料科學程式
 
-Programa de 232 clases en 9 partes (Python aplicado, ML, DL, MLOps, ingeniería de datos, ética, capstones). App escritorio Windows nativa (PySide6 + Qt + Jupyter), portable, app Android y curso PDF/PPTX.
+程式232課分9個部分(Python應用,ML,DL,MLOPS,資料工程,倫理學,Capstons). Windows本土(PySide6 + Qt + Jupiter),可移植,Android應用和PDF/PTX課程.
 
-### ChofyAI Studio
+### 肖菲AI工作室
 
-Lanzador de escritorio para IA local. Orquesta 5 herramientas: Qwen3-TTS, whisper.cpp, FaceFusion, AceForge y ComfyUI. Tauri 2 + Rust + React. Validado macOS Apple Silicon; soporte experimental Windows + CUDA. 5/5 inferencia real.
+用於本地IA. Orquesta 5工具的桌面發射器: Qune3-TTS, sleep.cpp, FaceFusion, AceForge和ComfyUI. Tauri 2 + Rust + React. viardo macOS Apple矽; 實驗支援 Windows + CUDA. 5 / 5 real exergence.
 
-### Docker Labs · Control Center
+### Docker 實驗室 控制中心
 
-Laboratorio personal de contenedores Docker/Compose en múltiples stacks (PHP, Node.js, Python, BD, DevOps). Hub CLI multi-OS y Windows Installer firmado, doctor/smoke tests.
+Docker / 作曲多堆( PHP, Node.js, Python, BD, DevOps). Hub CLI 多OS和Windows安裝器簽名,博士/煙霧測試.
 
-### Microsistemas · Productivity Suite
+### 微型系統 生產力套件
 
-12 microapps web autocontenidas para tareas recurrentes: desarrollo, mantención, diagnóstico y modernización de sistemas legacy. 195 katas en 67 tecnologías. Hardening 3 fases + SBOM por release.
+12個自成一體的網路微應用,用於經常性任務: 後遺症系統的開發,維護,診斷和現代化. 195 katas in 67 Technology. Hardening 3 profile + SBOM for label.
 
-### Unikernel Control Center
+### 單核控制中心
 
-Suite profesional para operar servicios Unikraft en Windows con backend WSL2. Control total vía Dashboard Node.js y Launcher WinForms en localhost. Arquitectura de alto rendimiento y orquestación unikernel.
+專業套件,在Windows中操作Unikraft服務,並配有WSL2後端. 透過Dashboard Node.js和Localhost的Lunder WinForms全面控制. 高效能架構和單核心管絃樂.
 
-### GabySQL · Embedded DB + Modeler
+### GabySQL → 嵌入式 DB + 建模器
 
-Base de datos embebida en Rust (archivo único .db, WAL, cost-based optimizer, SAVEPOINT/ROLLBACK, 828 tests, fuzzing 503.8M queries) + GabyModeler GUI de escritorio. Builds para Windows, macOS arm64 y Linux x86_64.
+以粗糙為主,以成本為主,SAVEPOINT / ROLLBACK,828個測試,模糊503.8M索賠) + GabyModeler GUI桌面. Windows, macOS arm64和Linux x86 64 建築.
 
-[Landing](https://vladimiracunadev-create.github.io/rootcause-windows-inspector/)
+[著陸](https://vladimiracunadev-create.github.io/rootcause-windows-inspector/)
 
-[Setup .exe](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest/download/RootCause-Setup.exe)
+[設定.exe](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest/download/RootCause-Setup.exe)
 
-[Portable .zip](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest/download/RootCause-Portable.zip)
+[行動式.zip](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest/download/RootCause-Portable.zip)
 
-[CLI Portable .zip](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest/download/RootCause-CLI-Portable.zip)
+[CLI 行動式.zip](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest/download/RootCause-CLI-Portable.zip)
 
-[VS Code .vsix](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest/download/RootCause-VSCode-Extension.vsix)
+[VS 程式碼 .vsix](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest/download/RootCause-VSCode-Extension.vsix)
 
-[Todas las ediciones](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest)
+[所有版本](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest)
 
-[GitHub](https://github.com/vladimiracunadev-create/rootcause-windows-inspector)
+[基特胡布語Name](https://github.com/vladimiracunadev-create/rootcause-windows-inspector)
 
-[Landing](https://vladimiracunadev-create.github.io/automa-pc/)
+[著陸](https://vladimiracunadev-create.github.io/automa-pc/)
 
-[Descargar .exe](https://github.com/vladimiracunadev-create/automa-pc/releases/latest/download/Automa-Setup-v0.3.0.exe)
+[下載.exe](https://github.com/vladimiracunadev-create/automa-pc/releases/latest/download/Automa-Setup-v0.3.0.exe)
 
-[GitHub](https://github.com/vladimiracunadev-create/automa-pc)
+[基特胡布語Name](https://github.com/vladimiracunadev-create/automa-pc)
 
-[Landing](https://vladimiracunadev-create.github.io/python-data-science-program/)
+[著陸](https://vladimiracunadev-create.github.io/python-data-science-program/)
 
-[.exe](https://github.com/vladimiracunadev-create/python-data-science-program/releases/latest/download/PythonDSProgram_Setup_v3.8.0.exe)
+[.執行](https://github.com/vladimiracunadev-create/python-data-science-program/releases/latest/download/PythonDSProgram_Setup_v3.8.0.exe)
 
-[.zip](https://github.com/vladimiracunadev-create/python-data-science-program/releases/latest/download/PythonDSProgram_windows_portable_v3.8.0.zip)
+[.齊拉](https://github.com/vladimiracunadev-create/python-data-science-program/releases/latest/download/PythonDSProgram_windows_portable_v3.8.0.zip)
 
-[.apk](https://github.com/vladimiracunadev-create/python-data-science-program/releases/latest/download/PythonDSProgram_android_v3.8.0_debug.apk)
+[.資料k](https://github.com/vladimiracunadev-create/python-data-science-program/releases/latest/download/PythonDSProgram_android_v3.8.0_debug.apk)
 
-[GitHub](https://github.com/vladimiracunadev-create/python-data-science-program)
+[基特胡布語Name](https://github.com/vladimiracunadev-create/python-data-science-program)
 
-[Landing](https://vladimiracunadev-create.github.io/chofyai-studio/)
+[著陸](https://vladimiracunadev-create.github.io/chofyai-studio/)
 
-[GitHub](https://github.com/vladimiracunadev-create/chofyai-studio)
+[基特胡布語Name](https://github.com/vladimiracunadev-create/chofyai-studio)
 
-[Descargar .exe](https://github.com/vladimiracunadev-create/docker-labs/releases/latest/download/docker-labs-setup-1.5.0.exe)
+[下載.exe](https://github.com/vladimiracunadev-create/docker-labs/releases/latest/download/docker-labs-setup-1.5.0.exe)
 
-[Release v1.5.0](https://github.com/vladimiracunadev-create/docker-labs/releases/latest)
+[釋出 v1.5.0](https://github.com/vladimiracunadev-create/docker-labs/releases/latest)
 
-[GitHub](https://github.com/vladimiracunadev-create/docker-labs)
+[基特胡布語Name](https://github.com/vladimiracunadev-create/docker-labs)
 
-[Descargar .zip](https://github.com/vladimiracunadev-create/microsistemas/releases/latest/download/microsistemas-v1.1.0.zip)
+[下載.zip](https://github.com/vladimiracunadev-create/microsistemas/releases/latest/download/microsistemas-v1.1.0.zip)
 
-[Release v1.1.0](https://github.com/vladimiracunadev-create/microsistemas/releases/latest)
+[釋出 v1.1.0](https://github.com/vladimiracunadev-create/microsistemas/releases/latest)
 
-[GitHub](https://github.com/vladimiracunadev-create/microsistemas)
+[基特胡布語Name](https://github.com/vladimiracunadev-create/microsistemas)
 
-[Descargar .exe](https://github.com/vladimiracunadev-create/unikernel-labs/releases/latest/download/UnikernelLabs.Launcher.exe)
+[下載.exe](https://github.com/vladimiracunadev-create/unikernel-labs/releases/latest/download/UnikernelLabs.Launcher.exe)
 
-[Release v2.0.0](https://github.com/vladimiracunadev-create/unikernel-labs/releases/latest)
+[釋出 v 2. 0.0](https://github.com/vladimiracunadev-create/unikernel-labs/releases/latest)
 
-[GitHub](https://github.com/vladimiracunadev-create/unikernel-labs)
+[基特胡布語Name](https://github.com/vladimiracunadev-create/unikernel-labs)
 
-[Modeler .exe](https://github.com/vladimiracunadev-create/gabysql/releases/latest/download/gabymodeler_0.1.0_x64-setup.exe)
+[建模師.exe](https://github.com/vladimiracunadev-create/gabysql/releases/latest/download/gabymodeler_0.1.0_x64-setup.exe)
 
-[Engine .zip (Win)](https://github.com/vladimiracunadev-create/gabysql/releases/download/v0.2.0/gabysql-v0.2.0-windows-x86_64.zip)
+[.zip (溫) 引擎 .](https://github.com/vladimiracunadev-create/gabysql/releases/download/v0.2.0/gabysql-v0.2.0-windows-x86_64.zip)
 
-[Todas las releases](https://github.com/vladimiracunadev-create/gabysql/releases)
+[所有釋放](https://github.com/vladimiracunadev-create/gabysql/releases)
 
-[GitHub](https://github.com/vladimiracunadev-create/gabysql)
+[基特胡布語Name](https://github.com/vladimiracunadev-create/gabysql)
 
-## Proyectos destacados
+## 精選專案
 
 <!-- portfolio-section:proyectos -->
 
-Selección con foco en modernización, productividad, automatización y demos verificables.
+選擇重點為現代化,生產力,自動化和可核查的演示.
 
-### Batería Online (Fundación CEIS)
+### 線上電池(CEIS基金會)
 
-Suite psicométrica web a gran escala: evolución/soporte y modernización progresiva, optimización SQL Server, reportes PDF/Excel y continuidad operacional.
+大型網路心理計量套件:進化/支援和漸進現代化,SQL伺服器最佳化,PDF/Excel報告以及操作連續性.
 
-Por confidencialidad, no publico repos/código del producto institucional. Validación vía referencia laboral.
+保密的,我不公佈機構產品重置/程式碼,透過勞動證明進行驗證.
 
-### Productos con distribución real
+### 實際銷售的產品
 
-### RootCause · Windows Inspector
+### 根因- 視窗檢查器
 
-Software forense de ciberseguridad para Windows 10/11 escrito en Rust: detecta distorsiones anómalas de CPU, disco, red, procesos, autoarranque y servicios contra baselines conocidas, correlaciona señales en incidentes (SQLite) y explica la causa raíz con evidencia. 5 modalidades en producción (GUI Fluent bilingüe ES/EN, CLI, módulo PowerShell con 9 cmdlets, extensión VS Code, tray icon) y distribución vía Scoop · Winget · Chocolatey. Complementa al antivirus/EDR. Telemetría: cero.
+Windows 10/11的網路安全法證軟體用Rust寫道:根據已知的基線檢測CPU,磁碟,網路,程序,自啟動和服務異常扭曲,將事件訊號(SQLite)關聯起來並用證據解釋根源. 製作中的5種模式(GUI Bilantic Fluent ES / EN,CLI,PowerShell模組有9個cmdlets,VS程式碼擴充套件,流量圖示),並透過Scoop ^ Winget ^ 巧克力. 完成為抗病毒/EDR. 遙測:0.
 
-### RootCause · Mobile Inspector
+### 根子- 流動檢查員
 
-Sensor forense de diagnóstico para Android e iOS construido en Flutter (colectores nativos Kotlin/Swift). Motor de reglas local que detecta distorsiones anómalas de memoria, almacenamiento, batería y superficie de permisos, con semáforo de severidad, historial de hasta 500 capturas, detección de stalkerware activo y evidencia forense en JSON y PDF (5 idiomas). APK v0.8.0 firmado en Releases. Sin permiso INTERNET: telemetría cero, verificada en cada build.
+Android和iOS的法醫學診斷感測器由Flustter(內地採集者克特林/斯威夫特)所建. 本地規則引擎,用於檢測異常記憶,儲存,電池和許可的表面扭曲,並有重度光,記錄到500個漁獲量,在JSON和PDF(5種語言)中活性跟蹤器檢測和法醫學證據. APK v0.8.0在"釋放"中被簽名. 無INTERNET許可:零遙測,在每個建築中被驗證.
 
-### Rootcause Web Inspector · Proyecto
+### 網路檢查員 —— 專案
 
-RootCause Web Inspector v0.2.0 — sensor forense de la superficie del navegador: cookies, sesiones de correo, extensiones, descargas y permisos de sitio. Panel local en 127.0.0.1, extension MV3, CERO dependencias y cero telemetria verificada en CI. Hermano de las ediciones Windows (Rust) y Mobile (Flutter)
+Root Beause Web Victor v. 2. 0 - 瀏覽器表面的法證感測器: cookie,郵件會話,擴充套件,下載和站點許可權. 本地面板 in 127.0.0.1,擴充套件MV3,CERO依賴性和0遙測在CI中被驗證. Brother of the Windows (Rust) and Mobile (Flutter)
 
-### Universal Code Scanner · Proyecto
+### 通用密碼掃描器 − 專案
 
-Universal Code Scanner v1.1.0 — Lector Flutter de códigos QR y de barras que interpreta antes de actuar: 16 señales de riesgo locales por URL, confirmación explícita, historial e inventario cifrados con AES-256-GCM. Estado de escaneo siempre visible y tono propio de lectura. Android · iOS · macOS · PWA. Telemetría cero
+通用程式碼掃描器 v1.1.0 - QR 程式碼和條的Fluster讀取器,他在操作前解釋:每個URL16個區域性風險訊號,明確確認,歷史和庫存加密,使用AES-256-GCM. 總是可見掃描狀態和自讀音. Android iOS macOS – PWA. 0遙測
 
-### GabySQL
+### 蓋比SQL
 
-Base de datos embebida escrita en Rust desde cero como proyecto de investigación: archivo único .db con WAL, SQL relacional completo (CTEs, window functions, triggers, PL/pgSQL, Row-Level Security), optimizador cost-based con EXPLAIN ANALYZE, API HTTP/JSON con transacciones cross-request y 828 tests verdes en 3 sistemas operativos. Fuzz del parser: 503.8M queries, 0 panics.
+以拳為主的瓶裝資料庫作為研究專案:與WAL獨有的.db檔案,完整的關係 SQL (CTEs)視窗功能,觸發器和PL / pgSQL. HTTP / JSON API 具有交叉請求交易和3個作業系統中的828個綠色測試.
 
-### Automa · PC Orchestrator
+### 自動 · 個人計算機整形儀
 
-Orquestador local v0.3.0 de acciones efectivas sobre Windows: 27 flows operativos declarativos en JSON que abren ventanas reales, interactúan con DOM, capturan evidencia y vigilan la web (crawl BFS, detector de cambios y monitoreo de valores con evidencia SHA-256). Panel local en 127.0.0.1 (pywebview + PyInstaller) con scheduler cron y lock SQLite. Stack Python 3.10+, Playwright (headless/visible), OCR/visión, uv packaging, 150 pytest tests, instalador Windows firmado.
+本地 v0. 3. 0 有效動作 Orquer 在 Windows 上: 27 JSON 操作流量開啟真實視窗,與 DOM 互動,獲取證據並監視網路( crawl BFS, 變化檢測器和值監測, 使用 SHA-256 證據). 本地面板 on 127.0.0.1 (pyweview + PyInstaller) 有克龍和 SQLite 排程器. Stack Python 3.10 +, Playwright (無頭/可見), OCR / 視覺, uv 包裝, Windows 簽名, hyplock, 150, hp.
 
-### ChofyAI Studio · IA Local macOS
+### ChofyAI工作室 本地macOS
 
-Launcher de escritorio v0.5.1 que orquesta 5 herramientas de IA local (Qwen3-TTS, whisper.cpp, FaceFusion, AceForge, ComfyUI) con instalación reproducible, control real de procesos y 5/5 en inferencia real. Validado en macOS Apple Silicon; soporte experimental Windows + CUDA. Tauri 2 + Rust + React. Privacidad total sin dependencias cloud.
+桌面起動器 v0.5.1 que anicó 5 todo de IA locales (Quen3-TTS, sleep.cpp, FaceFusion, AceForge, ComfyUI) con instalación republic, Control real de procesos y 5/ 5 en excess real. vivilado en macOS Apple Silicon; 支援實驗性Windows + CUDA. Tauri 2 + rust + React. Privacidad tot sindent City 雲.
 
-### Rhino Suite · Ofimática
+### 犀牛套房 官方
 
-Suite ofimática web y de escritorio construida desde cero (v0.7.0, Fase 2.5): editor de documentos con modelo estructurado (JSON schema v5), motor Rust compilado a WebAssembly + motor TypeScript compatible, interfaz React 19, API Go con cuentas y compartición, e intercambio DOCX/ODT con lector/escritor propio sin dependencias externas.
+從零開始建造的Web和桌面辦公套件(v.0.7.0,相片2.5):結構化模型(JSON schema v5)的文件編輯器, Rust引擎編譯為WebAsembly +相容的 TypeScript引擎,React 19 介面,API Go 與賬戶和共享,DOCX / OTT 與讀者/自己的作者交換,沒有外部依賴關係.
 
-### Guitarra Adventure · Proyecto
+### · 冒險吉他專案
 
-Mi Aventura con la Guitarra · App educativa para aprender guitarra desde los 10 años · 24 lecciones en 6 mundos, afinador de 6 cuerdas, metrónomo sin deriva y 11 notas grabadas de guitarra real · Tauri 2 + React + TypeScript · Windows, Android, Linux, macOS, iOS y PWA · Sin publicidad, sin cuentas, offline · v1.0.0 con instaladores en Releases
+我與吉他的冒險 ^ 教育應用從10歲學習吉他 ^ 24個課程,涉及6個世界,6弦調音器,非幹動節奏和11個錄製的真吉他音符 ^ Tauri 2 + React + TypeScript ^ Windows, Android, Linux,macOS,iOS和PWA ^ 不做廣告,不做賬號,離線 ^ v1.0 與放行安裝器
 
-### Agentic Plugins Toolkit · Proyecto
+### 原始外掛工具包 · 專案
 
-agentic-plugins-toolkit · 6 plugins agénticos para Claude Code, OpenAI/Codex, Copilot, Gemini y MCP · repository-engineering · legacy-modernization · learning-program-studio · product-evolution · portfolio-governance · rootcause-response · 69 vistas generadas sin drift · Zero-deps
+o 6個代理外掛,用於克勞德程式碼、OpenAI / Codex、副駕駛、雙子座和MCP 的儲存器-工程 —— 遺產-現代化 —— 學習-程式-學習-學習-生產- 進取- 組合-治理 —— 根- 回應 —— 生成69個檢視,不漂移 —— 0- 解析
 
-### Operational Ai Agents · Proyecto
+### 業務代理 − 專案
 
-operational-ai-agents · 13 agentes para Claude Code · repository-evolution · legacy-modernization · curriculum-evolution · portfolio-publication · security-remediation · incident-root-cause · professional-profile · Contrato + gates humanos + evidencia verificable · 39 evals deterministas · Zero-deps · Cross-platform
+· 操作克勞德密碼的“a-代理人” · 倉庫- 進化- 遺產- 現代化- 課程- 進化- 組合- 出版- 安全- 補救- 事件- 根源- 職業- 人物- 合同+ 人之門- 可核查的證據 · 39 evals decisionable · 0-deps- 跨平臺
 
-### Empresa Operativa Chile · Proyecto
+### 智利運營公司 − 專案
 
-v1.5.0 · Crear, operar y controlar una empresa chilena a través del tiempo: constitución con evidencia, capital y CPT, patente municipal con su base legal, IVA/PPM, F29, cierre anual inmutable y auditoría. Guía, manual y glosario dentro de la app. Android, Windows y navegador. Reglas con fuente oficial. Cero telemetría. 🇨🇱
+v1.5.0 隨著時間的推移,建立、運營和控制智利公司:有證據、資本和CPT的章程、有法律依據的市政專利、增值稅/PPM、F29、不可更改的年度關閉和審計、Android、Windows和瀏覽器應用程式內的指南、手冊和詞彙表、有官方來源的規則。
 
-### Rootcause Macos Inspector · Proyecto
+### 爛掉的Macos檢查員 —— 專案
 
-RootCause macOS Inspector v0.1.0 — sensor forense de ciberseguridad para macOS (Rust): persistencia launchd, Gatekeeper, SIP, FileVault, XProtect, permisos TCC, procesos con firma y vecinos de red. Compara cada superficie con un estado bueno conocido y explica qué cambió, con evidencia. Telemetría: cero. Hermano de Windows, Web y Mobile
+RotCause macOS Victor v. 0. 0. – 為macOS (Rust) 提供法醫網路安全感測器: 已啟動、守門員、SIP、FileVault、XProtect、TCC許可權、簽名和網路相鄰的流程。 將每個表面與一個眾所周知的狀態進行比較,並解釋變化之處, 並附證據。 遙測: 0。 Windows兄弟、 Web和Mobile
 
-### Codex Skills Toolkit · Proyecto
+### 編碼工具箱 − 專案
 
-codex-skills-toolkit · 19 Agent Skills para Codex · seguridad y supply chain · preflight y flujos funcionales · resiliencia y estado · evidencia de release · Python-first · pnpm · Cross-platform
+程式碼技能-工具kit – 19 代理技能 程式碼安全與供應鏈 – 飛行前和功能流 – 恢復力和狀態 – 釋放證據 – Python-first – pnpm – 跨平臺
 
-### Rootcause Qr Inspector · Proyecto
+### 腐爛的Qr 督察 工程
 
-rootcause-qr-inspector · 26 señales locales y 107 pruebas · cámara, imágenes y PDF · evidencia redactada · Flutter/Dart · local-first y telemetría cero · APK Android v0.1.4 publicado
+e. 釋出 APK Android v.0.1.4
 
-### Pdf Reader Windows Android · Proyecto
+### Pdf 讀取器 Windows Android 的專案
 
-PDF Reader v0.3.3 · lector PDF Android-first local y de solo lectura · acciones continuas, áreas seguras, miniaturas acotadas e historial reabrible · Android 7+, Windows y Web · cero cuentas, permisos sensibles y telemetría · APK firmado
+PDF 閱讀器 v. 3.3 ^ PDF 閱讀器 Android 本地首個並只讀 ^ 連續動作,安全區域,縮圖和可再錄歷史 ^ Android 7 +, Windows and Web ^ 0帳號,敏感許可權和遙測 ^ APK 已簽名 ^
 
-### Rootcause Server · Proyecto
+### 呼叫伺服器 ・ 專案
 
-RootCause Server v0.2.0 — plano de control en Rust que defiende servidores y la red que los rodea: superficie expuesta, ráfagas de autenticación, acceso concedido tras la ráfaga, integridad de archivos críticos y silencio del sensor. 18 reglas con evidencia y runbook — nunca ejecuta nada. Consola local sin dependencias web
+Root Cause Server v. 2.0 - 保護伺服器和周圍網路的 Rust控制平面: 被曝光的表面,認證突起,爆炸後允許的訪問, 關鍵檔案完整性和感測器沉默。 18 有證據和執行本的規則 - 永遠不執行任何東西。 本地控制檯沒有網路依賴性 。
 
-### Aws Desktop Studio · Proyecto
+### Aws 桌面工作室 ・ 專案
 
-AWS Desktop Studio · 15 integraciones de inventario + 20 tutoriales · AWS CLI, Electron y localhost · Implementación en desarrollo; no acceso universal · Windows
+AWS桌面工作室 · 15個庫存整合+ 20個輔導課程 · AWS CLI, Electron and localhost · 開發實施;非普遍訪問 · Windows
 
-### Ai Dataset Foundry · Proyecto
+### Ai 資料集建立公司 · 專案
 
-AI Dataset Foundry v0.2.0 — factoría local-first para convertir PDF, Word, web, Git, JSON y CSV en datasets auditables para pretraining, fine-tuning, RAG y evaluación · Windows + Android offline
+AI Dataset Foundry v. 0. 2. 0 - 本地工廠 - 首先將PDF, Word, Web, Git, JSON和CSV 轉換成可審計資料,用於預訓,微調,RAG和評價 ^ Windows + Android下線
 
-### Rootcause Blockchain Security · Proyecto
+### 廢品鏈安全專案
 
-Laboratorio profesional watch-only de blockchain forensics y root cause analysis para Bitcoin, Ethereum y Polygon: TX, direcciones, reconciliación, grafos, timelines e informes con evidencia verificable. CLI + API local, cero dependencias, nunca claves privadas
+僅限觀察的專業鏈法醫學實驗室和Bitcoin, Etheum和Polygon的根由分析:TX,地址,對齊,圖表,時間表和有可核實證據的報告. CLI + 本地API,零依賴性,永遠不私鑰.
 
-### Rootcause Bitcoin Defense · Proyecto
+### 爛掉是因為比特幣防禦工程
 
-₿ RootCause Bitcoin Defense v0.3.0 — defensa watch-only y laboratorio forense UTXO: inputs, outputs, fees, change, procedencia, grafo de transacciones y reconciliación contable en regtest. App local, cero dependencias, nunca pide semillas ni usa fondos reales. Verificado en CI
+₿ Root Beause Bitcoin Defense v. 3.0 - 僅限守望防禦和法醫實驗室UTXO:輸入,輸出,收費,變更,出處,交易圖和會計調節在regtest中. local app, 0依賴性,從不要求種子或使用真資金.
 
-### Decentraland Social Arcade · Proyecto
+### 權力下放社會街口專案
 
-decentraland-social-arcade · Experiencia 3D social nativa de Decentraland · 1 MVP y arquitectura multijuego · SDK7 + ECS + TypeScript · documentación en español · sin pagos ni telemetría
+社會3D經驗 本地到Decentrand 的 社會3D 經驗 · 1 MVP和多遊戲架構 · SDK7 + ECS + TypeScript + 西班牙文文件 · 不付費或遙測
 
-### Commerce Operating System · Proyecto
+### 商業作業系統-專案
 
-Commerce OS v0.3.0 · demo conceptual guiada en 6 pestañas: catálogo, stock, CRM, pedidos, pagos mock y trazabilidad · Web, Windows y Android · Sin dinero ni SII real
+OS v. 3. 0 指導6個標籤的概念演示:目錄、股票、客戶關係管理、訂單、模擬付款和可追蹤性 網上、視窗和Android ——沒有錢或真正的SII
 
-### Panuelo Al Viento Cueca App · Proyecto
+### Cueca App風起雨起雨起雨出行專案
 
-Pañuelo al Viento · Academia interactiva de cueca desde los 10 años · 24 clases, Dojo con huellas y espejo, Pañuelo Lab, Escenario guiado y progreso por habilidades · Flutter local-first · Android + Windows · v0.2.0
+風·鄧格勒 剋剋卡互動學院,10歲 24個班,道克有指紋和鏡子,鄧格勒實驗室,情景指導與技能進步 · 本地Flutter - 第一名 · Android + Windows ^ v.0.2.0
 
-### Video Transcript Studio · Proyecto
+### 影片記錄工作室 · 專案
 
-Un video, una lista o un CANAL COMPLETO de YouTube → texto con marcas de tiempo. Whisper 100% local: sin API, sin cuenta, sin telemetría. Asistente de 4 etapas en escritorio Windows + panel local en 127.0.0.1 + CLI, con la misma cola. MD, PDF, TXT, SRT, VTT, JSON, MP3, OGG. FFmpeg incluido. Modo oscuro. 89 tests. 🇪🇸
+影片,列表或YouTube COMPLETE CANAL → 有時間標記的文字. Whisper 100% 本地:沒有API,沒有遙測,沒有Windows + 本地面板上的4級助手 + 127.0.0.1 + CLI,尾同. MD, PDF, TXT, SRT, VTT, JSON, MP3, OMGG. FFmpeg 包括. Dark mode. 89個測試.
 
-### Lifelong Learning Ecosystem · Proyecto
+### 終身學習生態系統專案
 
-Brújula federada que conecta 30 recorridos reales en 6 áreas con mapas visuales y un portal offline accesible; no se cuenta como un programa adicional.
+聯邦指南針,將6個地區的30個真人遊覽與可視地圖和一個可訪問的離線門戶相接;它不算作是附加程式.
 
-### Laboratorios de ingeniería
+### 工程實驗室
 
-### Docker Labs · Infra Hub
+### · 接線器
 
-Laboratorios por stack con enfoque "levanta en 60s". Incluye dashboard local, Compose, stacks reales y rutas prácticas de observabilidad con Prometheus/Grafana.
+以"60出"為焦點的堆放實驗室,包括本地儀表板,作曲,真堆和與Prometheus / Grafana相通的實用可觀察路線.
 
-- Dashboards locales para explorar métricas de contenedores.
+- 本地Dashboard來探索容器的度量衡.
 
-- Manifiestos preparados para Kubernetes (K8s) y observabilidad.
+- 宣言為庫伯涅斯(K8s)和可觀察性所編寫。
 
-### Cloud Portfolio · AWS & FinOps
+### 雲組合 · AWS & FinOps
 
-16 casos AWS (A–P) — todos completados, incluidos el Caso P (Strands Agents) desplegado y validado en AWS, el GenAI Caso I (Bedrock + Claude Haiku 4.5 + Lambda + xray-sdk) y el Caso O (X-Ray distribuido); en backlog solo las Fases 2–3 del Caso M (Multi-Región · Global Accelerator). Stack: Terraform, OIDC, S3/Amplify/CloudFront, Lambda/SAM, DynamoDB, Cognito/WAF, EventBridge/SQS/SNS, CloudWatch, ECS Fargate, EKS v1.32, FinOps. Seguridad con TruffleHog + detect-secrets + gitleaks + tfsec. Cobertura ~68% SAA-C03 / ~68% DVA-C02 / ~50% SOA-C02.
+16 AWS(A-P)案件----全部結案,包括AWS部署和驗證的P(Strands Agents)案件、GenAI案件一(Bedrock + Claude Haiku 4.5 + Lambda + xray-sdk)和O案件(X-Ray分佈);僅積壓了M案件2-3個Fases (多區域全球加速器). Stack: Terraform, OIDC, S3 / 放大 / Cloudront, Lambda / SAM, Dfidt, EfS, EfS /Cddddd., EfS, EfS, Efdddd.
 
-### Microsistemas · Productivity Suite
+### 微型系統 生產力套件
 
-Suite modular para diagnóstico y modernización. Incluye Hub CLI, Makefile operativo, validaciones doctor/smoke y utilidades orientadas a bajar fricción en mantención real.
+診斷和現代化模組套件,包括中央液化液化物、操作性成份、醫生/煙霧鑑定和減少實際維修摩擦的公用事業。
 
-- Conversor de acentos, visor SQL seguro y visor de logs industrial.
+- ACCent轉換器,安全SQL和工業日誌檢視器.
 
-- Migrador parcial PHP 8.x y generador de manifiestos.
+- PHP 8.x 部分塗裝和宣言生成器.
 
-- Orientado a reducir la fricción y mejorar la DX del equipo.
+- 以減少摩擦為取向,並改進了裝置的DX.
 
-### Social Bot Scheduler · Orquestación
+### 社會瓶式排練器 管弦樂團
 
-Laboratorio políglota de integración v4.9.1: 19 casos operativos Origen → n8n → Receptor sobre 18+ motores de BD (SQL, NoSQL, grafos, vectorial, series temporales, streaming), auditados end-to-end con Docker. Guardrails de resiliencia (idempotencia, circuit breaker, DLQ), 11 patrones arquitectónicos y master dashboard con estado en vivo.
+聚糖綜合實驗室 v4.9.1: 19 操作案例 Origin → n8n → 受體超過18 + BD 引擎(SQL, NoSQL,圖,向量,時序,流化),經審計與多克的端對端. 復原力衛士(自導能,斷路器,DLQ),11個建築模式和有活性狀態的儀表盤主.
 
-### Problem Driven Systems Lab
+### 問題驅動系統實驗室
 
-12 desafíos de ingeniería × 7 stacks = 84 casos operativos (PHP 8 · Python · Node.js · Java 21 · .NET 8 · Go · Rust) con Dashboards Interactivos por caso (UI nativa para diagnóstico visual + métricas en tiempo real). Patrones Adapter, Strangler, Circuit Breaker, LRU y Cancellation. Plan AWS_MIGRATION.md (ECS Fargate · Lambda · EKS) con cost estimates y mapping explícito a SECURITY.md.
+12個工程挑戰 × 7堆 = 84個操作案例(PHP 8 = Python = 節點.js = Java 21 =.NET 8 = rust),每個案例都有Dashboards Interactive(UI本地,用於實時的視覺和計量診斷),介面卡,Stangler, Circuleble Breaker, LRU和Conclation. Plan AWS MIGLATION.md(ECS Fargate = Lambda = EKSECRTYmd的清晰繪圖).
 
-### WSL Labs · Container Center
+### WSL 集裝箱中心
 
-Centro de control de contenedores para Windows sobre wslc, el motor de contenedores nativo de WSL (v0.4.1) — sin Docker Desktop. Panel web Node.js (:9092) para construir, levantar y supervisar contenedores, launcher Windows en Go (.exe) y 12 casos reales portados de docker-labs con imagen y RAM medidas. containers.config.json como fuente única de verdad.
+Windows over wslc的集裝箱控制中心,WSL本土集裝箱引擎 (v0. 4.1) - 沒有多克桌面. Node.js網路面板(:9092),用於構建,提升並監控容器,Go (.exe)的發射裝置Windows以及12個真實案例,有多克實驗室,並用影象和RAM測量. config.json作為獨特的真言源.
 
-### Unikernel Labs · Control Center
+### Uninenel 實驗室 控制中心
 
-Unikernel Control Center v2.0.0 · Suite tipo "Docker Desktop para unikernels": opera servicios Unikraft desde Windows sobre WSL2 con kraft + QEMU/KVM. Dashboard Node.js con health en tiempo real (localhost:9091), Launcher WinForms (.NET), instalador .exe y API local endurecida (anti DNS-rebinding, CSRF y path traversal).
+Uninenel Control Center v2.0.0 → "Docker Dudgt for Uninels"的套接字型別:在WSL2上執行由Windows提供的Unikraft服務,與kraft + QEMU. Dashboard Node.js具有實時健康(localhost:9091),Launder WinForms (.NET),.exe安裝器和本地硬使用API(反DNS-Reclining,CSRF和路徑等).
 
-### Sandbox Labs · Proyecto
+### 沙盒實驗室 · 專案
 
-Laboratorio de aislamiento en Linux: ejecuta código, archivos y modelos de negocio ajenos bajo políticas declaradas, y emite evidencia firmada de qué controles se aplicaron de verdad en tu equipo. 36 casos en dos familias — sandboxes técnicos y mercado de capitales con dinero simulado. Experimental y educativo, no un producto de seguridad
+Linux隔離實驗室:執行他人在申報政策下的程式碼、檔案和商業模式,併發布簽名證據,證明對你們團隊實際適用了何種控制。 在兩個家庭中,36起案例——技術沙盒和資本市場,模擬貨幣。實驗和教育,而不是安全產品。
 
-### Universal Payments Engineering Lab · Proyecto
+### 通用支付工程實驗室 工程
 
-Laboratorio autoexplicativo de ingeniería de pagos: 28 familias, DEMO local, estados, ledger, conciliación, seguridad y guías de implementación
+支付工程自解實驗室:28個家庭、地方DEMO、州、分類賬、調解、安全和執行指南
 
-### Qemu Kvm Labs · Proyecto
+### Qemu Kvm 實驗室專案
 
-qemu-kvm-labs · 12 labs de virtualización real · QEMU, KVM, libvirt, cloud-init y vm-manager · Linux + WSL2
+QEMU-kvm-labs · 12個真正的虛擬化實驗室 · QEMU, KVM, libvirt, 雲-init和vm-manager · Linux + WSL2
 
-### Database Systems Labs · Proyecto
+### 資料庫系統實驗室 − 專案
 
-Programa abierto de ingeniería de bases de datos · 74 clases en 15 partes · 230 h · Del modelado conceptual a la arquitectura distribuida, la operación y la recuperación para IA · 120 fuentes con ISBN, DOI o norma citadas clase a clase y verificadas en CI · Glosario de 306 términos · El mismo caso resuelto en 27 motores
+開放資料庫工程程式 15個部分的74個班 230 h 從概念模型到分散式架構、操作和恢復 120個來源,有ISBN、DOI或標準 提及班級,並在CI 306術語中核實 27個引擎中解決了同一案件
 
-### Framework Ecosystems Labs · Proyecto
+### 框架生態系統實驗室 · 專案
 
-Laboratorio de clases comparadas: el mismo contrato ejecutable, sin adaptadores, contra Express, FastAPI, Spring Boot, ASP.NET, Django, Rails, Laravel, React, Vue, Svelte y más. 149 clases en 12 partes (70 construidas, 397 casos verificados en CI) · 210 fuentes con ISBN/DOI · seguridad, datos, interfaz
+比較級實驗室:同一份可執行合同,沒有介面卡,與快遞、快遞、春靴、ASP.NET、Django、Rails、Laravel、React、Vue、Svelte等公司對接。 149個班,共12個部分(70個建造,397個案例在CI中核實) ^ 210個來源,有ISBN /DOI 安全、資料、介面
 
-### IA aplicada
+### 應用的IA
 
-### LangGraph · Agentic Resilience
+### · 致病復原力
 
-LangGraph v4.15.0 · 25/25 backends operativos (cobertura 100%, casos 01–25): streaming NDJSON, DEMO/LIVE, OAuth2 opt-in, observabilidad LangSmith, /metrics, 8 capas de seguridad, cadena de custodia SHA-256, Docker por caso y CI/CD hardened.
+LangGraph v 4.15.0 → 25 / 25 操作後端 (100%覆蓋,01-25個案例):流出NDJSON,DEMO / LIVE,OAuth2 選擇入選,LangSmith可觀察性,/ 度量,8個安全層,SHA-256保管鏈,多剋剋每起案例和CI / CD加固.
 
-### MCP Ollama Local
+### MCP 當地奧拉馬語
 
-Web local (FastAPI) + Ollama + herramientas vía MCP y persistencia en SQLite. Privacidad total (localhost), herramientas seguras y documentación para onboarding técnico y reclutamiento.
+本地網路(FastAPI)+奧拉瑪+工具透過MCP並持續在SQLite中. Total privity (localhost),技術入職和招聘的安全工具和檔案.
 
-### Claude Skills Toolkit
+### 克勞德技能工具包
 
-15 skills agentic para Claude Code (v0.2.0): security-audit (12 capas — OSV/KEV/EPSS/SAST/secrets/container/typosquat…), python-lint-guard (paridad local↔CI), python-deps-pinning, version-bump, md-to-doc, yaml-control, md-lint-fix, docker-cleanup, docker-compose-doctor, pre-push-guard, web-snap y más. Zero-deps por defecto y cross-platform (Linux/macOS/Windows).
+Claude Code的15個技能代理(v.2.0):安全-審計.python-lint-guard(當地對等 QQ CI),piThon-deps-pinning. pre-push-guart, web- snap and more. 預設 & cross-1 (Linux / macOS) 平臺的零分解
 
-### Neural Network Training Labs · Proyecto
+### 神經網路培訓實驗室 · 專案
 
-Neural Network Training Labs v1.0 · 31 rutas (25 labs + 6 especializaciones) · 93 notebooks · Ciclo completo de ingeniería de IA con datasets públicos reales: sellado de test, registro champion/challenger, API de inferencia, ONNX/INT8/edge, DDP/FSDP2 y cadena de suministro (SBOM/SHA-256). PyTorch · Python 3.11–3.13
+神經網路訓練實驗室v1.0 → 31個路線(25個實驗室+6個專業) → 93個筆記本 → 具有真實公共資料集的IA工程全週期:測試封口,洗髮/挑戰,推斷API,ONNX /INT8 /邊緣,DDP / FSDP2和供應鏈(SBOM / SHA-256) → PyTorch 3.11-3.13.
 
-### Currículos técnicos completos
+### 完成技術課程
 
-### Computational Mathematics Program · Proyecto
+### 計算機數學程式 · 專案
 
-Matemática computacional en español · 18 partes · 360 clases en 5 etapas: de contar con los dedos a reproducir un paper · 360 demostraciones deterministas verificadas en CI · sin dependencias para aprender · 1080 notebooks · 489 términos de glosario · manual completo en PDF
+西班牙語計算機數學 18個部分 360個課程分為5個階段:從手指彈出一紙 360個決定論示威在CI中核實 否依賴學習 1080個筆記本 489個詞彙 完整PDF手冊
 
-### Modern GameDev Program
+### 現代 Gamedev 程式
 
-El programa de desarrollo de videojuegos más completo en español — 352 clases en 22 partes, de fundamentos a nivel profesional. Matemáticas, C#/C++/GDScript, patrones y ECS; 10 laboratorios Godot verificados en CI y enfoque agnóstico de motor: Godot 4 · Unity · Unreal.
+最完整的西班牙語電子遊戲開發計劃——專業基礎學22個部分的352個班. Mathematics, C#/C++ / GDScript,圖案和ECS; CI和引擎不可知論方法中核實的10個戈多實驗室: Godot 4 = Unity = 不真實.
 
-### Modern Cybersecurity Program
+### 現代網路安全方案
 
-El programa de ciberseguridad más completo en español — 360 clases en 20 partes, de fundamentos a nivel experto. Laboratorios Docker levantables por comando, retos CTF con writeups, autoevaluaciones, guías PDF/PPTX y mapeo a 7 certificaciones (Security+, PenTest+, CySA+, OSCP, CISSP, BTL1, SANS) con 86–92% de cobertura.
+最完整的西班牙語網路安全方案——20個部分的360個課程,是專家級的基本知識. 多克實驗室按指令,CTF挑戰的草稿,自我評價,PDF/PPTX指南和繪圖到7個認證(安全+,PenTest+,CySA+,OSCP,CISSP,BTL1,SANS),覆蓋率為86-92%.
 
-### Multi Cloud Engineering Program · Proyecto
+### 多雲工程方案 · 專案
 
-Multi-Cloud Engineering Program v2.2.0 · 288 clases en 24 partes · 1.288 horas · El programa de ingeniería multi-cloud más completo en español: AWS, Azure, GCP, Kubernetes, Terraform, SRE, FinOps y arquitectura de sistemas · Manual PDF de 1.220 páginas, 288 labs deterministas con evidencia JSON, CLI con certificado y portal PWA.
+多雲工程方案 v2.2.0 ^ 288個班,共24個部分 1.288小時 ^ 西班牙語最完整的多雲工程方案:AWS, Azure, GCP, Kubernetes, Terraform, SRE, FinOps and system architecture ^ 1,220頁 PDF手冊,288個帶有JSON的分頁標籤確定器,帶有證書的CLI證據和PWA入口網站.
 
-### Finance And Banking Evolution Program · Proyecto
+### · 財務和銀行業演變方案
 
-Programa abierto de 356 clases en 23 partes · 534 h · De calcular un porcentaje a construir y defender un banco digital: matemática financiera, contabilidad NIIF, crédito, riesgos, Basilea III, cumplimiento, finanzas abiertas, pagos transfronterizos, DLT, stablecoins, tokenización y MiCA · 26 casos y fuentes oficiales verificables en cada clase
+23個部分的356個班級的公開方案 · 534 h · 計算一個百分比以建立和維護一個數字銀行:金融數學、《國際財務報告準則》會計、信貸、風險、巴塞爾三、合規、公開金融、跨境支付、DLT、穩定幣、象徵性化和多邊投資協議 · 每個班級26個案例和可核實的官方來源
 
-### Modern Business Creation Program · Proyecto
+### 現代商業創造方案 · 專案
 
-Programa de 24 partes y 336 clases para crear y operar una empresa real en Chile: de la idea a la constitución, el SII, la operación, la crisis y la salida. Con 360 diagramas, glosario de 1.251 términos y manual de 1.541 páginas en PDF
+24個部分的節目和336個班級,在智利建立和運營一個真正的公司:從思想到憲法,SII,操作,危機和產出. PDF中包含360個圖表,1,251個詞彙的詞彙和1,541頁的手冊.
 
-### Executive Leadership Founder Program · Proyecto
+### 行政領導創始人方案 · 專案
 
-Programa ejecutivo abierto de 288 clases en 24 partes · 720 h · De asumir tu primer resultado a dirigir una empresa y crear la tuya: liderazgo, equipos, talento, operaciones, KPI/OKR, finanzas, ventas, marketing, producto, estrategia, riesgo, IA, directorio, M&A y founder track Chile · 24 casos, 96 labs y 39 plantillas
+24個班級的288個公開執行方案,共720小時 承擔你管理公司的第一個成績,並建立你的班級:領導、團隊、人才、業務、KPI/OKR、金融、銷售、營銷、產品、戰略、風險、IA、目錄、併購和腳步跟蹤智利 24個案例、96個實驗室和39個模板
 
-### Python Data Science Program
+### Python 資料科學程式
 
-232 clases en 9 partes (Python aplicado, ML clásico, Deep Learning, estadística inferencial, MLOps, ingeniería de datos, recomendadores, ética, capstones). Laboratorio Flask interactivo + app de escritorio Windows nativa (PySide6 + Qt + kernel Jupyter) + app Android (Expo SDK 51). 232 PDFs + 232 PPTX generados.
+9個部分的232個班級(Python應用,經典ML,深層學習,引申統計,MLOPS,資料工程,推薦,倫理,capstons). Flask 互動式+桌面應用本土Windows(PySide6 + Qt +核心木星)+Android應用(Expo SDK 51). 232 PDFs + 232 PPTX生成.
 
-### Artificial Intelligence Evolution Program · Proyecto
+### 人工智慧進化方案 · 專案
 
-AI Evolution Program v0.17.0 · 180 clases en 15 partes con materia completa · 540 notebooks con ejercicios y soluciones · PDFs por parte + programa completo (~1.100 pags) · La evolución de la IA en español: simbólica, ML, deep learning, LLMs, RAG, agentes, MLOps, seguridad y frontera
+AI Evolution Program v0.17.0 – 180個班,共15個部分,內容完整 + 540個筆記本,內容包括練習和解決方案 + PDF + 完整程式 + 1.100頁 西班牙語IA的演變:符號化,ML,深層學習,LLMS,RAG,代理,MLOPS,安全和邊界
 
-### Polyglot Programming Labs · Proyecto
+### · Polyglot程式設計實驗室專案
 
-El programa de programación comparada en español — 176 clases en 12 partes. Un concepto, 10 lenguajes del núcleo (Python, JS, TS, Java, C#, Go, Rust, C, SQL, PHP) verificados en CI, y un Atlas de ~40 familias. Aprende el concepto una vez y reconócelo en cualquier lenguaje
+方案以西班牙語進行對比,有176個班,共12個部分。一個概念,10個核心語言(Python、JS、TS、Java、C#、Go、Rust、C、SQL、PHP)在CI中得到了驗證,還有一個由~40個家庭組成的地圖集,以任何語言學習一次並重新連線。
 
-### Blockchain Learning Path · Proyecto
+### 區鏈學習路徑 · 專案
 
-Blockchain Learning Path v0.14.0 · Programa en español: 28 módulos de cero a la infraestructura financiera programable — cripto, Bitcoin, EVM, contratos, seguridad, L2, ZK, DeFi, dinero y liquidación, stablecoins, CBDC/MDBC, pagos y FX, tokenización, RWA, mercados de capitales, custodia y regulación. 70 prácticas, 186 pruebas, apps offline
+區鏈學習路徑 v0.14.0 西班牙語方案:28個模組,零到可程式設計金融基礎設施 - 密碼、比特幣、EVM、合同、安全、L2、ZK、DeFi、貨幣和清算、穩定幣、CBDC/MDBC、付款和FX、象徵性化、RWA、資本市場、保管和監管。
 
-### Machine Operator Program
+### 機器操作程式
 
-Base documental del Programa de Operación y Simulación de Máquinas: 41 cursos (29 vehículos reales + 12 naves de ficción) con 11 módulos cada uno — mandos, instrumentos, historia, reglamentos y diseño de simulación — con foco educativo y de seguridad. Aún sin simulador ejecutable; CI valida estructura y enlaces.
+機器操作和模擬方案的檔案基礎:41個課程(29個正版車輛+12個虛構船),每個單元11個模組——控制、儀器、歷史、規章和模擬設計——以教育和安全為重點。即使沒有可執行模擬器;CI有效結構和連結。
 
-### Education Pedagogy Learning Sciences Program · Proyecto
+### 教育學學習方案-專案
 
-Pedagogía, Docencia y Ciencias del Aprendizaje v2.0.0 · 300 clases en 25 partes · El programa de formación pedagógica más completo en español: aprendizaje, didáctica, inclusión, currículum, evaluación, convivencia, IA educativa y liderazgo · Evidencia declarada por clase, 14 rutas por rol, 60 actividades de aula y portal offline 🇨🇱
+教學、教學和學習科學v 2.0.0 25個部分的300個班級 西班牙語教學方案最完整:學習、教學、包容、課程、評價、共存、教育性IA和領導力 課堂上公佈的證據、14條角色路線、60個課堂活動和離線門戶
 
-### Marketing Sales Growth Evolution Program · Proyecto
+### 銷售銷售增長方案 − 專案
 
-Marketing, Sales & Growth Evolution Program v1.6.0 · 336 clases en 24 partes · 1.348 conceptos, 1.012 métricas y 97 obras · marketing, ventas, RevOps, growth, analítica e IA comercial · portal offline en Python
+營銷、銷售和增長演變方案v1.6.0 24個部分的336個類別 1.348個概念、1.012個度和97個作品 營銷、銷售、RevOps、增長、分析和商業 IA 平通的離線門戶
 
-### Chilean School Learning Path · Proyecto
+### 智利學校學習道路專案
 
-Currículum escolar chileno abierto: 8.841 clases, 4.156 integraciones y 2.823 OA desde 1° básico hasta 4° medio, con fuentes MINEDUC, guías pedagógicas y portal en GitHub Pages.
+開放的智利學校課程:8 841個班級,4 156個綜合課程,2 823個OA從1個基礎課程到4箇中間課程,其中MINEDUC的資料來源,教學指南和門戶在GitHub Pages.
 
-### Architecture Built Environment Learning Program · Proyecto
+### 建築建設環境學習方案 · 專案
 
-Programa integral del entorno construido en español: 680 clases en 68 partes, desde el encargo hasta el fin de vida; historia, proyecto, ciudad, sistemas, construcción, gestión, operación y rehabilitación · 8 talleres (48 sesiones) · 12 rutas · fuentes trazables por clase.
+西班牙環境綜合方案:從委員會到生命結束,共68個部分680個班級;歷史、專案、城市、系統、建築、管理、運作和康復——8個講習班(48個班級)——12個路線——每個班級可攜帶源。
 
-### Psychometrics And Assessment Program · Proyecto
+### 心理測量和評估方案
 
-psychometrics-and-assessment-program · 5 instrumentos · 344 ítems · 81 escalas · scoring auditable · currículo: 40 clases (5 escritas) · licencias trazables · Python 3.11–3.13 · 57 tests
+心理計量和評估方案 5個儀器 344個物品 81個分級 防嚇 課程:40個班(5個書面班) 追蹤許可證 平通 3.11-3.13 57個測試
 
-### Ingeniería de software moderna · Currículo técnico
+### 現代軟體工程技術課程
 
-480 clases, 40 partes y 8 etapas · fundamentos → producto, arquitectura, seguridad, DevOps, SRE, SPEC, IA y sistemas multiagente · estado editorial declarado por el repositorio.
+480個班級、40個分級和8個階段 基礎 產品、建築、安全、DevOps、SRE、SPEC、IA和多代理系統 資料庫宣佈的編輯狀態。
 
-### Ciencia y educación
+### 科學和教育
 
-### Human Genome Labs
+### 人類基因組實驗室
 
-Plataforma científica evolutiva y reproducible para genética molecular y genómica (v1.0.0): núcleo TypeScript verificable (secuencias, traducción, ORF, variantes, G-cuádruplex), contratos ScientificResult, lectores FASTA/GFF3/VCF, CLI científica, laboratorio web PWA y juego educativo. No realiza diagnóstico clínico.
+分子和基因組遺傳學的進化與可再生科學平臺 (v1.0.0):可核查的TypeScript核心(序列,翻譯,ORF,變體,G-quádruplex),科學成果合同,FASTA / GF3 / VCF讀取器,科學CLI,PWA網路實驗室和教育遊戲.
 
-### Violin Adventure · Proyecto
+### · 虛擬冒險專案
 
-Mi Aventura con el Violín · App educativa para aprender violín desde los 10 años · 24 lecciones en 6 mundos, afinador cromático, metrónomo y práctica guiada · Tauri 2 + React + TypeScript · Windows, Android, Linux, macOS, iOS y PWA · Sin publicidad, sin cuentas, offline · v1.0.0, instaladores firmados en Releases
+我與維奧林的冒險 —— 教育應用 從10歲開始學習小提琴 —— 關於6個世界的24個課,色調調調奏器, * Windows、Android、Linux、macOS、iOS和PWA。 離線 ^ v1.0.0, 安裝器在版本中籤名
 
-⚡ Varios proyectos de este portafolio fueron desarrollados con flujo asistido por IA (Claude Code · ChatGPT Plus · Antigravity) combinado con validación técnica y dirección arquitectónica propias.
+⚡ 這套組合的幾個專案是在國際審計署的協助下開發的(Claude Code → ChatGPT Plus → Antigravity),再加上技術驗證和建築方向.
 
-### Repos recientes (auto)
+### 最近的評論(汽車)
 
-Se carga desde las APIs públicas de GitHub y GitLab (ordenada por actualización). Muestra estrellas ★ y forks ⑂.
+它從 GitHub 和 GitLab 的公開API (按更新順序) 上載, 它顯示星和叉 。
 
-### Actividad reciente (auto)
+### 最近的活動( 自身)
 
-⬆ commits · 🔀 PRs / MRs · 🚀 releases — GitHub y GitLab en tiempo real.
+⬆ · hs/MRs —— 釋出 - GitHub和GitLab實時釋出。
 
-[Ver referencia](https://vladimiracunadev-create.github.io/#referencias)
+[見參考文獻](https://vladimiracunadev-create.github.io/#referencias)
 
-[Contactarme](https://vladimiracunadev-create.github.io/#contacto)
+[聯絡我](https://vladimiracunadev-create.github.io/#contacto)
 
-[GitHub](https://github.com/vladimiracunadev-create/rootcause-windows-inspector)
+[基特胡布語Name](https://github.com/vladimiracunadev-create/rootcause-windows-inspector)
 
-[Release v0.19.0](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest)
+[釋出 v0.19.0](https://github.com/vladimiracunadev-create/rootcause-windows-inspector/releases/latest)
 
-[Landing](https://vladimiracunadev-create.github.io/rootcause-windows-inspector/)
+[著陸](https://vladimiracunadev-create.github.io/rootcause-windows-inspector/)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/rootcause-mobile-inspector)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/rootcause-mobile-inspector)
 
-[Release v0.2.1](https://github.com/vladimiracunadev-create/rootcause-mobile-inspector/releases/latest)
+[釋出 v. 2.1](https://github.com/vladimiracunadev-create/rootcause-mobile-inspector/releases/latest)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/rootcause-web-inspector)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/rootcause-web-inspector)
 
-[Sitio del producto](https://vladimiracunadev-create.github.io/universal-code-scanner/)
+[產品網站](https://vladimiracunadev-create.github.io/universal-code-scanner/)
 
-[Probar en el navegador](https://vladimiracunadev-create.github.io/universal-code-scanner/app/)
+[在瀏覽器中測試](https://vladimiracunadev-create.github.io/universal-code-scanner/app/)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/universal-code-scanner)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/universal-code-scanner)
 
-[Descargar APK](https://github.com/vladimiracunadev-create/universal-code-scanner/releases/latest)
+[下載APK](https://github.com/vladimiracunadev-create/universal-code-scanner/releases/latest)
 
-[GitHub](https://github.com/vladimiracunadev-create/gabysql)
+[基特胡布語Name](https://github.com/vladimiracunadev-create/gabysql)
 
-[Release desktop-v0.1.0](https://github.com/vladimiracunadev-create/gabysql/releases/latest)
+[釋放桌面- v0.1.0](https://github.com/vladimiracunadev-create/gabysql/releases/latest)
 
-[GitHub](https://github.com/vladimiracunadev-create/automa-pc)
+[基特胡布語Name](https://github.com/vladimiracunadev-create/automa-pc)
 
-[Release v0.3.0](https://github.com/vladimiracunadev-create/automa-pc/releases/latest)
+[釋出 v0. 3. 0](https://github.com/vladimiracunadev-create/automa-pc/releases/latest)
 
-[Sitio](https://vladimiracunadev-create.github.io/automa-pc/)
+[站點](https://vladimiracunadev-create.github.io/automa-pc/)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/chofyai-studio)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/chofyai-studio)
 
-[Commits](https://github.com/vladimiracunadev-create/chofyai-studio/commits/main)
+[承諾](https://github.com/vladimiracunadev-create/chofyai-studio/commits/main)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/rhino-suite)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/rhino-suite)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/guitarra-adventure)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/guitarra-adventure)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/agentic-plugins-toolkit)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/agentic-plugins-toolkit)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/operational-ai-agents)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/operational-ai-agents)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/empresa-operativa-chile)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/empresa-operativa-chile)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/rootcause-macos-inspector)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/rootcause-macos-inspector)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/codex-skills-toolkit)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/codex-skills-toolkit)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/rootcause-qr-inspector)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/rootcause-qr-inspector)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/pdf-reader-windows-android)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/pdf-reader-windows-android)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/rootcause-server)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/rootcause-server)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/aws-desktop-studio)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/aws-desktop-studio)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/ai-dataset-foundry)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/ai-dataset-foundry)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/rootcause-blockchain-security)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/rootcause-blockchain-security)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/rootcause-bitcoin-defense)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/rootcause-bitcoin-defense)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/decentraland-social-arcade)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/decentraland-social-arcade)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/commerce-operating-system)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/commerce-operating-system)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/panuelo-al-viento-cueca-app)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/panuelo-al-viento-cueca-app)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/video-transcript-studio)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/video-transcript-studio)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/lifelong-learning-ecosystem)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/lifelong-learning-ecosystem)
 
-[GitHub](https://github.com/vladimiracunadev-create/docker-labs)
+[基特胡布語Name](https://github.com/vladimiracunadev-create/docker-labs)
 
-[Release v1.5.0](https://github.com/vladimiracunadev-create/docker-labs/releases/latest)
+[釋出 v1.5.0](https://github.com/vladimiracunadev-create/docker-labs/releases/latest)
 
-[README](https://github.com/vladimiracunadev-create/docker-labs/blob/main/README.md)
+[讀取](https://github.com/vladimiracunadev-create/docker-labs/blob/main/README.md)
 
-[RECRUITER.md](https://github.com/vladimiracunadev-create/docker-labs/blob/main/RECRUITER.md)
+[盧安達](https://github.com/vladimiracunadev-create/docker-labs/blob/main/RECRUITER.md)
 
-[Demos](https://vladimiracunadev-create.github.io/#demos)
+[演示](https://vladimiracunadev-create.github.io/#demos)
 
-[GitHub](https://github.com/vladimiracunadev-create/proyectos-aws)
+[基特胡布語Name](https://github.com/vladimiracunadev-create/proyectos-aws)
 
-[Commits](https://github.com/vladimiracunadev-create/proyectos-aws/commits/main)
+[承諾](https://github.com/vladimiracunadev-create/proyectos-aws/commits/main)
 
-[README](https://github.com/vladimiracunadev-create/proyectos-aws/blob/main/README.md)
+[讀取](https://github.com/vladimiracunadev-create/proyectos-aws/blob/main/README.md)
 
-[GitLab](https://gitlab.com/vladimir.acuna.dev-group/proyectos-aws-gitlab)
+[吉特拉布語Name](https://gitlab.com/vladimir.acuna.dev-group/proyectos-aws-gitlab)
 
-[Ver Demos](https://vladimiracunadev-create.github.io/#demos)
+[見Demos](https://vladimiracunadev-create.github.io/#demos)
 
-[GitHub](https://github.com/vladimiracunadev-create/microsistemas)
+[基特胡布語Name](https://github.com/vladimiracunadev-create/microsistemas)
 
-[Release v1.1.0](https://github.com/vladimiracunadev-create/microsistemas/releases/latest)
+[釋出 v1.1.0](https://github.com/vladimiracunadev-create/microsistemas/releases/latest)
 
-[README](https://github.com/vladimiracunadev-create/microsistemas/blob/main/README.md)
+[讀取](https://github.com/vladimiracunadev-create/microsistemas/blob/main/README.md)
 
-[RECRUITER.md](https://github.com/vladimiracunadev-create/microsistemas/blob/main/docs/RECRUITER.md)
+[盧安達](https://github.com/vladimiracunadev-create/microsistemas/blob/main/docs/RECRUITER.md)
 
-[GitHub](https://github.com/vladimiracunadev-create/social-bot-scheduler)
+[基特胡布語Name](https://github.com/vladimiracunadev-create/social-bot-scheduler)
 
-[Release v4.9.1](https://github.com/vladimiracunadev-create/social-bot-scheduler/releases/latest)
+[釋出 v4.9.1](https://github.com/vladimiracunadev-create/social-bot-scheduler/releases/latest)
 
-[README](https://github.com/vladimiracunadev-create/social-bot-scheduler/blob/main/README.md)
+[讀取](https://github.com/vladimiracunadev-create/social-bot-scheduler/blob/main/README.md)
 
-[GitHub](https://github.com/vladimiracunadev-create/problem-driven-systems-lab)
+[基特胡布語Name](https://github.com/vladimiracunadev-create/problem-driven-systems-lab)
 
-[Commits](https://github.com/vladimiracunadev-create/problem-driven-systems-lab/commits/main)
+[承諾](https://github.com/vladimiracunadev-create/problem-driven-systems-lab/commits/main)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/wsl-labs)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/wsl-labs)
 
-[Release v0.4.1](https://github.com/vladimiracunadev-create/wsl-labs/releases/latest)
+[釋出 v. 4.1](https://github.com/vladimiracunadev-create/wsl-labs/releases/latest)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/unikernel-labs)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/unikernel-labs)
 
-[Release v2.0.0](https://github.com/vladimiracunadev-create/unikernel-labs/releases/latest)
+[釋出 v 2. 0.0](https://github.com/vladimiracunadev-create/unikernel-labs/releases/latest)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/sandbox-labs)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/sandbox-labs)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/universal-payments-engineering-lab)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/universal-payments-engineering-lab)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/qemu-kvm-labs)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/qemu-kvm-labs)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/database-systems-labs)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/database-systems-labs)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/framework-ecosystems-labs)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/framework-ecosystems-labs)
 
-[GitHub](https://github.com/vladimiracunadev-create/langgraph-realworld)
+[基特胡布語Name](https://github.com/vladimiracunadev-create/langgraph-realworld)
 
-[Commits](https://github.com/vladimiracunadev-create/langgraph-realworld/commits/main)
+[承諾](https://github.com/vladimiracunadev-create/langgraph-realworld/commits/main)
 
-[README](https://github.com/vladimiracunadev-create/langgraph-realworld/blob/main/README.md)
+[讀取](https://github.com/vladimiracunadev-create/langgraph-realworld/blob/main/README.md)
 
-[RECRUITER.md](https://github.com/vladimiracunadev-create/langgraph-realworld/blob/main/docs/RECRUITER.md)
+[盧安達](https://github.com/vladimiracunadev-create/langgraph-realworld/blob/main/docs/RECRUITER.md)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/mcp-ollama-local)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/mcp-ollama-local)
 
-[Commits](https://github.com/vladimiracunadev-create/mcp-ollama-local/commits/main)
+[承諾](https://github.com/vladimiracunadev-create/mcp-ollama-local/commits/main)
 
-[README](https://github.com/vladimiracunadev-create/mcp-ollama-local/blob/main/README.md)
+[讀取](https://github.com/vladimiracunadev-create/mcp-ollama-local/blob/main/README.md)
 
-[GitHub](https://github.com/vladimiracunadev-create/claude-skills-toolkit)
+[基特胡布語Name](https://github.com/vladimiracunadev-create/claude-skills-toolkit)
 
-[Commits](https://github.com/vladimiracunadev-create/claude-skills-toolkit/commits/main)
+[承諾](https://github.com/vladimiracunadev-create/claude-skills-toolkit/commits/main)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/neural-network-training-labs)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/neural-network-training-labs)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/computational-mathematics-program)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/computational-mathematics-program)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/modern-gamedev-program)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/modern-gamedev-program)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/modern-cybersecurity-program)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/modern-cybersecurity-program)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/multi-cloud-engineering-program)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/multi-cloud-engineering-program)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/modern-business-creation-program)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/modern-business-creation-program)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/executive-leadership-founder-program)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/executive-leadership-founder-program)
 
-[GitHub](https://github.com/vladimiracunadev-create/python-data-science-program)
+[基特胡布語Name](https://github.com/vladimiracunadev-create/python-data-science-program)
 
-[Release v3.8.0](https://github.com/vladimiracunadev-create/python-data-science-program/releases/latest)
+[釋出 v3.8.0](https://github.com/vladimiracunadev-create/python-data-science-program/releases/latest)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/artificial-intelligence-evolution-program)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/artificial-intelligence-evolution-program)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/polyglot-programming-labs)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/polyglot-programming-labs)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/blockchain-learning-path)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/blockchain-learning-path)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/machine-operator-program)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/machine-operator-program)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/education-pedagogy-learning-sciences-program)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/education-pedagogy-learning-sciences-program)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/chilean-school-learning-path)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/chilean-school-learning-path)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/psychometrics-and-assessment-program)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/psychometrics-and-assessment-program)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/modern-software-engineering-program)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/modern-software-engineering-program)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/human-genome-labs)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/human-genome-labs)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/violin-adventure)
+[重取( GitHub) (GitHub) Name](https://github.com/vladimiracunadev-create/violin-adventure)
 
-## Demos en vivo
+## 上活話去.
 
 <!-- portfolio-section:demos -->
 
-Enlaces públicos para ver despliegues reales (cuando aplica).
+公共連結,以檢視實際部署(如適用)。
 
-### Portfolio Web · GitHub Pages
+### 組合網 · GitHub 頁面
 
-Portafolio web en 22 idiomas desplegado en GitHub Pages vía GitHub Actions. PWA instalable, Lighthouse 100, 154 PDFs generados por pipeline y API JSON i18n.
+透過GitHub Actions在GitHub Pages中部署的22種語言的Web組合. PWA可以安裝,Lightthouse 100,由管道生成的154個PDF和JSON i18n API.
 
-### AWS S3 + GitHub Actions
+### AWS S3 + GitHub 動作
 
-Deploy automático (sync) vía GitHub OIDC. Flujo profesional con validaciones.
+自動部署(sync)透過GitHub OIDC. 專業流與驗證.
 
-### Portal de Documentación (GitLab CI)
+### 檔案門戶(GitLab CI)
 
-Glassmorphism PWA desplegado desde GitLab vía OIDC y OAC (Caso L - FinOps).
+玻璃形態PWA從GitLab透過OIDC和OAC(L-FinOps)部署.
 
-### AWS Amplify · Deploy por ramas
+### AWS 擴充套件 · 由分支部署
 
-Continuous Deployment con build automático, SSL y entornos aislados (main/dev).
+連續部署自動建築、SSL和相隔環境(主/dev)。
 
-### Docker Labs: dashboard local
+### 道克實驗室:本地儀表板
 
-Un “hub” local para explorar labs por stack. Ideal para entrevistas técnicas.
+一個本地的"接" 逐一探索實驗室 理想的技術訪談
 
-[Ver sitio](https://vladimiracunadev-create.github.io/)
+[檢視網站](https://vladimiracunadev-create.github.io/)
 
-[GitHub](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io)
+[基特胡布語Name](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io)
 
-[Ver demo](https://mi-pagina-scrum-123.s3.us-east-2.amazonaws.com/index.html)
+[檢視演示](https://mi-pagina-scrum-123.s3.us-east-2.amazonaws.com/index.html)
 
-[GitHub Repo](https://github.com/vladimiracunadev-create/proyectos-aws)
+[GitHub 重取原樣](https://github.com/vladimiracunadev-create/proyectos-aws)
 
-[Ver demo](http://finops-vladimir-portfolio-case-l.s3-website.us-east-2.amazonaws.com)
+[檢視演示](http://finops-vladimir-portfolio-case-l.s3-website.us-east-2.amazonaws.com)
 
-[GitLab Repo](https://gitlab.com/vladimir.acuna.dev-group/vladimir.acuna.dev-group)
+[吉特拉布重現](https://gitlab.com/vladimir.acuna.dev-group/vladimir.acuna.dev-group)
 
-[Demo main](https://main.d3r1wuymolxagh.amplifyapp.com/)
+[主要需求](https://main.d3r1wuymolxagh.amplifyapp.com/)
 
-[Demo dev](https://dev.d20m8tc0banvg.amplifyapp.com/)
+[德克薩斯州](https://dev.d20m8tc0banvg.amplifyapp.com/)
 
-## Experiencia
+## 經驗
 
 <!-- portfolio-section:experiencia -->
 
-Resumen por hitos (usa la vista “Profundo” para detalles).
+按里程碑彙總(詳情請使用"深"檢視).
 
-### Transición (laboratorios + portafolio)
+### 過渡(實驗室+組合)
 
-Estandarización de entornos, laboratorios Docker/AWS, automatización, observabilidad y prototipos con IA local.
+環境標準化,多克/AWS實驗室,自動化,可觀察性以及與當地IA的原型.
 
-- Documentación reproducible por perfil (reclutador, desarrollador y casos prácticos).
+- 按概況(徵聘者、開發者和實踐案例)可複製檔案。
 
-- Foco en prácticas: ramas, PRs, CI/CD, Pages y releases.
+- 注重實踐:分支、公關、CI/CD、網頁和發行。
 
-### Fundación CEIS Maristas
+### CEIS Maristas基金會
 
-Arquitectura, desarrollo y operación de plataformas web educativas/psicométricas. Optimización SQL/performance. Seguridad operacional: análisis forense de ataques, gestión de logs y pruebas con OWASP ZAP y JMeter.
+教育/心理測量網路平臺的架構、開發和執行。最佳化SQL/效能。操作安全:對攻擊的法證分析、日誌管理和測試與OWASP ZAP和JMeter。
 
-- Seguridad: análisis forense de ataques al servidor en más de una ocasión, determinando origen, vector de entrada y alcance.
+- 警衛: 多次對伺服器攻擊進行法證分析,確定來源,輸入向量和可達性.
 
-- Gestión y análisis de logs del servidor y del entorno PHP: depuración de código y detección de actividad anómala desde IP desconocidas.
+- 伺服器和PHP環境日誌的管理和分析:程式碼清理和檢測來自未知IP的異常活動.
 
-- Endurecimiento del sistema con OWASP ZAP (simulación de ataques) y pruebas de carga con Apache JMeter .
+- 全系統 OWASP ZAP 軟體 (模擬攻擊)和裝入試驗 Apache JMeter 資料 .
 
-- Formación en ciberseguridad durante la pandemia y posterior charla institucional de ciberseguridad.
+- 大流行病期間的網路安全培訓以及隨後的機構網路安全講座。
 
-### Negocio + TI
+### 業務+資訊科技
 
-Formación técnica en administración de empresas: procesos, eficiencia, marketing y medición.
+業務管理技術培訓:流程、效率、營銷和計量。
 
-## Flujo de desarrollo asistido por IA
+## 由國際投資協會協助的發展流動
 
 <!-- portfolio-section:flujo-ia -->
 
-Uso herramientas de IA como aceleradores técnicos reales en proyectos, no como sustitutos del criterio propio.
+我將IA工具作為專案中真正的技術加速器,而不是作為自己標準的替代品.
 
-### Herramientas en uso activo
+### 正在使用的工具
 
-- ChatGPT Plus (desde 2023) · análisis, arquitectura, iteración y documentación
+- 聊天GPT 附加軟體 (自2023年以來 · 分析、結構、迭代和檔案
 
-- Codex · generación y refactorización de código
+- 程式碼 · 程式碼生成和再設計
 
-- Claude Code · revisión arquitectónica, implementación y documentación técnica
+- 克勞德程式碼 · 建築設計審查、執行和技術檔案
 
-- Antigravity · aceleración de flujos de desarrollo y automatización
+- 反重力 · 加快發展和自動化流動
 
-- VS Code / OpenCode · entornos de desarrollo con asistencia IA integrada
+- VS 程式碼/ 開啟程式碼 · 綜合國際影響評估援助的發展環境
 
-### Dónde aplico IA en el flujo
+### 我應用IA在流中
 
-- Diagnóstico técnico y análisis de arquitectura
+- 技術診斷和結構分析
 
-- Diseño de soluciones y validación de decisiones
+- 解決方案設計和決定的審定
 
-- Implementación, refactorización y pruebas
+- 實施、再設計和測試
 
-- Documentación técnica y por perfil
+- 技術和概況檔案
 
-- Aceleración de proyectos e iteración sobre repositorios
+- 專案加速和儲存器重聯
 
-"Combino criterio técnico propio, validación humana y dirección arquitectónica. La IA amplifica capacidad, velocidad y alcance técnico — no reemplaza experiencia."
+"我綜合了自己的技術標準、人類驗證和建築方向,國際審計署擴大了能力、速度和技術範圍,不能取代經驗。 "
 
-## Alcance profesional real
+## 真正的專業範圍
 
 <!-- portfolio-section:roles -->
 
-Jerarquía clara: identidad principal primero, expansión natural después, alcance complementario al final.
+清代分級:先是主要身份,後是自然擴張,最後是互補的伸展.
 
-### 🎯 Identidad principal
+### 🎯 主要身份
 
-16+ años de arquitectura, desarrollo y operación de plataformas reales. Modernización progresiva sin cortar operación, integración de sistemas, automatización de procesos e IA aplicada — con criterio técnico propio y validación humana.
+16+年架構,真平臺的開發與執行 逐步現代化而不會切割執行,整合系統,流程自動化和應用IA - 有技術標準和人性驗證.
 
-### ↗ Expansión natural — cargos que puedo asumir con fuerza
+### ↗ 自然擴張 - 電荷我可以承受的強度
 
-Respaldados por experiencia directa, proyectos verificables y flujo asistido por IA.
+由直接經驗、可核查的專案和內部審計師協會協助的流程提供支援。
 
-### Líder Tecnológico / Tech Lead
+### 技術領導/技術領導
 
-Dirección técnica de proyectos, definición de arquitectura, revisión de decisiones críticas, acompañamiento de equipos, modernización de sistemas existentes y conexión entre objetivos de negocio y soluciones tecnológicas mantenibles.
+技術專案方向、結構定義、關鍵決定的審查、裝置配套、現有系統的現代化以及業務目標與可持續技術解決辦法之間的聯絡。
 
-### AI Orchestration Engineer
+### AI 管絃樂工程師
 
-Diseño de sistemas agénticos con LangGraph, FastAPI y MCP. Agentes con estado, rutas condicionales y resiliencia.
+設計出與LangGraph,FastAPI和MCP相通的自源系統. 具有狀態,有條件的路線和韌性的代表.
 
-### AI Automation Engineer
+### AI 自動化工程師
 
-Automatización de flujos con n8n, Python y orquestadores resilientes. Circuit Breaker, Idempotencia y observabilidad.
+與n8n,Python和有彈性的管絃樂器相接的流自動化. Circuit Breaker, Addpotence and observation.
 
-### Solutions Engineer
+### 解決方案工程師
 
-Demos y PoCs reales, comunicación técnico-negocio, requisitos y arquitectura orientada a cliente.
+我們給予和提供真正的、技術的交流——業務、要求和麵向客戶的結構。
 
-### Technical Product Builder
+### 技術產品構建器
 
-Construcción de productos digitales end-to-end: arquitectura, desarrollo, operación y entrega con criterio de producto.
+數字產品端到端的建設:建築,開發,執行和交付均符合產品標準.
 
-### Consultor de Transformación Digital
+### 數字轉換顧問
 
-Diagnóstico técnico, plan evolutivo y ejecución de modernización en organizaciones con sistemas legacy reales.
+在具有真正遺留系統的組織中進行技術診斷,進化計劃和實施現代化.
 
-### Product Operations Técnico
+### 產品操作技術
 
-Operación, continuidad y evolución de plataformas con foco en reducción de fricción, observabilidad y mejora continua.
+平臺的執行,連續性和演化,以摩擦減少,可觀察性和持續改進為重點.
 
-### Instructor de Programación y Pensamiento Computacional
+### 計算機程式設計和思想指導員
 
-445+ horas dictadas como relator técnico (2003–2004, 2011): programación web, HTML/CSS, Office y hardware. Titulación universitaria sobre entorno educativo web para niños con Síndrome de Down (nota 6.7). Ing. en Computación e Informática (UTA) + 16 años operando plataformas de evaluación educativa real.
+445+小時作為技術報告員(2003-2004,2011年):網路程式設計,HTML/CSS,Office和硬體. Down Syndromes兒童網路教育環境大學學位(注6.7). 例如,計算機與資訊學(UTA)+16年執行真實的教育評價平臺.
 
-### 🧭 Qué tipo de liderazgo tecnológico ofrezco
+### 🧭 我提供什麼樣的技術領導
 
-- Liderazgo técnico práctico, no solo administrativo.
+- 實際的技術領導,而不僅僅是行政領導.
 
-- Decisiones basadas en experiencia real de producción.
+- 根據實際生產經驗作出決定。
 
-- Modernización gradual sin interrumpir la operación.
+- 逐步進行現代化改造,不中斷執行.
 
-- Documentación clara para equipos, reclutadores y continuidad.
+- 明確各隊,招募人員的檔案和連續性.
 
-- IA como amplificador técnico, no como sustituto del criterio profesional.
+- 以IA作為技術放大器,而不是代替專業標準.
 
-- Enfoque en estabilidad, mantenibilidad, seguridad y reducción de deuda técnica.
+- 採取穩定、可持續性、安全和技術減債的辦法。
 
-### ⚙️ Alcance complementario
+### ⚙️ 補充範圍
 
-Extensión lógica del perfil. Asumo estos roles cuando el contexto o el proyecto lo requieren, no como identidad principal.
+配置的邏輯擴充套件。我承擔這些角色 當上下文或專案需要時,而不是作為主要身份。
 
-### ✅ Por qué puedo asumir este alcance
+### ✅ 我為什麼要走這個距離
 
-- Liderazgo tecnológico — Guía técnica de equipos, definición de estándares, revisión de riesgos y acompañamiento en decisiones críticas.
+- 技術領導 — 關鍵決策中裝置技術指南,標準定義,風險審查和後續.
 
-- Arquitectura de soluciones — Diseño y evolución de sistemas desde la raíz hasta producción.
+- 解決方案的設計 — 系統從根到出產的設計和演變.
 
-- Modernización de legacy — 16+ años con sistemas heredados sin cortar operación.
+- 法律現代化 — 16年+有不切入操作的繼承系統.
 
-- Automatización — n8n, Python, workflows resilientes con observabilidad en Grafana.
+- 自動化 — n8n,活活活活潑,具有可觀察性的工作流程在格拉法納.
 
-- Cloud / CI/CD — AWS (Lambda, DynamoDB, ECS, EKS, Cognito, EventBridge, CloudWatch/X-Ray), Terraform, OIDC, FinOps.
+- 雲/ CI/ CD 單曲 — AWS(蘭布達,DynamotB,ECS,EKS,Cognitto,事件Bridge,Cloud Watch / X-Ray),Terraform,OIDC,FinOps.
 
-- Desarrollo polyglot — Python, Go, TypeScript, Node.js, PHP 8.x, C#, Ruby, PowerShell, Makefile.
+- 聚糖開發 — Python, Go, TypeScript, Node.js, PHP 8.x, C#, Ruby, PowerShell, Makefile.
 
-- Integración de IA — LangGraph, MCP, Ollama, ChatGPT Plus, Claude Code.
+- 整合國際審計機構 — 朗格拉夫,MCP,奧拉瑪,ChatGPT Plus,克洛德程式碼.
 
-- Comunicación técnico-negocio — Formación en administración + experiencia real en proyectos institucionales.
+- 技術交流----業務 — 管理培訓+機構專案的實際經驗。
 
-- Colaboración y documentación — Docs por perfil, RECRUITER.md, evidencia verificable en repos.
+- 協作與檔案 — 按剖面圖、RERUITER.md,可核實的證據重新提交。
 
-### 🔗 Roles relacionados según contexto
+### 🔗 按背景分列的相關作用
 
-Abordables según tipo de proyecto, empresa o necesidad específica.
+可按專案型別、公司或具體需要加以選擇。
 
-## Servicios
+## 服務
 
 <!-- portfolio-section:servicios -->
 
-Intervenciones por etapas alineadas con arquitectura real, modernización y evolución técnica sostenible.
+與真正的建築、現代化和可持續技術演變相適應的階段干預。
 
-### Auditoría de código generado por IA
+### 內部審計機構生成的程式碼審計
 
-Verificación funcional, auditoría técnica, limpieza y reducción de deuda técnica, y gobernanza de IA para equipos que ya desarrollan con asistentes y agentes.
+職能核查、技術審計、技術債務清理和減少以及已與助理和代理人一起建立的國際審計機構治理小組。
 
-### Modernización de Sistemas Legacy
+### 遺產系統的現代化
 
-Refactor progresivo, migración de PHP/stack legacy, CI/CD, pruebas automatizadas y despliegue seguro sin cortar operación.
+漸進Refactor,PHP / 停止遺留的遷移,CI / CD,自動測試和安全部署而不切入操作.
 
-### Automatización de Procesos y Workflows
+### 流程和工作流程自動化
 
-Diseño e implementación de flujos automatizados con n8n, Python y orquestadores resilientes. Circuit Breaker, Idempotencia y observabilidad incluidos.
+設計和實施由n8n、Python和有彈性管絃樂器組成的自動流量,包括斷路器、同上高強度和可觀察性。
 
-### Integración de IA Aplicada
+### 應用的IA的整合
 
-Incorporación de agentes, LLMs y flujos asistidos por IA a productos y procesos reales. LangGraph, MCP, Ollama y FastAPI.
+將代理商、LLMs和IA協助的流量納入實際產品和工藝。
 
-### Arquitectura Cloud, CI/CD y Observabilidad
+### 雲層結構、CI/光碟和可觀察性
 
-AWS (ECS/EKS, Lambda/SAM, DynamoDB, Cognito, EventBridge/SQS/SNS, CloudWatch/X-Ray, S3/CloudFront), Terraform, OIDC, FinOps, GitHub/GitLab CI y Prometheus/Grafana.
+AWS(ECS / EKS,Lambda / SAM, DynamotB, Cognito, EventBridge / SQS / SNS, Cloud Watch / X-Ray, S3 / CloudFront),Terraform,OIDC,FinOps,GitHub CI和Prometheus / Grafana.
 
-### Diagnóstico Técnico y Plan Evolutivo
+### 技術診斷和演變計劃
 
-Evaluación integral: riesgos, deuda técnica, performance, costos y hoja de ruta priorizada con quick wins accionables.
+全面評估:可以作出風險、技術債務、業績、成本和有速贏的優先路線圖。
 
-[Ver el servicio completo](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/)
+[全部服務都看齊了](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/)
 
-## Freelance · Modalidades de colaboración
+## 自由合作方式
 
 <!-- portfolio-section:modalidades -->
 
-Trabajo en formatos flexibles según el problema, la criticidad, el alcance y el nivel de involucramiento requerido.
+我的工作形式靈活,符合問題、關鍵程度、範圍和所需參與程度。
 
-### Proyecto acotado
+### 專案中斷
 
-Para modernización puntual, integraciones, automatización específica, mejora crítica o entregables concretos.
+要及時實現現代化,整合化,搞好具體自動化,關鍵改進或具體交付.
 
-### Bolsa de horas / apoyo experto
+### 專家支助/小時包
 
-Para equipos que necesitan acelerar decisiones técnicas, destrabar arquitectura, validar implementaciones o resolver cuellos de botella.
+對於需要加快技術決策,解鎖架構,驗證實施或解決瓶頸的團隊.
 
-### Acompañamiento mensual
+### 每月援助額
 
-Para evolución sostenida, soporte senior, roadmap técnico, continuidad operativa y mejora progresiva.
+持續演變、高階支助、技術路線圖、業務連續性和逐步改進。
 
-### Diagnóstico + hoja de ruta
+### 診斷+路線圖
 
-Para ordenar contexto, identificar riesgos, priorizar decisiones y definir una estrategia de implementación realista.
+確定背景、確定風險、確定決定的優先次序並制定一項現實的執行戰略。
 
-### Colaboración técnico-comercial
+### 技術-商業合作
 
-Para apoyar conversaciones con clientes o stakeholders, traducir requerimientos a soluciones viables y acompañar preventa o definición técnica.
+支援與客戶或利益攸關方的對話,將要求轉化為可行的解決方案並附帶預先資料或技術定義。
 
-### Modernización, rescate e IA aplicada
+### 現代化、救援和應用國際審計協會
 
-Apoyo cuando hay sistemas frágiles, operación viva, automatizaciones pendientes, decisiones de arquitectura, cloud/CI-CD, observabilidad o adopción pragmática de IA.
+支援有脆弱的系統,活活執行,待自動化,建築決定,雲/Cic@-@CD,可觀察性或務實地透過IA.
 
-### Cómo defino la modalidad adecuada
+### 我如何定義合適的模式
 
-En la práctica separo discovery, arquitectura, ejecución, pruebas, documentación, coordinación y soporte posterior. Si el encargo mezcla varias capas, lo ordeno por fases o por capacidad mensual para evitar expectativas difusas.
+在實踐中,單獨的發現、架構、執行、測試、文件、協調和後期支援。如果命令混合了多層,我按階段或月度命令,以避免分散期望。
 
-### Sin tarifas fijas publicadas
+### 未公佈固定費率
 
-No publico tarifas fijas porque cada intervención cambia según complejidad, riesgo, urgencia y nivel de involucramiento. Prefiero revisar primero el objetivo y el alcance para proponer la modalidad adecuada.
+我不公佈固定費率,因為每次干預都根據複雜性、風險、緊迫性和參與程度而變化,我寧願首先審查目標和範圍,以提出適當的模式。
 
-¿Proyecto, apoyo experto o colaboración puntual? Conversemos el contexto y revisamos el mejor formato de trabajo.
+¿專案、專家支助或及時合作? 我們討論背景,審查最佳工作形式。
 
-[Conversemos el alcance](https://vladimiracunadev-create.github.io/#contacto)
+[談取鏡.](https://vladimiracunadev-create.github.io/#contacto)
 
-## Centro de Descargas
+## 排氣中心
 
 <!-- portfolio-section:descargas -->
 
-Accede a las versiones nativas y documentos profesionales públicos.
+獲取本地版本和公共專業檔案。
 
-### Recomendado
+### 建議
 
-Detectando equipo...
+探測裝置...
 
-### Otras Versiones
+### 其他版本
 
-Usa estos enlaces si la detección automática no coincide con tu dispositivo.
+如果自動檢測與您的裝置不符, 則使用這些連結 。
 
-### Documentos PDF
+### PDF 文件
 
-El selector de idioma cambia cada descarga al PDF equivalente en el idioma activo.
+語言選擇器將每次下載修改為活動語言中對應的PDF.
 
-La nota de vigencia es un documento de apoyo emitido por el profesional, no por Fundación CEIS Marista. Contextualiza el cambio de autoridad de 2026 y debe revisarse junto con la carta de recomendación histórica.
+有效說明是專業人士而非Fundación CEIS Marista釋出的輔助檔案,是2026年的文字化權力變更,必須連同歷史推薦信一起審查.
 
-La declaración de logros se publica aparte para resumir resultados observables y facilitar validación externa sin reemplazar el CV ni el portafolio.
+成就表單獨印發,以總結可觀測結果並便利外部驗證,而無需替換CV或組合.
 
-La Hoja de Vida es el documento genérico: formato clásico y completo, sin estar dirigido a un cargo específico. Sirve para cualquier proceso de selección, aunque el puesto tenga un nombre poco habitual.
+生活表是通用文件:經典而完整的格式,沒有被指向特定收費。它為任何選擇過程服務,即使該帖子有不尋常的名稱。
 
-### Archivos técnicos
+### 技術檔案
 
-Archivos de descubrimiento en la raíz del sitio (SEO + IA).
+發現檔案位於站點根部(SEO + IA).
 
-[Android (APK)](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/releases/latest/download/app-debug.apk)
+[安卓( APK)](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/releases/latest/download/app-debug.apk)
 
-[Portafolio](https://vladimiracunadev-create.github.io/assets/portafolio.pdf)
+[組合](https://vladimiracunadev-create.github.io/assets/portafolio.pdf)
 
-[Hoja de Vida](https://vladimiracunadev-create.github.io/assets/hoja-de-vida.pdf)
+[生活表](https://vladimiracunadev-create.github.io/assets/hoja-de-vida.pdf)
 
-[CV Reclutador](https://vladimiracunadev-create.github.io/assets/cv-reclutador.pdf)
+[CV 遞解器](https://vladimiracunadev-create.github.io/assets/cv-reclutador.pdf)
 
-[CV ATS](https://vladimiracunadev-create.github.io/assets/cv-ats.pdf)
+[苯丙胺類興奮劑](https://vladimiracunadev-create.github.io/assets/cv-ats.pdf)
 
-[Carta de Recomendación](https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma.pdf)
+[建議書](https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma.pdf)
 
-[Nota de Vigencia CEIS](https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis.pdf)
+[CEIS 觀察筆記](https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis.pdf)
 
-[Declaración de Logros](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
+[成就宣言](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
 
-[robots.txt](https://vladimiracunadev-create.github.io/robots.txt)
+[機器人.txt( 自動)](https://vladimiracunadev-create.github.io/robots.txt)
 
-[sitemap.xml](https://vladimiracunadev-create.github.io/sitemap.xml)
+[sitemap.xml 頁面存檔備份,存於網際網路檔案館](https://vladimiracunadev-create.github.io/sitemap.xml)
 
-[llm.txt](https://vladimiracunadev-create.github.io/llm.txt)
+[工作週期( 週一至週五)](https://vladimiracunadev-create.github.io/llm.txt)
 
-## Referencias laborales
+## 勞工參考
 
 <!-- portfolio-section:referencias -->
 
-Para proyectos institucionales, la validación se realiza vía referencia.
+對於機構專案,透過參考進行審定.
 
-### Logros resumidos y validación
+### 成就和審定摘要
 
-- Hasta 80% de mejora estimada en procesos críticos y generación de reportes.
+- 上邊 80% 關鍵程式和報告工作估計的改進。
 
-- Reducción cercana al 90% en fricción operativa y soporte sobre Batería Online.
+- 減少近 90% 操作摩擦和支援線上電池。
 
-- Optimización aproximada de 45% en componentes de base de datos y código.
+- 大致最佳化 45% 資料庫和程式碼元件。
 
-- Atención simultánea de hasta 5 frentes de trabajo en ciertos períodos.
+- 同時上到... 5個戰線 在某些時期工作。
 
-Estas cifras se presentan en una declaración formal emitida por el profesional, con referencia externa para validar contexto laboral y alcance general.
+這些數字載於專業人員發表的正式宣告,外部參考以驗證工作背景和一般範圍。
 
-### Jean Claude Dupry · Último jefe directo
+### 讓·克洛德·杜普里 · 最後一個直接主管
 
-Celular : +56 9 9415 6984
+單元格 : +56 9 9415 6984
 
-Puedo enviar un resumen por escrito y ejemplos de impacto si lo necesitas.
+我可以傳送書面摘要 和影響力的例子 如果你需要。
 
-[Ver declaración](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
+[見宣告](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
 
-## Tarjeta de presentación
+## 簡報卡
 
 <!-- portfolio-section:tarjeta -->
 
-Guarda mis datos profesionales o comparte este portafolio mediante el código QR. El reverso resume mis áreas de servicio: aplicaciones web, arquitectura cloud, datos, APIs, IA, automatización y ciberseguridad.
+使用 QR 程式碼儲存我的專業資料或共享此組合。 反之則概括了我的服務領域: 網路應用程式、 雲架構、 資料、 API、 IA、 自動化和網路安全 。
 
 https://vladimiracunadev-create.github.io/assets/icons/1.png?v=5adde69a
 
 https://vladimiracunadev-create.github.io/assets/icons/2.png?v=1a55b3e6
 
-[Descargar frente](https://vladimiracunadev-create.github.io/assets/icons/1.png?v=5adde69a)
+[下載前置](https://vladimiracunadev-create.github.io/assets/icons/1.png?v=5adde69a)
 
-[Descargar reverso](https://vladimiracunadev-create.github.io/assets/icons/2.png?v=1a55b3e6)
+[下載倒轉](https://vladimiracunadev-create.github.io/assets/icons/2.png?v=1a55b3e6)
 
-## Contacto
+## 聯絡
 
 <!-- portfolio-section:contacto -->
 
-¿Modernización, automatización, arquitectura o integración de IA aplicada? Escríbeme.
+¿現代化、自動化、建築或整合應用的IA?
 
-Disponible para integrarme rápidamente a equipos y comunidades técnicas a través de canales colaborativos como Slack.
+可以透過Slack等合作渠道,迅速融入技術團隊和社群。
 
-[vladimir.acuna.dev@gmail.com](mailto:vladimir.acuna.dev@gmail.com)
+[維拉迪米爾.acuna.dev @gmail.com 網際網路檔案館的存檔,存檔日期2013-10-02.](mailto:vladimir.acuna.dev@gmail.com)
 
-[LinkedIn](https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29)
+[連結到](https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29)
 
-[GitHub](https://github.com/vladimiracunadev-create)
+[基特胡布語Name](https://github.com/vladimiracunadev-create)

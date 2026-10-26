@@ -13,6 +13,7 @@ cp index.html styles.css app.js pwa.js manifest.webmanifest service-worker.js of
 cp -r i18n api "$TARGET_DIR/"
 mkdir -p "$TARGET_DIR/data"
 cp data/portfolio-i18n.json "$TARGET_DIR/data/"
+cp data/portfolio-translations.json "$TARGET_DIR/data/"
 
 # Copia de assets públicos sin respaldos ni documentos privados.
 mkdir -p "$TARGET_DIR/assets"

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-25",
+    "generated_at": "2026-10-26",
     "language": "it",
     "language_name": "Italian",
     "native_name": "Italiano",
@@ -11,8 +11,8 @@
   },
   "profile": {
     "name": "Vladimir Acuña",
-    "title": "Architettura, modernizzazione, automazione e IA applicata a progetti reali.",
-    "summary": "Architetto di Soluzioni · Senior Full-Stack · Leader Tecnologico . 16+ anni alla guida dell'evoluzione delle piattaforme. Specializzato in modernizzazione di sistemi legacy , automazione dei processi , cloud & CI/CD e integrazione di IA applicata .",
+    "title": "Architettura, modernizzazione, automazione e IA applicate a progetti reali.",
+    "summary": "L'architetto delle soluzioni · Senior Full-Stack · Leader tecnologico . 16 + anni che portano l'evoluzione delle piattaforme. Specializzato in modernizzazione dei sistemi giuridici , automazione del processo , cloud & CI / CD E' un'altra cosa. integrato IA .",
     "website": "https://vladimiracunadev-create.github.io/i18n/it/",
     "github": "https://github.com/vladimiracunadev-create",
     "gitlab": "https://gitlab.com/vladimir.acuna.dev-group"
@@ -26,7 +26,7 @@
   "sections": [
     {
       "id": "hero",
-      "title": "Architettura, modernizzazione, automazione e IA applicata a progetti reali.",
+      "title": "Architettura, modernizzazione, automazione e IA applicate a progetti reali.",
       "min_level": 0,
       "freelance_hidden": false
     },
@@ -44,13 +44,13 @@
     },
     {
       "id": "auditoria-ia",
-      "title": "Audit del codice generato dall'IA",
+      "title": "Controllo del codice generato da IA",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "productos",
-      "title": "Prodotti scaricabili",
+      "title": "Prodotti monouso",
       "min_level": 0,
       "freelance_hidden": false
     },
@@ -62,7 +62,7 @@
     },
     {
       "id": "demos",
-      "title": "Demo dal vivo",
+      "title": "Andiamo a vivere.",
       "min_level": 1,
       "freelance_hidden": false
     },
@@ -80,7 +80,7 @@
     },
     {
       "id": "roles",
-      "title": "Portata professionale reale",
+      "title": "Campo di applicazione professionale",
       "min_level": 1,
       "freelance_hidden": true
     },
@@ -92,31 +92,31 @@
     },
     {
       "id": "modalidades",
-      "title": "Freelance · Modalità di collaborazione",
+      "title": "Freelance · Modalities of collaborazione",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "descargas",
-      "title": "Centro Download",
+      "title": "Centro di scarico",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "referencias",
-      "title": "Referenze lavorative",
+      "title": "Riferimenti del lavoro",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "tarjeta",
-      "title": "Biglietto da visita",
+      "title": "Scheda di presentazione",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "contacto",
-      "title": "Contatto",
+      "title": "Contatto ora",
       "min_level": 0,
       "freelance_hidden": false
     }

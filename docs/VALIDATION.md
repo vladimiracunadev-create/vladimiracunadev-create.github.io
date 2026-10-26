@@ -1,6 +1,6 @@
 # Guía de Validación Local
 
-**Última ejecución integral:** 2026-10-25.
+**Última ejecución integral:** 2026-10-26.
 
 Este proyecto utiliza **Lighthouse CI** para asegurar calidad, accesibilidad y performance.
 
@@ -21,7 +21,7 @@ pnpm build
 pnpm lhci
 ```
 
-`pnpm test` ejecuta la integridad general y `scripts/validate-i18n.js`: 22 rutas, 16 secciones, cuatro vistas, Markdown, API, fallback español, artefactos y RTL para árabe/persa. CI ejecuta este gate en `.github/workflows/ci.yml`.
+`pnpm test` ejecuta la integridad general y `scripts/validate-i18n.js`: 22 rutas, 21 catálogos completos de 933 textos + 36 atributos, 16 secciones, cuatro vistas, Markdown, API, fallback español, artefactos y RTL para árabe/persa. CI ejecuta este gate en `.github/workflows/ci.yml`.
 
 ### ¿Qué evalúa?
 
@@ -37,7 +37,7 @@ El `service-worker` usa una estrategia híbrida para evitar que cambios visibles
 - **`network-first`** para navegación y archivos de shell (`index.html`, `styles.css`, `app.js`, `pwa.js`, `manifest.webmanifest`).
 - **`cache-first`** para assets estáticos más estables.
 - **Invalidación por versión** mediante `CACHE_NAME` y versión en `pwa.js` cuando hay cambios importantes de entrega.
-- **Entradas offline localizadas**: las 22 rutas y `data/portfolio-i18n.json` forman parte del shell precacheado.
+- **Entradas offline localizadas**: las 22 rutas, el contrato y `data/portfolio-translations.json` forman parte del shell precacheado.
 
 ## Matriz funcional i18n
 

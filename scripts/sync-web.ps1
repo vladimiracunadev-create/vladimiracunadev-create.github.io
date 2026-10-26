@@ -16,6 +16,7 @@ Copy-Item "i18n" -Destination $TargetDir -Recurse -Force
 Copy-Item "api" -Destination $TargetDir -Recurse -Force
 New-Item -ItemType Directory -Path (Join-Path $TargetDir 'data') -Force | Out-Null
 Copy-Item "data/portfolio-i18n.json" -Destination (Join-Path $TargetDir 'data') -Force
+Copy-Item "data/portfolio-translations.json" -Destination (Join-Path $TargetDir 'data') -Force
 
 # Copia de assets, excluyendo lo que el sitio NO publica.
 # Copiar 'assets' entero metia dentro del APK:

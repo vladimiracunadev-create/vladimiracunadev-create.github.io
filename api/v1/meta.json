@@ -1,7 +1,7 @@
 {
     "meta": {
         "version": "v1",
-        "generated_at": "2026-10-25",
+        "generated_at": "2026-10-26",
         "api_name": "CV Data API",
         "owner": "Vladimir Acuña",
         "base_url": "https://vladimiracunadev-create.github.io",
@@ -48,7 +48,7 @@
             "hi",
             "el"
         ],
-        "artifact_switching": "All 22 language choices use the same SPA, four views, navigation and components. Six locales have inline translations; missing keys fall back to Spanish. Every locale links to seven matching PDF artifacts.",
+        "artifact_switching": "All 22 language choices use the same SPA, complete versioned translations, four views, navigation and components. A missing catalog key falls back to Spanish without changing the selected locale. Every locale links to seven matching PDF artifacts.",
         "language_suffix_map": {
             "es": "",
             "en": "-english",
@@ -87,7 +87,7 @@
     "data_source": {
         "primary_pdf": "assets/cv-ats.pdf",
         "extraction_method": "pypdf + reportlab pipeline",
-        "extraction_date": "2026-10-25",
+        "extraction_date": "2026-10-26",
         "pdf_generation": "Python reportlab + Chromium print pipeline (154 PDFs: 7 document families across 22 languages)"
     }
 }
