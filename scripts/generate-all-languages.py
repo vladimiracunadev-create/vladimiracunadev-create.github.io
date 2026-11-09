@@ -1542,7 +1542,7 @@ PROJECT_GROUPS = [
     ("curricula", ["modern_cyber", "modern", "python", "multi", "artificial", "blockchain",
                    "computational", "modern_business", "finance", "executive", "marketing",
                     "education", "polyglot", "neural", "machine", "architecture", "database",
-                    "lifelong", "modern_software"]),
+                    "lifelong", "modern_software", "astronomy"]),
     ("science", ["human", "chilean", "psychometrics", "panuelo"]),
 ]
 
@@ -1622,6 +1622,7 @@ PROJECT_NAMES = {
     "human": "Human Genome Labs", "codex": "Codex Skills Toolkit",
     "rootcause_qr": "RootCause QR Inspector", "chilean": "Chilean School Learning Path",
     "architecture": "Architecture & Built Environment", "pdf": "PDF Reader",
+    "astronomy": "Astronomy & Aerospace Engineering",
     "universal_payments": "Universal Payments Engineering Lab",
     "psychometrics": "Psychometrics & Assessment", "rootcause_server": "RootCause Server",
     "aws": "AWS Desktop Studio", "ai": "AI Dataset Foundry",
@@ -1662,6 +1663,7 @@ PROJECT_STACK = {
     "database": "27 DB engines", "video": "Whisper, Windows",
     "framework": "12 ecosystems, CI", "software": "Python, GitHub Pages",
     "lifelong": "30 paths, 6 areas", "modern_software": "Python, GitHub Pages",
+    "astronomy": "Python, Markdown",
 }
 
 

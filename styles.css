@@ -806,6 +806,18 @@ body[data-theme="light"] .lang-select option {
   margin: 10px 0
 }
 
+/* Seccion #software: nombres de herramientas como fichas neutras al idioma.
+   Van en <code> para que no entren al catalogo de traduccion. */
+.tool-chips {
+  gap: 6px;
+  margin: 8px 0 10px
+}
+
+.tool-chips code.pill {
+  font-family: inherit;
+  padding: 6px 10px
+}
+
 /* Fila de estadisticas de #recentRepos: separa los pills de la lista de
    actividad que va justo debajo. Sustituye un style= inline bloqueado. */
 .chips--stats {

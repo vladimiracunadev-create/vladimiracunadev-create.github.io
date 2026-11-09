@@ -11,6 +11,18 @@
 - 154 PDFs regenerados (7 tipos × 22 idiomas)
 - Backup en `assets/backups/2026-11-09/`
 
+### feat(web): sección «Software usado» (solo web) y realineación del sync
+
+- Nueva sección `#software` en `index.html` y opción «Software usado» en el menú lateral: 13 grupos de herramientas por disciplina tomados del Dossier Profesional (noviembre de 2026), en los 6 idiomas inline. Cada grupo declara su tipo de uso (producción, autoría propia, o solo documentado y enseñado). Sin `data-min-level`: se ve en las 4 vistas.
+- Alcance deliberado: el inventario de software vive **solo en la web**. No se añadió a `data/portfolio-i18n.json` (por eso no entra a `docs/i18n/` ni a `api/v1/i18n/`), ni a `api/v1/`, ni a los PDFs.
+- `styles.css`: clases `.tool-chips` para las fichas (nombres en `<code>`, fuera del catálogo de traducción). `llm.txt` menciona la sección.
+- `data/portfolio-translations.json` + `i18n/translations.js`: realineados con el `index.html` actual (959 unidades; las claves `uNNNN` son posicionales y la card de astronomía ya las había desplazado). Se reutilizaron las traducciones existentes por alineación de texto; las unidades nuevas usan semilla inline y Argos local.
+- `service-worker.js`: `CACHE_NAME` → `vladi-portfolio-v25-software-20261109` para invalidar la caché PWA (sin cambios en manifest ni Capacitor).
+- `scripts/sync-portfolio.py`: `gh repo list --limit 100` → `500`. Con 100 el listado incluía forks y dejaba solo 47 repos públicos propios (hay 65), lo que marcaba como «inexistentes» a RootCause y otros 17 repos.
+- `scripts/generate-all-languages.py`: el repo `astronomy` se categoriza en «Cursos» (`PROJECT_GROUPS`, `PROJECT_NAMES`, `PROJECT_STACK`); sin eso fallaba la generación de los CV.
+- Hero tag «Nuevo» → Nov 2026 en los 6 idiomas.
+- `[BACKUP] assets/backups/2026-11-09/` — `index.html_v1`, `styles.css_v1`, `service-worker.js_v1`, `llm.txt_v1` (previos a la sección de software) y los 154 PDFs.
+
 ## 2026-10-26
 
 ### fix(i18n): traducción completa y equivalente para los 22 idiomas

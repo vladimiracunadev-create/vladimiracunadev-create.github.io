@@ -229,7 +229,7 @@ def repo_display(name):
 def get_public_repos():
     log("Consultando repos GitHub...", "HEAD")
     out, code = run_capture(
-        "gh repo list vladimiracunadev-create --limit 100 "
+        "gh repo list vladimiracunadev-create --limit 500 "
         "--json name,isPrivate,isFork,description,updatedAt,url"
     )
     if code != 0:
