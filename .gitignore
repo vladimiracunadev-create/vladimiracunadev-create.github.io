@@ -33,3 +33,6 @@ dist-release/
 
 # Respaldos: viven solo en la carpeta local, nunca en el repositorio (el repo guarda solo archivos vigentes)
 assets/backups/
+
+# ZIP de despliegue generado (scripts/build-zip.py): artefacto, no fuente
+portfolio-bundle.zip
