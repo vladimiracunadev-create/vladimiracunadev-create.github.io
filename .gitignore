@@ -30,3 +30,6 @@ portfolio-bundle-*.zip
 
 # Artefactos ya publicados como assets de release; no deben versionarse.
 dist-release/
+
+# Respaldos de PDFs del 2026-11-09: solo en el equipo local (aligera el sitio publicado)
+assets/backups/2026-11-09/*.pdf

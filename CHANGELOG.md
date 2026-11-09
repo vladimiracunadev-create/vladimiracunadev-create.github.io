@@ -21,6 +21,7 @@
 - `scripts/sync-portfolio.py`: `gh repo list --limit 100` → `500`. Con 100 el listado incluía forks y dejaba solo 47 repos públicos propios (hay 65), lo que marcaba como «inexistentes» a RootCause y otros 17 repos.
 - `scripts/generate-all-languages.py`: el repo `astronomy` se categoriza en «Cursos» (`PROJECT_GROUPS`, `PROJECT_NAMES`, `PROJECT_STACK`); sin eso fallaba la generación de los CV.
 - Hero tag «Nuevo» → Nov 2026 en los 6 idiomas.
+- Los 154 PDFs de respaldo de `assets/backups/2026-11-09/` quedan **solo en el equipo local** (fuera de git, vía `.gitignore`): con ellos el sitio publicado pasó de 289 a 350 MB y el despliegue de GitHub Pages agotaba el tiempo en `syncing_files`.
 - `[BACKUP] assets/backups/2026-11-09/` — `index.html_v1`, `styles.css_v1`, `service-worker.js_v1`, `llm.txt_v1` (previos a la sección de software) y los 154 PDFs.
 
 ## 2026-10-26
