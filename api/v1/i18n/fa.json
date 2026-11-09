@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-26",
+    "generated_at": "2026-11-09",
     "language": "fa",
     "language_name": "Persian",
     "native_name": "فارسی",
@@ -62,61 +62,61 @@
     },
     {
       "id": "demos",
-      "title": "بیایید زندگی کنیم.",
+      "title": "سایت See site",
       "min_level": 1,
       "freelance_hidden": false
     },
     {
       "id": "experiencia",
-      "title": "تجربه",
+      "title": "استاندارد محیط ها، آزمایشگاه های Docker / AWS، اتوماسیون، قابلیت نظارت و نمونه های اولیه با IA محلی.",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "flujo-ia",
-      "title": "جریان توسعه کمک شده توسط IA",
+      "title": "(از سال 2023 تا کنون",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "roles",
-      "title": "محدوده حرفه ای واقعی",
+      "title": "سازنده : Software Architect",
       "min_level": 1,
       "freelance_hidden": true
     },
     {
       "id": "servicios",
-      "title": "خدمات",
+      "title": "تایید عملی",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "modalidades",
-      "title": "فریلنسرها · تغییرات همکاری",
+      "title": "میراث میراث",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "descargas",
-      "title": "مرکز تخلیه",
+      "title": "تجهیزات شناسایی ...",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "referencias",
-      "title": "مرجع های کارگری",
+      "title": "بهبود تخمین زده شده در فرایندهای بحرانی و گزارش.",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "tarjeta",
-      "title": "کارت ارائه",
+      "title": "دانلود بازی Front",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "contacto",
-      "title": "تماس",
+      "title": "نصب App",
       "min_level": 0,
       "freelance_hidden": false
     }

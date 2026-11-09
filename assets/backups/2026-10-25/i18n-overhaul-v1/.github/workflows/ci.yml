@@ -1,0 +1,119 @@
+name: CI - Quality & SEO
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  quality:
+    name: Code Quality
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # pnpm v11 trae postinstall bloqueado y minimumReleaseAge=1d por defecto.
+      # Defensa frente a la campaña Shai-Hulud en npm. Ver:
+      # https://github.com/vladimiracunadev-create/claude-skills-toolkit/blob/main/docs/supply-chain-security.md
+      # La versión se toma de "packageManager" en package.json (single source
+      # of truth). NO duplicar con "version:" aquí — el action lo rechaza
+      # con ERR_PNPM_BAD_PM_VERSION.
+      - name: Setup pnpm
+        uses: pnpm/action-setup@0e279bb959325dab635dd2c09392533439d90093 # v6.0.8
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'pnpm'
+
+      - name: Install Dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Lint HTML
+        run: pnpm lint:html
+
+      - name: Lint Markdown
+        run: pnpm lint:md
+
+      - name: Portfolio Integrity Check
+        run: pnpm test
+
+  seo:
+    name: SEO Generation
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Generate Sitemap/Robots
+        run: node scripts/generate-seo.js
+
+      - name: Upload SEO Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: seo-files
+          path: |
+            sitemap.xml
+            robots.txt
+            llm.txt
+
+  links:
+    name: Link Checker
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Link Checker (Lychee)
+        uses: lycheeverse/lychee-action@v1.9.0
+        with:
+          args: --verbose --no-progress --exclude-path docs/wiki './**/*.html' './**/*.md'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  performance:
+    name: Lighthouse CI
+    needs: quality
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # La versión se toma de "packageManager" en package.json (single source
+      # of truth). NO duplicar con "version:" aquí — el action lo rechaza
+      # con ERR_PNPM_BAD_PM_VERSION.
+      - name: Setup pnpm
+        uses: pnpm/action-setup@0e279bb959325dab635dd2c09392533439d90093 # v6.0.8
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'pnpm'
+
+      - name: Install Dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build
+        run: pnpm build
+
+      - name: Run Lighthouse CI
+        run: pnpm lhci
+        env:
+          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
+
+      - name: Upload Build Artifact (Preview)
+        uses: actions/upload-artifact@v4
+        with:
+          name: portfolio-preview
+          path: dist/
+
+

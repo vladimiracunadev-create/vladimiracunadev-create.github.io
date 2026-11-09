@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-26",
+    "generated_at": "2026-11-09",
     "language": "id",
     "language_name": "Indonesian",
     "native_name": "Bahasa Indonesia",
@@ -62,61 +62,61 @@
     },
     {
       "id": "demos",
-      "title": "Mari kita pergi hidup.",
+      "title": "Lihat situs",
       "min_level": 1,
       "freelance_hidden": false
     },
     {
       "id": "experiencia",
-      "title": "Pengalaman",
+      "title": "Standardisasi lingkungan, laboratorium Docker / AWS, otomatisasi, pengamatan dan prototipe dengan lokal IA.",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "flujo-ia",
-      "title": "Aliran pembangunan dibantu oleh IA",
+      "title": "(sejak 2023)",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "roles",
-      "title": "Ruang lingkup profesional yang sebenarnya",
+      "title": "Arsitek Perangkat Lunak",
       "min_level": 1,
       "freelance_hidden": true
     },
     {
       "id": "servicios",
-      "title": "Layanan",
+      "title": "Verifikasi fungsional",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "modalidades",
-      "title": "Pemulihan",
+      "title": "Warisan",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "descargas",
-      "title": "Pusat Pengosongan",
+      "title": "Mendeteksi peralatan...",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "referencias",
-      "title": "Referensi Buruh",
+      "title": "diperkirakan peningkatan dalam proses kritis dan pelaporan.",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "tarjeta",
-      "title": "Kartu presentasi",
+      "title": "Unduh Depan",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "contacto",
-      "title": "Kontak",
+      "title": "Pasang App",
       "min_level": 0,
       "freelance_hidden": false
     }

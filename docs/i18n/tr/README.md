@@ -14,7 +14,7 @@ Yapay zeka destekli geliştirme akışı — ChatGPT Plus · Claude Kodu · Anti
 
 Arayüz şunun için hazırlandı: birden fazla dil , görüntülemeler İşveren / Normal / Derin / Serbest Çalışan , tema açık / karanlık ve dağıtım web, PWA ve APK .
 
-Portföy bilgileri şu tarihten itibaren güncellendi: 2026-10-25, 13:28 (Amerika/Santiago).
+Portföy bilgileri şu tarihten itibaren güncellendi: 2026-11-09, 15:38 (Amerika/Santiago).
 
 ### Profesyonel olarak ben kimim
 
@@ -494,11 +494,11 @@ psikometri ve değerlendirme programı · 5 araç · 344 öğe · 81 ölçek · 
 
 480 sınıf, 40 parça ve 8 aşama · temel bilgiler → ürün, mimari, güvenlik, DevOps, SRE, SPEC, yapay zeka ve çok aracılı sistemler · depo tarafından bildirilen düzenleme durumu.
 
-### Bilim ve eğitim
+### Diğerlerini görün
 
-### İnsan Genomu Laboratuvarları
+Bilim ve eğitim
 
-Moleküler genetik ve genomik için evrimsel ve tekrarlanabilir bilimsel platform (v1.0.0): Doğrulanabilir TypeScript çekirdeği (diziler, çeviri, ORF, varyantlar, G-dörtlüler), ScientificResult sözleşmeleri, FASTA/GFF3/VCF okuyucuları, Scientific CLI, PWA web laboratuvarı ve eğitici oyun. Klinik tanı koymaz.
+### Repo (GitHub)
 
 ### Keman Macerası · Proje
 
@@ -506,13 +506,15 @@ Kemanla Maceram · 10 yaşından itibaren keman öğrenmek için eğitici uygula
 
 ⚡ Bu portföydeki birçok proje, kendi teknik doğrulaması ve mimari yönetimiyle birlikte yapay zeka destekli akış (Claude Code · ChatGPT Plus · Antigravity) ile geliştirildi.
 
-### Son depolar (otomatik)
-
-Genel GitHub ve GitLab API'lerinden yüklenmiştir (güncellemeye göre sıralanmıştır). Yıldızları ★ ve çatalları ⑂ gösterir.
-
-### Son etkinlik (otomatik)
-
 ⬆ taahhütler · 🔀 Halkla İlişkiler / MR'ler · 🚀 yayınlar — GitHub ve GitLab gerçek zamanlı olarak.
+
+### Canlı demolar
+
+Gerçek dağıtımları görmek için genel bağlantılar (varsa).
+
+### Web Portföyü · GitHub Sayfaları
+
+GitHub Eylemleri aracılığıyla GitHub Sayfalarında dağıtılan 22 dilde web portföyü. Pipeline ve JSON i18n API tarafından oluşturulan yüklenebilir PWA, Lighthouse 100, 154 PDF'ler.
 
 [Bkz. referans](https://vladimiracunadev-create.github.io/#referencias)
 
@@ -704,19 +706,17 @@ Genel GitHub ve GitLab API'lerinden yüklenmiştir (güncellemeye göre sıralan
 
 [Repo (GitHub)](https://github.com/vladimiracunadev-create/modern-software-engineering-program)
 
+[İnsan Genomu Laboratuvarları](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program)
+
 [Repo (GitHub)](https://github.com/vladimiracunadev-create/human-genome-labs)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/violin-adventure)
+[Son depolar (otomatik)](https://github.com/vladimiracunadev-create/violin-adventure)
 
-## Canlı demolar
+## Siteye bakın
 
 <!-- portfolio-section:demos -->
 
-Gerçek dağıtımları görmek için genel bağlantılar (varsa).
-
-### Web Portföyü · GitHub Sayfaları
-
-GitHub Eylemleri aracılığıyla GitHub Sayfalarında dağıtılan 22 dilde web portföyü. Pipeline ve JSON i18n API tarafından oluşturulan yüklenebilir PWA, Lighthouse 100, 154 PDF'ler.
+GitHub
 
 ### AWS S3 + GitHub Eylemleri
 
@@ -734,113 +734,113 @@ Otomatik oluşturma, SSL ve yalıtılmış ortamlar (ana/geliştirme) ile Sürek
 
 Laboratuvarları yığın bazında keşfetmek için yerel bir "merkez". Teknik görüşmeler için idealdir.
 
-[Siteye bakın](https://vladimiracunadev-create.github.io/)
+### 2025 – Günümüz
 
-[GitHub](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io)
+Geçiş (laboratuvarlar + portföy)
+
+[Demoya bakın](https://vladimiracunadev-create.github.io/)
+
+[GitHub Deposu](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io)
 
 [Demoya bakın](https://mi-pagina-scrum-123.s3.us-east-2.amazonaws.com/index.html)
 
-[GitHub Deposu](https://github.com/vladimiracunadev-create/proyectos-aws)
+[GitLab Repo'su](https://github.com/vladimiracunadev-create/proyectos-aws)
 
-[Demoya bakın](http://finops-vladimir-portfolio-case-l.s3-website.us-east-2.amazonaws.com)
+[Demo ana](http://finops-vladimir-portfolio-case-l.s3-website.us-east-2.amazonaws.com)
 
-[GitLab Repo'su](https://gitlab.com/vladimir.acuna.dev-group/vladimir.acuna.dev-group)
+[Demo geliştirici](https://gitlab.com/vladimir.acuna.dev-group/vladimir.acuna.dev-group)
 
-[Demo ana](https://main.d3r1wuymolxagh.amplifyapp.com/)
+[Deneyim](https://main.d3r1wuymolxagh.amplifyapp.com/)
 
-[Demo geliştirici](https://dev.d20m8tc0banvg.amplifyapp.com/)
+[Kilometre taşlarına göre özet (ayrıntılar için “Derin” görünümü kullanın).](https://dev.d20m8tc0banvg.amplifyapp.com/)
 
-## Deneyim
+## Ortamların standardizasyonu, Docker/AWS laboratuvarları, otomasyon, gözlemlenebilirlik ve yerel yapay zeka ile prototip oluşturma.
 
 <!-- portfolio-section:experiencia -->
 
-Kilometre taşlarına göre özet (ayrıntılar için “Derin” görünümü kullanın).
+Profil başına tekrarlanabilir belgeler (işe alan kişi, geliştirici ve örnek olay çalışmaları).
 
-### Geçiş (laboratuvarlar + portföy)
+### 14 yıl
 
-Ortamların standardizasyonu, Docker/AWS laboratuvarları, otomasyon, gözlemlenebilirlik ve yerel yapay zeka ile prototip oluşturma.
+CEIS Marist Vakfı
 
-- Profil başına tekrarlanabilir belgeler (işe alan kişi, geliştirici ve örnek olay çalışmaları).
+- Eğitimsel/psikometrik web platformlarının mimarisi, geliştirilmesi ve işletilmesi. SQL/performans optimizasyonu. Operasyonel güvenlik: OWASP ZAP ve JMeter ile saldırıların adli analizi, günlük yönetimi ve test edilmesi.
 
-- Uygulamalara odaklanın: şubeler, PR'ler, CI/CD, Sayfalar ve yayınlar.
+- Güvenlik:
 
-### CEIS Marist Vakfı
+### Sunucu ve PHP ortamı günlüklerinin yönetimi ve analizi: kod hata ayıklaması ve bilinmeyen IP'lerden gelen anormal etkinliklerin tespiti.
 
-Eğitimsel/psikometrik web platformlarının mimarisi, geliştirilmesi ve işletilmesi. SQL/performans optimizasyonu. Operasyonel güvenlik: OWASP ZAP ve JMeter ile saldırıların adli analizi, günlük yönetimi ve test edilmesi.
+Sistem sertleştirmesi
 
-- Güvenlik: Sunucuya birden fazla kez yapılan saldırıların adli analizi, kökeni, giriş vektörü ve kapsamı belirlenir.
+- OWASP ZAP (saldırı simülasyonu) ve yük testi
 
-- Sunucu ve PHP ortamı günlüklerinin yönetimi ve analizi: kod hata ayıklaması ve bilinmeyen IP'lerden gelen anormal etkinliklerin tespiti.
+- Apache JMeter
 
-- Sistem sertleştirmesi OWASP ZAP (saldırı simülasyonu) ve yük testi Apache JMeter .
+- Pandemi sırasında siber güvenlik eğitimi ve ardından gelen kurumsal siber güvenlik konuşmaları. Hibrit profil İş + BT İşletme yönetiminde teknik eğitim: süreçler, verimlilik, pazarlama ve ölçüm. .
 
-- Pandemi sırasında siber güvenlik eğitimi ve ardından gelen kurumsal siber güvenlik konuşmaları.
-
-### İş + BT
-
-İşletme yönetiminde teknik eğitim: süreçler, verimlilik, pazarlama ve ölçüm.
-
-## Yapay zeka destekli geliştirme akışı
-
-<!-- portfolio-section:flujo-ia -->
-
-Yapay zeka araçlarını projelerde gerçek teknik hızlandırıcılar olarak kullanıyorum, kendi kararlarımın yerine geçmiyor.
+- Yapay zeka destekli geliştirme akışı
 
 ### Aktif kullanımdaki araçlar
 
-- ChatGPT Plus (2023'ten beri) · analiz, mimari, yineleme ve dokümantasyon
+ChatGPT Plus
 
-- Kodeks · kod oluşturma ve yeniden düzenleme
+## (2023'ten beri)
 
-- Claude Kodu · mimari inceleme, uygulama ve teknik dokümantasyon
+<!-- portfolio-section:flujo-ia -->
+
+analiz, mimari, yineleme ve dokümantasyon
+
+### Kodeks
+
+- kod oluşturma ve yeniden düzenleme Claude Kodu · mimari inceleme, uygulama ve teknik dokümantasyon
 
 - Yerçekimine Karşı · geliştirme ve otomasyon akışlarının hızlandırılması
 
 - VS Code / OpenCode · entegre yapay zeka desteğine sahip geliştirme ortamları
 
-### Yapay zekayı akışta nereye uygularım
+- Yapay zekayı akışta nereye uygularım · Teknik teşhis ve mimari analiz
 
-- Teknik teşhis ve mimari analiz
+- Çözüm tasarımı ve karar doğrulama · Uygulama, yeniden düzenleme ve test etme
 
-- Çözüm tasarımı ve karar doğrulama
-
-- Uygulama, yeniden düzenleme ve test etme
-
-- Teknik belgeler ve profile göre
+### Teknik belgeler ve profile göre
 
 - Projelerin hızlandırılması ve depolarda yineleme
 
-"Kendi teknik yargımı, insan doğrulamasını ve mimari yönlendirmemi birleştiriyorum. Yapay zeka teknik kapasiteyi, hızı ve kapsamı artırır; deneyimin yerini almaz."
+- "Kendi teknik yargımı, insan doğrulamasını ve mimari yönlendirmemi birleştiriyorum. Yapay zeka teknik kapasiteyi, hızı ve kapsamı artırır; deneyimin yerini almaz."
 
-## Gerçek mesleki kapsam
+- Gerçek mesleki kapsam
+
+- Açık hiyerarşi: önce temel kimlik, sonra doğal genişleme, en son tamamlayıcı kapsam.
+
+- 🎯 Birincil Kimlik
+
+Çözüm Mimarı
+
+## Yazılım Mimarı
 
 <!-- portfolio-section:roles -->
 
-Açık hiyerarşi: önce temel kimlik, sonra doğal genişleme, en son tamamlayıcı kapsam.
+Eski Modernizasyon Mimarı
 
-### 🎯 Birincil Kimlik
-
-16 yılı aşkın mimari, gerçek platformların geliştirilmesi ve işletilmesi. Kendi teknik kriterleri ve insan doğrulaması ile kesme işlemleri, sistem entegrasyonu, süreç otomasyonu ve uygulamalı yapay zeka olmadan aşamalı modernizasyon.
-
-### ↗ Doğal genişleme — güçlü bir şekilde üstlenebileceğim pozisyonlar
-
-Doğrudan deneyim, doğrulanabilir projeler ve yapay zeka destekli akışla desteklenir.
-
-### Líder Tecnológico / Tech Lead
+### Kıdemli Tam Yığın Geliştirici
 
 Teknik proje yönetimi, mimari tanımı, kritik kararların gözden geçirilmesi, ekip desteği, mevcut sistemlerin modernizasyonu ve iş hedefleri ile sürdürülebilir teknolojik çözümler arasındaki bağlantı.
 
-### Yapay Zeka Düzenleme Mühendisi
+### Teknik Yönetim
 
-LangGraph, FastAPI ve MCP ile etmenli sistemlerin tasarımı. Durum bilgisi olan aracılar, koşullu yollar ve esneklik.
+Teknik Standartlar
 
-### Yapay Zeka Otomasyon Mühendisi
+### Operasyonel Süreklilik
 
-n8n, Python ve esnek orkestratörlerle akış otomasyonu. Devre Kesici, Idempotence ve gözlemlenebilirlik.
+Yapay Zeka Düzenleme Mühendisi
 
-### Çözüm Mühendisi
+### MCP
 
-Gerçek demolar ve PoC'ler, teknik-iş iletişimi, gereksinimler ve müşteri odaklı mimari.
+Yapay Zeka Otomasyon Mühendisi
+
+### Grafana
+
+Çözüm Mühendisi
 
 ### Teknik Ürün Oluşturucu
 
@@ -858,29 +858,29 @@ Sürtünmeyi azaltma, gözlemlenebilirlik ve sürekli iyileştirme odaklı platf
 
 Teknik raportör olarak 445+ saat eğitim (2003–2004, 2011): web programlama, HTML/CSS, Ofis ve donanım. Down Sendromlu çocuklara yönelik web eğitim ortamında üniversite diploması (not 6.7). Bilgisayar ve Bilişim Mühendisi (UTA) + 16 yıl gerçek eğitimsel değerlendirme platformlarını işletiyor.
 
-### 🧭 Ne tür bir teknolojik liderlik sunuyorum
+### Eğitim platformları
 
-- Sadece idari değil, pratik teknik liderlik.
+🧭 Ne tür bir teknolojik liderlik sunuyorum
 
-- Gerçek üretim deneyimine dayanan kararlar.
-
-- Çalışmayı kesintiye uğratmadan kademeli modernizasyon.
-
-- Ekipler, işe alım görevlileri ve süreklilik için anlaşılır belgeler.
+### Ekipler, işe alım görevlileri ve süreklilik için anlaşılır belgeler.
 
 - Teknik bir amplifikatör olarak yapay zeka, mesleki muhakemenin yerini alacak şekilde değil.
 
 - İstikrar, sürdürülebilirlik, güvenlik ve teknik borcun azaltılmasına odaklanın.
 
-### ⚙️ Ek kapsam
+- ⚙️ Ek kapsam
 
-Profilin mantıksal uzantısı. Bu rolleri ana kimliğim olarak değil, bağlam veya proje gerektirdiğinde üstleniyorum.
+- Profilin mantıksal uzantısı. Bu rolleri ana kimliğim olarak değil, bağlam veya proje gerektirdiğinde üstleniyorum.
 
-### ✅ Neden bu kapsamı varsayabilirim?
+- Platform Mühendisi
 
-- Teknolojik liderlik — Ekipmana ilişkin teknik kılavuz, standartların tanımı, risk incelemesi ve kritik kararlarda destek.
+- DevOps / CI-CD Mühendisi
 
-- Çözüm mimarisi — Kökten üretime kadar sistemlerin tasarımı ve geliştirilmesi.
+### Bulut / AWS Mühendisi
+
+Teknik Raportör
+
+### — Kökten üretime kadar sistemlerin tasarımı ve geliştirilmesi.
 
 - Eski modernizasyon — Kesme işlemi gerektirmeyen eski sistemlerle 16+ yıl.
 
@@ -896,184 +896,188 @@ Profilin mantıksal uzantısı. Bu rolleri ana kimliğim olarak değil, bağlam 
 
 - İşbirliği ve dokümantasyon — Profil başına dokümanlar, RECRUITER.md, depolarda doğrulanabilir kanıtlar.
 
-### 🔗 Bağlama göre ilgili roller
+- 🔗 Bağlama göre ilgili roller Proje türüne, şirkete veya özel ihtiyaca göre adreslenebilir.
 
-Proje türüne, şirkete veya özel ihtiyaca göre adreslenebilir.
+- AI Aracı Geliştiricisi İstem Mühendisi
 
-## Hizmetler
+### GenAI Ürün Oluşturucu
+
+Otomasyon Başkanı / Yapay Zekanın Benimsenmesi
+
+## İşlevsel doğrulama
 
 <!-- portfolio-section:servicios -->
 
-Gerçek mimari, modernizasyon ve sürdürülebilir teknik evrimle uyumlu aşamalar halinde müdahaleler.
+Teknik denetim
 
-### Yapay zeka tarafından oluşturulan kod denetimi
+### Temizleme ve kurtarma
 
-Asistanlar ve temsilcilerle halihazırda gelişmekte olan ekipler için işlevsel doğrulama, teknik denetim, teknik borç temizleme ve azaltma ve yapay zeka yönetimi.
+Yapay Zeka Yönetişimi
 
-### Eski Sistem Modernizasyonu
+### CI/CD
 
-Aşamalı yeniden düzenleme, PHP/yığın eski geçişi, CI/CD, otomatik test ve kesme işlemleri olmadan güvenli dağıtım.
+KG
 
-### Süreç ve İş Akışı Otomasyonu
+### Dayanıklılık
 
-N8n, Python ve esnek orkestratörlerle otomatik akışların tasarlanması ve uygulanması. Devre Kesici, Idempotence ve gözlemlenebilirlik dahildir.
+Uygulamalı Yapay Zeka Entegrasyonu
 
-### Uygulamalı Yapay Zeka Entegrasyonu
+### Ollama
 
-Temsilcilerin, LLM'lerin ve yapay zeka destekli akışların gerçek ürün ve süreçlere dahil edilmesi. LangGraph, MCP, Ollama ve FastAPI.
+FastAPI
 
-### Bulut Mimarisi, CI/CD ve Gözlemlenebilirlik
+### OIDC
 
-AWS (ECS/EKS, Lambda/SAM, DynamoDB, Cognito, EventBridge/SQS/SNS, CloudWatch/X-Ray, S3/CloudFront), Terraform, OIDC, FinOps, GitHub/GitLab CI ve Prometheus/Grafana.
+Lambda/SAM
 
-### Teknik Teşhis ve Gelişim Planı
+### Hızlı galibiyetler
 
-Kapsamlı değerlendirme: riskler, teknik borç, performans, maliyetler ve eyleme geçirilebilir hızlı kazanımlarla öncelikli yol haritası.
+Serbest Çalışan · İşbirliği yöntemleri
 
-[Hizmetin tamamını görün](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/)
+[Yeniden Düzenleyici](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/)
 
-## Serbest Çalışan · İşbirliği yöntemleri
+## Eski
 
 <!-- portfolio-section:modalidades -->
 
-Soruna, kritikliğe, kapsam ve gerekli katılım düzeyine bağlı olarak esnek formatlarda çalışıyorum.
+Entegrasyonlar
 
-### Sınırlı proje
+### Otomasyon
 
-Belirli modernizasyon, entegrasyonlar, özel otomasyon, kritik iyileştirme veya belirli teslimatlar için.
+Çalışma saatleri / uzman desteği
 
-### Çalışma saatleri / uzman desteği
+### Kıdemli Destek
 
-Teknik kararları hızlandırması, mimarinin kilidini açması, uygulamaları doğrulaması veya darboğazları çözmesi gereken ekipler için.
+Aylık destek
 
-### Aylık destek
+### Gözlemlenebilirlik
 
-Sürekli gelişim, kıdemli destek, teknik yol haritası, operasyonel süreklilik ve aşamalı iyileştirme için.
+Teşhis + yol haritası
 
-### Teşhis + yol haritası
+### Hızlı galibiyetler
 
-Bağlamı düzenlemek, riskleri belirlemek, kararları önceliklendirmek ve gerçekçi bir uygulama stratejisi tanımlamak.
+Teknik-ticari işbirliği
 
-### Teknik-ticari işbirliği
+### Paydaşlar
 
-Müşteriler veya paydaşlarla yapılan görüşmeleri desteklemek için gereksinimleri uygulanabilir çözümlere dönüştürün ve satış öncesi veya teknik tanımlara eşlik edin.
+Modernizasyon, kurtarma ve uygulamalı yapay zeka
 
-### Modernizasyon, kurtarma ve uygulamalı yapay zeka
+### Uygulamalı Yapay Zeka
 
-Kırılgan sistemler, canlı operasyon, bekleyen otomasyonlar, mimari kararlar, bulut/CI-CD, gözlemlenebilirlik veya pragmatik yapay zekanın benimsenmesi olduğunda destek.
+Uygun yöntemi nasıl tanımlarım
 
-### Uygun yöntemi nasıl tanımlarım
+### Beklenen liderlik düzeyi
 
-Uygulamada keşif, mimari, yürütme, test etme, belgeleme, koordinasyon ve sonraki desteği ayırıyorum. Sipariş birkaç katmanı karıştırıyorsa, dağınık beklentilerden kaçınmak için aşamalara göre veya aylık kapasiteye göre sipariş veririm.
+Kapsam hakkında konuşalım
 
-### Yayınlanmış sabit oran yok
-
-Sabit oranları yayınlamıyorum çünkü her müdahale karmaşıklığa, riske, aciliyete ve katılım düzeyine göre değişir. Uygun yöntemi önermek için öncelikle amaç ve kapsamı gözden geçirmeyi tercih ederim.
-
-Proje mi, uzman desteği mi yoksa özel işbirliği mi? Bağlamı tartışalım ve en iyi çalışma formatını gözden geçirelim.
-
-[Kapsam hakkında konuşalım](https://vladimiracunadev-create.github.io/#contacto)
-
-## İndirme Merkezi
-
-<!-- portfolio-section:descargas -->
+### İndirme Merkezi
 
 Yerel sürümlere ve genel profesyonel belgelere erişin.
 
-### Önerilen
+Akıllı mod
 
-Ekipman algılanıyor...
+[Önerilen](https://vladimiracunadev-create.github.io/#contacto)
 
-### Diğer Sürümler
+## Ekipman algılanıyor...
 
-Otomatik algılama cihazınızla eşleşmiyorsa bu bağlantıları kullanın.
+<!-- portfolio-section:descargas -->
 
-### PDF Belgeleri
+Manuel seçim
 
-Dil seçici, her indirmeyi etkin dildeki eşdeğer PDF'ye değiştirir.
+### Android (APK)
 
-Geçerlilik notu, CEIS Marist Vakfı tarafından değil, profesyonel tarafından verilen bir destek belgesidir. 2026'daki yetki değişikliğini bağlamsallaştırır ve tarihi tavsiye mektubuyla birlikte gözden geçirilmelidir.
+PWA'yı yükleyin
 
-Başarı beyanı, gözlemlenebilir sonuçları özetlemek ve özgeçmişi veya portföyü değiştirmeden harici doğrulamayı kolaylaştırmak için ayrı olarak yayınlanır.
+### Kamuya açık eserler
 
-Özgeçmiş genel bir belgedir: belirli bir konuma yönlendirilmeden klasik ve eksiksiz format. Pozisyonun alışılmadık bir adı olsa bile her türlü seçim süreci için kullanışlıdır.
+Devam Et
 
-### Teknik dosyalar
+### CV ATS
 
-Site kökündeki keşif dosyaları (SEO + AI).
+Teknik dosyalar
 
-[Android (APK)](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/releases/latest/download/app-debug.apk)
+robots.txt
 
-[Portföy](https://vladimiracunadev-create.github.io/assets/portafolio.pdf)
+site haritası.xml
 
-[Devam Et](https://vladimiracunadev-create.github.io/assets/hoja-de-vida.pdf)
+llm.txt
 
-[CV İşe Alma Aracı](https://vladimiracunadev-create.github.io/assets/cv-reclutador.pdf)
+### Site kökündeki keşif dosyaları (SEO + AI).
 
-[CV ATS](https://vladimiracunadev-create.github.io/assets/cv-ats.pdf)
+Kadar
 
-[Tavsiye Mektubu](https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma.pdf)
+[PDF Belgeleri](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/releases/latest/download/app-debug.apk)
 
-[CEIS Geçerlilik Notu](https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis.pdf)
+[Tavsiye Mektubu](https://vladimiracunadev-create.github.io/assets/portafolio.pdf)
 
-[Başarıların Bildirisi](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
+[CEIS Geçerlilik Notu](https://vladimiracunadev-create.github.io/assets/hoja-de-vida.pdf)
 
-[robots.txt](https://vladimiracunadev-create.github.io/robots.txt)
+[Başarıların Bildirisi](https://vladimiracunadev-create.github.io/assets/cv-reclutador.pdf)
 
-[site haritası.xml](https://vladimiracunadev-create.github.io/sitemap.xml)
+[Dil seçici, her indirmeyi etkin dildeki eşdeğer PDF'ye değiştirir.](https://vladimiracunadev-create.github.io/assets/cv-ats.pdf)
 
-[llm.txt](https://vladimiracunadev-create.github.io/llm.txt)
+[Geçerlilik notu, CEIS Marist Vakfı tarafından değil, profesyonel tarafından verilen bir destek belgesidir. 2026'daki yetki değişikliğini bağlamsallaştırır ve tarihi tavsiye mektubuyla birlikte gözden geçirilmelidir.](https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma.pdf)
 
-## İş referansları
+[Başarı beyanı, gözlemlenebilir sonuçları özetlemek ve özgeçmişi veya portföyü değiştirmeden harici doğrulamayı kolaylaştırmak için ayrı olarak yayınlanır.](https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis.pdf)
+
+[Özgeçmiş genel bir belgedir: belirli bir konuma yönlendirilmeden klasik ve eksiksiz format. Pozisyonun alışılmadık bir adı olsa bile her türlü seçim süreci için kullanışlıdır.](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
+
+[İş referansları](https://vladimiracunadev-create.github.io/robots.txt)
+
+[Kurumsal projeler için doğrulama referans yoluyla gerçekleştirilir.](https://vladimiracunadev-create.github.io/sitemap.xml)
+
+[Özet başarıları ve doğrulama](https://vladimiracunadev-create.github.io/llm.txt)
+
+## kritik süreçlerde ve rapor oluşturmada tahmini iyileşme.
 
 <!-- portfolio-section:referencias -->
 
-Kurumsal projeler için doğrulama referans yoluyla gerçekleştirilir.
+Reducción cercana al
 
-### Özet başarıları ve doğrulama
+### Battery Online'da operasyonel sürtünme ve destek.
 
-- Kadar 80% kritik süreçlerde ve rapor oluşturmada tahmini iyileşme.
+- Optimización aproximada de 80% veritabanı bileşenleri ve kodunda.
 
-- Reducción cercana al 90% Battery Online'da operasyonel sürtünme ve destek.
+- En fazla eşzamanlı dikkat 90% 5 cephe
 
-- Optimización aproximada de 45% veritabanı bileşenleri ve kodunda.
+- belirli dönemlerde çalışma. 45% Bu rakamlar, iş bağlamını ve genel kapsamı doğrulamak için harici referanslarla birlikte profesyonel tarafından yayınlanan resmi bir beyanda sunulmaktadır.
 
-- En fazla eşzamanlı dikkat 5 cephe belirli dönemlerde çalışma.
+- Açıklamaya bakın Jean Claude Dupry Son doğrudan patron
 
-Bu rakamlar, iş bağlamını ve genel kapsamı doğrulamak için harici referanslarla birlikte profesyonel tarafından yayınlanan resmi bir beyanda sunulmaktadır.
+Cep telefonu
 
-### Jean Claude Dupry · Son doğrudan patron
+### Kartvizit · Mesleki bilgilerimi kaydedin veya bu portföyü QR kodunu kullanarak paylaşın. Arka kısım hizmet alanlarımı özetliyor: web uygulamaları, bulut mimarisi, veriler, API'ler, yapay zeka, otomasyon ve siber güvenlik.
 
-Cep telefonu : +56 9 9415 6984
+Ön · kişi ve QR kodu : +56 9 9415 6984
 
-İhtiyacınız olursa yazılı bir özet ve etki örnekleri gönderebilirim.
+Reverso · teknolojik çözümler ve hizmetler
 
-[Açıklamaya bakın](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
+[İhtiyacınız olursa yazılı bir özet ve etki örnekleri gönderebilirim.](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
 
-## Kartvizit
+## Önden indir
 
 <!-- portfolio-section:tarjeta -->
 
-Mesleki bilgilerimi kaydedin veya bu portföyü QR kodunu kullanarak paylaşın. Arka kısım hizmet alanlarımı özetliyor: web uygulamaları, bulut mimarisi, veriler, API'ler, yapay zeka, otomasyon ve siber güvenlik.
+Tersten indir
 
 https://vladimiracunadev-create.github.io/assets/icons/1.png?v=5adde69a
 
 https://vladimiracunadev-create.github.io/assets/icons/2.png?v=1a55b3e6
 
-[Önden indir](https://vladimiracunadev-create.github.io/assets/icons/1.png?v=5adde69a)
+[E-posta](https://vladimiracunadev-create.github.io/assets/icons/1.png?v=5adde69a)
 
-[Tersten indir](https://vladimiracunadev-create.github.io/assets/icons/2.png?v=1a55b3e6)
+[vladimir.acuna.dev@gmail.com](https://vladimiracunadev-create.github.io/assets/icons/2.png?v=1a55b3e6)
 
-## İletişim
+## Uygulamayı Yükle
 
 <!-- portfolio-section:contacto -->
 
-Uygulamalı yapay zeka modernizasyonu, otomasyonu, mimarisi veya entegrasyonu? Bana yaz.
+E-postayı kopyala
 
-Slack gibi işbirliğine dayalı kanallar aracılığıyla ekiplere ve teknik topluluklara hızla entegre olmaya uygundur.
+Disponible para integrarme rápidamente a equipos y comunidades técnicas a través de canales colaborativos como Slack.
 
-[vladimir.acuna.dev@gmail.com](mailto:vladimir.acuna.dev@gmail.com)
+[GitHub](mailto:vladimir.acuna.dev@gmail.com)
 
-[LinkedIn](https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29)
+[HTML + CSS + JS ile yapılmıştır.](https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29)
 
-[GitHub](https://github.com/vladimiracunadev-create)
+[AI Kod Denetimi](https://github.com/vladimiracunadev-create)

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-26",
+    "generated_at": "2026-11-09",
     "language": "pl",
     "language_name": "Polish",
     "native_name": "Polski",
@@ -62,61 +62,61 @@
     },
     {
       "id": "demos",
-      "title": "Chodźmy na żywo.",
+      "title": "Patrz strona",
       "min_level": 1,
       "freelance_hidden": false
     },
     {
       "id": "experiencia",
-      "title": "Doświadczenie",
+      "title": "Normalizacja środowisk, laboratoriów Docker / AWS, automatyzacja, obserwacja i prototypy z lokalnym IA.",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "flujo-ia",
-      "title": "Przepływy rozwojowe wspierane przez IA",
+      "title": "(od 2023 r.)",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "roles",
-      "title": "Zakres stosowania w praktyce zawodowej",
+      "title": "Architekt oprogramowania",
       "min_level": 1,
       "freelance_hidden": true
     },
     {
       "id": "servicios",
-      "title": "Usługi",
+      "title": "Weryfikacja funkcjonalna",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "modalidades",
-      "title": "Freelance · Modele współpracy",
+      "title": "Dziedzictwo",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "descargas",
-      "title": "Centrum zrzutu",
+      "title": "Wykrywam sprzęt...",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "referencias",
-      "title": "Odniesienia do pracy",
+      "title": "szacowana poprawa procesów krytycznych i sprawozdawczości.",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "tarjeta",
-      "title": "Karta prezentacyjna",
+      "title": "Pobierz przód",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "contacto",
-      "title": "Kontakt",
+      "title": "Zainstaluj aplikację",
       "min_level": 0,
       "freelance_hidden": false
     }

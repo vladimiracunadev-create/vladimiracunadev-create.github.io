@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-26",
+    "generated_at": "2026-11-09",
     "language": "pt",
     "language_name": "Portuguese",
     "native_name": "Português",
@@ -62,61 +62,61 @@
     },
     {
       "id": "demos",
-      "title": "Vamos ao vivo.",
+      "title": "Ver o sítio",
       "min_level": 1,
       "freelance_hidden": false
     },
     {
       "id": "experiencia",
-      "title": "Experiência",
+      "title": "Normalização de ambientes, laboratórios Docker / AWS, automação, observação e protótipos com IA local.",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "flujo-ia",
-      "title": "Fluxo de desenvolvimento assistido pelos IA",
+      "title": "(desde 2023)",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "roles",
-      "title": "Alcance profesional real",
+      "title": "Arquiteto de Software",
       "min_level": 1,
       "freelance_hidden": true
     },
     {
       "id": "servicios",
-      "title": "Serviços",
+      "title": "Verificação funcional",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "modalidades",
-      "title": "Freelance · Modalidades de colaboração",
+      "title": "Legado",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "descargas",
-      "title": "Centro de Quitação",
+      "title": "Detectando equipamentos...",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "referencias",
-      "title": "Referências trabalhistas",
+      "title": "melhoria estimada nos processos críticos e relatórios.",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "tarjeta",
-      "title": "Cartão de apresentação",
+      "title": "Obter Frente",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "contacto",
-      "title": "Contato",
+      "title": "Instalar aplicativo",
       "min_level": 0,
       "freelance_hidden": false
     }

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-26",
+    "generated_at": "2026-11-09",
     "language": "hi",
     "language_name": "Hindi",
     "native_name": "हिन्दी",
@@ -62,61 +62,61 @@
     },
     {
       "id": "demos",
-      "title": "चलो रहते हैं।",
+      "title": "साइट देखें",
       "min_level": 1,
       "freelance_hidden": false
     },
     {
       "id": "experiencia",
-      "title": "अनुभव",
+      "title": "वातावरण का मानकीकरण, डॉकर/एडब्ल्यूएस प्रयोगशालाएं, स्वचालन, वेधशाला और स्थानीय आईए के साथ प्रोटोटाइप।",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "flujo-ia",
-      "title": "आई ए द्वारा सहायता प्रदान की गई विकास प्रवाह",
+      "title": "(2023) से",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "roles",
-      "title": "वास्तविक पेशेवर गुंजाइश",
+      "title": "सॉफ्टवेयर वास्तुकार",
       "min_level": 1,
       "freelance_hidden": true
     },
     {
       "id": "servicios",
-      "title": "सेवाएँ",
+      "title": "कार्यात्मक सत्यापन",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "modalidades",
-      "title": "Freelance · सहयोग की Modality",
+      "title": "विरासत",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "descargas",
-      "title": "डिस्चार्ज सेंटर",
+      "title": "उपकरण का पता लगाना...",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "referencias",
-      "title": "श्रम संदर्भ",
+      "title": "महत्वपूर्ण प्रक्रियाओं और रिपोर्टिंग में अनुमानित सुधार।",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "tarjeta",
-      "title": "प्रस्तुति कार्ड",
+      "title": "डाउनलोड फ्रंट",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "contacto",
-      "title": "संपर्क",
+      "title": "ऐप इंस्टॉल करें",
       "min_level": 0,
       "freelance_hidden": false
     }

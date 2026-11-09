@@ -14,7 +14,7 @@ AI 支援開発フロー — ChatGPT Plus · Claude Code · Antigravity — 独�
 
 インターフェースが準備されました 複数の言語 、ビュー リクルーター / ノーマル / ディープ / フリーランス 、 テーマ 明るい/暗い と展開 ウェブ、PWA、APK .
 
-ポートフォリオ情報が更新されました 2026-10-25, 13:28 (アメリカ/サンティアゴ)。
+ポートフォリオ情報が更新されました 2026-11-09, 15:38 (アメリカ/サンティアゴ)。
 
 ### 職業上の私とは
 
@@ -494,11 +494,11 @@ AI 進化プログラム v0.17.0 · 完全な資料を含む 15 部構成の 180
 
 480 クラス、40 パート、8 ステージ · 基礎 → 製品、アーキテクチャ、セキュリティ、DevOps、SRE、SPEC、AI およびマルチエージェント システム · リポジトリによって宣言された編集ステータス。
 
-### 科学と教育
+### 他を見る
 
-### ヒトゲノム研究所
+科学と教育
 
-分子遺伝学およびゲノミクスのための進化的で再現可能な科学プラットフォーム (v1.0.0): 検証可能な TypeScript コア (配列、翻訳、ORF、バリアント、G-quadruplexes)、ScientificResult コントラクト、FASTA/GFF3/VCF リーダー、Scientific CLI、PWA Web ラボおよび教育用ゲーム。臨床診断を行うものではありません。
+### リポジトリ (GitHub)
 
 ### ヴァイオリンアドベンチャー・プロジェクト
 
@@ -506,13 +506,15 @@ AI 進化プログラム v0.17.0 · 完全な資料を含む 15 部構成の 180
 
 ⚡ このポートフォリオのいくつかのプロジェクトは、AI 支援フロー (Claude Code、ChatGPT Plus、Antigravity) と独自の技術検証およびアーキテクチャの方向性を組み合わせて開発されました。
 
-### 最近のリポジトリ (自動)
-
-パブリック GitHub および GitLab API からロードされます (更新順に並べ替えられています)。星★とフォーク⑂を示します。
-
-### 最近のアクティビティ (自動)
-
 ⬆ コミット · 🔀 PR / MR · 🚀 リリース — GitHub および GitLab をリアルタイムで実行します。
+
+### ライブデモ
+
+実際の展開を確認す​​るためのパブリック リンク (該当する場合)。
+
+### Web ポートフォリオ · GitHub ページ
+
+GitHub Actions を介して GitHub Pages にデプロイされた 22 言語の Web ポートフォリオ。インストール可能な PWA、Lighthouse 100、パイプラインおよび JSON i18n API によって生成された 154 PDF。
 
 [参照を参照](https://vladimiracunadev-create.github.io/#referencias)
 
@@ -704,19 +706,17 @@ AI 進化プログラム v0.17.0 · 完全な資料を含む 15 部構成の 180
 
 [リポジトリ (GitHub)](https://github.com/vladimiracunadev-create/modern-software-engineering-program)
 
+[ヒトゲノム研究所](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program)
+
 [リポジトリ (GitHub)](https://github.com/vladimiracunadev-create/human-genome-labs)
 
-[リポジトリ (GitHub)](https://github.com/vladimiracunadev-create/violin-adventure)
+[最近のリポジトリ (自動)](https://github.com/vladimiracunadev-create/violin-adventure)
 
-## ライブデモ
+## サイトを参照
 
 <!-- portfolio-section:demos -->
 
-実際の展開を確認す​​るためのパブリック リンク (該当する場合)。
-
-### Web ポートフォリオ · GitHub ページ
-
-GitHub Actions を介して GitHub Pages にデプロイされた 22 言語の Web ポートフォリオ。インストール可能な PWA、Lighthouse 100、パイプラインおよび JSON i18n API によって生成された 154 PDF。
+GitHub
 
 ### AWS S3 + GitHub アクション
 
@@ -734,113 +734,113 @@ Glassmorphism PWA は、GitLab から OIDC および OAC 経由でデプロイ�
 
 スタックごとにラボを探索するためのローカル「ハブ」。技術面接に最適です。
 
-[サイトを参照](https://vladimiracunadev-create.github.io/)
+### 2025 年 – 現在
 
-[GitHub](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io)
+移行 (研究室 + ポートフォリオ)
+
+[デモを見る](https://vladimiracunadev-create.github.io/)
+
+[GitHub リポジトリ](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io)
 
 [デモを見る](https://mi-pagina-scrum-123.s3.us-east-2.amazonaws.com/index.html)
 
-[GitHub リポジトリ](https://github.com/vladimiracunadev-create/proyectos-aws)
+[GitLab リポジトリ](https://github.com/vladimiracunadev-create/proyectos-aws)
 
-[デモを見る](http://finops-vladimir-portfolio-case-l.s3-website.us-east-2.amazonaws.com)
+[デモメイン](http://finops-vladimir-portfolio-case-l.s3-website.us-east-2.amazonaws.com)
 
-[GitLab リポジトリ](https://gitlab.com/vladimir.acuna.dev-group/vladimir.acuna.dev-group)
+[デモ開発者](https://gitlab.com/vladimir.acuna.dev-group/vladimir.acuna.dev-group)
 
-[デモメイン](https://main.d3r1wuymolxagh.amplifyapp.com/)
+[経験](https://main.d3r1wuymolxagh.amplifyapp.com/)
 
-[デモ開発者](https://dev.d20m8tc0banvg.amplifyapp.com/)
+[マイルストーンごとの概要 (詳細については「詳細」ビューを使用してください)。](https://dev.d20m8tc0banvg.amplifyapp.com/)
 
-## 経験
+## 環境の標準化、Docker/AWS ラボ、自動化、可観測性、ローカル AI によるプロトタイピング。
 
 <!-- portfolio-section:experiencia -->
 
-マイルストーンごとの概要 (詳細については「詳細」ビューを使用してください)。
+プロファイルごとに再現可能なドキュメント (採用担当者、開発者、ケーススタディ)。
 
-### 移行 (研究室 + ポートフォリオ)
+### 14年
 
-環境の標準化、Docker/AWS ラボ、自動化、可観測性、ローカル AI によるプロトタイピング。
+CEIS マリスト財団
 
-- プロファイルごとに再現可能なドキュメント (採用担当者、開発者、ケーススタディ)。
+- 教育/心理測定 Web プラットフォームのアーキテクチャ、開発、運用。 SQL/パフォーマンスの最適化。運用セキュリティ: 攻撃のフォレンジック分析、ログ管理、OWASP ZAP と JMeter によるテスト。
 
-- ブランチ、PR、CI/CD、ページ、リリースなどの実践に焦点を当てます。
+- セキュリティ:
 
-### CEIS マリスト財団
+### サーバーと PHP 環境のログの管理と分析: コードのデバッグと未知の IP からの異常なアクティビティの検出。
 
-教育/心理測定 Web プラットフォームのアーキテクチャ、開発、運用。 SQL/パフォーマンスの最適化。運用セキュリティ: 攻撃のフォレンジック分析、ログ管理、OWASP ZAP と JMeter によるテスト。
+システムの強化
 
-- セキュリティ: 複数回にわたるサーバーへの攻撃のフォレンジック分析を行い、発信元、侵入ベクトル、範囲を特定します。
+- オワスプ ザップ (攻撃シミュレーション) と負荷テスト
 
-- サーバーと PHP 環境のログの管理と分析: コードのデバッグと未知の IP からの異常なアクティビティの検出。
+- Apache JMeter
 
-- システムの強化 オワスプ ザップ (攻撃シミュレーション) と負荷テスト Apache JMeter .
+- パンデミック中のサイバーセキュリティ研修とその後の組織的なサイバーセキュリティに関する講演。 ハイブリッドプロファイル ビジネス + IT 経営管理における技術トレーニング: プロセス、効率、マーケティング、測定。 .
 
-- パンデミック中のサイバーセキュリティ研修とその後の組織的なサイバーセキュリティに関する講演。
-
-### ビジネス + IT
-
-経営管理における技術トレーニング: プロセス、効率、マーケティング、測定。
-
-## AI 支援開発フロー
-
-<!-- portfolio-section:flujo-ia -->
-
-私は AI ツールを自分自身の判断の代替としてではなく、プロジェクトの実際の技術アクセラレータとして使用しています。
+- AI 支援開発フロー
 
 ### アクティブに使用されているツール
 
-- ChatGPT プラス (2023 年以降) · 分析、アーキテクチャ、反復、およびドキュメント
+ChatGPT プラス
 
-- コーデックス · コードの生成とリファクタリング
+## (2023 年以降)
 
-- クロード・コード · アーキテクチャのレビュー、実装、および技術文書
+<!-- portfolio-section:flujo-ia -->
+
+分析、アーキテクチャ、反復、およびドキュメント
+
+### コーデックス
+
+- コードの生成とリファクタリング クロード・コード · アーキテクチャのレビュー、実装、および技術文書
 
 - 反重力 · 開発と自動化フローの加速
 
 - VS Code / OpenCode · 統合された AI サポートを備えた開発環境
 
-### AI をフロー内のどこに適用するか
+- AI をフロー内のどこに適用するか · 技術診断とアーキテクチャ分析
 
-- 技術診断とアーキテクチャ分析
+- ソリューションの設計と意思決定の検証 · 実装、リファクタリング、テスト
 
-- ソリューションの設計と意思決定の検証
-
-- 実装、リファクタリング、テスト
-
-- 技術文書とプロファイル別
+### 技術文書とプロファイル別
 
 - プロジェクトの加速とリポジトリでのイテレーション
 
-「私は自分自身の技術的判断、人間による検証、アーキテクチャの方向性を組み合わせています。AI は技術的な能力、スピード、範囲を拡大します。経験に代わるものではありません。」
+- 「私は自分自身の技術的判断、人間による検証、アーキテクチャの方向性を組み合わせています。AI は技術的な能力、スピード、範囲を拡大します。経験に代わるものではありません。」
 
-## 実際の専門的範囲
+- 実際の専門的範囲
+
+- 明確な階層: 最初にコアアイデンティティ、次に自然な拡張、最後に補完的な範囲。
+
+- 🎯 主要なアイデンティティ
+
+ソリューションアーキテクト
+
+## ソフトウェアアーキテクト
 
 <!-- portfolio-section:roles -->
 
-明確な階層: 最初にコアアイデンティティ、次に自然な拡張、最後に補完的な範囲。
+レガシー近代化アーキテクト
 
-### 🎯 主要なアイデンティティ
-
-16 年以上にわたる実際のプラットフォームのアーキテクチャ、開発、運用。独自の技術基準と人間による検証を使用して、運用、システム統合、プロセス自動化、応用 AI を削減することなく、進歩的な最新化を実現します。
-
-### ↗ 自然な拡大 — 力を持って引き受けることができるポジション
-
-直接的な経験、検証可能なプロジェクト、AI 支援のフローに裏付けられています。
-
-### 技術リーダー / 技術リーダー
+### シニア フルスタック開発者
 
 技術プロジェクト管理、アーキテクチャ定義、重要な意思決定のレビュー、チームサポート、既存システムの最新化、ビジネス目標と保守可能な技術ソリューション間の接続。
 
-### AI オーケストレーション エンジニア
+### 技術管理
 
-LangGraph、FastAPI、MCP を使用したエージェント システムの設計。ステートフル エージェント、条件付きルート、復元力。
+技術基準
 
-### AI オートメーション エンジニア
+### 運用の継続性
 
-n8n、Python、回復力のあるオーケストレーターによるフローの自動化。サーキット ブレーカー、べき等性、可観測性。
+AI オーケストレーション エンジニア
 
-### ソリューション エンジニア
+### MCP
 
-実際のデモと PoC、技術とビジネスのコミュニケーション、要件、顧客指向のアーキテクチャ。
+AI オートメーション エンジニア
+
+### グラファナ
+
+ソリューション エンジニア
 
 ### テクニカルプロダクトビルダー
 
@@ -858,29 +858,29 @@ n8n、Python、回復力のあるオーケストレーターによるフロー�
 
 技術報告者として 445 時間以上教えられました (2003 ～ 2004 年、2011 年): Web プログラミング、HTML/CSS、Office、ハードウェア。ダウン症の子供のためのウェブ教育環境における大学の学位 (注 6.7)。コンピュータおよび情報学エンジニア (UTA) + 実際の教育評価プラットフォームを 16 年間運営。
 
-### 🧭 私はどのような種類の技術的リーダーシップを提供しますか
+### 教育プラットフォーム
 
-- 管理だけでなく、実践的な技術的リーダーシップ。
+🧭 私はどのような種類の技術的リーダーシップを提供しますか
 
-- 実際の制作経験に基づいた決定。
-
-- 運用を中断することなく段階的に近代化を進めます。
-
-- チーム、採用担当者、継続性のための明確な文書。
+### チーム、採用担当者、継続性のための明確な文書。
 
 - AI は専門的な判断の代替としてではなく、技術的な増幅器としてのものです。
 
 - 安定性、保守性、セキュリティ、技術的負債の削減に重点を置きます。
 
-### ⚙️ 補足範囲
+- ⚙️ 補足範囲
 
-プロファイルの論理拡張子。私は、私の主要なアイデンティティとしてではなく、状況やプロジェクトが必要とするときにこれらの役割を引き受けます。
+- プロファイルの論理拡張子。私は、私の主要なアイデンティティとしてではなく、状況やプロジェクトが必要とするときにこれらの役割を引き受けます。
 
-### ✅ なぜこの範囲を想定できるのか
+- プラットフォーム エンジニア
 
-- 技術的リーダーシップ — 機器、標準の定義、リスクのレビュー、および重要な決定におけるサポートに関する技術ガイド。
+- DevOps / CI-CD エンジニア
 
-- ソリューション アーキテクチャ — ルートから運用までのシステムの設計と進化。
+### クラウド / AWS エンジニア
+
+技術報告者
+
+### — ルートから運用までのシステムの設計と進化。
 
 - レガシーの最新化 — 16 年以上、運用を中断することなくレガシー システムを使用しています。
 
@@ -896,184 +896,188 @@ n8n、Python、回復力のあるオーケストレーターによるフロー�
 
 - コラボレーションと文書化 — プロファイルごとのドキュメント、RECRUITER.md、リポジトリ内の検証可能な証拠。
 
-### 🔗 コンテキストに応じた関連する役割
+- 🔗 コンテキストに応じた関連する役割 プロジェクトの種類、企業、または特定のニーズに応じて対応可能です。
 
-プロジェクトの種類、企業、または特定のニーズに応じて対応可能です。
+- AI エージェント開発者 プロンプトエンジニア
 
-## サービス
+### GenAI 製品ビルダー
+
+オートメーション / AI 導入責任者
+
+## 機能検証
 
 <!-- portfolio-section:servicios -->
 
-実際のアーキテクチャ、近代化、持続可能な技術進化に合わせた段階的な介入。
+技術監査
 
-### AI 生成コード監査
+### クリーニングと回復
 
-すでにアシスタントやエージェントを使用して開発しているチーム向けの機能検証、技術監査、技術的負債のクリーンアップと削減、AI ガバナンス。
+AI ガバナンス
 
-### レガシー システムの最新化
+### CI/CD
 
-プログレッシブ リファクタリング、PHP/スタックのレガシー移行、CI/CD、自動テスト、および運用を中断することなく安全なデプロイメント。
+QA
 
-### プロセスとワークフローの自動化
+### 回復力
 
-n8n、Python、復元力のあるオーケストレーターを使用した自動フローの設計と実装。サーキット ブレーカー、べき等性、可観測性が含まれます。
+応用 AI 統合
 
-### 応用 AI 統合
+### オラマ
 
-エージェント、LLM、AI 支援フローを実際の製品やプロセスに組み込む。 LangGraph、MCP、Ollama、および FastAPI。
+FastAPI
 
-### クラウド アーキテクチャ、CI/CD、可観測性
+### OIDC
 
-AWS (ECS/EKS、Lambda/SAM、DynamoDB、Cognito、EventBridge/SQS/SNS、CloudWatch/X-Ray、S3/CloudFront)、Terraform、OIDC、FinOps、GitHub/GitLab CI、および Prometheus/Grafana。
+ラムダ/SAM
 
-### 技術的診断と進化計画
+### 早い勝利
 
-総合的な評価: リスク、技術的負債、パフォーマンス、コスト、すぐに実行可能な優先順位の高いロードマップ。
+フリーランス · コラボレーションの様式
 
-[サービス全体を見る](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/)
+[リファクタリング](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/)
 
-## フリーランス · コラボレーションの様式
+## レガシー
 
 <!-- portfolio-section:modalidades -->
 
-私は、問題、重要度、必要な関与の範囲およびレベルに応じて、柔軟な形式で作業します。
+統合
 
-### 限定企画
+### 自動化
 
-特定の最新化、統合、特定の自動化、重要な改善、または特定の成果物。
+時間単位 / 専門家によるサポート
 
-### 時間単位 / 専門家によるサポート
+### シニアサポート
 
-技術的な意思決定を加速し、アーキテクチャを解放し、実装を検証し、ボトルネックを解決する必要があるチーム向け。
+月々サポート
 
-### 月々サポート
+### 可観測性
 
-持続的な進化、上級サポート、技術ロードマップ、運用の継続性、および漸進的な改善のために。
+診断 + ロードマップ
 
-### 診断 + ロードマップ
+### 早い勝利
 
-コンテキストを整理し、リスクを特定し、意思決定に優先順位を付け、現実的な実装戦略を定義します。
+技術と商業のコラボレーション
 
-### 技術と商業のコラボレーション
+### ステークホルダー
 
-クライアントや関係者との会話をサポートするには、要件を実行可能なソリューションに変換し、プリセールスまたは技術的な定義を添付します。
+近代化、救助、応用 AI
 
-### 近代化、救助、応用 AI
+### 応用 AI
 
-脆弱なシステム、ライブ運用、保留中の自動化、アーキテクチャの決定、クラウド/CI-CD、可観測性、または実用的な AI 導入がある場合のサポート。
+適切なモダリティを定義するにはどうすればよいですか
 
-### 適切なモダリティを定義するにはどうすればよいですか
+### 期待されるリーダーシップレベル
 
-実際には、発見、アーキテクチャ、実行、テスト、文書化、調整、およびその後のサポートを分離しています。注文が複数の層に分かれている場合は、期待が拡散することを避けるために、フェーズごと、または月ごとの生産量ごとに注文します。
+スコープについて話しましょう
 
-### 公開された固定金利はありません
-
-各介入は複雑さ、リスク、緊急性、関与のレベルに応じて変化するため、固定料金は公表しません。まずは目的と範囲を確認して、適切な方法を提案したいと思います。
-
-プロジェクト、専門家のサポート、または特定のコラボレーション?状況について話し合い、最適な作業形式を検討してみましょう。
-
-[スコープについて話しましょう](https://vladimiracunadev-create.github.io/#contacto)
-
-## ダウンロード センター
-
-<!-- portfolio-section:descargas -->
+### ダウンロード センター
 
 ネイティブ バージョンと公開されている専門文書にアクセスします。
 
-### 推奨
+スマートモード
 
-検出装置...
+[推奨](https://vladimiracunadev-create.github.io/#contacto)
 
-### 他のバージョン
+## 検出装置...
 
-自動検出がお使いのデバイスと一致しない場合は、これらのリンクを使用してください。
+<!-- portfolio-section:descargas -->
 
-### PDF ドキュメント
+手動選択
 
-言語セレクターは、各ダウンロードをアクティブな言語の同等の PDF に変更します。
+### アンドロイド (APK)
 
-有効性通知書は、CEIS マリスト財団ではなく、専門家によって発行されたサポート文書です。 2026 年の権限変更を文脈的に説明しており、歴史的な勧告書と併せて検討する必要があります。
+PWA をインストールする
 
-成果報告書は、観察可能な結果を​​要約し、履歴書やポートフォリオを置き換えることなく外部検証を容易にするために、個別に公開されます。
+### 公開アーティファクト
 
-履歴書は一般的な文書です。古典的で完全な形式であり、特定の役職に指示されることはありません。これは、ポジションに珍しい名前が付いている場合でも、あらゆる選考プロセスに役立ちます。
+履歴書
 
-### 技術ファイル
+### CV ATS
 
-サイトルート内の検出ファイル (SEO + AI)。
+技術ファイル
 
-[アンドロイド (APK)](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/releases/latest/download/app-debug.apk)
+robots.txt
 
-[ポートフォリオ](https://vladimiracunadev-create.github.io/assets/portafolio.pdf)
+サイトマップ.xml
 
-[履歴書](https://vladimiracunadev-create.github.io/assets/hoja-de-vida.pdf)
+llm.txt
 
-[履歴書採用担当者](https://vladimiracunadev-create.github.io/assets/cv-reclutador.pdf)
+### サイトルート内の検出ファイル (SEO + AI)。
 
-[CV ATS](https://vladimiracunadev-create.github.io/assets/cv-ats.pdf)
+Hasta
 
-[推薦状](https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma.pdf)
+[PDF ドキュメント](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/releases/latest/download/app-debug.apk)
 
-[CEIS 有効性に関する注記](https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis.pdf)
+[推薦状](https://vladimiracunadev-create.github.io/assets/portafolio.pdf)
 
-[業績報告書](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
+[CEIS 有効性に関する注記](https://vladimiracunadev-create.github.io/assets/hoja-de-vida.pdf)
 
-[robots.txt](https://vladimiracunadev-create.github.io/robots.txt)
+[業績報告書](https://vladimiracunadev-create.github.io/assets/cv-reclutador.pdf)
 
-[サイトマップ.xml](https://vladimiracunadev-create.github.io/sitemap.xml)
+[言語セレクターは、各ダウンロードをアクティブな言語の同等の PDF に変更します。](https://vladimiracunadev-create.github.io/assets/cv-ats.pdf)
 
-[llm.txt](https://vladimiracunadev-create.github.io/llm.txt)
+[有効性通知書は、CEIS マリスト財団ではなく、専門家によって発行されたサポート文書です。 2026 年の権限変更を文脈的に説明しており、歴史的な勧告書と併せて検討する必要があります。](https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma.pdf)
 
-## ジョブリファレンス
+[成果報告書は、観察可能な結果を​​要約し、履歴書やポートフォリオを置き換えることなく外部検証を容易にするために、個別に公開されます。](https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis.pdf)
+
+[履歴書は一般的な文書です。古典的で完全な形式であり、特定の役職に指示されることはありません。これは、ポジションに珍しい名前が付いている場合でも、あらゆる選考プロセスに役立ちます。](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
+
+[ジョブリファレンス](https://vladimiracunadev-create.github.io/robots.txt)
+
+[機関プロジェクトの場合、検証は参照によって実行されます。](https://vladimiracunadev-create.github.io/sitemap.xml)
+
+[成果と検証の概要](https://vladimiracunadev-create.github.io/llm.txt)
+
+## 重要なプロセスとレポートの生成における改善の推定値。
 
 <!-- portfolio-section:referencias -->
 
-機関プロジェクトの場合、検証は参照によって実行されます。
+に近い減少
 
-### 成果と検証の概要
+### は運用上の摩擦と Battery Online でのサポートに問題があります。
 
-- Hasta 80% 重要なプロセスとレポートの生成における改善の推定値。
+- Optimización aproximada de 80% データベースコンポーネントとコード内。
 
-- に近い減少 90% は運用上の摩擦と Battery Online でのサポートに問題があります。
+- 最大で同時注目 90% 5 frentes
 
-- Optimización aproximada de 45% データベースコンポーネントとコード内。
+- 特定の期間の仕事のこと。 45% これらの数値は、業務の状況と一般的な範囲を検証するために外部参照とともに、専門家によって発行された正式な声明として提示されています。
 
-- 最大で同時注目 5 frentes 特定の期間の仕事のこと。
+- ステートメントを参照 ジャン・クロード・デュプリ 最後の直属のボス
 
-これらの数値は、業務の状況と一般的な範囲を検証するために外部参照とともに、専門家によって発行された正式な声明として提示されています。
+携帯電話
 
-### ジャン・クロード・デュプリ · 最後の直属のボス
+### 名刺 · 私の職業上の詳細を保存するか、QR コードを使用してこのポートフォリオを共有してください。裏面には、Web アプリケーション、クラウド アーキテクチャ、データ、API、AI、自動化、サイバーセキュリティなど、私のサービス分野をまとめています。
 
-携帯電話 : +56 9 9415 6984
+正面・連絡先とQRコード : +56 9 9415 6984
 
-必要であれば、書面による概要と影響例をお送りします。
+Reverso · 技術ソリューションとサービス
 
-[ステートメントを参照](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
+[必要であれば、書面による概要と影響例をお送りします。](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
 
-## 名刺
+## ダウンロードフロント
 
 <!-- portfolio-section:tarjeta -->
 
-私の職業上の詳細を保存するか、QR コードを使用してこのポートフォリオを共有してください。裏面には、Web アプリケーション、クラウド アーキテクチャ、データ、API、AI、自動化、サイバーセキュリティなど、私のサービス分野をまとめています。
+逆ダウンロード
 
 https://vladimiracunadev-create.github.io/assets/icons/1.png?v=5adde69a
 
 https://vladimiracunadev-create.github.io/assets/icons/2.png?v=1a55b3e6
 
-[ダウンロードフロント](https://vladimiracunadev-create.github.io/assets/icons/1.png?v=5adde69a)
+[メール](https://vladimiracunadev-create.github.io/assets/icons/1.png?v=5adde69a)
 
-[逆ダウンロード](https://vladimiracunadev-create.github.io/assets/icons/2.png?v=1a55b3e6)
+[vladimir.acuna.dev@gmail.com](https://vladimiracunadev-create.github.io/assets/icons/2.png?v=1a55b3e6)
 
-## お問い合わせ
+## アプリをインストールする
 
 <!-- portfolio-section:contacto -->
 
-AI の最新化、自動化、アーキテクチャ、または統合を適用しますか?私に書いてください。
+メールをコピー
 
-Slack などの共同チャネルを通じてチームや技術コミュニティに迅速に統合できます。
+Disponible para integrarme rápidamente a equipos y comunidades técnicas a través de canales colaborativos como Slack.
 
-[vladimir.acuna.dev@gmail.com](mailto:vladimir.acuna.dev@gmail.com)
+[GitHub](mailto:vladimir.acuna.dev@gmail.com)
 
-[LinkedIn](https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29)
+[HTML + CSS + JS で作成されています。](https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29)
 
-[GitHub](https://github.com/vladimiracunadev-create)
+[AI コード監査](https://github.com/vladimiracunadev-create)

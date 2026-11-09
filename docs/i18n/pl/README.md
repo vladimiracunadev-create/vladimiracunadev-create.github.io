@@ -14,7 +14,7 @@ Przepływ rozwoju wspierany przez IA - ChatGPT Plus · Claude Code · Antigravit
 
 Interfejs przygotowany do wiele języków , widok Reclute / Normal / Deep / Freelance , motyw światło / ciemność i rozmieszczenie WWW, PWA i APK .
 
-Informacje na temat zaktualizowanego portfela do 2026-10-25, 13:28 ((USA / Santiago).
+Informacje na temat zaktualizowanego portfela do 2026-11-09, 15:38 ((USA / Santiago).
 
 ### Kim jestem zawodowo?
 
@@ -494,11 +494,11 @@ Program psychometryczny i oceny - 5 instrumentów - 344 przedmioty - 81 skal - d
 
 480 klas, 40 części i 8 etapów · fundacje → produkt, architektura, bezpieczeństwo, DevOps, SRE, SPEC, IA i systemy multiagencyjne · stan redakcyjny zadeklarowany przez repozytorium.
 
-### Nauka i edukacja
+### Zobacz pozostałe
 
-### Laboratorium genomu ludzkiego
+Nauka i edukacja
 
-Ewolucyjna i powtarzalna platforma naukowa dla genetyki molekularnej i genetycznej (v1.0.0): weryfikowalny rdzeń TypeScript (sekwencje, tłumaczenia, ORF, warianty, G- quádruplex), kontrakty na wyniki naukowe, czytniki FASTA / GF3 / VCF, naukowe CLI, laboratorium PWA i gra edukacyjna.
+### Repo (GitHub)
 
 ### Przygody skrzypiec · Projekt
 
@@ -506,13 +506,15 @@ Moja przygoda z Violin · Edukacyjna App uczyć się skrzypiec od 10 · 24 lekcj
 
 ⚡ Kilka projektów tego portfela opracowano przy pomocy przepływu wspomaganego przez IA (Claude Code · ChatGPT Plus · Antigravity) w połączeniu z techniczną walidacją i kierunkiem architektonicznym.
 
-### Ostatnie opinie (samochód)
-
-Jest ładowany z publicznych API GitHub i GitLab (zamówione przez aktualizację).
-
-### Ostatnie działania (self)
-
 ⬆ zobowiązania · hs / MR · wydania - GitHub i GitLab w czasie rzeczywistym.
+
+### Chodźmy na żywo.
+
+Publiczne powiązania w celu zobaczenia rzeczywistych wdrożeń (w stosownych przypadkach).
+
+### Portfolio Web · Strony GitHub
+
+Portfolio internetowe w 22 językach używanych w GitHub Strony za pośrednictwem GitHub Akcje. PWA można zainstalować, Lighthouse 100, 154 PDF generowane przez rurociąg i JSON i18n API.
 
 [Zob. odniesienie](https://vladimiracunadev-create.github.io/#referencias)
 
@@ -704,19 +706,17 @@ Jest ładowany z publicznych API GitHub i GitLab (zamówione przez aktualizację
 
 [Repo (GitHub)](https://github.com/vladimiracunadev-create/modern-software-engineering-program)
 
+[Laboratorium genomu ludzkiego](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program)
+
 [Repo (GitHub)](https://github.com/vladimiracunadev-create/human-genome-labs)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/violin-adventure)
+[Ostatnie opinie (samochód)](https://github.com/vladimiracunadev-create/violin-adventure)
 
-## Chodźmy na żywo.
+## Patrz strona
 
 <!-- portfolio-section:demos -->
 
-Publiczne powiązania w celu zobaczenia rzeczywistych wdrożeń (w stosownych przypadkach).
-
-### Portfolio Web · Strony GitHub
-
-Portfolio internetowe w 22 językach używanych w GitHub Strony za pośrednictwem GitHub Akcje. PWA można zainstalować, Lighthouse 100, 154 PDF generowane przez rurociąg i JSON i18n API.
+GitHub
 
 ### AWS S3 + GitHub Actions
 
@@ -734,113 +734,113 @@ Stałe wdrażanie z automatycznym budynkiem, SSL i izolowanym środowiskiem (mai
 
 Lokalny "hub" do zbadania laboratoriów po stosie. Idealny do technicznych wywiadów.
 
-[Patrz strona](https://vladimiracunadev-create.github.io/)
+### 2025-Bieżący
 
-[GitHub](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io)
+Przejście (laboratoria + portfolio)
+
+[Zobacz demo](https://vladimiracunadev-create.github.io/)
+
+[GitHub Repo](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io)
 
 [Zobacz demo](https://mi-pagina-scrum-123.s3.us-east-2.amazonaws.com/index.html)
 
-[GitHub Repo](https://github.com/vladimiracunadev-create/proyectos-aws)
+[GitLab Repo](https://github.com/vladimiracunadev-create/proyectos-aws)
 
-[Zobacz demo](http://finops-vladimir-portfolio-case-l.s3-website.us-east-2.amazonaws.com)
+[Główne zapotrzebowanie](http://finops-vladimir-portfolio-case-l.s3-website.us-east-2.amazonaws.com)
 
-[GitLab Repo](https://gitlab.com/vladimir.acuna.dev-group/vladimir.acuna.dev-group)
+[Demo dev](https://gitlab.com/vladimir.acuna.dev-group/vladimir.acuna.dev-group)
 
-[Główne zapotrzebowanie](https://main.d3r1wuymolxagh.amplifyapp.com/)
+[Doświadczenie](https://main.d3r1wuymolxagh.amplifyapp.com/)
 
-[Demo dev](https://dev.d20m8tc0banvg.amplifyapp.com/)
+[Podsumowanie przez etapy (w celu uzyskania szczegółów należy użyć "Głębokiego" widoku).](https://dev.d20m8tc0banvg.amplifyapp.com/)
 
-## Doświadczenie
+## Normalizacja środowisk, laboratoriów Docker / AWS, automatyzacja, obserwacja i prototypy z lokalnym IA.
 
 <!-- portfolio-section:experiencia -->
 
-Podsumowanie przez etapy (w celu uzyskania szczegółów należy użyć "Głębokiego" widoku).
+Dokumentacja powtarzalna według profilu (rekruter, deweloper i przypadki praktyczne).
 
-### Przejście (laboratoria + portfolio)
+### 14 lat
 
-Normalizacja środowisk, laboratoriów Docker / AWS, automatyzacja, obserwacja i prototypy z lokalnym IA.
+Fundacja CEIS Maristas
 
-- Dokumentacja powtarzalna według profilu (rekruter, deweloper i przypadki praktyczne).
+- Architektura, rozwój i działanie edukacyjnych / psychometrycznych platform internetowych. Optymalizacja SQL / performance. Bezpieczeństwo operacyjne: analiza sądowa ataków, zarządzanie logowaniem i testowanie za pomocą OWASP ZAP i JMeter.
 
-- Skup się na praktyce: gałęzie, PR, CI / CD, Strony i wydania.
+- Bezpieczeństwo:
 
-### Fundacja CEIS Maristas
+### Zarządzanie i analiza dziennika środowiska serwera i PHP: czyszczenie kodu i wykrywanie nieprawidłowej aktywności z nieznanego IP.
 
-Architektura, rozwój i działanie edukacyjnych / psychometrycznych platform internetowych. Optymalizacja SQL / performance. Bezpieczeństwo operacyjne: analiza sądowa ataków, zarządzanie logowaniem i testowanie za pomocą OWASP ZAP i JMeter.
+Szerokość systemowa
 
-- Bezpieczeństwo: analizę sądową ataków serwerów przy więcej niż jednej okazji, określając pochodzenie, wektor wejściowy i zasięg.
+- ZAP OWASP (symulacja ataków) i badania obciążenia
 
-- Zarządzanie i analiza dziennika środowiska serwera i PHP: czyszczenie kodu i wykrywanie nieprawidłowej aktywności z nieznanego IP.
+- Apache JMeter
 
-- Szerokość systemowa ZAP OWASP (symulacja ataków) i badania obciążenia Apache JMeter .
+- Szkolenia w zakresie bezpieczeństwa cybernetycznego w czasie pandemii i późniejsze rozmowy instytucjonalne na temat bezpieczeństwa cybernetycznego. Profil hybrydowy Biznes + IT Szkolenia techniczne w zakresie zarządzania przedsiębiorstwem: procesy, wydajność, marketing i pomiary. .
 
-- Szkolenia w zakresie bezpieczeństwa cybernetycznego w czasie pandemii i późniejsze rozmowy instytucjonalne na temat bezpieczeństwa cybernetycznego.
-
-### Biznes + IT
-
-Szkolenia techniczne w zakresie zarządzania przedsiębiorstwem: procesy, wydajność, marketing i pomiary.
-
-## Przepływy rozwojowe wspierane przez IA
-
-<!-- portfolio-section:flujo-ia -->
-
-Używam narzędzi oceny oddziaływania jako prawdziwych przyspieszaczy technicznych w projektach, a nie jako substytutów dla własnego kryterium.
+- Przepływy rozwojowe wspierane przez IA
 
 ### Narzędzia do aktywnego użytkowania
 
-- ChatGPT Plus (od 2023 r.) · analizy, architektury, iteracji i dokumentacji
+ChatGPT Plus
 
-- Kodeks · generowanie i refakturowanie kodu
+## (od 2023 r.)
 
-- Kod Claude 'a · przegląd architektoniczny, wdrażanie i dokumentacja techniczna
+<!-- portfolio-section:flujo-ia -->
+
+analizy, architektury, iteracji i dokumentacji
+
+### Kodeks
+
+- generowanie i refakturowanie kodu Kod Claude 'a · przegląd architektoniczny, wdrażanie i dokumentacja techniczna
 
 - Przeciwgrawitacyjne · przyspieszenie rozwoju i automatyzacji przepływów
 
 - Kod VS / OpenCode · środowiska rozwojowe ze zintegrowaną pomocą w zakresie oceny oddziaływania
 
-### Gdzie stosuję ocenę oddziaływania w przepływie
+- Gdzie stosuję ocenę oddziaływania w przepływie · Diagnostyka techniczna i analiza architektury
 
-- Diagnostyka techniczna i analiza architektury
+- Projekt rozwiązania i zatwierdzenie decyzji · Wdrażanie, refakturowanie i testowanie
 
-- Projekt rozwiązania i zatwierdzenie decyzji
-
-- Wdrażanie, refakturowanie i testowanie
-
-- Dokumentacja techniczna i profilowa
+### Dokumentacja techniczna i profilowa
 
 - Przyspieszenie projektu i iteracja repozytorium
 
-"Łączę kryteria techniczne własnego, ludzkiego i architektonicznego kierunku. IA wzmacnia pojemność, szybkość i zasięg techniczny - nie zastępuje doświadczenia ".
+- "Łączę kryteria techniczne własnego, ludzkiego i architektonicznego kierunku. IA wzmacnia pojemność, szybkość i zasięg techniczny - nie zastępuje doświadczenia ".
 
-## Zakres stosowania w praktyce zawodowej
+- Zakres stosowania w praktyce zawodowej
+
+- Czysta Hierarchia: pierwsza główna tożsamość, potem naturalna ekspansja, uzupełniający zasięg na końcu.
+
+- 🎯 Identyfikacja główna
+
+Architekt rozwiązań
+
+## Architekt oprogramowania
 
 <!-- portfolio-section:roles -->
 
-Czysta Hierarchia: pierwsza główna tożsamość, potem naturalna ekspansja, uzupełniający zasięg na końcu.
+Architekt modernizacji dziedzictwa
 
-### 🎯 Identyfikacja główna
-
-16 + lat architektury, rozwoju i eksploatacji prawdziwych platform. Postępowa modernizacja bez cięcia, integracja systemów, automatyzacja procesów i stosowane IA - z kryterium technicznego i ludzkiej walidacji.
-
-### ↗ Naturalna ekspansja - ładunki mogę przyjąć z siłą
-
-wspieranych przez bezpośrednie doświadczenie, weryfikowalne projekty i przepływ wspierany przez IA-
-
-### Lider technologiczny / Prowadzenie technologii
+### Starszy programista Full- Stack
 
 Kierunek projektu technicznego, definicja architektury, przegląd decyzji krytycznych, towarzyszenie sprzętowi, modernizacja istniejących systemów oraz połączenie między celami biznesowymi a zrównoważonymi rozwiązaniami technologicznymi.
 
-### Inżynier Orkiestry AI
+### Dyrekcja Techniczna
 
-Projekt systemów agenowych z LangGraph, FastaPI i MCP. Agenci ze stanem, warunkowe trasy i odporność.
+Normy techniczne
 
-### Inżynier automatyzacji AI
+### Ciągłość działania
 
-Automatyzacja przepływu z n8n, Python i odporne orkiestratorów. Circuit Breaker, Idempotencja i obserwacja.
+Inżynier Orkiestry AI
 
-### Inżynier rozwiązań
+### MCP
 
-Dajemy i PoCs prawdziwą, techniczną komunikację - biznes, wymagania i architektura zorientowana na klienta.
+Inżynier automatyzacji AI
+
+### GrafanaCity in New Jersey USA
+
+Inżynier rozwiązań
 
 ### Techniczny budowniczy produktów
 
@@ -858,29 +858,29 @@ Działanie, ciągłość i rozwój platform z naciskiem na zmniejszenie tarcia, 
 
 445 + godzin w charakterze sprawozdawcy technicznego (2003- 2004, 2011): programowanie internetowe, HTML / CSS, Office i hardware. Ukończenie studiów na temat środowiska edukacyjnego dla dzieci z zespołem Downa (uwaga 6.7). Ing. w zakresie komputeryzacji i informatyki (UTA) + 16 lat pracy na prawdziwych platformach oceny edukacyjnej.
 
-### 🧭 Jakie technologiczne przywództwo oferuję
+### Platformy edukacyjne
 
-- Praktyczne przywództwo techniczne, nie tylko administracyjne.
+🧭 Jakie technologiczne przywództwo oferuję
 
-- Decyzje oparte na rzeczywistych doświadczeniach produkcyjnych.
-
-- Stopniowa modernizacja bez przerywania pracy.
-
-- Przejrzysta dokumentacja dla zespołów, rekruterów i ciągłości.
+### Przejrzysta dokumentacja dla zespołów, rekruterów i ciągłości.
 
 - IA jako wzmacniacz techniczny, a nie jako substytut kryterium zawodowego.
 
 - Podejście do stabilności, stabilności, bezpieczeństwa i redukcji zadłużenia technicznego.
 
-### ⚙️ Zakres uzupełniający
+- ⚙️ Zakres uzupełniający
 
-Logiczne rozszerzenie profilu. Biorę na siebie te role, gdy kontekst lub projekt wymaga tego, nie jako głównej tożsamości.
+- Logiczne rozszerzenie profilu. Biorę na siebie te role, gdy kontekst lub projekt wymaga tego, nie jako głównej tożsamości.
 
-### ✅ Dlaczego mogę wziąć ten zakres
+- Inżynier platformy
 
-- Wiodąca pozycja technologiczna — Przewodnik techniczny dotyczący urządzeń, określenie norm, przegląd ryzyka i monitorowanie w podejmowaniu decyzji krytycznych.
+- Devops / Cyc- CD Engineer
 
-- Projekt rozwiązań — Projektowanie i ewolucja systemów od korzenia do produkcji.
+### Inżynier chmur / AWS
+
+Sprawozdawca techniczny
+
+### — Projektowanie i ewolucja systemów od korzenia do produkcji.
 
 - Modernizacja prawa — 16 + lat z odziedziczonych systemów bez cięcia operacji.
 
@@ -896,184 +896,188 @@ Logiczne rozszerzenie profilu. Biorę na siebie te role, gdy kontekst lub projek
 
 - Współpraca i dokumentacja — DC według profilu, RESRUITER.md, dowody weryfikowalne w repos.
 
-### 🔗 Poszczególne role w zależności od kontekstu
+- 🔗 Poszczególne role w zależności od kontekstu Zbywalne według rodzaju projektu, firmy lub szczególnych potrzeb.
 
-Zbywalne według rodzaju projektu, firmy lub szczególnych potrzeb.
+- Programista AI Agent Inżynier szybkiego ruchu
 
-## Usługi
+### GenaI Product Builder
+
+Szef ds. automatyki / Adopcji ptasiej grypy
+
+## Weryfikacja funkcjonalna
 
 <!-- portfolio-section:servicios -->
 
-Interwencje w etapach dostosowanych do prawdziwej architektury, modernizacji i zrównoważonej ewolucji technicznej.
+Audyt techniczny
 
-### Audyt kodów przeprowadzony przez IA
+### Czyszczenie i odzysk
 
-Sprawdzenie funkcjonalne, audyt techniczny, techniczne rozliczanie i redukcja zadłużenia oraz zarządzanie oceną skutków dla zespołów już opracowanych z asystentami i agentami.
+Zarządzanie oceną oddziaływania
 
-### Modernizacja systemów legacy
+### CI / CD
 
-Postępowy współczynnik regresji, PHP / stop dotychczasowej migracji, CI / CD, automatyczne testowanie i bezpieczne wdrażanie bez operacji cięcia.
+QA
 
-### Automatyzacja procesów i przepływu pracy
+### Rezylidencja
 
-Projektowanie i wdrażanie zautomatyzowanych przepływów z n8n, Python i odporne orkiestratorów. Obwód Breaker, Niezdolność i obserwacji w tym.
+Integracja zastosowanych ocen oddziaływania
 
-### Integracja zastosowanych ocen oddziaływania
+### Olama
 
-Włączenie agentów, LLM i IA- wspomaganych przepływów do rzeczywistych produktów i procesów. LangGraph, MCP, Olama i FastaPI.
+FastaPI
 
-### Architektura chmur, CI / CD i obserwacja
+### ODIC
 
-AWS (ECS / EKS, Lambda / SAM, DynamiodB, Cognito, EventBridge / SQS / SNS, CloudWatch / X- Ray, S3 / CloudFront), Terraform, OIDC, FinOps, GitHub / GitLab CI i Prometeus / Grafana.
+Lambda / SAM
 
-### Diagnoza techniczna i plan ewolucyjny
+### Szybkie wygrane
 
-Kompleksowa ocena: można dokonać oceny ryzyka, zadłużenia technicznego, wyników, kosztów i priorytetowej mapy drogowej z szybkimi wygranymi.
+Freelance · Modele współpracy
 
-[Zobacz pełną obsługę](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/)
+[Współczynnik](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/)
 
-## Freelance · Modele współpracy
+## Dziedzictwo
 
 <!-- portfolio-section:modalidades -->
 
-Pracuję w elastycznych formatach w zależności od problemu, krytyki, zakresu i poziomu zaangażowania.
+Integracje
 
-### Odcięty projekt
+### Automatyzacja
 
-Dla terminowej modernizacji, integracji, konkretnej automatyzacji, krytycznej poprawy lub konkretnych rezultatów.
+Obsługa ekspertów / worek na godzinę
 
-### Obsługa ekspertów / worek na godzinę
+### Wsparcie dla osób starszych
 
-Dla zespołów, które muszą przyspieszyć decyzje techniczne, odblokować architekturę, potwierdzić wdrożenie lub rozwiązać wąskie gardła.
+Pomoc miesięczna
 
-### Pomoc miesięczna
+### Obserwacja
 
-W odniesieniu do trwałej ewolucji, wsparcia wyższego szczebla, planu technicznego, ciągłości operacyjnej i stopniowej poprawy.
+Diagnoza + mapa drogowa
 
-### Diagnoza + mapa drogowa
+### Szybkie wygrane
 
-Aby uporządkować kontekst, określić ryzyko, nadać priorytet decyzjom i określić realistyczną strategię wdrażania.
+Współpraca handlowa
 
-### Współpraca handlowa
+### Zainteresowane strony
 
-Aby wspierać rozmowy z klientami lub zainteresowanymi stronami, należy przetłumaczyć wymagania na realne rozwiązania i towarzyszyć predanych lub definicji technicznej.
+Modernizacja, ratowanie i zastosowanie oceny skutków
 
-### Modernizacja, ratowanie i zastosowanie oceny skutków
+### Stosowane oceny oddziaływania
 
-Wsparcie, gdy istnieją delikatne systemy, żywa operacja, oczekujące automacje, decyzje architektoniczne, chmura / Cic @ - @ CD, obserwacyjność lub pragmatyczne przyjęcie IA.
+Jak zdefiniować odpowiedni modalność
 
-### Jak zdefiniować odpowiedni modalność
+### Oczekiwany poziom przywództwa
 
-W praktyce, osobne odkrycie, architektura, wykonanie, testowanie, dokumentacja, koordynacja i późniejsze wsparcie. Jeśli zamówienie łączy kilka warstw, zamawiam go w fazach lub miesięcznych zdolności, aby uniknąć rozproszonych oczekiwań.
+Porozmawiajmy o tym.
 
-### Brak opublikowanych stałych stawek
-
-Nie publikuję stałych stawek, ponieważ każda interwencja zmienia się w zależności od złożoności, ryzyka, pilności i poziomu zaangażowania.
-
-¿Projekt, wsparcie ekspertów lub współpraca w odpowiednim czasie? Dyskutujemy kontekst i przegląd najlepszego formatu pracy.
-
-[Porozmawiajmy o tym.](https://vladimiracunadev-create.github.io/#contacto)
-
-## Centrum zrzutu
-
-<!-- portfolio-section:descargas -->
+### Centrum zrzutu
 
 Dostęp do rodzimych wersji i dokumentów zawodowych publicznych.
 
-### Zalecane
+Tryb inteligentny
 
-Wykrywam sprzęt...
+[Zalecane](https://vladimiracunadev-create.github.io/#contacto)
 
-### Pozostałe wersje
+## Wykrywam sprzęt...
 
-Użyj tych linków, jeśli automatyczna detekcja nie pasuje do urządzenia.
+<!-- portfolio-section:descargas -->
 
-### Dokumenty PDF
+Wybór ręczny
 
-Wyselekcjonowanie językowe zmienia każdy pobrany plik na równoważny PDF w języku aktywnym.
+### Android (APK)
 
-Ważna uwaga jest dokumentem wsparcia wystawionym przez profesjonalistę, a nie przez Fundación CEIS Marista. Jest to tekstualizowana zmiana władzy w 2026 roku i musi być poddana przeglądowi wraz z listem rekomendacji historycznej.
+Instaluj PWA
 
-Oświadczenie o osiągnięciu jest wydawane oddzielnie w celu podsumowania obserwowalnych wyników i ułatwienia zewnętrznej walidacji bez zastępowania CV lub portfela.
+### Urządzenia publiczne
 
-Karta Życia jest dokumentem ogólnym: klasycznym i kompletnym formacie, bez kierowania do konkretnego ładunku. Służy do dowolnego procesu selekcji, nawet jeśli post ma nietypową nazwę.
+Arkusz życia
 
-### Pliki techniczne
+### CV ATS
 
-Pliki wyszukiwania u źródła strony (SEO + IA).
+Pliki techniczne
 
-[Android (APK)](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/releases/latest/download/app-debug.apk)
+robot.txt
 
-[Portfolio](https://vladimiracunadev-create.github.io/assets/portafolio.pdf)
+sitemap.xml
 
-[Arkusz życia](https://vladimiracunadev-create.github.io/assets/hoja-de-vida.pdf)
+llm.txt
 
-[Reclutor CV](https://vladimiracunadev-create.github.io/assets/cv-reclutador.pdf)
+### Pliki wyszukiwania u źródła strony (SEO + IA).
 
-[CV ATS](https://vladimiracunadev-create.github.io/assets/cv-ats.pdf)
+Początek rozdziału
 
-[List do zalecenia](https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma.pdf)
+[Dokumenty PDF](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/releases/latest/download/app-debug.apk)
 
-[Uwaga:](https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis.pdf)
+[List do zalecenia](https://vladimiracunadev-create.github.io/assets/portafolio.pdf)
 
-[Deklaracja osiągnięć](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
+[Uwaga:](https://vladimiracunadev-create.github.io/assets/hoja-de-vida.pdf)
 
-[robot.txt](https://vladimiracunadev-create.github.io/robots.txt)
+[Deklaracja osiągnięć](https://vladimiracunadev-create.github.io/assets/cv-reclutador.pdf)
 
-[sitemap.xml](https://vladimiracunadev-create.github.io/sitemap.xml)
+[Wyselekcjonowanie językowe zmienia każdy pobrany plik na równoważny PDF w języku aktywnym.](https://vladimiracunadev-create.github.io/assets/cv-ats.pdf)
 
-[llm.txt](https://vladimiracunadev-create.github.io/llm.txt)
+[Ważna uwaga jest dokumentem wsparcia wystawionym przez profesjonalistę, a nie przez Fundación CEIS Marista. Jest to tekstualizowana zmiana władzy w 2026 roku i musi być poddana przeglądowi wraz z listem rekomendacji historycznej.](https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma.pdf)
 
-## Odniesienia do pracy
+[Oświadczenie o osiągnięciu jest wydawane oddzielnie w celu podsumowania obserwowalnych wyników i ułatwienia zewnętrznej walidacji bez zastępowania CV lub portfela.](https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis.pdf)
+
+[Karta Życia jest dokumentem ogólnym: klasycznym i kompletnym formacie, bez kierowania do konkretnego ładunku. Służy do dowolnego procesu selekcji, nawet jeśli post ma nietypową nazwę.](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
+
+[Odniesienia do pracy](https://vladimiracunadev-create.github.io/robots.txt)
+
+[W przypadku projektów instytucjonalnych walidacja jest przeprowadzana poprzez odniesienie.](https://vladimiracunadev-create.github.io/sitemap.xml)
+
+[Podsumowanie osiągnięć i walidacja](https://vladimiracunadev-create.github.io/llm.txt)
+
+## szacowana poprawa procesów krytycznych i sprawozdawczości.
 
 <!-- portfolio-section:referencias -->
 
-W przypadku projektów instytucjonalnych walidacja jest przeprowadzana poprzez odniesienie.
+Redukcja zbliżona do
 
-### Podsumowanie osiągnięć i walidacja
+### w tarciu operacyjnym i wsparcia nad akumulatorem online.
 
-- Początek rozdziału 80% szacowana poprawa procesów krytycznych i sprawozdawczości.
+- Przybliżona optymalizacja 80% w bazie danych i składnikach kodu.
 
-- Redukcja zbliżona do 90% w tarciu operacyjnym i wsparcia nad akumulatorem online.
+- Równoczesny wzrost - to - 90% 5 frontów
 
-- Przybliżona optymalizacja 45% w bazie danych i składnikach kodu.
+- pracy w określonych okresach. 45% Liczby te przedstawiono w formalnym oświadczeniu wydanym przez pracownika, z odniesieniem zewnętrznym do walidacji kontekstu pracy i zakresu ogólnego.
 
-- Równoczesny wzrost - to - 5 frontów pracy w określonych okresach.
+- Patrz: oświadczenie Przewodniczący Ostatni bezpośredni szef
 
-Liczby te przedstawiono w formalnym oświadczeniu wydanym przez pracownika, z odniesieniem zewnętrznym do walidacji kontekstu pracy i zakresu ogólnego.
+Komórka
 
-### Przewodniczący · Ostatni bezpośredni szef
+### Karta prezentacyjna · Zapisywanie moich danych zawodowych lub udostępnianie tego portfolio za pomocą kodu QR. Rewers podsumowuje moje obszary usług: aplikacje internetowe, architektura chmur, dane, API, IA, automatyzacja i cyberbezpieczeństwo.
 
-Komórka : +56 9 9415 6984
+Przednie · kontakt i kod QR : +56 9 9415 6984
 
-Mogę wysłać pisemne podsumowanie i przykłady oddziaływania, jeśli będziesz tego potrzebować.
+Reverse · rozwiązania technologiczne i usługi
 
-[Patrz: oświadczenie](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
+[Mogę wysłać pisemne podsumowanie i przykłady oddziaływania, jeśli będziesz tego potrzebować.](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
 
-## Karta prezentacyjna
+## Pobierz przód
 
 <!-- portfolio-section:tarjeta -->
 
-Zapisywanie moich danych zawodowych lub udostępnianie tego portfolio za pomocą kodu QR. Rewers podsumowuje moje obszary usług: aplikacje internetowe, architektura chmur, dane, API, IA, automatyzacja i cyberbezpieczeństwo.
+Pobierz wsteczny
 
 https://vladimiracunadev-create.github.io/assets/icons/1.png?v=5adde69a
 
 https://vladimiracunadev-create.github.io/assets/icons/2.png?v=1a55b3e6
 
-[Pobierz przód](https://vladimiracunadev-create.github.io/assets/icons/1.png?v=5adde69a)
+[E-mail](https://vladimiracunadev-create.github.io/assets/icons/1.png?v=5adde69a)
 
-[Pobierz wsteczny](https://vladimiracunadev-create.github.io/assets/icons/2.png?v=1a55b3e6)
+[vladimir.acuna.dev @ gmail.com](https://vladimiracunadev-create.github.io/assets/icons/2.png?v=1a55b3e6)
 
-## Kontakt
+## Zainstaluj aplikację
 
 <!-- portfolio-section:contacto -->
 
-¿Modernizacja, automatyzacja, architektura lub integracja zastosowanych IA? Napisz do mnie.
+Kopiuj e- mail
 
-Dostępny do szybkiego zintegrowania się z zespołami technicznymi i społecznościami poprzez wspólne kanały, takie jak Slack.
+Disponible para integrarme rápidamente a equipos y comunidades técnicas a través de canales colaborativos como Slack.
 
-[vladimir.acuna.dev @ gmail.com](mailto:vladimir.acuna.dev@gmail.com)
+[GitHub](mailto:vladimir.acuna.dev@gmail.com)
 
-[LinkedIn](https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29)
+[Wykonane z HTML + CSS + JS.](https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29)
 
-[GitHub](https://github.com/vladimiracunadev-create)
+[Audyt kodu AI](https://github.com/vladimiracunadev-create)

@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "generated_at": "2026-10-16",
+    "language": "ar",
+    "language_name": "Arabic",
+    "native_name": "العربية",
+    "direction": "rtl",
+    "source": "https://github.com/vladimiracunadev-create/vladimiracunadev-create/blob/main/README.ar.md"
+  },
+  "profile": {
+    "name": "Vladimir Acuña",
+    "title": "Solution Architect·أقدم مجموعة كاملة·التحول الرقمي·العمليات الإدارية",
+    "summary": "- 🔁 التخفيضات القابلة للتكاثر- مستنسخة، تشغيل، والتحقق. - 🧰 الأدوات الموحدة-المكافآت، (هوب كلي)doctorوsmokeلكل مستودع - 🛡️ الدفاع بعمق- المسح السري والسياسات والممارسات المحظورة صراحة. - 📈 القابلية للاحترام — /health, /ready, /metricsلوحات الـ (داش) و (التعقب) - 📚 وثائق التوعية بالسمعة- المجند، المبتدئ، الفيروس، أو الأمن، حسب المستودع. - 📦 توزيع المنتجات- الإطلاقات القابلة للحمل، والخصوم، وبناء الأدلة؛ والتوقيعات التجارية/التاريخية التي يُعلن أنها معلقة عند الاقتضاء. - 🌍 التدنيس- حافظة بست لغات )الإيسا(·EN·PT·هو·FR·ZH. - 🧭 الأمانة التقنية- كل حالة تحمل اسماOPERATIONAL, DOCUMENTED/SCAFFOLDأوPLANNED.",
+    "website": "https://vladimiracunadev-create.github.io/i18n/ar/",
+    "github": "https://github.com/vladimiracunadev-create",
+    "gitlab": "https://gitlab.com/vladimir.acuna.dev-group"
+  },
+  "sections": [
+    "🎯ما الذي ستجده هنا",
+    "✅الحالة التي يمكن التحقق منها",
+    "🗺️النظام الإيكولوجي في غلاف",
+    "📦المنتجات ذات التوزيع الحقيقي",
+    "🧪المختبرات الهندسية",
+    "🤖الذكاء الاصطناعي التطبيقي",
+    "📚المناهج التقنية الكاملة",
+    "🔬الحوسبة العلمية",
+    "⚡إذا كان لديك 10 دقائق لتقييمي",
+    "🧠المعايير التي أطبقها في جميع أنحاء المخازن",
+    "✅النطاق المهني",
+    "🧭فرص العمل في مجالات الإدارة والإدارة وغير الترميز",
+    "🤖سير التطوير بمساعدة الذكاء الاصطناعي",
+    "📌توافر",
+    "📬الاتصال"
+  ],
+  "artifacts": {
+    "portfolio": "/assets/portafolio-arabic.pdf",
+    "resume": "/assets/hoja-de-vida-arabic.pdf",
+    "recruiter": "/assets/cv-reclutador-arabic.pdf",
+    "ats": "/assets/cv-ats-arabic.pdf",
+    "achievements": "/assets/declaracion-logros-validacion-arabic.pdf",
+    "recommendation": "/assets/carta-recomendacion_sin_firma-arabic.pdf",
+    "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-arabic.pdf"
+  }
+}

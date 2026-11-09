@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "generated_at": "2026-10-16",
+    "language": "th",
+    "language_name": "Thai",
+    "native_name": "ไทย",
+    "direction": "ltr",
+    "source": "https://github.com/vladimiracunadev-create/vladimiracunadev-create/blob/main/README.th.md"
+  },
+  "profile": {
+    "name": "Vladimir Acuña",
+    "title": "สถาปัตยกรรม ทาง แก้·แพ็ครุ่นน้อง·การแปลงภาพดิจิทัล·ปฏิบัติการการจัดการ",
+    "summary": "- 🔁 โม เด็ค ที่ สามารถ ทํา งาน ได้-โคลน วิ่ง มั่นใจ - 🧰 ตัวเล่นมาตรฐาน-เมคเฟช, ฮับ ซีแอลไอdoctorและsmokeต่อคลังเก็บของ - 🛡️ การป้องกันในความลึก-การสแกนลับ นโยบาย และกิจกรรมต้องห้าม - 📈 ความไวแสง — /health, /ready, /metricsหนวดและรอยขีดข่วน - 📚 เอกสารที่ปรากฏแก่ผู้ชม-คนรับสมัคร มือใหม่ เดวอป หรือ รปภ. ขึ้นอยู่กับคลังสินค้า - 📦 การกระจายตัวของโปรดักต์— เปิดตัวแบบดาวน์โหลดได้, Checksums, และสร้างหลักฐาน; ลายเซ็นการค้า/สโตร์ ที่ประกาศว่าใช้ได้ชั่วคราว - 🌍 การแบ่งเขตการปกครอง— ประวัติ ย่อ ใน 22 ภาษา (ส.·เอ็น·ขนาด PT·มัน·ฟิล์ม FR·ZH). - 🧭 ความซื่อสัตย์เชิงเทคนิค-ทุกคดีที่ถูกติดป้ายOPERATIONAL, DOCUMENTED/SCAFFOLDหรือPLANNED.",
+    "website": "https://vladimiracunadev-create.github.io/i18n/th/",
+    "github": "https://github.com/vladimiracunadev-create",
+    "gitlab": "https://gitlab.com/vladimir.acuna.dev-group"
+  },
+  "sections": [
+    "🎯สิ่งที่คุณจะพบที่นี่",
+    "✅สถานะที่ใช้ได้",
+    "🗺️ภาพรวมระบบนิเวศ",
+    "📦ผลิตภัณฑ์ที่มีการเผยแพร่จริง",
+    "🧪ห้องปฏิบัติการวิศวกรรม",
+    "🤖ปรับใช้ AI",
+    "📚หลักสูตรเทคนิคฉบับสมบูรณ์",
+    "🔬การประมวลผลเชิงวิทยาศาสตร์",
+    "⚡หากคุณมีเวลา 10 นาทีเพื่อประเมินผม",
+    "🧠มาตรฐานที่ผมใช้ในทุกคลัง",
+    "✅ขอบเขตงาน",
+    "🧭การจัดการ, การบริหาร, และโอกาสงานที่ไม่ประสบความสําเร็จ",
+    "🤖กระบวนการพัฒนาที่มี AI ช่วย",
+    "📌ความสามารถ",
+    "📬ติดต่อ"
+  ],
+  "artifacts": {
+    "portfolio": "/assets/portafolio-thai.pdf",
+    "resume": "/assets/hoja-de-vida-thai.pdf",
+    "recruiter": "/assets/cv-reclutador-thai.pdf",
+    "ats": "/assets/cv-ats-thai.pdf",
+    "achievements": "/assets/declaracion-logros-validacion-thai.pdf",
+    "recommendation": "/assets/carta-recomendacion_sin_firma-thai.pdf",
+    "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-thai.pdf"
+  }
+}

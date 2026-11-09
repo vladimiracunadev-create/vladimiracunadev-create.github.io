@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-26",
+    "generated_at": "2026-11-09",
     "language": "fr",
     "language_name": "French",
     "native_name": "Français",
@@ -62,61 +62,61 @@
     },
     {
       "id": "demos",
-      "title": "Allons vivre.",
+      "title": "Voir site",
       "min_level": 1,
       "freelance_hidden": false
     },
     {
       "id": "experiencia",
-      "title": "Expérience",
+      "title": "Normalisation des environnements, laboratoires Docker / AWS, automatisation, observabilité et prototypes avec IA local.",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "flujo-ia",
-      "title": "Flux de développement assistés par l'AI",
+      "title": "(depuis 2023)",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "roles",
-      "title": "Champ d'application professionnel réel",
+      "title": "Architecte logiciel",
       "min_level": 1,
       "freelance_hidden": true
     },
     {
       "id": "servicios",
-      "title": "Services",
+      "title": "Vérification fonctionnelle",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "modalidades",
-      "title": "Libre circulation · Modalités de collaboration",
+      "title": "Héritage",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "descargas",
-      "title": "Centre de décharge",
+      "title": "Détecter l'équipement...",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "referencias",
-      "title": "Références de main-d'œuvre",
+      "title": "l'amélioration prévue des processus critiques et des rapports.",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "tarjeta",
-      "title": "Carte de présentation",
+      "title": "Télécharger Front",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "contacto",
-      "title": "Contact",
+      "title": "Installer l'application",
       "min_level": 0,
       "freelance_hidden": false
     }

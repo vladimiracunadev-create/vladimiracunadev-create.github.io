@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "generated_at": "2026-10-16",
+    "language": "pl",
+    "language_name": "Polish",
+    "native_name": "Polski",
+    "direction": "ltr",
+    "source": "https://github.com/vladimiracunadev-create/vladimiracunadev-create/blob/main/README.pl.md"
+  },
+  "profile": {
+    "name": "Vladimir Acuña",
+    "title": "Architekt rozwiązania·Senior Full- Stack·Transformacja cyfrowa·Zarządzanie i operacje",
+    "summary": "- 🔁 Odtwarzalne demo- Klon, uciekaj, potwierdzaj. - 🧰 Znormalizowane oprzyrządowanie- Makefiles, Hub CLI,doctor, orazsmokew każdym repozytorium. - 🛡️ Obrona w głębi- tajne skanowanie, polityka i wyraźnie zabronione praktyki. - 📈 Obserwacja — /health, /ready, /metrics, deski rozdzielcze i identyfikowalność. - 📚 Dokumentacja dotycząca wiedzy o użytkownikach- rekruter, początkujący, DevOps lub bezpieczeństwo, w zależności od repozytorium. - 📦 Dystrybucja produktów- możliwość pobrania, sumy kontrolne i tworzenia dowodów; podpisy handlowe / sklepowe zadeklarowane jako oczekujące, w stosownych przypadkach. - 🌍 Internacjonalizacja- portfolio w 22 językach (ES)·PL·PT·IT·FR·ZH). - 🧭 Szczerość techniczna- każda sprawa oznaczonaOPERATIONAL, DOCUMENTED/SCAFFOLDlubPLANNED.",
+    "website": "https://vladimiracunadev-create.github.io/i18n/pl/",
+    "github": "https://github.com/vladimiracunadev-create",
+    "gitlab": "https://gitlab.com/vladimir.acuna.dev-group"
+  },
+  "sections": [
+    "🎯Co znajdziesz tutaj",
+    "✅Stan weryfikowalny",
+    "🗺️Ekosystem w odblasku",
+    "📦Produkty z dystrybucją rzeczywistą",
+    "🧪Laboratoria inżynieryjne",
+    "🤖Stosowana AI",
+    "📚Kompletne programy nauczania technicznego",
+    "🔬Konstrukcja naukowa",
+    "⚡Jeśli masz 10 minut na ocenę mnie",
+    "🧠Normy I stosowane w różnych repozytoriach",
+    "✅Zakres działalności",
+    "🧭Zarządzanie, Administracja i niekodujące szanse na karierę",
+    "🤖Proces rozwoju wspomagany przez AI",
+    "📌Dostępność",
+    "📬Kontakt"
+  ],
+  "artifacts": {
+    "portfolio": "/assets/portafolio-polish.pdf",
+    "resume": "/assets/hoja-de-vida-polish.pdf",
+    "recruiter": "/assets/cv-reclutador-polish.pdf",
+    "ats": "/assets/cv-ats-polish.pdf",
+    "achievements": "/assets/declaracion-logros-validacion-polish.pdf",
+    "recommendation": "/assets/carta-recomendacion_sin_firma-polish.pdf",
+    "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-polish.pdf"
+  }
+}

@@ -14,7 +14,7 @@ Aliran pembangunan dibantu oleh IA - ChatgPT Plus
 
 Antarmuka disiapkan untuk multiple bahasa , tampilan Rekrut / Normal / Dalam / Bantuan , tema terang / gelap dan penyebaran web, PWA dan APK .
 
-Informasi tentang portofolio terbaru sampai ke 2026-10-25, 13:28 (Amerika / Santiago).
+Informasi tentang portofolio terbaru sampai ke 2026-11-09, 15:38 (Amerika / Santiago).
 
 ### Siapa aku secara profesional
 
@@ -494,11 +494,11 @@ Psychometrics dan program penilaian
 
 480 kelas, 40 bagian dan 8 tahap produk-produk suci, arsitektur, keamanan, DevOps, SRE, SPEC, IA dan sistem multiagent yang dinyatakan oleh repositori.
 
-### Ilmu pengetahuan dan pendidikan
+### Lihat yang lain
 
-### Lab Genome Manusia
+Ilmu pengetahuan dan pendidikan
 
-Platform ilmiah dan evolusi untuk genetika molekuler dan genomik (v1.0.0): terverifikasi TypeScript core (urutan, terjemahan, ORF, varian, G -quádruplex), kontrak Hasil Ilmiah, FASTA / GF3 / VCF pembaca ilmiah, CPI, PWA web lab dan permainan pendidikan.
+### Repo (GitHub)
 
 ### Petualangan biola
 
@@ -506,13 +506,15 @@ Petualangan saya dengan App Viokasional untuk mempelajari biola dari usia 10 tah
 
 ⚡ Beberapa proyek portofolio ini dikembangkan dengan aliran yang dibantu oleh IA (Claude Code)
 
-### Ulasan terbaru (mobil)
-
-Ini dimuat dari APIs publik dari GitHub dan GitLab (terupdate). Ini menunjukkan bintang dan garpu.
-
-### Aktivitas baru-baru ini (diri)
-
 ⬆ komitmen / MRI - GitHub dan GitLab secara langsung.
+
+### Mari kita pergi hidup.
+
+Link publik untuk melihat pengiriman aktual (ketika diterapkan).
+
+### Portfolio Web
+
+Portofolio web dalam 22 bahasa yang dikerahkan di GitHub Pages melalui GitHub Actions. PWA dapat dipasang, Lightthouse 100, 154 PDFs yang dihasilkan oleh pipeline dan JSON i18n API.
 
 [Lihat referensi](https://vladimiracunadev-create.github.io/#referencias)
 
@@ -704,19 +706,17 @@ Ini dimuat dari APIs publik dari GitHub dan GitLab (terupdate). Ini menunjukkan 
 
 [Repo (GitHub)](https://github.com/vladimiracunadev-create/modern-software-engineering-program)
 
+[Lab Genome Manusia](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program)
+
 [Repo (GitHub)](https://github.com/vladimiracunadev-create/human-genome-labs)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/violin-adventure)
+[Ulasan terbaru (mobil)](https://github.com/vladimiracunadev-create/violin-adventure)
 
-## Mari kita pergi hidup.
+## Lihat situs
 
 <!-- portfolio-section:demos -->
 
-Link publik untuk melihat pengiriman aktual (ketika diterapkan).
-
-### Portfolio Web
-
-Portofolio web dalam 22 bahasa yang dikerahkan di GitHub Pages melalui GitHub Actions. PWA dapat dipasang, Lightthouse 100, 154 PDFs yang dihasilkan oleh pipeline dan JSON i18n API.
+GitHub
 
 ### AWS S3 + GitHub Aksi
 
@@ -734,113 +734,113 @@ Penyebaran terus-menerus dengan bangunan otomatis, SSL dan lingkungan terisolasi
 
 "Pusat" lokal untuk menjelajahi laboratorium secara bertumpukan, kesepakatan untuk wawancara teknis.
 
-[Lihat situs](https://vladimiracunadev-create.github.io/)
+### 2025- Saat Ini
 
-[GitHub](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io)
+Transition (laboratories + portofolio)
+
+[Lihat demo](https://vladimiracunadev-create.github.io/)
+
+[GitHub Repo](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io)
 
 [Lihat demo](https://mi-pagina-scrum-123.s3.us-east-2.amazonaws.com/index.html)
 
-[GitHub Repo](https://github.com/vladimiracunadev-create/proyectos-aws)
+[GitLab Repo](https://github.com/vladimiracunadev-create/proyectos-aws)
 
-[Lihat demo](http://finops-vladimir-portfolio-case-l.s3-website.us-east-2.amazonaws.com)
+[Permintaan utama](http://finops-vladimir-portfolio-case-l.s3-website.us-east-2.amazonaws.com)
 
-[GitLab Repo](https://gitlab.com/vladimir.acuna.dev-group/vladimir.acuna.dev-group)
+[Demo dev](https://gitlab.com/vladimir.acuna.dev-group/vladimir.acuna.dev-group)
 
-[Permintaan utama](https://main.d3r1wuymolxagh.amplifyapp.com/)
+[Pengalaman](https://main.d3r1wuymolxagh.amplifyapp.com/)
 
-[Demo dev](https://dev.d20m8tc0banvg.amplifyapp.com/)
+[Ringkasan oleh tonggak (gunakan "Deep" tampilan untuk rincian).](https://dev.d20m8tc0banvg.amplifyapp.com/)
 
-## Pengalaman
+## Standardisasi lingkungan, laboratorium Docker / AWS, otomatisasi, pengamatan dan prototipe dengan lokal IA.
 
 <!-- portfolio-section:experiencia -->
 
-Ringkasan oleh tonggak (gunakan "Deep" tampilan untuk rincian).
+Dokumentasi reproduksi berdasarkan profil (perekrut, pengembang, dan kasus praktis).
 
-### Transition (laboratories + portofolio)
+### 14 tahun
 
-Standardisasi lingkungan, laboratorium Docker / AWS, otomatisasi, pengamatan dan prototipe dengan lokal IA.
+Yayasan CEIS Marista
 
-- Dokumentasi reproduksi berdasarkan profil (perekrut, pengembang, dan kasus praktis).
+- Arsitektur, pengembangan dan operasi platform web pendidikan / psikometric. Optimasi SQL / kinerja. Keamanan operasional: analisis forensik dari serangan, manajemen log dan pengujian dengan OWASP ZAP dan JMeter.
 
-- Fokus pada praktek: percabangan, PRs, CI / CD, Halaman dan rilis.
+- Keamanan:
 
-### Yayasan CEIS Marista
+### Manajemen dan analisis dari server dan log lingkungan PHP: pembersihan kode dan deteksi aktivitas abnormal dari IP yang tidak diketahui.
 
-Arsitektur, pengembangan dan operasi platform web pendidikan / psikometric. Optimasi SQL / kinerja. Keamanan operasional: analisis forensik dari serangan, manajemen log dan pengujian dengan OWASP ZAP dan JMeter.
+System- wide
 
-- Keamanan: Analisis forensik terhadap serverserge pada lebih dari satu kesempatan, menentukan asal, vektor masukan dan jangkauan.
+- OWASP ZAP (simulasi serangan) dan tes beban dengan
 
-- Manajemen dan analisis dari server dan log lingkungan PHP: pembersihan kode dan deteksi aktivitas abnormal dari IP yang tidak diketahui.
+- Apache JMeter
 
-- System- wide OWASP ZAP (simulasi serangan) dan tes beban dengan Apache JMeter .
+- Pelatihan keamanan cyber selama wabah dan pembicaraan institusi berikutnya tentang keamanan cyber. Profil Hybrid Bisnis + IT Pelatihan teknis dalam manajemen bisnis: proses, efisiensi, pemasaran dan pengukuran. .
 
-- Pelatihan keamanan cyber selama wabah dan pembicaraan institusi berikutnya tentang keamanan cyber.
-
-### Bisnis + IT
-
-Pelatihan teknis dalam manajemen bisnis: proses, efisiensi, pemasaran dan pengukuran.
-
-## Aliran pembangunan dibantu oleh IA
-
-<!-- portfolio-section:flujo-ia -->
-
-Saya menggunakan alat-alat IA sebagai pemercepat teknis nyata dalam proyek-proyek, bukan sebagai pengganti untuk kriteria sendiri.
+- Aliran pembangunan dibantu oleh IA
 
 ### Perkakas dalam penggunaan aktif
 
-- CATGPT Plus (sejak 2023) · analisis, arsitektur, iterasi dan dokumentasi
+CATGPT Plus
 
-- Codex · pembuatan kode dan refaktorisasi
+## (sejak 2023)
 
-- Kode Claude · Ulasan arsitektur, implementasi dan dokumentasi teknis
+<!-- portfolio-section:flujo-ia -->
+
+analisis, arsitektur, iterasi dan dokumentasi
+
+### Codex
+
+- pembuatan kode dan refaktorisasi Kode Claude · Ulasan arsitektur, implementasi dan dokumentasi teknis
 
 - Antigravity · percepatan dari pengembangan dan arus otomatisasi
 
 - Kode VS / OpenCode · lingkungan pengembangan dengan bantuan terintegrasi IA
 
-### Dimana aku menerapkan IA dalam aliran
+- Dimana aku menerapkan IA dalam aliran · Analisis teknis dan arsitektur
 
-- Analisis teknis dan arsitektur
+- Desain Solusi dan validasi keputusan · Implikasi, menata ulang dan pengujian
 
-- Desain Solusi dan validasi keputusan
-
-- Implikasi, menata ulang dan pengujian
-
-- Dokumentasi teknis dan profil
+### Dokumentasi teknis dan profil
 
 - Percepatan projek dan iterasi repositori
 
-"Saya menggabungkan kriteria teknis saya sendiri, validasi manusia dan arah arsitektur.
+- "Saya menggabungkan kriteria teknis saya sendiri, validasi manusia dan arah arsitektur.
 
-## Ruang lingkup profesional yang sebenarnya
+- Ruang lingkup profesional yang sebenarnya
+
+- Clear Hierarchy: identitas utama pertama, kemudian ekspansi alam, jangkauan komplementer di akhir.
+
+- 🎯 Identitas utama
+
+Arsitek Solusi
+
+## Arsitek Perangkat Lunak
 
 <!-- portfolio-section:roles -->
 
-Clear Hierarchy: identitas utama pertama, kemudian ekspansi alam, jangkauan komplementer di akhir.
+Arsitek Modernisasi Legacy
 
-### 🎯 Identitas utama
-
-16 tahun arsitektur, pengembangan dan operasi platform nyata. Modernisasi progresif tanpa operasi pemotongan, integrasi sistem, proses otomatisasi dan diterapkan IA - dengan kriteria teknis dan validasi manusia.
-
-### ↗ Ekspansi alami - biaya saya bisa berasumsi dengan kekuatan
-
-didukung oleh pengalaman langsung, diverifikasi proyek dan IA- bantuan aliran.
-
-### Líder Tecnológico / Tech Lead
+### Pengembang Senior-Stack
 
 Arah proyek teknis, definisi arsitektur, ulasan dari keputusan kritis, fasilitas, modernisasi sistem dan koneksi yang ada antara tujuan bisnis dan solusi teknologi berkelanjutan.
 
-### Insinyur AI Orchestra
+### Direktorat Teknis
 
-Desain sistem genik dengan LangGraph, FastAPI dan MCP.
+Standar teknis
 
-### Insinyur Audisi AI
+### Kelangsungan operasional
 
-Audisi arus n8n, Python dan realistrator yang tangguh.
+Insinyur AI Orchestra
 
-### Insinyur Solusi
+### MCP
 
-Kami memberi dan Poc nyata, komunikasi teknis - bisnis, persyaratan dan arsitektur yang diorientasi pelanggan.
+Insinyur Audisi AI
+
+### Grafana
+
+Insinyur Solusi
 
 ### Pembangun Produk Teknis
 
@@ -858,29 +858,29 @@ Operasi, kelanjutan dan evolusi dari platform dengan fokus pada pengurangan gese
 
 445 + jam diberikan sebagai raporteur teknis (2003-2004): pemrograman web, HTML / CSS, Office and hardware. Gelar Universitas pada lingkungan pendidikan web untuk anak-anak dengan Down Syndrome (catatan 6.7). Input dalam Computing dan Informatik (UTA) + 16 tahun mengoperasi platform evaluasi pendidikan nyata.
 
-### 🧭 Kepemimpinan teknologi macam apa yang kutawarkan.
+### Platform pendidikan
 
-- Praktis kepemimpinan teknis, bukan hanya administratif.
+🧭 Kepemimpinan teknologi macam apa yang kutawarkan.
 
-- Keputusan berdasarkan pengalaman produksi yang sebenarnya.
-
-- Modernisasi Gradual tanpa interupsi operasi.
-
-- Hapus dokumentasi untuk tim, perekrut, dan kelanjutan.
+### Hapus dokumentasi untuk tim, perekrut, dan kelanjutan.
 
 - IA sebagai penguat teknis, bukan sebagai pengganti untuk kriteria profesional.
 
 - Pendekatan dengan stabilitas, keberlanjutan, keamanan dan pengurangan utang teknis.
 
-### ⚙️ Skup tambahan
+- ⚙️ Skup tambahan
 
-Ekstensi logis dari profil. Saya mengambil peran ini ketika konteks atau projek memerlukannya, bukan sebagai identitas utama.
+- Ekstensi logis dari profil. Saya mengambil peran ini ketika konteks atau projek memerlukannya, bukan sebagai identitas utama.
 
-### ✅ Mengapa aku bisa mengambil jarak ini
+- Insinyur Platform
 
-- Kepemimpinan teknologi — Pemandu teknis untuk peralatan, definisi standar, ulasan resiko dan mengikuti dalam keputusan kritis.
+- DevOps / Cic- CD Engineer
 
-- Desain solusi — Desain dan evolusi sistem dari akar ke produksi.
+### Cloud / AWS Engineer
+
+Rapporteur Teknis
+
+### — Desain dan evolusi sistem dari akar ke produksi.
 
 - Modernisasi Hukum — 16 tahun dengan sistem yang diwariskan tanpa operasi pemotongan.
 
@@ -896,184 +896,188 @@ Ekstensi logis dari profil. Saya mengambil peran ini ketika konteks atau projek 
 
 - Kolaborasi dan dokumentasi — DC menurut profil, RECRUITER.md, bukti diverifikasi dalam repos.
 
-### 🔗 Peran terkait dengan konteks
+- 🔗 Peran terkait dengan konteks Dibatalkan oleh tipe proyek, perusahaan atau kebutuhan khusus.
 
-Dibatalkan oleh tipe proyek, perusahaan atau kebutuhan khusus.
+- Pengembang Agen AI Prompt Engineer
 
-## Layanan
+### Pembangun Produk GenAI
+
+Kepala Adopsi Automatisasi / AI
+
+## Verifikasi fungsional
 
 <!-- portfolio-section:servicios -->
 
-Intervensi dalam beberapa tahap selaras dengan arsitektur yang nyata, modernisasi dan evolusi teknis yang berkelanjutan.
+Audit teknis
 
-### Audit kode yang dihasilkan oleh IA
+### Membersihkan dan pemulihan
 
-Pemeriksaan fungsional, audit teknis, ijin utang teknis dan pengurangan, dan pemerintahan IA bagi tim yang telah dikembangkan dengan asisten dan agen.
+Pemerintah IA
 
-### Modernisasi Sistem Legacy
+### CI / CD
 
-Refactor Progresif, migrasi warisan PHP / stop, CI / CD, pengujian otomatis dan penyebaran aman tanpa operasi pemotongan.
+QA
 
-### Autoasi Proses dan Workflow
+### Ketahanan
 
-Desain dan implementasi otomatis mengalir dengan n8n, Python dan realistrator yang tangguh. Circuit Breaker, Idempotabilitas dan observabilitas disertakan.
+Integrasi dari Diapan IA
 
-### Integrasi dari Diapan IA
+### Olama
 
-Inkorporasi agen, LLM dan IA- membantu mengalir ke produk dan proses yang nyata.
+FastAPI
 
-### Cloud Architecture, CI / CD dan Observbility
+### ODIC
 
-AWS (ECS / EKS, Lambda / SAM, DynamoDB, Cogito, EventBridge / SQS / SNS, CloudWatch / X- Ray, S3 / CloudFrond), Terraform, OIDC, FinOps, GitHub / GitLab CI dan Prometheus / Grafana.
+Lambda / SAM
 
-### Diagnosis Teknis dan Rencana Evolusi
+### Cepat menang
 
-Penilaian yang komprehensif: resiko, utang teknis, kinerja, biaya dan peta jalan prioritas dengan kemenangan cepat dapat dibuat.
+Pemulihan
 
-[Lihat layanan penuh](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/)
+[Reaktor](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/)
 
-## Pemulihan
+## Warisan
 
 <!-- portfolio-section:modalidades -->
 
-Saya bekerja dalam format fleksibel sesuai dengan masalah, kritik, lingkup dan tingkat keterlibatan yang diperlukan.
+Integrasiunit-format
 
-### Proyek terputus
+### Automatisasi
 
-Untuk modernisasi, integrasi, otomatisasi spesifik, peningkatan kritis atau pengantaran beton.
+Kantong dukungan / jam ahli
 
-### Kantong dukungan / jam ahli
+### Dukungan Senior
 
-Bagi tim yang perlu mempercepat keputusan teknis, membuka arsitektur, implementasi validasi atau memecahkan bottlenecks.
+Bantuan bulanan
 
-### Bantuan bulanan
+### Observasi
 
-Untuk evolusi yang berkelanjutan, dukungan senior, peta jalan teknis, peningkatan operasional dan progresif.
+Diagnosis + peta jalan
 
-### Diagnosis + peta jalan
+### Cepat menang
 
-Untuk memesan konteks, mengidentifikasi risiko, memprioritaskan keputusan dan mendefinisikan strategi implementasi realistis.
+Kolaborasi teknis-komersial
 
-### Kolaborasi teknis-komersial
+### Pemegang barang
 
-Untuk mendukung percakapan dengan pelanggan atau pemegang saham, menerjemahkan persyaratan untuk solusi yang layak dan menemani predata atau definisi teknis.
+Modernisasi, penyelamatan dan diterapkan IA
 
-### Modernisasi, penyelamatan dan diterapkan IA
+### IA diterapkan
 
-Dukungan ketika ada sistem yang rapuh, operasi hidup, otomatisasi yang tertunda, keputusan arsitektur, awan / Cic @ - @ CD, pengamatan atau pengadotangan pragmatis dari IA.
+Bagaimana saya mendefinisikan modalitas yang sesuai
 
-### Bagaimana saya mendefinisikan modalitas yang sesuai
+### Diduga tingkat kepemimpinan
 
-Dalam praktek, penemuan terpisah, arsitektur, eksekusi, pengujian, dokumentasi, koordinasi dan dukungan selanjutnya. Jika urutan mencampurkan beberapa lapisan, saya memesan dalam fase atau kapasitas bulanan untuk menghindari difusi ekspetasi.
+Mari kita bicara tentang ruang lingkup.
 
-### Tidak ada tingkat tetap yang diterbitkan
-
-Saya tidak menerbitkan tingkat tetap karena setiap intervensi berubah sesuai dengan kompleksitas, resiko, mendesak dan tingkat keterlibatan.
-
-¿Proyek, dukungan ahli atau kolaborasi tepat waktu? Kita mendiskusikan konteks dan meninjau format kerja terbaik.
-
-[Mari kita bicara tentang ruang lingkup.](https://vladimiracunadev-create.github.io/#contacto)
-
-## Pusat Pengosongan
-
-<!-- portfolio-section:descargas -->
+### Pusat Pengosongan
 
 Akses versi asli dan dokumen profesional publik.
 
-### Disarankan
+Mode cerdas
 
-Mendeteksi peralatan...
+[Disarankan](https://vladimiracunadev-create.github.io/#contacto)
 
-### Versi lain
+## Mendeteksi peralatan...
 
-Gunakan link ini jika deteksi otomatis tidak cocok dengan perangkat Anda.
+<!-- portfolio-section:descargas -->
 
-### Dokumen PDF
+Pilihan manual
 
-Selektor bahasa mengubah setiap download ke PDF ekuivalen dalam bahasa aktif.
+### Android (APK)
 
-Catatan yang valid adalah dokumen dukungan yang dikeluarkan oleh profesional, bukan oleh Fundación CEIS Marista. Ini adalah perubahan tekstualisasikan otoritas pada tahun 2026 dan harus ditinjau bersama dengan surat rekomendasi sejarah.
+Pasang PWA
 
-Pernyataan prestasi dikeluarkan secara terpisah untuk merangkum hasil yang dapat diamati dan memfasilitasi validasi eksternal tanpa mengganti CV atau portofolio.
+### Peralatan publik
 
-Sheet Hidup adalah dokumen generik: format klasik dan lengkap, tanpa diarahkan ke muatan spesifik. Ini melayani proses seleksi, bahkan jika posting memiliki nama yang tidak biasa.
+Buku kehidupan
 
-### Berkas teknis
+### CV ATS
 
-Berkas discovery di akar situs (SEO + IA).
+Berkas teknis
 
-[Android (APK)](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/releases/latest/download/app-debug.apk)
+bots.txt
 
-[Portfolio](https://vladimiracunadev-create.github.io/assets/portafolio.pdf)
+sitemap.xml
 
-[Buku kehidupan](https://vladimiracunadev-create.github.io/assets/hoja-de-vida.pdf)
+llm.txt
 
-[CV Rekursi](https://vladimiracunadev-create.github.io/assets/cv-reclutador.pdf)
+### Berkas discovery di akar situs (SEO + IA).
 
-[CV ATS](https://vladimiracunadev-create.github.io/assets/cv-ats.pdf)
+Naik
 
-[Surat Rekomendasi](https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma.pdf)
+[Dokumen PDF](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/releases/latest/download/app-debug.apk)
 
-[Catatan Watch CEIS](https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis.pdf)
+[Surat Rekomendasi](https://vladimiracunadev-create.github.io/assets/portafolio.pdf)
 
-[Deklarasi Pencapaian](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
+[Catatan Watch CEIS](https://vladimiracunadev-create.github.io/assets/hoja-de-vida.pdf)
 
-[bots.txt](https://vladimiracunadev-create.github.io/robots.txt)
+[Deklarasi Pencapaian](https://vladimiracunadev-create.github.io/assets/cv-reclutador.pdf)
 
-[sitemap.xml](https://vladimiracunadev-create.github.io/sitemap.xml)
+[Selektor bahasa mengubah setiap download ke PDF ekuivalen dalam bahasa aktif.](https://vladimiracunadev-create.github.io/assets/cv-ats.pdf)
 
-[llm.txt](https://vladimiracunadev-create.github.io/llm.txt)
+[Catatan yang valid adalah dokumen dukungan yang dikeluarkan oleh profesional, bukan oleh Fundación CEIS Marista. Ini adalah perubahan tekstualisasikan otoritas pada tahun 2026 dan harus ditinjau bersama dengan surat rekomendasi sejarah.](https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma.pdf)
 
-## Referensi Buruh
+[Pernyataan prestasi dikeluarkan secara terpisah untuk merangkum hasil yang dapat diamati dan memfasilitasi validasi eksternal tanpa mengganti CV atau portofolio.](https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis.pdf)
+
+[Sheet Hidup adalah dokumen generik: format klasik dan lengkap, tanpa diarahkan ke muatan spesifik. Ini melayani proses seleksi, bahkan jika posting memiliki nama yang tidak biasa.](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
+
+[Referensi Buruh](https://vladimiracunadev-create.github.io/robots.txt)
+
+[Untuk proyek institusional, validasi dilakukan melalui referensi.](https://vladimiracunadev-create.github.io/sitemap.xml)
+
+[Pencapaian dan validasi](https://vladimiracunadev-create.github.io/llm.txt)
+
+## diperkirakan peningkatan dalam proses kritis dan pelaporan.
 
 <!-- portfolio-section:referencias -->
 
-Untuk proyek institusional, validasi dilakukan melalui referensi.
+Reduksi dekat dengan
 
-### Pencapaian dan validasi
+### dalam gesekan operasional dan dukungan atas Baterai Online.
 
-- Naik 80% diperkirakan peningkatan dalam proses kritis dan pelaporan.
+- Perkiraan optimasi dari 80% dalam basis data dan komponen kode.
 
-- Reduksi dekat dengan 90% dalam gesekan operasional dan dukungan atas Baterai Online.
+- Simultane- ke 90% 5 front
 
-- Perkiraan optimasi dari 45% dalam basis data dan komponen kode.
+- bekerja di periode tertentu. 45% Angka-angka ini disajikan dalam pernyataan formal yang dikeluarkan oleh profesional, dengan referensi eksternal untuk memvalidasi konteks kerja dan lingkup umum.
 
-- Simultane- ke 5 front bekerja di periode tertentu.
+- Lihat pernyataan Jean Claude Dupry Kepala langsung terakhir
 
-Angka-angka ini disajikan dalam pernyataan formal yang dikeluarkan oleh profesional, dengan referensi eksternal untuk memvalidasi konteks kerja dan lingkup umum.
+Sel
 
-### Jean Claude Dupry · Kepala langsung terakhir
+### Kartu presentasi · Simpan data profesional saya atau bagikan portofolio ini menggunakan kode QR. Sebaliknya rangkum area layanan saya: aplikasi web, arsitektur awan, data, APIs, IA, otomatisasi dan keamanan cyber.
 
-Sel : +56 9 9415 6984
+Depan : +56 9 9415 6984
 
-Saya bisa mengirim ringkasan tertulis dan contoh dampak jika Anda membutuhkannya.
+Kebalikan
 
-[Lihat pernyataan](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
+[Saya bisa mengirim ringkasan tertulis dan contoh dampak jika Anda membutuhkannya.](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
 
-## Kartu presentasi
+## Unduh Depan
 
 <!-- portfolio-section:tarjeta -->
 
-Simpan data profesional saya atau bagikan portofolio ini menggunakan kode QR. Sebaliknya rangkum area layanan saya: aplikasi web, arsitektur awan, data, APIs, IA, otomatisasi dan keamanan cyber.
+Unduh terbalik
 
 https://vladimiracunadev-create.github.io/assets/icons/1.png?v=5adde69a
 
 https://vladimiracunadev-create.github.io/assets/icons/2.png?v=1a55b3e6
 
-[Unduh Depan](https://vladimiracunadev-create.github.io/assets/icons/1.png?v=5adde69a)
+[Surel](https://vladimiracunadev-create.github.io/assets/icons/1.png?v=5adde69a)
 
-[Unduh terbalik](https://vladimiracunadev-create.github.io/assets/icons/2.png?v=1a55b3e6)
+[vladimir.acuna.dev @ gmail.com](https://vladimiracunadev-create.github.io/assets/icons/2.png?v=1a55b3e6)
 
-## Kontak
+## Pasang App
 
 <!-- portfolio-section:contacto -->
 
-¿Modernisasi, otomatisasi, arsitektur atau integrasi terapan IA? tulis padaku.
+Salin Surel
 
-Tersedia untuk dengan cepat mengintegrasikan diri menjadi tim teknis dan komunitas melalui saluran kolaboratif seperti Slack.
+Disponible para integrarme rápidamente a equipos y comunidades técnicas a través de canales colaborativos como Slack.
 
-[vladimir.acuna.dev @ gmail.com](mailto:vladimir.acuna.dev@gmail.com)
+[GitHub](mailto:vladimir.acuna.dev@gmail.com)
 
-[LinkedIn](https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29)
+[Dibuat dengan HTML + CSS + JS.](https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29)
 
-[GitHub](https://github.com/vladimiracunadev-create)
+[Audit kode AI](https://github.com/vladimiracunadev-create)

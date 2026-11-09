@@ -162,6 +162,7 @@ PROJECTS_URLS = {
     "software": "https://github.com/vladimiracunadev-create/software-engineering-learning-suite",
     "lifelong": "https://github.com/vladimiracunadev-create/lifelong-learning-ecosystem",
     "modern_software": "https://github.com/vladimiracunadev-create/modern-software-engineering-program",
+    "astronomy": "https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program",
 }
 
 PREVIOUS_CAREER = {
@@ -336,6 +337,7 @@ def get_content(lang):
                 "Software Engineering Learning Suite — software-engineering-learning-suite · 480 clases · 360 borradores públicos con práctica, fuentes y navegación · Python + Pages ·",
                 "Lifelong Learning Ecosystem — Brújula curricular federada para aprender durante toda la vida · 30 recorridos reales en 6 áreas · programas, laboratorios y apps conectados con mapas visuales, evidencia verificable y un portal offline accesible",
                 "Modern Software Engineering Program — Programa de Ingeniería de Software Moderna · 480 clases, 40 partes y 8 etapas · aprendizaje conectado, práctica, evidencia y fuentes · fundamentos → producto → arquitectura → DevOps → IA · Python + Pages ·",
+                "Astronomy Astrophysics Space Sciences Aerospace Engineering Learning Program — Programa integral en español · 2.077 clases planificadas · 12 áreas · 133 bloques · 24 rutas profesionales · astronomía, astrofísica, ciencias espaciales e ingeniería aeroespacial · estándar pedagógico, trazabilidad y accesibilidad · licencias diferenciadas",
 ],
             "projects_ats": [
                 ("Cloud/AWS y FinOps — GitHub (demos y documentación):", "aws_gh"),
@@ -402,6 +404,7 @@ def get_content(lang):
                 ("Software Engineering Learning Suite — software-engineering-learning-suite · 480 clases · 360 borradores públicos con práctica, fuentes y navegación · Python + Pages ·:", "software"),
                 ("Lifelong Learning Ecosystem — Brújula curricular federada para aprender durante toda la vida · 30 recorridos reales en 6 áreas · programas, laboratorios y apps conectados con mapas visuales, evidencia verificable y un portal offline accesible:", "lifelong"),
                 ("Modern Software Engineering Program — Programa de Ingeniería de Software Moderna · 480 clases, 40 partes y 8 etapas · aprendizaje conectado, práctica, evidencia y fuentes · fundamentos → producto → arquitectura → DevOps → IA · Python + Pages ·:", "modern_software"),
+                ("Astronomy Astrophysics Space Sciences Aerospace Engineering Learning Program — Programa integral en español · 2.077 clases planificadas · 12 áreas · 133 bloques · 24 rutas profesionales · astronomía, astrofísica, ciencias espaciales e ingeniería aeroespacial · estándar pedagógico, trazabilidad y accesibilidad · licencias diferenciadas:", "astronomy"),
 ],
             "training": [
                 "Formaci\u00f3n continua en automatizaci\u00f3n pr\u00e1ctica, ML/NLP y herramientas de desarrollo.",
@@ -530,6 +533,7 @@ def get_content(lang):
                 "Software Engineering Learning Suite — software-engineering-learning-suite · 480 clases · 360 borradores públicos con práctica, fuentes y navegación · Python + Pages ·",
                 "Lifelong Learning Ecosystem — Brújula curricular federada para aprender durante toda la vida · 30 recorridos reales en 6 áreas · programas, laboratorios y apps conectados con mapas visuales, evidencia verificable y un portal offline accesible",
                 "Modern Software Engineering Program — Programa de Ingeniería de Software Moderna · 480 clases, 40 partes y 8 etapas · aprendizaje conectado, práctica, evidencia y fuentes · fundamentos → producto → arquitectura → DevOps → IA · Python + Pages ·",
+                "Astronomy Astrophysics Space Sciences Aerospace Engineering Learning Program — Programa integral en español · 2.077 clases planificadas · 12 áreas · 133 bloques · 24 rutas profesionales · astronomía, astrofísica, ciencias espaciales e ingeniería aeroespacial · estándar pedagógico, trazabilidad y accesibilidad · licencias diferenciadas",
 ],
             "projects_ats": [
                 ("Cloud/AWS and FinOps — GitHub (demos and documentation):", "aws_gh"),
@@ -596,6 +600,7 @@ def get_content(lang):
                 ("Software Engineering Learning Suite — software-engineering-learning-suite · 480 clases · 360 borradores públicos con práctica, fuentes y navegación · Python + Pages ·:", "software"),
                 ("Lifelong Learning Ecosystem — Brújula curricular federada para aprender durante toda la vida · 30 recorridos reales en 6 áreas · programas, laboratorios y apps conectados con mapas visuales, evidencia verificable y un portal offline accesible:", "lifelong"),
                 ("Modern Software Engineering Program — Programa de Ingeniería de Software Moderna · 480 clases, 40 partes y 8 etapas · aprendizaje conectado, práctica, evidencia y fuentes · fundamentos → producto → arquitectura → DevOps → IA · Python + Pages ·:", "modern_software"),
+                ("Astronomy Astrophysics Space Sciences Aerospace Engineering Learning Program — Programa integral en español · 2.077 clases planificadas · 12 áreas · 133 bloques · 24 rutas profesionales · astronomía, astrofísica, ciencias espaciales e ingeniería aeroespacial · estándar pedagógico, trazabilidad y accesibilidad · licencias diferenciadas:", "astronomy"),
 ],
             "training": [
                 "Continuous training in practical automation, ML/NLP, and development tools.",
@@ -724,6 +729,7 @@ def get_content(lang):
                 "Software Engineering Learning Suite — software-engineering-learning-suite · 480 clases · 360 borradores públicos con práctica, fuentes y navegación · Python + Pages ·",
                 "Lifelong Learning Ecosystem — Brújula curricular federada para aprender durante toda la vida · 30 recorridos reales en 6 áreas · programas, laboratorios y apps conectados con mapas visuales, evidencia verificable y un portal offline accesible",
                 "Modern Software Engineering Program — Programa de Ingeniería de Software Moderna · 480 clases, 40 partes y 8 etapas · aprendizaje conectado, práctica, evidencia y fuentes · fundamentos → producto → arquitectura → DevOps → IA · Python + Pages ·",
+                "Astronomy Astrophysics Space Sciences Aerospace Engineering Learning Program — Programa integral en español · 2.077 clases planificadas · 12 áreas · 133 bloques · 24 rutas profesionales · astronomía, astrofísica, ciencias espaciales e ingeniería aeroespacial · estándar pedagógico, trazabilidad y accesibilidad · licencias diferenciadas",
 ],
             "projects_ats": [
                 ("Cloud/AWS e FinOps — GitHub (demos e documentação):", "aws_gh"),
@@ -790,6 +796,7 @@ def get_content(lang):
                 ("Software Engineering Learning Suite — software-engineering-learning-suite · 480 clases · 360 borradores públicos con práctica, fuentes y navegación · Python + Pages ·:", "software"),
                 ("Lifelong Learning Ecosystem — Brújula curricular federada para aprender durante toda la vida · 30 recorridos reales en 6 áreas · programas, laboratorios y apps conectados con mapas visuales, evidencia verificable y un portal offline accesible:", "lifelong"),
                 ("Modern Software Engineering Program — Programa de Ingeniería de Software Moderna · 480 clases, 40 partes y 8 etapas · aprendizaje conectado, práctica, evidencia y fuentes · fundamentos → producto → arquitectura → DevOps → IA · Python + Pages ·:", "modern_software"),
+                ("Astronomy Astrophysics Space Sciences Aerospace Engineering Learning Program — Programa integral en español · 2.077 clases planificadas · 12 áreas · 133 bloques · 24 rutas profesionales · astronomía, astrofísica, ciencias espaciales e ingeniería aeroespacial · estándar pedagógico, trazabilidad y accesibilidad · licencias diferenciadas:", "astronomy"),
 ],
             "training": [
                 "Forma\u00e7\u00e3o cont\u00ednua em automa\u00e7\u00e3o pr\u00e1tica, ML/NLP e ferramentas de desenvolvimento.",
@@ -918,6 +925,7 @@ def get_content(lang):
                 "Software Engineering Learning Suite — software-engineering-learning-suite · 480 clases · 360 borradores públicos con práctica, fuentes y navegación · Python + Pages ·",
                 "Lifelong Learning Ecosystem — Brújula curricular federada para aprender durante toda la vida · 30 recorridos reales en 6 áreas · programas, laboratorios y apps conectados con mapas visuales, evidencia verificable y un portal offline accesible",
                 "Modern Software Engineering Program — Programa de Ingeniería de Software Moderna · 480 clases, 40 partes y 8 etapas · aprendizaje conectado, práctica, evidencia y fuentes · fundamentos → producto → arquitectura → DevOps → IA · Python + Pages ·",
+                "Astronomy Astrophysics Space Sciences Aerospace Engineering Learning Program — Programa integral en español · 2.077 clases planificadas · 12 áreas · 133 bloques · 24 rutas profesionales · astronomía, astrofísica, ciencias espaciales e ingeniería aeroespacial · estándar pedagógico, trazabilidad y accesibilidad · licencias diferenciadas",
 ],
             "projects_ats": [
                 ("Cloud/AWS e FinOps — GitHub (demo e documentazione):", "aws_gh"),
@@ -984,6 +992,7 @@ def get_content(lang):
                 ("Software Engineering Learning Suite — software-engineering-learning-suite · 480 clases · 360 borradores públicos con práctica, fuentes y navegación · Python + Pages ·:", "software"),
                 ("Lifelong Learning Ecosystem — Brújula curricular federada para aprender durante toda la vida · 30 recorridos reales en 6 áreas · programas, laboratorios y apps conectados con mapas visuales, evidencia verificable y un portal offline accesible:", "lifelong"),
                 ("Modern Software Engineering Program — Programa de Ingeniería de Software Moderna · 480 clases, 40 partes y 8 etapas · aprendizaje conectado, práctica, evidencia y fuentes · fundamentos → producto → arquitectura → DevOps → IA · Python + Pages ·:", "modern_software"),
+                ("Astronomy Astrophysics Space Sciences Aerospace Engineering Learning Program — Programa integral en español · 2.077 clases planificadas · 12 áreas · 133 bloques · 24 rutas profesionales · astronomía, astrofísica, ciencias espaciales e ingeniería aeroespacial · estándar pedagógico, trazabilidad y accesibilidad · licencias diferenciadas:", "astronomy"),
 ],
             "training": [
                 "Formazione continua in automazione pratica, ML/NLP e strumenti di sviluppo.",
@@ -1112,6 +1121,7 @@ def get_content(lang):
                 "Software Engineering Learning Suite — software-engineering-learning-suite · 480 clases · 360 borradores públicos con práctica, fuentes y navegación · Python + Pages ·",
                 "Lifelong Learning Ecosystem — Brújula curricular federada para aprender durante toda la vida · 30 recorridos reales en 6 áreas · programas, laboratorios y apps conectados con mapas visuales, evidencia verificable y un portal offline accesible",
                 "Modern Software Engineering Program — Programa de Ingeniería de Software Moderna · 480 clases, 40 partes y 8 etapas · aprendizaje conectado, práctica, evidencia y fuentes · fundamentos → producto → arquitectura → DevOps → IA · Python + Pages ·",
+                "Astronomy Astrophysics Space Sciences Aerospace Engineering Learning Program — Programa integral en español · 2.077 clases planificadas · 12 áreas · 133 bloques · 24 rutas profesionales · astronomía, astrofísica, ciencias espaciales e ingeniería aeroespacial · estándar pedagógico, trazabilidad y accesibilidad · licencias diferenciadas",
 ],
             "projects_ats": [
                 ("Cloud/AWS et FinOps — GitHub (démos et documentation) :", "aws_gh"),
@@ -1178,6 +1188,7 @@ def get_content(lang):
                 ("Software Engineering Learning Suite — software-engineering-learning-suite · 480 clases · 360 borradores públicos con práctica, fuentes y navegación · Python + Pages · :", "software"),
                 ("Lifelong Learning Ecosystem — Brújula curricular federada para aprender durante toda la vida · 30 recorridos reales en 6 áreas · programas, laboratorios y apps conectados con mapas visuales, evidencia verificable y un portal offline accesible :", "lifelong"),
                 ("Modern Software Engineering Program — Programa de Ingeniería de Software Moderna · 480 clases, 40 partes y 8 etapas · aprendizaje conectado, práctica, evidencia y fuentes · fundamentos → producto → arquitectura → DevOps → IA · Python + Pages · :", "modern_software"),
+                ("Astronomy Astrophysics Space Sciences Aerospace Engineering Learning Program — Programa integral en español · 2.077 clases planificadas · 12 áreas · 133 bloques · 24 rutas profesionales · astronomía, astrofísica, ciencias espaciales e ingeniería aeroespacial · estándar pedagógico, trazabilidad y accesibilidad · licencias diferenciadas :", "astronomy"),
 ],
             "training": [
                 "Formation continue en automatisation pratique, ML/NLP et outils de d\u00e9veloppement.",
@@ -1306,6 +1317,7 @@ def get_content(lang):
                 "Software Engineering Learning Suite — software-engineering-learning-suite · 480 clases · 360 borradores públicos con práctica, fuentes y navegación · Python + Pages ·",
                 "Lifelong Learning Ecosystem — Brújula curricular federada para aprender durante toda la vida · 30 recorridos reales en 6 áreas · programas, laboratorios y apps conectados con mapas visuales, evidencia verificable y un portal offline accesible",
                 "Modern Software Engineering Program — Programa de Ingeniería de Software Moderna · 480 clases, 40 partes y 8 etapas · aprendizaje conectado, práctica, evidencia y fuentes · fundamentos → producto → arquitectura → DevOps → IA · Python + Pages ·",
+                "Astronomy Astrophysics Space Sciences Aerospace Engineering Learning Program — Programa integral en español · 2.077 clases planificadas · 12 áreas · 133 bloques · 24 rutas profesionales · astronomía, astrofísica, ciencias espaciales e ingeniería aeroespacial · estándar pedagógico, trazabilidad y accesibilidad · licencias diferenciadas",
 ],
             "projects_ats": [
                 ("Cloud/AWS和FinOps — GitHub（演示和文档）：", "aws_gh"),
@@ -1372,6 +1384,7 @@ def get_content(lang):
                 ("Software Engineering Learning Suite — software-engineering-learning-suite · 480 clases · 360 borradores públicos con práctica, fuentes y navegación · Python + Pages ·：", "software"),
                 ("Lifelong Learning Ecosystem — Brújula curricular federada para aprender durante toda la vida · 30 recorridos reales en 6 áreas · programas, laboratorios y apps conectados con mapas visuales, evidencia verificable y un portal offline accesible：", "lifelong"),
                 ("Modern Software Engineering Program — Programa de Ingeniería de Software Moderna · 480 clases, 40 partes y 8 etapas · aprendizaje conectado, práctica, evidencia y fuentes · fundamentos → producto → arquitectura → DevOps → IA · Python + Pages ·：", "modern_software"),
+                ("Astronomy Astrophysics Space Sciences Aerospace Engineering Learning Program — Programa integral en español · 2.077 clases planificadas · 12 áreas · 133 bloques · 24 rutas profesionales · astronomía, astrofísica, ciencias espaciales e ingeniería aeroespacial · estándar pedagógico, trazabilidad y accesibilidad · licencias diferenciadas：", "astronomy"),
 ],
             "training": [
                 "\u6301\u7eed\u5b66\u4e60\u5b9e\u7528\u81ea\u52a8\u5316\u3001ML/NLP\u548c\u5f00\u53d1\u5de5\u5177\u3002",

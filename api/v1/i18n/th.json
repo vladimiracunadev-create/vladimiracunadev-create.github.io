@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-26",
+    "generated_at": "2026-11-09",
     "language": "th",
     "language_name": "Thai",
     "native_name": "ไทย",
@@ -62,61 +62,61 @@
     },
     {
       "id": "demos",
-      "title": "ไปถ่ายทอดสดกัน",
+      "title": "ดูเว็บไซต์",
       "min_level": 1,
       "freelance_hidden": false
     },
     {
       "id": "experiencia",
-      "title": "ประสบการณ์",
+      "title": "การปรับสภาพสิ่งแวดล้อมแบบมาตรฐาน Doger / AWS Codiography, อัตโนมัติ, observable และต้นแบบร่วมกับ IA ท้องถิ่น",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "flujo-ia",
-      "title": "การ ไหล เวียนของการพัฒนาโดย IA",
+      "title": "(2023)",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "roles",
-      "title": "ขอบเขตงานจริง",
+      "title": "สถาปัตยกรรมซอฟต์แวร์",
       "min_level": 1,
       "freelance_hidden": true
     },
     {
       "id": "servicios",
-      "title": "บริการ",
+      "title": "การตรวจสอบการทํางาน",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "modalidades",
-      "title": "ความสามารถในการร่วมงานอิสระ",
+      "title": "มรดก",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "descargas",
-      "title": "ยกเลิกการชาร์จ",
+      "title": "กําลังตรวจจับอุปกรณ์...",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "referencias",
-      "title": "อ้างอิงจาก Lobour",
+      "title": "ประมาณ กัน ว่า มี การ ปรับ ปรุง กระบวนการ ฉุกเฉิน และ รายงาน.",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "tarjeta",
-      "title": "การนําเสนอ",
+      "title": "ดาวน์โหลดหน้า",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "contacto",
-      "title": "ติดต่อ",
+      "title": "ติดตั้ง แอป",
       "min_level": 0,
       "freelance_hidden": false
     }

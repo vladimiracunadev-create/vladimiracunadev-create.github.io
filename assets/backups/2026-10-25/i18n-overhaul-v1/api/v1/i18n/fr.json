@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "generated_at": "2026-10-16",
+    "language": "fr",
+    "language_name": "French",
+    "native_name": "Français",
+    "direction": "ltr",
+    "source": "https://github.com/vladimiracunadev-create/vladimiracunadev-create/blob/main/README.fr.md"
+  },
+  "profile": {
+    "name": "Vladimir Acuña",
+    "title": "Architecte de Solutions · Senior Full-Stack · Transformation Numérique · Gestion et Opérations",
+    "summary": "- 🔁 Démos reproductibles — cloner, exécuter, valider. - 🧰 Outillage standardisé — Makefiles, Hub CLI, doctor et smoke par dépôt. - 🛡️ Défense en profondeur — secret scanning, politiques et pratiques interdites explicites. - 📈 Observabilité — /health, /ready, /metrics, dashboards et traçabilité. - 📚 Documentation par audience — recruteur, débutant, DevOps ou sécurité selon le dépôt. - 📦 Distribution comme produit — releases téléchargeables, checksums et preuves de build ; signatures commerciales/store indiquées comme en cours quand applicable. - 🌍 Internationalisation — portfolio en 22 langues (ES · EN · PT · IT · FR · ZH · ZH-TW · JA · KO · TR · RU · VI · TH · DE · UK · PL · AR · FA · ID · NL · HI · EL). - 🧭 Honnêteté technique — chaque cas marqué OPÉRATIONNEL, DOCUMENTÉ/SCAFFOLD ou PLANIFIÉ.",
+    "website": "https://vladimiracunadev-create.github.io/i18n/fr/",
+    "github": "https://github.com/vladimiracunadev-create",
+    "gitlab": "https://gitlab.com/vladimir.acuna.dev-group"
+  },
+  "sections": [
+    "🎯 Ce Que Vous Trouverez Ici",
+    "✅ État Vérifiable",
+    "🗺️ L’Écosystème En Un Coup D’Œil",
+    "📦 Produits Avec Distribution Réelle",
+    "🧪 Laboratoires D’Ingénierie",
+    "🤖 IA Appliquée",
+    "📚 Cursus Techniques Complets",
+    "🔬 Calcul Scientifique",
+    "⚡ Si Vous Avez 10 Minutes Pour M’Évaluer",
+    "🧠 Standards Que J’Applique Dans Tous Les Dépôts",
+    "✅ Périmètre Professionnel",
+    "🧭 Gestion, Administration et Opportunités Professionnelles sans Programmation",
+    "🤖 Flux De Développement Assisté Par IA",
+    "📌 Disponibilité",
+    "📬 Contact"
+  ],
+  "artifacts": {
+    "portfolio": "/assets/portafolio-french.pdf",
+    "resume": "/assets/hoja-de-vida-french.pdf",
+    "recruiter": "/assets/cv-reclutador-french.pdf",
+    "ats": "/assets/cv-ats-french.pdf",
+    "achievements": "/assets/declaracion-logros-validacion-french.pdf",
+    "recommendation": "/assets/carta-recomendacion_sin_firma-french.pdf",
+    "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-french.pdf"
+  }
+}

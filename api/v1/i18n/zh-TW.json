@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-26",
+    "generated_at": "2026-11-09",
     "language": "zh-TW",
     "language_name": "Traditional Chinese",
     "native_name": "繁體中文",
@@ -62,61 +62,61 @@
     },
     {
       "id": "demos",
-      "title": "現場演示",
+      "title": "請參閱網站",
       "min_level": 1,
       "freelance_hidden": false
     },
     {
       "id": "experiencia",
-      "title": "經驗",
+      "title": "環境標準化、Docker/AWS 實驗室、自動化、可觀察性和本地人工智慧原型設計。",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "flujo-ia",
-      "title": "AI輔助開發流程",
+      "title": "（自 2023 年起）",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "roles",
-      "title": "實際專業範圍",
+      "title": "軟體架構師",
       "min_level": 1,
       "freelance_hidden": true
     },
     {
       "id": "servicios",
-      "title": "服務",
+      "title": "功能驗證",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "modalidades",
-      "title": "自由業·協作方式",
+      "title": "遺產",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "descargas",
-      "title": "下載中心",
+      "title": "檢測設備...",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "referencias",
-      "title": "工作參考",
+      "title": "關鍵流程和報告產生的估計改進。",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "tarjeta",
-      "title": "名片",
+      "title": "下載前面",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "contacto",
-      "title": "聯絡方式",
+      "title": "安裝應用程式",
       "min_level": 0,
       "freelance_hidden": false
     }

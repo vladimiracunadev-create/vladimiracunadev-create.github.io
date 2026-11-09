@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "generated_at": "2026-10-16",
+    "language": "hi",
+    "language_name": "Hindi",
+    "native_name": "हिन्दी",
+    "direction": "ltr",
+    "source": "https://github.com/vladimiracunadev-create/vladimiracunadev-create/blob/main/README.hi.md"
+  },
+  "profile": {
+    "name": "Vladimir Acuña",
+    "title": "समाधान वास्तुकार·वरिष्ठ पूर्ण-स्टैक·डिजिटल रूपांतरण·प्रबंधन और संचालन",
+    "summary": "- 🔁 Reproducible demos— क्लोन, रन, मान्य। - 🧰 मानकीकृत टूलिंग- मेकफ़ाइल्स, हब सीएलआई,doctor, औरsmokeप्रति भंडार - 🛡️ गहराई में रक्षा- गुप्त स्कैनिंग, नीतियों और स्पष्ट रूप से निषिद्ध प्रथाओं। - 📈 अवलोकन — /health, /ready, /metricsडैशबोर्ड, और अनुरेखणता। - 📚 ऑडियंस-एवेयर प्रलेखन- रिपोजिटरी के आधार पर भर्तीकर्ता, शुरुआतकर्ता, देवोप, या सुरक्षा। - 📦 उत्पाद वितरण- डाउनलोड करने योग्य रिलीज, चेकसम और सबूत का निर्माण; वाणिज्यिक / स्टोर हस्ताक्षर जब लागू किया लंबित घोषित किया गया। - 🌍 अंतर्राष्ट्रीयकरण22 भाषाओं में पोर्टफोलियो (ES)·एन·पीटी·आईटी·FR·ZH). - 🧭 तकनीकी ईमानदारी— प्रत्येक मामले में लेबलOPERATIONAL, DOCUMENTED/SCAFFOLDयाPLANNED.",
+    "website": "https://vladimiracunadev-create.github.io/i18n/hi/",
+    "github": "https://github.com/vladimiracunadev-create",
+    "gitlab": "https://gitlab.com/vladimir.acuna.dev-group"
+  },
+  "sections": [
+    "🎯आपको यहाँ क्या मिलेगा",
+    "✅सत्यापन योग्य स्थिति",
+    "🗺️पारिस्थितिकी तंत्र एक झलक में",
+    "📦उत्पाद रियल डिस्ट्रीब्यूशन के साथ",
+    "🧪इंजीनियरिंग प्रयोगशाला",
+    "🤖एअर इंडिया",
+    "📚तकनीकी पाठ्यक्रम",
+    "🔬वैज्ञानिक कम्प्यूटिंग",
+    "⚡यदि आपके पास 10 मिनट हैं तो मुझे खाली करने के लिए",
+    "🧠वे मानक जिन्हें मैं सभी रिपॉज़िटरी में लागू करता हूँ",
+    "✅व्यावसायिक क्षेत्र",
+    "🧭प्रबंधन, प्रशासन और गैर कोडिंग कैरियर के अवसर",
+    "🤖एआई-एसिस्टेड डेवलपमेंट फ्लो",
+    "📌उपलब्धता",
+    "📬संपर्क"
+  ],
+  "artifacts": {
+    "portfolio": "/assets/portafolio-hindi.pdf",
+    "resume": "/assets/hoja-de-vida-hindi.pdf",
+    "recruiter": "/assets/cv-reclutador-hindi.pdf",
+    "ats": "/assets/cv-ats-hindi.pdf",
+    "achievements": "/assets/declaracion-logros-validacion-hindi.pdf",
+    "recommendation": "/assets/carta-recomendacion_sin_firma-hindi.pdf",
+    "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-hindi.pdf"
+  }
+}

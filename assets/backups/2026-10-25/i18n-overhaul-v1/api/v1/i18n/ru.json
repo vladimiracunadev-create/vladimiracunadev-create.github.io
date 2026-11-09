@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "generated_at": "2026-10-16",
+    "language": "ru",
+    "language_name": "Russian",
+    "native_name": "Русский",
+    "direction": "ltr",
+    "source": "https://github.com/vladimiracunadev-create/vladimiracunadev-create/blob/main/README.ru.md"
+  },
+  "profile": {
+    "name": "Vladimir Acuña",
+    "title": "Архитектор решений·Старший Full-Stack·Цифровая трансформация·Управление и операции",
+    "summary": "- 🔁 Воспроизводимые демо- клонировать, бегать, проверять. - 🧰 Стандартизированный инструментарий- Макефилы, Хаб КЛИ,doctorиsmokeна репозиторий. - 🛡️ Оборона в глубину- секретное сканирование, политика и явно запрещенные практики. - 📈 наблюдаемость — /health, /ready, /metrics, приборные панели и прослеживаемость. - 📚 Документация, учитывающая аудиторию— рекрутер, новичок, DevOps или безопасность, в зависимости от хранилища. - 📦 Распределение продукции- загружаемые релизы, контрольные суммы и сбор доказательств; коммерческие / магазинные подписи объявлены незавершенными, когда это применимо. - 🌍 ИнтернационализацияПортфолио на 22 языках (ES)·EN·ПТ·Это·FR·ЗХ). - 🧭 Техническая честностьКаждый случай помеченOPERATIONAL, DOCUMENTED/SCAFFOLDилиPLANNED.",
+    "website": "https://vladimiracunadev-create.github.io/i18n/ru/",
+    "github": "https://github.com/vladimiracunadev-create",
+    "gitlab": "https://gitlab.com/vladimir.acuna.dev-group"
+  },
+  "sections": [
+    "🎯Что вы найдете здесь",
+    "✅Проверяемый статус",
+    "🗺️Экосистема с первого взгляда",
+    "📦Продукты с реальным распределением",
+    "🧪Инженерные лаборатории",
+    "🤖Прикладной ИИ",
+    "📚Полная техническая программа",
+    "🔬Научные вычисления",
+    "⚡Если у вас есть 10 минут, чтобы оценить меня",
+    "🧠Стандарты, которые я применяю в репозиториях",
+    "✅Профессиональный уровень",
+    "🧭Управление, администрирование и некодирование карьерных возможностей",
+    "🤖Поток развития с помощью ИИ",
+    "📌Доступность",
+    "📬Контакт"
+  ],
+  "artifacts": {
+    "portfolio": "/assets/portafolio-russian.pdf",
+    "resume": "/assets/hoja-de-vida-russian.pdf",
+    "recruiter": "/assets/cv-reclutador-russian.pdf",
+    "ats": "/assets/cv-ats-russian.pdf",
+    "achievements": "/assets/declaracion-logros-validacion-russian.pdf",
+    "recommendation": "/assets/carta-recomendacion_sin_firma-russian.pdf",
+    "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-russian.pdf"
+  }
+}

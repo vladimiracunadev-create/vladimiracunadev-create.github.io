@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-26",
+    "generated_at": "2026-11-09",
     "language": "tr",
     "language_name": "Turkish",
     "native_name": "Türkçe",
@@ -62,61 +62,61 @@
     },
     {
       "id": "demos",
-      "title": "Canlı demolar",
+      "title": "Siteye bakın",
       "min_level": 1,
       "freelance_hidden": false
     },
     {
       "id": "experiencia",
-      "title": "Deneyim",
+      "title": "Ortamların standardizasyonu, Docker/AWS laboratuvarları, otomasyon, gözlemlenebilirlik ve yerel yapay zeka ile prototip oluşturma.",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "flujo-ia",
-      "title": "Yapay zeka destekli geliştirme akışı",
+      "title": "(2023'ten beri)",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "roles",
-      "title": "Gerçek mesleki kapsam",
+      "title": "Yazılım Mimarı",
       "min_level": 1,
       "freelance_hidden": true
     },
     {
       "id": "servicios",
-      "title": "Hizmetler",
+      "title": "İşlevsel doğrulama",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "modalidades",
-      "title": "Serbest Çalışan · İşbirliği yöntemleri",
+      "title": "Eski",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "descargas",
-      "title": "İndirme Merkezi",
+      "title": "Ekipman algılanıyor...",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "referencias",
-      "title": "İş referansları",
+      "title": "kritik süreçlerde ve rapor oluşturmada tahmini iyileşme.",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "tarjeta",
-      "title": "Kartvizit",
+      "title": "Önden indir",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "contacto",
-      "title": "İletişim",
+      "title": "Uygulamayı Yükle",
       "min_level": 0,
       "freelance_hidden": false
     }

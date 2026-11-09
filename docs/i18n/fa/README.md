@@ -14,7 +14,7 @@
 
 رابط آماده برای زبان های متعدد , دیدگاه View دانلود فیلم Getlute / Normal / Deep / فریلنسر , موضوع موضوع نور / تاریکی و استقرار وب، PWA و APK .
 
-اطلاعات در مورد نمونه کارها به روز شده تا 2026-10-25, 13:28 (آمریکا / سانتیاگو
+اطلاعات در مورد نمونه کارها به روز شده تا 2026-11-09, 15:38 (آمریکا / سانتیاگو
 
 ### چه کسی حرفه ای است
 
@@ -494,11 +494,11 @@ LangGraph v4.15.0 · 25 / 25 backend عملیاتی ( 100٪ پوشش، 01-25 م�
 
 480 کلاس، 40 بخش و 8 مرحله · پایه محصول، معماری، امنیت، DevOps، SRE، SPEC، IA و سیستم های چندعاملی، که توسط مخزن اعلام شده است.
 
-### علم و آموزش
+### دیگران را ببینید
 
-### آزمایشگاه های ژنوم انسانی
+علم و آموزش
 
-تکامل و بازتولید پلت فرم علمی برای ژنتیک مولکولی و ژنومیک (v1.0.0): هسته ی TypeScript قابل راستی آزمایی (sequences، ترجمه، ORF، انواع، G-qudruplex)، قراردادهای علمی، FASTA / GF3 / خوانندگان، علمی، PWA Web و بازی آموزشی.
+### Repo (GitHub)
 
 ### دانلود بازی های Twilight Adventure
 
@@ -506,13 +506,15 @@ Mi Aventura con el Violín · App educativa para aprender violín desde los 10 a
 
 ⚡ چندین پروژه از این نمونه کارها با جریان کمک IA (کد کلود · ChatGPT Plus · ضد جاذبه) همراه با اعتبار فنی و جهت معماری توسعه یافته است.
 
-### بررسی های اخیر (car)
-
-این از API های عمومی GitHub و GitLab (که توسط به روز رسانی سفارش داده می شود) بارگذاری می شود.
-
-### فعالیت های اخیر (خود)
-
 ⬆ تعهدات · hs / MRs · انتشار - GitHub و GitLab در زمان واقعی.
+
+### بیایید زندگی کنیم.
+
+لینک های عمومی برای دیدن استقرار واقعی (در صورت لزوم)
+
+### وب سایت نمونه کارها · GitHub Pages
+
+نمونه کارها وب در 22 زبان مستقر در صفحات GitHub از طریق اقدامات GitHub. PWA می تواند نصب شود، Lightthouse 100، 154 PDF تولید شده توسط خط لوله و JSON i18n API.
 
 [مرجع](https://vladimiracunadev-create.github.io/#referencias)
 
@@ -704,19 +706,17 @@ Mi Aventura con el Violín · App educativa para aprender violín desde los 10 a
 
 [Repo (GitHub)](https://github.com/vladimiracunadev-create/modern-software-engineering-program)
 
+[آزمایشگاه های ژنوم انسانی](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program)
+
 [Repo (GitHub)](https://github.com/vladimiracunadev-create/human-genome-labs)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/violin-adventure)
+[بررسی های اخیر (car)](https://github.com/vladimiracunadev-create/violin-adventure)
 
-## بیایید زندگی کنیم.
+## سایت See site
 
 <!-- portfolio-section:demos -->
 
-لینک های عمومی برای دیدن استقرار واقعی (در صورت لزوم)
-
-### وب سایت نمونه کارها · GitHub Pages
-
-نمونه کارها وب در 22 زبان مستقر در صفحات GitHub از طریق اقدامات GitHub. PWA می تواند نصب شود، Lightthouse 100، 154 PDF تولید شده توسط خط لوله و JSON i18n API.
+GitHub
 
 ### AWS S3 + GitHub Actions
 
@@ -734,113 +734,113 @@ Glassmorphism PWA از GitLab از طریق OIDC و OAC (مورد L - FinOps) م
 
 یک “hub” محلی برای کشف آزمایشگاه ها با پشته ایده آل برای مصاحبه های فنی.
 
-[سایت See site](https://vladimiracunadev-create.github.io/)
+### 2025-Current
 
-[GitHub](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io)
+انتقال (کارگردان + نمونه کارها)
+
+[مشاهده نسخه آزمایشی](https://vladimiracunadev-create.github.io/)
+
+[GitHub Repo](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io)
 
 [مشاهده نسخه آزمایشی](https://mi-pagina-scrum-123.s3.us-east-2.amazonaws.com/index.html)
 
-[GitHub Repo](https://github.com/vladimiracunadev-create/proyectos-aws)
+[GitLab Repo](https://github.com/vladimiracunadev-create/proyectos-aws)
 
-[مشاهده نسخه آزمایشی](http://finops-vladimir-portfolio-case-l.s3-website.us-east-2.amazonaws.com)
+[تقاضای اصلی](http://finops-vladimir-portfolio-case-l.s3-website.us-east-2.amazonaws.com)
 
-[GitLab Repo](https://gitlab.com/vladimir.acuna.dev-group/vladimir.acuna.dev-group)
+[Demo dev](https://gitlab.com/vladimir.acuna.dev-group/vladimir.acuna.dev-group)
 
-[تقاضای اصلی](https://main.d3r1wuymolxagh.amplifyapp.com/)
+[تجربه](https://main.d3r1wuymolxagh.amplifyapp.com/)
 
-[Demo dev](https://dev.d20m8tc0banvg.amplifyapp.com/)
+[خلاصه (استفاده از دیدگاه “Deep” برای جزئیات).](https://dev.d20m8tc0banvg.amplifyapp.com/)
 
-## تجربه
+## استاندارد محیط ها، آزمایشگاه های Docker / AWS، اتوماسیون، قابلیت نظارت و نمونه های اولیه با IA محلی.
 
 <!-- portfolio-section:experiencia -->
 
-خلاصه (استفاده از دیدگاه “Deep” برای جزئیات).
+اسناد قابل بازیابی توسط پروفایل (recruiter، توسعه دهنده و موارد عملی)
 
-### انتقال (کارگردان + نمونه کارها)
+### 14 سال
 
-استاندارد محیط ها، آزمایشگاه های Docker / AWS، اتوماسیون، قابلیت نظارت و نمونه های اولیه با IA محلی.
+بنیاد CEIS Maristas
 
-- اسناد قابل بازیابی توسط پروفایل (recruiter، توسعه دهنده و موارد عملی)
+- معماری، توسعه و عملکرد سیستم عامل های وب آموزشی / روان سنجی. بهینه سازی SQL / عملکرد عملیاتی: تجزیه و تحلیل قانونی از حملات، مدیریت لاگین و تست با OWASP ZAP و JMeter.
 
-- تمرکز بر تمرین: شاخه ها، PR ها، CI / CD، صفحات و آزادها.
+- امنیت:
 
-### بنیاد CEIS Maristas
+### مدیریت و تجزیه و تحلیل ورود سرور و PHP محیط زیست: تمیز کردن کد و تشخیص فعالیت های غیر طبیعی از IP ناشناخته.
 
-معماری، توسعه و عملکرد سیستم عامل های وب آموزشی / روان سنجی. بهینه سازی SQL / عملکرد عملیاتی: تجزیه و تحلیل قانونی از حملات، مدیریت لاگین و تست با OWASP ZAP و JMeter.
+سیستم در سراسر
 
-- امنیت: تجزیه و تحلیل قانونی حملات سرور به بیش از یک بار، تعیین منشاء، بردار ورودی و دسترسی.
+- OWASP ZAP (شبیه سازی حملات) و تست های بار با
 
-- مدیریت و تجزیه و تحلیل ورود سرور و PHP محیط زیست: تمیز کردن کد و تشخیص فعالیت های غیر طبیعی از IP ناشناخته.
+- Apache JMeter
 
-- سیستم در سراسر OWASP ZAP (شبیه سازی حملات) و تست های بار با Apache JMeter .
+- آموزش در امنیت سایبری در طول سخنرانی همه گیر و پس از آن نهادی در امنیت سایبری. مشخصات هیبرید کسب و کار + IT آموزش فنی در مدیریت کسب و کار: فرآیندها، کارایی، بازاریابی و اندازه گیری. .
 
-- آموزش در امنیت سایبری در طول سخنرانی همه گیر و پس از آن نهادی در امنیت سایبری.
-
-### کسب و کار + IT
-
-آموزش فنی در مدیریت کسب و کار: فرآیندها، کارایی، بازاریابی و اندازه گیری.
-
-## جریان توسعه کمک شده توسط IA
-
-<!-- portfolio-section:flujo-ia -->
-
-من از ابزارهای IA به عنوان شتاب دهنده های فنی واقعی در پروژه ها استفاده می کنم، نه به عنوان جایگزین برای معیار خود.
+- جریان توسعه کمک شده توسط IA
 
 ### ابزار در استفاده فعال
 
-- ChatGPT Plus (از سال 2023 تا کنون · تجزیه و تحلیل، معماری، آن و مستندات
+ChatGPT Plus
 
-- Codex · تولید کد و بازسازی
+## (از سال 2023 تا کنون
 
-- کد کلود · بررسی معماری، پیاده سازی و مستندات فنی
+<!-- portfolio-section:flujo-ia -->
+
+تجزیه و تحلیل، معماری، آن و مستندات
+
+### Codex
+
+- تولید کد و بازسازی کد کلود · بررسی معماری، پیاده سازی و مستندات فنی
 
 - ضد جاذبه · شتاب توسعه و جریان اتوماسیون
 
 - VS Code / OpenCode · محیط های توسعه با کمک یکپارچه IA
 
-### جایی که IA را در جریان قرار می دهم
+- جایی که IA را در جریان قرار می دهم · تشخیص فنی و تجزیه و تحلیل معماری
 
-- تشخیص فنی و تجزیه و تحلیل معماری
+- طراحی راه حل و اعتبار تصمیم · پیاده سازی، بازسازی و تست
 
-- طراحی راه حل و اعتبار تصمیم
-
-- پیاده سازی، بازسازی و تست
-
-- مستندات فنی و پروفایل
+### مستندات فنی و پروفایل
 
 - شتاب پروژه و ارتقاء آن
 
-"من معیارهای فنی خود، اعتبار انسانی و جهت معماری را ترکیب می کنم.IA ظرفیت، سرعت و دسترسی فنی را تقویت می کند - آن را جایگزین تجربه نیست.
+- "من معیارهای فنی خود، اعتبار انسانی و جهت معماری را ترکیب می کنم.IA ظرفیت، سرعت و دسترسی فنی را تقویت می کند - آن را جایگزین تجربه نیست.
 
-## محدوده حرفه ای واقعی
+- محدوده حرفه ای واقعی
+
+- وضوح Hierarchy: اولین هویت اصلی، سپس گسترش طبیعی، دسترسی مکمل در پایان.
+
+- 🎯 هویت اصلی
+
+معماری راه حل ها
+
+## سازنده : Software Architect
 
 <!-- portfolio-section:roles -->
 
-وضوح Hierarchy: اولین هویت اصلی، سپس گسترش طبیعی، دسترسی مکمل در پایان.
+معماری مدرن سازی
 
-### 🎯 هویت اصلی
-
-16 + سال های معماری، توسعه و بهره برداری از سیستم عامل های واقعی. مدرن سازی پیشرفته بدون برش عملیات، ادغام سیستم ها، اتوماسیون فرآیند و IA - با معیار فنی و اعتبار انسانی اعمال می شود.
-
-### ↗ گسترش طبیعی - اتهاماتی که می توانم با قدرت فرض کنم
-
-پشتیبانی شده توسط تجربه مستقیم، پروژه های قابل اثبات و جریان کمک به کمک IA.
-
-### رهبری تکنولوژی / Tech Lead
+### توسعه دهنده Full-Stack
 
 جهت پروژه فنی، تعریف معماری، بررسی تصمیمات انتقادی، هماهنگی تجهیزات، مدرن سازی سیستم های موجود و ارتباط بین اهداف تجاری و راه حل های تکنولوژیکی پایدار.
 
-### مهندسی ارکستر AI
+### مدیریت فنی
 
-طراحی سیستم های ژنتیکی با LangGraph، FastAPI و MCP Agents با حالت، مسیر های مشروط و انعطاف پذیری.
+استانداردهای فنی
 
-### مهندسی اتوماسیون AI
+### استمرار عملیاتی
 
-اتوماسیون جریان با n8n، پایتون و ارکسترهای انعطاف پذیر. Circuit Breaker، Idempotence و observability.
+مهندسی ارکستر AI
 
-### راه حل های مهندسی
+### MCP
 
-ما ارتباطات واقعی، فنی - کسب و کار، الزامات و معماری مشتری محور را ارائه می دهیم.
+مهندسی اتوماسیون AI
+
+### دانلود موسیقی متن فیلم Grafana
+
+راه حل های مهندسی
 
 ### سازنده محصول فنی
 
@@ -858,29 +858,29 @@ Glassmorphism PWA از GitLab از طریق OIDC و OAC (مورد L - FinOps) م
 
 445 + ساعت های داده شده به عنوان گزارشگر فنی (2003-2004، 2011): برنامه نویسی وب، HTML / CSS، Office و سخت افزار. درجه دانشگاه در محیط آموزشی وب برای کودکان مبتلا به سندرم داون (یادداشت 6.7).در محاسبات و انفورماتیک (UTA) + 16 سال کار سیستم عامل ارزیابی واقعی.
 
-### 🧭 چه نوع رهبری تکنولوژیکی را پیشنهاد می کنم
+### سیستم عامل های آموزشی
 
-- رهبری فنی عملی، نه فقط اداری.
+🧭 چه نوع رهبری تکنولوژیکی را پیشنهاد می کنم
 
-- تصمیمات بر اساس تجربه واقعی تولید
-
-- مدرن سازی بدون وقفه در عملیات
-
-- مستندات شفاف برای تیم ها، استخدام کنندگان و تداوم
+### مستندات شفاف برای تیم ها، استخدام کنندگان و تداوم
 
 - IA به عنوان یک تقویت کننده فنی، نه به عنوان جایگزینی برای معیار حرفه ای.
 
 - نزدیک به ثبات، پایداری، امنیت و کاهش بدهی فنی.
 
-### ⚙️ محدوده مکمل
+- ⚙️ محدوده مکمل
 
-گسترش منطقی پروفایل من در این نقش ها زمانی که زمینه یا پروژه به آن نیاز دارد، نه به عنوان یک هویت اصلی.
+- گسترش منطقی پروفایل من در این نقش ها زمانی که زمینه یا پروژه به آن نیاز دارد، نه به عنوان یک هویت اصلی.
 
-### ✅ چرا می توانم این محدوده را تحمل کنم
+- مهندسی پلتفرم
 
-- رهبری تکنولوژی — راهنمای فنی برای تجهیزات، تعریف استانداردها، بررسی ریسک و پیگیری در تصمیمات بحرانی.
+- DevOps / Cic-CD Engineer
 
-- طراحی راه حل ها — طراحی و تکامل سیستم ها از ریشه تا تولید
+### مهندسی Cloud / AWS
+
+گزارشگر فنی
+
+### — طراحی و تکامل سیستم ها از ریشه تا تولید
 
 - قانون مدرن سازی — 16 سال با سیستم های ارثی بدون برش عملیات
 
@@ -896,184 +896,188 @@ Glassmorphism PWA از GitLab از طریق OIDC و OAC (مورد L - FinOps) م
 
 - همکاری و مستندات — DC ها توسط پروفایل، RECRUITER.md، شواهد قابل اثبات در مخازن.
 
-### 🔗 نقش های مرتبط با متن
+- 🔗 نقش های مرتبط با متن با نوع پروژه، شرکت یا نیاز خاص قابل شارژ است.
 
-با نوع پروژه، شرکت یا نیاز خاص قابل شارژ است.
+- سازنده AI Agent مهندسی سریع
 
-## خدمات
+### سازنده محصول GenAI
+
+مدیر اتوماسیون / پذیرش AI
+
+## تایید عملی
 
 <!-- portfolio-section:servicios -->
 
-مداخلات در مراحل با معماری واقعی، مدرن سازی و تکامل فنی پایدار هماهنگ شده است.
+حسابرسی فنی
 
-### بررسی کد تولید شده توسط IA
+### تمیز کردن و بهبودی
 
-تأیید عملکردی، حسابرسی فنی، ترخیص و کاهش بدهی فنی و مدیریت IA برای تیم هایی که قبلا با دستیارها و عوامل توسعه یافته اند.
+مدیریت IA
 
-### مدرن سازی سیستم های میراث
+### CI / CD
 
-Refactor، PHP / توقف مهاجرت میراث، CI / CD، تست خودکار و استقرار امن بدون برش عملیات.
+QA
 
-### پردازش و گردش خودکار سازی گردش کار
+### انعطاف پذیری
 
-طراحی و پیاده سازی جریان های خودکار با n8n، پایتون و ارکسترهای انعطاف پذیر. Circuit Breaker، Idempotency و observability شامل.
+ادغام کاربردی IA
 
-### ادغام کاربردی IA
+### اولا
 
-ادغام عوامل، LLM ها و IA به کمک جریان در محصولات و فرآیندهای واقعی. LangGraph، MCP، Olama و FastAPI.
+FastAPI
 
-### معماری Cloud Architecture، CI / CD و Observability
+### ODIC
 
-AWS (ECS / EKS، Lucas / SAM، DynamoDB، Cognito، EventBridge / SQS / SNS، CloudWatch / X-Ray، S3 / CloudFront)، Terraform، OIDC، FinOps، GitHub / GitLab CI و پروپاگان / Grafana.
+دانلود بازی Lucas
 
-### تشخیص فنی و برنامه تکامل
+### برنده های سریع
 
-ارزیابی جامع: ریسک ها، بدهی های فنی، عملکرد، هزینه ها و نقشه راه اولویت با برد های سریع می تواند انجام شود.
+فریلنسرها · تغییرات همکاری
 
-[خدمات کامل را ببینید](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/)
+[Refactor](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/)
 
-## فریلنسرها · تغییرات همکاری
+## میراث میراث
 
 <!-- portfolio-section:modalidades -->
 
-من در فرمت های انعطاف پذیر با توجه به مشکل، انتقادی بودن، دامنه و سطح مشارکت مورد نیاز کار می کنم.
+ادغام
 
-### پروژه قطع شد
+### اتوماسیون
 
-برای مدرن سازی به موقع، ادغام، اتوماسیون خاص، بهبود انتقادی یا تحویل بتن.
+پشتیبانی تخصصی / کیسه ساعت
 
-### پشتیبانی تخصصی / کیسه ساعت
+### حمایت ارشد
 
-برای تیم هایی که نیاز به سرعت بخشیدن به تصمیمات فنی، باز کردن معماری، اعتبار پیاده سازی یا حل تنگناها دارند.
+کمک ماهانه
 
-### کمک ماهانه
+### قابلیت پذیری
 
-برای تکامل پایدار، حمایت ارشد، راه حل فنی، تداوم عملیاتی و بهبود تدریجی.
+تشخیص + نقشه جاده
 
-### تشخیص + نقشه جاده
+### برنده های سریع
 
-برای سفارش زمینه، شناسایی ریسک ها، اولویت بندی تصمیمات و تعریف یک استراتژی پیاده سازی واقعی.
+همکاری فنی-تجاری
 
-### همکاری فنی-تجاری
+### سهامداران
 
-برای حمایت از مکالمات با مشتریان یا ذینفعان، الزامات را برای راه حل های پایدار ترجمه کنید و با پیشداده یا تعریف فنی همراه شوید.
+مدرن سازی، نجات و اعمال IA
 
-### مدرن سازی، نجات و اعمال IA
+### IA
 
-پشتیبانی زمانی که سیستم های شکننده، عملیات زنده، اتوماسیون در انتظار، تصمیم های معماری، ابر / Cic@- CD، observability یا اتخاذ عملی IA وجود دارد.
+چگونه من تعدیل مناسب را تعریف می کنم
 
-### چگونه من تعدیل مناسب را تعریف می کنم
+### سطح انتظار رهبری
 
-در عمل، کشف جداگانه، معماری، اجرای، تست، مستندات، هماهنگی و حمایت بعدی اگر سفارش چندین لایه را ترکیب کند، من آن را در مراحل یا ظرفیت ماهانه برای جلوگیری از انتظارات پراکنده سفارش می دهم.
+بیایید درباره دامنه صحبت کنیم.
 
-### هیچ نرخ ثابت منتشر نشده
-
-من نرخ های ثابت را منتشر نمی کنم، زیرا هر مداخله با توجه به پیچیدگی، خطر، فوریت و سطح مشارکت تغییر می کند، من ترجیح می دهم ابتدا هدف و دامنه را برای پیشنهاد تعدیل مناسب بررسی کنم.
-
-¿پروژه، پشتیبانی متخصص یا همکاری به موقع؟ ما بحث در مورد زمینه و بررسی بهترین فرمت کار.
-
-[بیایید درباره دامنه صحبت کنیم.](https://vladimiracunadev-create.github.io/#contacto)
-
-## مرکز تخلیه
-
-<!-- portfolio-section:descargas -->
+### مرکز تخلیه
 
 دسترسی به نسخه های بومی و اسناد حرفه ای عمومی
 
-### توصیه شده
+حالت هوشمند
 
-تجهیزات شناسایی ...
+[توصیه شده](https://vladimiracunadev-create.github.io/#contacto)
 
-### نسخه های دیگر
+## تجهیزات شناسایی ...
 
-از این لینک ها استفاده کنید اگر تشخیص خودکار با دستگاه شما مطابقت نداشته باشد.
+<!-- portfolio-section:descargas -->
 
-### اسناد PDF
+انتخاب دستی
 
-انتخاب کننده زبان هر دانلود را به PDF معادل در زبان فعال تغییر می دهد.
+### Android (PAR)
 
-یادداشت معتبر یک سند پشتیبانی است که توسط حرفه ای صادر شده است، نه توسط Fundación CEIS Marista، این یک تغییر متن از اقتدار در سال 2026 است و باید همراه با نامه توصیه تاریخی بررسی شود.
+نصب PWA
 
-بیانیه موفقیت به طور جداگانه صادر می شود تا نتایج قابل مشاهده را خلاصه کرده و اعتبار خارجی را بدون جایگزینی CV یا نمونه کارها تسهیل کند.
+### لوازم عمومی
 
-صفحه زندگی سند عمومی است: یک فرمت کلاسیک و کامل، بدون اینکه به یک شارژ خاص هدایت شود، هر فرآیند انتخاب را انجام می دهد، حتی اگر پست دارای نام غیر معمول باشد.
+صفحه زندگی
 
-### فایل های فنی
+### CV ATS
 
-فایل های کشف شده در ریشه سایت (SEO + IA)
+فایل های فنی
 
-[Android (PAR)](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/releases/latest/download/app-debug.apk)
+ربات ها
 
-[نمونه کارها](https://vladimiracunadev-create.github.io/assets/portafolio.pdf)
+نقشه سایت.xml
 
-[صفحه زندگی](https://vladimiracunadev-create.github.io/assets/hoja-de-vida.pdf)
+llm.txt
 
-[CV Reclutor](https://vladimiracunadev-create.github.io/assets/cv-reclutador.pdf)
+### فایل های کشف شده در ریشه سایت (SEO + IA)
 
-[CV ATS](https://vladimiracunadev-create.github.io/assets/cv-ats.pdf)
+Hasta
 
-[نامه توصیه](https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma.pdf)
+[اسناد PDF](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/releases/latest/download/app-debug.apk)
 
-[CEIS Watch Note](https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis.pdf)
+[نامه توصیه](https://vladimiracunadev-create.github.io/assets/portafolio.pdf)
 
-[اعلامیه موفقیت ها](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
+[CEIS Watch Note](https://vladimiracunadev-create.github.io/assets/hoja-de-vida.pdf)
 
-[ربات ها](https://vladimiracunadev-create.github.io/robots.txt)
+[اعلامیه موفقیت ها](https://vladimiracunadev-create.github.io/assets/cv-reclutador.pdf)
 
-[نقشه سایت.xml](https://vladimiracunadev-create.github.io/sitemap.xml)
+[انتخاب کننده زبان هر دانلود را به PDF معادل در زبان فعال تغییر می دهد.](https://vladimiracunadev-create.github.io/assets/cv-ats.pdf)
 
-[llm.txt](https://vladimiracunadev-create.github.io/llm.txt)
+[یادداشت معتبر یک سند پشتیبانی است که توسط حرفه ای صادر شده است، نه توسط Fundación CEIS Marista، این یک تغییر متن از اقتدار در سال 2026 است و باید همراه با نامه توصیه تاریخی بررسی شود.](https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma.pdf)
 
-## مرجع های کارگری
+[بیانیه موفقیت به طور جداگانه صادر می شود تا نتایج قابل مشاهده را خلاصه کرده و اعتبار خارجی را بدون جایگزینی CV یا نمونه کارها تسهیل کند.](https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis.pdf)
+
+[صفحه زندگی سند عمومی است: یک فرمت کلاسیک و کامل، بدون اینکه به یک شارژ خاص هدایت شود، هر فرآیند انتخاب را انجام می دهد، حتی اگر پست دارای نام غیر معمول باشد.](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
+
+[مرجع های کارگری](https://vladimiracunadev-create.github.io/robots.txt)
+
+[برای پروژه های نهادی، اعتبار از طریق مرجع انجام می شود.](https://vladimiracunadev-create.github.io/sitemap.xml)
+
+[موفقیت ها و اعتبار](https://vladimiracunadev-create.github.io/llm.txt)
+
+## بهبود تخمین زده شده در فرایندهای بحرانی و گزارش.
 
 <!-- portfolio-section:referencias -->
 
-برای پروژه های نهادی، اعتبار از طریق مرجع انجام می شود.
+کاهش نزدیک به
 
-### موفقیت ها و اعتبار
+### در اصطکاک عملیاتی و پشتیبانی از باتری آنلاین
 
-- Hasta 80% بهبود تخمین زده شده در فرایندهای بحرانی و گزارش.
+- بهینه سازی Approximate Optimization 80% در پایگاه داده و اجزای کد
 
-- کاهش نزدیک به 90% در اصطکاک عملیاتی و پشتیبانی از باتری آنلاین
+- همزمان تا 90% 5 جبهه
 
-- بهینه سازی Approximate Optimization 45% در پایگاه داده و اجزای کد
+- در دوره های خاصی کار کنید. 45% این ارقام در یک بیانیه رسمی که توسط حرفه ای صادر شده است، با مرجع خارجی برای اعتباربخشی به زمینه کار و دامنه کلی ارائه می شود.
 
-- همزمان تا 5 جبهه در دوره های خاصی کار کنید.
+- مشاهده بیانیه ژان کلود Dupry آخرین رئیس مستقیم
 
-این ارقام در یک بیانیه رسمی که توسط حرفه ای صادر شده است، با مرجع خارجی برای اعتباربخشی به زمینه کار و دامنه کلی ارائه می شود.
+سلول های سلولی
 
-### ژان کلود Dupry · آخرین رئیس مستقیم
+### کارت ارائه · ذخیره اطلاعات حرفه ای من و یا به اشتراک گذاری این نمونه کارها با استفاده از کد QR. معکوس خلاصه مناطق خدمات من: برنامه های وب، معماری ابر، داده ها، API ها، IA، اتوماسیون و امنیت سایبری.
 
-سلول های سلولی : +56 9 9415 6984
+Front · تماس و کد QR : +56 9 9415 6984
 
-می توانم خلاصه کتبی و مثال های تاثیر گذار را اگر شما به آن نیاز دارید ارسال کنم.
+معکوس کردن راه حل های تکنولوژیکی و خدمات
 
-[مشاهده بیانیه](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
+[می توانم خلاصه کتبی و مثال های تاثیر گذار را اگر شما به آن نیاز دارید ارسال کنم.](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
 
-## کارت ارائه
+## دانلود بازی Front
 
 <!-- portfolio-section:tarjeta -->
 
-ذخیره اطلاعات حرفه ای من و یا به اشتراک گذاری این نمونه کارها با استفاده از کد QR. معکوس خلاصه مناطق خدمات من: برنامه های وب، معماری ابر، داده ها، API ها، IA، اتوماسیون و امنیت سایبری.
+دانلود بازی Reverse
 
 https://vladimiracunadev-create.github.io/assets/icons/1.png?v=5adde69a
 
 https://vladimiracunadev-create.github.io/assets/icons/2.png?v=1a55b3e6
 
-[دانلود بازی Front](https://vladimiracunadev-create.github.io/assets/icons/1.png?v=5adde69a)
+[Email](https://vladimiracunadev-create.github.io/assets/icons/1.png?v=5adde69a)
 
-[دانلود بازی Reverse](https://vladimiracunadev-create.github.io/assets/icons/2.png?v=1a55b3e6)
+[vladimir.acuna.dev @ Gmail.com](https://vladimiracunadev-create.github.io/assets/icons/2.png?v=1a55b3e6)
 
-## تماس
+## نصب App
 
 <!-- portfolio-section:contacto -->
 
-¿مدرن سازی، اتوماسیون، معماری یا ادغام IA کاربردی برای من بنویسید.
+ایمیل کپی رایت
 
-در دسترس است به سرعت ادغام خود را به تیم های فنی و جوامع از طریق کانال های مشترک مانند Slack.
+Disponible para integrarme rápidamente a equipos y comunidades técnicas a través de canales colaborativos como Slack.
 
-[vladimir.acuna.dev @ Gmail.com](mailto:vladimir.acuna.dev@gmail.com)
+[GitHub](mailto:vladimir.acuna.dev@gmail.com)
 
-[LinkedIn LinkedIn](https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29)
+[ساخته شده با HTML + CSS + JS](https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29)
 
-[GitHub](https://github.com/vladimiracunadev-create)
+[ممیزی کد هوش مصنوعی](https://github.com/vladimiracunadev-create)

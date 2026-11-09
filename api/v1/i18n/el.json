@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-26",
+    "generated_at": "2026-11-09",
     "language": "el",
     "language_name": "Greek",
     "native_name": "Ελληνικά",
@@ -62,61 +62,61 @@
     },
     {
       "id": "demos",
-      "title": "Πάμε να ζήσουμε.",
+      "title": "Δείτε το site",
       "min_level": 1,
       "freelance_hidden": false
     },
     {
       "id": "experiencia",
-      "title": "Εμπειρία",
+      "title": "Τυποποίηση περιβαλλόντων, εργαστήρια Docker / AWS, αυτοματοποίηση, παρατηρησιμότητα και πρωτότυπα με τοπικές IA.",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "flujo-ia",
-      "title": "Ροή ανάπτυξης που ενισχύεται από τις IA",
+      "title": "(από 2023)",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "roles",
-      "title": "Πραγματικό επαγγελματικό πεδίο εφαρμογής",
+      "title": "Αρχιτέκτονας λογισμικού",
       "min_level": 1,
       "freelance_hidden": true
     },
     {
       "id": "servicios",
-      "title": "Υπηρεσίες",
+      "title": "Λειτουργική επαλήθευση",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "modalidades",
-      "title": "Ελεύθερη παροχή · Μορφές συνεργασίας",
+      "title": "Κληρονομιά",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "descargas",
-      "title": "Κέντρο Εκφόρτισης",
+      "title": "Ανιχνευτής εξοπλισμού...",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "referencias",
-      "title": "Αριθμός αναφοράς εργασίας",
+      "title": "εκτιμώμενη βελτίωση των κρίσιμων διαδικασιών και υποβολή εκθέσεων.",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "tarjeta",
-      "title": "Κάρτα παρουσίασης",
+      "title": "Λήψη πρόσθιου",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "contacto",
-      "title": "Επαφή",
+      "title": "Εγκατάσταση εφαρμογής",
       "min_level": 0,
       "freelance_hidden": false
     }

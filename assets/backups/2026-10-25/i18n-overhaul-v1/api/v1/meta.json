@@ -1,0 +1,93 @@
+{
+    "meta": {
+        "version": "v1",
+        "generated_at": "2026-10-16",
+        "api_name": "CV Data API",
+        "owner": "Vladimir Acuña",
+        "base_url": "https://vladimiracunadev-create.github.io",
+        "license": "Public — read-only",
+        "note": "Static JSON API served via GitHub Pages. No authentication required."
+    },
+    "endpoints": {
+        "profile": "/api/v1/profile.json",
+        "experience": "/api/v1/experience.json",
+        "projects": "/api/v1/projects.json",
+        "skills": "/api/v1/skills.json",
+        "artifacts": "/api/v1/artifacts.json",
+        "meta": "/api/v1/meta.json",
+        "i18n": "/api/v1/i18n/index.json"
+    },
+    "site_pages": {
+        "home": "/",
+        "ai_code_assurance": "/servicios/auditoria-codigo-ia/",
+        "experiencia_3d": "/experiencia-3d/",
+        "localized": "/i18n/{locale}/"
+    },
+    "capabilities": {
+        "artifact_languages": [
+            "es",
+            "en",
+            "pt",
+            "it",
+            "fr",
+            "zh",
+            "zh-TW",
+            "ja",
+            "ko",
+            "tr",
+            "ru",
+            "vi",
+            "th",
+            "de",
+            "uk",
+            "pl",
+            "ar",
+            "fa",
+            "id",
+            "nl",
+            "hi",
+            "el"
+        ],
+        "artifact_switching": "The six inline SPA languages switch in place; 16 additional languages use complete localized pages. Every locale links to seven matching PDF artifacts.",
+        "language_suffix_map": {
+            "es": "",
+            "en": "-english",
+            "pt": "-portuguese",
+            "it": "-italian",
+            "fr": "-french",
+            "zh": "-chinese",
+            "zh-TW": "-traditional-chinese",
+            "ja": "-japanese",
+            "ko": "-korean",
+            "tr": "-turkish",
+            "ru": "-russian",
+            "vi": "-vietnamese",
+            "th": "-thai",
+            "de": "-german",
+            "uk": "-ukrainian",
+            "pl": "-polish",
+            "ar": "-arabic",
+            "fa": "-persian",
+            "id": "-indonesian",
+            "nl": "-dutch",
+            "hi": "-hindi",
+            "el": "-greek"
+        }
+    },
+    "seo": {
+        "robots": "/robots.txt",
+        "sitemap": "/sitemap.xml",
+        "llm": "/llm.txt"
+    },
+    "versioning": {
+        "current": "v1",
+        "stable": true,
+        "note": "v2 will be created if contract changes; v1 will remain stable."
+    },
+    "data_source": {
+        "primary_pdf": "assets/cv-ats.pdf",
+        "extraction_method": "pypdf + reportlab pipeline",
+        "extraction_date": "2026-10-16",
+        "pdf_generation": "Python reportlab + Chromium print pipeline (154 PDFs: 7 document families across 22 languages)"
+    }
+}

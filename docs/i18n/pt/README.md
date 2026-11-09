@@ -14,7 +14,7 @@ Fluxo de desenvolvimento assistido por IA - ChatGPT Plus · Claude Code · Antig
 
 Interface preparada para várias línguas , view Recuar/Normal/Deep/Freelance , tema luz / escuro e implantação Web, PWA e APK .
 
-Informação sobre a carteira actualizada até ao 2026-10-25, 13:28 (América / Santiago).
+Informação sobre a carteira actualizada até ao 2026-11-09, 15:38 (América / Santiago).
 
 ### Quem sou eu profissionalmente
 
@@ -494,11 +494,11 @@ Programa de psicometria e avaliação · 5 instrumentos · 344 itens · 81 escal
 
 480 classes, 40 partes e 8 etapas · fundações → produto, arquitetura, segurança, DevOps, SRE, especificações, IA e sistemas multiagentes · estado editorial declarado pelo repositório.
 
-### Ciência e educação
+### Ver os outros
 
-### Laboratórios de Genoma Humano
+Ciência e educação
 
-Plataforma científica evolutiva e reprodutível para genética molecular e genômica (v1.0.0): núcleo do tipo certificado (sequências, tradução, ORF, variantes, G-quádruplex), contratos de resultados científicos, leitores FASTA / GF3 / VCF, CLI científico, laboratório web PWA e jogo educacional.
+### Repositório (GitHub)
 
 ### Aventura Violino · Projeto
 
@@ -506,13 +506,15 @@ Minha aventura com o violino · Aplicativo educacional para aprender violino com
 
 ⚡ Vários projetos deste portfólio foram desenvolvidos com o fluxo assistido pela IA (Código Claude · ChatGPT Plus · Antigravidade) combinado com validação técnica e direção arquitetônica.
 
-### Reavaliações recentes (carro)
-
-É carregado a partir das APIs públicas do GitHub e do GitLab (ordenado por atualização). Ele mostra estrelas e garfos.
-
-### Actividade recente (auto)
-
 ⬆ compromissos · hs / MRs · lançamentos - GitHub e GitLab em tempo real.
+
+### Vamos ao vivo.
+
+Ligações públicas para ver as implantações reais (quando aplicável).
+
+### Web de Portfólio · Páginas do GitHub
+
+Portfolio Web em 22 idiomas implantados em Páginas GitHub via Ações GitHub. PWA pode ser instalado, Lightthouse 100, 154 PDFs gerados pelo pipeline e JSON i18n API.
 
 [Ver referência](https://vladimiracunadev-create.github.io/#referencias)
 
@@ -704,19 +706,17 @@ Minha aventura com o violino · Aplicativo educacional para aprender violino com
 
 [Repositório (GitHub)](https://github.com/vladimiracunadev-create/modern-software-engineering-program)
 
+[Laboratórios de Genoma Humano](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program)
+
 [Repositório (GitHub)](https://github.com/vladimiracunadev-create/human-genome-labs)
 
-[Repositório (GitHub)](https://github.com/vladimiracunadev-create/violin-adventure)
+[Reavaliações recentes (carro)](https://github.com/vladimiracunadev-create/violin-adventure)
 
-## Vamos ao vivo.
+## Ver o sítio
 
 <!-- portfolio-section:demos -->
 
-Ligações públicas para ver as implantações reais (quando aplicável).
-
-### Web de Portfólio · Páginas do GitHub
-
-Portfolio Web em 22 idiomas implantados em Páginas GitHub via Ações GitHub. PWA pode ser instalado, Lightthouse 100, 154 PDFs gerados pelo pipeline e JSON i18n API.
+GitHub
 
 ### AWS S3 + ações do GitHub
 
@@ -734,113 +734,113 @@ Implantação contínua com construção automática, SSL e ambientes isolados (
 
 Um "hub" local para explorar os laboratórios por pilha. Ideal para entrevistas técnicas.
 
-[Ver o sítio](https://vladimiracunadev-create.github.io/)
+### 2025- Actual
 
-[GitHub](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io)
+Transição (laboratórios + carteira)
+
+[Ver demonstração](https://vladimiracunadev-create.github.io/)
+
+[Repositório GitHub](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io)
 
 [Ver demonstração](https://mi-pagina-scrum-123.s3.us-east-2.amazonaws.com/index.html)
 
-[Repositório GitHub](https://github.com/vladimiracunadev-create/proyectos-aws)
+[Repositório GitLab](https://github.com/vladimiracunadev-create/proyectos-aws)
 
-[Ver demonstração](http://finops-vladimir-portfolio-case-l.s3-website.us-east-2.amazonaws.com)
+[Procura principal](http://finops-vladimir-portfolio-case-l.s3-website.us-east-2.amazonaws.com)
 
-[Repositório GitLab](https://gitlab.com/vladimir.acuna.dev-group/vladimir.acuna.dev-group)
+[Demo dev](https://gitlab.com/vladimir.acuna.dev-group/vladimir.acuna.dev-group)
 
-[Procura principal](https://main.d3r1wuymolxagh.amplifyapp.com/)
+[Experiência](https://main.d3r1wuymolxagh.amplifyapp.com/)
 
-[Demo dev](https://dev.d20m8tc0banvg.amplifyapp.com/)
+[Resumo por marcos (use a visão "Deep" para detalhes).](https://dev.d20m8tc0banvg.amplifyapp.com/)
 
-## Experiência
+## Normalização de ambientes, laboratórios Docker / AWS, automação, observação e protótipos com IA local.
 
 <!-- portfolio-section:experiencia -->
 
-Resumo por marcos (use a visão "Deep" para detalhes).
+Documentação reprodutível por perfil (recrutador, desenvolvedor e casos práticos).
 
-### Transição (laboratórios + carteira)
+### 14 anos
 
-Normalização de ambientes, laboratórios Docker / AWS, automação, observação e protótipos com IA local.
+Fundação Marista CEIS
 
-- Documentação reprodutível por perfil (recrutador, desenvolvedor e casos práticos).
+- Arquitetura, desenvolvimento e operação de plataformas web educacionais / psicométricas. Otimização SQL / desempenho. Segurança operacional: análise forense de ataques, gestão de log e testes com o OWASP ZAP e JMeter.
 
-- Foco na prática: ramos, PRs, CI / CD, Páginas e lançamentos.
+- Segurança:
 
-### Fundação Marista CEIS
+### Gerenciamento e análise de logs de servidores e ambientes PHP: depuração de código e detecção de atividades anômalas de IPs desconhecidos.
 
-Arquitetura, desenvolvimento e operação de plataformas web educacionais / psicométricas. Otimização SQL / desempenho. Segurança operacional: análise forense de ataques, gestão de log e testes com o OWASP ZAP e JMeter.
+Endurecimento do sistema com
 
-- Segurança: análise forense de ataques de servidores em mais de uma ocasião, determinando origem, vetor de entrada e alcance.
+- OWASPZAP (simulação de ataque) e teste de carga com
 
-- Gerenciamento e análise de logs de servidores e ambientes PHP: depuração de código e detecção de atividades anômalas de IPs desconhecidos.
+- Apache JMeter
 
-- Endurecimento do sistema com OWASPZAP (simulação de ataque) e teste de carga com Apache JMeter .
+- Treinamento em segurança cibernética durante a pandemia e subsequente palestra institucional sobre segurança cibernética. Perfil híbrido Negócios + TI Formação técnica em gestão de negócios: processos, eficiência, marketing e medição. .
 
-- Treinamento em segurança cibernética durante a pandemia e subsequente palestra institucional sobre segurança cibernética.
-
-### Negócios + TI
-
-Formação técnica em gestão de negócios: processos, eficiência, marketing e medição.
-
-## Fluxo de desenvolvimento assistido pelos IA
-
-<!-- portfolio-section:flujo-ia -->
-
-Uso ferramentas IA como verdadeiros aceleradores técnicos em projetos, não como substitutos do próprio critério.
+- Fluxo de desenvolvimento assistido pelos IA
 
 ### Ferramentas de uso ativo
 
-- ChatGPT Plus (desde 2023) · análise, arquitetura, iteração e documentação
+ChatGPT Plus
 
-- Códice · geração e refatorização de código
+## (desde 2023)
 
-- Código Cláudio · revisão arquitectónica, implementação e documentação técnica
+<!-- portfolio-section:flujo-ia -->
+
+análise, arquitetura, iteração e documentação
+
+### Códice
+
+- geração e refatorização de código Código Cláudio · revisão arquitectónica, implementação e documentação técnica
 
 - Antigravidade · aceleração dos fluxos de desenvolvimento e automação
 
 - Código VS / OpenCode · ambientes de desenvolvimento com assistência integrada de IA
 
-### Onde eu aplicar IA no fluxo
+- Onde eu aplicar IA no fluxo · Diagnóstico técnico e análise de arquitetura
 
-- Diagnóstico técnico e análise de arquitetura
+- Desenho e validação de decisão da solução · Implementação, refatorização e testes
 
-- Desenho e validação de decisão da solução
-
-- Implementação, refatorização e testes
-
-- Documentação técnica e de perfil
+### Documentação técnica e de perfil
 
 - Aceleração do projecto e iteração do repositório
 
-"Eu combino critérios técnicos de minha própria validação humana e direção arquitetônica. O IA amplifica a capacidade, velocidade e alcance técnico - não substitui a experiência. "
+- "Eu combino critérios técnicos de minha própria validação humana e direção arquitetônica. O IA amplifica a capacidade, velocidade e alcance técnico - não substitui a experiência. "
 
-## Alcance profesional real
+- Alcance profesional real
+
+- Hierarquia clara: primeira identidade principal, depois expansão natural, alcance complementar no final.
+
+- 🎯 Identidade principal
+
+Arquiteto de soluções
+
+## Arquiteto de Software
 
 <!-- portfolio-section:roles -->
 
-Hierarquia clara: primeira identidade principal, depois expansão natural, alcance complementar no final.
+Arquiteto de Modernização Legado
 
-### 🎯 Identidade principal
-
-16 + anos de arquitetura, desenvolvimento e operação de plataformas reais. Modernização progressiva sem corte de operação, integração de sistemas, automação de processos e IA aplicada - com critério técnico e validação humana.
-
-### ↗ Expansão natural - cargas que posso assumir com força
-
-Apoiado por experiência direta, projetos verificáveis e fluxo assistido por IA.
-
-### Líder tecnológico / Líder técnico
+### Desenvolvedor Full Stack Sênior
 
 Direcção técnica do projecto, definição de arquitectura, revisão de decisões críticas, acompanhamento de equipamentos, modernização dos sistemas existentes e ligação entre objectivos empresariais e soluções tecnológicas sustentáveis.
 
-### Engenheiro de orquestração de IA
+### Direcção Técnica
 
-Projeto de sistemas agênicos com LangGraph, FastAPI e MCP. Agentes com estado, rotas condicionais e resiliência.
+Normas técnicas
 
-### Engenheiro de automação de IA
+### Continuidade operacional
 
-Automação de fluxos com n8n, Python e orquestradores resilientes. Disjuntor, idempotência e observábilidade.
+Engenheiro de orquestração de IA
 
-### Engenheiro de soluções
+### MCP
 
-Nós damos e PoCs comunicação real, técnica - negócios, requisitos e arquitetura orientada para o cliente.
+Engenheiro de automação de IA
+
+### Grafana
+
+Engenheiro de soluções
 
 ### Construtor de produto técnico
 
@@ -858,29 +858,29 @@ Operação, continuidade e evolução das plataformas com foco na redução de a
 
 445 + horas como relator técnico (2003-2004, 2011): programação web, HTML / CSS, Office e hardware. Licenciatura em ambiente educacional para crianças com Síndrome de Down (nota 6.7). Ing. em Computação e Informática (UTA) + 16 anos operando plataformas de avaliação educacional reais.
 
-### 🧭 Que tipo de liderança tecnológica eu ofereço
+### Plataformas educativas
 
-- Liderança técnica prática, não apenas administrativa.
+🧭 Que tipo de liderança tecnológica eu ofereço
 
-- Decisões baseadas na experiência real de produção.
-
-- Modernização gradual sem interrupção da operação.
-
-- Documentação clara para equipes, recrutadores e continuidade.
+### Documentação clara para equipes, recrutadores e continuidade.
 
 - IA como amplificador técnico, não como substituto do critério profissional.
 
 - Abordagem para estabilidade, sustentabilidade, segurança e redução técnica da dívida.
 
-### ⚙️ Alcance complementario
+- ⚙️ Alcance complementario
 
-A extensão lógica do perfil. Eu assumo esses papéis quando o contexto ou projeto o requer, não como uma identidade principal.
+- A extensão lógica do perfil. Eu assumo esses papéis quando o contexto ou projeto o requer, não como uma identidade principal.
 
-### ✅ Porque posso eu tomar este alcance
+- Engenheiro de plataforma
 
-- Liderança tecnológica — Guia técnico de equipamentos, definição de padrões, revisão de riscos e suporte em decisões críticas.
+- DevOps / Engenheiro de CI-CD
 
-- Arquitetura da solução — Projeto e evolução de sistemas desde a raiz até a produção.
+### Engenheiro de nuvem/AWS
+
+Relator Técnico
+
+### — Projeto e evolução de sistemas desde a raiz até a produção.
 
 - Modernização legada — 16+ anos com sistemas legados sem operação de corte.
 
@@ -896,184 +896,188 @@ A extensão lógica do perfil. Eu assumo esses papéis quando o contexto ou proj
 
 - Colaboração e documentação — Documentos por perfil, RECRUITER.md, evidências verificáveis em repositórios.
 
-### 🔗 Funções relacionadas por contexto
+- 🔗 Funções relacionadas por contexto Abordadable por tipo de projeto, empresa ou necessidade específica.
 
-Abordadable por tipo de projeto, empresa ou necessidade específica.
+- Desenvolvedor de agente de IA Engenheiro de alerta
 
-## Serviços
+### Criador de produtos GenAI
+
+Chefe de Automação/Adoção de IA
+
+## Verificação funcional
 
 <!-- portfolio-section:servicios -->
 
-Intervenções em etapas alinhadas com arquitetura real, modernização e evolução técnica sustentável.
+Auditoria técnica
 
-### Auditoria de código gerada pela IA
+### Limpeza e recuperação
 
-Verificação funcional, auditoria técnica, liberação e redução de dívida técnica e governança de IA para equipes já desenvolvidas com assistentes e agentes.
+Governação da IA
 
-### Modernização de Sistemas Legados
+### CI/CD
 
-Refactor progressivo, PHP / parar migração legado, CI / CD, testes automatizados e implantação segura sem operação de corte.
+Controle de qualidade
 
-### Automação de Processo e Fluxo de Trabalho
+### Resiliência
 
-Projeto e implementação de fluxos automatizados com n8n, Python e orquestradores resilientes. Disjuntor, Idempotência e observábilidade incluídos.
+Integração dos IA Aplicados
 
-### Integração dos IA Aplicados
+### Ollama
 
-Incorporação de agentes, LLMs e fluxos assistidos por IA em produtos e processos reais. LangGraph, MCP, Olama e FastAPI.
+API rápida
 
-### Arquitetura em nuvem, CI/CD e Observabilidade
+### OIDC
 
-AWS (ECS/EKS, Lambda/SAM, DynamoDB, Cognito, EventBridge / SQS/SNS, CloudWatch / X-Ray, S3 / CloudFront), Terraform, OIDC, FinOps, GitHub / GitLab CI e Prometheus / Grafana.
+Lambda/SAM
 
-### Diagnóstico Técnico e Plano Evolucionário
+### Ganhos rápidos
 
-Avaliação abrangente: podem ser feitos riscos, dívida técnica, desempenho, custos e roteiro prioritário com vitórias rápidas.
+Freelance · Modalidades de colaboração
 
-[Ver o serviço completo](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/)
+[Refatorar](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/)
 
-## Freelance · Modalidades de colaboração
+## Legado
 
 <!-- portfolio-section:modalidades -->
 
-Trabalho em formatos flexíveis de acordo com o problema, a criticidade, o âmbito e o nível de envolvimento requerido.
+Integração
 
-### Projeto cortado
+### Automação
 
-Para modernização, integração, automação específica, melhoria crítica ou entrega de concreto oportunamente.
+Suporte especializado / saco de hora
 
-### Suporte especializado / saco de hora
+### Suporte sénior
 
-Para equipes que precisam acelerar decisões técnicas, desbloquear arquitetura, validar implementações ou resolver gargalos.
+Assistência mensal
 
-### Assistência mensal
+### Observabilidade
 
-Para uma evolução sustentada, apoio sénior, roteiro técnico, continuidade operacional e melhoria progressiva.
+Diagnóstico + roteiro
 
-### Diagnóstico + roteiro
+### Ganhos rápidos
 
-Para ordenar o contexto, identificar riscos, priorizar decisões e definir uma estratégia de implementação realista.
+Colaboração técnico-comercial
 
-### Colaboração técnico-comercial
+### Partes interessadas
 
-Para apoiar conversas com clientes ou stakeholders, traduza requisitos para soluções viáveis e acompanhe pré-dados ou definição técnica.
+Modernização, resgate e aplicação de IA
 
-### Modernização, resgate e aplicação de IA
+### IA aplicada
 
-Suporte quando existem sistemas frágeis, operação viva, automação pendente, decisões arquitetônicas, nuvem / Cic@-@ CD, observação ou adoção pragmática de IA.
+Como defino a modalidade apropriada
 
-### Como defino a modalidade apropriada
+### Nível esperado de liderança
 
-Na prática, descoberta separada, arquitetura, execução, testes, documentação, coordenação e posterior apoio. Se a ordem mistura várias camadas, eu ordeno em fases ou capacidade mensal para evitar expectativas difusas.
+Vamos falar sobre o telescópio.
 
-### Taxas fixas não publicadas
-
-Não publico taxas fixas porque cada intervenção muda de acordo com a complexidade, risco, urgência e nível de envolvimento. Prefiro primeiro rever o objetivo e o escopo de propor a modalidade adequada.
-
-¿Projeto, suporte a especialistas ou colaboração oportuna? Discutimos o contexto e revisamos o melhor formato de trabalho.
-
-[Vamos falar sobre o telescópio.](https://vladimiracunadev-create.github.io/#contacto)
-
-## Centro de Quitação
-
-<!-- portfolio-section:descargas -->
+### Centro de Quitação
 
 Acesse as versões nativas e documentos profissionais públicos.
 
-### Recomendado
+Modo inteligente
 
-Detectando equipamentos...
+[Recomendado](https://vladimiracunadev-create.github.io/#contacto)
 
-### Otras versões
+## Detectando equipamentos...
 
-Use estes links se a detecção automática não corresponder ao seu dispositivo.
+<!-- portfolio-section:descargas -->
 
-### Documentos PDF
+Seleção manual
 
-O seletor de idioma muda cada download para o equivalente PDF no idioma ativo.
+### Android (APK)
 
-A nota válida é um documento de apoio emitido pelo profissional, não pela Fundação CEIS Marista. Trata-se de uma mudança textualizada de autoridade em 2026 e deve ser revisada juntamente com a carta de recomendação histórica.
+Instalar o PWA
 
-A declaração de realização é emitida separadamente para resumir os resultados observáveis e facilitar a validação externa sem substituir o CV ou a carteira.
+### Aparelhos públicos
 
-A Folha de Vida é o documento genérico: um formato clássico e completo, sem ser direcionado para uma carga específica. Ela serve qualquer processo de seleção, mesmo que o post tenha um nome incomum.
+Folha de vida
 
-### Ficheiros técnicos
+### CV ATS
 
-Arquivos de descoberta na raiz do site (SEO + IA).
+Ficheiros técnicos
 
-[Android (APK)](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/releases/latest/download/app-debug.apk)
+robots.txt
 
-[Portfólio](https://vladimiracunadev-create.github.io/assets/portafolio.pdf)
+mapa do site.xml
 
-[Folha de vida](https://vladimiracunadev-create.github.io/assets/hoja-de-vida.pdf)
+llm.txt
 
-[Recluso CV](https://vladimiracunadev-create.github.io/assets/cv-reclutador.pdf)
+### Arquivos de descoberta na raiz do site (SEO + IA).
 
-[CV ATS](https://vladimiracunadev-create.github.io/assets/cv-ats.pdf)
+Subir
 
-[Carta de Recomendação](https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma.pdf)
+[Documentos PDF](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/releases/latest/download/app-debug.apk)
 
-[Nota de observação CEIS](https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis.pdf)
+[Carta de Recomendação](https://vladimiracunadev-create.github.io/assets/portafolio.pdf)
 
-[Declaração de Realizações](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
+[Nota de observação CEIS](https://vladimiracunadev-create.github.io/assets/hoja-de-vida.pdf)
 
-[robots.txt](https://vladimiracunadev-create.github.io/robots.txt)
+[Declaração de Realizações](https://vladimiracunadev-create.github.io/assets/cv-reclutador.pdf)
 
-[mapa do site.xml](https://vladimiracunadev-create.github.io/sitemap.xml)
+[O seletor de idioma muda cada download para o equivalente PDF no idioma ativo.](https://vladimiracunadev-create.github.io/assets/cv-ats.pdf)
 
-[llm.txt](https://vladimiracunadev-create.github.io/llm.txt)
+[A nota válida é um documento de apoio emitido pelo profissional, não pela Fundação CEIS Marista. Trata-se de uma mudança textualizada de autoridade em 2026 e deve ser revisada juntamente com a carta de recomendação histórica.](https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma.pdf)
 
-## Referências trabalhistas
+[A declaração de realização é emitida separadamente para resumir os resultados observáveis e facilitar a validação externa sem substituir o CV ou a carteira.](https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis.pdf)
+
+[A Folha de Vida é o documento genérico: um formato clássico e completo, sem ser direcionado para uma carga específica. Ela serve qualquer processo de seleção, mesmo que o post tenha um nome incomum.](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
+
+[Referências trabalhistas](https://vladimiracunadev-create.github.io/robots.txt)
+
+[Para projetos institucionais, a validação é realizada por referência.](https://vladimiracunadev-create.github.io/sitemap.xml)
+
+[Resultados e validação sumários](https://vladimiracunadev-create.github.io/llm.txt)
+
+## melhoria estimada nos processos críticos e relatórios.
 
 <!-- portfolio-section:referencias -->
 
-Para projetos institucionais, a validação é realizada por referência.
+Redução perto de
 
-### Resultados e validação sumários
+### em atrito operacional e suporte sobre Bateria Online.
 
-- Subir 80% melhoria estimada nos processos críticos e relatórios.
+- Otimização aproximada de 80% em base de dados e componentes de código.
 
-- Redução perto de 90% em atrito operacional e suporte sobre Bateria Online.
+- Simultânea até... 90% 5 frentes
 
-- Otimização aproximada de 45% em base de dados e componentes de código.
+- trabalhar em determinados períodos. 45% Esses números são apresentados em uma declaração formal emitida pelo profissional, com referência externa para validar o contexto de trabalho e o escopo geral.
 
-- Simultânea até... 5 frentes trabalhar em determinados períodos.
+- Ver declaração Jean-Claude Dupry Último chefe directo
 
-Esses números são apresentados em uma declaração formal emitida pelo profissional, com referência externa para validar o contexto de trabalho e o escopo geral.
+Célula
 
-### Jean-Claude Dupry · Último chefe directo
+### Cartão de apresentação · Salve meus dados profissionais ou compartilhe este portfólio usando o código QR. O inverso resume minhas áreas de serviço: aplicativos web, arquitetura em nuvem, dados, APIs, IA, automação e segurança cibernética.
 
-Célula : +56 9 9415 6984
+Frente · contato e código QR : +56 9 9415 6984
 
-Posso enviar um resumo escrito e exemplos de impacto, se precisar.
+Reverse · soluções e serviços tecnológicos
 
-[Ver declaração](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
+[Posso enviar um resumo escrito e exemplos de impacto, se precisar.](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
 
-## Cartão de apresentação
+## Obter Frente
 
 <!-- portfolio-section:tarjeta -->
 
-Salve meus dados profissionais ou compartilhe este portfólio usando o código QR. O inverso resume minhas áreas de serviço: aplicativos web, arquitetura em nuvem, dados, APIs, IA, automação e segurança cibernética.
+Baixar ao contrário
 
 https://vladimiracunadev-create.github.io/assets/icons/1.png?v=5adde69a
 
 https://vladimiracunadev-create.github.io/assets/icons/2.png?v=1a55b3e6
 
-[Obter Frente](https://vladimiracunadev-create.github.io/assets/icons/1.png?v=5adde69a)
+[E-mail](https://vladimiracunadev-create.github.io/assets/icons/1.png?v=5adde69a)
 
-[Baixar ao contrário](https://vladimiracunadev-create.github.io/assets/icons/2.png?v=1a55b3e6)
+[vladimir.acuna.dev@gmail.com](https://vladimiracunadev-create.github.io/assets/icons/2.png?v=1a55b3e6)
 
-## Contato
+## Instalar aplicativo
 
 <!-- portfolio-section:contacto -->
 
-¿Modernização, automação, arquitetura ou integração de IA aplicada? Escreva-me.
+Copiar o E- mail
 
-Disponível para me integrar rapidamente em equipes técnicas e comunidades através de canais colaborativos, como o Slack.
+Disponible para integrarme rápidamente a equipos y comunidades técnicas a través de canales colaborativos como Slack.
 
-[vladimir.acuna.dev@gmail.com](mailto:vladimir.acuna.dev@gmail.com)
+[GitHub](mailto:vladimir.acuna.dev@gmail.com)
 
-[LinkedIn](https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29)
+[Feito com HTML + CSS + JS.](https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29)
 
-[GitHub](https://github.com/vladimiracunadev-create)
+[Auditoria de código IA](https://github.com/vladimiracunadev-create)

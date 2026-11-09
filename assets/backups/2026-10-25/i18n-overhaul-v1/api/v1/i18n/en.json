@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "generated_at": "2026-10-16",
+    "language": "en",
+    "language_name": "English",
+    "native_name": "English",
+    "direction": "ltr",
+    "source": "https://github.com/vladimiracunadev-create/vladimiracunadev-create/blob/main/README.en.md"
+  },
+  "profile": {
+    "name": "Vladimir Acuña",
+    "title": "Solution Architect · Senior Full-Stack · Digital Transformation · Management & Operations",
+    "summary": "- 🔁 Reproducible demos — clone, run, validate. - 🧰 Standardized tooling — Makefiles, Hub CLI, doctor, and smoke per repository. - 🛡️ Defense in depth — secret scanning, policies, and explicitly forbidden practices. - 📈 Observability — /health, /ready, /metrics, dashboards, and traceability. - 📚 Audience-aware documentation — recruiter, beginner, DevOps, or security, depending on the repository. - 📦 Product distribution — downloadable releases, checksums, and build evidence; commercial/store signatures declared as pending when applicable. - 🌍 Internationalization — portfolio in 22 languages (ES · EN · PT · IT · FR · ZH · ZH-TW · JA · KO · TR · RU · VI · TH · DE · UK · PL · AR · FA · ID · NL · HI · EL). - 🧭 Technical honesty — every case labeled OPERATIONAL, DOCUMENTED/SCAFFOLD, or PLANNED.",
+    "website": "https://vladimiracunadev-create.github.io/i18n/en/",
+    "github": "https://github.com/vladimiracunadev-create",
+    "gitlab": "https://gitlab.com/vladimir.acuna.dev-group"
+  },
+  "sections": [
+    "🎯 What You Will Find Here",
+    "✅ Verifiable Status",
+    "🗺️ Ecosystem At A Glance",
+    "📦 Products With Real Distribution",
+    "🧪 Engineering Laboratories",
+    "🤖 Applied AI",
+    "📚 Complete Technical Curricula",
+    "🔬 Scientific Computing",
+    "⚡ If You Have 10 Minutes To Evaluate Me",
+    "🧠 Standards I Apply Across Repositories",
+    "✅ Professional Scope",
+    "🧭 Management, Administration, and Non-Coding Career Opportunities",
+    "🤖 AI-Assisted Development Flow",
+    "📌 Availability",
+    "📬 Contact"
+  ],
+  "artifacts": {
+    "portfolio": "/assets/portafolio-english.pdf",
+    "resume": "/assets/hoja-de-vida-english.pdf",
+    "recruiter": "/assets/cv-reclutador-english.pdf",
+    "ats": "/assets/cv-ats-english.pdf",
+    "achievements": "/assets/declaracion-logros-validacion-english.pdf",
+    "recommendation": "/assets/carta-recomendacion_sin_firma-english.pdf",
+    "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-english.pdf"
+  }
+}

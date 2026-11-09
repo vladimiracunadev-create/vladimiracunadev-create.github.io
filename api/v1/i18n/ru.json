@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-26",
+    "generated_at": "2026-11-09",
     "language": "ru",
     "language_name": "Russian",
     "native_name": "Русский",
@@ -62,61 +62,61 @@
     },
     {
       "id": "demos",
-      "title": "Живые демонстрации",
+      "title": "См. сайт",
       "min_level": 1,
       "freelance_hidden": false
     },
     {
       "id": "experiencia",
-      "title": "Опыт",
+      "title": "Стандартизация сред, лаборатории Docker/AWS, автоматизация, наблюдаемость и прототипирование с помощью локального ИИ.",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "flujo-ia",
-      "title": "Процесс разработки с помощью ИИ",
+      "title": "(с 2023 г.)",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "roles",
-      "title": "Фактический профессиональный объем",
+      "title": "Архитектор программного обеспечения",
       "min_level": 1,
       "freelance_hidden": true
     },
     {
       "id": "servicios",
-      "title": "Услуги",
+      "title": "Функциональная проверка",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "modalidades",
-      "title": "Фриланс · Условия сотрудничества",
+      "title": "Наследие",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "descargas",
-      "title": "Центр загрузки",
+      "title": "Детекторное оборудование...",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "referencias",
-      "title": "Ссылки на вакансии",
+      "title": "предполагаемого улучшения критических процессов и формирования отчетов.",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "tarjeta",
-      "title": "Визитная карточка",
+      "title": "Загрузка спереди",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "contacto",
-      "title": "Контакт",
+      "title": "Установить приложение",
       "min_level": 0,
       "freelance_hidden": false
     }

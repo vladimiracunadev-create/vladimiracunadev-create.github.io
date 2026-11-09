@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-11-09
+
+### sync-portfolio (automático — 2026-11-09)
+
+- `api/v1/`: generated_at → 2026-11-09
+- Repos nuevos integrados: astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program
+- Cards HTML agregados en `#proyectos` (index.html)
+- Scripts PDF y api/v1/projects.json actualizados
+- 154 PDFs regenerados (7 tipos × 22 idiomas)
+- Backup en `assets/backups/2026-11-09/`
+
 ## 2026-10-26
 
 ### fix(i18n): traducción completa y equivalente para los 22 idiomas

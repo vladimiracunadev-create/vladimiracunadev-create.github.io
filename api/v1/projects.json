@@ -1,7 +1,7 @@
 {
     "meta": {
         "version": "v1",
-        "generated_at": "2026-10-16",
+        "generated_at": "2026-11-09",
         "source_pdf": "assets/cv-ats.pdf"
     },
     "projects": [
@@ -269,7 +269,7 @@
         },
         {
             "name": "claude-skills-toolkit",
-            "description": "🧰 claude-skills-toolkit · ⚡ 15 skills agentic para Claude Code · 🔒 security-audit (12 capas: OSV/KEV/EPSS/SAST/…) · ₿ bitcoin-custody-audit (custodia Bitcoin, 14 etapas) · 🐍 python-lint-guard · 📌 python-deps-pinning · 🏷️ version-bump · 📄 md-to-doc · 📋 yaml-control · 📝 md-lint-fix · 🐳 docker-cleanup · Zero-deps · Cross-platform 🐧🍎🪟",
+            "description": "🧰 Caja de herramientas agentic para Claude Code · 22 skills: 15 ejecutables en Python stdlib + 7 de criterio · 🔒 seguridad en 12 capas · ₿ custodia Bitcoin en 14 etapas · 🧪 testing de producto · 🚀 runbooks de git · 🧭 coherencia docs↔repo · zero-deps · cada skill declara lo que NO hace · skills, no agentes · 87 tests 🐧🍎🪟",
             "url": "https://github.com/vladimiracunadev-create/claude-skills-toolkit",
             "tags": [
                 "Claude Code",
@@ -411,7 +411,7 @@
         },
         {
             "name": "modern-cybersecurity-program",
-            "description": "🛡️ Programa de Ciberseguridad Moderna · 360 clases, 20 partes · aprendizaje conectado, práctica, evidencia y fuentes · fundamentos → Red Team → Blue Team/DFIR → cloud/DevSecOps → IA y Game Security · Python + Pages + app offline · 🐧🍎🪟",
+            "description": "🛡️ Programa de Ciberseguridad Moderna · 370 clases, 21 partes · aprendizaje conectado, práctica, evidencia y fuentes · fundamentos → Red Team → Blue Team/DFIR → cloud/DevSecOps → IA, Game Security y CWE/CVE/CVSS · Python + Pages + app offline · 🐧🍎🪟",
             "url": "https://github.com/vladimiracunadev-create/modern-cybersecurity-program",
             "tags": [],
             "category": "other"
@@ -474,7 +474,7 @@
         },
         {
             "name": "blockchain-learning-path",
-            "description": "⛓️ Ruta práctica en español: 66 clases, 91 prácticas y 363 pruebas · Bitcoin, Ethereum, Solidity, tokenización, custodia, Proof of Reserves y forensics · Web y apps offline para Windows y Android 🌐🪟📱",
+            "description": "⛓️ Ruta práctica en español: 66 clases, 91 prácticas y 508 pruebas · Bitcoin, Ethereum, Solidity, tokenización, custodia, Proof of Reserves, forensics y especialización de seguridad (EIP-7702) · Web y apps offline para Windows y Android 🌐🪟📱",
             "url": "https://github.com/vladimiracunadev-create/blockchain-learning-path",
             "tags": [],
             "category": "other"
@@ -587,7 +587,7 @@
         },
         {
             "name": "empresa-operativa-chile",
-            "description": "🏢 v1.5.0 · Crear, operar y controlar una empresa chilena: constitución con evidencia, capital y CPT, patente municipal, IVA/PPM, F29, cierre anual, control interno e investigación de integridad. Guía, manual y glosario dentro de la app. Android, Windows y navegador. Fuentes oficiales. Cero telemetría. 🇨🇱",
+            "description": "Empresa Operativa Chile v1.7.1 · Web/PWA, Windows y Android · Academia: 70 clases + PDF completo · motor CL 2026 multijurisdiccional · 217 pruebas · local-first",
             "url": "https://github.com/vladimiracunadev-create/empresa-operativa-chile",
             "tags": [],
             "category": "other"
@@ -608,7 +608,7 @@
         },
         {
             "name": "rootcause-qr-inspector",
-            "description": "📱 Inspector local de QR y códigos de barras · 26 señales de riesgo, 107 pruebas y evidencia redactada · cámara, imágenes y PDF · Flutter/Dart · sin cuentas ni telemetría · APK Android v0.1.4 publicado",
+            "description": "📱 Inspector local de QR y códigos de barras · 26 señales de riesgo, 107 pruebas y evidencia redactada · cámara, imágenes y PDF · Flutter/Dart · sin cuentas ni telemetría · APK Android v0.2.0 publicado",
             "url": "https://github.com/vladimiracunadev-create/rootcause-qr-inspector",
             "tags": [],
             "category": "other"
@@ -622,7 +622,7 @@
         },
         {
             "name": "architecture-built-environment-learning-program",
-            "description": "🏛️ Programa abierto de arquitectura y entorno construido en español · 830 clases en 83 partes, 60 sesiones, 34 rutas y una ruta aplicada de vivienda con costos y permisos trazables",
+            "description": "🏛️ Programa abierto de arquitectura y entorno construido en español · 840 clases en 84 partes, 60 sesiones, 35 rutas, vivienda propia, seguros, riesgo de desastres y evaluación de inmuebles con fuentes oficiales",
             "url": "https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program",
             "tags": [],
             "category": "other"
@@ -745,6 +745,13 @@
             "url": "https://github.com/vladimiracunadev-create/modern-software-engineering-program",
             "tags": [],
             "category": "curriculum"
+        },
+        {
+            "name": "astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program",
+            "description": "🌌 Programa integral en español · 2.077 clases planificadas · 12 áreas · 133 bloques · 24 rutas profesionales · astronomía, astrofísica, ciencias espaciales e ingeniería aeroespacial · estándar pedagógico, trazabilidad y accesibilidad · licencias diferenciadas",
+            "url": "https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program",
+            "tags": [],
+            "category": "other"
         }
     ]
 }

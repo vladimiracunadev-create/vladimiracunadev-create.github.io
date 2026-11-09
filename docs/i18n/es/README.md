@@ -14,7 +14,7 @@ Flujo de desarrollo asistido por IA — ChatGPT Plus · Claude Code · Antigravi
 
 Interfaz preparada para múltiples idiomas , vistas Reclutador / Normal / Profundo / Freelance , tema claro / oscuro y despliegue web, PWA y APK .
 
-Información del portafolio actualizada hasta el 2026-10-25, 13:28 (America/Santiago).
+Información del portafolio actualizada hasta el 2026-11-09, 15:38 (America/Santiago).
 
 ### Quién soy profesionalmente
 
@@ -494,6 +494,10 @@ psychometrics-and-assessment-program · 5 instrumentos · 344 ítems · 81 escal
 
 480 clases, 40 partes y 8 etapas · fundamentos → producto, arquitectura, seguridad, DevOps, SRE, SPEC, IA y sistemas multiagente · estado editorial declarado por el repositorio.
 
+### Astronomy Astrophysics Space Sciences Aerospace Engineering Learning Program · Proyecto
+
+Programa integral en español · 2.077 clases planificadas · 12 áreas · 133 bloques · 24 rutas profesionales · astronomía, astrofísica, ciencias espaciales e ingeniería aeroespacial · estándar pedagógico, trazabilidad y accesibilidad · licencias diferenciadas
+
 ### Ciencia y educación
 
 ### Human Genome Labs
@@ -703,6 +707,8 @@ Se carga desde las APIs públicas de GitHub y GitLab (ordenada por actualizació
 [Repo (GitHub)](https://github.com/vladimiracunadev-create/psychometrics-and-assessment-program)
 
 [Repo (GitHub)](https://github.com/vladimiracunadev-create/modern-software-engineering-program)
+
+[Repo (GitHub)](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program)
 
 [Repo (GitHub)](https://github.com/vladimiracunadev-create/human-genome-labs)
 

@@ -1,7 +1,7 @@
 {
     "meta": {
         "version": "v1",
-        "generated_at": "2026-10-16"
+        "generated_at": "2026-11-09"
     },
     "base_url": "https://vladimiracunadev-create.github.io",
     "artifact_languages": [
@@ -60,7 +60,7 @@
             "type": "pdf",
             "category": "cv",
             "default_language": "es",
-            "updated_at": "2026-10-16",
+            "updated_at": "2026-11-09",
             "variants": {
                 "es": {
                     "label": "CV ATS",
@@ -181,7 +181,7 @@
             "type": "pdf",
             "category": "cv",
             "default_language": "es",
-            "updated_at": "2026-10-16",
+            "updated_at": "2026-11-09",
             "variants": {
                 "es": {
                     "label": "CV para reclutamiento",
@@ -302,7 +302,7 @@
             "type": "pdf",
             "category": "cv",
             "default_language": "es",
-            "updated_at": "2026-10-16",
+            "updated_at": "2026-11-09",
             "variants": {
                 "es": {
                     "label": "Hoja de vida profesional",
@@ -423,7 +423,7 @@
             "type": "pdf",
             "category": "portfolio",
             "default_language": "es",
-            "updated_at": "2026-10-16",
+            "updated_at": "2026-11-09",
             "variants": {
                 "es": {
                     "label": "Portafolio",
@@ -544,7 +544,7 @@
             "type": "pdf",
             "category": "letter",
             "default_language": "es",
-            "updated_at": "2026-10-16",
+            "updated_at": "2026-11-09",
             "variants": {
                 "es": {
                     "label": "Contexto de la carta de recomendación",
@@ -665,7 +665,7 @@
             "type": "pdf",
             "category": "validation",
             "default_language": "es",
-            "updated_at": "2026-10-16",
+            "updated_at": "2026-11-09",
             "rationale": "Published as a separate artifact so recruiters can review validated achievements and external-reference context without overloading the primary CV or portfolio narrative.",
             "variants": {
                 "es": {
@@ -787,7 +787,7 @@
             "type": "pdf",
             "category": "validation",
             "default_language": "es",
-            "updated_at": "2026-10-16",
+            "updated_at": "2026-11-09",
             "related_artifact": "recommendation_letter",
             "rationale": "Published separately so the historical recommendation remains unchanged while readers receive current, source-linked institutional context.",
             "variants": {

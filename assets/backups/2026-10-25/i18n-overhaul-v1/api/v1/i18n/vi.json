@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "generated_at": "2026-10-16",
+    "language": "vi",
+    "language_name": "Vietnamese",
+    "native_name": "Tiếng Việt",
+    "direction": "ltr",
+    "source": "https://github.com/vladimiracunadev-create/vladimiracunadev-create/blob/main/README.vi.md"
+  },
+  "profile": {
+    "name": "Vladimir Acuña",
+    "title": "Kiến trúc giải quyết·Người đầy đủ cao cấp·Biến hình số·Quản lý & thao tác",
+    "summary": "- 🔁 Bản thử nghiệm không được hỗ trợ- Nhân bản, chạy, xác nhận. - 🧰 Bánh ngọt chuẩn hoá- Tạo ra tập tin, máy nghe trộm,doctor, vàsmokeMỗi kho. - 🛡️ Phòng thủ sâu— quét bí mật, chính sách và những thực hành rõ ràng bị cấm đoán. - 📈 Khả năng quan sát — /health, /ready, /metricsBảng điều khiển, và khả năng truy tìm. - 📚 Tài liệu hướng dẫn khán giả- ý thức— Người tuyển dụng, người mới bắt đầu, người bị giam giữ, hay người bảo vệ, tùy thuộc vào kho tàng. - 📦 Phân phối sản phẩm— Những chương trình phát hành, kiểm tra và xây dựng bằng chứng; những ký hiệu thương mại/ hàng hóa được công bố là đang chờ khi được áp dụng. - 🌍 Quốc tế hoá— Danh mục đầu tư trong 22 ngôn ngữ (ES·EN·PT·IT·FR·ZH). - 🧭 Thành thật với kỹ thuật viên- mọi trường hợp được dán nhãnOPERATIONAL, DOCUMENTED/SCAFFOLD, hoặcPLANNED.",
+    "website": "https://vladimiracunadev-create.github.io/i18n/vi/",
+    "github": "https://github.com/vladimiracunadev-create",
+    "gitlab": "https://gitlab.com/vladimir.acuna.dev-group"
+  },
+  "sections": [
+    "🎯Những gì bạn sẽ tìm thấy ở đây",
+    "✅Trạng thái có thể truy cập",
+    "🗺️Hệ thống sinh thái đang hưng thịnh",
+    "📦Những sản phẩm có thật sự được phân phối",
+    "🧪Phòng thí nghiệm kỹ thuật",
+    "🤖AI ứng dụng",
+    "📚Máy tính trình duyệt kỹ thuật toàn bộ",
+    "🔬Tính toán khoa học",
+    "⚡Nếu anh có 10 phút để đánh giá tôi",
+    "🧠Những tiêu chuẩn tôi áp dụng xuyên qua các kho",
+    "✅Phạm vi chuyên nghiệp",
+    "🧭Quản lý, quản lý và không kiểm soát sự bất tiện của các nhà kinh doanh",
+    "🤖Quy trình phát triển có AI hỗ trợ",
+    "📌Tính khả năng",
+    "📬Liên hệ"
+  ],
+  "artifacts": {
+    "portfolio": "/assets/portafolio-vietnamese.pdf",
+    "resume": "/assets/hoja-de-vida-vietnamese.pdf",
+    "recruiter": "/assets/cv-reclutador-vietnamese.pdf",
+    "ats": "/assets/cv-ats-vietnamese.pdf",
+    "achievements": "/assets/declaracion-logros-validacion-vietnamese.pdf",
+    "recommendation": "/assets/carta-recomendacion_sin_firma-vietnamese.pdf",
+    "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-vietnamese.pdf"
+  }
+}

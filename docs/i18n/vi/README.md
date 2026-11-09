@@ -14,7 +14,7 @@ Quy trình phát triển được hỗ trợ bởi AI — ChatGPT Plus · Mã Cl
 
 Giao diện được chuẩn bị cho nhiều ngôn ngữ , lượt xem Nhà tuyển dụng / Bình thường / Chuyên sâu / Freelancer , chủ đề sáng / tối và triển khai web, PWA và APK .
 
-Thông tin danh mục đầu tư được cập nhật kể từ 2026-10-25, 13:28 (Mỹ/Santiago).
+Thông tin danh mục đầu tư được cập nhật kể từ 2026-11-09, 15:38 (Mỹ/Santiago).
 
 ### Tôi là ai một cách chuyên nghiệp
 
@@ -494,11 +494,11 @@ chương trình tâm lý học và đánh giá · 5 công cụ · 344 mục · 8
 
 480 lớp, 40 phần và 8 giai đoạn · nguyên tắc cơ bản → sản phẩm, kiến trúc, bảo mật, DevOps, SRE, SPEC, AI và hệ thống đa tác nhân · trạng thái biên tập do kho lưu trữ khai báo.
 
-### Khoa học và giáo dục
+### Xem những người khác
 
-### Phòng thí nghiệm bộ gen người
+Khoa học và giáo dục
 
-Nền tảng khoa học tiến hóa và có thể tái tạo cho di truyền phân tử và genom (v1.0.0): Lõi TypeScript có thể xác minh (trình tự, bản dịch, ORF, biến thể, G-quadruplexes), hợp đồng ScientificResult, trình đọc FASTA/GFF3/VCF, CLI khoa học, phòng thí nghiệm web PWA và trò chơi giáo dục. Không chẩn đoán lâm sàng.
+### Kho lưu trữ (GitHub)
 
 ### Cuộc phiêu lưu violin · Dự án
 
@@ -506,13 +506,15 @@ Cuộc phiêu lưu của tôi với đàn violin · Ứng dụng giáo dục h�
 
 ⚡ Một số dự án trong danh mục này được phát triển với quy trình được hỗ trợ bởi AI (Claude Code · ChatGPT Plus · AntiGravity) kết hợp với xác nhận kỹ thuật và định hướng kiến trúc của riêng mình.
 
-### Các kho lưu trữ gần đây (tự động)
-
-Được tải từ API GitHub và GitLab công khai (được sắp xếp theo bản cập nhật). Hiển thị các ngôi sao ★ và nĩa ⑂.
-
-### Hoạt động gần đây (tự động)
-
 ⬆ cam kết · 🔀 PR / MR · 🚀 phát hành — GitHub và GitLab trong thời gian thực.
+
+### Bản demo trực tiếp
+
+Các liên kết công khai để xem các hoạt động triển khai thực tế (nếu có).
+
+### Danh mục web · Trang GitHub
+
+Danh mục web bằng 22 ngôn ngữ được triển khai trên Trang GitHub thông qua GitHub Actions. PWA có thể cài đặt, Lighthouse 100, 154 tệp PDF được tạo bằng đường dẫn và API JSON i18n.
 
 [Xem tài liệu tham khảo](https://vladimiracunadev-create.github.io/#referencias)
 
@@ -704,19 +706,17 @@ Cuộc phiêu lưu của tôi với đàn violin · Ứng dụng giáo dục h�
 
 [Kho lưu trữ (GitHub)](https://github.com/vladimiracunadev-create/modern-software-engineering-program)
 
+[Phòng thí nghiệm bộ gen người](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program)
+
 [Kho lưu trữ (GitHub)](https://github.com/vladimiracunadev-create/human-genome-labs)
 
-[Kho lưu trữ (GitHub)](https://github.com/vladimiracunadev-create/violin-adventure)
+[Các kho lưu trữ gần đây (tự động)](https://github.com/vladimiracunadev-create/violin-adventure)
 
-## Bản demo trực tiếp
+## Xem trang web
 
 <!-- portfolio-section:demos -->
 
-Các liên kết công khai để xem các hoạt động triển khai thực tế (nếu có).
-
-### Danh mục web · Trang GitHub
-
-Danh mục web bằng 22 ngôn ngữ được triển khai trên Trang GitHub thông qua GitHub Actions. PWA có thể cài đặt, Lighthouse 100, 154 tệp PDF được tạo bằng đường dẫn và API JSON i18n.
+GitHub
 
 ### Hành động AWS S3 + GitHub
 
@@ -734,113 +734,113 @@ Triển khai liên tục với bản dựng tự động, SSL và môi trường
 
 Một “trung tâm” cục bộ để khám phá các phòng thí nghiệm theo từng nhóm. Lý tưởng cho các cuộc phỏng vấn kỹ thuật.
 
-[Xem trang web](https://vladimiracunadev-create.github.io/)
+### 2025–nay
 
-[GitHub](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io)
+Chuyển đổi (phòng thí nghiệm + danh mục đầu tư)
+
+[Xem bản demo](https://vladimiracunadev-create.github.io/)
+
+[Kho lưu trữ GitHub](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io)
 
 [Xem bản demo](https://mi-pagina-scrum-123.s3.us-east-2.amazonaws.com/index.html)
 
-[Kho lưu trữ GitHub](https://github.com/vladimiracunadev-create/proyectos-aws)
+[Kho lưu trữ GitLab](https://github.com/vladimiracunadev-create/proyectos-aws)
 
-[Xem bản demo](http://finops-vladimir-portfolio-case-l.s3-website.us-east-2.amazonaws.com)
+[Bản demo chính](http://finops-vladimir-portfolio-case-l.s3-website.us-east-2.amazonaws.com)
 
-[Kho lưu trữ GitLab](https://gitlab.com/vladimir.acuna.dev-group/vladimir.acuna.dev-group)
+[Nhà phát triển demo](https://gitlab.com/vladimir.acuna.dev-group/vladimir.acuna.dev-group)
 
-[Bản demo chính](https://main.d3r1wuymolxagh.amplifyapp.com/)
+[Kinh nghiệm](https://main.d3r1wuymolxagh.amplifyapp.com/)
 
-[Nhà phát triển demo](https://dev.d20m8tc0banvg.amplifyapp.com/)
+[Tóm tắt theo các mốc quan trọng (sử dụng chế độ xem “Sâu” để biết chi tiết).](https://dev.d20m8tc0banvg.amplifyapp.com/)
 
-## Kinh nghiệm
+## Tiêu chuẩn hóa môi trường, phòng thí nghiệm Docker/AWS, tự động hóa, khả năng quan sát và tạo mẫu bằng AI cục bộ.
 
 <!-- portfolio-section:experiencia -->
 
-Tóm tắt theo các mốc quan trọng (sử dụng chế độ xem “Sâu” để biết chi tiết).
+Tài liệu có thể tái tạo cho mỗi hồ sơ (nhà tuyển dụng, nhà phát triển và nghiên cứu trường hợp).
 
-### Chuyển đổi (phòng thí nghiệm + danh mục đầu tư)
+### 14 năm
 
-Tiêu chuẩn hóa môi trường, phòng thí nghiệm Docker/AWS, tự động hóa, khả năng quan sát và tạo mẫu bằng AI cục bộ.
+Quỹ CEIS Marist
 
-- Tài liệu có thể tái tạo cho mỗi hồ sơ (nhà tuyển dụng, nhà phát triển và nghiên cứu trường hợp).
+- Kiến trúc, phát triển và vận hành nền tảng web giáo dục/tâm lý. Tối ưu hóa hiệu suất/SQL. Bảo mật hoạt động: phân tích điều tra các cuộc tấn công, quản lý và kiểm tra nhật ký bằng OWASP ZAP và JMeter.
 
-- Tập trung vào thực tiễn: chi nhánh, PR, CI/CD, Trang và bản phát hành.
+- Bảo mật:
 
-### Quỹ CEIS Marist
+### Quản lý và phân tích nhật ký máy chủ và môi trường PHP: gỡ lỗi mã và phát hiện hoạt động bất thường từ các IP không xác định.
 
-Kiến trúc, phát triển và vận hành nền tảng web giáo dục/tâm lý. Tối ưu hóa hiệu suất/SQL. Bảo mật hoạt động: phân tích điều tra các cuộc tấn công, quản lý và kiểm tra nhật ký bằng OWASP ZAP và JMeter.
+Làm cứng hệ thống bằng
 
-- Bảo mật: phân tích pháp y về các cuộc tấn công vào máy chủ nhiều lần, xác định nguồn gốc, vectơ mục nhập và phạm vi.
+- OWASP ZAP (mô phỏng tấn công) và kiểm tra tải với
 
-- Quản lý và phân tích nhật ký máy chủ và môi trường PHP: gỡ lỗi mã và phát hiện hoạt động bất thường từ các IP không xác định.
+- Apache JMeter
 
-- Làm cứng hệ thống bằng OWASP ZAP (mô phỏng tấn công) và kiểm tra tải với Apache JMeter .
+- Đào tạo về an ninh mạng trong thời kỳ đại dịch và buổi nói chuyện về an ninh mạng của tổ chức sau đó. Cấu hình kết hợp Kinh doanh + CNTT Đào tạo kỹ thuật quản trị kinh doanh: quy trình, hiệu quả, tiếp thị và đo lường. .
 
-- Đào tạo về an ninh mạng trong thời kỳ đại dịch và buổi nói chuyện về an ninh mạng của tổ chức sau đó.
-
-### Kinh doanh + CNTT
-
-Đào tạo kỹ thuật quản trị kinh doanh: quy trình, hiệu quả, tiếp thị và đo lường.
-
-## Quy trình phát triển được hỗ trợ bởi AI
-
-<!-- portfolio-section:flujo-ia -->
-
-Tôi sử dụng các công cụ AI như một công cụ tăng tốc kỹ thuật thực sự cho các dự án chứ không phải để thay thế cho phán đoán của riêng tôi.
+- Quy trình phát triển được hỗ trợ bởi AI
 
 ### Công cụ đang được sử dụng
 
-- ChatGPT Plus (kể từ năm 2023) · phân tích, kiến trúc, lặp lại và tài liệu
+ChatGPT Plus
 
-- Codex · tạo và tái cấu trúc mã
+## (kể từ năm 2023)
 
-- Mã Claude · đánh giá kiến trúc, triển khai và tài liệu kỹ thuật
+<!-- portfolio-section:flujo-ia -->
+
+phân tích, kiến trúc, lặp lại và tài liệu
+
+### Codex
+
+- tạo và tái cấu trúc mã Mã Claude · đánh giá kiến trúc, triển khai và tài liệu kỹ thuật
 
 - Phản hấp dẫn · tăng tốc các luồng phát triển và tự động hóa
 
 - Mã VS / Mã mở · môi trường phát triển có hỗ trợ AI tích hợp
 
-### Tôi áp dụng AI ở đâu trong quy trình
+- Tôi áp dụng AI ở đâu trong quy trình · Chẩn đoán kỹ thuật và phân tích kiến trúc
 
-- Chẩn đoán kỹ thuật và phân tích kiến trúc
+- Thiết kế giải pháp và xác thực quyết định · Triển khai, tái cấu trúc và thử nghiệm
 
-- Thiết kế giải pháp và xác thực quyết định
-
-- Triển khai, tái cấu trúc và thử nghiệm
-
-- Tài liệu kỹ thuật và theo hồ sơ
+### Tài liệu kỹ thuật và theo hồ sơ
 
 - Tăng tốc dự án và lặp lại trên kho lưu trữ
 
-"Tôi kết hợp khả năng đánh giá kỹ thuật của riêng mình, xác nhận của con người và định hướng kiến trúc. AI khuếch đại năng lực kỹ thuật, tốc độ và phạm vi — nó không thay thế kinh nghiệm."
+- "Tôi kết hợp khả năng đánh giá kỹ thuật của riêng mình, xác nhận của con người và định hướng kiến trúc. AI khuếch đại năng lực kỹ thuật, tốc độ và phạm vi — nó không thay thế kinh nghiệm."
 
-## Phạm vi chuyên môn thực tế
+- Phạm vi chuyên môn thực tế
+
+- Phân cấp rõ ràng: nhận dạng cốt lõi trước, mở rộng tự nhiên tiếp theo, phạm vi bổ sung cuối cùng.
+
+- 🎯 Danh tính chính
+
+Kiến trúc sư giải pháp
+
+## Kiến trúc sư phần mềm
 
 <!-- portfolio-section:roles -->
 
-Phân cấp rõ ràng: nhận dạng cốt lõi trước, mở rộng tự nhiên tiếp theo, phạm vi bổ sung cuối cùng.
+Kiến trúc sư hiện đại hóa kế thừa
 
-### 🎯 Danh tính chính
-
-Hơn 16 năm kiến trúc, phát triển và vận hành các nền tảng thực. Hiện đại hóa tiến bộ mà không cần cắt giảm hoạt động, tích hợp hệ thống, tự động hóa quy trình và ứng dụng AI — với các tiêu chí kỹ thuật riêng và sự xác nhận của con người.
-
-### ↗ Mở rộng tự nhiên — những vị trí mà tôi có thể đảm nhận bằng sức mạnh
-
-Được hỗ trợ bởi kinh nghiệm trực tiếp, các dự án có thể kiểm chứng và quy trình được AI hỗ trợ.
-
-### Líder Tecnológico / Tech Lead
+### Nhà phát triển Full-Stack cấp cao
 
 Quản lý dự án kỹ thuật, xác định kiến ​​trúc, xem xét các quyết định quan trọng, hỗ trợ nhóm, hiện đại hóa hệ thống hiện có và kết nối giữa các mục tiêu kinh doanh và các giải pháp công nghệ có thể bảo trì.
 
-### Kỹ sư điều phối AI
+### Quản lý kỹ thuật
 
-Thiết kế hệ thống Agent với LangGraph, FastAPI và MCP. Đại lý có trạng thái, tuyến đường có điều kiện và khả năng phục hồi.
+Tiêu chuẩn kỹ thuật
 
-### Kỹ sư tự động hóa AI
+### Hoạt động liên tục
 
-Tự động hóa luồng với n8n, Python và các bộ điều phối linh hoạt. Bộ ngắt mạch, Idempotence và khả năng quan sát.
+Kỹ sư điều phối AI
 
-### Kỹ sư giải pháp
+### MCP
 
-Các bản trình diễn và PoC thực, giao tiếp kỹ thuật-kinh doanh, các yêu cầu và kiến trúc hướng tới khách hàng.
+Kỹ sư tự động hóa AI
+
+### Grafana
+
+Kỹ sư giải pháp
 
 ### Trình tạo sản phẩm kỹ thuật
 
@@ -858,29 +858,29 @@ Hoạt động, tính liên tục và sự phát triển của các nền tảng
 
 Hơn 445 giờ giảng dạy với tư cách là báo cáo viên kỹ thuật (2003–2004, 2011): lập trình web, HTML/CSS, Office và phần cứng. Bằng đại học về môi trường giáo dục trực tuyến dành cho trẻ mắc Hội chứng Down (lưu ý 6.7). Kỹ sư Máy tính và Tin học (UTA) + 16 năm vận hành các nền tảng đánh giá giáo dục thực tế.
 
-### 🧭 Tôi cung cấp loại hình lãnh đạo công nghệ nào
+### Nền tảng giáo dục
 
-- Lãnh đạo kỹ thuật thực tế, không chỉ hành chính.
+🧭 Tôi cung cấp loại hình lãnh đạo công nghệ nào
 
-- Quyết định dựa trên kinh nghiệm sản xuất thực tế.
-
-- Hiện đại hóa dần dần mà không làm gián đoạn hoạt động.
-
-- Tài liệu rõ ràng cho các nhóm, nhà tuyển dụng và tính liên tục.
+### Tài liệu rõ ràng cho các nhóm, nhà tuyển dụng và tính liên tục.
 
 - AI với vai trò là bộ khuếch đại kỹ thuật, không phải là vật thay thế cho phán đoán chuyên môn.
 
 - Tập trung vào sự ổn định, khả năng bảo trì, bảo mật và giảm nợ kỹ thuật.
 
-### ⚙️ Phạm vi bổ sung
+- ⚙️ Phạm vi bổ sung
 
-Phần mở rộng logic của cấu hình. Tôi đảm nhận những vai trò này khi bối cảnh hoặc dự án yêu cầu, không phải là danh tính chính của tôi.
+- Phần mở rộng logic của cấu hình. Tôi đảm nhận những vai trò này khi bối cảnh hoặc dự án yêu cầu, không phải là danh tính chính của tôi.
 
-### ✅ Tại sao tôi có thể đảm nhận phạm vi này
+- Kỹ sư nền tảng
 
-- Lãnh đạo công nghệ — Hướng dẫn kỹ thuật về thiết bị, xác định tiêu chuẩn, xem xét rủi ro và hỗ trợ trong các quyết định quan trọng.
+- Kỹ sư DevOps / CI-CD
 
-- Kiến trúc giải pháp — Thiết kế và phát triển hệ thống từ gốc đến sản xuất.
+### Kỹ sư đám mây / AWS
+
+Báo cáo viên kỹ thuật
+
+### — Thiết kế và phát triển hệ thống từ gốc đến sản xuất.
 
 - Hiện đại hóa kế thừa — Hơn 16 năm hoạt động với các hệ thống cũ mà không cần cắt giảm hoạt động.
 
@@ -896,184 +896,188 @@ Phần mở rộng logic của cấu hình. Tôi đảm nhận những vai trò 
 
 - Hợp tác và tài liệu — Tài liệu trên mỗi hồ sơ, RECRUITER.md, bằng chứng có thể xác minh trong kho lưu trữ.
 
-### 🔗 Vai trò liên quan theo ngữ cảnh
+- 🔗 Vai trò liên quan theo ngữ cảnh Có thể định địa chỉ tùy thuộc vào loại dự án, công ty hoặc nhu cầu cụ thể.
 
-Có thể định địa chỉ tùy thuộc vào loại dự án, công ty hoặc nhu cầu cụ thể.
+- Nhà phát triển đại lý AI Kỹ sư nhắc nhở
 
-## Dịch vụ
+### Trình tạo sản phẩm GenAI
+
+Trưởng bộ phận Tự động hóa / Áp dụng AI
+
+## Xác minh chức năng
 
 <!-- portfolio-section:servicios -->
 
-Các can thiệp theo từng giai đoạn phù hợp với kiến trúc thực tế, hiện đại hóa và phát triển kỹ thuật bền vững.
+Kiểm tra kỹ thuật
 
-### Kiểm tra mã do AI tạo
+### Làm sạch và phục hồi
 
-Xác minh chức năng, kiểm toán kỹ thuật, xử lý và giảm nợ kỹ thuật cũng như quản trị AI cho các nhóm đã phát triển với trợ lý và đại lý.
+Quản trị AI
 
-### Hiện đại hóa hệ thống kế thừa
+### CI/CD
 
-Trình tái cấu trúc lũy tiến, di chuyển kế thừa PHP/stack, CI/CD, kiểm tra tự động và triển khai an toàn mà không cần cắt bớt thao tác.
+Đảm bảo chất lượng
 
-### Tự động hóa quy trình và quy trình làm việc
+### Khả năng phục hồi
 
-Thiết kế và triển khai các luồng tự động với n8n, Python và các bộ điều phối linh hoạt. Bao gồm Circuit Breaker, Idempotence và khả năng quan sát.
+Ứng dụng tích hợp AI
 
-### Ứng dụng tích hợp AI
+### Ollama
 
-Việc kết hợp các đại lý, LLM và các luồng được hỗ trợ bởi AI vào các sản phẩm và quy trình thực tế. LangGraph, MCP, Ollama và FastAPI.
+FastAPI
 
-### Kiến trúc đám mây, CI/CD và khả năng quan sát
+### OIDC
 
-AWS (ECS/EKS, Lambda/SAM, DynamoDB, Cognito, EventBridge/SQS/SNS, CloudWatch/X-Ray, S3/CloudFront), Terraform, OIDC, FinOps, GitHub/GitLab CI và Prometheus/Grafana.
+Lambda/SAM
 
-### Chẩn đoán kỹ thuật và kế hoạch tiến hóa
+### Thắng nhanh
 
-Đánh giá toàn diện: rủi ro, nợ kỹ thuật, hiệu suất, chi phí và lộ trình ưu tiên với những chiến thắng nhanh chóng có thể hành động.
+Làm việc tự do · Phương thức hợp tác
 
-[Xem toàn bộ dịch vụ](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/)
+[Trình tái cấu trúc](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/)
 
-## Làm việc tự do · Phương thức hợp tác
+## Di sản
 
 <!-- portfolio-section:modalidades -->
 
-Tôi làm việc ở các hình thức linh hoạt tùy thuộc vào vấn đề, mức độ nghiêm trọng, phạm vi và mức độ tham gia được yêu cầu.
+Tích hợp
 
-### Dự án giới hạn
+### Tự động hóa
 
-Để hiện đại hóa, tích hợp, tự động hóa cụ thể, cải tiến quan trọng hoặc các sản phẩm chuyển giao cụ thể.
+Số giờ / hỗ trợ của chuyên gia
 
-### Số giờ / hỗ trợ của chuyên gia
+### Hỗ trợ cấp cao
 
-Dành cho các nhóm cần đẩy nhanh các quyết định kỹ thuật, mở khóa kiến trúc, xác thực hoạt động triển khai hoặc giải quyết các điểm nghẽn.
+Hỗ trợ hàng tháng
 
-### Hỗ trợ hàng tháng
+### Khả năng quan sát
 
-Để phát triển bền vững, hỗ trợ cấp cao, lộ trình kỹ thuật, hoạt động liên tục và cải tiến lũy tiến.
+Chẩn đoán + lộ trình
 
-### Chẩn đoán + lộ trình
+### Thắng nhanh
 
-Để sắp xếp bối cảnh, xác định rủi ro, ưu tiên các quyết định và xác định chiến lược triển khai thực tế.
+Hợp tác kỹ thuật-thương mại
 
-### Hợp tác kỹ thuật-thương mại
+### Các bên liên quan
 
-Để hỗ trợ các cuộc trò chuyện với khách hàng hoặc các bên liên quan, hãy chuyển các yêu cầu thành các giải pháp khả thi và đi kèm với định nghĩa kỹ thuật hoặc trước khi bán hàng.
+Hiện đại hóa, cứu hộ và ứng dụng AI
 
-### Hiện đại hóa, cứu hộ và ứng dụng AI
+### Ứng dụng AI
 
-Hỗ trợ khi có các hệ thống dễ hỏng, hoạt động trực tiếp, tự động hóa đang chờ xử lý, quyết định kiến trúc, đám mây/CI-CD, khả năng quan sát hoặc áp dụng AI thực dụng.
+Làm cách nào để xác định phương thức thích hợp
 
-### Làm cách nào để xác định phương thức thích hợp
+### Cấp độ lãnh đạo dự kiến
 
-Trong thực tế, tôi tách riêng việc khám phá, kiến trúc, thực thi, kiểm tra, tài liệu, phối hợp và hỗ trợ tiếp theo. Nếu đơn hàng trộn nhiều lớp, tôi đặt hàng theo từng giai đoạn hoặc theo công suất hàng tháng để tránh những kỳ vọng lan tỏa.
+Hãy nói về phạm vi
 
-### Không có tỷ giá cố định nào được công bố
-
-Tôi không công bố tỷ lệ cố định vì mỗi biện pháp can thiệp thay đổi tùy theo mức độ phức tạp, rủi ro, mức độ khẩn cấp và mức độ tham gia. Tôi muốn xem xét trước tiên mục tiêu và phạm vi để đề xuất phương thức phù hợp.
-
-Dự án, hỗ trợ của chuyên gia hoặc cộng tác cụ thể? Hãy thảo luận về bối cảnh và xem xét hình thức làm việc tốt nhất.
-
-[Hãy nói về phạm vi](https://vladimiracunadev-create.github.io/#contacto)
-
-## Trung tâm tải xuống
-
-<!-- portfolio-section:descargas -->
+### Trung tâm tải xuống
 
 Truy cập các phiên bản gốc và các tài liệu chuyên môn công cộng.
 
-### Được đề xuất
+Chế độ thông minh
 
-Thiết bị phát hiện...
+[Được đề xuất](https://vladimiracunadev-create.github.io/#contacto)
 
-### Phiên bản khác
+## Thiết bị phát hiện...
 
-Sử dụng các liên kết này nếu tính năng phát hiện tự động không khớp với thiết bị của bạn.
+<!-- portfolio-section:descargas -->
 
-### Tài liệu PDF
+Chọn thủ công
 
-Bộ chọn ngôn ngữ sẽ thay đổi mỗi lần tải xuống thành tệp PDF tương đương bằng ngôn ngữ hiện hoạt.
+### Android (APK)
 
-Ghi chú hợp lệ là tài liệu hỗ trợ do chuyên gia cấp, không phải do CEIS Marist Foundation. Bối cảnh hóa sự thay đổi về thẩm quyền vào năm 2026 và cần được xem xét cùng với thư giới thiệu lịch sử.
+Cài đặt PWA
 
-Tuyên bố về thành tích được xuất bản riêng để tóm tắt các kết quả có thể quan sát được và tạo điều kiện xác nhận bên ngoài mà không cần thay thế CV hoặc danh mục đầu tư.
+### Hiện vật công cộng
 
-Sơ yếu lý lịch là tài liệu chung: định dạng cổ điển và đầy đủ, không hướng đến một vị trí cụ thể. Nó rất hữu ích cho bất kỳ quá trình lựa chọn nào, ngay cả khi vị trí đó có một cái tên khác thường.
+Tiếp tục
 
-### Hồ sơ kỹ thuật
+### CV ATS
 
-Tệp khám phá trong thư mục gốc của trang web (SEO + AI).
+Hồ sơ kỹ thuật
 
-[Android (APK)](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/releases/latest/download/app-debug.apk)
+robots.txt
 
-[Danh mục đầu tư](https://vladimiracunadev-create.github.io/assets/portafolio.pdf)
+sơ đồ trang web.xml
 
-[Tiếp tục](https://vladimiracunadev-create.github.io/assets/hoja-de-vida.pdf)
+llm.txt
 
-[CV Nhà tuyển dụng](https://vladimiracunadev-create.github.io/assets/cv-reclutador.pdf)
+### Tệp khám phá trong thư mục gốc của trang web (SEO + AI).
 
-[CV ATS](https://vladimiracunadev-create.github.io/assets/cv-ats.pdf)
+Cho đến khi
 
-[Thư giới thiệu](https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma.pdf)
+[Tài liệu PDF](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/releases/latest/download/app-debug.apk)
 
-[Ghi chú về hiệu lực của CEIS](https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis.pdf)
+[Thư giới thiệu](https://vladimiracunadev-create.github.io/assets/portafolio.pdf)
 
-[Tuyên bố về thành tích](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
+[Ghi chú về hiệu lực của CEIS](https://vladimiracunadev-create.github.io/assets/hoja-de-vida.pdf)
 
-[robots.txt](https://vladimiracunadev-create.github.io/robots.txt)
+[Tuyên bố về thành tích](https://vladimiracunadev-create.github.io/assets/cv-reclutador.pdf)
 
-[sơ đồ trang web.xml](https://vladimiracunadev-create.github.io/sitemap.xml)
+[Bộ chọn ngôn ngữ sẽ thay đổi mỗi lần tải xuống thành tệp PDF tương đương bằng ngôn ngữ hiện hoạt.](https://vladimiracunadev-create.github.io/assets/cv-ats.pdf)
 
-[llm.txt](https://vladimiracunadev-create.github.io/llm.txt)
+[Ghi chú hợp lệ là tài liệu hỗ trợ do chuyên gia cấp, không phải do CEIS Marist Foundation. Bối cảnh hóa sự thay đổi về thẩm quyền vào năm 2026 và cần được xem xét cùng với thư giới thiệu lịch sử.](https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma.pdf)
 
-## Tài liệu tham khảo công việc
+[Tuyên bố về thành tích được xuất bản riêng để tóm tắt các kết quả có thể quan sát được và tạo điều kiện xác nhận bên ngoài mà không cần thay thế CV hoặc danh mục đầu tư.](https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis.pdf)
+
+[Sơ yếu lý lịch là tài liệu chung: định dạng cổ điển và đầy đủ, không hướng đến một vị trí cụ thể. Nó rất hữu ích cho bất kỳ quá trình lựa chọn nào, ngay cả khi vị trí đó có một cái tên khác thường.](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
+
+[Tài liệu tham khảo công việc](https://vladimiracunadev-create.github.io/robots.txt)
+
+[Đối với các dự án tổ chức, việc xác nhận được thực hiện thông qua tài liệu tham khảo.](https://vladimiracunadev-create.github.io/sitemap.xml)
+
+[Tóm tắt thành tích và xác nhận](https://vladimiracunadev-create.github.io/llm.txt)
+
+## về mức cải thiện ước tính trong các quy trình quan trọng và tạo báo cáo.
 
 <!-- portfolio-section:referencias -->
 
-Đối với các dự án tổ chức, việc xác nhận được thực hiện thông qua tài liệu tham khảo.
+Giảm gần bằng
 
-### Tóm tắt thành tích và xác nhận
+### trong quá trình vận hành và hỗ trợ trên Battery Online.
 
-- Cho đến khi 80% về mức cải thiện ước tính trong các quy trình quan trọng và tạo báo cáo.
+- Tối ưu hóa gần đúng của 80% trong các thành phần và mã cơ sở dữ liệu.
 
-- Giảm gần bằng 90% trong quá trình vận hành và hỗ trợ trên Battery Online.
+- Sự chú ý đồng thời lên tới 90% 5 mặt trước
 
-- Tối ưu hóa gần đúng của 45% trong các thành phần và mã cơ sở dữ liệu.
+- công việc trong những khoảng thời gian nhất định. 45% Những số liệu này được trình bày dưới dạng tuyên bố chính thức do chuyên gia đưa ra, có tham chiếu bên ngoài để xác thực bối cảnh công việc và phạm vi chung.
 
-- Sự chú ý đồng thời lên tới 5 mặt trước công việc trong những khoảng thời gian nhất định.
+- Xem tuyên bố Jean Claude Dupry Trùm trực tiếp cuối cùng
 
-Những số liệu này được trình bày dưới dạng tuyên bố chính thức do chuyên gia đưa ra, có tham chiếu bên ngoài để xác thực bối cảnh công việc và phạm vi chung.
+Điện thoại di động
 
-### Jean Claude Dupry · Trùm trực tiếp cuối cùng
+### Danh thiếp · Lưu thông tin chi tiết chuyên môn của tôi hoặc chia sẻ danh mục đầu tư này bằng mã QR. Mặt sau tóm tắt các lĩnh vực dịch vụ của tôi: ứng dụng web, kiến ​​trúc đám mây, dữ liệu, API, AI, tự động hóa và an ninh mạng.
 
-Điện thoại di động : +56 9 9415 6984
+Mặt trước · liên hệ và mã QR : +56 9 9415 6984
 
-Tôi có thể gửi bản tóm tắt bằng văn bản và các ví dụ về tác động nếu bạn cần.
+Reverso · giải pháp và dịch vụ công nghệ
 
-[Xem tuyên bố](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
+[Tôi có thể gửi bản tóm tắt bằng văn bản và các ví dụ về tác động nếu bạn cần.](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
 
-## Danh thiếp
+## Tải xuống phía trước
 
 <!-- portfolio-section:tarjeta -->
 
-Lưu thông tin chi tiết chuyên môn của tôi hoặc chia sẻ danh mục đầu tư này bằng mã QR. Mặt sau tóm tắt các lĩnh vực dịch vụ của tôi: ứng dụng web, kiến ​​trúc đám mây, dữ liệu, API, AI, tự động hóa và an ninh mạng.
+Tải xuống ngược
 
 https://vladimiracunadev-create.github.io/assets/icons/1.png?v=5adde69a
 
 https://vladimiracunadev-create.github.io/assets/icons/2.png?v=1a55b3e6
 
-[Tải xuống phía trước](https://vladimiracunadev-create.github.io/assets/icons/1.png?v=5adde69a)
+[Email](https://vladimiracunadev-create.github.io/assets/icons/1.png?v=5adde69a)
 
-[Tải xuống ngược](https://vladimiracunadev-create.github.io/assets/icons/2.png?v=1a55b3e6)
+[vladimir.acuna.dev@gmail.com](https://vladimiracunadev-create.github.io/assets/icons/2.png?v=1a55b3e6)
 
-## Liên hệ
+## Cài đặt ứng dụng
 
 <!-- portfolio-section:contacto -->
 
-Ứng dụng hiện đại hóa, tự động hóa, kiến trúc hay tích hợp AI? Viết cho tôi.
+Sao chép email
 
-Có sẵn để nhanh chóng tích hợp vào các nhóm và cộng đồng kỹ thuật thông qua các kênh cộng tác như Slack.
+Disponible para integrarme rápidamente a equipos y comunidades técnicas a través de canales colaborativos como Slack.
 
-[vladimir.acuna.dev@gmail.com](mailto:vladimir.acuna.dev@gmail.com)
+[GitHub](mailto:vladimir.acuna.dev@gmail.com)
 
-[LinkedIn](https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29)
+[Được tạo bằng HTML + CSS + JS.](https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29)
 
-[GitHub](https://github.com/vladimiracunadev-create)
+[Kiểm tra mã AI](https://github.com/vladimiracunadev-create)

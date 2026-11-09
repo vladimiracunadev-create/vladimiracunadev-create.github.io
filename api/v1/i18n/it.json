@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-26",
+    "generated_at": "2026-11-09",
     "language": "it",
     "language_name": "Italian",
     "native_name": "Italiano",
@@ -62,61 +62,61 @@
     },
     {
       "id": "demos",
-      "title": "Andiamo a vivere.",
+      "title": "Vedi sito",
       "min_level": 1,
       "freelance_hidden": false
     },
     {
       "id": "experiencia",
-      "title": "Esperienza",
+      "title": "Standardizzazione di ambienti, laboratori Docker / AWS, automazione, osservabilità e prototipi con IA locale.",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "flujo-ia",
-      "title": "Flusso di sviluppo assistito da IA",
+      "title": "(dal 2023)",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "roles",
-      "title": "Campo di applicazione professionale",
+      "title": "Architetto software",
       "min_level": 1,
       "freelance_hidden": true
     },
     {
       "id": "servicios",
-      "title": "Servizi",
+      "title": "Verifica funzionale",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "modalidades",
-      "title": "Freelance · Modalities of collaborazione",
+      "title": "Eredità",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "descargas",
-      "title": "Centro di scarico",
+      "title": "Rilevamento di attrezzature...",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "referencias",
-      "title": "Riferimenti del lavoro",
+      "title": "miglioramento stimato nei processi critici e reportistica.",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "tarjeta",
-      "title": "Scheda di presentazione",
+      "title": "Scarica Front",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "contacto",
-      "title": "Contatto ora",
+      "title": "Installazione dell'app",
       "min_level": 0,
       "freelance_hidden": false
     }

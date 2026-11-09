@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-26",
+    "generated_at": "2026-11-09",
     "language": "zh",
     "language_name": "Simplified Chinese",
     "native_name": "简体中文",
@@ -62,61 +62,61 @@
     },
     {
       "id": "demos",
-      "title": "上活话去.",
+      "title": "查看网站",
       "min_level": 1,
       "freelance_hidden": false
     },
     {
       "id": "experiencia",
-      "title": "经验",
+      "title": "环境标准化,多克/AWS实验室,自动化,可观察性以及与当地IA的原型.",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "flujo-ia",
-      "title": "由国际投资协会协助的发展流动",
+      "title": "(自2023年以来",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "roles",
-      "title": "真正的专业范围",
+      "title": "软件架构师",
       "min_level": 1,
       "freelance_hidden": true
     },
     {
       "id": "servicios",
-      "title": "服务",
+      "title": "职能核查",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "modalidades",
-      "title": "自由合作方式",
+      "title": "遗产",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "descargas",
-      "title": "排气中心",
+      "title": "探测设备...",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "referencias",
-      "title": "劳工参考",
+      "title": "关键程序和报告工作估计的改进。",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "tarjeta",
-      "title": "演示文稿卡",
+      "title": "下载前置",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "contacto",
-      "title": "联系",
+      "title": "安装 App",
       "min_level": 0,
       "freelance_hidden": false
     }

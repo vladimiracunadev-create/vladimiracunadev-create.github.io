@@ -14,7 +14,7 @@ Ontwikkelingsstroom bijgestaan door IA - ChatGPT Plus · Claude Code · Antizwaa
 
 Interface voorbereid voor meerdere talen , weergave Reclute / Normal / Deep / Freelance , thema licht / donker en inzet web, PWA en APK .
 
-Informatie over de bijgewerkte portefeuille tot en met de 2026-10-25, 13:28 (Amerika/Santiago).
+Informatie over de bijgewerkte portefeuille tot en met de 2026-11-09, 15:38 (Amerika/Santiago).
 
 ### Wie ben ik professioneel?
 
@@ -494,11 +494,11 @@ Psychometrie en evaluatieprogramma · 5 instrumenten · 344 items · 81 schalen 
 
 480 klassen, 40 delen en 8 fasen · foundations → product, architectuur, beveiliging, DevOps, SRE, SPEC, IA en multiagent systemen · redactionele staat verklaard door de repository.
 
-### Wetenschap en onderwijs
+### Zie de anderen
 
-### Menselijk genoomlabs
+Wetenschap en onderwijs
 
-Evolutionair en reproduceerbaar wetenschappelijk platform voor moleculaire en genoomgenetische (v1.0.0): verifieerbare TypeScript kern (effecten, vertaling, ORF, varianten, G-quádruplex), Wetenschappelijke resultaten contracten, FASTA / GF3 / VCF lezers, wetenschappelijke CLI, PWA weblaboratorium en educatief spel.
+### Repo (GitHub)
 
 ### Viool avontuur · Project
 
@@ -506,13 +506,15 @@ Mijn avontuur met de Viool · Onderwijs app om viool te leren vanaf de leeftijd 
 
 ⚡ Verschillende projecten van deze portefeuille werden ontwikkeld met de stroom bijgestaan door IA (Claude Code · ChatGPT Plus · Antigravity) gecombineerd met technische validatie en architectuur richting.
 
-### Recente beoordelingen (auto)
-
-Het wordt geladen van de openbare API's van GitHub en GitLab (geordend door update). Het toont sterren en vorken.
-
-### Recente activiteit (zelf)
-
 ⬆ verplichtingen · hs / MRs · releases - GitHub en GitLab in real time.
+
+### Laten we live gaan.
+
+Openbare links om de feitelijke inzet te zien (indien van toepassing).
+
+### Portfolio Web · GitHub pagina's
+
+Webportfolio in 22 talen in GitHub Pagina's via GitHub Acties. PWA kan worden geïnstalleerd, Lightthouse 100, 154 PDF's gegenereerd door pijpleiding en JSON i18n API.
 
 [Zie referentie](https://vladimiracunadev-create.github.io/#referencias)
 
@@ -704,19 +706,17 @@ Het wordt geladen van de openbare API's van GitHub en GitLab (geordend door upda
 
 [Repo (GitHub)](https://github.com/vladimiracunadev-create/modern-software-engineering-program)
 
+[Menselijk genoomlabs](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program)
+
 [Repo (GitHub)](https://github.com/vladimiracunadev-create/human-genome-labs)
 
-[Repo (GitHub)](https://github.com/vladimiracunadev-create/violin-adventure)
+[Recente beoordelingen (auto)](https://github.com/vladimiracunadev-create/violin-adventure)
 
-## Laten we live gaan.
+## Zie site
 
 <!-- portfolio-section:demos -->
 
-Openbare links om de feitelijke inzet te zien (indien van toepassing).
-
-### Portfolio Web · GitHub pagina's
-
-Webportfolio in 22 talen in GitHub Pagina's via GitHub Acties. PWA kan worden geïnstalleerd, Lightthouse 100, 154 PDF's gegenereerd door pijpleiding en JSON i18n API.
+GitHub
 
 ### AWS S3 + GitHub-acties
 
@@ -734,113 +734,113 @@ Continue implementatie met automatische bouw, SSL en geïsoleerde omgevingen (ma
 
 Een lokale "hub" om de labs te verkennen door stack. Ideaal voor technische interviews.
 
-[Zie site](https://vladimiracunadev-create.github.io/)
+### 2025-Current
 
-[GitHub](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io)
+Overgang (laboratoria + portefeuille)
+
+[Zie demo](https://vladimiracunadev-create.github.io/)
+
+[GitHub Repo](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io)
 
 [Zie demo](https://mi-pagina-scrum-123.s3.us-east-2.amazonaws.com/index.html)
 
-[GitHub Repo](https://github.com/vladimiracunadev-create/proyectos-aws)
+[GitLab Repo](https://github.com/vladimiracunadev-create/proyectos-aws)
 
-[Zie demo](http://finops-vladimir-portfolio-case-l.s3-website.us-east-2.amazonaws.com)
+[Voornaamste vraag](http://finops-vladimir-portfolio-case-l.s3-website.us-east-2.amazonaws.com)
 
-[GitLab Repo](https://gitlab.com/vladimir.acuna.dev-group/vladimir.acuna.dev-group)
+[Demo dev](https://gitlab.com/vladimir.acuna.dev-group/vladimir.acuna.dev-group)
 
-[Voornaamste vraag](https://main.d3r1wuymolxagh.amplifyapp.com/)
+[Ervaring](https://main.d3r1wuymolxagh.amplifyapp.com/)
 
-[Demo dev](https://dev.d20m8tc0banvg.amplifyapp.com/)
+[Samenvatting per mijlpalen (gebruik de "Deep" view voor details).](https://dev.d20m8tc0banvg.amplifyapp.com/)
 
-## Ervaring
+## Standaardisatie van omgevingen, Docker / AWS laboratoria, automatisering, opmerkzaamheid en prototypes met lokale IA.
 
 <!-- portfolio-section:experiencia -->
 
-Samenvatting per mijlpalen (gebruik de "Deep" view voor details).
+Reproduceerbare documentatie per profiel (recruiter, ontwikkelaar en praktische gevallen).
 
-### Overgang (laboratoria + portefeuille)
+### 14 jaar
 
-Standaardisatie van omgevingen, Docker / AWS laboratoria, automatisering, opmerkzaamheid en prototypes met lokale IA.
+Stichting CEIS Maristas
 
-- Reproduceerbare documentatie per profiel (recruiter, ontwikkelaar en praktische gevallen).
+- Architectuur, ontwikkeling en werking van educatieve / psychometrische webplatforms. Optimalisatie SQL / prestaties. Operationele beveiliging: forensische analyse van aanvallen, beheer van log en testen met OWASP ZAP en JMeter.
 
-- Focus op de praktijk: branches, PR's, CI / CD, Pagina's en releases.
+- Beveiliging:
 
-### Stichting CEIS Maristas
+### Beheer en analyse van server en PHP omgeving log: code reiniging en detectie van abnormale activiteit van onbekende IP.
 
-Architectuur, ontwikkeling en werking van educatieve / psychometrische webplatforms. Optimalisatie SQL / prestaties. Operationele beveiliging: forensische analyse van aanvallen, beheer van log en testen met OWASP ZAP en JMeter.
+Systeembreed
 
-- Beveiliging: forensische analyse van serveraanvallen bij meer dan één gelegenheid, bepalen oorsprong, invoer vector en bereik.
+- OWASP ZAP (simulatie van aanvallen) en belastingstests met
 
-- Beheer en analyse van server en PHP omgeving log: code reiniging en detectie van abnormale activiteit van onbekende IP.
+- Apache JMeter
 
-- Systeembreed OWASP ZAP (simulatie van aanvallen) en belastingstests met Apache JMeter .
+- Training in cybersecurity tijdens de pandemie en daaropvolgende institutionele gesprekken over cybersecurity. Hybride profiel Bedrijfsleven + IT Technische opleiding in bedrijfsmanagement: processen, efficiëntie, marketing en meting. .
 
-- Training in cybersecurity tijdens de pandemie en daaropvolgende institutionele gesprekken over cybersecurity.
-
-### Bedrijfsleven + IT
-
-Technische opleiding in bedrijfsmanagement: processen, efficiëntie, marketing en meting.
-
-## Ontwikkelingsstroom ondersteund door IA
-
-<!-- portfolio-section:flujo-ia -->
-
-Ik gebruik IA-tools als echte technische acceleratoren in projecten, niet als vervanging voor het eigen criterium.
+- Ontwikkelingsstroom ondersteund door IA
 
 ### Gereedschappen voor actief gebruik
 
-- ChatGPT Plus (sinds 2023) · analyse, architectuur, iteratie en documentatie
+ChatGPT Plus
 
-- Codex · codegeneratie en refactorisatie
+## (sinds 2023)
 
-- Claude Code · architectuuranalyse, uitvoering en technische documentatie
+<!-- portfolio-section:flujo-ia -->
+
+analyse, architectuur, iteratie en documentatie
+
+### Codex
+
+- codegeneratie en refactorisatie Claude Code · architectuuranalyse, uitvoering en technische documentatie
 
 - Antizwaartekracht · versnelling van de ontwikkeling en automatiseringsstromen
 
 - VS Code / OpenCode · ontwikkelingsomgevingen met geïntegreerde IA-steun
 
-### Waar ik IA in de stroom toepas
+- Waar ik IA in de stroom toepas · Technische diagnose en architectuuranalyse
 
-- Technische diagnose en architectuuranalyse
+- Ontwerp van oplossingen en validatie van besluiten · Implementatie, refactorisatie en testen
 
-- Ontwerp van oplossingen en validatie van besluiten
-
-- Implementatie, refactorisatie en testen
-
-- Technische en profieldocumentatie
+### Technische en profieldocumentatie
 
 - Projectversnelling en iteratie van de repository
 
-"Ik combineer technische criteria van mijn eigen, menselijke validatie en architectuur richting. De IA versterkt capaciteit, snelheid en technisch bereik - het vervangt ervaring niet."
+- "Ik combineer technische criteria van mijn eigen, menselijke validatie en architectuur richting. De IA versterkt capaciteit, snelheid en technisch bereik - het vervangt ervaring niet."
 
-## De werkelijke beroepsomschrijving
+- De werkelijke beroepsomschrijving
+
+- Duidelijke Hierarchie: eerste hoofdidentiteit, dan natuurlijke expansie, complementaire reikwijdte aan het einde.
+
+- 🎯 Hoofdidentiteit
+
+Architect van Oplossingen
+
+## Software-architect
 
 <!-- portfolio-section:roles -->
 
-Duidelijke Hierarchie: eerste hoofdidentiteit, dan natuurlijke expansie, complementaire reikwijdte aan het einde.
+Legacy Modernization Architect
 
-### 🎯 Hoofdidentiteit
-
-16 + jaar architectuur, ontwikkeling en exploitatie van echte platforms. Progressieve modernisering zonder snijbewerking, integratie van systemen, procesautomatisering en toegepaste IA - met technisch criterium en menselijke validatie.
-
-### ↗ Natuurlijke expansie - lasten die ik met kracht kan aannemen
-
-ondersteund door directe ervaring, controleerbare projecten en IA-gesteunde stroom.
-
-### Technologisch leider/technologisch leider
+### Senior Full-Stack Developer
 
 Technische projectrichting, definitie van architectuur, herziening van kritische beslissingen, apparatuur begeleiding, modernisering van bestaande systemen en verbinding tussen bedrijfsdoelstellingen en duurzame technologische oplossingen.
 
-### AI Orchestra Ingenieur
+### Technisch Directoraat
 
-Ontwerp van een agenic systeem met LangGraph, FastAPI en MCP. Agenten met state, voorwaardelijke routes en veerkracht.
+Technische normen
 
-### AI-automatiseringsingenieur
+### Operationele continuïteit
 
-Automatisering van stromen met n8n, Python en veerkrachtige orkestratoren. Circuit Breaker, Idempotentie en opmerkzaamheid.
+AI Orchestra Ingenieur
 
-### Oplossingen ingenieur
+### MCP
 
-Wij geven en PoCs echte, technische communicatie - zakelijke, eisen en klantgerichte architectuur.
+AI-automatiseringsingenieur
+
+### Grafana
+
+Oplossingen ingenieur
 
 ### Technische productbouwer
 
@@ -858,29 +858,29 @@ Werking, continuïteit en evolutie van platforms met focus op wrijvingsreductie,
 
 445 + uren als technisch rapporteur (2003-2004, 2011): webprogramming, HTML / CSS, Office en hardware. Universitaire graad op web onderwijsomgeving voor kinderen met Down Syndrome (noot 6.7) Ing. in Computing and Informatics (UTA) + 16 jaar operationele echte educatieve evaluatieplatforms.
 
-### 🧭 Wat voor soort technologisch leiderschap ik bied
+### Onderwijsplatforms
 
-- Praktisch technisch leiderschap, niet alleen administratief.
+🧭 Wat voor soort technologisch leiderschap ik bied
 
-- Besluiten op basis van echte productie-ervaring.
-
-- Geleidelijke modernisering zonder onderbreking van de exploitatie.
-
-- Duidelijke documentatie voor teams, recruiters en continuïteit.
+### Duidelijke documentatie voor teams, recruiters en continuïteit.
 
 - IA als technische versterker, niet als vervanging voor het professionele criterium.
 
 - Aanpak van stabiliteit, duurzaamheid, zekerheid en technische schuldreductie.
 
-### ⚙️ Aanvullend toepassingsgebied
+- ⚙️ Aanvullend toepassingsgebied
 
-De logische uitbreiding van het profiel. Ik neem deze rollen aan wanneer de context of het project het vereist, niet als hoofdidentiteit.
+- De logische uitbreiding van het profiel. Ik neem deze rollen aan wanneer de context of het project het vereist, niet als hoofdidentiteit.
 
-### ✅ Waarom kan ik dit bereik nemen?
+- Platform ingenieur
 
-- Technologisch leiderschap — Technische handleiding voor apparatuur, definitie van normen, risicobeoordeling en follow-up bij kritische beslissingen.
+- DevOps / Cic-CD Engineer
 
-- Het ontwerp van oplossingen — Ontwerp en evolutie van systemen van de wortel tot productie.
+### Cloud / AWS Engineer
+
+Technische rapporteur
+
+### — Ontwerp en evolutie van systemen van de wortel tot productie.
 
 - Modernisering van het recht — 16 + jaar met geërfde systemen zonder snijbewerking.
 
@@ -896,184 +896,188 @@ De logische uitbreiding van het profiel. Ik neem deze rollen aan wanneer de cont
 
 - Samenwerking en documentatie — DC's op profiel, RECRUITER.md, bewijsverifieerbaar in repo's.
 
-### 🔗 Verwante rollen per context
+- 🔗 Verwante rollen per context Afwijkend per projecttype, bedrijf of specifieke behoefte.
 
-Afwijkend per projecttype, bedrijf of specifieke behoefte.
+- AI Agent Developer Waarschuwings-engineer
 
-## Diensten
+### GenAI-productbouwer
+
+Hoofd Automatisering / AI-adoptie
+
+## Functionele verificatie
 
 <!-- portfolio-section:servicios -->
 
-Interventies in fasen die zijn afgestemd op de werkelijke architectuur, modernisering en duurzame technische evolutie.
+Technische controle
 
-### Code audit gegenereerd door IA
+### Reiniging en herstel
 
-Functionele verificatie, technische audit, technische schuldafhandeling en -reductie, en IA-governance voor teams die reeds met assistenten en agenten zijn ontwikkeld.
+Bestuur van IA
 
-### Modernisering van de legacysystemen
+### CI / CD
 
-Progressieve Refactor, PHP / stop legacy migratie, CI / CD, geautomatiseerd testen en veilige implementatie zonder snijden operatie.
+QA
 
-### Proces- en workflowautomatisering
+### Resilience
 
-Ontwerp en implementatie van automatische stromen met n8n, Python en veerkrachtige orkestrators. Circuit Breaker, Idempotency en observeerbaarheid inbegrepen.
+Integratie van toegepaste effectbeoordeling
 
-### Integratie van toegepaste effectbeoordeling
+### Olama
 
-Integratie van agenten, LLM's en IA-geassisteerde stromen in echte producten en processen. LangGraph, MCP, Olama en FastAPI.
+FastAPI
 
-### Cloud Architecture, CI / CD en Observability
+### ODIC
 
-AWS (ECS / EKS, Lambda / SAM, DynamoDB, Cognito, EventBridge / SQS / SNS, CloudWatch / X-Ray, S3 / CloudFront), Terraform, OIDC, FinOps, GitHub / GitLab CI en Prometheus / Grafana.
+Lambda / SAM
 
-### Technische diagnose en evolutieplan
+### Snelle overwinningen
 
-Uitgebreide beoordeling: risico's, technische schulden, prestaties, kosten en prioritaire routekaart met snelle winsten kunnen worden gemaakt.
+Freelance · Modaliteiten van samenwerking
 
-[Zie de volledige service](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/)
+[Refactor](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/)
 
-## Freelance · Modaliteiten van samenwerking
+## Legacy
 
 <!-- portfolio-section:modalidades -->
 
-Ik werk in flexibele formaten volgens het probleem, de kritische houding, de reikwijdte en het vereiste niveau van betrokkenheid.
+Integraties
 
-### Project afgesloten
+### Automatisering
 
-Voor tijdige modernisering, integratie, specifieke automatisering, kritische verbetering of concrete uitvoering.
+Expert support / uur tas
 
-### Expert support / uur tas
+### Ondersteuning door hoge ambtenaren
 
-Voor teams die technische beslissingen moeten versnellen, architectuur moeten ontgrendelen, implementaties moeten valideren of knelpunten moeten oplossen.
+Maandelijkse bijstand
 
-### Maandelijkse bijstand
+### Waarneming
 
-Voor duurzame ontwikkeling, senior ondersteuning, technische routekaart, operationele continuïteit en progressieve verbetering.
+Diagnose + routekaart
 
-### Diagnose + routekaart
+### Snelle overwinningen
 
-Om de context te ordenen, risico's te identificeren, beslissingen prioriteit te geven en een realistische uitvoeringsstrategie te bepalen.
+Technische en commerciële samenwerking
 
-### Technische en commerciële samenwerking
+### Belanghebbenden
 
-Om gesprekken met klanten of belanghebbenden te ondersteunen, moeten de vereisten worden vertaald naar levensvatbare oplossingen en predata of technische definitie worden begeleid.
+Modernisering, redding en toepassing van IA
 
-### Modernisering, redding en toepassing van IA
+### IA toegepast
 
-Ondersteuning bij kwetsbare systemen, leefbaarheid, in afwachting van automatisering, architectonische beslissingen, cloud / Cic@-@ CD, opmerkzaamheid of pragmatische goedkeuring van IA.
+Hoe ik de juiste modaliteit bepaal
 
-### Hoe ik de juiste modaliteit bepaal
+### Verwacht niveau van leiderschap
 
-In de praktijk, aparte ontdekking, architectuur, uitvoering, testen, documentatie, coördinatie en later ondersteuning. Als de bestelling meerdere lagen mengt, bestel ik het in fasen of maandelijks capaciteit om diffuse verwachtingen te vermijden.
+Laten we het over de scope hebben.
 
-### Geen vaste koersen gepubliceerd
-
-Ik publiceer geen vaste tarieven omdat elke interventie verandert op basis van complexiteit, risico, urgentie en mate van betrokkenheid. Ik zou liever eerst de doelstelling en de reikwijdte van de voorstellen voor de passende modaliteit herzien.
-
-¿Project, deskundige ondersteuning of tijdige samenwerking? We bespreken de context en bekijken het beste werkformaat.
-
-[Laten we het over de scope hebben.](https://vladimiracunadev-create.github.io/#contacto)
-
-## Kwijtingscentrum
-
-<!-- portfolio-section:descargas -->
+### Kwijtingscentrum
 
 Toegang tot de eigen versies en openbare professionele documenten.
 
-### Aanbevolen
+Slimme modus
 
-Detecteren van apparatuur...
+[Aanbevolen](https://vladimiracunadev-create.github.io/#contacto)
 
-### Andere versies
+## Detecteren van apparatuur...
 
-Gebruik deze links als de automatische detectie niet overeenkomt met uw apparaat.
+<!-- portfolio-section:descargas -->
 
-### PDF-documenten
+Handmatige selectie
 
-De taalkeuze verandert elke download naar de gelijkwaardige PDF in de actieve taal.
+### Android (APK)
 
-De geldige nota is een ondersteuningsdocument dat is afgegeven door de professional, niet door Fundación CEIS Marista. Het is een getextualiseerde verandering van autoriteit in 2026 en moet worden herzien samen met de brief van historische aanbeveling.
+PWA installeren
 
-De prestatieverklaring wordt afzonderlijk afgegeven om waarneembare resultaten samen te vatten en externe validatie te vergemakkelijken zonder het CV of de portefeuille te vervangen.
+### Openbare apparaten
 
-Het Life Sheet is het algemene document: een klassiek en compleet formaat, zonder dat het naar een specifieke lading wordt gestuurd. Het dient een selectieproces, zelfs als het bericht een ongebruikelijke naam heeft.
+Levensblad
 
-### Technische dossiers
+### CV ATS
 
-Ontdekkingsbestanden aan de basis van de site (SEO + IA).
+Technische dossiers
 
-[Android (APK)](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/releases/latest/download/app-debug.apk)
+robots.txt
 
-[Portefeuille](https://vladimiracunadev-create.github.io/assets/portafolio.pdf)
+sitemap.xml
 
-[Levensblad](https://vladimiracunadev-create.github.io/assets/hoja-de-vida.pdf)
+lm.txt
 
-[CV-recursor](https://vladimiracunadev-create.github.io/assets/cv-reclutador.pdf)
+### Ontdekkingsbestanden aan de basis van de site (SEO + IA).
 
-[CV ATS](https://vladimiracunadev-create.github.io/assets/cv-ats.pdf)
+Omhoog
 
-[Aanbevelingsbrief](https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma.pdf)
+[PDF-documenten](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/releases/latest/download/app-debug.apk)
 
-[CEIS-achtnotitie](https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis.pdf)
+[Aanbevelingsbrief](https://vladimiracunadev-create.github.io/assets/portafolio.pdf)
 
-[Verklaring van verwezenlijkingen](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
+[CEIS-achtnotitie](https://vladimiracunadev-create.github.io/assets/hoja-de-vida.pdf)
 
-[robots.txt](https://vladimiracunadev-create.github.io/robots.txt)
+[Verklaring van verwezenlijkingen](https://vladimiracunadev-create.github.io/assets/cv-reclutador.pdf)
 
-[sitemap.xml](https://vladimiracunadev-create.github.io/sitemap.xml)
+[De taalkeuze verandert elke download naar de gelijkwaardige PDF in de actieve taal.](https://vladimiracunadev-create.github.io/assets/cv-ats.pdf)
 
-[lm.txt](https://vladimiracunadev-create.github.io/llm.txt)
+[De geldige nota is een ondersteuningsdocument dat is afgegeven door de professional, niet door Fundación CEIS Marista. Het is een getextualiseerde verandering van autoriteit in 2026 en moet worden herzien samen met de brief van historische aanbeveling.](https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma.pdf)
 
-## Referentiewerkgelegenheid
+[De prestatieverklaring wordt afzonderlijk afgegeven om waarneembare resultaten samen te vatten en externe validatie te vergemakkelijken zonder het CV of de portefeuille te vervangen.](https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis.pdf)
+
+[Het Life Sheet is het algemene document: een klassiek en compleet formaat, zonder dat het naar een specifieke lading wordt gestuurd. Het dient een selectieproces, zelfs als het bericht een ongebruikelijke naam heeft.](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
+
+[Referentiewerkgelegenheid](https://vladimiracunadev-create.github.io/robots.txt)
+
+[Voor institutionele projecten wordt de validatie via referentie uitgevoerd.](https://vladimiracunadev-create.github.io/sitemap.xml)
+
+[Samenvatting van de resultaten en validering](https://vladimiracunadev-create.github.io/llm.txt)
+
+## de geraamde verbetering van kritieke processen en rapportage.
 
 <!-- portfolio-section:referencias -->
 
-Voor institutionele projecten wordt de validatie via referentie uitgevoerd.
+Vermindering bijna
 
-### Samenvatting van de resultaten en validering
+### in operationele wrijving en ondersteuning over Online Batterij.
 
-- Omhoog 80% de geraamde verbetering van kritieke processen en rapportage.
+- Geschatte optimalisatie van 80% in database- en codecomponenten.
 
-- Vermindering bijna 90% in operationele wrijving en ondersteuning over Online Batterij.
+- Gelijktijdige up-to- 90% 5 fronten
 
-- Geschatte optimalisatie van 45% in database- en codecomponenten.
+- werk in bepaalde perioden. 45% Deze cijfers worden gepresenteerd in een formele verklaring van de beroepsbeoefenaar, met externe verwijzing naar de validatie van de werkcontext en de algemene reikwijdte.
 
-- Gelijktijdige up-to- 5 fronten werk in bepaalde perioden.
+- Zie verklaring Jean Claude Dupry Laatste directe chef
 
-Deze cijfers worden gepresenteerd in een formele verklaring van de beroepsbeoefenaar, met externe verwijzing naar de validatie van de werkcontext en de algemene reikwijdte.
+Cel
 
-### Jean Claude Dupry · Laatste directe chef
+### Presentatiekaart · Bewaar mijn professionele gegevens of deel deze portfolio met behulp van de QR-code. Omgekeerd vat mijn servicegebieden samen: webapplicaties, cloudarchitectuur, data, API's, IA, automatisering en cybersecurity.
 
-Cel : +56 9 9415 6984
+Contactcode voor · en QR-code : +56 9 9415 6984
 
-Ik kan een schriftelijke samenvatting en impact voorbeelden sturen als je het nodig hebt.
+Omgekeerde technologische oplossingen en diensten
 
-[Zie verklaring](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
+[Ik kan een schriftelijke samenvatting en impact voorbeelden sturen als je het nodig hebt.](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
 
-## Presentatiekaart
+## Downloaden voorkant
 
 <!-- portfolio-section:tarjeta -->
 
-Bewaar mijn professionele gegevens of deel deze portfolio met behulp van de QR-code. Omgekeerd vat mijn servicegebieden samen: webapplicaties, cloudarchitectuur, data, API's, IA, automatisering en cybersecurity.
+Omgekeerd downloaden
 
 https://vladimiracunadev-create.github.io/assets/icons/1.png?v=5adde69a
 
 https://vladimiracunadev-create.github.io/assets/icons/2.png?v=1a55b3e6
 
-[Downloaden voorkant](https://vladimiracunadev-create.github.io/assets/icons/1.png?v=5adde69a)
+[E-mail](https://vladimiracunadev-create.github.io/assets/icons/1.png?v=5adde69a)
 
-[Omgekeerd downloaden](https://vladimiracunadev-create.github.io/assets/icons/2.png?v=1a55b3e6)
+[vladimir.acuna.dev @ gmail.com](https://vladimiracunadev-create.github.io/assets/icons/2.png?v=1a55b3e6)
 
-## Contact
+## App installeren
 
 <!-- portfolio-section:contacto -->
 
-¿Modernisering, automatisering, architectuur of integratie van toegepaste IA? Schrijf naar mij.
+E-mail kopiëren
 
-Beschikbaar om mezelf snel te integreren in technische teams en gemeenschappen via samenwerkingskanalen zoals Slack.
+Disponible para integrarme rápidamente a equipos y comunidades técnicas a través de canales colaborativos como Slack.
 
-[vladimir.acuna.dev @ gmail.com](mailto:vladimir.acuna.dev@gmail.com)
+[GitHub](mailto:vladimir.acuna.dev@gmail.com)
 
-[LinkedIn](https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29)
+[Gemaakt met HTML + CSS + JS.](https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29)
 
-[GitHub](https://github.com/vladimiracunadev-create)
+[AI code-audit](https://github.com/vladimiracunadev-create)

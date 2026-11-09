@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-26",
+    "generated_at": "2026-11-09",
     "language": "ja",
     "language_name": "Japanese",
     "native_name": "日本語",
@@ -62,61 +62,61 @@
     },
     {
       "id": "demos",
-      "title": "ライブデモ",
+      "title": "サイトを参照",
       "min_level": 1,
       "freelance_hidden": false
     },
     {
       "id": "experiencia",
-      "title": "経験",
+      "title": "環境の標準化、Docker/AWS ラボ、自動化、可観測性、ローカル AI によるプロトタイピング。",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "flujo-ia",
-      "title": "AI 支援開発フロー",
+      "title": "(2023 年以降)",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "roles",
-      "title": "実際の専門的範囲",
+      "title": "ソフトウェアアーキテクト",
       "min_level": 1,
       "freelance_hidden": true
     },
     {
       "id": "servicios",
-      "title": "サービス",
+      "title": "機能検証",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "modalidades",
-      "title": "フリーランス · コラボレーションの様式",
+      "title": "レガシー",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "descargas",
-      "title": "ダウンロード センター",
+      "title": "検出装置...",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "referencias",
-      "title": "ジョブリファレンス",
+      "title": "重要なプロセスとレポートの生成における改善の推定値。",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "tarjeta",
-      "title": "名刺",
+      "title": "ダウンロードフロント",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "contacto",
-      "title": "お問い合わせ",
+      "title": "アプリをインストールする",
       "min_level": 0,
       "freelance_hidden": false
     }

@@ -14,7 +14,7 @@
 
 介面準備 多種語言 ，意見 招募人員/普通/深度/自由職業 ， 主題 亮/暗 與部署 網路、PWA 與 APK .
 
-投資組合資訊更新截至 2026-10-25, 13:28 （美國/聖地牙哥）。
+投資組合資訊更新截至 2026-11-09, 15:38 （美國/聖地牙哥）。
 
 ### 我的專業身份
 
@@ -494,11 +494,11 @@ AI Evolution Program v0.17.0 · 180 個課程，分為 15 個部分，包含完�
 
 480 個類別、40 個部分和 8 個階段 · 基礎知識 → 產品、架構、安全性、DevOps、SRE、SPEC、AI 和多代理系統 · 儲存庫聲明的編輯狀態。
 
-### 科學與教育
+### 看看其他人
 
-### 人類基因組實驗室
+科學與教育
 
-分子遺傳學和基因組學的進化和可重複科學平台（v1.0.0）：可驗證的TypeScript核心（序列、翻譯、ORF、變體、G-四聯體）、ScientificResult合約、FASTA/GFF3/VCF閱讀器、Scientific CLI、PWA網路實驗室和教育遊戲。不做臨床診斷。
+### 倉庫 (GitHub)
 
 ### 小提琴冒險·項目
 
@@ -506,13 +506,15 @@ AI Evolution Program v0.17.0 · 180 個課程，分為 15 個部分，包含完�
 
 ⚡ 這個組合中的幾個項目是使用人工智慧輔助流程（Claude Code·ChatGPT Plus·Antigravity）結合自己的技術驗證和架構方向開發的。
 
-### 最近的儲存庫（自動）
-
-從公共 GitHub 和 GitLab API 載入（按更新排序）。顯示星星★ 和叉子⑂。
-
-### 最近活動（自動）
-
 ⬆ 提交 · 🔀 PR / MR · 🚀 即時發布 - GitHub 和 GitLab。
+
+### 現場演示
+
+查看真實部署的公共連結（如果適用）。
+
+### 網路作品集 · GitHub 頁面
+
+透過 GitHub Actions 在 GitHub Pages 上部署 22 種語言的 Web 組合。可安裝的 PWA、Lighthouse 100、由管道和 JSON i18n API 產生的 154 個 PDF。
 
 [參見參考資料](https://vladimiracunadev-create.github.io/#referencias)
 
@@ -704,19 +706,17 @@ AI Evolution Program v0.17.0 · 180 個課程，分為 15 個部分，包含完�
 
 [倉庫 (GitHub)](https://github.com/vladimiracunadev-create/modern-software-engineering-program)
 
+[人類基因組實驗室](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program)
+
 [倉庫 (GitHub)](https://github.com/vladimiracunadev-create/human-genome-labs)
 
-[倉庫 (GitHub)](https://github.com/vladimiracunadev-create/violin-adventure)
+[最近的儲存庫（自動）](https://github.com/vladimiracunadev-create/violin-adventure)
 
-## 現場演示
+## 請參閱網站
 
 <!-- portfolio-section:demos -->
 
-查看真實部署的公共連結（如果適用）。
-
-### 網路作品集 · GitHub 頁面
-
-透過 GitHub Actions 在 GitHub Pages 上部署 22 種語言的 Web 組合。可安裝的 PWA、Lighthouse 100、由管道和 JSON i18n API 產生的 154 個 PDF。
+GitHub
 
 ### AWS S3 + GitHub 操作
 
@@ -734,113 +734,113 @@ Glassmorphism PWA 透過 OIDC 和 OAC 從 GitLab 部署（案例 L - FinOps）�
 
 透過堆疊探索實驗室的本地「中心」。非常適合技術面試。
 
-[請參閱網站](https://vladimiracunadev-create.github.io/)
+### 2025 年至今
 
-[GitHub](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io)
+轉型（實驗室+組合）
+
+[參見演示](https://vladimiracunadev-create.github.io/)
+
+[GitHub 儲存庫](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io)
 
 [參見演示](https://mi-pagina-scrum-123.s3.us-east-2.amazonaws.com/index.html)
 
-[GitHub 儲存庫](https://github.com/vladimiracunadev-create/proyectos-aws)
+[GitLab 倉庫](https://github.com/vladimiracunadev-create/proyectos-aws)
 
-[參見演示](http://finops-vladimir-portfolio-case-l.s3-website.us-east-2.amazonaws.com)
+[示範主](http://finops-vladimir-portfolio-case-l.s3-website.us-east-2.amazonaws.com)
 
-[GitLab 倉庫](https://gitlab.com/vladimir.acuna.dev-group/vladimir.acuna.dev-group)
+[演示開發](https://gitlab.com/vladimir.acuna.dev-group/vladimir.acuna.dev-group)
 
-[示範主](https://main.d3r1wuymolxagh.amplifyapp.com/)
+[經驗](https://main.d3r1wuymolxagh.amplifyapp.com/)
 
-[演示開發](https://dev.d20m8tc0banvg.amplifyapp.com/)
+[按里程碑總結（使用「深度」視圖以了解詳細資訊）。](https://dev.d20m8tc0banvg.amplifyapp.com/)
 
-## 經驗
+## 環境標準化、Docker/AWS 實驗室、自動化、可觀察性和本地人工智慧原型設計。
 
 <!-- portfolio-section:experiencia -->
 
-按里程碑總結（使用「深度」視圖以了解詳細資訊）。
+每個設定檔的可複製文件（招募人員、開發人員和案例研究）。
 
-### 轉型（實驗室+組合）
+### 14 年
 
-環境標準化、Docker/AWS 實驗室、自動化、可觀察性和本地人工智慧原型設計。
+CEIS Marist 基金會
 
-- 每個設定檔的可複製文件（招募人員、開發人員和案例研究）。
+- 教育/心理測量網路平台的架構、開發與運作。 SQL/效能優化。操作安全：攻擊取證分析、日誌管理以及使用 OWASP ZAP 和 JMeter 進行測試。
 
-- 專注於實踐：分支、PR、CI/CD、頁面和發布。
+- 安全：
 
-### CEIS Marist 基金會
+### 對 PHP 服務和環境日誌進行管理和分析：對 IP 破壞的異常活動進行淨化和檢測。
 
-教育/心理測量網路平台的架構、開發與運作。 SQL/效能優化。操作安全：攻擊取證分析、日誌管理以及使用 OWASP ZAP 和 JMeter 進行測試。
+系統強化
 
-- 安全： 對伺服器多次的攻擊進行取證分析，確定來源、入口向量和範圍。
+- OWASP ZAP （攻擊模擬）與負載測試
 
-- 對 PHP 服務和環境日誌進行管理和分析：對 IP 破壞的異常活動進行淨化和檢測。
+- Apache JMeter
 
-- 系統強化 OWASP ZAP （攻擊模擬）與負載測試 Apache JMeter .
+- 疫情期間的網路安全訓練以及隨後的機構網路安全講座。 混合式設定檔 商業+IT 工商管理技術訓練：流程、效率、行銷與衡量。 .
 
-- 疫情期間的網路安全訓練以及隨後的機構網路安全講座。
-
-### 商業+IT
-
-工商管理技術訓練：流程、效率、行銷與衡量。
-
-## AI輔助開發流程
-
-<!-- portfolio-section:flujo-ia -->
-
-我使用人工智慧工具作為專案的真正技術加速器，而不是取代我自己的判斷。
+- AI輔助開發流程
 
 ### 正在使用的工具
 
-- ChatGPT Plus （自 2023 年起） · 分析、架構、迭代和文檔
+ChatGPT Plus
 
-- 法典 · 程式碼產生與重構
+## （自 2023 年起）
 
-- 克勞德代碼 · 架構審查、實施與技術文檔
+<!-- portfolio-section:flujo-ia -->
+
+分析、架構、迭代和文檔
+
+### 法典
+
+- 程式碼產生與重構 克勞德代碼 · 架構審查、實施與技術文檔
 
 - 反重力 · 加速開發與自動化流程
 
 - VS Code / OpenCode · 具有整合人工智慧輔助的開發環境
 
-### AI在流程中應用在哪裡
+- AI在流程中應用在哪裡 · 技術診斷與架構分析
 
-- 技術診斷與架構分析
+- 解決方案設計與決策驗證 · 實施、重構與測試
 
-- 解決方案設計與決策驗證
-
-- 實施、重構與測試
-
-- 技術文件與簡介
+### 技術文件與簡介
 
 - 專案加速與儲存庫迭代
 
-“將技術標準、人性驗證和建築指導相結合。La IA amplifica capacidad、velocidad y alcance técnico — 無需重新體驗。”
+- “將技術標準、人性驗證和建築指導相結合。La IA amplifica capacidad、velocidad y alcance técnico — 無需重新體驗。”
 
-## 實際專業範圍
+- 實際專業範圍
+
+- 層次清晰：核心身分第一，自然擴展其次，補充範圍最後。
+
+- 🎯 主要身份
+
+解決方案架構師
+
+## 軟體架構師
 
 <!-- portfolio-section:roles -->
 
-層次清晰：核心身分第一，自然擴展其次，補充範圍最後。
+遺留現代化架構師
 
-### 🎯 主要身份
-
-擁有超過 16 年真實平台架構、開發和營運經驗。逐步現代化，無需削減營運、系統整合、流程自動化和應用人工智慧——具有自己的技術標準和人工驗證。
-
-### ↗ 自然擴張－我可以憑藉著實力承擔的職位
-
-以直接經驗、可驗證的專案和人工智慧輔助流程為後盾。
-
-### 技術負責人/技術負責人
+### 高階全端開發人員
 
 技術專案管理、架構定義、關鍵決策審查、團隊支援、現有系統的現代化以及業務目標和可維護技術解決方案之間的聯繫。
 
-### 人工智慧編排工程師
+### 技術管理
 
-使用 LangGraph、FastAPI 和 MCP 設計代理系統。狀態代理、條件路由和彈性。
+技術標準
 
-### 人工智慧自動化工程師
+### 操作連續性
 
-使用 n8n、Python 和彈性編排器實現流程自動化。斷路器、冪等性和可觀察性。
+人工智慧編排工程師
 
-### 解決方案工程師
+### MCP
 
-真實演示和 PoC、技術業務溝通、需求和客戶導向的架構。
+人工智慧自動化工程師
+
+### 格拉法納
+
+解決方案工程師
 
 ### 技術產品建構器
 
@@ -858,29 +858,29 @@ Glassmorphism PWA 透過 OIDC 和 OAC 從 GitLab 部署（案例 L - FinOps）�
 
 作為技術報告員教授了 445 多個小時（2003-2004 年，2011 年）：網路程式設計、HTML/CSS、Office 和硬體。唐氏症兒童網路教育環境大學學位（註 6.7）。電腦與資訊學工程師 (UTA) + 16 年營運真實教育評估平台。
 
-### 🧭 我提供哪些類型的技術領導力
+### 教育平台
 
-- 實際的技術領導，而不僅僅是行政領導。
+🧭 我提供哪些類型的技術領導力
 
-- 基於實際生產經驗的決策。
-
-- 逐步現代化，無需中斷營運。
-
-- 團隊、招募人員和連續性的清晰文件。
+### 團隊、招募人員和連續性的清晰文件。
 
 - 人工智慧作為技術放大器，不能取代專業判斷。
 
 - 關注穩定性、可維護性、安全性和減少技術債。
 
-### ⚙️ 補充範圍
+- ⚙️ 補充範圍
 
-設定檔的邏輯擴充。當上下文或專案需要時，我會承擔這些角色，而不是作為我的主要身分。
+- 設定檔的邏輯擴充。當上下文或專案需要時，我會承擔這些角色，而不是作為我的主要身分。
 
-### ✅ 為什麼我可以假設這個範圍
+- 平台工程師
 
-- 技術領先 — 設備技術指南、標準定義、風險審查和關鍵決策支援。
+- DevOps / CI-CD 工程師
 
-- 解決方案架構 — 系統從根到生產的設計與演化。
+### 雲端/AWS 工程師
+
+技術報告員
+
+### — 系統從根到生產的設計與演化。
 
 - 遺留現代化 — 使用遺留系統 16 年以上，未進行任何切割操作。
 
@@ -896,184 +896,188 @@ Glassmorphism PWA 透過 OIDC 和 OAC 從 GitLab 部署（案例 L - FinOps）�
 
 - 協作與文檔 - 每個設定檔的文檔，RECRUTER.md，儲存庫中可驗證的證據。
 
-### 🔗 根據上下文相關的角色
+- 🔗 根據上下文相關的角色 可依專案類型、公司或特定需求進行定址。
 
-可依專案類型、公司或特定需求進行定址。
+- AI 代理開發人員 提示工程師
 
-## 服務
+### GenAI 產品產生器
+
+自動化/人工智慧採用主管
+
+## 功能驗證
 
 <!-- portfolio-section:servicios -->
 
-與真實建築、現代化和永續技術發展一致的階段性介入措施。
+技術審核
 
-### AI產生的程式碼審核
+### 清潔與恢復
 
-功能驗證、技術審計、技術債清理和減少，以及已經與助理和代理商一起開發的團隊的人工智慧治理。
+人工智慧治理
 
-### 遺留系統現代化
+### CI/CD
 
-漸進式重構、PHP/stack 遺留遷移、CI/CD、自動化測試和安全部署，無需削減操作。
+品質檢查
 
-### 流程與工作流程自動化
+### 彈性
 
-使用 n8n、Python 和彈性編排器設計和實現自動化流程。包括斷路器、冪等性和可觀察性。
+應用人工智慧集成
 
-### 應用人工智慧集成
+### 奧拉馬
 
-將代理、法學碩士和人工智慧輔助流程納入實際產品和流程中。 LangGraph、MCP、Ollama 和 FastAPI。
+FastAPI
 
-### 雲端架構、CI/CD 與可觀察性
+### OIDC
 
-AWS（ECS/EKS、Lambda/SAM、DynamoDB、Cognito、EventBridge/SQS/SNS、CloudWatch/X-Ray、S3/CloudFront）、Terraform、OIDC、FinOps、GitHub/GitLab CI 和 Prometheus/Grafana。
+拉姆達/SAM
 
-### 技術診斷與演化計劃
+### 快速獲勝
 
-綜合評估：風險、技術債、績效、成本和具有可操作的快速成果的優先路線圖。
+自由業·協作方式
 
-[查看完整服務](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/)
+[重構](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/)
 
-## 自由業·協作方式
+## 遺產
 
 <!-- portfolio-section:modalidades -->
 
-我根據問題、重要性、範圍和所需的參與程度以靈活的方式工作。
+集成
 
-### 有限項目
+### 自動化
 
-用於特定的現代化、整合、特定的自動化、關鍵改進或特定的可交付成果。
+時間袋/專家支持
 
-### 時間袋/專家支持
+### 高級支持
 
-適用於需要加速技術決策、解鎖架構、驗證實作或解決瓶頸的團隊。
+每月支持
 
-### 每月支持
+### 可觀察性
 
-持續發展、進階支援、技術路線圖、營運連續性與逐步改善。
+診斷+路線圖
 
-### 診斷+路線圖
+### 快速獲勝
 
-組織背景、識別風險、決定決策的優先順序並定義切合實際的實施策略。
+技術商業合作
 
-### 技術商業合作
+### 利害關係人
 
-支援與客戶或利害關係人的對話，將需求轉化為可行的解決方案並附上售前或技術定義。
+現代化、救援與應用人工智慧
 
-### 現代化、救援與應用人工智慧
+### 應用人工智慧
 
-當有脆弱系統、即時運作、待定自動化、架構決策、雲端/CI-CD、可觀察性或務實的人工智慧採用時提供支援。
+我如何定義適當的模式
 
-### 我如何定義適當的模式
+### 預期領導等級
 
-在實務中，我將發現、架構、執行、測試、文件、協調和後續支援分開。如果訂單混合了多個層，我會按階段或按月產能進行訂購，以避免分散的期望。
+我們來談談範圍
 
-### 未公佈固定利率
-
-我不公佈固定費率，因為每種幹預措施都會根據複雜性、風險、緊迫性和參與程度而變化。我傾向於首先審查目標和範圍，以提出適當的模式。
-
-專案、專家支援還是具體合作？讓我們討論一下背景並回顧一下最佳的工作格式。
-
-[我們來談談範圍](https://vladimiracunadev-create.github.io/#contacto)
-
-## 下載中心
-
-<!-- portfolio-section:descargas -->
+### 下載中心
 
 存取本機版本和公共專業文件。
 
-### 推薦
+智能模式
 
-檢測設備...
+[推薦](https://vladimiracunadev-create.github.io/#contacto)
 
-### 其他版本
+## 檢測設備...
 
-如果自動偵測與您的裝置不匹配，請使用這些連結。
+<!-- portfolio-section:descargas -->
 
-### PDF 文檔
+手動選擇
 
-語言選擇器將每次下載更改為活動語言的等效 PDF。
+### 安卓 （APK）
 
-有效性說明是由專業人士而非 CEIS Marist 基金會簽發的支持文件。結合 2026 年權力變更的背景，應結合歷史性的推薦信進行審查。
+安裝 PWA
 
-成果聲明單獨發布，以總結可觀察到的結果並促進外部驗證，而無需更換簡歷或作品集。
+### 公共工件
 
-履歷是通用文件：經典且完整的格式，不針對特定職位。它對於任何選擇過程都很有用，即使該職位的名稱不尋常。
+履歷
 
-### 技術文件
+### CV ATS
 
-網站根目錄中的發現檔案（SEO + AI）。
+技術文件
 
-[安卓 （APK）](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/releases/latest/download/app-debug.apk)
+robots.txt
 
-[投資組合](https://vladimiracunadev-create.github.io/assets/portafolio.pdf)
+sitemap.xml
 
-[履歷](https://vladimiracunadev-create.github.io/assets/hoja-de-vida.pdf)
+llm.txt
 
-[履歷表招募人員](https://vladimiracunadev-create.github.io/assets/cv-reclutador.pdf)
+### 網站根目錄中的發現檔案（SEO + AI）。
 
-[CV ATS](https://vladimiracunadev-create.github.io/assets/cv-ats.pdf)
+直到
 
-[推薦信](https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma.pdf)
+[PDF 文檔](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/releases/latest/download/app-debug.apk)
 
-[CEIS 有效性說明](https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis.pdf)
+[推薦信](https://vladimiracunadev-create.github.io/assets/portafolio.pdf)
 
-[成就聲明](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
+[CEIS 有效性說明](https://vladimiracunadev-create.github.io/assets/hoja-de-vida.pdf)
 
-[robots.txt](https://vladimiracunadev-create.github.io/robots.txt)
+[成就聲明](https://vladimiracunadev-create.github.io/assets/cv-reclutador.pdf)
 
-[sitemap.xml](https://vladimiracunadev-create.github.io/sitemap.xml)
+[語言選擇器將每次下載更改為活動語言的等效 PDF。](https://vladimiracunadev-create.github.io/assets/cv-ats.pdf)
 
-[llm.txt](https://vladimiracunadev-create.github.io/llm.txt)
+[有效性說明是由專業人士而非 CEIS Marist 基金會簽發的支持文件。結合 2026 年權力變更的背景，應結合歷史性的推薦信進行審查。](https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma.pdf)
 
-## 工作參考
+[成果聲明單獨發布，以總結可觀察到的結果並促進外部驗證，而無需更換簡歷或作品集。](https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis.pdf)
+
+[履歷是通用文件：經典且完整的格式，不針對特定職位。它對於任何選擇過程都很有用，即使該職位的名稱不尋常。](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
+
+[工作參考](https://vladimiracunadev-create.github.io/robots.txt)
+
+[對於機構項目，透過參考進行驗證。](https://vladimiracunadev-create.github.io/sitemap.xml)
+
+[成果總結與驗證](https://vladimiracunadev-create.github.io/llm.txt)
+
+## 關鍵流程和報告產生的估計改進。
 
 <!-- portfolio-section:referencias -->
 
-對於機構項目，透過參考進行驗證。
+減少接近
 
-### 成果總結與驗證
+### 電池在線的操作摩擦和支援。
 
-- 直到 80% 關鍵流程和報告產生的估計改進。
+- 近似優化 80% 資料庫元件和程式碼。
 
-- 減少接近 90% 電池在線的操作摩擦和支援。
+- 最多同時關注 90% 5 條戰線
 
-- 近似優化 45% 資料庫元件和程式碼。
+- 在某些時期的工作。 45% 這些數字以專業人員發布的正式聲明形式呈現，並透過外部參考來驗證工作背景和一般範圍。
 
-- 最多同時關注 5 條戰線 在某些時期的工作。
+- 參見聲明 讓‧克洛德‧杜普里 最後一個直接老闆
 
-這些數字以專業人員發布的正式聲明形式呈現，並透過外部參考來驗證工作背景和一般範圍。
+手機
 
-### 讓‧克洛德‧杜普里 · 最後一個直接老闆
+### 名片 · 儲存我的專業詳細資料或使用二維碼分享此作品集。背面總結了我的服務領域：Web 應用程式、雲端架構、資料、API、人工智慧、自動化和網路安全。
 
-手機 : +56 9 9415 6984
+正面·聯絡方式及二維碼 : +56 9 9415 6984
 
-如果您需要，我可以發送書面摘要和影響範例。
+Reverso·技術解決方案與服務
 
-[參見聲明](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
+[如果您需要，我可以發送書面摘要和影響範例。](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
 
-## 名片
+## 下載前面
 
 <!-- portfolio-section:tarjeta -->
 
-儲存我的專業詳細資料或使用二維碼分享此作品集。背面總結了我的服務領域：Web 應用程式、雲端架構、資料、API、人工智慧、自動化和網路安全。
+下載反向
 
 https://vladimiracunadev-create.github.io/assets/icons/1.png?v=5adde69a
 
 https://vladimiracunadev-create.github.io/assets/icons/2.png?v=1a55b3e6
 
-[下載前面](https://vladimiracunadev-create.github.io/assets/icons/1.png?v=5adde69a)
+[電子郵件](https://vladimiracunadev-create.github.io/assets/icons/1.png?v=5adde69a)
 
-[下載反向](https://vladimiracunadev-create.github.io/assets/icons/2.png?v=1a55b3e6)
+[vladimir.acuna.dev@gmail.com](https://vladimiracunadev-create.github.io/assets/icons/2.png?v=1a55b3e6)
 
-## 聯絡方式
+## 安裝應用程式
 
 <!-- portfolio-section:contacto -->
 
-應用人工智慧現代化、自動化、架構還是整合？寫信給我。
+複製電子郵件
 
-可透過 Slack 等協作管道快速融入團隊和技術社群。
+Disponible para integrarme rápidamente a equipos y comunidades técnicas a través de canales colaborativos como Slack.
 
-[vladimir.acuna.dev@gmail.com](mailto:vladimir.acuna.dev@gmail.com)
+[GitHub](mailto:vladimir.acuna.dev@gmail.com)
 
-[領英](https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29)
+[使用 HTML + CSS + JS 製作。](https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29)
 
-[GitHub](https://github.com/vladimiracunadev-create)
+[人工智慧程式碼審計](https://github.com/vladimiracunadev-create)

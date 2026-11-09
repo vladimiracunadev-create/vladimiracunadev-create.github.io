@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-26",
+    "generated_at": "2026-11-09",
     "language": "vi",
     "language_name": "Vietnamese",
     "native_name": "Tiếng Việt",
@@ -62,61 +62,61 @@
     },
     {
       "id": "demos",
-      "title": "Bản demo trực tiếp",
+      "title": "Xem trang web",
       "min_level": 1,
       "freelance_hidden": false
     },
     {
       "id": "experiencia",
-      "title": "Kinh nghiệm",
+      "title": "Tiêu chuẩn hóa môi trường, phòng thí nghiệm Docker/AWS, tự động hóa, khả năng quan sát và tạo mẫu bằng AI cục bộ.",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "flujo-ia",
-      "title": "Quy trình phát triển được hỗ trợ bởi AI",
+      "title": "(kể từ năm 2023)",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "roles",
-      "title": "Phạm vi chuyên môn thực tế",
+      "title": "Kiến trúc sư phần mềm",
       "min_level": 1,
       "freelance_hidden": true
     },
     {
       "id": "servicios",
-      "title": "Dịch vụ",
+      "title": "Xác minh chức năng",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "modalidades",
-      "title": "Làm việc tự do · Phương thức hợp tác",
+      "title": "Di sản",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "descargas",
-      "title": "Trung tâm tải xuống",
+      "title": "Thiết bị phát hiện...",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "referencias",
-      "title": "Tài liệu tham khảo công việc",
+      "title": "về mức cải thiện ước tính trong các quy trình quan trọng và tạo báo cáo.",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "tarjeta",
-      "title": "Danh thiếp",
+      "title": "Tải xuống phía trước",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "contacto",
-      "title": "Liên hệ",
+      "title": "Cài đặt ứng dụng",
       "min_level": 0,
       "freelance_hidden": false
     }

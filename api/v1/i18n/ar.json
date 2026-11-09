@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-26",
+    "generated_at": "2026-11-09",
     "language": "ar",
     "language_name": "Arabic",
     "native_name": "العربية",
@@ -62,61 +62,61 @@
     },
     {
       "id": "demos",
-      "title": "لنذهب مباشرة",
+      "title": "انظر الموقع",
       "min_level": 1,
       "freelance_hidden": false
     },
     {
       "id": "experiencia",
-      "title": "الخبرة",
+      "title": "توحيد البيئات، ومختبرات دوكر/أو دبليو إس، والتشغيل الآلي، والقابلية للملاحظة، والنماذج الأولية مع وكالة الفضاء الدولية المحلية.",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "flujo-ia",
-      "title": "تدفق التنمية بمساعدة من الرابطة الدولية للملاحة الجوية",
+      "title": "(منذ عام 2023",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "roles",
-      "title": "النطاق المهني الحقيقي",
+      "title": "مهندس معماري للبرمجيات",
       "min_level": 1,
       "freelance_hidden": true
     },
     {
       "id": "servicios",
-      "title": "الخدمات",
+      "title": "التحقق الوظيفي",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "modalidades",
-      "title": ":: حرية العمل؛ طرائق التعاون",
+      "title": "الإرث",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "descargas",
-      "title": "مركز التغذية",
+      "title": "معدات كشف...",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "referencias",
-      "title": "إشارات إلى العمل",
+      "title": "(ب) تقدير التحسن في العمليات الحاسمة والإبلاغ.",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "tarjeta",
-      "title": "بطاقة العرض",
+      "title": "تحميل",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "contacto",
-      "title": "الاتصال",
+      "title": "تركيبة",
       "min_level": 0,
       "freelance_hidden": false
     }

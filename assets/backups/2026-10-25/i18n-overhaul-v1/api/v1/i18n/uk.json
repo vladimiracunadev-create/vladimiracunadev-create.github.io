@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "generated_at": "2026-10-16",
+    "language": "uk",
+    "language_name": "Ukrainian",
+    "native_name": "Українська",
+    "direction": "ltr",
+    "source": "https://github.com/vladimiracunadev-create/vladimiracunadev-create/blob/main/README.uk.md"
+  },
+  "profile": {
+    "name": "Vladimir Acuña",
+    "title": "Архітектор рішення·Старший повний ступінь·Цифрова трансформація·Управління та операції",
+    "summary": "- 🔁 Відтворюються демо— клон, біг, валід. - 🧰 Стандартний інструмент— Макефи, Хаб КЛІ,doctorйsmokeза репозиторію. - 🛡️ Захист глибини— секретне сканування, політики та явно заборонені практики. - 📈 Відповідальність — /health, /ready, /metrics, прилади, прилади, - 📚 Аудиторія-програма— рекрутер, початківця, DevOps, або безпека, в залежності від репозиторій. - 📦 Розподіл продуктів— завантажувальні релізи, контрольні та складові докази; підписи комерційного/магазину, заявлені у разі необхідності. - 🌍 Інтернаціоналізація— портфоліо 22 мов (ES)·СЕРЕДОВИЩА·ПТ·ЦЕНА ЗА ЧАС:·ФОП·ЗХ. - 🧭 Технічна чесність— кожен випадок, позначенийOPERATIONAL, DOCUMENTED/SCAFFOLDабоPLANNED.",
+    "website": "https://vladimiracunadev-create.github.io/i18n/uk/",
+    "github": "https://github.com/vladimiracunadev-create",
+    "gitlab": "https://gitlab.com/vladimir.acuna.dev-group"
+  },
+  "sections": [
+    "🎯Що ви знайдете тут",
+    "✅Вигідний статус",
+    "🗺️Екосистема на погляді",
+    "📦Продукція з реальним розподілом",
+    "🧪Інженерні лабораторії",
+    "🤖Прикладна AI",
+    "📚Повний технічний навчальний план",
+    "🔬Науковий склад",
+    "⚡Якщо ви маєте 10 хвилин, щоб оцінити мене",
+    "🧠Стандарти, які я застосовую в усіх репозиторіях",
+    "✅Професійний Scope",
+    "🧭Управління, адміністрування та незгодні можливості кар'єри",
+    "🤖Процес розробки за допомогою ШІ",
+    "📌Наявність",
+    "📬Контакти"
+  ],
+  "artifacts": {
+    "portfolio": "/assets/portafolio-ukrainian.pdf",
+    "resume": "/assets/hoja-de-vida-ukrainian.pdf",
+    "recruiter": "/assets/cv-reclutador-ukrainian.pdf",
+    "ats": "/assets/cv-ats-ukrainian.pdf",
+    "achievements": "/assets/declaracion-logros-validacion-ukrainian.pdf",
+    "recommendation": "/assets/carta-recomendacion_sin_firma-ukrainian.pdf",
+    "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-ukrainian.pdf"
+  }
+}

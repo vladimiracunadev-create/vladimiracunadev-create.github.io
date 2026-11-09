@@ -14,7 +14,7 @@
 
 为下列项目准备接口: 多语种 , 视图 缩放/ 正常/ 深放/ 自由 , 主题 浅/ 暗 部署 网络、太平洋和太平洋共同体秘书处 .
 
-截至2007年12月31日的更新项目组合信息 2026-10-25, 13:28 (美洲/圣地亚哥)。
+截至2007年12月31日的更新项目组合信息 2026-11-09, 15:38 (美洲/圣地亚哥)。
 
 ### 我是谁专业的
 
@@ -494,11 +494,11 @@ AI Evolution Program v0.17.0 – 180个班,共15个部分,内容完整 + 540个�
 
 480个班级、40个分级和8个阶段 基础 产品、建筑、安全、DevOps、SRE、SPEC、IA和多代理系统 数据库宣布的编辑状态。
 
-### 科学和教育
+### 见他者.
 
-### 人类基因组实验室
+科学和教育
 
-分子和基因组遗传学的进化与可再生科学平台 (v1.0.0):可核查的TypeScript核心(序列,翻译,ORF,变体,G-quádruplex),科学成果合同,FASTA / GF3 / VCF读取器,科学CLI,PWA网络实验室和教育游戏.
+### 回购协议 (GitHub)
 
 ### · 虚拟冒险项目
 
@@ -506,13 +506,15 @@ AI Evolution Program v0.17.0 – 180个班,共15个部分,内容完整 + 540个�
 
 ⚡ 这套组合的几个项目是在国际审计署的协助下开发的(Claude Code → ChatGPT Plus → Antigravity),再加上技术验证和建筑方向.
 
-### 最近的评论(汽车)
-
-它从 GitHub 和 GitLab 的公开API (按更新顺序) 上载, 它显示星和叉 。
-
-### 最近的活动( 自身)
-
 ⬆ · hs/MRs —— 发布 - GitHub和GitLab实时发布。
+
+### 上活话去.
+
+公共链接,以查看实际部署(如适用)。
+
+### 组合网 · GitHub 页面
+
+通过GitHub Actions在GitHub Pages中部署的22种语言的Web组合. PWA可以安装,Lightthouse 100,由管道生成的154个PDF和JSON i18n API.
 
 [见参考文献](https://vladimiracunadev-create.github.io/#referencias)
 
@@ -704,19 +706,17 @@ AI Evolution Program v0.17.0 – 180个班,共15个部分,内容完整 + 540个�
 
 [回购协议 (GitHub)](https://github.com/vladimiracunadev-create/modern-software-engineering-program)
 
+[人类基因组实验室](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program)
+
 [回购协议 (GitHub)](https://github.com/vladimiracunadev-create/human-genome-labs)
 
-[回购协议 (GitHub)](https://github.com/vladimiracunadev-create/violin-adventure)
+[最近的评论(汽车)](https://github.com/vladimiracunadev-create/violin-adventure)
 
-## 上活话去.
+## 查看网站
 
 <!-- portfolio-section:demos -->
 
-公共链接,以查看实际部署(如适用)。
-
-### 组合网 · GitHub 页面
-
-通过GitHub Actions在GitHub Pages中部署的22种语言的Web组合. PWA可以安装,Lightthouse 100,由管道生成的154个PDF和JSON i18n API.
+GitHub
 
 ### AWS S3 + GitHub 操作
 
@@ -734,113 +734,113 @@ AI Evolution Program v0.17.0 – 180个班,共15个部分,内容完整 + 540个�
 
 一个本地的"接" 逐一探索实验室 理想的技术访谈
 
-[查看网站](https://vladimiracunadev-create.github.io/)
+### 2025年-当前
 
-[GitHub](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io)
+过渡(实验室+组合)
+
+[查看演示](https://vladimiracunadev-create.github.io/)
+
+[GitHub 存储库](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io)
 
 [查看演示](https://mi-pagina-scrum-123.s3.us-east-2.amazonaws.com/index.html)
 
-[GitHub 存储库](https://github.com/vladimiracunadev-create/proyectos-aws)
+[GitLab 仓库](https://github.com/vladimiracunadev-create/proyectos-aws)
 
-[查看演示](http://finops-vladimir-portfolio-case-l.s3-website.us-east-2.amazonaws.com)
+[主要需求](http://finops-vladimir-portfolio-case-l.s3-website.us-east-2.amazonaws.com)
 
-[GitLab 仓库](https://gitlab.com/vladimir.acuna.dev-group/vladimir.acuna.dev-group)
+[德克萨斯州](https://gitlab.com/vladimir.acuna.dev-group/vladimir.acuna.dev-group)
 
-[主要需求](https://main.d3r1wuymolxagh.amplifyapp.com/)
+[经验](https://main.d3r1wuymolxagh.amplifyapp.com/)
 
-[德克萨斯州](https://dev.d20m8tc0banvg.amplifyapp.com/)
+[按里程碑汇总(详情请使用"深"视图).](https://dev.d20m8tc0banvg.amplifyapp.com/)
 
-## 经验
+## 环境标准化,多克/AWS实验室,自动化,可观察性以及与当地IA的原型.
 
 <!-- portfolio-section:experiencia -->
 
-按里程碑汇总(详情请使用"深"视图).
+按概况(征聘者、开发者和实践案例)可复制文件。
 
-### 过渡(实验室+组合)
+### 14岁
 
-环境标准化,多克/AWS实验室,自动化,可观察性以及与当地IA的原型.
+CEIS Marist 基金会
 
-- 按概况(征聘者、开发者和实践案例)可复制文件。
+- 教育/心理测量网络平台的架构、开发和运行。优化SQL/性能。操作安全:对攻击的法证分析、日志管理和测试与OWASP ZAP和JMeter。
 
-- 注重实践:分支、公关、CI/CD、网页和发行。
+- 警卫:
 
-### CEIS Marist 基金会
+### 服务器和PHP环境日志的管理和分析：代码调试和未知IP异常活动检测。
 
-教育/心理测量网络平台的架构、开发和运行。优化SQL/性能。操作安全:对攻击的法证分析、日志管理和测试与OWASP ZAP和JMeter。
+系统强化
 
-- 警卫: 多次对服务器攻击进行法证分析,确定来源,输入矢量和可达性.
+- OWASP ZAP （攻击模拟）和负载测试
 
-- 服务器和PHP环境日志的管理和分析：代码调试和未知IP异常活动检测。
+- Apache JMeter
 
-- 系统强化 OWASP ZAP （攻击模拟）和负载测试 Apache JMeter .
+- 疫情期间的网络安全培训以及随后的机构网络安全讲座。 混合配置文件 业务+信息技术 业务管理技术培训:流程、效率、营销和计量。 .
 
-- 疫情期间的网络安全培训以及随后的机构网络安全讲座。
-
-### 业务+信息技术
-
-业务管理技术培训:流程、效率、营销和计量。
-
-## 由国际投资协会协助的发展流动
-
-<!-- portfolio-section:flujo-ia -->
-
-我将IA工具作为项目中真正的技术加速器,而不是作为自己标准的替代品.
+- 由国际投资协会协助的发展流动
 
 ### 正在使用的工具
 
-- ChatGPT Plus (自2023年以来 · 分析、结构、迭代和文件
+ChatGPT Plus
 
-- 法典 · 代码生成和再设计
+## (自2023年以来
 
-- 克劳德代码 · 建筑设计审查、执行和技术文件
+<!-- portfolio-section:flujo-ia -->
+
+分析、结构、迭代和文件
+
+### 法典
+
+- 代码生成和再设计 克劳德代码 · 建筑设计审查、执行和技术文件
 
 - 反重力 · 加快发展和自动化流动
 
 - VS Code / OpenCode · 综合国际影响评估援助的发展环境
 
-### 我应用IA在流中
+- 我应用IA在流中 · 技术诊断和结构分析
 
-- 技术诊断和结构分析
+- 解决方案设计和决定的审定 · 实施、再设计和测试
 
-- 解决方案设计和决定的审定
-
-- 实施、再设计和测试
-
-- 技术和概况文件
+### 技术和概况文件
 
 - 项目加速和存储器重联
 
-"我综合了自己的技术标准、人类验证和建筑方向,国际审计署扩大了能力、速度和技术范围,不能取代经验。 "
+- "我综合了自己的技术标准、人类验证和建筑方向,国际审计署扩大了能力、速度和技术范围,不能取代经验。 "
 
-## 真正的专业范围
+- 真正的专业范围
+
+- 清代分级:先是主要身份,后是自然扩张,最后是互补的伸展.
+
+- 🎯 主要身份
+
+解决方案架构师
+
+## 软件架构师
 
 <!-- portfolio-section:roles -->
 
-清代分级:先是主要身份,后是自然扩张,最后是互补的伸展.
+遗留现代化架构师
 
-### 🎯 主要身份
-
-16+年架构,真平台的开发与运行 逐步现代化而不会切割运行,集成系统,流程自动化和应用IA - 有技术标准和人性验证.
-
-### ↗ 自然扩张 - 电荷我可以承受的强度
-
-由直接经验、可核查的项目和内部审计师协会协助的流程提供支持。
-
-### 技术负责人/技术负责人
+### 高级全栈开发人员
 
 技术项目方向、结构定义、关键决定的审查、设备配套、现有系统的现代化以及业务目标与可持续技术解决办法之间的联系。
 
-### 人工智能编排工程师
+### 技术局
 
-设计出与LangGraph,FastAPI和MCP相通的自源系统. 具有状态,有条件的路线和韧性的代表.
+技术标准
 
-### 人工智能自动化工程师
+### 业务连续性
 
-与n8n,Python和有弹性的管弦乐器相接的流自动化. Circuit Breaker, Addpotence and observation.
+人工智能编排工程师
 
-### 解决方案工程师
+### MCP
 
-我们给予和提供真正的、技术的交流——业务、要求和面向客户的结构。
+人工智能自动化工程师
+
+### 格拉法纳
+
+解决方案工程师
 
 ### 技术产品构建器
 
@@ -858,29 +858,29 @@ AI Evolution Program v0.17.0 – 180个班,共15个部分,内容完整 + 540个�
 
 445+小时作为技术报告员(2003-2004,2011年):网络编程,HTML/CSS,Office和硬件. Down Syndromes儿童网络教育环境大学学位(注6.7). 例如,计算机与信息学(UTA)+16年运行真实的教育评价平台.
 
-### 🧭 我提供什么样的技术领导
+### 教育平台
 
-- 实际的技术领导,而不仅仅是行政领导.
+🧭 我提供什么样的技术领导
 
-- 根据实际生产经验作出决定。
-
-- 逐步进行现代化改造,不中断运行.
-
-- 明确各队,招募人员的文件和连续性.
+### 明确各队,招募人员的文件和连续性.
 
 - 以IA作为技术放大器,而不是代替专业标准.
 
 - 采取稳定、可持续性、安全和技术减债的办法。
 
-### ⚙️ 补充范围
+- ⚙️ 补充范围
 
-配置的逻辑扩展。我承担这些角色 当上下文或项目需要时,而不是作为主要身份。
+- 配置的逻辑扩展。我承担这些角色 当上下文或项目需要时,而不是作为主要身份。
 
-### ✅ 我为什么要走这个距离
+- 平台工程师
 
-- 技术领先 — 设备技术指南、标准定义、风险审查和关键决策支持。
+- DevOps / CI-CD 工程师
 
-- 解决方案架构 — 系统从根到生产的设计和演化。
+### 云/AWS 工程师
+
+技术报告员
+
+### — 系统从根到生产的设计和演化。
 
 - 遗留现代化 — 使用遗留系统 16 年以上，未进行任何切割操作。
 
@@ -896,184 +896,188 @@ AI Evolution Program v0.17.0 – 180个班,共15个部分,内容完整 + 540个�
 
 - 协作和文档 - 每个配置文件的文档，RECRUTER.md，存储库中可验证的证据。
 
-### 🔗 按背景分列的相关作用
+- 🔗 按背景分列的相关作用 可按项目类型、公司或具体需要加以选择。
 
-可按项目类型、公司或具体需要加以选择。
+- AI 代理开发人员 提示工程师
 
-## 服务
+### GenAI 产品生成器
+
+自动化/人工智能采用主管
+
+## 职能核查
 
 <!-- portfolio-section:servicios -->
 
-与真正的建筑、现代化和可持续技术演变相适应的阶段干预。
+技术审计
 
-### 内部审计机构生成的代码审计
+### 清洁和复原
 
-职能核查、技术审计、技术债务清理和减少以及已与助理和代理人一起建立的国际审计机构治理小组。
+内部审计的治理
 
-### 遗产系统的现代化
+### CI/CD
 
-渐进Refactor,PHP / 停止遗留的迁移,CI / CD,自动测试和安全部署而不切入操作.
+质量检查
 
-### 流程和工作流程自动化
+### 弹性
 
-设计和实施由n8n、Python和有弹性管弦乐器组成的自动流量,包括断路器、同上高强度和可观察性。
+应用的IA的整合
 
-### 应用的IA的整合
+### 奥拉马
 
-将代理商、LLMs和IA协助的流量纳入实际产品和工艺。
+FastAPI
 
-### 云层结构、CI/光盘和可观察性
+### OIDC
 
-AWS(ECS / EKS,Lambda / SAM, DynamotB, Cognito, EventBridge / SQS / SNS, Cloud Watch / X-Ray, S3 / CloudFront),Terraform,OIDC,FinOps,GitHub CI和Prometheus / Grafana.
+拉姆达/SAM
 
-### 技术诊断和演变计划
+### 速胜
 
-全面评估:可以作出风险、技术债务、业绩、成本和有速赢的优先路线图。
+自由合作方式
 
-[全部服务都看齐了](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/)
+[重构](https://vladimiracunadev-create.github.io/servicios/auditoria-codigo-ia/)
 
-## 自由合作方式
+## 遗产
 
 <!-- portfolio-section:modalidades -->
 
-我的工作形式灵活,符合问题、关键程度、范围和所需参与程度。
+一体化
 
-### 项目中断
+### 自动化
 
-要及时实现现代化,集成化,搞好具体自动化,关键改进或具体交付.
+专家支助/小时包
 
-### 专家支助/小时包
+### 高级支助
 
-对于需要加快技术决策,解锁架构,验证实施或解决瓶颈的团队.
+每月援助额
 
-### 每月援助额
+### 观察性
 
-持续演变、高级支助、技术路线图、业务连续性和逐步改进。
+诊断+路线图
 
-### 诊断+路线图
+### 速胜
 
-确定背景、确定风险、确定决定的优先次序并制定一项现实的执行战略。
+技术-商业合作
 
-### 技术-商业合作
+### 利益相关者
 
-支持与客户或利益攸关方的对话,将要求转化为可行的解决方案并附带预先数据或技术定义。
+现代化、救援和应用国际审计协会
 
-### 现代化、救援和应用国际审计协会
+### 应用人工智能
 
-支持有脆弱的系统,活活运行,待自动化,建筑决定,云/Cic@-@CD,可观察性或务实地通过IA.
+我如何定义合适的模式
 
-### 我如何定义合适的模式
+### 预期领导水平
 
-在实践中,单独的发现、架构、执行、测试、文档、协调和后期支持。如果命令混合了多层,我按阶段或月度命令,以避免分散期望。
+谈取镜.
 
-### 未公布固定费率
-
-我不公布固定费率,因为每次干预都根据复杂性、风险、紧迫性和参与程度而变化,我宁愿首先审查目标和范围,以提出适当的模式。
-
-¿项目、专家支助或及时合作? 我们讨论背景,审查最佳工作形式。
-
-[谈取镜.](https://vladimiracunadev-create.github.io/#contacto)
-
-## 排气中心
-
-<!-- portfolio-section:descargas -->
+### 排气中心
 
 获取本地版本和公共专业文件。
 
-### 建议
+智能模式
 
-探测设备...
+[建议](https://vladimiracunadev-create.github.io/#contacto)
 
-### 其他版本
+## 探测设备...
 
-如果自动检测与您的设备不符, 则使用这些链接 。
+<!-- portfolio-section:descargas -->
 
-### PDF 文档
+手工选择
 
-语言选择器将每次下载修改为活动语言中对应的PDF.
+### 安卓 （APK）
 
-有效说明是专业人士而非Fundación CEIS Marista发布的辅助文件,是2026年的文字化权力变更,必须连同历史推荐信一起审查.
+安装 PWA
 
-成就表单独印发,以总结可观测结果并便利外部验证,而无需替换CV或组合.
+### 公共电器
 
-生活表是通用文档:经典而完整的格式,没有被指向特定收费。它为任何选择过程服务,即使该帖子有不寻常的名称。
+生活表
 
-### 技术文件
+### 苯丙胺类兴奋剂
 
-发现文件位于站点根部(SEO + IA).
+技术文件
 
-[安卓 （APK）](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/releases/latest/download/app-debug.apk)
+机器人.txt
 
-[组合](https://vladimiracunadev-create.github.io/assets/portafolio.pdf)
+站点地图.xml
 
-[生活表](https://vladimiracunadev-create.github.io/assets/hoja-de-vida.pdf)
+llm.txt
 
-[CV 递解器](https://vladimiracunadev-create.github.io/assets/cv-reclutador.pdf)
+### 发现文件位于站点根部(SEO + IA).
 
-[苯丙胺类兴奋剂](https://vladimiracunadev-create.github.io/assets/cv-ats.pdf)
+上边
 
-[建议书](https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma.pdf)
+[PDF 文档](https://github.com/vladimiracunadev-create/vladimiracunadev-create.github.io/releases/latest/download/app-debug.apk)
 
-[CEIS 观察笔记](https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis.pdf)
+[建议书](https://vladimiracunadev-create.github.io/assets/portafolio.pdf)
 
-[成就宣言](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
+[CEIS 观察笔记](https://vladimiracunadev-create.github.io/assets/hoja-de-vida.pdf)
 
-[机器人.txt](https://vladimiracunadev-create.github.io/robots.txt)
+[成就宣言](https://vladimiracunadev-create.github.io/assets/cv-reclutador.pdf)
 
-[站点地图.xml](https://vladimiracunadev-create.github.io/sitemap.xml)
+[语言选择器将每次下载修改为活动语言中对应的PDF.](https://vladimiracunadev-create.github.io/assets/cv-ats.pdf)
 
-[llm.txt](https://vladimiracunadev-create.github.io/llm.txt)
+[有效说明是专业人士而非Fundación CEIS Marista发布的辅助文件,是2026年的文字化权力变更,必须连同历史推荐信一起审查.](https://vladimiracunadev-create.github.io/assets/carta-recomendacion_sin_firma.pdf)
 
-## 劳工参考
+[成就表单独印发,以总结可观测结果并便利外部验证,而无需替换CV或组合.](https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis.pdf)
+
+[生活表是通用文档:经典而完整的格式,没有被指向特定收费。它为任何选择过程服务,即使该帖子有不寻常的名称。](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
+
+[劳工参考](https://vladimiracunadev-create.github.io/robots.txt)
+
+[对于机构项目,通过参考进行审定.](https://vladimiracunadev-create.github.io/sitemap.xml)
+
+[成就和审定摘要](https://vladimiracunadev-create.github.io/llm.txt)
+
+## 关键程序和报告工作估计的改进。
 
 <!-- portfolio-section:referencias -->
 
-对于机构项目,通过参考进行审定.
+减少近
 
-### 成就和审定摘要
+### 操作摩擦和支持在线电池。
 
-- 上边 80% 关键程序和报告工作估计的改进。
+- 大致优化 80% 数据库和代码组件。
 
-- 减少近 90% 操作摩擦和支持在线电池。
+- 同时上到... 90% 5个战线
 
-- 大致优化 45% 数据库和代码组件。
+- 在某些时期工作。 45% 这些数字载于专业人员发表的正式声明,外部参考以验证工作背景和一般范围。
 
-- 同时上到... 5个战线 在某些时期工作。
+- 见声明 让·克洛德·杜普里 最后一个直接主管
 
-这些数字载于专业人员发表的正式声明,外部参考以验证工作背景和一般范围。
+单元格
 
-### 让·克洛德·杜普里 · 最后一个直接主管
+### 演示文稿卡 · 使用 QR 代码保存我的专业数据或共享此组合。 反之则概括了我的服务领域: 网络应用程序、 云架构、 数据、 API、 IA、 自动化和网络安全 。
 
-单元格 : +56 9 9415 6984
+前 . 联系人和 QR 代码 : +56 9 9415 6984
 
-我可以发送书面摘要 和影响力的例子 如果你需要。
+技术解决方案和服务
 
-[见声明](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
+[我可以发送书面摘要 和影响力的例子 如果你需要。](https://vladimiracunadev-create.github.io/assets/declaracion-logros-validacion.pdf)
 
-## 演示文稿卡
+## 下载前置
 
 <!-- portfolio-section:tarjeta -->
 
-使用 QR 代码保存我的专业数据或共享此组合。 反之则概括了我的服务领域: 网络应用程序、 云架构、 数据、 API、 IA、 自动化和网络安全 。
+下载倒转
 
 https://vladimiracunadev-create.github.io/assets/icons/1.png?v=5adde69a
 
 https://vladimiracunadev-create.github.io/assets/icons/2.png?v=1a55b3e6
 
-[下载前置](https://vladimiracunadev-create.github.io/assets/icons/1.png?v=5adde69a)
+[电子邮件](https://vladimiracunadev-create.github.io/assets/icons/1.png?v=5adde69a)
 
-[下载倒转](https://vladimiracunadev-create.github.io/assets/icons/2.png?v=1a55b3e6)
+[vladimir.acuna.dev@gmail.com](https://vladimiracunadev-create.github.io/assets/icons/2.png?v=1a55b3e6)
 
-## 联系
+## 安装 App
 
 <!-- portfolio-section:contacto -->
 
-¿现代化、自动化、建筑或整合应用的IA?
+复制电子邮件
 
-可以通过Slack等合作渠道,迅速融入技术团队和社区。
+Disponible para integrarme rápidamente a equipos y comunidades técnicas a través de canales colaborativos como Slack.
 
-[vladimir.acuna.dev@gmail.com](mailto:vladimir.acuna.dev@gmail.com)
+[GitHub](mailto:vladimir.acuna.dev@gmail.com)
 
-[领英](https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29)
+[由HTML + CSS + JS 所制造.](https://www.linkedin.com/in/vladimir-acu%C3%B1a-valdebenito-11924a29)
 
-[GitHub](https://github.com/vladimiracunadev-create)
+[AI代码审计](https://github.com/vladimiracunadev-create)

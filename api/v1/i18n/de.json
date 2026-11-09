@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-26",
+    "generated_at": "2026-11-09",
     "language": "de",
     "language_name": "German",
     "native_name": "Deutsch",
@@ -62,61 +62,61 @@
     },
     {
       "id": "demos",
-      "title": "Lasst uns live gehen.",
+      "title": "Siehe Website",
       "min_level": 1,
       "freelance_hidden": false
     },
     {
       "id": "experiencia",
-      "title": "Erfahrung",
+      "title": "Standardisierung von Umgebungen, Docker / AWS Labors, Automatisierung, Observability und Prototypen mit lokaler IA.",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "flujo-ia",
-      "title": "Entwicklungsfluss unterstützt durch IA",
+      "title": "(seit 2023",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "roles",
-      "title": "Echte berufliche Reichweite",
+      "title": "Software Architekt",
       "min_level": 1,
       "freelance_hidden": true
     },
     {
       "id": "servicios",
-      "title": "Dienstleistungen",
+      "title": "Funktionale Überprüfung",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "modalidades",
-      "title": "Freiberuflich · Modalitäten der Zusammenarbeit",
+      "title": "Legacy",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "descargas",
-      "title": "Entlastungszentrum",
+      "title": "Erkennungsausrüstung...",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "referencias",
-      "title": "Arbeitsreferenzen",
+      "title": "geschätzte Verbesserung kritischer Prozesse und Berichterstattung.",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "tarjeta",
-      "title": "Aufmachungskarte",
+      "title": "Download Front",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "contacto",
-      "title": "Kontakt jetzt",
+      "title": "App installieren",
       "min_level": 0,
       "freelance_hidden": false
     }

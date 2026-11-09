@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-26",
+    "generated_at": "2026-11-09",
     "language": "ko",
     "language_name": "Korean",
     "native_name": "한국어",
@@ -62,61 +62,61 @@
     },
     {
       "id": "demos",
-      "title": "라이브 데모",
+      "title": "사이트 보기",
       "min_level": 1,
       "freelance_hidden": false
     },
     {
       "id": "experiencia",
-      "title": "경험치",
+      "title": "환경 표준화, Docker/AWS 실험실, 자동화, 관찰 가능성 및 로컬 AI를 통한 프로토타입 제작.",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "flujo-ia",
-      "title": "AI 지원 개발 흐름",
+      "title": "(2023년부터)",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "roles",
-      "title": "실제 전문 범위",
+      "title": "소프트웨어 설계자",
       "min_level": 1,
       "freelance_hidden": true
     },
     {
       "id": "servicios",
-      "title": "서비스",
+      "title": "기능 검증",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "modalidades",
-      "title": "프리랜서 · 협업 양식",
+      "title": "레거시",
       "min_level": 2,
       "freelance_hidden": false
     },
     {
       "id": "descargas",
-      "title": "다운로드 센터",
+      "title": "장비 감지 중...",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "referencias",
-      "title": "채용정보",
+      "title": "중요한 프로세스 및 보고서 생성의 개선이 예상됩니다.",
       "min_level": 2,
       "freelance_hidden": true
     },
     {
       "id": "tarjeta",
-      "title": "명함",
+      "title": "전면 다운로드",
       "min_level": 0,
       "freelance_hidden": false
     },
     {
       "id": "contacto",
-      "title": "연락처",
+      "title": "앱 설치",
       "min_level": 0,
       "freelance_hidden": false
     }
