@@ -188,6 +188,7 @@ crítico.
 3. Registrar en `CHANGELOG.md`: `[BACKUP] assets/backups/YYYY-MM-DD/archivo_vN — motivo`
 4. NUNCA sobrescribir un backup existente
 5. La versión activa siempre está en `assets/`
+6. `assets/backups/` es **solo local**: está en `.gitignore` y no se versiona ni se publica (el repo guarda solo archivos vigentes)
 
 ---
 

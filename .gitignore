@@ -31,5 +31,5 @@ portfolio-bundle-*.zip
 # Artefactos ya publicados como assets de release; no deben versionarse.
 dist-release/
 
-# Respaldos de PDFs del 2026-11-09: solo en el equipo local (aligera el sitio publicado)
-assets/backups/2026-11-09/*.pdf
+# Respaldos: viven solo en la carpeta local, nunca en el repositorio (el repo guarda solo archivos vigentes)
+assets/backups/
