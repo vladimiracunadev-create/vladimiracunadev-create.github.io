@@ -902,6 +902,128 @@
                     "url": "https://vladimiracunadev-create.github.io/assets/nota-vigencia-contexto-institucional-ceis-greek.pdf"
                 }
             }
+        },
+        {
+            "id": "consulta_inhabilidades",
+            "title": "Consulta de Inhabilidades para Trabajar con Menores de Edad",
+            "description": "Official query result from Chile's Servicio de Registro Civil e Identificación stating that the holder has no registered disqualifications to work with minors (issued 2026-11-18). The Spanish PDF is the unaltered official document; the other 21 variants are courtesy translations that say so.",
+            "type": "pdf",
+            "category": "validation",
+            "default_language": "es",
+            "updated_at": "2026-11-18",
+            "rationale": "Published as a verifiable supporting document for roles involving direct contact with minors; the Spanish original prevails over any translation.",
+            "variants": {
+                "es": {
+                    "label": "Consulta de inhabilidades para trabajar con menores de edad",
+                    "file": "assets/consulta-inhabilidades.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/consulta-inhabilidades.pdf"
+                },
+                "en": {
+                    "label": "Inquiry on disqualifications to work with minors",
+                    "file": "assets/consulta-inhabilidades-english.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/consulta-inhabilidades-english.pdf"
+                },
+                "pt": {
+                    "label": "Consulta de inabilidades para trabalhar com menores de idade",
+                    "file": "assets/consulta-inhabilidades-portuguese.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/consulta-inhabilidades-portuguese.pdf"
+                },
+                "it": {
+                    "label": "Consultazione delle interdizioni a lavorare con minori",
+                    "file": "assets/consulta-inhabilidades-italian.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/consulta-inhabilidades-italian.pdf"
+                },
+                "fr": {
+                    "label": "Consultation des interdictions d'exercer auprès de mineurs",
+                    "file": "assets/consulta-inhabilidades-french.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/consulta-inhabilidades-french.pdf"
+                },
+                "zh": {
+                    "label": "关于从事涉及未成年人工作的禁止资格查询",
+                    "file": "assets/consulta-inhabilidades-chinese.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/consulta-inhabilidades-chinese.pdf"
+                },
+                "zh-TW": {
+                    "label": "關於從事涉及未成年人工作的禁止資格查詢",
+                    "file": "assets/consulta-inhabilidades-traditional-chinese.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/consulta-inhabilidades-traditional-chinese.pdf"
+                },
+                "ja": {
+                    "label": "未成年者を対象とする業務に関する就業制限の照会",
+                    "file": "assets/consulta-inhabilidades-japanese.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/consulta-inhabilidades-japanese.pdf"
+                },
+                "ko": {
+                    "label": "미성년자 관련 업무 결격 사유 조회",
+                    "file": "assets/consulta-inhabilidades-korean.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/consulta-inhabilidades-korean.pdf"
+                },
+                "tr": {
+                    "label": "Reşit olmayanlarla çalışma yasağı sorgusu",
+                    "file": "assets/consulta-inhabilidades-turkish.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/consulta-inhabilidades-turkish.pdf"
+                },
+                "ru": {
+                    "label": "Справка о запретах на работу с несовершеннолетними",
+                    "file": "assets/consulta-inhabilidades-russian.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/consulta-inhabilidades-russian.pdf"
+                },
+                "vi": {
+                    "label": "Tra cứu hạn chế làm việc với người chưa thành niên",
+                    "file": "assets/consulta-inhabilidades-vietnamese.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/consulta-inhabilidades-vietnamese.pdf"
+                },
+                "th": {
+                    "label": "การตรวจสอบข้อห้ามในการทำงานกับผู้เยาว์",
+                    "file": "assets/consulta-inhabilidades-thai.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/consulta-inhabilidades-thai.pdf"
+                },
+                "de": {
+                    "label": "Abfrage von Tätigkeitsverboten für die Arbeit mit Minderjährigen",
+                    "file": "assets/consulta-inhabilidades-german.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/consulta-inhabilidades-german.pdf"
+                },
+                "uk": {
+                    "label": "Довідка про заборони на роботу з неповнолітніми",
+                    "file": "assets/consulta-inhabilidades-ukrainian.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/consulta-inhabilidades-ukrainian.pdf"
+                },
+                "pl": {
+                    "label": "Zapytanie o zakazy pracy z małoletnimi",
+                    "file": "assets/consulta-inhabilidades-polish.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/consulta-inhabilidades-polish.pdf"
+                },
+                "ar": {
+                    "label": "الاستعلام عن موانع العمل مع القاصرين",
+                    "file": "assets/consulta-inhabilidades-arabic.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/consulta-inhabilidades-arabic.pdf"
+                },
+                "fa": {
+                    "label": "استعلام ممنوعیت‌های کار با افراد زیر سن قانونی",
+                    "file": "assets/consulta-inhabilidades-persian.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/consulta-inhabilidades-persian.pdf"
+                },
+                "id": {
+                    "label": "Pemeriksaan larangan bekerja dengan anak di bawah umur",
+                    "file": "assets/consulta-inhabilidades-indonesian.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/consulta-inhabilidades-indonesian.pdf"
+                },
+                "nl": {
+                    "label": "Raadpleging van beroepsverboden voor werk met minderjarigen",
+                    "file": "assets/consulta-inhabilidades-dutch.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/consulta-inhabilidades-dutch.pdf"
+                },
+                "hi": {
+                    "label": "नाबालिगों के साथ काम करने की अयोग्यताओं की जाँच",
+                    "file": "assets/consulta-inhabilidades-hindi.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/consulta-inhabilidades-hindi.pdf"
+                },
+                "el": {
+                    "label": "Έλεγχος κωλυμάτων εργασίας με ανηλίκους",
+                    "file": "assets/consulta-inhabilidades-greek.pdf",
+                    "url": "https://vladimiracunadev-create.github.io/assets/consulta-inhabilidades-greek.pdf"
+                }
+            }
         }
     ],
     "note": "PDFs in assets/no_aplica/ and assets/por_solicitud/ remain intentionally excluded from the public API."

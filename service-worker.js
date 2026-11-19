@@ -1,4 +1,4 @@
-const CACHE_NAME = 'vladi-portfolio-v25-software-20261109';
+const CACHE_NAME = 'vladi-portfolio-v26-inhabilidades-20261118';
 const OFFLINE_URL = './offline.html';
 const LOCALE_ROUTES = [
     'es', 'en', 'pt', 'it', 'fr', 'zh', 'zh-TW', 'ja', 'ko', 'tr', 'ru',

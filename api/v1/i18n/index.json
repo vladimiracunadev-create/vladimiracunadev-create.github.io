@@ -19,7 +19,8 @@
         "ats": "/assets/cv-ats.pdf",
         "achievements": "/assets/declaracion-logros-validacion.pdf",
         "recommendation": "/assets/carta-recomendacion_sin_firma.pdf",
-        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis.pdf"
+        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis.pdf",
+        "inhabilidades": "/assets/consulta-inhabilidades.pdf"
       }
     },
     {
@@ -36,7 +37,8 @@
         "ats": "/assets/cv-ats-english.pdf",
         "achievements": "/assets/declaracion-logros-validacion-english.pdf",
         "recommendation": "/assets/carta-recomendacion_sin_firma-english.pdf",
-        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-english.pdf"
+        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-english.pdf",
+        "inhabilidades": "/assets/consulta-inhabilidades-english.pdf"
       }
     },
     {
@@ -53,7 +55,8 @@
         "ats": "/assets/cv-ats-portuguese.pdf",
         "achievements": "/assets/declaracion-logros-validacion-portuguese.pdf",
         "recommendation": "/assets/carta-recomendacion_sin_firma-portuguese.pdf",
-        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-portuguese.pdf"
+        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-portuguese.pdf",
+        "inhabilidades": "/assets/consulta-inhabilidades-portuguese.pdf"
       }
     },
     {
@@ -70,7 +73,8 @@
         "ats": "/assets/cv-ats-italian.pdf",
         "achievements": "/assets/declaracion-logros-validacion-italian.pdf",
         "recommendation": "/assets/carta-recomendacion_sin_firma-italian.pdf",
-        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-italian.pdf"
+        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-italian.pdf",
+        "inhabilidades": "/assets/consulta-inhabilidades-italian.pdf"
       }
     },
     {
@@ -87,7 +91,8 @@
         "ats": "/assets/cv-ats-french.pdf",
         "achievements": "/assets/declaracion-logros-validacion-french.pdf",
         "recommendation": "/assets/carta-recomendacion_sin_firma-french.pdf",
-        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-french.pdf"
+        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-french.pdf",
+        "inhabilidades": "/assets/consulta-inhabilidades-french.pdf"
       }
     },
     {
@@ -104,7 +109,8 @@
         "ats": "/assets/cv-ats-chinese.pdf",
         "achievements": "/assets/declaracion-logros-validacion-chinese.pdf",
         "recommendation": "/assets/carta-recomendacion_sin_firma-chinese.pdf",
-        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-chinese.pdf"
+        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-chinese.pdf",
+        "inhabilidades": "/assets/consulta-inhabilidades-chinese.pdf"
       }
     },
     {
@@ -121,7 +127,8 @@
         "ats": "/assets/cv-ats-traditional-chinese.pdf",
         "achievements": "/assets/declaracion-logros-validacion-traditional-chinese.pdf",
         "recommendation": "/assets/carta-recomendacion_sin_firma-traditional-chinese.pdf",
-        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-traditional-chinese.pdf"
+        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-traditional-chinese.pdf",
+        "inhabilidades": "/assets/consulta-inhabilidades-traditional-chinese.pdf"
       }
     },
     {
@@ -138,7 +145,8 @@
         "ats": "/assets/cv-ats-japanese.pdf",
         "achievements": "/assets/declaracion-logros-validacion-japanese.pdf",
         "recommendation": "/assets/carta-recomendacion_sin_firma-japanese.pdf",
-        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-japanese.pdf"
+        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-japanese.pdf",
+        "inhabilidades": "/assets/consulta-inhabilidades-japanese.pdf"
       }
     },
     {
@@ -155,7 +163,8 @@
         "ats": "/assets/cv-ats-korean.pdf",
         "achievements": "/assets/declaracion-logros-validacion-korean.pdf",
         "recommendation": "/assets/carta-recomendacion_sin_firma-korean.pdf",
-        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-korean.pdf"
+        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-korean.pdf",
+        "inhabilidades": "/assets/consulta-inhabilidades-korean.pdf"
       }
     },
     {
@@ -172,7 +181,8 @@
         "ats": "/assets/cv-ats-turkish.pdf",
         "achievements": "/assets/declaracion-logros-validacion-turkish.pdf",
         "recommendation": "/assets/carta-recomendacion_sin_firma-turkish.pdf",
-        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-turkish.pdf"
+        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-turkish.pdf",
+        "inhabilidades": "/assets/consulta-inhabilidades-turkish.pdf"
       }
     },
     {
@@ -189,7 +199,8 @@
         "ats": "/assets/cv-ats-russian.pdf",
         "achievements": "/assets/declaracion-logros-validacion-russian.pdf",
         "recommendation": "/assets/carta-recomendacion_sin_firma-russian.pdf",
-        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-russian.pdf"
+        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-russian.pdf",
+        "inhabilidades": "/assets/consulta-inhabilidades-russian.pdf"
       }
     },
     {
@@ -206,7 +217,8 @@
         "ats": "/assets/cv-ats-vietnamese.pdf",
         "achievements": "/assets/declaracion-logros-validacion-vietnamese.pdf",
         "recommendation": "/assets/carta-recomendacion_sin_firma-vietnamese.pdf",
-        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-vietnamese.pdf"
+        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-vietnamese.pdf",
+        "inhabilidades": "/assets/consulta-inhabilidades-vietnamese.pdf"
       }
     },
     {
@@ -223,7 +235,8 @@
         "ats": "/assets/cv-ats-thai.pdf",
         "achievements": "/assets/declaracion-logros-validacion-thai.pdf",
         "recommendation": "/assets/carta-recomendacion_sin_firma-thai.pdf",
-        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-thai.pdf"
+        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-thai.pdf",
+        "inhabilidades": "/assets/consulta-inhabilidades-thai.pdf"
       }
     },
     {
@@ -240,7 +253,8 @@
         "ats": "/assets/cv-ats-german.pdf",
         "achievements": "/assets/declaracion-logros-validacion-german.pdf",
         "recommendation": "/assets/carta-recomendacion_sin_firma-german.pdf",
-        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-german.pdf"
+        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-german.pdf",
+        "inhabilidades": "/assets/consulta-inhabilidades-german.pdf"
       }
     },
     {
@@ -257,7 +271,8 @@
         "ats": "/assets/cv-ats-ukrainian.pdf",
         "achievements": "/assets/declaracion-logros-validacion-ukrainian.pdf",
         "recommendation": "/assets/carta-recomendacion_sin_firma-ukrainian.pdf",
-        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-ukrainian.pdf"
+        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-ukrainian.pdf",
+        "inhabilidades": "/assets/consulta-inhabilidades-ukrainian.pdf"
       }
     },
     {
@@ -274,7 +289,8 @@
         "ats": "/assets/cv-ats-polish.pdf",
         "achievements": "/assets/declaracion-logros-validacion-polish.pdf",
         "recommendation": "/assets/carta-recomendacion_sin_firma-polish.pdf",
-        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-polish.pdf"
+        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-polish.pdf",
+        "inhabilidades": "/assets/consulta-inhabilidades-polish.pdf"
       }
     },
     {
@@ -291,7 +307,8 @@
         "ats": "/assets/cv-ats-arabic.pdf",
         "achievements": "/assets/declaracion-logros-validacion-arabic.pdf",
         "recommendation": "/assets/carta-recomendacion_sin_firma-arabic.pdf",
-        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-arabic.pdf"
+        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-arabic.pdf",
+        "inhabilidades": "/assets/consulta-inhabilidades-arabic.pdf"
       }
     },
     {
@@ -308,7 +325,8 @@
         "ats": "/assets/cv-ats-persian.pdf",
         "achievements": "/assets/declaracion-logros-validacion-persian.pdf",
         "recommendation": "/assets/carta-recomendacion_sin_firma-persian.pdf",
-        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-persian.pdf"
+        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-persian.pdf",
+        "inhabilidades": "/assets/consulta-inhabilidades-persian.pdf"
       }
     },
     {
@@ -325,7 +343,8 @@
         "ats": "/assets/cv-ats-indonesian.pdf",
         "achievements": "/assets/declaracion-logros-validacion-indonesian.pdf",
         "recommendation": "/assets/carta-recomendacion_sin_firma-indonesian.pdf",
-        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-indonesian.pdf"
+        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-indonesian.pdf",
+        "inhabilidades": "/assets/consulta-inhabilidades-indonesian.pdf"
       }
     },
     {
@@ -342,7 +361,8 @@
         "ats": "/assets/cv-ats-dutch.pdf",
         "achievements": "/assets/declaracion-logros-validacion-dutch.pdf",
         "recommendation": "/assets/carta-recomendacion_sin_firma-dutch.pdf",
-        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-dutch.pdf"
+        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-dutch.pdf",
+        "inhabilidades": "/assets/consulta-inhabilidades-dutch.pdf"
       }
     },
     {
@@ -359,7 +379,8 @@
         "ats": "/assets/cv-ats-hindi.pdf",
         "achievements": "/assets/declaracion-logros-validacion-hindi.pdf",
         "recommendation": "/assets/carta-recomendacion_sin_firma-hindi.pdf",
-        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-hindi.pdf"
+        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-hindi.pdf",
+        "inhabilidades": "/assets/consulta-inhabilidades-hindi.pdf"
       }
     },
     {
@@ -376,7 +397,8 @@
         "ats": "/assets/cv-ats-greek.pdf",
         "achievements": "/assets/declaracion-logros-validacion-greek.pdf",
         "recommendation": "/assets/carta-recomendacion_sin_firma-greek.pdf",
-        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-greek.pdf"
+        "institutional": "/assets/nota-vigencia-contexto-institucional-ceis-greek.pdf",
+        "inhabilidades": "/assets/consulta-inhabilidades-greek.pdf"
       }
     }
   ]

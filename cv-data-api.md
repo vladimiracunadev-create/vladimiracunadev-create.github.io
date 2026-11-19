@@ -4,7 +4,7 @@
 
 > Currículum publicado como API JSON estática y PDFs descargables, servido desde **GitHub Pages** sin servidor ni autenticación.
 
-**Datos sincronizados:** 2026-10-26. Los endpoints localizados derivan de las mismas 16 secciones canónicas del portafolio y del catálogo completo; declaran cuatro vistas, dirección y fallback. El inventario público cubre 154 PDFs en 22 idiomas.
+**Datos sincronizados:** 2026-10-26. Los endpoints localizados derivan de las mismas 16 secciones canónicas del portafolio y del catálogo completo; declaran cuatro vistas, dirección y fallback. El inventario público cubre 176 PDFs en 22 idiomas (8 familias documentales, incluida `consulta_inhabilidades`).
 
 ---
 

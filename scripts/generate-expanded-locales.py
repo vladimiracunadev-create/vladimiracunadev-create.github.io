@@ -75,33 +75,37 @@ DOCUMENTS = (
     ("achievements", "declaracion-logros-validacion", "Achievements and validation statement"),
     ("recommendation", "carta-recomendacion_sin_firma", "Recommendation letter context"),
     ("institutional", "nota-vigencia-contexto-institucional-ceis", "CEIS institutional context note"),
+    ("inhabilidades", "consulta-inhabilidades", "Disqualification inquiry (official Spanish document + courtesy translations)"),
 )
+
+# Documents whose PDFs come from their own script instead of the generic renderer.
+SEPARATE_PDF_KINDS = {"inhabilidades"}  # scripts/generate-consulta-inhabilidades.py
 
 # Localized document names. Body content comes from the canonical website plus
 # the versioned translation catalog; the profile README remains independent.
 TITLES = {
-    "es": ["Portafolio", "Hoja de vida profesional", "CV para reclutamiento", "CV ATS", "Declaración de logros y validación", "Contexto de la carta de recomendación", "Nota de vigencia y contexto institucional CEIS"],
-    "en": ["Portfolio", "Professional resume", "Recruiter CV", "ATS CV", "Achievements and validation statement", "Recommendation letter context", "CEIS institutional validity and context note"],
-    "pt": ["Portfólio", "Currículo profissional", "CV para recrutamento", "CV ATS", "Declaração de realizações e validação", "Contexto da carta de recomendação", "Nota de vigência e contexto institucional CEIS"],
-    "it": ["Portfolio", "Curriculum professionale", "CV per selezione", "CV ATS", "Dichiarazione dei risultati e convalida", "Contesto della lettera di raccomandazione", "Nota di validità e contesto istituzionale CEIS"],
-    "fr": ["Portfolio", "Curriculum professionnel", "CV pour le recrutement", "CV ATS", "Déclaration de réalisations et validation", "Contexte de la lettre de recommandation", "Note de validité et de contexte institutionnel CEIS"],
-    "zh": ["作品集", "专业简历", "招聘简历", "ATS 简历", "成果与验证声明", "推荐信背景说明", "CEIS 机构有效性与背景说明"],
-    "zh-TW": ["作品集", "專業履歷", "招募履歷", "ATS 履歷", "成果與驗證聲明", "推薦信背景說明", "CEIS 機構有效性與背景說明"],
-    "ja": ["ポートフォリオ", "職務経歴書", "採用担当者向けCV", "ATS向けCV", "実績および検証声明", "推薦状の背景説明", "CEIS機関の有効性および背景に関する注記"],
-    "ko": ["포트폴리오", "전문 이력서", "채용 담당자용 CV", "ATS CV", "성과 및 검증 진술서", "추천서 배경 설명", "CEIS 기관 유효성 및 배경 설명"],
-    "tr": ["Portföy", "Profesyonel özgeçmiş", "İşe alım CV'si", "ATS CV", "Başarılar ve doğrulama beyanı", "Tavsiye mektubu bağlamı", "CEIS kurumsal geçerlilik ve bağlam notu"],
-    "ru": ["Портфолио", "Профессиональное резюме", "Резюме для рекрутера", "Резюме ATS", "Заявление о достижениях и проверке", "Контекст рекомендательного письма", "Примечание о действительности и контексте CEIS"],
-    "vi": ["Hồ sơ năng lực", "Sơ yếu lý lịch chuyên nghiệp", "CV dành cho nhà tuyển dụng", "CV ATS", "Tuyên bố thành tích và xác minh", "Bối cảnh thư giới thiệu", "Ghi chú về hiệu lực và bối cảnh tổ chức CEIS"],
-    "th": ["แฟ้มผลงาน", "ประวัติย่อระดับมืออาชีพ", "CV สำหรับผู้สรรหา", "CV สำหรับ ATS", "คำชี้แจงผลงานและการตรวจสอบ", "บริบทของจดหมายแนะนำ", "หมายเหตุความถูกต้องและบริบทสถาบัน CEIS"],
-    "de": ["Portfolio", "Beruflicher Lebenslauf", "Recruiter-Lebenslauf", "ATS-Lebenslauf", "Erfolgs- und Validierungserklärung", "Kontext des Empfehlungsschreibens", "Hinweis zur Gültigkeit und zum institutionellen Kontext von CEIS"],
-    "uk": ["Портфоліо", "Професійне резюме", "Резюме для рекрутера", "Резюме ATS", "Заява про досягнення та перевірку", "Контекст рекомендаційного листа", "Примітка про чинність та інституційний контекст CEIS"],
-    "pl": ["Portfolio", "Życiorys zawodowy", "CV dla rekrutera", "CV ATS", "Oświadczenie o osiągnięciach i weryfikacji", "Kontekst listu polecającego", "Nota o ważności i kontekście instytucjonalnym CEIS"],
-    "ar": ["ملف الأعمال", "السيرة المهنية", "سيرة ذاتية لمسؤول التوظيف", "سيرة ذاتية لنظام ATS", "بيان الإنجازات والتحقق", "سياق خطاب التوصية", "ملاحظة صلاحية وسياق مؤسسة CEIS"],
-    "fa": ["نمونه‌کار", "رزومه حرفه‌ای", "رزومه ویژه استخدام", "رزومه ATS", "بیانیه دستاوردها و اعتبارسنجی", "زمینه نامه توصیه", "یادداشت اعتبار و زمینه سازمانی CEIS"],
-    "id": ["Portofolio", "Riwayat hidup profesional", "CV untuk perekrut", "CV ATS", "Pernyataan pencapaian dan validasi", "Konteks surat rekomendasi", "Catatan validitas dan konteks institusi CEIS"],
-    "nl": ["Portfolio", "Professioneel cv", "Cv voor recruiters", "ATS-cv", "Verklaring van prestaties en validatie", "Context van de aanbevelingsbrief", "Notitie over geldigheid en institutionele context van CEIS"],
-    "hi": ["पोर्टफोलियो", "पेशेवर जीवनवृत्त", "भर्तीकर्ता के लिए CV", "ATS CV", "उपलब्धियों और सत्यापन का विवरण", "अनुशंसा पत्र का संदर्भ", "CEIS संस्थागत वैधता और संदर्भ नोट"],
-    "el": ["Χαρτοφυλάκιο", "Επαγγελματικό βιογραφικό", "Βιογραφικό για υπεύθυνο προσλήψεων", "Βιογραφικό ATS", "Δήλωση επιτευγμάτων και επικύρωσης", "Πλαίσιο συστατικής επιστολής", "Σημείωση ισχύος και θεσμικού πλαισίου CEIS"],
+    "es": ["Portafolio", "Hoja de vida profesional", "CV para reclutamiento", "CV ATS", "Declaración de logros y validación", "Contexto de la carta de recomendación", "Nota de vigencia y contexto institucional CEIS", "Consulta de inhabilidades para trabajar con menores de edad"],
+    "en": ["Portfolio", "Professional resume", "Recruiter CV", "ATS CV", "Achievements and validation statement", "Recommendation letter context", "CEIS institutional validity and context note", "Inquiry on disqualifications to work with minors"],
+    "pt": ["Portfólio", "Currículo profissional", "CV para recrutamento", "CV ATS", "Declaração de realizações e validação", "Contexto da carta de recomendação", "Nota de vigência e contexto institucional CEIS", "Consulta de inabilidades para trabalhar com menores de idade"],
+    "it": ["Portfolio", "Curriculum professionale", "CV per selezione", "CV ATS", "Dichiarazione dei risultati e convalida", "Contesto della lettera di raccomandazione", "Nota di validità e contesto istituzionale CEIS", "Consultazione delle interdizioni a lavorare con minori"],
+    "fr": ["Portfolio", "Curriculum professionnel", "CV pour le recrutement", "CV ATS", "Déclaration de réalisations et validation", "Contexte de la lettre de recommandation", "Note de validité et de contexte institutionnel CEIS", "Consultation des interdictions d'exercer auprès de mineurs"],
+    "zh": ["作品集", "专业简历", "招聘简历", "ATS 简历", "成果与验证声明", "推荐信背景说明", "CEIS 机构有效性与背景说明", "关于从事涉及未成年人工作的禁止资格查询"],
+    "zh-TW": ["作品集", "專業履歷", "招募履歷", "ATS 履歷", "成果與驗證聲明", "推薦信背景說明", "CEIS 機構有效性與背景說明", "關於從事涉及未成年人工作的禁止資格查詢"],
+    "ja": ["ポートフォリオ", "職務経歴書", "採用担当者向けCV", "ATS向けCV", "実績および検証声明", "推薦状の背景説明", "CEIS機関の有効性および背景に関する注記", "未成年者を対象とする業務に関する就業制限の照会"],
+    "ko": ["포트폴리오", "전문 이력서", "채용 담당자용 CV", "ATS CV", "성과 및 검증 진술서", "추천서 배경 설명", "CEIS 기관 유효성 및 배경 설명", "미성년자 관련 업무 결격 사유 조회"],
+    "tr": ["Portföy", "Profesyonel özgeçmiş", "İşe alım CV'si", "ATS CV", "Başarılar ve doğrulama beyanı", "Tavsiye mektubu bağlamı", "CEIS kurumsal geçerlilik ve bağlam notu", "Reşit olmayanlarla çalışma yasağı sorgusu"],
+    "ru": ["Портфолио", "Профессиональное резюме", "Резюме для рекрутера", "Резюме ATS", "Заявление о достижениях и проверке", "Контекст рекомендательного письма", "Примечание о действительности и контексте CEIS", "Справка о запретах на работу с несовершеннолетними"],
+    "vi": ["Hồ sơ năng lực", "Sơ yếu lý lịch chuyên nghiệp", "CV dành cho nhà tuyển dụng", "CV ATS", "Tuyên bố thành tích và xác minh", "Bối cảnh thư giới thiệu", "Ghi chú về hiệu lực và bối cảnh tổ chức CEIS", "Tra cứu hạn chế làm việc với người chưa thành niên"],
+    "th": ["แฟ้มผลงาน", "ประวัติย่อระดับมืออาชีพ", "CV สำหรับผู้สรรหา", "CV สำหรับ ATS", "คำชี้แจงผลงานและการตรวจสอบ", "บริบทของจดหมายแนะนำ", "หมายเหตุความถูกต้องและบริบทสถาบัน CEIS", "การตรวจสอบข้อห้ามในการทำงานกับผู้เยาว์"],
+    "de": ["Portfolio", "Beruflicher Lebenslauf", "Recruiter-Lebenslauf", "ATS-Lebenslauf", "Erfolgs- und Validierungserklärung", "Kontext des Empfehlungsschreibens", "Hinweis zur Gültigkeit und zum institutionellen Kontext von CEIS", "Abfrage von Tätigkeitsverboten für die Arbeit mit Minderjährigen"],
+    "uk": ["Портфоліо", "Професійне резюме", "Резюме для рекрутера", "Резюме ATS", "Заява про досягнення та перевірку", "Контекст рекомендаційного листа", "Примітка про чинність та інституційний контекст CEIS", "Довідка про заборони на роботу з неповнолітніми"],
+    "pl": ["Portfolio", "Życiorys zawodowy", "CV dla rekrutera", "CV ATS", "Oświadczenie o osiągnięciach i weryfikacji", "Kontekst listu polecającego", "Nota o ważności i kontekście instytucjonalnym CEIS", "Zapytanie o zakazy pracy z małoletnimi"],
+    "ar": ["ملف الأعمال", "السيرة المهنية", "سيرة ذاتية لمسؤول التوظيف", "سيرة ذاتية لنظام ATS", "بيان الإنجازات والتحقق", "سياق خطاب التوصية", "ملاحظة صلاحية وسياق مؤسسة CEIS", "الاستعلام عن موانع العمل مع القاصرين"],
+    "fa": ["نمونه‌کار", "رزومه حرفه‌ای", "رزومه ویژه استخدام", "رزومه ATS", "بیانیه دستاوردها و اعتبارسنجی", "زمینه نامه توصیه", "یادداشت اعتبار و زمینه سازمانی CEIS", "استعلام ممنوعیت‌های کار با افراد زیر سن قانونی"],
+    "id": ["Portofolio", "Riwayat hidup profesional", "CV untuk perekrut", "CV ATS", "Pernyataan pencapaian dan validasi", "Konteks surat rekomendasi", "Catatan validitas dan konteks institusi CEIS", "Pemeriksaan larangan bekerja dengan anak di bawah umur"],
+    "nl": ["Portfolio", "Professioneel cv", "Cv voor recruiters", "ATS-cv", "Verklaring van prestaties en validatie", "Context van de aanbevelingsbrief", "Notitie over geldigheid en institutionele context van CEIS", "Raadpleging van beroepsverboden voor werk met minderjarigen"],
+    "hi": ["पोर्टफोलियो", "पेशेवर जीवनवृत्त", "भर्तीकर्ता के लिए CV", "ATS CV", "उपलब्धियों और सत्यापन का विवरण", "अनुशंसा पत्र का संदर्भ", "CEIS संस्थागत वैधता और संदर्भ नोट", "नाबालिगों के साथ काम करने की अयोग्यताओं की जाँच"],
+    "el": ["Χαρτοφυλάκιο", "Επαγγελματικό βιογραφικό", "Βιογραφικό για υπεύθυνο προσλήψεων", "Βιογραφικό ATS", "Δήλωση επιτευγμάτων και επικύρωσης", "Πλαίσιο συστατικής επιστολής", "Σημείωση ισχύος και θεσμικού πλαισίου CEIS", "Έλεγχος κωλυμάτων εργασίας με ανηλίκους"],
 }
 
 
@@ -550,6 +554,8 @@ def generate_locale(locale: Locale, generate_pdf: bool) -> None:
 
     if generate_pdf:
         for i, (kind, base, _) in enumerate(DOCUMENTS):
+            if kind in SEPARATE_PDF_KINDS:
+                continue
             target = ASSETS_DIR / pdf_name(base, locale)
             render_pdf(target, pdf_html(locale, profile, kind, TITLES[locale.code][i]), locale, kind)
             print(f"PDF {locale.code}: {target.name}")
@@ -605,6 +611,7 @@ def update_canonical_contracts() -> None:
         "recommendation_letter": (5, "carta-recomendacion_sin_firma"),
         "achievements_statement": (4, "declaracion-logros-validacion"),
         "ceis_institutional_context_note": (6, "nota-vigencia-contexto-institucional-ceis"),
+        "consulta_inhabilidades": (7, "consulta-inhabilidades"),
     }
 
     artifacts_path = ROOT / "api" / "v1" / "artifacts.json"
@@ -634,12 +641,12 @@ def update_canonical_contracts() -> None:
     meta["capabilities"]["artifact_switching"] = (
         "All 22 language choices use the same SPA, complete versioned translations, four views, navigation and components. "
         "A missing catalog key falls back to Spanish without changing the selected locale. "
-        "Every locale links to seven matching PDF artifacts."
+        "Every locale links to eight matching PDF artifacts."
     )
     meta["capabilities"]["language_suffix_map"] = suffix_map
     meta["data_source"]["extraction_date"] = TODAY
     meta["data_source"]["pdf_generation"] = (
-        "Python reportlab + Chromium print pipeline (154 PDFs: 7 document families across 22 languages)"
+        "Python reportlab + Chromium print pipeline (176 PDFs: 8 document families across 22 languages)"
     )
     meta_path.write_text(json.dumps(meta, ensure_ascii=False, indent=4) + "\n", encoding="utf-8")
 

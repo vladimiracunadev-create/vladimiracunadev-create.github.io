@@ -1,5 +1,20 @@
 # Changelog
 
+## 2026-11-18
+
+### feat(pdf): Consulta de inhabilidades para trabajar con menores de edad (8.ª familia, 22 idiomas)
+
+- Nuevo documento del Servicio de Registro Civil e Identificación (consulta del 2026-11-18: sin inhabilidades), tomado de la carpeta local de perfil (`perfil/cv/Consulta_inhabilidades.pdf`).
+- `assets/consulta-inhabilidades.pdf` es el **original oficial copiado sin alterar** (verificado byte a byte). Las otras 21 variantes (`consulta-inhabilidades-{sufijo}.pdf`) son traducciones de cortesía que lo declaran en un recuadro y remiten al texto español como prevalente. Los datos del documento se leen del PDF fuente, no se reescriben.
+- Nuevo `scripts/generate-consulta-inhabilidades.py`: copia el original y renderiza las 21 traducciones con Chrome/Edge headless (LTR y RTL).
+- Web: botón «Consulta de Inhabilidades» en `#descargas` con `data-pdf-link`; los 22 sufijos los resuelve `resolveLocalizedPdfHref` sin tocar `app.js`. Catálogo de traducciones realineado (960 unidades; la etiqueta del botón está traducida a mano en los 21 idiomas).
+- API: nueva familia `consulta_inhabilidades` (22 variantes) en `api/v1/artifacts.json`, y clave `inhabilidades` en `api/v1/i18n/*.json` e `index.json`.
+- `scripts/generate-expanded-locales.py`: la familia queda registrada (títulos, mapa de artefactos) y excluida del renderizador genérico (`SEPARATE_PDF_KINDS`) para que una regeneración no pise estos PDF.
+- `scripts/validate.js`: 154 → 176 PDF públicos y ocho familias. Conteos actualizados en `CLAUDE.md`, `cv-data-api.md` y `llm.txt`.
+- `service-worker.js`: `CACHE_NAME` → `vladi-portfolio-v26-inhabilidades-20261118` (sin cambios en manifest ni Capacitor).
+- Alcance deliberado: no se actualizaron datos de perfil, experiencia ni proyectos; no se corrió el sync ni se regeneraron otros PDF.
+- `[BACKUP]` (solo local, `assets/backups/2026-11-18/`): `index.html`, `api/v1/artifacts.json`, `generate-expanded-locales.py`, `validate.js`, `CLAUDE.md`, `cv-data-api.md`, catálogo de traducciones y su runtime (`_v1`).
+
 ## 2026-11-09
 
 ### sync-portfolio (automático — 2026-11-09)

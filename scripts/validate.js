@@ -24,7 +24,7 @@ const LOCALES = [
   "es", "en", "pt", "it", "fr", "zh", "zh-TW", "ja", "ko", "tr", "ru",
   "vi", "th", "de", "uk", "pl", "ar", "fa", "id", "nl", "hi", "el",
 ];
-const EXPECTED_PDF_COUNT = 154;
+const EXPECTED_PDF_COUNT = 176;
 const VIEWS = ["0", "1", "2"];
 const I18N_CONTRACT = "data/portfolio-i18n.json";
 
@@ -176,7 +176,7 @@ function checkPDFs() {
       }
     }
   }
-  ok(`PDF: API declares all ${LOCALES.length} locales for seven artifact families`);
+  ok(`PDF: API declares all ${LOCALES.length} locales for eight artifact families`);
 }
 
 // ═══════════════════════════════════════════════════

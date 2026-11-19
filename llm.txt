@@ -16,7 +16,7 @@ embedded Rust DB (GabySQL v0.2 — cost-based optimizer, 828 tests), Windows for
 diagnostics product (RootCause Windows Inspector v0.11.0 in Rust edition 2024, 5 editions:
 GUI Setup.exe / Portable .zip / CLI single-binary rootcause.exe / PowerShell .psm1 / VS Code
 .vsix), industrial observability (Prometheus/Grafana), and a fully internationalized document
-suite (154 PDFs across 22 languages: ES, EN, PT, IT, FR, ZH, ZH-TW, JA, KO, TR, RU, VI, TH,
+suite (176 PDFs across 22 languages: ES, EN, PT, IT, FR, ZH, ZH-TW, JA, KO, TR, RU, VI, TH,
 DE, UK, PL, AR, FA, ID, NL, HI, EL).
 The education portfolio includes the Modern Software Engineering Program (480 lessons across
 40 parts and 8 stages), the Lifelong Learning Ecosystem (30 paths in 6 areas), and the open Chilean School Learning Path (8,841 lessons, 4,156 integrations
@@ -43,7 +43,7 @@ technical-commercial collaboration, without publishing prices or fee ranges.
 - HTML5, CSS3, JavaScript (Vanilla) — no framework dependencies
 - 22-language hybrid i18n system: 6 inline SPA locales plus 16 complete static localized pages, with locale-specific PDF routing
 - Progressive Web App (PWA) with Service Worker; Capacitor for native Android/iOS
-- Python/reportlab + Chromium PDF generation pipeline (154 PDFs across 22 languages)
+- Python/reportlab + Chromium PDF generation pipeline (176 PDFs across 22 languages)
 - GitHub Actions CI/CD: lint, validation, Lighthouse CI, deployment
 - GitLab CI/CD: 15 AWS cases, OIDC, Terraform, SAM, ECS/EKS, FinOps
 - AWS: Lambda/SAM, DynamoDB, ECS Fargate, EKS v1.32, S3/CloudFront/Amplify, Cognito/WAF, EventBridge/SQS/SNS, CloudWatch/X-Ray, Budgets

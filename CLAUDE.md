@@ -45,7 +45,7 @@ PDFs generados por pipeline Python, PWA instalable, y API JSON estática en `api
 │   ├── experience.json         # Experiencia laboral
 │   ├── projects.json           # Proyectos del ecosistema
 │   ├── skills.json             # Habilidades técnicas
-│   ├── artifacts.json          # Inventario de 154 PDFs (7 familias × 22 variantes)
+│   ├── artifacts.json          # Inventario de 176 PDFs (8 familias × 22 variantes)
 │   └── i18n/                   # Perfil y artefactos localizados por idioma
 ├── assets/                     # PDFs públicos (30+ archivos)
 │   ├── og/                     # Tarjetas Open Graph 1200x630 (generadas)
@@ -126,7 +126,7 @@ viewport.
 
 - Servida directamente por GitHub Pages — sin servidor
 - 6 endpoints: meta, profile, experience, projects, skills, artifacts
-- `artifacts.json` contiene las 22 variantes de idioma para cada una de las 7 familias documentales públicas
+- `artifacts.json` contiene las 22 variantes de idioma para cada una de las 8 familias documentales públicas
 - Actualizar manualmente tras cambios en PDFs o contenido
 
 ---
@@ -141,6 +141,7 @@ viewport.
 | Portafolio | `generate-portfolio.py` | portafolio{suffix}.pdf × 6 |
 | Carta de Recomendación | `generate-recommendation-letter.py` | carta-recomendacion_sin_firma{suffix}.pdf × 6 |
 | Declaración de Logros | `generate-achievements-statement.py` | declaracion-logros-validacion{suffix}.pdf × 6 |
+| Consulta de Inhabilidades (Registro Civil) | `generate-consulta-inhabilidades.py` | consulta-inhabilidades{suffix}.pdf × 22 (es = original oficial sin alterar; resto = traducciones de cortesía) |
 
 **Regenerar todos:**
 
