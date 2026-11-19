@@ -2,6 +2,17 @@
 
 ## 2026-11-18
 
+### feat(web): sección «Hackatón» — NASA Space Apps 2026 · AstroTrack (SPHEREx) (solo web)
+
+- Nueva sección `#hackathon` en `index.html` y opción «Hackatón» en el menú lateral, visible en las 4 vistas (sin `data-min-level`). Cubre solo la participación propia en el proyecto de equipo (6 personas): acceso a datos IRSA con caché y precálculo, empaquetado (PWA, Tauri, Capacitor, release automático), vista «Descargas», versión única desde la etiqueta, auditoría de coherencia y el repositorio de descargas.
+- Fuentes de contexto (solo lectura): `vladimiracunadev-create/spherex-releases` (su README «Mi participación») y `mauriciovalenzuela742/SPHEREX`; las PR citadas se contrastaron con `gh pr list --author`. La auditoría (PR #71) y la PR #82 siguen abiertas, por eso el texto habla de «hallazgos abiertos como issues» y no de un resultado.
+- Se declara el alcance: visor, diseño y resto del backend son de otras personas; los instaladores no están firmados ni probados en equipos reales; parte del código se escribió con asistencia de IA (Claude Code) y fue revisada y publicada por el autor; no se presenta como resultado del hackatón.
+- Enlaces externos con `target="_blank"` y `rel="noopener noreferrer"`: app web, página de descargas, repositorio del equipo y repositorio de releases. Nombres de tecnologías como fichas `.tool-chips` (en `<code>`, fuera del catálogo).
+- Alcance deliberado: solo web. No se agregó a `data/portfolio-i18n.json`, a la API ni a los PDF.
+- `data/portfolio-translations.json` + `i18n/translations.js`: realineados (983 unidades). Textos clave y el apartado «Alcance y límites» traducidos a mano en los 16 idiomas sin versión inline; el resto de textos largos usa Argos local, con calidad automática.
+- `service-worker.js`: `CACHE_NAME` → `vladi-portfolio-v27-hackathon-20261118`. `llm.txt` menciona la sección.
+- `[BACKUP]` (solo local, `assets/backups/2026-11-18/`): `index.html_v2`, `service-worker.js_v2`, `CHANGELOG.md_v2`, catálogo y runtime `_v2` (previos a esta sección).
+
 ### feat(pdf): Consulta de inhabilidades para trabajar con menores de edad (8.ª familia, 22 idiomas)
 
 - Nuevo documento del Servicio de Registro Civil e Identificación (consulta del 2026-11-18: sin inhabilidades), tomado de la carpeta local de perfil (`perfil/cv/Consulta_inhabilidades.pdf`).
